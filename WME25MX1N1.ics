@@ -1,0 +1,1839 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WME25MX1N1
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:e425ad5f8fdb542ac657f6b3@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261003T080000
+DTEND;TZID=Europe/Warsaw:20261003T093500
+SUMMARY:Og. (w)
+LOCATION:6/ 23A
+DESCRIPTION:Ogólne podstawy ruchu maszyn\nRodzaj: wykład\nProwadzący: d
+ r inż. Ziubiński Mateusz\nNr zajęć: 1/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:44cbaf301ed9003e717a82d8@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261003T095000
+DTEND;TZID=Europe/Warsaw:20261003T112500
+SUMMARY:Og. (w)
+LOCATION:6/ 23A
+DESCRIPTION:Ogólne podstawy ruchu maszyn\nRodzaj: wykład\nProwadzący: d
+ r inż. Ziubiński Mateusz\nNr zajęć: 2/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f10617aa018e5261b0a6b73e@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261003T114000
+DTEND;TZID=Europe/Warsaw:20261003T131500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;133 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: mgr Jaśkie
+ wicz Paweł\nNr zajęć: 1/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:562da9bd2569150412cc2ae9@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261003T133000
+DTEND;TZID=Europe/Warsaw:20261003T150500
+SUMMARY:Mkm2 (w)
+LOCATION:11/ 34
+DESCRIPTION:Materiały konstrukcyjne w budowie maszyn 2\nRodzaj: wykład\n
+ Prowadzący: dr inż. Zasada Dariusz\nNr zajęć: 1/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:576a19fa54a81420343713f8@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261003T152000
+DTEND;TZID=Europe/Warsaw:20261003T165500
+SUMMARY:SoM1 (w)
+LOCATION:6/ 23A
+DESCRIPTION:Strength of Materials 1\nRodzaj: wykład\nProwadzący: dr inż
+ . (prof. ucz.) Szurgott Piotr\nNr zajęć: 1/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:c49439a3c72c53d917317ebc@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261003T171000
+DTEND;TZID=Europe/Warsaw:20261003T184500
+SUMMARY:SoM1 (ć)
+LOCATION:6/ 23A
+DESCRIPTION:Strength of Materials 1\nRodzaj: ćwiczenia\nProwadzący: dr i
+ nż. (prof. ucz.) Szurgott Piotr\nNr zajęć: 1/6\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:f43f7f0c81f6e20c35d348ff@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261004T080000
+DTEND;TZID=Europe/Warsaw:20261004T093500
+SUMMARY:CAD (w)
+LOCATION:116/ 54
+DESCRIPTION:CAD dla mechaników\nRodzaj: wykład\nProwadzący: dr inż. Gr
+ zelak Krzysztof\nNr zajęć: 1/2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3267b005765f526507466a0c@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261004T095000
+DTEND;TZID=Europe/Warsaw:20261004T112500
+SUMMARY:Mwg. (w)
+LOCATION:5/ 20
+DESCRIPTION:Metrologia wielkości geometrycznych\nRodzaj: wykład\nProwadz
+ ący: dr inż. Cypko Edward\nNr zajęć: 1/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9ea9dce5327e4960e70606a3@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261004T114000
+DTEND;TZID=Europe/Warsaw:20261004T131500
+SUMMARY:Tw1 (w)
+LOCATION:1/ 21
+DESCRIPTION:Techniki wytwarzania 1\nRodzaj: wykład\nProwadzący: dr inż.
+  Woźniak Adam\nNr zajęć: 1/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c70fba6a770694497b871215@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261004T133000
+DTEND;TZID=Europe/Warsaw:20261004T150500
+SUMMARY:Mp (w)
+LOCATION:2.09/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: wykład\nProwadzący: dr inż. Rub
+ iec Arkadiusz\nNr zajęć: 1/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6a26e2fc084dd39050335546@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261017T080000
+DTEND;TZID=Europe/Warsaw:20261017T093500
+SUMMARY:Mwg. (w)
+LOCATION:5/ 20
+DESCRIPTION:Metrologia wielkości geometrycznych\nRodzaj: wykład\nProwadz
+ ący: dr inż. Cypko Edward\nNr zajęć: 2/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a89e631b725dafbff10797d9@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261017T095000
+DTEND;TZID=Europe/Warsaw:20261017T112500
+SUMMARY:Mkm2 (w)
+LOCATION:11/ 34
+DESCRIPTION:Materiały konstrukcyjne w budowie maszyn 2\nRodzaj: wykład\n
+ Prowadzący: dr inż. Zasada Dariusz\nNr zajęć: 2/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f9aacdeb15b441a78718b4a0@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261017T114000
+DTEND;TZID=Europe/Warsaw:20261017T131500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;133 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: mgr Jaśkie
+ wicz Paweł\nNr zajęć: 2/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d3cd2d2ac45b68cd1d3d5eef@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261017T133000
+DTEND;TZID=Europe/Warsaw:20261017T150500
+SUMMARY:CAD (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:CAD dla mechaników\nRodzaj: laboratorium\nProwadzący: dr in
+ ż. Łuszczek Jakub\; por. mgr inż. Sarzyński Bartłomiej\nNr zajęć: 
+ 1/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9ce55206be2b037305e7d476@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261017T152000
+DTEND;TZID=Europe/Warsaw:20261017T165500
+SUMMARY:SoM1 (w)
+LOCATION:5/ 23A
+DESCRIPTION:Strength of Materials 1\nRodzaj: wykład\nProwadzący: dr inż
+ . (prof. ucz.) Szurgott Piotr\nNr zajęć: 2/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:120d1a0455433698b4351687@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261017T171000
+DTEND;TZID=Europe/Warsaw:20261017T184500
+SUMMARY:SoM1 (ć)
+LOCATION:5/ 23A
+DESCRIPTION:Strength of Materials 1\nRodzaj: ćwiczenia\nProwadzący: dr i
+ nż. (prof. ucz.) Szurgott Piotr\nNr zajęć: 2/6\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:a165c2d4c102b78677de1d98@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261017T190000
+DTEND;TZID=Europe/Warsaw:20261017T203500
+SUMMARY:Og. (ć)
+LOCATION:5/ 23A
+DESCRIPTION:Ogólne podstawy ruchu maszyn\nRodzaj: ćwiczenia\nProwadzący
+ : mgr inż. Mantur Tomasz\nNr zajęć: 1/4\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:014f0081eabb5d6d920efc09@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261018T080000
+DTEND;TZID=Europe/Warsaw:20261018T093500
+SUMMARY:Mt 2 (w)
+LOCATION:8/ 62
+DESCRIPTION:Mechanika techniczna 2\nRodzaj: wykład\nProwadzący: dr inż.
+  Nowak Jacek\nNr zajęć: 1/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:684adfbf055a72263d530e90@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261018T095000
+DTEND;TZID=Europe/Warsaw:20261018T112500
+SUMMARY:Mt 2 (w)
+LOCATION:8/ 62
+DESCRIPTION:Mechanika techniczna 2\nRodzaj: wykład\nProwadzący: dr inż.
+  Nowak Jacek\nNr zajęć: 2/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b88e9bf90328816a711b37d2@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261018T114000
+DTEND;TZID=Europe/Warsaw:20261018T131500
+SUMMARY:Mp (w)
+LOCATION:2.09/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: wykład\nProwadzący: dr inż. Rub
+ iec Arkadiusz\nNr zajęć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2ede3ffd115b686b7f42f12d@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261018T133000
+DTEND;TZID=Europe/Warsaw:20261018T150500
+SUMMARY:Tw1 (w)
+LOCATION:1/ 21
+DESCRIPTION:Techniki wytwarzania 1\nRodzaj: wykład\nProwadzący: dr inż.
+  Woźniak Adam\nNr zajęć: 2/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3a69d1037da37210371cb417@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261024T080000
+DTEND;TZID=Europe/Warsaw:20261024T093500
+SUMMARY:Mp (w)
+LOCATION:2.09/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: wykład\nProwadzący: dr inż. Rub
+ iec Arkadiusz\nNr zajęć: 3/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a450a3a4f45bbca694f7fb0b@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261024T095000
+DTEND;TZID=Europe/Warsaw:20261024T112500
+SUMMARY:Mkm2 (w)
+LOCATION:11/ 34
+DESCRIPTION:Materiały konstrukcyjne w budowie maszyn 2\nRodzaj: wykład\n
+ Prowadzący: dr inż. Zasada Dariusz\nNr zajęć: 3/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6c8da08d0eba7776a49849bb@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261024T114000
+DTEND;TZID=Europe/Warsaw:20261024T131500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;133 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: mgr Jaśkie
+ wicz Paweł\nNr zajęć: 3/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d1067abe2345a1e17992f4c6@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261024T133000
+DTEND;TZID=Europe/Warsaw:20261024T150500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: prof. dr hab. inż. Pa
+ rka Janusz\nNr zajęć: 1/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9754e44792e0b1edb3edab2e@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261024T152000
+DTEND;TZID=Europe/Warsaw:20261024T165500
+SUMMARY:SoM1 (w)
+LOCATION:6/ 23A
+DESCRIPTION:Strength of Materials 1\nRodzaj: wykład\nProwadzący: dr inż
+ . (prof. ucz.) Szurgott Piotr\nNr zajęć: 3/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f012c1f7c63ca7ea57f31ceb@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261024T171000
+DTEND;TZID=Europe/Warsaw:20261024T184500
+SUMMARY:SoM1 (ć)
+LOCATION:6/ 23A
+DESCRIPTION:Strength of Materials 1\nRodzaj: ćwiczenia\nProwadzący: dr i
+ nż. (prof. ucz.) Szurgott Piotr\nNr zajęć: 3/6\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:26a5470553d482399c4ca64c@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261024T190000
+DTEND;TZID=Europe/Warsaw:20261024T203500
+SUMMARY:Og. (ć)
+LOCATION:5/ 23A
+DESCRIPTION:Ogólne podstawy ruchu maszyn\nRodzaj: ćwiczenia\nProwadzący
+ : mgr inż. Mantur Tomasz\nNr zajęć: 2/4\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:a0c288efb8e2fc20e37c59f3@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261025T080000
+DTEND;TZID=Europe/Warsaw:20261025T093500
+SUMMARY:Mt 2 (w)
+LOCATION:8/ 62
+DESCRIPTION:Mechanika techniczna 2\nRodzaj: wykład\nProwadzący: dr inż.
+  Nowak Jacek\nNr zajęć: 3/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:05f555c81939d322bb73b8e0@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261025T095000
+DTEND;TZID=Europe/Warsaw:20261025T112500
+SUMMARY:Mt 2 (w)
+LOCATION:8/ 62
+DESCRIPTION:Mechanika techniczna 2\nRodzaj: wykład\nProwadzący: dr inż.
+  Nowak Jacek\nNr zajęć: 4/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:14fb2f1995673a4fc5c3fa2d@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261025T114000
+DTEND;TZID=Europe/Warsaw:20261025T131500
+SUMMARY:Tw1 (w)
+LOCATION:1/ 21
+DESCRIPTION:Techniki wytwarzania 1\nRodzaj: wykład\nProwadzący: dr inż.
+  Woźniak Adam\nNr zajęć: 3/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:71e77ef56210614d2bd3ea53@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261025T133000
+DTEND;TZID=Europe/Warsaw:20261025T150500
+SUMMARY:Mp (w)
+LOCATION:2.09/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: wykład\nProwadzący: dr inż. Rub
+ iec Arkadiusz\nNr zajęć: 4/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0500e5de9f9e8c075d21ba0e@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261025T152000
+DTEND;TZID=Europe/Warsaw:20261025T165500
+SUMMARY:XWDM (w)
+LOCATION:5/ 20
+DESCRIPTION:XWprowadzenie do metrologii\nRodzaj: wykład\nProwadzący: dr 
+ inż. Boruta Grzegorz\nNr zajęć: 1/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:7ab05e51180b20a19414c1dd@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261107T080000
+DTEND;TZID=Europe/Warsaw:20261107T093500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: prof. dr hab. inż. Pa
+ rka Janusz\nNr zajęć: 2/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:24c4f19d4d19420d9bbfd56b@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261107T095000
+DTEND;TZID=Europe/Warsaw:20261107T112500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: prof. dr hab. inż. Pa
+ rka Janusz\nNr zajęć: 3/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ebc7696df02e32a920047b1e@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261107T114000
+DTEND;TZID=Europe/Warsaw:20261107T131500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;133 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: mgr Jaśkie
+ wicz Paweł\nNr zajęć: 4/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7f7203419892b338b9588142@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261107T133000
+DTEND;TZID=Europe/Warsaw:20261107T150500
+SUMMARY:Mkm2 (w)
+LOCATION:11/ 34
+DESCRIPTION:Materiały konstrukcyjne w budowie maszyn 2\nRodzaj: wykład\n
+ Prowadzący: dr inż. Zasada Dariusz\nNr zajęć: 4/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:16086980671abb94193ff4df@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261107T152000
+DTEND;TZID=Europe/Warsaw:20261107T165500
+SUMMARY:SoM1 (w)
+LOCATION:5/ 23A
+DESCRIPTION:Strength of Materials 1\nRodzaj: wykład\nProwadzący: dr inż
+ . (prof. ucz.) Szurgott Piotr\nNr zajęć: 4/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:add33b86fe8819c8d15d6d80@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261107T171000
+DTEND;TZID=Europe/Warsaw:20261107T184500
+SUMMARY:SoM1 (ć)
+LOCATION:5/ 23A
+DESCRIPTION:Strength of Materials 1\nRodzaj: ćwiczenia\nProwadzący: dr i
+ nż. (prof. ucz.) Szurgott Piotr\nNr zajęć: 4/6\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:11ee60439c041711327805bf@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261107T190000
+DTEND;TZID=Europe/Warsaw:20261107T203500
+SUMMARY:Mp (ć)
+LOCATION:2.09/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: ćwiczenia\nProwadzący: kpt. dr i
+ nż. Dejewski Marcin\nNr zajęć: 1/3\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:98e8eeb46bdf0a79157ed272@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261108T080000
+DTEND;TZID=Europe/Warsaw:20261108T093500
+SUMMARY:Mt 2 (w)
+LOCATION:54/ 62
+DESCRIPTION:Mechanika techniczna 2\nRodzaj: wykład\nProwadzący: dr inż.
+  Nowak Jacek\nNr zajęć: 5/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:287a885557b15d179eafcb27@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261108T095000
+DTEND;TZID=Europe/Warsaw:20261108T112500
+SUMMARY:Mt 2 (w)
+LOCATION:54/ 62
+DESCRIPTION:Mechanika techniczna 2\nRodzaj: wykład\nProwadzący: dr inż.
+  Nowak Jacek\nNr zajęć: 6/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4c3e4291b98796cf0934ecf0@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261108T114000
+DTEND;TZID=Europe/Warsaw:20261108T131500
+SUMMARY:Mwg. (w)
+LOCATION:5/ 20
+DESCRIPTION:Metrologia wielkości geometrycznych\nRodzaj: wykład\nProwadz
+ ący: dr inż. Cypko Edward\nNr zajęć: 3/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:69d6ba027e8e0c60487fb326@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261108T133000
+DTEND;TZID=Europe/Warsaw:20261108T150500
+SUMMARY:Mwg. (w)
+LOCATION:5/ 20
+DESCRIPTION:Metrologia wielkości geometrycznych\nRodzaj: wykład\nProwadz
+ ący: dr inż. Cypko Edward\nNr zajęć: 4/5\nBlok: 4\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:f1db1751b4fc6b45017c5050@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261108T152000
+DTEND;TZID=Europe/Warsaw:20261108T165500
+SUMMARY:XWDM (w)
+LOCATION:5/ 20
+DESCRIPTION:XWprowadzenie do metrologii\nRodzaj: wykład\nProwadzący: dr 
+ inż. Boruta Grzegorz\nNr zajęć: 2/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:493cf037ee55dc12c7d8a221@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261114T080000
+DTEND;TZID=Europe/Warsaw:20261114T093500
+SUMMARY:Sinż (w)
+LOCATION:3/ 23A
+DESCRIPTION:Statystyka inżynierska\nRodzaj: wykład\nProwadzący: dr inż
+ . Sobczyk Zbigniew\nNr zajęć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:38e523820af81905cfbc490c@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261114T095000
+DTEND;TZID=Europe/Warsaw:20261114T112500
+SUMMARY:Mkm2 (w)
+LOCATION:11/ 34
+DESCRIPTION:Materiały konstrukcyjne w budowie maszyn 2\nRodzaj: wykład\n
+ Prowadzący: dr inż. Zasada Dariusz\nNr zajęć: 5/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8ae6892c117f38007b389eb6@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261114T114000
+DTEND;TZID=Europe/Warsaw:20261114T131500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;133 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: mgr Jaśkie
+ wicz Paweł\nNr zajęć: 5/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d4ded469c8254a1718e9af91@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261114T133000
+DTEND;TZID=Europe/Warsaw:20261114T150500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: prof. dr hab. inż. Pa
+ rka Janusz\nNr zajęć: 4/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a5f149bb33a12ac6eb3a321c@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261114T152000
+DTEND;TZID=Europe/Warsaw:20261114T165500
+SUMMARY:SoM1 (w)
+LOCATION:5/ 23A
+DESCRIPTION:Strength of Materials 1\nRodzaj: wykład\nProwadzący: dr inż
+ . (prof. ucz.) Szurgott Piotr\nNr zajęć: 5/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:dc7238efa92e2a2a035c0f91@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261114T171000
+DTEND;TZID=Europe/Warsaw:20261114T184500
+SUMMARY:SoM1 (ć)
+LOCATION:5/ 23A
+DESCRIPTION:Strength of Materials 1\nRodzaj: ćwiczenia\nProwadzący: dr i
+ nż. (prof. ucz.) Szurgott Piotr\nNr zajęć: 5/6\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:0ba7347f40f1f5d902ed4465@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261114T190000
+DTEND;TZID=Europe/Warsaw:20261114T203500
+SUMMARY:Mp (ć)
+LOCATION:2.09/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: ćwiczenia\nProwadzący: kpt. dr i
+ nż. Dejewski Marcin\nNr zajęć: 2/3\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:55471bd52a8ca5819caf60ae@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261115T080000
+DTEND;TZID=Europe/Warsaw:20261115T093500
+SUMMARY:Tw1 (w)
+LOCATION:5/ 20
+DESCRIPTION:Techniki wytwarzania 1\nRodzaj: wykład\nProwadzący: dr inż.
+  Woźniak Adam\nNr zajęć: 4/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f3eb6924cf3323f69320d36a@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261115T095000
+DTEND;TZID=Europe/Warsaw:20261115T112500
+SUMMARY:Og. (w)
+LOCATION:6/ 23A
+DESCRIPTION:Ogólne podstawy ruchu maszyn\nRodzaj: wykład\nProwadzący: d
+ r inż. Ziubiński Mateusz\nNr zajęć: 3/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:61529139c2ae944a540cb897@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261115T114000
+DTEND;TZID=Europe/Warsaw:20261115T131500
+SUMMARY:Sinż (w)
+LOCATION:3/ 23A
+DESCRIPTION:Statystyka inżynierska\nRodzaj: wykład\nProwadzący: dr inż
+ . Sobczyk Zbigniew\nNr zajęć: 2/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b0f1264ab80647537f869b29@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261115T133000
+DTEND;TZID=Europe/Warsaw:20261115T150500
+SUMMARY:F2 (ć)
+LOCATION:52/ 62
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr inż. Larkowski 
+ Waldemar\nNr zajęć: 1/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0828c5f2aead334e8d6c477c@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261115T152000
+DTEND;TZID=Europe/Warsaw:20261115T165500
+SUMMARY:XWDM (w)
+LOCATION:5/ 20
+DESCRIPTION:XWprowadzenie do metrologii\nRodzaj: wykład\nProwadzący: dr 
+ inż. Boruta Grzegorz\nNr zajęć: 3/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:0aa3120bb20bb37eaead1248@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261121T080000
+DTEND;TZID=Europe/Warsaw:20261121T093500
+SUMMARY:Sinż (w)
+LOCATION:3/ 23A
+DESCRIPTION:Statystyka inżynierska\nRodzaj: wykład\nProwadzący: dr inż
+ . Sobczyk Zbigniew\nNr zajęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2e8243c38f131f1a4140c5d9@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261121T095000
+DTEND;TZID=Europe/Warsaw:20261121T112500
+SUMMARY:Mkm2 (w)
+LOCATION:11/ 34
+DESCRIPTION:Materiały konstrukcyjne w budowie maszyn 2\nRodzaj: wykład\n
+ Prowadzący: dr inż. Zasada Dariusz\nNr zajęć: 6/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5df0f3da1603407d901244c1@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261121T114000
+DTEND;TZID=Europe/Warsaw:20261121T131500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;133 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: mgr Jaśkie
+ wicz Paweł\nNr zajęć: 6/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:02583336d96eecc94810bd82@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261121T133000
+DTEND;TZID=Europe/Warsaw:20261121T150500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: prof. dr hab. inż. Pa
+ rka Janusz\nNr zajęć: 5/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3d59937e5a5473198fd9745b@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261121T152000
+DTEND;TZID=Europe/Warsaw:20261121T165500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: prof. dr hab. inż. Pa
+ rka Janusz\nNr zajęć: 6/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:1e9b16206873441e063028b7@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261121T171000
+DTEND;TZID=Europe/Warsaw:20261121T184500
+SUMMARY:SoM1 (ć)
+LOCATION:6/ 23A
+DESCRIPTION:Strength of Materials 1\nRodzaj: ćwiczenia\nProwadzący: dr i
+ nż. (prof. ucz.) Szurgott Piotr\nNr zajęć: 6/6\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:0a56a4e2067e93c44a7a2b5b@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261121T190000
+DTEND;TZID=Europe/Warsaw:20261121T203500
+SUMMARY:Mp (ć)
+LOCATION:2.09/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: ćwiczenia\nProwadzący: kpt. dr i
+ nż. Dejewski Marcin\nNr zajęć: 3/3\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:dcfd9c75d62351fed70e308e@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261122T080000
+DTEND;TZID=Europe/Warsaw:20261122T093500
+SUMMARY:Tw1 (w)
+LOCATION:5/ 20
+DESCRIPTION:Techniki wytwarzania 1\nRodzaj: wykład\nProwadzący: dr inż.
+  Woźniak Adam\nNr zajęć: 5/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:43f8c0ed20ec07706530720e@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261122T095000
+DTEND;TZID=Europe/Warsaw:20261122T112500
+SUMMARY:CAD (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:CAD dla mechaników\nRodzaj: laboratorium\nProwadzący: dr in
+ ż. Łuszczek Jakub\; por. mgr inż. Sarzyński Bartłomiej\nNr zajęć: 
+ 2/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:77454798270f4e1ec8fc5764@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261122T114000
+DTEND;TZID=Europe/Warsaw:20261122T131500
+SUMMARY:Mwg. (ć)
+LOCATION:42/ 20
+DESCRIPTION:Metrologia wielkości geometrycznych\nRodzaj: ćwiczenia\nProw
+ adzący: dr inż. Cypko Edward\nNr zajęć: 1/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a590c547673a5335ec22324d@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261122T133000
+DTEND;TZID=Europe/Warsaw:20261122T150500
+SUMMARY:F2 (ć)
+LOCATION:301/ S
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr inż. Larkowski 
+ Waldemar\nNr zajęć: 2/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2a71fa52d248c6f6bf58a526@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261205T080000
+DTEND;TZID=Europe/Warsaw:20261205T093500
+SUMMARY:SCAE (w)
+LOCATION:52/ 62
+DESCRIPTION:Systemy CAE w praktyce inżynierskiej\nRodzaj: wykład\nProwad
+ zący: dr inż. Tomaszewski Michał\nNr zajęć: 1/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0ee32679013db2db8ecf9d0d@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261205T095000
+DTEND;TZID=Europe/Warsaw:20261205T112500
+SUMMARY:SCAE (w)
+LOCATION:52/ 62
+DESCRIPTION:Systemy CAE w praktyce inżynierskiej\nRodzaj: wykład\nProwad
+ zący: dr inż. Tomaszewski Michał\nNr zajęć: 2/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f89d76ddc57e935833143499@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261205T114000
+DTEND;TZID=Europe/Warsaw:20261205T131500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;133 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: mgr Jaśkie
+ wicz Paweł\nNr zajęć: 7/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e4955a2c9f33f12ea7fbf5be@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261205T133000
+DTEND;TZID=Europe/Warsaw:20261205T150500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: prof. dr hab. inż. Pa
+ rka Janusz\nNr zajęć: 7/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:87c765fbfc3ebe9b67bc4f6e@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261205T152000
+DTEND;TZID=Europe/Warsaw:20261205T165500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: prof. dr hab. inż. Pa
+ rka Janusz\nNr zajęć: 8/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:35a9204c8123830dfb410ed2@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261205T171000
+DTEND;TZID=Europe/Warsaw:20261205T184500
+SUMMARY:F2 (L)
+LOCATION:137 S\;139 S
+DESCRIPTION:Fizyka 2\nRodzaj: laboratorium\nProwadzący: dr inż. Kowiorsk
+ i Krystian\; dr inż. Markowska Olga\; dr inż. Świłło Rafał\nNr zaj
+ ęć: 1/5\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:7a58f6a22d89883fb60b6b5c@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261205T190000
+DTEND;TZID=Europe/Warsaw:20261205T203500
+SUMMARY:F2 (L)
+LOCATION:137 S\;139 S
+DESCRIPTION:Fizyka 2\nRodzaj: laboratorium\nProwadzący: dr inż. Kowiorsk
+ i Krystian\; dr inż. Markowska Olga\; dr inż. Świłło Rafał\nNr zaj
+ ęć: 2/5\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:c5b7c3058d486df0e8c5ee8f@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261206T080000
+DTEND;TZID=Europe/Warsaw:20261206T093500
+SUMMARY:PCwT (w)
+LOCATION:6/ 23A
+DESCRIPTION:Pomiary cyfrowe w technice\nRodzaj: wykład\nProwadzący: dr i
+ nż. Karczewski Mirosław\nNr zajęć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a8609448b6b670479316774a@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261206T095000
+DTEND;TZID=Europe/Warsaw:20261206T112500
+SUMMARY:PCwT (w)
+LOCATION:6/ 23A
+DESCRIPTION:Pomiary cyfrowe w technice\nRodzaj: wykład\nProwadzący: dr i
+ nż. Karczewski Mirosław\nNr zajęć: 2/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9f7cb72ada22bb2813b5879a@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261206T114000
+DTEND;TZID=Europe/Warsaw:20261206T131500
+SUMMARY:Mwg. (ć)
+LOCATION:42/ 20
+DESCRIPTION:Metrologia wielkości geometrycznych\nRodzaj: ćwiczenia\nProw
+ adzący: dr inż. Cypko Edward\nNr zajęć: 2/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8753865245bb75b6b4ed594e@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261206T133000
+DTEND;TZID=Europe/Warsaw:20261206T150500
+SUMMARY:F2 (ć)
+LOCATION:52/ 62
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr inż. Larkowski 
+ Waldemar\nNr zajęć: 3/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d0d36f1aeb6265824ebf5593@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261212T080000
+DTEND;TZID=Europe/Warsaw:20261212T093500
+SUMMARY:SCAE (w)
+LOCATION:52/ 62
+DESCRIPTION:Systemy CAE w praktyce inżynierskiej\nRodzaj: wykład\nProwad
+ zący: dr inż. Tomaszewski Michał\nNr zajęć: 3/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:bb8831f64cf6004265a889ca@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261212T095000
+DTEND;TZID=Europe/Warsaw:20261212T112500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: prof. dr hab. inż. Pa
+ rka Janusz\nNr zajęć: 9/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b52ff1f48bfda9762512e761@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261212T114000
+DTEND;TZID=Europe/Warsaw:20261212T131500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;133 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: mgr Jaśkie
+ wicz Paweł\nNr zajęć: 8/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:cb29b18e9f7897b6c26d82f3@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261212T133000
+DTEND;TZID=Europe/Warsaw:20261212T150500
+SUMMARY:PCwT (w)
+LOCATION:15/ 23A
+DESCRIPTION:Pomiary cyfrowe w technice\nRodzaj: wykład\nProwadzący: dr i
+ nż. Karczewski Mirosław\nNr zajęć: 3/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4757910d854dc53750525c09@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261212T152000
+DTEND;TZID=Europe/Warsaw:20261212T165500
+SUMMARY:PCwT (w)
+LOCATION:15/ 23A
+DESCRIPTION:Pomiary cyfrowe w technice\nRodzaj: wykład\nProwadzący: dr i
+ nż. Karczewski Mirosław\nNr zajęć: 4/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:43db617a8ec27c216b0154d4@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261212T171000
+DTEND;TZID=Europe/Warsaw:20261212T184500
+SUMMARY:Mt 2 (ć)
+LOCATION:8/ 62
+DESCRIPTION:Mechanika techniczna 2\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Nowak Jacek\nNr zajęć: 1/7\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:a91a97c738b1b799220306ff@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261212T190000
+DTEND;TZID=Europe/Warsaw:20261212T203500
+SUMMARY:Mt 2 (ć)
+LOCATION:8/ 62
+DESCRIPTION:Mechanika techniczna 2\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Nowak Jacek\nNr zajęć: 2/7\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:d47b4464754233c645ccc1ca@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261213T080000
+DTEND;TZID=Europe/Warsaw:20261213T093500
+SUMMARY:Tw1 (ć)
+LOCATION:1/ 21
+DESCRIPTION:Techniki wytwarzania 1\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Woźniak Adam\nNr zajęć: 1/2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4ad43c3f1fb0183be3e096f7@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261213T095000
+DTEND;TZID=Europe/Warsaw:20261213T112500
+SUMMARY:Og. (ć)
+LOCATION:6/ 23A
+DESCRIPTION:Ogólne podstawy ruchu maszyn\nRodzaj: ćwiczenia\nProwadzący
+ : mgr inż. Mantur Tomasz\nNr zajęć: 3/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b3518797efe5f08d550f8dd0@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261213T114000
+DTEND;TZID=Europe/Warsaw:20261213T131500
+SUMMARY:Mkm2 (L)
+LOCATION:14/ 34\;15/ 34\;24/ 34\; Ra.A\; Przy.D.\; Łu.J
+DESCRIPTION:Materiały konstrukcyjne w budowie maszyn 2\nRodzaj: laborator
+ ium\nNr zajęć: 1/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f7d0da99f2e4dc8e88dbe433@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261213T133000
+DTEND;TZID=Europe/Warsaw:20261213T150500
+SUMMARY:F2 (ć)
+LOCATION:52/ 62
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr inż. Larkowski 
+ Waldemar\nNr zajęć: 4/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:44d5295a7643e34860a468c3@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261213T152000
+DTEND;TZID=Europe/Warsaw:20261213T165500
+SUMMARY:F2 (ć)
+LOCATION:52/ 62
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr inż. Larkowski 
+ Waldemar\nNr zajęć: 5/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:003ef9b766916b7650de57ec@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261219T080000
+DTEND;TZID=Europe/Warsaw:20261219T093500
+SUMMARY:Mt 2 (ć)
+LOCATION:8/ 62
+DESCRIPTION:Mechanika techniczna 2\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Nowak Jacek\nNr zajęć: 3/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b73737b949b0caae60f0269d@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261219T095000
+DTEND;TZID=Europe/Warsaw:20261219T112500
+SUMMARY:Mt 2 (ć)
+LOCATION:8/ 62
+DESCRIPTION:Mechanika techniczna 2\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Nowak Jacek\nNr zajęć: 4/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2c1b6be1a18e1e76a81910b5@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261219T114000
+DTEND;TZID=Europe/Warsaw:20261219T131500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;133 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: mgr Jaśkie
+ wicz Paweł\nNr zajęć: 9/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6cb0c60bfd46ef4750172c84@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261219T133000
+DTEND;TZID=Europe/Warsaw:20261219T150500
+SUMMARY:F2 (L)
+LOCATION:137 S\;139 S
+DESCRIPTION:Fizyka 2\nRodzaj: laboratorium\nProwadzący: dr inż. Kowiorsk
+ i Krystian\; dr inż. Markowska Olga\; dr inż. Świłło Rafał\nNr zaj
+ ęć: 3/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:100a09725ee188c8659231b4@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261219T152000
+DTEND;TZID=Europe/Warsaw:20261219T165500
+SUMMARY:F2 (L)
+LOCATION:137 S\;139 S
+DESCRIPTION:Fizyka 2\nRodzaj: laboratorium\nProwadzący: dr inż. Kowiorsk
+ i Krystian\; dr inż. Markowska Olga\; dr inż. Świłło Rafał\nNr zaj
+ ęć: 4/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:6b39761c88aa4645b2350ae9@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261219T171000
+DTEND;TZID=Europe/Warsaw:20261219T184500
+SUMMARY:Mkm2 (L)
+LOCATION:14/ 34\;15/ 34\;24/ 34\; Przy.D.\; Łu.J\; Pe.M
+DESCRIPTION:Materiały konstrukcyjne w budowie maszyn 2\nRodzaj: laborator
+ ium\nNr zajęć: 2/5\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:342c7635a18c63675d27ea1f@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261219T190000
+DTEND;TZID=Europe/Warsaw:20261219T203500
+SUMMARY:CAD (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:CAD dla mechaników\nRodzaj: laboratorium\nProwadzący: dr in
+ ż. Łuszczek Jakub\; por. mgr inż. Sarzyński Bartłomiej\nNr zajęć: 
+ 3/6\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:2397856d0e03e6d122e237ec@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261220T080000
+DTEND;TZID=Europe/Warsaw:20261220T093500
+SUMMARY:SCAE (L)
+LOCATION:6/ 62\;7/ 62
+DESCRIPTION:Systemy CAE w praktyce inżynierskiej\nRodzaj: laboratorium\nP
+ rowadzący: mgr inż. Malesa Piotr\; dr inż. Dziewulski Paweł\nNr zaję
+ ć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8ef6efdb747e01192e5ebb0d@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261220T095000
+DTEND;TZID=Europe/Warsaw:20261220T112500
+SUMMARY:SCAE (L)
+LOCATION:6/ 62\;7/ 62
+DESCRIPTION:Systemy CAE w praktyce inżynierskiej\nRodzaj: laboratorium\nP
+ rowadzący: mgr inż. Malesa Piotr\; dr inż. Dziewulski Paweł\nNr zaję
+ ć: 2/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4d8ab339faeac75b9649affa@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261220T114000
+DTEND;TZID=Europe/Warsaw:20261220T131500
+SUMMARY:Og. (ć)
+LOCATION:15/ 23A
+DESCRIPTION:Ogólne podstawy ruchu maszyn\nRodzaj: ćwiczenia\nProwadzący
+ : mgr inż. Mantur Tomasz\nNr zajęć: 4/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:bfa52ffa7bdca4b837389946@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261220T133000
+DTEND;TZID=Europe/Warsaw:20261220T150500
+SUMMARY:F2 (ć)
+LOCATION:52/ 62
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr inż. Larkowski 
+ Waldemar\nNr zajęć: 6/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:14ed104d011ccbc770cf1283@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261220T152000
+DTEND;TZID=Europe/Warsaw:20261220T165500
+SUMMARY:F2 (ć)
+LOCATION:52/ 62
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr inż. Larkowski 
+ Waldemar\nNr zajęć: 7/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:611ee941598ed9dd767b07db@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270109T080000
+DTEND;TZID=Europe/Warsaw:20270109T093500
+SUMMARY:Tw1 (ć)
+LOCATION:1/ 21
+DESCRIPTION:Techniki wytwarzania 1\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Woźniak Adam\nNr zajęć: 2/2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ad3a3c70bbb476be014c0aa3@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270109T095000
+DTEND;TZID=Europe/Warsaw:20270109T112500
+SUMMARY:Sinż (ć)
+LOCATION:3/ 23A\;7/ 23A
+DESCRIPTION:Statystyka inżynierska\nRodzaj: ćwiczenia\nProwadzący: dr i
+ nż. Sobczyk Zbigniew\nNr zajęć: 1/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:12800c08e1e866d56cf1fdf7@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270109T114000
+DTEND;TZID=Europe/Warsaw:20270109T131500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;133 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: mgr Jaśkie
+ wicz Paweł\nNr zajęć: 10/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c27b4ecdd0842def499ae893@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270109T133000
+DTEND;TZID=Europe/Warsaw:20270109T150500
+SUMMARY:Mkm2 (L)
+LOCATION:14/ 34\;15/ 34\;24/ 34\; Łu.J\; Pe.M\; Za.M
+DESCRIPTION:Materiały konstrukcyjne w budowie maszyn 2\nRodzaj: laborator
+ ium\nNr zajęć: 3/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:69195ad073786d5ab3939b30@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270109T152000
+DTEND;TZID=Europe/Warsaw:20270109T165500
+SUMMARY:Mt 2 (ć)
+LOCATION:51/ 62
+DESCRIPTION:Mechanika techniczna 2\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Nowak Jacek\nNr zajęć: 5/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:56e2424c0bf8428e95cd729b@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270109T171000
+DTEND;TZID=Europe/Warsaw:20270109T184500
+SUMMARY:Mt 2 (ć)
+LOCATION:51/ 62
+DESCRIPTION:Mechanika techniczna 2\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Nowak Jacek\nNr zajęć: 6/7\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:3e2577b4506220e85727b9ff@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270109T190000
+DTEND;TZID=Europe/Warsaw:20270109T203500
+SUMMARY:PCwT (ć)
+LOCATION:2/ 68
+DESCRIPTION:Pomiary cyfrowe w technice\nRodzaj: ćwiczenia\nProwadzący: d
+ r inż. Karczewski Mirosław\nNr zajęć: 1/2\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:008f268d5088b6cfc7d804f4@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270110T080000
+DTEND;TZID=Europe/Warsaw:20270110T093500
+SUMMARY:Sinż (ć)
+LOCATION:3/ 23A\;7/ 23A
+DESCRIPTION:Statystyka inżynierska\nRodzaj: ćwiczenia\nProwadzący: mgr 
+ inż. Michałowski Bogusław\nNr zajęć: 2/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3ed37bad6bf2e9a1f429decf@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270110T095000
+DTEND;TZID=Europe/Warsaw:20270110T112500
+SUMMARY:Sinż (ć)
+LOCATION:3/ 23A\;7/ 23A
+DESCRIPTION:Statystyka inżynierska\nRodzaj: ćwiczenia\nProwadzący: mgr 
+ inż. Michałowski Bogusław\nNr zajęć: 3/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:34a25a4bc24600af332d72de@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270110T114000
+DTEND;TZID=Europe/Warsaw:20270110T131500
+SUMMARY:Tw1 (L)
+LOCATION:6/ 21\;9/ 21\;10/ 21\;17/ 21\;17a/ 21\;17b/ 21
+DESCRIPTION:Techniki wytwarzania 1\nRodzaj: laboratorium\nProwadzący: dr 
+ inż. Woźniak Adam\; dr inż. Chrzanowski Wojciech\nNr zajęć: 1/2\nBlo
+ k: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:09bd755e4afcf6ef5c8a3389@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270110T133000
+DTEND;TZID=Europe/Warsaw:20270110T150500
+SUMMARY:Mp (L)
+LOCATION:2.05/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: laboratorium\nProwadzący: kpt. dr
+  inż. Dejewski Marcin\nNr zajęć: 1/12\nBlok: 4\nUwagi: Podgrupa 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4f426fd34a7fe99810585451@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270110T152000
+DTEND;TZID=Europe/Warsaw:20270110T165500
+SUMMARY:Mp (L)
+LOCATION:2.05/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: laboratorium\nProwadzący: kpt. dr
+  inż. Dejewski Marcin\nNr zajęć: 2/12\nBlok: 5\nUwagi: Podgrupa 1
+END:VEVENT
+BEGIN:VEVENT
+UID:39a08d49c1952d592a366ade@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270110T171000
+DTEND;TZID=Europe/Warsaw:20270110T184500
+SUMMARY:Mp (L)
+LOCATION:2.05/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: laboratorium\nProwadzący: kpt. dr
+  inż. Dejewski Marcin\nNr zajęć: 3/12\nBlok: 6\nUwagi: Podgrupa 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3271a3fe2b380ccbe998cff4@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270116T080000
+DTEND;TZID=Europe/Warsaw:20270116T093500
+SUMMARY:Mwg. (L)
+LOCATION:38/ 20\;17a/ 21
+DESCRIPTION:Metrologia wielkości geometrycznych\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Cypko Edward\; mgr inż. Dziubak Sebastian\nNr zaję
+ ć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d90b2e85ae57ff62050074ac@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270116T095000
+DTEND;TZID=Europe/Warsaw:20270116T112500
+SUMMARY:Mwg. (L)
+LOCATION:38/ 20\;17a/ 21
+DESCRIPTION:Metrologia wielkości geometrycznych\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Cypko Edward\; mgr inż. Dziubak Sebastian\nNr zaję
+ ć: 2/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:161df352c289f9b21259c2be@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270116T114000
+DTEND;TZID=Europe/Warsaw:20270116T131500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;133 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: mgr Jaśkie
+ wicz Paweł\nNr zajęć: 11/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:81f7393caf98c1a96b317420@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270116T133000
+DTEND;TZID=Europe/Warsaw:20270116T150500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;133 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: mgr Jaśkie
+ wicz Paweł\nNr zajęć: 12/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9ff77da831a9b45e93a5d4ee@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270116T152000
+DTEND;TZID=Europe/Warsaw:20270116T165500
+SUMMARY:Mkm2 (L)
+LOCATION:14/ 34\;15/ 34\;24/ 34\; Ra.A\; Pe.M\; Za.M
+DESCRIPTION:Materiały konstrukcyjne w budowie maszyn 2\nRodzaj: laborator
+ ium\nNr zajęć: 4/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:216d512b7c864f73beeff371@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270116T171000
+DTEND;TZID=Europe/Warsaw:20270116T184500
+SUMMARY:CAD (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:CAD dla mechaników\nRodzaj: laboratorium\nProwadzący: dr in
+ ż. Łuszczek Jakub\; por. mgr inż. Sarzyński Bartłomiej\nNr zajęć: 
+ 4/6\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:23f4a358e5430128cd489a03@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270116T190000
+DTEND;TZID=Europe/Warsaw:20270116T203500
+SUMMARY:CAD (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:CAD dla mechaników\nRodzaj: laboratorium\nProwadzący: dr in
+ ż. Łuszczek Jakub\; por. mgr inż. Sarzyński Bartłomiej\nNr zajęć: 
+ 5/6\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:980f8af910b991c84f74c106@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270117T080000
+DTEND;TZID=Europe/Warsaw:20270117T093500
+SUMMARY:Mp (w)
+LOCATION:2.09/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: wykład\nProwadzący: dr inż. Rub
+ iec Arkadiusz\nNr zajęć: 5/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2a14faffb178fb59ed99d2ef@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270117T095000
+DTEND;TZID=Europe/Warsaw:20270117T112500
+SUMMARY:Tw1 (L)
+LOCATION:6/ 21\;9/ 21\;10/ 21\;17/ 21\;17a/ 21\;17b/ 21
+DESCRIPTION:Techniki wytwarzania 1\nRodzaj: laboratorium\nProwadzący: dr 
+ inż. Woźniak Adam\; dr inż. Chrzanowski Wojciech\nNr zajęć: 2/2\nBlo
+ k: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:57d52efe9b6bf8b6eb71a6fa@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270117T114000
+DTEND;TZID=Europe/Warsaw:20270117T131500
+SUMMARY:Sinż (ć)
+LOCATION:3/ 23A\;7/ 23A
+DESCRIPTION:Statystyka inżynierska\nRodzaj: ćwiczenia\nProwadzący: dr i
+ nż. Sobczyk Zbigniew\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:bfd910eb698fb09972dd3af7@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270117T133000
+DTEND;TZID=Europe/Warsaw:20270117T150500
+SUMMARY:Mp (L)
+LOCATION:2.05/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: laboratorium\nProwadzący: kpt. dr
+  inż. Dejewski Marcin\nNr zajęć: 4/12\nBlok: 4\nUwagi: Podgrupa 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ba21cce97dfd5bd7be4c2a3b@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270117T152000
+DTEND;TZID=Europe/Warsaw:20270117T165500
+SUMMARY:Mp (L)
+LOCATION:2.05/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: laboratorium\nProwadzący: kpt. dr
+  inż. Dejewski Marcin\nNr zajęć: 5/12\nBlok: 5\nUwagi: Podgrupa 2
+END:VEVENT
+BEGIN:VEVENT
+UID:dbd65e4ffc25ac3723b381aa@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270117T171000
+DTEND;TZID=Europe/Warsaw:20270117T184500
+SUMMARY:Mp (L)
+LOCATION:2.05/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: laboratorium\nProwadzący: kpt. dr
+  inż. Dejewski Marcin\nNr zajęć: 6/12\nBlok: 6\nUwagi: Podgrupa 2
+END:VEVENT
+BEGIN:VEVENT
+UID:528bf55dfc6101ad65ed0b5b@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270123T080000
+DTEND;TZID=Europe/Warsaw:20270123T093500
+SUMMARY:Mwg. (L)
+LOCATION:38/ 20\;17a/ 21
+DESCRIPTION:Metrologia wielkości geometrycznych\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Cypko Edward\; mgr inż. Dziubak Sebastian\nNr zaję
+ ć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:16370801e5d46c1a436b0fe6@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270123T095000
+DTEND;TZID=Europe/Warsaw:20270123T112500
+SUMMARY:Mwg. (L)
+LOCATION:38/ 20\;17a/ 21
+DESCRIPTION:Metrologia wielkości geometrycznych\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Cypko Edward\; mgr inż. Dziubak Sebastian\nNr zaję
+ ć: 4/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:38af007cf70ad4f1d1af0533@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270123T114000
+DTEND;TZID=Europe/Warsaw:20270123T131500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;133 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: mgr Jaśkie
+ wicz Paweł\nNr zajęć: 13/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:48d2e6e75a6f3d16c2003d6f@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270123T133000
+DTEND;TZID=Europe/Warsaw:20270123T150500
+SUMMARY:F2 (L)
+LOCATION:137 S\;139 S
+DESCRIPTION:Fizyka 2\nRodzaj: laboratorium\nProwadzący: dr inż. Kowiorsk
+ i Krystian\; dr inż. Markowska Olga\; dr inż. Świłło Rafał\nNr zaj
+ ęć: 5/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:89f1b48a66d98cd49a7882ce@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270123T152000
+DTEND;TZID=Europe/Warsaw:20270123T165500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;133 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: mgr Jaśkie
+ wicz Paweł\nNr zajęć: 14/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:4d4d3b426ce439359541187d@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270123T171000
+DTEND;TZID=Europe/Warsaw:20270123T184500
+SUMMARY:Mkm2 (L)
+LOCATION:14/ 34\;15/ 34\;24/ 34\; Ra.A\; Przy.D.\; Za.M
+DESCRIPTION:Materiały konstrukcyjne w budowie maszyn 2\nRodzaj: laborator
+ ium\nNr zajęć: 5/5\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:571ff84bf1eb881bd2a25e7f@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270123T190000
+DTEND;TZID=Europe/Warsaw:20270123T203500
+SUMMARY:CAD (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:CAD dla mechaników\nRodzaj: laboratorium\nProwadzący: dr in
+ ż. Łuszczek Jakub\; por. mgr inż. Sarzyński Bartłomiej\nNr zajęć: 
+ 6/6\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:1acfcf0570e4dbff5db78d24@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270124T080000
+DTEND;TZID=Europe/Warsaw:20270124T093500
+SUMMARY:SCAE (L)
+LOCATION:6/ 62\;7/ 62
+DESCRIPTION:Systemy CAE w praktyce inżynierskiej\nRodzaj: laboratorium\nP
+ rowadzący: mgr inż. Malesa Piotr\; dr inż. Dziewulski Paweł\nNr zaję
+ ć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:bc07f3cf75497fd072743e17@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270124T095000
+DTEND;TZID=Europe/Warsaw:20270124T112500
+SUMMARY:SCAE (L)
+LOCATION:6/ 62\;7/ 62
+DESCRIPTION:Systemy CAE w praktyce inżynierskiej\nRodzaj: laboratorium\nP
+ rowadzący: mgr inż. Malesa Piotr\; dr inż. Dziewulski Paweł\nNr zaję
+ ć: 4/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6443678050505ee90601b5c2@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270124T114000
+DTEND;TZID=Europe/Warsaw:20270124T131500
+SUMMARY:Sinż (ć)
+LOCATION:15/ 23A
+DESCRIPTION:Statystyka inżynierska\nRodzaj: ćwiczenia\nProwadzący: dr i
+ nż. Sobczyk Zbigniew\nNr zajęć: 5/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e8478ed9982a5fd73293f67f@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270124T133000
+DTEND;TZID=Europe/Warsaw:20270124T150500
+SUMMARY:Mp (L)
+LOCATION:2.05/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: laboratorium\nProwadzący: kpt. dr
+  inż. Dejewski Marcin\nNr zajęć: 7/12\nBlok: 4\nUwagi: Podgrupa 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9c5bb9401775bf6532ccd1a6@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270124T152000
+DTEND;TZID=Europe/Warsaw:20270124T165500
+SUMMARY:Mp (L)
+LOCATION:2.05/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: laboratorium\nProwadzący: kpt. dr
+  inż. Dejewski Marcin\nNr zajęć: 8/12\nBlok: 5\nUwagi: Podgrupa 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ffad69a2dd182ac2007b324d@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270124T171000
+DTEND;TZID=Europe/Warsaw:20270124T184500
+SUMMARY:Mp (L)
+LOCATION:2.05/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: laboratorium\nProwadzący: kpt. dr
+  inż. Dejewski Marcin\nNr zajęć: 9/12\nBlok: 6\nUwagi: Podgrupa 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7fd9de4d3f2d6f2a76f7a355@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270130T080000
+DTEND;TZID=Europe/Warsaw:20270130T093500
+SUMMARY:CAD (w)
+LOCATION:116/ 54
+DESCRIPTION:CAD dla mechaników\nRodzaj: wykład\nProwadzący: dr inż. Gr
+ zelak Krzysztof\nNr zajęć: 2/2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8d6f8aa05e6dd364c3040158@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270130T095000
+DTEND;TZID=Europe/Warsaw:20270130T112500
+SUMMARY:Mwg. (w)
+LOCATION:5/ 20
+DESCRIPTION:Metrologia wielkości geometrycznych\nRodzaj: wykład\nProwadz
+ ący: dr inż. Cypko Edward\nNr zajęć: 5/5\nBlok: 2\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:d1e1c0d550cec7841d5c5b4a@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270130T114000
+DTEND;TZID=Europe/Warsaw:20270130T131500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;133 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: mgr Jaśkie
+ wicz Paweł\nNr zajęć: 15/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7065bc1b696622589390aaac@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270130T133000
+DTEND;TZID=Europe/Warsaw:20270130T150500
+SUMMARY:PCwT (ć)
+LOCATION:2/ 68
+DESCRIPTION:Pomiary cyfrowe w technice\nRodzaj: ćwiczenia\nProwadzący: d
+ r inż. Karczewski Mirosław\nNr zajęć: 2/2\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a5172a5dfe306a86a6ae945e@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270130T152000
+DTEND;TZID=Europe/Warsaw:20270130T165500
+SUMMARY:Mt 2 (ć)
+LOCATION:54/ 62
+DESCRIPTION:Mechanika techniczna 2\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Nowak Jacek\nNr zajęć: 7/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:ed46546ffcd665367810e49c@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270130T171000
+DTEND;TZID=Europe/Warsaw:20270130T184500
+SUMMARY:Sinż (w)
+LOCATION:15/ 23A
+DESCRIPTION:Statystyka inżynierska\nRodzaj: wykład\nProwadzący: dr inż
+ . Sobczyk Zbigniew\nNr zajęć: 4/4\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:e1432bfb77a92cb06b5ff51f@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270130T190000
+DTEND;TZID=Europe/Warsaw:20270130T203500
+SUMMARY:Mp (L)
+LOCATION:2.05/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: laboratorium\nProwadzący: kpt. dr
+  inż. Dejewski Marcin\nNr zajęć: 10/12\nBlok: 7\nUwagi: Podgrupa 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9e3e74557cecf3eb9bbf9163@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270131T080000
+DTEND;TZID=Europe/Warsaw:20270131T093500
+SUMMARY:PCwT (L)
+LOCATION:4/ 68\;15/ 68\; Kar.M\; Pol.F\; Choj.J
+DESCRIPTION:Pomiary cyfrowe w technice\nRodzaj: laboratorium\nNr zajęć: 
+ 1/2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:51a97b9bd35618e730a69ca5@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270131T095000
+DTEND;TZID=Europe/Warsaw:20270131T112500
+SUMMARY:PCwT (L)
+LOCATION:4/ 68\;15/ 68\; Kar.M\; Pol.F\; Choj.J
+DESCRIPTION:Pomiary cyfrowe w technice\nRodzaj: laboratorium\nNr zajęć: 
+ 2/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:90fc83bf0e5f38da5f9e5a3e@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270131T114000
+DTEND;TZID=Europe/Warsaw:20270131T131500
+SUMMARY:Mp (L)
+LOCATION:2.05/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: laboratorium\nProwadzący: kpt. dr
+  inż. Dejewski Marcin\nNr zajęć: 11/12\nBlok: 3\nUwagi: Podgrupa 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e97678c6b4ded78c35a39dbc@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270131T133000
+DTEND;TZID=Europe/Warsaw:20270131T150500
+SUMMARY:Mp (L)
+LOCATION:2.05/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: laboratorium\nProwadzący: kpt. dr
+  inż. Dejewski Marcin\nNr zajęć: 12/12\nBlok: 4\nUwagi: Podgrupa 3
+END:VEVENT
+BEGIN:VEVENT
+UID:06ee8f12a676cc4a9ec4bf89@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270131T152000
+DTEND;TZID=Europe/Warsaw:20270131T165500
+SUMMARY:XWDM (w)
+LOCATION:5/ 20
+DESCRIPTION:XWprowadzenie do metrologii\nRodzaj: wykład\nProwadzący: dr 
+ inż. Boruta Grzegorz\nNr zajęć: 4/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:651ce9b9afc1244b02f9bd8c@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270213T080000
+DTEND;TZID=Europe/Warsaw:20270213T093500
+SUMMARY:Sinż (Zp. Ćw)
+LOCATION:3/ 23A\;7/ 23A
+DESCRIPTION:Statystyka inżynierska\nProwadzący: dr inż. Sobczyk Zbignie
+ w\nNr zajęć: 1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6a1d7bc69f5df12c17554a0f@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270213T095000
+DTEND;TZID=Europe/Warsaw:20270213T112500
+SUMMARY:F2 (E)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: egzamin\nProwadzący: prof. dr hab. inż. Pa
+ rka Janusz\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ab583f06efaa395458582990@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270213T114000
+DTEND;TZID=Europe/Warsaw:20270213T131500
+SUMMARY:Mkm2 (Zp/lab.)
+LOCATION:14/ 34\;15/ 34\;24/ 34
+DESCRIPTION:Materiały konstrukcyjne w budowie maszyn 2\nProwadzący: dr i
+ nż. Przygucka Dominika\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7d2479171a92b455291df388@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270213T133000
+DTEND;TZID=Europe/Warsaw:20270213T150500
+SUMMARY:Mwg. (Zp.)
+LOCATION:15/ 23A
+DESCRIPTION:Metrologia wielkości geometrycznych\nRodzaj: zaliczenie popra
+ wkowe\nProwadzący: dr inż. Cypko Edward\nNr zajęć: 1/1\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8d0e7f13bb7c084d7516957a@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270213T152000
+DTEND;TZID=Europe/Warsaw:20270213T165500
+SUMMARY:SCAE (Zp/lab.)
+LOCATION:6/ 62
+DESCRIPTION:Systemy CAE w praktyce inżynierskiej\nProwadzący: mgr inż. 
+ Malesa Piotr\; dr inż. Dziewulski Paweł\nNr zajęć: 1/1\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:8d2faa7d8647936bb30ff5c2@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270213T171000
+DTEND;TZID=Europe/Warsaw:20270213T184500
+SUMMARY:Mp(Zp.(L./Ćw.))
+LOCATION:2.09/ 54A
+DESCRIPTION:Prowadzący: kpt. dr inż. Dejewski Marcin\nNr zajęć: 1/1\nB
+ lok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:cb4b02bc937af1bdb8795969@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270213T190000
+DTEND;TZID=Europe/Warsaw:20270213T203500
+SUMMARY:Og. (Zp. Ćw)
+LOCATION:5/ 23A
+DESCRIPTION:Ogólne podstawy ruchu maszyn\nProwadzący: mgr inż. Mantur T
+ omasz\nNr zajęć: 1/1\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:b08297fb863a7cab3f70a37a@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270214T080000
+DTEND;TZID=Europe/Warsaw:20270214T093500
+SUMMARY:Tw1 (Zp/lab.)
+LOCATION:6/ 21\;9/ 21\;10/ 21\;17/ 21\;17a/ 21\;17b/ 21
+DESCRIPTION:Techniki wytwarzania 1\nProwadzący: dr inż. Woźniak Adam\; 
+ dr inż. Chrzanowski Wojciech\nNr zajęć: 1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b0e8e6647117244101e0a47b@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270214T095000
+DTEND;TZID=Europe/Warsaw:20270214T112500
+SUMMARY:Mt 2 (E)
+LOCATION:52/ 62
+DESCRIPTION:Mechanika techniczna 2\nRodzaj: egzamin\nProwadzący: dr inż.
+  Nowak Jacek\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6789a44e6192fe49cfffe9be@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270214T114000
+DTEND;TZID=Europe/Warsaw:20270214T131500
+SUMMARY:F2 (Zp. Ćw)
+LOCATION:52/ 62
+DESCRIPTION:Fizyka 2\nProwadzący: dr inż. Larkowski Waldemar\nNr zajęć
+ : 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c02f3c3cba227d7739c3b0be@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270214T133000
+DTEND;TZID=Europe/Warsaw:20270214T150500
+SUMMARY:CAD (Zp/lab.)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:CAD dla mechaników\nProwadzący: dr inż. Łuszczek Jakub\; p
+ or. mgr inż. Sarzyński Bartłomiej\nNr zajęć: 1/1\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:80247e1547e457901cfd3790@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270214T152000
+DTEND;TZID=Europe/Warsaw:20270214T165500
+SUMMARY:PCwT (Zp/lab.)
+LOCATION:4/ 68\;15/ 68\; Kar.M\; Pol.F\; Choj.J
+DESCRIPTION:Pomiary cyfrowe w technice\nNr zajęć: 1/1\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:27e71987d3a6f33e09ce0728@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270219T175000
+DTEND;TZID=Europe/Warsaw:20270219T192500
+SUMMARY:PCwT (Zp.)
+LOCATION:6/ 23A
+DESCRIPTION:Pomiary cyfrowe w technice\nRodzaj: zaliczenie poprawkowe\nPro
+ wadzący: dr inż. Karczewski Mirosław\nNr zajęć: 1/1\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:23106b7e1c50dc4185517ffd@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270219T194000
+DTEND;TZID=Europe/Warsaw:20270219T211500
+SUMMARY:CAD (Zp.)
+LOCATION:116/ 54
+DESCRIPTION:CAD dla mechaników\nRodzaj: zaliczenie poprawkowe\nProwadząc
+ y: dr inż. Grzelak Krzysztof\nNr zajęć: 1/1\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:a42545c004c9d6f816aed3a7@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270220T080000
+DTEND;TZID=Europe/Warsaw:20270220T093500
+SUMMARY:Sinż (Zp.)
+LOCATION:15/ 23A
+DESCRIPTION:Statystyka inżynierska\nRodzaj: zaliczenie poprawkowe\nProwad
+ zący: dr inż. Sobczyk Zbigniew\nNr zajęć: 1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:215157032ce478aacf056ee0@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270220T095000
+DTEND;TZID=Europe/Warsaw:20270220T112500
+SUMMARY:F2 (Ep)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: egzamin poprawkowy\nProwadzący: prof. dr ha
+ b. inż. Parka Janusz\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:26ec1072a02a31b960e6d09d@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270220T114000
+DTEND;TZID=Europe/Warsaw:20270220T131500
+SUMMARY:Ja (Zp. Ćw)
+LOCATION:237 K\;133 K
+DESCRIPTION:Język angielski\nProwadzący: mgr Jaśkiewicz Paweł\nNr zaj
+ ęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0771b019739f447e9afbe0ca@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270220T133000
+DTEND;TZID=Europe/Warsaw:20270220T150500
+SUMMARY:SoM1 (Zp.)
+LOCATION:5/ 23A
+DESCRIPTION:Strength of Materials 1\nRodzaj: zaliczenie poprawkowe\nProwad
+ zący: dr inż. (prof. ucz.) Szurgott Piotr\nNr zajęć: 1/1\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:53982d768ca52c74781829f4@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270220T152000
+DTEND;TZID=Europe/Warsaw:20270220T165500
+SUMMARY:Mkm2 (Zp.)
+LOCATION:11/ 34
+DESCRIPTION:Materiały konstrukcyjne w budowie maszyn 2\nRodzaj: zaliczeni
+ e poprawkowe\nProwadzący: dr inż. Zasada Dariusz\nNr zajęć: 1/1\nBlok
+ : 5
+END:VEVENT
+BEGIN:VEVENT
+UID:4aa7d02d94e554d8269d44c7@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270220T171000
+DTEND;TZID=Europe/Warsaw:20270220T184500
+SUMMARY:SCAE (Zp.)
+LOCATION:52/ 62
+DESCRIPTION:Systemy CAE w praktyce inżynierskiej\nRodzaj: zaliczenie popr
+ awkowe\nProwadzący: dr inż. Tomaszewski Michał\nNr zajęć: 1/1\nBlok:
+  6
+END:VEVENT
+BEGIN:VEVENT
+UID:3f31bfc6ef2f13d4cbfe74be@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270220T190000
+DTEND;TZID=Europe/Warsaw:20270220T203500
+SUMMARY:Mt 2 (Zp. Ćw)
+LOCATION:8/ 62
+DESCRIPTION:Mechanika techniczna 2\nProwadzący: dr inż. Nowak Jacek\nNr 
+ zajęć: 1/1\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:385dac82f167807eea631b03@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270221T080000
+DTEND;TZID=Europe/Warsaw:20270221T093500
+SUMMARY:Mp (Zp.)
+LOCATION:2.09/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: zaliczenie poprawkowe\nProwadzący
+ : dr inż. Rubiec Arkadiusz\nNr zajęć: 1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:aeb23a382e114d0dfc42f0cc@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270221T095000
+DTEND;TZID=Europe/Warsaw:20270221T112500
+SUMMARY:Mt 2 (Ep)
+LOCATION:8/ 62
+DESCRIPTION:Mechanika techniczna 2\nRodzaj: egzamin poprawkowy\nProwadząc
+ y: dr inż. Nowak Jacek\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:dfab31b9db3153a3e1538470@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270221T114000
+DTEND;TZID=Europe/Warsaw:20270221T131500
+SUMMARY:Tw1 (Zp.)
+LOCATION:1/ 21
+DESCRIPTION:Techniki wytwarzania 1\nRodzaj: zaliczenie poprawkowe\nProwadz
+ ący: dr inż. Woźniak Adam\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b243bed72e0556e8a607d2f5@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270221T133000
+DTEND;TZID=Europe/Warsaw:20270221T150500
+SUMMARY:Og. (Zp.)
+LOCATION:6/ 23A
+DESCRIPTION:Ogólne podstawy ruchu maszyn\nRodzaj: zaliczenie poprawkowe\n
+ Prowadzący: dr inż. Ziubiński Mateusz\nNr zajęć: 1/1\nBlok: 4
+END:VEVENT
+END:VCALENDAR

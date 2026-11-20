@@ -1,0 +1,2234 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WEL24EC1S1
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:a94f9c2b933c0b929b5f6ff8@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261001T080000
+DTEND;TZID=Europe/Warsaw:20261001T093500
+SUMMARY:PuEl (w)
+LOCATION:2 45
+DESCRIPTION:Prototypowanie układów elektronicznych\nRodzaj: wykład\nPro
+ wadzący: dr inż. Czopik Grzegorz\nNr zajęć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a7b38b968b28ecb2544a80b6@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261001T095000
+DTEND;TZID=Europe/Warsaw:20261001T112500
+SUMMARY:TuP (w)
+LOCATION:2 45
+DESCRIPTION:Technika układów programowalnych\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Kwiatkowski Paweł\nNr zajęć: 1/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1c8623b0b0795c1d27b7b565@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261001T114000
+DTEND;TZID=Europe/Warsaw:20261001T131500
+SUMMARY:Swtc (w)
+LOCATION:117 47
+DESCRIPTION:Sensory w technice cyfrowej\nRodzaj: wykład\nProwadzący: dr 
+ inż. Szymanowski Rafał\nNr zajęć: 1/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9e365208be04aaab8be17c0d@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261002T080000
+DTEND;TZID=Europe/Warsaw:20261002T093500
+SUMMARY:Pulx (w)
+LOCATION:15 47
+DESCRIPTION:Programowanie w systemie Unix/Linux PW\nRodzaj: wykład\nProwa
+ dzący: dr inż. Bolek Cezary\nNr zajęć: 1/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ef589cc855ebcfaf62a2dbb1@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261002T095000
+DTEND;TZID=Europe/Warsaw:20261002T112500
+SUMMARY:SIP (w)
+LOCATION:15 47
+DESCRIPTION:Sieci IP\nRodzaj: wykład\nProwadzący: dr inż. Krygier Jaros
+ ław\nNr zajęć: 1/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:cb94a62168c3d9ae369d03cd@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261002T114000
+DTEND;TZID=Europe/Warsaw:20261002T131500
+SUMMARY:Swb (w)
+LOCATION:3.3 75
+DESCRIPTION:Systemy wbudowane\nRodzaj: wykład\nProwadzący: dr inż. Siec
+ zkowski Krzysztof\nNr zajęć: 1/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:09717527488b4381d462d2ab@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261005T080000
+DTEND;TZID=Europe/Warsaw:20261005T093500
+SUMMARY:PuEl (w)
+LOCATION:2 45
+DESCRIPTION:Prototypowanie układów elektronicznych\nRodzaj: wykład\nPro
+ wadzący: dr inż. Czopik Grzegorz\nNr zajęć: 2/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c71d673e2739895237d187db@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261005T095000
+DTEND;TZID=Europe/Warsaw:20261005T112500
+SUMMARY:TuP (w)
+LOCATION:2 45
+DESCRIPTION:Technika układów programowalnych\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Kwiatkowski Paweł\nNr zajęć: 2/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e5cbe2ba1769fa04131496da@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261005T114000
+DTEND;TZID=Europe/Warsaw:20261005T131500
+SUMMARY:Cps (w)
+LOCATION:15 47
+DESCRIPTION:Cyfrowe przetwarzanie sygnałów\nRodzaj: wykład\nProwadzący
+ : dr hab. inż. Łopatka Jerzy\nNr zajęć: 1/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9a34f10632afe5d8d6829798@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261005T133000
+DTEND;TZID=Europe/Warsaw:20261005T150500
+SUMMARY:Sym (w)
+LOCATION:15 47
+DESCRIPTION:Systemy mikroprocesorowe\nRodzaj: wykład\nProwadzący: dr hab
+ . inż. Sondej Tadeusz\nNr zajęć: 1/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:645f12b3f427b2670169102a@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261006T080000
+DTEND;TZID=Europe/Warsaw:20261006T093500
+SUMMARY:SIP (w)
+LOCATION:15 47
+DESCRIPTION:Sieci IP\nRodzaj: wykład\nProwadzący: dr inż. Krygier Jaros
+ ław\nNr zajęć: 2/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5ab70d01e3536459795b7862@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261006T095000
+DTEND;TZID=Europe/Warsaw:20261006T112500
+SUMMARY:Pskr (w)
+LOCATION:15 47
+DESCRIPTION:Podstawy systemów kryptograficznych\nRodzaj: wykład\nProwadz
+ ący: prof. Sujecki Sławomir\nNr zajęć: 1/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:314b7179cfd0c4ab95ba3b2f@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261006T114000
+DTEND;TZID=Europe/Warsaw:20261006T131500
+SUMMARY:PKE (w)
+LOCATION:19 47
+DESCRIPTION:Podstawy kompatybilności elektromagnetycznej PW\nRodzaj: wyk
+ ład\nProwadzący: dr hab inż. Nowosielski Leszek\nNr zajęć: 1/8\nBlok
+ : 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a0573c91cdd6df23e236c8dd@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261007T080000
+DTEND;TZID=Europe/Warsaw:20261007T093500
+SUMMARY:Cps (w)
+LOCATION:15 47
+DESCRIPTION:Cyfrowe przetwarzanie sygnałów\nRodzaj: wykład\nProwadzący
+ : dr hab. inż. Łopatka Jerzy\nNr zajęć: 2/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ab2ca8e4cf274a5bdac676d7@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261007T095000
+DTEND;TZID=Europe/Warsaw:20261007T112500
+SUMMARY:Prka (w)
+LOCATION:15 47
+DESCRIPTION:Programowanie komputerowych aplikacji użytkownika\nRodzaj: wy
+ kład\nProwadzący: dr inż. Dąbal Paweł\nNr zajęć: 1/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2ffab6b93e7f96c91c9e06f0@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261007T114000
+DTEND;TZID=Europe/Warsaw:20261007T131500
+SUMMARY:PSC (w)
+LOCATION:119 45
+DESCRIPTION:Projektowanie systemów cyfrowych\nRodzaj: wykład\nProwadząc
+ y: dr inż. Sondej Dominik\nNr zajęć: 1/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e5dc22bf7f63055e5fa34229@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261008T080000
+DTEND;TZID=Europe/Warsaw:20261008T093500
+SUMMARY:PuEl (w)
+LOCATION:2 45
+DESCRIPTION:Prototypowanie układów elektronicznych\nRodzaj: wykład\nPro
+ wadzący: dr inż. Czopik Grzegorz\nNr zajęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:fa8aa909fd04e9ed68aecd70@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261008T095000
+DTEND;TZID=Europe/Warsaw:20261008T112500
+SUMMARY:Pskr (w)
+LOCATION:15 47
+DESCRIPTION:Podstawy systemów kryptograficznych\nRodzaj: wykład\nProwadz
+ ący: prof. Sujecki Sławomir\nNr zajęć: 2/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f492af0b9ef87ba858765ebe@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261008T114000
+DTEND;TZID=Europe/Warsaw:20261008T131500
+SUMMARY:Swtc (w)
+LOCATION:117 47
+DESCRIPTION:Sensory w technice cyfrowej\nRodzaj: wykład\nProwadzący: dr 
+ inż. Szymanowski Rafał\nNr zajęć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9ba6608a71622fbbe920ba7b@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261009T080000
+DTEND;TZID=Europe/Warsaw:20261009T093500
+SUMMARY:Pulx (w)
+LOCATION:3.3 75
+DESCRIPTION:Programowanie w systemie Unix/Linux PW\nRodzaj: wykład\nProwa
+ dzący: dr inż. Bolek Cezary\nNr zajęć: 2/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f26a1a62350b79ed30383251@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261009T095000
+DTEND;TZID=Europe/Warsaw:20261009T112500
+SUMMARY:TuP (w)
+LOCATION:3.7 75
+DESCRIPTION:Technika układów programowalnych\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Kwiatkowski Paweł\nNr zajęć: 3/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:beb4d2cfa06dde619504baca@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261009T114000
+DTEND;TZID=Europe/Warsaw:20261009T131500
+SUMMARY:Swb (w)
+LOCATION:3.3 75
+DESCRIPTION:Systemy wbudowane\nRodzaj: wykład\nProwadzący: dr inż. Siec
+ zkowski Krzysztof\nNr zajęć: 2/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:fd79633a90f496aebaf348b9@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261009T133000
+DTEND;TZID=Europe/Warsaw:20261009T150500
+SUMMARY:Swtc (w)
+LOCATION:3.3 75
+DESCRIPTION:Sensory w technice cyfrowej\nRodzaj: wykład\nProwadzący: dr 
+ inż. Szymanowski Rafał\nNr zajęć: 3/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c1eb84e1fd24f40e9fb9eeeb@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261012T080000
+DTEND;TZID=Europe/Warsaw:20261012T093500
+SUMMARY:PuEl (w)
+LOCATION:2 45
+DESCRIPTION:Prototypowanie układów elektronicznych\nRodzaj: wykład\nPro
+ wadzący: dr inż. Czopik Grzegorz\nNr zajęć: 4/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:98d1a9a2c609dc94fc4b02ab@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261012T095000
+DTEND;TZID=Europe/Warsaw:20261012T112500
+SUMMARY:TuP (w)
+LOCATION:2 45
+DESCRIPTION:Technika układów programowalnych\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Kwiatkowski Paweł\nNr zajęć: 4/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:39a5aee8a876cc1e8b958bd9@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261012T114000
+DTEND;TZID=Europe/Warsaw:20261012T131500
+SUMMARY:Cps (w)
+LOCATION:15 47
+DESCRIPTION:Cyfrowe przetwarzanie sygnałów\nRodzaj: wykład\nProwadzący
+ : dr hab. inż. Łopatka Jerzy\nNr zajęć: 3/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ffb4df86dcfa988c97b8c0de@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261012T133000
+DTEND;TZID=Europe/Warsaw:20261012T150500
+SUMMARY:Sym (w)
+LOCATION:15 47
+DESCRIPTION:Systemy mikroprocesorowe\nRodzaj: wykład\nProwadzący: dr hab
+ . inż. Sondej Tadeusz\nNr zajęć: 2/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:09a83384fbb731d106d6fcab@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261013T080000
+DTEND;TZID=Europe/Warsaw:20261013T093500
+SUMMARY:SIP (w)
+LOCATION:15 47
+DESCRIPTION:Sieci IP\nRodzaj: wykład\nProwadzący: dr inż. Krygier Jaros
+ ław\nNr zajęć: 3/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ed7ac9e38d832c77ee51a5e7@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261013T095000
+DTEND;TZID=Europe/Warsaw:20261013T112500
+SUMMARY:PKE (w)
+LOCATION:3.3 75
+DESCRIPTION:Podstawy kompatybilności elektromagnetycznej PW\nRodzaj: wyk
+ ład\nProwadzący: dr hab inż. Nowosielski Leszek\nNr zajęć: 2/8\nBlok
+ : 2
+END:VEVENT
+BEGIN:VEVENT
+UID:981cbd486daea6cff30e3dd3@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261013T114000
+DTEND;TZID=Europe/Warsaw:20261013T131500
+SUMMARY:Pskr (w)
+LOCATION:19 47
+DESCRIPTION:Podstawy systemów kryptograficznych\nRodzaj: wykład\nProwadz
+ ący: prof. Sujecki Sławomir\nNr zajęć: 3/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:deeb14c07812e9a2e665eaee@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261014T080000
+DTEND;TZID=Europe/Warsaw:20261014T093500
+SUMMARY:Cps (w)
+LOCATION:15 47
+DESCRIPTION:Cyfrowe przetwarzanie sygnałów\nRodzaj: wykład\nProwadzący
+ : dr hab. inż. Łopatka Jerzy\nNr zajęć: 4/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:620356804395a159cfcc5a76@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261014T095000
+DTEND;TZID=Europe/Warsaw:20261014T112500
+SUMMARY:Prka (w)
+LOCATION:15 47
+DESCRIPTION:Programowanie komputerowych aplikacji użytkownika\nRodzaj: wy
+ kład\nProwadzący: dr inż. Dąbal Paweł\nNr zajęć: 2/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9f1b9ab266facbc2cae6e9e9@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261014T114000
+DTEND;TZID=Europe/Warsaw:20261014T131500
+SUMMARY:PSC (w)
+LOCATION:119 45
+DESCRIPTION:Projektowanie systemów cyfrowych\nRodzaj: wykład\nProwadząc
+ y: dr inż. Sondej Dominik\nNr zajęć: 2/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3725e79b78ec6d3963f0fbb7@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261015T095000
+DTEND;TZID=Europe/Warsaw:20261015T112500
+SUMMARY:PSC (w)
+LOCATION:118 45
+DESCRIPTION:Projektowanie systemów cyfrowych\nRodzaj: wykład\nProwadząc
+ y: dr inż. Sondej Dominik\nNr zajęć: 3/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:305fa9a173a19379a5ccee42@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261015T114000
+DTEND;TZID=Europe/Warsaw:20261015T131500
+SUMMARY:Swtc (w)
+LOCATION:117 47
+DESCRIPTION:Sensory w technice cyfrowej\nRodzaj: wykład\nProwadzący: dr 
+ inż. Szymanowski Rafał\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:32487ba6c4203a23e74e61b7@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261015T175000
+DTEND;TZID=Europe/Warsaw:20261015T192500
+SUMMARY:XPps (w)
+LOCATION:35 61a
+DESCRIPTION:XPodstawy przetwarzania sygnałów\nRodzaj: wykład\nProwadzą
+ cy: dr hab. inż. Leśnik Czesław\nNr zajęć: 1/9\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:74f9594669a2af2afbf424cb@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261015T194000
+DTEND;TZID=Europe/Warsaw:20261015T211500
+SUMMARY:XPps (w)
+LOCATION:35 61a
+DESCRIPTION:XPodstawy przetwarzania sygnałów\nRodzaj: wykład\nProwadzą
+ cy: dr hab. inż. Leśnik Czesław\nNr zajęć: 2/9\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:2bf635682523f139a834f4f9@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261016T080000
+DTEND;TZID=Europe/Warsaw:20261016T093500
+SUMMARY:Pulx (w)
+LOCATION:3.3 75
+DESCRIPTION:Programowanie w systemie Unix/Linux PW\nRodzaj: wykład\nProwa
+ dzący: dr inż. Bolek Cezary\nNr zajęć: 3/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0fbbac4975de4c7be0902388@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261016T095000
+DTEND;TZID=Europe/Warsaw:20261016T112500
+SUMMARY:Swb (w)
+LOCATION:117 45
+DESCRIPTION:Systemy wbudowane\nRodzaj: wykład\nProwadzący: dr inż. Siec
+ zkowski Krzysztof\nNr zajęć: 3/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3fd9d24586e9f2947d46919a@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261019T080000
+DTEND;TZID=Europe/Warsaw:20261019T093500
+SUMMARY:Prka (w)
+LOCATION:19 47
+DESCRIPTION:Programowanie komputerowych aplikacji użytkownika\nRodzaj: wy
+ kład\nProwadzący: dr inż. Dąbal Paweł\nNr zajęć: 3/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3fd02948060b053973175c48@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261019T095000
+DTEND;TZID=Europe/Warsaw:20261019T112500
+SUMMARY:TuP (w)
+LOCATION:2 45
+DESCRIPTION:Technika układów programowalnych\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Kwiatkowski Paweł\nNr zajęć: 5/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:41a316608b8bf105eab581bd@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261019T114000
+DTEND;TZID=Europe/Warsaw:20261019T131500
+SUMMARY:Prka (w)
+LOCATION:119 45
+DESCRIPTION:Programowanie komputerowych aplikacji użytkownika\nRodzaj: wy
+ kład\nProwadzący: dr inż. Dąbal Paweł\nNr zajęć: 4/8\nBlok: 3\nUwa
+ gi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:713f1ab6450d6eb43112bb13@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261019T133000
+DTEND;TZID=Europe/Warsaw:20261019T150500
+SUMMARY:PuEl (L)
+LOCATION:104 61
+DESCRIPTION:Prototypowanie układów elektronicznych\nRodzaj: laboratorium
+ \nProwadzący: mgr inż. Kapski Adrian\nNr zajęć: 1/18\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f2298c93cec72c6c4d15bc93@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261019T160000
+DTEND;TZID=Europe/Warsaw:20261019T173500
+SUMMARY:PuEl (L)
+LOCATION:104 61
+DESCRIPTION:Prototypowanie układów elektronicznych\nRodzaj: laboratorium
+ \nProwadzący: mgr inż. Kapski Adrian\nNr zajęć: 2/18\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:7ced10faba90ff28977159fa@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261020T080000
+DTEND;TZID=Europe/Warsaw:20261020T093500
+SUMMARY:SIP (w)
+LOCATION:15 47
+DESCRIPTION:Sieci IP\nRodzaj: wykład\nProwadzący: dr inż. Krygier Jaros
+ ław\nNr zajęć: 4/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6fd4d05cea2213d779a5200e@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261020T095000
+DTEND;TZID=Europe/Warsaw:20261020T112500
+SUMMARY:Pskr (w)
+LOCATION:117 47
+DESCRIPTION:Podstawy systemów kryptograficznych\nRodzaj: wykład\nProwadz
+ ący: prof. Sujecki Sławomir\nNr zajęć: 4/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:10bca280d41addc66ef67868@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261020T114000
+DTEND;TZID=Europe/Warsaw:20261020T131500
+SUMMARY:PKE (w)
+LOCATION:19 47
+DESCRIPTION:Podstawy kompatybilności elektromagnetycznej PW\nRodzaj: wyk
+ ład\nProwadzący: dr hab inż. Nowosielski Leszek\nNr zajęć: 3/8\nBlok
+ : 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2bb557c4edccceac4589815d@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261021T080000
+DTEND;TZID=Europe/Warsaw:20261021T093500
+SUMMARY:Cps (w)
+LOCATION:15 47
+DESCRIPTION:Cyfrowe przetwarzanie sygnałów\nRodzaj: wykład\nProwadzący
+ : dr hab. inż. Łopatka Jerzy\nNr zajęć: 5/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1480927e3a50a1f898d265af@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261021T095000
+DTEND;TZID=Europe/Warsaw:20261021T112500
+SUMMARY:Prka (w)
+LOCATION:15 47
+DESCRIPTION:Programowanie komputerowych aplikacji użytkownika\nRodzaj: wy
+ kład\nProwadzący: dr inż. Dąbal Paweł\nNr zajęć: 5/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e6644187503d0d7fbd924f4d@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261021T114000
+DTEND;TZID=Europe/Warsaw:20261021T131500
+SUMMARY:PSC (w)
+LOCATION:120 45
+DESCRIPTION:Projektowanie systemów cyfrowych\nRodzaj: wykład\nProwadząc
+ y: dr inż. Sondej Dominik\nNr zajęć: 4/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7193c1a48be1f472a1d4ab0e@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261022T080000
+DTEND;TZID=Europe/Warsaw:20261022T093500
+SUMMARY:PKE (w)
+LOCATION:19 47
+DESCRIPTION:Podstawy kompatybilności elektromagnetycznej PW\nRodzaj: wyk
+ ład\nProwadzący: dr hab inż. Nowosielski Leszek\nNr zajęć: 4/8\nBlok
+ : 1
+END:VEVENT
+BEGIN:VEVENT
+UID:43c996640eec8f124dc03db9@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261023T080000
+DTEND;TZID=Europe/Warsaw:20261023T093500
+SUMMARY:Swb (w)
+LOCATION:118 45
+DESCRIPTION:Systemy wbudowane\nRodzaj: wykład\nProwadzący: dr inż. Siec
+ zkowski Krzysztof\nNr zajęć: 4/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:53356f2d1f9c59126a41e144@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261023T095000
+DTEND;TZID=Europe/Warsaw:20261023T112500
+SUMMARY:Pulx (w)
+LOCATION:3.3 75
+DESCRIPTION:Programowanie w systemie Unix/Linux PW\nRodzaj: wykład\nProwa
+ dzący: dr inż. Bolek Cezary\nNr zajęć: 4/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:83316dfba6ec5523cc67ad63@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261023T114000
+DTEND;TZID=Europe/Warsaw:20261023T131500
+SUMMARY:TuP (w)
+LOCATION:2 45
+DESCRIPTION:Technika układów programowalnych\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Kwiatkowski Paweł\nNr zajęć: 6/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1db67243e238b34f7f401422@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261024T152000
+DTEND;TZID=Europe/Warsaw:20261024T165500
+SUMMARY:XOis2 (w)
+LOCATION:aE S
+DESCRIPTION:XObwody i sygnaly 2\nRodzaj: wykład\nProwadzący: dr inż. Sz
+ ulim Marek\nNr zajęć: 1/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:1d5d9d5f44ac126fa1930b29@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261024T171000
+DTEND;TZID=Europe/Warsaw:20261024T184500
+SUMMARY:XOis2 (w)
+LOCATION:aE S
+DESCRIPTION:XObwody i sygnaly 2\nRodzaj: wykład\nProwadzący: dr inż. Sz
+ ulim Marek\nNr zajęć: 2/7\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:808b5b1df0b344f971e76c9f@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261026T080000
+DTEND;TZID=Europe/Warsaw:20261026T093500
+SUMMARY:Spd (S)
+LOCATION:120 45
+DESCRIPTION:Seminaria przeddyplomowe\nRodzaj: seminarium\nNr zajęć: 1/4\
+ nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:760b395ff990439836c8e573@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261026T095000
+DTEND;TZID=Europe/Warsaw:20261026T112500
+SUMMARY:Spd (S)
+LOCATION:120 45
+DESCRIPTION:Seminaria przeddyplomowe\nRodzaj: seminarium\nNr zajęć: 2/4\
+ nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c5bea197da3637d3feb04ba0@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261026T114000
+DTEND;TZID=Europe/Warsaw:20261026T131500
+SUMMARY:Spd (S)
+LOCATION:120 45
+DESCRIPTION:Seminaria przeddyplomowe\nRodzaj: seminarium\nNr zajęć: 3/4\
+ nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:fecc8dc8faae42aadb15b8d2@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261026T133000
+DTEND;TZID=Europe/Warsaw:20261026T150500
+SUMMARY:Swtc (w)
+LOCATION:15 47
+DESCRIPTION:Sensory w technice cyfrowej\nRodzaj: wykład\nProwadzący: dr 
+ inż. Szymanowski Rafał\nNr zajęć: 5/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8b88f529741f4e7b02148cc6@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261027T080000
+DTEND;TZID=Europe/Warsaw:20261027T093500
+SUMMARY:SIP (w)
+LOCATION:15 47
+DESCRIPTION:Sieci IP\nRodzaj: wykład\nProwadzący: dr inż. Krygier Jaros
+ ław\nNr zajęć: 5/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:83ca1be1d214ef3660169c12@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261027T095000
+DTEND;TZID=Europe/Warsaw:20261027T112500
+SUMMARY:Pskr (w)
+LOCATION:117 47
+DESCRIPTION:Podstawy systemów kryptograficznych\nRodzaj: wykład\nProwadz
+ ący: prof. Sujecki Sławomir\nNr zajęć: 5/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:57a284c290f5ce160cddbe9c@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261027T114000
+DTEND;TZID=Europe/Warsaw:20261027T131500
+SUMMARY:PKE (w)
+LOCATION:19 47
+DESCRIPTION:Podstawy kompatybilności elektromagnetycznej PW\nRodzaj: wyk
+ ład\nProwadzący: dr hab inż. Nowosielski Leszek\nNr zajęć: 5/8\nBlok
+ : 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1f098b4b18d2cd62dc2cb34d@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261027T133000
+DTEND;TZID=Europe/Warsaw:20261027T150500
+SUMMARY:TuP (L)
+LOCATION:17 45\; 19 45
+DESCRIPTION:Technika układów programowalnych\nRodzaj: laboratorium\nProw
+ adzący: mgr inż. Mścichowski Mariusz\nNr zajęć: 1/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:91e9d5d1264d1c92def3b715@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261027T160000
+DTEND;TZID=Europe/Warsaw:20261027T173500
+SUMMARY:TuP (L)
+LOCATION:17 45\; 19 45
+DESCRIPTION:Technika układów programowalnych\nRodzaj: laboratorium\nProw
+ adzący: mgr inż. Mścichowski Mariusz\nNr zajęć: 2/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:d2f2a10cf237c944044399c1@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261028T080000
+DTEND;TZID=Europe/Warsaw:20261028T093500
+SUMMARY:Cps (w)
+LOCATION:15 47
+DESCRIPTION:Cyfrowe przetwarzanie sygnałów\nRodzaj: wykład\nProwadzący
+ : dr hab. inż. Łopatka Jerzy\nNr zajęć: 6/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c83721c078fc6065f12fce24@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261028T095000
+DTEND;TZID=Europe/Warsaw:20261028T112500
+SUMMARY:Prka (w)
+LOCATION:15 47
+DESCRIPTION:Programowanie komputerowych aplikacji użytkownika\nRodzaj: wy
+ kład\nProwadzący: dr inż. Dąbal Paweł\nNr zajęć: 6/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:011d44a30ab4135d450cdcc8@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261028T114000
+DTEND;TZID=Europe/Warsaw:20261028T131500
+SUMMARY:PSC (L)
+LOCATION:18 45\; 205 45
+DESCRIPTION:Projektowanie systemów cyfrowych\nRodzaj: laboratorium\nProwa
+ dzący: dr inż. Dąbal Paweł\nNr zajęć: 1/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7ee27c5bd4b783be8ce521d5@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261028T133000
+DTEND;TZID=Europe/Warsaw:20261028T150500
+SUMMARY:PSC (L)
+LOCATION:18 45\; 205 45
+DESCRIPTION:Projektowanie systemów cyfrowych\nRodzaj: laboratorium\nProwa
+ dzący: dr inż. Dąbal Paweł\nNr zajęć: 2/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:eb566e5b3a1a97d638438cd2@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261029T080000
+DTEND;TZID=Europe/Warsaw:20261029T093500
+SUMMARY:PKE (w)
+LOCATION:19 47
+DESCRIPTION:Podstawy kompatybilności elektromagnetycznej PW\nRodzaj: wyk
+ ład\nProwadzący: dr hab inż. Nowosielski Leszek\nNr zajęć: 6/8\nBlok
+ : 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ff39fd26e4e1e3ce7adf7959@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261029T095000
+DTEND;TZID=Europe/Warsaw:20261029T112500
+SUMMARY:Swb (w)
+LOCATION:117 47
+DESCRIPTION:Systemy wbudowane\nRodzaj: wykład\nProwadzący: dr inż. Siec
+ zkowski Krzysztof\nNr zajęć: 5/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f2ce0c2531075b4b19085722@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261029T114000
+DTEND;TZID=Europe/Warsaw:20261029T131500
+SUMMARY:SIP (w)
+LOCATION:3.7 75
+DESCRIPTION:Sieci IP\nRodzaj: wykład\nProwadzący: dr inż. Krygier Jaros
+ ław\nNr zajęć: 6/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a478c9cd1aafbb5d4a1f887e@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261030T080000
+DTEND;TZID=Europe/Warsaw:20261030T093500
+SUMMARY:SIP (w)
+LOCATION:3.3 75
+DESCRIPTION:Sieci IP\nRodzaj: wykład\nProwadzący: dr inż. Krygier Jaros
+ ław\nNr zajęć: 7/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:91a8aae63e15800221516d1d@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261030T095000
+DTEND;TZID=Europe/Warsaw:20261030T112500
+SUMMARY:Pulx (w)
+LOCATION:3.3 75
+DESCRIPTION:Programowanie w systemie Unix/Linux PW\nRodzaj: wykład\nProwa
+ dzący: dr inż. Bolek Cezary\nNr zajęć: 5/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6db5f50ab5102f6ccce1d5ae@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261031T114000
+DTEND;TZID=Europe/Warsaw:20261031T131500
+SUMMARY:XOis2 (w)
+LOCATION:aE S
+DESCRIPTION:XObwody i sygnaly 2\nRodzaj: wykład\nProwadzący: dr inż. Sz
+ ulim Marek\nNr zajęć: 3/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5d5258a4067dd9657728243e@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261031T133000
+DTEND;TZID=Europe/Warsaw:20261031T150500
+SUMMARY:XOis2 (w)
+LOCATION:aE S
+DESCRIPTION:XObwody i sygnaly 2\nRodzaj: wykład\nProwadzący: dr inż. Sz
+ ulim Marek\nNr zajęć: 4/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1b99e8f743e729b7682365cc@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261102T080000
+DTEND;TZID=Europe/Warsaw:20261102T093500
+SUMMARY:Prka (w)
+LOCATION:116 45
+DESCRIPTION:Programowanie komputerowych aplikacji użytkownika\nRodzaj: wy
+ kład\nProwadzący: dr inż. Dąbal Paweł\nNr zajęć: 7/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a032bfd92db76577610bf995@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261102T095000
+DTEND;TZID=Europe/Warsaw:20261102T112500
+SUMMARY:Sym (w)
+LOCATION:2 45
+DESCRIPTION:Systemy mikroprocesorowe\nRodzaj: wykład\nProwadzący: dr hab
+ . inż. Sondej Tadeusz\nNr zajęć: 3/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:016b9e85dc3ecbdc018a2b88@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261102T114000
+DTEND;TZID=Europe/Warsaw:20261102T131500
+SUMMARY:PuEl (L)
+LOCATION:116 61
+DESCRIPTION:Prototypowanie układów elektronicznych\nRodzaj: laboratorium
+ \nProwadzący: mgr inż. Kapski Adrian\nNr zajęć: 3/18\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b2e84bfdb209b54251833b69@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261102T133000
+DTEND;TZID=Europe/Warsaw:20261102T150500
+SUMMARY:PuEl (L)
+LOCATION:116 61
+DESCRIPTION:Prototypowanie układów elektronicznych\nRodzaj: laboratorium
+ \nProwadzący: mgr inż. Kapski Adrian\nNr zajęć: 4/18\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:478416f662cbb2213ee3aa3f@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261103T080000
+DTEND;TZID=Europe/Warsaw:20261103T093500
+SUMMARY:Cps (w)
+LOCATION:117 47
+DESCRIPTION:Cyfrowe przetwarzanie sygnałów\nRodzaj: wykład\nProwadzący
+ : dr hab. inż. Łopatka Jerzy\nNr zajęć: 7/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:375a5f5bb3d8b7b7ca073998@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261103T095000
+DTEND;TZID=Europe/Warsaw:20261103T112500
+SUMMARY:Pskr (w)
+LOCATION:15 47
+DESCRIPTION:Podstawy systemów kryptograficznych\nRodzaj: wykład\nProwadz
+ ący: prof. Sujecki Sławomir\nNr zajęć: 6/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2560ef6b3da653235a9f62f1@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261103T114000
+DTEND;TZID=Europe/Warsaw:20261103T131500
+SUMMARY:PKE (w)
+LOCATION:19 47
+DESCRIPTION:Podstawy kompatybilności elektromagnetycznej PW\nRodzaj: wyk
+ ład\nProwadzący: dr hab inż. Nowosielski Leszek\nNr zajęć: 7/8\nBlok
+ : 3
+END:VEVENT
+BEGIN:VEVENT
+UID:dee0a955ae711a32cf7f5b0d@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261104T080000
+DTEND;TZID=Europe/Warsaw:20261104T093500
+SUMMARY:Cps (w)
+LOCATION:15 47
+DESCRIPTION:Cyfrowe przetwarzanie sygnałów\nRodzaj: wykład\nProwadzący
+ : dr hab. inż. Łopatka Jerzy\nNr zajęć: 8/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:bf7fd6e4511b0603af7bd9a2@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261104T095000
+DTEND;TZID=Europe/Warsaw:20261104T112500
+SUMMARY:Sym (w)
+LOCATION:117 47
+DESCRIPTION:Systemy mikroprocesorowe\nRodzaj: wykład\nProwadzący: dr hab
+ . inż. Sondej Tadeusz\nNr zajęć: 4/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3234ee079cad66547d2cb2d2@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261107T114000
+DTEND;TZID=Europe/Warsaw:20261107T131500
+SUMMARY:XOis2 (w)
+LOCATION:aE S
+DESCRIPTION:XObwody i sygnaly 2\nRodzaj: wykład\nProwadzący: dr inż. Sz
+ ulim Marek\nNr zajęć: 5/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:efd2f4ec6efde0984bfb6a16@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261107T133000
+DTEND;TZID=Europe/Warsaw:20261107T150500
+SUMMARY:XOis2 (w)
+LOCATION:aE S
+DESCRIPTION:XObwody i sygnaly 2\nRodzaj: wykład\nProwadzący: dr inż. Sz
+ ulim Marek\nNr zajęć: 6/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2f43c17b83cb1cfe61f1525f@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261109T095000
+DTEND;TZID=Europe/Warsaw:20261109T112500
+SUMMARY:Sym (w)
+LOCATION:117 45
+DESCRIPTION:Systemy mikroprocesorowe\nRodzaj: wykład\nProwadzący: dr hab
+ . inż. Sondej Tadeusz\nNr zajęć: 5/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:31fa4695ab0eb6385e47523c@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261109T114000
+DTEND;TZID=Europe/Warsaw:20261109T131500
+SUMMARY:Cps (L)
+LOCATION:2.16 42
+DESCRIPTION:Cyfrowe przetwarzanie sygnałów\nRodzaj: laboratorium\nNr zaj
+ ęć: 1/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:50170e9e72dc80181d0741af@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261109T133000
+DTEND;TZID=Europe/Warsaw:20261109T150500
+SUMMARY:Cps (L)
+LOCATION:2.16 42
+DESCRIPTION:Cyfrowe przetwarzanie sygnałów\nRodzaj: laboratorium\nNr zaj
+ ęć: 2/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:737ea63a935ae4b21e45ffa6@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261109T160000
+DTEND;TZID=Europe/Warsaw:20261109T173500
+SUMMARY:Swb (w)
+LOCATION:117 47
+DESCRIPTION:Systemy wbudowane\nRodzaj: wykład\nProwadzący: dr inż. Siec
+ zkowski Krzysztof\nNr zajęć: 6/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:1903d24b48a86fe9f3618929@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261110T080000
+DTEND;TZID=Europe/Warsaw:20261110T093500
+SUMMARY:SIP (w)
+LOCATION:117 47
+DESCRIPTION:Sieci IP\nRodzaj: wykład\nProwadzący: dr inż. Krygier Jaros
+ ław\nNr zajęć: 8/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4ac77dff23f678fb846eb225@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261110T095000
+DTEND;TZID=Europe/Warsaw:20261110T112500
+SUMMARY:PKE (w)
+LOCATION:15 47
+DESCRIPTION:Podstawy kompatybilności elektromagnetycznej PW\nRodzaj: wyk
+ ład\nProwadzący: dr hab inż. Nowosielski Leszek\nNr zajęć: 8/8\nBlok
+ : 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a244b2876c180cf9e286a14c@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261110T114000
+DTEND;TZID=Europe/Warsaw:20261110T131500
+SUMMARY:Pskr (w)
+LOCATION:19 47
+DESCRIPTION:Podstawy systemów kryptograficznych\nRodzaj: wykład\nProwadz
+ ący: prof. Sujecki Sławomir\nNr zajęć: 7/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:bc2d30d6e588ef8f0a976ca0@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261110T133000
+DTEND;TZID=Europe/Warsaw:20261110T150500
+SUMMARY:PuEl (L)
+LOCATION:116 61
+DESCRIPTION:Prototypowanie układów elektronicznych\nRodzaj: laboratorium
+ \nProwadzący: mgr inż. Kapski Adrian\nNr zajęć: 5/18\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c8513b0c5d4fa8b4562d1ebb@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261110T160000
+DTEND;TZID=Europe/Warsaw:20261110T173500
+SUMMARY:PuEl (L)
+LOCATION:116 61
+DESCRIPTION:Prototypowanie układów elektronicznych\nRodzaj: laboratorium
+ \nProwadzący: mgr inż. Kapski Adrian\nNr zajęć: 6/18\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:9e2d2bf509eba6a8e27c23db@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261112T114000
+DTEND;TZID=Europe/Warsaw:20261112T131500
+SUMMARY:TuP (L)
+LOCATION:17 45\; 19 45
+DESCRIPTION:Technika układów programowalnych\nRodzaj: laboratorium\nProw
+ adzący: mgr inż. Mścichowski Mariusz\nNr zajęć: 3/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:95b0afb521707be6187588ab@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261112T133000
+DTEND;TZID=Europe/Warsaw:20261112T150500
+SUMMARY:TuP (L)
+LOCATION:17 45\; 19 45
+DESCRIPTION:Technika układów programowalnych\nRodzaj: laboratorium\nProw
+ adzący: mgr inż. Mścichowski Mariusz\nNr zajęć: 4/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a3ecd2d440430caba8db0e03@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261113T080000
+DTEND;TZID=Europe/Warsaw:20261113T093500
+SUMMARY:Pulx (L)
+LOCATION:12 47\; 35 47
+DESCRIPTION:Programowanie w systemie Unix/Linux PW\nRodzaj: laboratorium\n
+ Prowadzący: dr inż. Sawicki Krzysztof\nNr zajęć: 1/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:605a41b749d82c61d20b6577@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261113T095000
+DTEND;TZID=Europe/Warsaw:20261113T112500
+SUMMARY:Pulx (L)
+LOCATION:12 47\; 35 47
+DESCRIPTION:Programowanie w systemie Unix/Linux PW\nRodzaj: laboratorium\n
+ Prowadzący: dr inż. Sawicki Krzysztof\nNr zajęć: 2/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2712571054877b16396874b7@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261113T114000
+DTEND;TZID=Europe/Warsaw:20261113T131500
+SUMMARY:Sym (L)
+LOCATION:205 45
+DESCRIPTION:Systemy mikroprocesorowe\nRodzaj: laboratorium\nNr zajęć: 1/
+ 10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:dc21e6a72ab26ca85a6afcae@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261113T133000
+DTEND;TZID=Europe/Warsaw:20261113T150500
+SUMMARY:Sym (L)
+LOCATION:205 45
+DESCRIPTION:Systemy mikroprocesorowe\nRodzaj: laboratorium\nNr zajęć: 2/
+ 10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6c2d42649f0a9415b33efbf5@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261115T080000
+DTEND;TZID=Europe/Warsaw:20261115T093500
+SUMMARY:XOis2 (w)
+LOCATION:aE S
+DESCRIPTION:XObwody i sygnaly 2\nRodzaj: wykład\nProwadzący: dr inż. Sz
+ ulim Marek\nNr zajęć: 7/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1b80fc3257bc4fbe1d671871@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261115T095000
+DTEND;TZID=Europe/Warsaw:20261115T112500
+SUMMARY:XOis2 (ć)
+LOCATION:315b S
+DESCRIPTION:XObwody i sygnaly 2\nRodzaj: ćwiczenia\nNr zajęć: 1/7\nBlok
+ : 2
+END:VEVENT
+BEGIN:VEVENT
+UID:fa98a7dd8dd930eea921de89@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261115T114000
+DTEND;TZID=Europe/Warsaw:20261115T131500
+SUMMARY:XOis2 (ć)
+LOCATION:315b S
+DESCRIPTION:XObwody i sygnaly 2\nRodzaj: ćwiczenia\nNr zajęć: 2/7\nBlok
+ : 3
+END:VEVENT
+BEGIN:VEVENT
+UID:bcdd81c92e870541d9fc7efb@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261116T080000
+DTEND;TZID=Europe/Warsaw:20261116T093500
+SUMMARY:Cps (L)
+LOCATION:2.16 42
+DESCRIPTION:Cyfrowe przetwarzanie sygnałów\nRodzaj: laboratorium\nNr zaj
+ ęć: 3/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:42f494ae6e0f4f52d877e519@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261116T095000
+DTEND;TZID=Europe/Warsaw:20261116T112500
+SUMMARY:Cps (L)
+LOCATION:2.16 42
+DESCRIPTION:Cyfrowe przetwarzanie sygnałów\nRodzaj: laboratorium\nNr zaj
+ ęć: 4/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:001bc0af2093669d889bb411@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261116T114000
+DTEND;TZID=Europe/Warsaw:20261116T131500
+SUMMARY:PuEl (L)
+LOCATION:111 61
+DESCRIPTION:Prototypowanie układów elektronicznych\nRodzaj: laboratorium
+ \nProwadzący: mgr inż. Kapski Adrian\nNr zajęć: 7/18\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4779b5bac329558749a80708@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261116T133000
+DTEND;TZID=Europe/Warsaw:20261116T150500
+SUMMARY:PuEl (L)
+LOCATION:111 61
+DESCRIPTION:Prototypowanie układów elektronicznych\nRodzaj: laboratorium
+ \nProwadzący: mgr inż. Kapski Adrian\nNr zajęć: 8/18\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:98334e17ce650d669a8407b3@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261117T095000
+DTEND;TZID=Europe/Warsaw:20261117T112500
+SUMMARY:PKE (ć)
+LOCATION:35 61a
+DESCRIPTION:Podstawy kompatybilności elektromagnetycznej PW\nRodzaj: ćwi
+ czenia\nProwadzący: mgr inż. Piwowarczyk Kazimierz\nNr zajęć: 1/3\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f882498a6f22263999aab0dd@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261117T114000
+DTEND;TZID=Europe/Warsaw:20261117T131500
+SUMMARY:Sym (L)
+LOCATION:205 45
+DESCRIPTION:Systemy mikroprocesorowe\nRodzaj: laboratorium\nNr zajęć: 3/
+ 10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8130ee650348bd429e89876a@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261117T133000
+DTEND;TZID=Europe/Warsaw:20261117T150500
+SUMMARY:Sym (L)
+LOCATION:205 45
+DESCRIPTION:Systemy mikroprocesorowe\nRodzaj: laboratorium\nNr zajęć: 4/
+ 10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:50a614b946ffced0927bcd0e@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261118T080000
+DTEND;TZID=Europe/Warsaw:20261118T093500
+SUMMARY:TuP (L)
+LOCATION:17 45\; 19 45
+DESCRIPTION:Technika układów programowalnych\nRodzaj: laboratorium\nProw
+ adzący: mgr inż. Mścichowski Mariusz\nNr zajęć: 5/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d37670df94417324f82a5aa1@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261118T095000
+DTEND;TZID=Europe/Warsaw:20261118T112500
+SUMMARY:TuP (L)
+LOCATION:17 45\; 19 45
+DESCRIPTION:Technika układów programowalnych\nRodzaj: laboratorium\nProw
+ adzący: mgr inż. Mścichowski Mariusz\nNr zajęć: 6/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0ce506422c7fad4c20399719@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261118T114000
+DTEND;TZID=Europe/Warsaw:20261118T131500
+SUMMARY:PSC (L)
+LOCATION:18 45\; 205 45
+DESCRIPTION:Projektowanie systemów cyfrowych\nRodzaj: laboratorium\nProwa
+ dzący: dr inż. Dąbal Paweł\nNr zajęć: 3/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:bc63fc198af9ad326b0436b8@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261118T133000
+DTEND;TZID=Europe/Warsaw:20261118T150500
+SUMMARY:PSC (L)
+LOCATION:18 45\; 205 45
+DESCRIPTION:Projektowanie systemów cyfrowych\nRodzaj: laboratorium\nProwa
+ dzący: dr inż. Dąbal Paweł\nNr zajęć: 4/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4f45b51f814d32f3b92c770b@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261118T175000
+DTEND;TZID=Europe/Warsaw:20261118T192500
+SUMMARY:XPps (w)
+LOCATION:35 61a
+DESCRIPTION:XPodstawy przetwarzania sygnałów\nRodzaj: wykład\nProwadzą
+ cy: dr hab. inż. Leśnik Czesław\nNr zajęć: 3/9\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:2df517b30ee7621c5adedf0b@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261118T194000
+DTEND;TZID=Europe/Warsaw:20261118T211500
+SUMMARY:XPps (w)
+LOCATION:35 61a
+DESCRIPTION:XPodstawy przetwarzania sygnałów\nRodzaj: wykład\nProwadzą
+ cy: dr hab. inż. Leśnik Czesław\nNr zajęć: 4/9\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:bfcbf286d8516dfe5683e4f2@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261120T080000
+DTEND;TZID=Europe/Warsaw:20261120T093500
+SUMMARY:Pulx (L)
+LOCATION:12 47\; 35 47
+DESCRIPTION:Programowanie w systemie Unix/Linux PW\nRodzaj: laboratorium\n
+ Prowadzący: dr inż. Sawicki Krzysztof\nNr zajęć: 3/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:032985fe259e835f375b8aaf@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261120T095000
+DTEND;TZID=Europe/Warsaw:20261120T112500
+SUMMARY:Pulx (L)
+LOCATION:12 47\; 35 47
+DESCRIPTION:Programowanie w systemie Unix/Linux PW\nRodzaj: laboratorium\n
+ Prowadzący: dr inż. Sawicki Krzysztof\nNr zajęć: 4/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:16a6414d9208cd20a5fdc3c0@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261120T114000
+DTEND;TZID=Europe/Warsaw:20261120T131500
+SUMMARY:SIP (S)
+LOCATION:19 47
+DESCRIPTION:Sieci IP\nRodzaj: seminarium\nProwadzący: dr inż. Krygier Ja
+ rosław\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5c262cb3c335c492b534e922@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261120T133000
+DTEND;TZID=Europe/Warsaw:20261120T150500
+SUMMARY:Swb (w)
+LOCATION:18 45
+DESCRIPTION:Systemy wbudowane\nRodzaj: wykład\nProwadzący: dr inż. Siec
+ zkowski Krzysztof\nNr zajęć: 7/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2fed24ffe0080ef877862a4c@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261123T114000
+DTEND;TZID=Europe/Warsaw:20261123T131500
+SUMMARY:PuEl (L)
+LOCATION:111 61
+DESCRIPTION:Prototypowanie układów elektronicznych\nRodzaj: laboratorium
+ \nProwadzący: mgr inż. Kapski Adrian\nNr zajęć: 9/18\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7bcdbfd1dcf259f5e16eee05@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261123T133000
+DTEND;TZID=Europe/Warsaw:20261123T150500
+SUMMARY:PuEl (L)
+LOCATION:111 61
+DESCRIPTION:Prototypowanie układów elektronicznych\nRodzaj: laboratorium
+ \nProwadzący: mgr inż. Kapski Adrian\nNr zajęć: 10/18\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:16274a07d5147367057bc13b@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261124T080000
+DTEND;TZID=Europe/Warsaw:20261124T093500
+SUMMARY:Sym (L)
+LOCATION:205 45
+DESCRIPTION:Systemy mikroprocesorowe\nRodzaj: laboratorium\nNr zajęć: 5/
+ 10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5d6461fc61fd0a8ad428fda7@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261124T095000
+DTEND;TZID=Europe/Warsaw:20261124T112500
+SUMMARY:Sym (L)
+LOCATION:205 45
+DESCRIPTION:Systemy mikroprocesorowe\nRodzaj: laboratorium\nNr zajęć: 6/
+ 10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:458ef7659654fac2037baba7@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261124T114000
+DTEND;TZID=Europe/Warsaw:20261124T131500
+SUMMARY:SIP (L)
+LOCATION:119 47\; 124 47
+DESCRIPTION:Sieci IP\nRodzaj: laboratorium\nNr zajęć: 1/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:db9dbd421443574e1ed904a7@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261124T133000
+DTEND;TZID=Europe/Warsaw:20261124T150500
+SUMMARY:SIP (L)
+LOCATION:119 47\; 124 47
+DESCRIPTION:Sieci IP\nRodzaj: laboratorium\nNr zajęć: 2/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:58b6121dcab2de395d091d25@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261125T080000
+DTEND;TZID=Europe/Warsaw:20261125T093500
+SUMMARY:Pskr (ć)
+LOCATION:22 47
+DESCRIPTION:Podstawy systemów kryptograficznych\nRodzaj: ćwiczenia\nNr z
+ ajęć: 1/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4f6fee1d4738283b87659bfe@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261125T095000
+DTEND;TZID=Europe/Warsaw:20261125T112500
+SUMMARY:Pskr (ć)
+LOCATION:22 47
+DESCRIPTION:Podstawy systemów kryptograficznych\nRodzaj: ćwiczenia\nNr z
+ ajęć: 2/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:12b866dd67665ce666ab7b16@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261125T114000
+DTEND;TZID=Europe/Warsaw:20261125T131500
+SUMMARY:PSC (L)
+LOCATION:18 45\; 205 45
+DESCRIPTION:Projektowanie systemów cyfrowych\nRodzaj: laboratorium\nProwa
+ dzący: dr inż. Dąbal Paweł\nNr zajęć: 5/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:43852f3996e2aa02a2d0286d@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261125T133000
+DTEND;TZID=Europe/Warsaw:20261125T150500
+SUMMARY:PSC (L)
+LOCATION:18 45\; 205 45
+DESCRIPTION:Projektowanie systemów cyfrowych\nRodzaj: laboratorium\nProwa
+ dzący: dr inż. Dąbal Paweł\nNr zajęć: 6/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6f969b2d03d0170567f4faf2@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261125T175000
+DTEND;TZID=Europe/Warsaw:20261125T192500
+SUMMARY:XPps (w)
+LOCATION:35 61a
+DESCRIPTION:XPodstawy przetwarzania sygnałów\nRodzaj: wykład\nProwadzą
+ cy: dr hab. inż. Leśnik Czesław\nNr zajęć: 5/9\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:9c7aadda7bc920d2dbfaa18a@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261125T194000
+DTEND;TZID=Europe/Warsaw:20261125T211500
+SUMMARY:XPps (w)
+LOCATION:35 61a
+DESCRIPTION:XPodstawy przetwarzania sygnałów\nRodzaj: wykład\nProwadzą
+ cy: dr hab. inż. Leśnik Czesław\nNr zajęć: 6/9\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:5f13fdfc13102b4b6df38ec9@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261126T080000
+DTEND;TZID=Europe/Warsaw:20261126T093500
+SUMMARY:Cps (L)
+LOCATION:2.16 42
+DESCRIPTION:Cyfrowe przetwarzanie sygnałów\nRodzaj: laboratorium\nNr zaj
+ ęć: 5/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d0c4bc9f656e06a27e2e7662@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261126T095000
+DTEND;TZID=Europe/Warsaw:20261126T112500
+SUMMARY:Cps (L)
+LOCATION:2.16 42
+DESCRIPTION:Cyfrowe przetwarzanie sygnałów\nRodzaj: laboratorium\nNr zaj
+ ęć: 6/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:441261c3b56873b04aa98a67@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261126T114000
+DTEND;TZID=Europe/Warsaw:20261126T131500
+SUMMARY:TuP (L)
+LOCATION:17 45\; 19 45
+DESCRIPTION:Technika układów programowalnych\nRodzaj: laboratorium\nProw
+ adzący: mgr inż. Mścichowski Mariusz\nNr zajęć: 7/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:72f71488508c93cfe1b9257f@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261126T133000
+DTEND;TZID=Europe/Warsaw:20261126T150500
+SUMMARY:TuP (L)
+LOCATION:17 45\; 19 45
+DESCRIPTION:Technika układów programowalnych\nRodzaj: laboratorium\nProw
+ adzący: mgr inż. Mścichowski Mariusz\nNr zajęć: 8/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:11cdc654552f51927570b84c@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261130T080000
+DTEND;TZID=Europe/Warsaw:20261130T093500
+SUMMARY:PSC (P)
+LOCATION:15 45
+DESCRIPTION:Projektowanie systemów cyfrowych\nRodzaj: projekt\nProwadząc
+ y: dr inż. Sondej Dominik\nNr zajęć: 1/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5e8be624428d71e2d9140e16@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261130T095000
+DTEND;TZID=Europe/Warsaw:20261130T112500
+SUMMARY:PSC (P)
+LOCATION:15 45
+DESCRIPTION:Projektowanie systemów cyfrowych\nRodzaj: projekt\nProwadząc
+ y: dr inż. Sondej Dominik\nNr zajęć: 2/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7444dffb5d40d2c9ef30677a@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261130T114000
+DTEND;TZID=Europe/Warsaw:20261130T131500
+SUMMARY:PSC (P)
+LOCATION:15 45
+DESCRIPTION:Projektowanie systemów cyfrowych\nRodzaj: projekt\nProwadząc
+ y: dr inż. Sondej Dominik\nNr zajęć: 3/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b4deff99ebf31b1e6901d8de@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261130T175000
+DTEND;TZID=Europe/Warsaw:20261130T192500
+SUMMARY:XPps (w)
+LOCATION:35 61a
+DESCRIPTION:XPodstawy przetwarzania sygnałów\nRodzaj: wykład\nProwadzą
+ cy: dr hab. inż. Leśnik Czesław\nNr zajęć: 7/9\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:4222d646fc31828aff23d0d6@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261201T080000
+DTEND;TZID=Europe/Warsaw:20261201T093500
+SUMMARY:PKE (ć)
+LOCATION:3.3 75
+DESCRIPTION:Podstawy kompatybilności elektromagnetycznej PW\nRodzaj: ćwi
+ czenia\nProwadzący: mgr inż. Piwowarczyk Kazimierz\nNr zajęć: 2/3\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d13666df3266f8e5a409c48a@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261201T095000
+DTEND;TZID=Europe/Warsaw:20261201T112500
+SUMMARY:Pskr (ć)
+LOCATION:22 47
+DESCRIPTION:Podstawy systemów kryptograficznych\nRodzaj: ćwiczenia\nNr z
+ ajęć: 3/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:03f754cdc9327d11428fb28a@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261201T114000
+DTEND;TZID=Europe/Warsaw:20261201T131500
+SUMMARY:Sym (L)
+LOCATION:205 45
+DESCRIPTION:Systemy mikroprocesorowe\nRodzaj: laboratorium\nNr zajęć: 7/
+ 10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d6c53c9efb87577b031d5f3e@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261201T133000
+DTEND;TZID=Europe/Warsaw:20261201T150500
+SUMMARY:Sym (L)
+LOCATION:205 45
+DESCRIPTION:Systemy mikroprocesorowe\nRodzaj: laboratorium\nNr zajęć: 8/
+ 10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:cf7c38138b933878325d8e47@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261202T080000
+DTEND;TZID=Europe/Warsaw:20261202T093500
+SUMMARY:Swtc (L)
+LOCATION:17 45
+DESCRIPTION:Sensory w technice cyfrowej\nRodzaj: laboratorium\nProwadzący
+ : por. mgr inż. Ślązak Paweł\nNr zajęć: 1/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:904195cbdb3a59575b32960c@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261202T095000
+DTEND;TZID=Europe/Warsaw:20261202T112500
+SUMMARY:Swtc (L)
+LOCATION:17 45
+DESCRIPTION:Sensory w technice cyfrowej\nRodzaj: laboratorium\nProwadzący
+ : por. mgr inż. Ślązak Paweł\nNr zajęć: 2/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2f764a92b109ebeddabcb86d@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261202T114000
+DTEND;TZID=Europe/Warsaw:20261202T131500
+SUMMARY:Swb (L)
+LOCATION:18 45
+DESCRIPTION:Systemy wbudowane\nRodzaj: laboratorium\nProwadzący: dr inż.
+  Dąbal Paweł\nNr zajęć: 1/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:fb5d4e71337506b1e97ef5f5@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261202T133000
+DTEND;TZID=Europe/Warsaw:20261202T150500
+SUMMARY:Swb (L)
+LOCATION:18 45
+DESCRIPTION:Systemy wbudowane\nRodzaj: laboratorium\nProwadzący: dr inż.
+  Dąbal Paweł\nNr zajęć: 2/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1149917191332fc81f0e83ca@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261207T080000
+DTEND;TZID=Europe/Warsaw:20261207T093500
+SUMMARY:Swtc (L)
+LOCATION:17 45
+DESCRIPTION:Sensory w technice cyfrowej\nRodzaj: laboratorium\nProwadzący
+ : por. mgr inż. Ślązak Paweł\nNr zajęć: 3/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:bcb8fbbab5387546e7ff5551@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261207T095000
+DTEND;TZID=Europe/Warsaw:20261207T112500
+SUMMARY:Swtc (L)
+LOCATION:17 45
+DESCRIPTION:Sensory w technice cyfrowej\nRodzaj: laboratorium\nProwadzący
+ : por. mgr inż. Ślązak Paweł\nNr zajęć: 4/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:28a35dd8b9100385932f20b9@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261207T114000
+DTEND;TZID=Europe/Warsaw:20261207T131500
+SUMMARY:PuEl (L)
+LOCATION:111 61
+DESCRIPTION:Prototypowanie układów elektronicznych\nRodzaj: laboratorium
+ \nProwadzący: mgr inż. Kapski Adrian\nNr zajęć: 11/18\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a1b549790b249b9c65a02ced@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261207T133000
+DTEND;TZID=Europe/Warsaw:20261207T150500
+SUMMARY:PuEl (L)
+LOCATION:111 61
+DESCRIPTION:Prototypowanie układów elektronicznych\nRodzaj: laboratorium
+ \nProwadzący: mgr inż. Kapski Adrian\nNr zajęć: 12/18\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:194b3ccf7d68be6ce0f90e13@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261207T175000
+DTEND;TZID=Europe/Warsaw:20261207T192500
+SUMMARY:XPps (w)
+LOCATION:35 61a
+DESCRIPTION:XPodstawy przetwarzania sygnałów\nRodzaj: wykład\nProwadzą
+ cy: dr hab. inż. Leśnik Czesław\nNr zajęć: 8/9\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:b80aa4231ae7be360f4ebad0@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261208T080000
+DTEND;TZID=Europe/Warsaw:20261208T093500
+SUMMARY:PKE (L)
+LOCATION:7 29\; 8 29
+DESCRIPTION:Podstawy kompatybilności elektromagnetycznej PW\nRodzaj: labo
+ ratorium\nNr zajęć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b9591a9da4357ec60bcfecb2@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261208T095000
+DTEND;TZID=Europe/Warsaw:20261208T112500
+SUMMARY:PKE (L)
+LOCATION:7 29\; 8 29
+DESCRIPTION:Podstawy kompatybilności elektromagnetycznej PW\nRodzaj: labo
+ ratorium\nNr zajęć: 2/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e36b0210499cbdc881fdade6@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261208T114000
+DTEND;TZID=Europe/Warsaw:20261208T131500
+SUMMARY:Pskr (L)
+LOCATION:12 47\; 22 47\; 21 47
+DESCRIPTION:Podstawy systemów kryptograficznych\nRodzaj: laboratorium\nNr
+  zajęć: 1/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:49a872aee6089b57de805546@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261208T133000
+DTEND;TZID=Europe/Warsaw:20261208T150500
+SUMMARY:Pskr (L)
+LOCATION:12 47\; 22 47\; 21 47
+DESCRIPTION:Podstawy systemów kryptograficznych\nRodzaj: laboratorium\nNr
+  zajęć: 2/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c7df29df343f1b6d4d0905e7@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261209T080000
+DTEND;TZID=Europe/Warsaw:20261209T093500
+SUMMARY:Sym (L)
+LOCATION:205 45
+DESCRIPTION:Systemy mikroprocesorowe\nRodzaj: laboratorium\nNr zajęć: 9/
+ 10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ade673e19bdadb46f165b437@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261209T095000
+DTEND;TZID=Europe/Warsaw:20261209T112500
+SUMMARY:Sym (L)
+LOCATION:205 45
+DESCRIPTION:Systemy mikroprocesorowe\nRodzaj: laboratorium\nNr zajęć: 10
+ /10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c4894e14bf8dafe2b8bfaef0@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261209T114000
+DTEND;TZID=Europe/Warsaw:20261209T131500
+SUMMARY:Cps (S)
+LOCATION:15 47
+DESCRIPTION:Cyfrowe przetwarzanie sygnałów\nRodzaj: seminarium\nProwadz
+ ący: dr hab. inż. Łopatka Jerzy\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ec5330b2320badacb0b3aa79@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261211T080000
+DTEND;TZID=Europe/Warsaw:20261211T093500
+SUMMARY:PSC (P)
+LOCATION:15 45
+DESCRIPTION:Projektowanie systemów cyfrowych\nRodzaj: projekt\nProwadząc
+ y: dr inż. Sondej Dominik\nNr zajęć: 4/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:02db30335cad74a5ef562e3d@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261211T095000
+DTEND;TZID=Europe/Warsaw:20261211T112500
+SUMMARY:PSC (P)
+LOCATION:15 45
+DESCRIPTION:Projektowanie systemów cyfrowych\nRodzaj: projekt\nProwadząc
+ y: dr inż. Sondej Dominik\nNr zajęć: 5/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:84f6ab587a2605ea704705f8@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261211T114000
+DTEND;TZID=Europe/Warsaw:20261211T131500
+SUMMARY:PSC (P)
+LOCATION:15 45
+DESCRIPTION:Projektowanie systemów cyfrowych\nRodzaj: projekt\nProwadząc
+ y: dr inż. Sondej Dominik\nNr zajęć: 6/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4b76c7a3fbbfbac06d8e4fb0@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261212T152000
+DTEND;TZID=Europe/Warsaw:20261212T165500
+SUMMARY:XOis2 (ć)
+LOCATION:315b S
+DESCRIPTION:XObwody i sygnaly 2\nRodzaj: ćwiczenia\nNr zajęć: 3/7\nBlok
+ : 5
+END:VEVENT
+BEGIN:VEVENT
+UID:3d3e571cb638508f8a14f8dc@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261212T171000
+DTEND;TZID=Europe/Warsaw:20261212T184500
+SUMMARY:XOis2 (ć)
+LOCATION:315b S
+DESCRIPTION:XObwody i sygnaly 2\nRodzaj: ćwiczenia\nNr zajęć: 4/7\nBlok
+ : 6
+END:VEVENT
+BEGIN:VEVENT
+UID:3b6b45881383b3ded298192d@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261214T080000
+DTEND;TZID=Europe/Warsaw:20261214T093500
+SUMMARY:Swtc (L)
+LOCATION:17 45
+DESCRIPTION:Sensory w technice cyfrowej\nRodzaj: laboratorium\nProwadzący
+ : por. mgr inż. Ślązak Paweł\nNr zajęć: 5/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d8e4204839e8a173221c3ff3@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261214T095000
+DTEND;TZID=Europe/Warsaw:20261214T112500
+SUMMARY:Swtc (L)
+LOCATION:17 45
+DESCRIPTION:Sensory w technice cyfrowej\nRodzaj: laboratorium\nProwadzący
+ : por. mgr inż. Ślązak Paweł\nNr zajęć: 6/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:48cc5edf854f6fdb0e0ed064@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261214T114000
+DTEND;TZID=Europe/Warsaw:20261214T131500
+SUMMARY:PuEl (L)
+LOCATION:116 61
+DESCRIPTION:Prototypowanie układów elektronicznych\nRodzaj: laboratorium
+ \nProwadzący: mgr inż. Kapski Adrian\nNr zajęć: 13/18\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:196311501f67024b45501dfe@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261214T133000
+DTEND;TZID=Europe/Warsaw:20261214T150500
+SUMMARY:PuEl (L)
+LOCATION:116 61
+DESCRIPTION:Prototypowanie układów elektronicznych\nRodzaj: laboratorium
+ \nProwadzący: mgr inż. Kapski Adrian\nNr zajęć: 14/18\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:38aaf440f762ded0dfb64e13@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261215T080000
+DTEND;TZID=Europe/Warsaw:20261215T093500
+SUMMARY:SIP (L)
+LOCATION:119 47\; 124 47
+DESCRIPTION:Sieci IP\nRodzaj: laboratorium\nNr zajęć: 3/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c34f801438d528b0ff5e68f3@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261215T095000
+DTEND;TZID=Europe/Warsaw:20261215T112500
+SUMMARY:SIP (L)
+LOCATION:119 47\; 124 47
+DESCRIPTION:Sieci IP\nRodzaj: laboratorium\nNr zajęć: 4/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0d5e484f68e2701e53e5fcae@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261215T114000
+DTEND;TZID=Europe/Warsaw:20261215T131500
+SUMMARY:Prka (L)
+LOCATION:18 45\; 205 45
+DESCRIPTION:Programowanie komputerowych aplikacji użytkownika\nRodzaj: la
+ boratorium\nNr zajęć: 1/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a3f29752ebc8106e41b40c03@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261215T133000
+DTEND;TZID=Europe/Warsaw:20261215T150500
+SUMMARY:Prka (L)
+LOCATION:18 45\; 205 45
+DESCRIPTION:Programowanie komputerowych aplikacji użytkownika\nRodzaj: la
+ boratorium\nNr zajęć: 2/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:847e86b4b7b5240212924bf6@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261216T080000
+DTEND;TZID=Europe/Warsaw:20261216T093500
+SUMMARY:Swb (L)
+LOCATION:18 45
+DESCRIPTION:Systemy wbudowane\nRodzaj: laboratorium\nProwadzący: dr inż.
+  Dąbal Paweł\nNr zajęć: 3/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:aedabe51ca3c5995cfdd41dc@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261216T095000
+DTEND;TZID=Europe/Warsaw:20261216T112500
+SUMMARY:Swb (L)
+LOCATION:18 45
+DESCRIPTION:Systemy wbudowane\nRodzaj: laboratorium\nProwadzący: dr inż.
+  Dąbal Paweł\nNr zajęć: 4/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:15955dd979769d22d4ae7295@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261217T080000
+DTEND;TZID=Europe/Warsaw:20261217T093500
+SUMMARY:PSC (P)
+LOCATION:15 45
+DESCRIPTION:Projektowanie systemów cyfrowych\nRodzaj: projekt\nProwadząc
+ y: dr inż. Sondej Dominik\nNr zajęć: 7/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c4f4e64832a673f5accda261@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261217T095000
+DTEND;TZID=Europe/Warsaw:20261217T112500
+SUMMARY:TuP (w)
+LOCATION:2 45
+DESCRIPTION:Technika układów programowalnych\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Kwiatkowski Paweł\nNr zajęć: 7/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e55ab6cc80b607f8334e5a16@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261217T114000
+DTEND;TZID=Europe/Warsaw:20261217T131500
+SUMMARY:Pulx (L)
+LOCATION:12 47\; 35 47
+DESCRIPTION:Programowanie w systemie Unix/Linux PW\nRodzaj: laboratorium\n
+ Prowadzący: dr inż. Sawicki Krzysztof\nNr zajęć: 5/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f54ab887390e07bc9854b0f6@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20261217T133000
+DTEND;TZID=Europe/Warsaw:20261217T150500
+SUMMARY:Pulx (L)
+LOCATION:12 47\; 35 47
+DESCRIPTION:Programowanie w systemie Unix/Linux PW\nRodzaj: laboratorium\n
+ Prowadzący: dr inż. Sawicki Krzysztof\nNr zajęć: 6/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b75db52948d14995d62b5247@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20270107T095000
+DTEND;TZID=Europe/Warsaw:20270107T112500
+SUMMARY:PSC (S)
+LOCATION:15 45
+DESCRIPTION:Projektowanie systemów cyfrowych\nRodzaj: seminarium\nNr zaj
+ ęć: 1/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0c6d40f0be932a0e0a8d9e9d@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20270107T114000
+DTEND;TZID=Europe/Warsaw:20270107T131500
+SUMMARY:Pulx (L)
+LOCATION:12 47\; 35 47
+DESCRIPTION:Programowanie w systemie Unix/Linux PW\nRodzaj: laboratorium\n
+ Prowadzący: dr inż. Sawicki Krzysztof\nNr zajęć: 7/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:06492bde2ef19273c5c36fa4@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20270107T133000
+DTEND;TZID=Europe/Warsaw:20270107T150500
+SUMMARY:Pulx (L)
+LOCATION:12 47\; 35 47
+DESCRIPTION:Programowanie w systemie Unix/Linux PW\nRodzaj: laboratorium\n
+ Prowadzący: dr inż. Sawicki Krzysztof\nNr zajęć: 8/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3c97dcd205ad07e229e3a111@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20270111T080000
+DTEND;TZID=Europe/Warsaw:20270111T093500
+SUMMARY:Swtc (L)
+LOCATION:17 45
+DESCRIPTION:Sensory w technice cyfrowej\nRodzaj: laboratorium\nProwadzący
+ : por. mgr inż. Ślązak Paweł\nNr zajęć: 7/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8e1060fafd4ef6d35a9f7615@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20270111T095000
+DTEND;TZID=Europe/Warsaw:20270111T112500
+SUMMARY:Swtc (L)
+LOCATION:17 45
+DESCRIPTION:Sensory w technice cyfrowej\nRodzaj: laboratorium\nProwadzący
+ : por. mgr inż. Ślązak Paweł\nNr zajęć: 8/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:218b433366ccbde2b2def81b@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20270111T114000
+DTEND;TZID=Europe/Warsaw:20270111T131500
+SUMMARY:PuEl (L)
+LOCATION:116 61
+DESCRIPTION:Prototypowanie układów elektronicznych\nRodzaj: laboratorium
+ \nProwadzący: mgr inż. Kapski Adrian\nNr zajęć: 15/18\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ae8f43b5db5b605288136a2d@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20270111T133000
+DTEND;TZID=Europe/Warsaw:20270111T150500
+SUMMARY:PuEl (L)
+LOCATION:116 61
+DESCRIPTION:Prototypowanie układów elektronicznych\nRodzaj: laboratorium
+ \nProwadzący: mgr inż. Kapski Adrian\nNr zajęć: 16/18\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1830f4ffef4052b2ee90e02b@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20270112T080000
+DTEND;TZID=Europe/Warsaw:20270112T093500
+SUMMARY:SIP (L)
+LOCATION:119 47\; 124 47
+DESCRIPTION:Sieci IP\nRodzaj: laboratorium\nNr zajęć: 5/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a39e73cbafaf6758344c792d@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20270112T095000
+DTEND;TZID=Europe/Warsaw:20270112T112500
+SUMMARY:SIP (L)
+LOCATION:119 47\; 124 47
+DESCRIPTION:Sieci IP\nRodzaj: laboratorium\nNr zajęć: 6/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f04204a5d59e249cef8f35fc@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20270112T114000
+DTEND;TZID=Europe/Warsaw:20270112T131500
+SUMMARY:Prka (L)
+LOCATION:18 45\; 205 45
+DESCRIPTION:Programowanie komputerowych aplikacji użytkownika\nRodzaj: la
+ boratorium\nNr zajęć: 3/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2c6a2ac385376f10058cdded@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20270112T133000
+DTEND;TZID=Europe/Warsaw:20270112T150500
+SUMMARY:Prka (L)
+LOCATION:18 45\; 205 45
+DESCRIPTION:Programowanie komputerowych aplikacji użytkownika\nRodzaj: la
+ boratorium\nNr zajęć: 4/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0cf0d26683e86b41f72bbecd@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20270113T080000
+DTEND;TZID=Europe/Warsaw:20270113T093500
+SUMMARY:PKE (L)
+LOCATION:7 29\; 8 29
+DESCRIPTION:Podstawy kompatybilności elektromagnetycznej PW\nRodzaj: labo
+ ratorium\nNr zajęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:30131a3ad0a25da5649c5442@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20270113T095000
+DTEND;TZID=Europe/Warsaw:20270113T112500
+SUMMARY:PKE (L)
+LOCATION:7 29\; 8 29
+DESCRIPTION:Podstawy kompatybilności elektromagnetycznej PW\nRodzaj: labo
+ ratorium\nNr zajęć: 4/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4d8dd349df6ab36633f7bf9e@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20270115T080000
+DTEND;TZID=Europe/Warsaw:20270115T093500
+SUMMARY:Swb (L)
+LOCATION:18 45
+DESCRIPTION:Systemy wbudowane\nRodzaj: laboratorium\nProwadzący: dr inż.
+  Dąbal Paweł\nNr zajęć: 5/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:fa8be08d4647d0c9cf2ecfe4@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20270115T095000
+DTEND;TZID=Europe/Warsaw:20270115T112500
+SUMMARY:Swb (L)
+LOCATION:18 45
+DESCRIPTION:Systemy wbudowane\nRodzaj: laboratorium\nProwadzący: dr inż.
+  Dąbal Paweł\nNr zajęć: 6/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5a23798c35833b1270b10c99@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20270116T152000
+DTEND;TZID=Europe/Warsaw:20270116T165500
+SUMMARY:XOis2 (ć)
+LOCATION:315b S
+DESCRIPTION:XObwody i sygnaly 2\nRodzaj: ćwiczenia\nNr zajęć: 5/7\nBlok
+ : 5
+END:VEVENT
+BEGIN:VEVENT
+UID:c9cbad87ed338895dc96fdec@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20270116T171000
+DTEND;TZID=Europe/Warsaw:20270116T184500
+SUMMARY:XOis2 (ć)
+LOCATION:315b S
+DESCRIPTION:XObwody i sygnaly 2\nRodzaj: ćwiczenia\nNr zajęć: 6/7\nBlok
+ : 6
+END:VEVENT
+BEGIN:VEVENT
+UID:4c68fdd3427dbf24031447ea@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20270118T080000
+DTEND;TZID=Europe/Warsaw:20270118T093500
+SUMMARY:PuEl (L)
+LOCATION:116 61
+DESCRIPTION:Prototypowanie układów elektronicznych\nRodzaj: laboratorium
+ \nProwadzący: mgr inż. Kapski Adrian\nNr zajęć: 17/18\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:41134ce0c50139dd3354d770@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20270118T095000
+DTEND;TZID=Europe/Warsaw:20270118T112500
+SUMMARY:PuEl (L)
+LOCATION:116 61
+DESCRIPTION:Prototypowanie układów elektronicznych\nRodzaj: laboratorium
+ \nProwadzący: mgr inż. Kapski Adrian\nNr zajęć: 18/18\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c0b6a16fdf0de872bbcebed8@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20270118T114000
+DTEND;TZID=Europe/Warsaw:20270118T131500
+SUMMARY:Prka (L)
+LOCATION:18 45\; 205 45
+DESCRIPTION:Programowanie komputerowych aplikacji użytkownika\nRodzaj: la
+ boratorium\nNr zajęć: 5/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:101b311b72b73ac2ea77722b@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20270118T133000
+DTEND;TZID=Europe/Warsaw:20270118T150500
+SUMMARY:Prka (L)
+LOCATION:18 45\; 205 45
+DESCRIPTION:Programowanie komputerowych aplikacji użytkownika\nRodzaj: la
+ boratorium\nNr zajęć: 6/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:04e9705d86cf5f8dc8dc639b@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20270119T080000
+DTEND;TZID=Europe/Warsaw:20270119T093500
+SUMMARY:PKE (ć)
+LOCATION:15 47
+DESCRIPTION:Podstawy kompatybilności elektromagnetycznej PW\nRodzaj: ćwi
+ czenia\nProwadzący: mgr inż. Piwowarczyk Kazimierz\nNr zajęć: 3/3\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2a9bfea46e11f6680e2f2514@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20270119T095000
+DTEND;TZID=Europe/Warsaw:20270119T112500
+SUMMARY:Pskr (S)
+LOCATION:22 47
+DESCRIPTION:Podstawy systemów kryptograficznych\nRodzaj: seminarium\nProw
+ adzący: prof. Sujecki Sławomir\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:30a16d55516ce8e50b60fc6d@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20270121T080000
+DTEND;TZID=Europe/Warsaw:20270121T093500
+SUMMARY:PSC (S)
+LOCATION:15 45
+DESCRIPTION:Projektowanie systemów cyfrowych\nRodzaj: seminarium\nNr zaj
+ ęć: 2/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:805d78286f2af6b2df00044d@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20270121T095000
+DTEND;TZID=Europe/Warsaw:20270121T112500
+SUMMARY:PSC (S)
+LOCATION:15 45
+DESCRIPTION:Projektowanie systemów cyfrowych\nRodzaj: seminarium\nNr zaj
+ ęć: 3/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:865539ba45cd40f55365b955@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20270121T114000
+DTEND;TZID=Europe/Warsaw:20270121T131500
+SUMMARY:Pulx (L)
+LOCATION:12 47\; 35 47
+DESCRIPTION:Programowanie w systemie Unix/Linux PW\nRodzaj: laboratorium\n
+ Prowadzący: dr inż. Sawicki Krzysztof\nNr zajęć: 9/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0df36b9893836794e815c6f7@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20270121T133000
+DTEND;TZID=Europe/Warsaw:20270121T150500
+SUMMARY:Pulx (L)
+LOCATION:12 47\; 35 47
+DESCRIPTION:Programowanie w systemie Unix/Linux PW\nRodzaj: laboratorium\n
+ Prowadzący: dr inż. Sawicki Krzysztof\nNr zajęć: 10/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:99b2b5ebf7bc572b48e7d35f@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20270122T080000
+DTEND;TZID=Europe/Warsaw:20270122T093500
+SUMMARY:Swb (L)
+LOCATION:18 45
+DESCRIPTION:Systemy wbudowane\nRodzaj: laboratorium\nProwadzący: dr inż.
+  Dąbal Paweł\nNr zajęć: 7/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6f249061c85bb49885ed1a11@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20270122T095000
+DTEND;TZID=Europe/Warsaw:20270122T112500
+SUMMARY:Swb (L)
+LOCATION:18 45
+DESCRIPTION:Systemy wbudowane\nRodzaj: laboratorium\nProwadzący: dr inż.
+  Dąbal Paweł\nNr zajęć: 8/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:bfb1cb57eb2c3f1f46b220e0@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20270123T152000
+DTEND;TZID=Europe/Warsaw:20270123T165500
+SUMMARY:XOis2 (ć)
+LOCATION:315b S
+DESCRIPTION:XObwody i sygnaly 2\nRodzaj: ćwiczenia\nNr zajęć: 7/7\nBlok
+ : 5
+END:VEVENT
+BEGIN:VEVENT
+UID:6722fa6ce651ebcc81204006@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20270125T080000
+DTEND;TZID=Europe/Warsaw:20270125T093500
+SUMMARY:Swtc (L)
+LOCATION:17 45
+DESCRIPTION:Sensory w technice cyfrowej\nRodzaj: laboratorium\nProwadzący
+ : por. mgr inż. Ślązak Paweł\nNr zajęć: 9/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:879f67f7d14101b3b706c8d7@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20270125T095000
+DTEND;TZID=Europe/Warsaw:20270125T112500
+SUMMARY:Swtc (L)
+LOCATION:17 45
+DESCRIPTION:Sensory w technice cyfrowej\nRodzaj: laboratorium\nProwadzący
+ : por. mgr inż. Ślązak Paweł\nNr zajęć: 10/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b4fc94e1018163d9ddb70992@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20270125T114000
+DTEND;TZID=Europe/Warsaw:20270125T131500
+SUMMARY:Spd (S)
+LOCATION:19 47
+DESCRIPTION:Seminaria przeddyplomowe\nRodzaj: seminarium\nNr zajęć: 4/4\
+ nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8d04ae917ece3c22d173c1ce@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20270126T080000
+DTEND;TZID=Europe/Warsaw:20270126T093500
+SUMMARY:Prka (L)
+LOCATION:18 45\; 205 45
+DESCRIPTION:Programowanie komputerowych aplikacji użytkownika\nRodzaj: la
+ boratorium\nNr zajęć: 7/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:abdacf47397693880f8d48b9@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20270126T095000
+DTEND;TZID=Europe/Warsaw:20270126T112500
+SUMMARY:Prka (L)
+LOCATION:18 45\; 205 45
+DESCRIPTION:Programowanie komputerowych aplikacji użytkownika\nRodzaj: la
+ boratorium\nNr zajęć: 8/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d4cc19d960a0fb2a7b5bed0c@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20270126T114000
+DTEND;TZID=Europe/Warsaw:20270126T131500
+SUMMARY:Pskr (L)
+LOCATION:12 47\; 22 47
+DESCRIPTION:Podstawy systemów kryptograficznych\nRodzaj: laboratorium\nNr
+  zajęć: 3/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2715796f9d4a43894a5c6758@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20270126T133000
+DTEND;TZID=Europe/Warsaw:20270126T150500
+SUMMARY:Pskr (L)
+LOCATION:12 47\; 22 47
+DESCRIPTION:Podstawy systemów kryptograficznych\nRodzaj: laboratorium\nNr
+  zajęć: 4/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0274e9b2ab2798b591dc6c4e@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20270127T194000
+DTEND;TZID=Europe/Warsaw:20270127T211500
+SUMMARY:XPps (w)
+LOCATION:35 61a
+DESCRIPTION:XPodstawy przetwarzania sygnałów\nRodzaj: wykład\nProwadzą
+ cy: dr hab. inż. Leśnik Czesław\nNr zajęć: 9/9\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:fa5b9a7ea6956c85f86ada90@wat-plan
+DTSTAMP:20261119T155918Z
+DTSTART;TZID=Europe/Warsaw:20270128T114000
+DTEND;TZID=Europe/Warsaw:20270128T131500
+SUMMARY:Prka (w)
+LOCATION:117 47
+DESCRIPTION:Programowanie komputerowych aplikacji użytkownika\nRodzaj: wy
+ kład\nProwadzący: dr inż. Dąbal Paweł\nNr zajęć: 8/8\nBlok: 3\nUwa
+ gi: 50%
+END:VEVENT
+END:VCALENDAR

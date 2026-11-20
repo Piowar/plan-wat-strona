@@ -1,0 +1,1081 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WLO25RD1N2
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:dceb2ce97187fb284a2adfde@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261003T080000
+DTEND;TZID=Europe/Warsaw:20261003T093500
+SUMMARY:Ibw (w)
+LOCATION:2.21/ 135
+DESCRIPTION:Instytucje bezpieczeństwa wewnętrznego\nRodzaj: wykład\nPro
+ wadzący: dr Moch Natalia\nNr zajęć: 1/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:de02107d92bea111c9f4b4c4@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261003T095000
+DTEND;TZID=Europe/Warsaw:20261003T112500
+SUMMARY:Ibw (w)
+LOCATION:2.21/ 135
+DESCRIPTION:Instytucje bezpieczeństwa wewnętrznego\nRodzaj: wykład\nPro
+ wadzący: dr Moch Natalia\nNr zajęć: 2/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8be1caf6083d36bed1591bdc@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261004T080000
+DTEND;TZID=Europe/Warsaw:20261004T093500
+SUMMARY:WWiZC (w)
+LOCATION:2.21/ 135
+DESCRIPTION:Współczesne wyzwania i zagrożenia cywilizacyjne\nRodzaj: wy
+ kład\nProwadzący: dr Krysowaty Aneta\nNr zajęć: 1/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3c7e19e8d3fe53ac310e541f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261004T095000
+DTEND;TZID=Europe/Warsaw:20261004T112500
+SUMMARY:WWiZC (w)
+LOCATION:2.21/ 135
+DESCRIPTION:Współczesne wyzwania i zagrożenia cywilizacyjne\nRodzaj: wy
+ kład\nProwadzący: dr Krysowaty Aneta\nNr zajęć: 2/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:bae5a1cfda84c267db2e32e0@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261004T114000
+DTEND;TZID=Europe/Warsaw:20261004T131500
+SUMMARY:Spp (w)
+LOCATION:187 S
+DESCRIPTION:Służby specjalne w systemie bezpieczeństwa państw\nRodzaj:
+  wykład\nProwadzący: dr Śmiałek Wiesław\nNr zajęć: 1/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f7df6693fdfcba6ae24013d5@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261004T133000
+DTEND;TZID=Europe/Warsaw:20261004T150500
+SUMMARY:Spp (ć)
+LOCATION:255 S
+DESCRIPTION:Służby specjalne w systemie bezpieczeństwa państw\nRodzaj:
+  ćwiczenia\nProwadzący: dr Śmiałek Wiesław\nNr zajęć: 1/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:950853aea8595766a34f2256@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261010T095000
+DTEND;TZID=Europe/Warsaw:20261010T112500
+SUMMARY:BD (L)
+LOCATION:223 S
+DESCRIPTION:Bazy danych\nRodzaj: laboratorium\nProwadzący: mgr inż. Kowa
+ lski Arkadiusz\nNr zajęć: 1/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:778acb18d1550a44ac8f5db6@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261010T114000
+DTEND;TZID=Europe/Warsaw:20261010T131500
+SUMMARY:Ibw (w)
+LOCATION:255 S
+DESCRIPTION:Instytucje bezpieczeństwa wewnętrznego\nRodzaj: wykład\nPro
+ wadzący: dr Moch Natalia\nNr zajęć: 3/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:89b420425d6262e1a002506a@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261010T133000
+DTEND;TZID=Europe/Warsaw:20261010T150500
+SUMMARY:OPzR (w)
+LOCATION:255 S
+DESCRIPTION:Ocena i postępowania z ryzykiem\nRodzaj: wykład\nProwadzący
+ : dr Szwarc Krzysztof\nNr zajęć: 1/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f9f3d7d1bd8177739cd073b1@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261010T152000
+DTEND;TZID=Europe/Warsaw:20261010T165500
+SUMMARY:MiKpKiKZ (w)
+LOCATION:255 S
+DESCRIPTION:Media i komunikacja podczas kryzysów i konfliktów zbrojnych\
+ nRodzaj: wykład\nProwadzący: dr Krysowaty Aneta\nNr zajęć: 1/5\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:e504b990511b53ec7e91abb9@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261011T080000
+DTEND;TZID=Europe/Warsaw:20261011T093500
+SUMMARY:Ibw (ć)
+LOCATION:187 S
+DESCRIPTION:Instytucje bezpieczeństwa wewnętrznego\nRodzaj: ćwiczenia\n
+ Prowadzący: dr Krawczyk Mateusz\nNr zajęć: 1/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5363011db8e6d4ba8edd77b5@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261011T095000
+DTEND;TZID=Europe/Warsaw:20261011T112500
+SUMMARY:Ibw (ć)
+LOCATION:187 S
+DESCRIPTION:Instytucje bezpieczeństwa wewnętrznego\nRodzaj: ćwiczenia\n
+ Prowadzący: dr Krawczyk Mateusz\nNr zajęć: 2/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e4adda343f08915ccc3f95f1@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261011T114000
+DTEND;TZID=Europe/Warsaw:20261011T131500
+SUMMARY:MiKpKiKZ (w)
+LOCATION:1.17/ 16
+DESCRIPTION:Media i komunikacja podczas kryzysów i konfliktów zbrojnych\
+ nRodzaj: wykład\nProwadzący: dr Krysowaty Aneta\nNr zajęć: 2/5\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:e725ae9bf3b27780af54aa42@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261011T133000
+DTEND;TZID=Europe/Warsaw:20261011T150500
+SUMMARY:MiKpKiKZ (w)
+LOCATION:1.17/ 16
+DESCRIPTION:Media i komunikacja podczas kryzysów i konfliktów zbrojnych\
+ nRodzaj: wykład\nProwadzący: dr Krysowaty Aneta\nNr zajęć: 3/5\nBlok:
+  4
+END:VEVENT
+BEGIN:VEVENT
+UID:8b8c2dd32a19dc01728ab986@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261011T152000
+DTEND;TZID=Europe/Warsaw:20261011T165500
+SUMMARY:NiASB (w)
+LOCATION:0.23/ 16
+DESCRIPTION:Normalizacja i audyt systemów bezpieczeństwa\nRodzaj: wykła
+ d\nProwadzący: dr inż. Magierski Mieczysław\nNr zajęć: 1/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:c596f33a6a435571002f2e30@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261024T095000
+DTEND;TZID=Europe/Warsaw:20261024T112500
+SUMMARY:WWiZC (w)
+LOCATION:1.17/ 16
+DESCRIPTION:Współczesne wyzwania i zagrożenia cywilizacyjne\nRodzaj: wy
+ kład\nProwadzący: dr Krysowaty Aneta\nNr zajęć: 3/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:55ed0ce65765f1da5744f7ec@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261024T114000
+DTEND;TZID=Europe/Warsaw:20261024T131500
+SUMMARY:Ibw (w)
+LOCATION:4.17b/ 135
+DESCRIPTION:Instytucje bezpieczeństwa wewnętrznego\nRodzaj: wykład\nPro
+ wadzący: dr Moch Natalia\nNr zajęć: 4/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c95c870077194c6f468eb74e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261024T133000
+DTEND;TZID=Europe/Warsaw:20261024T150500
+SUMMARY:BD (w)
+LOCATION:223 S
+DESCRIPTION:Bazy danych\nRodzaj: wykład\nProwadzący: mgr inż. Kowalski 
+ Arkadiusz\nNr zajęć: 1/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:98084e7af8227f3562624da8@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261025T080000
+DTEND;TZID=Europe/Warsaw:20261025T093500
+SUMMARY:INAD (w)
+LOCATION:224 S
+DESCRIPTION:Informatyczne narzędzia analizy danych\nRodzaj: wykład\nProw
+ adzący: dr Miłek Marzenna\nNr zajęć: 1/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:39e8143f15a5d8ccde3101fc@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261025T095000
+DTEND;TZID=Europe/Warsaw:20261025T112500
+SUMMARY:INAD (w)
+LOCATION:224 S
+DESCRIPTION:Informatyczne narzędzia analizy danych\nRodzaj: wykład\nProw
+ adzący: dr Miłek Marzenna\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2f3e23dca0cf3b68d6fc8d38@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261025T114000
+DTEND;TZID=Europe/Warsaw:20261025T131500
+SUMMARY:AZInfo.w.B (w)
+LOCATION:0.7/ 16
+DESCRIPTION:Analiza Zasobów informacyjnych w Bezpieczeństwie\nRodzaj: wy
+ kład\nProwadzący: dr inż. Magierski Mieczysław\nNr zajęć: 1/5\nBlok
+ : 3
+END:VEVENT
+BEGIN:VEVENT
+UID:63ec26f4967b25cba1e89695@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261025T133000
+DTEND;TZID=Europe/Warsaw:20261025T150500
+SUMMARY:AZInfo.w.B (w)
+LOCATION:0.7/ 16
+DESCRIPTION:Analiza Zasobów informacyjnych w Bezpieczeństwie\nRodzaj: wy
+ kład\nProwadzący: dr inż. Magierski Mieczysław\nNr zajęć: 2/5\nBlok
+ : 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b29bb5bf06f7f438546d49c7@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261107T080000
+DTEND;TZID=Europe/Warsaw:20261107T093500
+SUMMARY:MiKpKiKZ (w)
+LOCATION:1.17/ 16
+DESCRIPTION:Media i komunikacja podczas kryzysów i konfliktów zbrojnych\
+ nRodzaj: wykład\nProwadzący: dr Krysowaty Aneta\nNr zajęć: 4/5\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:d910662cba7360894bc9f8c4@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261107T095000
+DTEND;TZID=Europe/Warsaw:20261107T112500
+SUMMARY:Ibw (w)
+LOCATION:2.21/ 135
+DESCRIPTION:Instytucje bezpieczeństwa wewnętrznego\nRodzaj: wykład\nPro
+ wadzący: dr Moch Natalia\nNr zajęć: 5/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d535d2f89b6753fbe8314765@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261107T114000
+DTEND;TZID=Europe/Warsaw:20261107T131500
+SUMMARY:OPzR (w)
+LOCATION:1/ 22
+DESCRIPTION:Ocena i postępowania z ryzykiem\nRodzaj: wykład\nProwadzący
+ : dr Szwarc Krzysztof\nNr zajęć: 2/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f5b2ed12594a18dae2bb9a47@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261107T133000
+DTEND;TZID=Europe/Warsaw:20261107T150500
+SUMMARY:OPzR (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Ocena i postępowania z ryzykiem\nRodzaj: ćwiczenia\nProwadz
+ ący: dr Szwarc Krzysztof\nNr zajęć: 1/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:78fbc58194e54884321c2281@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261108T080000
+DTEND;TZID=Europe/Warsaw:20261108T093500
+SUMMARY:WWiZC (ć)
+LOCATION:187 S
+DESCRIPTION:Współczesne wyzwania i zagrożenia cywilizacyjne\nRodzaj: ć
+ wiczenia\nProwadzący: dr Krysowaty Aneta\nNr zajęć: 1/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c9ca8a68e0c30199ff34a064@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261108T095000
+DTEND;TZID=Europe/Warsaw:20261108T112500
+SUMMARY:WWiZC (ć)
+LOCATION:187 S
+DESCRIPTION:Współczesne wyzwania i zagrożenia cywilizacyjne\nRodzaj: ć
+ wiczenia\nProwadzący: dr Krysowaty Aneta\nNr zajęć: 2/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2725a75ce62626f8d37d7c20@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261108T114000
+DTEND;TZID=Europe/Warsaw:20261108T131500
+SUMMARY:Ibw (ć)
+LOCATION:1.15/ 16
+DESCRIPTION:Instytucje bezpieczeństwa wewnętrznego\nRodzaj: ćwiczenia\n
+ Prowadzący: dr Krawczyk Mateusz\nNr zajęć: 3/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9a5fdd7d633290c87c45f2f8@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261108T133000
+DTEND;TZID=Europe/Warsaw:20261108T150500
+SUMMARY:Ibw (ć)
+LOCATION:1.15/ 16
+DESCRIPTION:Instytucje bezpieczeństwa wewnętrznego\nRodzaj: ćwiczenia\n
+ Prowadzący: dr Krawczyk Mateusz\nNr zajęć: 4/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6b1dd0e665079395cb65a9af@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261108T152000
+DTEND;TZID=Europe/Warsaw:20261108T165500
+SUMMARY:NiASB (w)
+LOCATION:1.27/ 135
+DESCRIPTION:Normalizacja i audyt systemów bezpieczeństwa\nRodzaj: wykła
+ d\nProwadzący: dr inż. Magierski Mieczysław\nNr zajęć: 2/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:b67361acfb4c35a616b9b37b@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261114T080000
+DTEND;TZID=Europe/Warsaw:20261114T093500
+SUMMARY:NiASB (w)
+LOCATION:1002 HILTON
+DESCRIPTION:Normalizacja i audyt systemów bezpieczeństwa\nRodzaj: wykła
+ d\nProwadzący: dr inż. Magierski Mieczysław\nNr zajęć: 3/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:afafe145ce9011fea8f7a62b@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261114T095000
+DTEND;TZID=Europe/Warsaw:20261114T112500
+SUMMARY:Ibw (w)
+LOCATION:2.21/ 135
+DESCRIPTION:Instytucje bezpieczeństwa wewnętrznego\nRodzaj: wykład\nPro
+ wadzący: dr Moch Natalia\nNr zajęć: 6/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:632abfc3689b69edf6ea5c3a@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261114T114000
+DTEND;TZID=Europe/Warsaw:20261114T131500
+SUMMARY:OPzR (w)
+LOCATION:1.9/ 16
+DESCRIPTION:Ocena i postępowania z ryzykiem\nRodzaj: wykład\nProwadzący
+ : dr Szwarc Krzysztof\nNr zajęć: 3/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:dd0b1842ce3f4fae1750c7fe@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261114T133000
+DTEND;TZID=Europe/Warsaw:20261114T150500
+SUMMARY:OPzR (ć)
+LOCATION:255 S
+DESCRIPTION:Ocena i postępowania z ryzykiem\nRodzaj: ćwiczenia\nProwadz
+ ący: dr Szwarc Krzysztof\nNr zajęć: 2/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6ae0727da7b06e5334301f0c@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261115T080000
+DTEND;TZID=Europe/Warsaw:20261115T093500
+SUMMARY:Spp (w)
+LOCATION:187 S
+DESCRIPTION:Służby specjalne w systemie bezpieczeństwa państw\nRodzaj:
+  wykład\nProwadzący: dr Śmiałek Wiesław\nNr zajęć: 2/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:24bddf7b8fd7060affbdbec1@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261115T095000
+DTEND;TZID=Europe/Warsaw:20261115T112500
+SUMMARY:Spp (w)
+LOCATION:187 S
+DESCRIPTION:Służby specjalne w systemie bezpieczeństwa państw\nRodzaj:
+  wykład\nProwadzący: dr Śmiałek Wiesław\nNr zajęć: 3/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:745becf5960f04ee92d8950f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261115T114000
+DTEND;TZID=Europe/Warsaw:20261115T131500
+SUMMARY:Spp (ć)
+LOCATION:5.17/ 135
+DESCRIPTION:Służby specjalne w systemie bezpieczeństwa państw\nRodzaj:
+  ćwiczenia\nProwadzący: dr Śmiałek Wiesław\nNr zajęć: 2/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:fdf610958031ba69d8c5cf69@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261115T133000
+DTEND;TZID=Europe/Warsaw:20261115T150500
+SUMMARY:Spp (ć)
+LOCATION:5.17/ 135
+DESCRIPTION:Służby specjalne w systemie bezpieczeństwa państw\nRodzaj:
+  ćwiczenia\nProwadzący: dr Śmiałek Wiesław\nNr zajęć: 3/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7610caaa0bb36c4d098c599c@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261115T152000
+DTEND;TZID=Europe/Warsaw:20261115T165500
+SUMMARY:MiKpKiKZ (w)
+LOCATION:255 S
+DESCRIPTION:Media i komunikacja podczas kryzysów i konfliktów zbrojnych\
+ nRodzaj: wykład\nProwadzący: dr Krysowaty Aneta\nNr zajęć: 5/5\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:fb2bc9c0a82eda9bc842e0d4@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261121T080000
+DTEND;TZID=Europe/Warsaw:20261121T093500
+SUMMARY:OPzR (w)
+LOCATION:187 S
+DESCRIPTION:Ocena i postępowania z ryzykiem\nRodzaj: wykład\nProwadzący
+ : dr Szwarc Krzysztof\nNr zajęć: 4/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:27140fc92029e993ef25beac@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261121T095000
+DTEND;TZID=Europe/Warsaw:20261121T112500
+SUMMARY:OPzR (ć)
+LOCATION:187 S
+DESCRIPTION:Ocena i postępowania z ryzykiem\nRodzaj: ćwiczenia\nProwadz
+ ący: dr Szwarc Krzysztof\nNr zajęć: 3/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2f15172f20c48068ffca97c8@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261121T114000
+DTEND;TZID=Europe/Warsaw:20261121T131500
+SUMMARY:Ibw (w)
+LOCATION:4.17b/ 135
+DESCRIPTION:Instytucje bezpieczeństwa wewnętrznego\nRodzaj: wykład\nPro
+ wadzący: dr Moch Natalia\nNr zajęć: 7/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:359f0b0869cfc38c88a7e91a@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261121T133000
+DTEND;TZID=Europe/Warsaw:20261121T150500
+SUMMARY:Ibw (ć)
+LOCATION:1.17/ 16
+DESCRIPTION:Instytucje bezpieczeństwa wewnętrznego\nRodzaj: ćwiczenia\n
+ Prowadzący: dr Krawczyk Mateusz\nNr zajęć: 5/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:cb9fbfaab52657be1a3a8560@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261121T152000
+DTEND;TZID=Europe/Warsaw:20261121T165500
+SUMMARY:Ibw (ć)
+LOCATION:1.17/ 16
+DESCRIPTION:Instytucje bezpieczeństwa wewnętrznego\nRodzaj: ćwiczenia\n
+ Prowadzący: dr Krawczyk Mateusz\nNr zajęć: 6/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:7b0c7a2d1a1c131e1a17bffd@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261122T080000
+DTEND;TZID=Europe/Warsaw:20261122T093500
+SUMMARY:INAD (w)
+LOCATION:223 S
+DESCRIPTION:Informatyczne narzędzia analizy danych\nRodzaj: wykład\nProw
+ adzący: dr Miłek Marzenna\nNr zajęć: 3/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2c6c866e3b13d5451ececf7e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261122T095000
+DTEND;TZID=Europe/Warsaw:20261122T112500
+SUMMARY:INAD (w)
+LOCATION:223 S
+DESCRIPTION:Informatyczne narzędzia analizy danych\nRodzaj: wykład\nProw
+ adzący: dr Miłek Marzenna\nNr zajęć: 4/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:448aaa9c9f25ab94cc246952@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261122T114000
+DTEND;TZID=Europe/Warsaw:20261122T131500
+SUMMARY:BD (w)
+LOCATION:223 S
+DESCRIPTION:Bazy danych\nRodzaj: wykład\nProwadzący: mgr inż. Kowalski 
+ Arkadiusz\nNr zajęć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:875700336f313b8fec76918a@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261122T133000
+DTEND;TZID=Europe/Warsaw:20261122T150500
+SUMMARY:NiASB (w)
+LOCATION:1002 HILTON
+DESCRIPTION:Normalizacja i audyt systemów bezpieczeństwa\nRodzaj: wykła
+ d\nProwadzący: dr inż. Magierski Mieczysław\nNr zajęć: 4/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c4cb4f884317c69f904d1e1e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261122T152000
+DTEND;TZID=Europe/Warsaw:20261122T165500
+SUMMARY:NiASB (w)
+LOCATION:1002 HILTON
+DESCRIPTION:Normalizacja i audyt systemów bezpieczeństwa\nRodzaj: wykła
+ d\nProwadzący: dr inż. Magierski Mieczysław\nNr zajęć: 5/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:e5b7a06974bc3e3e1ad0a455@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261205T080000
+DTEND;TZID=Europe/Warsaw:20261205T093500
+SUMMARY:Spp (w)
+LOCATION:2.21/ 135
+DESCRIPTION:Służby specjalne w systemie bezpieczeństwa państw\nRodzaj:
+  wykład\nProwadzący: dr Śmiałek Wiesław\nNr zajęć: 4/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:20d274f4767900b93036165f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261205T095000
+DTEND;TZID=Europe/Warsaw:20261205T112500
+SUMMARY:Spp (ć)
+LOCATION:2.21/ 135
+DESCRIPTION:Służby specjalne w systemie bezpieczeństwa państw\nRodzaj:
+  ćwiczenia\nProwadzący: dr Śmiałek Wiesław\nNr zajęć: 4/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b2e2cb4944cfbc4101d3b970@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261205T114000
+DTEND;TZID=Europe/Warsaw:20261205T131500
+SUMMARY:OPzR (w)
+LOCATION:2.21/ 135
+DESCRIPTION:Ocena i postępowania z ryzykiem\nRodzaj: wykład\nProwadzący
+ : dr Szwarc Krzysztof\nNr zajęć: 5/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4f7f5352c84c5b2a1e0451f6@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261205T133000
+DTEND;TZID=Europe/Warsaw:20261205T150500
+SUMMARY:WWiZC (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Współczesne wyzwania i zagrożenia cywilizacyjne\nRodzaj: ć
+ wiczenia\nProwadzący: dr Krysowaty Aneta\nNr zajęć: 3/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8a4b4a7945b727060608d58b@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261206T080000
+DTEND;TZID=Europe/Warsaw:20261206T093500
+SUMMARY:INAD (w)
+LOCATION:223 S
+DESCRIPTION:Informatyczne narzędzia analizy danych\nRodzaj: wykład\nProw
+ adzący: dr Miłek Marzenna\nNr zajęć: 5/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:08fc67d7a5a781e9e950050d@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261206T095000
+DTEND;TZID=Europe/Warsaw:20261206T112500
+SUMMARY:INAD (L)
+LOCATION:223 S
+DESCRIPTION:Informatyczne narzędzia analizy danych\nRodzaj: laboratorium\
+ nProwadzący: dr Miłek Marzenna\nNr zajęć: 1/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7966bac83ae4faa59a2d1872@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261206T114000
+DTEND;TZID=Europe/Warsaw:20261206T131500
+SUMMARY:INAD (L)
+LOCATION:223 S
+DESCRIPTION:Informatyczne narzędzia analizy danych\nRodzaj: laboratorium\
+ nProwadzący: dr Miłek Marzenna\nNr zajęć: 2/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b8ed1f277405dc5b9157e068@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261206T133000
+DTEND;TZID=Europe/Warsaw:20261206T150500
+SUMMARY:MiKpKiKZ (ć)
+LOCATION:0.28/ 135
+DESCRIPTION:Media i komunikacja podczas kryzysów i konfliktów zbrojnych\
+ nRodzaj: ćwiczenia\nProwadzący: mgr Moszczyński Maciej\nNr zajęć: 1/
+ 4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ff567b443476b33cc8069f21@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261206T152000
+DTEND;TZID=Europe/Warsaw:20261206T165500
+SUMMARY:MiKpKiKZ (ć)
+LOCATION:0.28/ 135
+DESCRIPTION:Media i komunikacja podczas kryzysów i konfliktów zbrojnych\
+ nRodzaj: ćwiczenia\nProwadzący: mgr Moszczyński Maciej\nNr zajęć: 2/
+ 4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:e8a49bff593194d4ec4bf7d7@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261212T080000
+DTEND;TZID=Europe/Warsaw:20261212T093500
+SUMMARY:WWiZC (w)
+LOCATION:1.16/ 16
+DESCRIPTION:Współczesne wyzwania i zagrożenia cywilizacyjne\nRodzaj: wy
+ kład\nProwadzący: dr Krysowaty Aneta\nNr zajęć: 4/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:24cff5e5b9d1873de6de71b3@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261212T095000
+DTEND;TZID=Europe/Warsaw:20261212T112500
+SUMMARY:WWiZC (ć)
+LOCATION:255 S
+DESCRIPTION:Współczesne wyzwania i zagrożenia cywilizacyjne\nRodzaj: ć
+ wiczenia\nProwadzący: dr Krysowaty Aneta\nNr zajęć: 4/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5788855ddefe26f3cd1cf079@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261212T114000
+DTEND;TZID=Europe/Warsaw:20261212T131500
+SUMMARY:OPzR (w)
+LOCATION:255 S
+DESCRIPTION:Ocena i postępowania z ryzykiem\nRodzaj: wykład\nProwadzący
+ : dr Szwarc Krzysztof\nNr zajęć: 6/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:38ac8caaee5f496d4564070a@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261212T133000
+DTEND;TZID=Europe/Warsaw:20261212T150500
+SUMMARY:OPzR (ć)
+LOCATION:255 S
+DESCRIPTION:Ocena i postępowania z ryzykiem\nRodzaj: ćwiczenia\nProwadz
+ ący: dr Szwarc Krzysztof\nNr zajęć: 4/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:73ef98275d54a6c214455334@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261213T080000
+DTEND;TZID=Europe/Warsaw:20261213T093500
+SUMMARY:BD (w)
+LOCATION:223 S
+DESCRIPTION:Bazy danych\nRodzaj: wykład\nProwadzący: mgr inż. Kowalski 
+ Arkadiusz\nNr zajęć: 3/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ed95404b67a9d789ddc0ad8b@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261213T095000
+DTEND;TZID=Europe/Warsaw:20261213T112500
+SUMMARY:BD (L)
+LOCATION:223 S
+DESCRIPTION:Bazy danych\nRodzaj: laboratorium\nProwadzący: mgr inż. Kowa
+ lski Arkadiusz\nNr zajęć: 2/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:34fb2c2f48ed00399a2082d3@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261213T114000
+DTEND;TZID=Europe/Warsaw:20261213T131500
+SUMMARY:Spp (w)
+LOCATION:187 S
+DESCRIPTION:Służby specjalne w systemie bezpieczeństwa państw\nRodzaj:
+  wykład\nProwadzący: dr Śmiałek Wiesław\nNr zajęć: 5/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ffcd00e7f3e76d78ffbd37ca@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261213T133000
+DTEND;TZID=Europe/Warsaw:20261213T150500
+SUMMARY:Spp (ć)
+LOCATION:1.17/ 16
+DESCRIPTION:Służby specjalne w systemie bezpieczeństwa państw\nRodzaj:
+  ćwiczenia\nProwadzący: dr Śmiałek Wiesław\nNr zajęć: 5/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0901ec605de7a0371315cd2d@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261219T080000
+DTEND;TZID=Europe/Warsaw:20261219T093500
+SUMMARY:OPzR (ć)
+LOCATION:187 S
+DESCRIPTION:Ocena i postępowania z ryzykiem\nRodzaj: ćwiczenia\nProwadz
+ ący: dr Szwarc Krzysztof\nNr zajęć: 5/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:78402dd53e89bd8b34e0abc2@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261219T095000
+DTEND;TZID=Europe/Warsaw:20261219T112500
+SUMMARY:OPzR (ć)
+LOCATION:187 S
+DESCRIPTION:Ocena i postępowania z ryzykiem\nRodzaj: ćwiczenia\nProwadz
+ ący: dr Szwarc Krzysztof\nNr zajęć: 6/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8e30b53b13ad2166756209ce@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261219T114000
+DTEND;TZID=Europe/Warsaw:20261219T131500
+SUMMARY:BD (w)
+LOCATION:223 S
+DESCRIPTION:Bazy danych\nRodzaj: wykład\nProwadzący: mgr inż. Kowalski 
+ Arkadiusz\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5e4bd7dc20e58cf22ea4fd94@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261220T080000
+DTEND;TZID=Europe/Warsaw:20261220T093500
+SUMMARY:AZInfo.w.B (w)
+LOCATION:1.27/ 135
+DESCRIPTION:Analiza Zasobów informacyjnych w Bezpieczeństwie\nRodzaj: wy
+ kład\nProwadzący: dr inż. Magierski Mieczysław\nNr zajęć: 3/5\nBlok
+ : 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e178d8fda1182355625d7a61@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261220T095000
+DTEND;TZID=Europe/Warsaw:20261220T112500
+SUMMARY:AZInfo.w.B (w)
+LOCATION:1.27/ 135
+DESCRIPTION:Analiza Zasobów informacyjnych w Bezpieczeństwie\nRodzaj: wy
+ kład\nProwadzący: dr inż. Magierski Mieczysław\nNr zajęć: 4/5\nBlok
+ : 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a3e82f3c9f69c5247333fcef@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261220T114000
+DTEND;TZID=Europe/Warsaw:20261220T131500
+SUMMARY:Spp (w)
+LOCATION:187 S
+DESCRIPTION:Służby specjalne w systemie bezpieczeństwa państw\nRodzaj:
+  wykład\nProwadzący: dr Śmiałek Wiesław\nNr zajęć: 6/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:fbbe87eac8753787c37f8446@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261220T133000
+DTEND;TZID=Europe/Warsaw:20261220T150500
+SUMMARY:Spp (ć)
+LOCATION:1.17/ 16
+DESCRIPTION:Służby specjalne w systemie bezpieczeństwa państw\nRodzaj:
+  ćwiczenia\nProwadzący: dr Śmiałek Wiesław\nNr zajęć: 6/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9cdb09a769d00da6ebc5d2bd@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270109T080000
+DTEND;TZID=Europe/Warsaw:20270109T093500
+SUMMARY:WWiZC (w)
+LOCATION:5.17/ 135
+DESCRIPTION:Współczesne wyzwania i zagrożenia cywilizacyjne\nRodzaj: wy
+ kład\nProwadzący: dr Krysowaty Aneta\nNr zajęć: 5/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4747d36a69366600583a77b0@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270109T095000
+DTEND;TZID=Europe/Warsaw:20270109T112500
+SUMMARY:WWiZC (ć)
+LOCATION:5.17/ 135
+DESCRIPTION:Współczesne wyzwania i zagrożenia cywilizacyjne\nRodzaj: ć
+ wiczenia\nProwadzący: dr Krysowaty Aneta\nNr zajęć: 5/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6b3dcfbcb68e8e310361bc26@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270109T114000
+DTEND;TZID=Europe/Warsaw:20270109T131500
+SUMMARY:BD (w)
+LOCATION:223 S
+DESCRIPTION:Bazy danych\nRodzaj: wykład\nProwadzący: mgr inż. Kowalski 
+ Arkadiusz\nNr zajęć: 5/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:240c2204adfbd95ef7ecaf1e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270110T080000
+DTEND;TZID=Europe/Warsaw:20270110T093500
+SUMMARY:INAD (L)
+LOCATION:236 S
+DESCRIPTION:Informatyczne narzędzia analizy danych\nRodzaj: laboratorium\
+ nProwadzący: dr Miłek Marzenna\nNr zajęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:36fc7caff5f8da049d426876@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270110T095000
+DTEND;TZID=Europe/Warsaw:20270110T112500
+SUMMARY:INAD (L)
+LOCATION:236 S
+DESCRIPTION:Informatyczne narzędzia analizy danych\nRodzaj: laboratorium\
+ nProwadzący: dr Miłek Marzenna\nNr zajęć: 4/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b14639a9bc76c5b05b86495b@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270110T114000
+DTEND;TZID=Europe/Warsaw:20270110T131500
+SUMMARY:MiKpKiKZ (ć)
+LOCATION:1/ 22
+DESCRIPTION:Media i komunikacja podczas kryzysów i konfliktów zbrojnych\
+ nRodzaj: ćwiczenia\nProwadzący: mgr Moszczyński Maciej\nNr zajęć: 3/
+ 4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3eb45667929506eabf6e3d03@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270110T133000
+DTEND;TZID=Europe/Warsaw:20270110T150500
+SUMMARY:NiASB (ć)
+LOCATION:1.9/ 16
+DESCRIPTION:Normalizacja i audyt systemów bezpieczeństwa\nRodzaj: ćwicz
+ enia\nProwadzący: dr inż. Magierski Mieczysław\nNr zajęć: 1/4\nBlok:
+  4
+END:VEVENT
+BEGIN:VEVENT
+UID:4ede4254201784bc48ab55bb@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270110T152000
+DTEND;TZID=Europe/Warsaw:20270110T165500
+SUMMARY:NiASB (ć)
+LOCATION:1.9/ 16
+DESCRIPTION:Normalizacja i audyt systemów bezpieczeństwa\nRodzaj: ćwicz
+ enia\nProwadzący: dr inż. Magierski Mieczysław\nNr zajęć: 2/4\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:678d3133da699a0707708bd2@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270116T080000
+DTEND;TZID=Europe/Warsaw:20270116T093500
+SUMMARY:AZInfo.w.B (L)
+LOCATION:1.16/ 16
+DESCRIPTION:Analiza Zasobów informacyjnych w Bezpieczeństwie\nRodzaj: la
+ boratorium\nProwadzący: dr inż. Magierski Mieczysław\nNr zajęć: 1/4\
+ nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a85f50ac52566ab37d68c06f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270116T095000
+DTEND;TZID=Europe/Warsaw:20270116T112500
+SUMMARY:AZInfo.w.B (L)
+LOCATION:1.16/ 16
+DESCRIPTION:Analiza Zasobów informacyjnych w Bezpieczeństwie\nRodzaj: la
+ boratorium\nProwadzący: dr inż. Magierski Mieczysław\nNr zajęć: 2/4\
+ nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:bc16357be4ce3729f44787c6@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270117T080000
+DTEND;TZID=Europe/Warsaw:20270117T093500
+SUMMARY:AZInfo.w.B (w)
+LOCATION:1.27/ 135
+DESCRIPTION:Analiza Zasobów informacyjnych w Bezpieczeństwie\nRodzaj: wy
+ kład\nProwadzący: dr inż. Magierski Mieczysław\nNr zajęć: 5/5\nBlok
+ : 1
+END:VEVENT
+BEGIN:VEVENT
+UID:22b841f35da3fae80b58a1a5@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270117T095000
+DTEND;TZID=Europe/Warsaw:20270117T112500
+SUMMARY:AZInfo.w.B (L)
+LOCATION:0.8/ 16
+DESCRIPTION:Analiza Zasobów informacyjnych w Bezpieczeństwie\nRodzaj: la
+ boratorium\nProwadzący: dr inż. Magierski Mieczysław\nNr zajęć: 3/4\
+ nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3ac6bc12abb5bc59e868ef01@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270117T114000
+DTEND;TZID=Europe/Warsaw:20270117T131500
+SUMMARY:AZInfo.w.B (L)
+LOCATION:0.8/ 16
+DESCRIPTION:Analiza Zasobów informacyjnych w Bezpieczeństwie\nRodzaj: la
+ boratorium\nProwadzący: dr inż. Magierski Mieczysław\nNr zajęć: 4/4\
+ nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f4267939762280765dddea64@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270117T133000
+DTEND;TZID=Europe/Warsaw:20270117T150500
+SUMMARY:MiKpKiKZ (ć)
+LOCATION:0.8/ 16
+DESCRIPTION:Media i komunikacja podczas kryzysów i konfliktów zbrojnych\
+ nRodzaj: ćwiczenia\nProwadzący: mgr Moszczyński Maciej\nNr zajęć: 4/
+ 4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b949f9a874539da75cae9045@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270124T114000
+DTEND;TZID=Europe/Warsaw:20270124T131500
+SUMMARY:NiASB (ć)
+LOCATION:1002 HILTON
+DESCRIPTION:Normalizacja i audyt systemów bezpieczeństwa\nRodzaj: ćwicz
+ enia\nProwadzący: dr inż. Magierski Mieczysław\nNr zajęć: 3/4\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:8b18d1b9e51e9f3628c22a02@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270124T133000
+DTEND;TZID=Europe/Warsaw:20270124T150500
+SUMMARY:NiASB (ć)
+LOCATION:1002 HILTON
+DESCRIPTION:Normalizacja i audyt systemów bezpieczeństwa\nRodzaj: ćwicz
+ enia\nProwadzący: dr inż. Magierski Mieczysław\nNr zajęć: 4/4\nBlok:
+  4
+END:VEVENT
+BEGIN:VEVENT
+UID:f64c91b0f4f28d11f506dea7@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270130T080000
+DTEND;TZID=Europe/Warsaw:20270130T093500
+SUMMARY:OPzR (w)
+LOCATION:1.27/ 135
+DESCRIPTION:Ocena i postępowania z ryzykiem\nRodzaj: wykład\nProwadzący
+ : dr Szwarc Krzysztof\nNr zajęć: 7/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f33cf496bb694508f072d1bf@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270130T095000
+DTEND;TZID=Europe/Warsaw:20270130T112500
+SUMMARY:WWiZC (w)
+LOCATION:0.28/ 135
+DESCRIPTION:Współczesne wyzwania i zagrożenia cywilizacyjne\nRodzaj: wy
+ kład\nProwadzący: dr Krysowaty Aneta\nNr zajęć: 6/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3072a65ab9e80117ee0e567b@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270130T114000
+DTEND;TZID=Europe/Warsaw:20270130T131500
+SUMMARY:BD (L)
+LOCATION:223 S
+DESCRIPTION:Bazy danych\nRodzaj: laboratorium\nProwadzący: mgr inż. Kowa
+ lski Arkadiusz\nNr zajęć: 3/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ccd5a3b096faf4396654042b@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270130T133000
+DTEND;TZID=Europe/Warsaw:20270130T150500
+SUMMARY:BD (L)
+LOCATION:223 S
+DESCRIPTION:Bazy danych\nRodzaj: laboratorium\nProwadzący: mgr inż. Kowa
+ lski Arkadiusz\nNr zajęć: 4/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:dd0638747a99d8db2d38d639@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270131T080000
+DTEND;TZID=Europe/Warsaw:20270131T093500
+SUMMARY:WWiZC (w)
+LOCATION:1.16/ 16
+DESCRIPTION:Współczesne wyzwania i zagrożenia cywilizacyjne\nRodzaj: wy
+ kład\nProwadzący: dr Krysowaty Aneta\nNr zajęć: 7/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c89a104389cae71f148518e6@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270131T095000
+DTEND;TZID=Europe/Warsaw:20270131T112500
+SUMMARY:WWiZC (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Współczesne wyzwania i zagrożenia cywilizacyjne\nRodzaj: ć
+ wiczenia\nProwadzący: dr Krysowaty Aneta\nNr zajęć: 6/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1be7db10c72eefe6e6a818ed@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270131T114000
+DTEND;TZID=Europe/Warsaw:20270131T131500
+SUMMARY:Spp (w)
+LOCATION:255 S
+DESCRIPTION:Służby specjalne w systemie bezpieczeństwa państw\nRodzaj:
+  wykład\nProwadzący: dr Śmiałek Wiesław\nNr zajęć: 7/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c489ec10e68491c8e512aeb8@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270206T133000
+DTEND;TZID=Europe/Warsaw:20270206T150500
+SUMMARY:Spp (E)
+LOCATION:187 S
+DESCRIPTION:Służby specjalne w systemie bezpieczeństwa państw\nRodzaj:
+  egzamin\nProwadzący: dr Śmiałek Wiesław\nNr zajęć: 1/1\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:dc8c820da642dfa39ab2688e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270206T152000
+DTEND;TZID=Europe/Warsaw:20270206T165500
+SUMMARY:Ibw (E)
+LOCATION:0.19/ 135
+DESCRIPTION:Instytucje bezpieczeństwa wewnętrznego\nRodzaj: egzamin\nPro
+ wadzący: dr Moch Natalia\nNr zajęć: 1/1\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:616e858a97d92ffa72fe9a05@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270207T095000
+DTEND;TZID=Europe/Warsaw:20270207T112500
+SUMMARY:WWiZC (E)
+LOCATION:187 S
+DESCRIPTION:Współczesne wyzwania i zagrożenia cywilizacyjne\nRodzaj: eg
+ zamin\nProwadzący: dr Krysowaty Aneta\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:eb07a20a89d708a9508aec60@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270220T133000
+DTEND;TZID=Europe/Warsaw:20270220T150500
+SUMMARY:Spp (Ep)
+LOCATION:187 S
+DESCRIPTION:Służby specjalne w systemie bezpieczeństwa państw\nRodzaj:
+  egzamin poprawkowy\nProwadzący: dr Śmiałek Wiesław\nNr zajęć: 1/1\
+ nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:99108071cc0d8d4dc94bfe6b@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270220T152000
+DTEND;TZID=Europe/Warsaw:20270220T165500
+SUMMARY:Ibw (Ep)
+LOCATION:0.19/ 135
+DESCRIPTION:Instytucje bezpieczeństwa wewnętrznego\nRodzaj: egzamin popr
+ awkowy\nProwadzący: dr Moch Natalia\nNr zajęć: 1/1\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:3b16c5b163b0456c4d5a260d@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270221T095000
+DTEND;TZID=Europe/Warsaw:20270221T112500
+SUMMARY:WWiZC (Ep)
+LOCATION:187 S
+DESCRIPTION:Współczesne wyzwania i zagrożenia cywilizacyjne\nRodzaj: eg
+ zamin poprawkowy\nProwadzący: dr Krysowaty Aneta\nNr zajęć: 1/1\nBlok:
+  2
+END:VEVENT
+END:VCALENDAR

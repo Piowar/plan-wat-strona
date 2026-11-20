@@ -1,0 +1,1276 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WLO25ZB1N2
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:3bc707f30b227a62a3d952c2@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261003T114000
+DTEND;TZID=Europe/Warsaw:20261003T131500
+SUMMARY:Prc (w)
+LOCATION:2/ 22
+DESCRIPTION:Przedsiębiorczość\nRodzaj: wykład\nProwadzący: dr Kaczmar
+ ska Krawczak Jadwiga\nNr zajęć: 1/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:16b6f94fb5610b53a90788e6@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261003T133000
+DTEND;TZID=Europe/Warsaw:20261003T150500
+SUMMARY:Prc (w)
+LOCATION:2/ 22
+DESCRIPTION:Przedsiębiorczość\nRodzaj: wykład\nProwadzący: dr Kaczmar
+ ska Krawczak Jadwiga\nNr zajęć: 2/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8be57bc38db1f3ae46f2dabb@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261003T152000
+DTEND;TZID=Europe/Warsaw:20261003T165500
+SUMMARY:Miaz (w)
+LOCATION:2.22/ 135
+DESCRIPTION:Modelowanie i algorytmizacja procesów i systemów zarządzani
+ a\nRodzaj: wykład\nProwadzący: dr inż. Wojciechowski Zdzisław\nNr zaj
+ ęć: 1/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f79b399c8898291fbfa0cea9@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261004T080000
+DTEND;TZID=Europe/Warsaw:20261004T093500
+SUMMARY:Lta (w)
+LOCATION:1.27/ 135
+DESCRIPTION:Logika i teoria argumentacji\nRodzaj: wykład\nProwadzący: dr
+  Skulska Joanna\nNr zajęć: 1/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ff440efd8f7233224f9e412a@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261004T095000
+DTEND;TZID=Europe/Warsaw:20261004T112500
+SUMMARY:Lta (w)
+LOCATION:1.27/ 135
+DESCRIPTION:Logika i teoria argumentacji\nRodzaj: wykład\nProwadzący: dr
+  Skulska Joanna\nNr zajęć: 2/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8967d8c11f8413e88cef784f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261004T114000
+DTEND;TZID=Europe/Warsaw:20261004T131500
+SUMMARY:Trf (w)
+LOCATION:224 S
+DESCRIPTION:Transakcyjne systemy informatyczne\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Rozmus Stefan\nNr zajęć: 1/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d919bba516ce0473de4e7faf@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261004T133000
+DTEND;TZID=Europe/Warsaw:20261004T150500
+SUMMARY:Trf (w)
+LOCATION:224 S
+DESCRIPTION:Transakcyjne systemy informatyczne\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Rozmus Stefan\nNr zajęć: 2/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6973e1897b2141a1bf999015@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261004T152000
+DTEND;TZID=Europe/Warsaw:20261004T165500
+SUMMARY:Sd. (S)
+LOCATION:4.24 / 135
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: Msk\nNr
+  zajęć: 1/16\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:70d64535bb91f4f51c04ad13@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261010T095000
+DTEND;TZID=Europe/Warsaw:20261010T112500
+SUMMARY:szjISO (w)
+LOCATION:0.23/ 16
+DESCRIPTION:Systemy zarządzania jakością ISO 9000\nRodzaj: wykład\nPro
+ wadzący: dr n.społ. inż. Rogowski Bogusław\nNr zajęć: 1/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:313f89281f759cffe4da5629@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261010T114000
+DTEND;TZID=Europe/Warsaw:20261010T131500
+SUMMARY:KNiO (w)
+LOCATION:4.17a/ 135
+DESCRIPTION:Kultury narodowe i organizacyjne\nRodzaj: wykład\nProwadzący
+ : dr Jończyk Joanna\nNr zajęć: 1/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b2e47ceba1d082bd4ce5bff3@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261010T133000
+DTEND;TZID=Europe/Warsaw:20261010T150500
+SUMMARY:KNiO (w)
+LOCATION:4.17a/ 135
+DESCRIPTION:Kultury narodowe i organizacyjne\nRodzaj: wykład\nProwadzący
+ : dr Jończyk Joanna\nNr zajęć: 2/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:64898f61606cb1a9da9194c9@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261010T152000
+DTEND;TZID=Europe/Warsaw:20261010T165500
+SUMMARY:KNiO (w)
+LOCATION:4.17a/ 135
+DESCRIPTION:Kultury narodowe i organizacyjne\nRodzaj: wykład\nProwadzący
+ : dr Jończyk Joanna\nNr zajęć: 3/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:a8f603b048cf3d3bd1cded47@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261011T080000
+DTEND;TZID=Europe/Warsaw:20261011T093500
+SUMMARY:Neg (w)
+LOCATION:0.22/ 16
+DESCRIPTION:Negocjacje\nRodzaj: wykład\nProwadzący: dr Kasperski Marian\
+ nNr zajęć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c606de595a59e50c05cbc82f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261011T095000
+DTEND;TZID=Europe/Warsaw:20261011T112500
+SUMMARY:Neg (w)
+LOCATION:0.22/ 16
+DESCRIPTION:Negocjacje\nRodzaj: wykład\nProwadzący: dr Kasperski Marian\
+ nNr zajęć: 2/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8107a04502e8a7c7e2052446@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261011T114000
+DTEND;TZID=Europe/Warsaw:20261011T131500
+SUMMARY:Trf (w)
+LOCATION:236 S
+DESCRIPTION:Transakcyjne systemy informatyczne\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Rozmus Stefan\nNr zajęć: 3/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:76c6f0d0c70f402dda2dbc01@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261011T133000
+DTEND;TZID=Europe/Warsaw:20261011T150500
+SUMMARY:Trf (w)
+LOCATION:236 S
+DESCRIPTION:Transakcyjne systemy informatyczne\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Rozmus Stefan\nNr zajęć: 4/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3624e1249193e5a2e57be357@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261011T152000
+DTEND;TZID=Europe/Warsaw:20261011T165500
+SUMMARY:Iaa (w)
+LOCATION:237 S
+DESCRIPTION:Informatyczne systemy agregacji i analizy danych\nRodzaj: wyk
+ ład\nProwadzący: dr Miłek Marzenna\nNr zajęć: 1/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f9f25085b2aa326bea2e8590@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261011T171000
+DTEND;TZID=Europe/Warsaw:20261011T184500
+SUMMARY:Iaa (w)
+LOCATION:237 S
+DESCRIPTION:Informatyczne systemy agregacji i analizy danych\nRodzaj: wyk
+ ład\nProwadzący: dr Miłek Marzenna\nNr zajęć: 2/6\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:a0ed173eb79fa078ea82d8c5@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261024T080000
+DTEND;TZID=Europe/Warsaw:20261024T093500
+SUMMARY:Prc (w)
+LOCATION:2/ 22
+DESCRIPTION:Przedsiębiorczość\nRodzaj: wykład\nProwadzący: dr Kaczmar
+ ska Krawczak Jadwiga\nNr zajęć: 3/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:305220eafeacb44079ecde20@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261024T095000
+DTEND;TZID=Europe/Warsaw:20261024T112500
+SUMMARY:Prc (w)
+LOCATION:2/ 22
+DESCRIPTION:Przedsiębiorczość\nRodzaj: wykład\nProwadzący: dr Kaczmar
+ ska Krawczak Jadwiga\nNr zajęć: 4/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:69b2b315f8b9939f2cf30a32@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261024T114000
+DTEND;TZID=Europe/Warsaw:20261024T131500
+SUMMARY:szjISO (w)
+LOCATION:4.23/ 135
+DESCRIPTION:Systemy zarządzania jakością ISO 9000\nRodzaj: wykład\nPro
+ wadzący: dr n.społ. inż. Rogowski Bogusław\nNr zajęć: 2/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:806946f2a62b7e9d72be9d60@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261024T133000
+DTEND;TZID=Europe/Warsaw:20261024T150500
+SUMMARY:szjISO (ć)
+LOCATION:4.23/ 135
+DESCRIPTION:Systemy zarządzania jakością ISO 9000\nRodzaj: ćwiczenia\n
+ Prowadzący: dr n.społ. inż. Rogowski Bogusław\nNr zajęć: 1/7\nBlok:
+  4
+END:VEVENT
+BEGIN:VEVENT
+UID:939bc6547e635f929d9d6098@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261024T152000
+DTEND;TZID=Europe/Warsaw:20261024T165500
+SUMMARY:Miaz (w)
+LOCATION:4.23/ 135
+DESCRIPTION:Modelowanie i algorytmizacja procesów i systemów zarządzani
+ a\nRodzaj: wykład\nProwadzący: dr inż. Wojciechowski Zdzisław\nNr zaj
+ ęć: 2/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:d722356692a0aa0ffdcceca3@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261025T080000
+DTEND;TZID=Europe/Warsaw:20261025T093500
+SUMMARY:KNiO (ć)
+LOCATION:1.15/ 16
+DESCRIPTION:Kultury narodowe i organizacyjne\nRodzaj: ćwiczenia\nProwadz
+ ący: dr Skulska Joanna\nNr zajęć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:261a5dfda62d2a9a5b8b310a@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261025T095000
+DTEND;TZID=Europe/Warsaw:20261025T112500
+SUMMARY:Neg (w)
+LOCATION:1.16/ 16
+DESCRIPTION:Negocjacje\nRodzaj: wykład\nProwadzący: dr Kasperski Marian\
+ nNr zajęć: 3/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b57dc478200a843fd5a6b26c@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261025T114000
+DTEND;TZID=Europe/Warsaw:20261025T131500
+SUMMARY:Trf (w)
+LOCATION:233 S
+DESCRIPTION:Transakcyjne systemy informatyczne\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Rozmus Stefan\nNr zajęć: 5/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a4ba46ff70fb76efd70d899a@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261025T133000
+DTEND;TZID=Europe/Warsaw:20261025T150500
+SUMMARY:Trf (L)
+LOCATION:233 S
+DESCRIPTION:Transakcyjne systemy informatyczne\nRodzaj: laboratorium\nProw
+ adzący: dr inż. Rozmus Stefan\nNr zajęć: 1/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2a5f7ff66a4b37cb4c3eccf7@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261107T080000
+DTEND;TZID=Europe/Warsaw:20261107T093500
+SUMMARY:Iaa (w)
+LOCATION:227 S
+DESCRIPTION:Informatyczne systemy agregacji i analizy danych\nRodzaj: wyk
+ ład\nProwadzący: dr Miłek Marzenna\nNr zajęć: 3/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:72002dca1458a26be7ba718b@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261107T095000
+DTEND;TZID=Europe/Warsaw:20261107T112500
+SUMMARY:Iaa (w)
+LOCATION:227 S
+DESCRIPTION:Informatyczne systemy agregacji i analizy danych\nRodzaj: wyk
+ ład\nProwadzący: dr Miłek Marzenna\nNr zajęć: 4/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:bf487e58fd76c173db4c99dd@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261107T114000
+DTEND;TZID=Europe/Warsaw:20261107T131500
+SUMMARY:szjISO (w)
+LOCATION:0.23/ 16
+DESCRIPTION:Systemy zarządzania jakością ISO 9000\nRodzaj: wykład\nPro
+ wadzący: dr n.społ. inż. Rogowski Bogusław\nNr zajęć: 3/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8cf438d12a645e82748732fc@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261107T133000
+DTEND;TZID=Europe/Warsaw:20261107T150500
+SUMMARY:szjISO (ć)
+LOCATION:0.23/ 16
+DESCRIPTION:Systemy zarządzania jakością ISO 9000\nRodzaj: ćwiczenia\n
+ Prowadzący: dr n.społ. inż. Rogowski Bogusław\nNr zajęć: 2/7\nBlok:
+  4
+END:VEVENT
+BEGIN:VEVENT
+UID:3d2f3b7e2b41d7359ad2e534@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261107T152000
+DTEND;TZID=Europe/Warsaw:20261107T165500
+SUMMARY:Miaz (w)
+LOCATION:1.27/ 135
+DESCRIPTION:Modelowanie i algorytmizacja procesów i systemów zarządzani
+ a\nRodzaj: wykład\nProwadzący: dr inż. Wojciechowski Zdzisław\nNr zaj
+ ęć: 3/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:621c22818df83c825582fe7e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261108T080000
+DTEND;TZID=Europe/Warsaw:20261108T093500
+SUMMARY:Iaa (L)
+LOCATION:226 S
+DESCRIPTION:Informatyczne systemy agregacji i analizy danych\nRodzaj: labo
+ ratorium\nProwadzący: dr Miłek Marzenna\nNr zajęć: 1/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:50c75c6f0406e1f53e1f12ac@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261108T095000
+DTEND;TZID=Europe/Warsaw:20261108T112500
+SUMMARY:Iaa (L)
+LOCATION:226 S
+DESCRIPTION:Informatyczne systemy agregacji i analizy danych\nRodzaj: labo
+ ratorium\nProwadzący: dr Miłek Marzenna\nNr zajęć: 2/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d5478c9af5394f934aac1f8e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261108T114000
+DTEND;TZID=Europe/Warsaw:20261108T131500
+SUMMARY:KNiO (w)
+LOCATION:187 S
+DESCRIPTION:Kultury narodowe i organizacyjne\nRodzaj: wykład\nProwadzący
+ : dr Jończyk Joanna\nNr zajęć: 4/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c3f34f142136580adcafaa81@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261108T133000
+DTEND;TZID=Europe/Warsaw:20261108T150500
+SUMMARY:KNiO (w)
+LOCATION:187 S
+DESCRIPTION:Kultury narodowe i organizacyjne\nRodzaj: wykład\nProwadzący
+ : dr Jończyk Joanna\nNr zajęć: 5/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:18fb9e46511c2a4ef93a17eb@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261108T152000
+DTEND;TZID=Europe/Warsaw:20261108T165500
+SUMMARY:KNiO (w)
+LOCATION:187 S
+DESCRIPTION:Kultury narodowe i organizacyjne\nRodzaj: wykład\nProwadzący
+ : dr Jończyk Joanna\nNr zajęć: 6/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:5643165b4d78e0bef99a46e8@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261114T095000
+DTEND;TZID=Europe/Warsaw:20261114T112500
+SUMMARY:Miaz (w)
+LOCATION:4.23/ 135
+DESCRIPTION:Modelowanie i algorytmizacja procesów i systemów zarządzani
+ a\nRodzaj: wykład\nProwadzący: dr inż. Wojciechowski Zdzisław\nNr zaj
+ ęć: 4/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6df16c9a09c984e95990bf3d@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261114T114000
+DTEND;TZID=Europe/Warsaw:20261114T131500
+SUMMARY:szjISO (w)
+LOCATION:2.22/ 135
+DESCRIPTION:Systemy zarządzania jakością ISO 9000\nRodzaj: wykład\nPro
+ wadzący: dr n.społ. inż. Rogowski Bogusław\nNr zajęć: 4/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b6a1bb52a725832a10f6a2c1@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261114T133000
+DTEND;TZID=Europe/Warsaw:20261114T150500
+SUMMARY:szjISO (ć)
+LOCATION:2.22/ 135
+DESCRIPTION:Systemy zarządzania jakością ISO 9000\nRodzaj: ćwiczenia\n
+ Prowadzący: dr n.społ. inż. Rogowski Bogusław\nNr zajęć: 3/7\nBlok:
+  4
+END:VEVENT
+BEGIN:VEVENT
+UID:b9a12c05671c9b47f95103b7@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261114T152000
+DTEND;TZID=Europe/Warsaw:20261114T165500
+SUMMARY:Sd. (S)
+LOCATION:4.22 / 135
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr Tara
+ pata Jolanta\nNr zajęć: 2/16\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:5d85b332395ab23a5543effe@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261115T080000
+DTEND;TZID=Europe/Warsaw:20261115T093500
+SUMMARY:Lta (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Logika i teoria argumentacji\nRodzaj: wykład\nProwadzący: dr
+  Skulska Joanna\nNr zajęć: 3/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c64536332e068ecaae3db57e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261115T095000
+DTEND;TZID=Europe/Warsaw:20261115T112500
+SUMMARY:Lta (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Logika i teoria argumentacji\nRodzaj: wykład\nProwadzący: dr
+  Skulska Joanna\nNr zajęć: 4/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ef31ccfb647d8bb3292432d7@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261115T114000
+DTEND;TZID=Europe/Warsaw:20261115T131500
+SUMMARY:Lta (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Logika i teoria argumentacji\nRodzaj: wykład\nProwadzący: dr
+  Skulska Joanna\nNr zajęć: 5/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:19c4d7b2d446aee3ed8360e6@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261115T133000
+DTEND;TZID=Europe/Warsaw:20261115T150500
+SUMMARY:Lta (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Logika i teoria argumentacji\nRodzaj: wykład\nProwadzący: dr
+  Skulska Joanna\nNr zajęć: 6/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:bc3430b4e1d6188981f11179@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261121T080000
+DTEND;TZID=Europe/Warsaw:20261121T093500
+SUMMARY:Iaa (w)
+LOCATION:227 S
+DESCRIPTION:Informatyczne systemy agregacji i analizy danych\nRodzaj: wyk
+ ład\nProwadzący: dr Miłek Marzenna\nNr zajęć: 5/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ebc8a7438834d358b6680d14@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261121T095000
+DTEND;TZID=Europe/Warsaw:20261121T112500
+SUMMARY:Iaa (w)
+LOCATION:227 S
+DESCRIPTION:Informatyczne systemy agregacji i analizy danych\nRodzaj: wyk
+ ład\nProwadzący: dr Miłek Marzenna\nNr zajęć: 6/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c3e02f2017fa56348832564c@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261121T114000
+DTEND;TZID=Europe/Warsaw:20261121T131500
+SUMMARY:szjISO (w)
+LOCATION:5.16/ 135
+DESCRIPTION:Systemy zarządzania jakością ISO 9000\nRodzaj: wykład\nPro
+ wadzący: dr n.społ. inż. Rogowski Bogusław\nNr zajęć: 5/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:40228bafec6b0f0cc86d970d@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261121T133000
+DTEND;TZID=Europe/Warsaw:20261121T150500
+SUMMARY:szjISO (ć)
+LOCATION:5.16/ 135
+DESCRIPTION:Systemy zarządzania jakością ISO 9000\nRodzaj: ćwiczenia\n
+ Prowadzący: dr n.społ. inż. Rogowski Bogusław\nNr zajęć: 4/7\nBlok:
+  4
+END:VEVENT
+BEGIN:VEVENT
+UID:5a74ed64abfff2aa77c2febe@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261121T152000
+DTEND;TZID=Europe/Warsaw:20261121T165500
+SUMMARY:Sd. (S)
+LOCATION:4.29 / 135
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: KKj\nNr
+  zajęć: 3/16\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f3819fc5fb46f31b6f2bcf5a@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261121T171000
+DTEND;TZID=Europe/Warsaw:20261121T184500
+SUMMARY:Sd. (S)
+LOCATION:4.29 / 135
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: KKj\nNr
+  zajęć: 4/16\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:75b9ce63b88a13f5d261644f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261121T190000
+DTEND;TZID=Europe/Warsaw:20261121T203500
+SUMMARY:Sd. (S)
+LOCATION:4.31 / 135
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: Ww\nNr 
+ zajęć: 5/16\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:3a19d749a53ecdb574c52542@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261122T080000
+DTEND;TZID=Europe/Warsaw:20261122T093500
+SUMMARY:KNiO (ć)
+LOCATION:255 S
+DESCRIPTION:Kultury narodowe i organizacyjne\nRodzaj: ćwiczenia\nProwadz
+ ący: dr Skulska Joanna\nNr zajęć: 2/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:831011779b287dbc23c3e567@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261122T095000
+DTEND;TZID=Europe/Warsaw:20261122T112500
+SUMMARY:Miaz (L)
+LOCATION:1.15/ 16
+DESCRIPTION:Modelowanie i algorytmizacja procesów i systemów zarządzani
+ a\nRodzaj: laboratorium\nProwadzący: dr inż. Staruch Marcin\nNr zajęć
+ : 1/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:46d52860652c4d41987c84e3@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261122T114000
+DTEND;TZID=Europe/Warsaw:20261122T131500
+SUMMARY:Trf (L)
+LOCATION:224 S
+DESCRIPTION:Transakcyjne systemy informatyczne\nRodzaj: laboratorium\nProw
+ adzący: dr inż. Rozmus Stefan\nNr zajęć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a95cf2f43f5b72b9bfb433ff@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261122T133000
+DTEND;TZID=Europe/Warsaw:20261122T150500
+SUMMARY:Trf (L)
+LOCATION:224 S
+DESCRIPTION:Transakcyjne systemy informatyczne\nRodzaj: laboratorium\nProw
+ adzący: dr inż. Rozmus Stefan\nNr zajęć: 3/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a946f126c65e6dd94e0793d3@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261122T152000
+DTEND;TZID=Europe/Warsaw:20261122T165500
+SUMMARY:Ohd (w)
+LOCATION:224 S
+DESCRIPTION:Organizacja hurtowni danych\nRodzaj: wykład\nProwadzący: dr 
+ inż. Rozmus Stefan\nNr zajęć: 1/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:7a81126759c22415efd5d40a@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261122T171000
+DTEND;TZID=Europe/Warsaw:20261122T184500
+SUMMARY:Sd. (S)
+LOCATION:4.04 / 135
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr Skul
+ ska Joanna\nNr zajęć: 6/16\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:e8af16237c569386b833af30@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261122T190000
+DTEND;TZID=Europe/Warsaw:20261122T203500
+SUMMARY:Sd. (S)
+LOCATION:4.04 / 135
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr Skul
+ ska Joanna\nNr zajęć: 7/16\nBlok: 7\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:ec18896cbfb2dc6d04326b67@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261205T080000
+DTEND;TZID=Europe/Warsaw:20261205T093500
+SUMMARY:Miaz (w)
+LOCATION:1.15/ 16
+DESCRIPTION:Modelowanie i algorytmizacja procesów i systemów zarządzani
+ a\nRodzaj: wykład\nProwadzący: dr inż. Wojciechowski Zdzisław\nNr zaj
+ ęć: 5/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:24adc8456310578b8c6fa32c@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261205T095000
+DTEND;TZID=Europe/Warsaw:20261205T112500
+SUMMARY:szjISO (w)
+LOCATION:0.23/ 16
+DESCRIPTION:Systemy zarządzania jakością ISO 9000\nRodzaj: wykład\nPro
+ wadzący: dr n.społ. inż. Rogowski Bogusław\nNr zajęć: 6/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f9a3578f7f0edaffbe1b0693@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261205T114000
+DTEND;TZID=Europe/Warsaw:20261205T131500
+SUMMARY:szjISO (ć)
+LOCATION:0.23/ 16
+DESCRIPTION:Systemy zarządzania jakością ISO 9000\nRodzaj: ćwiczenia\n
+ Prowadzący: dr n.społ. inż. Rogowski Bogusław\nNr zajęć: 5/7\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:ca84b5c7fcda99969c4294c6@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261205T133000
+DTEND;TZID=Europe/Warsaw:20261205T150500
+SUMMARY:Neg (ć)
+LOCATION:1/ 22
+DESCRIPTION:Negocjacje\nRodzaj: ćwiczenia\nProwadzący: dr Kasperski Mari
+ an\nNr zajęć: 1/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a6922540a8265eb2d5647960@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261206T080000
+DTEND;TZID=Europe/Warsaw:20261206T093500
+SUMMARY:KNiO (ć)
+LOCATION:1.17/ 16
+DESCRIPTION:Kultury narodowe i organizacyjne\nRodzaj: ćwiczenia\nProwadz
+ ący: dr Skulska Joanna\nNr zajęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3785e2740145d54f4674db59@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261206T095000
+DTEND;TZID=Europe/Warsaw:20261206T112500
+SUMMARY:KNiO (ć)
+LOCATION:1.17/ 16
+DESCRIPTION:Kultury narodowe i organizacyjne\nRodzaj: ćwiczenia\nProwadz
+ ący: dr Skulska Joanna\nNr zajęć: 4/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:565112bfb947302beb44a3c3@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261206T114000
+DTEND;TZID=Europe/Warsaw:20261206T131500
+SUMMARY:Trf (L)
+LOCATION:237 S
+DESCRIPTION:Transakcyjne systemy informatyczne\nRodzaj: laboratorium\nProw
+ adzący: dr inż. Rozmus Stefan\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:990a2cdfc4ab26145147d7f9@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261206T133000
+DTEND;TZID=Europe/Warsaw:20261206T150500
+SUMMARY:Trf (L)
+LOCATION:237 S
+DESCRIPTION:Transakcyjne systemy informatyczne\nRodzaj: laboratorium\nProw
+ adzący: dr inż. Rozmus Stefan\nNr zajęć: 5/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a12f329050caedfd5384618e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261212T080000
+DTEND;TZID=Europe/Warsaw:20261212T093500
+SUMMARY:Prc (w)
+LOCATION:1.17/ 16
+DESCRIPTION:Przedsiębiorczość\nRodzaj: wykład\nProwadzący: dr Kaczmar
+ ska Krawczak Jadwiga\nNr zajęć: 5/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2bf676b8fddb5422318bbc46@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261212T095000
+DTEND;TZID=Europe/Warsaw:20261212T112500
+SUMMARY:Prc (w)
+LOCATION:1.17/ 16
+DESCRIPTION:Przedsiębiorczość\nRodzaj: wykład\nProwadzący: dr Kaczmar
+ ska Krawczak Jadwiga\nNr zajęć: 6/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e1982b606d60a1aec8d9a08e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261212T114000
+DTEND;TZID=Europe/Warsaw:20261212T131500
+SUMMARY:Prc (ć)
+LOCATION:0.22/ 16
+DESCRIPTION:Przedsiębiorczość\nRodzaj: ćwiczenia\nProwadzący: dr Kacz
+ marska Krawczak Jadwiga\nNr zajęć: 1/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf6ac8ce2826feaad1c534d@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261212T133000
+DTEND;TZID=Europe/Warsaw:20261212T150500
+SUMMARY:Sd. (S)
+LOCATION:4.35 / 135
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: Mm\nNr 
+ zajęć: 8/16\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3075c8bf8b61448175d358de@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261212T152000
+DTEND;TZID=Europe/Warsaw:20261212T165500
+SUMMARY:Sd. (S)
+LOCATION:4.30 / 135
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr Woź
+ niak Jacek\nNr zajęć: 9/16\nBlok: 5\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:18657146cb43178019fbf64e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261213T080000
+DTEND;TZID=Europe/Warsaw:20261213T093500
+SUMMARY:Iaa (L)
+LOCATION:226 S
+DESCRIPTION:Informatyczne systemy agregacji i analizy danych\nRodzaj: labo
+ ratorium\nProwadzący: dr Miłek Marzenna\nNr zajęć: 3/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:abfcabbe38187323c94e4b78@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261213T095000
+DTEND;TZID=Europe/Warsaw:20261213T112500
+SUMMARY:Iaa (L)
+LOCATION:226 S
+DESCRIPTION:Informatyczne systemy agregacji i analizy danych\nRodzaj: labo
+ ratorium\nProwadzący: dr Miłek Marzenna\nNr zajęć: 4/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5bc3817a943e644a4a6037a4@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261213T114000
+DTEND;TZID=Europe/Warsaw:20261213T131500
+SUMMARY:Lta (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Logika i teoria argumentacji\nRodzaj: ćwiczenia\nProwadzący:
+  dr Skulska Joanna\nNr zajęć: 1/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:668e382943aa92d6cc69826a@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261213T133000
+DTEND;TZID=Europe/Warsaw:20261213T150500
+SUMMARY:Lta (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Logika i teoria argumentacji\nRodzaj: ćwiczenia\nProwadzący:
+  dr Skulska Joanna\nNr zajęć: 2/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:556cff7a36aba3bdd700e66e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261213T152000
+DTEND;TZID=Europe/Warsaw:20261213T165500
+SUMMARY:Sd. (S)
+LOCATION:4.24 / 135
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: Msk\nNr
+  zajęć: 10/16\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f9bba4afb8c3174633fcd8e9@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261219T080000
+DTEND;TZID=Europe/Warsaw:20261219T093500
+SUMMARY:Iaa (L)
+LOCATION:223 S
+DESCRIPTION:Informatyczne systemy agregacji i analizy danych\nRodzaj: labo
+ ratorium\nProwadzący: dr Miłek Marzenna\nNr zajęć: 5/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:46b3866349a18ce9a554197c@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261219T095000
+DTEND;TZID=Europe/Warsaw:20261219T112500
+SUMMARY:Iaa (L)
+LOCATION:223 S
+DESCRIPTION:Informatyczne systemy agregacji i analizy danych\nRodzaj: labo
+ ratorium\nProwadzący: dr Miłek Marzenna\nNr zajęć: 6/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:13a997e36cdc94cf02e5211d@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261219T114000
+DTEND;TZID=Europe/Warsaw:20261219T131500
+SUMMARY:szjISO (w)
+LOCATION:2.22/ 135
+DESCRIPTION:Systemy zarządzania jakością ISO 9000\nRodzaj: wykład\nPro
+ wadzący: dr n.społ. inż. Rogowski Bogusław\nNr zajęć: 7/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2b1a5e43268590b839d8bb2c@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261219T133000
+DTEND;TZID=Europe/Warsaw:20261219T150500
+SUMMARY:szjISO (ć)
+LOCATION:2.22/ 135
+DESCRIPTION:Systemy zarządzania jakością ISO 9000\nRodzaj: ćwiczenia\n
+ Prowadzący: dr n.społ. inż. Rogowski Bogusław\nNr zajęć: 6/7\nBlok:
+  4
+END:VEVENT
+BEGIN:VEVENT
+UID:300bbe38384940e880846547@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261219T152000
+DTEND;TZID=Europe/Warsaw:20261219T165500
+SUMMARY:szjISO (w)
+LOCATION:2.22/ 135
+DESCRIPTION:Systemy zarządzania jakością ISO 9000\nRodzaj: wykład\nPro
+ wadzący: dr n.społ. inż. Rogowski Bogusław\nNr zajęć: 8/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:41ff0fcd28af8280fe72346b@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261220T080000
+DTEND;TZID=Europe/Warsaw:20261220T093500
+SUMMARY:Neg (ć)
+LOCATION:0.6/ 16
+DESCRIPTION:Negocjacje\nRodzaj: ćwiczenia\nProwadzący: dr Kasperski Mari
+ an\nNr zajęć: 2/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3c6b8fb23900965ca08d7165@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261220T095000
+DTEND;TZID=Europe/Warsaw:20261220T112500
+SUMMARY:Neg (ć)
+LOCATION:0.6/ 16
+DESCRIPTION:Negocjacje\nRodzaj: ćwiczenia\nProwadzący: dr Kasperski Mari
+ an\nNr zajęć: 3/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5c999ebfe4cf73d947e5aca6@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261220T114000
+DTEND;TZID=Europe/Warsaw:20261220T131500
+SUMMARY:Ohd (w)
+LOCATION:224 S
+DESCRIPTION:Organizacja hurtowni danych\nRodzaj: wykład\nProwadzący: dr 
+ inż. Rozmus Stefan\nNr zajęć: 2/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:dfc061fffb78244240214a7c@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261220T133000
+DTEND;TZID=Europe/Warsaw:20261220T150500
+SUMMARY:Ohd (w)
+LOCATION:224 S
+DESCRIPTION:Organizacja hurtowni danych\nRodzaj: wykład\nProwadzący: dr 
+ inż. Rozmus Stefan\nNr zajęć: 3/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8fee04f8d84c76392dcab157@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261220T152000
+DTEND;TZID=Europe/Warsaw:20261220T165500
+SUMMARY:Ohd (ć)
+LOCATION:227 S
+DESCRIPTION:Organizacja hurtowni danych\nRodzaj: ćwiczenia\nProwadzący: 
+ dr inż. Rozmus Stefan\nNr zajęć: 1/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:999d7a2528f9e0ac0b2863ce@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270109T080000
+DTEND;TZID=Europe/Warsaw:20270109T093500
+SUMMARY:Sd. (S)
+LOCATION:4.28 / 135
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: prof. d
+ r hab. inż. Zaskórski Piotr\nNr zajęć: 11/16\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:bf7caca4442cb8e403cd8907@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270109T095000
+DTEND;TZID=Europe/Warsaw:20270109T112500
+SUMMARY:Miaz (L)
+LOCATION:255 S
+DESCRIPTION:Modelowanie i algorytmizacja procesów i systemów zarządzani
+ a\nRodzaj: laboratorium\nProwadzący: dr inż. Staruch Marcin\nNr zajęć
+ : 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4bf456a3c02afa6cdc8db521@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270109T114000
+DTEND;TZID=Europe/Warsaw:20270109T131500
+SUMMARY:Miaz (L)
+LOCATION:255 S
+DESCRIPTION:Modelowanie i algorytmizacja procesów i systemów zarządzani
+ a\nRodzaj: laboratorium\nProwadzący: dr inż. Staruch Marcin\nNr zajęć
+ : 3/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:17e4cd3378febaea0d5f83c8@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270109T133000
+DTEND;TZID=Europe/Warsaw:20270109T150500
+SUMMARY:szjISO (ć)
+LOCATION:2.22/ 135
+DESCRIPTION:Systemy zarządzania jakością ISO 9000\nRodzaj: ćwiczenia\n
+ Prowadzący: dr n.społ. inż. Rogowski Bogusław\nNr zajęć: 7/7\nBlok:
+  4
+END:VEVENT
+BEGIN:VEVENT
+UID:403dcfef4727a9a82212fb2f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270110T080000
+DTEND;TZID=Europe/Warsaw:20270110T093500
+SUMMARY:Neg (w)
+LOCATION:1.27/ 135
+DESCRIPTION:Negocjacje\nRodzaj: wykład\nProwadzący: dr Kasperski Marian\
+ nNr zajęć: 4/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e7540ee48b8ad42e3386ef57@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270110T095000
+DTEND;TZID=Europe/Warsaw:20270110T112500
+SUMMARY:Neg (ć)
+LOCATION:0.28/ 135
+DESCRIPTION:Negocjacje\nRodzaj: ćwiczenia\nProwadzący: dr Kasperski Mari
+ an\nNr zajęć: 4/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:08a67a5b962a5f50e1535ead@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270110T114000
+DTEND;TZID=Europe/Warsaw:20270110T131500
+SUMMARY:Neg (ć)
+LOCATION:0.28/ 135
+DESCRIPTION:Negocjacje\nRodzaj: ćwiczenia\nProwadzący: dr Kasperski Mari
+ an\nNr zajęć: 5/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c1ccdf1eb4229b6a9e96569a@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270110T133000
+DTEND;TZID=Europe/Warsaw:20270110T150500
+SUMMARY:Ohd (w)
+LOCATION:236 S
+DESCRIPTION:Organizacja hurtowni danych\nRodzaj: wykład\nProwadzący: dr 
+ inż. Rozmus Stefan\nNr zajęć: 4/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:659be96e43f3484e525e5c77@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270110T152000
+DTEND;TZID=Europe/Warsaw:20270110T165500
+SUMMARY:Ohd (ć)
+LOCATION:236 S
+DESCRIPTION:Organizacja hurtowni danych\nRodzaj: ćwiczenia\nProwadzący: 
+ dr inż. Rozmus Stefan\nNr zajęć: 2/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:4333ed84c2e1f453a2b57336@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270116T080000
+DTEND;TZID=Europe/Warsaw:20270116T093500
+SUMMARY:Sd. (S)
+LOCATION:4.35 / 135
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: Mm\nNr 
+ zajęć: 12/16\nBlok: 1\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:a830bf5f1d796f6dcfc14bab@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270116T095000
+DTEND;TZID=Europe/Warsaw:20270116T112500
+SUMMARY:Ohd (ć)
+LOCATION:224 S
+DESCRIPTION:Organizacja hurtowni danych\nRodzaj: ćwiczenia\nProwadzący: 
+ dr inż. Rozmus Stefan\nNr zajęć: 3/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4bd318836c9b3b45812373a9@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270116T114000
+DTEND;TZID=Europe/Warsaw:20270116T131500
+SUMMARY:Ohd (ć)
+LOCATION:224 S
+DESCRIPTION:Organizacja hurtowni danych\nRodzaj: ćwiczenia\nProwadzący: 
+ dr inż. Rozmus Stefan\nNr zajęć: 4/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0ac4f3defeb36f5959034533@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270116T133000
+DTEND;TZID=Europe/Warsaw:20270116T150500
+SUMMARY:Neg (ć)
+LOCATION:0.23/ 16
+DESCRIPTION:Negocjacje\nRodzaj: ćwiczenia\nProwadzący: dr Kasperski Mari
+ an\nNr zajęć: 6/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9bf761bff6f4a053f7c61841@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270117T080000
+DTEND;TZID=Europe/Warsaw:20270117T093500
+SUMMARY:Lta (ć)
+LOCATION:255 S
+DESCRIPTION:Logika i teoria argumentacji\nRodzaj: ćwiczenia\nProwadzący:
+  dr Skulska Joanna\nNr zajęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:113e12b3e98cecce86dba13f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270117T095000
+DTEND;TZID=Europe/Warsaw:20270117T112500
+SUMMARY:Lta (ć)
+LOCATION:4.17a/ 135
+DESCRIPTION:Logika i teoria argumentacji\nRodzaj: ćwiczenia\nProwadzący:
+  dr Skulska Joanna\nNr zajęć: 4/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:befc438ccb3ee784d1564b3b@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270117T114000
+DTEND;TZID=Europe/Warsaw:20270117T131500
+SUMMARY:Ohd (L)
+LOCATION:227 S
+DESCRIPTION:Organizacja hurtowni danych\nRodzaj: laboratorium\nProwadzący
+ : dr inż. Rozmus Stefan\nNr zajęć: 1/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:bbc572ec20411c25f532fdb7@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270117T133000
+DTEND;TZID=Europe/Warsaw:20270117T150500
+SUMMARY:Ohd (L)
+LOCATION:227 S
+DESCRIPTION:Organizacja hurtowni danych\nRodzaj: laboratorium\nProwadzący
+ : dr inż. Rozmus Stefan\nNr zajęć: 2/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c6ff54d31b9ce6389075a279@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270117T152000
+DTEND;TZID=Europe/Warsaw:20270117T165500
+SUMMARY:Ohd (L)
+LOCATION:227 S
+DESCRIPTION:Organizacja hurtowni danych\nRodzaj: laboratorium\nProwadzący
+ : dr inż. Rozmus Stefan\nNr zajęć: 3/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:5dd2c55bd9e5b889fe87d131@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270117T171000
+DTEND;TZID=Europe/Warsaw:20270117T184500
+SUMMARY:Sd. (S)
+LOCATION:4.30 / 135
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr hab.
+  Przychocka Iwona\nNr zajęć: 13/16\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:c2e4c817d9cf5530ab8cb797@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270123T080000
+DTEND;TZID=Europe/Warsaw:20270123T093500
+SUMMARY:Prc (ć)
+LOCATION:2.22/ 135
+DESCRIPTION:Przedsiębiorczość\nRodzaj: ćwiczenia\nProwadzący: dr Kacz
+ marska Krawczak Jadwiga\nNr zajęć: 2/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:bbeb0bd39869c9ffb0c55d85@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270123T095000
+DTEND;TZID=Europe/Warsaw:20270123T112500
+SUMMARY:Prc (ć)
+LOCATION:2.22/ 135
+DESCRIPTION:Przedsiębiorczość\nRodzaj: ćwiczenia\nProwadzący: dr Kacz
+ marska Krawczak Jadwiga\nNr zajęć: 3/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e78ed8a80ceb61f7e831041f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270123T114000
+DTEND;TZID=Europe/Warsaw:20270123T131500
+SUMMARY:Prc (ć)
+LOCATION:2/ 22
+DESCRIPTION:Przedsiębiorczość\nRodzaj: ćwiczenia\nProwadzący: dr Kacz
+ marska Krawczak Jadwiga\nNr zajęć: 4/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:942a3a62b3d05e7cc72c2873@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270123T133000
+DTEND;TZID=Europe/Warsaw:20270123T150500
+SUMMARY:Iaa (L)
+LOCATION:0.8/ 16
+DESCRIPTION:Informatyczne systemy agregacji i analizy danych\nRodzaj: labo
+ ratorium\nProwadzący: dr Miłek Marzenna\nNr zajęć: 7/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:195db473d354a5cc5cd34d16@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270123T152000
+DTEND;TZID=Europe/Warsaw:20270123T165500
+SUMMARY:Sd. (S)
+LOCATION:4.29 / 135
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: KKj\nNr
+  zajęć: 14/16\nBlok: 5\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:8a831ac79ba4386940de00c6@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270124T095000
+DTEND;TZID=Europe/Warsaw:20270124T112500
+SUMMARY:Miaz (L)
+LOCATION:0.7/ 16
+DESCRIPTION:Modelowanie i algorytmizacja procesów i systemów zarządzani
+ a\nRodzaj: laboratorium\nProwadzący: dr inż. Staruch Marcin\nNr zajęć
+ : 4/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6256e619e62ec5992e3a12c2@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270124T114000
+DTEND;TZID=Europe/Warsaw:20270124T131500
+SUMMARY:Miaz (L)
+LOCATION:0.7/ 16
+DESCRIPTION:Modelowanie i algorytmizacja procesów i systemów zarządzani
+ a\nRodzaj: laboratorium\nProwadzący: dr inż. Staruch Marcin\nNr zajęć
+ : 5/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d50ce5d1564a5e34ea4e98b5@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270124T133000
+DTEND;TZID=Europe/Warsaw:20270124T150500
+SUMMARY:Ohd (L)
+LOCATION:236 S
+DESCRIPTION:Organizacja hurtowni danych\nRodzaj: laboratorium\nProwadzący
+ : dr inż. Rozmus Stefan\nNr zajęć: 4/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:757d447d295119059d06e2fc@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270124T152000
+DTEND;TZID=Europe/Warsaw:20270124T165500
+SUMMARY:Ohd (L)
+LOCATION:236 S
+DESCRIPTION:Organizacja hurtowni danych\nRodzaj: laboratorium\nProwadzący
+ : dr inż. Rozmus Stefan\nNr zajęć: 5/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:a09fe941caf72ae4c02e3143@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270130T080000
+DTEND;TZID=Europe/Warsaw:20270130T093500
+SUMMARY:Sd. (S)
+LOCATION:4.22 / 135
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr Tara
+ pata Jolanta\nNr zajęć: 15/16\nBlok: 1\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:608130bed5f1810d75a08c6c@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270130T095000
+DTEND;TZID=Europe/Warsaw:20270130T112500
+SUMMARY:Sd. (S)
+LOCATION:4.30 / 135
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr Woź
+ niak Jacek\nNr zajęć: 16/16\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:71697b06262a64450b83970e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270206T095000
+DTEND;TZID=Europe/Warsaw:20270206T112500
+SUMMARY:Miaz (E)
+LOCATION:0.23/ 16
+DESCRIPTION:Modelowanie i algorytmizacja procesów i systemów zarządzani
+ a\nRodzaj: egzamin\nProwadzący: dr inż. Wojciechowski Zdzisław\nNr zaj
+ ęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b1d5e98cd6d7c2e407ed61ce@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270207T095000
+DTEND;TZID=Europe/Warsaw:20270207T112500
+SUMMARY:Iaa (E)
+LOCATION:227 S
+DESCRIPTION:Informatyczne systemy agregacji i analizy danych\nRodzaj: egza
+ min\nProwadzący: dr Miłek Marzenna\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e29adfd5df19dafdb4075f2f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270207T114000
+DTEND;TZID=Europe/Warsaw:20270207T131500
+SUMMARY:Ohd (E)
+LOCATION:236 S
+DESCRIPTION:Organizacja hurtowni danych\nRodzaj: egzamin\nProwadzący: dr 
+ inż. Rozmus Stefan\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:80168a9a34ed841ead233f60@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270220T095000
+DTEND;TZID=Europe/Warsaw:20270220T112500
+SUMMARY:Miaz (Ep)
+LOCATION:187 S
+DESCRIPTION:Modelowanie i algorytmizacja procesów i systemów zarządzani
+ a\nRodzaj: egzamin poprawkowy\nProwadzący: dr inż. Wojciechowski Zdzis
+ ław\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:93cc5a04f859cb6d473d69db@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270221T095000
+DTEND;TZID=Europe/Warsaw:20270221T112500
+SUMMARY:Iaa (Ep)
+LOCATION:227 S
+DESCRIPTION:Informatyczne systemy agregacji i analizy danych\nRodzaj: egza
+ min poprawkowy\nProwadzący: dr Miłek Marzenna\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ca5d768adbdc9da82ef8c22b@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270221T114000
+DTEND;TZID=Europe/Warsaw:20270221T131500
+SUMMARY:Ohd (Ep)
+LOCATION:236 S
+DESCRIPTION:Organizacja hurtowni danych\nRodzaj: egzamin poprawkowy\nProwa
+ dzący: dr inż. Rozmus Stefan\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+END:VCALENDAR

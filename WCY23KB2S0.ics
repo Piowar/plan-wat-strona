@@ -1,0 +1,3089 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WCY23KB2S0
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:15917f73f67d761f3e19f9d0@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20260928T095000
+DTEND;TZID=Europe/Warsaw:20260928T112500
+SUMMARY:Tal (Inne)
+LOCATION:314 S
+DESCRIPTION:Techniki algorytmiczne\nRodzaj: egzamin poprawkowy\nProwadząc
+ y: Tarapata Zbigniew\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4a81da13bb220ed6f3fd0107@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20260929T095000
+DTEND;TZID=Europe/Warsaw:20260929T112500
+SUMMARY:Nsk (Inne)
+LOCATION:313 S
+DESCRIPTION:Niezawodność systemów komputerowych\nRodzaj: zal popr\nProw
+ adzący: Nowicki Tadeusz\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:58842e980c749b1794357597@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20260930T095000
+DTEND;TZID=Europe/Warsaw:20260930T112500
+SUMMARY:Ajf (Inne)
+LOCATION:19 36
+DESCRIPTION:Automaty i języki formalne\nRodzaj: egzamin poprawkowy\nProwa
+ dzący: Kosiuczenko Piotr\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:bbe177f8c781d31d1d8ae58e@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261001T095000
+DTEND;TZID=Europe/Warsaw:20261001T112500
+SUMMARY:Ja (ć)
+LOCATION:128 K\, 131 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 31/60\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:e6b3157245d28280d63fcab0@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261001T114000
+DTEND;TZID=Europe/Warsaw:20261001T131500
+SUMMARY:SQL (w)
+LOCATION:309 S
+DESCRIPTION:Bazy danych NoSQL\nRodzaj: wykład\nProwadzący: Koszela Jaros
+ ław\nNr zajęć: 1/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d002a7d09cf9bad2230ea7f8@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261001T133000
+DTEND;TZID=Europe/Warsaw:20261001T150500
+SUMMARY:SQL (w)
+LOCATION:309 S
+DESCRIPTION:Bazy danych NoSQL\nRodzaj: wykład\nProwadzący: Koszela Jaros
+ ław\nNr zajęć: 2/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4c1511e75e19f6070f802e67@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261002T095000
+DTEND;TZID=Europe/Warsaw:20261002T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 18/47\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3c96fe9f53e0a011ab1d7c04@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261002T114000
+DTEND;TZID=Europe/Warsaw:20261002T131500
+SUMMARY:REG (w)
+LOCATION:AW 7
+DESCRIPTION:Regulaminy SZ RP\nRodzaj: wykład\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6390add935e5519ae5e510fd@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261002T133000
+DTEND;TZID=Europe/Warsaw:20261002T150500
+SUMMARY:Miar (w)
+LOCATION:309 S
+DESCRIPTION:Metody ilościowe analizy ryzyka\nRodzaj: wykład\nProwadzący
+ : Antkiewicz Ryszard\nNr zajęć: 1/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:95bb4dbc236290e31b78544e@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261002T194000
+DTEND;TZID=Europe/Warsaw:20261002T211500
+SUMMARY:S.Sz.W.
+DESCRIPTION:Rodzaj: studium szkol. wojs.\nNr zajęć: 1/1\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:4997a22ec59aaaddbd0ec355@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261003T080000
+DTEND;TZID=Europe/Warsaw:20261003T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 14/28\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:fb439b685fb57c94edec7e99@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261005T095000
+DTEND;TZID=Europe/Warsaw:20261005T112500
+SUMMARY:Miar (w)
+LOCATION:308 S
+DESCRIPTION:Metody ilościowe analizy ryzyka\nRodzaj: wykład\nProwadzący
+ : Antkiewicz Ryszard\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:09456e5ccb8b8b36d7a420f2@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261005T114000
+DTEND;TZID=Europe/Warsaw:20261005T131500
+SUMMARY:Ja (ć)
+LOCATION:128 K\, 131 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 32/60\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:cc22b2bafef27386d6d2529e@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261005T133000
+DTEND;TZID=Europe/Warsaw:20261005T150500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 19/47\nBl
+ ok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0ffe9264eda9e73724a9d8d8@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261005T160000
+DTEND;TZID=Europe/Warsaw:20261005T173500
+SUMMARY:Mpwsi (w)
+LOCATION:309 S
+DESCRIPTION:Metody projektowania i wdrażania systemów informatycznych\nR
+ odzaj: wykład\nProwadzący: Protasowicki Tomasz\nNr zajęć: 1/15\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:8e10ccc31b195f80fefeae6d@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261005T175000
+DTEND;TZID=Europe/Warsaw:20261005T192500
+SUMMARY:Mpwsi (w)
+LOCATION:309 S
+DESCRIPTION:Metody projektowania i wdrażania systemów informatycznych\nR
+ odzaj: wykład\nProwadzący: Protasowicki Tomasz\nNr zajęć: 2/15\nBlok:
+  6
+END:VEVENT
+BEGIN:VEVENT
+UID:a40756952458f5c30f29555a@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261006T095000
+DTEND;TZID=Europe/Warsaw:20261006T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 20/47\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a778a3d15fe7a297e04d8acd@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261007T095000
+DTEND;TZID=Europe/Warsaw:20261007T112500
+SUMMARY:Ps (w)
+LOCATION:314 S
+DESCRIPTION:Procesy stochastyczne\nRodzaj: wykład\nProwadzący: Kurkowiak
+  Justyna\nNr zajęć: 1/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a08793b47611085bc7118b4a@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261007T133000
+DTEND;TZID=Europe/Warsaw:20261007T150500
+SUMMARY:Tuim (w)
+LOCATION:307 S
+DESCRIPTION:Technologie usługowe i mobilne\nRodzaj: wykład\nProwadzący:
+  Sobolewski Michał\nNr zajęć: 1/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:dc91097d5d01ef1d037aaafb@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261008T080000
+DTEND;TZID=Europe/Warsaw:20261008T093500
+SUMMARY:SQL (w)
+LOCATION:307 S
+DESCRIPTION:Bazy danych NoSQL\nRodzaj: wykład\nProwadzący: Koszela Jaros
+ ław\nNr zajęć: 3/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c10387f1ad2125cbfa7e5972@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261008T095000
+DTEND;TZID=Europe/Warsaw:20261008T112500
+SUMMARY:Ja (ć)
+LOCATION:128 K\, 131 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 33/60\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:c8a057791d787969c7aaab9a@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261008T114000
+DTEND;TZID=Europe/Warsaw:20261008T131500
+SUMMARY:DWiPD (ć)
+LOCATION:308 S
+DESCRIPTION:Działalność wychowawcza i profilaktyka dyscyplinarna\nRodza
+ j: ćwiczenia\nNr zajęć: 1/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:854ac2347de0dae8f206f124@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261009T095000
+DTEND;TZID=Europe/Warsaw:20261009T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 21/47\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:553684aaa1e110f6005cbb95@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261009T114000
+DTEND;TZID=Europe/Warsaw:20261009T131500
+SUMMARY:Tuim (P)
+LOCATION:224 S
+DESCRIPTION:Technologie usługowe i mobilne\nRodzaj: projekt\nProwadzący:
+  Pieczonka Paweł\nNr zajęć: 1/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:61c43d9e1465970492c58dfb@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261009T194000
+DTEND;TZID=Europe/Warsaw:20261009T211500
+SUMMARY:S.Sz.W.
+DESCRIPTION:Rodzaj: studium szkol. wojs.\nNr zajęć: 1/1\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:29ddee65e15f739743c5ad7c@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261010T080000
+DTEND;TZID=Europe/Warsaw:20261010T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 15/28\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:cbd27ebf95cf70a927a0eefa@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261012T095000
+DTEND;TZID=Europe/Warsaw:20261012T112500
+SUMMARY:wzbnim (w)
+LOCATION:313 S
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: wykład\nNr zajęć: 1/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2135a7f2237a003eb3e5738f@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261012T114000
+DTEND;TZID=Europe/Warsaw:20261012T131500
+SUMMARY:Ja (ć)
+LOCATION:128 K\, 131 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 34/60\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:074c6b9a70757662ff43287c@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261012T133000
+DTEND;TZID=Europe/Warsaw:20261012T150500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 22/47\nBl
+ ok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ea8eabe174f3695226fb1d5d@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261012T160000
+DTEND;TZID=Europe/Warsaw:20261012T173500
+SUMMARY:Mpwsi (w)
+LOCATION:309 S
+DESCRIPTION:Metody projektowania i wdrażania systemów informatycznych\nR
+ odzaj: wykład\nProwadzący: Protasowicki Tomasz\nNr zajęć: 3/15\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:2d6b50e9051c808a364a5ee2@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261012T175000
+DTEND;TZID=Europe/Warsaw:20261012T192500
+SUMMARY:Mpwsi (w)
+LOCATION:309 S
+DESCRIPTION:Metody projektowania i wdrażania systemów informatycznych\nR
+ odzaj: wykład\nProwadzący: Protasowicki Tomasz\nNr zajęć: 4/15\nBlok:
+  6
+END:VEVENT
+BEGIN:VEVENT
+UID:83c0fd730d0f73f83413dee3@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261013T080000
+DTEND;TZID=Europe/Warsaw:20261013T093500
+SUMMARY:BbD (w)
+LOCATION:317 S
+DESCRIPTION:Bezpieczeństwo baz danych\nRodzaj: wykład\nProwadzący: Szaf
+ rański Bolesław\nNr zajęć: 1/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2bf5f9dcca62118b41abbcf7@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261013T095000
+DTEND;TZID=Europe/Warsaw:20261013T112500
+SUMMARY:BbD (w)
+LOCATION:317 S
+DESCRIPTION:Bezpieczeństwo baz danych\nRodzaj: wykład\nProwadzący: Szaf
+ rański Bolesław\nNr zajęć: 2/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f15981a68eac607ca6ca3ea6@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261014T160000
+DTEND;TZID=Europe/Warsaw:20261014T173500
+SUMMARY:Muma (w)
+LOCATION:307 S
+DESCRIPTION:Metody uczenia maszynowego\nRodzaj: wykład\nProwadzący: Olej
+ niczak Jarosław\nNr zajęć: 1/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:22743214222faf3aff82aaab@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261015T080000
+DTEND;TZID=Europe/Warsaw:20261015T093500
+SUMMARY:Miar (ć)
+LOCATION:236 S
+DESCRIPTION:Metody ilościowe analizy ryzyka\nRodzaj: ćwiczenia\nProwadz
+ ący: Stąpor Piotr\nNr zajęć: 1/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4d4270f3c9e3f3879df99b3f@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261015T095000
+DTEND;TZID=Europe/Warsaw:20261015T112500
+SUMMARY:Ja (ć)
+LOCATION:128 K\, 131 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 35/60\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:f5ceb73c477799f13302b064@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261015T114000
+DTEND;TZID=Europe/Warsaw:20261015T131500
+SUMMARY:Ps (w)
+LOCATION:314 S
+DESCRIPTION:Procesy stochastyczne\nRodzaj: wykład\nProwadzący: Kurkowiak
+  Justyna\nNr zajęć: 2/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:af99a8b9c7989012844a7f92@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261015T133000
+DTEND;TZID=Europe/Warsaw:20261015T150500
+SUMMARY:Mspb (w)
+LOCATION:307 S
+DESCRIPTION:Modelowanie i symulacja procesów biznesowych\nRodzaj: wykład
+ \nProwadzący: Nowicki Tadeusz\nNr zajęć: 1/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5c1d4f557dfc37582849335d@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261016T095000
+DTEND;TZID=Europe/Warsaw:20261016T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 23/47\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:09ce7fe366cf5f54ca9630e0@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261016T114000
+DTEND;TZID=Europe/Warsaw:20261016T131500
+SUMMARY:S.Sz.W.
+DESCRIPTION:Rodzaj: studium szkol. wojs.\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:007d6f8485131459f2678cd0@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261016T133000
+DTEND;TZID=Europe/Warsaw:20261016T150500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(KSP)
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 7/14\nB
+ lok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:fe8700a1b5027f10fe0b9ae9@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261016T160000
+DTEND;TZID=Europe/Warsaw:20261016T173500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(KSP)
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 8/14\nB
+ lok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:fdd452060b68a861627112ff@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261016T175000
+DTEND;TZID=Europe/Warsaw:20261016T192500
+SUMMARY:S.Sz.W.
+DESCRIPTION:Rodzaj: studium szkol. wojs.\nNr zajęć: 1/1\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:7abbb5850cb8bbd353c41642@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261016T194000
+DTEND;TZID=Europe/Warsaw:20261016T211500
+SUMMARY:S.Sz.W.
+DESCRIPTION:Rodzaj: studium szkol. wojs.\nNr zajęć: 1/1\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:e7eed93b25368ec5a1fb7386@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261017T080000
+DTEND;TZID=Europe/Warsaw:20261017T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 16/28\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f07c064aed6572af4c70ace5@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261019T095000
+DTEND;TZID=Europe/Warsaw:20261019T112500
+SUMMARY:Miar (w)
+LOCATION:309 S
+DESCRIPTION:Metody ilościowe analizy ryzyka\nRodzaj: wykład\nProwadzący
+ : Antkiewicz Ryszard\nNr zajęć: 3/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f72379ee0a834439694d9dd5@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261019T114000
+DTEND;TZID=Europe/Warsaw:20261019T131500
+SUMMARY:Ja (ć)
+LOCATION:128 K\, 131 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 36/60\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:02c816c46d5ae4de2cd45c69@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261019T133000
+DTEND;TZID=Europe/Warsaw:20261019T150500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 24/47\nBl
+ ok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f8e17b497a121d2f407655af@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261019T160000
+DTEND;TZID=Europe/Warsaw:20261019T173500
+SUMMARY:Mpwsi (w)
+LOCATION:309 S
+DESCRIPTION:Metody projektowania i wdrażania systemów informatycznych\nR
+ odzaj: wykład\nProwadzący: Protasowicki Tomasz\nNr zajęć: 5/15\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:e0b46048280ba57359091798@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261019T175000
+DTEND;TZID=Europe/Warsaw:20261019T192500
+SUMMARY:Mpwsi (w)
+LOCATION:309 S
+DESCRIPTION:Metody projektowania i wdrażania systemów informatycznych\nR
+ odzaj: wykład\nProwadzący: Protasowicki Tomasz\nNr zajęć: 6/15\nBlok:
+  6
+END:VEVENT
+BEGIN:VEVENT
+UID:6585e6c553b0b7b4ee435c8e@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261020T114000
+DTEND;TZID=Europe/Warsaw:20261020T131500
+SUMMARY:Med (w)
+LOCATION:309 S
+DESCRIPTION:Metody eksploracji danych\nRodzaj: wykład\nProwadzący: Hoffm
+ ann Romuald\nNr zajęć: 1/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2530a242f1cdcc85cad7211a@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261020T133000
+DTEND;TZID=Europe/Warsaw:20261020T150500
+SUMMARY:Med (L)
+LOCATION:228 S
+DESCRIPTION:Metody eksploracji danych\nRodzaj: laboratorium\nProwadzący: 
+ Hoffmann Romuald\nNr zajęć: 1/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5bec951cf30d20a8faf3d24e@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261021T095000
+DTEND;TZID=Europe/Warsaw:20261021T112500
+SUMMARY:Ps (w)
+LOCATION:314 S
+DESCRIPTION:Procesy stochastyczne\nRodzaj: wykład\nProwadzący: Kurkowiak
+  Justyna\nNr zajęć: 3/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3b25380e154093ae5aa45663@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261021T114000
+DTEND;TZID=Europe/Warsaw:20261021T131500
+SUMMARY:Muma (w)
+LOCATION:307 S
+DESCRIPTION:Metody uczenia maszynowego\nRodzaj: wykład\nProwadzący: Olej
+ niczak Jarosław\nNr zajęć: 2/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c0a63dc7853b10291d68b0f5@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261021T133000
+DTEND;TZID=Europe/Warsaw:20261021T150500
+SUMMARY:Tuim (w)
+LOCATION:307 S
+DESCRIPTION:Technologie usługowe i mobilne\nRodzaj: wykład\nProwadzący:
+  Sobolewski Michał\nNr zajęć: 2/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:62c928c3dd16dcffc1b58500@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261022T080000
+DTEND;TZID=Europe/Warsaw:20261022T093500
+SUMMARY:Miar (ć)
+LOCATION:236 S
+DESCRIPTION:Metody ilościowe analizy ryzyka\nRodzaj: ćwiczenia\nProwadz
+ ący: Stąpor Piotr\nNr zajęć: 2/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7254ce29e78612a76f6596ef@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261022T095000
+DTEND;TZID=Europe/Warsaw:20261022T112500
+SUMMARY:Ja (ć)
+LOCATION:128 K\, 131 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 37/60\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:330022864daf8df3eda18cca@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261022T133000
+DTEND;TZID=Europe/Warsaw:20261022T150500
+SUMMARY:SQL (L)
+LOCATION:223 S
+DESCRIPTION:Bazy danych NoSQL\nRodzaj: laboratorium\nProwadzący: Koszela 
+ Jarosław\nNr zajęć: 1/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b8486398550c79e8e0c2dc87@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261022T160000
+DTEND;TZID=Europe/Warsaw:20261022T173500
+SUMMARY:SQL (L)
+LOCATION:223 S
+DESCRIPTION:Bazy danych NoSQL\nRodzaj: laboratorium\nProwadzący: Koszela 
+ Jarosław\nNr zajęć: 2/12\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:2f82fc52450dfc0a24dc226e@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261023T095000
+DTEND;TZID=Europe/Warsaw:20261023T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 25/47\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c712dd20da985cd38ef73d7d@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261023T114000
+DTEND;TZID=Europe/Warsaw:20261023T131500
+SUMMARY:Tuim (P)
+LOCATION:224 S
+DESCRIPTION:Technologie usługowe i mobilne\nRodzaj: projekt\nProwadzący:
+  Pieczonka Paweł\nNr zajęć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:763fc1e35668c54c430c432c@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261023T133000
+DTEND;TZID=Europe/Warsaw:20261023T150500
+SUMMARY:Tuim (P)
+LOCATION:224 S
+DESCRIPTION:Technologie usługowe i mobilne\nRodzaj: projekt\nProwadzący:
+  Pieczonka Paweł\nNr zajęć: 3/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:460f7bb03afa6e2d5035493f@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261023T175000
+DTEND;TZID=Europe/Warsaw:20261023T192500
+SUMMARY:Wpp (Inne)
+LOCATION:19 36
+DESCRIPTION:Wszystkie przedmioty prowadzącego\nRodzaj: zal popr\nProwadz
+ ący: Kosiuczenko Piotr\nNr zajęć: 1/1\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:0f4d7dc9d8d74645d40e2c94@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261023T194000
+DTEND;TZID=Europe/Warsaw:20261023T211500
+SUMMARY:S.Sz.W.
+DESCRIPTION:Rodzaj: studium szkol. wojs.\nNr zajęć: 1/1\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:b8baf6135bf64c5f89c2911c@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261024T080000
+DTEND;TZID=Europe/Warsaw:20261024T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 17/28\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2329909396570e2336b038cd@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261026T080000
+DTEND;TZID=Europe/Warsaw:20261026T093500
+SUMMARY:Mspb (w)
+LOCATION:317 S
+DESCRIPTION:Modelowanie i symulacja procesów biznesowych\nRodzaj: wykład
+ \nProwadzący: Nowicki Tadeusz\nNr zajęć: 2/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3d40a84c25e094348d578542@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261026T095000
+DTEND;TZID=Europe/Warsaw:20261026T112500
+SUMMARY:Mspb (w)
+LOCATION:317 S
+DESCRIPTION:Modelowanie i symulacja procesów biznesowych\nRodzaj: wykład
+ \nProwadzący: Nowicki Tadeusz\nNr zajęć: 3/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2d22b2ba8f0f5ad6cd12b332@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261026T114000
+DTEND;TZID=Europe/Warsaw:20261026T131500
+SUMMARY:Ja (ć)
+LOCATION:128 K\, 131 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 38/60\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:aa3f7d8cc361b70c55bed7bd@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261026T133000
+DTEND;TZID=Europe/Warsaw:20261026T150500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 26/47\nBl
+ ok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:cc3486348beef5f24616e482@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261026T160000
+DTEND;TZID=Europe/Warsaw:20261026T173500
+SUMMARY:Mpwsi (w)
+LOCATION:309 S
+DESCRIPTION:Metody projektowania i wdrażania systemów informatycznych\nR
+ odzaj: wykład\nProwadzący: Protasowicki Tomasz\nNr zajęć: 7/15\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:e8a7286de631d0f301f54eff@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261026T175000
+DTEND;TZID=Europe/Warsaw:20261026T192500
+SUMMARY:Mpwsi (w)
+LOCATION:309 S
+DESCRIPTION:Metody projektowania i wdrażania systemów informatycznych\nR
+ odzaj: wykład\nProwadzący: Protasowicki Tomasz\nNr zajęć: 8/15\nBlok:
+  6
+END:VEVENT
+BEGIN:VEVENT
+UID:ff043ac433324491c51fd556@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261027T080000
+DTEND;TZID=Europe/Warsaw:20261027T093500
+SUMMARY:BbD (w)
+LOCATION:317 S
+DESCRIPTION:Bezpieczeństwo baz danych\nRodzaj: wykład\nProwadzący: Szaf
+ rański Bolesław\nNr zajęć: 3/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:63ebcb38aeac61189f7ed8ac@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261027T095000
+DTEND;TZID=Europe/Warsaw:20261027T112500
+SUMMARY:BbD (w)
+LOCATION:317 S
+DESCRIPTION:Bezpieczeństwo baz danych\nRodzaj: wykład\nProwadzący: Szaf
+ rański Bolesław\nNr zajęć: 4/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:743ac799cf215b411b1187f5@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261027T114000
+DTEND;TZID=Europe/Warsaw:20261027T131500
+SUMMARY:Med (w)
+LOCATION:309 S
+DESCRIPTION:Metody eksploracji danych\nRodzaj: wykład\nProwadzący: Hoffm
+ ann Romuald\nNr zajęć: 2/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2fd98968b3fa01cbdda9971a@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261027T160000
+DTEND;TZID=Europe/Warsaw:20261027T173500
+SUMMARY:Med (L)
+LOCATION:226 S
+DESCRIPTION:Metody eksploracji danych\nRodzaj: laboratorium\nProwadzący: 
+ Hoffmann Romuald\nNr zajęć: 2/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:6c0fa60fa55d0336f380263c@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261028T095000
+DTEND;TZID=Europe/Warsaw:20261028T112500
+SUMMARY:Ps (w)
+LOCATION:314 S
+DESCRIPTION:Procesy stochastyczne\nRodzaj: wykład\nProwadzący: Kurkowiak
+  Justyna\nNr zajęć: 4/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2b9929838e42dfdcfb58e0ee@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261028T114000
+DTEND;TZID=Europe/Warsaw:20261028T131500
+SUMMARY:Muma (w)
+LOCATION:316 S
+DESCRIPTION:Metody uczenia maszynowego\nRodzaj: wykład\nProwadzący: Olej
+ niczak Jarosław\nNr zajęć: 3/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3e1aaf7f82f010100d59c199@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261028T133000
+DTEND;TZID=Europe/Warsaw:20261028T150500
+SUMMARY:Ps (ć)
+LOCATION:203 65
+DESCRIPTION:Procesy stochastyczne\nRodzaj: ćwiczenia\nProwadzący: Kurkow
+ iak Justyna\nNr zajęć: 1/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:02168b8102798729fb44e589@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261028T160000
+DTEND;TZID=Europe/Warsaw:20261028T173500
+SUMMARY:Tuim (w)
+LOCATION:313 S
+DESCRIPTION:Technologie usługowe i mobilne\nRodzaj: wykład\nProwadzący:
+  Sobolewski Michał\nNr zajęć: 3/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:de8d3993db8fc5ae85bb36ce@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261029T080000
+DTEND;TZID=Europe/Warsaw:20261029T093500
+SUMMARY:Mpwsi (L)
+LOCATION:224 S
+DESCRIPTION:Metody projektowania i wdrażania systemów informatycznych\nR
+ odzaj: laboratorium\nProwadzący: Gumowski Tomasz\nNr zajęć: 1/9\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:03836ddb1b5529635d48afd4@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261029T095000
+DTEND;TZID=Europe/Warsaw:20261029T112500
+SUMMARY:Ja (ć)
+LOCATION:128 K\, 131 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 39/60\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:becf154ea484ce1b90dd246a@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261029T114000
+DTEND;TZID=Europe/Warsaw:20261029T131500
+SUMMARY:Muma (L)
+LOCATION:226 S
+DESCRIPTION:Metody uczenia maszynowego\nRodzaj: laboratorium\nProwadzący:
+  Olejniczak Jarosław\nNr zajęć: 1/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d940415ea12a878d8009c71a@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261029T133000
+DTEND;TZID=Europe/Warsaw:20261029T150500
+SUMMARY:Muma (L)
+LOCATION:226 S
+DESCRIPTION:Metody uczenia maszynowego\nRodzaj: laboratorium\nProwadzący:
+  Olejniczak Jarosław\nNr zajęć: 2/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:217c221fe6ceee3bf4fb3c2c@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261030T080000
+DTEND;TZID=Europe/Warsaw:20261030T093500
+SUMMARY:REG (ć)
+LOCATION:PL.MUSZ1
+DESCRIPTION:Regulaminy SZ RP\nRodzaj: ćwiczenia\nNr zajęć: 1/2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ba02060a93763b6ff03693e4@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261030T095000
+DTEND;TZID=Europe/Warsaw:20261030T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 27/47\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0539aadb471a401ada4ec11f@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261030T114000
+DTEND;TZID=Europe/Warsaw:20261030T131500
+SUMMARY:BbD (L)
+LOCATION:228 S
+DESCRIPTION:Bezpieczeństwo baz danych\nRodzaj: laboratorium\nProwadzący:
+  Woźniak Józef\nNr zajęć: 1/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:59ca23da5f16b108dca930ac@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261030T133000
+DTEND;TZID=Europe/Warsaw:20261030T150500
+SUMMARY:BbD (L)
+LOCATION:228 S
+DESCRIPTION:Bezpieczeństwo baz danych\nRodzaj: laboratorium\nProwadzący:
+  Woźniak Józef\nNr zajęć: 2/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0ba7b484defdb10083426231@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261030T194000
+DTEND;TZID=Europe/Warsaw:20261030T211500
+SUMMARY:S.Sz.W.
+DESCRIPTION:Rodzaj: studium szkol. wojs.\nNr zajęć: 1/1\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:338b34c9184795392a02fe5c@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261031T080000
+DTEND;TZID=Europe/Warsaw:20261031T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 18/28\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1f3f747e34f58598f997e3bb@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261102T080000
+DTEND;TZID=Europe/Warsaw:20261102T093500
+SUMMARY:Miar (ć)
+LOCATION:236 S
+DESCRIPTION:Metody ilościowe analizy ryzyka\nRodzaj: ćwiczenia\nProwadz
+ ący: Stąpor Piotr\nNr zajęć: 3/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e56342b5f9cd15ec241afb66@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261102T095000
+DTEND;TZID=Europe/Warsaw:20261102T112500
+SUMMARY:wzbnim (w)
+LOCATION:313 S
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: wykład\nNr zajęć: 2/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:57674d37a234fb0df0d0b0dd@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261102T114000
+DTEND;TZID=Europe/Warsaw:20261102T131500
+SUMMARY:Ja (ć)
+LOCATION:128 K\, 131 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 40/60\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:cb4b214c1aaf69785168db71@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261102T133000
+DTEND;TZID=Europe/Warsaw:20261102T150500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 28/47\nBl
+ ok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3d50045b0c635bd981a32d7f@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261102T160000
+DTEND;TZID=Europe/Warsaw:20261102T173500
+SUMMARY:Mpwsi (w)
+LOCATION:309 S
+DESCRIPTION:Metody projektowania i wdrażania systemów informatycznych\nR
+ odzaj: wykład\nProwadzący: Protasowicki Tomasz\nNr zajęć: 9/15\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:40bcb746c2e4b5f17fae9f19@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261102T175000
+DTEND;TZID=Europe/Warsaw:20261102T192500
+SUMMARY:Mpwsi (w)
+LOCATION:309 S
+DESCRIPTION:Metody projektowania i wdrażania systemów informatycznych\nR
+ odzaj: wykład\nProwadzący: Protasowicki Tomasz\nNr zajęć: 10/15\nBlok
+ : 6
+END:VEVENT
+BEGIN:VEVENT
+UID:157d9377f64d2246469b48f8@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261103T080000
+DTEND;TZID=Europe/Warsaw:20261103T093500
+SUMMARY:Med (w)
+LOCATION:309 S
+DESCRIPTION:Metody eksploracji danych\nRodzaj: wykład\nProwadzący: Hoffm
+ ann Romuald\nNr zajęć: 3/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:77c6c68743206bba4b8dc961@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261103T095000
+DTEND;TZID=Europe/Warsaw:20261103T112500
+SUMMARY:Msz (w)
+LOCATION:309 S
+DESCRIPTION:Metody sztucznej inteligencji\nRodzaj: wykład\nProwadzący: N
+ ajgebauer Andrzej\nNr zajęć: 1/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7f7979a7a8be4f4136abf680@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261103T114000
+DTEND;TZID=Europe/Warsaw:20261103T131500
+SUMMARY:Mspb (w)
+LOCATION:309 S
+DESCRIPTION:Modelowanie i symulacja procesów biznesowych\nRodzaj: wykład
+ \nProwadzący: Nowicki Tadeusz\nNr zajęć: 4/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:84767e795d97241272ed6374@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261103T133000
+DTEND;TZID=Europe/Warsaw:20261103T150500
+SUMMARY:Mspb (w)
+LOCATION:309 S
+DESCRIPTION:Modelowanie i symulacja procesów biznesowych\nRodzaj: wykład
+ \nProwadzący: Nowicki Tadeusz\nNr zajęć: 5/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:398838b6377964326c0c13d8@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261104T080000
+DTEND;TZID=Europe/Warsaw:20261104T093500
+SUMMARY:Msz (L)
+LOCATION:223 S
+DESCRIPTION:Metody sztucznej inteligencji\nRodzaj: laboratorium\nProwadzą
+ cy: Czuba Przemysław\nNr zajęć: 1/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d625e2b53e0a522d2eafe34f@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261104T095000
+DTEND;TZID=Europe/Warsaw:20261104T112500
+SUMMARY:Ps (w)
+LOCATION:314 S
+DESCRIPTION:Procesy stochastyczne\nRodzaj: wykład\nProwadzący: Kurkowiak
+  Justyna\nNr zajęć: 5/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4525f0b9fbd958fb5ef9854b@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261104T114000
+DTEND;TZID=Europe/Warsaw:20261104T131500
+SUMMARY:Muma (w)
+LOCATION:307 S
+DESCRIPTION:Metody uczenia maszynowego\nRodzaj: wykład\nProwadzący: Olej
+ niczak Jarosław\nNr zajęć: 4/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6549e42bac9aa02abae9ad18@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261104T133000
+DTEND;TZID=Europe/Warsaw:20261104T150500
+SUMMARY:Tuim (w)
+LOCATION:307 S
+DESCRIPTION:Technologie usługowe i mobilne\nRodzaj: wykład\nProwadzący:
+  Sobolewski Michał\nNr zajęć: 4/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3218ceb2a7fa0489bf5beb39@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261104T160000
+DTEND;TZID=Europe/Warsaw:20261104T173500
+SUMMARY:Miar (w)
+LOCATION:314 S
+DESCRIPTION:Metody ilościowe analizy ryzyka\nRodzaj: wykład\nProwadzący
+ : Antkiewicz Ryszard\nNr zajęć: 4/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:0831fd23294a19671e6c9d3b@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261105T114000
+DTEND;TZID=Europe/Warsaw:20261105T131500
+SUMMARY:Ps (w)
+LOCATION:314 S
+DESCRIPTION:Procesy stochastyczne\nRodzaj: wykład\nProwadzący: Kurkowiak
+  Justyna\nNr zajęć: 6/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:99ff732eed81b36518048141@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261105T133000
+DTEND;TZID=Europe/Warsaw:20261105T150500
+SUMMARY:Msz (w)
+LOCATION:314 S
+DESCRIPTION:Metody sztucznej inteligencji\nRodzaj: wykład\nProwadzący: N
+ ajgebauer Andrzej\nNr zajęć: 2/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4ef9e4f10f601a7caeca6d99@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261105T160000
+DTEND;TZID=Europe/Warsaw:20261105T173500
+SUMMARY:Ps (ć)
+LOCATION:219 65
+DESCRIPTION:Procesy stochastyczne\nRodzaj: ćwiczenia\nProwadzący: Kurkow
+ iak Justyna\nNr zajęć: 2/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:107704f448a1e84ffe79f7da@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261106T095000
+DTEND;TZID=Europe/Warsaw:20261106T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 29/47\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4b8c1dc122994088d668dd31@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261106T114000
+DTEND;TZID=Europe/Warsaw:20261106T131500
+SUMMARY:SQL (L)
+LOCATION:223 S
+DESCRIPTION:Bazy danych NoSQL\nRodzaj: laboratorium\nProwadzący: Koszela 
+ Jarosław\nNr zajęć: 3/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d85c31f3d5ac2cdf65f7fafa@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261106T133000
+DTEND;TZID=Europe/Warsaw:20261106T150500
+SUMMARY:SQL (L)
+LOCATION:223 S
+DESCRIPTION:Bazy danych NoSQL\nRodzaj: laboratorium\nProwadzący: Koszela 
+ Jarosław\nNr zajęć: 4/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7e7626cc23132895ad679a30@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261106T194000
+DTEND;TZID=Europe/Warsaw:20261106T211500
+SUMMARY:S.Sz.W.
+DESCRIPTION:Rodzaj: studium szkol. wojs.\nNr zajęć: 1/1\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:0761293beb8ee432e92f0b6c@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261107T080000
+DTEND;TZID=Europe/Warsaw:20261107T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 19/28\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a7d3fed03f24691990ff709e@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261109T095000
+DTEND;TZID=Europe/Warsaw:20261109T112500
+SUMMARY:wzbnim (w)
+LOCATION:313 S
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: wykład\nNr zajęć: 3/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ff56cdcb0d375c2e2212d4e1@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261109T114000
+DTEND;TZID=Europe/Warsaw:20261109T131500
+SUMMARY:Ja (ć)
+LOCATION:128 K\, 131 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 41/60\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:ff6b570960e7c7688f7a0907@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261109T133000
+DTEND;TZID=Europe/Warsaw:20261109T150500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 30/47\nBl
+ ok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1c3cfe63db960ec68f6a4756@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261109T160000
+DTEND;TZID=Europe/Warsaw:20261109T173500
+SUMMARY:Mpwsi (w)
+LOCATION:309 S
+DESCRIPTION:Metody projektowania i wdrażania systemów informatycznych\nR
+ odzaj: wykład\nProwadzący: Protasowicki Tomasz\nNr zajęć: 11/15\nBlok
+ : 5
+END:VEVENT
+BEGIN:VEVENT
+UID:d24819847b24494f2b2d0140@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261109T175000
+DTEND;TZID=Europe/Warsaw:20261109T192500
+SUMMARY:Mpwsi (w)
+LOCATION:309 S
+DESCRIPTION:Metody projektowania i wdrażania systemów informatycznych\nR
+ odzaj: wykład\nProwadzący: Protasowicki Tomasz\nNr zajęć: 12/15\nBlok
+ : 6
+END:VEVENT
+BEGIN:VEVENT
+UID:87a1ba87a460924e234dbb43@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261110T114000
+DTEND;TZID=Europe/Warsaw:20261110T131500
+SUMMARY:Med (w)
+LOCATION:309 S
+DESCRIPTION:Metody eksploracji danych\nRodzaj: wykład\nProwadzący: Hoffm
+ ann Romuald\nNr zajęć: 4/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e99ac9b018d85e9a4936d8e0@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261110T133000
+DTEND;TZID=Europe/Warsaw:20261110T150500
+SUMMARY:Mpwsi (P)
+LOCATION:223 S
+DESCRIPTION:Metody projektowania i wdrażania systemów informatycznych\nR
+ odzaj: projekt\nProwadzący: Gumowski Tomasz\nNr zajęć: 1/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b145d6ad639cdf16d5f97dcb@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261110T160000
+DTEND;TZID=Europe/Warsaw:20261110T173500
+SUMMARY:Mpwsi (P)
+LOCATION:223 S
+DESCRIPTION:Metody projektowania i wdrażania systemów informatycznych\nR
+ odzaj: projekt\nProwadzący: Gumowski Tomasz\nNr zajęć: 2/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:a94bcdb9f7ddf14491e23f46@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261112T080000
+DTEND;TZID=Europe/Warsaw:20261112T093500
+SUMMARY:Miar (L)
+LOCATION:227 S
+DESCRIPTION:Metody ilościowe analizy ryzyka\nRodzaj: laboratorium\nProwad
+ zący: Stąpor Piotr\nNr zajęć: 1/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:cf5ecc7a1fe8de8a34620255@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261112T095000
+DTEND;TZID=Europe/Warsaw:20261112T112500
+SUMMARY:Ja (ć)
+LOCATION:128 K\, 131 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 42/60\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:b754637595ccd880413a98ae@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261113T080000
+DTEND;TZID=Europe/Warsaw:20261113T093500
+SUMMARY:REG (ć)
+LOCATION:AW 7
+DESCRIPTION:Regulaminy SZ RP\nRodzaj: ćwiczenia\nNr zajęć: 2/2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3c225c758572da982dfbb808@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261113T095000
+DTEND;TZID=Europe/Warsaw:20261113T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 31/47\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c10d1631d776d654cd07da66@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261113T114000
+DTEND;TZID=Europe/Warsaw:20261113T131500
+SUMMARY:BbD (L)
+LOCATION:224 S
+DESCRIPTION:Bezpieczeństwo baz danych\nRodzaj: laboratorium\nProwadzący:
+  Woźniak Józef\nNr zajęć: 3/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9b15d04e65008cf2dbc53445@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261113T133000
+DTEND;TZID=Europe/Warsaw:20261113T150500
+SUMMARY:BbD (L)
+LOCATION:224 S
+DESCRIPTION:Bezpieczeństwo baz danych\nRodzaj: laboratorium\nProwadzący:
+  Woźniak Józef\nNr zajęć: 4/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0ef8121efe352f42c1b970b2@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261113T194000
+DTEND;TZID=Europe/Warsaw:20261113T211500
+SUMMARY:S.Sz.W.
+DESCRIPTION:Rodzaj: studium szkol. wojs.\nNr zajęć: 1/1\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:f797a2196e39f83510f5c201@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261114T080000
+DTEND;TZID=Europe/Warsaw:20261114T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 20/28\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3dbf3de793fa3fa01b3e217a@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261116T095000
+DTEND;TZID=Europe/Warsaw:20261116T112500
+SUMMARY:wzbnim (w)
+LOCATION:313 S
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: wykład\nNr zajęć: 4/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3fa677a5c5619030f0cf203a@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261116T114000
+DTEND;TZID=Europe/Warsaw:20261116T131500
+SUMMARY:Ja (ć)
+LOCATION:128 K\, 131 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 43/60\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:73e57fbe87dc6cd9eb20bc6e@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261116T133000
+DTEND;TZID=Europe/Warsaw:20261116T150500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 32/47\nBl
+ ok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:bc11201ad9c3cbfd09c08087@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261116T160000
+DTEND;TZID=Europe/Warsaw:20261116T173500
+SUMMARY:Mpwsi (w)
+LOCATION:309 S
+DESCRIPTION:Metody projektowania i wdrażania systemów informatycznych\nR
+ odzaj: wykład\nProwadzący: Protasowicki Tomasz\nNr zajęć: 13/15\nBlok
+ : 5
+END:VEVENT
+BEGIN:VEVENT
+UID:dee6e9e6c4624e0471431d41@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261116T175000
+DTEND;TZID=Europe/Warsaw:20261116T192500
+SUMMARY:Mpwsi (w)
+LOCATION:309 S
+DESCRIPTION:Metody projektowania i wdrażania systemów informatycznych\nR
+ odzaj: wykład\nProwadzący: Protasowicki Tomasz\nNr zajęć: 14/15\nBlok
+ : 6
+END:VEVENT
+BEGIN:VEVENT
+UID:39c4542a1cf66d256e2e54ec@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261117T080000
+DTEND;TZID=Europe/Warsaw:20261117T093500
+SUMMARY:Mpwsi (L)
+LOCATION:224 S
+DESCRIPTION:Metody projektowania i wdrażania systemów informatycznych\nR
+ odzaj: laboratorium\nProwadzący: Gumowski Tomasz\nNr zajęć: 2/9\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:cd2050f2b4334286ce6b7a1d@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261117T095000
+DTEND;TZID=Europe/Warsaw:20261117T112500
+SUMMARY:Mpwsi (L)
+LOCATION:224 S
+DESCRIPTION:Metody projektowania i wdrażania systemów informatycznych\nR
+ odzaj: laboratorium\nProwadzący: Gumowski Tomasz\nNr zajęć: 3/9\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:184c2eb7f48c027c5111e994@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261117T114000
+DTEND;TZID=Europe/Warsaw:20261117T131500
+SUMMARY:Mspb (w)
+LOCATION:309 S
+DESCRIPTION:Modelowanie i symulacja procesów biznesowych\nRodzaj: wykład
+ \nProwadzący: Nowicki Tadeusz\nNr zajęć: 6/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c246e526d3e9b27858befb19@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261117T133000
+DTEND;TZID=Europe/Warsaw:20261117T150500
+SUMMARY:Mspb (w)
+LOCATION:309 S
+DESCRIPTION:Modelowanie i symulacja procesów biznesowych\nRodzaj: wykład
+ \nProwadzący: Nowicki Tadeusz\nNr zajęć: 7/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:78d02d0844b00b9b180e0fc4@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261118T080000
+DTEND;TZID=Europe/Warsaw:20261118T093500
+SUMMARY:BbD (w)
+LOCATION:314 S
+DESCRIPTION:Bezpieczeństwo baz danych\nRodzaj: wykład\nProwadzący: Szaf
+ rański Bolesław\nNr zajęć: 5/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d1fffb324553ffa4410cea00@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261118T095000
+DTEND;TZID=Europe/Warsaw:20261118T112500
+SUMMARY:BbD (w)
+LOCATION:314 S
+DESCRIPTION:Bezpieczeństwo baz danych\nRodzaj: wykład\nProwadzący: Szaf
+ rański Bolesław\nNr zajęć: 6/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4ca46d95dfdcbdd46b180cfd@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261118T114000
+DTEND;TZID=Europe/Warsaw:20261118T131500
+SUMMARY:MPH (w)
+LOCATION:317 S
+DESCRIPTION:Międzynarodowe prawo humanitarne konfliktów zbrojnych\nRodza
+ j: wykład\nNr zajęć: 1/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:42026eb75d86fe3234279e87@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261118T133000
+DTEND;TZID=Europe/Warsaw:20261118T150500
+SUMMARY:Msz (w)
+LOCATION:309 S
+DESCRIPTION:Metody sztucznej inteligencji\nRodzaj: wykład\nProwadzący: N
+ ajgebauer Andrzej\nNr zajęć: 3/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:99998c2da6517a46f1633a7b@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261119T080000
+DTEND;TZID=Europe/Warsaw:20261119T093500
+SUMMARY:Miar (L)
+LOCATION:227 S
+DESCRIPTION:Metody ilościowe analizy ryzyka\nRodzaj: laboratorium\nProwad
+ zący: Stąpor Piotr\nNr zajęć: 2/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4093701d4dc3dc1ddeb7c2b5@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261119T095000
+DTEND;TZID=Europe/Warsaw:20261119T112500
+SUMMARY:Ja (ć)
+LOCATION:128 K\, 131 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 44/60\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:543e13a38e4b5a0ea336db87@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261119T114000
+DTEND;TZID=Europe/Warsaw:20261119T131500
+SUMMARY:Muma (L)
+LOCATION:228 S
+DESCRIPTION:Metody uczenia maszynowego\nRodzaj: laboratorium\nProwadzący:
+  Olejniczak Jarosław\nNr zajęć: 3/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:dcd68c791ad9a877264016e0@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261119T133000
+DTEND;TZID=Europe/Warsaw:20261119T150500
+SUMMARY:Muma (L)
+LOCATION:228 S
+DESCRIPTION:Metody uczenia maszynowego\nRodzaj: laboratorium\nProwadzący:
+  Olejniczak Jarosław\nNr zajęć: 4/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9d5710b58800c5b402a8dd69@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261119T160000
+DTEND;TZID=Europe/Warsaw:20261119T173500
+SUMMARY:Mspb (L)
+LOCATION:224 S
+DESCRIPTION:Modelowanie i symulacja procesów biznesowych\nRodzaj: laborat
+ orium\nProwadzący: Woźniak Adrian\nNr zajęć: 1/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:aeb15898b76ad506167aec6f@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261119T175000
+DTEND;TZID=Europe/Warsaw:20261119T192500
+SUMMARY:Mspb (L)
+LOCATION:224 S
+DESCRIPTION:Modelowanie i symulacja procesów biznesowych\nRodzaj: laborat
+ orium\nProwadzący: Woźniak Adrian\nNr zajęć: 2/8\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:75e568b8151de8c8ca8912fd@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261120T080000
+DTEND;TZID=Europe/Warsaw:20261120T093500
+SUMMARY:wzbnim (ć)
+LOCATION:204 65
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: ćwiczenia\nNr zajęć: 1/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:de47a9950f10fd9302fb2db2@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261120T095000
+DTEND;TZID=Europe/Warsaw:20261120T112500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PWC2)
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 9/14\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ef5e663c38c6b9f3af0fbb60@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261120T114000
+DTEND;TZID=Europe/Warsaw:20261120T131500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PWC2)
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 10/14\n
+ Blok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:84933febdc00f17c21950a95@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261120T133000
+DTEND;TZID=Europe/Warsaw:20261120T150500
+SUMMARY:S.Sz.W.
+DESCRIPTION:Rodzaj: studium szkol. wojs.\nNr zajęć: 1/1\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b39fb21496c60737f907cc01@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261120T160000
+DTEND;TZID=Europe/Warsaw:20261120T173500
+SUMMARY:SQL (L)
+LOCATION:224 S
+DESCRIPTION:Bazy danych NoSQL\nRodzaj: laboratorium\nProwadzący: Koszela 
+ Jarosław\nNr zajęć: 5/12\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:bf129a7001555ff3724296cc@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261120T175000
+DTEND;TZID=Europe/Warsaw:20261120T192500
+SUMMARY:SQL (L)
+LOCATION:224 S
+DESCRIPTION:Bazy danych NoSQL\nRodzaj: laboratorium\nProwadzący: Koszela 
+ Jarosław\nNr zajęć: 6/12\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:f06cc1925f3a069c53dcbf05@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261120T194000
+DTEND;TZID=Europe/Warsaw:20261120T211500
+SUMMARY:S.Sz.W.
+DESCRIPTION:Rodzaj: studium szkol. wojs.\nNr zajęć: 1/1\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:362d959d9d9fa2cf41202895@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261121T080000
+DTEND;TZID=Europe/Warsaw:20261121T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 21/28\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:49c8be87c549671116832cfe@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261123T114000
+DTEND;TZID=Europe/Warsaw:20261123T131500
+SUMMARY:Ja (ć)
+LOCATION:128 K\, 131 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 45/60\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:ff6a47901af228a3e33e0713@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261123T133000
+DTEND;TZID=Europe/Warsaw:20261123T150500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 33/47\nBl
+ ok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4ae81d89de1ef160455cb032@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261123T160000
+DTEND;TZID=Europe/Warsaw:20261123T173500
+SUMMARY:Mpwsi (w)
+LOCATION:309 S
+DESCRIPTION:Metody projektowania i wdrażania systemów informatycznych\nR
+ odzaj: wykład\nProwadzący: Protasowicki Tomasz\nNr zajęć: 15/15\nBlok
+ : 5
+END:VEVENT
+BEGIN:VEVENT
+UID:c13f1069e9c733ea25756b8c@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261124T095000
+DTEND;TZID=Europe/Warsaw:20261124T112500
+SUMMARY:Med (w)
+LOCATION:308 S
+DESCRIPTION:Metody eksploracji danych\nRodzaj: wykład\nProwadzący: Hoffm
+ ann Romuald\nNr zajęć: 5/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:86d57ad98c711268bf2c1640@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261124T114000
+DTEND;TZID=Europe/Warsaw:20261124T131500
+SUMMARY:Msz (L)
+LOCATION:224 S
+DESCRIPTION:Metody sztucznej inteligencji\nRodzaj: laboratorium\nProwadzą
+ cy: Czuba Przemysław\nNr zajęć: 2/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3013e53398dc3279d015bebe@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261124T133000
+DTEND;TZID=Europe/Warsaw:20261124T150500
+SUMMARY:Msz (L)
+LOCATION:224 S
+DESCRIPTION:Metody sztucznej inteligencji\nRodzaj: laboratorium\nProwadzą
+ cy: Czuba Przemysław\nNr zajęć: 3/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:dbc2cd2cc65951ef26f9745e@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261124T160000
+DTEND;TZID=Europe/Warsaw:20261124T173500
+SUMMARY:Med (L)
+LOCATION:224 S
+DESCRIPTION:Metody eksploracji danych\nRodzaj: laboratorium\nProwadzący: 
+ Hoffmann Romuald\nNr zajęć: 3/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f537f7f0154201fc22a4e101@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261125T080000
+DTEND;TZID=Europe/Warsaw:20261125T093500
+SUMMARY:Ps (ć)
+LOCATION:204 65
+DESCRIPTION:Procesy stochastyczne\nRodzaj: ćwiczenia\nProwadzący: Kurkow
+ iak Justyna\nNr zajęć: 3/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a1c25fb39f9352a25dad6b12@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261125T095000
+DTEND;TZID=Europe/Warsaw:20261125T112500
+SUMMARY:wzbnim (ć)
+LOCATION:204 65
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: ćwiczenia\nNr zajęć: 2/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:727bee7abfddca2f07cabf6b@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261125T114000
+DTEND;TZID=Europe/Warsaw:20261125T131500
+SUMMARY:MPH (w)
+LOCATION:314 S
+DESCRIPTION:Międzynarodowe prawo humanitarne konfliktów zbrojnych\nRodza
+ j: wykład\nNr zajęć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8ffcda5405021a8d24c8fe25@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261125T133000
+DTEND;TZID=Europe/Warsaw:20261125T150500
+SUMMARY:Msz (w)
+LOCATION:307 S
+DESCRIPTION:Metody sztucznej inteligencji\nRodzaj: wykład\nProwadzący: N
+ ajgebauer Andrzej\nNr zajęć: 4/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:55980c70447c7857ef42e221@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261126T080000
+DTEND;TZID=Europe/Warsaw:20261126T093500
+SUMMARY:Miar (L)
+LOCATION:252 S
+DESCRIPTION:Metody ilościowe analizy ryzyka\nRodzaj: laboratorium\nProwad
+ zący: Stąpor Piotr\nNr zajęć: 3/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:30d49d2c44d39237631879a1@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261126T095000
+DTEND;TZID=Europe/Warsaw:20261126T112500
+SUMMARY:Ja (ć)
+LOCATION:128 K\, 131 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 46/60\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:eef7efa28391b3d5b56ac338@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261126T114000
+DTEND;TZID=Europe/Warsaw:20261126T131500
+SUMMARY:Tuim (L)
+LOCATION:226 S
+DESCRIPTION:Technologie usługowe i mobilne\nRodzaj: laboratorium\nProwadz
+ ący: Sobolewski Michał\nNr zajęć: 1/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e8d02b890d4e837df3dbbfc7@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261126T133000
+DTEND;TZID=Europe/Warsaw:20261126T150500
+SUMMARY:Tuim (L)
+LOCATION:226 S
+DESCRIPTION:Technologie usługowe i mobilne\nRodzaj: laboratorium\nProwadz
+ ący: Sobolewski Michał\nNr zajęć: 2/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:36fa2411aa959bce430ad93f@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261126T160000
+DTEND;TZID=Europe/Warsaw:20261126T173500
+SUMMARY:Miar (w)
+LOCATION:307 S
+DESCRIPTION:Metody ilościowe analizy ryzyka\nRodzaj: wykład\nProwadzący
+ : Antkiewicz Ryszard\nNr zajęć: 5/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:8085d169a833ed2c82512605@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261127T194000
+DTEND;TZID=Europe/Warsaw:20261127T211500
+SUMMARY:S.Sz.W.
+DESCRIPTION:Rodzaj: studium szkol. wojs.\nNr zajęć: 1/1\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:db3a38023cd031a2ce140cda@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261128T080000
+DTEND;TZID=Europe/Warsaw:20261128T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 22/28\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:253ca25a42707fee1a07da81@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261130T080000
+DTEND;TZID=Europe/Warsaw:20261130T093500
+SUMMARY:Mpwsi (L)
+LOCATION:224 S
+DESCRIPTION:Metody projektowania i wdrażania systemów informatycznych\nR
+ odzaj: laboratorium\nProwadzący: Gumowski Tomasz\nNr zajęć: 4/9\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:e38acff4aed21e5a05a7e133@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261130T095000
+DTEND;TZID=Europe/Warsaw:20261130T112500
+SUMMARY:Mpwsi (L)
+LOCATION:224 S
+DESCRIPTION:Metody projektowania i wdrażania systemów informatycznych\nR
+ odzaj: laboratorium\nProwadzący: Gumowski Tomasz\nNr zajęć: 5/9\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:72fd73bff464861982b35dff@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261130T114000
+DTEND;TZID=Europe/Warsaw:20261130T131500
+SUMMARY:Ja (ć)
+LOCATION:128 K\, 131 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 47/60\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:568b02c305d8a82a93d3c3fc@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261130T133000
+DTEND;TZID=Europe/Warsaw:20261130T150500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 34/47\nBl
+ ok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:805b5da5b81e11f1d9bb71aa@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261130T160000
+DTEND;TZID=Europe/Warsaw:20261130T173500
+SUMMARY:Tuim (L)
+LOCATION:252 S
+DESCRIPTION:Technologie usługowe i mobilne\nRodzaj: laboratorium\nProwadz
+ ący: Sobolewski Michał\nNr zajęć: 3/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:58260c7d1048270396ea5969@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261201T080000
+DTEND;TZID=Europe/Warsaw:20261201T093500
+SUMMARY:Med (w)
+LOCATION:309 S
+DESCRIPTION:Metody eksploracji danych\nRodzaj: wykład\nProwadzący: Hoffm
+ ann Romuald\nNr zajęć: 6/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e7652b166cef6db40174389f@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261201T095000
+DTEND;TZID=Europe/Warsaw:20261201T112500
+SUMMARY:BbD (L)
+LOCATION:252 S
+DESCRIPTION:Bezpieczeństwo baz danych\nRodzaj: laboratorium\nProwadzący:
+  Woźniak Józef\nNr zajęć: 5/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d1138a04b001ddbd35888e68@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261201T114000
+DTEND;TZID=Europe/Warsaw:20261201T131500
+SUMMARY:BbD (L)
+LOCATION:252 S
+DESCRIPTION:Bezpieczeństwo baz danych\nRodzaj: laboratorium\nProwadzący:
+  Woźniak Józef\nNr zajęć: 6/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:880629ff0d36dba32608ddb2@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261201T133000
+DTEND;TZID=Europe/Warsaw:20261201T150500
+SUMMARY:Med (L)
+LOCATION:228 S
+DESCRIPTION:Metody eksploracji danych\nRodzaj: laboratorium\nProwadzący: 
+ Hoffmann Romuald\nNr zajęć: 4/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:626b89522b1b18b77371c481@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261202T080000
+DTEND;TZID=Europe/Warsaw:20261202T093500
+SUMMARY:Muma (w)
+LOCATION:307 S
+DESCRIPTION:Metody uczenia maszynowego\nRodzaj: wykład\nProwadzący: Olej
+ niczak Jarosław\nNr zajęć: 5/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:cb05f276dc4a529bcac7efae@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261202T095000
+DTEND;TZID=Europe/Warsaw:20261202T112500
+SUMMARY:Msz (w)
+LOCATION:307 S
+DESCRIPTION:Metody sztucznej inteligencji\nRodzaj: wykład\nProwadzący: N
+ ajgebauer Andrzej\nNr zajęć: 5/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:33be7083d75f91e907d634a1@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261202T114000
+DTEND;TZID=Europe/Warsaw:20261202T131500
+SUMMARY:MPH (w)
+LOCATION:314 S
+DESCRIPTION:Międzynarodowe prawo humanitarne konfliktów zbrojnych\nRodza
+ j: wykład\nNr zajęć: 3/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:042230ea33a3e37c8b76bb4b@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261202T133000
+DTEND;TZID=Europe/Warsaw:20261202T150500
+SUMMARY:Msz (w)
+LOCATION:314 S
+DESCRIPTION:Metody sztucznej inteligencji\nRodzaj: wykład\nProwadzący: N
+ ajgebauer Andrzej\nNr zajęć: 6/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c7cbf1ccccc0574c7734aa88@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261202T160000
+DTEND;TZID=Europe/Warsaw:20261202T173500
+SUMMARY:Tuim (w)
+LOCATION:316 S
+DESCRIPTION:Technologie usługowe i mobilne\nRodzaj: wykład\nProwadzący:
+  Sobolewski Michał\nNr zajęć: 5/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:a061b3b792af8cdc6feae9dd@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261202T175000
+DTEND;TZID=Europe/Warsaw:20261202T192500
+SUMMARY:BbD (w)
+LOCATION:314 S
+DESCRIPTION:Bezpieczeństwo baz danych\nRodzaj: wykład\nProwadzący: Szaf
+ rański Bolesław\nNr zajęć: 7/7\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:a20fbde9c6cd29f1594d727c@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261203T080000
+DTEND;TZID=Europe/Warsaw:20261203T093500
+SUMMARY:DWiPD (ć)
+LOCATION:308 S
+DESCRIPTION:Działalność wychowawcza i profilaktyka dyscyplinarna\nRodza
+ j: ćwiczenia\nNr zajęć: 2/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1c036b82810838627d759711@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261203T095000
+DTEND;TZID=Europe/Warsaw:20261203T112500
+SUMMARY:Ja (ć)
+LOCATION:128 K\, 131 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 48/60\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:022cb87628f6d56d407daa1c@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261203T114000
+DTEND;TZID=Europe/Warsaw:20261203T131500
+SUMMARY:Muma (L)
+LOCATION:236 S
+DESCRIPTION:Metody uczenia maszynowego\nRodzaj: laboratorium\nProwadzący:
+  Olejniczak Jarosław\nNr zajęć: 5/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6d51eff6ca4ba61efc93482f@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261203T133000
+DTEND;TZID=Europe/Warsaw:20261203T150500
+SUMMARY:Muma (L)
+LOCATION:236 S
+DESCRIPTION:Metody uczenia maszynowego\nRodzaj: laboratorium\nProwadzący:
+  Olejniczak Jarosław\nNr zajęć: 6/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5ceff48e23cd8026518cd07f@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261203T160000
+DTEND;TZID=Europe/Warsaw:20261203T173500
+SUMMARY:Mspb (L)
+LOCATION:224 S
+DESCRIPTION:Modelowanie i symulacja procesów biznesowych\nRodzaj: laborat
+ orium\nProwadzący: Woźniak Adrian\nNr zajęć: 3/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:486859185a22c7f69fc0463f@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261204T080000
+DTEND;TZID=Europe/Warsaw:20261204T093500
+SUMMARY:wzbnim (ć)
+LOCATION:201 65
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: ćwiczenia\nNr zajęć: 3/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b9a080a64076cad60675e08c@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261204T095000
+DTEND;TZID=Europe/Warsaw:20261204T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 35/47\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:20a30419df8905041407bb17@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261204T114000
+DTEND;TZID=Europe/Warsaw:20261204T131500
+SUMMARY:ZLDT-1 (ć)
+LOCATION:0.28/ 135
+DESCRIPTION:Zabezpieczenie Logistyczne Działań Taktycznych - 1\nRodzaj: 
+ ćwiczenia\nNr zajęć: 1/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5b5e9ee006a39c8c2ae76b58@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261204T133000
+DTEND;TZID=Europe/Warsaw:20261204T150500
+SUMMARY:ZLDT-1 (ć)
+LOCATION:0.28/ 135
+DESCRIPTION:Zabezpieczenie Logistyczne Działań Taktycznych - 1\nRodzaj: 
+ ćwiczenia\nNr zajęć: 2/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:74f2cc182161d887ad1ade6f@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261204T194000
+DTEND;TZID=Europe/Warsaw:20261204T211500
+SUMMARY:S.Sz.W.
+DESCRIPTION:Rodzaj: studium szkol. wojs.\nNr zajęć: 1/1\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:d56c9ef4db0b5e3da0b3925f@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261205T080000
+DTEND;TZID=Europe/Warsaw:20261205T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 23/28\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:69a8458af988ee0365e6da73@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261207T080000
+DTEND;TZID=Europe/Warsaw:20261207T093500
+SUMMARY:Miar (L)
+LOCATION:224 S
+DESCRIPTION:Metody ilościowe analizy ryzyka\nRodzaj: laboratorium\nProwad
+ zący: Stąpor Piotr\nNr zajęć: 4/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ba9780b49ec2dfe7e2eb20ab@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261207T095000
+DTEND;TZID=Europe/Warsaw:20261207T112500
+SUMMARY:Ps (ć)
+LOCATION:218 65
+DESCRIPTION:Procesy stochastyczne\nRodzaj: ćwiczenia\nProwadzący: Kurkow
+ iak Justyna\nNr zajęć: 4/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:643dc034fcfc4e137543dc22@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261207T114000
+DTEND;TZID=Europe/Warsaw:20261207T131500
+SUMMARY:Ja (ć)
+LOCATION:128 K\, 131 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 49/60\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:8336d6ec864aa4224f593dd4@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261207T133000
+DTEND;TZID=Europe/Warsaw:20261207T150500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 36/47\nBl
+ ok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8d92d5bc6cc11c259b079876@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261208T080000
+DTEND;TZID=Europe/Warsaw:20261208T093500
+SUMMARY:Tuim (P)
+LOCATION:237 S
+DESCRIPTION:Technologie usługowe i mobilne\nRodzaj: projekt\nProwadzący:
+  Pieczonka Paweł\nNr zajęć: 4/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a1622e4b53635a6a60b0598c@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261208T095000
+DTEND;TZID=Europe/Warsaw:20261208T112500
+SUMMARY:Tuim (P)
+LOCATION:237 S
+DESCRIPTION:Technologie usługowe i mobilne\nRodzaj: projekt\nProwadzący:
+  Pieczonka Paweł\nNr zajęć: 5/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3ca7779a6890784ca5316f59@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261208T114000
+DTEND;TZID=Europe/Warsaw:20261208T131500
+SUMMARY:Msz (L)
+LOCATION:224 S
+DESCRIPTION:Metody sztucznej inteligencji\nRodzaj: laboratorium\nProwadzą
+ cy: Czuba Przemysław\nNr zajęć: 4/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a8dcea3e77c918584e716f86@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261208T133000
+DTEND;TZID=Europe/Warsaw:20261208T150500
+SUMMARY:Msz (L)
+LOCATION:224 S
+DESCRIPTION:Metody sztucznej inteligencji\nRodzaj: laboratorium\nProwadzą
+ cy: Czuba Przemysław\nNr zajęć: 5/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3c849bb9ce5ab19cc4d43ed6@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261208T160000
+DTEND;TZID=Europe/Warsaw:20261208T173500
+SUMMARY:Ps (w)
+LOCATION:314 S
+DESCRIPTION:Procesy stochastyczne\nRodzaj: wykład\nProwadzący: Kurkowiak
+  Justyna\nNr zajęć: 7/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:9e43bc82795abcea35fcd4d0@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261209T080000
+DTEND;TZID=Europe/Warsaw:20261209T093500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 1/4\
+ nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:df6d50a10a82707a5082b09b@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261209T095000
+DTEND;TZID=Europe/Warsaw:20261209T112500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 2/4\
+ nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d8cd0b1c3f4dfbbb2d7a355f@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261209T114000
+DTEND;TZID=Europe/Warsaw:20261209T131500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 3/4\
+ nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c0664996955083ef4ad391b0@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261209T133000
+DTEND;TZID=Europe/Warsaw:20261209T150500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 4/4\
+ nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2783dfdc62669fa35df9e720@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261210T080000
+DTEND;TZID=Europe/Warsaw:20261210T093500
+SUMMARY:DWiPD (ć)
+LOCATION:308 S
+DESCRIPTION:Działalność wychowawcza i profilaktyka dyscyplinarna\nRodza
+ j: ćwiczenia\nNr zajęć: 3/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1db68151561326e738929b0c@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261210T095000
+DTEND;TZID=Europe/Warsaw:20261210T112500
+SUMMARY:Ja (ć)
+LOCATION:128 K\, 131 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 50/60\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:90a31aeb6a02c0c319218f53@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261210T114000
+DTEND;TZID=Europe/Warsaw:20261210T131500
+SUMMARY:Mspb (L)
+LOCATION:237 S
+DESCRIPTION:Modelowanie i symulacja procesów biznesowych\nRodzaj: laborat
+ orium\nProwadzący: Woźniak Adrian\nNr zajęć: 4/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:532210c5bbf206207ce29860@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261210T133000
+DTEND;TZID=Europe/Warsaw:20261210T150500
+SUMMARY:Tuim (L)
+LOCATION:227 S
+DESCRIPTION:Technologie usługowe i mobilne\nRodzaj: laboratorium\nProwadz
+ ący: Sobolewski Michał\nNr zajęć: 4/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b751a22d9d86b4273c83a9ab@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261210T160000
+DTEND;TZID=Europe/Warsaw:20261210T173500
+SUMMARY:Tuim (L)
+LOCATION:227 S
+DESCRIPTION:Technologie usługowe i mobilne\nRodzaj: laboratorium\nProwadz
+ ący: Sobolewski Michał\nNr zajęć: 5/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:32b84c30af4a13d4e134f744@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261211T095000
+DTEND;TZID=Europe/Warsaw:20261211T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 37/47\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a56e303b1125352fee332765@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261211T160000
+DTEND;TZID=Europe/Warsaw:20261211T173500
+SUMMARY:SQL (L)
+LOCATION:223 S
+DESCRIPTION:Bazy danych NoSQL\nRodzaj: laboratorium\nProwadzący: Koszela 
+ Jarosław\nNr zajęć: 7/12\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:0e732fae26608d30537f4557@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261211T175000
+DTEND;TZID=Europe/Warsaw:20261211T192500
+SUMMARY:SQL (L)
+LOCATION:223 S
+DESCRIPTION:Bazy danych NoSQL\nRodzaj: laboratorium\nProwadzący: Koszela 
+ Jarosław\nNr zajęć: 8/12\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:83ce01dee86239ee9366624a@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261211T194000
+DTEND;TZID=Europe/Warsaw:20261211T211500
+SUMMARY:S.Sz.W.
+DESCRIPTION:Rodzaj: studium szkol. wojs.\nNr zajęć: 1/1\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:e39e5670c2d4e3edad6e28bc@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261212T080000
+DTEND;TZID=Europe/Warsaw:20261212T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 24/28\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:75d0a07d1cb50e1f61605639@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261214T080000
+DTEND;TZID=Europe/Warsaw:20261214T093500
+SUMMARY:Mpwsi (L)
+LOCATION:224 S
+DESCRIPTION:Metody projektowania i wdrażania systemów informatycznych\nR
+ odzaj: laboratorium\nProwadzący: Gumowski Tomasz\nNr zajęć: 6/9\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:eec21172806b561a5fd1142a@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261214T095000
+DTEND;TZID=Europe/Warsaw:20261214T112500
+SUMMARY:Mpwsi (L)
+LOCATION:224 S
+DESCRIPTION:Metody projektowania i wdrażania systemów informatycznych\nR
+ odzaj: laboratorium\nProwadzący: Gumowski Tomasz\nNr zajęć: 7/9\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:70e1c1628ea5a9c9831fd312@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261214T114000
+DTEND;TZID=Europe/Warsaw:20261214T131500
+SUMMARY:Ja (ć)
+LOCATION:128 K\, 131 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 51/60\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:4db3caf25de2a53ff29f1b3c@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261214T133000
+DTEND;TZID=Europe/Warsaw:20261214T150500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 38/47\nBl
+ ok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f0041b8ddd0aba7c1e5be890@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261214T160000
+DTEND;TZID=Europe/Warsaw:20261214T173500
+SUMMARY:Med (L)
+LOCATION:223 S
+DESCRIPTION:Metody eksploracji danych\nRodzaj: laboratorium\nProwadzący: 
+ Hoffmann Romuald\nNr zajęć: 5/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:16e3e7b48c4d8765194c97e1@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261215T114000
+DTEND;TZID=Europe/Warsaw:20261215T131500
+SUMMARY:Miar (L)
+LOCATION:237 S
+DESCRIPTION:Metody ilościowe analizy ryzyka\nRodzaj: laboratorium\nProwad
+ zący: Stąpor Piotr\nNr zajęć: 5/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:bd4cb450c62d7bb8c97143a2@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261216T080000
+DTEND;TZID=Europe/Warsaw:20261216T093500
+SUMMARY:ZŻWAT (Inne)
+DESCRIPTION:Zbiórka żołnierzy WAT\nRodzaj: inne\nNr zajęć: 1/2\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:4bb68cbd37088baf58de23b0@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261216T095000
+DTEND;TZID=Europe/Warsaw:20261216T112500
+SUMMARY:MPH (ć)
+LOCATION:204 65
+DESCRIPTION:Międzynarodowe prawo humanitarne konfliktów zbrojnych\nRodza
+ j: ćwiczenia\nNr zajęć: 1/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3668994b8f84c030caaef140@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261216T114000
+DTEND;TZID=Europe/Warsaw:20261216T131500
+SUMMARY:MPH (w)
+LOCATION:314 S
+DESCRIPTION:Międzynarodowe prawo humanitarne konfliktów zbrojnych\nRodza
+ j: wykład\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:62b0bbebcc1cf6e6eb426a94@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261216T133000
+DTEND;TZID=Europe/Warsaw:20261216T150500
+SUMMARY:Msz (w)
+LOCATION:307 S
+DESCRIPTION:Metody sztucznej inteligencji\nRodzaj: wykład\nProwadzący: N
+ ajgebauer Andrzej\nNr zajęć: 7/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:447d4b1b4c08376426197efe@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261217T080000
+DTEND;TZID=Europe/Warsaw:20261217T093500
+SUMMARY:DWiPD (ć)
+LOCATION:205 65
+DESCRIPTION:Działalność wychowawcza i profilaktyka dyscyplinarna\nRodza
+ j: ćwiczenia\nNr zajęć: 4/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d7f36b844851ef9b475fa177@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261217T095000
+DTEND;TZID=Europe/Warsaw:20261217T112500
+SUMMARY:Ja (ć)
+LOCATION:128 K\, 131 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 52/60\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:23c3798880145e9a31f21fe1@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261217T114000
+DTEND;TZID=Europe/Warsaw:20261217T131500
+SUMMARY:Muma (L)
+LOCATION:233 S
+DESCRIPTION:Metody uczenia maszynowego\nRodzaj: laboratorium\nProwadzący:
+  Olejniczak Jarosław\nNr zajęć: 7/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:037a89977eda36b31e9eee9a@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261217T133000
+DTEND;TZID=Europe/Warsaw:20261217T150500
+SUMMARY:Muma (L)
+LOCATION:233 S
+DESCRIPTION:Metody uczenia maszynowego\nRodzaj: laboratorium\nProwadzący:
+  Olejniczak Jarosław\nNr zajęć: 8/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:52fb31b1b2e47e008f26a48a@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261217T160000
+DTEND;TZID=Europe/Warsaw:20261217T173500
+SUMMARY:Mspb (L)
+LOCATION:224 S
+DESCRIPTION:Modelowanie i symulacja procesów biznesowych\nRodzaj: laborat
+ orium\nProwadzący: Woźniak Adrian\nNr zajęć: 5/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:10eab4d2b97048029fd1773e@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261218T080000
+DTEND;TZID=Europe/Warsaw:20261218T093500
+SUMMARY:wzbnim (ć)
+LOCATION:204 65
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: ćwiczenia\nNr zajęć: 4/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:08f1527a84398c03cebe8c02@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261218T095000
+DTEND;TZID=Europe/Warsaw:20261218T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 39/47\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7b8d6ed6f03d984077a16b18@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261218T133000
+DTEND;TZID=Europe/Warsaw:20261218T150500
+SUMMARY:Ps (ć)
+LOCATION:218 65
+DESCRIPTION:Procesy stochastyczne\nRodzaj: ćwiczenia\nProwadzący: Kurkow
+ iak Justyna\nNr zajęć: 5/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3bb3cd60017ae106e7c6bccd@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261218T194000
+DTEND;TZID=Europe/Warsaw:20261218T211500
+SUMMARY:S.Sz.W.
+DESCRIPTION:Rodzaj: studium szkol. wojs.\nNr zajęć: 1/1\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:e53c3c67c7f006a9afdd596e@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261219T080000
+DTEND;TZID=Europe/Warsaw:20261219T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 25/28\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:07432a29b1e589ea8e02cd60@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261221T114000
+DTEND;TZID=Europe/Warsaw:20261221T131500
+SUMMARY:Ja (ć)
+LOCATION:128 K\, 131 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 53/60\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:5c7e7f12164e8f3d6b36b0af@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261221T133000
+DTEND;TZID=Europe/Warsaw:20261221T150500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 40/47\nBl
+ ok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ec00af5d7357fd07323fb400@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261221T160000
+DTEND;TZID=Europe/Warsaw:20261221T173500
+SUMMARY:Med (L)
+LOCATION:223 S
+DESCRIPTION:Metody eksploracji danych\nRodzaj: laboratorium\nProwadzący: 
+ Hoffmann Romuald\nNr zajęć: 6/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:681a71cd6758712685b8328c@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261222T080000
+DTEND;TZID=Europe/Warsaw:20261222T093500
+SUMMARY:Mpwsi (P)
+LOCATION:236 S
+DESCRIPTION:Metody projektowania i wdrażania systemów informatycznych\nR
+ odzaj: projekt\nProwadzący: Gumowski Tomasz\nNr zajęć: 3/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f0b55c18f81ee78c3d8d40ec@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261222T095000
+DTEND;TZID=Europe/Warsaw:20261222T112500
+SUMMARY:Mpwsi (P)
+LOCATION:236 S
+DESCRIPTION:Metody projektowania i wdrażania systemów informatycznych\nR
+ odzaj: projekt\nProwadzący: Gumowski Tomasz\nNr zajęć: 4/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5db24be41c87a3934332c795@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261223T080000
+DTEND;TZID=Europe/Warsaw:20261223T093500
+SUMMARY:Msz (L)
+LOCATION:224 S
+DESCRIPTION:Metody sztucznej inteligencji\nRodzaj: laboratorium\nProwadzą
+ cy: Czuba Przemysław\nNr zajęć: 6/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:66abd7aa2b6c227154850c80@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261223T095000
+DTEND;TZID=Europe/Warsaw:20261223T112500
+SUMMARY:Msz (L)
+LOCATION:224 S
+DESCRIPTION:Metody sztucznej inteligencji\nRodzaj: laboratorium\nProwadzą
+ cy: Czuba Przemysław\nNr zajęć: 7/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2445ada382267ed795e60df9@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261223T114000
+DTEND;TZID=Europe/Warsaw:20261223T131500
+SUMMARY:MPH (w)
+LOCATION:314 S
+DESCRIPTION:Międzynarodowe prawo humanitarne konfliktów zbrojnych\nRodza
+ j: wykład\nNr zajęć: 5/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b7cedf20b95728d31f03b707@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20261223T133000
+DTEND;TZID=Europe/Warsaw:20261223T150500
+SUMMARY:wzbnim (ć)
+LOCATION:204 65
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: ćwiczenia\nNr zajęć: 5/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6ad59619ac8c3b2e508db7ce@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270107T080000
+DTEND;TZID=Europe/Warsaw:20270107T093500
+SUMMARY:Med (L)
+LOCATION:227 S
+DESCRIPTION:Metody eksploracji danych\nRodzaj: laboratorium\nProwadzący: 
+ Hoffmann Romuald\nNr zajęć: 7/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d902e1b07bb591510fa54059@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270107T095000
+DTEND;TZID=Europe/Warsaw:20270107T112500
+SUMMARY:Ja (ć)
+LOCATION:128 K\, 131 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 54/60\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:52f7b9bdc06477589b5791cc@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270107T114000
+DTEND;TZID=Europe/Warsaw:20270107T131500
+SUMMARY:DWiPD (ć)
+LOCATION:308 S
+DESCRIPTION:Działalność wychowawcza i profilaktyka dyscyplinarna\nRodza
+ j: ćwiczenia\nNr zajęć: 5/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6af861b3e8669e20e919c1e9@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270107T133000
+DTEND;TZID=Europe/Warsaw:20270107T150500
+SUMMARY:MPH (ć)
+LOCATION:204 65
+DESCRIPTION:Międzynarodowe prawo humanitarne konfliktów zbrojnych\nRodza
+ j: ćwiczenia\nNr zajęć: 2/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:80b1b1917da41b4a2f280588@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270107T160000
+DTEND;TZID=Europe/Warsaw:20270107T173500
+SUMMARY:SQL (L)
+LOCATION:223 S
+DESCRIPTION:Bazy danych NoSQL\nRodzaj: laboratorium\nProwadzący: Koszela 
+ Jarosław\nNr zajęć: 9/12\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:59d908fc4a38807cd2d70c4e@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270107T175000
+DTEND;TZID=Europe/Warsaw:20270107T192500
+SUMMARY:SQL (L)
+LOCATION:223 S
+DESCRIPTION:Bazy danych NoSQL\nRodzaj: laboratorium\nProwadzący: Koszela 
+ Jarosław\nNr zajęć: 10/12\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:3ae0f025dae79dde22f1b3fa@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270108T080000
+DTEND;TZID=Europe/Warsaw:20270108T093500
+SUMMARY:Ps (ć)
+LOCATION:219 65
+DESCRIPTION:Procesy stochastyczne\nRodzaj: ćwiczenia\nProwadzący: Kurkow
+ iak Justyna\nNr zajęć: 6/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8bd22fcb4fdc3654c9a7bd43@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270108T095000
+DTEND;TZID=Europe/Warsaw:20270108T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 41/47\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a2a665d4f8be99ef981a7c64@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270108T114000
+DTEND;TZID=Europe/Warsaw:20270108T131500
+SUMMARY:S.Sz.W.
+DESCRIPTION:Rodzaj: studium szkol. wojs.\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:55867b510c68b0cbb4522284@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270108T133000
+DTEND;TZID=Europe/Warsaw:20270108T150500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PWC3)
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 11/14\n
+ Blok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:67670a9d39d1b242198ec460@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270108T160000
+DTEND;TZID=Europe/Warsaw:20270108T173500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PWC3)
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 12/14\n
+ Blok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:ae8727f3626f159c49f29c89@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270108T175000
+DTEND;TZID=Europe/Warsaw:20270108T192500
+SUMMARY:S.Sz.W.
+DESCRIPTION:Rodzaj: studium szkol. wojs.\nNr zajęć: 1/1\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:e13f8fe3e2fde2eac5126361@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270108T194000
+DTEND;TZID=Europe/Warsaw:20270108T211500
+SUMMARY:S.Sz.W.
+DESCRIPTION:Rodzaj: studium szkol. wojs.\nNr zajęć: 1/1\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:fdfa3f4b3541b207f298c76b@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270109T080000
+DTEND;TZID=Europe/Warsaw:20270109T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 26/28\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:49c73af37758376b11b62548@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270111T080000
+DTEND;TZID=Europe/Warsaw:20270111T093500
+SUMMARY:Mpwsi (P)
+LOCATION:236 S
+DESCRIPTION:Metody projektowania i wdrażania systemów informatycznych\nR
+ odzaj: projekt\nProwadzący: Gumowski Tomasz\nNr zajęć: 5/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3234387c86662e3cba459956@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270111T095000
+DTEND;TZID=Europe/Warsaw:20270111T112500
+SUMMARY:Mpwsi (P)
+LOCATION:236 S
+DESCRIPTION:Metody projektowania i wdrażania systemów informatycznych\nR
+ odzaj: projekt\nProwadzący: Gumowski Tomasz\nNr zajęć: 6/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f915b8caa2ec8d129bb5faed@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270111T114000
+DTEND;TZID=Europe/Warsaw:20270111T131500
+SUMMARY:Ja (ć)
+LOCATION:128 K\, 131 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 55/60\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:8b8540cd4f26fa0ab8c16ec0@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270111T133000
+DTEND;TZID=Europe/Warsaw:20270111T150500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 42/47\nBl
+ ok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6575617f126d8f3a453e1abc@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270111T175000
+DTEND;TZID=Europe/Warsaw:20270111T192500
+SUMMARY:Wf_E (E)
+DESCRIPTION:Wf_E\nRodzaj: egzamin\nNr zajęć: 1/1\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:7135542f8d21afec47a0492c@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270112T080000
+DTEND;TZID=Europe/Warsaw:20270112T093500
+SUMMARY:BbD (L)
+LOCATION:223 S
+DESCRIPTION:Bezpieczeństwo baz danych\nRodzaj: laboratorium\nProwadzący:
+  Woźniak Józef\nNr zajęć: 7/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2e69729c54e4148858cf59e2@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270112T095000
+DTEND;TZID=Europe/Warsaw:20270112T112500
+SUMMARY:BbD (L)
+LOCATION:223 S
+DESCRIPTION:Bezpieczeństwo baz danych\nRodzaj: laboratorium\nProwadzący:
+  Woźniak Józef\nNr zajęć: 8/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ed139b651af83788184a18ed@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270113T080000
+DTEND;TZID=Europe/Warsaw:20270113T093500
+SUMMARY:ZŻWAT (Inne)
+DESCRIPTION:Zbiórka żołnierzy WAT\nRodzaj: inne\nNr zajęć: 2/2\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:99c17083f232cd08fbb7317f@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270113T095000
+DTEND;TZID=Europe/Warsaw:20270113T112500
+SUMMARY:Msz (w)
+LOCATION:307 S
+DESCRIPTION:Metody sztucznej inteligencji\nRodzaj: wykład\nProwadzący: N
+ ajgebauer Andrzej\nNr zajęć: 8/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9632b145f8f23ab5212d5760@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270113T114000
+DTEND;TZID=Europe/Warsaw:20270113T131500
+SUMMARY:Miar (L)
+LOCATION:252 S
+DESCRIPTION:Metody ilościowe analizy ryzyka\nRodzaj: laboratorium\nProwad
+ zący: Stąpor Piotr\nNr zajęć: 6/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c7c55a40bbd086315f7f3296@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270114T080000
+DTEND;TZID=Europe/Warsaw:20270114T093500
+SUMMARY:wzbnim (ć)
+LOCATION:204 65
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: ćwiczenia\nNr zajęć: 6/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:bd346faf2f479aa86c27abe8@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270114T095000
+DTEND;TZID=Europe/Warsaw:20270114T112500
+SUMMARY:Ja (ć)
+LOCATION:128 K\, 131 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 56/60\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:41b92141edb807f26d55f770@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270114T114000
+DTEND;TZID=Europe/Warsaw:20270114T131500
+SUMMARY:Mspb (L)
+LOCATION:236 S
+DESCRIPTION:Modelowanie i symulacja procesów biznesowych\nRodzaj: laborat
+ orium\nProwadzący: Woźniak Adrian\nNr zajęć: 6/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:73a684d370d428821364b454@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270114T133000
+DTEND;TZID=Europe/Warsaw:20270114T150500
+SUMMARY:Med (L)
+LOCATION:236 S
+DESCRIPTION:Metody eksploracji danych\nRodzaj: laboratorium\nProwadzący: 
+ Hoffmann Romuald\nNr zajęć: 8/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4e01a1ef8c6e569412762f19@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270115T080000
+DTEND;TZID=Europe/Warsaw:20270115T093500
+SUMMARY:MPH (ć)
+LOCATION:203 65
+DESCRIPTION:Międzynarodowe prawo humanitarne konfliktów zbrojnych\nRodza
+ j: ćwiczenia\nNr zajęć: 3/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a1faa8b96bcda8cfd6651711@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270115T095000
+DTEND;TZID=Europe/Warsaw:20270115T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 43/47\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7dcba7357318508be05e0ad8@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270115T114000
+DTEND;TZID=Europe/Warsaw:20270115T131500
+SUMMARY:S.Sz.W.
+DESCRIPTION:Rodzaj: studium szkol. wojs.\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:38f16fc58164360c0cde07d7@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270115T133000
+DTEND;TZID=Europe/Warsaw:20270115T150500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PWC2)
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 13/14\n
+ Blok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1e823b41874fe587ea080553@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270115T160000
+DTEND;TZID=Europe/Warsaw:20270115T173500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PWC2)
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 14/14\n
+ Blok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:4da9f3dd68c38a7af3c47a86@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270115T175000
+DTEND;TZID=Europe/Warsaw:20270115T192500
+SUMMARY:S.Sz.W.
+DESCRIPTION:Rodzaj: studium szkol. wojs.\nNr zajęć: 1/1\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:0345e04b8aef86907ae449e7@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270115T194000
+DTEND;TZID=Europe/Warsaw:20270115T211500
+SUMMARY:S.Sz.W.
+DESCRIPTION:Rodzaj: studium szkol. wojs.\nNr zajęć: 1/1\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:651eafb7c7ee61241d704edc@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270116T080000
+DTEND;TZID=Europe/Warsaw:20270116T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 27/28\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9db599841934ac34d9f0b7fe@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270118T080000
+DTEND;TZID=Europe/Warsaw:20270118T093500
+SUMMARY:Ps (ć)
+LOCATION:219 65
+DESCRIPTION:Procesy stochastyczne\nRodzaj: ćwiczenia\nProwadzący: Kurkow
+ iak Justyna\nNr zajęć: 7/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d11a69128d2ad728dbd5cfb3@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270118T114000
+DTEND;TZID=Europe/Warsaw:20270118T131500
+SUMMARY:Ja (ć)
+LOCATION:128 K\, 131 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 57/60\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:70538866e802f78f365e566f@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270118T133000
+DTEND;TZID=Europe/Warsaw:20270118T150500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 44/47\nBl
+ ok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c36fca92887b71d78ca6ee27@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270121T095000
+DTEND;TZID=Europe/Warsaw:20270121T112500
+SUMMARY:Ja (ć)
+LOCATION:128 K\, 131 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 58/60\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:eeda10c23568019c8d79d2ef@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270121T114000
+DTEND;TZID=Europe/Warsaw:20270121T131500
+SUMMARY:SQL (L)
+LOCATION:223 S
+DESCRIPTION:Bazy danych NoSQL\nRodzaj: laboratorium\nProwadzący: Koszela 
+ Jarosław\nNr zajęć: 11/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b76af1ee04bc426225e2edf9@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270121T133000
+DTEND;TZID=Europe/Warsaw:20270121T150500
+SUMMARY:SQL (L)
+LOCATION:223 S
+DESCRIPTION:Bazy danych NoSQL\nRodzaj: laboratorium\nProwadzący: Koszela 
+ Jarosław\nNr zajęć: 12/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ef17d9716cbc8d979211576c@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270122T080000
+DTEND;TZID=Europe/Warsaw:20270122T093500
+SUMMARY:MPH (ć)
+LOCATION:203 65
+DESCRIPTION:Międzynarodowe prawo humanitarne konfliktów zbrojnych\nRodza
+ j: ćwiczenia\nNr zajęć: 4/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9dde8ab5e441ef67335b7b07@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270122T095000
+DTEND;TZID=Europe/Warsaw:20270122T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 45/47\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3e39ae66805ad995112b162d@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270122T194000
+DTEND;TZID=Europe/Warsaw:20270122T211500
+SUMMARY:S.Sz.W.
+DESCRIPTION:Rodzaj: studium szkol. wojs.\nNr zajęć: 1/1\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:16bb5f61af031d902dc80d5c@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270123T080000
+DTEND;TZID=Europe/Warsaw:20270123T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 28/28\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:483bb9c582cc4f45efbbcbff@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270125T080000
+DTEND;TZID=Europe/Warsaw:20270125T093500
+SUMMARY:Mpwsi (L)
+LOCATION:223 S
+DESCRIPTION:Metody projektowania i wdrażania systemów informatycznych\nR
+ odzaj: laboratorium\nProwadzący: Gumowski Tomasz\nNr zajęć: 8/9\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:c80a0899cf292e57e5820d83@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270125T095000
+DTEND;TZID=Europe/Warsaw:20270125T112500
+SUMMARY:Mpwsi (L)
+LOCATION:223 S
+DESCRIPTION:Metody projektowania i wdrażania systemów informatycznych\nR
+ odzaj: laboratorium\nProwadzący: Gumowski Tomasz\nNr zajęć: 9/9\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:30dd89a7911dc4ed41c6d846@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270125T114000
+DTEND;TZID=Europe/Warsaw:20270125T131500
+SUMMARY:Ja (ć)
+LOCATION:128 K\, 131 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 59/60\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:f4becdc5a3761c8718700020@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270125T133000
+DTEND;TZID=Europe/Warsaw:20270125T150500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 46/47\nBl
+ ok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c88a7d0c831bc4e7f103f583@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270126T095000
+DTEND;TZID=Europe/Warsaw:20270126T112500
+SUMMARY:Miar (L)
+LOCATION:223 S
+DESCRIPTION:Metody ilościowe analizy ryzyka\nRodzaj: laboratorium\nProwad
+ zący: Stąpor Piotr\nNr zajęć: 7/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5f4141e8b08d758211aa7f73@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270126T114000
+DTEND;TZID=Europe/Warsaw:20270126T131500
+SUMMARY:Med (L)
+LOCATION:233 S
+DESCRIPTION:Metody eksploracji danych\nRodzaj: laboratorium\nProwadzący: 
+ Hoffmann Romuald\nNr zajęć: 9/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:60621fba418b9185f9517dcc@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270127T080000
+DTEND;TZID=Europe/Warsaw:20270127T093500
+SUMMARY:Muma (w)
+LOCATION:313 S
+DESCRIPTION:Metody uczenia maszynowego\nRodzaj: wykład\nProwadzący: Olej
+ niczak Jarosław\nNr zajęć: 6/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3aad1facb92d0fed23054216@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270127T095000
+DTEND;TZID=Europe/Warsaw:20270127T112500
+SUMMARY:Muma (w)
+LOCATION:313 S
+DESCRIPTION:Metody uczenia maszynowego\nRodzaj: wykład\nProwadzący: Olej
+ niczak Jarosław\nNr zajęć: 7/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:947a0de1e2ce90ae436649a5@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270127T133000
+DTEND;TZID=Europe/Warsaw:20270127T150500
+SUMMARY:Ps (w)
+LOCATION:314 S
+DESCRIPTION:Procesy stochastyczne\nRodzaj: wykład\nProwadzący: Kurkowiak
+  Justyna\nNr zajęć: 8/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:072790a9ff293f6a9cd05bda@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270128T095000
+DTEND;TZID=Europe/Warsaw:20270128T112500
+SUMMARY:Ja (ć)
+LOCATION:128 K\, 131 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 60/60\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:3f06d10a8b24430b738aedbc@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270128T114000
+DTEND;TZID=Europe/Warsaw:20270128T131500
+SUMMARY:Mspb (L)
+LOCATION:227 S
+DESCRIPTION:Modelowanie i symulacja procesów biznesowych\nRodzaj: laborat
+ orium\nProwadzący: Woźniak Adrian\nNr zajęć: 7/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d2f310691342971c65d1059b@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270128T133000
+DTEND;TZID=Europe/Warsaw:20270128T150500
+SUMMARY:Mspb (L)
+LOCATION:227 S
+DESCRIPTION:Modelowanie i symulacja procesów biznesowych\nRodzaj: laborat
+ orium\nProwadzący: Woźniak Adrian\nNr zajęć: 8/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:003f445d263f13fb18834ef4@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270129T080000
+DTEND;TZID=Europe/Warsaw:20270129T093500
+SUMMARY:MPH (ć)
+LOCATION:203 65
+DESCRIPTION:Międzynarodowe prawo humanitarne konfliktów zbrojnych\nRodza
+ j: ćwiczenia\nNr zajęć: 5/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6ce8b2759f4b836cf612f50c@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270129T095000
+DTEND;TZID=Europe/Warsaw:20270129T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 47/47\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0f759eb2e4fd792f8679e386@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270129T114000
+DTEND;TZID=Europe/Warsaw:20270129T131500
+SUMMARY:ZLDT-1 (ć)
+LOCATION:0.28/ 135
+DESCRIPTION:Zabezpieczenie Logistyczne Działań Taktycznych - 1\nRodzaj: 
+ ćwiczenia\nNr zajęć: 3/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d99f3c6398056aa727bcdd8b@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270129T133000
+DTEND;TZID=Europe/Warsaw:20270129T150500
+SUMMARY:ZLDT-1 (ć)
+LOCATION:0.28/ 135
+DESCRIPTION:Zabezpieczenie Logistyczne Działań Taktycznych - 1\nRodzaj: 
+ ćwiczenia\nNr zajęć: 4/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:34f339ceb19b7ad0f5532440@wat-plan
+DTSTAMP:20261118T142902Z
+DTSTART;TZID=Europe/Warsaw:20270129T194000
+DTEND;TZID=Europe/Warsaw:20270129T211500
+SUMMARY:S.Sz.W.
+DESCRIPTION:Rodzaj: studium szkol. wojs.\nNr zajęć: 1/1\nBlok: 7
+END:VEVENT
+END:VCALENDAR

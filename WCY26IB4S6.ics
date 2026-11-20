@@ -1,0 +1,647 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WCY26IB4S6
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:c92e16b46ce1861d69802d57@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261012T080000
+DTEND;TZID=Europe/Warsaw:20261012T093500
+SUMMARY:Sws (Inne)
+LOCATION:klub WAT
+DESCRIPTION:Spotkanie organizacyjne\nRodzaj: inne\nNr zajęć: 1/1\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ab04e3e70b6a4aa477e2230e@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261012T095000
+DTEND;TZID=Europe/Warsaw:20261012T112500
+SUMMARY:Psk (w)
+LOCATION:101 65
+DESCRIPTION:Podstawy sieci komputerowych\nRodzaj: wykład\nProwadzący: Ma
+ zur Dagmara\nNr zajęć: 1/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5b8dfa2bd8cc065dcc2812c5@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261012T114000
+DTEND;TZID=Europe/Warsaw:20261012T131500
+SUMMARY:Zbi (w)
+LOCATION:101 65
+DESCRIPTION:Zarządzanie bezpieczeństwem informacji\nRodzaj: wykład\nPro
+ wadzący: Marczyk Maciej\nNr zajęć: 1/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d13f7c49efde1ec07ef95100@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261012T133000
+DTEND;TZID=Europe/Warsaw:20261012T150500
+SUMMARY:BsW (w)
+LOCATION:101 65
+DESCRIPTION:Bezpieczeństwo sieciowe w środowisku Windows\nRodzaj: wykła
+ d\nProwadzący: Laszko Łukasz\nNr zajęć: 1/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:441372e68790ed567400a799@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261013T080000
+DTEND;TZID=Europe/Warsaw:20261013T093500
+SUMMARY:Psk (w)
+LOCATION:101 65
+DESCRIPTION:Podstawy sieci komputerowych\nRodzaj: wykład\nProwadzący: Ma
+ zur Dagmara\nNr zajęć: 2/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3e1f442f632f32ebe2633ae9@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261013T095000
+DTEND;TZID=Europe/Warsaw:20261013T112500
+SUMMARY:bis (w)
+LOCATION:101 65
+DESCRIPTION:Bezpieczeństwo infrastruktury sieciowej\nRodzaj: wykład\nPro
+ wadzący: Świerczynski Zbigniew\nNr zajęć: 1/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:01f979a9d13277c0005e8e32@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261013T114000
+DTEND;TZID=Europe/Warsaw:20261013T131500
+SUMMARY:bis (w)
+LOCATION:101 65
+DESCRIPTION:Bezpieczeństwo infrastruktury sieciowej\nRodzaj: wykład\nPro
+ wadzący: Świerczynski Zbigniew\nNr zajęć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:881812d211aa3de2ac442859@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261014T095000
+DTEND;TZID=Europe/Warsaw:20261014T112500
+SUMMARY:Zbi (w)
+LOCATION:101 65
+DESCRIPTION:Zarządzanie bezpieczeństwem informacji\nRodzaj: wykład\nPro
+ wadzący: Marczyk Maciej\nNr zajęć: 2/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:01b1b54087c96afc368fc29b@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261014T114000
+DTEND;TZID=Europe/Warsaw:20261014T131500
+SUMMARY:Zbi (w)
+LOCATION:101 65
+DESCRIPTION:Zarządzanie bezpieczeństwem informacji\nRodzaj: wykład\nPro
+ wadzący: Marczyk Maciej\nNr zajęć: 3/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:712051c1773356c75df2bcf7@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261014T133000
+DTEND;TZID=Europe/Warsaw:20261014T150500
+SUMMARY:BsW (w)
+LOCATION:101 65
+DESCRIPTION:Bezpieczeństwo sieciowe w środowisku Windows\nRodzaj: wykła
+ d\nProwadzący: Laszko Łukasz\nNr zajęć: 2/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f4b107280f6eb572f8fddd20@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261015T080000
+DTEND;TZID=Europe/Warsaw:20261015T093500
+SUMMARY:Psk (w)
+LOCATION:101 65
+DESCRIPTION:Podstawy sieci komputerowych\nRodzaj: wykład\nProwadzący: Ma
+ zur Dagmara\nNr zajęć: 3/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:31adcc27b50fa1926d4d7549@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261015T095000
+DTEND;TZID=Europe/Warsaw:20261015T112500
+SUMMARY:Zbi (w)
+LOCATION:101 65
+DESCRIPTION:Zarządzanie bezpieczeństwem informacji\nRodzaj: wykład\nPro
+ wadzący: Marczyk Maciej\nNr zajęć: 4/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:04d6f946ddaafc5707fcf63f@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261015T114000
+DTEND;TZID=Europe/Warsaw:20261015T131500
+SUMMARY:Zbi (w)
+LOCATION:101 65
+DESCRIPTION:Zarządzanie bezpieczeństwem informacji\nRodzaj: wykład\nPro
+ wadzący: Marczyk Maciej\nNr zajęć: 5/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6e124b05d522fea267bf7810@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261016T080000
+DTEND;TZID=Europe/Warsaw:20261016T093500
+SUMMARY:BsW (w)
+LOCATION:101 65
+DESCRIPTION:Bezpieczeństwo sieciowe w środowisku Windows\nRodzaj: wykła
+ d\nProwadzący: Laszko Łukasz\nNr zajęć: 3/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f400e64e712f68c5ff92d0ae@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261016T095000
+DTEND;TZID=Europe/Warsaw:20261016T112500
+SUMMARY:BsW (w)
+LOCATION:101 65
+DESCRIPTION:Bezpieczeństwo sieciowe w środowisku Windows\nRodzaj: wykła
+ d\nProwadzący: Laszko Łukasz\nNr zajęć: 4/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d35e05ddd6bb1f048d22ccbb@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261016T114000
+DTEND;TZID=Europe/Warsaw:20261016T131500
+SUMMARY:Psk (w)
+LOCATION:101 65
+DESCRIPTION:Podstawy sieci komputerowych\nRodzaj: wykład\nProwadzący: Ma
+ zur Dagmara\nNr zajęć: 4/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:fa7a0cf891dcfc42ba1f9ec0@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261016T133000
+DTEND;TZID=Europe/Warsaw:20261016T150500
+SUMMARY:bis (w)
+LOCATION:101 65
+DESCRIPTION:Bezpieczeństwo infrastruktury sieciowej\nRodzaj: wykład\nPro
+ wadzący: Świerczynski Zbigniew\nNr zajęć: 3/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a4a5092d4cd8d61033e3d20d@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261019T080000
+DTEND;TZID=Europe/Warsaw:20261019T093500
+SUMMARY:Psk (L)
+LOCATION:120 65
+DESCRIPTION:Podstawy sieci komputerowych\nRodzaj: laboratorium\nProwadząc
+ y: Mazur Dagmara\nNr zajęć: 1/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:606ff5b71f4db708076da59b@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261019T095000
+DTEND;TZID=Europe/Warsaw:20261019T112500
+SUMMARY:Psk (L)
+LOCATION:120 65
+DESCRIPTION:Podstawy sieci komputerowych\nRodzaj: laboratorium\nProwadząc
+ y: Mazur Dagmara\nNr zajęć: 2/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:da18b80f9a6463efe88e284d@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261019T114000
+DTEND;TZID=Europe/Warsaw:20261019T131500
+SUMMARY:bis (L)
+LOCATION:120 65
+DESCRIPTION:Bezpieczeństwo infrastruktury sieciowej\nRodzaj: laboratorium
+ \nProwadzący: Wojdygowski Krystian\nNr zajęć: 1/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:acc1f1173568048b97399672@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261019T133000
+DTEND;TZID=Europe/Warsaw:20261019T150500
+SUMMARY:bis (L)
+LOCATION:120 65
+DESCRIPTION:Bezpieczeństwo infrastruktury sieciowej\nRodzaj: laboratorium
+ \nProwadzący: Wojdygowski Krystian\nNr zajęć: 2/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f717866f86c7371e85e83049@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261020T080000
+DTEND;TZID=Europe/Warsaw:20261020T093500
+SUMMARY:Psk (w)
+LOCATION:101 65
+DESCRIPTION:Podstawy sieci komputerowych\nRodzaj: wykład\nProwadzący: Ma
+ zur Dagmara\nNr zajęć: 5/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:277c2c9e51bc4555301ab41a@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261020T095000
+DTEND;TZID=Europe/Warsaw:20261020T112500
+SUMMARY:BsW (L)
+LOCATION:120 65
+DESCRIPTION:Bezpieczeństwo sieciowe w środowisku Windows\nRodzaj: labora
+ torium\nProwadzący: Laszko Łukasz\nNr zajęć: 1/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1ee50da558ee58216953580c@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261020T114000
+DTEND;TZID=Europe/Warsaw:20261020T131500
+SUMMARY:BsW (L)
+LOCATION:120 65
+DESCRIPTION:Bezpieczeństwo sieciowe w środowisku Windows\nRodzaj: labora
+ torium\nProwadzący: Laszko Łukasz\nNr zajęć: 2/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9cc3adc2ae1d0532bc158bc2@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261021T133000
+DTEND;TZID=Europe/Warsaw:20261021T150500
+SUMMARY:BsW (w)
+LOCATION:101 65
+DESCRIPTION:Bezpieczeństwo sieciowe w środowisku Windows\nRodzaj: wykła
+ d\nProwadzący: Laszko Łukasz\nNr zajęć: 5/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:997f6136386b46de938b23a2@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261022T080000
+DTEND;TZID=Europe/Warsaw:20261022T093500
+SUMMARY:bis (L)
+LOCATION:120 65
+DESCRIPTION:Bezpieczeństwo infrastruktury sieciowej\nRodzaj: laboratorium
+ \nProwadzący: Wojdygowski Krystian\nNr zajęć: 3/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2075dafdac63f1b57795a5e2@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261022T095000
+DTEND;TZID=Europe/Warsaw:20261022T112500
+SUMMARY:bis (L)
+LOCATION:120 65
+DESCRIPTION:Bezpieczeństwo infrastruktury sieciowej\nRodzaj: laboratorium
+ \nProwadzący: Wojdygowski Krystian\nNr zajęć: 4/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:557ee23a0934925df1068c1d@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261022T114000
+DTEND;TZID=Europe/Warsaw:20261022T131500
+SUMMARY:Zbi (L)
+LOCATION:121 65
+DESCRIPTION:Zarządzanie bezpieczeństwem informacji\nRodzaj: laboratorium
+ \nProwadzący: Kalman Leszek\nNr zajęć: 1/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1d0926ea357d4461ae2ec9f5@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261022T133000
+DTEND;TZID=Europe/Warsaw:20261022T150500
+SUMMARY:Zbi (L)
+LOCATION:121 65
+DESCRIPTION:Zarządzanie bezpieczeństwem informacji\nRodzaj: laboratorium
+ \nProwadzący: Kalman Leszek\nNr zajęć: 2/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:36755c18e2a9f1719f8f08dd@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261023T080000
+DTEND;TZID=Europe/Warsaw:20261023T093500
+SUMMARY:BsW (L)
+LOCATION:120 65
+DESCRIPTION:Bezpieczeństwo sieciowe w środowisku Windows\nRodzaj: labora
+ torium\nProwadzący: Laszko Łukasz\nNr zajęć: 3/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:39fa76c162bbfe24a0b98fd5@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261023T095000
+DTEND;TZID=Europe/Warsaw:20261023T112500
+SUMMARY:BsW (L)
+LOCATION:120 65
+DESCRIPTION:Bezpieczeństwo sieciowe w środowisku Windows\nRodzaj: labora
+ torium\nProwadzący: Laszko Łukasz\nNr zajęć: 4/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:cc4dc245be478ed94ada821a@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261023T114000
+DTEND;TZID=Europe/Warsaw:20261023T131500
+SUMMARY:bis (w)
+LOCATION:101 65
+DESCRIPTION:Bezpieczeństwo infrastruktury sieciowej\nRodzaj: wykład\nPro
+ wadzący: Świerczynski Zbigniew\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8b59b18cfaaa199eb9448d05@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261023T133000
+DTEND;TZID=Europe/Warsaw:20261023T150500
+SUMMARY:bis (w)
+LOCATION:101 65
+DESCRIPTION:Bezpieczeństwo infrastruktury sieciowej\nRodzaj: wykład\nPro
+ wadzący: Świerczynski Zbigniew\nNr zajęć: 5/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d6b2ecbb6db94af968db4a3b@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261026T080000
+DTEND;TZID=Europe/Warsaw:20261026T093500
+SUMMARY:Psk (L)
+LOCATION:120 65
+DESCRIPTION:Podstawy sieci komputerowych\nRodzaj: laboratorium\nProwadząc
+ y: Mazur Dagmara\nNr zajęć: 3/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a4ed00572ef7b7a7bd565bf8@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261026T095000
+DTEND;TZID=Europe/Warsaw:20261026T112500
+SUMMARY:Psk (L)
+LOCATION:120 65
+DESCRIPTION:Podstawy sieci komputerowych\nRodzaj: laboratorium\nProwadząc
+ y: Mazur Dagmara\nNr zajęć: 4/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4c7e63c50c0f1375508122de@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261026T114000
+DTEND;TZID=Europe/Warsaw:20261026T131500
+SUMMARY:bis (L)
+LOCATION:120 65
+DESCRIPTION:Bezpieczeństwo infrastruktury sieciowej\nRodzaj: laboratorium
+ \nProwadzący: Wojdygowski Krystian\nNr zajęć: 5/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a7a9c617abed53af1a0886b9@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261026T133000
+DTEND;TZID=Europe/Warsaw:20261026T150500
+SUMMARY:bis (L)
+LOCATION:120 65
+DESCRIPTION:Bezpieczeństwo infrastruktury sieciowej\nRodzaj: laboratorium
+ \nProwadzący: Wojdygowski Krystian\nNr zajęć: 6/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6b1fb3f13aaccaa77862856f@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261027T080000
+DTEND;TZID=Europe/Warsaw:20261027T093500
+SUMMARY:BsW (L)
+LOCATION:120 65
+DESCRIPTION:Bezpieczeństwo sieciowe w środowisku Windows\nRodzaj: labora
+ torium\nProwadzący: Laszko Łukasz\nNr zajęć: 5/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3a3354e3d7c01b3b76181252@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261027T095000
+DTEND;TZID=Europe/Warsaw:20261027T112500
+SUMMARY:BsW (L)
+LOCATION:120 65
+DESCRIPTION:Bezpieczeństwo sieciowe w środowisku Windows\nRodzaj: labora
+ torium\nProwadzący: Laszko Łukasz\nNr zajęć: 6/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:420a052f312ca8784c0cd6fa@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261028T114000
+DTEND;TZID=Europe/Warsaw:20261028T131500
+SUMMARY:Zbi (w)
+LOCATION:101 65
+DESCRIPTION:Zarządzanie bezpieczeństwem informacji\nRodzaj: wykład\nPro
+ wadzący: Marczyk Maciej\nNr zajęć: 6/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:837caf8c27f5650d954dd1af@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261028T133000
+DTEND;TZID=Europe/Warsaw:20261028T150500
+SUMMARY:Zbi (w)
+LOCATION:101 65
+DESCRIPTION:Zarządzanie bezpieczeństwem informacji\nRodzaj: wykład\nPro
+ wadzący: Marczyk Maciej\nNr zajęć: 7/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4321caff075fe3493dfa6a63@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261029T080000
+DTEND;TZID=Europe/Warsaw:20261029T093500
+SUMMARY:Psk (L)
+LOCATION:120 65
+DESCRIPTION:Podstawy sieci komputerowych\nRodzaj: laboratorium\nProwadząc
+ y: Mazur Dagmara\nNr zajęć: 5/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e2e60911e248e7fdcbb9e70f@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261029T095000
+DTEND;TZID=Europe/Warsaw:20261029T112500
+SUMMARY:Psk (L)
+LOCATION:120 65
+DESCRIPTION:Podstawy sieci komputerowych\nRodzaj: laboratorium\nProwadząc
+ y: Mazur Dagmara\nNr zajęć: 6/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6d2c11097f67408bb65d92b9@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261029T114000
+DTEND;TZID=Europe/Warsaw:20261029T131500
+SUMMARY:Zbi (L)
+LOCATION:121 65
+DESCRIPTION:Zarządzanie bezpieczeństwem informacji\nRodzaj: laboratorium
+ \nProwadzący: Kalman Leszek\nNr zajęć: 3/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:bb845f4bcc4d7e558aa01957@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261029T133000
+DTEND;TZID=Europe/Warsaw:20261029T150500
+SUMMARY:Zbi (L)
+LOCATION:121 65
+DESCRIPTION:Zarządzanie bezpieczeństwem informacji\nRodzaj: laboratorium
+ \nProwadzący: Kalman Leszek\nNr zajęć: 4/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2646ed742ee56b5f3130ad59@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261030T080000
+DTEND;TZID=Europe/Warsaw:20261030T093500
+SUMMARY:BsW (L)
+LOCATION:120 65
+DESCRIPTION:Bezpieczeństwo sieciowe w środowisku Windows\nRodzaj: labora
+ torium\nProwadzący: Laszko Łukasz\nNr zajęć: 7/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:368609571108adb24b9d8134@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261030T095000
+DTEND;TZID=Europe/Warsaw:20261030T112500
+SUMMARY:BsW (L)
+LOCATION:120 65
+DESCRIPTION:Bezpieczeństwo sieciowe w środowisku Windows\nRodzaj: labora
+ torium\nProwadzący: Laszko Łukasz\nNr zajęć: 8/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a1cfcb05e76351a380b54181@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261102T080000
+DTEND;TZID=Europe/Warsaw:20261102T093500
+SUMMARY:Psk (w)
+LOCATION:101 65
+DESCRIPTION:Podstawy sieci komputerowych\nRodzaj: wykład\nProwadzący: Ma
+ zur Dagmara\nNr zajęć: 6/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9c21d92d7f5107199663ac6a@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261102T095000
+DTEND;TZID=Europe/Warsaw:20261102T112500
+SUMMARY:Psk (w)
+LOCATION:204 65
+DESCRIPTION:Podstawy sieci komputerowych\nRodzaj: wykład\nProwadzący: Ma
+ zur Dagmara\nNr zajęć: 7/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c4af8c440cfa2b880d695f6f@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261102T114000
+DTEND;TZID=Europe/Warsaw:20261102T131500
+SUMMARY:bis (L)
+LOCATION:120 65
+DESCRIPTION:Bezpieczeństwo infrastruktury sieciowej\nRodzaj: laboratorium
+ \nProwadzący: Wojdygowski Krystian\nNr zajęć: 7/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:342e9e800e125f1285bbd683@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261102T133000
+DTEND;TZID=Europe/Warsaw:20261102T150500
+SUMMARY:bis (L)
+LOCATION:120 65
+DESCRIPTION:Bezpieczeństwo infrastruktury sieciowej\nRodzaj: laboratorium
+ \nProwadzący: Wojdygowski Krystian\nNr zajęć: 8/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f497f97f239976b14d6596c8@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261103T080000
+DTEND;TZID=Europe/Warsaw:20261103T093500
+SUMMARY:BsW (L)
+LOCATION:120 65
+DESCRIPTION:Bezpieczeństwo sieciowe w środowisku Windows\nRodzaj: labora
+ torium\nProwadzący: Laszko Łukasz\nNr zajęć: 9/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:90141e954437b5d468a3b92b@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261103T095000
+DTEND;TZID=Europe/Warsaw:20261103T112500
+SUMMARY:BsW (L)
+LOCATION:120 65
+DESCRIPTION:Bezpieczeństwo sieciowe w środowisku Windows\nRodzaj: labora
+ torium\nProwadzący: Laszko Łukasz\nNr zajęć: 10/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:33bc502d722b93308cc75e42@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261104T080000
+DTEND;TZID=Europe/Warsaw:20261104T093500
+SUMMARY:Psk (L)
+LOCATION:120 65
+DESCRIPTION:Podstawy sieci komputerowych\nRodzaj: laboratorium\nProwadząc
+ y: Mazur Dagmara\nNr zajęć: 7/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:599ef3a44b58060b892f3b93@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261104T095000
+DTEND;TZID=Europe/Warsaw:20261104T112500
+SUMMARY:Psk (L)
+LOCATION:120 65
+DESCRIPTION:Podstawy sieci komputerowych\nRodzaj: laboratorium\nProwadząc
+ y: Mazur Dagmara\nNr zajęć: 8/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ad03c19994020ddf04041f49@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261104T114000
+DTEND;TZID=Europe/Warsaw:20261104T131500
+SUMMARY:Zbi (w)
+LOCATION:101 65
+DESCRIPTION:Zarządzanie bezpieczeństwem informacji\nRodzaj: wykład\nPro
+ wadzący: Marczyk Maciej\nNr zajęć: 8/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c3d111b763482375de8e58f1@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261104T133000
+DTEND;TZID=Europe/Warsaw:20261104T150500
+SUMMARY:Zbi (w)
+LOCATION:101 65
+DESCRIPTION:Zarządzanie bezpieczeństwem informacji\nRodzaj: wykład\nPro
+ wadzący: Marczyk Maciej\nNr zajęć: 9/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0770984fa99bdd831d056aef@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261105T080000
+DTEND;TZID=Europe/Warsaw:20261105T093500
+SUMMARY:bis (L)
+LOCATION:120 65
+DESCRIPTION:Bezpieczeństwo infrastruktury sieciowej\nRodzaj: laboratorium
+ \nProwadzący: Wojdygowski Krystian\nNr zajęć: 9/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ecc10409d5ceb509d99572ed@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261105T095000
+DTEND;TZID=Europe/Warsaw:20261105T112500
+SUMMARY:bis (L)
+LOCATION:120 65
+DESCRIPTION:Bezpieczeństwo infrastruktury sieciowej\nRodzaj: laboratorium
+ \nProwadzący: Wojdygowski Krystian\nNr zajęć: 10/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ac3b7220eaf2a148eab8fa55@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261105T133000
+DTEND;TZID=Europe/Warsaw:20261105T150500
+SUMMARY:Zbi (w)
+LOCATION:101 65
+DESCRIPTION:Zarządzanie bezpieczeństwem informacji\nRodzaj: wykład\nPro
+ wadzący: Marczyk Maciej\nNr zajęć: 10/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:59080d4833c2bccce84e9447@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261106T080000
+DTEND;TZID=Europe/Warsaw:20261106T093500
+SUMMARY:Zbi (L)
+LOCATION:121 65
+DESCRIPTION:Zarządzanie bezpieczeństwem informacji\nRodzaj: laboratorium
+ \nProwadzący: Kalman Leszek\nNr zajęć: 5/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a1d30e32872894a636650337@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261106T095000
+DTEND;TZID=Europe/Warsaw:20261106T112500
+SUMMARY:Espr (E)
+LOCATION:203 65
+DESCRIPTION:Egzamin sprawdzający\nRodzaj: egzamin\nProwadzący: Grad Lesz
+ ek\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+END:VCALENDAR

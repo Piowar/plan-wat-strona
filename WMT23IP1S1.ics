@@ -1,0 +1,839 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WMT23IP1S1
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:48150896643d678ee686e0b3@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261008T133000
+DTEND;TZID=Europe/Warsaw:20261008T150500
+SUMMARY:Snlar (P)
+LOCATION:130 36
+DESCRIPTION:Systemy nawigacji i lokalizacji oraz atonomia robotów latajac
+ ych\nRodzaj: projekt\nProwadzący: * Skolmowski Albert\nNr zajęć: 1/16\
+ nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:65aeccb394ac3c648f8b0e9e@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261008T160000
+DTEND;TZID=Europe/Warsaw:20261008T173500
+SUMMARY:Snlar (P)
+LOCATION:130 36
+DESCRIPTION:Systemy nawigacji i lokalizacji oraz atonomia robotów latajac
+ ych\nRodzaj: projekt\nProwadzący: * Skolmowski Albert\nNr zajęć: 2/16\
+ nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:8a87d8099205fb9a9c9f36da@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261008T175000
+DTEND;TZID=Europe/Warsaw:20261008T192500
+SUMMARY:Sapl (w)
+LOCATION:39 36
+DESCRIPTION:Sterowanie autonomicznymi platformami latającymi\nRodzaj: wyk
+ ład\nProwadzący: dr inż. Kurnyta-Mazurek Paulina\nNr zajęć: 1/7\nBlo
+ k: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:fb9746ef5d856379a5f9405d@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261009T080000
+DTEND;TZID=Europe/Warsaw:20261009T093500
+SUMMARY:Sd. (S)
+LOCATION:24 67
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Kurnyta-Mazurek Paulina\nNr zajęć: 1/14\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8820365a3dc7f002c571de0a@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261009T095000
+DTEND;TZID=Europe/Warsaw:20261009T112500
+SUMMARY:Snlar (P)
+LOCATION:130 36
+DESCRIPTION:Systemy nawigacji i lokalizacji oraz atonomia robotów latajac
+ ych\nRodzaj: projekt\nProwadzący: * Skolmowski Albert\nNr zajęć: 3/16\
+ nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7a8b1a7cd4350cd178d74da5@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261009T114000
+DTEND;TZID=Europe/Warsaw:20261009T131500
+SUMMARY:Snlar (P)
+LOCATION:130 36
+DESCRIPTION:Systemy nawigacji i lokalizacji oraz atonomia robotów latajac
+ ych\nRodzaj: projekt\nProwadzący: * Skolmowski Albert\nNr zajęć: 4/16\
+ nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:95fd2dadb0182aa169187b31@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261009T133000
+DTEND;TZID=Europe/Warsaw:20261009T150500
+SUMMARY:Sapl (w)
+LOCATION:39 36
+DESCRIPTION:Sterowanie autonomicznymi platformami latającymi\nRodzaj: wyk
+ ład\nProwadzący: dr inż. Kurnyta-Mazurek Paulina\nNr zajęć: 2/7\nBlo
+ k: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f83906590b4c1233f31e15a5@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261012T080000
+DTEND;TZID=Europe/Warsaw:20261012T093500
+SUMMARY:Sapl (w)
+LOCATION:136 36
+DESCRIPTION:Sterowanie autonomicznymi platformami latającymi\nRodzaj: wyk
+ ład\nProwadzący: dr inż. Kurnyta-Mazurek Paulina\nNr zajęć: 3/7\nBlo
+ k: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7e576f57d0a768f7b7af17d8@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261012T095000
+DTEND;TZID=Europe/Warsaw:20261012T112500
+SUMMARY:Snlar (w)
+LOCATION:136 36
+DESCRIPTION:Systemy nawigacji i lokalizacji oraz atonomia robotów latajac
+ ych\nRodzaj: wykład\nProwadzący: dr hab. inż. Falkowski Krzysztof\nNr 
+ zajęć: 1/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:bc44ea6e98f0fc5e9fc1be0e@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261012T114000
+DTEND;TZID=Europe/Warsaw:20261012T131500
+SUMMARY:Snlar (w)
+LOCATION:136 36
+DESCRIPTION:Systemy nawigacji i lokalizacji oraz atonomia robotów latajac
+ ych\nRodzaj: wykład\nProwadzący: dr hab. inż. Falkowski Krzysztof\nNr 
+ zajęć: 2/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:fa597ce78cb7ef844076c762@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261012T133000
+DTEND;TZID=Europe/Warsaw:20261012T150500
+SUMMARY:Sd. (S)
+LOCATION:41 36
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: ppłk d
+ r inż. Henzel Maciej\nNr zajęć: 2/14\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:54f16e8f62a982290eb700a9@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261014T114000
+DTEND;TZID=Europe/Warsaw:20261014T131500
+SUMMARY:Snlar (w)
+LOCATION:39 36
+DESCRIPTION:Systemy nawigacji i lokalizacji oraz atonomia robotów latajac
+ ych\nRodzaj: wykład\nProwadzący: dr hab. inż. Falkowski Krzysztof\nNr 
+ zajęć: 3/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d90c6a386837408705e115fb@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261014T133000
+DTEND;TZID=Europe/Warsaw:20261014T150500
+SUMMARY:Snlar (w)
+LOCATION:39 36
+DESCRIPTION:Systemy nawigacji i lokalizacji oraz atonomia robotów latajac
+ ych\nRodzaj: wykład\nProwadzący: dr hab. inż. Falkowski Krzysztof\nNr 
+ zajęć: 4/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7dfca5f34090fc79107d8dbf@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261014T160000
+DTEND;TZID=Europe/Warsaw:20261014T173500
+SUMMARY:Sapl (P)
+LOCATION:130 36
+DESCRIPTION:Sterowanie autonomicznymi platformami latającymi\nRodzaj: pro
+ jekt\nProwadzący: dr inż. Kaźmierczak Krzysztof\nNr zajęć: 1/16\nBlo
+ k: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:ca32a52816493906fa3135e4@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261014T175000
+DTEND;TZID=Europe/Warsaw:20261014T192500
+SUMMARY:Sapl (P)
+LOCATION:130 36
+DESCRIPTION:Sterowanie autonomicznymi platformami latającymi\nRodzaj: pro
+ jekt\nProwadzący: dr inż. Kaźmierczak Krzysztof\nNr zajęć: 2/16\nBlo
+ k: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:c4a7ae92590137bbb2983c96@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261015T114000
+DTEND;TZID=Europe/Warsaw:20261015T131500
+SUMMARY:Sd. (S)
+LOCATION:3 67
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: ppłk d
+ r inż. Henzel Maciej\nNr zajęć: 3/14\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9f57bded050e59a6d424a035@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261015T133000
+DTEND;TZID=Europe/Warsaw:20261015T150500
+SUMMARY:Sapl (L)
+LOCATION:003 36\;004
+DESCRIPTION:Sterowanie autonomicznymi platformami latającymi\nRodzaj: lab
+ oratorium\nProwadzący: mgr inż. Marut Adam\nNr zajęć: 1/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8dabe51044d1ecaa11454d90@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261015T160000
+DTEND;TZID=Europe/Warsaw:20261015T173500
+SUMMARY:Sapl (L)
+LOCATION:003 36\;004
+DESCRIPTION:Sterowanie autonomicznymi platformami latającymi\nRodzaj: lab
+ oratorium\nProwadzący: mgr inż. Marut Adam\nNr zajęć: 2/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:6b39742b225cb4f78cd6e111@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261016T080000
+DTEND;TZID=Europe/Warsaw:20261016T093500
+SUMMARY:Snlar (P)
+LOCATION:130 36
+DESCRIPTION:Systemy nawigacji i lokalizacji oraz atonomia robotów latajac
+ ych\nRodzaj: projekt\nProwadzący: * Skolmowski Albert\nNr zajęć: 5/16\
+ nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ad64cb47d6e87dfc50276b0b@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261016T095000
+DTEND;TZID=Europe/Warsaw:20261016T112500
+SUMMARY:Sapl (w)
+LOCATION:39 36
+DESCRIPTION:Sterowanie autonomicznymi platformami latającymi\nRodzaj: wyk
+ ład\nProwadzący: mgr inż. Marut Adam\nNr zajęć: 4/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6d79493b5d2d0f6d2fe14c0a@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261016T114000
+DTEND;TZID=Europe/Warsaw:20261016T131500
+SUMMARY:Sd. (S)
+LOCATION:3 67
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Kurnyta-Mazurek Paulina\nNr zajęć: 4/14\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:686f1f3fbefdfc04e05a7d77@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261016T133000
+DTEND;TZID=Europe/Warsaw:20261016T150500
+SUMMARY:Sd. (S)
+LOCATION:3 67
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Kurnyta-Mazurek Paulina\nNr zajęć: 5/14\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:10462a2536d5b3d42c8ea5e2@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261020T080000
+DTEND;TZID=Europe/Warsaw:20261020T093500
+SUMMARY:Snlar (P)
+LOCATION:43 67
+DESCRIPTION:Systemy nawigacji i lokalizacji oraz atonomia robotów latajac
+ ych\nRodzaj: projekt\nProwadzący: * Skolmowski Albert\nNr zajęć: 6/16\
+ nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:37d66dd7a86d7b73ed3b1738@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261020T095000
+DTEND;TZID=Europe/Warsaw:20261020T112500
+SUMMARY:Sd. (S)
+LOCATION:18 67
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: ppłk d
+ r inż. Henzel Maciej\nNr zajęć: 6/14\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:bfcccdf2c5fda83bfc35001b@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261021T160000
+DTEND;TZID=Europe/Warsaw:20261021T173500
+SUMMARY:Sapl (P)
+LOCATION:130 36
+DESCRIPTION:Sterowanie autonomicznymi platformami latającymi\nRodzaj: pro
+ jekt\nProwadzący: dr inż. Kaźmierczak Krzysztof\nNr zajęć: 3/16\nBlo
+ k: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:63367ed20a94bb42b60323f6@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261021T175000
+DTEND;TZID=Europe/Warsaw:20261021T192500
+SUMMARY:Sapl (P)
+LOCATION:130 36
+DESCRIPTION:Sterowanie autonomicznymi platformami latającymi\nRodzaj: pro
+ jekt\nProwadzący: dr inż. Kaźmierczak Krzysztof\nNr zajęć: 4/16\nBlo
+ k: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:3e9019c59bba001ff07c74c3@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261023T095000
+DTEND;TZID=Europe/Warsaw:20261023T112500
+SUMMARY:Sd. (S)
+LOCATION:24 67
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: ppłk d
+ r inż. Henzel Maciej\nNr zajęć: 7/14\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5b0365b13f705d8f03933ea3@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261023T133000
+DTEND;TZID=Europe/Warsaw:20261023T150500
+SUMMARY:Sapl (L)
+LOCATION:003 36\;004
+DESCRIPTION:Sterowanie autonomicznymi platformami latającymi\nRodzaj: lab
+ oratorium\nProwadzący: mgr inż. Marut Adam\nNr zajęć: 3/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ea68c487f100976d7b135406@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261023T160000
+DTEND;TZID=Europe/Warsaw:20261023T173500
+SUMMARY:Sapl (L)
+LOCATION:003 36\;004
+DESCRIPTION:Sterowanie autonomicznymi platformami latającymi\nRodzaj: lab
+ oratorium\nProwadzący: mgr inż. Marut Adam\nNr zajęć: 4/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:e8a7a44517de112c11ffe305@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261028T080000
+DTEND;TZID=Europe/Warsaw:20261028T093500
+SUMMARY:Snlar (P)
+LOCATION:43 67
+DESCRIPTION:Systemy nawigacji i lokalizacji oraz atonomia robotów latajac
+ ych\nRodzaj: projekt\nProwadzący: * Skolmowski Albert\nNr zajęć: 7/16\
+ nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4bd777853d695ae857314fbb@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261028T114000
+DTEND;TZID=Europe/Warsaw:20261028T131500
+SUMMARY:Snlar (P)
+LOCATION:18 67
+DESCRIPTION:Systemy nawigacji i lokalizacji oraz atonomia robotów latajac
+ ych\nRodzaj: projekt\nProwadzący: * Skolmowski Albert\nNr zajęć: 8/16\
+ nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:70528006ed3abfb055048a65@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261028T133000
+DTEND;TZID=Europe/Warsaw:20261028T150500
+SUMMARY:Sapl (w)
+LOCATION:39 36
+DESCRIPTION:Sterowanie autonomicznymi platformami latającymi\nRodzaj: wyk
+ ład\nProwadzący: dr inż. Kurnyta-Mazurek Paulina\nNr zajęć: 5/7\nBlo
+ k: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8cd9493790c5949594a7ba1e@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261028T160000
+DTEND;TZID=Europe/Warsaw:20261028T173500
+SUMMARY:Sd. (S)
+LOCATION:24 67
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Kurnyta-Mazurek Paulina\nNr zajęć: 8/14\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:7426e15edbb37b26e4a7df26@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261029T175000
+DTEND;TZID=Europe/Warsaw:20261029T192500
+SUMMARY:Sapl (P)
+LOCATION:130 36
+DESCRIPTION:Sterowanie autonomicznymi platformami latającymi\nRodzaj: pro
+ jekt\nProwadzący: dr inż. Kaźmierczak Krzysztof\nNr zajęć: 5/16\nBlo
+ k: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:93b6029e4ff1582509dcc482@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261029T194000
+DTEND;TZID=Europe/Warsaw:20261029T211500
+SUMMARY:Sapl (P)
+LOCATION:130 36
+DESCRIPTION:Sterowanie autonomicznymi platformami latającymi\nRodzaj: pro
+ jekt\nProwadzący: dr inż. Kaźmierczak Krzysztof\nNr zajęć: 6/16\nBlo
+ k: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:c287a8b9db824f0836e2f300@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261030T175000
+DTEND;TZID=Europe/Warsaw:20261030T192500
+SUMMARY:Sapl (P)
+LOCATION:130 36
+DESCRIPTION:Sterowanie autonomicznymi platformami latającymi\nRodzaj: pro
+ jekt\nProwadzący: dr inż. Kaźmierczak Krzysztof\nNr zajęć: 7/16\nBlo
+ k: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:b121f611e52cca8e6ede79ac@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261030T194000
+DTEND;TZID=Europe/Warsaw:20261030T211500
+SUMMARY:Sapl (P)
+LOCATION:130 36
+DESCRIPTION:Sterowanie autonomicznymi platformami latającymi\nRodzaj: pro
+ jekt\nProwadzący: dr inż. Kaźmierczak Krzysztof\nNr zajęć: 8/16\nBlo
+ k: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:4b87dbd6aeeffc5bcf4b2950@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261102T080000
+DTEND;TZID=Europe/Warsaw:20261102T093500
+SUMMARY:Snlar (w)
+LOCATION:18 63
+DESCRIPTION:Systemy nawigacji i lokalizacji oraz atonomia robotów latajac
+ ych\nRodzaj: wykład\nProwadzący: dr hab. inż. Falkowski Krzysztof\nNr 
+ zajęć: 5/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:be1346ecb5cfff4a1a79023b@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261102T095000
+DTEND;TZID=Europe/Warsaw:20261102T112500
+SUMMARY:Snlar (P)
+LOCATION:43 67
+DESCRIPTION:Systemy nawigacji i lokalizacji oraz atonomia robotów latajac
+ ych\nRodzaj: projekt\nProwadzący: * Skolmowski Albert\nNr zajęć: 9/16\
+ nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a054f591e8bba0dba5214c10@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261104T133000
+DTEND;TZID=Europe/Warsaw:20261104T150500
+SUMMARY:Snlar (P)
+LOCATION:18 67
+DESCRIPTION:Systemy nawigacji i lokalizacji oraz atonomia robotów latajac
+ ych\nRodzaj: projekt\nProwadzący: * Skolmowski Albert\nNr zajęć: 10/16
+ \nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:82b85a60e34a9c14a45fe683@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261104T175000
+DTEND;TZID=Europe/Warsaw:20261104T192500
+SUMMARY:Sapl (P)
+LOCATION:130 36
+DESCRIPTION:Sterowanie autonomicznymi platformami latającymi\nRodzaj: pro
+ jekt\nProwadzący: dr inż. Kaźmierczak Krzysztof\nNr zajęć: 9/16\nBlo
+ k: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:804d6017bbedabeb7f679857@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261104T194000
+DTEND;TZID=Europe/Warsaw:20261104T211500
+SUMMARY:Sapl (P)
+LOCATION:130 36
+DESCRIPTION:Sterowanie autonomicznymi platformami latającymi\nRodzaj: pro
+ jekt\nProwadzący: dr inż. Kaźmierczak Krzysztof\nNr zajęć: 10/16\nBl
+ ok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:eec86b842bfff967d152cb60@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261105T133000
+DTEND;TZID=Europe/Warsaw:20261105T150500
+SUMMARY:Sapl (L)
+LOCATION:003 36\;004
+DESCRIPTION:Sterowanie autonomicznymi platformami latającymi\nRodzaj: lab
+ oratorium\nProwadzący: mgr inż. Marut Adam\nNr zajęć: 5/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c8d7e191ffefda0e5c569ce9@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261105T160000
+DTEND;TZID=Europe/Warsaw:20261105T173500
+SUMMARY:Sapl (L)
+LOCATION:003 36\;004
+DESCRIPTION:Sterowanie autonomicznymi platformami latającymi\nRodzaj: lab
+ oratorium\nProwadzący: mgr inż. Marut Adam\nNr zajęć: 6/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:5cc9edcfe38585cc5fff116b@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261112T080000
+DTEND;TZID=Europe/Warsaw:20261112T093500
+SUMMARY:Snlar (L)
+LOCATION:006 36
+DESCRIPTION:Systemy nawigacji i lokalizacji oraz atonomia robotów latajac
+ ych\nRodzaj: laboratorium\nProwadzący: mgr inż. Marut Adam\nNr zajęć:
+  1/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:78d7aeda140bb21e648d39e2@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261112T095000
+DTEND;TZID=Europe/Warsaw:20261112T112500
+SUMMARY:Snlar (L)
+LOCATION:006 36
+DESCRIPTION:Systemy nawigacji i lokalizacji oraz atonomia robotów latajac
+ ych\nRodzaj: laboratorium\nProwadzący: mgr inż. Marut Adam\nNr zajęć:
+  2/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4d50c3710cf8029b232a1077@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261117T080000
+DTEND;TZID=Europe/Warsaw:20261117T093500
+SUMMARY:Snlar (L)
+LOCATION:006 36
+DESCRIPTION:Systemy nawigacji i lokalizacji oraz atonomia robotów latajac
+ ych\nRodzaj: laboratorium\nProwadzący: mgr inż. Marut Adam\nNr zajęć:
+  3/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7d94dabb56aea3cbc184f27e@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261117T095000
+DTEND;TZID=Europe/Warsaw:20261117T112500
+SUMMARY:Snlar (L)
+LOCATION:006 36
+DESCRIPTION:Systemy nawigacji i lokalizacji oraz atonomia robotów latajac
+ ych\nRodzaj: laboratorium\nProwadzący: mgr inż. Marut Adam\nNr zajęć:
+  4/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:81bcc4078c2e35561c07534e@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261118T080000
+DTEND;TZID=Europe/Warsaw:20261118T093500
+SUMMARY:Sd. (S)
+LOCATION:9 67
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: ppłk d
+ r inż. Henzel Maciej\nNr zajęć: 9/14\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8745e0a135148041b638c63d@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261125T160000
+DTEND;TZID=Europe/Warsaw:20261125T173500
+SUMMARY:Sd. (S)
+LOCATION:24 67
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Kurnyta-Mazurek Paulina\nNr zajęć: 10/14\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:66877fba00540b7f8f014742@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261125T175000
+DTEND;TZID=Europe/Warsaw:20261125T192500
+SUMMARY:Sapl (P)
+LOCATION:130 36
+DESCRIPTION:Sterowanie autonomicznymi platformami latającymi\nRodzaj: pro
+ jekt\nProwadzący: dr inż. Kaźmierczak Krzysztof\nNr zajęć: 11/16\nBl
+ ok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:df3ab2a0572ab0ecbcbf075f@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261125T194000
+DTEND;TZID=Europe/Warsaw:20261125T211500
+SUMMARY:Sapl (P)
+LOCATION:130 36
+DESCRIPTION:Sterowanie autonomicznymi platformami latającymi\nRodzaj: pro
+ jekt\nProwadzący: dr inż. Kaźmierczak Krzysztof\nNr zajęć: 12/16\nBl
+ ok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:f59cbb749fc971525e882762@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261126T114000
+DTEND;TZID=Europe/Warsaw:20261126T131500
+SUMMARY:Snlar (L)
+LOCATION:006 36
+DESCRIPTION:Systemy nawigacji i lokalizacji oraz atonomia robotów latajac
+ ych\nRodzaj: laboratorium\nProwadzący: mgr inż. Marut Adam\nNr zajęć:
+  5/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f9fef409c0c7e776d788b510@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261126T133000
+DTEND;TZID=Europe/Warsaw:20261126T150500
+SUMMARY:Snlar (L)
+LOCATION:006 36
+DESCRIPTION:Systemy nawigacji i lokalizacji oraz atonomia robotów latajac
+ ych\nRodzaj: laboratorium\nProwadzący: mgr inż. Marut Adam\nNr zajęć:
+  6/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3b66d62a023c25e6447f5449@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261126T160000
+DTEND;TZID=Europe/Warsaw:20261126T173500
+SUMMARY:Sapl (w)
+LOCATION:24 67
+DESCRIPTION:Sterowanie autonomicznymi platformami latającymi\nRodzaj: wyk
+ ład\nProwadzący: mgr inż. Marut Adam\nNr zajęć: 6/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:c2bb009696b31d156c281109@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261201T080000
+DTEND;TZID=Europe/Warsaw:20261201T093500
+SUMMARY:Snlar (P)
+LOCATION:43 67
+DESCRIPTION:Systemy nawigacji i lokalizacji oraz atonomia robotów latajac
+ ych\nRodzaj: projekt\nProwadzący: * Skolmowski Albert\nNr zajęć: 11/16
+ \nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0f4bf82bd4292c0ba0bab0c3@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261201T095000
+DTEND;TZID=Europe/Warsaw:20261201T112500
+SUMMARY:Snlar (P)
+LOCATION:43 67
+DESCRIPTION:Systemy nawigacji i lokalizacji oraz atonomia robotów latajac
+ ych\nRodzaj: projekt\nProwadzący: * Skolmowski Albert\nNr zajęć: 12/16
+ \nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:11b69da9a002c14fef0616ef@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261202T175000
+DTEND;TZID=Europe/Warsaw:20261202T192500
+SUMMARY:Sapl (P)
+LOCATION:130 36
+DESCRIPTION:Sterowanie autonomicznymi platformami latającymi\nRodzaj: pro
+ jekt\nProwadzący: dr inż. Kaźmierczak Krzysztof\nNr zajęć: 13/16\nBl
+ ok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:80055367052b690749aaa41b@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261202T194000
+DTEND;TZID=Europe/Warsaw:20261202T211500
+SUMMARY:Sapl (P)
+LOCATION:130 36
+DESCRIPTION:Sterowanie autonomicznymi platformami latającymi\nRodzaj: pro
+ jekt\nProwadzący: dr inż. Kaźmierczak Krzysztof\nNr zajęć: 14/16\nBl
+ ok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:cd58531a9bb81f241660432d@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261209T080000
+DTEND;TZID=Europe/Warsaw:20261209T093500
+SUMMARY:Snlar (w)
+LOCATION:39 36
+DESCRIPTION:Systemy nawigacji i lokalizacji oraz atonomia robotów latajac
+ ych\nRodzaj: wykład\nProwadzący: dr hab. inż. Falkowski Krzysztof\nNr 
+ zajęć: 6/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:bb236bde41fc42374762167a@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261209T095000
+DTEND;TZID=Europe/Warsaw:20261209T112500
+SUMMARY:Snlar (w)
+LOCATION:39 36
+DESCRIPTION:Systemy nawigacji i lokalizacji oraz atonomia robotów latajac
+ ych\nRodzaj: wykład\nProwadzący: dr hab. inż. Falkowski Krzysztof\nNr 
+ zajęć: 7/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2acc202c80affffd38f38229@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261209T114000
+DTEND;TZID=Europe/Warsaw:20261209T131500
+SUMMARY:Snlar (P)
+LOCATION:18 67
+DESCRIPTION:Systemy nawigacji i lokalizacji oraz atonomia robotów latajac
+ ych\nRodzaj: projekt\nProwadzący: * Skolmowski Albert\nNr zajęć: 13/16
+ \nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f9782fb57462ec597932f641@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261209T133000
+DTEND;TZID=Europe/Warsaw:20261209T150500
+SUMMARY:Snlar (P)
+LOCATION:130 36
+DESCRIPTION:Systemy nawigacji i lokalizacji oraz atonomia robotów latajac
+ ych\nRodzaj: projekt\nProwadzący: * Skolmowski Albert\nNr zajęć: 14/16
+ \nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f40c4d6021cd78891592c98f@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261209T160000
+DTEND;TZID=Europe/Warsaw:20261209T173500
+SUMMARY:Sapl (w)
+LOCATION:24 67
+DESCRIPTION:Sterowanie autonomicznymi platformami latającymi\nRodzaj: wyk
+ ład\nProwadzący: dr inż. Kurnyta-Mazurek Paulina\nNr zajęć: 7/7\nBlo
+ k: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:e8a01b02123ea43914406c32@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261216T080000
+DTEND;TZID=Europe/Warsaw:20261216T093500
+SUMMARY:Sd. (S)
+LOCATION:41 36
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Kurnyta-Mazurek Paulina\nNr zajęć: 11/14\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1cc2a1f20617fb78188613f6@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261216T095000
+DTEND;TZID=Europe/Warsaw:20261216T112500
+SUMMARY:Sd. (S)
+LOCATION:41 36
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Kurnyta-Mazurek Paulina\nNr zajęć: 12/14\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8fa34b60b412001de87420b5@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261216T114000
+DTEND;TZID=Europe/Warsaw:20261216T131500
+SUMMARY:Sd. (S)
+LOCATION:005 36
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Kurnyta-Mazurek Paulina\nNr zajęć: 13/14\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ae3b8ed25e545574a2524378@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261216T160000
+DTEND;TZID=Europe/Warsaw:20261216T173500
+SUMMARY:Sd. (S)
+LOCATION:18 67
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: ppłk d
+ r inż. Jasztal Michał\nNr zajęć: 14/14\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:e11e10bd3760334f402e738f@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261216T175000
+DTEND;TZID=Europe/Warsaw:20261216T192500
+SUMMARY:Sapl (P)
+LOCATION:130 36
+DESCRIPTION:Sterowanie autonomicznymi platformami latającymi\nRodzaj: pro
+ jekt\nProwadzący: dr inż. Kaźmierczak Krzysztof\nNr zajęć: 15/16\nBl
+ ok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:9b49857453f08639246d639e@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261216T194000
+DTEND;TZID=Europe/Warsaw:20261216T211500
+SUMMARY:Sapl (P)
+LOCATION:130 36
+DESCRIPTION:Sterowanie autonomicznymi platformami latającymi\nRodzaj: pro
+ jekt\nProwadzący: dr inż. Kaźmierczak Krzysztof\nNr zajęć: 16/16\nBl
+ ok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:5da9b8c29c86a7684afe248f@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261218T080000
+DTEND;TZID=Europe/Warsaw:20261218T093500
+SUMMARY:Sapl (L)
+LOCATION:003 36\;004
+DESCRIPTION:Sterowanie autonomicznymi platformami latającymi\nRodzaj: lab
+ oratorium\nProwadzący: mgr inż. Marut Adam\nNr zajęć: 7/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d646275c828d1bed8c0eeff0@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261218T095000
+DTEND;TZID=Europe/Warsaw:20261218T112500
+SUMMARY:Sapl (L)
+LOCATION:003 36\;004
+DESCRIPTION:Sterowanie autonomicznymi platformami latającymi\nRodzaj: lab
+ oratorium\nProwadzący: mgr inż. Marut Adam\nNr zajęć: 8/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1fd6d15d0fcd98ae872bc454@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261221T095000
+DTEND;TZID=Europe/Warsaw:20261221T112500
+SUMMARY:Snlar (P)
+LOCATION:43 67
+DESCRIPTION:Systemy nawigacji i lokalizacji oraz atonomia robotów latajac
+ ych\nRodzaj: projekt\nProwadzący: * Skolmowski Albert\nNr zajęć: 15/16
+ \nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:527394f080840e3dd42beda1@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261221T114000
+DTEND;TZID=Europe/Warsaw:20261221T131500
+SUMMARY:Snlar (P)
+LOCATION:43 67
+DESCRIPTION:Systemy nawigacji i lokalizacji oraz atonomia robotów latajac
+ ych\nRodzaj: projekt\nProwadzący: * Skolmowski Albert\nNr zajęć: 16/16
+ \nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b1b0b54685cf04da20a2ab98@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261221T133000
+DTEND;TZID=Europe/Warsaw:20261221T150500
+SUMMARY:Snlar (L)
+LOCATION:006 36
+DESCRIPTION:Systemy nawigacji i lokalizacji oraz atonomia robotów latajac
+ ych\nRodzaj: laboratorium\nProwadzący: mgr inż. Marut Adam\nNr zajęć:
+  7/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:026d02dfe89ac199af4f47c1@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261221T160000
+DTEND;TZID=Europe/Warsaw:20261221T173500
+SUMMARY:Snlar (L)
+LOCATION:006 36
+DESCRIPTION:Systemy nawigacji i lokalizacji oraz atonomia robotów latajac
+ ych\nRodzaj: laboratorium\nProwadzący: mgr inż. Marut Adam\nNr zajęć:
+  8/8\nBlok: 5
+END:VEVENT
+END:VCALENDAR

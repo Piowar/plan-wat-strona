@@ -1,0 +1,2296 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WTC25NX1S1
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:f38c3212bb64072da96e1e84@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261005T080000
+DTEND;TZID=Europe/Warsaw:20261005T093500
+SUMMARY:EiE (w)
+LOCATION:166 S
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: wykład\nProwadzący: d
+ r hab. inż. Watral Zbigniew\nNr zajęć: 1/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7f64fcb59c7085cfc70beb4c@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261005T095000
+DTEND;TZID=Europe/Warsaw:20261005T112500
+SUMMARY:Mtech (w)
+LOCATION:166 S
+DESCRIPTION:Metrologia techniczna\nRodzaj: wykład\nProwadzący: dr inż. 
+ Zarański Zbigniew\nNr zajęć: 1/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f027761ac9bfabfe422bd778@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261005T114000
+DTEND;TZID=Europe/Warsaw:20261005T131500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: Jr\nNr zajęć: 1/15\n
+ Blok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0330e81e13a5b512c9a065f7@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261006T095000
+DTEND;TZID=Europe/Warsaw:20261006T112500
+SUMMARY:Maf (w)
+LOCATION:2 5
+DESCRIPTION:Materiały funkcjonalne\nRodzaj: wykład\nProwadzący: prof. d
+ r hab. inż. Kłosowicz Stanisław\nNr zajęć: 1/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f62b4705928209f42e35b6bc@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261006T114000
+DTEND;TZID=Europe/Warsaw:20261006T131500
+SUMMARY:Ja (ć)
+LOCATION:238 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 1/15\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1933df6c8a97d5b75fdedf41@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261006T133000
+DTEND;TZID=Europe/Warsaw:20261006T150500
+SUMMARY:BWFM (w)
+LOCATION:2 5
+DESCRIPTION:Badanie właściwości fizykochemicznych materiałów\nRodzaj:
+  wykład\nProwadzący: prof. dr hab. inż. Kłosowicz Stanisław\nNr zaj
+ ęć: 1/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e7c334254eb249a56efe09d5@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261006T175000
+DTEND;TZID=Europe/Warsaw:20261006T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;232 K\;234 K\;235 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 1/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:03d1001639d8bf0227b7a9f9@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261007T095000
+DTEND;TZID=Europe/Warsaw:20261007T112500
+SUMMARY:MeW (w)
+LOCATION:166 S
+DESCRIPTION:Mechanika techniczna z wytrzymałością materiałów\nRodzaj:
+  wykład\nProwadzący: dr hab. inż.(prof. ucz.) Miedzińska Danuta\nNr z
+ ajęć: 1/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b4a159cdc0af756666212bcf@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261007T114000
+DTEND;TZID=Europe/Warsaw:20261007T131500
+SUMMARY:TE (S)
+LOCATION:165 S
+DESCRIPTION:Technical English\nRodzaj: seminarium\nProwadzący: dr hab. Be
+ nnis Noureddine\nNr zajęć: 1/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ee3941ad3f40b298d288a9b7@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261008T114000
+DTEND;TZID=Europe/Warsaw:20261008T131500
+SUMMARY:TE (S)
+LOCATION:165 S
+DESCRIPTION:Technical English\nRodzaj: seminarium\nProwadzący: dr hab. Be
+ nnis Noureddine\nNr zajęć: 2/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5c21a8f9a642de5f8dbf78c5@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261008T133000
+DTEND;TZID=Europe/Warsaw:20261008T150500
+SUMMARY:EiE (w)
+LOCATION:166 S
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: wykład\nProwadzący: d
+ r hab. inż. Watral Zbigniew\nNr zajęć: 2/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f9b4c036d7d089795e7d8aad@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261013T095000
+DTEND;TZID=Europe/Warsaw:20261013T112500
+SUMMARY:Maf (w)
+LOCATION:2 5
+DESCRIPTION:Materiały funkcjonalne\nRodzaj: wykład\nProwadzący: prof. d
+ r hab. inż. Kłosowicz Stanisław\nNr zajęć: 2/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:732157eb28eadae30656eb4d@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261013T114000
+DTEND;TZID=Europe/Warsaw:20261013T131500
+SUMMARY:Ja (ć)
+LOCATION:238 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 2/15\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c98afed31857a518e6b89eaa@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261013T133000
+DTEND;TZID=Europe/Warsaw:20261013T150500
+SUMMARY:BWFM (w)
+LOCATION:2 5
+DESCRIPTION:Badanie właściwości fizykochemicznych materiałów\nRodzaj:
+  wykład\nProwadzący: prof. dr hab. inż. Kłosowicz Stanisław\nNr zaj
+ ęć: 2/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:304c0b6c5f771156b04ebc70@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261013T175000
+DTEND;TZID=Europe/Warsaw:20261013T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;232 K\;234 K\;235 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 2/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:3a85d4870ab1582811c91e22@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261015T080000
+DTEND;TZID=Europe/Warsaw:20261015T093500
+SUMMARY:EiE (w)
+LOCATION:166 S
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: wykład\nProwadzący: d
+ r hab. inż. Watral Zbigniew\nNr zajęć: 3/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:028763601afa2d3086f5aa60@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261015T095000
+DTEND;TZID=Europe/Warsaw:20261015T112500
+SUMMARY:Mtech (w)
+LOCATION:166 S
+DESCRIPTION:Metrologia techniczna\nRodzaj: wykład\nProwadzący: dr inż. 
+ Zarański Zbigniew\nNr zajęć: 2/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d42f923a263c07b2eed0c4f8@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261016T095000
+DTEND;TZID=Europe/Warsaw:20261016T112500
+SUMMARY:TE (S)
+LOCATION:165 S
+DESCRIPTION:Technical English\nRodzaj: seminarium\nProwadzący: dr hab. Be
+ nnis Noureddine\nNr zajęć: 3/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:bfd11fcf3a8296a182f400db@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261019T095000
+DTEND;TZID=Europe/Warsaw:20261019T112500
+SUMMARY:Mtech (w)
+LOCATION:166 S
+DESCRIPTION:Metrologia techniczna\nRodzaj: wykład\nProwadzący: dr inż. 
+ Zarański Zbigniew\nNr zajęć: 3/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:63261a8d6e100f00466c2878@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261019T114000
+DTEND;TZID=Europe/Warsaw:20261019T131500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: Jr\nNr zajęć: 2/15\n
+ Blok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:cd51d6d5108c1d8e61ec5075@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261019T133000
+DTEND;TZID=Europe/Warsaw:20261019T150500
+SUMMARY:MeW (w)
+LOCATION:166 S
+DESCRIPTION:Mechanika techniczna z wytrzymałością materiałów\nRodzaj:
+  wykład\nProwadzący: dr hab. inż.(prof. ucz.) Miedzińska Danuta\nNr z
+ ajęć: 2/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2f82235dde1f0f685d840a3c@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261020T095000
+DTEND;TZID=Europe/Warsaw:20261020T112500
+SUMMARY:Maf (w)
+LOCATION:2 5
+DESCRIPTION:Materiały funkcjonalne\nRodzaj: wykład\nProwadzący: prof. d
+ r hab. inż. Kłosowicz Stanisław\nNr zajęć: 3/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f6a089b8cdbeed475b1c99c6@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261020T114000
+DTEND;TZID=Europe/Warsaw:20261020T131500
+SUMMARY:Ja (ć)
+LOCATION:238 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 3/15\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4e8bdd3a4336eeaa18714e95@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261020T133000
+DTEND;TZID=Europe/Warsaw:20261020T150500
+SUMMARY:BWFM (w)
+LOCATION:2 5
+DESCRIPTION:Badanie właściwości fizykochemicznych materiałów\nRodzaj:
+  wykład\nProwadzący: prof. dr hab. inż. Kłosowicz Stanisław\nNr zaj
+ ęć: 3/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:248596661af9e99c679ac1b2@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261020T175000
+DTEND;TZID=Europe/Warsaw:20261020T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;232 K\;234 K\;235 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 3/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:6a73127c38a2d9edd43b33c6@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261021T114000
+DTEND;TZID=Europe/Warsaw:20261021T131500
+SUMMARY:TE (S)
+LOCATION:165 S
+DESCRIPTION:Technical English\nRodzaj: seminarium\nProwadzący: dr hab. Be
+ nnis Noureddine\nNr zajęć: 4/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f6d3a0210a95cae71f57d859@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261021T133000
+DTEND;TZID=Europe/Warsaw:20261021T150500
+SUMMARY:EiE (ć)
+LOCATION:166 S
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: ćwiczenia\nProwadzący
+ : dr hab. inż. Watral Zbigniew\nNr zajęć: 1/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1d51b0f2226c5347f84aba7b@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261022T095000
+DTEND;TZID=Europe/Warsaw:20261022T112500
+SUMMARY:EiE (w)
+LOCATION:11/ 34
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: wykład\nProwadzący: d
+ r hab. inż. Watral Zbigniew\nNr zajęć: 4/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f0347cc44a0b69983152fb95@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261022T114000
+DTEND;TZID=Europe/Warsaw:20261022T131500
+SUMMARY:TE (S)
+LOCATION:165 S
+DESCRIPTION:Technical English\nRodzaj: seminarium\nProwadzący: dr hab. Be
+ nnis Noureddine\nNr zajęć: 5/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1b032da1d6bfb208506bc96b@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261023T114000
+DTEND;TZID=Europe/Warsaw:20261023T131500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: Jr\nNr zajęć: 3/15\n
+ Blok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e2f789832a069665267cf46b@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261023T133000
+DTEND;TZID=Europe/Warsaw:20261023T150500
+SUMMARY:EiE (ć)
+LOCATION:11/ 34
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: ćwiczenia\nProwadzący
+ : dr hab. inż. Watral Zbigniew\nNr zajęć: 2/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0f6f53a4f6eff30ffd5efe74@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261026T080000
+DTEND;TZID=Europe/Warsaw:20261026T093500
+SUMMARY:Mtech (w)
+LOCATION:166 S
+DESCRIPTION:Metrologia techniczna\nRodzaj: wykład\nProwadzący: dr inż. 
+ Zarański Zbigniew\nNr zajęć: 4/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:73cecc1c89d3f91aceaed692@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261026T095000
+DTEND;TZID=Europe/Warsaw:20261026T112500
+SUMMARY:F2 (ć)
+LOCATION:166 S
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr hab.inż. Stasie
+ wicz Karol\nNr zajęć: 1/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b692432419cfa1c59653ee92@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261026T114000
+DTEND;TZID=Europe/Warsaw:20261026T131500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: Jr\nNr zajęć: 4/15\n
+ Blok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6bc4fdc9984a0414dec4cae6@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261027T095000
+DTEND;TZID=Europe/Warsaw:20261027T112500
+SUMMARY:Maf (w)
+LOCATION:2 5
+DESCRIPTION:Materiały funkcjonalne\nRodzaj: wykład\nProwadzący: prof. d
+ r hab. inż. Kłosowicz Stanisław\nNr zajęć: 4/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:04efbac5a2e76631eab52dee@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261027T114000
+DTEND;TZID=Europe/Warsaw:20261027T131500
+SUMMARY:Ja (ć)
+LOCATION:238 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 4/15\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:350d27977c9638051afd1747@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261027T133000
+DTEND;TZID=Europe/Warsaw:20261027T150500
+SUMMARY:BWFM (w)
+LOCATION:2 5
+DESCRIPTION:Badanie właściwości fizykochemicznych materiałów\nRodzaj:
+  wykład\nProwadzący: prof. dr hab. inż. Kłosowicz Stanisław\nNr zaj
+ ęć: 4/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:69935100e1f72243110561e7@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261027T175000
+DTEND;TZID=Europe/Warsaw:20261027T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;232 K\;234 K\;235 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 4/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:c696b607a169ec67c2bbc4d4@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261029T114000
+DTEND;TZID=Europe/Warsaw:20261029T131500
+SUMMARY:TE (S)
+LOCATION:165 S
+DESCRIPTION:Technical English\nRodzaj: seminarium\nProwadzący: dr hab. Be
+ nnis Noureddine\nNr zajęć: 6/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:60cab8960eaa4e906ffa3af8@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261029T133000
+DTEND;TZID=Europe/Warsaw:20261029T150500
+SUMMARY:EiE (w)
+LOCATION:166 S
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: wykład\nProwadzący: d
+ r hab. inż. Watral Zbigniew\nNr zajęć: 5/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b04c31022184b8574ed836cf@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261030T080000
+DTEND;TZID=Europe/Warsaw:20261030T093500
+SUMMARY:MeW (w)
+LOCATION:11/ 34
+DESCRIPTION:Mechanika techniczna z wytrzymałością materiałów\nRodzaj:
+  wykład\nProwadzący: dr hab. inż.(prof. ucz.) Miedzińska Danuta\nNr z
+ ajęć: 3/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:443dea9ed328485c62f1380a@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261030T114000
+DTEND;TZID=Europe/Warsaw:20261030T131500
+SUMMARY:TE (S)
+LOCATION:165 S
+DESCRIPTION:Technical English\nRodzaj: seminarium\nProwadzący: dr hab. Be
+ nnis Noureddine\nNr zajęć: 7/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:45616dbd96852c02d43fa450@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261030T133000
+DTEND;TZID=Europe/Warsaw:20261030T150500
+SUMMARY:EiE (ć)
+LOCATION:166 S
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: ćwiczenia\nProwadzący
+ : dr hab. inż. Watral Zbigniew\nNr zajęć: 3/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f358c794e81b8a2e452fa944@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261102T095000
+DTEND;TZID=Europe/Warsaw:20261102T112500
+SUMMARY:F2 (L)
+LOCATION:139 S\;141 S\; Kos.Ra\; PNa\; JT
+DESCRIPTION:Fizyka 2\nRodzaj: laboratorium\nNr zajęć: 1/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d99ff402491e312dc8b7cc39@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261102T114000
+DTEND;TZID=Europe/Warsaw:20261102T131500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: Jr\nNr zajęć: 5/15\n
+ Blok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4f0cbeac78232d5a0ee87524@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261102T133000
+DTEND;TZID=Europe/Warsaw:20261102T150500
+SUMMARY:MeW (w)
+LOCATION:166 S
+DESCRIPTION:Mechanika techniczna z wytrzymałością materiałów\nRodzaj:
+  wykład\nProwadzący: dr hab. inż.(prof. ucz.) Miedzińska Danuta\nNr z
+ ajęć: 4/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:166cf2f84d3da9c2104af68b@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261103T080000
+DTEND;TZID=Europe/Warsaw:20261103T093500
+SUMMARY:EiE (w)
+LOCATION:11/ 34
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: wykład\nProwadzący: d
+ r hab. inż. Watral Zbigniew\nNr zajęć: 6/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:01b78b4d5276d3022cbf8f67@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261103T095000
+DTEND;TZID=Europe/Warsaw:20261103T112500
+SUMMARY:Maf (w)
+LOCATION:2 5
+DESCRIPTION:Materiały funkcjonalne\nRodzaj: wykład\nProwadzący: prof. d
+ r hab. inż. Kłosowicz Stanisław\nNr zajęć: 5/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3a3fd4bb1947755e904a0e1e@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261103T114000
+DTEND;TZID=Europe/Warsaw:20261103T131500
+SUMMARY:Ja (ć)
+LOCATION:238 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 5/15\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6bea299fc9aa27e03bf9f81c@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261103T133000
+DTEND;TZID=Europe/Warsaw:20261103T150500
+SUMMARY:BWFM (w)
+LOCATION:2 5
+DESCRIPTION:Badanie właściwości fizykochemicznych materiałów\nRodzaj:
+  wykład\nProwadzący: prof. dr hab. inż. Kłosowicz Stanisław\nNr zaj
+ ęć: 5/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9f2cfca27cdeb03ec2f9be11@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261103T160000
+DTEND;TZID=Europe/Warsaw:20261103T173500
+SUMMARY:SiS (i)
+LOCATION:11/ 34\; godz 15 przerwa obiadowa
+DESCRIPTION:Spotkanie informacyjne - wybór specjalności\nRodzaj: inne\nP
+ rowadzący: mgr inż. Łazińska Magdalena\nNr zajęć: 1/2\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:a08114ef39225a8c08ed3150@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261103T175000
+DTEND;TZID=Europe/Warsaw:20261103T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;232 K\;234 K\;235 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 5/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:e101a356a853f66098f37054@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261105T080000
+DTEND;TZID=Europe/Warsaw:20261105T093500
+SUMMARY:Mtech (w)
+LOCATION:166 S
+DESCRIPTION:Metrologia techniczna\nRodzaj: wykład\nProwadzący: dr inż. 
+ Zarański Zbigniew\nNr zajęć: 5/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:df5b7add0aab5392f3d2433a@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261105T095000
+DTEND;TZID=Europe/Warsaw:20261105T112500
+SUMMARY:PNM (w)
+LOCATION:11/ 34
+DESCRIPTION:Podstawy nauki o materiałach\nRodzaj: wykład\nProwadzący: p
+ rof.dr hab.inż. Bojar Zbigniew\nNr zajęć: 1/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:93225a68ed4d93881d9151f0@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261105T114000
+DTEND;TZID=Europe/Warsaw:20261105T131500
+SUMMARY:TE (S)
+LOCATION:165 S
+DESCRIPTION:Technical English\nRodzaj: seminarium\nProwadzący: dr hab. Be
+ nnis Noureddine\nNr zajęć: 8/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3b1b9361a061feb3f26ce35b@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261105T133000
+DTEND;TZID=Europe/Warsaw:20261105T150500
+SUMMARY:EiE (w)
+LOCATION:166 S
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: wykład\nProwadzący: d
+ r hab. inż. Watral Zbigniew\nNr zajęć: 7/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6f4c4794bd98b06fa2687398@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261105T160000
+DTEND;TZID=Europe/Warsaw:20261105T173500
+SUMMARY:SiS (i)
+LOCATION:Prof Stasiewicz sala 166 Przerwa obiadowa
+DESCRIPTION:Spotkanie informacyjne - wybór specjalności\nRodzaj: inne\nP
+ rowadzący: mgr inż. Łazińska Magdalena\nNr zajęć: 2/2\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:5d11dcbcf6d0d881541bbc75@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261109T080000
+DTEND;TZID=Europe/Warsaw:20261109T093500
+SUMMARY:Mtech (w)
+LOCATION:166 S
+DESCRIPTION:Metrologia techniczna\nRodzaj: wykład\nProwadzący: dr inż. 
+ Zarański Zbigniew\nNr zajęć: 6/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:20baa0679a86ccabe1f400b4@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261109T095000
+DTEND;TZID=Europe/Warsaw:20261109T112500
+SUMMARY:F2 (ć)
+LOCATION:166 S
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr hab.inż. Stasie
+ wicz Karol\nNr zajęć: 2/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0277e48a3479e7eda896c80d@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261109T114000
+DTEND;TZID=Europe/Warsaw:20261109T131500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: Jr\nNr zajęć: 6/15\n
+ Blok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:09a338600b20a6e1a0333ca7@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261110T080000
+DTEND;TZID=Europe/Warsaw:20261110T093500
+SUMMARY:EiE (ć)
+LOCATION:166 S
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: ćwiczenia\nProwadzący
+ : dr hab. inż. Watral Zbigniew\nNr zajęć: 4/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6e82f46bf5ea6ced5d02a789@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261110T095000
+DTEND;TZID=Europe/Warsaw:20261110T112500
+SUMMARY:Maf (w)
+LOCATION:2 5
+DESCRIPTION:Materiały funkcjonalne\nRodzaj: wykład\nProwadzący: prof. d
+ r hab. inż. Kłosowicz Stanisław\nNr zajęć: 6/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8dd09f25f50e394cfd2d8375@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261110T114000
+DTEND;TZID=Europe/Warsaw:20261110T131500
+SUMMARY:Ja (ć)
+LOCATION:238 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 6/15\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:147db5e2cbcd844ce3dff1f5@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261110T133000
+DTEND;TZID=Europe/Warsaw:20261110T150500
+SUMMARY:BWFM (w)
+LOCATION:2 5
+DESCRIPTION:Badanie właściwości fizykochemicznych materiałów\nRodzaj:
+  wykład\nProwadzący: prof. dr hab. inż. Kłosowicz Stanisław\nNr zaj
+ ęć: 6/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:62e4387ca38e3d017c8bc2f1@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261110T175000
+DTEND;TZID=Europe/Warsaw:20261110T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;232 K\;234 K\;235 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 6/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:e8f8b41638994ce35233b739@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261112T095000
+DTEND;TZID=Europe/Warsaw:20261112T112500
+SUMMARY:PNM (w)
+LOCATION:11/ 34
+DESCRIPTION:Podstawy nauki o materiałach\nRodzaj: wykład\nProwadzący: p
+ rof.dr hab.inż. Bojar Zbigniew\nNr zajęć: 2/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3735f6dc59231c9baf19018d@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261112T114000
+DTEND;TZID=Europe/Warsaw:20261112T131500
+SUMMARY:TE (S)
+LOCATION:165 S
+DESCRIPTION:Technical English\nRodzaj: seminarium\nProwadzący: dr hab. Be
+ nnis Noureddine\nNr zajęć: 9/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8564434ef682a8adf5a9f054@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261112T133000
+DTEND;TZID=Europe/Warsaw:20261112T150500
+SUMMARY:EiE (w)
+LOCATION:166 S
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: wykład\nProwadzący: d
+ r hab. inż. Watral Zbigniew\nNr zajęć: 8/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0224137acde3824b825cd624@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261113T080000
+DTEND;TZID=Europe/Warsaw:20261113T093500
+SUMMARY:EiE (ć)
+LOCATION:166 S
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: ćwiczenia\nProwadzący
+ : dr hab. inż. Watral Zbigniew\nNr zajęć: 5/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:17927054baebe800d76e057f@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261113T095000
+DTEND;TZID=Europe/Warsaw:20261113T112500
+SUMMARY:TE (S)
+LOCATION:165 S
+DESCRIPTION:Technical English\nRodzaj: seminarium\nProwadzący: dr hab. Be
+ nnis Noureddine\nNr zajęć: 10/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5125ed6cc7247b7c665ac194@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261113T114000
+DTEND;TZID=Europe/Warsaw:20261113T131500
+SUMMARY:EiE (L)
+LOCATION:058 S
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: laboratorium\nProwadzą
+ cy: mgr. inż. Piwowarski Karol\nNr zajęć: 1/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:157edbd3919d00b39eb7c006@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261113T133000
+DTEND;TZID=Europe/Warsaw:20261113T150500
+SUMMARY:EiE (L)
+LOCATION:058 S
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: laboratorium\nProwadzą
+ cy: mgr. inż. Piwowarski Karol\nNr zajęć: 2/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5e98e1d0cde89e681029ba68@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261116T095000
+DTEND;TZID=Europe/Warsaw:20261116T112500
+SUMMARY:F2 (ć)
+LOCATION:166 S
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr hab.inż. Stasie
+ wicz Karol\nNr zajęć: 3/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:cd7997e7230fdc6365465c39@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261116T114000
+DTEND;TZID=Europe/Warsaw:20261116T131500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: Jr\nNr zajęć: 7/15\n
+ Blok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a6951ddfebae43c5d1db287b@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261117T095000
+DTEND;TZID=Europe/Warsaw:20261117T112500
+SUMMARY:Maf (w)
+LOCATION:2 5
+DESCRIPTION:Materiały funkcjonalne\nRodzaj: wykład\nProwadzący: prof. d
+ r hab. inż. Kłosowicz Stanisław\nNr zajęć: 7/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9c49fe727e1af876851ae729@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261117T114000
+DTEND;TZID=Europe/Warsaw:20261117T131500
+SUMMARY:Ja (ć)
+LOCATION:238 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 7/15\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8c98479f68468b1dc2d92ba4@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261117T133000
+DTEND;TZID=Europe/Warsaw:20261117T150500
+SUMMARY:BWFM (w)
+LOCATION:2 5
+DESCRIPTION:Badanie właściwości fizykochemicznych materiałów\nRodzaj:
+  wykład\nProwadzący: prof. dr hab. inż. Kłosowicz Stanisław\nNr zaj
+ ęć: 7/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e3070ed11ace8fb72b988660@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261117T175000
+DTEND;TZID=Europe/Warsaw:20261117T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;232 K\;234 K\;235 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 7/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:083fcd84106a3fc9ad318364@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261119T114000
+DTEND;TZID=Europe/Warsaw:20261119T131500
+SUMMARY:PNM (w)
+LOCATION:26/ 34
+DESCRIPTION:Podstawy nauki o materiałach\nRodzaj: wykład\nProwadzący: p
+ rof.dr hab.inż. Bojar Zbigniew\nNr zajęć: 3/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:409e8ca8778120ac2dadfbed@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261119T133000
+DTEND;TZID=Europe/Warsaw:20261119T150500
+SUMMARY:EiE (w)
+LOCATION:166 S
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: wykład\nProwadzący: d
+ r hab. inż. Watral Zbigniew\nNr zajęć: 9/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e72cdbacf6dadc1ff29bfe32@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261123T080000
+DTEND;TZID=Europe/Warsaw:20261123T093500
+SUMMARY:F2 (L)
+LOCATION:139 S\;141 S\; Kos.Ra\; PNa\; JT
+DESCRIPTION:Fizyka 2\nRodzaj: laboratorium\nNr zajęć: 2/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ce5d76e833eb6399db98c909@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261123T095000
+DTEND;TZID=Europe/Warsaw:20261123T112500
+SUMMARY:F2 (ć)
+LOCATION:166 S
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr hab.inż. Stasie
+ wicz Karol\nNr zajęć: 4/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:092ed99365997db57d5b82e7@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261123T114000
+DTEND;TZID=Europe/Warsaw:20261123T131500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: Jr\nNr zajęć: 8/15\n
+ Blok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:192cd816e8618180e2770ebb@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261123T133000
+DTEND;TZID=Europe/Warsaw:20261123T150500
+SUMMARY:MeW (w)
+LOCATION:166 S
+DESCRIPTION:Mechanika techniczna z wytrzymałością materiałów\nRodzaj:
+  wykład\nProwadzący: dr hab. inż.(prof. ucz.) Miedzińska Danuta\nNr z
+ ajęć: 5/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f79f90795c5cd68665c531b8@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261124T080000
+DTEND;TZID=Europe/Warsaw:20261124T093500
+SUMMARY:MeW (ć)
+LOCATION:11/ 34
+DESCRIPTION:Mechanika techniczna z wytrzymałością materiałów\nRodzaj:
+  ćwiczenia\nProwadzący: mgr inż. Spychała Maciej\nNr zajęć: 1/8\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b4ebfe00745fb0293b0e6cfe@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261124T095000
+DTEND;TZID=Europe/Warsaw:20261124T112500
+SUMMARY:MeW (ć)
+LOCATION:11/ 34
+DESCRIPTION:Mechanika techniczna z wytrzymałością materiałów\nRodzaj:
+  ćwiczenia\nProwadzący: mgr inż. Spychała Maciej\nNr zajęć: 2/8\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ee58a237e8a92d2bad37eaf0@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261124T114000
+DTEND;TZID=Europe/Warsaw:20261124T131500
+SUMMARY:Ja (ć)
+LOCATION:238 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 8/15\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:428d529f9c3e17706207a75a@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261124T133000
+DTEND;TZID=Europe/Warsaw:20261124T150500
+SUMMARY:BWFM (w)
+LOCATION:2 5
+DESCRIPTION:Badanie właściwości fizykochemicznych materiałów\nRodzaj:
+  wykład\nProwadzący: prof. dr hab. inż. Kłosowicz Stanisław\nNr zaj
+ ęć: 8/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:feecedf87b962bfc065f2ea9@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261124T160000
+DTEND;TZID=Europe/Warsaw:20261124T173500
+SUMMARY:Maf (w)
+LOCATION:2 5
+DESCRIPTION:Materiały funkcjonalne\nRodzaj: wykład\nProwadzący: prof. d
+ r hab. inż. Kłosowicz Stanisław\nNr zajęć: 8/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:208c55f145832000dd0b7e15@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261124T175000
+DTEND;TZID=Europe/Warsaw:20261124T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;232 K\;234 K\;235 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 8/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:ca6d4e32b9f6341a047cb9b4@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261126T095000
+DTEND;TZID=Europe/Warsaw:20261126T112500
+SUMMARY:PNM (w)
+LOCATION:11/ 34
+DESCRIPTION:Podstawy nauki o materiałach\nRodzaj: wykład\nProwadzący: p
+ rof.dr hab.inż. Bojar Zbigniew\nNr zajęć: 4/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:67fc368f7fe2c5043738ac8f@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261126T114000
+DTEND;TZID=Europe/Warsaw:20261126T131500
+SUMMARY:EiE (L)
+LOCATION:058 S
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: laboratorium\nProwadzą
+ cy: mgr. inż. Piwowarski Karol\nNr zajęć: 3/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8ff24962140415054b1c11d1@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261126T133000
+DTEND;TZID=Europe/Warsaw:20261126T150500
+SUMMARY:EiE (L)
+LOCATION:058 S
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: laboratorium\nProwadzą
+ cy: mgr. inż. Piwowarski Karol\nNr zajęć: 4/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1cb621c123203d42fa8f0991@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261130T080000
+DTEND;TZID=Europe/Warsaw:20261130T093500
+SUMMARY:Mtech (w)
+LOCATION:166 S
+DESCRIPTION:Metrologia techniczna\nRodzaj: wykład\nProwadzący: dr inż. 
+ Zarański Zbigniew\nNr zajęć: 7/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8398bce8934ca41f6101c980@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261130T095000
+DTEND;TZID=Europe/Warsaw:20261130T112500
+SUMMARY:F2 (ć)
+LOCATION:166 S
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr hab.inż. Stasie
+ wicz Karol\nNr zajęć: 5/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2f111e8a2d70da660e3ecd2c@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261130T114000
+DTEND;TZID=Europe/Warsaw:20261130T131500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: Jr\nNr zajęć: 9/15\n
+ Blok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f65c7132b8d04ae42e68f218@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261130T133000
+DTEND;TZID=Europe/Warsaw:20261130T150500
+SUMMARY:MeW (w)
+LOCATION:166 S
+DESCRIPTION:Mechanika techniczna z wytrzymałością materiałów\nRodzaj:
+  wykład\nProwadzący: dr hab. inż.(prof. ucz.) Miedzińska Danuta\nNr z
+ ajęć: 6/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3f1d0e78914d1c7f97a84755@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261201T080000
+DTEND;TZID=Europe/Warsaw:20261201T093500
+SUMMARY:Mtech (L)
+LOCATION:15/ 34\; ć. 1/3
+DESCRIPTION:Metrologia techniczna\nRodzaj: laboratorium\nProwadzący: dr i
+ nż. Antolak-Dudka Anna\; mgr inż. Łazińska Magdalena\nNr zajęć: 1/7
+ \nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:640e2d2b3758ef0b97de8f6d@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261201T095000
+DTEND;TZID=Europe/Warsaw:20261201T112500
+SUMMARY:Maf (w)
+LOCATION:2 5
+DESCRIPTION:Materiały funkcjonalne\nRodzaj: wykład\nProwadzący: prof. d
+ r hab. inż. Kłosowicz Stanisław\nNr zajęć: 9/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:02335e855bc6659a6b8735ff@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261201T114000
+DTEND;TZID=Europe/Warsaw:20261201T131500
+SUMMARY:Ja (ć)
+LOCATION:238 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 9/15\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c1e000d27d0a24c586ac7bee@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261201T133000
+DTEND;TZID=Europe/Warsaw:20261201T150500
+SUMMARY:BWFM (w)
+LOCATION:2 5
+DESCRIPTION:Badanie właściwości fizykochemicznych materiałów\nRodzaj:
+  wykład\nProwadzący: prof. dr hab. inż. Kłosowicz Stanisław\nNr zaj
+ ęć: 9/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:13a94b366b8cfb34666e0dc2@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261201T175000
+DTEND;TZID=Europe/Warsaw:20261201T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;232 K\;234 K\;235 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 9/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:5b46877bb18459ed3333c5e0@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261202T080000
+DTEND;TZID=Europe/Warsaw:20261202T093500
+SUMMARY:MeW (ć)
+LOCATION:11/ 34
+DESCRIPTION:Mechanika techniczna z wytrzymałością materiałów\nRodzaj:
+  ćwiczenia\nProwadzący: mgr inż. Spychała Maciej\nNr zajęć: 3/8\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ad409a9c481417f8ec52715b@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261202T095000
+DTEND;TZID=Europe/Warsaw:20261202T112500
+SUMMARY:MeW (ć)
+LOCATION:11/ 34
+DESCRIPTION:Mechanika techniczna z wytrzymałością materiałów\nRodzaj:
+  ćwiczenia\nProwadzący: mgr inż. Spychała Maciej\nNr zajęć: 4/8\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9f0bc2160a0ecbe7b6fc6da5@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261202T114000
+DTEND;TZID=Europe/Warsaw:20261202T131500
+SUMMARY:MeW (L)
+LOCATION:53/ 62
+DESCRIPTION:Mechanika techniczna z wytrzymałością materiałów\nRodzaj:
+  laboratorium\nProwadzący: mgr inż. Spychała Maciej\nNr zajęć: 1/7\n
+ Blok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a893ec611c7133e9895a3ef3@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261203T095000
+DTEND;TZID=Europe/Warsaw:20261203T112500
+SUMMARY:PNM (w)
+LOCATION:11/ 34
+DESCRIPTION:Podstawy nauki o materiałach\nRodzaj: wykład\nProwadzący: p
+ rof.dr hab.inż. Bojar Zbigniew\nNr zajęć: 5/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ffa40f65924053ed37ea816d@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261203T114000
+DTEND;TZID=Europe/Warsaw:20261203T131500
+SUMMARY:BWFM (L)
+LOCATION:107 5
+DESCRIPTION:Badanie właściwości fizykochemicznych materiałów\nRodzaj:
+  laboratorium\nProwadzący: dr inż. Węgłowski Rafał\nNr zajęć: 1/28
+ \nBlok: 3\nUwagi: Podgrupa A
+END:VEVENT
+BEGIN:VEVENT
+UID:4b4cb5d21567bb61154b25ee@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261203T133000
+DTEND;TZID=Europe/Warsaw:20261203T150500
+SUMMARY:BWFM (L)
+LOCATION:107 5
+DESCRIPTION:Badanie właściwości fizykochemicznych materiałów\nRodzaj:
+  laboratorium\nProwadzący: dr inż. Węgłowski Rafał\nNr zajęć: 2/28
+ \nBlok: 4\nUwagi: Podgrupa A
+END:VEVENT
+BEGIN:VEVENT
+UID:07ceccc18a69f7b561e5dde9@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261204T080000
+DTEND;TZID=Europe/Warsaw:20261204T093500
+SUMMARY:BWFM (L)
+LOCATION:107 5
+DESCRIPTION:Badanie właściwości fizykochemicznych materiałów\nRodzaj:
+  laboratorium\nProwadzący: dr inż. Węgłowski Rafał\nNr zajęć: 3/28
+ \nBlok: 1\nUwagi: Podgrupa A
+END:VEVENT
+BEGIN:VEVENT
+UID:1a4f6284af763b42bbf2832c@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261204T095000
+DTEND;TZID=Europe/Warsaw:20261204T112500
+SUMMARY:BWFM (L)
+LOCATION:107 5
+DESCRIPTION:Badanie właściwości fizykochemicznych materiałów\nRodzaj:
+  laboratorium\nProwadzący: dr inż. Węgłowski Rafał\nNr zajęć: 4/28
+ \nBlok: 2\nUwagi: Podgrupa A
+END:VEVENT
+BEGIN:VEVENT
+UID:75d7c695333d2cc9d7ff8411@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261204T114000
+DTEND;TZID=Europe/Warsaw:20261204T131500
+SUMMARY:BWFM (L)
+LOCATION:107 5
+DESCRIPTION:Badanie właściwości fizykochemicznych materiałów\nRodzaj:
+  laboratorium\nProwadzący: dr inż. Węgłowski Rafał\nNr zajęć: 5/28
+ \nBlok: 3\nUwagi: Podgrupa A
+END:VEVENT
+BEGIN:VEVENT
+UID:c36f5042b1ef3a9fc846ca10@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261207T080000
+DTEND;TZID=Europe/Warsaw:20261207T093500
+SUMMARY:F2 (L)
+LOCATION:139 S\;141 S\; Kos.Ra\; PNa\; JT
+DESCRIPTION:Fizyka 2\nRodzaj: laboratorium\nNr zajęć: 3/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:205dc72edac48b87d3f00b3b@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261207T095000
+DTEND;TZID=Europe/Warsaw:20261207T112500
+SUMMARY:F2 (ć)
+LOCATION:166 S
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr hab.inż. Stasie
+ wicz Karol\nNr zajęć: 6/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0756497064b181924468205e@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261207T114000
+DTEND;TZID=Europe/Warsaw:20261207T131500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: Jr\nNr zajęć: 10/15\
+ nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3105d2ac88d842bea9f1794f@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261207T133000
+DTEND;TZID=Europe/Warsaw:20261207T150500
+SUMMARY:MeW (w)
+LOCATION:51/ 62
+DESCRIPTION:Mechanika techniczna z wytrzymałością materiałów\nRodzaj:
+  wykład\nProwadzący: dr hab. inż.(prof. ucz.) Miedzińska Danuta\nNr z
+ ajęć: 7/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9317d0846b1826662a1f3853@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261207T160000
+DTEND;TZID=Europe/Warsaw:20261207T173500
+SUMMARY:MeW (w)
+LOCATION:51/ 62
+DESCRIPTION:Mechanika techniczna z wytrzymałością materiałów\nRodzaj:
+  wykład\nProwadzący: dr hab. inż.(prof. ucz.) Miedzińska Danuta\nNr z
+ ajęć: 8/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:51113ca507a95905d21121eb@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261208T080000
+DTEND;TZID=Europe/Warsaw:20261208T093500
+SUMMARY:Mtech (L)
+LOCATION:15/ 34\; ć. 1/3
+DESCRIPTION:Metrologia techniczna\nRodzaj: laboratorium\nProwadzący: dr i
+ nż. Antolak-Dudka Anna\; mgr inż. Łazińska Magdalena\nNr zajęć: 2/7
+ \nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8d989c7364acdc0f6755e8e7@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261208T095000
+DTEND;TZID=Europe/Warsaw:20261208T112500
+SUMMARY:Maf (w)
+LOCATION:2 5
+DESCRIPTION:Materiały funkcjonalne\nRodzaj: wykład\nProwadzący: prof. d
+ r hab. inż. Kłosowicz Stanisław\nNr zajęć: 10/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:355d014bfc051335701aaf68@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261208T114000
+DTEND;TZID=Europe/Warsaw:20261208T131500
+SUMMARY:Ja (ć)
+LOCATION:238 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 10/15\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:e36f67da0e88846bff67cded@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261208T133000
+DTEND;TZID=Europe/Warsaw:20261208T150500
+SUMMARY:BWFM (L)
+LOCATION:107 5
+DESCRIPTION:Badanie właściwości fizykochemicznych materiałów\nRodzaj:
+  laboratorium\nProwadzący: dr inż. Węgłowski Rafał\nNr zajęć: 6/28
+ \nBlok: 4\nUwagi: Podgrupa B
+END:VEVENT
+BEGIN:VEVENT
+UID:c2120d2d08f5fe0f470ad046@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261208T160000
+DTEND;TZID=Europe/Warsaw:20261208T173500
+SUMMARY:BWFM (L)
+LOCATION:107 5
+DESCRIPTION:Badanie właściwości fizykochemicznych materiałów\nRodzaj:
+  laboratorium\nProwadzący: dr inż. Węgłowski Rafał\nNr zajęć: 7/28
+ \nBlok: 5\nUwagi: Podgrupa B
+END:VEVENT
+BEGIN:VEVENT
+UID:244e5f3a30a30ce06e32ffb2@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261208T175000
+DTEND;TZID=Europe/Warsaw:20261208T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;232 K\;234 K\;235 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 10/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:e27807b532654980a265d30c@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261209T080000
+DTEND;TZID=Europe/Warsaw:20261209T093500
+SUMMARY:MeW (ć)
+LOCATION:11/ 34
+DESCRIPTION:Mechanika techniczna z wytrzymałością materiałów\nRodzaj:
+  ćwiczenia\nProwadzący: mgr inż. Spychała Maciej\nNr zajęć: 5/8\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0ae241780784976ca256bb6b@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261209T095000
+DTEND;TZID=Europe/Warsaw:20261209T112500
+SUMMARY:MeW (ć)
+LOCATION:11/ 34
+DESCRIPTION:Mechanika techniczna z wytrzymałością materiałów\nRodzaj:
+  ćwiczenia\nProwadzący: mgr inż. Spychała Maciej\nNr zajęć: 6/8\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:662eff483b9fcb7937de6643@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261209T114000
+DTEND;TZID=Europe/Warsaw:20261209T131500
+SUMMARY:TE (S)
+LOCATION:165 S
+DESCRIPTION:Technical English\nRodzaj: seminarium\nProwadzący: dr hab. Be
+ nnis Noureddine\nNr zajęć: 11/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9b5bfeeff9a6869de8dfd2a1@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261209T133000
+DTEND;TZID=Europe/Warsaw:20261209T150500
+SUMMARY:EiE (w)
+LOCATION:166 S
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: wykład\nProwadzący: d
+ r hab. inż. Watral Zbigniew\nNr zajęć: 10/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b58795a54e69c3d0024a96c7@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261210T080000
+DTEND;TZID=Europe/Warsaw:20261210T093500
+SUMMARY:EiE (L)
+LOCATION:058 S
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: laboratorium\nProwadzą
+ cy: mgr. inż. Piwowarski Karol\nNr zajęć: 5/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:668eda3a4db9cdbf9127ff2d@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261210T095000
+DTEND;TZID=Europe/Warsaw:20261210T112500
+SUMMARY:EiE (L)
+LOCATION:058 S
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: laboratorium\nProwadzą
+ cy: mgr. inż. Piwowarski Karol\nNr zajęć: 6/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0cfb360d9fe1f5fddc676185@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261210T114000
+DTEND;TZID=Europe/Warsaw:20261210T131500
+SUMMARY:PNM (w)
+LOCATION:11/ 34
+DESCRIPTION:Podstawy nauki o materiałach\nRodzaj: wykład\nProwadzący: p
+ rof.dr hab.inż. Bojar Zbigniew\nNr zajęć: 6/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:824b3062bfbeb8c68c54b8de@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261210T133000
+DTEND;TZID=Europe/Warsaw:20261210T150500
+SUMMARY:EiE (ć)
+LOCATION:11/ 34
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: ćwiczenia\nProwadzący
+ : dr hab. inż. Watral Zbigniew\nNr zajęć: 6/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0a6869eb06983a4c0c1a714e@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261211T080000
+DTEND;TZID=Europe/Warsaw:20261211T093500
+SUMMARY:BWFM (L)
+LOCATION:107 5
+DESCRIPTION:Badanie właściwości fizykochemicznych materiałów\nRodzaj:
+  laboratorium\nProwadzący: dr inż. Węgłowski Rafał\nNr zajęć: 8/28
+ \nBlok: 1\nUwagi: Podgrupa B
+END:VEVENT
+BEGIN:VEVENT
+UID:735adc364d2c0bad2b0dce90@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261211T095000
+DTEND;TZID=Europe/Warsaw:20261211T112500
+SUMMARY:BWFM (L)
+LOCATION:107 5
+DESCRIPTION:Badanie właściwości fizykochemicznych materiałów\nRodzaj:
+  laboratorium\nProwadzący: dr inż. Węgłowski Rafał\nNr zajęć: 9/28
+ \nBlok: 2\nUwagi: Podgrupa B
+END:VEVENT
+BEGIN:VEVENT
+UID:a2640c802b3f5b7125af466c@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261211T114000
+DTEND;TZID=Europe/Warsaw:20261211T131500
+SUMMARY:BWFM (L)
+LOCATION:107 5
+DESCRIPTION:Badanie właściwości fizykochemicznych materiałów\nRodzaj:
+  laboratorium\nProwadzący: dr inż. Węgłowski Rafał\nNr zajęć: 10/2
+ 8\nBlok: 3\nUwagi: Podgrupa B
+END:VEVENT
+BEGIN:VEVENT
+UID:b90b74d0bdd506a35c13dfa8@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261214T080000
+DTEND;TZID=Europe/Warsaw:20261214T093500
+SUMMARY:Mtech (w)
+LOCATION:11/ 34
+DESCRIPTION:Metrologia techniczna\nRodzaj: wykład\nProwadzący: dr inż. 
+ Zarański Zbigniew\nNr zajęć: 8/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4043dd4b903335c5fde76e01@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261214T095000
+DTEND;TZID=Europe/Warsaw:20261214T112500
+SUMMARY:F2 (ć)
+LOCATION:166 S
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr hab.inż. Stasie
+ wicz Karol\nNr zajęć: 7/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:263a6e39753be8276ed5cfd9@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261214T114000
+DTEND;TZID=Europe/Warsaw:20261214T131500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: Jr\nNr zajęć: 11/15\
+ nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c0fc1536f1454626fd811240@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261214T133000
+DTEND;TZID=Europe/Warsaw:20261214T150500
+SUMMARY:MeW (w)
+LOCATION:52/ 62
+DESCRIPTION:Mechanika techniczna z wytrzymałością materiałów\nRodzaj:
+  wykład\nProwadzący: dr hab. inż.(prof. ucz.) Miedzińska Danuta\nNr z
+ ajęć: 9/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:42b541f4a2a6a86d6cc86802@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261214T160000
+DTEND;TZID=Europe/Warsaw:20261214T173500
+SUMMARY:MeW (w)
+LOCATION:52/ 62
+DESCRIPTION:Mechanika techniczna z wytrzymałością materiałów\nRodzaj:
+  wykład\nProwadzący: dr hab. inż.(prof. ucz.) Miedzińska Danuta\nNr z
+ ajęć: 10/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:62c9aaf4ab822c3b64dec418@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261215T080000
+DTEND;TZID=Europe/Warsaw:20261215T093500
+SUMMARY:Mtech (L)
+LOCATION:15/ 34\; ć. 2/4
+DESCRIPTION:Metrologia techniczna\nRodzaj: laboratorium\nProwadzący: dr i
+ nż. Antolak-Dudka Anna\; mgr inż. Łazińska Magdalena\nNr zajęć: 3/7
+ \nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f26267fecfe909314dcda960@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261215T095000
+DTEND;TZID=Europe/Warsaw:20261215T112500
+SUMMARY:Maf (w)
+LOCATION:2 5
+DESCRIPTION:Materiały funkcjonalne\nRodzaj: wykład\nProwadzący: prof. d
+ r hab. inż. Kłosowicz Stanisław\nNr zajęć: 11/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ec314cf6f1d33fb24eb111de@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261215T114000
+DTEND;TZID=Europe/Warsaw:20261215T131500
+SUMMARY:Ja (ć)
+LOCATION:238 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 11/15\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:a84e1040cc20841025272351@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261215T133000
+DTEND;TZID=Europe/Warsaw:20261215T150500
+SUMMARY:MeW (L)
+LOCATION:53/ 62
+DESCRIPTION:Mechanika techniczna z wytrzymałością materiałów\nRodzaj:
+  laboratorium\nProwadzący: mgr inż. Spychała Maciej\nNr zajęć: 2/7\n
+ Blok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c4bab474fbffabec5f721eee@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261215T160000
+DTEND;TZID=Europe/Warsaw:20261215T173500
+SUMMARY:MeW (L)
+LOCATION:53/ 62
+DESCRIPTION:Mechanika techniczna z wytrzymałością materiałów\nRodzaj:
+  laboratorium\nProwadzący: mgr inż. Spychała Maciej\nNr zajęć: 3/7\n
+ Blok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:fe0e0d8d68d7a56c9b9afe6a@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261215T175000
+DTEND;TZID=Europe/Warsaw:20261215T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;232 K\;234 K\;235 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 11/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:3b7cb332a2e875bb4dbce1a0@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261216T080000
+DTEND;TZID=Europe/Warsaw:20261216T093500
+SUMMARY:MeW (ć)
+LOCATION:11/ 34
+DESCRIPTION:Mechanika techniczna z wytrzymałością materiałów\nRodzaj:
+  ćwiczenia\nProwadzący: mgr inż. Spychała Maciej\nNr zajęć: 7/8\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:173132b16cd1fc50861ae271@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261216T095000
+DTEND;TZID=Europe/Warsaw:20261216T112500
+SUMMARY:MeW (ć)
+LOCATION:11/ 34
+DESCRIPTION:Mechanika techniczna z wytrzymałością materiałów\nRodzaj:
+  ćwiczenia\nProwadzący: mgr inż. Spychała Maciej\nNr zajęć: 8/8\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:cab23281c42faccf8d0aa055@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261216T114000
+DTEND;TZID=Europe/Warsaw:20261216T131500
+SUMMARY:MeW (L)
+LOCATION:6/ 62
+DESCRIPTION:Mechanika techniczna z wytrzymałością materiałów\nRodzaj:
+  laboratorium\nProwadzący: mgr inż. Spychała Maciej\nNr zajęć: 4/7\n
+ Blok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2e31b8e232b32569d6a6b13a@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261216T133000
+DTEND;TZID=Europe/Warsaw:20261216T150500
+SUMMARY:MeW (L)
+LOCATION:6/ 62
+DESCRIPTION:Mechanika techniczna z wytrzymałością materiałów\nRodzaj:
+  laboratorium\nProwadzący: mgr inż. Spychała Maciej\nNr zajęć: 5/7\n
+ Blok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e025e1a6dfe6df7b68e61a87@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261217T095000
+DTEND;TZID=Europe/Warsaw:20261217T112500
+SUMMARY:PNM (w)
+LOCATION:11/ 34
+DESCRIPTION:Podstawy nauki o materiałach\nRodzaj: wykład\nProwadzący: p
+ rof.dr hab.inż. Bojar Zbigniew\nNr zajęć: 7/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0e05ebc6b0cafd9ba374ca78@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261217T114000
+DTEND;TZID=Europe/Warsaw:20261217T131500
+SUMMARY:PNM (w)
+LOCATION:11/ 34
+DESCRIPTION:Podstawy nauki o materiałach\nRodzaj: wykład\nProwadzący: p
+ rof.dr hab.inż. Bojar Zbigniew\nNr zajęć: 8/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f793be3ded79bddb2c351879@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261217T133000
+DTEND;TZID=Europe/Warsaw:20261217T150500
+SUMMARY:TE (S)
+LOCATION:165 S
+DESCRIPTION:Technical English\nRodzaj: seminarium\nProwadzący: dr hab. Be
+ nnis Noureddine\nNr zajęć: 12/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a89f1fcc7525f327bf042a7b@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261218T080000
+DTEND;TZID=Europe/Warsaw:20261218T093500
+SUMMARY:BWFM (L)
+LOCATION:107 5
+DESCRIPTION:Badanie właściwości fizykochemicznych materiałów\nRodzaj:
+  laboratorium\nProwadzący: dr inż. Węgłowski Rafał\nNr zajęć: 11/2
+ 8\nBlok: 1\nUwagi: Podgrupa B
+END:VEVENT
+BEGIN:VEVENT
+UID:60da75f0fca65f1b44daba0f@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261218T095000
+DTEND;TZID=Europe/Warsaw:20261218T112500
+SUMMARY:BWFM (L)
+LOCATION:107 5
+DESCRIPTION:Badanie właściwości fizykochemicznych materiałów\nRodzaj:
+  laboratorium\nProwadzący: dr inż. Węgłowski Rafał\nNr zajęć: 12/2
+ 8\nBlok: 2\nUwagi: Podgrupa B
+END:VEVENT
+BEGIN:VEVENT
+UID:c03bfef33eb812af12ab7963@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261218T114000
+DTEND;TZID=Europe/Warsaw:20261218T131500
+SUMMARY:BWFM (L)
+LOCATION:107 5
+DESCRIPTION:Badanie właściwości fizykochemicznych materiałów\nRodzaj:
+  laboratorium\nProwadzący: dr inż. Węgłowski Rafał\nNr zajęć: 13/2
+ 8\nBlok: 3\nUwagi: Podgrupa B
+END:VEVENT
+BEGIN:VEVENT
+UID:9e73e683f734d5334446199a@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261221T080000
+DTEND;TZID=Europe/Warsaw:20261221T093500
+SUMMARY:F2 (L)
+LOCATION:139 S\;141 S\; Kos.Ra\; PNa\; JT
+DESCRIPTION:Fizyka 2\nRodzaj: laboratorium\nNr zajęć: 4/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:163ab1be25e2f54a5249db35@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261221T095000
+DTEND;TZID=Europe/Warsaw:20261221T112500
+SUMMARY:F2 (ć)
+LOCATION:166 S
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr hab.inż. Stasie
+ wicz Karol\nNr zajęć: 8/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4982c42de82ae429425ef582@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261221T114000
+DTEND;TZID=Europe/Warsaw:20261221T131500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: Jr\nNr zajęć: 12/15\
+ nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:26f7f5c9377a5c8e1efc7820@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261221T133000
+DTEND;TZID=Europe/Warsaw:20261221T150500
+SUMMARY:MeW (w)
+LOCATION:166 S
+DESCRIPTION:Mechanika techniczna z wytrzymałością materiałów\nRodzaj:
+  wykład\nProwadzący: dr hab. inż.(prof. ucz.) Miedzińska Danuta\nNr z
+ ajęć: 11/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e880ff994800e1bdf37cf988@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261221T160000
+DTEND;TZID=Europe/Warsaw:20261221T173500
+SUMMARY:MeW (w)
+LOCATION:166 S
+DESCRIPTION:Mechanika techniczna z wytrzymałością materiałów\nRodzaj:
+  wykład\nProwadzący: dr hab. inż.(prof. ucz.) Miedzińska Danuta\nNr z
+ ajęć: 12/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:edd3225fc1375b33fb0e24a6@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261222T080000
+DTEND;TZID=Europe/Warsaw:20261222T093500
+SUMMARY:Mtech (L)
+LOCATION:15/ 34\; ć. 2/4
+DESCRIPTION:Metrologia techniczna\nRodzaj: laboratorium\nProwadzący: dr i
+ nż. Antolak-Dudka Anna\; mgr inż. Łazińska Magdalena\nNr zajęć: 4/7
+ \nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:507f3f5eb99afab85f570358@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261222T095000
+DTEND;TZID=Europe/Warsaw:20261222T112500
+SUMMARY:Maf (w)
+LOCATION:2 5
+DESCRIPTION:Materiały funkcjonalne\nRodzaj: wykład\nProwadzący: prof. d
+ r hab. inż. Kłosowicz Stanisław\nNr zajęć: 12/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3769e119660d25f3e1cf100f@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261222T114000
+DTEND;TZID=Europe/Warsaw:20261222T131500
+SUMMARY:Ja (ć)
+LOCATION:238 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 12/15\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:f07823bf2b3a2da54b2448a1@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261222T175000
+DTEND;TZID=Europe/Warsaw:20261222T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;232 K\;234 K\;235 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 12/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:ee44a94665f6e9a8c049db83@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261223T080000
+DTEND;TZID=Europe/Warsaw:20261223T093500
+SUMMARY:PNM (w)
+LOCATION:11/ 34
+DESCRIPTION:Podstawy nauki o materiałach\nRodzaj: wykład\nProwadzący: p
+ rof.dr hab.inż. Bojar Zbigniew\nNr zajęć: 9/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1c7627618e9f52f8a1417173@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261223T095000
+DTEND;TZID=Europe/Warsaw:20261223T112500
+SUMMARY:BWFM (L)
+LOCATION:107 5
+DESCRIPTION:Badanie właściwości fizykochemicznych materiałów\nRodzaj:
+  laboratorium\nProwadzący: dr inż. Węgłowski Rafał\nNr zajęć: 14/2
+ 8\nBlok: 2\nUwagi: Podgrupa A
+END:VEVENT
+BEGIN:VEVENT
+UID:170ccdb868e9d22175fc0fd3@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261223T114000
+DTEND;TZID=Europe/Warsaw:20261223T131500
+SUMMARY:BWFM (L)
+LOCATION:107 5
+DESCRIPTION:Badanie właściwości fizykochemicznych materiałów\nRodzaj:
+  laboratorium\nProwadzący: dr inż. Węgłowski Rafał\nNr zajęć: 15/2
+ 8\nBlok: 3\nUwagi: Podgrupa A
+END:VEVENT
+BEGIN:VEVENT
+UID:d863785315b884729661240d@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261223T133000
+DTEND;TZID=Europe/Warsaw:20261223T150500
+SUMMARY:BWFM (L)
+LOCATION:107 5
+DESCRIPTION:Badanie właściwości fizykochemicznych materiałów\nRodzaj:
+  laboratorium\nProwadzący: dr inż. Węgłowski Rafał\nNr zajęć: 16/2
+ 8\nBlok: 4\nUwagi: Podgrupa A
+END:VEVENT
+BEGIN:VEVENT
+UID:148e4f30956c3af19a6a110d@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270107T095000
+DTEND;TZID=Europe/Warsaw:20270107T112500
+SUMMARY:PNM (w)
+LOCATION:11/ 34
+DESCRIPTION:Podstawy nauki o materiałach\nRodzaj: wykład\nProwadzący: p
+ rof.dr hab.inż. Bojar Zbigniew\nNr zajęć: 10/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:263aeb6288d6567bee33b88f@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270107T114000
+DTEND;TZID=Europe/Warsaw:20270107T131500
+SUMMARY:EiE (L)
+LOCATION:058 S
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: laboratorium\nProwadzą
+ cy: mgr. inż. Piwowarski Karol\nNr zajęć: 7/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3c55d6c48ef17b2c9ccc9cce@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270107T133000
+DTEND;TZID=Europe/Warsaw:20270107T150500
+SUMMARY:TE (S)
+LOCATION:165 S
+DESCRIPTION:Technical English\nRodzaj: seminarium\nProwadzący: dr hab. Be
+ nnis Noureddine\nNr zajęć: 13/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:941cfcc9cbd896741b1ce3b4@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270108T080000
+DTEND;TZID=Europe/Warsaw:20270108T093500
+SUMMARY:BWFM (L)
+LOCATION:107 5
+DESCRIPTION:Badanie właściwości fizykochemicznych materiałów\nRodzaj:
+  laboratorium\nProwadzący: dr inż. Węgłowski Rafał\nNr zajęć: 17/2
+ 8\nBlok: 1\nUwagi: Podgrupa B
+END:VEVENT
+BEGIN:VEVENT
+UID:3166f77cb937e5a59983943c@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270108T095000
+DTEND;TZID=Europe/Warsaw:20270108T112500
+SUMMARY:BWFM (L)
+LOCATION:107 5
+DESCRIPTION:Badanie właściwości fizykochemicznych materiałów\nRodzaj:
+  laboratorium\nProwadzący: dr inż. Węgłowski Rafał\nNr zajęć: 18/2
+ 8\nBlok: 2\nUwagi: Podgrupa B
+END:VEVENT
+BEGIN:VEVENT
+UID:40b10137c4d9014716552144@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270108T114000
+DTEND;TZID=Europe/Warsaw:20270108T131500
+SUMMARY:BWFM (L)
+LOCATION:107 5
+DESCRIPTION:Badanie właściwości fizykochemicznych materiałów\nRodzaj:
+  laboratorium\nProwadzący: dr inż. Węgłowski Rafał\nNr zajęć: 19/2
+ 8\nBlok: 3\nUwagi: Podgrupa B
+END:VEVENT
+BEGIN:VEVENT
+UID:d1505681c05d07e2fc8b6175@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270111T080000
+DTEND;TZID=Europe/Warsaw:20270111T093500
+SUMMARY:MeW (L)
+LOCATION:9/ 34A
+DESCRIPTION:Mechanika techniczna z wytrzymałością materiałów\nRodzaj:
+  laboratorium\nProwadzący: dr inż. Popławski Arkadiusz\nNr zajęć: 6/
+ 7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4ddfa00ff0fe987a8595c43d@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270111T095000
+DTEND;TZID=Europe/Warsaw:20270111T112500
+SUMMARY:F2 (ć)
+LOCATION:166 S
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr hab.inż. Stasie
+ wicz Karol\nNr zajęć: 9/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7cb8c76d36290708083a3a64@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270111T114000
+DTEND;TZID=Europe/Warsaw:20270111T131500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: Jr\nNr zajęć: 13/15\
+ nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0d34e71f4172adceb1059710@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270111T133000
+DTEND;TZID=Europe/Warsaw:20270111T150500
+SUMMARY:MeW (w)
+LOCATION:166 S
+DESCRIPTION:Mechanika techniczna z wytrzymałością materiałów\nRodzaj:
+  wykład\nProwadzący: dr hab. inż.(prof. ucz.) Miedzińska Danuta\nNr z
+ ajęć: 13/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b45e562003f72fec50c6486d@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270112T080000
+DTEND;TZID=Europe/Warsaw:20270112T093500
+SUMMARY:Mtech (L)
+LOCATION:15/ 34\; ć. 5/6
+DESCRIPTION:Metrologia techniczna\nRodzaj: laboratorium\nProwadzący: dr i
+ nż. Antolak-Dudka Anna\; mgr inż. Łazińska Magdalena\nNr zajęć: 5/7
+ \nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b9fd8e8ded06ed73f232f5c6@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270112T095000
+DTEND;TZID=Europe/Warsaw:20270112T112500
+SUMMARY:Maf (w)
+LOCATION:2 5
+DESCRIPTION:Materiały funkcjonalne\nRodzaj: wykład\nProwadzący: prof. d
+ r hab. inż. Kłosowicz Stanisław\nNr zajęć: 13/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:67cb2e98725b6f80f88ec5f3@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270112T114000
+DTEND;TZID=Europe/Warsaw:20270112T131500
+SUMMARY:Ja (ć)
+LOCATION:238 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 13/15\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:4ba6bf02cad88e7fbf352c2d@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270112T133000
+DTEND;TZID=Europe/Warsaw:20270112T150500
+SUMMARY:Maf (L)
+LOCATION:107 5
+DESCRIPTION:Materiały funkcjonalne\nRodzaj: laboratorium\nProwadzący: dr
+  inż. Węgłowski Rafał\nNr zajęć: 1/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b47b0ef626055456edf08a82@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270112T160000
+DTEND;TZID=Europe/Warsaw:20270112T173500
+SUMMARY:Maf (L)
+LOCATION:107 5
+DESCRIPTION:Materiały funkcjonalne\nRodzaj: laboratorium\nProwadzący: dr
+  inż. Węgłowski Rafał\nNr zajęć: 2/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:a61f0da70e45cd249601a4d7@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270112T175000
+DTEND;TZID=Europe/Warsaw:20270112T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;232 K\;234 K\;235 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 13/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:e326976597e42332292eff1a@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270113T095000
+DTEND;TZID=Europe/Warsaw:20270113T112500
+SUMMARY:PNM (w)
+LOCATION:11/ 34
+DESCRIPTION:Podstawy nauki o materiałach\nRodzaj: wykład\nProwadzący: p
+ rof.dr hab.inż. Bojar Zbigniew\nNr zajęć: 11/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1fe6d5ad992efb3a70b6da07@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270113T114000
+DTEND;TZID=Europe/Warsaw:20270113T131500
+SUMMARY:Maf (L)
+LOCATION:107 5\;3 5
+DESCRIPTION:Materiały funkcjonalne\nRodzaj: laboratorium\nProwadzący: Ol
+ f\; SzBE\nNr zajęć: 3/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1a6387e8c8c8b27c242274e8@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270113T133000
+DTEND;TZID=Europe/Warsaw:20270113T150500
+SUMMARY:Maf (L)
+LOCATION:107 5\;3 5
+DESCRIPTION:Materiały funkcjonalne\nRodzaj: laboratorium\nProwadzący: Ol
+ f\; SzBE\nNr zajęć: 4/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3ebc84e6180a91df46d669ac@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270114T114000
+DTEND;TZID=Europe/Warsaw:20270114T131500
+SUMMARY:TE (S)
+LOCATION:165 S
+DESCRIPTION:Technical English\nRodzaj: seminarium\nProwadzący: dr hab. Be
+ nnis Noureddine\nNr zajęć: 14/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9046b083b4805523d1202ecb@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270114T133000
+DTEND;TZID=Europe/Warsaw:20270114T150500
+SUMMARY:PNM (w)
+LOCATION:11/ 34
+DESCRIPTION:Podstawy nauki o materiałach\nRodzaj: wykład\nProwadzący: p
+ rof.dr hab.inż. Bojar Zbigniew\nNr zajęć: 12/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a3138e596ae301d34d4d5057@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270115T080000
+DTEND;TZID=Europe/Warsaw:20270115T093500
+SUMMARY:BWFM (L)
+LOCATION:107 5
+DESCRIPTION:Badanie właściwości fizykochemicznych materiałów\nRodzaj:
+  laboratorium\nProwadzący: dr inż. Węgłowski Rafał\nNr zajęć: 20/2
+ 8\nBlok: 1\nUwagi: Podgrupa A
+END:VEVENT
+BEGIN:VEVENT
+UID:6aa3c67e9035659b3cf4bb7d@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270115T095000
+DTEND;TZID=Europe/Warsaw:20270115T112500
+SUMMARY:BWFM (L)
+LOCATION:107 5
+DESCRIPTION:Badanie właściwości fizykochemicznych materiałów\nRodzaj:
+  laboratorium\nProwadzący: dr inż. Węgłowski Rafał\nNr zajęć: 21/2
+ 8\nBlok: 2\nUwagi: Podgrupa A
+END:VEVENT
+BEGIN:VEVENT
+UID:5b862d2663c4fc1315498dd1@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270115T114000
+DTEND;TZID=Europe/Warsaw:20270115T131500
+SUMMARY:BWFM (L)
+LOCATION:107 5
+DESCRIPTION:Badanie właściwości fizykochemicznych materiałów\nRodzaj:
+  laboratorium\nProwadzący: dr inż. Węgłowski Rafał\nNr zajęć: 22/2
+ 8\nBlok: 3\nUwagi: Podgrupa A
+END:VEVENT
+BEGIN:VEVENT
+UID:37cd49cddabe1ecaf6b4f90e@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270118T080000
+DTEND;TZID=Europe/Warsaw:20270118T093500
+SUMMARY:MeW (L)
+LOCATION:9/ 34A
+DESCRIPTION:Mechanika techniczna z wytrzymałością materiałów\nRodzaj:
+  laboratorium\nProwadzący: dr inż. Bogusz Paweł\nNr zajęć: 7/7\nBlok
+ : 1
+END:VEVENT
+BEGIN:VEVENT
+UID:02deacd7034a3945ed592cf1@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270118T095000
+DTEND;TZID=Europe/Warsaw:20270118T112500
+SUMMARY:F2 (L)
+LOCATION:139 S\;141 S\; Kos.Ra\; PNa\; JT
+DESCRIPTION:Fizyka 2\nRodzaj: laboratorium\nNr zajęć: 5/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a7f18cb0b951476beb255839@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270118T114000
+DTEND;TZID=Europe/Warsaw:20270118T131500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: Jr\nNr zajęć: 14/15\
+ nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:210477a3457dd3924e7857a8@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270118T133000
+DTEND;TZID=Europe/Warsaw:20270118T150500
+SUMMARY:MeW (w)
+LOCATION:166 S
+DESCRIPTION:Mechanika techniczna z wytrzymałością materiałów\nRodzaj:
+  wykład\nProwadzący: dr hab. inż.(prof. ucz.) Miedzińska Danuta\nNr z
+ ajęć: 14/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:319d6c57a2995cebb607d8e4@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270119T080000
+DTEND;TZID=Europe/Warsaw:20270119T093500
+SUMMARY:Mtech (L)
+LOCATION:15/ 34\; lab. 6/7
+DESCRIPTION:Metrologia techniczna\nRodzaj: laboratorium\nProwadzący: mgr 
+ inż. Łazińska Magdalena\; dr inż. Durejko Tomasz\nNr zajęć: 6/7\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4c5b9d95c473581073505016@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270119T095000
+DTEND;TZID=Europe/Warsaw:20270119T112500
+SUMMARY:Maf (w)
+LOCATION:2 5
+DESCRIPTION:Materiały funkcjonalne\nRodzaj: wykład\nProwadzący: prof. d
+ r hab. inż. Kłosowicz Stanisław\nNr zajęć: 14/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c0861d1791b552239be1a5f1@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270119T114000
+DTEND;TZID=Europe/Warsaw:20270119T131500
+SUMMARY:Ja (ć)
+LOCATION:238 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 14/15\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:d8ad169a1574f57a69ac0d19@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270119T133000
+DTEND;TZID=Europe/Warsaw:20270119T150500
+SUMMARY:Maf (L)
+LOCATION:107 5
+DESCRIPTION:Materiały funkcjonalne\nRodzaj: laboratorium\nProwadzący: dr
+  inż. Węgłowski Rafał\nNr zajęć: 5/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e818f7446d5f0f2299bb5fbd@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270119T160000
+DTEND;TZID=Europe/Warsaw:20270119T173500
+SUMMARY:Maf (L)
+LOCATION:107 5
+DESCRIPTION:Materiały funkcjonalne\nRodzaj: laboratorium\nProwadzący: dr
+  inż. Węgłowski Rafał\nNr zajęć: 6/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:ad0b761a60f33ba6c27beac7@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270119T175000
+DTEND;TZID=Europe/Warsaw:20270119T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;232 K\;234 K\;235 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 14/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:576b8aab23e7d9b9b961f977@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270120T095000
+DTEND;TZID=Europe/Warsaw:20270120T112500
+SUMMARY:BWFM (L)
+LOCATION:107 5
+DESCRIPTION:Badanie właściwości fizykochemicznych materiałów\nRodzaj:
+  laboratorium\nProwadzący: dr inż. Węgłowski Rafał\nNr zajęć: 23/2
+ 8\nBlok: 2\nUwagi: Podgrupa A
+END:VEVENT
+BEGIN:VEVENT
+UID:846b35bb109deeb5157be316@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270120T114000
+DTEND;TZID=Europe/Warsaw:20270120T131500
+SUMMARY:BWFM (L)
+LOCATION:107 5
+DESCRIPTION:Badanie właściwości fizykochemicznych materiałów\nRodzaj:
+  laboratorium\nProwadzący: dr inż. Węgłowski Rafał\nNr zajęć: 24/2
+ 8\nBlok: 3\nUwagi: Podgrupa A
+END:VEVENT
+BEGIN:VEVENT
+UID:4809ee58382e6ef256a56923@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270120T133000
+DTEND;TZID=Europe/Warsaw:20270120T150500
+SUMMARY:BWFM (L)
+LOCATION:107 5
+DESCRIPTION:Badanie właściwości fizykochemicznych materiałów\nRodzaj:
+  laboratorium\nProwadzący: dr inż. Węgłowski Rafał\nNr zajęć: 25/2
+ 8\nBlok: 4\nUwagi: Podgrupa A
+END:VEVENT
+BEGIN:VEVENT
+UID:9a2c35f19543d2312bcd5508@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270121T095000
+DTEND;TZID=Europe/Warsaw:20270121T112500
+SUMMARY:PNM (w)
+LOCATION:11/ 34
+DESCRIPTION:Podstawy nauki o materiałach\nRodzaj: wykład\nProwadzący: p
+ rof.dr hab.inż. Bojar Zbigniew\nNr zajęć: 13/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c6a05c354f577a2624fda4dd@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270121T114000
+DTEND;TZID=Europe/Warsaw:20270121T131500
+SUMMARY:TE (S)
+LOCATION:165 S
+DESCRIPTION:Technical English\nRodzaj: seminarium\nProwadzący: dr hab. Be
+ nnis Noureddine\nNr zajęć: 15/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e5be1163fed8f1af6cb3af68@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270121T133000
+DTEND;TZID=Europe/Warsaw:20270121T150500
+SUMMARY:PNM (w)
+LOCATION:11/ 34
+DESCRIPTION:Podstawy nauki o materiałach\nRodzaj: wykład\nProwadzący: p
+ rof.dr hab.inż. Bojar Zbigniew\nNr zajęć: 14/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9e46ffedc2e0c58bfc74e877@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270125T080000
+DTEND;TZID=Europe/Warsaw:20270125T093500
+SUMMARY:MeW (w)
+LOCATION:166 S
+DESCRIPTION:Mechanika techniczna z wytrzymałością materiałów\nRodzaj:
+  wykład\nProwadzący: dr hab. inż.(prof. ucz.) Miedzińska Danuta\nNr z
+ ajęć: 15/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f00dfcca3fca7d3aa33bfe22@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270125T095000
+DTEND;TZID=Europe/Warsaw:20270125T112500
+SUMMARY:F2 (ć)
+LOCATION:166 S
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr hab.inż. Stasie
+ wicz Karol\nNr zajęć: 10/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7d4ac9fa81df74b8f781ebf1@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270125T114000
+DTEND;TZID=Europe/Warsaw:20270125T131500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: Jr\nNr zajęć: 15/15\
+ nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:137f348361802b26b58a0e4e@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270125T133000
+DTEND;TZID=Europe/Warsaw:20270125T150500
+SUMMARY:Maf (L)
+LOCATION:107 5\;3 5
+DESCRIPTION:Materiały funkcjonalne\nRodzaj: laboratorium\nProwadzący: Ol
+ f\; SzBE\nNr zajęć: 7/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ceae684159e84fd7843ae3f6@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270125T160000
+DTEND;TZID=Europe/Warsaw:20270125T173500
+SUMMARY:Maf (L)
+LOCATION:107 5\;3 5
+DESCRIPTION:Materiały funkcjonalne\nRodzaj: laboratorium\nProwadzący: Ol
+ f\; SzBE\nNr zajęć: 8/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:dd99172a33f37003e2aefb31@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270126T080000
+DTEND;TZID=Europe/Warsaw:20270126T093500
+SUMMARY:Mtech (L)
+LOCATION:15/ 34\; lab. 5/7
+DESCRIPTION:Metrologia techniczna\nRodzaj: laboratorium\nProwadzący: dr i
+ nż. Antolak-Dudka Anna\; dr inż. Durejko Tomasz\nNr zajęć: 7/7\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:9c5f528669f8789815cf1ff6@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270126T095000
+DTEND;TZID=Europe/Warsaw:20270126T112500
+SUMMARY:Maf (w)
+LOCATION:2 5
+DESCRIPTION:Materiały funkcjonalne\nRodzaj: wykład\nProwadzący: prof. d
+ r hab. inż. Kłosowicz Stanisław\nNr zajęć: 15/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c8cf7df8df98aeb856e6d214@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270126T114000
+DTEND;TZID=Europe/Warsaw:20270126T131500
+SUMMARY:Ja (ć)
+LOCATION:238 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 15/15\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:e62960cde99b79bc2e736951@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270126T133000
+DTEND;TZID=Europe/Warsaw:20270126T150500
+SUMMARY:PNM (w)
+LOCATION:11/ 34
+DESCRIPTION:Podstawy nauki o materiałach\nRodzaj: wykład\nProwadzący: p
+ rof.dr hab.inż. Bojar Zbigniew\nNr zajęć: 15/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:272e1be7e2d26d1678357d57@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270126T175000
+DTEND;TZID=Europe/Warsaw:20270126T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;232 K\;234 K\;235 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 15/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:5eed6f028d590869fb142071@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270127T095000
+DTEND;TZID=Europe/Warsaw:20270127T112500
+SUMMARY:BWFM (L)
+LOCATION:107 5
+DESCRIPTION:Badanie właściwości fizykochemicznych materiałów\nRodzaj:
+  laboratorium\nProwadzący: dr inż. Węgłowski Rafał\nNr zajęć: 26/2
+ 8\nBlok: 2\nUwagi: Podgrupa B
+END:VEVENT
+BEGIN:VEVENT
+UID:851bb4a214bcf858e4260b37@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270127T114000
+DTEND;TZID=Europe/Warsaw:20270127T131500
+SUMMARY:BWFM (L)
+LOCATION:107 5
+DESCRIPTION:Badanie właściwości fizykochemicznych materiałów\nRodzaj:
+  laboratorium\nProwadzący: dr inż. Węgłowski Rafał\nNr zajęć: 27/2
+ 8\nBlok: 3\nUwagi: Podgrupa B
+END:VEVENT
+BEGIN:VEVENT
+UID:fe0f7ffbf0da2e3801ceb722@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270127T133000
+DTEND;TZID=Europe/Warsaw:20270127T150500
+SUMMARY:BWFM (L)
+LOCATION:107 5
+DESCRIPTION:Badanie właściwości fizykochemicznych materiałów\nRodzaj:
+  laboratorium\nProwadzący: dr inż. Węgłowski Rafał\nNr zajęć: 28/2
+ 8\nBlok: 4\nUwagi: Podgrupa B
+END:VEVENT
+END:VCALENDAR

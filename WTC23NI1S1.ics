@@ -1,0 +1,735 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WTC23NI1S1
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:362632a5765ae1c1d34f6d6f@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261005T095000
+DTEND;TZID=Europe/Warsaw:20261005T112500
+SUMMARY:Ldy (L)
+LOCATION:11/ 34
+DESCRIPTION:Laboratorium dyplomowe\nRodzaj: laboratorium\nProwadzący: dr 
+ inż. Dworecka-Wójcik Julita\nNr zajęć: 1/16\nBlok: 2\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:930d225e491336a9a761c2cf@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261005T114000
+DTEND;TZID=Europe/Warsaw:20261005T131500
+SUMMARY:Sd. (S)
+LOCATION:11/ 34
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Dworecka-Wójcik Julita\nNr zajęć: 1/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7a23be06e6ef5c4dfc0096ab@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261005T133000
+DTEND;TZID=Europe/Warsaw:20261005T150500
+SUMMARY:Eap (w)
+LOCATION:11/ 34
+DESCRIPTION:Ekonomiczne i ekologiczne aspekty produkcji i stosowania mater
+ iałów\nRodzaj: wykład\nProwadzący: ppłk dr inż. Karczewski Krzyszto
+ f\nNr zajęć: 1/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1c88324de762ae46a89e4673@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261005T160000
+DTEND;TZID=Europe/Warsaw:20261005T173500
+SUMMARY:Skj (w)
+LOCATION:11/ 34
+DESCRIPTION:Standaryzacja i kontrola jakości\nRodzaj: wykład\nProwadząc
+ y: dr inż. Zachman Marcin\nNr zajęć: 1/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:e90ad5362590271be6d7932e@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261008T095000
+DTEND;TZID=Europe/Warsaw:20261008T112500
+SUMMARY:ZDMI (w)
+LOCATION:26/ 34
+DESCRIPTION:Zasady doboru materiałów inżynierskich\nRodzaj: wykład\nPr
+ owadzący: dr inż. Zasada Dariusz\nNr zajęć: 1/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:65057cc062dd1c58a2a17b5a@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261008T114000
+DTEND;TZID=Europe/Warsaw:20261008T131500
+SUMMARY:ZDMI (w)
+LOCATION:26/ 34
+DESCRIPTION:Zasady doboru materiałów inżynierskich\nRodzaj: wykład\nPr
+ owadzący: ppłk dr inż. Karczewski Krzysztof\nNr zajęć: 2/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5fac2c8a9cb7346a5e115ae6@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261012T133000
+DTEND;TZID=Europe/Warsaw:20261012T150500
+SUMMARY:Eap (w)
+LOCATION:11/ 34
+DESCRIPTION:Ekonomiczne i ekologiczne aspekty produkcji i stosowania mater
+ iałów\nRodzaj: wykład\nProwadzący: ppłk dr inż. Karczewski Krzyszto
+ f\nNr zajęć: 2/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3c64467999a2d07d4d478a73@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261012T160000
+DTEND;TZID=Europe/Warsaw:20261012T173500
+SUMMARY:Skj (w)
+LOCATION:11/ 34
+DESCRIPTION:Standaryzacja i kontrola jakości\nRodzaj: wykład\nProwadząc
+ y: dr inż. Zachman Marcin\nNr zajęć: 2/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:292a042f3c00db9c058bc7c8@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261015T095000
+DTEND;TZID=Europe/Warsaw:20261015T112500
+SUMMARY:ZDMI (w)
+LOCATION:26/ 34
+DESCRIPTION:Zasady doboru materiałów inżynierskich\nRodzaj: wykład\nPr
+ owadzący: dr inż. Zasada Dariusz\nNr zajęć: 3/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7deda5a67b8400c7d9c51594@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261015T114000
+DTEND;TZID=Europe/Warsaw:20261015T131500
+SUMMARY:ZDMI (w)
+LOCATION:26/ 34
+DESCRIPTION:Zasady doboru materiałów inżynierskich\nRodzaj: wykład\nPr
+ owadzący: ppłk dr inż. Karczewski Krzysztof\nNr zajęć: 4/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5325845a9fa74d798b4ec341@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261019T114000
+DTEND;TZID=Europe/Warsaw:20261019T131500
+SUMMARY:Sd. (S)
+LOCATION:26/ 34
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Dworecka-Wójcik Julita\nNr zajęć: 2/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f22004a53ddcea0279d1ea30@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261019T133000
+DTEND;TZID=Europe/Warsaw:20261019T150500
+SUMMARY:Eap (w)
+LOCATION:11/ 34
+DESCRIPTION:Ekonomiczne i ekologiczne aspekty produkcji i stosowania mater
+ iałów\nRodzaj: wykład\nProwadzący: ppłk dr inż. Karczewski Krzyszto
+ f\nNr zajęć: 3/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0a4bbabaf5dcc0be4adce34a@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261019T160000
+DTEND;TZID=Europe/Warsaw:20261019T173500
+SUMMARY:Skj (w)
+LOCATION:11/ 34
+DESCRIPTION:Standaryzacja i kontrola jakości\nRodzaj: wykład\nProwadząc
+ y: dr inż. Zachman Marcin\nNr zajęć: 3/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:4412704b6c6e352ec673c3ad@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261020T080000
+DTEND;TZID=Europe/Warsaw:20261020T093500
+SUMMARY:Ldy (L)
+LOCATION:bud. 34
+DESCRIPTION:Laboratorium dyplomowe\nRodzaj: laboratorium\nProwadzący: dr 
+ inż. Łukaszewicz Adrian\nNr zajęć: 2/16\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7ed99af120f21b22a4b2b0b2@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261022T095000
+DTEND;TZID=Europe/Warsaw:20261022T112500
+SUMMARY:ZDMI (w)
+LOCATION:26/ 34
+DESCRIPTION:Zasady doboru materiałów inżynierskich\nRodzaj: wykład\nPr
+ owadzący: dr inż. Zasada Dariusz\nNr zajęć: 5/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d466ed0fba9e0980ed78f025@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261022T114000
+DTEND;TZID=Europe/Warsaw:20261022T131500
+SUMMARY:ZDMI (w)
+LOCATION:26/ 34
+DESCRIPTION:Zasady doboru materiałów inżynierskich\nRodzaj: wykład\nPr
+ owadzący: dr inż. Zasada Dariusz\nNr zajęć: 6/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:14af28fb7d78c8c4a1eba56d@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261022T133000
+DTEND;TZID=Europe/Warsaw:20261022T150500
+SUMMARY:ZDMI (L)
+LOCATION:26/ 34
+DESCRIPTION:Zasady doboru materiałów inżynierskich\nRodzaj: laboratoriu
+ m\nProwadzący: dr inż. Zasada Dariusz\nNr zajęć: 1/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f19b0866a8770125933cbd21@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261023T080000
+DTEND;TZID=Europe/Warsaw:20261023T093500
+SUMMARY:Ldy (L)
+LOCATION:bud. 34
+DESCRIPTION:Laboratorium dyplomowe\nRodzaj: laboratorium\nProwadzący: dr 
+ inż. Łukaszewicz Adrian\nNr zajęć: 3/16\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9dc5ef1c9fc4fd017677fcca@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261026T133000
+DTEND;TZID=Europe/Warsaw:20261026T150500
+SUMMARY:Eap (w)
+LOCATION:11/ 34
+DESCRIPTION:Ekonomiczne i ekologiczne aspekty produkcji i stosowania mater
+ iałów\nRodzaj: wykład\nProwadzący: ppłk dr inż. Karczewski Krzyszto
+ f\nNr zajęć: 4/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8d2bd84b574169804c75ba78@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261026T160000
+DTEND;TZID=Europe/Warsaw:20261026T173500
+SUMMARY:Skj (w)
+LOCATION:11/ 34
+DESCRIPTION:Standaryzacja i kontrola jakości\nRodzaj: wykład\nProwadząc
+ y: dr inż. Zachman Marcin\nNr zajęć: 4/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:460b984dad1e576632a916b4@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261027T080000
+DTEND;TZID=Europe/Warsaw:20261027T093500
+SUMMARY:Sd. (S)
+LOCATION:11/ 34
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Dworecka-Wójcik Julita\nNr zajęć: 3/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f51d27086fa40b1a641f021b@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261029T095000
+DTEND;TZID=Europe/Warsaw:20261029T112500
+SUMMARY:ZDMI (w)
+LOCATION:26/ 34
+DESCRIPTION:Zasady doboru materiałów inżynierskich\nRodzaj: wykład\nPr
+ owadzący: ppłk dr inż. Karczewski Krzysztof\nNr zajęć: 7/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9cf6849735f58b310df29f8a@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261029T114000
+DTEND;TZID=Europe/Warsaw:20261029T131500
+SUMMARY:ZDMI (w)
+LOCATION:26/ 34
+DESCRIPTION:Zasady doboru materiałów inżynierskich\nRodzaj: wykład\nPr
+ owadzący: ppłk dr inż. Karczewski Krzysztof\nNr zajęć: 8/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a04eec4253163629ad208942@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261030T080000
+DTEND;TZID=Europe/Warsaw:20261030T093500
+SUMMARY:Ldy (L)
+LOCATION:bud. 34
+DESCRIPTION:Laboratorium dyplomowe\nRodzaj: laboratorium\nProwadzący: dr 
+ inż. Łukaszewicz Adrian\nNr zajęć: 4/16\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b5ec9e7db12c4e4d2e70917b@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261104T080000
+DTEND;TZID=Europe/Warsaw:20261104T093500
+SUMMARY:ZDMI (L)
+LOCATION:26/ 34
+DESCRIPTION:Zasady doboru materiałów inżynierskich\nRodzaj: laboratoriu
+ m\nProwadzący: dr inż. Zasada Dariusz\nNr zajęć: 2/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3afbdecb7b4bd58f406594fe@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261104T095000
+DTEND;TZID=Europe/Warsaw:20261104T112500
+SUMMARY:ZDMI (L)
+LOCATION:26/ 34
+DESCRIPTION:Zasady doboru materiałów inżynierskich\nRodzaj: laboratoriu
+ m\nProwadzący: dr inż. Zasada Dariusz\nNr zajęć: 3/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9436605df5f9bd7bb49cf4fc@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261105T095000
+DTEND;TZID=Europe/Warsaw:20261105T112500
+SUMMARY:ZDMI (L)
+LOCATION:26/ 34
+DESCRIPTION:Zasady doboru materiałów inżynierskich\nRodzaj: laboratoriu
+ m\nProwadzący: dr inż. Łukaszewicz Adrian\nNr zajęć: 4/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:803f1139eb520b9934eefbf9@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261105T114000
+DTEND;TZID=Europe/Warsaw:20261105T131500
+SUMMARY:ZDMI (L)
+LOCATION:26/ 34
+DESCRIPTION:Zasady doboru materiałów inżynierskich\nRodzaj: laboratoriu
+ m\nProwadzący: dr inż. Łukaszewicz Adrian\nNr zajęć: 5/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d457dbb17f560bd1b54d7419@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261105T133000
+DTEND;TZID=Europe/Warsaw:20261105T150500
+SUMMARY:ZDMI (L)
+LOCATION:26/ 34
+DESCRIPTION:Zasady doboru materiałów inżynierskich\nRodzaj: laboratoriu
+ m\nProwadzący: dr inż. Zasada Dariusz\nNr zajęć: 6/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:28d20aa346511f14e5238ede@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261105T160000
+DTEND;TZID=Europe/Warsaw:20261105T173500
+SUMMARY:ZDMI (L)
+LOCATION:26/ 34
+DESCRIPTION:Zasady doboru materiałów inżynierskich\nRodzaj: laboratoriu
+ m\nProwadzący: dr inż. Zasada Dariusz\nNr zajęć: 7/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:98a5758db7e155f07b3a73cb@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261106T080000
+DTEND;TZID=Europe/Warsaw:20261106T093500
+SUMMARY:Ldy (L)
+LOCATION:bud. 34
+DESCRIPTION:Laboratorium dyplomowe\nRodzaj: laboratorium\nProwadzący: dr 
+ inż. Zasada Dariusz\nNr zajęć: 5/16\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:913a9a012db2ad63070d8208@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261106T114000
+DTEND;TZID=Europe/Warsaw:20261106T131500
+SUMMARY:Ldy (L)
+LOCATION:bud. 34
+DESCRIPTION:Laboratorium dyplomowe\nRodzaj: laboratorium\nProwadzący: dr 
+ inż. Łukaszewicz Adrian\nNr zajęć: 6/16\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:64bcea4eea629e9fe711af62@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261109T133000
+DTEND;TZID=Europe/Warsaw:20261109T150500
+SUMMARY:Eap (w)
+LOCATION:11/ 34
+DESCRIPTION:Ekonomiczne i ekologiczne aspekty produkcji i stosowania mater
+ iałów\nRodzaj: wykład\nProwadzący: ppłk dr inż. Karczewski Krzyszto
+ f\nNr zajęć: 5/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2fa65c9f935ec5878e27f47d@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261109T160000
+DTEND;TZID=Europe/Warsaw:20261109T173500
+SUMMARY:Skj (w)
+LOCATION:11/ 34
+DESCRIPTION:Standaryzacja i kontrola jakości\nRodzaj: wykład\nProwadząc
+ y: dr inż. Zachman Marcin\nNr zajęć: 5/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:34fd79637df202cb6e7d2004@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261110T080000
+DTEND;TZID=Europe/Warsaw:20261110T093500
+SUMMARY:Sd. (S)
+LOCATION:11/ 34
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Dworecka-Wójcik Julita\nNr zajęć: 4/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3cbd47f3c77c8d7c90a11e52@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261112T095000
+DTEND;TZID=Europe/Warsaw:20261112T112500
+SUMMARY:ZDMI (L)
+LOCATION:26/ 34
+DESCRIPTION:Zasady doboru materiałów inżynierskich\nRodzaj: laboratoriu
+ m\nProwadzący: dr inż. Łukaszewicz Adrian\nNr zajęć: 8/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:98ce6e43e161e6ccb63af07f@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261112T114000
+DTEND;TZID=Europe/Warsaw:20261112T131500
+SUMMARY:ZDMI (L)
+LOCATION:26/ 34
+DESCRIPTION:Zasady doboru materiałów inżynierskich\nRodzaj: laboratoriu
+ m\nProwadzący: dr inż. Łukaszewicz Adrian\nNr zajęć: 9/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:cda56f5bda0a7befa3ca163d@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261113T095000
+DTEND;TZID=Europe/Warsaw:20261113T112500
+SUMMARY:Ldy (L)
+LOCATION:bud. 34
+DESCRIPTION:Laboratorium dyplomowe\nRodzaj: laboratorium\nProwadzący: dr 
+ inż. Zasada Dariusz\nNr zajęć: 7/16\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b32aa9f07705343680c12f47@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261113T114000
+DTEND;TZID=Europe/Warsaw:20261113T131500
+SUMMARY:ZDMI (L)
+LOCATION:26/ 34
+DESCRIPTION:Zasady doboru materiałów inżynierskich\nRodzaj: laboratoriu
+ m\nProwadzący: dr inż. Zasada Dariusz\nNr zajęć: 10/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a363348ebe96e0ce8a2442de@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261113T133000
+DTEND;TZID=Europe/Warsaw:20261113T150500
+SUMMARY:ZDMI (L)
+LOCATION:26/ 34
+DESCRIPTION:Zasady doboru materiałów inżynierskich\nRodzaj: laboratoriu
+ m\nProwadzący: dr inż. Zasada Dariusz\nNr zajęć: 11/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3e5d11f9be695a97df3565e8@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261120T080000
+DTEND;TZID=Europe/Warsaw:20261120T093500
+SUMMARY:Sd. (S)
+LOCATION:11/ 34
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr hab.
+  inż. Polański Marek\nNr zajęć: 5/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3c19fed23a98cacac2fad126@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261120T095000
+DTEND;TZID=Europe/Warsaw:20261120T112500
+SUMMARY:Sd. (S)
+LOCATION:26/ 34
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Dworecka-Wójcik Julita\nNr zajęć: 6/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c73416e04e37e8c6fe8d7021@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261123T114000
+DTEND;TZID=Europe/Warsaw:20261123T131500
+SUMMARY:Ldy (L)
+LOCATION:bud. 34
+DESCRIPTION:Laboratorium dyplomowe\nRodzaj: laboratorium\nProwadzący: dr 
+ inż. Zasada Dariusz\nNr zajęć: 8/16\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:05a1597187d94875480fe741@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261123T133000
+DTEND;TZID=Europe/Warsaw:20261123T150500
+SUMMARY:Eap (w)
+LOCATION:11/ 34
+DESCRIPTION:Ekonomiczne i ekologiczne aspekty produkcji i stosowania mater
+ iałów\nRodzaj: wykład\nProwadzący: ppłk dr inż. Karczewski Krzyszto
+ f\nNr zajęć: 6/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:000a5fa19cac226686250536@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261123T160000
+DTEND;TZID=Europe/Warsaw:20261123T173500
+SUMMARY:Skj (w)
+LOCATION:11/ 34
+DESCRIPTION:Standaryzacja i kontrola jakości\nRodzaj: wykład\nProwadząc
+ y: dr inż. Zachman Marcin\nNr zajęć: 6/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:7c0361dd724f277315b29f41@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261125T080000
+DTEND;TZID=Europe/Warsaw:20261125T093500
+SUMMARY:ZDMI (L)
+LOCATION:26/ 34
+DESCRIPTION:Zasady doboru materiałów inżynierskich\nRodzaj: laboratoriu
+ m\nProwadzący: dr inż. Łukaszewicz Adrian\nNr zajęć: 12/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e3ce69e2c4883ef1a9fdcde8@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261125T095000
+DTEND;TZID=Europe/Warsaw:20261125T112500
+SUMMARY:ZDMI (L)
+LOCATION:26/ 34
+DESCRIPTION:Zasady doboru materiałów inżynierskich\nRodzaj: laboratoriu
+ m\nProwadzący: dr inż. Łukaszewicz Adrian\nNr zajęć: 13/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4de7754ded9943fbb28b26ec@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261126T114000
+DTEND;TZID=Europe/Warsaw:20261126T131500
+SUMMARY:ZDMI (L)
+LOCATION:26/ 34
+DESCRIPTION:Zasady doboru materiałów inżynierskich\nRodzaj: laboratoriu
+ m\nProwadzący: dr inż. Łukaszewicz Adrian\nNr zajęć: 14/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:02287acd59cdd21a84416559@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261126T133000
+DTEND;TZID=Europe/Warsaw:20261126T150500
+SUMMARY:ZDMI (L)
+LOCATION:26/ 34
+DESCRIPTION:Zasady doboru materiałów inżynierskich\nRodzaj: laboratoriu
+ m\nProwadzący: dr inż. Łukaszewicz Adrian\nNr zajęć: 15/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8d23b9a8a032dc17e71b62df@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261130T114000
+DTEND;TZID=Europe/Warsaw:20261130T131500
+SUMMARY:Sd. (S)
+LOCATION:11/ 34
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr hab.
+  inż. Polański Marek\nNr zajęć: 7/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:83607afdad990fbb51308ef1@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261130T133000
+DTEND;TZID=Europe/Warsaw:20261130T150500
+SUMMARY:Eap (w)
+LOCATION:11/ 34
+DESCRIPTION:Ekonomiczne i ekologiczne aspekty produkcji i stosowania mater
+ iałów\nRodzaj: wykład\nProwadzący: ppłk dr inż. Karczewski Krzyszto
+ f\nNr zajęć: 7/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:10dad7643c485ce2d8f33edc@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261130T160000
+DTEND;TZID=Europe/Warsaw:20261130T173500
+SUMMARY:Skj (w)
+LOCATION:11/ 34
+DESCRIPTION:Standaryzacja i kontrola jakości\nRodzaj: wykład\nProwadząc
+ y: dr inż. Zachman Marcin\nNr zajęć: 7/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:cf346bbf49549163f309d099@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261204T080000
+DTEND;TZID=Europe/Warsaw:20261204T093500
+SUMMARY:Sd. (S)
+LOCATION:11/ 34
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Siemiaszko Dariusz\nNr zajęć: 8/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f8f848b05f4e5249e2cd60b0@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261204T095000
+DTEND;TZID=Europe/Warsaw:20261204T112500
+SUMMARY:Ldy (L)
+LOCATION:bud. 34
+DESCRIPTION:Laboratorium dyplomowe\nRodzaj: laboratorium\nProwadzący: dr 
+ inż. Zasada Dariusz\nNr zajęć: 9/16\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:12ec59d8c5d8d6a3a49d8bf2@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261207T080000
+DTEND;TZID=Europe/Warsaw:20261207T093500
+SUMMARY:Ldy (L)
+LOCATION:bud. 34
+DESCRIPTION:Laboratorium dyplomowe\nRodzaj: laboratorium\nProwadzący: dr 
+ inż. Pęska Magda\nNr zajęć: 10/16\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ff1bdb53d18bd92ba3676534@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261207T114000
+DTEND;TZID=Europe/Warsaw:20261207T131500
+SUMMARY:Sd. (S)
+LOCATION:11/ 34
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Siemiaszko Dariusz\nNr zajęć: 9/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:335039fc6f9b62bcd9126b4e@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261207T133000
+DTEND;TZID=Europe/Warsaw:20261207T150500
+SUMMARY:Eap (w)
+LOCATION:11/ 34
+DESCRIPTION:Ekonomiczne i ekologiczne aspekty produkcji i stosowania mater
+ iałów\nRodzaj: wykład\nProwadzący: ppłk dr inż. Karczewski Krzyszto
+ f\nNr zajęć: 8/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7ce76da12afd40f351fb3b03@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261207T160000
+DTEND;TZID=Europe/Warsaw:20261207T173500
+SUMMARY:Skj (w)
+LOCATION:11/ 34
+DESCRIPTION:Standaryzacja i kontrola jakości\nRodzaj: wykład\nProwadząc
+ y: dr inż. Zachman Marcin\nNr zajęć: 8/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f18b07796083248701d0894b@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261211T080000
+DTEND;TZID=Europe/Warsaw:20261211T093500
+SUMMARY:Sd. (S)
+LOCATION:11/ 34
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Siemiaszko Dariusz\nNr zajęć: 10/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b95fc1cda74beaecd89c1817@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261211T095000
+DTEND;TZID=Europe/Warsaw:20261211T112500
+SUMMARY:Ldy (L)
+LOCATION:bud. 34
+DESCRIPTION:Laboratorium dyplomowe\nRodzaj: laboratorium\nProwadzący: dr 
+ inż. Zasada Dariusz\nNr zajęć: 11/16\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:099ac0b3067eedb30412df82@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261218T080000
+DTEND;TZID=Europe/Warsaw:20261218T093500
+SUMMARY:Sd. (S)
+LOCATION:11/ 34
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Dworecka-Wójcik Julita\nNr zajęć: 11/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f0ca64afc3f6650c8d640e0f@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261218T095000
+DTEND;TZID=Europe/Warsaw:20261218T112500
+SUMMARY:Ldy (L)
+LOCATION:bud. 34
+DESCRIPTION:Laboratorium dyplomowe\nRodzaj: laboratorium\nProwadzący: dr 
+ inż. Pęska Magda\nNr zajęć: 12/16\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:833133fe71842243c90b2e79@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20261221T080000
+DTEND;TZID=Europe/Warsaw:20261221T093500
+SUMMARY:Ldy (L)
+LOCATION:bud. 34
+DESCRIPTION:Laboratorium dyplomowe\nRodzaj: laboratorium\nProwadzący: dr 
+ inż. Pęska Magda\nNr zajęć: 13/16\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:72ad0193c0f59f01c07532de@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270108T080000
+DTEND;TZID=Europe/Warsaw:20270108T093500
+SUMMARY:Sd. (S)
+LOCATION:11/ 34
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Dworecka-Wójcik Julita\nNr zajęć: 12/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2a84ca43750021940b9e6794@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270108T095000
+DTEND;TZID=Europe/Warsaw:20270108T112500
+SUMMARY:Ldy (L)
+LOCATION:bud. 34
+DESCRIPTION:Laboratorium dyplomowe\nRodzaj: laboratorium\nProwadzący: mgr
+  inż. Łazińska Magdalena\nNr zajęć: 14/16\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:88094d5dbe7ec971b00e8443@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270108T114000
+DTEND;TZID=Europe/Warsaw:20270108T131500
+SUMMARY:Ldy (L)
+LOCATION:bud. 34
+DESCRIPTION:Laboratorium dyplomowe\nRodzaj: laboratorium\nProwadzący: mgr
+  inż. Łazińska Magdalena\nNr zajęć: 15/16\nBlok: 3\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:5b75f5d211d1438b205bb830@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270111T080000
+DTEND;TZID=Europe/Warsaw:20270111T093500
+SUMMARY:Sd. (S)
+LOCATION:11/ 34
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Dworecka-Wójcik Julita\nNr zajęć: 13/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:bf085392dc9cb8760571d2a4@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270118T080000
+DTEND;TZID=Europe/Warsaw:20270118T093500
+SUMMARY:Sd. (S)
+LOCATION:11/ 34
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Dworecka-Wójcik Julita\nNr zajęć: 14/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2dcb4ca288496d6d2ba382d9@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270122T095000
+DTEND;TZID=Europe/Warsaw:20270122T112500
+SUMMARY:Ldy (L)
+LOCATION:bud. 34
+DESCRIPTION:Laboratorium dyplomowe\nRodzaj: laboratorium\nProwadzący: dr 
+ inż. Zasada Dariusz\nNr zajęć: 16/16\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f59a5b1947ccd6ce564bb37e@wat-plan
+DTSTAMP:20261118T134925Z
+DTSTART;TZID=Europe/Warsaw:20270125T080000
+DTEND;TZID=Europe/Warsaw:20270125T093500
+SUMMARY:Sd. (S)
+LOCATION:11/ 34
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Dworecka-Wójcik Julita\nNr zajęć: 15/15\nBlok: 1
+END:VEVENT
+END:VCALENDAR

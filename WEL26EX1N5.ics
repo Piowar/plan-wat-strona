@@ -1,0 +1,533 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WEL26EX1N5
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:d1e3ba53872535a91e35301e@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261010T080000
+DTEND;TZID=Europe/Warsaw:20261010T093500
+SUMMARY:GD (w)
+LOCATION:15 47
+DESCRIPTION:Godziny dyspozycyjne\nRodzaj: wykład\nProwadzący: dr inż. W
+ ojtuń Jarosław\nNr zajęć: 1/1\nBlok: 1\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:ad32eb693f566ce35859139f@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261010T095000
+DTEND;TZID=Europe/Warsaw:20261010T112500
+SUMMARY:Ttsp (w)
+LOCATION:15 47
+DESCRIPTION:Techniki i technologie w sieciach przewodowych\nRodzaj: wykła
+ d\nNr zajęć: 1/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:dede98006dddfe53f7ea214c@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261010T114000
+DTEND;TZID=Europe/Warsaw:20261010T131500
+SUMMARY:Ttsp (w)
+LOCATION:15 47
+DESCRIPTION:Techniki i technologie w sieciach przewodowych\nRodzaj: wykła
+ d\nNr zajęć: 2/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d6299515f4d98e05f1885778@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261010T133000
+DTEND;TZID=Europe/Warsaw:20261010T150500
+SUMMARY:Srad (w)
+LOCATION:15 47
+DESCRIPTION:Systemy radiokomunikacyjne\nRodzaj: wykład\nNr zajęć: 1/11\
+ nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:63596e9124ee8d931f6b5ac8@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261010T152000
+DTEND;TZID=Europe/Warsaw:20261010T165500
+SUMMARY:Srad (w)
+LOCATION:15 47
+DESCRIPTION:Systemy radiokomunikacyjne\nRodzaj: wykład\nNr zajęć: 2/11\
+ nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:e5fa4b28c9ede692d6335bf4@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261011T080000
+DTEND;TZID=Europe/Warsaw:20261011T093500
+SUMMARY:Ttsp (w)
+LOCATION:15 47
+DESCRIPTION:Techniki i technologie w sieciach przewodowych\nRodzaj: wykła
+ d\nNr zajęć: 3/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c12402c3e929c573256f80e8@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261011T095000
+DTEND;TZID=Europe/Warsaw:20261011T112500
+SUMMARY:Srad (w)
+LOCATION:15 47
+DESCRIPTION:Systemy radiokomunikacyjne\nRodzaj: wykład\nNr zajęć: 3/11\
+ nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e1d99dbaa3425c70d7bab91b@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261011T114000
+DTEND;TZID=Europe/Warsaw:20261011T131500
+SUMMARY:Srad (w)
+LOCATION:15 47
+DESCRIPTION:Systemy radiokomunikacyjne\nRodzaj: wykład\nNr zajęć: 4/11\
+ nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8e78357146b2378caa6dbf66@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261011T133000
+DTEND;TZID=Europe/Warsaw:20261011T150500
+SUMMARY:Srad (w)
+LOCATION:15 47
+DESCRIPTION:Systemy radiokomunikacyjne\nRodzaj: wykład\nNr zajęć: 5/11\
+ nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6235de0d29ee25a9f911e064@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261011T152000
+DTEND;TZID=Europe/Warsaw:20261011T165500
+SUMMARY:Srad (w)
+LOCATION:15 47
+DESCRIPTION:Systemy radiokomunikacyjne\nRodzaj: wykład\nNr zajęć: 6/11\
+ nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:3681da3850bce0fcbc734c92@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261121T080000
+DTEND;TZID=Europe/Warsaw:20261121T093500
+SUMMARY:Titws (w)
+LOCATION:15 47
+DESCRIPTION:Techniki i technologie współczesnych sieci teleinformatyczny
+ ch\nRodzaj: wykład\nProwadzący: dr inż. Jasiński Andrzej\nNr zajęć:
+  1/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b3ba1da69823fcabcd692cc1@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261121T095000
+DTEND;TZID=Europe/Warsaw:20261121T112500
+SUMMARY:Titws (w)
+LOCATION:15 47
+DESCRIPTION:Techniki i technologie współczesnych sieci teleinformatyczny
+ ch\nRodzaj: wykład\nProwadzący: dr inż. Jasiński Andrzej\nNr zajęć:
+  2/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:cdb04b89bfa4751a339b3594@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261121T114000
+DTEND;TZID=Europe/Warsaw:20261121T131500
+SUMMARY:Titws (w)
+LOCATION:15 47
+DESCRIPTION:Techniki i technologie współczesnych sieci teleinformatyczny
+ ch\nRodzaj: wykład\nProwadzący: dr inż. Jasiński Andrzej\nNr zajęć:
+  3/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:790ac6a8a45a83dd279a3d78@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261121T133000
+DTEND;TZID=Europe/Warsaw:20261121T150500
+SUMMARY:Srad (w)
+LOCATION:15 47
+DESCRIPTION:Systemy radiokomunikacyjne\nRodzaj: wykład\nNr zajęć: 7/11\
+ nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:19d81522517794b2341ad943@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261121T152000
+DTEND;TZID=Europe/Warsaw:20261121T165500
+SUMMARY:Srad (w)
+LOCATION:15 47
+DESCRIPTION:Systemy radiokomunikacyjne\nRodzaj: wykład\nNr zajęć: 8/11\
+ nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:85770d5e68ae65e7b9f6c35c@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261122T080000
+DTEND;TZID=Europe/Warsaw:20261122T093500
+SUMMARY:Srad (w)
+LOCATION:15 47
+DESCRIPTION:Systemy radiokomunikacyjne\nRodzaj: wykład\nNr zajęć: 9/11\
+ nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b5cc5334446ab3d6bac85cfa@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261122T095000
+DTEND;TZID=Europe/Warsaw:20261122T112500
+SUMMARY:Srad (w)
+LOCATION:15 47
+DESCRIPTION:Systemy radiokomunikacyjne\nRodzaj: wykład\nNr zajęć: 10/11
+ \nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5c3e051e74322bab036222d8@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261122T114000
+DTEND;TZID=Europe/Warsaw:20261122T131500
+SUMMARY:Titws (w)
+LOCATION:15 47
+DESCRIPTION:Techniki i technologie współczesnych sieci teleinformatyczny
+ ch\nRodzaj: wykład\nProwadzący: dr inż. Jasiński Andrzej\nNr zajęć:
+  4/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:61c4a777ccc64744c1b1ddad@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261122T133000
+DTEND;TZID=Europe/Warsaw:20261122T150500
+SUMMARY:Titws (L)
+LOCATION:119 47
+DESCRIPTION:Techniki i technologie współczesnych sieci teleinformatyczny
+ ch\nRodzaj: laboratorium\nNr zajęć: 1/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7b2fd1d91f382b5380316279@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261122T152000
+DTEND;TZID=Europe/Warsaw:20261122T165500
+SUMMARY:Titws (L)
+LOCATION:119 47
+DESCRIPTION:Techniki i technologie współczesnych sieci teleinformatyczny
+ ch\nRodzaj: laboratorium\nNr zajęć: 2/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:e3295c4266b5f033b1cd9a8c@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261212T080000
+DTEND;TZID=Europe/Warsaw:20261212T093500
+SUMMARY:Titws (w)
+LOCATION:15 47
+DESCRIPTION:Techniki i technologie współczesnych sieci teleinformatyczny
+ ch\nRodzaj: wykład\nProwadzący: dr inż. Jasiński Andrzej\nNr zajęć:
+  5/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:43b12bd2ab38c22335ce0d16@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261212T095000
+DTEND;TZID=Europe/Warsaw:20261212T112500
+SUMMARY:Titws (w)
+LOCATION:15 47
+DESCRIPTION:Techniki i technologie współczesnych sieci teleinformatyczny
+ ch\nRodzaj: wykład\nProwadzący: dr inż. Jasiński Andrzej\nNr zajęć:
+  6/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3d22678baf3c298e9d2d7d0f@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261212T114000
+DTEND;TZID=Europe/Warsaw:20261212T131500
+SUMMARY:Ttsp (w)
+LOCATION:128 47
+DESCRIPTION:Techniki i technologie w sieciach przewodowych\nRodzaj: wykła
+ d\nNr zajęć: 4/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:88981c5ea532ffa2df714cf0@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261212T133000
+DTEND;TZID=Europe/Warsaw:20261212T150500
+SUMMARY:Srad (w)
+LOCATION:15 47
+DESCRIPTION:Systemy radiokomunikacyjne\nRodzaj: wykład\nNr zajęć: 11/11
+ \nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:03aaa81c0ad001cc5403a6b2@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261212T152000
+DTEND;TZID=Europe/Warsaw:20261212T165500
+SUMMARY:Srad (L)
+LOCATION:115 47
+DESCRIPTION:Systemy radiokomunikacyjne\nRodzaj: laboratorium\nNr zajęć: 
+ 1/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:a0f3bcbfa53dee97127bb295@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261212T171000
+DTEND;TZID=Europe/Warsaw:20261212T184500
+SUMMARY:Srad (L)
+LOCATION:115 47
+DESCRIPTION:Systemy radiokomunikacyjne\nRodzaj: laboratorium\nNr zajęć: 
+ 2/6\nBlok: 6\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:0a9f84206db17e90ed699526@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261213T080000
+DTEND;TZID=Europe/Warsaw:20261213T093500
+SUMMARY:Srad (ć)
+LOCATION:15 47
+DESCRIPTION:Systemy radiokomunikacyjne\nRodzaj: ćwiczenia\nProwadzący: d
+ r hab inż. Michalak Jarosław\nNr zajęć: 1/2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:63fb05d87285a5facb9e8624@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261213T095000
+DTEND;TZID=Europe/Warsaw:20261213T112500
+SUMMARY:Srad (L)
+LOCATION:115 47
+DESCRIPTION:Systemy radiokomunikacyjne\nRodzaj: laboratorium\nNr zajęć: 
+ 3/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:28287b8901f0655364b9aff2@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261213T114000
+DTEND;TZID=Europe/Warsaw:20261213T131500
+SUMMARY:Ttsp (L)
+LOCATION:128 47
+DESCRIPTION:Techniki i technologie w sieciach przewodowych\nRodzaj: labora
+ torium\nNr zajęć: 1/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:933bdfe3cacfee62120988c6@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261213T133000
+DTEND;TZID=Europe/Warsaw:20261213T150500
+SUMMARY:Ttsp (L)
+LOCATION:128 47
+DESCRIPTION:Techniki i technologie w sieciach przewodowych\nRodzaj: labora
+ torium\nNr zajęć: 2/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2fbead1d67f266ae20bd9b9d@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261213T152000
+DTEND;TZID=Europe/Warsaw:20261213T165500
+SUMMARY:Titws (L)
+LOCATION:119 47
+DESCRIPTION:Techniki i technologie współczesnych sieci teleinformatyczny
+ ch\nRodzaj: laboratorium\nNr zajęć: 3/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:2a456787e7001ff730fa44cd@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261213T171000
+DTEND;TZID=Europe/Warsaw:20261213T184500
+SUMMARY:Titws (L)
+LOCATION:119 47
+DESCRIPTION:Techniki i technologie współczesnych sieci teleinformatyczny
+ ch\nRodzaj: laboratorium\nNr zajęć: 4/8\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:52c88d952f2068503dfad944@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270116T080000
+DTEND;TZID=Europe/Warsaw:20270116T093500
+SUMMARY:Ttsp (w)
+LOCATION:15 47
+DESCRIPTION:Techniki i technologie w sieciach przewodowych\nRodzaj: wykła
+ d\nNr zajęć: 5/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:22f45abcc42737074788dca0@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270116T095000
+DTEND;TZID=Europe/Warsaw:20270116T112500
+SUMMARY:Ttsp (w)
+LOCATION:15 47
+DESCRIPTION:Techniki i technologie w sieciach przewodowych\nRodzaj: wykła
+ d\nNr zajęć: 6/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:951acc590ae40b9a19ef77d9@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270116T114000
+DTEND;TZID=Europe/Warsaw:20270116T131500
+SUMMARY:Titws (L)
+LOCATION:119 47
+DESCRIPTION:Techniki i technologie współczesnych sieci teleinformatyczny
+ ch\nRodzaj: laboratorium\nNr zajęć: 5/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a3e8eec3bb768a7e9209a321@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270116T133000
+DTEND;TZID=Europe/Warsaw:20270116T150500
+SUMMARY:Titws (L)
+LOCATION:119 47
+DESCRIPTION:Techniki i technologie współczesnych sieci teleinformatyczny
+ ch\nRodzaj: laboratorium\nNr zajęć: 6/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1894e285b2ed8518051dcad9@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270116T152000
+DTEND;TZID=Europe/Warsaw:20270116T165500
+SUMMARY:Titws (S)
+LOCATION:117 47
+DESCRIPTION:Techniki i technologie współczesnych sieci teleinformatyczny
+ ch\nRodzaj: seminarium\nNr zajęć: 1/1\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:c497e9f9e1b298f172a6d906@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270117T080000
+DTEND;TZID=Europe/Warsaw:20270117T093500
+SUMMARY:Titws (L)
+LOCATION:119 47
+DESCRIPTION:Techniki i technologie współczesnych sieci teleinformatyczny
+ ch\nRodzaj: laboratorium\nNr zajęć: 7/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c223c41f474ae48d588eb626@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270117T095000
+DTEND;TZID=Europe/Warsaw:20270117T112500
+SUMMARY:Titws (L)
+LOCATION:119 47
+DESCRIPTION:Techniki i technologie współczesnych sieci teleinformatyczny
+ ch\nRodzaj: laboratorium\nNr zajęć: 8/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0d9910ab78f992aa4c06ce3a@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270117T114000
+DTEND;TZID=Europe/Warsaw:20270117T131500
+SUMMARY:Ttsp (L)
+LOCATION:119 47
+DESCRIPTION:Techniki i technologie w sieciach przewodowych\nRodzaj: labora
+ torium\nNr zajęć: 3/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d8bf5e34429cb53050bf9bb6@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270117T133000
+DTEND;TZID=Europe/Warsaw:20270117T150500
+SUMMARY:Ttsp (L)
+LOCATION:119 47
+DESCRIPTION:Techniki i technologie w sieciach przewodowych\nRodzaj: labora
+ torium\nNr zajęć: 4/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a62a77fd2513952a69106bed@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270117T152000
+DTEND;TZID=Europe/Warsaw:20270117T165500
+SUMMARY:Ttsp (S)
+LOCATION:117 47
+DESCRIPTION:Techniki i technologie w sieciach przewodowych\nRodzaj: semina
+ rium\nNr zajęć: 1/1\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:9b356913915591352f448bb4@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270220T080000
+DTEND;TZID=Europe/Warsaw:20270220T093500
+SUMMARY:Ttsp (w)
+LOCATION:15 47
+DESCRIPTION:Techniki i technologie w sieciach przewodowych\nRodzaj: wykła
+ d\nNr zajęć: 7/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:19c2f9b1a5fc00fc29f220e1@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270220T095000
+DTEND;TZID=Europe/Warsaw:20270220T112500
+SUMMARY:Ttsp (w)
+LOCATION:15 47
+DESCRIPTION:Techniki i technologie w sieciach przewodowych\nRodzaj: wykła
+ d\nNr zajęć: 8/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e682bd4e29518ce3650c1d06@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270220T114000
+DTEND;TZID=Europe/Warsaw:20270220T131500
+SUMMARY:Srad (L)
+LOCATION:22 75
+DESCRIPTION:Systemy radiokomunikacyjne\nRodzaj: laboratorium\nNr zajęć: 
+ 4/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f1d491d3b722af15851046a8@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270220T133000
+DTEND;TZID=Europe/Warsaw:20270220T150500
+SUMMARY:Srad (L)
+LOCATION:22 75
+DESCRIPTION:Systemy radiokomunikacyjne\nRodzaj: laboratorium\nNr zajęć: 
+ 5/6\nBlok: 4\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:9ef5c0ceb2eee05f468bb8ec@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270221T080000
+DTEND;TZID=Europe/Warsaw:20270221T093500
+SUMMARY:Ttsp (L)
+LOCATION:119 47
+DESCRIPTION:Techniki i technologie w sieciach przewodowych\nRodzaj: labora
+ torium\nNr zajęć: 5/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7d16f3a0c7902aea59eec582@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270221T095000
+DTEND;TZID=Europe/Warsaw:20270221T112500
+SUMMARY:Ttsp (L)
+LOCATION:119 47
+DESCRIPTION:Techniki i technologie w sieciach przewodowych\nRodzaj: labora
+ torium\nNr zajęć: 6/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:509285bc5bdae219f13aa002@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270221T114000
+DTEND;TZID=Europe/Warsaw:20270221T131500
+SUMMARY:Srad (ć)
+LOCATION:15 47
+DESCRIPTION:Systemy radiokomunikacyjne\nRodzaj: ćwiczenia\nProwadzący: d
+ r hab inż. Michalak Jarosław\nNr zajęć: 2/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7cbf0054ed6891cbfc447d18@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270221T133000
+DTEND;TZID=Europe/Warsaw:20270221T150500
+SUMMARY:Srad (L)
+LOCATION:115 47
+DESCRIPTION:Systemy radiokomunikacyjne\nRodzaj: laboratorium\nNr zajęć: 
+ 6/6\nBlok: 4
+END:VEVENT
+END:VCALENDAR

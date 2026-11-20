@@ -1,0 +1,2466 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WME24BO1S1
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:64ff7987744370dffde47347@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261001T080000
+DTEND;TZID=Europe/Warsaw:20261001T093500
+SUMMARY:GwIB (w)
+LOCATION:116/ 54
+DESCRIPTION:Grafika w inżynierii biomedycznej\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Grzelak Krzysztof\nNr zajęć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:38963a4926f8d914551e7798@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261001T095000
+DTEND;TZID=Europe/Warsaw:20261001T112500
+SUMMARY:PeK (w)
+LOCATION:20 46
+DESCRIPTION:Podstawy elektroniki kwantowej\nRodzaj: wykład\nProwadzący: 
+ prof. dr hab. inż. Żendzian Waldemar\nNr zajęć: 1/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2cfa54b53eb846f58b996384@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261001T114000
+DTEND;TZID=Europe/Warsaw:20261001T131500
+SUMMARY:Dso (w)
+LOCATION:20 46
+DESCRIPTION:Detekcja sygnałów optycznych\nRodzaj: wykład\nProwadzący: 
+ prof. dr hab. inż. Bielecki Zbigniew\nNr zajęć: 1/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4bd8cfb1aa351793fa4705c7@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261001T133000
+DTEND;TZID=Europe/Warsaw:20261001T150500
+SUMMARY:Dso (w)
+LOCATION:20 46
+DESCRIPTION:Detekcja sygnałów optycznych\nRodzaj: wykład\nProwadzący: 
+ prof. dr hab. inż. Bielecki Zbigniew\nNr zajęć: 2/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0d9a299225be7ff6f07fdec0@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261005T080000
+DTEND;TZID=Europe/Warsaw:20261005T093500
+SUMMARY:ZbM (w)
+LOCATION:13 71
+DESCRIPTION:Zastosowania biomateriałów w medycynie\nRodzaj: wykład\nPro
+ wadzący: dr Lewandowski Rafał\nNr zajęć: 1/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:44b09e4e410083a0dc1408f2@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261005T095000
+DTEND;TZID=Europe/Warsaw:20261005T112500
+SUMMARY:Swb (w)
+LOCATION:6/ 23A
+DESCRIPTION:Systemy wbudowane\nRodzaj: wykład\nProwadzący: dr hab. inż.
+  Murawski Krzysztof\nNr zajęć: 1/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e5935ed9e91968e5f522bbcf@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261005T114000
+DTEND;TZID=Europe/Warsaw:20261005T131500
+SUMMARY:Swb (w)
+LOCATION:6/ 23A
+DESCRIPTION:Systemy wbudowane\nRodzaj: wykład\nProwadzący: dr hab. inż.
+  Murawski Krzysztof\nNr zajęć: 2/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:bcdf008d39b3068db0c6d028@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261006T080000
+DTEND;TZID=Europe/Warsaw:20261006T093500
+SUMMARY:App (w)
+LOCATION:2.01/ 54A
+DESCRIPTION:Aspekty praktyczne projektowania uniwersalnego w obszarze tran
+ sportu indywidualnego\nRodzaj: wykład\nProwadzący: dr inż. Ziubiński 
+ Mateusz\nNr zajęć: 1/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:021af660704da395b531a476@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261006T095000
+DTEND;TZID=Europe/Warsaw:20261006T112500
+SUMMARY:ZbM (L)
+LOCATION:6 71\; A
+DESCRIPTION:Zastosowania biomateriałów w medycynie\nRodzaj: laboratorium
+ \nProwadzący: dr Lewandowski Rafał\nNr zajęć: 1/20\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c808489352fe155f1fba5655@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261006T114000
+DTEND;TZID=Europe/Warsaw:20261006T131500
+SUMMARY:ZbM (L)
+LOCATION:6 71\; A
+DESCRIPTION:Zastosowania biomateriałów w medycynie\nRodzaj: laboratorium
+ \nProwadzący: dr Lewandowski Rafał\nNr zajęć: 2/20\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9910892aaa71a98a4b444472@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261006T133000
+DTEND;TZID=Europe/Warsaw:20261006T150500
+SUMMARY:OPT (w)
+LOCATION:20 46
+DESCRIPTION:Optyka\nRodzaj: wykład\nProwadzący: prof. dr hab. inż. Jabc
+ zyński Jan\nNr zajęć: 1/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:35ccc55a04b57b0b38727057@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261006T160000
+DTEND;TZID=Europe/Warsaw:20261006T173500
+SUMMARY:Par (w)
+LOCATION:3/ 23A
+DESCRIPTION:Podstawy automatyki i robotyki\nRodzaj: wykład\nProwadzący: 
+ dr hab. inż.(prof. ucz.) Żardecki Dariusz\nNr zajęć: 1/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:5fc5d60f25742dfac2f7655a@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261007T095000
+DTEND;TZID=Europe/Warsaw:20261007T112500
+SUMMARY:ZbM (w)
+LOCATION:13 71
+DESCRIPTION:Zastosowania biomateriałów w medycynie\nRodzaj: wykład\nPro
+ wadzący: dr Lewandowski Rafał\nNr zajęć: 2/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a6db48e0c10a8b7993a068f5@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261007T114000
+DTEND;TZID=Europe/Warsaw:20261007T131500
+SUMMARY:Tmf (w)
+LOCATION:6/ 23A
+DESCRIPTION:Technika mikrofalowa\nRodzaj: wykład\nProwadzący: dr hab.in
+ ż. Szczepaniak Zenon\nNr zajęć: 1/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0cf70fb32bd37beb1bac2619@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261007T133000
+DTEND;TZID=Europe/Warsaw:20261007T150500
+SUMMARY:GwIB (w)
+LOCATION:116/ 54
+DESCRIPTION:Grafika w inżynierii biomedycznej\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Grzelak Krzysztof\nNr zajęć: 2/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:67ee6e9e078b272ed5810d6e@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261008T080000
+DTEND;TZID=Europe/Warsaw:20261008T093500
+SUMMARY:OPT (w)
+LOCATION:12 46
+DESCRIPTION:Optyka\nRodzaj: wykład\nProwadzący: prof. dr hab. inż. Jabc
+ zyński Jan\nNr zajęć: 2/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4f486122debf03ef023228c1@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261008T095000
+DTEND;TZID=Europe/Warsaw:20261008T112500
+SUMMARY:PeK (w)
+LOCATION:20 46
+DESCRIPTION:Podstawy elektroniki kwantowej\nRodzaj: wykład\nProwadzący: 
+ prof. dr hab. inż. Żendzian Waldemar\nNr zajęć: 2/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:97d893d5b921e031d3a26366@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261008T114000
+DTEND;TZID=Europe/Warsaw:20261008T131500
+SUMMARY:ZbM (L)
+LOCATION:6 71
+DESCRIPTION:Zastosowania biomateriałów w medycynie\nRodzaj: laboratorium
+ \nProwadzący: dr Lewandowski Rafał\nNr zajęć: 3/20\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d6d6f2331b34c92bef951b06@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261008T133000
+DTEND;TZID=Europe/Warsaw:20261008T150500
+SUMMARY:ZbM (L)
+LOCATION:6 71
+DESCRIPTION:Zastosowania biomateriałów w medycynie\nRodzaj: laboratorium
+ \nProwadzący: dr Lewandowski Rafał\nNr zajęć: 4/20\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:bdcbf794a2d63418f49a9161@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261012T080000
+DTEND;TZID=Europe/Warsaw:20261012T093500
+SUMMARY:ZbM (w)
+LOCATION:13 71
+DESCRIPTION:Zastosowania biomateriałów w medycynie\nRodzaj: wykład\nPro
+ wadzący: dr Lewandowski Rafał\nNr zajęć: 3/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9cee5d55e105a5963732d137@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261012T095000
+DTEND;TZID=Europe/Warsaw:20261012T112500
+SUMMARY:TeSM (w)
+DESCRIPTION:Techniki spektroskopii i obrazowania medycznego\nRodzaj: wykł
+ ad\nProwadzący: prof. dr hab. inż. Wachulak Przemysław\nNr zajęć: 1/
+ 10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c2c42ce356c06d5e74da3fde@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261013T080000
+DTEND;TZID=Europe/Warsaw:20261013T093500
+SUMMARY:App (w)
+LOCATION:2.01/ 54A
+DESCRIPTION:Aspekty praktyczne projektowania uniwersalnego w obszarze tran
+ sportu indywidualnego\nRodzaj: wykład\nProwadzący: dr inż. Ziubiński 
+ Mateusz\nNr zajęć: 2/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:42e0853c8e9d72b4f6b70f89@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261013T095000
+DTEND;TZID=Europe/Warsaw:20261013T112500
+SUMMARY:Par (w)
+LOCATION:3/ 23A
+DESCRIPTION:Podstawy automatyki i robotyki\nRodzaj: wykład\nProwadzący: 
+ dr hab. inż.(prof. ucz.) Żardecki Dariusz\nNr zajęć: 2/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:abeeea758fdcc9a3364efc68@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261013T114000
+DTEND;TZID=Europe/Warsaw:20261013T131500
+SUMMARY:ZbM (L)
+LOCATION:6 71\; A
+DESCRIPTION:Zastosowania biomateriałów w medycynie\nRodzaj: laboratorium
+ \nProwadzący: dr Lewandowski Rafał\nNr zajęć: 5/20\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1324372f9c2a239aa6fab56a@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261013T133000
+DTEND;TZID=Europe/Warsaw:20261013T150500
+SUMMARY:ZbM (L)
+LOCATION:6 71\; A
+DESCRIPTION:Zastosowania biomateriałów w medycynie\nRodzaj: laboratorium
+ \nProwadzący: dr Lewandowski Rafał\nNr zajęć: 6/20\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:bcdeaca2f72f6694fd9d8d91@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261014T080000
+DTEND;TZID=Europe/Warsaw:20261014T093500
+SUMMARY:ZbM (w)
+LOCATION:13 71
+DESCRIPTION:Zastosowania biomateriałów w medycynie\nRodzaj: wykład\nPro
+ wadzący: dr Lewandowski Rafał\nNr zajęć: 4/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ea6cf815a2134af00fe714e0@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261014T095000
+DTEND;TZID=Europe/Warsaw:20261014T112500
+SUMMARY:Dso (w)
+LOCATION:20 46
+DESCRIPTION:Detekcja sygnałów optycznych\nRodzaj: wykład\nProwadzący: 
+ prof. dr hab. inż. Bielecki Zbigniew\nNr zajęć: 3/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:420cd561e8f8c5b659b10bfe@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261014T114000
+DTEND;TZID=Europe/Warsaw:20261014T131500
+SUMMARY:Tmf (w)
+LOCATION:6/ 23A
+DESCRIPTION:Technika mikrofalowa\nRodzaj: wykład\nProwadzący: dr hab.in
+ ż. Szczepaniak Zenon\nNr zajęć: 2/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:871878f5544c045cec7028b0@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261015T114000
+DTEND;TZID=Europe/Warsaw:20261015T131500
+SUMMARY:ZbM (L)
+LOCATION:6 71
+DESCRIPTION:Zastosowania biomateriałów w medycynie\nRodzaj: laboratorium
+ \nProwadzący: dr Lewandowski Rafał\nNr zajęć: 7/20\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0e5b6ae4a67c099e5e7fe25f@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261015T133000
+DTEND;TZID=Europe/Warsaw:20261015T150500
+SUMMARY:ZbM (L)
+LOCATION:6 71
+DESCRIPTION:Zastosowania biomateriałów w medycynie\nRodzaj: laboratorium
+ \nProwadzący: dr Lewandowski Rafał\nNr zajęć: 8/20\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:28c0f94deb1854a90b3d270d@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261019T080000
+DTEND;TZID=Europe/Warsaw:20261019T093500
+SUMMARY:ZbM (w)
+LOCATION:13 71
+DESCRIPTION:Zastosowania biomateriałów w medycynie\nRodzaj: wykład\nPro
+ wadzący: dr Lewandowski Rafał\nNr zajęć: 5/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8cb7a2819f1c92d025439d65@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261019T095000
+DTEND;TZID=Europe/Warsaw:20261019T112500
+SUMMARY:TeSM (w)
+DESCRIPTION:Techniki spektroskopii i obrazowania medycznego\nRodzaj: wykł
+ ad\nProwadzący: prof. dr hab. inż. Wachulak Przemysław\nNr zajęć: 2/
+ 10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:86aeaf7f1075dffb8c7f634c@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261019T114000
+DTEND;TZID=Europe/Warsaw:20261019T131500
+SUMMARY:Swb (w)
+LOCATION:6/ 23A
+DESCRIPTION:Systemy wbudowane\nRodzaj: wykład\nProwadzący: dr hab. inż.
+  Murawski Krzysztof\nNr zajęć: 3/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c589c7c6b7b651cb3e9eb33c@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261019T133000
+DTEND;TZID=Europe/Warsaw:20261019T150500
+SUMMARY:Swb (w)
+LOCATION:6/ 23A
+DESCRIPTION:Systemy wbudowane\nRodzaj: wykład\nProwadzący: dr hab. inż.
+  Murawski Krzysztof\nNr zajęć: 4/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:24b176e70013d8ea06492267@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261019T160000
+DTEND;TZID=Europe/Warsaw:20261019T173500
+SUMMARY:App (L)
+LOCATION:7/ 23A\;6/ 23A\;5/ 23A\; Zam.M.\; Gaj.O\; Król.B
+DESCRIPTION:Aspekty praktyczne projektowania uniwersalnego w obszarze tran
+ sportu indywidualnego\nRodzaj: laboratorium\nNr zajęć: 1/12\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:07eac84fe63e3a18aad56f95@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261019T175000
+DTEND;TZID=Europe/Warsaw:20261019T192500
+SUMMARY:App (L)
+LOCATION:5/ 23A
+DESCRIPTION:Aspekty praktyczne projektowania uniwersalnego w obszarze tran
+ sportu indywidualnego\nRodzaj: laboratorium\nProwadzący: mgr inż. Gajda
+  Olga\nNr zajęć: 2/12\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:0ff99001cc72d27c9ea5b361@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261020T080000
+DTEND;TZID=Europe/Warsaw:20261020T093500
+SUMMARY:App (w)
+LOCATION:2.01/ 54A
+DESCRIPTION:Aspekty praktyczne projektowania uniwersalnego w obszarze tran
+ sportu indywidualnego\nRodzaj: wykład\nProwadzący: dr inż. Ziubiński 
+ Mateusz\nNr zajęć: 3/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:434b98ebdc86f1b43470c902@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261020T114000
+DTEND;TZID=Europe/Warsaw:20261020T131500
+SUMMARY:ZbM (L)
+LOCATION:6 71\; A
+DESCRIPTION:Zastosowania biomateriałów w medycynie\nRodzaj: laboratorium
+ \nProwadzący: dr Lewandowski Rafał\nNr zajęć: 9/20\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:307e55f41d45d175c3c6b943@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261020T133000
+DTEND;TZID=Europe/Warsaw:20261020T150500
+SUMMARY:ZbM (L)
+LOCATION:6 71\; A
+DESCRIPTION:Zastosowania biomateriałów w medycynie\nRodzaj: laboratorium
+ \nProwadzący: dr Lewandowski Rafał\nNr zajęć: 10/20\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ea22a60cc2ab30cdc644110b@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261021T114000
+DTEND;TZID=Europe/Warsaw:20261021T131500
+SUMMARY:Dso (w)
+LOCATION:27 70
+DESCRIPTION:Detekcja sygnałów optycznych\nRodzaj: wykład\nProwadzący: 
+ prof. dr hab. inż. Bielecki Zbigniew\nNr zajęć: 4/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6e927b61a58f2ae53dbe11cd@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261021T133000
+DTEND;TZID=Europe/Warsaw:20261021T150500
+SUMMARY:ZbM (w)
+LOCATION:13 71
+DESCRIPTION:Zastosowania biomateriałów w medycynie\nRodzaj: wykład\nPro
+ wadzący: dr Lewandowski Rafał\nNr zajęć: 6/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4b4e1f7f41d3184a29202aaa@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261022T080000
+DTEND;TZID=Europe/Warsaw:20261022T093500
+SUMMARY:GwIB (ć)
+LOCATION:29/ 54
+DESCRIPTION:Grafika w inżynierii biomedycznej\nRodzaj: ćwiczenia\nProwad
+ zący: dr inż. Łuszczek Jakub\nNr zajęć: 1/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b5fed1e4f5a68cbd0b453643@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261022T095000
+DTEND;TZID=Europe/Warsaw:20261022T112500
+SUMMARY:GwIB (ć)
+LOCATION:29/ 54
+DESCRIPTION:Grafika w inżynierii biomedycznej\nRodzaj: ćwiczenia\nProwad
+ zący: dr inż. Łuszczek Jakub\nNr zajęć: 2/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:07fd1b795858283c2b0fcfdc@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261022T114000
+DTEND;TZID=Europe/Warsaw:20261022T131500
+SUMMARY:ZbM (L)
+LOCATION:6 71
+DESCRIPTION:Zastosowania biomateriałów w medycynie\nRodzaj: laboratorium
+ \nProwadzący: dr Lewandowski Rafał\nNr zajęć: 11/20\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8daec2cc5b17634087e48939@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261022T133000
+DTEND;TZID=Europe/Warsaw:20261022T150500
+SUMMARY:ZbM (L)
+LOCATION:6 71
+DESCRIPTION:Zastosowania biomateriałów w medycynie\nRodzaj: laboratorium
+ \nProwadzący: dr Lewandowski Rafał\nNr zajęć: 12/20\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ec72083694c3e985113d3f02@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261026T080000
+DTEND;TZID=Europe/Warsaw:20261026T093500
+SUMMARY:ZbM (w)
+LOCATION:13 71
+DESCRIPTION:Zastosowania biomateriałów w medycynie\nRodzaj: wykład\nPro
+ wadzący: dr Lewandowski Rafał\nNr zajęć: 7/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ce14a1d54a2c6e890e879112@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261026T095000
+DTEND;TZID=Europe/Warsaw:20261026T112500
+SUMMARY:TeSM (w)
+DESCRIPTION:Techniki spektroskopii i obrazowania medycznego\nRodzaj: wykł
+ ad\nProwadzący: prof. dr hab. inż. Wachulak Przemysław\nNr zajęć: 3/
+ 10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3796c714bdfa9f76c763672b@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261026T114000
+DTEND;TZID=Europe/Warsaw:20261026T131500
+SUMMARY:PeK (w)
+LOCATION:21 46
+DESCRIPTION:Podstawy elektroniki kwantowej\nRodzaj: wykład\nProwadzący: 
+ prof. dr hab. inż. Żendzian Waldemar\nNr zajęć: 3/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:402ef22644b612d3fbe0a28d@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261026T133000
+DTEND;TZID=Europe/Warsaw:20261026T150500
+SUMMARY:OPT (w)
+LOCATION:12 46
+DESCRIPTION:Optyka\nRodzaj: wykład\nProwadzący: prof. dr hab. inż. Jabc
+ zyński Jan\nNr zajęć: 3/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:69aff955855b319856e093d4@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261026T160000
+DTEND;TZID=Europe/Warsaw:20261026T173500
+SUMMARY:App (L)
+LOCATION:7/ 23A\;5/ 23A\;6/ 23A\; Zam.M.\; Gaj.O\; Król.B
+DESCRIPTION:Aspekty praktyczne projektowania uniwersalnego w obszarze tran
+ sportu indywidualnego\nRodzaj: laboratorium\nNr zajęć: 3/12\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f6ddc1560cca59d064a56542@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261026T175000
+DTEND;TZID=Europe/Warsaw:20261026T192500
+SUMMARY:App (L)
+LOCATION:5/ 23A
+DESCRIPTION:Aspekty praktyczne projektowania uniwersalnego w obszarze tran
+ sportu indywidualnego\nRodzaj: laboratorium\nProwadzący: mgr inż. Gajda
+  Olga\nNr zajęć: 4/12\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:6ffc93daa17bbacb762c4351@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261027T080000
+DTEND;TZID=Europe/Warsaw:20261027T093500
+SUMMARY:App (w)
+LOCATION:2.01/ 54A
+DESCRIPTION:Aspekty praktyczne projektowania uniwersalnego w obszarze tran
+ sportu indywidualnego\nRodzaj: wykład\nProwadzący: dr inż. Ziubiński 
+ Mateusz\nNr zajęć: 4/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:dc2f767c5df60449caf7ae28@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261027T095000
+DTEND;TZID=Europe/Warsaw:20261027T112500
+SUMMARY:Par (w)
+LOCATION:3/ 23A
+DESCRIPTION:Podstawy automatyki i robotyki\nRodzaj: wykład\nProwadzący: 
+ dr hab. inż.(prof. ucz.) Żardecki Dariusz\nNr zajęć: 3/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:fb94c98ea11b105a38960ff4@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261027T114000
+DTEND;TZID=Europe/Warsaw:20261027T131500
+SUMMARY:ZbM (L)
+LOCATION:6 71\; A
+DESCRIPTION:Zastosowania biomateriałów w medycynie\nRodzaj: laboratorium
+ \nProwadzący: dr Lewandowski Rafał\nNr zajęć: 13/20\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d68774216ad8291d67b8fa3f@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261027T133000
+DTEND;TZID=Europe/Warsaw:20261027T150500
+SUMMARY:ZbM (L)
+LOCATION:6 71\; A
+DESCRIPTION:Zastosowania biomateriałów w medycynie\nRodzaj: laboratorium
+ \nProwadzący: dr Lewandowski Rafał\nNr zajęć: 14/20\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1e3aba173f6a197afc0471b6@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261028T095000
+DTEND;TZID=Europe/Warsaw:20261028T112500
+SUMMARY:OPT (w)
+LOCATION:20 46
+DESCRIPTION:Optyka\nRodzaj: wykład\nProwadzący: prof. dr hab. inż. Jabc
+ zyński Jan\nNr zajęć: 4/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7a2f276dc13d0bce199b929f@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261028T114000
+DTEND;TZID=Europe/Warsaw:20261028T131500
+SUMMARY:Tmf (w)
+LOCATION:6/ 23A
+DESCRIPTION:Technika mikrofalowa\nRodzaj: wykład\nProwadzący: dr hab.in
+ ż. Szczepaniak Zenon\nNr zajęć: 3/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4dfb6b9acd5aa0157bf0f1bc@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261028T133000
+DTEND;TZID=Europe/Warsaw:20261028T150500
+SUMMARY:ZbM (w)
+LOCATION:13 71
+DESCRIPTION:Zastosowania biomateriałów w medycynie\nRodzaj: wykład\nPro
+ wadzący: dr Lewandowski Rafał\nNr zajęć: 8/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:835e2ce3ca0142af3d33d7b1@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261029T080000
+DTEND;TZID=Europe/Warsaw:20261029T093500
+SUMMARY:GwIB (ć)
+LOCATION:29/ 54
+DESCRIPTION:Grafika w inżynierii biomedycznej\nRodzaj: ćwiczenia\nProwad
+ zący: dr inż. Łuszczek Jakub\nNr zajęć: 3/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:de50ec3e0bfd4cab76080bfb@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261029T095000
+DTEND;TZID=Europe/Warsaw:20261029T112500
+SUMMARY:GwIB (ć)
+LOCATION:29/ 54
+DESCRIPTION:Grafika w inżynierii biomedycznej\nRodzaj: ćwiczenia\nProwad
+ zący: dr inż. Łuszczek Jakub\nNr zajęć: 4/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f7ceb45fdd39f0f1c7fbdbaa@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261029T114000
+DTEND;TZID=Europe/Warsaw:20261029T131500
+SUMMARY:ZbM (L)
+LOCATION:6 71
+DESCRIPTION:Zastosowania biomateriałów w medycynie\nRodzaj: laboratorium
+ \nProwadzący: dr Lewandowski Rafał\nNr zajęć: 15/20\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ef838e51be54aadc2a3d778d@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261029T133000
+DTEND;TZID=Europe/Warsaw:20261029T150500
+SUMMARY:ZbM (L)
+LOCATION:6 71
+DESCRIPTION:Zastosowania biomateriałów w medycynie\nRodzaj: laboratorium
+ \nProwadzący: dr Lewandowski Rafał\nNr zajęć: 16/20\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c91b71c45dde71e725ad7328@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261102T080000
+DTEND;TZID=Europe/Warsaw:20261102T093500
+SUMMARY:ZbM (w)
+LOCATION:13 71
+DESCRIPTION:Zastosowania biomateriałów w medycynie\nRodzaj: wykład\nPro
+ wadzący: dr Lewandowski Rafał\nNr zajęć: 9/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:72a05b6426441ff56532d685@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261102T095000
+DTEND;TZID=Europe/Warsaw:20261102T112500
+SUMMARY:TeSM (w)
+DESCRIPTION:Techniki spektroskopii i obrazowania medycznego\nRodzaj: wykł
+ ad\nProwadzący: prof. dr hab. inż. Wachulak Przemysław\nNr zajęć: 4/
+ 10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9d82437f564db43757a7475f@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261102T114000
+DTEND;TZID=Europe/Warsaw:20261102T131500
+SUMMARY:Swb (w)
+LOCATION:6/ 23A
+DESCRIPTION:Systemy wbudowane\nRodzaj: wykład\nProwadzący: dr hab. inż.
+  Murawski Krzysztof\nNr zajęć: 5/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2d99d60c9814f18d2d7b860f@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261102T133000
+DTEND;TZID=Europe/Warsaw:20261102T150500
+SUMMARY:Swb (w)
+LOCATION:6/ 23A
+DESCRIPTION:Systemy wbudowane\nRodzaj: wykład\nProwadzący: dr hab. inż.
+  Murawski Krzysztof\nNr zajęć: 6/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:eb1a672e1a21a988c084660b@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261102T160000
+DTEND;TZID=Europe/Warsaw:20261102T173500
+SUMMARY:GwIB (w)
+LOCATION:3/ 54
+DESCRIPTION:Grafika w inżynierii biomedycznej\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Grzelak Krzysztof\nNr zajęć: 3/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:b405817fa4b0d457931b9812@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261103T080000
+DTEND;TZID=Europe/Warsaw:20261103T093500
+SUMMARY:App (w)
+LOCATION:2.01/ 54A
+DESCRIPTION:Aspekty praktyczne projektowania uniwersalnego w obszarze tran
+ sportu indywidualnego\nRodzaj: wykład\nProwadzący: dr inż. Ziubiński 
+ Mateusz\nNr zajęć: 5/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:385229a26751ee8cf0df0488@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261103T095000
+DTEND;TZID=Europe/Warsaw:20261103T112500
+SUMMARY:Par (ć)
+LOCATION:3/ 23A
+DESCRIPTION:Podstawy automatyki i robotyki\nRodzaj: ćwiczenia\nProwadząc
+ y: dr inż. Dębowski Andrzej\nNr zajęć: 1/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ee8dd157763c6ad2a85f5db8@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261103T114000
+DTEND;TZID=Europe/Warsaw:20261103T131500
+SUMMARY:ZbM (L)
+LOCATION:6 71\; A
+DESCRIPTION:Zastosowania biomateriałów w medycynie\nRodzaj: laboratorium
+ \nProwadzący: dr Lewandowski Rafał\nNr zajęć: 17/20\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9e5d43c365370ea73b1607b3@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261103T133000
+DTEND;TZID=Europe/Warsaw:20261103T150500
+SUMMARY:ZbM (L)
+LOCATION:6 71\; A
+DESCRIPTION:Zastosowania biomateriałów w medycynie\nRodzaj: laboratorium
+ \nProwadzący: dr Lewandowski Rafał\nNr zajęć: 18/20\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a6c9a9c84216ed646c684ef1@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261103T160000
+DTEND;TZID=Europe/Warsaw:20261103T173500
+SUMMARY:Par (w)
+LOCATION:6/ 23A
+DESCRIPTION:Podstawy automatyki i robotyki\nRodzaj: wykład\nProwadzący: 
+ dr hab. inż.(prof. ucz.) Żardecki Dariusz\nNr zajęć: 4/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f2a81097aa1beabefe9852ba@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261104T080000
+DTEND;TZID=Europe/Warsaw:20261104T093500
+SUMMARY:PeK (w)
+LOCATION:21 46
+DESCRIPTION:Podstawy elektroniki kwantowej\nRodzaj: wykład\nProwadzący: 
+ prof. dr hab. inż. Żendzian Waldemar\nNr zajęć: 4/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8338c6c08ac527b2b654b431@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261104T095000
+DTEND;TZID=Europe/Warsaw:20261104T112500
+SUMMARY:TeSM (w)
+LOCATION:20 46
+DESCRIPTION:Techniki spektroskopii i obrazowania medycznego\nRodzaj: wykł
+ ad\nProwadzący: dr hab. inż. (prof. ucz.) Jankiewicz Bartłomiej\nNr za
+ jęć: 5/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8619d0bbb97154b15416cf88@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261104T114000
+DTEND;TZID=Europe/Warsaw:20261104T131500
+SUMMARY:Tmf (w)
+LOCATION:6/ 23A
+DESCRIPTION:Technika mikrofalowa\nRodzaj: wykład\nProwadzący: dr hab.in
+ ż. Szczepaniak Zenon\nNr zajęć: 4/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:86ea12c04d6b2c6fb9c9e338@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261104T133000
+DTEND;TZID=Europe/Warsaw:20261104T150500
+SUMMARY:ZbM (w)
+LOCATION:13 71
+DESCRIPTION:Zastosowania biomateriałów w medycynie\nRodzaj: wykład\nPro
+ wadzący: dr Lewandowski Rafał\nNr zajęć: 10/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2902a0107267bf558797a89b@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261105T080000
+DTEND;TZID=Europe/Warsaw:20261105T093500
+SUMMARY:GwIB (ć)
+LOCATION:29/ 54
+DESCRIPTION:Grafika w inżynierii biomedycznej\nRodzaj: ćwiczenia\nProwad
+ zący: dr inż. Łuszczek Jakub\nNr zajęć: 5/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9468561c33c1c1458d55b2f7@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261105T095000
+DTEND;TZID=Europe/Warsaw:20261105T112500
+SUMMARY:GwIB (ć)
+LOCATION:29/ 54
+DESCRIPTION:Grafika w inżynierii biomedycznej\nRodzaj: ćwiczenia\nProwad
+ zący: dr inż. Łuszczek Jakub\nNr zajęć: 6/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:aa3369070942c9c24fbfb63c@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261105T114000
+DTEND;TZID=Europe/Warsaw:20261105T131500
+SUMMARY:ZbM (L)
+LOCATION:6 71
+DESCRIPTION:Zastosowania biomateriałów w medycynie\nRodzaj: laboratorium
+ \nProwadzący: dr Lewandowski Rafał\nNr zajęć: 19/20\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0a2bc08b7c877d78ab2a57dc@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261105T133000
+DTEND;TZID=Europe/Warsaw:20261105T150500
+SUMMARY:ZbM (L)
+LOCATION:6 71
+DESCRIPTION:Zastosowania biomateriałów w medycynie\nRodzaj: laboratorium
+ \nProwadzący: dr Lewandowski Rafał\nNr zajęć: 20/20\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b9bb315f3b2f1779a66b5b99@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261105T160000
+DTEND;TZID=Europe/Warsaw:20261105T173500
+SUMMARY:GwIB (ć)
+LOCATION:29/ 54
+DESCRIPTION:Grafika w inżynierii biomedycznej\nRodzaj: ćwiczenia\nProwad
+ zący: dr inż. Kluczyński Janusz\nNr zajęć: 7/12\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:944131236c3bb81b4ce30f53@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261109T095000
+DTEND;TZID=Europe/Warsaw:20261109T112500
+SUMMARY:TeSM (w)
+DESCRIPTION:Techniki spektroskopii i obrazowania medycznego\nRodzaj: wykł
+ ad\nProwadzący: prof. dr hab. inż. Wachulak Przemysław\nNr zajęć: 6/
+ 10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:00f091b6ea80577a6f29991e@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261109T114000
+DTEND;TZID=Europe/Warsaw:20261109T131500
+SUMMARY:Tmf (ć)
+LOCATION:27 61
+DESCRIPTION:Technika mikrofalowa\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Rutkowski Adam\nNr zajęć: 1/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b680f05aaf321706d57bdcef@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261109T133000
+DTEND;TZID=Europe/Warsaw:20261109T150500
+SUMMARY:App (L)
+LOCATION:3/ 23A\;7/ 23A\; Pog.I\; Dęb.A\; Gaj.O
+DESCRIPTION:Aspekty praktyczne projektowania uniwersalnego w obszarze tran
+ sportu indywidualnego\nRodzaj: laboratorium\nNr zajęć: 5/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e3c2ede71e06873010720a36@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261109T160000
+DTEND;TZID=Europe/Warsaw:20261109T173500
+SUMMARY:App (L)
+LOCATION:3/ 23A\;7/ 23A\; Pog.I\; Dęb.A\; Gaj.O
+DESCRIPTION:Aspekty praktyczne projektowania uniwersalnego w obszarze tran
+ sportu indywidualnego\nRodzaj: laboratorium\nNr zajęć: 6/12\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:bc7d33dc861f17c3e5b3f9c4@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261109T175000
+DTEND;TZID=Europe/Warsaw:20261109T192500
+SUMMARY:App (L)
+LOCATION:5/ 23A\;6/ 23A\;7/ 23A
+DESCRIPTION:Aspekty praktyczne projektowania uniwersalnego w obszarze tran
+ sportu indywidualnego\nRodzaj: laboratorium\nProwadzący: mgr Zamolska Mo
+ nika\; mgr inż. Król Barbara\nNr zajęć: 7/12\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:040779d4aa306f820274cb82@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261110T080000
+DTEND;TZID=Europe/Warsaw:20261110T093500
+SUMMARY:App (w)
+LOCATION:2.01/ 54A
+DESCRIPTION:Aspekty praktyczne projektowania uniwersalnego w obszarze tran
+ sportu indywidualnego\nRodzaj: wykład\nProwadzący: dr inż. Ziubiński 
+ Mateusz\nNr zajęć: 6/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0909dd69af1bcf241f872654@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261110T095000
+DTEND;TZID=Europe/Warsaw:20261110T112500
+SUMMARY:Par (w)
+LOCATION:3/ 23A
+DESCRIPTION:Podstawy automatyki i robotyki\nRodzaj: wykład\nProwadzący: 
+ dr hab. inż.(prof. ucz.) Żardecki Dariusz\nNr zajęć: 5/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2ab10274f71507e7ed1ac618@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261110T114000
+DTEND;TZID=Europe/Warsaw:20261110T131500
+SUMMARY:Swb (L)
+LOCATION:09 65
+DESCRIPTION:Systemy wbudowane\nRodzaj: laboratorium\nProwadzący: mgr inż
+ . Goluch Marcin\nNr zajęć: 1/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:48d47be4ab19916311e387c1@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261110T133000
+DTEND;TZID=Europe/Warsaw:20261110T150500
+SUMMARY:Swb (L)
+LOCATION:09 65
+DESCRIPTION:Systemy wbudowane\nRodzaj: laboratorium\nProwadzący: mgr inż
+ . Goluch Marcin\nNr zajęć: 2/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4c6f84eb9394e88a63d28a61@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261112T080000
+DTEND;TZID=Europe/Warsaw:20261112T093500
+SUMMARY:GwIB (ć)
+LOCATION:29/ 54
+DESCRIPTION:Grafika w inżynierii biomedycznej\nRodzaj: ćwiczenia\nProwad
+ zący: dr inż. Łuszczek Jakub\nNr zajęć: 8/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:258e89f2736f45306e8b23b9@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261112T095000
+DTEND;TZID=Europe/Warsaw:20261112T112500
+SUMMARY:PeK (w)
+LOCATION:20 46
+DESCRIPTION:Podstawy elektroniki kwantowej\nRodzaj: wykład\nProwadzący: 
+ prof. dr hab. inż. Żendzian Waldemar\nNr zajęć: 5/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:643a97309b22a2c13fe1264d@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261112T114000
+DTEND;TZID=Europe/Warsaw:20261112T131500
+SUMMARY:OPT (w)
+LOCATION:20 46
+DESCRIPTION:Optyka\nRodzaj: wykład\nProwadzący: prof. dr hab. inż. Jabc
+ zyński Jan\nNr zajęć: 5/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a076a1e6ac15ed50c8c169fc@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261112T133000
+DTEND;TZID=Europe/Warsaw:20261112T150500
+SUMMARY:OPT (ć)
+LOCATION:20 46
+DESCRIPTION:Optyka\nRodzaj: ćwiczenia\nProwadzący: dr inż. Gorajek Łuk
+ asz\nNr zajęć: 1/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6460bbcb701937e958af8030@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261116T095000
+DTEND;TZID=Europe/Warsaw:20261116T112500
+SUMMARY:TeSM (ć)
+DESCRIPTION:Techniki spektroskopii i obrazowania medycznego\nRodzaj: ćwic
+ zenia\nProwadzący: prof. dr hab. inż. Wachulak Przemysław\nNr zajęć:
+  1/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0ab976fdf83f5318cd35e5c9@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261116T114000
+DTEND;TZID=Europe/Warsaw:20261116T131500
+SUMMARY:Par (ć)
+LOCATION:5/ 23A
+DESCRIPTION:Podstawy automatyki i robotyki\nRodzaj: ćwiczenia\nProwadząc
+ y: dr inż. Dębowski Andrzej\nNr zajęć: 2/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6539f8494ccdd6a085839794@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261116T133000
+DTEND;TZID=Europe/Warsaw:20261116T150500
+SUMMARY:App (S)
+LOCATION:6/ 23A
+DESCRIPTION:Aspekty praktyczne projektowania uniwersalnego w obszarze tran
+ sportu indywidualnego\nRodzaj: seminarium\nProwadzący: dr hab. inż.(pro
+ f. ucz.) Żardecki Dariusz\nNr zajęć: 1/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:01c1dc657f5f059998fcba13@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261117T080000
+DTEND;TZID=Europe/Warsaw:20261117T093500
+SUMMARY:App (w)
+LOCATION:2.01/ 54A
+DESCRIPTION:Aspekty praktyczne projektowania uniwersalnego w obszarze tran
+ sportu indywidualnego\nRodzaj: wykład\nProwadzący: dr inż. Ziubiński 
+ Mateusz\nNr zajęć: 7/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0ce44891c006bb482370830b@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261117T095000
+DTEND;TZID=Europe/Warsaw:20261117T112500
+SUMMARY:Par (L)
+LOCATION:4/ 23A\;14/ 23A
+DESCRIPTION:Podstawy automatyki i robotyki\nRodzaj: laboratorium\nProwadz
+ ący: mgr inż. Michałowski Bogusław\; dr inż. Wiśniewski Andrzej\nNr
+  zajęć: 1/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d8e6f11dfe798d487f3648dd@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261117T114000
+DTEND;TZID=Europe/Warsaw:20261117T131500
+SUMMARY:Par (L)
+LOCATION:4/ 23A
+DESCRIPTION:Podstawy automatyki i robotyki\nRodzaj: laboratorium\nProwadz
+ ący: mgr inż. Pogorzelski Ireneusz\nNr zajęć: 2/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d1887585187a3fa4635078c5@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261117T133000
+DTEND;TZID=Europe/Warsaw:20261117T150500
+SUMMARY:PeK (ć)
+LOCATION:21 46
+DESCRIPTION:Podstawy elektroniki kwantowej\nRodzaj: ćwiczenia\nProwadząc
+ y: dr hab. inż. (prof. ucz.) Kwiatkowski Jacek\nNr zajęć: 1/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a137050487d0191468a002d3@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261118T080000
+DTEND;TZID=Europe/Warsaw:20261118T093500
+SUMMARY:OPT (w)
+LOCATION:21 46
+DESCRIPTION:Optyka\nRodzaj: wykład\nProwadzący: prof. dr hab. inż. Jabc
+ zyński Jan\nNr zajęć: 6/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2143bd3906024f6392c21726@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261118T114000
+DTEND;TZID=Europe/Warsaw:20261118T131500
+SUMMARY:GwIB (L)
+LOCATION:9/ 54\;18/ 54
+DESCRIPTION:Grafika w inżynierii biomedycznej\nRodzaj: laboratorium\nProw
+ adzący: dr inż. Grzelak Krzysztof\nNr zajęć: 1/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:569681e0e666605d783bb73a@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261118T133000
+DTEND;TZID=Europe/Warsaw:20261118T150500
+SUMMARY:Tmf (w)
+LOCATION:6/ 23A
+DESCRIPTION:Technika mikrofalowa\nRodzaj: wykład\nProwadzący: dr hab.in
+ ż. Szczepaniak Zenon\nNr zajęć: 5/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c3817418593cf068a80c9882@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261123T095000
+DTEND;TZID=Europe/Warsaw:20261123T112500
+SUMMARY:TeSM (ć)
+DESCRIPTION:Techniki spektroskopii i obrazowania medycznego\nRodzaj: ćwic
+ zenia\nProwadzący: prof. dr hab. inż. Wachulak Przemysław\nNr zajęć:
+  2/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7f98879a6c2bdbf9004f7c1a@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261123T114000
+DTEND;TZID=Europe/Warsaw:20261123T131500
+SUMMARY:Tmf (ć)
+LOCATION:27 61
+DESCRIPTION:Technika mikrofalowa\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Rutkowski Adam\nNr zajęć: 2/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2dbd52a5679c900feddef8ad@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261123T133000
+DTEND;TZID=Europe/Warsaw:20261123T150500
+SUMMARY:Par (ć)
+LOCATION:5/ 23A
+DESCRIPTION:Podstawy automatyki i robotyki\nRodzaj: ćwiczenia\nProwadząc
+ y: dr inż. Dębowski Andrzej\nNr zajęć: 3/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:728cdce1e93bf4e48397708a@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261123T160000
+DTEND;TZID=Europe/Warsaw:20261123T173500
+SUMMARY:App (S)
+LOCATION:6/ 23A
+DESCRIPTION:Aspekty praktyczne projektowania uniwersalnego w obszarze tran
+ sportu indywidualnego\nRodzaj: seminarium\nProwadzący: dr hab. inż.(pro
+ f. ucz.) Żardecki Dariusz\nNr zajęć: 2/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:31d1c40707f87e50c531e6db@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261124T080000
+DTEND;TZID=Europe/Warsaw:20261124T093500
+SUMMARY:TeSM (w)
+LOCATION:12 46
+DESCRIPTION:Techniki spektroskopii i obrazowania medycznego\nRodzaj: wykł
+ ad\nProwadzący: dr Bombalska Aneta\nNr zajęć: 7/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:fd8bb7e6ff3ff35c12c509bc@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261124T095000
+DTEND;TZID=Europe/Warsaw:20261124T112500
+SUMMARY:Par (w)
+LOCATION:3/ 23A
+DESCRIPTION:Podstawy automatyki i robotyki\nRodzaj: wykład\nProwadzący: 
+ dr hab. inż.(prof. ucz.) Żardecki Dariusz\nNr zajęć: 6/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b2a719211c3495b8afacd3f4@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261124T114000
+DTEND;TZID=Europe/Warsaw:20261124T131500
+SUMMARY:Par (w)
+LOCATION:3/ 23A
+DESCRIPTION:Podstawy automatyki i robotyki\nRodzaj: wykład\nProwadzący: 
+ dr hab. inż.(prof. ucz.) Żardecki Dariusz\nNr zajęć: 7/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9e60b2da061ebf87a5defe4a@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261124T133000
+DTEND;TZID=Europe/Warsaw:20261124T150500
+SUMMARY:PeK (ć)
+LOCATION:21 46
+DESCRIPTION:Podstawy elektroniki kwantowej\nRodzaj: ćwiczenia\nProwadząc
+ y: dr hab. inż. (prof. ucz.) Kwiatkowski Jacek\nNr zajęć: 2/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:14d03b2c5cbcf3fcb184d1c6@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261125T080000
+DTEND;TZID=Europe/Warsaw:20261125T093500
+SUMMARY:Dso (w)
+LOCATION:20 46
+DESCRIPTION:Detekcja sygnałów optycznych\nRodzaj: wykład\nProwadzący: 
+ prof. dr hab. inż. Bielecki Zbigniew\nNr zajęć: 5/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:df2fce91eae3aa7f170eab32@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261125T095000
+DTEND;TZID=Europe/Warsaw:20261125T112500
+SUMMARY:PeK (w)
+LOCATION:20 46
+DESCRIPTION:Podstawy elektroniki kwantowej\nRodzaj: wykład\nProwadzący: 
+ prof. dr hab. inż. Żendzian Waldemar\nNr zajęć: 6/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d0529467d656916df324f031@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261125T114000
+DTEND;TZID=Europe/Warsaw:20261125T131500
+SUMMARY:TeSM (w)
+LOCATION:27 70
+DESCRIPTION:Techniki spektroskopii i obrazowania medycznego\nRodzaj: wykł
+ ad\nProwadzący: dr Bombalska Aneta\nNr zajęć: 8/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9c538b9024f25bf5b3a9fc5e@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261125T133000
+DTEND;TZID=Europe/Warsaw:20261125T150500
+SUMMARY:Tmf (w)
+LOCATION:6/ 23A
+DESCRIPTION:Technika mikrofalowa\nRodzaj: wykład\nProwadzący: dr hab.in
+ ż. Szczepaniak Zenon\nNr zajęć: 6/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2434023253d63121e3aaa33e@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261126T080000
+DTEND;TZID=Europe/Warsaw:20261126T093500
+SUMMARY:App (S)
+LOCATION:5/ 23A
+DESCRIPTION:Aspekty praktyczne projektowania uniwersalnego w obszarze tran
+ sportu indywidualnego\nRodzaj: seminarium\nProwadzący: dr hab. inż.(pro
+ f. ucz.) Żardecki Dariusz\nNr zajęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:bac67e467039663d8fb84e23@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261126T095000
+DTEND;TZID=Europe/Warsaw:20261126T112500
+SUMMARY:App (S)
+LOCATION:5/ 23A
+DESCRIPTION:Aspekty praktyczne projektowania uniwersalnego w obszarze tran
+ sportu indywidualnego\nRodzaj: seminarium\nProwadzący: dr hab. inż.(pro
+ f. ucz.) Żardecki Dariusz\nNr zajęć: 4/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:11945a908c3141db25c6ec06@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261126T114000
+DTEND;TZID=Europe/Warsaw:20261126T131500
+SUMMARY:Swb (L)
+LOCATION:09 65
+DESCRIPTION:Systemy wbudowane\nRodzaj: laboratorium\nProwadzący: mgr inż
+ . Goluch Marcin\nNr zajęć: 3/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:37bf8262e17eb550f0d84038@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261126T133000
+DTEND;TZID=Europe/Warsaw:20261126T150500
+SUMMARY:Swb (L)
+LOCATION:09 65
+DESCRIPTION:Systemy wbudowane\nRodzaj: laboratorium\nProwadzący: mgr inż
+ . Goluch Marcin\nNr zajęć: 4/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:318f73f781e1d447dc6994af@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261130T095000
+DTEND;TZID=Europe/Warsaw:20261130T112500
+SUMMARY:App (L)
+LOCATION:Pog.I\; Król.B
+DESCRIPTION:Aspekty praktyczne projektowania uniwersalnego w obszarze tran
+ sportu indywidualnego\nRodzaj: laboratorium\nProwadzący: Wyjazd\nNr zaj
+ ęć: 8/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2223f1a4edb40ee75860a2ad@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261130T114000
+DTEND;TZID=Europe/Warsaw:20261130T131500
+SUMMARY:App (L)
+LOCATION:Pog.I\; Król.B
+DESCRIPTION:Aspekty praktyczne projektowania uniwersalnego w obszarze tran
+ sportu indywidualnego\nRodzaj: laboratorium\nProwadzący: Wyjazd\nNr zaj
+ ęć: 9/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8a14d386b532c68a0ac180c6@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261130T133000
+DTEND;TZID=Europe/Warsaw:20261130T150500
+SUMMARY:App (L)
+LOCATION:Pog.I\; Król.B
+DESCRIPTION:Aspekty praktyczne projektowania uniwersalnego w obszarze tran
+ sportu indywidualnego\nRodzaj: laboratorium\nProwadzący: Wyjazd\nNr zaj
+ ęć: 10/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:bb6680a3ef420bddb06a6715@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261201T095000
+DTEND;TZID=Europe/Warsaw:20261201T112500
+SUMMARY:TeSM (w)
+LOCATION:21 46
+DESCRIPTION:Techniki spektroskopii i obrazowania medycznego\nRodzaj: wykł
+ ad\nProwadzący: dr Bombalska Aneta\nNr zajęć: 9/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8da97199b562bb5005029ed9@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261201T114000
+DTEND;TZID=Europe/Warsaw:20261201T131500
+SUMMARY:Par (L)
+LOCATION:4/ 23A\;14/ 23A
+DESCRIPTION:Podstawy automatyki i robotyki\nRodzaj: laboratorium\nProwadz
+ ący: mgr inż. Michałowski Bogusław\; mgr inż. Pogorzelski Ireneusz\n
+ Nr zajęć: 3/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8f582d3a93d5dd2ea58be99a@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261201T133000
+DTEND;TZID=Europe/Warsaw:20261201T150500
+SUMMARY:Par (w)
+LOCATION:301/ S
+DESCRIPTION:Podstawy automatyki i robotyki\nRodzaj: wykład\nProwadzący: 
+ dr hab. inż.(prof. ucz.) Żardecki Dariusz\nNr zajęć: 8/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f57ec71c873e33ccb01b94eb@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261202T080000
+DTEND;TZID=Europe/Warsaw:20261202T093500
+SUMMARY:Swb (w)
+LOCATION:3/ 23A
+DESCRIPTION:Systemy wbudowane\nRodzaj: wykład\nProwadzący: dr hab. inż.
+  Murawski Krzysztof\nNr zajęć: 7/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d3f16b359e92bf634d1e9f6c@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261202T095000
+DTEND;TZID=Europe/Warsaw:20261202T112500
+SUMMARY:Swb (w)
+LOCATION:3/ 23A
+DESCRIPTION:Systemy wbudowane\nRodzaj: wykład\nProwadzący: dr hab. inż.
+  Murawski Krzysztof\nNr zajęć: 8/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0671709fb864db4441de03f7@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261202T133000
+DTEND;TZID=Europe/Warsaw:20261202T150500
+SUMMARY:Tmf (w)
+LOCATION:6/ 23A
+DESCRIPTION:Technika mikrofalowa\nRodzaj: wykład\nProwadzący: dr hab.in
+ ż. Szczepaniak Zenon\nNr zajęć: 7/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3d85b822286f61a534c24fa7@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261203T080000
+DTEND;TZID=Europe/Warsaw:20261203T093500
+SUMMARY:Swb (L)
+LOCATION:09 65
+DESCRIPTION:Systemy wbudowane\nRodzaj: laboratorium\nProwadzący: mgr inż
+ . Goluch Marcin\nNr zajęć: 5/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ee56484283365656c03d40e1@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261203T095000
+DTEND;TZID=Europe/Warsaw:20261203T112500
+SUMMARY:Swb (L)
+LOCATION:09 65
+DESCRIPTION:Systemy wbudowane\nRodzaj: laboratorium\nProwadzący: mgr inż
+ . Goluch Marcin\nNr zajęć: 6/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b65bdb7555f1cf6455fee110@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261203T114000
+DTEND;TZID=Europe/Warsaw:20261203T131500
+SUMMARY:Dso (ć)
+LOCATION:9 70
+DESCRIPTION:Detekcja sygnałów optycznych\nRodzaj: ćwiczenia\nProwadząc
+ y: dr inż. Prokopiuk Artur\nNr zajęć: 1/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:deb781769cc8659fed792ef2@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261203T133000
+DTEND;TZID=Europe/Warsaw:20261203T150500
+SUMMARY:PeK (ć)
+LOCATION:21 46
+DESCRIPTION:Podstawy elektroniki kwantowej\nRodzaj: ćwiczenia\nProwadząc
+ y: dr hab. inż. (prof. ucz.) Kwiatkowski Jacek\nNr zajęć: 3/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ab10d6a6d93af33a88d4d6f3@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261207T095000
+DTEND;TZID=Europe/Warsaw:20261207T112500
+SUMMARY:GwIB (ć)
+LOCATION:30/ 54
+DESCRIPTION:Grafika w inżynierii biomedycznej\nRodzaj: ćwiczenia\nProwad
+ zący: dr inż. Łuszczek Jakub\nNr zajęć: 9/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1bc6f2c4fb6a46de2dd50b01@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261207T114000
+DTEND;TZID=Europe/Warsaw:20261207T131500
+SUMMARY:GwIB (L)
+LOCATION:9/ 54\;18/ 54
+DESCRIPTION:Grafika w inżynierii biomedycznej\nRodzaj: laboratorium\nProw
+ adzący: dr inż. Łuszczek Jakub\nNr zajęć: 2/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f9f37f87f98f6d62d69ec934@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261207T133000
+DTEND;TZID=Europe/Warsaw:20261207T150500
+SUMMARY:Dso (L)
+LOCATION:9 70
+DESCRIPTION:Detekcja sygnałów optycznych\nRodzaj: laboratorium\nProwadz
+ ący: mgr inż. Musiałek Filip\nNr zajęć: 1/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ed47159bcdd68a390a86f621@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261207T160000
+DTEND;TZID=Europe/Warsaw:20261207T173500
+SUMMARY:Dso (L)
+LOCATION:9 70
+DESCRIPTION:Detekcja sygnałów optycznych\nRodzaj: laboratorium\nProwadz
+ ący: mgr inż. Musiałek Filip\nNr zajęć: 2/12\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:0d65cf58d85cdac9030bfab9@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261207T175000
+DTEND;TZID=Europe/Warsaw:20261207T192500
+SUMMARY:Par (L)
+LOCATION:4/ 23A
+DESCRIPTION:Podstawy automatyki i robotyki\nRodzaj: laboratorium\nProwadz
+ ący: dr inż. Dębowski Andrzej\nNr zajęć: 4/4\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:e2a7ee05ec80da4fbcba406d@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261207T194000
+DTEND;TZID=Europe/Warsaw:20261207T211500
+SUMMARY:GwIB (ć)
+LOCATION:29/ 54
+DESCRIPTION:Grafika w inżynierii biomedycznej\nRodzaj: ćwiczenia\nProwad
+ zący: dr inż. Grzelak Krzysztof\nNr zajęć: 10/12\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:6b5abe09aeb927960c4dea57@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261208T080000
+DTEND;TZID=Europe/Warsaw:20261208T093500
+SUMMARY:Dso (ć)
+LOCATION:9 70
+DESCRIPTION:Detekcja sygnałów optycznych\nRodzaj: ćwiczenia\nProwadząc
+ y: dr inż. Prokopiuk Artur\nNr zajęć: 2/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:db4655b3f9d5e7ea773d34f9@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261208T095000
+DTEND;TZID=Europe/Warsaw:20261208T112500
+SUMMARY:Tmf (L)
+LOCATION:31 61A
+DESCRIPTION:Technika mikrofalowa\nRodzaj: laboratorium\nProwadzący: dr in
+ ż. Rutkowski Adam\nNr zajęć: 1/8\nBlok: 2\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:f5581e72f9b36969977f66c8@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261208T114000
+DTEND;TZID=Europe/Warsaw:20261208T131500
+SUMMARY:Tmf (L)
+LOCATION:31 61A
+DESCRIPTION:Technika mikrofalowa\nRodzaj: laboratorium\nProwadzący: dr in
+ ż. Rutkowski Adam\nNr zajęć: 2/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8c5a04202201468d04130f20@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261208T133000
+DTEND;TZID=Europe/Warsaw:20261208T150500
+SUMMARY:TeSM (w)
+LOCATION:20 46
+DESCRIPTION:Techniki spektroskopii i obrazowania medycznego\nRodzaj: wykł
+ ad\nProwadzący: dr Bombalska Aneta\nNr zajęć: 10/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c23c1b14f756469a415831bf@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261208T160000
+DTEND;TZID=Europe/Warsaw:20261208T173500
+SUMMARY:App (L)
+LOCATION:3/ 23A\;7/ 23A
+DESCRIPTION:Aspekty praktyczne projektowania uniwersalnego w obszarze tran
+ sportu indywidualnego\nRodzaj: laboratorium\nProwadzący: mgr inż. Pogor
+ zelski Ireneusz\; dr inż. Dębowski Andrzej\nNr zajęć: 11/12\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:afc29269df84dd899109bf17@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261208T175000
+DTEND;TZID=Europe/Warsaw:20261208T192500
+SUMMARY:App (L)
+LOCATION:3/ 23A\;7/ 23A
+DESCRIPTION:Aspekty praktyczne projektowania uniwersalnego w obszarze tran
+ sportu indywidualnego\nRodzaj: laboratorium\nProwadzący: mgr inż. Pogor
+ zelski Ireneusz\; dr inż. Dębowski Andrzej\nNr zajęć: 12/12\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:42c89c3f444baebc7867b8e4@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261209T080000
+DTEND;TZID=Europe/Warsaw:20261209T093500
+SUMMARY:PeK (w)
+LOCATION:20 46
+DESCRIPTION:Podstawy elektroniki kwantowej\nRodzaj: wykład\nProwadzący: 
+ prof. dr hab. inż. Żendzian Waldemar\nNr zajęć: 7/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9e0988f8dbec3ebbf382e4cc@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261209T095000
+DTEND;TZID=Europe/Warsaw:20261209T112500
+SUMMARY:Tmf (ć)
+LOCATION:27 61
+DESCRIPTION:Technika mikrofalowa\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Rutkowski Adam\nNr zajęć: 3/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:204203ac8b5512ed55fbbc38@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261209T114000
+DTEND;TZID=Europe/Warsaw:20261209T131500
+SUMMARY:Tmf (w)
+LOCATION:6/ 23A
+DESCRIPTION:Technika mikrofalowa\nRodzaj: wykład\nProwadzący: dr hab.in
+ ż. Szczepaniak Zenon\nNr zajęć: 8/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:90060546f1329a290c0d1fba@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261209T133000
+DTEND;TZID=Europe/Warsaw:20261209T150500
+SUMMARY:GwIB (L)
+LOCATION:9/ 54\;18/ 54
+DESCRIPTION:Grafika w inżynierii biomedycznej\nRodzaj: laboratorium\nProw
+ adzący: dr inż. Kluczyński Janusz\nNr zajęć: 3/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6c335cba2adf7f5dbe433625@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261210T080000
+DTEND;TZID=Europe/Warsaw:20261210T093500
+SUMMARY:OPT (w)
+LOCATION:21 46
+DESCRIPTION:Optyka\nRodzaj: wykład\nProwadzący: prof. dr hab. inż. Jabc
+ zyński Jan\nNr zajęć: 7/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6cb6cb359e276ec3f139d1a1@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261210T095000
+DTEND;TZID=Europe/Warsaw:20261210T112500
+SUMMARY:OPT (ć)
+LOCATION:21 46
+DESCRIPTION:Optyka\nRodzaj: ćwiczenia\nProwadzący: dr inż. Gorajek Łuk
+ asz\nNr zajęć: 2/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:42e006983e5aa5b73bbef30d@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261210T114000
+DTEND;TZID=Europe/Warsaw:20261210T131500
+SUMMARY:OPT (L)
+LOCATION:7 46\;28 46
+DESCRIPTION:Optyka\nRodzaj: laboratorium\nProwadzący: dr inż. Gorajek Ł
+ ukasz\; dr inż. Gontar Przemysław\nNr zajęć: 1/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5f49cc27e192532859cb79dc@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261210T133000
+DTEND;TZID=Europe/Warsaw:20261210T150500
+SUMMARY:OPT (L)
+LOCATION:7 46\;28 46
+DESCRIPTION:Optyka\nRodzaj: laboratorium\nProwadzący: dr inż. Gorajek Ł
+ ukasz\; dr inż. Gontar Przemysław\nNr zajęć: 2/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b717aa9162a9b8bbb207c1a2@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261214T133000
+DTEND;TZID=Europe/Warsaw:20261214T150500
+SUMMARY:Dso (L)
+LOCATION:9 70
+DESCRIPTION:Detekcja sygnałów optycznych\nRodzaj: laboratorium\nProwadz
+ ący: mgr inż. Musiałek Filip\nNr zajęć: 3/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f2c2408b8285182c49b0677f@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261214T160000
+DTEND;TZID=Europe/Warsaw:20261214T173500
+SUMMARY:Dso (L)
+LOCATION:9 70
+DESCRIPTION:Detekcja sygnałów optycznych\nRodzaj: laboratorium\nProwadz
+ ący: mgr inż. Musiałek Filip\nNr zajęć: 4/12\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:68812bce152f8ee40c2cec54@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261214T194000
+DTEND;TZID=Europe/Warsaw:20261214T211500
+SUMMARY:GwIB (ć)
+LOCATION:29/ 54
+DESCRIPTION:Grafika w inżynierii biomedycznej\nRodzaj: ćwiczenia\nProwad
+ zący: dr inż. Łuszczek Jakub\nNr zajęć: 11/12\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:99df7eeb3c0df6d07216086b@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261215T080000
+DTEND;TZID=Europe/Warsaw:20261215T093500
+SUMMARY:Dso (L)
+LOCATION:9 70
+DESCRIPTION:Detekcja sygnałów optycznych\nRodzaj: laboratorium\nProwadz
+ ący: dr inż. Achtenberg Krzysztof\nNr zajęć: 5/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:72c264bfd8f4bcd18f242ec6@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261215T095000
+DTEND;TZID=Europe/Warsaw:20261215T112500
+SUMMARY:Dso (L)
+LOCATION:9 70
+DESCRIPTION:Detekcja sygnałów optycznych\nRodzaj: laboratorium\nProwadz
+ ący: dr inż. Achtenberg Krzysztof\nNr zajęć: 6/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:49dfe0a24a1e2aa15f1d2c22@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261215T114000
+DTEND;TZID=Europe/Warsaw:20261215T131500
+SUMMARY:PeK (ć)
+LOCATION:21 46
+DESCRIPTION:Podstawy elektroniki kwantowej\nRodzaj: ćwiczenia\nProwadząc
+ y: dr hab. inż. (prof. ucz.) Kwiatkowski Jacek\nNr zajęć: 4/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d02d5253376ad0f2f0f9ea5c@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261215T133000
+DTEND;TZID=Europe/Warsaw:20261215T150500
+SUMMARY:TeSM (ć)
+LOCATION:21 46
+DESCRIPTION:Techniki spektroskopii i obrazowania medycznego\nRodzaj: ćwic
+ zenia\nProwadzący: dr Bombalska Aneta\nNr zajęć: 3/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4bcaa1a96217527578842e82@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261216T080000
+DTEND;TZID=Europe/Warsaw:20261216T093500
+SUMMARY:Dso (w)
+LOCATION:20 46
+DESCRIPTION:Detekcja sygnałów optycznych\nRodzaj: wykład\nProwadzący: 
+ prof. dr hab. inż. Bielecki Zbigniew\nNr zajęć: 6/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:02a0eb0cb6a313d92a104979@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261216T095000
+DTEND;TZID=Europe/Warsaw:20261216T112500
+SUMMARY:Tmf (ć)
+LOCATION:27 61
+DESCRIPTION:Technika mikrofalowa\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Rutkowski Adam\nNr zajęć: 4/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:dd4779ad36d62ba631927523@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261216T114000
+DTEND;TZID=Europe/Warsaw:20261216T131500
+SUMMARY:GwIB (L)
+LOCATION:9/ 54\;18/ 54
+DESCRIPTION:Grafika w inżynierii biomedycznej\nRodzaj: laboratorium\nProw
+ adzący: dr inż. Kluczyński Janusz\nNr zajęć: 4/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:aaacf99b4e832e56a1cabcc2@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261216T133000
+DTEND;TZID=Europe/Warsaw:20261216T150500
+SUMMARY:Dso (ć)
+LOCATION:9 70
+DESCRIPTION:Detekcja sygnałów optycznych\nRodzaj: ćwiczenia\nProwadząc
+ y: dr inż. Prokopiuk Artur\nNr zajęć: 3/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:bfd501b490e8249a7285b4a3@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261217T080000
+DTEND;TZID=Europe/Warsaw:20261217T093500
+SUMMARY:PeK (L)
+LOCATION:5 46\;28 46
+DESCRIPTION:Podstawy elektroniki kwantowej\nRodzaj: laboratorium\nProwadz
+ ący: dr hab. inż. (prof. ucz.) Kwiatkowski Jacek\nNr zajęć: 1/4\nBlok
+ : 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5cc1643a4fcdb9e82384a367@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261217T095000
+DTEND;TZID=Europe/Warsaw:20261217T112500
+SUMMARY:PeK (L)
+LOCATION:5 46\;28 46
+DESCRIPTION:Podstawy elektroniki kwantowej\nRodzaj: laboratorium\nProwadz
+ ący: dr hab. inż. (prof. ucz.) Kwiatkowski Jacek\nNr zajęć: 2/4\nBlok
+ : 2
+END:VEVENT
+BEGIN:VEVENT
+UID:dd9ceb59c5a9d6e3da736365@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261217T114000
+DTEND;TZID=Europe/Warsaw:20261217T131500
+SUMMARY:Swb (L)
+LOCATION:121 65
+DESCRIPTION:Systemy wbudowane\nRodzaj: laboratorium\nProwadzący: mgr inż
+ . Goluch Marcin\nNr zajęć: 7/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5099297d2c4bf84a550a78e6@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261217T133000
+DTEND;TZID=Europe/Warsaw:20261217T150500
+SUMMARY:Swb (L)
+LOCATION:121 65
+DESCRIPTION:Systemy wbudowane\nRodzaj: laboratorium\nProwadzący: mgr inż
+ . Goluch Marcin\nNr zajęć: 8/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a1fe46bb94ebf043c0b7b301@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261221T133000
+DTEND;TZID=Europe/Warsaw:20261221T150500
+SUMMARY:Dso (L)
+LOCATION:9 70
+DESCRIPTION:Detekcja sygnałów optycznych\nRodzaj: laboratorium\nProwadz
+ ący: dr inż. Achtenberg Krzysztof\nNr zajęć: 7/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d0aef61d28533ada698e3f9e@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261221T160000
+DTEND;TZID=Europe/Warsaw:20261221T173500
+SUMMARY:Dso (L)
+LOCATION:9 70
+DESCRIPTION:Detekcja sygnałów optycznych\nRodzaj: laboratorium\nProwadz
+ ący: dr inż. Achtenberg Krzysztof\nNr zajęć: 8/12\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:e4e1bf926262778e38b57255@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261221T194000
+DTEND;TZID=Europe/Warsaw:20261221T211500
+SUMMARY:GwIB (ć)
+LOCATION:29/ 54
+DESCRIPTION:Grafika w inżynierii biomedycznej\nRodzaj: ćwiczenia\nProwad
+ zący: dr inż. Łuszczek Jakub\nNr zajęć: 12/12\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:363ba5b9dd1ed4c8a14883a3@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261222T095000
+DTEND;TZID=Europe/Warsaw:20261222T112500
+SUMMARY:Tmf (L)
+LOCATION:31 61A
+DESCRIPTION:Technika mikrofalowa\nRodzaj: laboratorium\nProwadzący: dr in
+ ż. Rutkowski Adam\nNr zajęć: 3/8\nBlok: 2\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:031f4110f6b4c2984172931a@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261222T114000
+DTEND;TZID=Europe/Warsaw:20261222T131500
+SUMMARY:Tmf (L)
+LOCATION:31 61A
+DESCRIPTION:Technika mikrofalowa\nRodzaj: laboratorium\nProwadzący: dr in
+ ż. Rutkowski Adam\nNr zajęć: 4/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f1f90ff084a6f8e24e43c381@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261222T133000
+DTEND;TZID=Europe/Warsaw:20261222T150500
+SUMMARY:TeSM (ć)
+LOCATION:21 46
+DESCRIPTION:Techniki spektroskopii i obrazowania medycznego\nRodzaj: ćwic
+ zenia\nProwadzący: dr Bombalska Aneta\nNr zajęć: 4/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c0a287c841a150306c70fcb6@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261223T080000
+DTEND;TZID=Europe/Warsaw:20261223T093500
+SUMMARY:Dso (w)
+LOCATION:4 41
+DESCRIPTION:Detekcja sygnałów optycznych\nRodzaj: wykład\nProwadzący: 
+ prof. dr hab. inż. Bielecki Zbigniew\nNr zajęć: 7/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b758b4981a74be038de7ec84@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261223T095000
+DTEND;TZID=Europe/Warsaw:20261223T112500
+SUMMARY:PeK (w)
+LOCATION:20 46
+DESCRIPTION:Podstawy elektroniki kwantowej\nRodzaj: wykład\nProwadzący: 
+ prof. dr hab. inż. Żendzian Waldemar\nNr zajęć: 8/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d0e92ff3d3bf0881201a56e2@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261223T114000
+DTEND;TZID=Europe/Warsaw:20261223T131500
+SUMMARY:GwIB (L)
+LOCATION:9/ 54\;18/ 54
+DESCRIPTION:Grafika w inżynierii biomedycznej\nRodzaj: laboratorium\nProw
+ adzący: dr inż. Grzelak Krzysztof\nNr zajęć: 5/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2b9601eba402c6ce096802cc@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261223T133000
+DTEND;TZID=Europe/Warsaw:20261223T150500
+SUMMARY:Dso (ć)
+LOCATION:9 70
+DESCRIPTION:Detekcja sygnałów optycznych\nRodzaj: ćwiczenia\nProwadząc
+ y: dr inż. Prokopiuk Artur\nNr zajęć: 4/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:dc5afd2960d6f970ea1ba270@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270107T095000
+DTEND;TZID=Europe/Warsaw:20270107T112500
+SUMMARY:OPT (ć)
+LOCATION:204 136
+DESCRIPTION:Optyka\nRodzaj: ćwiczenia\nProwadzący: dr inż. Gorajek Łuk
+ asz\nNr zajęć: 3/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ebb727cb34e12cf5f0f14464@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270107T114000
+DTEND;TZID=Europe/Warsaw:20270107T131500
+SUMMARY:PeK (ć)
+LOCATION:204 136
+DESCRIPTION:Podstawy elektroniki kwantowej\nRodzaj: ćwiczenia\nProwadząc
+ y: dr hab. inż. (prof. ucz.) Kwiatkowski Jacek\nNr zajęć: 5/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:37d93ba0618f739468a91ae0@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270107T133000
+DTEND;TZID=Europe/Warsaw:20270107T150500
+SUMMARY:OPT (L)
+LOCATION:7 46\;28 46
+DESCRIPTION:Optyka\nRodzaj: laboratorium\nProwadzący: dr inż. Gorajek Ł
+ ukasz\; dr inż. Gontar Przemysław\nNr zajęć: 3/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:02750a875eb10f564755022d@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270107T160000
+DTEND;TZID=Europe/Warsaw:20270107T173500
+SUMMARY:OPT (L)
+LOCATION:7 46\;28 46
+DESCRIPTION:Optyka\nRodzaj: laboratorium\nProwadzący: dr inż. Gorajek Ł
+ ukasz\; dr inż. Gontar Przemysław\nNr zajęć: 4/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:26cad9601841d48c7c50217d@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270111T080000
+DTEND;TZID=Europe/Warsaw:20270111T093500
+SUMMARY:PeK (L)
+LOCATION:5 46\;28 46
+DESCRIPTION:Podstawy elektroniki kwantowej\nRodzaj: laboratorium\nProwadz
+ ący: dr hab. inż. (prof. ucz.) Kwiatkowski Jacek\nNr zajęć: 3/4\nBlok
+ : 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9a01c486c72e2e8976e457b6@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270111T095000
+DTEND;TZID=Europe/Warsaw:20270111T112500
+SUMMARY:PeK (L)
+LOCATION:5 46\;28 46
+DESCRIPTION:Podstawy elektroniki kwantowej\nRodzaj: laboratorium\nProwadz
+ ący: dr hab. inż. (prof. ucz.) Kwiatkowski Jacek\nNr zajęć: 4/4\nBlok
+ : 2
+END:VEVENT
+BEGIN:VEVENT
+UID:78c670d65dc80c5f146a1bd1@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270111T114000
+DTEND;TZID=Europe/Warsaw:20270111T131500
+SUMMARY:OPT (ć)
+LOCATION:20 46
+DESCRIPTION:Optyka\nRodzaj: ćwiczenia\nProwadzący: dr inż. Gorajek Łuk
+ asz\nNr zajęć: 4/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8422e082dfebda7769627fd8@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270111T133000
+DTEND;TZID=Europe/Warsaw:20270111T150500
+SUMMARY:Dso (w)
+LOCATION:204 136
+DESCRIPTION:Detekcja sygnałów optycznych\nRodzaj: wykład\nProwadzący: 
+ prof. dr hab. inż. Bielecki Zbigniew\nNr zajęć: 8/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:02e7793f344d5e235ec8569c@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270112T080000
+DTEND;TZID=Europe/Warsaw:20270112T093500
+SUMMARY:Tmf (L)
+LOCATION:31 61A
+DESCRIPTION:Technika mikrofalowa\nRodzaj: laboratorium\nProwadzący: dr in
+ ż. Rutkowski Adam\nNr zajęć: 5/8\nBlok: 1\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:3b3e10a41857017f13e2a7ec@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270112T095000
+DTEND;TZID=Europe/Warsaw:20270112T112500
+SUMMARY:Tmf (L)
+LOCATION:31 61A
+DESCRIPTION:Technika mikrofalowa\nRodzaj: laboratorium\nProwadzący: dr in
+ ż. Rutkowski Adam\nNr zajęć: 6/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:85037b237df8bdf78146e514@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270112T114000
+DTEND;TZID=Europe/Warsaw:20270112T131500
+SUMMARY:OPT (L)
+LOCATION:7 46
+DESCRIPTION:Optyka\nRodzaj: laboratorium\nProwadzący: dr inż. Gontar Prz
+ emysław\nNr zajęć: 5/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:89a09fdf9bfdb81af1a1d0a3@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270112T133000
+DTEND;TZID=Europe/Warsaw:20270112T150500
+SUMMARY:OPT (L)
+LOCATION:7 46
+DESCRIPTION:Optyka\nRodzaj: laboratorium\nProwadzący: dr inż. Gontar Prz
+ emysław\nNr zajęć: 6/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1ec1f89c7654e7bcc9e58a69@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270113T080000
+DTEND;TZID=Europe/Warsaw:20270113T093500
+SUMMARY:TeSM (L)
+LOCATION:02 71\;29/ 71
+DESCRIPTION:Techniki spektroskopii i obrazowania medycznego\nRodzaj: labor
+ atorium\nProwadzący: dr Bombalska Aneta\nNr zajęć: 1/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d9a1004723ed4c2752d5a24c@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270113T095000
+DTEND;TZID=Europe/Warsaw:20270113T112500
+SUMMARY:TeSM (L)
+LOCATION:02 71\;29/ 71
+DESCRIPTION:Techniki spektroskopii i obrazowania medycznego\nRodzaj: labor
+ atorium\nProwadzący: dr Bombalska Aneta\nNr zajęć: 2/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:41fc250aa9aa29f090a0599b@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270113T114000
+DTEND;TZID=Europe/Warsaw:20270113T131500
+SUMMARY:GwIB (L)
+LOCATION:9/ 54\;18/ 54
+DESCRIPTION:Grafika w inżynierii biomedycznej\nRodzaj: laboratorium\nProw
+ adzący: dr inż. Łuszczek Jakub\nNr zajęć: 6/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:58b5f8b2b6332a81d274824b@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270113T133000
+DTEND;TZID=Europe/Warsaw:20270113T150500
+SUMMARY:Tmf (w)
+LOCATION:6/ 23A
+DESCRIPTION:Technika mikrofalowa\nRodzaj: wykład\nProwadzący: dr hab.in
+ ż. Szczepaniak Zenon\nNr zajęć: 9/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:64791597eb6e0b0ee78e8228@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270114T080000
+DTEND;TZID=Europe/Warsaw:20270114T093500
+SUMMARY:OPT (ć)
+LOCATION:20 46
+DESCRIPTION:Optyka\nRodzaj: ćwiczenia\nProwadzący: dr inż. Gorajek Łuk
+ asz\nNr zajęć: 5/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ef6700b444bce559e7770f8e@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270114T095000
+DTEND;TZID=Europe/Warsaw:20270114T112500
+SUMMARY:PeK (ć)
+LOCATION:20 46
+DESCRIPTION:Podstawy elektroniki kwantowej\nRodzaj: ćwiczenia\nProwadząc
+ y: dr hab. inż. (prof. ucz.) Kwiatkowski Jacek\nNr zajęć: 6/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a4837c0516166038d01cd510@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270114T114000
+DTEND;TZID=Europe/Warsaw:20270114T131500
+SUMMARY:Swb (L)
+LOCATION:121 65
+DESCRIPTION:Systemy wbudowane\nRodzaj: laboratorium\nProwadzący: mgr inż
+ . Goluch Marcin\nNr zajęć: 9/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c0294e354ba547a48d6c70c1@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270114T133000
+DTEND;TZID=Europe/Warsaw:20270114T150500
+SUMMARY:Swb (L)
+LOCATION:121 65
+DESCRIPTION:Systemy wbudowane\nRodzaj: laboratorium\nProwadzący: mgr inż
+ . Goluch Marcin\nNr zajęć: 10/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:86bc0080372cee1373a66b40@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270118T080000
+DTEND;TZID=Europe/Warsaw:20270118T093500
+SUMMARY:TeSM (L)
+LOCATION:02 71\;6 71
+DESCRIPTION:Techniki spektroskopii i obrazowania medycznego\nRodzaj: labor
+ atorium\nProwadzący: mgr Osuchowska Paulina\nNr zajęć: 3/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b17f71a5b42a43fd0c5590d2@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270118T095000
+DTEND;TZID=Europe/Warsaw:20270118T112500
+SUMMARY:TeSM (L)
+LOCATION:02 71\;6 71
+DESCRIPTION:Techniki spektroskopii i obrazowania medycznego\nRodzaj: labor
+ atorium\nProwadzący: mgr Osuchowska Paulina\nNr zajęć: 4/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ea11e81ab125e8e20dc7acd5@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270118T114000
+DTEND;TZID=Europe/Warsaw:20270118T131500
+SUMMARY:PeK (w)
+LOCATION:20 46
+DESCRIPTION:Podstawy elektroniki kwantowej\nRodzaj: wykład\nProwadzący: 
+ prof. dr hab. inż. Żendzian Waldemar\nNr zajęć: 9/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:07f059180724d5cad6499d35@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270118T133000
+DTEND;TZID=Europe/Warsaw:20270118T150500
+SUMMARY:Tmf (L)
+LOCATION:31 61A
+DESCRIPTION:Technika mikrofalowa\nRodzaj: laboratorium\nProwadzący: dr in
+ ż. Rutkowski Adam\nNr zajęć: 7/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:75078ae98c7424eb69e79cde@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270118T160000
+DTEND;TZID=Europe/Warsaw:20270118T173500
+SUMMARY:Tmf (L)
+LOCATION:31 61A
+DESCRIPTION:Technika mikrofalowa\nRodzaj: laboratorium\nProwadzący: dr in
+ ż. Rutkowski Adam\nNr zajęć: 8/8\nBlok: 5\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:a43a93726921a4c28a0f6cd1@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270119T080000
+DTEND;TZID=Europe/Warsaw:20270119T093500
+SUMMARY:Dso (L)
+LOCATION:12 70
+DESCRIPTION:Detekcja sygnałów optycznych\nRodzaj: laboratorium\nProwadz
+ ący: mgr inż. Musiałek Filip\nNr zajęć: 9/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a51c60160757f5ff8e98adee@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270119T095000
+DTEND;TZID=Europe/Warsaw:20270119T112500
+SUMMARY:Dso (L)
+LOCATION:12 70
+DESCRIPTION:Detekcja sygnałów optycznych\nRodzaj: laboratorium\nProwadz
+ ący: mgr inż. Musiałek Filip\nNr zajęć: 10/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b1edade88beda7505873b98b@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270119T114000
+DTEND;TZID=Europe/Warsaw:20270119T131500
+SUMMARY:OPT (L)
+LOCATION:7 46
+DESCRIPTION:Optyka\nRodzaj: laboratorium\nProwadzący: dr inż. Gontar Prz
+ emysław\nNr zajęć: 7/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:63d4f366e66b6a801567546d@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270119T133000
+DTEND;TZID=Europe/Warsaw:20270119T150500
+SUMMARY:OPT (L)
+LOCATION:7 46
+DESCRIPTION:Optyka\nRodzaj: laboratorium\nProwadzący: dr inż. Gontar Prz
+ emysław\nNr zajęć: 8/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6317589f0e33f9911c96d34c@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270120T080000
+DTEND;TZID=Europe/Warsaw:20270120T093500
+SUMMARY:Dso (L)
+LOCATION:12 70
+DESCRIPTION:Detekcja sygnałów optycznych\nRodzaj: laboratorium\nProwadz
+ ący: mgr inż. Musiałek Filip\nNr zajęć: 11/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6b6b7bda6507e26b1bbcca32@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270120T095000
+DTEND;TZID=Europe/Warsaw:20270120T112500
+SUMMARY:Dso (L)
+LOCATION:12 70
+DESCRIPTION:Detekcja sygnałów optycznych\nRodzaj: laboratorium\nProwadz
+ ący: mgr inż. Musiałek Filip\nNr zajęć: 12/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f0a7206cb649f4202fa76d77@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270120T114000
+DTEND;TZID=Europe/Warsaw:20270120T131500
+SUMMARY:Dso (ć)
+LOCATION:9 70
+DESCRIPTION:Detekcja sygnałów optycznych\nRodzaj: ćwiczenia\nProwadząc
+ y: dr inż. Prokopiuk Artur\nNr zajęć: 5/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f9222d44b990ed5ec202f59c@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270120T133000
+DTEND;TZID=Europe/Warsaw:20270120T150500
+SUMMARY:Dso (ć)
+LOCATION:9 70
+DESCRIPTION:Detekcja sygnałów optycznych\nRodzaj: ćwiczenia\nProwadząc
+ y: dr inż. Prokopiuk Artur\nNr zajęć: 6/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:123abb71806d7eb7763391aa@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270121T080000
+DTEND;TZID=Europe/Warsaw:20270121T093500
+SUMMARY:OPT (ć)
+LOCATION:20 46
+DESCRIPTION:Optyka\nRodzaj: ćwiczenia\nProwadzący: dr inż. Gorajek Łuk
+ asz\nNr zajęć: 6/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f43142a7209316220a434a20@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270121T095000
+DTEND;TZID=Europe/Warsaw:20270121T112500
+SUMMARY:PeK (ć)
+LOCATION:20 46
+DESCRIPTION:Podstawy elektroniki kwantowej\nRodzaj: ćwiczenia\nProwadząc
+ y: dr hab. inż. (prof. ucz.) Kwiatkowski Jacek\nNr zajęć: 7/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6168f01c15ab1f165f3ec5b8@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270121T114000
+DTEND;TZID=Europe/Warsaw:20270121T131500
+SUMMARY:Swb (L)
+LOCATION:121 65
+DESCRIPTION:Systemy wbudowane\nRodzaj: laboratorium\nProwadzący: mgr inż
+ . Goluch Marcin\nNr zajęć: 11/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:aaa8eae6591553e3e8d5a6cb@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270121T133000
+DTEND;TZID=Europe/Warsaw:20270121T150500
+SUMMARY:Swb (L)
+LOCATION:121 65
+DESCRIPTION:Systemy wbudowane\nRodzaj: laboratorium\nProwadzący: mgr inż
+ . Goluch Marcin\nNr zajęć: 12/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:660ad900016fcee89e6154fc@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270126T080000
+DTEND;TZID=Europe/Warsaw:20270126T093500
+SUMMARY:App (w)
+LOCATION:2.01/ 54A
+DESCRIPTION:Aspekty praktyczne projektowania uniwersalnego w obszarze tran
+ sportu indywidualnego\nRodzaj: wykład\nProwadzący: dr inż. Ziubiński 
+ Mateusz\nNr zajęć: 8/8\nBlok: 1\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:625789fc631ed665966cc9fa@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270126T095000
+DTEND;TZID=Europe/Warsaw:20270126T112500
+SUMMARY:GwIB (w)
+LOCATION:116/ 54
+DESCRIPTION:Grafika w inżynierii biomedycznej\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Grzelak Krzysztof\nNr zajęć: 4/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:869e968ae3711d2e073d3664@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270126T114000
+DTEND;TZID=Europe/Warsaw:20270126T131500
+SUMMARY:TeSM (L)
+LOCATION:02 71\;6 71\;29/ 71
+DESCRIPTION:Techniki spektroskopii i obrazowania medycznego\nRodzaj: labor
+ atorium\nProwadzący: mgr Osuchowska Paulina\nNr zajęć: 5/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:30302630dbcff87e5512c6fe@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270126T133000
+DTEND;TZID=Europe/Warsaw:20270126T150500
+SUMMARY:TeSM (L)
+LOCATION:02 71\;6 71\;29/ 71
+DESCRIPTION:Techniki spektroskopii i obrazowania medycznego\nRodzaj: labor
+ atorium\nProwadzący: mgr Osuchowska Paulina\nNr zajęć: 6/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3cbd24ee4570838db4d6180d@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270127T080000
+DTEND;TZID=Europe/Warsaw:20270127T093500
+SUMMARY:TeSM (L)
+LOCATION:02 71
+DESCRIPTION:Techniki spektroskopii i obrazowania medycznego\nRodzaj: labor
+ atorium\nProwadzący: dr Bombalska Aneta\nNr zajęć: 7/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0089f9076afac99c994c86f7@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270127T095000
+DTEND;TZID=Europe/Warsaw:20270127T112500
+SUMMARY:TeSM (L)
+LOCATION:02 71
+DESCRIPTION:Techniki spektroskopii i obrazowania medycznego\nRodzaj: labor
+ atorium\nProwadzący: dr Bombalska Aneta\nNr zajęć: 8/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e4813988ca671283c6ce87f5@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270127T114000
+DTEND;TZID=Europe/Warsaw:20270127T131500
+SUMMARY:Tmf (w)
+LOCATION:6/ 23A
+DESCRIPTION:Technika mikrofalowa\nRodzaj: wykład\nProwadzący: dr hab.in
+ ż. Szczepaniak Zenon\nNr zajęć: 10/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:fc427ac2fd4f72bae721dea2@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270201T095000
+DTEND;TZID=Europe/Warsaw:20270201T112500
+SUMMARY:Swb (E)
+LOCATION:15/ 23A
+DESCRIPTION:Systemy wbudowane\nRodzaj: egzamin\nProwadzący: dr hab. inż.
+  Murawski Krzysztof\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:043e100c775953bd4a0f2b2a@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270201T114000
+DTEND;TZID=Europe/Warsaw:20270201T131500
+SUMMARY:Par (Zp. Ćw)
+LOCATION:3/ 23A
+DESCRIPTION:Podstawy automatyki i robotyki\nProwadzący: dr inż. Dębowsk
+ i Andrzej\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:03a13f58c60f30de719747ba@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270201T133000
+DTEND;TZID=Europe/Warsaw:20270201T150500
+SUMMARY:GwIB (Zp/lab.)
+LOCATION:9/ 54\;18/ 54
+DESCRIPTION:Grafika w inżynierii biomedycznej\nProwadzący: dr inż. Grze
+ lak Krzysztof\; dr inż. Łuszczek Jakub\nNr zajęć: 1/1\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c6eb67ae287ab2cf828188d0@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270201T160000
+DTEND;TZID=Europe/Warsaw:20270201T173500
+SUMMARY:App (Zp/lab.)
+LOCATION:5/ 23A\;6/ 23A\;7/ 23A\; Król.B\; Zam.M.\; Gaj.O
+DESCRIPTION:Aspekty praktyczne projektowania uniwersalnego w obszarze tran
+ sportu indywidualnego\nNr zajęć: 1/1\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:cbcef8d874c8d7662eec03f8@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270202T114000
+DTEND;TZID=Europe/Warsaw:20270202T131500
+SUMMARY:Tmf (Zp/lab.)
+LOCATION:31 61A
+DESCRIPTION:Technika mikrofalowa\nProwadzący: dr inż. Rutkowski Adam\nNr
+  zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:307a9cd1cbadbf37e70ebaba@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270202T133000
+DTEND;TZID=Europe/Warsaw:20270202T150500
+SUMMARY:Par (Zp/lab.)
+LOCATION:4/ 23A\;14/ 23A\; Mich.B\; Wiś.A\; Pog.I\; Dęb.A
+DESCRIPTION:Podstawy automatyki i robotyki\nNr zajęć: 1/1\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7338566627946946c5b46a64@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270202T160000
+DTEND;TZID=Europe/Warsaw:20270202T173500
+SUMMARY:GwIB (Zp. Ćw)
+LOCATION:29/ 54\;30/ 54\; Grz.K\; Łu.J.\; Klu.J
+DESCRIPTION:Grafika w inżynierii biomedycznej\nNr zajęć: 1/1\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:db70d93f285987125c6b6b32@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270203T095000
+DTEND;TZID=Europe/Warsaw:20270203T112500
+SUMMARY:Tmf (Zp. Ćw)
+LOCATION:27 61
+DESCRIPTION:Technika mikrofalowa\nProwadzący: dr inż. Rutkowski Adam\nNr
+  zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2ae673eecb5e32d960ddd876@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270204T080000
+DTEND;TZID=Europe/Warsaw:20270204T093500
+SUMMARY:Swb (Zp/lab.)
+LOCATION:09 65
+DESCRIPTION:Systemy wbudowane\nProwadzący: mgr inż. Goluch Marcin\nNr za
+ jęć: 1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:fc662ce2404489aaecf6adb9@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270204T095000
+DTEND;TZID=Europe/Warsaw:20270204T112500
+SUMMARY:App (Zp.S)
+LOCATION:5/ 23A
+DESCRIPTION:Aspekty praktyczne projektowania uniwersalnego w obszarze tran
+ sportu indywidualnego\nProwadzący: dr hab. inż.(prof. ucz.) Żardecki D
+ ariusz\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:43fa3da677515735a9383a52@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270205T095000
+DTEND;TZID=Europe/Warsaw:20270205T112500
+SUMMARY:PeK (E)
+LOCATION:20 46
+DESCRIPTION:Podstawy elektroniki kwantowej\nRodzaj: egzamin\nProwadzący: 
+ prof. dr hab. inż. Żendzian Waldemar\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:859fc4a4f71e86cda84b62a7@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270208T095000
+DTEND;TZID=Europe/Warsaw:20270208T112500
+SUMMARY:OPT (E)
+LOCATION:21 46
+DESCRIPTION:Optyka\nRodzaj: egzamin\nProwadzący: prof. dr hab. inż. Jabc
+ zyński Jan\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:76a20cb326bf3f5c9020a9d9@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270215T095000
+DTEND;TZID=Europe/Warsaw:20270215T112500
+SUMMARY:Swb (Ep)
+LOCATION:6/ 23A
+DESCRIPTION:Systemy wbudowane\nRodzaj: egzamin poprawkowy\nProwadzący: dr
+  hab. inż. Murawski Krzysztof\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:442db8effa5e649639355748@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270216T080000
+DTEND;TZID=Europe/Warsaw:20270216T093500
+SUMMARY:App (Zp.)
+LOCATION:2.01/ 54A
+DESCRIPTION:Aspekty praktyczne projektowania uniwersalnego w obszarze tran
+ sportu indywidualnego\nRodzaj: zaliczenie poprawkowe\nProwadzący: dr in
+ ż. Ziubiński Mateusz\nNr zajęć: 1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e1b9e0cea5ad8373777a7797@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270216T095000
+DTEND;TZID=Europe/Warsaw:20270216T112500
+SUMMARY:Par (Zp.)
+LOCATION:3/ 23A
+DESCRIPTION:Podstawy automatyki i robotyki\nRodzaj: zaliczenie poprawkowe\
+ nProwadzący: dr hab. inż.(prof. ucz.) Żardecki Dariusz\nNr zajęć: 1/
+ 1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:650b464c6716ac965547d79f@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270216T114000
+DTEND;TZID=Europe/Warsaw:20270216T131500
+SUMMARY:GwIB (Zp.)
+LOCATION:116/ 54
+DESCRIPTION:Grafika w inżynierii biomedycznej\nRodzaj: zaliczenie poprawk
+ owe\nProwadzący: dr inż. Grzelak Krzysztof\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:09a38d6bde6662ed7502a805@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270217T114000
+DTEND;TZID=Europe/Warsaw:20270217T131500
+SUMMARY:Tmf (Zp.)
+LOCATION:6/ 23A
+DESCRIPTION:Technika mikrofalowa\nRodzaj: zaliczenie poprawkowe\nProwadzą
+ cy: dr hab.inż. Szczepaniak Zenon\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:27f9f812eb72a10486a709c0@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270217T133000
+DTEND;TZID=Europe/Warsaw:20270217T150500
+SUMMARY:PeK (Ep)
+LOCATION:20 46
+DESCRIPTION:Podstawy elektroniki kwantowej\nRodzaj: egzamin poprawkowy\nPr
+ owadzący: prof. dr hab. inż. Żendzian Waldemar\nNr zajęć: 1/1\nBlok:
+  4
+END:VEVENT
+BEGIN:VEVENT
+UID:ad2020699ab50a7233914996@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270219T095000
+DTEND;TZID=Europe/Warsaw:20270219T112500
+SUMMARY:OPT (Ep)
+LOCATION:21 46
+DESCRIPTION:Optyka\nRodzaj: egzamin poprawkowy\nProwadzący: prof. dr hab.
+  inż. Jabczyński Jan\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,2038 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WEL24EB1S1
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:2d659e171aaa758b308b21b6@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261001T080000
+DTEND;TZID=Europe/Warsaw:20261001T093500
+SUMMARY:PuEl (w)
+LOCATION:2 45
+DESCRIPTION:Prototypowanie układów elektronicznych\nRodzaj: wykład\nPro
+ wadzący: dr inż. Czopik Grzegorz\nNr zajęć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9245864e1713a3677076f006@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261001T095000
+DTEND;TZID=Europe/Warsaw:20261001T112500
+SUMMARY:TuP (w)
+LOCATION:2 45
+DESCRIPTION:Technika układów programowalnych\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Kwiatkowski Paweł\nNr zajęć: 1/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e17eb8f409e7ddb8142e1d04@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261002T080000
+DTEND;TZID=Europe/Warsaw:20261002T093500
+SUMMARY:Kdb (w)
+LOCATION:117 45
+DESCRIPTION:Kontrola dostępu i biometria\nRodzaj: wykład\nNr zajęć: 1/
+ 12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:bf68af1327db4864924c6cda@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261002T095000
+DTEND;TZID=Europe/Warsaw:20261002T112500
+SUMMARY:Cps (w)
+LOCATION:118 45
+DESCRIPTION:Cyfrowe przetwarzanie sygnałów\nRodzaj: wykład\nProwadzący
+ : dr hab. inż. Jakubowski Jacek\nNr zajęć: 1/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:fff70f7af7651426c9876887@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261002T114000
+DTEND;TZID=Europe/Warsaw:20261002T131500
+SUMMARY:EtzW (w)
+LOCATION:118 45
+DESCRIPTION:Elektroniczne technologie zabezpieczeń PW\nRodzaj: wykład\nP
+ rowadzący: prof. dr hab. inż. Rosiński Adam\nNr zajęć: 1/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:cc05cffdd78551a67cce11ac@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261002T133000
+DTEND;TZID=Europe/Warsaw:20261002T150500
+SUMMARY:Emesa (w)
+LOCATION:117 45
+DESCRIPTION:Elementy i moduły elektronicznych systemów alarmowych\nRodza
+ j: wykład\nProwadzący: prof. dr hab. inż. Rosiński Adam\nNr zajęć: 
+ 1/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:78b43e6bebd87dde9a905671@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261005T080000
+DTEND;TZID=Europe/Warsaw:20261005T093500
+SUMMARY:PuEl (w)
+LOCATION:2 45
+DESCRIPTION:Prototypowanie układów elektronicznych\nRodzaj: wykład\nPro
+ wadzący: dr inż. Czopik Grzegorz\nNr zajęć: 2/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e344b8273e9773e4d2e92d0e@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261005T095000
+DTEND;TZID=Europe/Warsaw:20261005T112500
+SUMMARY:TuP (w)
+LOCATION:2 45
+DESCRIPTION:Technika układów programowalnych\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Kwiatkowski Paweł\nNr zajęć: 2/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:78bd09dd935b98a3720177f9@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261005T114000
+DTEND;TZID=Europe/Warsaw:20261005T131500
+SUMMARY:Mtsa (w)
+LOCATION:118 45
+DESCRIPTION:Monitoring i transmisja sygnałów alarmowych\nRodzaj: wykład
+ \nProwadzący: dr inż. Wiśnios Michał\nNr zajęć: 1/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0e14efa5860301244ab06c51@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261005T133000
+DTEND;TZID=Europe/Warsaw:20261005T150500
+SUMMARY:Mtsa (w)
+LOCATION:118 45
+DESCRIPTION:Monitoring i transmisja sygnałów alarmowych\nRodzaj: wykład
+ \nProwadzący: dr inż. Wiśnios Michał\nNr zajęć: 2/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f0087e82ff7e7e0d0fa4e36b@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261006T080000
+DTEND;TZID=Europe/Warsaw:20261006T093500
+SUMMARY:Cip (w)
+LOCATION:116 45
+DESCRIPTION:Czujniki i przetworniki\nRodzaj: wykład\nProwadzący: mgr in
+ ż. Kocoń Krzysztof\nNr zajęć: 1/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:28de87b80b44604fe9a9a038@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261006T095000
+DTEND;TZID=Europe/Warsaw:20261006T112500
+SUMMARY:EtzW (w)
+LOCATION:116 45
+DESCRIPTION:Elektroniczne technologie zabezpieczeń PW\nRodzaj: wykład\nP
+ rowadzący: prof. dr hab. inż. Rosiński Adam\nNr zajęć: 2/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4df7d71d1b1819905ad5346f@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261006T114000
+DTEND;TZID=Europe/Warsaw:20261006T131500
+SUMMARY:Emesa (w)
+LOCATION:117 45
+DESCRIPTION:Elementy i moduły elektronicznych systemów alarmowych\nRodza
+ j: wykład\nProwadzący: prof. dr hab. inż. Rosiński Adam\nNr zajęć: 
+ 2/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e8207de56fa7882a88e90932@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261006T133000
+DTEND;TZID=Europe/Warsaw:20261006T150500
+SUMMARY:Emesa (w)
+LOCATION:117 45
+DESCRIPTION:Elementy i moduły elektronicznych systemów alarmowych\nRodza
+ j: wykład\nProwadzący: prof. dr hab. inż. Rosiński Adam\nNr zajęć: 
+ 3/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ea7ce4e59813de0afb0099ab@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261007T080000
+DTEND;TZID=Europe/Warsaw:20261007T093500
+SUMMARY:Cps (w)
+LOCATION:119 45
+DESCRIPTION:Cyfrowe przetwarzanie sygnałów\nRodzaj: wykład\nProwadzący
+ : dr hab. inż. Jakubowski Jacek\nNr zajęć: 2/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:41ed3ac21a434ec858cb10b3@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261007T095000
+DTEND;TZID=Europe/Warsaw:20261007T112500
+SUMMARY:Splcw (w)
+LOCATION:119 45
+DESCRIPTION:Sterowniki PLC PW\nRodzaj: wykład\nProwadzący: dr hab. inż.
+  Suproniuk Marek\nNr zajęć: 1/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8d67c8bd82a6877f6de4fd65@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261008T080000
+DTEND;TZID=Europe/Warsaw:20261008T093500
+SUMMARY:PuEl (w)
+LOCATION:2 45
+DESCRIPTION:Prototypowanie układów elektronicznych\nRodzaj: wykład\nPro
+ wadzący: dr inż. Czopik Grzegorz\nNr zajęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:368b99a7def16cc9edc1b47a@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261008T095000
+DTEND;TZID=Europe/Warsaw:20261008T112500
+SUMMARY:Cps (w)
+LOCATION:117 45
+DESCRIPTION:Cyfrowe przetwarzanie sygnałów\nRodzaj: wykład\nProwadzący
+ : dr hab. inż. Jakubowski Jacek\nNr zajęć: 3/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:adef7bf0e5b727a084198276@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261008T114000
+DTEND;TZID=Europe/Warsaw:20261008T131500
+SUMMARY:Zue (w)
+LOCATION:116 45
+DESCRIPTION:Zasilanie urządzeń elektronicznych\nRodzaj: wykład\nProwadz
+ ący: dr hab. inż. Watral Zbigniew\nNr zajęć: 1/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9dd7ceef1c22d998f7099b5c@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261009T080000
+DTEND;TZID=Europe/Warsaw:20261009T093500
+SUMMARY:Kdb (w)
+LOCATION:118 45
+DESCRIPTION:Kontrola dostępu i biometria\nRodzaj: wykład\nNr zajęć: 2/
+ 12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4dc75363c0d6b1fa9f8716e6@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261009T095000
+DTEND;TZID=Europe/Warsaw:20261009T112500
+SUMMARY:TuP (w)
+LOCATION:3.7 75
+DESCRIPTION:Technika układów programowalnych\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Kwiatkowski Paweł\nNr zajęć: 3/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7fb4792be2f8698b9a5c0b4c@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261009T114000
+DTEND;TZID=Europe/Warsaw:20261009T131500
+SUMMARY:EtzW (w)
+LOCATION:118 45
+DESCRIPTION:Elektroniczne technologie zabezpieczeń PW\nRodzaj: wykład\nP
+ rowadzący: prof. dr hab. inż. Rosiński Adam\nNr zajęć: 3/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:72e72957274e9b8b11e5cbbb@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261012T080000
+DTEND;TZID=Europe/Warsaw:20261012T093500
+SUMMARY:PuEl (w)
+LOCATION:2 45
+DESCRIPTION:Prototypowanie układów elektronicznych\nRodzaj: wykład\nPro
+ wadzący: dr inż. Czopik Grzegorz\nNr zajęć: 4/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:86bfdbd5bbdea42e8ab46a2e@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261012T095000
+DTEND;TZID=Europe/Warsaw:20261012T112500
+SUMMARY:TuP (w)
+LOCATION:2 45
+DESCRIPTION:Technika układów programowalnych\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Kwiatkowski Paweł\nNr zajęć: 4/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d62eb26aa46fd650d1fe3a09@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261012T114000
+DTEND;TZID=Europe/Warsaw:20261012T131500
+SUMMARY:Mtsa (w)
+LOCATION:118 45
+DESCRIPTION:Monitoring i transmisja sygnałów alarmowych\nRodzaj: wykład
+ \nProwadzący: dr inż. Wiśnios Michał\nNr zajęć: 3/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5bbdf9088bbbda4a0af8fb88@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261013T080000
+DTEND;TZID=Europe/Warsaw:20261013T093500
+SUMMARY:Cip (w)
+LOCATION:116 45
+DESCRIPTION:Czujniki i przetworniki\nRodzaj: wykład\nProwadzący: mgr in
+ ż. Kocoń Krzysztof\nNr zajęć: 2/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6402359147b82c56f9b841bf@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261013T095000
+DTEND;TZID=Europe/Warsaw:20261013T112500
+SUMMARY:Kdb (w)
+LOCATION:116 45
+DESCRIPTION:Kontrola dostępu i biometria\nRodzaj: wykład\nNr zajęć: 3/
+ 12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6b2b980625051ac87b8bf0b9@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261013T133000
+DTEND;TZID=Europe/Warsaw:20261013T150500
+SUMMARY:Spd (S)
+LOCATION:73b S
+DESCRIPTION:Seminaria przeddyplomowe\nRodzaj: seminarium\nNr zajęć: 1/4\
+ nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:897a495198aa7b36741fb970@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261014T080000
+DTEND;TZID=Europe/Warsaw:20261014T093500
+SUMMARY:Cps (w)
+LOCATION:119 45
+DESCRIPTION:Cyfrowe przetwarzanie sygnałów\nRodzaj: wykład\nProwadzący
+ : dr hab. inż. Jakubowski Jacek\nNr zajęć: 4/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5349813b7c12704731328ba8@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261014T095000
+DTEND;TZID=Europe/Warsaw:20261014T112500
+SUMMARY:Mtsa (w)
+LOCATION:119 45
+DESCRIPTION:Monitoring i transmisja sygnałów alarmowych\nRodzaj: wykład
+ \nProwadzący: dr inż. Wiśnios Michał\nNr zajęć: 4/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:27cfad902d8eb86b6b951bf9@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261014T114000
+DTEND;TZID=Europe/Warsaw:20261014T131500
+SUMMARY:EsO (w)
+LOCATION:118 45
+DESCRIPTION:Elektromechaniczne systemy ochrony\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Łukasiak Jarosław\nNr zajęć: 1/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:35bf580f261cbafc9040ba74@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261014T133000
+DTEND;TZID=Europe/Warsaw:20261014T150500
+SUMMARY:Splcw (w)
+LOCATION:120 45
+DESCRIPTION:Sterowniki PLC PW\nRodzaj: wykład\nProwadzący: dr hab. inż.
+  Suproniuk Marek\nNr zajęć: 2/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:09a98893f2b5bc27426939ea@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261015T080000
+DTEND;TZID=Europe/Warsaw:20261015T093500
+SUMMARY:Cps (w)
+LOCATION:117 45
+DESCRIPTION:Cyfrowe przetwarzanie sygnałów\nRodzaj: wykład\nProwadzący
+ : dr hab. inż. Jakubowski Jacek\nNr zajęć: 5/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:131a011fe13d263c67d8ea50@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261015T095000
+DTEND;TZID=Europe/Warsaw:20261015T112500
+SUMMARY:Kdb (w)
+LOCATION:117 45
+DESCRIPTION:Kontrola dostępu i biometria\nRodzaj: wykład\nNr zajęć: 4/
+ 12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b46dcb2b7f8f060d0d4ca63b@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261015T114000
+DTEND;TZID=Europe/Warsaw:20261015T131500
+SUMMARY:Splcw (w)
+LOCATION:117 45
+DESCRIPTION:Sterowniki PLC PW\nRodzaj: wykład\nProwadzący: dr hab. inż.
+  Suproniuk Marek\nNr zajęć: 3/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:fd8818301258b29e47b8c315@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261016T080000
+DTEND;TZID=Europe/Warsaw:20261016T093500
+SUMMARY:EtzW (w)
+LOCATION:118 45
+DESCRIPTION:Elektroniczne technologie zabezpieczeń PW\nRodzaj: wykład\nP
+ rowadzący: prof. dr hab. inż. Rosiński Adam\nNr zajęć: 4/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:127abb8d8ce384630732edc7@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261016T095000
+DTEND;TZID=Europe/Warsaw:20261016T112500
+SUMMARY:Zue (w)
+LOCATION:118 45
+DESCRIPTION:Zasilanie urządzeń elektronicznych\nRodzaj: wykład\nProwadz
+ ący: dr hab. inż. Watral Zbigniew\nNr zajęć: 2/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ce064f40a451083cd6ab0c74@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261016T114000
+DTEND;TZID=Europe/Warsaw:20261016T131500
+SUMMARY:Emesa (w)
+LOCATION:120 45
+DESCRIPTION:Elementy i moduły elektronicznych systemów alarmowych\nRodza
+ j: wykład\nProwadzący: prof. dr hab. inż. Rosiński Adam\nNr zajęć: 
+ 4/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e00b138ce4de3e00210342b9@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261019T080000
+DTEND;TZID=Europe/Warsaw:20261019T093500
+SUMMARY:Mtsa (w)
+LOCATION:118 45
+DESCRIPTION:Monitoring i transmisja sygnałów alarmowych\nRodzaj: wykład
+ \nProwadzący: dr inż. Wiśnios Michał\nNr zajęć: 5/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:286f85ea2b12724e0880000e@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261019T095000
+DTEND;TZID=Europe/Warsaw:20261019T112500
+SUMMARY:TuP (w)
+LOCATION:2 45
+DESCRIPTION:Technika układów programowalnych\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Kwiatkowski Paweł\nNr zajęć: 5/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:db183467ffd2ad83e124353f@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261019T114000
+DTEND;TZID=Europe/Warsaw:20261019T131500
+SUMMARY:Kdb (w)
+LOCATION:117 45
+DESCRIPTION:Kontrola dostępu i biometria\nRodzaj: wykład\nNr zajęć: 5/
+ 12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9eb1cf5c152e8f2dc4d4486a@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261020T080000
+DTEND;TZID=Europe/Warsaw:20261020T093500
+SUMMARY:Cps (w)
+LOCATION:116 45
+DESCRIPTION:Cyfrowe przetwarzanie sygnałów\nRodzaj: wykład\nProwadzący
+ : dr hab. inż. Jakubowski Jacek\nNr zajęć: 6/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e8f04266033d64c1f0dc3e9a@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261020T095000
+DTEND;TZID=Europe/Warsaw:20261020T112500
+SUMMARY:Cip (w)
+LOCATION:116 45
+DESCRIPTION:Czujniki i przetworniki\nRodzaj: wykład\nProwadzący: mgr in
+ ż. Kocoń Krzysztof\nNr zajęć: 3/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:889fd115172254e5daefbdcf@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261020T114000
+DTEND;TZID=Europe/Warsaw:20261020T131500
+SUMMARY:PuEl (L)
+LOCATION:115 61
+DESCRIPTION:Prototypowanie układów elektronicznych\nRodzaj: laboratorium
+ \nProwadzący: mgr inż. Kapski Adrian\nNr zajęć: 1/18\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2a7e8b69fc649ba52acf51e4@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261020T133000
+DTEND;TZID=Europe/Warsaw:20261020T150500
+SUMMARY:PuEl (L)
+LOCATION:115 61
+DESCRIPTION:Prototypowanie układów elektronicznych\nRodzaj: laboratorium
+ \nProwadzący: mgr inż. Kapski Adrian\nNr zajęć: 2/18\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:fe2d4c11d70da7ce78990067@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261021T080000
+DTEND;TZID=Europe/Warsaw:20261021T093500
+SUMMARY:Cip (w)
+LOCATION:119 45
+DESCRIPTION:Czujniki i przetworniki\nRodzaj: wykład\nProwadzący: mgr in
+ ż. Kocoń Krzysztof\nNr zajęć: 4/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9e805bf8eb637b69a8200a8c@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261021T095000
+DTEND;TZID=Europe/Warsaw:20261021T112500
+SUMMARY:Mtsa (w)
+LOCATION:119 45
+DESCRIPTION:Monitoring i transmisja sygnałów alarmowych\nRodzaj: wykład
+ \nProwadzący: dr inż. Wiśnios Michał\nNr zajęć: 6/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:536e6161497e35a818556b76@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261022T080000
+DTEND;TZID=Europe/Warsaw:20261022T093500
+SUMMARY:Cps (w)
+LOCATION:118 45
+DESCRIPTION:Cyfrowe przetwarzanie sygnałów\nRodzaj: wykład\nProwadzący
+ : dr hab. inż. Jakubowski Jacek\nNr zajęć: 7/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ed3d9db6da66d517e735b119@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261022T095000
+DTEND;TZID=Europe/Warsaw:20261022T112500
+SUMMARY:Cip (w)
+LOCATION:118 45
+DESCRIPTION:Czujniki i przetworniki\nRodzaj: wykład\nProwadzący: mgr in
+ ż. Kocoń Krzysztof\nNr zajęć: 5/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:310a19ff58a18f274af35712@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261022T114000
+DTEND;TZID=Europe/Warsaw:20261022T131500
+SUMMARY:EsO (w)
+LOCATION:117 45
+DESCRIPTION:Elektromechaniczne systemy ochrony\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Łukasiak Jarosław\nNr zajęć: 2/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e46d3e1e5622f4d30393d7be@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261022T133000
+DTEND;TZID=Europe/Warsaw:20261022T150500
+SUMMARY:Splcw (w)
+LOCATION:117 47
+DESCRIPTION:Sterowniki PLC PW\nRodzaj: wykład\nProwadzący: dr hab. inż.
+  Suproniuk Marek\nNr zajęć: 4/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e6074132341f98c6feff606f@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261023T080000
+DTEND;TZID=Europe/Warsaw:20261023T093500
+SUMMARY:EtzW (w)
+LOCATION:120 45
+DESCRIPTION:Elektroniczne technologie zabezpieczeń PW\nRodzaj: wykład\nP
+ rowadzący: prof. dr hab. inż. Rosiński Adam\nNr zajęć: 5/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7f2cd18aeef07925bf0b4496@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261023T095000
+DTEND;TZID=Europe/Warsaw:20261023T112500
+SUMMARY:Kdb (w)
+LOCATION:120 45
+DESCRIPTION:Kontrola dostępu i biometria\nRodzaj: wykład\nNr zajęć: 6/
+ 12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5ccf785d8ec1f14b4c1c0bc3@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261023T114000
+DTEND;TZID=Europe/Warsaw:20261023T131500
+SUMMARY:TuP (w)
+LOCATION:2 45
+DESCRIPTION:Technika układów programowalnych\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Kwiatkowski Paweł\nNr zajęć: 6/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0543be30ec3ed2523f991d4a@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261023T133000
+DTEND;TZID=Europe/Warsaw:20261023T150500
+SUMMARY:Emesa (w)
+LOCATION:2 45
+DESCRIPTION:Elementy i moduły elektronicznych systemów alarmowych\nRodza
+ j: wykład\nProwadzący: prof. dr hab. inż. Rosiński Adam\nNr zajęć: 
+ 5/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:40c033f89d01d95e311a8927@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261024T152000
+DTEND;TZID=Europe/Warsaw:20261024T165500
+SUMMARY:XOis2 (w)
+LOCATION:aE S
+DESCRIPTION:XObwody i sygnaly 2\nRodzaj: wykład\nProwadzący: dr inż. Sz
+ ulim Marek\nNr zajęć: 1/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:284e58b5ce8187083db2d361@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261024T171000
+DTEND;TZID=Europe/Warsaw:20261024T184500
+SUMMARY:XOis2 (w)
+LOCATION:aE S
+DESCRIPTION:XObwody i sygnaly 2\nRodzaj: wykład\nProwadzący: dr inż. Sz
+ ulim Marek\nNr zajęć: 2/7\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:8e312738728539037dd9ffc1@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261026T080000
+DTEND;TZID=Europe/Warsaw:20261026T093500
+SUMMARY:Kdb (w)
+LOCATION:118 45
+DESCRIPTION:Kontrola dostępu i biometria\nRodzaj: wykład\nNr zajęć: 7/
+ 12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2ea88821b919bbbd6cd84388@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261026T095000
+DTEND;TZID=Europe/Warsaw:20261026T112500
+SUMMARY:Mtsa (w)
+LOCATION:118 45
+DESCRIPTION:Monitoring i transmisja sygnałów alarmowych\nRodzaj: wykład
+ \nProwadzący: dr inż. Wiśnios Michał\nNr zajęć: 7/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c7e53e0dff2d888ae1dd6b71@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261026T114000
+DTEND;TZID=Europe/Warsaw:20261026T131500
+SUMMARY:EsO (w)
+LOCATION:118 45
+DESCRIPTION:Elektromechaniczne systemy ochrony\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Łukasiak Jarosław\nNr zajęć: 3/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:290e4028cd72c6c7721dbf15@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261027T080000
+DTEND;TZID=Europe/Warsaw:20261027T093500
+SUMMARY:EsO (w)
+LOCATION:116 45
+DESCRIPTION:Elektromechaniczne systemy ochrony\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Łukasiak Jarosław\nNr zajęć: 4/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d6d7e40d2909ebe000456d95@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261027T095000
+DTEND;TZID=Europe/Warsaw:20261027T112500
+SUMMARY:Kdb (w)
+LOCATION:116 45
+DESCRIPTION:Kontrola dostępu i biometria\nRodzaj: wykład\nNr zajęć: 8/
+ 12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5fc24f1d7759bf0f9dd54693@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261027T114000
+DTEND;TZID=Europe/Warsaw:20261027T131500
+SUMMARY:Emesa (w)
+LOCATION:119 45
+DESCRIPTION:Elementy i moduły elektronicznych systemów alarmowych\nRodza
+ j: wykład\nProwadzący: prof. dr hab. inż. Rosiński Adam\nNr zajęć: 
+ 6/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:57e0dd6f731a74dd325e271c@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261027T133000
+DTEND;TZID=Europe/Warsaw:20261027T150500
+SUMMARY:Splcw (w)
+LOCATION:315b S
+DESCRIPTION:Sterowniki PLC PW\nRodzaj: wykład\nProwadzący: dr hab. inż.
+  Suproniuk Marek\nNr zajęć: 5/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:eed8fd4941e36c52840b824b@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261028T095000
+DTEND;TZID=Europe/Warsaw:20261028T112500
+SUMMARY:Mtsa (w)
+LOCATION:119 45
+DESCRIPTION:Monitoring i transmisja sygnałów alarmowych\nRodzaj: wykład
+ \nProwadzący: dr inż. Wiśnios Michał\nNr zajęć: 8/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f5a795ebffc0a8935b65a882@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261028T114000
+DTEND;TZID=Europe/Warsaw:20261028T131500
+SUMMARY:PuEl (L)
+LOCATION:104 61
+DESCRIPTION:Prototypowanie układów elektronicznych\nRodzaj: laboratorium
+ \nProwadzący: mgr inż. Kapski Adrian\nNr zajęć: 3/18\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9645491027e26080bf38a4aa@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261028T133000
+DTEND;TZID=Europe/Warsaw:20261028T150500
+SUMMARY:PuEl (L)
+LOCATION:104 61
+DESCRIPTION:Prototypowanie układów elektronicznych\nRodzaj: laboratorium
+ \nProwadzący: mgr inż. Kapski Adrian\nNr zajęć: 4/18\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c692de2bfd818d598ea77ec4@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261029T095000
+DTEND;TZID=Europe/Warsaw:20261029T112500
+SUMMARY:Kdb (w)
+LOCATION:118 45
+DESCRIPTION:Kontrola dostępu i biometria\nRodzaj: wykład\nNr zajęć: 9/
+ 12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6f661b67615919beffa020bb@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261029T114000
+DTEND;TZID=Europe/Warsaw:20261029T131500
+SUMMARY:EsO (w)
+LOCATION:117 45
+DESCRIPTION:Elektromechaniczne systemy ochrony\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Łukasiak Jarosław\nNr zajęć: 5/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6a5228dc073768d2f884e7b0@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261030T080000
+DTEND;TZID=Europe/Warsaw:20261030T093500
+SUMMARY:EtzW (w)
+LOCATION:118 45
+DESCRIPTION:Elektroniczne technologie zabezpieczeń PW\nRodzaj: wykład\nP
+ rowadzący: prof. dr hab. inż. Rosiński Adam\nNr zajęć: 6/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4f7e132867c44716da54b3c5@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261030T095000
+DTEND;TZID=Europe/Warsaw:20261030T112500
+SUMMARY:Zue (w)
+LOCATION:118 45
+DESCRIPTION:Zasilanie urządzeń elektronicznych\nRodzaj: wykład\nProwadz
+ ący: dr hab. inż. Watral Zbigniew\nNr zajęć: 3/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d1124f1644f32e34c7c032c7@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261030T114000
+DTEND;TZID=Europe/Warsaw:20261030T131500
+SUMMARY:Emesa (w)
+LOCATION:119 45
+DESCRIPTION:Elementy i moduły elektronicznych systemów alarmowych\nRodza
+ j: wykład\nProwadzący: prof. dr hab. inż. Rosiński Adam\nNr zajęć: 
+ 7/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9a7ae41b5c1a88750b5b3d7e@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261031T114000
+DTEND;TZID=Europe/Warsaw:20261031T131500
+SUMMARY:XOis2 (w)
+LOCATION:aE S
+DESCRIPTION:XObwody i sygnaly 2\nRodzaj: wykład\nProwadzący: dr inż. Sz
+ ulim Marek\nNr zajęć: 3/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:85bed47f7cb3411d531d58f9@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261031T133000
+DTEND;TZID=Europe/Warsaw:20261031T150500
+SUMMARY:XOis2 (w)
+LOCATION:aE S
+DESCRIPTION:XObwody i sygnaly 2\nRodzaj: wykład\nProwadzący: dr inż. Sz
+ ulim Marek\nNr zajęć: 4/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a65e950158c18b3ebd9480c6@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261102T080000
+DTEND;TZID=Europe/Warsaw:20261102T093500
+SUMMARY:Kdb (w)
+LOCATION:117 45
+DESCRIPTION:Kontrola dostępu i biometria\nRodzaj: wykład\nNr zajęć: 10
+ /12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b8205692222ead5a3bba946b@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261102T095000
+DTEND;TZID=Europe/Warsaw:20261102T112500
+SUMMARY:Mtsa (w)
+LOCATION:117 45
+DESCRIPTION:Monitoring i transmisja sygnałów alarmowych\nRodzaj: wykład
+ \nProwadzący: dr inż. Wiśnios Michał\nNr zajęć: 9/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:15fcc7a645bc4a97d8384cef@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261102T114000
+DTEND;TZID=Europe/Warsaw:20261102T131500
+SUMMARY:Zue (w)
+LOCATION:117 45
+DESCRIPTION:Zasilanie urządzeń elektronicznych\nRodzaj: wykład\nProwadz
+ ący: dr hab. inż. Watral Zbigniew\nNr zajęć: 4/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:77ba14b658d3dbc66eac5508@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261103T080000
+DTEND;TZID=Europe/Warsaw:20261103T093500
+SUMMARY:EtzW (w)
+LOCATION:116 45
+DESCRIPTION:Elektroniczne technologie zabezpieczeń PW\nRodzaj: wykład\nP
+ rowadzący: prof. dr hab. inż. Rosiński Adam\nNr zajęć: 7/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:91f4b7f73c56d545cd0d58d7@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261103T095000
+DTEND;TZID=Europe/Warsaw:20261103T112500
+SUMMARY:Zue (w)
+LOCATION:116 45
+DESCRIPTION:Zasilanie urządzeń elektronicznych\nRodzaj: wykład\nProwadz
+ ący: dr hab. inż. Watral Zbigniew\nNr zajęć: 5/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:cd2479e252cc14f7b535c884@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261103T114000
+DTEND;TZID=Europe/Warsaw:20261103T131500
+SUMMARY:EsO (w)
+LOCATION:119 45
+DESCRIPTION:Elektromechaniczne systemy ochrony\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Łukasiak Jarosław\nNr zajęć: 6/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d7d2766e2f57325a839a2412@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261103T133000
+DTEND;TZID=Europe/Warsaw:20261103T150500
+SUMMARY:EtzW (w)
+LOCATION:117 45
+DESCRIPTION:Elektroniczne technologie zabezpieczeń PW\nRodzaj: wykład\nP
+ rowadzący: prof. dr hab. inż. Rosiński Adam\nNr zajęć: 8/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:551307bd7958efcb510b6eed@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261104T080000
+DTEND;TZID=Europe/Warsaw:20261104T093500
+SUMMARY:Cip (w)
+LOCATION:119 45
+DESCRIPTION:Czujniki i przetworniki\nRodzaj: wykład\nProwadzący: mgr in
+ ż. Kocoń Krzysztof\nNr zajęć: 6/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:803c371086bd21a1b1b66cfa@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261104T095000
+DTEND;TZID=Europe/Warsaw:20261104T112500
+SUMMARY:Mtsa (w)
+LOCATION:119 45
+DESCRIPTION:Monitoring i transmisja sygnałów alarmowych\nRodzaj: wykład
+ \nProwadzący: dr inż. Wiśnios Michał\nNr zajęć: 10/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:649050c238c5d6e2ff2cc3ab@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261104T114000
+DTEND;TZID=Europe/Warsaw:20261104T131500
+SUMMARY:EsO (L)
+LOCATION:66 S\; 61 S
+DESCRIPTION:Elektromechaniczne systemy ochrony\nRodzaj: laboratorium\nProw
+ adzący: mgr inż. Mazur Michał\nNr zajęć: 1/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5f82e679492b8c14ab0b50ea@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261104T133000
+DTEND;TZID=Europe/Warsaw:20261104T150500
+SUMMARY:EsO (L)
+LOCATION:66 S\; 61 S
+DESCRIPTION:Elektromechaniczne systemy ochrony\nRodzaj: laboratorium\nProw
+ adzący: mgr inż. Mazur Michał\nNr zajęć: 2/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ee8890ce67dbb9e7f5aba1f5@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261105T080000
+DTEND;TZID=Europe/Warsaw:20261105T093500
+SUMMARY:Mtsa (L)
+LOCATION:61 S\; 66 S\; 85 S
+DESCRIPTION:Monitoring i transmisja sygnałów alarmowych\nRodzaj: laborat
+ orium\nNr zajęć: 1/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3d52dd59b59fc4efaee752cc@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261105T095000
+DTEND;TZID=Europe/Warsaw:20261105T112500
+SUMMARY:Mtsa (L)
+LOCATION:61 S\; 66 S\; 85 S
+DESCRIPTION:Monitoring i transmisja sygnałów alarmowych\nRodzaj: laborat
+ orium\nNr zajęć: 2/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:22a6137317ca4ec5ff7a758e@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261105T114000
+DTEND;TZID=Europe/Warsaw:20261105T131500
+SUMMARY:Kdb (w)
+LOCATION:118 45
+DESCRIPTION:Kontrola dostępu i biometria\nRodzaj: wykład\nNr zajęć: 11
+ /12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9a88bc5d674237646aa57dc0@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261105T133000
+DTEND;TZID=Europe/Warsaw:20261105T150500
+SUMMARY:Cps (w)
+LOCATION:118 45
+DESCRIPTION:Cyfrowe przetwarzanie sygnałów\nRodzaj: wykład\nProwadzący
+ : dr hab. inż. Jakubowski Jacek\nNr zajęć: 8/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6eea3a71c9cc5088cbe967ba@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261107T114000
+DTEND;TZID=Europe/Warsaw:20261107T131500
+SUMMARY:XOis2 (w)
+LOCATION:aE S
+DESCRIPTION:XObwody i sygnaly 2\nRodzaj: wykład\nProwadzący: dr inż. Sz
+ ulim Marek\nNr zajęć: 5/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0028e051bdbb38b23bd127cb@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261107T133000
+DTEND;TZID=Europe/Warsaw:20261107T150500
+SUMMARY:XOis2 (w)
+LOCATION:aE S
+DESCRIPTION:XObwody i sygnaly 2\nRodzaj: wykład\nProwadzący: dr inż. Sz
+ ulim Marek\nNr zajęć: 6/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2ac7108ddcfe755f4ac5c940@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261109T080000
+DTEND;TZID=Europe/Warsaw:20261109T093500
+SUMMARY:TuP (L)
+LOCATION:17 45\; 19 45
+DESCRIPTION:Technika układów programowalnych\nRodzaj: laboratorium\nProw
+ adzący: mgr inż. Mścichowski Mariusz\nNr zajęć: 1/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0899ba8de802ea9b3e2b51f7@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261109T095000
+DTEND;TZID=Europe/Warsaw:20261109T112500
+SUMMARY:TuP (L)
+LOCATION:17 45\; 19 45
+DESCRIPTION:Technika układów programowalnych\nRodzaj: laboratorium\nProw
+ adzący: mgr inż. Mścichowski Mariusz\nNr zajęć: 2/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7f59068b18ffb3cba3f1df74@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261109T114000
+DTEND;TZID=Europe/Warsaw:20261109T131500
+SUMMARY:Splcw (L)
+LOCATION:062 S
+DESCRIPTION:Sterowniki PLC PW\nRodzaj: laboratorium\nProwadzący: mgr inż
+ . Paziewski Piotr\nNr zajęć: 1/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:498661f76d8c7ce38957dad0@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261109T133000
+DTEND;TZID=Europe/Warsaw:20261109T150500
+SUMMARY:Splcw (L)
+LOCATION:062 S
+DESCRIPTION:Sterowniki PLC PW\nRodzaj: laboratorium\nProwadzący: mgr inż
+ . Paziewski Piotr\nNr zajęć: 2/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:fd8ce8d5558d17496ce00633@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261110T080000
+DTEND;TZID=Europe/Warsaw:20261110T093500
+SUMMARY:EtzW (w)
+LOCATION:116 45
+DESCRIPTION:Elektroniczne technologie zabezpieczeń PW\nRodzaj: wykład\nP
+ rowadzący: prof. dr hab. inż. Rosiński Adam\nNr zajęć: 9/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0668600f9dd165d6ff94d6e5@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261110T095000
+DTEND;TZID=Europe/Warsaw:20261110T112500
+SUMMARY:Zue (w)
+LOCATION:116 45
+DESCRIPTION:Zasilanie urządzeń elektronicznych\nRodzaj: wykład\nProwadz
+ ący: dr hab. inż. Watral Zbigniew\nNr zajęć: 6/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:633af82592211fda2611ec35@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261112T080000
+DTEND;TZID=Europe/Warsaw:20261112T093500
+SUMMARY:Kdb (L)
+LOCATION:61 S\; 66 S\; 85 S
+DESCRIPTION:Kontrola dostępu i biometria\nRodzaj: laboratorium\nNr zaję
+ ć: 1/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:17aefc943e04c7823f600526@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261112T095000
+DTEND;TZID=Europe/Warsaw:20261112T112500
+SUMMARY:Kdb (L)
+LOCATION:61 S\; 66 S\; 85 S
+DESCRIPTION:Kontrola dostępu i biometria\nRodzaj: laboratorium\nNr zaję
+ ć: 2/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3b0ee2819978736ca8e96026@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261112T114000
+DTEND;TZID=Europe/Warsaw:20261112T131500
+SUMMARY:EsO (L)
+LOCATION:66 S\; 61 S
+DESCRIPTION:Elektromechaniczne systemy ochrony\nRodzaj: laboratorium\nProw
+ adzący: mgr inż. Mazur Michał\nNr zajęć: 3/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c18ca60ceb7bc988d3cc48c0@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261112T133000
+DTEND;TZID=Europe/Warsaw:20261112T150500
+SUMMARY:EsO (L)
+LOCATION:66 S\; 61 S
+DESCRIPTION:Elektromechaniczne systemy ochrony\nRodzaj: laboratorium\nProw
+ adzący: mgr inż. Mazur Michał\nNr zajęć: 4/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0affabb8f56670be7acc5316@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261113T080000
+DTEND;TZID=Europe/Warsaw:20261113T093500
+SUMMARY:EtzW (w)
+LOCATION:120 45
+DESCRIPTION:Elektroniczne technologie zabezpieczeń PW\nRodzaj: wykład\nP
+ rowadzący: prof. dr hab. inż. Rosiński Adam\nNr zajęć: 10/10\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e5bf8a67dfed0be308ebc806@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261113T095000
+DTEND;TZID=Europe/Warsaw:20261113T112500
+SUMMARY:Zue (w)
+LOCATION:120 45
+DESCRIPTION:Zasilanie urządzeń elektronicznych\nRodzaj: wykład\nProwadz
+ ący: dr hab. inż. Watral Zbigniew\nNr zajęć: 7/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:611487c1fc828ec9aa06647c@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261113T114000
+DTEND;TZID=Europe/Warsaw:20261113T131500
+SUMMARY:Emesa (w)
+LOCATION:120 45
+DESCRIPTION:Elementy i moduły elektronicznych systemów alarmowych\nRodza
+ j: wykład\nProwadzący: prof. dr hab. inż. Rosiński Adam\nNr zajęć: 
+ 8/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:bee7d72aa49442c5c977d6d6@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261113T133000
+DTEND;TZID=Europe/Warsaw:20261113T150500
+SUMMARY:Cps (w)
+LOCATION:117 45
+DESCRIPTION:Cyfrowe przetwarzanie sygnałów\nRodzaj: wykład\nProwadzący
+ : dr hab. inż. Jakubowski Jacek\nNr zajęć: 9/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ed386962dbead87bb5165314@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261115T080000
+DTEND;TZID=Europe/Warsaw:20261115T093500
+SUMMARY:XOis2 (w)
+LOCATION:aE S
+DESCRIPTION:XObwody i sygnaly 2\nRodzaj: wykład\nProwadzący: dr inż. Sz
+ ulim Marek\nNr zajęć: 7/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:cfacf85ba8abcef269b6b171@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261116T080000
+DTEND;TZID=Europe/Warsaw:20261116T093500
+SUMMARY:Emesa (L)
+LOCATION:044 S\; 059 S
+DESCRIPTION:Elementy i moduły elektronicznych systemów alarmowych\nRodza
+ j: laboratorium\nNr zajęć: 1/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:80549c357f357105ac2a012d@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261116T095000
+DTEND;TZID=Europe/Warsaw:20261116T112500
+SUMMARY:Emesa (L)
+LOCATION:044 S\; 059 S
+DESCRIPTION:Elementy i moduły elektronicznych systemów alarmowych\nRodza
+ j: laboratorium\nNr zajęć: 2/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b6631c45f281f5c2931f15e3@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261116T114000
+DTEND;TZID=Europe/Warsaw:20261116T131500
+SUMMARY:Splcw (L)
+LOCATION:062 S
+DESCRIPTION:Sterowniki PLC PW\nRodzaj: laboratorium\nProwadzący: mgr inż
+ . Paziewski Piotr\nNr zajęć: 3/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4eae98eecfa7bdb35cc032b7@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261116T133000
+DTEND;TZID=Europe/Warsaw:20261116T150500
+SUMMARY:Splcw (L)
+LOCATION:062 S
+DESCRIPTION:Sterowniki PLC PW\nRodzaj: laboratorium\nProwadzący: mgr inż
+ . Paziewski Piotr\nNr zajęć: 4/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6f9e96bf449c111d95961d86@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261116T160000
+DTEND;TZID=Europe/Warsaw:20261116T173500
+SUMMARY:TuP (L)
+LOCATION:17 45\; 19 45
+DESCRIPTION:Technika układów programowalnych\nRodzaj: laboratorium\nProw
+ adzący: mgr inż. Mścichowski Mariusz\nNr zajęć: 3/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:c3a90276433ce926a6825468@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261116T175000
+DTEND;TZID=Europe/Warsaw:20261116T192500
+SUMMARY:TuP (L)
+LOCATION:17 45\; 19 45
+DESCRIPTION:Technika układów programowalnych\nRodzaj: laboratorium\nProw
+ adzący: mgr inż. Mścichowski Mariusz\nNr zajęć: 4/8\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:1680397210f48e1e6cfaad23@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261118T080000
+DTEND;TZID=Europe/Warsaw:20261118T093500
+SUMMARY:Cip (w)
+LOCATION:118 45
+DESCRIPTION:Czujniki i przetworniki\nRodzaj: wykład\nProwadzący: mgr in
+ ż. Kocoń Krzysztof\nNr zajęć: 7/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:42920c3a2a0c26e4f76230b8@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261118T095000
+DTEND;TZID=Europe/Warsaw:20261118T112500
+SUMMARY:Mtsa (w)
+LOCATION:118 45
+DESCRIPTION:Monitoring i transmisja sygnałów alarmowych\nRodzaj: wykład
+ \nProwadzący: dr inż. Wiśnios Michał\nNr zajęć: 11/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a68e9d48e9fb0bd1261f0ab7@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261119T080000
+DTEND;TZID=Europe/Warsaw:20261119T093500
+SUMMARY:Kdb (L)
+LOCATION:61 S\; 66 S\; 85 S
+DESCRIPTION:Kontrola dostępu i biometria\nRodzaj: laboratorium\nNr zaję
+ ć: 3/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:af9ccd5f357bc58f2055a689@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261119T095000
+DTEND;TZID=Europe/Warsaw:20261119T112500
+SUMMARY:Kdb (L)
+LOCATION:61 S\; 66 S\; 85 S
+DESCRIPTION:Kontrola dostępu i biometria\nRodzaj: laboratorium\nNr zaję
+ ć: 4/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1fa6ea559e60035bd4eb0fa2@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261119T114000
+DTEND;TZID=Europe/Warsaw:20261119T131500
+SUMMARY:Mtsa (L)
+LOCATION:61 S\; 66 S\; 85 S
+DESCRIPTION:Monitoring i transmisja sygnałów alarmowych\nRodzaj: laborat
+ orium\nNr zajęć: 3/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a8e9f5435aa7a4c061d298f8@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261119T133000
+DTEND;TZID=Europe/Warsaw:20261119T150500
+SUMMARY:Mtsa (L)
+LOCATION:61 S\; 66 S\; 85 S
+DESCRIPTION:Monitoring i transmisja sygnałów alarmowych\nRodzaj: laborat
+ orium\nNr zajęć: 4/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b194f389da3782c603a0cc20@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261120T080000
+DTEND;TZID=Europe/Warsaw:20261120T093500
+SUMMARY:PuEl (L)
+LOCATION:116 61
+DESCRIPTION:Prototypowanie układów elektronicznych\nRodzaj: laboratorium
+ \nProwadzący: mgr inż. Kapski Adrian\nNr zajęć: 5/18\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5bdf6c94b39e24fb4a7832e2@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261120T095000
+DTEND;TZID=Europe/Warsaw:20261120T112500
+SUMMARY:PuEl (L)
+LOCATION:116 61
+DESCRIPTION:Prototypowanie układów elektronicznych\nRodzaj: laboratorium
+ \nProwadzący: mgr inż. Kapski Adrian\nNr zajęć: 6/18\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6d34490c25458d63815c92dd@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261120T114000
+DTEND;TZID=Europe/Warsaw:20261120T131500
+SUMMARY:EtzW (P)
+LOCATION:118 45
+DESCRIPTION:Elektroniczne technologie zabezpieczeń PW\nRodzaj: projekt\nN
+ r zajęć: 1/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e1bd8f192170fd32ff58c673@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261120T133000
+DTEND;TZID=Europe/Warsaw:20261120T150500
+SUMMARY:EtzW (P)
+LOCATION:118 45
+DESCRIPTION:Elektroniczne technologie zabezpieczeń PW\nRodzaj: projekt\nN
+ r zajęć: 2/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:eeb7ccf0ae8f517cfd78470b@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261123T080000
+DTEND;TZID=Europe/Warsaw:20261123T093500
+SUMMARY:Cps (L)
+LOCATION:86 S
+DESCRIPTION:Cyfrowe przetwarzanie sygnałów\nRodzaj: laboratorium\nNr zaj
+ ęć: 1/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f3bd81e85e7ac3f0b1d079f2@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261123T095000
+DTEND;TZID=Europe/Warsaw:20261123T112500
+SUMMARY:Cps (L)
+LOCATION:86 S
+DESCRIPTION:Cyfrowe przetwarzanie sygnałów\nRodzaj: laboratorium\nNr zaj
+ ęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8debb37cfac99202f5da1c35@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261124T080000
+DTEND;TZID=Europe/Warsaw:20261124T093500
+SUMMARY:PuEl (L)
+LOCATION:111 61
+DESCRIPTION:Prototypowanie układów elektronicznych\nRodzaj: laboratorium
+ \nProwadzący: mgr inż. Kapski Adrian\nNr zajęć: 7/18\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5f399bc612fa3399fe2c42d4@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261124T095000
+DTEND;TZID=Europe/Warsaw:20261124T112500
+SUMMARY:PuEl (L)
+LOCATION:111 61
+DESCRIPTION:Prototypowanie układów elektronicznych\nRodzaj: laboratorium
+ \nProwadzący: mgr inż. Kapski Adrian\nNr zajęć: 8/18\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:00b53990b5f9a5caa13bdd4a@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261124T114000
+DTEND;TZID=Europe/Warsaw:20261124T131500
+SUMMARY:Emesa (P)
+LOCATION:2 45
+DESCRIPTION:Elementy i moduły elektronicznych systemów alarmowych\nRodza
+ j: projekt\nProwadzący: prof. dr hab. inż. Rosiński Adam\nNr zajęć: 
+ 1/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:927f88efd90073c5485a5bad@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261125T114000
+DTEND;TZID=Europe/Warsaw:20261125T131500
+SUMMARY:Cip (L)
+LOCATION:032E S\; 058 S
+DESCRIPTION:Czujniki i przetworniki\nRodzaj: laboratorium\nNr zajęć: 1/8
+ \nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:47335e6dd662dff4f39075e1@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261125T133000
+DTEND;TZID=Europe/Warsaw:20261125T150500
+SUMMARY:Cip (L)
+LOCATION:032E S\; 058 S
+DESCRIPTION:Czujniki i przetworniki\nRodzaj: laboratorium\nNr zajęć: 2/8
+ \nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:099f0b033c3b0853934448f5@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261126T080000
+DTEND;TZID=Europe/Warsaw:20261126T093500
+SUMMARY:Zue (L)
+LOCATION:058 S
+DESCRIPTION:Zasilanie urządzeń elektronicznych\nRodzaj: laboratorium\nPr
+ owadzący: mgr. inż. Piwowarski Karol\nNr zajęć: 1/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:bf6493213b43c8af272c8808@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261126T095000
+DTEND;TZID=Europe/Warsaw:20261126T112500
+SUMMARY:Zue (L)
+LOCATION:058 S
+DESCRIPTION:Zasilanie urządzeń elektronicznych\nRodzaj: laboratorium\nPr
+ owadzący: mgr. inż. Piwowarski Karol\nNr zajęć: 2/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2a8fb1ac1fd43006ca56758f@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261126T114000
+DTEND;TZID=Europe/Warsaw:20261126T131500
+SUMMARY:EsO (L)
+LOCATION:66 S\; 61 S
+DESCRIPTION:Elektromechaniczne systemy ochrony\nRodzaj: laboratorium\nProw
+ adzący: mgr inż. Mazur Michał\nNr zajęć: 5/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a4583b6ff19b1fe4a7f92102@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261126T133000
+DTEND;TZID=Europe/Warsaw:20261126T150500
+SUMMARY:EsO (L)
+LOCATION:66 S\; 61 S
+DESCRIPTION:Elektromechaniczne systemy ochrony\nRodzaj: laboratorium\nProw
+ adzący: mgr inż. Mazur Michał\nNr zajęć: 6/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0ba8d87be088ffeb63f8cd5e@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261130T080000
+DTEND;TZID=Europe/Warsaw:20261130T093500
+SUMMARY:Emesa (L)
+LOCATION:044 S\; 059 S
+DESCRIPTION:Elementy i moduły elektronicznych systemów alarmowych\nRodza
+ j: laboratorium\nNr zajęć: 3/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:dd01487ab43de3f31c3ae23c@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261130T095000
+DTEND;TZID=Europe/Warsaw:20261130T112500
+SUMMARY:Emesa (L)
+LOCATION:044 S\; 059 S
+DESCRIPTION:Elementy i moduły elektronicznych systemów alarmowych\nRodza
+ j: laboratorium\nNr zajęć: 4/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2dc36e5b9dff82b62e20b3c4@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261130T114000
+DTEND;TZID=Europe/Warsaw:20261130T131500
+SUMMARY:Splcw (L)
+LOCATION:062 S
+DESCRIPTION:Sterowniki PLC PW\nRodzaj: laboratorium\nProwadzący: mgr inż
+ . Paziewski Piotr\nNr zajęć: 5/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7a91e5a540afc09375bbbe80@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261130T133000
+DTEND;TZID=Europe/Warsaw:20261130T150500
+SUMMARY:Splcw (L)
+LOCATION:062 S
+DESCRIPTION:Sterowniki PLC PW\nRodzaj: laboratorium\nProwadzący: mgr inż
+ . Paziewski Piotr\nNr zajęć: 6/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d593f1882f57a80644a828fc@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261201T080000
+DTEND;TZID=Europe/Warsaw:20261201T093500
+SUMMARY:Kdb (L)
+LOCATION:044 S\; 85 S\; 66 S
+DESCRIPTION:Kontrola dostępu i biometria\nRodzaj: laboratorium\nNr zaję
+ ć: 5/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:97dd1370d5413b6de3673f02@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261201T095000
+DTEND;TZID=Europe/Warsaw:20261201T112500
+SUMMARY:Kdb (L)
+LOCATION:044 S\; 85 S\; 66 S
+DESCRIPTION:Kontrola dostępu i biometria\nRodzaj: laboratorium\nNr zaję
+ ć: 6/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:54c7dafea5a1d6d3477158f8@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261202T080000
+DTEND;TZID=Europe/Warsaw:20261202T093500
+SUMMARY:PuEl (L)
+LOCATION:111 61
+DESCRIPTION:Prototypowanie układów elektronicznych\nRodzaj: laboratorium
+ \nProwadzący: mgr inż. Kapski Adrian\nNr zajęć: 9/18\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:252a76819d1241b59e690e5e@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261202T095000
+DTEND;TZID=Europe/Warsaw:20261202T112500
+SUMMARY:PuEl (L)
+LOCATION:111 61
+DESCRIPTION:Prototypowanie układów elektronicznych\nRodzaj: laboratorium
+ \nProwadzący: mgr inż. Kapski Adrian\nNr zajęć: 10/18\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e279bb932c02a8c432764cf9@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261202T114000
+DTEND;TZID=Europe/Warsaw:20261202T131500
+SUMMARY:Cps (L)
+LOCATION:86 S
+DESCRIPTION:Cyfrowe przetwarzanie sygnałów\nRodzaj: laboratorium\nNr zaj
+ ęć: 3/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f188dab90d9d0b70f7a58c6a@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261202T133000
+DTEND;TZID=Europe/Warsaw:20261202T150500
+SUMMARY:Cps (L)
+LOCATION:86 S
+DESCRIPTION:Cyfrowe przetwarzanie sygnałów\nRodzaj: laboratorium\nNr zaj
+ ęć: 4/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d63ee076d4e1227556cf0b89@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261203T080000
+DTEND;TZID=Europe/Warsaw:20261203T093500
+SUMMARY:Zue (L)
+LOCATION:058 S
+DESCRIPTION:Zasilanie urządzeń elektronicznych\nRodzaj: laboratorium\nPr
+ owadzący: mgr. inż. Piwowarski Karol\nNr zajęć: 3/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0ada06450b9511fafd6aecf5@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261203T095000
+DTEND;TZID=Europe/Warsaw:20261203T112500
+SUMMARY:Zue (L)
+LOCATION:058 S
+DESCRIPTION:Zasilanie urządzeń elektronicznych\nRodzaj: laboratorium\nPr
+ owadzący: mgr. inż. Piwowarski Karol\nNr zajęć: 4/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f6abdb041a4e680fd7d2be20@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261203T114000
+DTEND;TZID=Europe/Warsaw:20261203T131500
+SUMMARY:Mtsa (L)
+LOCATION:61 S\; 66 S\; 85 S
+DESCRIPTION:Monitoring i transmisja sygnałów alarmowych\nRodzaj: laborat
+ orium\nNr zajęć: 5/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6846b6629d64733b7cf62916@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261203T133000
+DTEND;TZID=Europe/Warsaw:20261203T150500
+SUMMARY:Mtsa (L)
+LOCATION:61 S\; 66 S\; 85 S
+DESCRIPTION:Monitoring i transmisja sygnałów alarmowych\nRodzaj: laborat
+ orium\nNr zajęć: 6/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0773bfb8a0496b19074fc0c7@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261204T080000
+DTEND;TZID=Europe/Warsaw:20261204T093500
+SUMMARY:Emesa (P)
+LOCATION:119 45
+DESCRIPTION:Elementy i moduły elektronicznych systemów alarmowych\nRodza
+ j: projekt\nProwadzący: prof. dr hab. inż. Rosiński Adam\nNr zajęć: 
+ 2/2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:99db32f029ba8726b9bf739a@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261204T095000
+DTEND;TZID=Europe/Warsaw:20261204T112500
+SUMMARY:Spd (S)
+LOCATION:119 45
+DESCRIPTION:Seminaria przeddyplomowe\nRodzaj: seminarium\nNr zajęć: 2/4\
+ nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:31871a3e6914df4c311df26a@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261208T080000
+DTEND;TZID=Europe/Warsaw:20261208T093500
+SUMMARY:Kdb (L)
+LOCATION:044 S\; 85 S\; 66 S
+DESCRIPTION:Kontrola dostępu i biometria\nRodzaj: laboratorium\nNr zaję
+ ć: 7/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c9bb6f641d0592046bfc1389@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261208T095000
+DTEND;TZID=Europe/Warsaw:20261208T112500
+SUMMARY:Kdb (L)
+LOCATION:044 S\; 85 S\; 66 S
+DESCRIPTION:Kontrola dostępu i biometria\nRodzaj: laboratorium\nNr zaję
+ ć: 8/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e0b60619ff0febf8ed83855c@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261208T114000
+DTEND;TZID=Europe/Warsaw:20261208T131500
+SUMMARY:TuP (L)
+LOCATION:17 45\; 19 45
+DESCRIPTION:Technika układów programowalnych\nRodzaj: laboratorium\nProw
+ adzący: mgr inż. Mścichowski Mariusz\nNr zajęć: 5/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:499eaecb6bbab4ac1bbdfe01@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261208T133000
+DTEND;TZID=Europe/Warsaw:20261208T150500
+SUMMARY:TuP (L)
+LOCATION:17 45\; 19 45
+DESCRIPTION:Technika układów programowalnych\nRodzaj: laboratorium\nProw
+ adzący: mgr inż. Mścichowski Mariusz\nNr zajęć: 6/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b602d703d5e50a69d87ea6de@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261209T080000
+DTEND;TZID=Europe/Warsaw:20261209T093500
+SUMMARY:PuEl (L)
+LOCATION:111 61
+DESCRIPTION:Prototypowanie układów elektronicznych\nRodzaj: laboratorium
+ \nProwadzący: mgr inż. Kapski Adrian\nNr zajęć: 11/18\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f49e24453287742f1143ab56@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261209T095000
+DTEND;TZID=Europe/Warsaw:20261209T112500
+SUMMARY:PuEl (L)
+LOCATION:111 61
+DESCRIPTION:Prototypowanie układów elektronicznych\nRodzaj: laboratorium
+ \nProwadzący: mgr inż. Kapski Adrian\nNr zajęć: 12/18\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:48b2bb0e22a90496a2b7e652@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261209T114000
+DTEND;TZID=Europe/Warsaw:20261209T131500
+SUMMARY:Cip (L)
+LOCATION:032E S\; 058 S
+DESCRIPTION:Czujniki i przetworniki\nRodzaj: laboratorium\nNr zajęć: 3/8
+ \nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b15298af02c961e86af192f1@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261209T133000
+DTEND;TZID=Europe/Warsaw:20261209T150500
+SUMMARY:Cip (L)
+LOCATION:032E S\; 058 S
+DESCRIPTION:Czujniki i przetworniki\nRodzaj: laboratorium\nNr zajęć: 4/8
+ \nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:dd5adadc074749b9cbb853f4@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261210T080000
+DTEND;TZID=Europe/Warsaw:20261210T093500
+SUMMARY:Mtsa (L)
+LOCATION:61 S\; 66 S\; 85 S
+DESCRIPTION:Monitoring i transmisja sygnałów alarmowych\nRodzaj: laborat
+ orium\nNr zajęć: 7/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a156eca83875f42c349f44b4@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261210T095000
+DTEND;TZID=Europe/Warsaw:20261210T112500
+SUMMARY:Mtsa (L)
+LOCATION:61 S\; 66 S\; 85 S
+DESCRIPTION:Monitoring i transmisja sygnałów alarmowych\nRodzaj: laborat
+ orium\nNr zajęć: 8/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:11ffdcd5ed25786abf1bbf99@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261210T114000
+DTEND;TZID=Europe/Warsaw:20261210T131500
+SUMMARY:EsO (L)
+LOCATION:66 S\; 61 S
+DESCRIPTION:Elektromechaniczne systemy ochrony\nRodzaj: laboratorium\nProw
+ adzący: mgr inż. Mazur Michał\nNr zajęć: 7/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3f23add826d8eec011338990@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261210T133000
+DTEND;TZID=Europe/Warsaw:20261210T150500
+SUMMARY:EsO (L)
+LOCATION:66 S\; 61 S
+DESCRIPTION:Elektromechaniczne systemy ochrony\nRodzaj: laboratorium\nProw
+ adzący: mgr inż. Mazur Michał\nNr zajęć: 8/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8719d63ccf49406f9116dd6f@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261210T160000
+DTEND;TZID=Europe/Warsaw:20261210T173500
+SUMMARY:Cps (w)
+LOCATION:315 S
+DESCRIPTION:Cyfrowe przetwarzanie sygnałów\nRodzaj: wykład\nProwadzący
+ : dr hab. inż. Jakubowski Jacek\nNr zajęć: 10/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:7d0ae0c29c06e3fd843f8b66@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261211T080000
+DTEND;TZID=Europe/Warsaw:20261211T093500
+SUMMARY:EtzW (P)
+LOCATION:118 45
+DESCRIPTION:Elektroniczne technologie zabezpieczeń PW\nRodzaj: projekt\nN
+ r zajęć: 3/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3d6ad41f238b06e7c9c72b42@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261211T095000
+DTEND;TZID=Europe/Warsaw:20261211T112500
+SUMMARY:EtzW (P)
+LOCATION:118 45
+DESCRIPTION:Elektroniczne technologie zabezpieczeń PW\nRodzaj: projekt\nN
+ r zajęć: 4/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7c73008d89e44f8881f8d49b@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261214T080000
+DTEND;TZID=Europe/Warsaw:20261214T093500
+SUMMARY:Emesa (L)
+LOCATION:044 S\; 059 S
+DESCRIPTION:Elementy i moduły elektronicznych systemów alarmowych\nRodza
+ j: laboratorium\nNr zajęć: 5/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4a35825cbbed21819d80a609@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261214T095000
+DTEND;TZID=Europe/Warsaw:20261214T112500
+SUMMARY:Emesa (L)
+LOCATION:044 S\; 059 S
+DESCRIPTION:Elementy i moduły elektronicznych systemów alarmowych\nRodza
+ j: laboratorium\nNr zajęć: 6/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:bfae6582ac6e09a8718b0a56@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261214T114000
+DTEND;TZID=Europe/Warsaw:20261214T131500
+SUMMARY:Splcw (L)
+LOCATION:062 S
+DESCRIPTION:Sterowniki PLC PW\nRodzaj: laboratorium\nProwadzący: mgr inż
+ . Paziewski Piotr\nNr zajęć: 7/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:90fc2d87d82d8ac93232e7a3@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261214T133000
+DTEND;TZID=Europe/Warsaw:20261214T150500
+SUMMARY:Splcw (L)
+LOCATION:062 S
+DESCRIPTION:Sterowniki PLC PW\nRodzaj: laboratorium\nProwadzący: mgr inż
+ . Paziewski Piotr\nNr zajęć: 8/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:29235c94064123c1a2b68aeb@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261215T080000
+DTEND;TZID=Europe/Warsaw:20261215T093500
+SUMMARY:Kdb (L)
+LOCATION:61 S\; 66 S\; 85 S
+DESCRIPTION:Kontrola dostępu i biometria\nRodzaj: laboratorium\nNr zaję
+ ć: 9/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2006b720a34feb904e54f839@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261215T095000
+DTEND;TZID=Europe/Warsaw:20261215T112500
+SUMMARY:Kdb (L)
+LOCATION:61 S\; 66 S\; 85 S
+DESCRIPTION:Kontrola dostępu i biometria\nRodzaj: laboratorium\nNr zaję
+ ć: 10/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:fcd2ef5d0b11b7a743d67b71@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261215T114000
+DTEND;TZID=Europe/Warsaw:20261215T131500
+SUMMARY:TuP (L)
+LOCATION:17 45\; 19 45
+DESCRIPTION:Technika układów programowalnych\nRodzaj: laboratorium\nProw
+ adzący: mgr inż. Mścichowski Mariusz\nNr zajęć: 7/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3d0e5326e53477591d151cbc@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261215T133000
+DTEND;TZID=Europe/Warsaw:20261215T150500
+SUMMARY:TuP (L)
+LOCATION:17 45\; 19 45
+DESCRIPTION:Technika układów programowalnych\nRodzaj: laboratorium\nProw
+ adzący: mgr inż. Mścichowski Mariusz\nNr zajęć: 8/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:54c0facfa6a1871bc5301082@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261216T080000
+DTEND;TZID=Europe/Warsaw:20261216T093500
+SUMMARY:PuEl (L)
+LOCATION:115 61
+DESCRIPTION:Prototypowanie układów elektronicznych\nRodzaj: laboratorium
+ \nProwadzący: mgr inż. Kapski Adrian\nNr zajęć: 13/18\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:72885d0e55550f65b5552031@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261216T095000
+DTEND;TZID=Europe/Warsaw:20261216T112500
+SUMMARY:PuEl (L)
+LOCATION:115 61
+DESCRIPTION:Prototypowanie układów elektronicznych\nRodzaj: laboratorium
+ \nProwadzący: mgr inż. Kapski Adrian\nNr zajęć: 14/18\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:98cebee20a0db7a52d73ac0c@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261216T114000
+DTEND;TZID=Europe/Warsaw:20261216T131500
+SUMMARY:Cip (L)
+LOCATION:82 S\; 058 S
+DESCRIPTION:Czujniki i przetworniki\nRodzaj: laboratorium\nNr zajęć: 5/8
+ \nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c13ea5e2a9b5360efeb9367a@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261216T133000
+DTEND;TZID=Europe/Warsaw:20261216T150500
+SUMMARY:Cip (L)
+LOCATION:82 S\; 058 S
+DESCRIPTION:Czujniki i przetworniki\nRodzaj: laboratorium\nNr zajęć: 6/8
+ \nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e64934f50ab2972c987c8b29@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261217T080000
+DTEND;TZID=Europe/Warsaw:20261217T093500
+SUMMARY:EsO (w)
+LOCATION:2 45
+DESCRIPTION:Elektromechaniczne systemy ochrony\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Łukasiak Jarosław\nNr zajęć: 7/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:85b187785adb8f0b8a19bc9d@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20261217T095000
+DTEND;TZID=Europe/Warsaw:20261217T112500
+SUMMARY:TuP (w)
+LOCATION:2 45
+DESCRIPTION:Technika układów programowalnych\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Kwiatkowski Paweł\nNr zajęć: 7/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:34a4ad8b7500556732d78f15@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20270107T080000
+DTEND;TZID=Europe/Warsaw:20270107T093500
+SUMMARY:Zue (L)
+LOCATION:058 S
+DESCRIPTION:Zasilanie urządzeń elektronicznych\nRodzaj: laboratorium\nPr
+ owadzący: mgr. inż. Piwowarski Karol\nNr zajęć: 5/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b720664db1fcd78f0b0f479a@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20270107T095000
+DTEND;TZID=Europe/Warsaw:20270107T112500
+SUMMARY:Zue (L)
+LOCATION:058 S
+DESCRIPTION:Zasilanie urządzeń elektronicznych\nRodzaj: laboratorium\nPr
+ owadzący: mgr. inż. Piwowarski Karol\nNr zajęć: 6/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:70bda5a04f6d5a43fa35d4a6@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20270107T114000
+DTEND;TZID=Europe/Warsaw:20270107T131500
+SUMMARY:Mtsa (L)
+LOCATION:66 S\; 85 S
+DESCRIPTION:Monitoring i transmisja sygnałów alarmowych\nRodzaj: laborat
+ orium\nNr zajęć: 9/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:fa6ed88dcd7b832ac4892ca0@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20270107T133000
+DTEND;TZID=Europe/Warsaw:20270107T150500
+SUMMARY:Mtsa (L)
+LOCATION:66 S\; 85 S
+DESCRIPTION:Monitoring i transmisja sygnałów alarmowych\nRodzaj: laborat
+ orium\nNr zajęć: 10/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a4923a1d9fe13a2f0f594ee5@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20270111T080000
+DTEND;TZID=Europe/Warsaw:20270111T093500
+SUMMARY:Emesa (L)
+LOCATION:044 S\; 059 S
+DESCRIPTION:Elementy i moduły elektronicznych systemów alarmowych\nRodza
+ j: laboratorium\nNr zajęć: 7/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6995041038e369171e62c2b6@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20270111T095000
+DTEND;TZID=Europe/Warsaw:20270111T112500
+SUMMARY:Emesa (L)
+LOCATION:044 S\; 059 S
+DESCRIPTION:Elementy i moduły elektronicznych systemów alarmowych\nRodza
+ j: laboratorium\nNr zajęć: 8/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f509276794bb2cfb10a0bcd2@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20270111T114000
+DTEND;TZID=Europe/Warsaw:20270111T131500
+SUMMARY:Splcw (L)
+LOCATION:062 S
+DESCRIPTION:Sterowniki PLC PW\nRodzaj: laboratorium\nProwadzący: mgr inż
+ . Paziewski Piotr\nNr zajęć: 9/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:535d36db0862d76858b851dc@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20270111T133000
+DTEND;TZID=Europe/Warsaw:20270111T150500
+SUMMARY:Splcw (L)
+LOCATION:062 S
+DESCRIPTION:Sterowniki PLC PW\nRodzaj: laboratorium\nProwadzący: mgr inż
+ . Paziewski Piotr\nNr zajęć: 10/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f9f08237a8ede5397b9bb409@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20270112T080000
+DTEND;TZID=Europe/Warsaw:20270112T093500
+SUMMARY:PuEl (L)
+LOCATION:115 61
+DESCRIPTION:Prototypowanie układów elektronicznych\nRodzaj: laboratorium
+ \nProwadzący: mgr inż. Kapski Adrian\nNr zajęć: 15/18\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:21da69394b362a3cae8935c8@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20270112T095000
+DTEND;TZID=Europe/Warsaw:20270112T112500
+SUMMARY:PuEl (L)
+LOCATION:115 61
+DESCRIPTION:Prototypowanie układów elektronicznych\nRodzaj: laboratorium
+ \nProwadzący: mgr inż. Kapski Adrian\nNr zajęć: 16/18\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:eafe7ea0ea25e8e5a29a8b74@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20270112T114000
+DTEND;TZID=Europe/Warsaw:20270112T131500
+SUMMARY:Cps (L)
+LOCATION:86 S
+DESCRIPTION:Cyfrowe przetwarzanie sygnałów\nRodzaj: laboratorium\nNr zaj
+ ęć: 5/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a14fe70d2865c3116cb6d92d@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20270112T133000
+DTEND;TZID=Europe/Warsaw:20270112T150500
+SUMMARY:EtzW (P)
+LOCATION:315a S
+DESCRIPTION:Elektroniczne technologie zabezpieczeń PW\nRodzaj: projekt\nN
+ r zajęć: 5/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:09295925230a1b5a6b1147ab@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20270120T080000
+DTEND;TZID=Europe/Warsaw:20270120T093500
+SUMMARY:Cip (L)
+LOCATION:82 S\; 058 S
+DESCRIPTION:Czujniki i przetworniki\nRodzaj: laboratorium\nNr zajęć: 7/8
+ \nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:756d53ddd9c2d6fe2d9dea2b@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20270120T095000
+DTEND;TZID=Europe/Warsaw:20270120T112500
+SUMMARY:Cip (L)
+LOCATION:82 S\; 058 S
+DESCRIPTION:Czujniki i przetworniki\nRodzaj: laboratorium\nNr zajęć: 8/8
+ \nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3f0c0d00ab89fae02050755a@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20270125T095000
+DTEND;TZID=Europe/Warsaw:20270125T112500
+SUMMARY:Kdb (w)
+LOCATION:117 45
+DESCRIPTION:Kontrola dostępu i biometria\nRodzaj: wykład\nNr zajęć: 12
+ /12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4a1e2113056d577773e1fb40@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20270125T114000
+DTEND;TZID=Europe/Warsaw:20270125T131500
+SUMMARY:Spd (S)
+LOCATION:315b S
+DESCRIPTION:Seminaria przeddyplomowe\nRodzaj: seminarium\nNr zajęć: 3/4\
+ nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9fdbe8a51f25a6b4d1bcc47a@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20270125T133000
+DTEND;TZID=Europe/Warsaw:20270125T150500
+SUMMARY:Spd (S)
+LOCATION:315b S
+DESCRIPTION:Seminaria przeddyplomowe\nRodzaj: seminarium\nNr zajęć: 4/4\
+ nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c11d55f2bec0579258264065@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20270126T080000
+DTEND;TZID=Europe/Warsaw:20270126T093500
+SUMMARY:PuEl (L)
+LOCATION:115 61
+DESCRIPTION:Prototypowanie układów elektronicznych\nRodzaj: laboratorium
+ \nProwadzący: mgr inż. Kapski Adrian\nNr zajęć: 17/18\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6b27e29793aed36e14727223@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20270126T095000
+DTEND;TZID=Europe/Warsaw:20270126T112500
+SUMMARY:PuEl (L)
+LOCATION:115 61
+DESCRIPTION:Prototypowanie układów elektronicznych\nRodzaj: laboratorium
+ \nProwadzący: mgr inż. Kapski Adrian\nNr zajęć: 18/18\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:bf2a0d03fd9913c61139c4de@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20270126T114000
+DTEND;TZID=Europe/Warsaw:20270126T131500
+SUMMARY:Zue (L)
+LOCATION:058 S
+DESCRIPTION:Zasilanie urządzeń elektronicznych\nRodzaj: laboratorium\nPr
+ owadzący: mgr. inż. Piwowarski Karol\nNr zajęć: 7/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d9d2c203d2ab5aecbc9cc90a@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20270126T133000
+DTEND;TZID=Europe/Warsaw:20270126T150500
+SUMMARY:Zue (L)
+LOCATION:058 S
+DESCRIPTION:Zasilanie urządzeń elektronicznych\nRodzaj: laboratorium\nPr
+ owadzący: mgr. inż. Piwowarski Karol\nNr zajęć: 8/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8053e9bccf0c2df53d25847d@wat-plan
+DTSTAMP:20261118T142905Z
+DTSTART;TZID=Europe/Warsaw:20270128T080000
+DTEND;TZID=Europe/Warsaw:20270128T093500
+SUMMARY:Mtsa (w)
+LOCATION:118 45
+DESCRIPTION:Monitoring i transmisja sygnałów alarmowych\nRodzaj: wykład
+ \nProwadzący: dr inż. Wiśnios Michał\nNr zajęć: 12/12\nBlok: 1
+END:VEVENT
+END:VCALENDAR

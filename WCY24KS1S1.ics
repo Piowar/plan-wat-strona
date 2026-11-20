@@ -1,0 +1,1866 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WCY24KS1S1
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:c7cba4c956d86ec2ee6993ff@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261001T080000
+DTEND;TZID=Europe/Warsaw:20261001T093500
+SUMMARY:Kre (w)
+LOCATION:078 S
+DESCRIPTION:Krzywe eliptyczne\nRodzaj: wykład\nProwadzący: Kijko Tomasz\
+ nNr zajęć: 1/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9149b7d14aa4cc1a839ff4b4@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261001T095000
+DTEND;TZID=Europe/Warsaw:20261001T112500
+SUMMARY:Wkkp (w)
+LOCATION:078 S
+DESCRIPTION:Wstęp do kryptoanalizy klucza publicznego\nRodzaj: wykład\nP
+ rowadzący: Jurkiewicz Mariusz\nNr zajęć: 1/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:bbc254fc3d70381f8d0f07bb@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261001T114000
+DTEND;TZID=Europe/Warsaw:20261001T131500
+SUMMARY:Ztk (w)
+LOCATION:078 S
+DESCRIPTION:Zastosowania teorii krat w kryptologii\nRodzaj: wykład\nProwa
+ dzący: Jurkiewicz Mariusz\nNr zajęć: 1/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b82968f3a9aac8cb66e86fef@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261001T133000
+DTEND;TZID=Europe/Warsaw:20261001T150500
+SUMMARY:Ab (w)
+LOCATION:078 S
+DESCRIPTION:Algorytmy blokowe\nRodzaj: wykład\nProwadzący: Misztal Micha
+ ł\nNr zajęć: 1/20\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6155ca62891ccc8ddfd133fb@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261002T114000
+DTEND;TZID=Europe/Warsaw:20261002T131500
+SUMMARY:Bpe (w)
+LOCATION:314 S
+DESCRIPTION:Bezpieczeństwo pracy i ergonomia.\nRodzaj: wykład\nProwadzą
+ cy: Kalman Leszek\nNr zajęć: 1/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0c20da564cab2145410e84b7@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261002T133000
+DTEND;TZID=Europe/Warsaw:20261002T150500
+SUMMARY:Nsk (w)
+LOCATION:314 S
+DESCRIPTION:Niezawodność systemów komputerowych\nRodzaj: wykład\nProwa
+ dzący: Nowicki Tadeusz\nNr zajęć: 1/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:701a6f673f27913dbbde939d@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261005T080000
+DTEND;TZID=Europe/Warsaw:20261005T093500
+SUMMARY:Ab (w)
+LOCATION:078 S
+DESCRIPTION:Algorytmy blokowe\nRodzaj: wykład\nProwadzący: Misztal Micha
+ ł\nNr zajęć: 2/20\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6ad96ead93de7ff857c226f1@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261005T095000
+DTEND;TZID=Europe/Warsaw:20261005T112500
+SUMMARY:SZP (w)
+LOCATION:309 S
+DESCRIPTION:Systemy zabezpieczeń pomieszczeń\nRodzaj: wykład\nProwadzą
+ cy: Bora Piotr\nNr zajęć: 1/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8101c74c13857976484b15b7@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261006T080000
+DTEND;TZID=Europe/Warsaw:20261006T093500
+SUMMARY:PBI (w)
+LOCATION:317 S
+DESCRIPTION:Podstawy bezpieczeństwa informacji\nRodzaj: wykład\nProwadz
+ ący: Liderman Krzysztof\nNr zajęć: 1/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:66106e72f2a82b9945b387f2@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261006T095000
+DTEND;TZID=Europe/Warsaw:20261006T112500
+SUMMARY:PBI (w)
+LOCATION:317 S
+DESCRIPTION:Podstawy bezpieczeństwa informacji\nRodzaj: wykład\nProwadz
+ ący: Liderman Krzysztof\nNr zajęć: 2/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:91cce422a4b3afa0ae889e15@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261006T114000
+DTEND;TZID=Europe/Warsaw:20261006T131500
+SUMMARY:Ab (w)
+LOCATION:078 S
+DESCRIPTION:Algorytmy blokowe\nRodzaj: wykład\nProwadzący: Misztal Micha
+ ł\nNr zajęć: 3/20\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:acf608ba428949ac63ec3660@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261008T080000
+DTEND;TZID=Europe/Warsaw:20261008T093500
+SUMMARY:Kre (w)
+LOCATION:078 S
+DESCRIPTION:Krzywe eliptyczne\nRodzaj: wykład\nProwadzący: Kijko Tomasz\
+ nNr zajęć: 2/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2795ef9d7cc8c7e32f112668@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261008T095000
+DTEND;TZID=Europe/Warsaw:20261008T112500
+SUMMARY:Wkkp (w)
+LOCATION:078 S
+DESCRIPTION:Wstęp do kryptoanalizy klucza publicznego\nRodzaj: wykład\nP
+ rowadzący: Jurkiewicz Mariusz\nNr zajęć: 2/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5aa25160e0d1c28e2c12f6fa@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261008T114000
+DTEND;TZID=Europe/Warsaw:20261008T131500
+SUMMARY:Ztk (w)
+LOCATION:078 S
+DESCRIPTION:Zastosowania teorii krat w kryptologii\nRodzaj: wykład\nProwa
+ dzący: Jurkiewicz Mariusz\nNr zajęć: 2/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b8589c7b5f66e25b2617bc7e@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261008T133000
+DTEND;TZID=Europe/Warsaw:20261008T150500
+SUMMARY:Ab (w)
+LOCATION:078 S
+DESCRIPTION:Algorytmy blokowe\nRodzaj: wykład\nProwadzący: Misztal Micha
+ ł\nNr zajęć: 4/20\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:bb18ecf4cf9ae5f250f0948c@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261009T095000
+DTEND;TZID=Europe/Warsaw:20261009T112500
+SUMMARY:Bpe (w)
+LOCATION:314 S
+DESCRIPTION:Bezpieczeństwo pracy i ergonomia.\nRodzaj: wykład\nProwadzą
+ cy: Kalman Leszek\nNr zajęć: 2/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c0427fc407085e28d1e2896f@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261009T114000
+DTEND;TZID=Europe/Warsaw:20261009T131500
+SUMMARY:Nsk (w)
+LOCATION:314 S
+DESCRIPTION:Niezawodność systemów komputerowych\nRodzaj: wykład\nProwa
+ dzący: Nowicki Tadeusz\nNr zajęć: 2/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5317ffafce9702670468dbc7@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261009T133000
+DTEND;TZID=Europe/Warsaw:20261009T150500
+SUMMARY:Nsk (w)
+LOCATION:314 S
+DESCRIPTION:Niezawodność systemów komputerowych\nRodzaj: wykład\nProwa
+ dzący: Nowicki Tadeusz\nNr zajęć: 3/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c737754ce03b93916d8984da@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261012T080000
+DTEND;TZID=Europe/Warsaw:20261012T093500
+SUMMARY:Ab (w)
+LOCATION:078 S
+DESCRIPTION:Algorytmy blokowe\nRodzaj: wykład\nProwadzący: Misztal Micha
+ ł\nNr zajęć: 5/20\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f9418961a0d475ffdbbf6b56@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261012T095000
+DTEND;TZID=Europe/Warsaw:20261012T112500
+SUMMARY:Wkkp (w)
+LOCATION:078 S
+DESCRIPTION:Wstęp do kryptoanalizy klucza publicznego\nRodzaj: wykład\nP
+ rowadzący: Jurkiewicz Mariusz\nNr zajęć: 3/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:16a50953c0f0f1e7e7d6427a@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261015T080000
+DTEND;TZID=Europe/Warsaw:20261015T093500
+SUMMARY:Kre (w)
+LOCATION:078 S
+DESCRIPTION:Krzywe eliptyczne\nRodzaj: wykład\nProwadzący: Kijko Tomasz\
+ nNr zajęć: 3/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6b32f36dce8ca95f1909a9ce@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261015T095000
+DTEND;TZID=Europe/Warsaw:20261015T112500
+SUMMARY:Wkkp (L)
+LOCATION:085 S
+DESCRIPTION:Wstęp do kryptoanalizy klucza publicznego\nRodzaj: laboratori
+ um\nProwadzący: Jurkiewicz Mariusz\nNr zajęć: 1/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ca2ea59fd49ffa2481b93392@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261016T095000
+DTEND;TZID=Europe/Warsaw:20261016T112500
+SUMMARY:Bpe (w)
+LOCATION:314 S
+DESCRIPTION:Bezpieczeństwo pracy i ergonomia.\nRodzaj: wykład\nProwadzą
+ cy: Kalman Leszek\nNr zajęć: 3/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e1cef674830c7178bd9fc26b@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261016T114000
+DTEND;TZID=Europe/Warsaw:20261016T131500
+SUMMARY:Nsk (w)
+LOCATION:314 S
+DESCRIPTION:Niezawodność systemów komputerowych\nRodzaj: wykład\nProwa
+ dzący: Nowicki Tadeusz\nNr zajęć: 4/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:127b81db23698351a07cffc4@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261016T133000
+DTEND;TZID=Europe/Warsaw:20261016T150500
+SUMMARY:Nsk (w)
+LOCATION:314 S
+DESCRIPTION:Niezawodność systemów komputerowych\nRodzaj: wykład\nProwa
+ dzący: Nowicki Tadeusz\nNr zajęć: 5/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:bc59a1e3a37d4ebd59dee66f@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261019T080000
+DTEND;TZID=Europe/Warsaw:20261019T093500
+SUMMARY:Ab (w)
+LOCATION:078 S
+DESCRIPTION:Algorytmy blokowe\nRodzaj: wykład\nProwadzący: Misztal Micha
+ ł\nNr zajęć: 6/20\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f881d296ea1bed5e7e579dcd@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261019T095000
+DTEND;TZID=Europe/Warsaw:20261019T112500
+SUMMARY:SZP (w)
+LOCATION:307 S
+DESCRIPTION:Systemy zabezpieczeń pomieszczeń\nRodzaj: wykład\nProwadzą
+ cy: Bora Piotr\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a98164064cf58e847e325105@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261019T114000
+DTEND;TZID=Europe/Warsaw:20261019T131500
+SUMMARY:Wkkp (w)
+LOCATION:078 S
+DESCRIPTION:Wstęp do kryptoanalizy klucza publicznego\nRodzaj: wykład\nP
+ rowadzący: Jurkiewicz Mariusz\nNr zajęć: 4/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:91764305ee4ab3aa325ab6f4@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261020T080000
+DTEND;TZID=Europe/Warsaw:20261020T093500
+SUMMARY:PBI (w)
+LOCATION:317 S
+DESCRIPTION:Podstawy bezpieczeństwa informacji\nRodzaj: wykład\nProwadz
+ ący: Liderman Krzysztof\nNr zajęć: 3/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ae4c9a322b4f60ab8e879e86@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261020T095000
+DTEND;TZID=Europe/Warsaw:20261020T112500
+SUMMARY:PBI (w)
+LOCATION:317 S
+DESCRIPTION:Podstawy bezpieczeństwa informacji\nRodzaj: wykład\nProwadz
+ ący: Liderman Krzysztof\nNr zajęć: 4/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:fbf55fd98ba6b89889b2f144@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261020T114000
+DTEND;TZID=Europe/Warsaw:20261020T131500
+SUMMARY:ZKwI (w)
+LOCATION:317 S
+DESCRIPTION:Zastosowania kryptografii w Internecie\nRodzaj: wykład\nProwa
+ dzący: Bora Piotr\nNr zajęć: 1/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9946c314600927aa37f94fd2@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261021T080000
+DTEND;TZID=Europe/Warsaw:20261021T093500
+SUMMARY:Ab (ć)
+LOCATION:085 S
+DESCRIPTION:Algorytmy blokowe\nRodzaj: ćwiczenia\nProwadzący: Burek Elż
+ bieta\nNr zajęć: 1/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:18c9e839f133c54b4dc642f0@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261022T080000
+DTEND;TZID=Europe/Warsaw:20261022T093500
+SUMMARY:Kre (w)
+LOCATION:078 S
+DESCRIPTION:Krzywe eliptyczne\nRodzaj: wykład\nProwadzący: Kijko Tomasz\
+ nNr zajęć: 4/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2d22ef6c516452ae66434d50@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261022T095000
+DTEND;TZID=Europe/Warsaw:20261022T112500
+SUMMARY:Ztk (L)
+LOCATION:078 S
+DESCRIPTION:Zastosowania teorii krat w kryptologii\nRodzaj: laboratorium\n
+ Prowadzący: Jurkiewicz Mariusz\nNr zajęć: 1/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:87aa5213808f8f41de76e6c2@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261022T114000
+DTEND;TZID=Europe/Warsaw:20261022T131500
+SUMMARY:Ztk (w)
+LOCATION:078 S
+DESCRIPTION:Zastosowania teorii krat w kryptologii\nRodzaj: wykład\nProwa
+ dzący: Jurkiewicz Mariusz\nNr zajęć: 3/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:55ee516fbe0a0e02a80b35aa@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261022T133000
+DTEND;TZID=Europe/Warsaw:20261022T150500
+SUMMARY:Ab (w)
+LOCATION:078 S
+DESCRIPTION:Algorytmy blokowe\nRodzaj: wykład\nProwadzący: Misztal Micha
+ ł\nNr zajęć: 7/20\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:841e561578fab50ebf409665@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261027T080000
+DTEND;TZID=Europe/Warsaw:20261027T093500
+SUMMARY:Ab (L)
+LOCATION:085 S
+DESCRIPTION:Algorytmy blokowe\nRodzaj: laboratorium\nProwadzący: Burek El
+ żbieta\nNr zajęć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b5d9c852d9c6548c4136589d@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261027T114000
+DTEND;TZID=Europe/Warsaw:20261027T131500
+SUMMARY:ZKwI (w)
+LOCATION:317 S
+DESCRIPTION:Zastosowania kryptografii w Internecie\nRodzaj: wykład\nProwa
+ dzący: Bora Piotr\nNr zajęć: 2/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:cf3f52761e776921fa16f8a5@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261027T133000
+DTEND;TZID=Europe/Warsaw:20261027T150500
+SUMMARY:SZP (w)
+LOCATION:309 S
+DESCRIPTION:Systemy zabezpieczeń pomieszczeń\nRodzaj: wykład\nProwadzą
+ cy: Bora Piotr\nNr zajęć: 3/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4dd7fe256f02ed8a99d34869@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261027T160000
+DTEND;TZID=Europe/Warsaw:20261027T173500
+SUMMARY:SZP (w)
+LOCATION:309 S
+DESCRIPTION:Systemy zabezpieczeń pomieszczeń\nRodzaj: wykład\nProwadzą
+ cy: Bora Piotr\nNr zajęć: 4/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:becab56ab1f82ab7f0842623@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261028T095000
+DTEND;TZID=Europe/Warsaw:20261028T112500
+SUMMARY:IK (Inne)
+LOCATION:125 65
+DESCRIPTION:Interfejsy komputerów\nRodzaj: zal popr\nProwadzący: Miktus 
+ Artur\nNr zajęć: 1/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8af697a536f11c66f9721506@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261028T114000
+DTEND;TZID=Europe/Warsaw:20261028T131500
+SUMMARY:IK (Inne)
+LOCATION:125 65
+DESCRIPTION:Interfejsy komputerów\nRodzaj: zal popr\nProwadzący: Miktus 
+ Artur\nNr zajęć: 2/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1f353d8b52b08794a65e456e@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261029T080000
+DTEND;TZID=Europe/Warsaw:20261029T093500
+SUMMARY:Kre (w)
+LOCATION:078 S
+DESCRIPTION:Krzywe eliptyczne\nRodzaj: wykład\nProwadzący: Kijko Tomasz\
+ nNr zajęć: 5/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:367b2f07088da4561966ee8e@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261029T095000
+DTEND;TZID=Europe/Warsaw:20261029T112500
+SUMMARY:Wkkp (w)
+LOCATION:078 S
+DESCRIPTION:Wstęp do kryptoanalizy klucza publicznego\nRodzaj: wykład\nP
+ rowadzący: Jurkiewicz Mariusz\nNr zajęć: 5/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d41e7141e5f39cd4cc98e39c@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261029T114000
+DTEND;TZID=Europe/Warsaw:20261029T131500
+SUMMARY:Ztk (w)
+LOCATION:078 S
+DESCRIPTION:Zastosowania teorii krat w kryptologii\nRodzaj: wykład\nProwa
+ dzący: Jurkiewicz Mariusz\nNr zajęć: 4/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4cd181b8f395d2c41226d2a3@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261029T133000
+DTEND;TZID=Europe/Warsaw:20261029T150500
+SUMMARY:Ab (w)
+LOCATION:078 S
+DESCRIPTION:Algorytmy blokowe\nRodzaj: wykład\nProwadzący: Misztal Micha
+ ł\nNr zajęć: 8/20\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5f5a9bcb649a8920b1f78ecb@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261030T080000
+DTEND;TZID=Europe/Warsaw:20261030T093500
+SUMMARY:PZiP (w)
+LOCATION:314 S
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: wykład\
+ nNr zajęć: 1/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:abb73758ff0ddc454c7370b1@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261030T095000
+DTEND;TZID=Europe/Warsaw:20261030T112500
+SUMMARY:Bpe (w)
+LOCATION:314 S
+DESCRIPTION:Bezpieczeństwo pracy i ergonomia.\nRodzaj: wykład\nProwadzą
+ cy: Kalman Leszek\nNr zajęć: 4/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:aa3ab5c0c651ea657fbe084e@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261030T114000
+DTEND;TZID=Europe/Warsaw:20261030T131500
+SUMMARY:Nsk (w)
+LOCATION:314 S
+DESCRIPTION:Niezawodność systemów komputerowych\nRodzaj: wykład\nProwa
+ dzący: Nowicki Tadeusz\nNr zajęć: 6/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:cdc6c89a63126583b915d5b2@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261030T133000
+DTEND;TZID=Europe/Warsaw:20261030T150500
+SUMMARY:Nsk (w)
+LOCATION:314 S
+DESCRIPTION:Niezawodność systemów komputerowych\nRodzaj: wykład\nProwa
+ dzący: Nowicki Tadeusz\nNr zajęć: 7/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a4defe2ebd7be74cc86b7b2d@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261102T080000
+DTEND;TZID=Europe/Warsaw:20261102T093500
+SUMMARY:Kre (w)
+LOCATION:078 S
+DESCRIPTION:Krzywe eliptyczne\nRodzaj: wykład\nProwadzący: Kijko Tomasz\
+ nNr zajęć: 6/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5f9eb2f22d644b2af79c52a0@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261102T095000
+DTEND;TZID=Europe/Warsaw:20261102T112500
+SUMMARY:Kre (L)
+LOCATION:078 S
+DESCRIPTION:Krzywe eliptyczne\nRodzaj: laboratorium\nProwadzący: Kijko To
+ masz\nNr zajęć: 1/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:cf980d3cd81de1ba174ff958@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261102T114000
+DTEND;TZID=Europe/Warsaw:20261102T131500
+SUMMARY:Ab (ć)
+LOCATION:085 S
+DESCRIPTION:Algorytmy blokowe\nRodzaj: ćwiczenia\nProwadzący: Burek Elż
+ bieta\nNr zajęć: 2/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4e89233551ce9a8400fbaa5a@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261103T080000
+DTEND;TZID=Europe/Warsaw:20261103T093500
+SUMMARY:PBI (w)
+LOCATION:317 S
+DESCRIPTION:Podstawy bezpieczeństwa informacji\nRodzaj: wykład\nProwadz
+ ący: Liderman Krzysztof\nNr zajęć: 5/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:972214ec1ea364bb62622a9c@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261103T095000
+DTEND;TZID=Europe/Warsaw:20261103T112500
+SUMMARY:PBI (w)
+LOCATION:317 S
+DESCRIPTION:Podstawy bezpieczeństwa informacji\nRodzaj: wykład\nProwadz
+ ący: Liderman Krzysztof\nNr zajęć: 6/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6f8b08c236a727b3101195cd@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261103T114000
+DTEND;TZID=Europe/Warsaw:20261103T131500
+SUMMARY:ZKwI (w)
+LOCATION:317 S
+DESCRIPTION:Zastosowania kryptografii w Internecie\nRodzaj: wykład\nProwa
+ dzący: Bora Piotr\nNr zajęć: 3/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:62654cd4502fd78a01019b1a@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261103T133000
+DTEND;TZID=Europe/Warsaw:20261103T150500
+SUMMARY:SZP (w)
+LOCATION:308 S
+DESCRIPTION:Systemy zabezpieczeń pomieszczeń\nRodzaj: wykład\nProwadzą
+ cy: Bora Piotr\nNr zajęć: 5/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:822cf5cab9a4a4761ba2cc34@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261103T160000
+DTEND;TZID=Europe/Warsaw:20261103T173500
+SUMMARY:Nsk (ć)
+LOCATION:309 S
+DESCRIPTION:Niezawodność systemów komputerowych\nRodzaj: ćwiczenia\nPr
+ owadzący: Kapałka Michał\nNr zajęć: 1/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:b708e141c4fa6cad0efcacac@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261104T080000
+DTEND;TZID=Europe/Warsaw:20261104T093500
+SUMMARY:Ztk (w)
+LOCATION:078 S
+DESCRIPTION:Zastosowania teorii krat w kryptologii\nRodzaj: wykład\nProwa
+ dzący: Jurkiewicz Mariusz\nNr zajęć: 5/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:827a9c53be0bbb3f7a72374c@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261104T095000
+DTEND;TZID=Europe/Warsaw:20261104T112500
+SUMMARY:Wkkp (w)
+LOCATION:078 S
+DESCRIPTION:Wstęp do kryptoanalizy klucza publicznego\nRodzaj: wykład\nP
+ rowadzący: Jurkiewicz Mariusz\nNr zajęć: 6/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6e18ec2b010aaaa4d3d57153@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261105T095000
+DTEND;TZID=Europe/Warsaw:20261105T112500
+SUMMARY:Wkkp (L)
+LOCATION:085 S
+DESCRIPTION:Wstęp do kryptoanalizy klucza publicznego\nRodzaj: laboratori
+ um\nProwadzący: Jurkiewicz Mariusz\nNr zajęć: 2/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f7636f3dc924a940ca415510@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261105T114000
+DTEND;TZID=Europe/Warsaw:20261105T131500
+SUMMARY:Ztk (L)
+LOCATION:078 S
+DESCRIPTION:Zastosowania teorii krat w kryptologii\nRodzaj: laboratorium\n
+ Prowadzący: Jurkiewicz Mariusz\nNr zajęć: 2/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a03557275e37b95891203cd5@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261106T080000
+DTEND;TZID=Europe/Warsaw:20261106T093500
+SUMMARY:PZiP (w)
+LOCATION:314 S
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: wykład\
+ nNr zajęć: 2/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:304d20c44b645c6be4334de9@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261106T133000
+DTEND;TZID=Europe/Warsaw:20261106T150500
+SUMMARY:PZiP (ć)
+LOCATION:307 S
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: ćwiczen
+ ia\nNr zajęć: 1/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7fb0b73c479a62c1897015a6@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261106T160000
+DTEND;TZID=Europe/Warsaw:20261106T173500
+SUMMARY:SZP (L)
+LOCATION:085 S
+DESCRIPTION:Systemy zabezpieczeń pomieszczeń\nRodzaj: laboratorium\nProw
+ adzący: Saniuk Marta\nNr zajęć: 1/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:32c2d2dd10aac979cf3cf99f@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261109T080000
+DTEND;TZID=Europe/Warsaw:20261109T093500
+SUMMARY:PSy (w)
+LOCATION:317 S
+DESCRIPTION:Podstawy symulacji\nRodzaj: wykład\nProwadzący: Pierzchała 
+ Dariusz\nNr zajęć: 1/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:fd8f48901a114dd3b75b9fb2@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261109T095000
+DTEND;TZID=Europe/Warsaw:20261109T112500
+SUMMARY:PSy (w)
+LOCATION:317 S
+DESCRIPTION:Podstawy symulacji\nRodzaj: wykład\nProwadzący: Pierzchała 
+ Dariusz\nNr zajęć: 2/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:60346a103538d249f6742d59@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261109T114000
+DTEND;TZID=Europe/Warsaw:20261109T131500
+SUMMARY:Bpe (w)
+LOCATION:314 S
+DESCRIPTION:Bezpieczeństwo pracy i ergonomia.\nRodzaj: wykład\nProwadzą
+ cy: Kalman Leszek\nNr zajęć: 5/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7e2f49330df64fe2b5ac4144@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261109T133000
+DTEND;TZID=Europe/Warsaw:20261109T150500
+SUMMARY:SZP (L)
+LOCATION:085 S
+DESCRIPTION:Systemy zabezpieczeń pomieszczeń\nRodzaj: laboratorium\nProw
+ adzący: Saniuk Marta\nNr zajęć: 2/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c339bb76b6ba9473c08d3e3d@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261110T095000
+DTEND;TZID=Europe/Warsaw:20261110T112500
+SUMMARY:Wkkp (L)
+LOCATION:085 S
+DESCRIPTION:Wstęp do kryptoanalizy klucza publicznego\nRodzaj: laboratori
+ um\nProwadzący: Jurkiewicz Mariusz\nNr zajęć: 3/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:16d50d69dd8026a9906a1f00@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261110T114000
+DTEND;TZID=Europe/Warsaw:20261110T131500
+SUMMARY:ZKwI (w)
+LOCATION:317 S
+DESCRIPTION:Zastosowania kryptografii w Internecie\nRodzaj: wykład\nProwa
+ dzący: Bora Piotr\nNr zajęć: 4/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6eac028f78337a97104ffa3c@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261110T133000
+DTEND;TZID=Europe/Warsaw:20261110T150500
+SUMMARY:Kre (L)
+LOCATION:085 S
+DESCRIPTION:Krzywe eliptyczne\nRodzaj: laboratorium\nProwadzący: Kijko To
+ masz\nNr zajęć: 2/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4f24c384aeec3117d517e5ab@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261112T080000
+DTEND;TZID=Europe/Warsaw:20261112T093500
+SUMMARY:Kre (w)
+LOCATION:078 S
+DESCRIPTION:Krzywe eliptyczne\nRodzaj: wykład\nProwadzący: Kijko Tomasz\
+ nNr zajęć: 7/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9966a6a50153ba097d3e452d@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261112T095000
+DTEND;TZID=Europe/Warsaw:20261112T112500
+SUMMARY:Wkkp (w)
+LOCATION:078 S
+DESCRIPTION:Wstęp do kryptoanalizy klucza publicznego\nRodzaj: wykład\nP
+ rowadzący: Jurkiewicz Mariusz\nNr zajęć: 7/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2d799b817653aae2a843899b@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261112T114000
+DTEND;TZID=Europe/Warsaw:20261112T131500
+SUMMARY:Ztk (w)
+LOCATION:078 S
+DESCRIPTION:Zastosowania teorii krat w kryptologii\nRodzaj: wykład\nProwa
+ dzący: Jurkiewicz Mariusz\nNr zajęć: 6/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7f2426e53e1bf68e82af3c3c@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261112T133000
+DTEND;TZID=Europe/Warsaw:20261112T150500
+SUMMARY:Ab (w)
+LOCATION:078 S
+DESCRIPTION:Algorytmy blokowe\nRodzaj: wykład\nProwadzący: Misztal Micha
+ ł\nNr zajęć: 9/20\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3da61f0a08a63043bae963b7@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261113T080000
+DTEND;TZID=Europe/Warsaw:20261113T093500
+SUMMARY:PZiP (w)
+LOCATION:314 S
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: wykład\
+ nNr zajęć: 3/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4e98683d50d2240a960fea04@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261113T133000
+DTEND;TZID=Europe/Warsaw:20261113T150500
+SUMMARY:PZiP (ć)
+LOCATION:307 S
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: ćwiczen
+ ia\nNr zajęć: 2/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0c3c165a49a761f6400aa0e9@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261116T080000
+DTEND;TZID=Europe/Warsaw:20261116T093500
+SUMMARY:Kre (w)
+LOCATION:078 S
+DESCRIPTION:Krzywe eliptyczne\nRodzaj: wykład\nProwadzący: Kijko Tomasz\
+ nNr zajęć: 8/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:04d538a45ca84f09aeb8134d@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261116T133000
+DTEND;TZID=Europe/Warsaw:20261116T150500
+SUMMARY:Wkkp (L)
+LOCATION:085 S
+DESCRIPTION:Wstęp do kryptoanalizy klucza publicznego\nRodzaj: laboratori
+ um\nProwadzący: Jurkiewicz Mariusz\nNr zajęć: 4/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7c87d5d2ebcb328fd2fe3187@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261117T080000
+DTEND;TZID=Europe/Warsaw:20261117T093500
+SUMMARY:PBI (w)
+LOCATION:317 S
+DESCRIPTION:Podstawy bezpieczeństwa informacji\nRodzaj: wykład\nProwadz
+ ący: Liderman Krzysztof\nNr zajęć: 7/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b4112147606eba4ded45c06a@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261117T095000
+DTEND;TZID=Europe/Warsaw:20261117T112500
+SUMMARY:PBI (w)
+LOCATION:317 S
+DESCRIPTION:Podstawy bezpieczeństwa informacji\nRodzaj: wykład\nProwadz
+ ący: Liderman Krzysztof\nNr zajęć: 8/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:374adfdd0698478c0b094902@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261117T114000
+DTEND;TZID=Europe/Warsaw:20261117T131500
+SUMMARY:ZKwI (w)
+LOCATION:317 S
+DESCRIPTION:Zastosowania kryptografii w Internecie\nRodzaj: wykład\nProwa
+ dzący: Bora Piotr\nNr zajęć: 5/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7ab4b6c9b829317382316057@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261117T133000
+DTEND;TZID=Europe/Warsaw:20261117T150500
+SUMMARY:Ab (L)
+LOCATION:085 S
+DESCRIPTION:Algorytmy blokowe\nRodzaj: laboratorium\nProwadzący: Burek El
+ żbieta\nNr zajęć: 2/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:65ecb1e160eeb7957af66bfb@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261117T160000
+DTEND;TZID=Europe/Warsaw:20261117T173500
+SUMMARY:Nsk (ć)
+LOCATION:313 S
+DESCRIPTION:Niezawodność systemów komputerowych\nRodzaj: ćwiczenia\nPr
+ owadzący: Kapałka Michał\nNr zajęć: 2/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:33d178617db59ec5a393876b@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261118T095000
+DTEND;TZID=Europe/Warsaw:20261118T112500
+SUMMARY:Ab (ć)
+LOCATION:085 S
+DESCRIPTION:Algorytmy blokowe\nRodzaj: ćwiczenia\nProwadzący: Burek Elż
+ bieta\nNr zajęć: 3/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:047f1592cca6ee7b8750c58a@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261119T095000
+DTEND;TZID=Europe/Warsaw:20261119T112500
+SUMMARY:Ztk (L)
+LOCATION:078 S
+DESCRIPTION:Zastosowania teorii krat w kryptologii\nRodzaj: laboratorium\n
+ Prowadzący: Jurkiewicz Mariusz\nNr zajęć: 3/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:08c1db2b0d88c440e103508e@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261119T114000
+DTEND;TZID=Europe/Warsaw:20261119T131500
+SUMMARY:Ztk (w)
+LOCATION:078 S
+DESCRIPTION:Zastosowania teorii krat w kryptologii\nRodzaj: wykład\nProwa
+ dzący: Jurkiewicz Mariusz\nNr zajęć: 7/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:52873b74973525eba78bef1c@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261119T133000
+DTEND;TZID=Europe/Warsaw:20261119T150500
+SUMMARY:Ab (w)
+LOCATION:078 S
+DESCRIPTION:Algorytmy blokowe\nRodzaj: wykład\nProwadzący: Misztal Micha
+ ł\nNr zajęć: 10/20\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:764a9ec72ab6ff5ea32571d9@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261120T080000
+DTEND;TZID=Europe/Warsaw:20261120T093500
+SUMMARY:PZiP (w)
+LOCATION:314 S
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: wykład\
+ nNr zajęć: 4/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ab934502fd556e48b84b831a@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261120T114000
+DTEND;TZID=Europe/Warsaw:20261120T131500
+SUMMARY:PSy (w)
+LOCATION:316 S
+DESCRIPTION:Podstawy symulacji\nRodzaj: wykład\nProwadzący: Najgebauer A
+ ndrzej\nNr zajęć: 1/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ed1d705cb6a17db02009bc3c@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261120T175000
+DTEND;TZID=Europe/Warsaw:20261120T192500
+SUMMARY:PZiP (w)
+LOCATION:316 S
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: wykład\
+ nNr zajęć: 5/8\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:939ba108e43ca6ee0e439aaa@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261123T095000
+DTEND;TZID=Europe/Warsaw:20261123T112500
+SUMMARY:Ab (w)
+LOCATION:078 S
+DESCRIPTION:Algorytmy blokowe\nRodzaj: wykład\nProwadzący: Misztal Micha
+ ł\nNr zajęć: 11/20\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2879d32d678167dcb57bf12e@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261123T114000
+DTEND;TZID=Europe/Warsaw:20261123T131500
+SUMMARY:PSy (L)
+LOCATION:226 S
+DESCRIPTION:Podstawy symulacji\nRodzaj: laboratorium\nProwadzący: Pierzch
+ ała Dariusz\nNr zajęć: 1/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9d40d7c12d30a11607b9e615@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261123T133000
+DTEND;TZID=Europe/Warsaw:20261123T150500
+SUMMARY:PSy (L)
+LOCATION:226 S
+DESCRIPTION:Podstawy symulacji\nRodzaj: laboratorium\nProwadzący: Pierzch
+ ała Dariusz\nNr zajęć: 2/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3899c7714e6e38fe3b267b89@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261124T114000
+DTEND;TZID=Europe/Warsaw:20261124T131500
+SUMMARY:ZKwI (w)
+LOCATION:317 S
+DESCRIPTION:Zastosowania kryptografii w Internecie\nRodzaj: wykład\nProwa
+ dzący: Bora Piotr\nNr zajęć: 6/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e7f3520eaeeec03cd23eb109@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261124T133000
+DTEND;TZID=Europe/Warsaw:20261124T150500
+SUMMARY:PSy (w)
+LOCATION:317 S
+DESCRIPTION:Podstawy symulacji\nRodzaj: wykład\nProwadzący: Najgebauer A
+ ndrzej\nNr zajęć: 2/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f69abdbc6c4ecfd9ef36acbf@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261124T160000
+DTEND;TZID=Europe/Warsaw:20261124T173500
+SUMMARY:Bpe (L)
+LOCATION:120 65
+DESCRIPTION:Bezpieczeństwo pracy i ergonomia.\nRodzaj: laboratorium\nProw
+ adzący: Rudnicka - Schmidt Malgorzata\nNr zajęć: 1/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:4f0fa8449340ae07987bf808@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261124T175000
+DTEND;TZID=Europe/Warsaw:20261124T192500
+SUMMARY:Bpe (L)
+LOCATION:120 65
+DESCRIPTION:Bezpieczeństwo pracy i ergonomia.\nRodzaj: laboratorium\nProw
+ adzący: Rudnicka - Schmidt Malgorzata\nNr zajęć: 2/4\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:27b72bddbe488c0470b19ebe@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261125T080000
+DTEND;TZID=Europe/Warsaw:20261125T093500
+SUMMARY:Nsk (ć)
+LOCATION:316 S
+DESCRIPTION:Niezawodność systemów komputerowych\nRodzaj: ćwiczenia\nPr
+ owadzący: Kapałka Michał\nNr zajęć: 3/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2e92ed1272db352d16e5bc78@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261125T095000
+DTEND;TZID=Europe/Warsaw:20261125T112500
+SUMMARY:Ztk (w)
+LOCATION:078 S
+DESCRIPTION:Zastosowania teorii krat w kryptologii\nRodzaj: wykład\nProwa
+ dzący: Jurkiewicz Mariusz\nNr zajęć: 8/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a5c04ea89806383ba758e644@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261126T114000
+DTEND;TZID=Europe/Warsaw:20261126T131500
+SUMMARY:Ab (w)
+LOCATION:078 S
+DESCRIPTION:Algorytmy blokowe\nRodzaj: wykład\nProwadzący: Misztal Micha
+ ł\nNr zajęć: 12/20\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f7f81da8861a4919c343f698@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261126T133000
+DTEND;TZID=Europe/Warsaw:20261126T150500
+SUMMARY:Kre (L)
+LOCATION:085 S
+DESCRIPTION:Krzywe eliptyczne\nRodzaj: laboratorium\nProwadzący: Kijko To
+ masz\nNr zajęć: 3/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d02f400b73519ba3dd730318@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261126T160000
+DTEND;TZID=Europe/Warsaw:20261126T173500
+SUMMARY:SZP (L)
+LOCATION:085 S
+DESCRIPTION:Systemy zabezpieczeń pomieszczeń\nRodzaj: laboratorium\nProw
+ adzący: Saniuk Marta\nNr zajęć: 3/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:283832c62d07b4cf2216c3c4@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261126T175000
+DTEND;TZID=Europe/Warsaw:20261126T192500
+SUMMARY:PZiP (ć)
+LOCATION:308 S
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: ćwiczen
+ ia\nNr zajęć: 3/7\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:9bf7b30555af8a075d3779a0@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261130T095000
+DTEND;TZID=Europe/Warsaw:20261130T112500
+SUMMARY:Ab (w)
+LOCATION:078 S
+DESCRIPTION:Algorytmy blokowe\nRodzaj: wykład\nProwadzący: Misztal Micha
+ ł\nNr zajęć: 13/20\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f6f07792c533d2f2af03de40@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261130T114000
+DTEND;TZID=Europe/Warsaw:20261130T131500
+SUMMARY:ZKwI (L)
+LOCATION:078 S
+DESCRIPTION:Zastosowania kryptografii w Internecie\nRodzaj: laboratorium\n
+ Prowadzący: Bora Piotr\nNr zajęć: 1/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9f474412f569a418aa7186c7@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261130T133000
+DTEND;TZID=Europe/Warsaw:20261130T150500
+SUMMARY:ZKwI (L)
+LOCATION:078 S
+DESCRIPTION:Zastosowania kryptografii w Internecie\nRodzaj: laboratorium\n
+ Prowadzący: Bora Piotr\nNr zajęć: 2/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f8f74edd3da7b3a42b5d982f@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261201T080000
+DTEND;TZID=Europe/Warsaw:20261201T093500
+SUMMARY:PBI (w)
+LOCATION:317 S
+DESCRIPTION:Podstawy bezpieczeństwa informacji\nRodzaj: wykład\nProwadz
+ ący: Liderman Krzysztof\nNr zajęć: 9/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:610754bf8f2d50b5efea5042@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261201T095000
+DTEND;TZID=Europe/Warsaw:20261201T112500
+SUMMARY:PBI (w)
+LOCATION:317 S
+DESCRIPTION:Podstawy bezpieczeństwa informacji\nRodzaj: wykład\nProwadz
+ ący: Liderman Krzysztof\nNr zajęć: 10/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:fee15d568d98d57480008e42@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261202T080000
+DTEND;TZID=Europe/Warsaw:20261202T093500
+SUMMARY:Ab (w)
+LOCATION:078 S
+DESCRIPTION:Algorytmy blokowe\nRodzaj: wykład\nProwadzący: Misztal Micha
+ ł\nNr zajęć: 14/20\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:984eb062ef385f3544d6e245@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261202T095000
+DTEND;TZID=Europe/Warsaw:20261202T112500
+SUMMARY:Ztk (w)
+LOCATION:078 S
+DESCRIPTION:Zastosowania teorii krat w kryptologii\nRodzaj: wykład\nProwa
+ dzący: Jurkiewicz Mariusz\nNr zajęć: 9/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:530e453f106bd6a8333665c0@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261203T095000
+DTEND;TZID=Europe/Warsaw:20261203T112500
+SUMMARY:Kre (L)
+LOCATION:085 S
+DESCRIPTION:Krzywe eliptyczne\nRodzaj: laboratorium\nProwadzący: Kijko To
+ masz\nNr zajęć: 4/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8a128937643b1428b1310283@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261203T114000
+DTEND;TZID=Europe/Warsaw:20261203T131500
+SUMMARY:PZiP (ć)
+LOCATION:313 S
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: ćwiczen
+ ia\nNr zajęć: 4/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:31e2bbbde8459c582735d37d@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261203T133000
+DTEND;TZID=Europe/Warsaw:20261203T150500
+SUMMARY:Ab (w)
+LOCATION:078 S
+DESCRIPTION:Algorytmy blokowe\nRodzaj: wykład\nProwadzący: Misztal Micha
+ ł\nNr zajęć: 15/20\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d8a6a6f8d405a8184074fdb6@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261203T160000
+DTEND;TZID=Europe/Warsaw:20261203T173500
+SUMMARY:SZP (L)
+LOCATION:085 S
+DESCRIPTION:Systemy zabezpieczeń pomieszczeń\nRodzaj: laboratorium\nProw
+ adzący: Saniuk Marta\nNr zajęć: 4/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:72b1dcab428e0d947f32b794@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261204T080000
+DTEND;TZID=Europe/Warsaw:20261204T093500
+SUMMARY:PZiP (w)
+LOCATION:314 S
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: wykład\
+ nNr zajęć: 6/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:929a50597b72044fad3f2e27@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261204T114000
+DTEND;TZID=Europe/Warsaw:20261204T131500
+SUMMARY:PSy (w)
+LOCATION:316 S
+DESCRIPTION:Podstawy symulacji\nRodzaj: wykład\nProwadzący: Najgebauer A
+ ndrzej\nNr zajęć: 3/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a9f5186e74afbca74e5addda@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261207T080000
+DTEND;TZID=Europe/Warsaw:20261207T093500
+SUMMARY:Ab (L)
+LOCATION:085 S
+DESCRIPTION:Algorytmy blokowe\nRodzaj: laboratorium\nProwadzący: Burek El
+ żbieta\nNr zajęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5bb85bc2173b591d5234acc4@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261207T095000
+DTEND;TZID=Europe/Warsaw:20261207T112500
+SUMMARY:Kre (L)
+LOCATION:078 S
+DESCRIPTION:Krzywe eliptyczne\nRodzaj: laboratorium\nProwadzący: Kijko To
+ masz\nNr zajęć: 5/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6c885604ff864043f0ecc5f2@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261207T114000
+DTEND;TZID=Europe/Warsaw:20261207T131500
+SUMMARY:PSy (L)
+LOCATION:226 S
+DESCRIPTION:Podstawy symulacji\nRodzaj: laboratorium\nProwadzący: Pierzch
+ ała Dariusz\nNr zajęć: 3/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:47b2faa00d7e897953ce6537@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261207T133000
+DTEND;TZID=Europe/Warsaw:20261207T150500
+SUMMARY:PSy (L)
+LOCATION:226 S
+DESCRIPTION:Podstawy symulacji\nRodzaj: laboratorium\nProwadzący: Pierzch
+ ała Dariusz\nNr zajęć: 4/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d77f9d37f7e10eaaabc7e44a@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261208T095000
+DTEND;TZID=Europe/Warsaw:20261208T112500
+SUMMARY:ZKwI (w)
+LOCATION:316 S
+DESCRIPTION:Zastosowania kryptografii w Internecie\nRodzaj: wykład\nProwa
+ dzący: Bora Piotr\nNr zajęć: 7/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:974f4e86219c96cd02d0fd88@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261209T080000
+DTEND;TZID=Europe/Warsaw:20261209T093500
+SUMMARY:Bpe (L)
+LOCATION:106 65
+DESCRIPTION:Bezpieczeństwo pracy i ergonomia.\nRodzaj: laboratorium\nProw
+ adzący: Rudnicka - Schmidt Malgorzata\nNr zajęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1308919fc68b5a0e8c378b79@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261209T095000
+DTEND;TZID=Europe/Warsaw:20261209T112500
+SUMMARY:Bpe (L)
+LOCATION:106 65
+DESCRIPTION:Bezpieczeństwo pracy i ergonomia.\nRodzaj: laboratorium\nProw
+ adzący: Rudnicka - Schmidt Malgorzata\nNr zajęć: 4/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:38d912dcea69b29404d0f945@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261209T114000
+DTEND;TZID=Europe/Warsaw:20261209T131500
+SUMMARY:PBI (L)
+LOCATION:09 65
+DESCRIPTION:Podstawy bezpieczeństwa informacji\nRodzaj: laboratorium\nPro
+ wadzący: Kania Mieczysław\nNr zajęć: 1/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7868e8826d457d8b65090a6b@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261209T133000
+DTEND;TZID=Europe/Warsaw:20261209T150500
+SUMMARY:PBI (L)
+LOCATION:09 65
+DESCRIPTION:Podstawy bezpieczeństwa informacji\nRodzaj: laboratorium\nPro
+ wadzący: Kania Mieczysław\nNr zajęć: 2/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3336a667b084ab58b84bdd49@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261210T080000
+DTEND;TZID=Europe/Warsaw:20261210T093500
+SUMMARY:PZiP (w)
+LOCATION:316 S
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: wykład\
+ nNr zajęć: 7/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8458d81eb35f90e2db21b93a@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261210T114000
+DTEND;TZID=Europe/Warsaw:20261210T131500
+SUMMARY:Ztk (w)
+LOCATION:078 S
+DESCRIPTION:Zastosowania teorii krat w kryptologii\nRodzaj: wykład\nProwa
+ dzący: Jurkiewicz Mariusz\nNr zajęć: 10/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2b2c349ee1de625a54a691ce@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261210T133000
+DTEND;TZID=Europe/Warsaw:20261210T150500
+SUMMARY:Ab (w)
+LOCATION:078 S
+DESCRIPTION:Algorytmy blokowe\nRodzaj: wykład\nProwadzący: Misztal Micha
+ ł\nNr zajęć: 16/20\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a4e26614d8ca943b4e6d6883@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261210T160000
+DTEND;TZID=Europe/Warsaw:20261210T173500
+SUMMARY:SZP (L)
+LOCATION:078 S
+DESCRIPTION:Systemy zabezpieczeń pomieszczeń\nRodzaj: laboratorium\nProw
+ adzący: Saniuk Marta\nNr zajęć: 5/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:fab0a2d72e0a0a8f49e06842@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261211T114000
+DTEND;TZID=Europe/Warsaw:20261211T131500
+SUMMARY:Wkkp (L)
+LOCATION:085 S
+DESCRIPTION:Wstęp do kryptoanalizy klucza publicznego\nRodzaj: laboratori
+ um\nProwadzący: Jurkiewicz Mariusz\nNr zajęć: 5/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:65c608eeac96a889c7572db3@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261214T095000
+DTEND;TZID=Europe/Warsaw:20261214T112500
+SUMMARY:Ab (w)
+LOCATION:078 S
+DESCRIPTION:Algorytmy blokowe\nRodzaj: wykład\nProwadzący: Misztal Micha
+ ł\nNr zajęć: 17/20\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0f0f1d05313189d33d664a80@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261214T114000
+DTEND;TZID=Europe/Warsaw:20261214T131500
+SUMMARY:ZKwI (L)
+LOCATION:085 S
+DESCRIPTION:Zastosowania kryptografii w Internecie\nRodzaj: laboratorium\n
+ Prowadzący: Bora Piotr\nNr zajęć: 3/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f34cec65dc182a5701024705@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261214T133000
+DTEND;TZID=Europe/Warsaw:20261214T150500
+SUMMARY:ZKwI (L)
+LOCATION:085 S
+DESCRIPTION:Zastosowania kryptografii w Internecie\nRodzaj: laboratorium\n
+ Prowadzący: Bora Piotr\nNr zajęć: 4/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3572c9f57cf848a946737cc3@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261215T114000
+DTEND;TZID=Europe/Warsaw:20261215T131500
+SUMMARY:Ab (ć)
+LOCATION:085 S
+DESCRIPTION:Algorytmy blokowe\nRodzaj: ćwiczenia\nProwadzący: Burek Elż
+ bieta\nNr zajęć: 4/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:025cadc2a2596abcc0e30065@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261216T080000
+DTEND;TZID=Europe/Warsaw:20261216T093500
+SUMMARY:Ztk (L)
+LOCATION:078 S
+DESCRIPTION:Zastosowania teorii krat w kryptologii\nRodzaj: laboratorium\n
+ Prowadzący: Jurkiewicz Mariusz\nNr zajęć: 4/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:891c6e3527deceee0c664ee0@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261216T095000
+DTEND;TZID=Europe/Warsaw:20261216T112500
+SUMMARY:Nsk (ć)
+LOCATION:309 S
+DESCRIPTION:Niezawodność systemów komputerowych\nRodzaj: ćwiczenia\nPr
+ owadzący: Kapałka Michał\nNr zajęć: 4/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:00be3278b116a81fb4ac70ef@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261216T114000
+DTEND;TZID=Europe/Warsaw:20261216T131500
+SUMMARY:Wkkp (L)
+LOCATION:085 S
+DESCRIPTION:Wstęp do kryptoanalizy klucza publicznego\nRodzaj: laboratori
+ um\nProwadzący: Jurkiewicz Mariusz\nNr zajęć: 6/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:893bd30776f507bf95909bef@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261217T114000
+DTEND;TZID=Europe/Warsaw:20261217T131500
+SUMMARY:Kre (L)
+LOCATION:085 S
+DESCRIPTION:Krzywe eliptyczne\nRodzaj: laboratorium\nProwadzący: Kijko To
+ masz\nNr zajęć: 6/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:13ee1028cffe7c53c0402f64@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261217T133000
+DTEND;TZID=Europe/Warsaw:20261217T150500
+SUMMARY:Ab (w)
+LOCATION:078 S
+DESCRIPTION:Algorytmy blokowe\nRodzaj: wykład\nProwadzący: Misztal Micha
+ ł\nNr zajęć: 18/20\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8ba72dbdbb80ec951a9f9883@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261218T095000
+DTEND;TZID=Europe/Warsaw:20261218T112500
+SUMMARY:SZP (L)
+LOCATION:085 S
+DESCRIPTION:Systemy zabezpieczeń pomieszczeń\nRodzaj: laboratorium\nProw
+ adzący: Saniuk Marta\nNr zajęć: 6/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:fde6b264bca4ea39f02f7f71@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261218T114000
+DTEND;TZID=Europe/Warsaw:20261218T131500
+SUMMARY:PZiP (ć)
+LOCATION:314 S
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: ćwiczen
+ ia\nNr zajęć: 5/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d389befef1ff017c881b88bf@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261221T080000
+DTEND;TZID=Europe/Warsaw:20261221T093500
+SUMMARY:Nsk (ć)
+LOCATION:316 S
+DESCRIPTION:Niezawodność systemów komputerowych\nRodzaj: ćwiczenia\nPr
+ owadzący: Kapałka Michał\nNr zajęć: 5/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f68423a3f97d721512bacd83@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261221T095000
+DTEND;TZID=Europe/Warsaw:20261221T112500
+SUMMARY:Ab (w)
+LOCATION:078 S
+DESCRIPTION:Algorytmy blokowe\nRodzaj: wykład\nProwadzący: Misztal Micha
+ ł\nNr zajęć: 19/20\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e027382e97f59af363590841@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261221T114000
+DTEND;TZID=Europe/Warsaw:20261221T131500
+SUMMARY:Ztk (L)
+LOCATION:078 S
+DESCRIPTION:Zastosowania teorii krat w kryptologii\nRodzaj: laboratorium\n
+ Prowadzący: Jurkiewicz Mariusz\nNr zajęć: 5/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2db87d1fe21a3cc6752ac62c@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261221T133000
+DTEND;TZID=Europe/Warsaw:20261221T150500
+SUMMARY:Ztk (L)
+LOCATION:078 S
+DESCRIPTION:Zastosowania teorii krat w kryptologii\nRodzaj: laboratorium\n
+ Prowadzący: Jurkiewicz Mariusz\nNr zajęć: 6/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c7b06d06e26dfb47c35549df@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20261223T080000
+DTEND;TZID=Europe/Warsaw:20261223T093500
+SUMMARY:Ab (w)
+LOCATION:078 S
+DESCRIPTION:Algorytmy blokowe\nRodzaj: wykład\nProwadzący: Misztal Micha
+ ł\nNr zajęć: 20/20\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2d13107368d279a5de257bd9@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20270107T175000
+DTEND;TZID=Europe/Warsaw:20270107T192500
+SUMMARY:PZiP (ć)
+LOCATION:307 S
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: ćwiczen
+ ia\nNr zajęć: 6/7\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:65e35b6a95957710ea895160@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20270108T114000
+DTEND;TZID=Europe/Warsaw:20270108T131500
+SUMMARY:SZP (L)
+LOCATION:085 S
+DESCRIPTION:Systemy zabezpieczeń pomieszczeń\nRodzaj: laboratorium\nProw
+ adzący: Saniuk Marta\nNr zajęć: 7/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:cbd93e39ecea288197850d18@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20270111T095000
+DTEND;TZID=Europe/Warsaw:20270111T112500
+SUMMARY:Nsk (ć)
+LOCATION:313 S
+DESCRIPTION:Niezawodność systemów komputerowych\nRodzaj: ćwiczenia\nPr
+ owadzący: Kapałka Michał\nNr zajęć: 6/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8d7b169b8be190e13e09256d@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20270111T114000
+DTEND;TZID=Europe/Warsaw:20270111T131500
+SUMMARY:PSy (L)
+LOCATION:226 S
+DESCRIPTION:Podstawy symulacji\nRodzaj: laboratorium\nProwadzący: Pierzch
+ ała Dariusz\nNr zajęć: 5/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:fc4e9429875a757395866867@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20270111T133000
+DTEND;TZID=Europe/Warsaw:20270111T150500
+SUMMARY:PSy (L)
+LOCATION:226 S
+DESCRIPTION:Podstawy symulacji\nRodzaj: laboratorium\nProwadzący: Pierzch
+ ała Dariusz\nNr zajęć: 6/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:995afb877733662af4deda9e@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20270112T080000
+DTEND;TZID=Europe/Warsaw:20270112T093500
+SUMMARY:Ztk (L)
+LOCATION:078 S
+DESCRIPTION:Zastosowania teorii krat w kryptologii\nRodzaj: laboratorium\n
+ Prowadzący: Jurkiewicz Mariusz\nNr zajęć: 7/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:fe4f17be3201bff900fe77ed@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20270112T095000
+DTEND;TZID=Europe/Warsaw:20270112T112500
+SUMMARY:Ztk (L)
+LOCATION:078 S
+DESCRIPTION:Zastosowania teorii krat w kryptologii\nRodzaj: laboratorium\n
+ Prowadzący: Jurkiewicz Mariusz\nNr zajęć: 8/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1791005ed1726e78e09d7b0c@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20270112T114000
+DTEND;TZID=Europe/Warsaw:20270112T131500
+SUMMARY:ZKwI (L)
+LOCATION:085 S
+DESCRIPTION:Zastosowania kryptografii w Internecie\nRodzaj: laboratorium\n
+ Prowadzący: Bora Piotr\nNr zajęć: 5/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3d402f701589871e098dcb02@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20270112T133000
+DTEND;TZID=Europe/Warsaw:20270112T150500
+SUMMARY:ZKwI (L)
+LOCATION:085 S
+DESCRIPTION:Zastosowania kryptografii w Internecie\nRodzaj: laboratorium\n
+ Prowadzący: Bora Piotr\nNr zajęć: 6/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8a49f4ec214f5425b8fbc201@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20270113T080000
+DTEND;TZID=Europe/Warsaw:20270113T093500
+SUMMARY:PBI (L)
+LOCATION:09 65
+DESCRIPTION:Podstawy bezpieczeństwa informacji\nRodzaj: laboratorium\nPro
+ wadzący: Kania Mieczysław\nNr zajęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4329b181338240c8a7efa104@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20270113T095000
+DTEND;TZID=Europe/Warsaw:20270113T112500
+SUMMARY:PBI (L)
+LOCATION:09 65
+DESCRIPTION:Podstawy bezpieczeństwa informacji\nRodzaj: laboratorium\nPro
+ wadzący: Kania Mieczysław\nNr zajęć: 4/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:47b27355374bc00d57ebbf82@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20270115T095000
+DTEND;TZID=Europe/Warsaw:20270115T112500
+SUMMARY:Bpe (w)
+LOCATION:314 S
+DESCRIPTION:Bezpieczeństwo pracy i ergonomia.\nRodzaj: wykład\nProwadzą
+ cy: Kalman Leszek\nNr zajęć: 6/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d7397430013fe23348126f88@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20270115T114000
+DTEND;TZID=Europe/Warsaw:20270115T131500
+SUMMARY:PZiP (ć)
+LOCATION:309 S
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: ćwiczen
+ ia\nNr zajęć: 7/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f6f212bbfa08e4a610bac154@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20270115T133000
+DTEND;TZID=Europe/Warsaw:20270115T150500
+SUMMARY:SZP (L)
+LOCATION:085 S
+DESCRIPTION:Systemy zabezpieczeń pomieszczeń\nRodzaj: laboratorium\nProw
+ adzący: Saniuk Marta\nNr zajęć: 8/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:eec10d3df2350c6551d4a228@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20270118T080000
+DTEND;TZID=Europe/Warsaw:20270118T093500
+SUMMARY:Nsk (ć)
+LOCATION:307 S
+DESCRIPTION:Niezawodność systemów komputerowych\nRodzaj: ćwiczenia\nPr
+ owadzący: Kapałka Michał\nNr zajęć: 7/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0732560dba007f63ff00f170@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20270118T095000
+DTEND;TZID=Europe/Warsaw:20270118T112500
+SUMMARY:Wkkp (L)
+LOCATION:085 S
+DESCRIPTION:Wstęp do kryptoanalizy klucza publicznego\nRodzaj: laboratori
+ um\nProwadzący: Jurkiewicz Mariusz\nNr zajęć: 7/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ae44bedf774ad4ebc545f639@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20270118T114000
+DTEND;TZID=Europe/Warsaw:20270118T131500
+SUMMARY:PSy (L)
+LOCATION:226 S
+DESCRIPTION:Podstawy symulacji\nRodzaj: laboratorium\nProwadzący: Pierzch
+ ała Dariusz\nNr zajęć: 7/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5d9b992a2e65b651431d6d42@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20270118T133000
+DTEND;TZID=Europe/Warsaw:20270118T150500
+SUMMARY:PSy (L)
+LOCATION:226 S
+DESCRIPTION:Podstawy symulacji\nRodzaj: laboratorium\nProwadzący: Pierzch
+ ała Dariusz\nNr zajęć: 8/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:bb730080723076aad696a679@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20270119T095000
+DTEND;TZID=Europe/Warsaw:20270119T112500
+SUMMARY:Wkkp (L)
+LOCATION:087 S
+DESCRIPTION:Wstęp do kryptoanalizy klucza publicznego\nRodzaj: laboratori
+ um\nProwadzący: Jurkiewicz Mariusz\nNr zajęć: 8/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:af30e78ce006b865f761e90e@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20270119T114000
+DTEND;TZID=Europe/Warsaw:20270119T131500
+SUMMARY:Ztk (L)
+LOCATION:078 S
+DESCRIPTION:Zastosowania teorii krat w kryptologii\nRodzaj: laboratorium\n
+ Prowadzący: Jurkiewicz Mariusz\nNr zajęć: 9/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:13169b5f1733827f21046545@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20270119T133000
+DTEND;TZID=Europe/Warsaw:20270119T150500
+SUMMARY:Ztk (L)
+LOCATION:078 S
+DESCRIPTION:Zastosowania teorii krat w kryptologii\nRodzaj: laboratorium\n
+ Prowadzący: Jurkiewicz Mariusz\nNr zajęć: 10/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:bba9064b973d2a1bd6662e3f@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20270120T133000
+DTEND;TZID=Europe/Warsaw:20270120T150500
+SUMMARY:Ab (ć)
+LOCATION:085 S
+DESCRIPTION:Algorytmy blokowe\nRodzaj: ćwiczenia\nProwadzący: Burek Elż
+ bieta\nNr zajęć: 5/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f9b0feab1b65a28e0ab04bc4@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20270121T095000
+DTEND;TZID=Europe/Warsaw:20270121T112500
+SUMMARY:SZP (L)
+LOCATION:085 S
+DESCRIPTION:Systemy zabezpieczeń pomieszczeń\nRodzaj: laboratorium\nProw
+ adzący: Saniuk Marta\nNr zajęć: 9/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:61b69ca2b5418fddcb078660@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20270121T114000
+DTEND;TZID=Europe/Warsaw:20270121T131500
+SUMMARY:Ab (L)
+LOCATION:085 S
+DESCRIPTION:Algorytmy blokowe\nRodzaj: laboratorium\nProwadzący: Burek El
+ żbieta\nNr zajęć: 4/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f53cc5f822a4f024503e1073@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20270122T095000
+DTEND;TZID=Europe/Warsaw:20270122T112500
+SUMMARY:Kre (L)
+LOCATION:085 S
+DESCRIPTION:Krzywe eliptyczne\nRodzaj: laboratorium\nProwadzący: Kijko To
+ masz\nNr zajęć: 7/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:95d9d9465612c8e8df32ee1d@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20270125T095000
+DTEND;TZID=Europe/Warsaw:20270125T112500
+SUMMARY:Nsk (ć)
+LOCATION:307 S
+DESCRIPTION:Niezawodność systemów komputerowych\nRodzaj: ćwiczenia\nPr
+ owadzący: Kapałka Michał\nNr zajęć: 8/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:835cd008bfcf9f5a2cc585ef@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20270125T114000
+DTEND;TZID=Europe/Warsaw:20270125T131500
+SUMMARY:PSy (L)
+LOCATION:226 S
+DESCRIPTION:Podstawy symulacji\nRodzaj: laboratorium\nProwadzący: Pierzch
+ ała Dariusz\nNr zajęć: 9/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:596abd5d44b51bed83ccbbe4@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20270125T133000
+DTEND;TZID=Europe/Warsaw:20270125T150500
+SUMMARY:PSy (L)
+LOCATION:226 S
+DESCRIPTION:Podstawy symulacji\nRodzaj: laboratorium\nProwadzący: Pierzch
+ ała Dariusz\nNr zajęć: 10/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a24294e9589f5833e99b98c5@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20270126T080000
+DTEND;TZID=Europe/Warsaw:20270126T093500
+SUMMARY:Ztk (L)
+LOCATION:078 S
+DESCRIPTION:Zastosowania teorii krat w kryptologii\nRodzaj: laboratorium\n
+ Prowadzący: Jurkiewicz Mariusz\nNr zajęć: 11/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9537b5ed6ace929df4403fbe@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20270126T095000
+DTEND;TZID=Europe/Warsaw:20270126T112500
+SUMMARY:Ztk (L)
+LOCATION:078 S
+DESCRIPTION:Zastosowania teorii krat w kryptologii\nRodzaj: laboratorium\n
+ Prowadzący: Jurkiewicz Mariusz\nNr zajęć: 12/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2ac2bd2b977fac54c4b5e00b@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20270126T114000
+DTEND;TZID=Europe/Warsaw:20270126T131500
+SUMMARY:ZKwI (L)
+LOCATION:085 S
+DESCRIPTION:Zastosowania kryptografii w Internecie\nRodzaj: laboratorium\n
+ Prowadzący: Bora Piotr\nNr zajęć: 7/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:14b2a2308dea70b4d41d56ed@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20270126T133000
+DTEND;TZID=Europe/Warsaw:20270126T150500
+SUMMARY:ZKwI (L)
+LOCATION:085 S
+DESCRIPTION:Zastosowania kryptografii w Internecie\nRodzaj: laboratorium\n
+ Prowadzący: Bora Piotr\nNr zajęć: 8/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4b92d70a73f907b2ca5a6acc@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20270128T095000
+DTEND;TZID=Europe/Warsaw:20270128T112500
+SUMMARY:PBI (L)
+LOCATION:011 65
+DESCRIPTION:Podstawy bezpieczeństwa informacji\nRodzaj: laboratorium\nPro
+ wadzący: Liderman Krzysztof\nNr zajęć: 1/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:968cda254e319504be8cd691@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20270128T114000
+DTEND;TZID=Europe/Warsaw:20270128T131500
+SUMMARY:Ab (ć)
+DESCRIPTION:Algorytmy blokowe\nRodzaj: ćwiczenia\nProwadzący: Burek Elż
+ bieta\nNr zajęć: 6/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8092fbf5c22bb9c44ba6feee@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20270128T133000
+DTEND;TZID=Europe/Warsaw:20270128T150500
+SUMMARY:SZP (L)
+LOCATION:085 S
+DESCRIPTION:Systemy zabezpieczeń pomieszczeń\nRodzaj: laboratorium\nProw
+ adzący: Saniuk Marta\nNr zajęć: 10/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f7ffb4ee7d4390ad0cecbef1@wat-plan
+DTSTAMP:20261118T134919Z
+DTSTART;TZID=Europe/Warsaw:20270129T160000
+DTEND;TZID=Europe/Warsaw:20270129T173500
+SUMMARY:PZiP (w)
+LOCATION:314 S
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: wykład\
+ nNr zajęć: 8/8\nBlok: 5
+END:VEVENT
+END:VCALENDAR

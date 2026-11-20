@@ -1,0 +1,1343 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WEL25EZ1N4
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:e94c0639df15de5227bbf8bc@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261003T080000
+DTEND;TZID=Europe/Warsaw:20261003T093500
+SUMMARY:Rep (w)
+LOCATION:2 45
+DESCRIPTION:Radio equipment programming\nRodzaj: wykład\nProwadzący: dr 
+ hab. inż. Łopatka Jerzy\nNr zajęć: 1/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b200bdd7dae0979298e2080f@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261003T095000
+DTEND;TZID=Europe/Warsaw:20261003T112500
+SUMMARY:Rep (w)
+LOCATION:2 45
+DESCRIPTION:Radio equipment programming\nRodzaj: wykład\nProwadzący: dr 
+ hab. inż. Łopatka Jerzy\nNr zajęć: 2/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:21a5ea1b6fb33d1a28b319be@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261003T114000
+DTEND;TZID=Europe/Warsaw:20261003T131500
+SUMMARY:CpO (w)
+LOCATION:117 45
+DESCRIPTION:Cyfrowe przetwarzanie obrazów\nRodzaj: wykład\nProwadzący: 
+ dr inż. Pietkiewicz Tadeusz\nNr zajęć: 1/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:66577da8fcfaa0b346c2a57c@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261003T133000
+DTEND;TZID=Europe/Warsaw:20261003T150500
+SUMMARY:CpO (w)
+LOCATION:117 45
+DESCRIPTION:Cyfrowe przetwarzanie obrazów\nRodzaj: wykład\nProwadzący: 
+ dr inż. Pietkiewicz Tadeusz\nNr zajęć: 2/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:27faa92d158de59891df8a37@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261003T152000
+DTEND;TZID=Europe/Warsaw:20261003T165500
+SUMMARY:Ssna (w)
+LOCATION:116 45
+DESCRIPTION:Satelitarne systemy nawigacyjne\nRodzaj: wykład\nProwadzący:
+  dr hab. inż. Kaniewski Piotr\nNr zajęć: 1/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:cda287631f531ceeaf4236db@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261003T171000
+DTEND;TZID=Europe/Warsaw:20261003T184500
+SUMMARY:Ssna (w)
+LOCATION:116 45
+DESCRIPTION:Satelitarne systemy nawigacyjne\nRodzaj: wykład\nProwadzący:
+  dr hab. inż. Kaniewski Piotr\nNr zajęć: 2/5\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:1c66c8df6dfefed41ed787e0@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261004T080000
+DTEND;TZID=Europe/Warsaw:20261004T093500
+SUMMARY:Pfel (w)
+LOCATION:2 45
+DESCRIPTION:Propagacja fal elektromagnetycznych\nRodzaj: wykład\nProwadz
+ ący: prof. dr hab. inż. Kubacki Roman\nNr zajęć: 1/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4588f4f4c9fbe4929ebafa76@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261004T095000
+DTEND;TZID=Europe/Warsaw:20261004T112500
+SUMMARY:Pfel (w)
+LOCATION:2 45
+DESCRIPTION:Propagacja fal elektromagnetycznych\nRodzaj: wykład\nProwadz
+ ący: prof. dr hab. inż. Kubacki Roman\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e8469d154e975889c0fa4759@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261004T114000
+DTEND;TZID=Europe/Warsaw:20261004T131500
+SUMMARY:Zmprog PW (w)
+LOCATION:116 45
+DESCRIPTION:Zaawansowane metody programistyczne PW\nRodzaj: wykład\nProwa
+ dzący: dr inż. Górski Tomasz\nNr zajęć: 1/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2e03a9062b90824da4c3574b@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261004T133000
+DTEND;TZID=Europe/Warsaw:20261004T150500
+SUMMARY:Zmprog PW (w)
+LOCATION:116 45
+DESCRIPTION:Zaawansowane metody programistyczne PW\nRodzaj: wykład\nProwa
+ dzący: dr inż. Górski Tomasz\nNr zajęć: 2/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1735828b50ac27409cefef7f@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261004T152000
+DTEND;TZID=Europe/Warsaw:20261004T165500
+SUMMARY:Rep (w)
+LOCATION:2 45
+DESCRIPTION:Radio equipment programming\nRodzaj: wykład\nProwadzący: dr 
+ hab. inż. Łopatka Jerzy\nNr zajęć: 3/3\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:834418fe871e7ed444f81499@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261009T175000
+DTEND;TZID=Europe/Warsaw:20261009T192500
+SUMMARY:CpO (w)
+LOCATION:103 61
+DESCRIPTION:Cyfrowe przetwarzanie obrazów\nRodzaj: wykład\nProwadzący: 
+ dr inż. Pietkiewicz Tadeusz\nNr zajęć: 3/8\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:71652f33219d65b9176cda93@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261009T194000
+DTEND;TZID=Europe/Warsaw:20261009T211500
+SUMMARY:CpO (w)
+LOCATION:103 61
+DESCRIPTION:Cyfrowe przetwarzanie obrazów\nRodzaj: wykład\nProwadzący: 
+ dr inż. Pietkiewicz Tadeusz\nNr zajęć: 4/8\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:309e1abdf811bec1bd48d5db@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261010T080000
+DTEND;TZID=Europe/Warsaw:20261010T093500
+SUMMARY:Pfel (w)
+LOCATION:2 45
+DESCRIPTION:Propagacja fal elektromagnetycznych\nRodzaj: wykład\nProwadz
+ ący: prof. dr hab. inż. Kubacki Roman\nNr zajęć: 3/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c5a0db822430fa6ee60d56fa@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261010T095000
+DTEND;TZID=Europe/Warsaw:20261010T112500
+SUMMARY:Pfel (w)
+LOCATION:2 45
+DESCRIPTION:Propagacja fal elektromagnetycznych\nRodzaj: wykład\nProwadz
+ ący: prof. dr hab. inż. Kubacki Roman\nNr zajęć: 4/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ce6e4fe2cf02a044c134aab7@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261010T114000
+DTEND;TZID=Europe/Warsaw:20261010T131500
+SUMMARY:Sn (w)
+LOCATION:2 45
+DESCRIPTION:Sieci neuronowe\nRodzaj: wykład\nProwadzący: prof.dr hab. Os
+ owski Stanisław\nNr zajęć: 1/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a73e724178c21e176aece64b@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261010T133000
+DTEND;TZID=Europe/Warsaw:20261010T150500
+SUMMARY:Sn (w)
+LOCATION:2 45
+DESCRIPTION:Sieci neuronowe\nRodzaj: wykład\nProwadzący: prof.dr hab. Os
+ owski Stanisław\nNr zajęć: 2/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:865d8c8e4ef7a74dd8f4d0cf@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261010T152000
+DTEND;TZID=Europe/Warsaw:20261010T165500
+SUMMARY:Pzm PW (w)
+LOCATION:103 61
+DESCRIPTION:Praktyczne zastosowania multimediów PW\nRodzaj: wykład\nProw
+ adzący: dr inż. Pietkiewicz Tadeusz\nNr zajęć: 1/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:d4105c40fe97ef289781f8fa@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261010T171000
+DTEND;TZID=Europe/Warsaw:20261010T184500
+SUMMARY:Pzm PW (w)
+LOCATION:103 61
+DESCRIPTION:Praktyczne zastosowania multimediów PW\nRodzaj: wykład\nProw
+ adzący: dr inż. Pietkiewicz Tadeusz\nNr zajęć: 2/6\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:ef4904eba2adceea26b7f6bc@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261011T080000
+DTEND;TZID=Europe/Warsaw:20261011T093500
+SUMMARY:Sn (w)
+LOCATION:2 45
+DESCRIPTION:Sieci neuronowe\nRodzaj: wykład\nProwadzący: prof.dr hab. Os
+ owski Stanisław\nNr zajęć: 3/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:69b2cb5238477fe8a898b28c@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261011T095000
+DTEND;TZID=Europe/Warsaw:20261011T112500
+SUMMARY:Sn (w)
+LOCATION:2 45
+DESCRIPTION:Sieci neuronowe\nRodzaj: wykład\nProwadzący: prof.dr hab. Os
+ owski Stanisław\nNr zajęć: 4/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a46f9e942983036233b07f00@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261011T114000
+DTEND;TZID=Europe/Warsaw:20261011T131500
+SUMMARY:Wwsis (w)
+LOCATION:2 45
+DESCRIPTION:Wirtualizacja w sieciach i systemach\nRodzaj: wykład\nProwadz
+ ący: dr inż. Maślanka Krzysztof\nNr zajęć: 1/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:29265b1ef04f6adac06a6391@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261011T133000
+DTEND;TZID=Europe/Warsaw:20261011T150500
+SUMMARY:Wwsis (w)
+LOCATION:2 45
+DESCRIPTION:Wirtualizacja w sieciach i systemach\nRodzaj: wykład\nProwadz
+ ący: dr inż. Maślanka Krzysztof\nNr zajęć: 2/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:427f258ad958e2c8d41f88c7@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261016T175000
+DTEND;TZID=Europe/Warsaw:20261016T192500
+SUMMARY:Zmprog PW (w)
+LOCATION:118 45
+DESCRIPTION:Zaawansowane metody programistyczne PW\nRodzaj: wykład\nProwa
+ dzący: dr inż. Górski Tomasz\nNr zajęć: 3/6\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:d22f730f770ea0c0263e676c@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261016T194000
+DTEND;TZID=Europe/Warsaw:20261016T211500
+SUMMARY:Zmprog PW (w)
+LOCATION:118 45
+DESCRIPTION:Zaawansowane metody programistyczne PW\nRodzaj: wykład\nProwa
+ dzący: dr inż. Górski Tomasz\nNr zajęć: 4/6\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:83cb862ab248dd8d1e99fa5d@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261017T080000
+DTEND;TZID=Europe/Warsaw:20261017T093500
+SUMMARY:Ssna (w)
+LOCATION:103 61
+DESCRIPTION:Satelitarne systemy nawigacyjne\nRodzaj: wykład\nProwadzący:
+  dr hab. inż. Kaniewski Piotr\nNr zajęć: 3/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:30f9670e8c84df6947ed40bd@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261017T095000
+DTEND;TZID=Europe/Warsaw:20261017T112500
+SUMMARY:Ssna (w)
+LOCATION:103 61
+DESCRIPTION:Satelitarne systemy nawigacyjne\nRodzaj: wykład\nProwadzący:
+  dr hab. inż. Kaniewski Piotr\nNr zajęć: 4/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:472e547627aa48edd6a9b97c@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261017T114000
+DTEND;TZID=Europe/Warsaw:20261017T131500
+SUMMARY:Pzm PW (w)
+LOCATION:103 61
+DESCRIPTION:Praktyczne zastosowania multimediów PW\nRodzaj: wykład\nProw
+ adzący: dr inż. Pietkiewicz Tadeusz\nNr zajęć: 3/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c80068f19830b4823fd7cfae@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261017T133000
+DTEND;TZID=Europe/Warsaw:20261017T150500
+SUMMARY:Pzm PW (w)
+LOCATION:103 61
+DESCRIPTION:Praktyczne zastosowania multimediów PW\nRodzaj: wykład\nProw
+ adzący: dr inż. Pietkiewicz Tadeusz\nNr zajęć: 4/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7f63edfaa90ab8f2808ff9ae@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261017T152000
+DTEND;TZID=Europe/Warsaw:20261017T165500
+SUMMARY:Socr (w)
+LOCATION:103 61
+DESCRIPTION:Systemy operacyjne czasu rzeczywistego\nRodzaj: wykład\nProwa
+ dzący: dr inż. Pietkiewicz Tadeusz\nNr zajęć: 1/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:138c2d33d92e9e7d912aef06@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261018T080000
+DTEND;TZID=Europe/Warsaw:20261018T093500
+SUMMARY:Fud (w)
+LOCATION:103 61
+DESCRIPTION:Fuzja danych\nRodzaj: wykład\nProwadzący: dr inż. Pietkiewi
+ cz Tadeusz\nNr zajęć: 1/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c5ac1670ba494916fe66dd90@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261018T095000
+DTEND;TZID=Europe/Warsaw:20261018T112500
+SUMMARY:Fud (w)
+LOCATION:103 61
+DESCRIPTION:Fuzja danych\nRodzaj: wykład\nProwadzący: dr inż. Pietkiewi
+ cz Tadeusz\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a2a5c388d2d090af8ed6c5ae@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261018T114000
+DTEND;TZID=Europe/Warsaw:20261018T131500
+SUMMARY:Meś (w)
+LOCATION:35 61a
+DESCRIPTION:Monitoring elektromagnetyczny środowiska\nRodzaj: wykład\nPr
+ owadzący: dr inż. Rutkowski Adam\nNr zajęć: 1/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6b1a504614ed9d597d9a2b30@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261018T133000
+DTEND;TZID=Europe/Warsaw:20261018T150500
+SUMMARY:Meś (w)
+LOCATION:35 61a
+DESCRIPTION:Monitoring elektromagnetyczny środowiska\nRodzaj: wykład\nPr
+ owadzący: dr inż. Rutkowski Adam\nNr zajęć: 2/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e629a64132e00bf9ed15668a@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261018T152000
+DTEND;TZID=Europe/Warsaw:20261018T165500
+SUMMARY:Wwsis (w)
+LOCATION:2 45
+DESCRIPTION:Wirtualizacja w sieciach i systemach\nRodzaj: wykład\nProwadz
+ ący: dr inż. Maślanka Krzysztof\nNr zajęć: 3/3\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:50a9023d2c09e4b3567fff5f@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261024T080000
+DTEND;TZID=Europe/Warsaw:20261024T093500
+SUMMARY:Sn (w)
+LOCATION:2 45
+DESCRIPTION:Sieci neuronowe\nRodzaj: wykład\nProwadzący: prof.dr hab. Os
+ owski Stanisław\nNr zajęć: 5/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9c745237fd0b457f1dd054f3@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261024T095000
+DTEND;TZID=Europe/Warsaw:20261024T112500
+SUMMARY:Sn (w)
+LOCATION:2 45
+DESCRIPTION:Sieci neuronowe\nRodzaj: wykład\nProwadzący: prof.dr hab. Os
+ owski Stanisław\nNr zajęć: 6/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c9b4a81cb40102956eb43a6b@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261024T114000
+DTEND;TZID=Europe/Warsaw:20261024T131500
+SUMMARY:Rep (L)
+LOCATION:2.16 42
+DESCRIPTION:Radio equipment programming\nRodzaj: laboratorium\nNr zajęć:
+  1/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ef24db73cd445b7f76ec26a7@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261024T133000
+DTEND;TZID=Europe/Warsaw:20261024T150500
+SUMMARY:Rep (L)
+LOCATION:2.16 42
+DESCRIPTION:Radio equipment programming\nRodzaj: laboratorium\nNr zajęć:
+  2/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b09e205ecbc94fb36e7ad664@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261024T152000
+DTEND;TZID=Europe/Warsaw:20261024T165500
+SUMMARY:Wwsis (L)
+LOCATION:119 47
+DESCRIPTION:Wirtualizacja w sieciach i systemach\nRodzaj: laboratorium\nPr
+ owadzący: mgr inż. Długosz Eryk\nNr zajęć: 1/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:736a3ee9b529668e9bd27afe@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261024T171000
+DTEND;TZID=Europe/Warsaw:20261024T184500
+SUMMARY:Wwsis (L)
+LOCATION:119 47
+DESCRIPTION:Wirtualizacja w sieciach i systemach\nRodzaj: laboratorium\nPr
+ owadzący: mgr inż. Długosz Eryk\nNr zajęć: 2/6\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:bc41911682bb083ca09fca95@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261025T080000
+DTEND;TZID=Europe/Warsaw:20261025T093500
+SUMMARY:Sn (w)
+LOCATION:2 45
+DESCRIPTION:Sieci neuronowe\nRodzaj: wykład\nProwadzący: prof.dr hab. Os
+ owski Stanisław\nNr zajęć: 7/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b94306b4675604ad28dcbe8a@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261025T095000
+DTEND;TZID=Europe/Warsaw:20261025T112500
+SUMMARY:Pfel (w)
+LOCATION:2 45
+DESCRIPTION:Propagacja fal elektromagnetycznych\nRodzaj: wykład\nProwadz
+ ący: prof. dr hab. inż. Kubacki Roman\nNr zajęć: 5/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1b9518a42cd46bb1b9882699@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261025T114000
+DTEND;TZID=Europe/Warsaw:20261025T131500
+SUMMARY:CpO (w)
+LOCATION:103 61
+DESCRIPTION:Cyfrowe przetwarzanie obrazów\nRodzaj: wykład\nProwadzący: 
+ dr inż. Pietkiewicz Tadeusz\nNr zajęć: 5/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f1fe2f5e83fd95f02b5d6c40@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261025T133000
+DTEND;TZID=Europe/Warsaw:20261025T150500
+SUMMARY:CpO (w)
+LOCATION:103 61
+DESCRIPTION:Cyfrowe przetwarzanie obrazów\nRodzaj: wykład\nProwadzący: 
+ dr inż. Pietkiewicz Tadeusz\nNr zajęć: 6/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ff8234e3df8bef6616febb0d@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261025T152000
+DTEND;TZID=Europe/Warsaw:20261025T165500
+SUMMARY:Socr (w)
+LOCATION:103 61
+DESCRIPTION:Systemy operacyjne czasu rzeczywistego\nRodzaj: wykład\nProwa
+ dzący: dr inż. Pietkiewicz Tadeusz\nNr zajęć: 2/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:931b86435cd2924d6c8178e2@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261107T080000
+DTEND;TZID=Europe/Warsaw:20261107T093500
+SUMMARY:Zmprog PW (w)
+LOCATION:103 61
+DESCRIPTION:Zaawansowane metody programistyczne PW\nRodzaj: wykład\nProwa
+ dzący: dr inż. Górski Tomasz\nNr zajęć: 5/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b869c3906b7b34d4d6f36bc4@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261107T095000
+DTEND;TZID=Europe/Warsaw:20261107T112500
+SUMMARY:Zmprog PW (w)
+LOCATION:103 61
+DESCRIPTION:Zaawansowane metody programistyczne PW\nRodzaj: wykład\nProwa
+ dzący: dr inż. Górski Tomasz\nNr zajęć: 6/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5404b15dfbefc32370ea1a6e@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261107T114000
+DTEND;TZID=Europe/Warsaw:20261107T131500
+SUMMARY:Pfel (ć)
+LOCATION:117 47
+DESCRIPTION:Propagacja fal elektromagnetycznych\nRodzaj: ćwiczenia\nProwa
+ dzący: mgr inż. Piwowarczyk Kazimierz\nNr zajęć: 1/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:be2a813d19d500cf5875d3c8@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261107T133000
+DTEND;TZID=Europe/Warsaw:20261107T150500
+SUMMARY:Pfel (ć)
+LOCATION:117 47
+DESCRIPTION:Propagacja fal elektromagnetycznych\nRodzaj: ćwiczenia\nProwa
+ dzący: mgr inż. Piwowarczyk Kazimierz\nNr zajęć: 2/2\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0c184d806d83f46987180c09@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261107T152000
+DTEND;TZID=Europe/Warsaw:20261107T165500
+SUMMARY:Wwsis (L)
+LOCATION:119 47
+DESCRIPTION:Wirtualizacja w sieciach i systemach\nRodzaj: laboratorium\nPr
+ owadzący: mgr inż. Długosz Eryk\nNr zajęć: 3/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:448018775fa39605ff6441d4@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261107T171000
+DTEND;TZID=Europe/Warsaw:20261107T184500
+SUMMARY:Wwsis (L)
+LOCATION:119 47
+DESCRIPTION:Wirtualizacja w sieciach i systemach\nRodzaj: laboratorium\nPr
+ owadzący: mgr inż. Długosz Eryk\nNr zajęć: 4/6\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:25b8586822e3445a3d0f4356@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261108T080000
+DTEND;TZID=Europe/Warsaw:20261108T093500
+SUMMARY:Pzm PW (w)
+LOCATION:103 61
+DESCRIPTION:Praktyczne zastosowania multimediów PW\nRodzaj: wykład\nProw
+ adzący: dr inż. Pietkiewicz Tadeusz\nNr zajęć: 5/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f5d09a13a99c8941ecde192a@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261108T095000
+DTEND;TZID=Europe/Warsaw:20261108T112500
+SUMMARY:Pzm PW (w)
+LOCATION:103 61
+DESCRIPTION:Praktyczne zastosowania multimediów PW\nRodzaj: wykład\nProw
+ adzący: dr inż. Pietkiewicz Tadeusz\nNr zajęć: 6/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:bf8edbe646841992ad3d893f@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261108T114000
+DTEND;TZID=Europe/Warsaw:20261108T131500
+SUMMARY:Meś (w)
+LOCATION:35 61a
+DESCRIPTION:Monitoring elektromagnetyczny środowiska\nRodzaj: wykład\nPr
+ owadzący: dr inż. Rutkowski Adam\nNr zajęć: 3/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:596b480b0568f720d692d75d@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261108T133000
+DTEND;TZID=Europe/Warsaw:20261108T150500
+SUMMARY:Meś (w)
+LOCATION:35 61a
+DESCRIPTION:Monitoring elektromagnetyczny środowiska\nRodzaj: wykład\nPr
+ owadzący: dr inż. Rutkowski Adam\nNr zajęć: 4/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5c06636aab7890bf54efb206@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261121T080000
+DTEND;TZID=Europe/Warsaw:20261121T093500
+SUMMARY:Pzm PW (L)
+DESCRIPTION:Praktyczne zastosowania multimediów PW\nRodzaj: laboratorium\
+ nNr zajęć: 1/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5eb1548b49de518f59dc8575@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261121T095000
+DTEND;TZID=Europe/Warsaw:20261121T112500
+SUMMARY:Pzm PW (L)
+DESCRIPTION:Praktyczne zastosowania multimediów PW\nRodzaj: laboratorium\
+ nNr zajęć: 2/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:eb842d0c223f055cd643243f@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261121T114000
+DTEND;TZID=Europe/Warsaw:20261121T131500
+SUMMARY:Pzm PW (L)
+DESCRIPTION:Praktyczne zastosowania multimediów PW\nRodzaj: laboratorium\
+ nNr zajęć: 3/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:42687f3fa0b27398d4f1bf7d@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261121T133000
+DTEND;TZID=Europe/Warsaw:20261121T150500
+SUMMARY:Sn (ć)
+LOCATION:82 S
+DESCRIPTION:Sieci neuronowe\nRodzaj: ćwiczenia\nProwadzący: dr inż. Bia
+ łek Kamila\nNr zajęć: 1/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5eee2c61391696e52b169539@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261121T152000
+DTEND;TZID=Europe/Warsaw:20261121T165500
+SUMMARY:CpO (w)
+LOCATION:27 61
+DESCRIPTION:Cyfrowe przetwarzanie obrazów\nRodzaj: wykład\nProwadzący: 
+ dr inż. Pietkiewicz Tadeusz\nNr zajęć: 7/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:e1ca067f3b3758feb8be715f@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261121T171000
+DTEND;TZID=Europe/Warsaw:20261121T184500
+SUMMARY:CpO (w)
+LOCATION:27 61
+DESCRIPTION:Cyfrowe przetwarzanie obrazów\nRodzaj: wykład\nProwadzący: 
+ dr inż. Pietkiewicz Tadeusz\nNr zajęć: 8/8\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:2e91a576d19e4375ba69c9ab@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261122T080000
+DTEND;TZID=Europe/Warsaw:20261122T093500
+SUMMARY:Socr (w)
+LOCATION:103 61
+DESCRIPTION:Systemy operacyjne czasu rzeczywistego\nRodzaj: wykład\nProwa
+ dzący: dr inż. Pietkiewicz Tadeusz\nNr zajęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:308747930e10dd4d28403206@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261122T095000
+DTEND;TZID=Europe/Warsaw:20261122T112500
+SUMMARY:Socr (w)
+LOCATION:103 61
+DESCRIPTION:Systemy operacyjne czasu rzeczywistego\nRodzaj: wykład\nProwa
+ dzący: dr inż. Pietkiewicz Tadeusz\nNr zajęć: 4/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f2bc5747dfabf55d30494c65@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261122T114000
+DTEND;TZID=Europe/Warsaw:20261122T131500
+SUMMARY:Meś (L)
+LOCATION:34 61A\; 133 61A
+DESCRIPTION:Monitoring elektromagnetyczny środowiska\nRodzaj: laboratoriu
+ m\nProwadzący: dr inż. Słowik Adam\nNr zajęć: 1/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2da1002efe9710d634b20e4d@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261122T133000
+DTEND;TZID=Europe/Warsaw:20261122T150500
+SUMMARY:Meś (L)
+LOCATION:34 61A\; 133 61A
+DESCRIPTION:Monitoring elektromagnetyczny środowiska\nRodzaj: laboratoriu
+ m\nProwadzący: dr inż. Słowik Adam\nNr zajęć: 2/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d4690dcb70d701e46c62a489@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261128T080000
+DTEND;TZID=Europe/Warsaw:20261128T093500
+SUMMARY:Fud (w)
+LOCATION:27 61
+DESCRIPTION:Fuzja danych\nRodzaj: wykład\nProwadzący: dr inż. Pietkiewi
+ cz Tadeusz\nNr zajęć: 3/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9d4751ce9a155ff5e59cabe6@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261128T095000
+DTEND;TZID=Europe/Warsaw:20261128T112500
+SUMMARY:Fud (w)
+LOCATION:27 61
+DESCRIPTION:Fuzja danych\nRodzaj: wykład\nProwadzący: dr inż. Pietkiewi
+ cz Tadeusz\nNr zajęć: 4/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:59a896eed05f528d9cd9bdc3@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261128T114000
+DTEND;TZID=Europe/Warsaw:20261128T131500
+SUMMARY:Pzm PW (L)
+DESCRIPTION:Praktyczne zastosowania multimediów PW\nRodzaj: laboratorium\
+ nNr zajęć: 4/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a151373d6e876545c8cca77d@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261128T133000
+DTEND;TZID=Europe/Warsaw:20261128T150500
+SUMMARY:Pzm PW (L)
+DESCRIPTION:Praktyczne zastosowania multimediów PW\nRodzaj: laboratorium\
+ nNr zajęć: 5/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:46e40c915733eb10d010781b@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261128T152000
+DTEND;TZID=Europe/Warsaw:20261128T165500
+SUMMARY:Pzm PW (L)
+DESCRIPTION:Praktyczne zastosowania multimediów PW\nRodzaj: laboratorium\
+ nNr zajęć: 6/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:931493a97af730e54ad12bb6@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261129T080000
+DTEND;TZID=Europe/Warsaw:20261129T093500
+SUMMARY:Rep (L)
+LOCATION:2.16 42
+DESCRIPTION:Radio equipment programming\nRodzaj: laboratorium\nNr zajęć:
+  3/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f0d6f64b571bc9a20976ef0f@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261129T095000
+DTEND;TZID=Europe/Warsaw:20261129T112500
+SUMMARY:Rep (L)
+LOCATION:2.16 42
+DESCRIPTION:Radio equipment programming\nRodzaj: laboratorium\nNr zajęć:
+  4/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:af0059c92f51dd2eefe8aa73@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261129T114000
+DTEND;TZID=Europe/Warsaw:20261129T131500
+SUMMARY:Socr (L)
+LOCATION:86 S
+DESCRIPTION:Systemy operacyjne czasu rzeczywistego\nRodzaj: laboratorium\n
+ Nr zajęć: 1/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:369c845eabbcdbdf7140d279@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261129T133000
+DTEND;TZID=Europe/Warsaw:20261129T150500
+SUMMARY:Socr (L)
+LOCATION:86 S
+DESCRIPTION:Systemy operacyjne czasu rzeczywistego\nRodzaj: laboratorium\n
+ Nr zajęć: 2/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ae5184223aa5da6ad2da05e2@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261205T080000
+DTEND;TZID=Europe/Warsaw:20261205T093500
+SUMMARY:Fud (w)
+LOCATION:103 61
+DESCRIPTION:Fuzja danych\nRodzaj: wykład\nProwadzący: dr inż. Pietkiewi
+ cz Tadeusz\nNr zajęć: 5/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e96b06a6fce614ea8e04d0fa@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261205T095000
+DTEND;TZID=Europe/Warsaw:20261205T112500
+SUMMARY:Smwr (w)
+LOCATION:27 61
+DESCRIPTION:Systemy mikroprocesorowe w robotyce\nRodzaj: wykład\nProwadz
+ ący: mgr inż. Pawłowski Piotr\nNr zajęć: 1/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:040988507e1d633ae18142ef@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261205T114000
+DTEND;TZID=Europe/Warsaw:20261205T131500
+SUMMARY:Smwr (L)
+LOCATION:115 61
+DESCRIPTION:Systemy mikroprocesorowe w robotyce\nRodzaj: laboratorium\nNr 
+ zajęć: 1/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:aec4c9e188bed4d51428dd21@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261205T133000
+DTEND;TZID=Europe/Warsaw:20261205T150500
+SUMMARY:Smwr (L)
+LOCATION:115 61
+DESCRIPTION:Systemy mikroprocesorowe w robotyce\nRodzaj: laboratorium\nNr 
+ zajęć: 2/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2ba74cd9495f27ac2bb54257@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261205T152000
+DTEND;TZID=Europe/Warsaw:20261205T165500
+SUMMARY:Wwsis (L)
+LOCATION:119 47
+DESCRIPTION:Wirtualizacja w sieciach i systemach\nRodzaj: laboratorium\nPr
+ owadzący: mgr inż. Długosz Eryk\nNr zajęć: 5/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:3e85f323576e74f26d4e8273@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261205T171000
+DTEND;TZID=Europe/Warsaw:20261205T184500
+SUMMARY:Wwsis (L)
+LOCATION:119 47
+DESCRIPTION:Wirtualizacja w sieciach i systemach\nRodzaj: laboratorium\nPr
+ owadzący: mgr inż. Długosz Eryk\nNr zajęć: 6/6\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:570109dcae7b4a85e0ef3b12@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261206T080000
+DTEND;TZID=Europe/Warsaw:20261206T093500
+SUMMARY:Sn (ć)
+LOCATION:82 S
+DESCRIPTION:Sieci neuronowe\nRodzaj: ćwiczenia\nProwadzący: dr inż. Bia
+ łek Kamila\nNr zajęć: 2/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6103d236aa7f25ddfe959fe5@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261206T095000
+DTEND;TZID=Europe/Warsaw:20261206T112500
+SUMMARY:Sn (ć)
+LOCATION:82 S
+DESCRIPTION:Sieci neuronowe\nRodzaj: ćwiczenia\nProwadzący: dr inż. Bia
+ łek Kamila\nNr zajęć: 3/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:44e17eb56e80fda0f7ad8ae4@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261206T114000
+DTEND;TZID=Europe/Warsaw:20261206T131500
+SUMMARY:Socr (L)
+LOCATION:86 S
+DESCRIPTION:Systemy operacyjne czasu rzeczywistego\nRodzaj: laboratorium\n
+ Nr zajęć: 3/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:28d03c5b55091a17b62a37f1@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261206T133000
+DTEND;TZID=Europe/Warsaw:20261206T150500
+SUMMARY:Socr (L)
+LOCATION:86 S
+DESCRIPTION:Systemy operacyjne czasu rzeczywistego\nRodzaj: laboratorium\n
+ Nr zajęć: 4/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:85c782b0daa2abd788b8ca10@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261212T080000
+DTEND;TZID=Europe/Warsaw:20261212T093500
+SUMMARY:Meś (L)
+LOCATION:34 61A\; 133 61A
+DESCRIPTION:Monitoring elektromagnetyczny środowiska\nRodzaj: laboratoriu
+ m\nProwadzący: dr inż. Słowik Adam\nNr zajęć: 3/6\nBlok: 1\nUwagi: 5
+ 0%
+END:VEVENT
+BEGIN:VEVENT
+UID:15074b76098e8dd8522b7082@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261212T095000
+DTEND;TZID=Europe/Warsaw:20261212T112500
+SUMMARY:Meś (L)
+LOCATION:34 61A\; 133 61A
+DESCRIPTION:Monitoring elektromagnetyczny środowiska\nRodzaj: laboratoriu
+ m\nProwadzący: dr inż. Słowik Adam\nNr zajęć: 4/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:751cc7e2fb9fa07a0e0cf31c@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261212T114000
+DTEND;TZID=Europe/Warsaw:20261212T131500
+SUMMARY:Pfel (L)
+LOCATION:0.14 42
+DESCRIPTION:Propagacja fal elektromagnetycznych\nRodzaj: laboratorium\nNr 
+ zajęć: 1/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:fe41ce77028f85bbdf228704@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261212T133000
+DTEND;TZID=Europe/Warsaw:20261212T150500
+SUMMARY:Pfel (L)
+LOCATION:0.14 42
+DESCRIPTION:Propagacja fal elektromagnetycznych\nRodzaj: laboratorium\nNr 
+ zajęć: 2/2\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1d60e36b86f84539937837e6@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261212T152000
+DTEND;TZID=Europe/Warsaw:20261212T165500
+SUMMARY:Fud (L)
+LOCATION:115 61
+DESCRIPTION:Fuzja danych\nRodzaj: laboratorium\nProwadzący: mgr inż. Bł
+ yskun Bartosz\nNr zajęć: 1/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:45b021ceda986a51cc95829e@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261212T171000
+DTEND;TZID=Europe/Warsaw:20261212T184500
+SUMMARY:Fud (L)
+LOCATION:115 61
+DESCRIPTION:Fuzja danych\nRodzaj: laboratorium\nProwadzący: mgr inż. Bł
+ yskun Bartosz\nNr zajęć: 2/4\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:c36bf847579e9b32bed4e95c@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261213T080000
+DTEND;TZID=Europe/Warsaw:20261213T093500
+SUMMARY:Ssna (ć)
+LOCATION:103 61
+DESCRIPTION:Satelitarne systemy nawigacyjne\nRodzaj: ćwiczenia\nNr zaję
+ ć: 1/2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:90b9543de6d5d62715a0f605@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261213T095000
+DTEND;TZID=Europe/Warsaw:20261213T112500
+SUMMARY:Ssna (ć)
+LOCATION:103 61
+DESCRIPTION:Satelitarne systemy nawigacyjne\nRodzaj: ćwiczenia\nNr zaję
+ ć: 2/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c9464663807dea3f60f41c53@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261213T114000
+DTEND;TZID=Europe/Warsaw:20261213T131500
+SUMMARY:CpO (L)
+LOCATION:116 61
+DESCRIPTION:Cyfrowe przetwarzanie obrazów\nRodzaj: laboratorium\nNr zaję
+ ć: 1/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:417901b3c200cdec212a5007@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20261213T133000
+DTEND;TZID=Europe/Warsaw:20261213T150500
+SUMMARY:CpO (L)
+LOCATION:116 61
+DESCRIPTION:Cyfrowe przetwarzanie obrazów\nRodzaj: laboratorium\nNr zaję
+ ć: 2/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b7252ad6c531f53dcdaef1d2@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270109T080000
+DTEND;TZID=Europe/Warsaw:20270109T093500
+SUMMARY:Meś (L)
+LOCATION:34 61A\; 133 61A
+DESCRIPTION:Monitoring elektromagnetyczny środowiska\nRodzaj: laboratoriu
+ m\nProwadzący: dr inż. Słowik Adam\nNr zajęć: 5/6\nBlok: 1\nUwagi: 5
+ 0%
+END:VEVENT
+BEGIN:VEVENT
+UID:062c9af23ade1cb831d15a0b@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270109T095000
+DTEND;TZID=Europe/Warsaw:20270109T112500
+SUMMARY:Meś (L)
+LOCATION:34 61A\; 133 61A
+DESCRIPTION:Monitoring elektromagnetyczny środowiska\nRodzaj: laboratoriu
+ m\nProwadzący: dr inż. Słowik Adam\nNr zajęć: 6/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:85fc4d71491d00f868ae29aa@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270109T114000
+DTEND;TZID=Europe/Warsaw:20270109T131500
+SUMMARY:Sn (L)
+LOCATION:86 S
+DESCRIPTION:Sieci neuronowe\nRodzaj: laboratorium\nProwadzący: mgr inż. 
+ Chmielińska Jolanta\nNr zajęć: 1/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:fe4898d68e766169f56a12cc@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270109T133000
+DTEND;TZID=Europe/Warsaw:20270109T150500
+SUMMARY:Sn (L)
+LOCATION:86 S
+DESCRIPTION:Sieci neuronowe\nRodzaj: laboratorium\nProwadzący: mgr inż. 
+ Chmielińska Jolanta\nNr zajęć: 2/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:abe86dbc63cc9d5c68fb3126@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270109T152000
+DTEND;TZID=Europe/Warsaw:20270109T165500
+SUMMARY:CpO (L)
+LOCATION:116 61
+DESCRIPTION:Cyfrowe przetwarzanie obrazów\nRodzaj: laboratorium\nNr zaję
+ ć: 3/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:80496b59cd8ac4ae6e27b295@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270109T171000
+DTEND;TZID=Europe/Warsaw:20270109T184500
+SUMMARY:CpO (L)
+LOCATION:116 61
+DESCRIPTION:Cyfrowe przetwarzanie obrazów\nRodzaj: laboratorium\nNr zaję
+ ć: 4/6\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:7725fce2305d04086f042fa9@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270110T080000
+DTEND;TZID=Europe/Warsaw:20270110T093500
+SUMMARY:Socr (L)
+LOCATION:86 S
+DESCRIPTION:Systemy operacyjne czasu rzeczywistego\nRodzaj: laboratorium\n
+ Nr zajęć: 5/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:273ed1919603ba94d57ddbc8@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270110T095000
+DTEND;TZID=Europe/Warsaw:20270110T112500
+SUMMARY:Kzl (ć)
+LOCATION:2 45
+DESCRIPTION:Kierowanie zespołami ludzkimi\nRodzaj: ćwiczenia\nNr zajęć
+ : 1/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:75db742f89662a6cfc6d5f8e@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270110T114000
+DTEND;TZID=Europe/Warsaw:20270110T131500
+SUMMARY:Kzl (ć)
+LOCATION:2 45
+DESCRIPTION:Kierowanie zespołami ludzkimi\nRodzaj: ćwiczenia\nNr zajęć
+ : 2/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7a49561bb06f380ddfdde180@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270110T133000
+DTEND;TZID=Europe/Warsaw:20270110T150500
+SUMMARY:Kzl (w)
+LOCATION:2 45
+DESCRIPTION:Kierowanie zespołami ludzkimi\nRodzaj: wykład\nProwadzący: 
+ dr Jończyk Joanna\nNr zajęć: 1/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a70b4bf3e7ee3b9c9d97a253@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270110T152000
+DTEND;TZID=Europe/Warsaw:20270110T165500
+SUMMARY:Kzl (w)
+LOCATION:2 45
+DESCRIPTION:Kierowanie zespołami ludzkimi\nRodzaj: wykład\nProwadzący: 
+ dr Jończyk Joanna\nNr zajęć: 2/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:d930cf4ea30000f256753233@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270116T080000
+DTEND;TZID=Europe/Warsaw:20270116T093500
+SUMMARY:Sn (L)
+LOCATION:86 S
+DESCRIPTION:Sieci neuronowe\nRodzaj: laboratorium\nProwadzący: mgr inż. 
+ Chmielińska Jolanta\nNr zajęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7e28a19ee6d72b3eb0e6bf50@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270116T095000
+DTEND;TZID=Europe/Warsaw:20270116T112500
+SUMMARY:Sn (L)
+LOCATION:86 S
+DESCRIPTION:Sieci neuronowe\nRodzaj: laboratorium\nProwadzący: mgr inż. 
+ Chmielińska Jolanta\nNr zajęć: 4/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:23e5e917adf62d19bf9e3a0b@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270116T114000
+DTEND;TZID=Europe/Warsaw:20270116T131500
+SUMMARY:Ssna (L)
+LOCATION:134 61A
+DESCRIPTION:Satelitarne systemy nawigacyjne\nRodzaj: laboratorium\nProwadz
+ ący: mgr inż. Kapski Adrian\nNr zajęć: 1/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:be0e4688a39403be3b96e45b@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270116T133000
+DTEND;TZID=Europe/Warsaw:20270116T150500
+SUMMARY:Ssna (L)
+LOCATION:134 61A
+DESCRIPTION:Satelitarne systemy nawigacyjne\nRodzaj: laboratorium\nProwadz
+ ący: mgr inż. Kapski Adrian\nNr zajęć: 2/2\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:35d0b6e12cd69d9d54209ce1@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270116T152000
+DTEND;TZID=Europe/Warsaw:20270116T165500
+SUMMARY:Zmprog PW (L)
+LOCATION:116 61
+DESCRIPTION:Zaawansowane metody programistyczne PW\nRodzaj: laboratorium\n
+ Prowadzący: mgr inż. Floriańczyk Marek\nNr zajęć: 1/3\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:d471c078db4b78e5189e35d8@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270116T171000
+DTEND;TZID=Europe/Warsaw:20270116T184500
+SUMMARY:Fud (L)
+LOCATION:7 61
+DESCRIPTION:Fuzja danych\nRodzaj: laboratorium\nProwadzący: mgr inż. Bł
+ yskun Bartosz\nNr zajęć: 3/4\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:9134acb965dc5baa98ddef1d@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270117T080000
+DTEND;TZID=Europe/Warsaw:20270117T093500
+SUMMARY:Fud (L)
+LOCATION:7 61
+DESCRIPTION:Fuzja danych\nRodzaj: laboratorium\nProwadzący: mgr inż. Bł
+ yskun Bartosz\nNr zajęć: 4/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8a7da443e76b9327a3a4fe56@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270117T095000
+DTEND;TZID=Europe/Warsaw:20270117T112500
+SUMMARY:Smwr (w)
+LOCATION:27 61
+DESCRIPTION:Systemy mikroprocesorowe w robotyce\nRodzaj: wykład\nProwadz
+ ący: mgr inż. Pawłowski Piotr\nNr zajęć: 2/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:461930a8c2c498dfd41cac94@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270117T114000
+DTEND;TZID=Europe/Warsaw:20270117T131500
+SUMMARY:Smwr (L)
+LOCATION:104 61
+DESCRIPTION:Systemy mikroprocesorowe w robotyce\nRodzaj: laboratorium\nNr 
+ zajęć: 3/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a2f8635c3496f039e98b7369@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270117T133000
+DTEND;TZID=Europe/Warsaw:20270117T150500
+SUMMARY:Smwr (L)
+LOCATION:104 61
+DESCRIPTION:Systemy mikroprocesorowe w robotyce\nRodzaj: laboratorium\nNr 
+ zajęć: 4/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c8d745f89945077b1b87d6f2@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270123T080000
+DTEND;TZID=Europe/Warsaw:20270123T093500
+SUMMARY:CpO (L)
+LOCATION:116 61
+DESCRIPTION:Cyfrowe przetwarzanie obrazów\nRodzaj: laboratorium\nNr zaję
+ ć: 5/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7e17179ce54a3f4c170e36f7@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270123T095000
+DTEND;TZID=Europe/Warsaw:20270123T112500
+SUMMARY:CpO (L)
+LOCATION:116 61
+DESCRIPTION:Cyfrowe przetwarzanie obrazów\nRodzaj: laboratorium\nNr zaję
+ ć: 6/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:29b38480aeae03947f4e4528@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270123T114000
+DTEND;TZID=Europe/Warsaw:20270123T131500
+SUMMARY:Ssna (w)
+LOCATION:27 61
+DESCRIPTION:Satelitarne systemy nawigacyjne\nRodzaj: wykład\nProwadzący:
+  dr hab. inż. Kaniewski Piotr\nNr zajęć: 5/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:08a97d0edc689d8ded903fc8@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270123T133000
+DTEND;TZID=Europe/Warsaw:20270123T150500
+SUMMARY:Kzl (w)
+LOCATION:2 45
+DESCRIPTION:Kierowanie zespołami ludzkimi\nRodzaj: wykład\nProwadzący: 
+ dr Jończyk Joanna\nNr zajęć: 3/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:98d159412be0a1cf511b08a8@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270123T152000
+DTEND;TZID=Europe/Warsaw:20270123T165500
+SUMMARY:Kzl (w)
+LOCATION:2 45
+DESCRIPTION:Kierowanie zespołami ludzkimi\nRodzaj: wykład\nProwadzący: 
+ dr Jończyk Joanna\nNr zajęć: 4/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:1ecf47c32d7861a0aa2cb544@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270124T080000
+DTEND;TZID=Europe/Warsaw:20270124T093500
+SUMMARY:Kzl (w)
+LOCATION:2 45
+DESCRIPTION:Kierowanie zespołami ludzkimi\nRodzaj: wykład\nProwadzący: 
+ dr Jończyk Joanna\nNr zajęć: 5/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6d70df646cf6e0854e65819b@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270124T095000
+DTEND;TZID=Europe/Warsaw:20270124T112500
+SUMMARY:Kzl (w)
+LOCATION:2 45
+DESCRIPTION:Kierowanie zespołami ludzkimi\nRodzaj: wykład\nProwadzący: 
+ dr Jończyk Joanna\nNr zajęć: 6/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3cf1920dc4c04628819e87ff@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270124T114000
+DTEND;TZID=Europe/Warsaw:20270124T131500
+SUMMARY:Kzl (ć)
+LOCATION:2 45
+DESCRIPTION:Kierowanie zespołami ludzkimi\nRodzaj: ćwiczenia\nNr zajęć
+ : 3/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b6226620ef86649425c16517@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270124T133000
+DTEND;TZID=Europe/Warsaw:20270124T150500
+SUMMARY:Kzl (ć)
+LOCATION:2 45
+DESCRIPTION:Kierowanie zespołami ludzkimi\nRodzaj: ćwiczenia\nNr zajęć
+ : 4/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3f4d2592d297237a8a9a27c7@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270130T080000
+DTEND;TZID=Europe/Warsaw:20270130T093500
+SUMMARY:Zmprog PW (L)
+LOCATION:116 61
+DESCRIPTION:Zaawansowane metody programistyczne PW\nRodzaj: laboratorium\n
+ Prowadzący: mgr inż. Floriańczyk Marek\nNr zajęć: 2/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b6cd71bc1b2285b17431420e@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270130T095000
+DTEND;TZID=Europe/Warsaw:20270130T112500
+SUMMARY:Zmprog PW (L)
+LOCATION:116 61
+DESCRIPTION:Zaawansowane metody programistyczne PW\nRodzaj: laboratorium\n
+ Prowadzący: mgr inż. Floriańczyk Marek\nNr zajęć: 3/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:80c5201b82cc5744d8f56d15@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270130T114000
+DTEND;TZID=Europe/Warsaw:20270130T131500
+SUMMARY:Smwr (w)
+LOCATION:27 61
+DESCRIPTION:Systemy mikroprocesorowe w robotyce\nRodzaj: wykład\nProwadz
+ ący: mgr inż. Pawłowski Piotr\nNr zajęć: 3/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:aba98d2c613f819eca95c04f@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270130T133000
+DTEND;TZID=Europe/Warsaw:20270130T150500
+SUMMARY:Smwr (L)
+LOCATION:115 61
+DESCRIPTION:Systemy mikroprocesorowe w robotyce\nRodzaj: laboratorium\nNr 
+ zajęć: 5/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5ccc4fb7e77e6b16f69d650f@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270130T152000
+DTEND;TZID=Europe/Warsaw:20270130T165500
+SUMMARY:Smwr (L)
+LOCATION:115 61
+DESCRIPTION:Systemy mikroprocesorowe w robotyce\nRodzaj: laboratorium\nNr 
+ zajęć: 6/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:0fb6e49df1949cb2d5cf3fc2@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270131T114000
+DTEND;TZID=Europe/Warsaw:20270131T131500
+SUMMARY:Rep (L)
+LOCATION:2.16 42
+DESCRIPTION:Radio equipment programming\nRodzaj: laboratorium\nNr zajęć:
+  5/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:984031c5be7cc995a7fddef2@wat-plan
+DTSTAMP:20261118T134921Z
+DTSTART;TZID=Europe/Warsaw:20270131T133000
+DTEND;TZID=Europe/Warsaw:20270131T150500
+SUMMARY:Rep (L)
+LOCATION:2.16 42
+DESCRIPTION:Radio equipment programming\nRodzaj: laboratorium\nNr zajęć:
+  6/6\nBlok: 4
+END:VEVENT
+END:VCALENDAR

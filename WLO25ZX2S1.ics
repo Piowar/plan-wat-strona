@@ -1,0 +1,2147 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WLO25ZX2S1
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:0a01d96aa8427f7667981600@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261001T080000
+DTEND;TZID=Europe/Warsaw:20261001T093500
+SUMMARY:Ewz (w)
+LOCATION:3.16/ 135
+DESCRIPTION:Etyka w zarządzaniu\nRodzaj: wykład\nProwadzący: dr Kaspers
+ ki Marian\nNr zajęć: 1/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9ac5e38ba9f02eec0a36ae52@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261001T095000
+DTEND;TZID=Europe/Warsaw:20261001T112500
+SUMMARY:Fip (w)
+LOCATION:166 S
+DESCRIPTION:Finanse przedsiębiorstwa\nRodzaj: wykład\nProwadzący: dr ha
+ b. Kostecki Janusz\nNr zajęć: 1/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:dffd44a08481e2a553630908@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261001T114000
+DTEND;TZID=Europe/Warsaw:20261001T131500
+SUMMARY:Fip (w)
+LOCATION:166 S
+DESCRIPTION:Finanse przedsiębiorstwa\nRodzaj: wykład\nProwadzący: dr ha
+ b. Kostecki Janusz\nNr zajęć: 2/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:96f7c7068f554edb27e42590@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261001T133000
+DTEND;TZID=Europe/Warsaw:20261001T150500
+SUMMARY:TZ (ć)
+LOCATION:1.17/ 16
+DESCRIPTION:Techniki zarządzania\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Staruch Marcin\nNr zajęć: 1/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e5e859a0f091a686d9aef7ff@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261001T160000
+DTEND;TZID=Europe/Warsaw:20261001T173500
+SUMMARY:TZ (ć)
+LOCATION:1.17/ 16
+DESCRIPTION:Techniki zarządzania\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Staruch Marcin\nNr zajęć: 2/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:b4f5827fd4451997afe339a0@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261001T175000
+DTEND;TZID=Europe/Warsaw:20261001T192500
+SUMMARY:ZPr (L)
+LOCATION:0.21/ 16
+DESCRIPTION:Zarządzanie projektami\nRodzaj: laboratorium\nProwadzący: dr
+  inż. Staruch Marcin\nNr zajęć: 1/6\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:7891b8e0766fa1163e62cdfe@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261002T095000
+DTEND;TZID=Europe/Warsaw:20261002T112500
+SUMMARY:TZ (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Techniki zarządzania\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Staruch Marcin\nNr zajęć: 3/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:14783087569294b8c66d61d8@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261002T114000
+DTEND;TZID=Europe/Warsaw:20261002T131500
+SUMMARY:TZ (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Techniki zarządzania\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Staruch Marcin\nNr zajęć: 4/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a6e8caa8ea9bd05624b1b4a9@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261002T133000
+DTEND;TZID=Europe/Warsaw:20261002T150500
+SUMMARY:TZ (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Techniki zarządzania\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Staruch Marcin\nNr zajęć: 5/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:466c75addc353fb46938cc3a@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261002T160000
+DTEND;TZID=Europe/Warsaw:20261002T173500
+SUMMARY:ZPr (L)
+LOCATION:0.22/ 16
+DESCRIPTION:Zarządzanie projektami\nRodzaj: laboratorium\nProwadzący: dr
+  inż. Staruch Marcin\nNr zajęć: 2/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f3394ee910cf07b9d1fc492b@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261005T175000
+DTEND;TZID=Europe/Warsaw:20261005T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231 K\;232 K\;233 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 1/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:dad8a275dbba9a2ef68a1132@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261006T095000
+DTEND;TZID=Europe/Warsaw:20261006T112500
+SUMMARY:Fip (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Finanse przedsiębiorstwa\nRodzaj: ćwiczenia\nProwadzący: dr
+  hab. Kostecki Janusz\nNr zajęć: 1/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:48022da47be2a10f6cc6f3e2@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261006T114000
+DTEND;TZID=Europe/Warsaw:20261006T131500
+SUMMARY:Fip (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Finanse przedsiębiorstwa\nRodzaj: ćwiczenia\nProwadzący: dr
+  hab. Kostecki Janusz\nNr zajęć: 2/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9b0e8e76bd212dc044dbb4af@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261006T133000
+DTEND;TZID=Europe/Warsaw:20261006T150500
+SUMMARY:Nmb (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Nowe modele biznesowe\nRodzaj: wykład\nProwadzący: dr hab. S
+ ołek-Borowska Celina\nNr zajęć: 1/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ce1bed4883addd9afcd470d5@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261006T160000
+DTEND;TZID=Europe/Warsaw:20261006T173500
+SUMMARY:Rkg (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Rynki kapitałowe i operacje giełdowe\nRodzaj: wykład\nProwa
+ dzący: dr hab. Przychocka Iwona\nNr zajęć: 1/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:96db2bd597e5c0ff41f3098f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261006T175000
+DTEND;TZID=Europe/Warsaw:20261006T192500
+SUMMARY:Rkg (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Rynki kapitałowe i operacje giełdowe\nRodzaj: wykład\nProwa
+ dzący: dr hab. Przychocka Iwona\nNr zajęć: 2/8\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:140cbac8abcb00c8c20dce3c@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261007T114000
+DTEND;TZID=Europe/Warsaw:20261007T131500
+SUMMARY:TZ (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Techniki zarządzania\nRodzaj: wykład\nProwadzący: dr inż. 
+ Wojciechowski Zdzisław\nNr zajęć: 1/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7d59860d89cc4be0e234462d@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261007T133000
+DTEND;TZID=Europe/Warsaw:20261007T150500
+SUMMARY:Bm (w)
+LOCATION:166 S
+DESCRIPTION:Badania marketingowe\nRodzaj: wykład\nProwadzący: dr Kolasi
+ ńska-Morawska Katarzyna\nNr zajęć: 1/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1ed07a86450bd34c9ce0daf9@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261007T160000
+DTEND;TZID=Europe/Warsaw:20261007T173500
+SUMMARY:Ewz (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Etyka w zarządzaniu\nRodzaj: wykład\nProwadzący: dr Kaspers
+ ki Marian\nNr zajęć: 2/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:5dc02be6b333b9f50acd83cd@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261008T095000
+DTEND;TZID=Europe/Warsaw:20261008T112500
+SUMMARY:Ja (ć)
+LOCATION:240 K\;239 K\;238 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 1/15\nBlok: 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:fc3013ad84ff1f8d023801ee@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261008T114000
+DTEND;TZID=Europe/Warsaw:20261008T131500
+SUMMARY:Bm (ć)
+LOCATION:0.6/ 16
+DESCRIPTION:Badania marketingowe\nRodzaj: ćwiczenia\nProwadzący: dr Kola
+ sińska-Morawska Katarzyna\nNr zajęć: 1/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ad619012af4a0cb6b378708f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261008T133000
+DTEND;TZID=Europe/Warsaw:20261008T150500
+SUMMARY:Bm (ć)
+LOCATION:0.6/ 16
+DESCRIPTION:Badania marketingowe\nRodzaj: ćwiczenia\nProwadzący: dr Kola
+ sińska-Morawska Katarzyna\nNr zajęć: 2/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b7fb09e0e3dcb98cd10a2c0e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261008T160000
+DTEND;TZID=Europe/Warsaw:20261008T173500
+SUMMARY:Bm (ć)
+LOCATION:0.6/ 16
+DESCRIPTION:Badania marketingowe\nRodzaj: ćwiczenia\nProwadzący: dr Kola
+ sińska-Morawska Katarzyna\nNr zajęć: 3/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:0c2b57a10ad2a5a87f7dc6a9@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261012T175000
+DTEND;TZID=Europe/Warsaw:20261012T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231 K\;232 K\;233 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 2/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:f8f5444e8fba12ecb2db10cd@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261013T095000
+DTEND;TZID=Europe/Warsaw:20261013T112500
+SUMMARY:Fip (w)
+LOCATION:166 S
+DESCRIPTION:Finanse przedsiębiorstwa\nRodzaj: wykład\nProwadzący: dr ha
+ b. Kostecki Janusz\nNr zajęć: 3/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:40f2225040b87b0b38ed6c51@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261013T114000
+DTEND;TZID=Europe/Warsaw:20261013T131500
+SUMMARY:Fip (w)
+LOCATION:166 S
+DESCRIPTION:Finanse przedsiębiorstwa\nRodzaj: wykład\nProwadzący: dr ha
+ b. Kostecki Janusz\nNr zajęć: 4/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ddbfe602399d25b69022c183@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261013T133000
+DTEND;TZID=Europe/Warsaw:20261013T150500
+SUMMARY:ZPr (ć)
+LOCATION:0.6/ 16
+DESCRIPTION:Zarządzanie projektami\nRodzaj: ćwiczenia\nProwadzący: mgr 
+ Łukasik Sebastian\nNr zajęć: 1/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e73c3a00300f140cfb9d53bb@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261013T160000
+DTEND;TZID=Europe/Warsaw:20261013T173500
+SUMMARY:Rkg (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Rynki kapitałowe i operacje giełdowe\nRodzaj: wykład\nProwa
+ dzący: dr hab. Przychocka Iwona\nNr zajęć: 3/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:270cc39b331b0cb68610c916@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261013T175000
+DTEND;TZID=Europe/Warsaw:20261013T192500
+SUMMARY:Rkg (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Rynki kapitałowe i operacje giełdowe\nRodzaj: wykład\nProwa
+ dzący: dr hab. Przychocka Iwona\nNr zajęć: 4/8\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:de130e145ce50f0fec5ce198@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261013T194000
+DTEND;TZID=Europe/Warsaw:20261013T211500
+SUMMARY:Nmb (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Nowe modele biznesowe\nRodzaj: wykład\nProwadzący: dr hab. S
+ ołek-Borowska Celina\nNr zajęć: 2/9\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:d3109734e886bb43597c5e35@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261014T114000
+DTEND;TZID=Europe/Warsaw:20261014T131500
+SUMMARY:Rf (w)
+LOCATION:3.7 75
+DESCRIPTION:Rachunkowość finansowa\nRodzaj: wykład\nProwadzący: dr Szc
+ zerbak Monika\nNr zajęć: 1/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d44a6d5db093ff7dedcac253@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261014T133000
+DTEND;TZID=Europe/Warsaw:20261014T150500
+SUMMARY:Rf (w)
+LOCATION:3.7 75
+DESCRIPTION:Rachunkowość finansowa\nRodzaj: wykład\nProwadzący: dr Szc
+ zerbak Monika\nNr zajęć: 2/11\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:cddcb90c3e70548d9adbd476@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261014T160000
+DTEND;TZID=Europe/Warsaw:20261014T173500
+SUMMARY:TZ (ć)
+LOCATION:0.6/ 16
+DESCRIPTION:Techniki zarządzania\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Staruch Marcin\nNr zajęć: 6/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:78ce6bd3f37b5c23f7b669b2@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261014T175000
+DTEND;TZID=Europe/Warsaw:20261014T192500
+SUMMARY:TZ (ć)
+LOCATION:0.6/ 16
+DESCRIPTION:Techniki zarządzania\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Staruch Marcin\nNr zajęć: 7/9\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:cbb3bfe17ea3402e9f21e702@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261015T095000
+DTEND;TZID=Europe/Warsaw:20261015T112500
+SUMMARY:Ja (ć)
+LOCATION:240 K\;239 K\;238 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 2/15\nBlok: 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f6907dcff2febe191746c8c7@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261015T114000
+DTEND;TZID=Europe/Warsaw:20261015T131500
+SUMMARY:Fip (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Finanse przedsiębiorstwa\nRodzaj: ćwiczenia\nProwadzący: dr
+  hab. Kostecki Janusz\nNr zajęć: 3/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:741189a037943de65078459c@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261015T133000
+DTEND;TZID=Europe/Warsaw:20261015T150500
+SUMMARY:Fip (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Finanse przedsiębiorstwa\nRodzaj: ćwiczenia\nProwadzący: dr
+  hab. Kostecki Janusz\nNr zajęć: 4/11\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ee05808674413da15bb4182a@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261016T080000
+DTEND;TZID=Europe/Warsaw:20261016T093500
+SUMMARY:Nmb (ć)
+LOCATION:1a/ 28
+DESCRIPTION:Nowe modele biznesowe\nRodzaj: ćwiczenia\nProwadzący: dr hab
+ . Sołek-Borowska Celina\nNr zajęć: 1/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:48bbc35f652bc9d78c78e23b@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261016T095000
+DTEND;TZID=Europe/Warsaw:20261016T112500
+SUMMARY:Nmb (ć)
+LOCATION:1a/ 28
+DESCRIPTION:Nowe modele biznesowe\nRodzaj: ćwiczenia\nProwadzący: dr hab
+ . Sołek-Borowska Celina\nNr zajęć: 2/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8e15657985e7d7085cfbf219@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261019T175000
+DTEND;TZID=Europe/Warsaw:20261019T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231 K\;232 K\;233 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 3/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:e360698da67b670e07628bf4@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261020T080000
+DTEND;TZID=Europe/Warsaw:20261020T093500
+SUMMARY:ZPr (w)
+LOCATION:3.16/ 135
+DESCRIPTION:Zarządzanie projektami\nRodzaj: wykład\nProwadzący: prof. d
+ r hab. inż. Zaskórski Piotr\nNr zajęć: 1/13\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6c256a9e870501e2df3932ee@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261020T095000
+DTEND;TZID=Europe/Warsaw:20261020T112500
+SUMMARY:Bm (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Badania marketingowe\nRodzaj: ćwiczenia\nProwadzący: dr Kola
+ sińska-Morawska Katarzyna\nNr zajęć: 4/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5936f7beb35d0488bf56d880@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261020T114000
+DTEND;TZID=Europe/Warsaw:20261020T131500
+SUMMARY:Ewz (ć)
+LOCATION:1 55A
+DESCRIPTION:Etyka w zarządzaniu\nRodzaj: ćwiczenia\nProwadzący: dr Kasp
+ erski Marian\nNr zajęć: 1/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a7856c5006d06b1474a82db3@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261020T133000
+DTEND;TZID=Europe/Warsaw:20261020T150500
+SUMMARY:Nmb (w)
+LOCATION:3.16/ 135
+DESCRIPTION:Nowe modele biznesowe\nRodzaj: wykład\nProwadzący: dr hab. S
+ ołek-Borowska Celina\nNr zajęć: 3/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9ac92310ef330881e8554c8b@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261020T160000
+DTEND;TZID=Europe/Warsaw:20261020T173500
+SUMMARY:ZPr (ć)
+LOCATION:2.21/ 135
+DESCRIPTION:Zarządzanie projektami\nRodzaj: ćwiczenia\nProwadzący: mgr 
+ Łukasik Sebastian\nNr zajęć: 2/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:520d6814da14ea9c8b4475f4@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261021T133000
+DTEND;TZID=Europe/Warsaw:20261021T150500
+SUMMARY:Rkg (L)
+LOCATION:110/ 14
+DESCRIPTION:Rynki kapitałowe i operacje giełdowe\nRodzaj: laboratorium\n
+ Prowadzący: dr hab. Przychocka Iwona\nNr zajęć: 1/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3b16e1a244b324389a8c4e23@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261021T160000
+DTEND;TZID=Europe/Warsaw:20261021T173500
+SUMMARY:TZ (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Techniki zarządzania\nRodzaj: wykład\nProwadzący: dr inż. 
+ Wojciechowski Zdzisław\nNr zajęć: 2/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:51d072bc9a98966668640935@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261022T095000
+DTEND;TZID=Europe/Warsaw:20261022T112500
+SUMMARY:Ja (ć)
+LOCATION:240 K\;239 K\;238 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 3/15\nBlok: 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a5dd23136bb79f02e8eb392e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261022T133000
+DTEND;TZID=Europe/Warsaw:20261022T150500
+SUMMARY:Rf (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Rachunkowość finansowa\nRodzaj: wykład\nProwadzący: dr Szc
+ zerbak Monika\nNr zajęć: 3/11\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:751233b006303bec8231706c@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261022T160000
+DTEND;TZID=Europe/Warsaw:20261022T173500
+SUMMARY:Rf (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Rachunkowość finansowa\nRodzaj: wykład\nProwadzący: dr Szc
+ zerbak Monika\nNr zajęć: 4/11\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:33409968505b9c4890a11553@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261022T175000
+DTEND;TZID=Europe/Warsaw:20261022T192500
+SUMMARY:Rf (ć)
+LOCATION:0.22/ 16
+DESCRIPTION:Rachunkowość finansowa\nRodzaj: ćwiczenia\nProwadzący: dr 
+ Szczerbak Monika\nNr zajęć: 1/11\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:330290a5f36dfd207dff41cb@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261026T175000
+DTEND;TZID=Europe/Warsaw:20261026T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231 K\;232 K\;233 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 4/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:e8edd3109ff2f67bb52050b4@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261028T133000
+DTEND;TZID=Europe/Warsaw:20261028T150500
+SUMMARY:Fip (w)
+LOCATION:166 S
+DESCRIPTION:Finanse przedsiębiorstwa\nRodzaj: wykład\nProwadzący: dr ha
+ b. Kostecki Janusz\nNr zajęć: 5/11\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:936252d40ef2eb526cf1cf40@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261028T160000
+DTEND;TZID=Europe/Warsaw:20261028T173500
+SUMMARY:TZ (w)
+LOCATION:aF S
+DESCRIPTION:Techniki zarządzania\nRodzaj: wykład\nProwadzący: dr inż. 
+ Wojciechowski Zdzisław\nNr zajęć: 3/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:d0a0efdecfc4658f605f1f03@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261028T175000
+DTEND;TZID=Europe/Warsaw:20261028T192500
+SUMMARY:ZPr (w)
+LOCATION:3.16/ 135
+DESCRIPTION:Zarządzanie projektami\nRodzaj: wykład\nProwadzący: prof. d
+ r hab. inż. Zaskórski Piotr\nNr zajęć: 2/13\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:592b801b3ca7188f72c0f238@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261028T194000
+DTEND;TZID=Europe/Warsaw:20261028T211500
+SUMMARY:ZPr (w)
+LOCATION:3.16/ 135
+DESCRIPTION:Zarządzanie projektami\nRodzaj: wykład\nProwadzący: prof. d
+ r hab. inż. Zaskórski Piotr\nNr zajęć: 3/13\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:c80e407eb46963e2371d57a7@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261029T095000
+DTEND;TZID=Europe/Warsaw:20261029T112500
+SUMMARY:Ja (ć)
+LOCATION:240 K\;239 K\;238 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 4/15\nBlok: 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ff1c6f56c01d22a7b7f5a62e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261102T175000
+DTEND;TZID=Europe/Warsaw:20261102T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231 K\;232 K\;233 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 5/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:72352e5fdd41d4729be66370@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261104T114000
+DTEND;TZID=Europe/Warsaw:20261104T131500
+SUMMARY:Bm (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Badania marketingowe\nRodzaj: wykład\nProwadzący: dr Kolasi
+ ńska-Morawska Katarzyna\nNr zajęć: 2/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:69b38793d61eeb5042afafdf@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261104T133000
+DTEND;TZID=Europe/Warsaw:20261104T150500
+SUMMARY:ZPr (w)
+LOCATION:1.9/ 16
+DESCRIPTION:Zarządzanie projektami\nRodzaj: wykład\nProwadzący: prof. d
+ r hab. inż. Zaskórski Piotr\nNr zajęć: 4/13\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6fd9f9b056cbb50d44378bd3@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261104T160000
+DTEND;TZID=Europe/Warsaw:20261104T173500
+SUMMARY:Ewz (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Etyka w zarządzaniu\nRodzaj: wykład\nProwadzący: dr Kaspers
+ ki Marian\nNr zajęć: 3/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:442fe75e45b03e7ec2842f4d@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261105T080000
+DTEND;TZID=Europe/Warsaw:20261105T093500
+SUMMARY:TZ (w)
+LOCATION:1.9/ 16
+DESCRIPTION:Techniki zarządzania\nRodzaj: wykład\nProwadzący: dr inż. 
+ Wojciechowski Zdzisław\nNr zajęć: 4/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b2710fb5ded0c1a26f8a7576@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261105T095000
+DTEND;TZID=Europe/Warsaw:20261105T112500
+SUMMARY:Ja (ć)
+LOCATION:240 K\;239 K\;238 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 5/15\nBlok: 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5baadac7756054b829a82ad7@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261106T114000
+DTEND;TZID=Europe/Warsaw:20261106T131500
+SUMMARY:Z.S-up (w)
+LOCATION:1.9/ 16
+DESCRIPTION:Zarządzanie start-upami\nRodzaj: wykład\nProwadzący: dr Wo
+ źniak Jacek\nNr zajęć: 1/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:81f0e7d747e0078b23f7fef6@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261106T133000
+DTEND;TZID=Europe/Warsaw:20261106T150500
+SUMMARY:Z.S-up (w)
+LOCATION:1.9/ 16
+DESCRIPTION:Zarządzanie start-upami\nRodzaj: wykład\nProwadzący: dr Wo
+ źniak Jacek\nNr zajęć: 2/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6a19ef934b53878a52cb84f7@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261109T160000
+DTEND;TZID=Europe/Warsaw:20261109T173500
+SUMMARY:Z.S-up (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Zarządzanie start-upami\nRodzaj: wykład\nProwadzący: dr Wo
+ źniak Jacek\nNr zajęć: 3/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:9da6c1c296c9930e3fed5da2@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261109T175000
+DTEND;TZID=Europe/Warsaw:20261109T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231 K\;232 K\;233 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 6/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:1f65b4d268533efcd8a71f3e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261110T114000
+DTEND;TZID=Europe/Warsaw:20261110T131500
+SUMMARY:Ewz (ć)
+LOCATION:1 55A
+DESCRIPTION:Etyka w zarządzaniu\nRodzaj: ćwiczenia\nProwadzący: dr Kasp
+ erski Marian\nNr zajęć: 2/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:797275ead73e716b75db24cc@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261110T133000
+DTEND;TZID=Europe/Warsaw:20261110T150500
+SUMMARY:Ewz (ć)
+LOCATION:1 55A
+DESCRIPTION:Etyka w zarządzaniu\nRodzaj: ćwiczenia\nProwadzący: dr Kasp
+ erski Marian\nNr zajęć: 3/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b9aa12593b6c731761151ec9@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261110T160000
+DTEND;TZID=Europe/Warsaw:20261110T173500
+SUMMARY:ZPr (ć)
+LOCATION:2.21/ 135
+DESCRIPTION:Zarządzanie projektami\nRodzaj: ćwiczenia\nProwadzący: mgr 
+ Łukasik Sebastian\nNr zajęć: 3/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:9b0242608b8c097dd476d2f9@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261112T080000
+DTEND;TZID=Europe/Warsaw:20261112T093500
+SUMMARY:TZ (w)
+LOCATION:3.16/ 135
+DESCRIPTION:Techniki zarządzania\nRodzaj: wykład\nProwadzący: dr inż. 
+ Wojciechowski Zdzisław\nNr zajęć: 5/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:410ea73359028a06f7f09612@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261112T095000
+DTEND;TZID=Europe/Warsaw:20261112T112500
+SUMMARY:Ja (ć)
+LOCATION:240 K\;239 K\;238 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 6/15\nBlok: 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:93219e27b9149c8e1eefb5c9@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261116T175000
+DTEND;TZID=Europe/Warsaw:20261116T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231 K\;232 K\;233 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 7/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:c4f513bb20cea9b0ac3a40cd@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261117T114000
+DTEND;TZID=Europe/Warsaw:20261117T131500
+SUMMARY:Fip (ć)
+LOCATION:2 55A
+DESCRIPTION:Finanse przedsiębiorstwa\nRodzaj: ćwiczenia\nProwadzący: dr
+  hab. Kostecki Janusz\nNr zajęć: 5/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a2422a470bedea0d0a175dc4@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261117T133000
+DTEND;TZID=Europe/Warsaw:20261117T150500
+SUMMARY:Fip (ć)
+LOCATION:2 55A
+DESCRIPTION:Finanse przedsiębiorstwa\nRodzaj: ćwiczenia\nProwadzący: dr
+  hab. Kostecki Janusz\nNr zajęć: 6/11\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7f065555325f05b4e00e57bf@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261117T160000
+DTEND;TZID=Europe/Warsaw:20261117T173500
+SUMMARY:Rkg (w)
+LOCATION:3.16/ 135
+DESCRIPTION:Rynki kapitałowe i operacje giełdowe\nRodzaj: wykład\nProwa
+ dzący: dr hab. Przychocka Iwona\nNr zajęć: 5/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:b5e922b8673dc3da37c5dee9@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261117T175000
+DTEND;TZID=Europe/Warsaw:20261117T192500
+SUMMARY:Rkg (w)
+LOCATION:3.16/ 135
+DESCRIPTION:Rynki kapitałowe i operacje giełdowe\nRodzaj: wykład\nProwa
+ dzący: dr hab. Przychocka Iwona\nNr zajęć: 6/8\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:e8ec3c353bafccc6cacbd75e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261118T133000
+DTEND;TZID=Europe/Warsaw:20261118T150500
+SUMMARY:TZ (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Techniki zarządzania\nRodzaj: wykład\nProwadzący: dr inż. 
+ Wojciechowski Zdzisław\nNr zajęć: 6/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:efe76a9c1f9eddcb402b47e8@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261118T160000
+DTEND;TZID=Europe/Warsaw:20261118T173500
+SUMMARY:Ewz (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Etyka w zarządzaniu\nRodzaj: wykład\nProwadzący: dr Kaspers
+ ki Marian\nNr zajęć: 4/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:a7608f2bb3f75d8da38fae4d@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261118T175000
+DTEND;TZID=Europe/Warsaw:20261118T192500
+SUMMARY:Rf (ć)
+LOCATION:0.22/ 16
+DESCRIPTION:Rachunkowość finansowa\nRodzaj: ćwiczenia\nProwadzący: dr 
+ Szczerbak Monika\nNr zajęć: 2/11\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:9ee4b16428631492c73bbcba@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261119T080000
+DTEND;TZID=Europe/Warsaw:20261119T093500
+SUMMARY:Fip (w)
+LOCATION:3.16/ 135
+DESCRIPTION:Finanse przedsiębiorstwa\nRodzaj: wykład\nProwadzący: dr ha
+ b. Kostecki Janusz\nNr zajęć: 6/11\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2fde0f55b0a9c3e9346d84c9@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261119T095000
+DTEND;TZID=Europe/Warsaw:20261119T112500
+SUMMARY:Ja (ć)
+LOCATION:240 K\;239 K\;238 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 7/15\nBlok: 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:10fb70dda31d9b278d496cd5@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261119T114000
+DTEND;TZID=Europe/Warsaw:20261119T131500
+SUMMARY:Rf (ć)
+LOCATION:0.23/ 16
+DESCRIPTION:Rachunkowość finansowa\nRodzaj: ćwiczenia\nProwadzący: dr 
+ Szczerbak Monika\nNr zajęć: 3/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8b2d29a9eefd3caec133c26d@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261119T133000
+DTEND;TZID=Europe/Warsaw:20261119T150500
+SUMMARY:Rf (ć)
+LOCATION:1a/ 28
+DESCRIPTION:Rachunkowość finansowa\nRodzaj: ćwiczenia\nProwadzący: dr 
+ Szczerbak Monika\nNr zajęć: 4/11\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:801c676ee21ae1ade0d5d64a@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261123T175000
+DTEND;TZID=Europe/Warsaw:20261123T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231 K\;232 K\;233 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 8/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:67c2b8e1d0cc6a6c382c4496@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261124T095000
+DTEND;TZID=Europe/Warsaw:20261124T112500
+SUMMARY:Fip (ć)
+LOCATION:2 55A
+DESCRIPTION:Finanse przedsiębiorstwa\nRodzaj: ćwiczenia\nProwadzący: dr
+  hab. Kostecki Janusz\nNr zajęć: 7/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ab82129e2a0bd53712f61ead@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261124T114000
+DTEND;TZID=Europe/Warsaw:20261124T131500
+SUMMARY:Fip (ć)
+LOCATION:2 55A
+DESCRIPTION:Finanse przedsiębiorstwa\nRodzaj: ćwiczenia\nProwadzący: dr
+  hab. Kostecki Janusz\nNr zajęć: 8/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9c9d0c451c360836f81a7c58@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261124T133000
+DTEND;TZID=Europe/Warsaw:20261124T150500
+SUMMARY:ZPr (w)
+LOCATION:3.16/ 135
+DESCRIPTION:Zarządzanie projektami\nRodzaj: wykład\nProwadzący: prof. d
+ r hab. inż. Zaskórski Piotr\nNr zajęć: 5/13\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c03cdf5cb9fc299de493b75e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261124T160000
+DTEND;TZID=Europe/Warsaw:20261124T173500
+SUMMARY:Ewz (w)
+LOCATION:1.10/ 16
+DESCRIPTION:Etyka w zarządzaniu\nRodzaj: wykład\nProwadzący: dr Kaspers
+ ki Marian\nNr zajęć: 5/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:1731702a685af92084e9a307@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261124T175000
+DTEND;TZID=Europe/Warsaw:20261124T192500
+SUMMARY:Nmb (w)
+LOCATION:1.9/ 16
+DESCRIPTION:Nowe modele biznesowe\nRodzaj: wykład\nProwadzący: dr hab. S
+ ołek-Borowska Celina\nNr zajęć: 4/9\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:705d06d927f4f4a0ddd508f0@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261125T114000
+DTEND;TZID=Europe/Warsaw:20261125T131500
+SUMMARY:TZ (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Techniki zarządzania\nRodzaj: wykład\nProwadzący: dr inż. 
+ Wojciechowski Zdzisław\nNr zajęć: 7/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0a2f1c4f89c542014357d477@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261125T133000
+DTEND;TZID=Europe/Warsaw:20261125T150500
+SUMMARY:TZ (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Techniki zarządzania\nRodzaj: wykład\nProwadzący: dr inż. 
+ Wojciechowski Zdzisław\nNr zajęć: 8/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2b2e643d33318f74d531702b@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261125T160000
+DTEND;TZID=Europe/Warsaw:20261125T173500
+SUMMARY:ZPr (w)
+LOCATION:3.16/ 135
+DESCRIPTION:Zarządzanie projektami\nRodzaj: wykład\nProwadzący: prof. d
+ r hab. inż. Zaskórski Piotr\nNr zajęć: 6/13\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:715c19b914690997997f9474@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261125T175000
+DTEND;TZID=Europe/Warsaw:20261125T192500
+SUMMARY:Bm (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Badania marketingowe\nRodzaj: wykład\nProwadzący: dr Kolasi
+ ńska-Morawska Katarzyna\nNr zajęć: 3/8\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:6027a21a769db4e836158236@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261125T194000
+DTEND;TZID=Europe/Warsaw:20261125T211500
+SUMMARY:Z.S-up (ć)
+LOCATION:2.21/ 135
+DESCRIPTION:Zarządzanie start-upami\nRodzaj: ćwiczenia\nProwadzący: mgr
+  Łukasik Sebastian\nNr zajęć: 1/9\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:7d3b8831e8f24d5423e4aa4f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261126T095000
+DTEND;TZID=Europe/Warsaw:20261126T112500
+SUMMARY:Ja (ć)
+LOCATION:240 K\;239 K\;238 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 8/15\nBlok: 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:fa9f44c768c2de73551030a5@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261126T114000
+DTEND;TZID=Europe/Warsaw:20261126T131500
+SUMMARY:Fip (w)
+LOCATION:3.16/ 135
+DESCRIPTION:Finanse przedsiębiorstwa\nRodzaj: wykład\nProwadzący: dr ha
+ b. Kostecki Janusz\nNr zajęć: 7/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0cba3489369eb512b3f1f517@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261126T133000
+DTEND;TZID=Europe/Warsaw:20261126T150500
+SUMMARY:Rf (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Rachunkowość finansowa\nRodzaj: wykład\nProwadzący: dr Szc
+ zerbak Monika\nNr zajęć: 5/11\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a3528bbbd32e06fa3a3bca90@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261130T133000
+DTEND;TZID=Europe/Warsaw:20261130T150500
+SUMMARY:Z.S-up (w)
+LOCATION:3.16/ 135
+DESCRIPTION:Zarządzanie start-upami\nRodzaj: wykład\nProwadzący: dr Wo
+ źniak Jacek\nNr zajęć: 4/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7274ce0e734ed07653dc6098@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261130T160000
+DTEND;TZID=Europe/Warsaw:20261130T173500
+SUMMARY:Z.S-up (w)
+LOCATION:3.16/ 135
+DESCRIPTION:Zarządzanie start-upami\nRodzaj: wykład\nProwadzący: dr Wo
+ źniak Jacek\nNr zajęć: 5/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:bc643660c482db15bc74c806@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261130T175000
+DTEND;TZID=Europe/Warsaw:20261130T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231 K\;232 K\;233 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 9/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:ee36dfc0d192fa231773ecfd@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261202T114000
+DTEND;TZID=Europe/Warsaw:20261202T131500
+SUMMARY:ZPr (w)
+LOCATION:3.16/ 135
+DESCRIPTION:Zarządzanie projektami\nRodzaj: wykład\nProwadzący: prof. d
+ r hab. inż. Zaskórski Piotr\nNr zajęć: 7/13\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d98e5807a85a624611329d30@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261202T160000
+DTEND;TZID=Europe/Warsaw:20261202T173500
+SUMMARY:Rf (w)
+LOCATION:3.16/ 135
+DESCRIPTION:Rachunkowość finansowa\nRodzaj: wykład\nProwadzący: dr Szc
+ zerbak Monika\nNr zajęć: 6/11\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f8e5272c9a67431355152e80@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261202T175000
+DTEND;TZID=Europe/Warsaw:20261202T192500
+SUMMARY:Rf (w)
+LOCATION:3.16/ 135
+DESCRIPTION:Rachunkowość finansowa\nRodzaj: wykład\nProwadzący: dr Szc
+ zerbak Monika\nNr zajęć: 7/11\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:ba47d492719996c9f81471dd@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261203T080000
+DTEND;TZID=Europe/Warsaw:20261203T093500
+SUMMARY:TZ (w)
+LOCATION:3.16/ 135
+DESCRIPTION:Techniki zarządzania\nRodzaj: wykład\nProwadzący: dr inż. 
+ Wojciechowski Zdzisław\nNr zajęć: 9/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6770d54fceace2e5befe500e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261203T095000
+DTEND;TZID=Europe/Warsaw:20261203T112500
+SUMMARY:Ja (ć)
+LOCATION:240 K\;239 K\;238 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 9/15\nBlok: 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:98facc096349dddf334f30db@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261203T114000
+DTEND;TZID=Europe/Warsaw:20261203T131500
+SUMMARY:Fip (w)
+LOCATION:1.10/ 16
+DESCRIPTION:Finanse przedsiębiorstwa\nRodzaj: wykład\nProwadzący: dr ha
+ b. Kostecki Janusz\nNr zajęć: 8/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:13986cc7c398d97d9356be78@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261207T133000
+DTEND;TZID=Europe/Warsaw:20261207T150500
+SUMMARY:Rkg (L)
+LOCATION:1.17/ 16
+DESCRIPTION:Rynki kapitałowe i operacje giełdowe\nRodzaj: laboratorium\n
+ Prowadzący: dr hab. Przychocka Iwona\nNr zajęć: 2/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:fb7aa6968c85c0a83bddf684@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261207T160000
+DTEND;TZID=Europe/Warsaw:20261207T173500
+SUMMARY:Rkg (L)
+LOCATION:1.17/ 16
+DESCRIPTION:Rynki kapitałowe i operacje giełdowe\nRodzaj: laboratorium\n
+ Prowadzący: dr hab. Przychocka Iwona\nNr zajęć: 3/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f3dd3c6bfdfe19f524b16e92@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261207T175000
+DTEND;TZID=Europe/Warsaw:20261207T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231 K\;232 K\;233 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 10/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:1311fc9a5fb6df9242a95dfa@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261208T095000
+DTEND;TZID=Europe/Warsaw:20261208T112500
+SUMMARY:Fip (ć)
+LOCATION:2 55A
+DESCRIPTION:Finanse przedsiębiorstwa\nRodzaj: ćwiczenia\nProwadzący: dr
+  hab. Kostecki Janusz\nNr zajęć: 9/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e4872f4c472651b478fa220b@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261208T114000
+DTEND;TZID=Europe/Warsaw:20261208T131500
+SUMMARY:Ewz (ć)
+LOCATION:3 54E
+DESCRIPTION:Etyka w zarządzaniu\nRodzaj: ćwiczenia\nProwadzący: dr Kasp
+ erski Marian\nNr zajęć: 4/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f0397c3f394bf31800b30779@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261208T133000
+DTEND;TZID=Europe/Warsaw:20261208T150500
+SUMMARY:Ewz (ć)
+LOCATION:3 54E
+DESCRIPTION:Etyka w zarządzaniu\nRodzaj: ćwiczenia\nProwadzący: dr Kasp
+ erski Marian\nNr zajęć: 5/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3949ca5dfba8d24dedff7684@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261208T160000
+DTEND;TZID=Europe/Warsaw:20261208T173500
+SUMMARY:Rkg (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Rynki kapitałowe i operacje giełdowe\nRodzaj: wykład\nProwa
+ dzący: dr hab. Przychocka Iwona\nNr zajęć: 7/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:c4248533bc4f2d34809733d5@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261208T175000
+DTEND;TZID=Europe/Warsaw:20261208T192500
+SUMMARY:Rkg (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Rynki kapitałowe i operacje giełdowe\nRodzaj: wykład\nProwa
+ dzący: dr hab. Przychocka Iwona\nNr zajęć: 8/8\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:2c014cfed72bc1732ac4e90a@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261208T194000
+DTEND;TZID=Europe/Warsaw:20261208T211500
+SUMMARY:Z.S-up (ć)
+LOCATION:3.16/ 135
+DESCRIPTION:Zarządzanie start-upami\nRodzaj: ćwiczenia\nProwadzący: mgr
+  Łukasik Sebastian\nNr zajęć: 2/9\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:060531176559d5f733914232@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261209T160000
+DTEND;TZID=Europe/Warsaw:20261209T173500
+SUMMARY:Bm (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Badania marketingowe\nRodzaj: wykład\nProwadzący: dr Kolasi
+ ńska-Morawska Katarzyna\nNr zajęć: 4/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:601fe9deb90e3db018d740ef@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261209T175000
+DTEND;TZID=Europe/Warsaw:20261209T192500
+SUMMARY:Z.S-up (ć)
+LOCATION:2/ 22
+DESCRIPTION:Zarządzanie start-upami\nRodzaj: ćwiczenia\nProwadzący: mgr
+  Łukasik Sebastian\nNr zajęć: 3/9\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:b79317b8728116d8760b68f3@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261209T194000
+DTEND;TZID=Europe/Warsaw:20261209T211500
+SUMMARY:Z.S-up (ć)
+LOCATION:2/ 22
+DESCRIPTION:Zarządzanie start-upami\nRodzaj: ćwiczenia\nProwadzący: mgr
+  Łukasik Sebastian\nNr zajęć: 4/9\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:164bd41cf258d618abee0237@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261210T080000
+DTEND;TZID=Europe/Warsaw:20261210T093500
+SUMMARY:TZ (w)
+LOCATION:3.16/ 135
+DESCRIPTION:Techniki zarządzania\nRodzaj: wykład\nProwadzący: dr inż. 
+ Wojciechowski Zdzisław\nNr zajęć: 10/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2565e7d7a42446dc8e3a6e48@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261210T095000
+DTEND;TZID=Europe/Warsaw:20261210T112500
+SUMMARY:Ja (ć)
+LOCATION:240 K\;239 K\;238 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 10/15\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:0e5fed514ec59228a57f1a07@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261210T133000
+DTEND;TZID=Europe/Warsaw:20261210T150500
+SUMMARY:Rf (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Rachunkowość finansowa\nRodzaj: wykład\nProwadzący: dr Szc
+ zerbak Monika\nNr zajęć: 8/11\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ac128fc631343b4ff8e267a3@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261210T160000
+DTEND;TZID=Europe/Warsaw:20261210T173500
+SUMMARY:Nmb (w)
+LOCATION:7a-b Bibl
+DESCRIPTION:Nowe modele biznesowe\nRodzaj: wykład\nProwadzący: dr hab. S
+ ołek-Borowska Celina\nNr zajęć: 5/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:43a0bf81eac58469fd61d0f2@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261210T175000
+DTEND;TZID=Europe/Warsaw:20261210T192500
+SUMMARY:Rf (ć)
+LOCATION:0.22/ 16
+DESCRIPTION:Rachunkowość finansowa\nRodzaj: ćwiczenia\nProwadzący: dr 
+ Szczerbak Monika\nNr zajęć: 5/11\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:9750cf98aa005a57b220a1ed@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261210T194000
+DTEND;TZID=Europe/Warsaw:20261210T211500
+SUMMARY:Z.S-up (ć)
+LOCATION:0.21/ 16
+DESCRIPTION:Zarządzanie start-upami\nRodzaj: ćwiczenia\nProwadzący: mgr
+  Łukasik Sebastian\nNr zajęć: 5/9\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:68e1f7df0e5dbc27b0fdf842@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261214T160000
+DTEND;TZID=Europe/Warsaw:20261214T173500
+SUMMARY:TZ (ć)
+LOCATION:1.15/ 16
+DESCRIPTION:Techniki zarządzania\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Staruch Marcin\nNr zajęć: 8/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:fe0c94b36d5112f2ec6bf481@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261214T175000
+DTEND;TZID=Europe/Warsaw:20261214T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231 K\;232 K\;233 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 11/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:fba8d7da1e5fe67053cca9c8@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261214T194000
+DTEND;TZID=Europe/Warsaw:20261214T211500
+SUMMARY:ZPr (L)
+LOCATION:0.21/ 16
+DESCRIPTION:Zarządzanie projektami\nRodzaj: laboratorium\nProwadzący: dr
+  inż. Staruch Marcin\nNr zajęć: 3/6\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:ef10dff8e629a7d7d83a56da@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261215T095000
+DTEND;TZID=Europe/Warsaw:20261215T112500
+SUMMARY:Fip (w)
+LOCATION:7a-b Bibl
+DESCRIPTION:Finanse przedsiębiorstwa\nRodzaj: wykład\nProwadzący: dr ha
+ b. Kostecki Janusz\nNr zajęć: 9/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a1370198e34780cb7b0af8f2@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261216T114000
+DTEND;TZID=Europe/Warsaw:20261216T131500
+SUMMARY:ZPr (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Zarządzanie projektami\nRodzaj: wykład\nProwadzący: prof. d
+ r hab. inż. Zaskórski Piotr\nNr zajęć: 8/13\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:48f5b48887d547b246ed3b2e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261216T133000
+DTEND;TZID=Europe/Warsaw:20261216T150500
+SUMMARY:ZPr (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Zarządzanie projektami\nRodzaj: wykład\nProwadzący: prof. d
+ r hab. inż. Zaskórski Piotr\nNr zajęć: 9/13\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4fc90db2ace6aba777cdef60@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261216T160000
+DTEND;TZID=Europe/Warsaw:20261216T173500
+SUMMARY:Bm (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Badania marketingowe\nRodzaj: wykład\nProwadzący: dr Kolasi
+ ńska-Morawska Katarzyna\nNr zajęć: 5/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:2546f847e49233783fb93ce5@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261216T175000
+DTEND;TZID=Europe/Warsaw:20261216T192500
+SUMMARY:Rf (ć)
+LOCATION:0.22/ 16
+DESCRIPTION:Rachunkowość finansowa\nRodzaj: ćwiczenia\nProwadzący: dr 
+ Szczerbak Monika\nNr zajęć: 6/11\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:f5792bcbd5e8eb24b24267b1@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261217T080000
+DTEND;TZID=Europe/Warsaw:20261217T093500
+SUMMARY:TZ (w)
+LOCATION:3.16/ 135
+DESCRIPTION:Techniki zarządzania\nRodzaj: wykład\nProwadzący: dr inż. 
+ Wojciechowski Zdzisław\nNr zajęć: 11/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7349762ff4544ea73af8fb99@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261217T095000
+DTEND;TZID=Europe/Warsaw:20261217T112500
+SUMMARY:Ja (ć)
+LOCATION:240 K\;239 K\;238 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 11/15\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:6a5a49a25dd244b0d4f5e4c4@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261217T133000
+DTEND;TZID=Europe/Warsaw:20261217T150500
+SUMMARY:Nmb (w)
+LOCATION:7a-b Bibl
+DESCRIPTION:Nowe modele biznesowe\nRodzaj: wykład\nProwadzący: dr hab. S
+ ołek-Borowska Celina\nNr zajęć: 6/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d00bafcf16895a313e5c464f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261218T095000
+DTEND;TZID=Europe/Warsaw:20261218T112500
+SUMMARY:Z.S-up (w)
+LOCATION:3.16/ 135
+DESCRIPTION:Zarządzanie start-upami\nRodzaj: wykład\nProwadzący: dr Wo
+ źniak Jacek\nNr zajęć: 6/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:145ccfc2a1c535f61937a99a@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261218T114000
+DTEND;TZID=Europe/Warsaw:20261218T131500
+SUMMARY:Nmb (ć)
+LOCATION:301/ S
+DESCRIPTION:Nowe modele biznesowe\nRodzaj: ćwiczenia\nProwadzący: dr hab
+ . Sołek-Borowska Celina\nNr zajęć: 3/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7bc244ac8855f2ad56215a69@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261218T133000
+DTEND;TZID=Europe/Warsaw:20261218T150500
+SUMMARY:Nmb (ć)
+LOCATION:4.17b/ 135
+DESCRIPTION:Nowe modele biznesowe\nRodzaj: ćwiczenia\nProwadzący: dr hab
+ . Sołek-Borowska Celina\nNr zajęć: 4/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:00c64028b98be5094e620b44@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261221T095000
+DTEND;TZID=Europe/Warsaw:20261221T112500
+SUMMARY:Rkg (L)
+LOCATION:0.6/ 16
+DESCRIPTION:Rynki kapitałowe i operacje giełdowe\nRodzaj: laboratorium\n
+ Prowadzący: dr hab. Przychocka Iwona\nNr zajęć: 4/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:db69c725c95d6cd1532188ca@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261221T114000
+DTEND;TZID=Europe/Warsaw:20261221T131500
+SUMMARY:Rkg (L)
+LOCATION:4.17a/ 135
+DESCRIPTION:Rynki kapitałowe i operacje giełdowe\nRodzaj: laboratorium\n
+ Prowadzący: dr hab. Przychocka Iwona\nNr zajęć: 5/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:200c2b9c8231d663a9067c2c@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261221T133000
+DTEND;TZID=Europe/Warsaw:20261221T150500
+SUMMARY:Rkg (L)
+LOCATION:1.15/ 16
+DESCRIPTION:Rynki kapitałowe i operacje giełdowe\nRodzaj: laboratorium\n
+ Prowadzący: dr hab. Przychocka Iwona\nNr zajęć: 6/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8a3006c1bb5e9420dd3e6af5@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261221T160000
+DTEND;TZID=Europe/Warsaw:20261221T173500
+SUMMARY:TZ (ć)
+LOCATION:1.15/ 16
+DESCRIPTION:Techniki zarządzania\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Staruch Marcin\nNr zajęć: 9/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:d3feaf218147899bc9746c83@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261221T175000
+DTEND;TZID=Europe/Warsaw:20261221T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231 K\;232 K\;233 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 12/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:0eff60af44238dfddb5a6c87@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261221T194000
+DTEND;TZID=Europe/Warsaw:20261221T211500
+SUMMARY:ZPr (L)
+LOCATION:0.21/ 16
+DESCRIPTION:Zarządzanie projektami\nRodzaj: laboratorium\nProwadzący: dr
+  inż. Staruch Marcin\nNr zajęć: 4/6\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:9a25a6169697c4b9de366e63@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261222T080000
+DTEND;TZID=Europe/Warsaw:20261222T093500
+SUMMARY:ZPr (w)
+LOCATION:3.16/ 135
+DESCRIPTION:Zarządzanie projektami\nRodzaj: wykład\nProwadzący: prof. d
+ r hab. inż. Zaskórski Piotr\nNr zajęć: 10/13\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a66a22b7c35cfb59bd02164c@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261222T095000
+DTEND;TZID=Europe/Warsaw:20261222T112500
+SUMMARY:Fip (w)
+LOCATION:7a-b Bibl
+DESCRIPTION:Finanse przedsiębiorstwa\nRodzaj: wykład\nProwadzący: dr ha
+ b. Kostecki Janusz\nNr zajęć: 10/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d836c38fe638da5d8d66e0f6@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261222T133000
+DTEND;TZID=Europe/Warsaw:20261222T150500
+SUMMARY:ZPr (L)
+LOCATION:0.7/ 16
+DESCRIPTION:Zarządzanie projektami\nRodzaj: laboratorium\nProwadzący: dr
+  inż. Staruch Marcin\nNr zajęć: 5/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6072d4c7d55e06713f52ec0b@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261223T095000
+DTEND;TZID=Europe/Warsaw:20261223T112500
+SUMMARY:ZPr (L)
+LOCATION:1 55A
+DESCRIPTION:Zarządzanie projektami\nRodzaj: laboratorium\nProwadzący: dr
+  inż. Staruch Marcin\nNr zajęć: 6/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8aa938e12d0f2e860198b9d0@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261223T114000
+DTEND;TZID=Europe/Warsaw:20261223T131500
+SUMMARY:Bm (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Badania marketingowe\nRodzaj: wykład\nProwadzący: dr Kolasi
+ ńska-Morawska Katarzyna\nNr zajęć: 6/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c8371839764f0f8ddd585e94@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261223T133000
+DTEND;TZID=Europe/Warsaw:20261223T150500
+SUMMARY:ZPr (w)
+LOCATION:3.16/ 135
+DESCRIPTION:Zarządzanie projektami\nRodzaj: wykład\nProwadzący: prof. d
+ r hab. inż. Zaskórski Piotr\nNr zajęć: 11/13\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ac9ec0102aefe355ca803283@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261223T160000
+DTEND;TZID=Europe/Warsaw:20261223T173500
+SUMMARY:Ewz (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Etyka w zarządzaniu\nRodzaj: wykład\nProwadzący: dr Kaspers
+ ki Marian\nNr zajęć: 6/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:4b7a9066954f77e4a0daa853@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270107T080000
+DTEND;TZID=Europe/Warsaw:20270107T093500
+SUMMARY:TZ (w)
+LOCATION:3.16/ 135
+DESCRIPTION:Techniki zarządzania\nRodzaj: wykład\nProwadzący: dr inż. 
+ Wojciechowski Zdzisław\nNr zajęć: 12/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1f24da9a86535007fd80028a@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270107T095000
+DTEND;TZID=Europe/Warsaw:20270107T112500
+SUMMARY:Ja (ć)
+LOCATION:240 K\;239 K\;238 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 12/15\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:7095eb72613b3f666c5efc7c@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270107T114000
+DTEND;TZID=Europe/Warsaw:20270107T131500
+SUMMARY:Rf (w)
+LOCATION:3.16/ 135
+DESCRIPTION:Rachunkowość finansowa\nRodzaj: wykład\nProwadzący: dr Szc
+ zerbak Monika\nNr zajęć: 9/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4cf514663698c39cff7112ac@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270107T133000
+DTEND;TZID=Europe/Warsaw:20270107T150500
+SUMMARY:Nmb (w)
+LOCATION:3.7 75
+DESCRIPTION:Nowe modele biznesowe\nRodzaj: wykład\nProwadzący: dr hab. S
+ ołek-Borowska Celina\nNr zajęć: 7/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:965b3edaf3554623feff53fc@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270111T133000
+DTEND;TZID=Europe/Warsaw:20270111T150500
+SUMMARY:Rkg (L)
+LOCATION:1.15/ 16
+DESCRIPTION:Rynki kapitałowe i operacje giełdowe\nRodzaj: laboratorium\n
+ Prowadzący: dr hab. Przychocka Iwona\nNr zajęć: 7/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:15a27f9b2912464901e24699@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270111T160000
+DTEND;TZID=Europe/Warsaw:20270111T173500
+SUMMARY:Rkg (L)
+LOCATION:1.15/ 16
+DESCRIPTION:Rynki kapitałowe i operacje giełdowe\nRodzaj: laboratorium\n
+ Prowadzący: dr hab. Przychocka Iwona\nNr zajęć: 8/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:e39d52e8a69dc4470002c973@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270111T175000
+DTEND;TZID=Europe/Warsaw:20270111T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231 K\;232 K\;233 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 13/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:b7fb4da98cfa33b630294425@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270112T080000
+DTEND;TZID=Europe/Warsaw:20270112T093500
+SUMMARY:ZPr (w)
+LOCATION:3.16/ 135
+DESCRIPTION:Zarządzanie projektami\nRodzaj: wykład\nProwadzący: prof. d
+ r hab. inż. Zaskórski Piotr\nNr zajęć: 12/13\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0b089d4fd8290a5f674259a9@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270112T095000
+DTEND;TZID=Europe/Warsaw:20270112T112500
+SUMMARY:Ewz (ć)
+LOCATION:1.17/ 16
+DESCRIPTION:Etyka w zarządzaniu\nRodzaj: ćwiczenia\nProwadzący: dr Kasp
+ erski Marian\nNr zajęć: 6/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:340ac498632ed6f143882b3c@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270113T114000
+DTEND;TZID=Europe/Warsaw:20270113T131500
+SUMMARY:Ewz (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Etyka w zarządzaniu\nRodzaj: wykład\nProwadzący: dr Kaspers
+ ki Marian\nNr zajęć: 7/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:931b79bb6f235c0b2102d06c@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270113T133000
+DTEND;TZID=Europe/Warsaw:20270113T150500
+SUMMARY:Bm (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Badania marketingowe\nRodzaj: wykład\nProwadzący: dr Kolasi
+ ńska-Morawska Katarzyna\nNr zajęć: 7/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b12075a1226b1eb7805e9737@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270113T160000
+DTEND;TZID=Europe/Warsaw:20270113T173500
+SUMMARY:Rf (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Rachunkowość finansowa\nRodzaj: wykład\nProwadzący: dr Szc
+ zerbak Monika\nNr zajęć: 10/11\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:7a06b9c3b50246fb64038baf@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270114T080000
+DTEND;TZID=Europe/Warsaw:20270114T093500
+SUMMARY:TZ (w)
+LOCATION:3.16/ 135
+DESCRIPTION:Techniki zarządzania\nRodzaj: wykład\nProwadzący: dr inż. 
+ Wojciechowski Zdzisław\nNr zajęć: 13/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:792c39670d8510473b6b6c8a@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270114T095000
+DTEND;TZID=Europe/Warsaw:20270114T112500
+SUMMARY:Ja (ć)
+LOCATION:240 K\;239 K\;238 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 13/15\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:3355e5ad56dbbe8ab0e818b4@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270114T114000
+DTEND;TZID=Europe/Warsaw:20270114T131500
+SUMMARY:Nmb (w)
+LOCATION:1.10/ 16
+DESCRIPTION:Nowe modele biznesowe\nRodzaj: wykład\nProwadzący: dr hab. S
+ ołek-Borowska Celina\nNr zajęć: 8/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:37d6bdffac2efc681e3306e4@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270114T133000
+DTEND;TZID=Europe/Warsaw:20270114T150500
+SUMMARY:Rf (ć)
+LOCATION:0.6/ 16
+DESCRIPTION:Rachunkowość finansowa\nRodzaj: ćwiczenia\nProwadzący: dr 
+ Szczerbak Monika\nNr zajęć: 7/11\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8cd538080d0cb20d7f96a916@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270114T160000
+DTEND;TZID=Europe/Warsaw:20270114T173500
+SUMMARY:Rf (ć)
+LOCATION:0.6/ 16
+DESCRIPTION:Rachunkowość finansowa\nRodzaj: ćwiczenia\nProwadzący: dr 
+ Szczerbak Monika\nNr zajęć: 8/11\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:8c32b07f12369481cfe3b23f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270114T175000
+DTEND;TZID=Europe/Warsaw:20270114T192500
+SUMMARY:Rf (ć)
+LOCATION:0.6/ 16
+DESCRIPTION:Rachunkowość finansowa\nRodzaj: ćwiczenia\nProwadzący: dr 
+ Szczerbak Monika\nNr zajęć: 9/11\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:bbe9bce9484c15c581f51eb3@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270118T160000
+DTEND;TZID=Europe/Warsaw:20270118T173500
+SUMMARY:Z.S-up (ć)
+LOCATION:5.21/ 135
+DESCRIPTION:Zarządzanie start-upami\nRodzaj: ćwiczenia\nProwadzący: mgr
+  Łukasik Sebastian\nNr zajęć: 6/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f60a5703da0f89cac9c96475@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270118T175000
+DTEND;TZID=Europe/Warsaw:20270118T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231 K\;232 K\;233 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 14/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:73258e10684fdeb080654d66@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270119T095000
+DTEND;TZID=Europe/Warsaw:20270119T112500
+SUMMARY:Nmb (w)
+LOCATION:7a-b Bibl
+DESCRIPTION:Nowe modele biznesowe\nRodzaj: wykład\nProwadzący: dr hab. S
+ ołek-Borowska Celina\nNr zajęć: 9/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7a00f3d8fdc2a66821bb023a@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270119T114000
+DTEND;TZID=Europe/Warsaw:20270119T131500
+SUMMARY:Nmb (ć)
+LOCATION:1a/ 28
+DESCRIPTION:Nowe modele biznesowe\nRodzaj: ćwiczenia\nProwadzący: dr hab
+ . Sołek-Borowska Celina\nNr zajęć: 5/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8e4be73957d4be8a2ab7a03a@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270119T133000
+DTEND;TZID=Europe/Warsaw:20270119T150500
+SUMMARY:Bm (ć)
+LOCATION:42/ 20
+DESCRIPTION:Badania marketingowe\nRodzaj: ćwiczenia\nProwadzący: dr Kola
+ sińska-Morawska Katarzyna\nNr zajęć: 5/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:99d5c3fd8ea03e654c567a85@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270119T160000
+DTEND;TZID=Europe/Warsaw:20270119T173500
+SUMMARY:Bm (ć)
+LOCATION:42/ 20
+DESCRIPTION:Badania marketingowe\nRodzaj: ćwiczenia\nProwadzący: dr Kola
+ sińska-Morawska Katarzyna\nNr zajęć: 6/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:069cb253408e439170fdf532@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270119T175000
+DTEND;TZID=Europe/Warsaw:20270119T192500
+SUMMARY:ZPr (ć)
+LOCATION:2.21/ 135
+DESCRIPTION:Zarządzanie projektami\nRodzaj: ćwiczenia\nProwadzący: mgr 
+ Łukasik Sebastian\nNr zajęć: 4/7\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:638b907cb521145c04919338@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270120T080000
+DTEND;TZID=Europe/Warsaw:20270120T093500
+SUMMARY:Fip (w)
+LOCATION:7a-b Bibl
+DESCRIPTION:Finanse przedsiębiorstwa\nRodzaj: wykład\nProwadzący: dr ha
+ b. Kostecki Janusz\nNr zajęć: 11/11\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1b7267e0e7dc91dc0de96d8f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270120T095000
+DTEND;TZID=Europe/Warsaw:20270120T112500
+SUMMARY:ZPr (w)
+LOCATION:3.16/ 135
+DESCRIPTION:Zarządzanie projektami\nRodzaj: wykład\nProwadzący: prof. d
+ r hab. inż. Zaskórski Piotr\nNr zajęć: 13/13\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:08fc8a3f9f8d912e8bea91e9@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270120T114000
+DTEND;TZID=Europe/Warsaw:20270120T131500
+SUMMARY:Ewz (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Etyka w zarządzaniu\nRodzaj: wykład\nProwadzący: dr Kaspers
+ ki Marian\nNr zajęć: 8/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b2977ec383f7f2167ae9c907@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270120T133000
+DTEND;TZID=Europe/Warsaw:20270120T150500
+SUMMARY:Z.S-up (ć)
+LOCATION:255 S
+DESCRIPTION:Zarządzanie start-upami\nRodzaj: ćwiczenia\nProwadzący: mgr
+  Łukasik Sebastian\nNr zajęć: 7/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ee2c4ed88c805b843803687c@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270120T160000
+DTEND;TZID=Europe/Warsaw:20270120T173500
+SUMMARY:Z.S-up (ć)
+LOCATION:255 S
+DESCRIPTION:Zarządzanie start-upami\nRodzaj: ćwiczenia\nProwadzący: mgr
+  Łukasik Sebastian\nNr zajęć: 8/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:dfbd48df33c160cde0667378@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270121T080000
+DTEND;TZID=Europe/Warsaw:20270121T093500
+SUMMARY:TZ (w)
+LOCATION:3.16/ 135
+DESCRIPTION:Techniki zarządzania\nRodzaj: wykład\nProwadzący: dr inż. 
+ Wojciechowski Zdzisław\nNr zajęć: 14/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:316fab0be07c43f1de7162b7@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270121T095000
+DTEND;TZID=Europe/Warsaw:20270121T112500
+SUMMARY:Ja (ć)
+LOCATION:240 K\;239 K\;238 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 14/15\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:813c7e353216b631cd1d17d9@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270121T114000
+DTEND;TZID=Europe/Warsaw:20270121T131500
+SUMMARY:Bm (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Badania marketingowe\nRodzaj: wykład\nProwadzący: dr Kolasi
+ ńska-Morawska Katarzyna\nNr zajęć: 8/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d784eabe65ebb9c2607a7482@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270121T133000
+DTEND;TZID=Europe/Warsaw:20270121T150500
+SUMMARY:Bm (ć)
+LOCATION:4.23/ 135
+DESCRIPTION:Badania marketingowe\nRodzaj: ćwiczenia\nProwadzący: dr Kola
+ sińska-Morawska Katarzyna\nNr zajęć: 7/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f2427b2353d0fb33646fdeca@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270121T160000
+DTEND;TZID=Europe/Warsaw:20270121T173500
+SUMMARY:Bm (ć)
+LOCATION:4.23/ 135
+DESCRIPTION:Badania marketingowe\nRodzaj: ćwiczenia\nProwadzący: dr Kola
+ sińska-Morawska Katarzyna\nNr zajęć: 8/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:4b28cda284273a220011241f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270121T175000
+DTEND;TZID=Europe/Warsaw:20270121T192500
+SUMMARY:Rf (ć)
+LOCATION:4.23/ 135
+DESCRIPTION:Rachunkowość finansowa\nRodzaj: ćwiczenia\nProwadzący: dr 
+ Szczerbak Monika\nNr zajęć: 10/11\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:1ee373a73f3bb64239b92da1@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270122T133000
+DTEND;TZID=Europe/Warsaw:20270122T150500
+SUMMARY:Z.S-up (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Zarządzanie start-upami\nRodzaj: wykład\nProwadzący: dr Wo
+ źniak Jacek\nNr zajęć: 7/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d00ea967936de72ab2f8f521@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270122T160000
+DTEND;TZID=Europe/Warsaw:20270122T173500
+SUMMARY:Z.S-up (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Zarządzanie start-upami\nRodzaj: wykład\nProwadzący: dr Wo
+ źniak Jacek\nNr zajęć: 8/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f9c99bc50f25a91219a37a58@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270125T175000
+DTEND;TZID=Europe/Warsaw:20270125T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231 K\;232 K\;233 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 15/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:1bc3bf80d31816b394100cc6@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270126T095000
+DTEND;TZID=Europe/Warsaw:20270126T112500
+SUMMARY:Fip (ć)
+LOCATION:1a/ 28
+DESCRIPTION:Finanse przedsiębiorstwa\nRodzaj: ćwiczenia\nProwadzący: dr
+  hab. Kostecki Janusz\nNr zajęć: 10/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7a2aa3e60f82b7cb450dceaa@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270126T114000
+DTEND;TZID=Europe/Warsaw:20270126T131500
+SUMMARY:Fip (ć)
+LOCATION:1a/ 28
+DESCRIPTION:Finanse przedsiębiorstwa\nRodzaj: ćwiczenia\nProwadzący: dr
+  hab. Kostecki Janusz\nNr zajęć: 11/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f66762f06d26a4c92e67dac4@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270126T133000
+DTEND;TZID=Europe/Warsaw:20270126T150500
+SUMMARY:ZPr (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Zarządzanie projektami\nRodzaj: ćwiczenia\nProwadzący: mgr 
+ Łukasik Sebastian\nNr zajęć: 5/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:09050b4cd793871d60800089@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270126T160000
+DTEND;TZID=Europe/Warsaw:20270126T173500
+SUMMARY:ZPr (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Zarządzanie projektami\nRodzaj: ćwiczenia\nProwadzący: mgr 
+ Łukasik Sebastian\nNr zajęć: 6/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:9e1b0143054def3cd601610e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270126T175000
+DTEND;TZID=Europe/Warsaw:20270126T192500
+SUMMARY:ZPr (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Zarządzanie projektami\nRodzaj: ćwiczenia\nProwadzący: mgr 
+ Łukasik Sebastian\nNr zajęć: 7/7\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:05cba379da13269cfff4c94e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270126T194000
+DTEND;TZID=Europe/Warsaw:20270126T211500
+SUMMARY:Z.S-up (ć)
+LOCATION:3.16/ 135
+DESCRIPTION:Zarządzanie start-upami\nRodzaj: ćwiczenia\nProwadzący: mgr
+  Łukasik Sebastian\nNr zajęć: 9/9\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:0e8a9952d30b1e9f83e481bc@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270127T080000
+DTEND;TZID=Europe/Warsaw:20270127T093500
+SUMMARY:Z.S-up (w)
+LOCATION:110/ 14
+DESCRIPTION:Zarządzanie start-upami\nRodzaj: wykład\nProwadzący: dr Wo
+ źniak Jacek\nNr zajęć: 9/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a79fb30bc1888cf7bed2512e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270127T114000
+DTEND;TZID=Europe/Warsaw:20270127T131500
+SUMMARY:Ewz (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Etyka w zarządzaniu\nRodzaj: wykład\nProwadzący: dr Kaspers
+ ki Marian\nNr zajęć: 9/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4476f8192f59d582fa4c9e81@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270127T133000
+DTEND;TZID=Europe/Warsaw:20270127T150500
+SUMMARY:Rf (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Rachunkowość finansowa\nRodzaj: wykład\nProwadzący: dr Szc
+ zerbak Monika\nNr zajęć: 11/11\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b7a610eabaeaf85d8918d8e0@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270127T160000
+DTEND;TZID=Europe/Warsaw:20270127T173500
+SUMMARY:Rf (ć)
+LOCATION:0.22/ 16
+DESCRIPTION:Rachunkowość finansowa\nRodzaj: ćwiczenia\nProwadzący: dr 
+ Szczerbak Monika\nNr zajęć: 11/11\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:3ff8322654138485c0f60b47@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270128T080000
+DTEND;TZID=Europe/Warsaw:20270128T093500
+SUMMARY:TZ (w)
+LOCATION:7a-b Bibl
+DESCRIPTION:Techniki zarządzania\nRodzaj: wykład\nProwadzący: dr inż. 
+ Wojciechowski Zdzisław\nNr zajęć: 15/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8879da4da9b4fb386f82c4e8@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270128T095000
+DTEND;TZID=Europe/Warsaw:20270128T112500
+SUMMARY:Ja (ć)
+LOCATION:240 K\;239 K\;238 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 15/15\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:5db224554fe6ee4ee4325cf8@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270128T114000
+DTEND;TZID=Europe/Warsaw:20270128T131500
+SUMMARY:Nmb (ć)
+LOCATION:2/ 22
+DESCRIPTION:Nowe modele biznesowe\nRodzaj: ćwiczenia\nProwadzący: dr hab
+ . Sołek-Borowska Celina\nNr zajęć: 6/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4247f8f23520614537fca475@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270128T133000
+DTEND;TZID=Europe/Warsaw:20270128T150500
+SUMMARY:Nmb (ć)
+LOCATION:2/ 22
+DESCRIPTION:Nowe modele biznesowe\nRodzaj: ćwiczenia\nProwadzący: dr hab
+ . Sołek-Borowska Celina\nNr zajęć: 7/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a114d65742883f6632e7396a@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270129T095000
+DTEND;TZID=Europe/Warsaw:20270129T112500
+SUMMARY:Ewz (ć)
+LOCATION:0.6/ 16
+DESCRIPTION:Etyka w zarządzaniu\nRodzaj: ćwiczenia\nProwadzący: dr Kasp
+ erski Marian\nNr zajęć: 7/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:072f03336fb1d0beea8ad9da@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270201T095000
+DTEND;TZID=Europe/Warsaw:20270201T112500
+SUMMARY:Bm (E)
+LOCATION:3.8 75
+DESCRIPTION:Badania marketingowe\nRodzaj: egzamin\nProwadzący: dr Kolasi
+ ńska-Morawska Katarzyna\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7535cb3b7fe118367153ef87@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270202T095000
+DTEND;TZID=Europe/Warsaw:20270202T112500
+SUMMARY:ZPr (E)
+LOCATION:166 S
+DESCRIPTION:Zarządzanie projektami\nRodzaj: egzamin\nProwadzący: prof. d
+ r hab. inż. Zaskórski Piotr\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7bcb8bc8eaddcb3050182247@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270203T095000
+DTEND;TZID=Europe/Warsaw:20270203T112500
+SUMMARY:TZ (E)
+LOCATION:110/ 14
+DESCRIPTION:Techniki zarządzania\nRodzaj: egzamin\nProwadzący: dr inż. 
+ Wojciechowski Zdzisław\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5d8c6019d9225078486cf785@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270215T095000
+DTEND;TZID=Europe/Warsaw:20270215T112500
+SUMMARY:Bm (Ep)
+LOCATION:3.8 75
+DESCRIPTION:Badania marketingowe\nRodzaj: egzamin poprawkowy\nProwadzący:
+  dr Kolasińska-Morawska Katarzyna\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b879a9358768b1de44fa3f66@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270216T095000
+DTEND;TZID=Europe/Warsaw:20270216T112500
+SUMMARY:ZPr (Ep)
+LOCATION:166 S
+DESCRIPTION:Zarządzanie projektami\nRodzaj: egzamin poprawkowy\nProwadzą
+ cy: prof. dr hab. inż. Zaskórski Piotr\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e78aebc6a52f24edd831a334@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270217T095000
+DTEND;TZID=Europe/Warsaw:20270217T112500
+SUMMARY:TZ (Ep)
+LOCATION:110/ 14
+DESCRIPTION:Techniki zarządzania\nRodzaj: egzamin poprawkowy\nProwadzący
+ : dr inż. Wojciechowski Zdzisław\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+END:VCALENDAR

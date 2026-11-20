@@ -1,0 +1,647 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WCY27IE1S6
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:32049d61f22a0f029322f222@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270108T114000
+DTEND;TZID=Europe/Warsaw:20270108T131500
+SUMMARY:Zsk (w)
+LOCATION:218 65
+DESCRIPTION:Zarządzanie siecią komputerową\nRodzaj: wykład\nProwadząc
+ y: Malinowski Tomasz\nNr zajęć: 1/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:53fde5dcad132f86a1ae36e2@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270111T080000
+DTEND;TZID=Europe/Warsaw:20270111T093500
+SUMMARY:Sws (Inne)
+LOCATION:klub WAT
+DESCRIPTION:Spotkanie organizacyjne\nRodzaj: inne\nNr zajęć: 1/1\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4c400fd45cf5c7c3668ba7ce@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270111T095000
+DTEND;TZID=Europe/Warsaw:20270111T112500
+SUMMARY:NLan (w)
+LOCATION:204 65
+DESCRIPTION:Niezawodność i bezpieczeństwo sieci LAN\nRodzaj: wykład\nP
+ rowadzący: Malinowski Tomasz\nNr zajęć: 1/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6df3b92364b39a1f2b8b5379@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270111T133000
+DTEND;TZID=Europe/Warsaw:20270111T150500
+SUMMARY:Zsk (w)
+LOCATION:219 65
+DESCRIPTION:Zarządzanie siecią komputerową\nRodzaj: wykład\nProwadząc
+ y: Malinowski Tomasz\nNr zajęć: 2/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0c736d7ec8efceca81d6c6ec@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270111T160000
+DTEND;TZID=Europe/Warsaw:20270111T173500
+SUMMARY:Zsk (w)
+LOCATION:219 65
+DESCRIPTION:Zarządzanie siecią komputerową\nRodzaj: wykład\nProwadząc
+ y: Malinowski Tomasz\nNr zajęć: 3/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:20cb4d4fbc04f4256727741a@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270112T175000
+DTEND;TZID=Europe/Warsaw:20270112T192500
+SUMMARY:WST (L)
+LOCATION:120 65
+DESCRIPTION:Wirtualizacja systemów teleinformatycznych\nRodzaj: laborator
+ ium\nProwadzący: Skibniewski Łukasz\nNr zajęć: 1/10\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:0ce0f331690c0d6e0519fa09@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270112T194000
+DTEND;TZID=Europe/Warsaw:20270112T211500
+SUMMARY:WST (L)
+LOCATION:120 65
+DESCRIPTION:Wirtualizacja systemów teleinformatycznych\nRodzaj: laborator
+ ium\nProwadzący: Skibniewski Łukasz\nNr zajęć: 2/10\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:74f0156b9f8226767b862f93@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270113T114000
+DTEND;TZID=Europe/Warsaw:20270113T131500
+SUMMARY:StS (w)
+LOCATION:101 65
+DESCRIPTION:Sieci teleinformatyczne SZ RP i NATO\nRodzaj: wykład\nProwadz
+ ący: Marczyk Maciej\nNr zajęć: 1/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:58fd6ee944f8624035ec818c@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270113T133000
+DTEND;TZID=Europe/Warsaw:20270113T150500
+SUMMARY:StS (w)
+LOCATION:101 65
+DESCRIPTION:Sieci teleinformatyczne SZ RP i NATO\nRodzaj: wykład\nProwadz
+ ący: Marczyk Maciej\nNr zajęć: 2/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:50a7978fafd3cc236457fa1d@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270113T175000
+DTEND;TZID=Europe/Warsaw:20270113T192500
+SUMMARY:WST (w)
+LOCATION:201 65
+DESCRIPTION:Wirtualizacja systemów teleinformatycznych\nRodzaj: wykład\n
+ Prowadzący: Skibniewski Łukasz\nNr zajęć: 1/5\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:766d381f5a33b98d53926add@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270115T114000
+DTEND;TZID=Europe/Warsaw:20270115T131500
+SUMMARY:WST (w)
+LOCATION:218 65
+DESCRIPTION:Wirtualizacja systemów teleinformatycznych\nRodzaj: wykład\n
+ Prowadzący: Skibniewski Łukasz\nNr zajęć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:47bb962e4714774f6e0b6ce8@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270115T133000
+DTEND;TZID=Europe/Warsaw:20270115T150500
+SUMMARY:WST (w)
+LOCATION:218 65
+DESCRIPTION:Wirtualizacja systemów teleinformatycznych\nRodzaj: wykład\n
+ Prowadzący: Skibniewski Łukasz\nNr zajęć: 3/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:79b8689531106454579a096e@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270115T160000
+DTEND;TZID=Europe/Warsaw:20270115T173500
+SUMMARY:Zsk (L)
+LOCATION:120 65
+DESCRIPTION:Zarządzanie siecią komputerową\nRodzaj: laboratorium\nProwa
+ dzący: Malinowski Tomasz\nNr zajęć: 1/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f28226a77bafd412ba4964a5@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270115T175000
+DTEND;TZID=Europe/Warsaw:20270115T192500
+SUMMARY:Zsk (L)
+LOCATION:120 65
+DESCRIPTION:Zarządzanie siecią komputerową\nRodzaj: laboratorium\nProwa
+ dzący: Malinowski Tomasz\nNr zajęć: 2/8\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:96e7a16ce713378dfe1669d4@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270118T080000
+DTEND;TZID=Europe/Warsaw:20270118T093500
+SUMMARY:NLan (w)
+LOCATION:201 65
+DESCRIPTION:Niezawodność i bezpieczeństwo sieci LAN\nRodzaj: wykład\nP
+ rowadzący: Malinowski Tomasz\nNr zajęć: 2/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8a1d91ddcea66fd875761349@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270118T095000
+DTEND;TZID=Europe/Warsaw:20270118T112500
+SUMMARY:NLan (w)
+LOCATION:218 65
+DESCRIPTION:Niezawodność i bezpieczeństwo sieci LAN\nRodzaj: wykład\nP
+ rowadzący: Malinowski Tomasz\nNr zajęć: 3/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f4471cf5f3a0f9fb52712a1c@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270118T114000
+DTEND;TZID=Europe/Warsaw:20270118T131500
+SUMMARY:WST (w)
+LOCATION:120 65
+DESCRIPTION:Wirtualizacja systemów teleinformatycznych\nRodzaj: wykład\n
+ Prowadzący: Skibniewski Łukasz\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:abd410eae3b8d85261542af6@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270118T133000
+DTEND;TZID=Europe/Warsaw:20270118T150500
+SUMMARY:StS (w)
+LOCATION:316 S
+DESCRIPTION:Sieci teleinformatyczne SZ RP i NATO\nRodzaj: wykład\nProwadz
+ ący: Marczyk Maciej\nNr zajęć: 3/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0295169ff267114ac6e3c886@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270118T160000
+DTEND;TZID=Europe/Warsaw:20270118T173500
+SUMMARY:StS (w)
+LOCATION:316 S
+DESCRIPTION:Sieci teleinformatyczne SZ RP i NATO\nRodzaj: wykład\nProwadz
+ ący: Marczyk Maciej\nNr zajęć: 4/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:7b66c56f59be1cfefef8f2df@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270119T175000
+DTEND;TZID=Europe/Warsaw:20270119T192500
+SUMMARY:WST (L)
+LOCATION:120 65
+DESCRIPTION:Wirtualizacja systemów teleinformatycznych\nRodzaj: laborator
+ ium\nProwadzący: Skibniewski Łukasz\nNr zajęć: 3/10\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:96a57aea2c0020dc806034c4@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270119T194000
+DTEND;TZID=Europe/Warsaw:20270119T211500
+SUMMARY:WST (L)
+LOCATION:120 65
+DESCRIPTION:Wirtualizacja systemów teleinformatycznych\nRodzaj: laborator
+ ium\nProwadzący: Skibniewski Łukasz\nNr zajęć: 4/10\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:92adbc0d8bda457322dc3000@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270120T080000
+DTEND;TZID=Europe/Warsaw:20270120T093500
+SUMMARY:Zsk (w)
+LOCATION:218 65
+DESCRIPTION:Zarządzanie siecią komputerową\nRodzaj: wykład\nProwadząc
+ y: Malinowski Tomasz\nNr zajęć: 4/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b8611dd3fc4ba8db02e5b44a@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270120T095000
+DTEND;TZID=Europe/Warsaw:20270120T112500
+SUMMARY:Zsk (w)
+LOCATION:218 65
+DESCRIPTION:Zarządzanie siecią komputerową\nRodzaj: wykład\nProwadząc
+ y: Malinowski Tomasz\nNr zajęć: 5/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b820b593908db27c35ee49e4@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270120T114000
+DTEND;TZID=Europe/Warsaw:20270120T131500
+SUMMARY:StS (w)
+LOCATION:101 65
+DESCRIPTION:Sieci teleinformatyczne SZ RP i NATO\nRodzaj: wykład\nProwadz
+ ący: Marczyk Maciej\nNr zajęć: 5/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9774dad00d29145854465e11@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270120T160000
+DTEND;TZID=Europe/Warsaw:20270120T173500
+SUMMARY:NLan (L)
+LOCATION:125 65
+DESCRIPTION:Niezawodność i bezpieczeństwo sieci LAN\nRodzaj: laboratori
+ um\nProwadzący: Malinowski Tomasz\nNr zajęć: 1/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:5e5b64e7dbd549b543272766@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270120T175000
+DTEND;TZID=Europe/Warsaw:20270120T192500
+SUMMARY:NLan (L)
+LOCATION:125 65
+DESCRIPTION:Niezawodność i bezpieczeństwo sieci LAN\nRodzaj: laboratori
+ um\nProwadzący: Malinowski Tomasz\nNr zajęć: 2/10\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:1dac2a9d89b64a2b1b979332@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270121T160000
+DTEND;TZID=Europe/Warsaw:20270121T173500
+SUMMARY:Zsk (L)
+LOCATION:121 65
+DESCRIPTION:Zarządzanie siecią komputerową\nRodzaj: laboratorium\nProwa
+ dzący: Malinowski Tomasz\nNr zajęć: 3/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:84f432a7d97092100f8f86d9@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270121T175000
+DTEND;TZID=Europe/Warsaw:20270121T192500
+SUMMARY:Zsk (L)
+LOCATION:121 65
+DESCRIPTION:Zarządzanie siecią komputerową\nRodzaj: laboratorium\nProwa
+ dzący: Malinowski Tomasz\nNr zajęć: 4/8\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:54d1c215c39564ea639b4679@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270122T080000
+DTEND;TZID=Europe/Warsaw:20270122T093500
+SUMMARY:StS (L)
+LOCATION:236 S
+DESCRIPTION:Sieci teleinformatyczne SZ RP i NATO\nRodzaj: laboratorium\nPr
+ owadzący: Kalman Leszek\nNr zajęć: 1/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:cc3f9a564663e08758da4996@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270122T095000
+DTEND;TZID=Europe/Warsaw:20270122T112500
+SUMMARY:StS (L)
+LOCATION:236 S
+DESCRIPTION:Sieci teleinformatyczne SZ RP i NATO\nRodzaj: laboratorium\nPr
+ owadzący: Kalman Leszek\nNr zajęć: 2/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e65ad83532f6a35bf7c6edbe@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270122T114000
+DTEND;TZID=Europe/Warsaw:20270122T131500
+SUMMARY:StS (L)
+LOCATION:236 S
+DESCRIPTION:Sieci teleinformatyczne SZ RP i NATO\nRodzaj: laboratorium\nPr
+ owadzący: Kalman Leszek\nNr zajęć: 3/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:070dbcde5aeb48ae64243a04@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270125T080000
+DTEND;TZID=Europe/Warsaw:20270125T093500
+SUMMARY:NLan (w)
+LOCATION:201 65
+DESCRIPTION:Niezawodność i bezpieczeństwo sieci LAN\nRodzaj: wykład\nP
+ rowadzący: Malinowski Tomasz\nNr zajęć: 4/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:871fc157cb31b06d8a49e615@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270125T095000
+DTEND;TZID=Europe/Warsaw:20270125T112500
+SUMMARY:NLan (w)
+LOCATION:101 65
+DESCRIPTION:Niezawodność i bezpieczeństwo sieci LAN\nRodzaj: wykład\nP
+ rowadzący: Malinowski Tomasz\nNr zajęć: 5/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0e81517bc6ed9a52cc57af44@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270125T114000
+DTEND;TZID=Europe/Warsaw:20270125T131500
+SUMMARY:Zsk (w)
+LOCATION:219 65
+DESCRIPTION:Zarządzanie siecią komputerową\nRodzaj: wykład\nProwadząc
+ y: Malinowski Tomasz\nNr zajęć: 6/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:125099b23a7e40c3ec6369c0@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270126T175000
+DTEND;TZID=Europe/Warsaw:20270126T192500
+SUMMARY:WST (L)
+LOCATION:120 65
+DESCRIPTION:Wirtualizacja systemów teleinformatycznych\nRodzaj: laborator
+ ium\nProwadzący: Skibniewski Łukasz\nNr zajęć: 5/10\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:ff9ac9f858fd185f6fc146c5@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270126T194000
+DTEND;TZID=Europe/Warsaw:20270126T211500
+SUMMARY:WST (L)
+LOCATION:120 65
+DESCRIPTION:Wirtualizacja systemów teleinformatycznych\nRodzaj: laborator
+ ium\nProwadzący: Skibniewski Łukasz\nNr zajęć: 6/10\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:4df82438b4f0869d190fbc89@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270127T114000
+DTEND;TZID=Europe/Warsaw:20270127T131500
+SUMMARY:Zsk (w)
+LOCATION:205 65
+DESCRIPTION:Zarządzanie siecią komputerową\nRodzaj: wykład\nProwadząc
+ y: Malinowski Tomasz\nNr zajęć: 7/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:37aa440402270a536c3a4cf1@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270127T133000
+DTEND;TZID=Europe/Warsaw:20270127T150500
+SUMMARY:WST (w)
+LOCATION:219 65
+DESCRIPTION:Wirtualizacja systemów teleinformatycznych\nRodzaj: wykład\n
+ Prowadzący: Skibniewski Łukasz\nNr zajęć: 5/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4be8bb12e1e1d9702d7a38ca@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270127T160000
+DTEND;TZID=Europe/Warsaw:20270127T173500
+SUMMARY:NLan (L)
+LOCATION:125 65
+DESCRIPTION:Niezawodność i bezpieczeństwo sieci LAN\nRodzaj: laboratori
+ um\nProwadzący: Malinowski Tomasz\nNr zajęć: 3/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:e89f6d4f5cba6ca8f40188ea@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270127T175000
+DTEND;TZID=Europe/Warsaw:20270127T192500
+SUMMARY:NLan (L)
+LOCATION:125 65
+DESCRIPTION:Niezawodność i bezpieczeństwo sieci LAN\nRodzaj: laboratori
+ um\nProwadzący: Malinowski Tomasz\nNr zajęć: 4/10\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:ed38928803ed8d8c4fdfc74f@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270128T160000
+DTEND;TZID=Europe/Warsaw:20270128T173500
+SUMMARY:WST (L)
+LOCATION:125 65
+DESCRIPTION:Wirtualizacja systemów teleinformatycznych\nRodzaj: laborator
+ ium\nProwadzący: Skibniewski Łukasz\nNr zajęć: 7/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:7774a219b6dd9f3112acb672@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270128T175000
+DTEND;TZID=Europe/Warsaw:20270128T192500
+SUMMARY:WST (L)
+LOCATION:125 65
+DESCRIPTION:Wirtualizacja systemów teleinformatycznych\nRodzaj: laborator
+ ium\nProwadzący: Skibniewski Łukasz\nNr zajęć: 8/10\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:a46d91ac14205720e95ccb73@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270129T080000
+DTEND;TZID=Europe/Warsaw:20270129T093500
+SUMMARY:StS (L)
+LOCATION:236 S
+DESCRIPTION:Sieci teleinformatyczne SZ RP i NATO\nRodzaj: laboratorium\nPr
+ owadzący: Kalman Leszek\nNr zajęć: 4/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:805b9de3638e6b64c8c04b47@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270129T095000
+DTEND;TZID=Europe/Warsaw:20270129T112500
+SUMMARY:StS (L)
+LOCATION:236 S
+DESCRIPTION:Sieci teleinformatyczne SZ RP i NATO\nRodzaj: laboratorium\nPr
+ owadzący: Kalman Leszek\nNr zajęć: 5/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1e948006515d66232554593a@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270129T114000
+DTEND;TZID=Europe/Warsaw:20270129T131500
+SUMMARY:StS (L)
+LOCATION:236 S
+DESCRIPTION:Sieci teleinformatyczne SZ RP i NATO\nRodzaj: laboratorium\nPr
+ owadzący: Kalman Leszek\nNr zajęć: 6/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1027ab4ec7a256e1048c31d5@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270129T133000
+DTEND;TZID=Europe/Warsaw:20270129T150500
+SUMMARY:Zsk (L)
+LOCATION:120 65
+DESCRIPTION:Zarządzanie siecią komputerową\nRodzaj: laboratorium\nProwa
+ dzący: Malinowski Tomasz\nNr zajęć: 5/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8dffaefbbbd6e4adfa716508@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270129T160000
+DTEND;TZID=Europe/Warsaw:20270129T173500
+SUMMARY:Zsk (L)
+LOCATION:120 65
+DESCRIPTION:Zarządzanie siecią komputerową\nRodzaj: laboratorium\nProwa
+ dzący: Malinowski Tomasz\nNr zajęć: 6/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:1d25582537e7035934d9a01e@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270201T080000
+DTEND;TZID=Europe/Warsaw:20270201T093500
+SUMMARY:StS (L)
+LOCATION:236 S
+DESCRIPTION:Sieci teleinformatyczne SZ RP i NATO\nRodzaj: laboratorium\nPr
+ owadzący: Kalman Leszek\nNr zajęć: 7/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:fccc4c29612778b708eb1e19@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270201T095000
+DTEND;TZID=Europe/Warsaw:20270201T112500
+SUMMARY:StS (L)
+LOCATION:236 S
+DESCRIPTION:Sieci teleinformatyczne SZ RP i NATO\nRodzaj: laboratorium\nPr
+ owadzący: Kalman Leszek\nNr zajęć: 8/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:bab0a71172a9a589de1d6ff0@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270201T114000
+DTEND;TZID=Europe/Warsaw:20270201T131500
+SUMMARY:NLan (L)
+LOCATION:125 65
+DESCRIPTION:Niezawodność i bezpieczeństwo sieci LAN\nRodzaj: laboratori
+ um\nProwadzący: Malinowski Tomasz\nNr zajęć: 5/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a5249644c8de7d83df8ec041@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270201T133000
+DTEND;TZID=Europe/Warsaw:20270201T150500
+SUMMARY:NLan (L)
+LOCATION:125 65
+DESCRIPTION:Niezawodność i bezpieczeństwo sieci LAN\nRodzaj: laboratori
+ um\nProwadzący: Malinowski Tomasz\nNr zajęć: 6/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4973ae08bfb6b9cd2e6cab13@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270202T080000
+DTEND;TZID=Europe/Warsaw:20270202T093500
+SUMMARY:WST (L)
+LOCATION:120 65
+DESCRIPTION:Wirtualizacja systemów teleinformatycznych\nRodzaj: laborator
+ ium\nProwadzący: Skibniewski Łukasz\nNr zajęć: 9/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:072f724b1eb4aa625543a361@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270202T095000
+DTEND;TZID=Europe/Warsaw:20270202T112500
+SUMMARY:WST (L)
+LOCATION:120 65
+DESCRIPTION:Wirtualizacja systemów teleinformatycznych\nRodzaj: laborator
+ ium\nProwadzący: Skibniewski Łukasz\nNr zajęć: 10/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9758e4fd85384e1bd1b7ef97@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270203T114000
+DTEND;TZID=Europe/Warsaw:20270203T131500
+SUMMARY:NLan (L)
+LOCATION:121 65
+DESCRIPTION:Niezawodność i bezpieczeństwo sieci LAN\nRodzaj: laboratori
+ um\nProwadzący: Malinowski Tomasz\nNr zajęć: 7/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2dda0125fb15f41ac37062e9@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270203T133000
+DTEND;TZID=Europe/Warsaw:20270203T150500
+SUMMARY:NLan (L)
+LOCATION:121 65
+DESCRIPTION:Niezawodność i bezpieczeństwo sieci LAN\nRodzaj: laboratori
+ um\nProwadzący: Malinowski Tomasz\nNr zajęć: 8/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:29236115329741dc6c84b4bd@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270203T160000
+DTEND;TZID=Europe/Warsaw:20270203T173500
+SUMMARY:Zsk (L)
+LOCATION:120 65
+DESCRIPTION:Zarządzanie siecią komputerową\nRodzaj: laboratorium\nProwa
+ dzący: Malinowski Tomasz\nNr zajęć: 7/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:dbc44ce35d83ecd31bab4b50@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270203T175000
+DTEND;TZID=Europe/Warsaw:20270203T192500
+SUMMARY:Zsk (L)
+LOCATION:120 65
+DESCRIPTION:Zarządzanie siecią komputerową\nRodzaj: laboratorium\nProwa
+ dzący: Malinowski Tomasz\nNr zajęć: 8/8\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:6073b890bacdd7c9c503c827@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270204T080000
+DTEND;TZID=Europe/Warsaw:20270204T093500
+SUMMARY:StS (L)
+LOCATION:236 S
+DESCRIPTION:Sieci teleinformatyczne SZ RP i NATO\nRodzaj: laboratorium\nPr
+ owadzący: Kalman Leszek\nNr zajęć: 9/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:cba4e95e52a8448b9ab22907@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270204T095000
+DTEND;TZID=Europe/Warsaw:20270204T112500
+SUMMARY:StS (L)
+LOCATION:236 S
+DESCRIPTION:Sieci teleinformatyczne SZ RP i NATO\nRodzaj: laboratorium\nPr
+ owadzący: Kalman Leszek\nNr zajęć: 10/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:662025aee3255632e14572ca@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270205T095000
+DTEND;TZID=Europe/Warsaw:20270205T112500
+SUMMARY:NLan (L)
+LOCATION:125 65
+DESCRIPTION:Niezawodność i bezpieczeństwo sieci LAN\nRodzaj: laboratori
+ um\nProwadzący: Malinowski Tomasz\nNr zajęć: 9/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:cf6547d577ed2fe03fabe208@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270205T114000
+DTEND;TZID=Europe/Warsaw:20270205T131500
+SUMMARY:NLan (L)
+LOCATION:125 65
+DESCRIPTION:Niezawodność i bezpieczeństwo sieci LAN\nRodzaj: laboratori
+ um\nProwadzący: Malinowski Tomasz\nNr zajęć: 10/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d6e48d18a7be9befa4edd147@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270205T133000
+DTEND;TZID=Europe/Warsaw:20270205T150500
+SUMMARY:Espr (E)
+LOCATION:101 65
+DESCRIPTION:Egzamin sprawdzający\nRodzaj: egzamin\nProwadzący: Grad Lesz
+ ek\nNr zajęć: 1/1\nBlok: 4
+END:VEVENT
+END:VCALENDAR

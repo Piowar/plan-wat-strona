@@ -1,0 +1,3000 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WLO22FZ1S0
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:89e8936c2ddddfcde2d86f77@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261001T114000
+DTEND;TZID=Europe/Warsaw:20261001T131500
+SUMMARY:Mv. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Military vehicles\nRodzaj: wykład\nProwadzący: dr inż. Papl
+ iński Krzysztof\nNr zajęć: 1/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:62864ba7b9e6c4ccb2eecf95@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261001T133000
+DTEND;TZID=Europe/Warsaw:20261001T150500
+SUMMARY:WF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: KKępnia
+ k\nNr zajęć: 1/40\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ffe8d928eba5daaf0beb8056@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261001T160000
+DTEND;TZID=Europe/Warsaw:20261001T173500
+SUMMARY:GSŻw (Ep)
+LOCATION:5.17/ 135
+DESCRIPTION:Gospodarka służby żywnościowej w czasie wojny oraz podczas
+  realizacji zadań w systemie koalicyjnym\nRodzaj: egzamin poprawkowy\nPr
+ owadzący: dr Spychała Dariusz\nNr zajęć: 1/1\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:8451ca8e81634f04b1ffb44a@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261002T080000
+DTEND;TZID=Europe/Warsaw:20261002T093500
+SUMMARY:BiESW (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Budowa i eksploatacja sprzętu wojskowego\nRodzaj: wykład\nPr
+ owadzący: ppłk dr inż. Leśnik Grzegorz\nNr zajęć: 1/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2d8d1a6d011356f609761981@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261002T095000
+DTEND;TZID=Europe/Warsaw:20261002T112500
+SUMMARY:BiESW (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Budowa i eksploatacja sprzętu wojskowego\nRodzaj: wykład\nPr
+ owadzący: SmŁ\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e83c6592081e2634aabdf53c@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261003T095000
+DTEND;TZID=Europe/Warsaw:20261003T112500
+SUMMARY:XWF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 1/15\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:070cc48d6aacd5d7944ab952@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261005T095000
+DTEND;TZID=Europe/Warsaw:20261005T112500
+SUMMARY:ŻCwE (w)
+LOCATION:1.16/ 16
+DESCRIPTION:Żywienie człowieka w ekstremalnych warunkach środowiska\nRo
+ dzaj: wykład\nProwadzący: prof. dr hab. Bertrandt Jerzy\nNr zajęć: 1/
+ 5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5157bc55b0024dce2fa1884f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261005T114000
+DTEND;TZID=Europe/Warsaw:20261005T131500
+SUMMARY:ŻCwE (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Żywienie człowieka w ekstremalnych warunkach środowiska\nRo
+ dzaj: ćwiczenia\nProwadzący: prof. dr hab. Bertrandt Jerzy\nNr zajęć:
+  1/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:90a4ec4c885fa6dd1be70745@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261005T133000
+DTEND;TZID=Europe/Warsaw:20261005T150500
+SUMMARY:CoO (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Controlling Operacyjny\nRodzaj: wykład\nProwadzący: dr n.eko
+ n.\, inż. Kochański Tomasz\nNr zajęć: 1/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f3e87467efa798ce05c11ebd@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261005T160000
+DTEND;TZID=Europe/Warsaw:20261005T173500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 1/30\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:27ab8f245ae5e6e6081ff22a@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261006T080000
+DTEND;TZID=Europe/Warsaw:20261006T093500
+SUMMARY:SzS (ć)
+LOCATION:2PL/12KP\; 2PL/8KP\; ST.nr 1(KSP)\; T5.1Ć
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 1/8\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:45499f32f7bcdad906971a41@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261006T095000
+DTEND;TZID=Europe/Warsaw:20261006T112500
+SUMMARY:SzS (ć)
+LOCATION:2PL/12KP\; 3PL/12KP\; 2PL/8KP\; 3PL/8KP\; ST.nr 1(KSP)\; T5.1Ć
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 2/8\nBl
+ ok: 2\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:5850a8163d12784f64e76a27@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261006T133000
+DTEND;TZID=Europe/Warsaw:20261006T150500
+SUMMARY:WF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: KKępnia
+ k\nNr zajęć: 2/40\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:89d6ea9534768bb5a52ba5db@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261007T080000
+DTEND;TZID=Europe/Warsaw:20261007T093500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 2/30\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:cda1245f2f46a0b3387e047a@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261007T095000
+DTEND;TZID=Europe/Warsaw:20261007T112500
+SUMMARY:Pż (w)
+LOCATION:1.16/ 16
+DESCRIPTION:Przechowalnictwo żywności\nRodzaj: wykład\nProwadzący: dr 
+ hab.\, prof. WAT Kler Paweł\nNr zajęć: 1/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:78858f509314d162ec10ae71@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261007T114000
+DTEND;TZID=Europe/Warsaw:20261007T131500
+SUMMARY:WF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: KKępnia
+ k\nNr zajęć: 3/40\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8114ca7dea22ef8ac3e53e49@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261008T114000
+DTEND;TZID=Europe/Warsaw:20261008T131500
+SUMMARY:Spulo (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Specjalistyczne usługi logistyczne\nRodzaj: wykład\nProwadz
+ ący: dr Sobczak Iwona\nNr zajęć: 1/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d77b9a1c7906d04200a21b03@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261008T133000
+DTEND;TZID=Europe/Warsaw:20261008T150500
+SUMMARY:WF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: KKępnia
+ k\nNr zajęć: 4/40\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f6b8d5d30a5a76036e8145a1@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261009T080000
+DTEND;TZID=Europe/Warsaw:20261009T093500
+SUMMARY:BiESW (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Budowa i eksploatacja sprzętu wojskowego\nRodzaj: wykład\nPr
+ owadzący: ppłk dr inż. Leśnik Grzegorz\nNr zajęć: 3/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b661f4f1a2d8ec7e858876b1@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261009T095000
+DTEND;TZID=Europe/Warsaw:20261009T112500
+SUMMARY:BiESW (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Budowa i eksploatacja sprzętu wojskowego\nRodzaj: wykład\nPr
+ owadzący: SmŁ\nNr zajęć: 4/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:09d4348048ef9c3432897b7e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261010T095000
+DTEND;TZID=Europe/Warsaw:20261010T112500
+SUMMARY:XWF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 2/15\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e7b623b400bf662892a3fe6e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261012T080000
+DTEND;TZID=Europe/Warsaw:20261012T093500
+SUMMARY:Spulo (ć)
+LOCATION:0.21/ 16
+DESCRIPTION:Specjalistyczne usługi logistyczne\nRodzaj: ćwiczenia\nProwa
+ dzący: dr Sobczak Iwona\nNr zajęć: 1/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4059aeee443436c8f9907a7e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261012T095000
+DTEND;TZID=Europe/Warsaw:20261012T112500
+SUMMARY:CoO (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Controlling Operacyjny\nRodzaj: wykład\nProwadzący: dr n.eko
+ n.\, inż. Kochański Tomasz\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7ba9b3b87d8524203d22424c@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261012T114000
+DTEND;TZID=Europe/Warsaw:20261012T131500
+SUMMARY:WzzD (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Wybrane zagadnienia z dynamiki środków transportowych\nRodza
+ j: wykład\nProwadzący: dr hab. inż. (prof. ucz.) Luty Witold\nNr zaję
+ ć: 1/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1fdf96b8fabc60ce155eb08d@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261012T133000
+DTEND;TZID=Europe/Warsaw:20261012T150500
+SUMMARY:Mv. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Military vehicles\nRodzaj: wykład\nProwadzący: dr inż. Papl
+ iński Krzysztof\nNr zajęć: 2/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7c32287911a8acbf0d5f2ea0@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261012T160000
+DTEND;TZID=Europe/Warsaw:20261012T173500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 3/30\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:b466af51c76cd88c29f5e364@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261013T133000
+DTEND;TZID=Europe/Warsaw:20261013T150500
+SUMMARY:WF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: KKępnia
+ k\nNr zajęć: 5/40\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d4a059c0cb5c252d42857c92@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261014T080000
+DTEND;TZID=Europe/Warsaw:20261014T093500
+SUMMARY:DGB (ć)
+LOCATION:S.WOJ22
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 1/8\
+ nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:fc484252bcd1a2021c8bdf93@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261014T095000
+DTEND;TZID=Europe/Warsaw:20261014T112500
+SUMMARY:DGB (ć)
+LOCATION:S.WOJ22
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 2/8\
+ nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:82e06dba9d593b6d94011f0f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261014T114000
+DTEND;TZID=Europe/Warsaw:20261014T131500
+SUMMARY:DGB (ć)
+LOCATION:S.WOJ22
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 3/8\
+ nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8a2565376f045bdbfc73fbf8@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261014T133000
+DTEND;TZID=Europe/Warsaw:20261014T150500
+SUMMARY:DGB (ć)
+LOCATION:S.WOJ22
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 4/8\
+ nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:bcc254bd7c5b149fdf0406c2@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261014T160000
+DTEND;TZID=Europe/Warsaw:20261014T173500
+SUMMARY:GSŻp (w)
+LOCATION:1.16/ 16
+DESCRIPTION:Gospodarka służby żywnościowej w czasie pokoju\nRodzaj: wy
+ kład\nProwadzący: dr Spychała Dariusz\nNr zajęć: 1/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:90e0785fb576700c24281b87@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261014T175000
+DTEND;TZID=Europe/Warsaw:20261014T192500
+SUMMARY:GSŻp (w)
+LOCATION:1.16/ 16
+DESCRIPTION:Gospodarka służby żywnościowej w czasie pokoju\nRodzaj: wy
+ kład\nProwadzący: dr Spychała Dariusz\nNr zajęć: 2/5\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:5e509382fae605e414005030@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261015T080000
+DTEND;TZID=Europe/Warsaw:20261015T093500
+SUMMARY:Pż (w)
+LOCATION:1.16/ 16
+DESCRIPTION:Przechowalnictwo żywności\nRodzaj: wykład\nProwadzący: dr 
+ hab.\, prof. WAT Kler Paweł\nNr zajęć: 2/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:df80d90997691770b84a067b@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261015T095000
+DTEND;TZID=Europe/Warsaw:20261015T112500
+SUMMARY:Pż (w)
+LOCATION:1.16/ 16
+DESCRIPTION:Przechowalnictwo żywności\nRodzaj: wykład\nProwadzący: dr 
+ hab.\, prof. WAT Kler Paweł\nNr zajęć: 3/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:031eeeb29185ad7e822c0b93@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261015T114000
+DTEND;TZID=Europe/Warsaw:20261015T131500
+SUMMARY:Spulo (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Specjalistyczne usługi logistyczne\nRodzaj: wykład\nProwadz
+ ący: dr Sobczak Iwona\nNr zajęć: 2/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:47d2404c63caa52200c7ba6e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261016T080000
+DTEND;TZID=Europe/Warsaw:20261016T093500
+SUMMARY:Pż (w)
+LOCATION:1.16/ 16
+DESCRIPTION:Przechowalnictwo żywności\nRodzaj: wykład\nProwadzący: dr 
+ hab.\, prof. WAT Kler Paweł\nNr zajęć: 4/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:89bbd8e1bee55b40385ecb1b@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261016T095000
+DTEND;TZID=Europe/Warsaw:20261016T112500
+SUMMARY:Pż (w)
+LOCATION:1.16/ 16
+DESCRIPTION:Przechowalnictwo żywności\nRodzaj: wykład\nProwadzący: dr 
+ hab.\, prof. WAT Kler Paweł\nNr zajęć: 5/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:58cda093009bf77a945ec0df@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261016T114000
+DTEND;TZID=Europe/Warsaw:20261016T131500
+SUMMARY:Pż (w)
+LOCATION:1.16/ 16
+DESCRIPTION:Przechowalnictwo żywności\nRodzaj: wykład\nProwadzący: dr 
+ hab.\, prof. WAT Kler Paweł\nNr zajęć: 6/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a67a73649a3d25ad13398d91@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261016T133000
+DTEND;TZID=Europe/Warsaw:20261016T150500
+SUMMARY:GSŻp (w)
+LOCATION:1.16/ 16
+DESCRIPTION:Gospodarka służby żywnościowej w czasie pokoju\nRodzaj: wy
+ kład\nProwadzący: dr Spychała Dariusz\nNr zajęć: 3/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:29cf1fe4330c980204e22f9d@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261016T160000
+DTEND;TZID=Europe/Warsaw:20261016T173500
+SUMMARY:GSŻp (w)
+LOCATION:1.16/ 16
+DESCRIPTION:Gospodarka służby żywnościowej w czasie pokoju\nRodzaj: wy
+ kład\nProwadzący: dr Spychała Dariusz\nNr zajęć: 4/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:3fa672dbde669b87d59abef4@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261017T095000
+DTEND;TZID=Europe/Warsaw:20261017T112500
+SUMMARY:XWF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 3/15\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:427208431e060567345188ff@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261019T095000
+DTEND;TZID=Europe/Warsaw:20261019T112500
+SUMMARY:CoO (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Controlling Operacyjny\nRodzaj: wykład\nProwadzący: dr n.eko
+ n.\, inż. Kochański Tomasz\nNr zajęć: 3/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3079545c228739d028363442@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261019T114000
+DTEND;TZID=Europe/Warsaw:20261019T131500
+SUMMARY:WzzD (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Wybrane zagadnienia z dynamiki środków transportowych\nRodza
+ j: wykład\nProwadzący: dr hab. inż. (prof. ucz.) Luty Witold\nNr zaję
+ ć: 2/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:61254870c11e66e29ff68b0c@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261019T133000
+DTEND;TZID=Europe/Warsaw:20261019T150500
+SUMMARY:Mv. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Military vehicles\nRodzaj: wykład\nProwadzący: dr inż. Papl
+ iński Krzysztof\nNr zajęć: 3/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9a22212b75a079e3f5bd9af8@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261019T160000
+DTEND;TZID=Europe/Warsaw:20261019T173500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 4/30\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:fbef561fd650ac61f7d99cde@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261019T175000
+DTEND;TZID=Europe/Warsaw:20261019T192500
+SUMMARY:Pż (w)
+LOCATION:1.16/ 16
+DESCRIPTION:Przechowalnictwo żywności\nRodzaj: wykład\nProwadzący: dr 
+ hab.\, prof. WAT Kler Paweł\nNr zajęć: 7/10\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:25c5ecdf1c62913d5bda3291@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261020T080000
+DTEND;TZID=Europe/Warsaw:20261020T093500
+SUMMARY:SzS (ć)
+LOCATION:2PL/8KP\; ST.nr 1(PWC2)\; T5.2Ć
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 3/8\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8a09de60aa9ce78781d2c739@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261020T095000
+DTEND;TZID=Europe/Warsaw:20261020T112500
+SUMMARY:SzS (ć)
+LOCATION:2PL/8KP\; 3PL/8KP\; ST.nr 1(PWC3)\; T5.2Ć
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 4/8\nBl
+ ok: 2\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:25272cd2d486cb4362a2f767@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261020T114000
+DTEND;TZID=Europe/Warsaw:20261020T131500
+SUMMARY:ZaMe (ć)
+LOCATION:2PL/8KP\; 4PL/8KP\; AW 1
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: kpr.
+  Majewska Natalia\nNr zajęć: 1/18\nBlok: 3\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:f5d5254c015cc9d571fe58e2@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261020T133000
+DTEND;TZID=Europe/Warsaw:20261020T150500
+SUMMARY:ZaMe (ć)
+LOCATION:2PL/8KP\; AW 1
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: kpr.
+  Majewska Natalia\nNr zajęć: 2/18\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6b8fd19bab8aa3fa2e853c39@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261020T160000
+DTEND;TZID=Europe/Warsaw:20261020T173500
+SUMMARY:ZaMe (ć)
+LOCATION:2PL/8KP\; AW 1
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: kpr.
+  Majewska Natalia\nNr zajęć: 3/18\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:a8328bb18ab2c488bd70e2d9@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261021T080000
+DTEND;TZID=Europe/Warsaw:20261021T093500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 5/30\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f0feb3367996e740f4196159@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261021T095000
+DTEND;TZID=Europe/Warsaw:20261021T112500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 6/30\nBlok: 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d7352ba29ad52d6dcdbb867c@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261021T114000
+DTEND;TZID=Europe/Warsaw:20261021T131500
+SUMMARY:WF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: KKępnia
+ k\nNr zajęć: 6/40\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:399b62f0d057081c2a180fd9@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261021T133000
+DTEND;TZID=Europe/Warsaw:20261021T150500
+SUMMARY:GSŻp (w)
+LOCATION:1b/ 28
+DESCRIPTION:Gospodarka służby żywnościowej w czasie pokoju\nRodzaj: wy
+ kład\nProwadzący: dr Spychała Dariusz\nNr zajęć: 5/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8b037e1c39be4cc8a136d98b@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261021T160000
+DTEND;TZID=Europe/Warsaw:20261021T173500
+SUMMARY:Dpl (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Dowodzenie pododdziałem logistycznym\nRodzaj: wykład\nProwad
+ zący: prof. dr hab. Pawlisiak Mieczysław\nNr zajęć: 1/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:0648979d04396c26f60d8c66@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261021T175000
+DTEND;TZID=Europe/Warsaw:20261021T192500
+SUMMARY:Dpl (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Dowodzenie pododdziałem logistycznym\nRodzaj: wykład\nProwad
+ zący: prof. dr hab. Pawlisiak Mieczysław\nNr zajęć: 2/10\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:26e9da24ae5714018f3d9c4a@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261022T080000
+DTEND;TZID=Europe/Warsaw:20261022T093500
+SUMMARY:Spulo (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Specjalistyczne usługi logistyczne\nRodzaj: wykład\nProwadz
+ ący: dr Sobczak Iwona\nNr zajęć: 3/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a79c49ffd10d75fd821516f0@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261022T095000
+DTEND;TZID=Europe/Warsaw:20261022T112500
+SUMMARY:ZBŻ (w)
+LOCATION:2.22/ 135
+DESCRIPTION:Zarządzanie bezpieczeństwem żywności\nRodzaj: wykład\nPro
+ wadzący: dr Spychała Dariusz\nNr zajęć: 1/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:eb6e6100c642c2cc3178b4fe@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261022T114000
+DTEND;TZID=Europe/Warsaw:20261022T131500
+SUMMARY:ZBŻ (w)
+LOCATION:2.22/ 135
+DESCRIPTION:Zarządzanie bezpieczeństwem żywności\nRodzaj: wykład\nPro
+ wadzący: dr Spychała Dariusz\nNr zajęć: 2/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b23dc87b61e22211779b5877@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261022T133000
+DTEND;TZID=Europe/Warsaw:20261022T150500
+SUMMARY:WF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: KKępnia
+ k\nNr zajęć: 7/40\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ebfbbeba27a5349e821c792e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261022T160000
+DTEND;TZID=Europe/Warsaw:20261022T173500
+SUMMARY:BiESW (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Budowa i eksploatacja sprzętu wojskowego\nRodzaj: wykład\nPr
+ owadzący: SmŁ\nNr zajęć: 5/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:6fa54fb45d412c2ad2c631c0@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261023T133000
+DTEND;TZID=Europe/Warsaw:20261023T150500
+SUMMARY:Pż (w)
+LOCATION:4.17b/ 135
+DESCRIPTION:Przechowalnictwo żywności\nRodzaj: wykład\nProwadzący: dr 
+ hab.\, prof. WAT Kler Paweł\nNr zajęć: 8/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:688ca94c740488d4dc486180@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261023T160000
+DTEND;TZID=Europe/Warsaw:20261023T173500
+SUMMARY:Pż (w)
+LOCATION:4.17b/ 135
+DESCRIPTION:Przechowalnictwo żywności\nRodzaj: wykład\nProwadzący: dr 
+ hab.\, prof. WAT Kler Paweł\nNr zajęć: 9/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:476a71118bbe7796b7c08358@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261024T095000
+DTEND;TZID=Europe/Warsaw:20261024T112500
+SUMMARY:XWF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 4/15\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8b692bac3f64528a5dd3ff5d@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261026T080000
+DTEND;TZID=Europe/Warsaw:20261026T093500
+SUMMARY:CoO (ć)
+LOCATION:2.21/ 135
+DESCRIPTION:Controlling Operacyjny\nRodzaj: ćwiczenia\nProwadzący: dr n.
+ ekon.\, inż. Kochański Tomasz\nNr zajęć: 1/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6fe7caaff083f89aa20a4eef@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261026T095000
+DTEND;TZID=Europe/Warsaw:20261026T112500
+SUMMARY:Dpl (ć)
+LOCATION:4.23/ 135
+DESCRIPTION:Dowodzenie pododdziałem logistycznym\nRodzaj: ćwiczenia\nPro
+ wadzący: dr Gułaj Mariusz\nNr zajęć: 1/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:187e8b9c7f6a978782395de2@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261026T114000
+DTEND;TZID=Europe/Warsaw:20261026T131500
+SUMMARY:ŻCwE (w)
+LOCATION:1b/ 28
+DESCRIPTION:Żywienie człowieka w ekstremalnych warunkach środowiska\nRo
+ dzaj: wykład\nProwadzący: prof. dr hab. Bertrandt Jerzy\nNr zajęć: 2/
+ 5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0e4693c3e487cbb1c1b31d71@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261026T133000
+DTEND;TZID=Europe/Warsaw:20261026T150500
+SUMMARY:ŻCwE (ć)
+LOCATION:1b/ 28
+DESCRIPTION:Żywienie człowieka w ekstremalnych warunkach środowiska\nRo
+ dzaj: ćwiczenia\nProwadzący: prof. dr hab. Bertrandt Jerzy\nNr zajęć:
+  2/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a55c9899ced37d9d03ea1c9f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261026T160000
+DTEND;TZID=Europe/Warsaw:20261026T173500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 7/30\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:eeb77e4facfbe3a4a48abb1f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261027T080000
+DTEND;TZID=Europe/Warsaw:20261027T093500
+SUMMARY:Mv. (ć)
+LOCATION:0.6/ 16
+DESCRIPTION:Military vehicles\nRodzaj: ćwiczenia\nProwadzący: dr inż. P
+ apliński Krzysztof\nNr zajęć: 1/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:359efeb8534bfaf7d815e54e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261027T095000
+DTEND;TZID=Europe/Warsaw:20261027T112500
+SUMMARY:Mv. (ć)
+LOCATION:0.6/ 16
+DESCRIPTION:Military vehicles\nRodzaj: ćwiczenia\nProwadzący: dr inż. P
+ apliński Krzysztof\nNr zajęć: 2/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c90fa9bf1f7c55f50e9e43f1@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261027T114000
+DTEND;TZID=Europe/Warsaw:20261027T131500
+SUMMARY:TW (w)
+LOCATION:2PL/12KP\; 2PL/8KP\; 103 K\; T11W
+DESCRIPTION:Topografia wojskowa\nRodzaj: wykład\nProwadzący: mgr inż. O
+ leksiak Marek\nNr zajęć: 1/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:458d4bb5516959f7729146f6@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261027T133000
+DTEND;TZID=Europe/Warsaw:20261027T150500
+SUMMARY:WF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: KKępnia
+ k\nNr zajęć: 8/40\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:46c5f163792ee0893b67359f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261028T080000
+DTEND;TZID=Europe/Warsaw:20261028T093500
+SUMMARY:ZŻWAT (i)
+LOCATION:S.WOJ22
+DESCRIPTION:Zbiórka żołnierzy WAT\nRodzaj: inne\nNr zajęć: 1/3\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:e74a967f89703576fd2eec04@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261028T095000
+DTEND;TZID=Europe/Warsaw:20261028T112500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 8/30\nBlok: 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:11519ca4462fd08ef8911b70@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261028T114000
+DTEND;TZID=Europe/Warsaw:20261028T131500
+SUMMARY:WF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: KKępnia
+ k\nNr zajęć: 9/40\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c29df5e2230eba8727222afd@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261028T133000
+DTEND;TZID=Europe/Warsaw:20261028T150500
+SUMMARY:Dpl (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Dowodzenie pododdziałem logistycznym\nRodzaj: wykład\nProwad
+ zący: prof. dr hab. Pawlisiak Mieczysław\nNr zajęć: 3/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7693151a1a0305aaf78392f2@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261028T160000
+DTEND;TZID=Europe/Warsaw:20261028T173500
+SUMMARY:Dpl (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Dowodzenie pododdziałem logistycznym\nRodzaj: wykład\nProwad
+ zący: prof. dr hab. Pawlisiak Mieczysław\nNr zajęć: 4/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:3c36767af4305717501c4d8f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261028T175000
+DTEND;TZID=Europe/Warsaw:20261028T192500
+SUMMARY:Dpl (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Dowodzenie pododdziałem logistycznym\nRodzaj: wykład\nProwad
+ zący: prof. dr hab. Pawlisiak Mieczysław\nNr zajęć: 5/10\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:b8c6449a1efc29ee99207aed@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261029T080000
+DTEND;TZID=Europe/Warsaw:20261029T093500
+SUMMARY:BiESW (ć)
+LOCATION:29 69
+DESCRIPTION:Budowa i eksploatacja sprzętu wojskowego\nRodzaj: ćwiczenia\
+ nProwadzący: ppłk dr inż. Leśnik Grzegorz\nNr zajęć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9b1bf53e8cde59d7f725e23c@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261029T095000
+DTEND;TZID=Europe/Warsaw:20261029T112500
+SUMMARY:ZBŻ (w)
+LOCATION:2.22/ 135
+DESCRIPTION:Zarządzanie bezpieczeństwem żywności\nRodzaj: wykład\nPro
+ wadzący: dr Spychała Dariusz\nNr zajęć: 3/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:36d231b5e00de000532191d6@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261029T114000
+DTEND;TZID=Europe/Warsaw:20261029T131500
+SUMMARY:ZBŻ (w)
+LOCATION:2.22/ 135
+DESCRIPTION:Zarządzanie bezpieczeństwem żywności\nRodzaj: wykład\nPro
+ wadzący: dr Spychała Dariusz\nNr zajęć: 4/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:285f58b68b69c71a6f7c9645@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261029T133000
+DTEND;TZID=Europe/Warsaw:20261029T150500
+SUMMARY:WF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: KKępnia
+ k\nNr zajęć: 10/40\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9d965b61821fcad88cfc2367@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261029T160000
+DTEND;TZID=Europe/Warsaw:20261029T173500
+SUMMARY:CoO (ć)
+LOCATION:5.17/ 135
+DESCRIPTION:Controlling Operacyjny\nRodzaj: ćwiczenia\nProwadzący: dr n.
+ ekon.\, inż. Kochański Tomasz\nNr zajęć: 2/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:8f1dc928927472d5ea89e4c2@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261030T080000
+DTEND;TZID=Europe/Warsaw:20261030T093500
+SUMMARY:BiESW (ć)
+LOCATION:18 69
+DESCRIPTION:Budowa i eksploatacja sprzętu wojskowego\nRodzaj: ćwiczenia\
+ nProwadzący: SmŁ\nNr zajęć: 2/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:11a0c45ecda55d671beadabf@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261030T095000
+DTEND;TZID=Europe/Warsaw:20261030T112500
+SUMMARY:Mv. (ć)
+LOCATION:1a/ 28
+DESCRIPTION:Military vehicles\nRodzaj: ćwiczenia\nProwadzący: dr inż. P
+ apliński Krzysztof\nNr zajęć: 3/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0318a90710a899b586a884d3@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261030T114000
+DTEND;TZID=Europe/Warsaw:20261030T131500
+SUMMARY:WF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: KKępnia
+ k\nNr zajęć: 11/40\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:28c9a9d3094f01047e47e156@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261030T133000
+DTEND;TZID=Europe/Warsaw:20261030T150500
+SUMMARY:WzzD (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Wybrane zagadnienia z dynamiki środków transportowych\nRodza
+ j: wykład\nProwadzący: dr hab. inż. (prof. ucz.) Luty Witold\nNr zaję
+ ć: 3/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ebabb1b4df3f462e27f98a0f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261031T095000
+DTEND;TZID=Europe/Warsaw:20261031T112500
+SUMMARY:XWF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 5/15\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:145172764b12e4e5d1763e0d@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261102T080000
+DTEND;TZID=Europe/Warsaw:20261102T093500
+SUMMARY:CoO (ć)
+LOCATION:A.1.3/ 135
+DESCRIPTION:Controlling Operacyjny\nRodzaj: ćwiczenia\nProwadzący: dr n.
+ ekon.\, inż. Kochański Tomasz\nNr zajęć: 3/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:414da8c519e36a268ec23961@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261102T095000
+DTEND;TZID=Europe/Warsaw:20261102T112500
+SUMMARY:Mv. (ć)
+LOCATION:255 S
+DESCRIPTION:Military vehicles\nRodzaj: ćwiczenia\nProwadzący: dr inż. P
+ apliński Krzysztof\nNr zajęć: 4/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:88e53e1c53035c2e0219cf6e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261102T133000
+DTEND;TZID=Europe/Warsaw:20261102T150500
+SUMMARY:wzbnim (w)
+LOCATION:19 36
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: wykład\nProwadzący: mjr dr inż. Walkowiak Marzena\nNr za
+ jęć: 1/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d97fcf29a2541583f479a6ee@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261102T160000
+DTEND;TZID=Europe/Warsaw:20261102T173500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 9/30\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:111eae8986b5a8f668d9e7db@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261103T095000
+DTEND;TZID=Europe/Warsaw:20261103T112500
+SUMMARY:SzS (ć)
+LOCATION:1PL/12KP\; 2PL/8KP\; ST.nr 1(PWC2)\; T5.2Ć\; T5.3Ć
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 5/8\nBl
+ ok: 2\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:7c0e3d358f58fd500a5383ee@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261103T114000
+DTEND;TZID=Europe/Warsaw:20261103T131500
+SUMMARY:SzS (ć)
+LOCATION:2PL/8KP\; ST.nr 1(PWC2)\; T5.3Ć
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 6/8\nBl
+ ok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:bd9f182400a40b88a66cea3d@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261103T160000
+DTEND;TZID=Europe/Warsaw:20261103T173500
+SUMMARY:TW (w)
+LOCATION:2PL/12KP\; 2PL/8KP\; 118 57\; T12W
+DESCRIPTION:Topografia wojskowa\nRodzaj: wykład\nProwadzący: mgr inż. O
+ leksiak Marek\nNr zajęć: 2/2\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:74c145fe2c7939193b958f4a@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261104T080000
+DTEND;TZID=Europe/Warsaw:20261104T093500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 10/30\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:d7fe61f251ed6eca473d2f73@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261104T095000
+DTEND;TZID=Europe/Warsaw:20261104T112500
+SUMMARY:Dpl (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Dowodzenie pododdziałem logistycznym\nRodzaj: wykład\nProwad
+ zący: prof. dr hab. Pawlisiak Mieczysław\nNr zajęć: 6/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5922ceaa9494ddcf79b88035@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261104T114000
+DTEND;TZID=Europe/Warsaw:20261104T131500
+SUMMARY:WF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: KKępnia
+ k\nNr zajęć: 12/40\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0628d68c7b30f28a3e6ef773@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261104T133000
+DTEND;TZID=Europe/Warsaw:20261104T150500
+SUMMARY:wzbnim (w)
+LOCATION:19 36
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: wykład\nProwadzący: mjr dr inż. Walkowiak Marzena\nNr za
+ jęć: 2/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5fbe91964148144612d349b8@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261104T160000
+DTEND;TZID=Europe/Warsaw:20261104T173500
+SUMMARY:Mv. (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Military vehicles\nRodzaj: wykład\nProwadzący: dr inż. Papl
+ iński Krzysztof\nNr zajęć: 4/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:ee9360769abc314468e8d960@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261104T175000
+DTEND;TZID=Europe/Warsaw:20261104T192500
+SUMMARY:Wf_E (E)
+DESCRIPTION:Wf_E\nRodzaj: egzamin\nNr zajęć: 1/1\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:50739659c890653e51c35ca1@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261105T080000
+DTEND;TZID=Europe/Warsaw:20261105T093500
+SUMMARY:JA-E (i)
+DESCRIPTION:Język angielski - egzamin\nRodzaj: inne\nProwadzący: STANAG\
+ nNr zajęć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d4bc19f05f2d24ebefdfaeb2@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261105T095000
+DTEND;TZID=Europe/Warsaw:20261105T112500
+SUMMARY:JA-E (i)
+DESCRIPTION:Język angielski - egzamin\nRodzaj: inne\nProwadzący: STANAG\
+ nNr zajęć: 2/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:20bfc8341aee58faaeec4e31@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261105T114000
+DTEND;TZID=Europe/Warsaw:20261105T131500
+SUMMARY:Dpl (ć)
+LOCATION:4.23/ 135
+DESCRIPTION:Dowodzenie pododdziałem logistycznym\nRodzaj: ćwiczenia\nPro
+ wadzący: dr Gułaj Mariusz\nNr zajęć: 2/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d4b3234a5a98e6592dfced91@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261105T133000
+DTEND;TZID=Europe/Warsaw:20261105T150500
+SUMMARY:WF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: KKępnia
+ k\nNr zajęć: 13/40\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:351a13692c2b0aae5abbe049@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261105T160000
+DTEND;TZID=Europe/Warsaw:20261105T173500
+SUMMARY:Spulo (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Specjalistyczne usługi logistyczne\nRodzaj: wykład\nProwadz
+ ący: dr Sobczak Iwona\nNr zajęć: 4/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:6cec6584a970194f2782ff05@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261106T080000
+DTEND;TZID=Europe/Warsaw:20261106T093500
+SUMMARY:WzzD (L)
+LOCATION:14/ 23A
+DESCRIPTION:Wybrane zagadnienia z dynamiki środków transportowych\nRodza
+ j: laboratorium\nProwadzący: mgr inż. Michałowski Bogusław\; dr inż.
+  Wiśniewski Andrzej\nNr zajęć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:61f48ee35802a535087e110f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261106T095000
+DTEND;TZID=Europe/Warsaw:20261106T112500
+SUMMARY:BiESW (ć)
+LOCATION:18 69
+DESCRIPTION:Budowa i eksploatacja sprzętu wojskowego\nRodzaj: ćwiczenia\
+ nProwadzący: Dgoż\nNr zajęć: 3/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:67b424b3571efbd773b2dd64@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261106T114000
+DTEND;TZID=Europe/Warsaw:20261106T131500
+SUMMARY:WF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: KKępnia
+ k\nNr zajęć: 14/40\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e219a10c6c78dd0ee2463289@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261106T133000
+DTEND;TZID=Europe/Warsaw:20261106T150500
+SUMMARY:WzzD (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Wybrane zagadnienia z dynamiki środków transportowych\nRodza
+ j: wykład\nProwadzący: dr hab. inż. (prof. ucz.) Luty Witold\nNr zaję
+ ć: 4/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:af7750780ae7eee840aa3ac3@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261107T095000
+DTEND;TZID=Europe/Warsaw:20261107T112500
+SUMMARY:XWF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 6/15\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:242794f2b7c8b36879630323@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261109T095000
+DTEND;TZID=Europe/Warsaw:20261109T112500
+SUMMARY:CoO (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Controlling Operacyjny\nRodzaj: wykład\nProwadzący: dr n.eko
+ n.\, inż. Kochański Tomasz\nNr zajęć: 4/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4973c8452678604be8b2f4ed@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261109T114000
+DTEND;TZID=Europe/Warsaw:20261109T131500
+SUMMARY:REG (w)
+LOCATION:1PL/8KP\; 2PL/8KP\; AW 3/038\; T18W
+DESCRIPTION:Regulaminy SZ RP\nRodzaj: wykład\nProwadzący: ppłk rez. mgr
+  Bomba Marcin\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:63b5c9f95718550220cf8128@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261109T133000
+DTEND;TZID=Europe/Warsaw:20261109T150500
+SUMMARY:wzbnim (w)
+LOCATION:19 36
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: wykład\nProwadzący: mjr dr inż. Walkowiak Marzena\nNr za
+ jęć: 3/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3fa39a33c93ed919212f4fa1@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261109T160000
+DTEND;TZID=Europe/Warsaw:20261109T173500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 11/30\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:8aabff33faa5fe0d0a237ea5@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261110T133000
+DTEND;TZID=Europe/Warsaw:20261110T150500
+SUMMARY:WF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: KKępnia
+ k\nNr zajęć: 15/40\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7746ddf8ad60b71215fa8ed8@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261112T080000
+DTEND;TZID=Europe/Warsaw:20261112T093500
+SUMMARY:wzbnim (w)
+LOCATION:19 36
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: wykład\nProwadzący: mjr dr inż. Walkowiak Marzena\nNr za
+ jęć: 4/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:570d0aaed776ca1471d9012c@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261112T095000
+DTEND;TZID=Europe/Warsaw:20261112T112500
+SUMMARY:Spulo (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Specjalistyczne usługi logistyczne\nRodzaj: wykład\nProwadz
+ ący: dr Sobczak Iwona\nNr zajęć: 5/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1050c512ef3914f95617ed83@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261112T114000
+DTEND;TZID=Europe/Warsaw:20261112T131500
+SUMMARY:Spulo (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Specjalistyczne usługi logistyczne\nRodzaj: wykład\nProwadz
+ ący: dr Sobczak Iwona\nNr zajęć: 6/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:53d9e78fe3497309d8affc62@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261112T133000
+DTEND;TZID=Europe/Warsaw:20261112T150500
+SUMMARY:WF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: KKępnia
+ k\nNr zajęć: 16/40\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9cf008dc5b73f3e1f2534897@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261112T160000
+DTEND;TZID=Europe/Warsaw:20261112T173500
+SUMMARY:Spulo (ć)
+LOCATION:0.21/ 16
+DESCRIPTION:Specjalistyczne usługi logistyczne\nRodzaj: ćwiczenia\nProwa
+ dzący: dr Sobczak Iwona\nNr zajęć: 2/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:3ecd33612d8259a360c58d22@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261113T080000
+DTEND;TZID=Europe/Warsaw:20261113T093500
+SUMMARY:Pż (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Przechowalnictwo żywności\nRodzaj: ćwiczenia\nProwadzący: 
+ dr hab.\, prof. WAT Kler Paweł\nNr zajęć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:69d96fe427af60e4323dc181@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261113T095000
+DTEND;TZID=Europe/Warsaw:20261113T112500
+SUMMARY:Pż (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Przechowalnictwo żywności\nRodzaj: ćwiczenia\nProwadzący: 
+ dr hab.\, prof. WAT Kler Paweł\nNr zajęć: 2/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:63a25153e84a93a26c3209c0@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261113T114000
+DTEND;TZID=Europe/Warsaw:20261113T131500
+SUMMARY:Pż (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Przechowalnictwo żywności\nRodzaj: ćwiczenia\nProwadzący: 
+ dr hab.\, prof. WAT Kler Paweł\nNr zajęć: 3/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1e941bd3e328cf152857d3d4@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261113T133000
+DTEND;TZID=Europe/Warsaw:20261113T150500
+SUMMARY:WF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: KKępnia
+ k\nNr zajęć: 17/40\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6eb20e216674790c3a3ef673@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261113T175000
+DTEND;TZID=Europe/Warsaw:20261113T192500
+SUMMARY:CoO (ć)
+LOCATION:0.22/ 16
+DESCRIPTION:Controlling Operacyjny\nRodzaj: ćwiczenia\nProwadzący: dr n.
+ ekon.\, inż. Kochański Tomasz\nNr zajęć: 4/9\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:bab73eb48737a3004acc237d@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261114T095000
+DTEND;TZID=Europe/Warsaw:20261114T112500
+SUMMARY:XWF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 7/15\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:192f4a3ec088284453781683@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261116T080000
+DTEND;TZID=Europe/Warsaw:20261116T093500
+SUMMARY:wzbnim (ć)
+LOCATION:3.16/ 135
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: ćwiczenia\nProwadzący: ppłk. Sługocka Ewa\nNr zajęć: 
+ 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ce4d55e944b9461d3fbe7da6@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261116T095000
+DTEND;TZID=Europe/Warsaw:20261116T112500
+SUMMARY:Pż (w)
+LOCATION:2.22/ 135
+DESCRIPTION:Przechowalnictwo żywności\nRodzaj: wykład\nProwadzący: dr 
+ hab.\, prof. WAT Kler Paweł\nNr zajęć: 10/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:fdb7e9a8eebbeb1162fdb06f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261116T114000
+DTEND;TZID=Europe/Warsaw:20261116T131500
+SUMMARY:ŻCwE (w)
+LOCATION:1.16/ 16
+DESCRIPTION:Żywienie człowieka w ekstremalnych warunkach środowiska\nRo
+ dzaj: wykład\nProwadzący: prof. dr hab. Bertrandt Jerzy\nNr zajęć: 3/
+ 5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:615c46e93656fb676b1d643b@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261116T133000
+DTEND;TZID=Europe/Warsaw:20261116T150500
+SUMMARY:Mv. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Military vehicles\nRodzaj: wykład\nProwadzący: dr inż. Papl
+ iński Krzysztof\nNr zajęć: 5/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ecda7aa3a1a0e67453483f15@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261116T160000
+DTEND;TZID=Europe/Warsaw:20261116T173500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 12/30\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:dbf02893a4aa1a64826a93d3@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261117T095000
+DTEND;TZID=Europe/Warsaw:20261117T112500
+SUMMARY:SzS (ć)
+LOCATION:1PL/8KP\; 2PL/8KP\; ST.nr 1(PWC2)\; T5.4Ć
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 7/8\nBl
+ ok: 2\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:df0ce7fcee0f95cc749917ff@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261117T114000
+DTEND;TZID=Europe/Warsaw:20261117T131500
+SUMMARY:SzS (ć)
+LOCATION:2PL/8KP\; ST.nr 1(PWC2)\; T5.4Ć
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 8/8\nBl
+ ok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d3e11846c270056b58f8cadc@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261118T095000
+DTEND;TZID=Europe/Warsaw:20261118T112500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 13/30\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:721c4a2be5df42d93b0980ac@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261118T114000
+DTEND;TZID=Europe/Warsaw:20261118T131500
+SUMMARY:WF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: KKępnia
+ k\nNr zajęć: 18/40\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:01048e5cfb3e70a8efa7844f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261118T133000
+DTEND;TZID=Europe/Warsaw:20261118T150500
+SUMMARY:Dpl (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Dowodzenie pododdziałem logistycznym\nRodzaj: wykład\nProwad
+ zący: prof. dr hab. Pawlisiak Mieczysław\nNr zajęć: 7/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:be4be8641478756d951558fd@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261118T160000
+DTEND;TZID=Europe/Warsaw:20261118T173500
+SUMMARY:Dpl (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Dowodzenie pododdziałem logistycznym\nRodzaj: wykład\nProwad
+ zący: prof. dr hab. Pawlisiak Mieczysław\nNr zajęć: 8/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:7ed580bf1b416cbbb195b2ad@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261119T080000
+DTEND;TZID=Europe/Warsaw:20261119T093500
+SUMMARY:Spulo (ć)
+LOCATION:0.24/ 135
+DESCRIPTION:Specjalistyczne usługi logistyczne\nRodzaj: ćwiczenia\nProwa
+ dzący: dr Sobczak Iwona\nNr zajęć: 3/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:cff6b7fe9e9bfc0f8f9f6410@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261119T095000
+DTEND;TZID=Europe/Warsaw:20261119T112500
+SUMMARY:Mv. (ć)
+LOCATION:0.21/ 16
+DESCRIPTION:Military vehicles\nRodzaj: ćwiczenia\nProwadzący: dr inż. P
+ apliński Krzysztof\nNr zajęć: 5/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a2f42e0eba181f6a0ce6641f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261119T114000
+DTEND;TZID=Europe/Warsaw:20261119T131500
+SUMMARY:Spulo (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Specjalistyczne usługi logistyczne\nRodzaj: wykład\nProwadz
+ ący: dr Sobczak Iwona\nNr zajęć: 7/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e68586231ef5558215ab4e16@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261119T133000
+DTEND;TZID=Europe/Warsaw:20261119T150500
+SUMMARY:WF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: KKępnia
+ k\nNr zajęć: 19/40\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e53c95c1b5bf6626a5af8677@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261119T160000
+DTEND;TZID=Europe/Warsaw:20261119T173500
+SUMMARY:Spulo (ć)
+LOCATION:0.21/ 16
+DESCRIPTION:Specjalistyczne usługi logistyczne\nRodzaj: ćwiczenia\nProwa
+ dzący: dr Sobczak Iwona\nNr zajęć: 4/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:72d0fa9768a46b070bff7748@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261120T114000
+DTEND;TZID=Europe/Warsaw:20261120T131500
+SUMMARY:WzzD (ć)
+LOCATION:0.21/ 16
+DESCRIPTION:Wybrane zagadnienia z dynamiki środków transportowych\nRodza
+ j: ćwiczenia\nProwadzący: mgr inż. Michałowski Bogusław\nNr zajęć:
+  1/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9001d0b582a2ae9016cf4b0c@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261120T133000
+DTEND;TZID=Europe/Warsaw:20261120T150500
+SUMMARY:WF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: KKępnia
+ k\nNr zajęć: 20/40\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:eabf70e2cf4764bf637336c5@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261121T095000
+DTEND;TZID=Europe/Warsaw:20261121T112500
+SUMMARY:XWF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 8/15\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f0ca1e3d9faef08655697bae@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261123T080000
+DTEND;TZID=Europe/Warsaw:20261123T093500
+SUMMARY:Dpl (ć)
+LOCATION:0.22/ 16
+DESCRIPTION:Dowodzenie pododdziałem logistycznym\nRodzaj: ćwiczenia\nPro
+ wadzący: dr Gułaj Mariusz\nNr zajęć: 3/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c2bf9c14e230449bdd5d3f0c@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261123T095000
+DTEND;TZID=Europe/Warsaw:20261123T112500
+SUMMARY:CoO (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Controlling Operacyjny\nRodzaj: wykład\nProwadzący: dr n.eko
+ n.\, inż. Kochański Tomasz\nNr zajęć: 5/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b308e5789b92a6669c84a86e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261123T114000
+DTEND;TZID=Europe/Warsaw:20261123T131500
+SUMMARY:WzzD (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Wybrane zagadnienia z dynamiki środków transportowych\nRodza
+ j: wykład\nProwadzący: dr hab. inż. (prof. ucz.) Luty Witold\nNr zaję
+ ć: 5/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f61caf7f5aa778452991bda2@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261123T133000
+DTEND;TZID=Europe/Warsaw:20261123T150500
+SUMMARY:Mv. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Military vehicles\nRodzaj: wykład\nProwadzący: dr inż. Papl
+ iński Krzysztof\nNr zajęć: 6/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e847997dbe7d3c831ea4aa40@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261123T160000
+DTEND;TZID=Europe/Warsaw:20261123T173500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 14/30\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:2376969bffcee0cc0e8a610d@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261124T080000
+DTEND;TZID=Europe/Warsaw:20261124T093500
+SUMMARY:ZaMe (ć)
+LOCATION:2PL/8KP\; AW 1
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: kpr.
+  Majewska Natalia\nNr zajęć: 4/18\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6ec7bdb26f0f8bfb48d14342@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261124T095000
+DTEND;TZID=Europe/Warsaw:20261124T112500
+SUMMARY:ZaMe (ć)
+LOCATION:2PL/8KP\; AW 1
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: kpr.
+  Majewska Natalia\nNr zajęć: 5/18\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1c053815c10d0b35cf14e24d@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261124T114000
+DTEND;TZID=Europe/Warsaw:20261124T131500
+SUMMARY:ZaMe (ć)
+LOCATION:1PL/8KP\; 2PL/8KP\; AW 1
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: kpr.
+  Majewska Natalia\nNr zajęć: 6/18\nBlok: 3\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:61dd53c8a7cb329d5d4eff00@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261124T133000
+DTEND;TZID=Europe/Warsaw:20261124T150500
+SUMMARY:WF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: KKępnia
+ k\nNr zajęć: 21/40\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d95249dd3500cb767e63a364@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261125T080000
+DTEND;TZID=Europe/Warsaw:20261125T093500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 15/30\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:6e123d214e910690d97ee56e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261125T095000
+DTEND;TZID=Europe/Warsaw:20261125T112500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 16/30\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:a9b37f3dbacbb535fceef49f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261125T114000
+DTEND;TZID=Europe/Warsaw:20261125T131500
+SUMMARY:WF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: KKępnia
+ k\nNr zajęć: 22/40\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7a1017a9f520e7381e2afe14@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261125T133000
+DTEND;TZID=Europe/Warsaw:20261125T150500
+SUMMARY:GSŻp (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Gospodarka służby żywnościowej w czasie pokoju\nRodzaj: ć
+ wiczenia\nProwadzący: Mał.M-Pog\nNr zajęć: 1/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:50c94fb90c215aded0aa8b04@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261125T160000
+DTEND;TZID=Europe/Warsaw:20261125T173500
+SUMMARY:GSŻp (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Gospodarka służby żywnościowej w czasie pokoju\nRodzaj: ć
+ wiczenia\nProwadzący: Mał.M-Pog\nNr zajęć: 2/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:ea3884e206112776f4ebe0b2@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261126T080000
+DTEND;TZID=Europe/Warsaw:20261126T093500
+SUMMARY:wzbnim (ć)
+LOCATION:3.16/ 135
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: ćwiczenia\nProwadzący: ppłk. Sługocka Ewa\nNr zajęć: 
+ 2/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2c6b4b12aada681b9c5035af@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261126T095000
+DTEND;TZID=Europe/Warsaw:20261126T112500
+SUMMARY:Dpl (ć)
+LOCATION:4.23/ 135
+DESCRIPTION:Dowodzenie pododdziałem logistycznym\nRodzaj: ćwiczenia\nPro
+ wadzący: dr Gułaj Mariusz\nNr zajęć: 4/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e6c6e8cf43337b81b4eefd8f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261126T114000
+DTEND;TZID=Europe/Warsaw:20261126T131500
+SUMMARY:Spulo (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Specjalistyczne usługi logistyczne\nRodzaj: wykład\nProwadz
+ ący: dr Sobczak Iwona\nNr zajęć: 8/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e8fd1ee9e8dba6ae09deee08@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261126T133000
+DTEND;TZID=Europe/Warsaw:20261126T150500
+SUMMARY:WF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: KKępnia
+ k\nNr zajęć: 23/40\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c6b8b6c11211d57b1a31ed30@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261128T095000
+DTEND;TZID=Europe/Warsaw:20261128T112500
+SUMMARY:XWF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 9/15\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:bc1046a4d68e89d35c9b18b5@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261130T080000
+DTEND;TZID=Europe/Warsaw:20261130T093500
+SUMMARY:Dpl (ć)
+LOCATION:0.22/ 16
+DESCRIPTION:Dowodzenie pododdziałem logistycznym\nRodzaj: ćwiczenia\nPro
+ wadzący: dr Gułaj Mariusz\nNr zajęć: 5/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e0976fd27b4dcef4fdab4499@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261130T095000
+DTEND;TZID=Europe/Warsaw:20261130T112500
+SUMMARY:Dpl (ć)
+LOCATION:0.22/ 16
+DESCRIPTION:Dowodzenie pododdziałem logistycznym\nRodzaj: ćwiczenia\nPro
+ wadzący: dr Gułaj Mariusz\nNr zajęć: 6/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:62ec7d6fccd551dfbbbc8a72@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261130T114000
+DTEND;TZID=Europe/Warsaw:20261130T131500
+SUMMARY:WzzD (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Wybrane zagadnienia z dynamiki środków transportowych\nRodza
+ j: wykład\nProwadzący: dr hab. inż. (prof. ucz.) Luty Witold\nNr zaję
+ ć: 6/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:668f2a5f89df5c4f8bbacce5@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261130T133000
+DTEND;TZID=Europe/Warsaw:20261130T150500
+SUMMARY:Mv. (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Military vehicles\nRodzaj: wykład\nProwadzący: dr inż. Papl
+ iński Krzysztof\nNr zajęć: 7/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4d1336b46f2485ce317050e9@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261130T160000
+DTEND;TZID=Europe/Warsaw:20261130T173500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 17/30\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:a45745a0ae8721d4b18d05e6@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261201T080000
+DTEND;TZID=Europe/Warsaw:20261201T093500
+SUMMARY:ZaMe (ć)
+LOCATION:2PL/8KP\; AW 1
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: kpr.
+  Majewska Natalia\nNr zajęć: 7/18\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3bab43840c72c534e29ba218@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261201T095000
+DTEND;TZID=Europe/Warsaw:20261201T112500
+SUMMARY:ZaMe (ć)
+LOCATION:2PL/8KP\; AW 1
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: kpr.
+  Majewska Natalia\nNr zajęć: 8/18\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ff7c073cb9cbe9d898ca673f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261201T114000
+DTEND;TZID=Europe/Warsaw:20261201T131500
+SUMMARY:ZaMe (ć)
+LOCATION:1PL/8KP\; 2PL/8KP\; AW 1
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: kpr.
+  Majewska Natalia\nNr zajęć: 9/18\nBlok: 3\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:9d1d457a79864cea845e481d@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261201T133000
+DTEND;TZID=Europe/Warsaw:20261201T150500
+SUMMARY:WF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: KKępnia
+ k\nNr zajęć: 24/40\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b5068678cf0d334d248c69c2@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261202T080000
+DTEND;TZID=Europe/Warsaw:20261202T093500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 18/30\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:56dd05e94bea51e836c88981@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261202T095000
+DTEND;TZID=Europe/Warsaw:20261202T112500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 19/30\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:e91129509c6aa588a60f0292@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261202T114000
+DTEND;TZID=Europe/Warsaw:20261202T131500
+SUMMARY:WF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: PMosór\
+ nNr zajęć: 25/40\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2d89df88859c4256c133cf02@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261202T133000
+DTEND;TZID=Europe/Warsaw:20261202T150500
+SUMMARY:GSŻp (ć)
+LOCATION:2.22/ 135
+DESCRIPTION:Gospodarka służby żywnościowej w czasie pokoju\nRodzaj: ć
+ wiczenia\nProwadzący: D.Spy\nNr zajęć: 3/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b6fc8303657a5a4b09dfd48f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261202T160000
+DTEND;TZID=Europe/Warsaw:20261202T173500
+SUMMARY:GSŻp (ć)
+LOCATION:2.22/ 135
+DESCRIPTION:Gospodarka służby żywnościowej w czasie pokoju\nRodzaj: ć
+ wiczenia\nProwadzący: D.Spy\nNr zajęć: 4/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:9d5aa7db87482ad10a093fe6@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261202T175000
+DTEND;TZID=Europe/Warsaw:20261202T192500
+SUMMARY:ZBŻ (ć)
+LOCATION:2.22/ 135
+DESCRIPTION:Zarządzanie bezpieczeństwem żywności\nRodzaj: ćwiczenia\n
+ Prowadzący: dr Spychała Dariusz\nNr zajęć: 1/5\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:84ba700068cb6d564aa6ee3a@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261203T114000
+DTEND;TZID=Europe/Warsaw:20261203T131500
+SUMMARY:ZBŻ (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Zarządzanie bezpieczeństwem żywności\nRodzaj: ćwiczenia\n
+ Prowadzący: dr Spychała Dariusz\nNr zajęć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:fc6a234706ff3f6355dbea2a@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261203T133000
+DTEND;TZID=Europe/Warsaw:20261203T150500
+SUMMARY:WF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: KKępnia
+ k\nNr zajęć: 26/40\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:16ed9211300f2c0a0727fa89@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261203T160000
+DTEND;TZID=Europe/Warsaw:20261203T173500
+SUMMARY:Spulo (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Specjalistyczne usługi logistyczne\nRodzaj: wykład\nProwadz
+ ący: dr Sobczak Iwona\nNr zajęć: 9/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:7fd93f2771b0a68d607cfce4@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261204T080000
+DTEND;TZID=Europe/Warsaw:20261204T093500
+SUMMARY:TW (ć)
+LOCATION:2PL/8KP\; 17 57\; T13Ć
+DESCRIPTION:Topografia wojskowa\nRodzaj: ćwiczenia\nProwadzący: mgr inż
+ . Oleksiak Marek\nNr zajęć: 1/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:439ec2e98ba29cd1ac7d4b02@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261204T095000
+DTEND;TZID=Europe/Warsaw:20261204T112500
+SUMMARY:TW (ć)
+LOCATION:2PL/8KP\; 17 57\; T13Ć
+DESCRIPTION:Topografia wojskowa\nRodzaj: ćwiczenia\nProwadzący: mgr inż
+ . Oleksiak Marek\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e66864baba06c979a76d1ddf@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261204T114000
+DTEND;TZID=Europe/Warsaw:20261204T131500
+SUMMARY:ZBŻ (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Zarządzanie bezpieczeństwem żywności\nRodzaj: ćwiczenia\n
+ Prowadzący: dr Spychała Dariusz\nNr zajęć: 3/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8893d23634b7eb05345ce212@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261204T133000
+DTEND;TZID=Europe/Warsaw:20261204T150500
+SUMMARY:WzzD (L)
+LOCATION:14/ 23A
+DESCRIPTION:Wybrane zagadnienia z dynamiki środków transportowych\nRodza
+ j: laboratorium\nProwadzący: mgr inż. Michałowski Bogusław\; dr inż.
+  Wiśniewski Andrzej\nNr zajęć: 2/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4dc63b99cb9fc208c8b42e00@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261204T160000
+DTEND;TZID=Europe/Warsaw:20261204T173500
+SUMMARY:WzzD (ć)
+LOCATION:0.21/ 16
+DESCRIPTION:Wybrane zagadnienia z dynamiki środków transportowych\nRodza
+ j: ćwiczenia\nProwadzący: mgr inż. Michałowski Bogusław\nNr zajęć:
+  2/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:84d8bf4b5016cb8e26cad9de@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261205T095000
+DTEND;TZID=Europe/Warsaw:20261205T112500
+SUMMARY:XWF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 10/15\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9c303b2a8173e823f8f148de@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261207T080000
+DTEND;TZID=Europe/Warsaw:20261207T093500
+SUMMARY:wzbnim (ć)
+LOCATION:3.16/ 135
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: ćwiczenia\nProwadzący: ppłk. Sługocka Ewa\nNr zajęć: 
+ 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e4854f5c0e0e466feb8f83a0@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261207T095000
+DTEND;TZID=Europe/Warsaw:20261207T112500
+SUMMARY:Dpl (ć)
+LOCATION:0.21/ 16
+DESCRIPTION:Dowodzenie pododdziałem logistycznym\nRodzaj: ćwiczenia\nPro
+ wadzący: dr Gułaj Mariusz\nNr zajęć: 7/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:04eff6550efe18c26414ab2a@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261207T114000
+DTEND;TZID=Europe/Warsaw:20261207T131500
+SUMMARY:WzzD (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Wybrane zagadnienia z dynamiki środków transportowych\nRodza
+ j: wykład\nProwadzący: dr hab. inż. (prof. ucz.) Luty Witold\nNr zaję
+ ć: 7/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:393bf852ee50f824e9a86f9f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261207T133000
+DTEND;TZID=Europe/Warsaw:20261207T150500
+SUMMARY:Spulo (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Specjalistyczne usługi logistyczne\nRodzaj: wykład\nProwadz
+ ący: dr Sobczak Iwona\nNr zajęć: 10/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1b98f3c20e241ce692f5f6de@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261207T160000
+DTEND;TZID=Europe/Warsaw:20261207T173500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 20/30\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:ee05bf378a5b28d78235ec78@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261208T080000
+DTEND;TZID=Europe/Warsaw:20261208T093500
+SUMMARY:BiESW (ć)
+LOCATION:7 69
+DESCRIPTION:Budowa i eksploatacja sprzętu wojskowego\nRodzaj: ćwiczenia\
+ nProwadzący: SmŁ\nNr zajęć: 4/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:deb2b79edef2e064c84bd2ab@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261208T095000
+DTEND;TZID=Europe/Warsaw:20261208T112500
+SUMMARY:REG (ć)
+LOCATION:2PL/8KP\; AW 3/043\; T19Ć
+DESCRIPTION:Regulaminy SZ RP\nRodzaj: ćwiczenia\nProwadzący: ppłk rez. 
+ mgr Bomba Marcin\nNr zajęć: 1/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:859371e7c6bbafadba47be8f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261208T133000
+DTEND;TZID=Europe/Warsaw:20261208T150500
+SUMMARY:WF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: KKępnia
+ k\nNr zajęć: 27/40\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:dfb9ca7f5b728971abb08448@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261209T080000
+DTEND;TZID=Europe/Warsaw:20261209T093500
+SUMMARY:DGB (ć)
+LOCATION:S.WOJ22
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 5/8\
+ nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:49ed0ba2d0a81cf635f3b036@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261209T095000
+DTEND;TZID=Europe/Warsaw:20261209T112500
+SUMMARY:DGB (ć)
+LOCATION:S.WOJ22
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 6/8\
+ nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2c7f25e048e039961eb0ac71@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261209T114000
+DTEND;TZID=Europe/Warsaw:20261209T131500
+SUMMARY:DGB (ć)
+LOCATION:S.WOJ22
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 7/8\
+ nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:39c7b79b42db8257609efbf2@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261209T133000
+DTEND;TZID=Europe/Warsaw:20261209T150500
+SUMMARY:DGB (ć)
+LOCATION:S.WOJ22
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 8/8\
+ nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:58598380e43c2a48134770a1@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261209T160000
+DTEND;TZID=Europe/Warsaw:20261209T173500
+SUMMARY:CoO (ć)
+LOCATION:5.21/ 135
+DESCRIPTION:Controlling Operacyjny\nRodzaj: ćwiczenia\nProwadzący: dr n.
+ ekon.\, inż. Kochański Tomasz\nNr zajęć: 5/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:149b748641f0b4af55e75677@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261210T080000
+DTEND;TZID=Europe/Warsaw:20261210T093500
+SUMMARY:Dpl (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Dowodzenie pododdziałem logistycznym\nRodzaj: wykład\nProwad
+ zący: prof. dr hab. Pawlisiak Mieczysław\nNr zajęć: 9/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:bfa727fe9bdb79b0b2d9bfc5@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261210T095000
+DTEND;TZID=Europe/Warsaw:20261210T112500
+SUMMARY:Dpl (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Dowodzenie pododdziałem logistycznym\nRodzaj: wykład\nProwad
+ zący: prof. dr hab. Pawlisiak Mieczysław\nNr zajęć: 10/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ad2fc64c8952a6a2e997a821@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261210T114000
+DTEND;TZID=Europe/Warsaw:20261210T131500
+SUMMARY:Mv. (ć)
+LOCATION:2.21/ 135
+DESCRIPTION:Military vehicles\nRodzaj: ćwiczenia\nProwadzący: dr inż. P
+ apliński Krzysztof\nNr zajęć: 6/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:717910c236223937fa84a279@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261210T133000
+DTEND;TZID=Europe/Warsaw:20261210T150500
+SUMMARY:WF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: KKępnia
+ k\nNr zajęć: 28/40\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:34e23cc48b86785021bbd4bf@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261211T080000
+DTEND;TZID=Europe/Warsaw:20261211T093500
+SUMMARY:WzzD (L)
+LOCATION:14/ 23A
+DESCRIPTION:Wybrane zagadnienia z dynamiki środków transportowych\nRodza
+ j: laboratorium\nProwadzący: mgr inż. Michałowski Bogusław\; dr inż.
+  Wiśniewski Andrzej\nNr zajęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:60b2418ca8cb2c4bb0d2164d@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261211T095000
+DTEND;TZID=Europe/Warsaw:20261211T112500
+SUMMARY:WzzD (L)
+LOCATION:14/ 23A
+DESCRIPTION:Wybrane zagadnienia z dynamiki środków transportowych\nRodza
+ j: laboratorium\nProwadzący: mgr inż. Michałowski Bogusław\; dr inż.
+  Wiśniewski Andrzej\nNr zajęć: 4/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:71ba4b41ba4a9fa55896d0a5@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261211T114000
+DTEND;TZID=Europe/Warsaw:20261211T131500
+SUMMARY:ZBŻ (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Zarządzanie bezpieczeństwem żywności\nRodzaj: ćwiczenia\n
+ Prowadzący: dr Spychała Dariusz\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d1ab7fc30295c373cfd091ab@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261211T133000
+DTEND;TZID=Europe/Warsaw:20261211T150500
+SUMMARY:WzzD (ć)
+LOCATION:0.21/ 16
+DESCRIPTION:Wybrane zagadnienia z dynamiki środków transportowych\nRodza
+ j: ćwiczenia\nProwadzący: mgr inż. Michałowski Bogusław\nNr zajęć:
+  3/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d29973a03954172bc7963a73@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261211T160000
+DTEND;TZID=Europe/Warsaw:20261211T173500
+SUMMARY:Mv. (ć)
+LOCATION:0.22/ 16
+DESCRIPTION:Military vehicles\nRodzaj: ćwiczenia\nProwadzący: dr inż. P
+ apliński Krzysztof\nNr zajęć: 7/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f25a0c5b0c04f36fdce864aa@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261212T095000
+DTEND;TZID=Europe/Warsaw:20261212T112500
+SUMMARY:XWF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 11/15\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:eccd34e9be4400f5e6a649d3@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261214T080000
+DTEND;TZID=Europe/Warsaw:20261214T093500
+SUMMARY:CoO (ć)
+LOCATION:0.22/ 16
+DESCRIPTION:Controlling Operacyjny\nRodzaj: ćwiczenia\nProwadzący: dr n.
+ ekon.\, inż. Kochański Tomasz\nNr zajęć: 6/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:fdfd5b5660d3fccf44315e52@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261214T095000
+DTEND;TZID=Europe/Warsaw:20261214T112500
+SUMMARY:ŻCwE (w)
+LOCATION:2/ 22
+DESCRIPTION:Żywienie człowieka w ekstremalnych warunkach środowiska\nRo
+ dzaj: wykład\nProwadzący: prof. dr hab. Bertrandt Jerzy\nNr zajęć: 4/
+ 5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c0f7dac72997ef4b9788927e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261214T114000
+DTEND;TZID=Europe/Warsaw:20261214T131500
+SUMMARY:ŻCwE (ć)
+LOCATION:2/ 22
+DESCRIPTION:Żywienie człowieka w ekstremalnych warunkach środowiska\nRo
+ dzaj: ćwiczenia\nProwadzący: prof. dr hab. Bertrandt Jerzy\nNr zajęć:
+  3/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c0c6173d05434906f751a7d3@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261214T133000
+DTEND;TZID=Europe/Warsaw:20261214T150500
+SUMMARY:ŻCwE (ć)
+LOCATION:2/ 22
+DESCRIPTION:Żywienie człowieka w ekstremalnych warunkach środowiska\nRo
+ dzaj: ćwiczenia\nProwadzący: prof. dr hab. Bertrandt Jerzy\nNr zajęć:
+  4/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5ac0d9bfaa1613d568f306ee@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261214T160000
+DTEND;TZID=Europe/Warsaw:20261214T173500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 21/30\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:b57992aa244cea45c6999ce7@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261215T080000
+DTEND;TZID=Europe/Warsaw:20261215T093500
+SUMMARY:WF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: KKępnia
+ k\nNr zajęć: 29/40\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:df1ba5c43bad7f9f3050c033@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261215T095000
+DTEND;TZID=Europe/Warsaw:20261215T112500
+SUMMARY:REG (ć)
+LOCATION:2PL/8KP\; AW 7\; T20Ć
+DESCRIPTION:Regulaminy SZ RP\nRodzaj: ćwiczenia\nProwadzący: ppłk rez. 
+ mgr Bomba Marcin\nNr zajęć: 2/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1c09d38a936734f275ab54c1@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261215T133000
+DTEND;TZID=Europe/Warsaw:20261215T150500
+SUMMARY:ZaMe (ć)
+LOCATION:2PL/8KP\; AW 1
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: kpr.
+  Majewska Natalia\nNr zajęć: 10/18\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3642d5f685d5d5a81017b603@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261215T160000
+DTEND;TZID=Europe/Warsaw:20261215T173500
+SUMMARY:ZaMe (ć)
+LOCATION:2PL/8KP\; AW 1
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: kpr.
+  Majewska Natalia\nNr zajęć: 11/18\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:1ad2edbf90d01ed5c9462f9c@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261215T175000
+DTEND;TZID=Europe/Warsaw:20261215T192500
+SUMMARY:ZaMe (ć)
+LOCATION:2PL/8KP\; AW 1
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: kpr.
+  Majewska Natalia\nNr zajęć: 12/18\nBlok: 6\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:63559cdecacf77a95a674231@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261216T080000
+DTEND;TZID=Europe/Warsaw:20261216T093500
+SUMMARY:ZŻWAT (i)
+LOCATION:S.WOJ22
+DESCRIPTION:Zbiórka żołnierzy WAT\nRodzaj: inne\nNr zajęć: 2/3\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:cc30bb377e3a977bceb12661@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261216T095000
+DTEND;TZID=Europe/Warsaw:20261216T112500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 22/30\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:218664061cc0fbad22072c76@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261216T114000
+DTEND;TZID=Europe/Warsaw:20261216T131500
+SUMMARY:WF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: TLubkiew
+ icz\nNr zajęć: 30/40\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:dd80e328cc35f686798c98ab@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261216T133000
+DTEND;TZID=Europe/Warsaw:20261216T150500
+SUMMARY:CoO (ć)
+LOCATION:A.1.3/ 135
+DESCRIPTION:Controlling Operacyjny\nRodzaj: ćwiczenia\nProwadzący: dr n.
+ ekon.\, inż. Kochański Tomasz\nNr zajęć: 7/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ae08fd324cfe6f0c4a5cd9fe@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261216T160000
+DTEND;TZID=Europe/Warsaw:20261216T173500
+SUMMARY:Pż (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Przechowalnictwo żywności\nRodzaj: ćwiczenia\nProwadzący: 
+ dr hab.\, prof. WAT Kler Paweł\nNr zajęć: 4/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:6488693158c6dc30e24cdfad@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261217T080000
+DTEND;TZID=Europe/Warsaw:20261217T093500
+SUMMARY:BiESW (L)
+LOCATION:MaMor\; Dgoż\; LeG\; SmŁ\; 7 69\;29 69\;18 69
+DESCRIPTION:Budowa i eksploatacja sprzętu wojskowego\nRodzaj: laboratoriu
+ m\nNr zajęć: 1/6\nBlok: 1\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:e383abd15423e492e0e19892@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261217T095000
+DTEND;TZID=Europe/Warsaw:20261217T112500
+SUMMARY:BiESW (L)
+LOCATION:MaMor\; Dgoż\; LeG\; SmŁ\; 7 69\;29 69\;18 69
+DESCRIPTION:Budowa i eksploatacja sprzętu wojskowego\nRodzaj: laboratoriu
+ m\nNr zajęć: 2/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:46dc9dc62e72813d5e86e945@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261217T114000
+DTEND;TZID=Europe/Warsaw:20261217T131500
+SUMMARY:BiESW (L)
+LOCATION:MaMor\; Dgoż\; LeG\; SmŁ\; 7 69\;29 69\;18 69
+DESCRIPTION:Budowa i eksploatacja sprzętu wojskowego\nRodzaj: laboratoriu
+ m\nNr zajęć: 3/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e86aa8d5d5f43aac4c413ce6@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261217T133000
+DTEND;TZID=Europe/Warsaw:20261217T150500
+SUMMARY:WF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: KKępnia
+ k\nNr zajęć: 31/40\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:955aa4f13d5001368aafb250@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261218T080000
+DTEND;TZID=Europe/Warsaw:20261218T093500
+SUMMARY:TW (ć)
+LOCATION:2PL/8KP\; 17 57\; T14Ć
+DESCRIPTION:Topografia wojskowa\nRodzaj: ćwiczenia\nProwadzący: mgr inż
+ . Oleksiak Marek\nNr zajęć: 3/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:63c1b4c8d351fff4233bee0f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261218T095000
+DTEND;TZID=Europe/Warsaw:20261218T112500
+SUMMARY:TW (ć)
+LOCATION:2PL/8KP\; 17 57\; T14Ć
+DESCRIPTION:Topografia wojskowa\nRodzaj: ćwiczenia\nProwadzący: mgr inż
+ . Oleksiak Marek\nNr zajęć: 4/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4407ac3d80b2b83985d0da53@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261218T114000
+DTEND;TZID=Europe/Warsaw:20261218T131500
+SUMMARY:ZBŻ (ć)
+LOCATION:1.15/ 16
+DESCRIPTION:Zarządzanie bezpieczeństwem żywności\nRodzaj: ćwiczenia\n
+ Prowadzący: dr Spychała Dariusz\nNr zajęć: 5/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:698b755f3e2bfb975d3f45e9@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261218T133000
+DTEND;TZID=Europe/Warsaw:20261218T150500
+SUMMARY:WzzD (ć)
+LOCATION:6/ 23A
+DESCRIPTION:Wybrane zagadnienia z dynamiki środków transportowych\nRodza
+ j: ćwiczenia\nProwadzący: mgr inż. Michałowski Bogusław\nNr zajęć:
+  4/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:97c5387a4c1a6bc8fe06e05d@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261218T160000
+DTEND;TZID=Europe/Warsaw:20261218T173500
+SUMMARY:WzzD (ć)
+LOCATION:6/ 23A
+DESCRIPTION:Wybrane zagadnienia z dynamiki środków transportowych\nRodza
+ j: ćwiczenia\nProwadzący: mgr inż. Michałowski Bogusław\nNr zajęć:
+  5/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:eb60893706a10a04364cbfcc@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261219T095000
+DTEND;TZID=Europe/Warsaw:20261219T112500
+SUMMARY:XWF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 12/15\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7a8603a431e0a325acc7d18f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261221T095000
+DTEND;TZID=Europe/Warsaw:20261221T112500
+SUMMARY:BiESW (L)
+LOCATION:MaMor\; Dgoż\; LeG\; SmŁ\; 7 69\;29 69\;18 69
+DESCRIPTION:Budowa i eksploatacja sprzętu wojskowego\nRodzaj: laboratoriu
+ m\nNr zajęć: 4/6\nBlok: 2\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:d25fc1f10b27356b03cd0df8@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261221T114000
+DTEND;TZID=Europe/Warsaw:20261221T131500
+SUMMARY:BiESW (L)
+LOCATION:MaMor\; Dgoż\; LeG\; SmŁ\; 7 69\;29 69\;18 69
+DESCRIPTION:Budowa i eksploatacja sprzętu wojskowego\nRodzaj: laboratoriu
+ m\nNr zajęć: 5/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a1d2ca11bd32814ed69db8b4@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261221T133000
+DTEND;TZID=Europe/Warsaw:20261221T150500
+SUMMARY:BiESW (L)
+LOCATION:MaMor\; Dgoż\; LeG\; SmŁ\; 7 69\;29 69\;18 69
+DESCRIPTION:Budowa i eksploatacja sprzętu wojskowego\nRodzaj: laboratoriu
+ m\nNr zajęć: 6/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:91689ee3b5e6679b4d3264d4@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261221T160000
+DTEND;TZID=Europe/Warsaw:20261221T173500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 23/30\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:754f9621d19248f6e9406dc4@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261221T175000
+DTEND;TZID=Europe/Warsaw:20261221T192500
+SUMMARY:WzzD (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Wybrane zagadnienia z dynamiki środków transportowych\nRodza
+ j: wykład\nProwadzący: dr hab. inż. (prof. ucz.) Luty Witold\nNr zaję
+ ć: 8/8\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:6d26dd588271d6947e5c5ef4@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261222T133000
+DTEND;TZID=Europe/Warsaw:20261222T150500
+SUMMARY:ZaMe (ć)
+LOCATION:2PL/8KP\; AW 1
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: st. 
+ kpr. Polankiewicz Anna\nNr zajęć: 13/18\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:88c7f9e467f288db2063015b@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261222T160000
+DTEND;TZID=Europe/Warsaw:20261222T173500
+SUMMARY:ZaMe (ć)
+LOCATION:2PL/8KP\; AW 1
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: st. 
+ kpr. Polankiewicz Anna\nNr zajęć: 14/18\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:41f16d3b220b67530e2ed712@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261222T175000
+DTEND;TZID=Europe/Warsaw:20261222T192500
+SUMMARY:ZaMe (ć)
+LOCATION:2PL/8KP\; AW 1
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: st. 
+ kpr. Polankiewicz Anna\nNr zajęć: 15/18\nBlok: 6\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:e9c519d9cdccb4df872085ea@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261223T080000
+DTEND;TZID=Europe/Warsaw:20261223T093500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 24/30\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:eaf9c560cf76e160cc128b5f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261223T095000
+DTEND;TZID=Europe/Warsaw:20261223T112500
+SUMMARY:Spulo (ć)
+LOCATION:0.6/ 16
+DESCRIPTION:Specjalistyczne usługi logistyczne\nRodzaj: ćwiczenia\nProwa
+ dzący: dr Sobczak Iwona\nNr zajęć: 5/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:78ca691961ebcff3f78e7319@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261223T114000
+DTEND;TZID=Europe/Warsaw:20261223T131500
+SUMMARY:CoO (ć)
+LOCATION:0.22/ 16
+DESCRIPTION:Controlling Operacyjny\nRodzaj: ćwiczenia\nProwadzący: dr n.
+ ekon.\, inż. Kochański Tomasz\nNr zajęć: 8/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a442d63dab7ef3a455196e35@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261223T133000
+DTEND;TZID=Europe/Warsaw:20261223T150500
+SUMMARY:CoO (ć)
+LOCATION:0.22/ 16
+DESCRIPTION:Controlling Operacyjny\nRodzaj: ćwiczenia\nProwadzący: dr n.
+ ekon.\, inż. Kochański Tomasz\nNr zajęć: 9/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8b359c539a765f0561bc85dc@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261223T160000
+DTEND;TZID=Europe/Warsaw:20261223T173500
+SUMMARY:Dpl (ć)
+LOCATION:0.21/ 16
+DESCRIPTION:Dowodzenie pododdziałem logistycznym\nRodzaj: ćwiczenia\nPro
+ wadzący: dr Gułaj Mariusz\nNr zajęć: 8/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:21ab051b417ac5835d04d342@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270107T095000
+DTEND;TZID=Europe/Warsaw:20270107T112500
+SUMMARY:Dpl (S)
+LOCATION:0.6/ 16
+DESCRIPTION:Dowodzenie pododdziałem logistycznym\nRodzaj: seminarium\nPro
+ wadzący: dr Gułaj Mariusz\nNr zajęć: 1/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8e7cd4ae1a6ea37d74198f44@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270107T133000
+DTEND;TZID=Europe/Warsaw:20270107T150500
+SUMMARY:WF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: KKępnia
+ k\nNr zajęć: 32/40\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:56b0ac27d12c6215b9f2127d@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270108T080000
+DTEND;TZID=Europe/Warsaw:20270108T093500
+SUMMARY:Pż (S)
+LOCATION:1.16/ 16
+DESCRIPTION:Przechowalnictwo żywności\nRodzaj: seminarium\nProwadzący: 
+ kpt. dr inż. Sobczuk Sebastian\nNr zajęć: 1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:39ee208c88b3d83c9f34cff2@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270109T095000
+DTEND;TZID=Europe/Warsaw:20270109T112500
+SUMMARY:XWF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 13/15\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:700776c915a52b1c793f4633@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270111T080000
+DTEND;TZID=Europe/Warsaw:20270111T093500
+SUMMARY:Mv. (ć)
+LOCATION:1002 HILTON
+DESCRIPTION:Military vehicles\nRodzaj: ćwiczenia\nProwadzący: dr inż. P
+ apliński Krzysztof\nNr zajęć: 8/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:54b80c1ebd861dd5446c1226@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270111T095000
+DTEND;TZID=Europe/Warsaw:20270111T112500
+SUMMARY:wzbnim (ć)
+LOCATION:3.16/ 135
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: ćwiczenia\nProwadzący: ppłk. Sługocka Ewa\nNr zajęć: 
+ 4/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b5652be40e045630234f5076@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270111T114000
+DTEND;TZID=Europe/Warsaw:20270111T131500
+SUMMARY:ŻCwE (w)
+LOCATION:3.16/ 135
+DESCRIPTION:Żywienie człowieka w ekstremalnych warunkach środowiska\nRo
+ dzaj: wykład\nProwadzący: prof. dr hab. Bertrandt Jerzy\nNr zajęć: 5/
+ 5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:170d3e5671b5163db525c421@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270111T133000
+DTEND;TZID=Europe/Warsaw:20270111T150500
+SUMMARY:ŻCwE (S)
+LOCATION:1a/ 28
+DESCRIPTION:Żywienie człowieka w ekstremalnych warunkach środowiska\nRo
+ dzaj: seminarium\nProwadzący: prof. dr hab. Bertrandt Jerzy\nNr zajęć:
+  1/1\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:cb87a3924ea041d02a7403f6@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270111T160000
+DTEND;TZID=Europe/Warsaw:20270111T173500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 25/30\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:f2fa7f5b57c5a22b666e9d09@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270112T133000
+DTEND;TZID=Europe/Warsaw:20270112T150500
+SUMMARY:ZaMe (ć)
+LOCATION:2PL/8KP\; AW 1
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: M.KO
+ CZ\nNr zajęć: 16/18\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:38b49aea5618288bc7b93c10@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270112T160000
+DTEND;TZID=Europe/Warsaw:20270112T173500
+SUMMARY:ZaMe (ć)
+LOCATION:2PL/8KP\; AW 1
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: M.KO
+ CZ\nNr zajęć: 17/18\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:7f3d1ba99281b24cb0088efe@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270112T175000
+DTEND;TZID=Europe/Warsaw:20270112T192500
+SUMMARY:ZaMe (ć)
+LOCATION:2PL/8KP\; AW 1
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: M.KO
+ CZ\nNr zajęć: 18/18\nBlok: 6\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:606fc37145510dbc68608564@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270113T080000
+DTEND;TZID=Europe/Warsaw:20270113T093500
+SUMMARY:ZŻWAT (i)
+LOCATION:S.WOJ22
+DESCRIPTION:Zbiórka żołnierzy WAT\nRodzaj: inne\nNr zajęć: 3/3\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:6fb454dc044963a74032abf3@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270113T095000
+DTEND;TZID=Europe/Warsaw:20270113T112500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 26/30\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:b30a992a907311457c8ed83e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270113T114000
+DTEND;TZID=Europe/Warsaw:20270113T131500
+SUMMARY:WF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: PMosór\
+ nNr zajęć: 33/40\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0ec337d4112480247ae9fd2d@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270114T095000
+DTEND;TZID=Europe/Warsaw:20270114T112500
+SUMMARY:BiESW (S)
+LOCATION:0.8/ 16
+DESCRIPTION:Budowa i eksploatacja sprzętu wojskowego\nRodzaj: seminarium\
+ nProwadzący: płk dr inż. Zahor Mirosław\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2a5d00ad3716d2f655a84fc8@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270114T114000
+DTEND;TZID=Europe/Warsaw:20270114T131500
+SUMMARY:Dpl (S)
+LOCATION:0.6/ 16
+DESCRIPTION:Dowodzenie pododdziałem logistycznym\nRodzaj: seminarium\nPro
+ wadzący: dr Gułaj Mariusz\nNr zajęć: 2/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:679fc0ee158056563252ac95@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270114T133000
+DTEND;TZID=Europe/Warsaw:20270114T150500
+SUMMARY:WF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: KKępnia
+ k\nNr zajęć: 34/40\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d2907ab093629899c8f74a7d@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270115T080000
+DTEND;TZID=Europe/Warsaw:20270115T093500
+SUMMARY:ZBŻ (S)
+LOCATION:1.16/ 16
+DESCRIPTION:Zarządzanie bezpieczeństwem żywności\nRodzaj: seminarium\n
+ Prowadzący: dr Spychała Dariusz\nNr zajęć: 1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:fbc90c4b9431716ebc645fba@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270115T095000
+DTEND;TZID=Europe/Warsaw:20270115T112500
+SUMMARY:GSŻp (S)
+LOCATION:1.16/ 16
+DESCRIPTION:Gospodarka służby żywnościowej w czasie pokoju\nRodzaj: se
+ minarium\nProwadzący: dr Spychała Dariusz\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:323b7aa30c1f2f8188126052@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270116T095000
+DTEND;TZID=Europe/Warsaw:20270116T112500
+SUMMARY:XWF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 14/15\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a075fa77014032a92e22b1c4@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270118T095000
+DTEND;TZID=Europe/Warsaw:20270118T112500
+SUMMARY:ZBŻ (E)
+LOCATION:3.16/ 135
+DESCRIPTION:Zarządzanie bezpieczeństwem żywności\nRodzaj: egzamin\nPro
+ wadzący: dr Spychała Dariusz\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:eeca18a43e47d2f5ec9e1ead@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270118T160000
+DTEND;TZID=Europe/Warsaw:20270118T173500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 27/30\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:193c2bc8daed76f5130ecc73@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270119T133000
+DTEND;TZID=Europe/Warsaw:20270119T150500
+SUMMARY:WF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: KKępnia
+ k\nNr zajęć: 35/40\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c584975832bfc2e41e981335@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270120T080000
+DTEND;TZID=Europe/Warsaw:20270120T093500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 28/30\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:3eeaa44ee776fb7c3391f901@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270120T114000
+DTEND;TZID=Europe/Warsaw:20270120T131500
+SUMMARY:WF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: TLubkiew
+ icz\nNr zajęć: 36/40\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b18e6c3e3dddd85197597211@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270121T080000
+DTEND;TZID=Europe/Warsaw:20270121T093500
+SUMMARY:Dpl (E)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Dowodzenie pododdziałem logistycznym\nRodzaj: egzamin\nProwad
+ zący: prof. dr hab. Pawlisiak Mieczysław\nNr zajęć: 1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ca87b0128041a6b6bb838208@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270121T133000
+DTEND;TZID=Europe/Warsaw:20270121T150500
+SUMMARY:WF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: KKępnia
+ k\nNr zajęć: 37/40\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:fe0f2cc6f6c096b6acbae5b8@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270122T080000
+DTEND;TZID=Europe/Warsaw:20270122T093500
+SUMMARY:GSŻp (E)
+LOCATION:1.10/ 16
+DESCRIPTION:Gospodarka służby żywnościowej w czasie pokoju\nRodzaj: eg
+ zamin\nProwadzący: dr Spychała Dariusz\nNr zajęć: 1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:15c8476a9e2a39b32b2f1046@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270122T095000
+DTEND;TZID=Europe/Warsaw:20270122T112500
+SUMMARY:TW (ć)
+LOCATION:2PL/8KP\; 17 57\; T15Ć
+DESCRIPTION:Topografia wojskowa\nRodzaj: ćwiczenia\nProwadzący: mgr inż
+ . Oleksiak Marek\nNr zajęć: 5/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:13beadd987609e8a04e0ef7b@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270123T095000
+DTEND;TZID=Europe/Warsaw:20270123T112500
+SUMMARY:XWF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 15/15\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b51e8999cfeaa2304c036e52@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270125T095000
+DTEND;TZID=Europe/Warsaw:20270125T112500
+SUMMARY:ZBŻ (Ep)
+LOCATION:187 S
+DESCRIPTION:Zarządzanie bezpieczeństwem żywności\nRodzaj: egzamin popr
+ awkowy\nProwadzący: dr Spychała Dariusz\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a80983e710df56758f4caf25@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270125T160000
+DTEND;TZID=Europe/Warsaw:20270125T173500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 29/30\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:987d649a7ad1d180f856653e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270126T133000
+DTEND;TZID=Europe/Warsaw:20270126T150500
+SUMMARY:WF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: KKępnia
+ k\nNr zajęć: 38/40\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:cdefb456b39892de8a85cc38@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270127T080000
+DTEND;TZID=Europe/Warsaw:20270127T093500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 30/30\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:d36ca43fc21cab6ea10fba0b@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270127T114000
+DTEND;TZID=Europe/Warsaw:20270127T131500
+SUMMARY:WF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: PMosór\
+ nNr zajęć: 39/40\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ea538436b76e926fce7deb45@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270128T080000
+DTEND;TZID=Europe/Warsaw:20270128T093500
+SUMMARY:JA-E (i)
+LOCATION:S.WOJ22
+DESCRIPTION:Język angielski - egzamin\nRodzaj: inne\nProwadzący: STANAG\
+ nNr zajęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8be96ce9f5aa41955cc675c1@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270128T095000
+DTEND;TZID=Europe/Warsaw:20270128T112500
+SUMMARY:JA-E (i)
+LOCATION:S.WOJ22
+DESCRIPTION:Język angielski - egzamin\nRodzaj: inne\nProwadzący: STANAG\
+ nNr zajęć: 4/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7d004facb39725d74a102a3f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270128T133000
+DTEND;TZID=Europe/Warsaw:20270128T150500
+SUMMARY:WF (ć)
+LOCATION:2PL/8KP
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: KKępnia
+ k\nNr zajęć: 40/40\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b0572b351e3dfb462bc1d735@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270129T080000
+DTEND;TZID=Europe/Warsaw:20270129T093500
+SUMMARY:GSŻp (Ep)
+LOCATION:187 S
+DESCRIPTION:Gospodarka służby żywnościowej w czasie pokoju\nRodzaj: eg
+ zamin poprawkowy\nProwadzący: dr Spychała Dariusz\nNr zajęć: 1/1\nBlo
+ k: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:855ea5c4de24c640f010f735@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270129T114000
+DTEND;TZID=Europe/Warsaw:20270129T131500
+SUMMARY:Dpl (Ep)
+DESCRIPTION:Dowodzenie pododdziałem logistycznym\nRodzaj: egzamin poprawk
+ owy\nProwadzący: prof. dr hab. Pawlisiak Mieczysław\nNr zajęć: 1/1\nB
+ lok: 3
+END:VEVENT
+END:VCALENDAR

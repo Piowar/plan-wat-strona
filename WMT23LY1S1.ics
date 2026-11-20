@@ -1,0 +1,827 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WMT23LY1S1
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:b0eb5ff742d869fb5038dcba@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261012T095000
+DTEND;TZID=Europe/Warsaw:20261012T112500
+SUMMARY:Dmoai (ć)
+LOCATION:12 H7
+DESCRIPTION:Design and Manufacture of Airframes\nRodzaj: ćwiczenia\nProwa
+ dzący: ppłk dr inż. Leszczyński Piotr\nNr zajęć: 1/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a77b02263aa56c8bb014e9e2@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261012T114000
+DTEND;TZID=Europe/Warsaw:20261012T131500
+SUMMARY:FlightM (w)
+LOCATION:24 67
+DESCRIPTION:Flight Mechanics\nRodzaj: wykład\nProwadzący: dr inż. Majch
+ er Maciej\nNr zajęć: 1/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:dec6697aec9b0aa185a565f5@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261019T080000
+DTEND;TZID=Europe/Warsaw:20261019T093500
+SUMMARY:Dmoai (L)
+LOCATION:4 H7
+DESCRIPTION:Design and Manufacture of Airframes\nRodzaj: laboratorium\nPro
+ wadzący: ppor. mgr inż. Barca Iga\nNr zajęć: 1/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d5574e609a0deaebcdddb6c1@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261019T095000
+DTEND;TZID=Europe/Warsaw:20261019T112500
+SUMMARY:Dmoai (ć)
+LOCATION:12 H7
+DESCRIPTION:Design and Manufacture of Airframes\nRodzaj: ćwiczenia\nProwa
+ dzący: ppłk dr inż. Leszczyński Piotr\nNr zajęć: 2/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:23cbdae8a5c420021b529f9a@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261020T114000
+DTEND;TZID=Europe/Warsaw:20261020T131500
+SUMMARY:Aircon (w)
+LOCATION:P 66
+DESCRIPTION:Aircraft Construction\nRodzaj: wykład\nProwadzący: ppłk dr 
+ inż. Kiszkowiak Łukasz\nNr zajęć: 1/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a5188b011d885d976351c762@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261026T080000
+DTEND;TZID=Europe/Warsaw:20261026T093500
+SUMMARY:DipSe (S)
+LOCATION:34 67
+DESCRIPTION:Diploma Seminar\nRodzaj: seminarium\nProwadzący: dr inż. Grz
+ ejszczak Pączek Olga\nNr zajęć: 1/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8b51015399eaa70fbb1e55a7@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261026T095000
+DTEND;TZID=Europe/Warsaw:20261026T112500
+SUMMARY:Dmoai (ć)
+LOCATION:12 H7
+DESCRIPTION:Design and Manufacture of Airframes\nRodzaj: ćwiczenia\nProwa
+ dzący: ppłk dr inż. Leszczyński Piotr\nNr zajęć: 3/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8aa0b154a5dcd7b6f6507aa7@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261026T114000
+DTEND;TZID=Europe/Warsaw:20261026T131500
+SUMMARY:FlightM (w)
+LOCATION:24 67
+DESCRIPTION:Flight Mechanics\nRodzaj: wykład\nProwadzący: dr inż. Majch
+ er Maciej\nNr zajęć: 2/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c98b75df10db0e61b3cba619@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261027T095000
+DTEND;TZID=Europe/Warsaw:20261027T112500
+SUMMARY:Aircon (P)
+LOCATION:34 67
+DESCRIPTION:Aircraft Construction\nRodzaj: projekt\nProwadzący: mgr inż.
+  Syta Borys\nNr zajęć: 1/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2f71765e75e1f3b24647538b@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261027T114000
+DTEND;TZID=Europe/Warsaw:20261027T131500
+SUMMARY:Aircon (w)
+LOCATION:P 66
+DESCRIPTION:Aircraft Construction\nRodzaj: wykład\nProwadzący: ppłk dr 
+ inż. Kiszkowiak Łukasz\nNr zajęć: 2/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:73d3a2115d94c19586c6b5b0@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261028T080000
+DTEND;TZID=Europe/Warsaw:20261028T093500
+SUMMARY:FlightM (L)
+LOCATION:41 67
+DESCRIPTION:Flight Mechanics\nRodzaj: laboratorium\nProwadzący: dr inż. 
+ Frant Michał\nNr zajęć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:bc69974aafba50513f2f4cbb@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261028T095000
+DTEND;TZID=Europe/Warsaw:20261028T112500
+SUMMARY:FlightM (L)
+LOCATION:41 67
+DESCRIPTION:Flight Mechanics\nRodzaj: laboratorium\nProwadzący: dr inż. 
+ Frant Michał\nNr zajęć: 2/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:973dbcf73006b8e66fe5a3cb@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261028T133000
+DTEND;TZID=Europe/Warsaw:20261028T150500
+SUMMARY:Aircon (ć)
+LOCATION:P 66
+DESCRIPTION:Aircraft Construction\nRodzaj: ćwiczenia\nProwadzący: mgr in
+ ż. Syta Borys\nNr zajęć: 1/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e6f8675f96e948faa0af127b@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261102T080000
+DTEND;TZID=Europe/Warsaw:20261102T093500
+SUMMARY:AME (w)
+LOCATION:12 H7
+DESCRIPTION:Aircraft Maintenance Enginnering\nRodzaj: wykład\nProwadzący
+ : dr inż. Tkaczuk Sławomir\nNr zajęć: 1/20\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0708af8b9d24d5d4da59c7b7@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261102T095000
+DTEND;TZID=Europe/Warsaw:20261102T112500
+SUMMARY:AME (w)
+LOCATION:12 H7
+DESCRIPTION:Aircraft Maintenance Enginnering\nRodzaj: wykład\nProwadzący
+ : dr inż. Tkaczuk Sławomir\nNr zajęć: 2/20\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:99615f0bbca723f154483f2b@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261102T114000
+DTEND;TZID=Europe/Warsaw:20261102T131500
+SUMMARY:FlightM (ć)
+LOCATION:24 67
+DESCRIPTION:Flight Mechanics\nRodzaj: ćwiczenia\nProwadzący: mgr inż. M
+ isiak Zawadzka Aneta\nNr zajęć: 1/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5ab2d74656bc3892dc13de5c@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261103T080000
+DTEND;TZID=Europe/Warsaw:20261103T093500
+SUMMARY:DipSe (S)
+LOCATION:34 67
+DESCRIPTION:Diploma Seminar\nRodzaj: seminarium\nProwadzący: dr inż. Grz
+ ejszczak Pączek Olga\nNr zajęć: 2/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ac95226eba8ccf533c825419@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261103T095000
+DTEND;TZID=Europe/Warsaw:20261103T112500
+SUMMARY:Aircon (P)
+LOCATION:34 67
+DESCRIPTION:Aircraft Construction\nRodzaj: projekt\nProwadzący: mgr inż.
+  Syta Borys\nNr zajęć: 2/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f8803c5261fbafe4f5e9e354@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261103T133000
+DTEND;TZID=Europe/Warsaw:20261103T150500
+SUMMARY:Dmoai (L)
+LOCATION:4 H7
+DESCRIPTION:Design and Manufacture of Airframes\nRodzaj: laboratorium\nPro
+ wadzący: dr inż. Tkaczuk Sławomir\nNr zajęć: 2/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4cc30a79dedb40003a472518@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261104T080000
+DTEND;TZID=Europe/Warsaw:20261104T093500
+SUMMARY:FlightM (L)
+LOCATION:41 67
+DESCRIPTION:Flight Mechanics\nRodzaj: laboratorium\nProwadzący: dr inż. 
+ Frant Michał\nNr zajęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:71149cd5d20005d843f98b0c@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261104T095000
+DTEND;TZID=Europe/Warsaw:20261104T112500
+SUMMARY:FlightM (L)
+LOCATION:41 67
+DESCRIPTION:Flight Mechanics\nRodzaj: laboratorium\nProwadzący: dr inż. 
+ Frant Michał\nNr zajęć: 4/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:469f424863c765964a365bbe@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261104T114000
+DTEND;TZID=Europe/Warsaw:20261104T131500
+SUMMARY:Aircon (ć)
+LOCATION:34 67
+DESCRIPTION:Aircraft Construction\nRodzaj: ćwiczenia\nProwadzący: mgr in
+ ż. Syta Borys\nNr zajęć: 2/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:57b12ccab364f507ba555c7e@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261109T080000
+DTEND;TZID=Europe/Warsaw:20261109T093500
+SUMMARY:AME (w)
+LOCATION:12 H7
+DESCRIPTION:Aircraft Maintenance Enginnering\nRodzaj: wykład\nProwadzący
+ : dr inż. Tkaczuk Sławomir\nNr zajęć: 3/20\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2643217c269527e6e213a4cb@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261109T095000
+DTEND;TZID=Europe/Warsaw:20261109T112500
+SUMMARY:AME (w)
+LOCATION:12 H7
+DESCRIPTION:Aircraft Maintenance Enginnering\nRodzaj: wykład\nProwadzący
+ : dr inż. Tkaczuk Sławomir\nNr zajęć: 4/20\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7da4ec008ad8c3007544fc1c@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261109T114000
+DTEND;TZID=Europe/Warsaw:20261109T131500
+SUMMARY:FlightM (w)
+LOCATION:24 67
+DESCRIPTION:Flight Mechanics\nRodzaj: wykład\nProwadzący: dr inż. Majch
+ er Maciej\nNr zajęć: 3/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:28745fe4669de89aab713769@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261110T095000
+DTEND;TZID=Europe/Warsaw:20261110T112500
+SUMMARY:Aircon (P)
+LOCATION:34 67
+DESCRIPTION:Aircraft Construction\nRodzaj: projekt\nProwadzący: mgr inż.
+  Syta Borys\nNr zajęć: 3/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c356284cf6e83c7f09ed8490@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261110T114000
+DTEND;TZID=Europe/Warsaw:20261110T131500
+SUMMARY:Aircon (w)
+LOCATION:P 66
+DESCRIPTION:Aircraft Construction\nRodzaj: wykład\nProwadzący: ppłk dr 
+ inż. Kiszkowiak Łukasz\nNr zajęć: 3/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5d676e27ef8e6d76df68c697@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261110T133000
+DTEND;TZID=Europe/Warsaw:20261110T150500
+SUMMARY:Dmoai (L)
+LOCATION:4 H7
+DESCRIPTION:Design and Manufacture of Airframes\nRodzaj: laboratorium\nPro
+ wadzący: dr inż. Tkaczuk Sławomir\nNr zajęć: 3/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d636b5f4fe3510b82933986f@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261116T080000
+DTEND;TZID=Europe/Warsaw:20261116T093500
+SUMMARY:DipSe (S)
+LOCATION:34 67
+DESCRIPTION:Diploma Seminar\nRodzaj: seminarium\nProwadzący: dr inż. Grz
+ ejszczak Pączek Olga\nNr zajęć: 3/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:327d1f04822715acc759be8c@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261116T095000
+DTEND;TZID=Europe/Warsaw:20261116T112500
+SUMMARY:Dmoai (ć)
+LOCATION:12 H7
+DESCRIPTION:Design and Manufacture of Airframes\nRodzaj: ćwiczenia\nProwa
+ dzący: ppłk dr inż. Leszczyński Piotr\nNr zajęć: 4/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7b08a18346026cc25030097c@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261116T114000
+DTEND;TZID=Europe/Warsaw:20261116T131500
+SUMMARY:FlightM (ć)
+LOCATION:24 67
+DESCRIPTION:Flight Mechanics\nRodzaj: ćwiczenia\nProwadzący: mgr inż. M
+ isiak Zawadzka Aneta\nNr zajęć: 2/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:896c72ad9851683196e9d10a@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261117T095000
+DTEND;TZID=Europe/Warsaw:20261117T112500
+SUMMARY:Aircon (P)
+LOCATION:34 67
+DESCRIPTION:Aircraft Construction\nRodzaj: projekt\nProwadzący: mgr inż.
+  Syta Borys\nNr zajęć: 4/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b42053e68ed61a31a631b59b@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261117T114000
+DTEND;TZID=Europe/Warsaw:20261117T131500
+SUMMARY:AME (w)
+LOCATION:12 H7
+DESCRIPTION:Aircraft Maintenance Enginnering\nRodzaj: wykład\nProwadzący
+ : dr inż. Tkaczuk Sławomir\nNr zajęć: 5/20\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e051b4628a4e637910edf074@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261117T133000
+DTEND;TZID=Europe/Warsaw:20261117T150500
+SUMMARY:AME (w)
+LOCATION:12 H7
+DESCRIPTION:Aircraft Maintenance Enginnering\nRodzaj: wykład\nProwadzący
+ : dr inż. Tkaczuk Sławomir\nNr zajęć: 6/20\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:374fb829910aa31073e527d1@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261117T160000
+DTEND;TZID=Europe/Warsaw:20261117T173500
+SUMMARY:DipSe (S)
+LOCATION:S1 72
+DESCRIPTION:Diploma Seminar\nRodzaj: seminarium\nProwadzący: dr inż. Grz
+ ejszczak Pączek Olga\nNr zajęć: 4/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:72120d7c89c1cc746a9f4a65@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261118T080000
+DTEND;TZID=Europe/Warsaw:20261118T093500
+SUMMARY:AME (w)
+LOCATION:12 H7
+DESCRIPTION:Aircraft Maintenance Enginnering\nRodzaj: wykład\nProwadzący
+ : dr inż. Tkaczuk Sławomir\nNr zajęć: 7/20\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4b5c0dc5a0e732d72a58e68a@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261118T095000
+DTEND;TZID=Europe/Warsaw:20261118T112500
+SUMMARY:AME (w)
+LOCATION:12 H7
+DESCRIPTION:Aircraft Maintenance Enginnering\nRodzaj: wykład\nProwadzący
+ : dr inż. Tkaczuk Sławomir\nNr zajęć: 8/20\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9bebfa8d180dd0e44c19c334@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261118T133000
+DTEND;TZID=Europe/Warsaw:20261118T150500
+SUMMARY:Aircon (ć)
+LOCATION:P 66
+DESCRIPTION:Aircraft Construction\nRodzaj: ćwiczenia\nProwadzący: mgr in
+ ż. Syta Borys\nNr zajęć: 3/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:075f3c57bf4fd2ccdefb0191@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261123T080000
+DTEND;TZID=Europe/Warsaw:20261123T093500
+SUMMARY:AME (w)
+LOCATION:12 H7
+DESCRIPTION:Aircraft Maintenance Enginnering\nRodzaj: wykład\nProwadzący
+ : dr inż. Tkaczuk Sławomir\nNr zajęć: 9/20\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8e08edba781365cf028bde08@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261123T095000
+DTEND;TZID=Europe/Warsaw:20261123T112500
+SUMMARY:AME (w)
+LOCATION:12 H7
+DESCRIPTION:Aircraft Maintenance Enginnering\nRodzaj: wykład\nProwadzący
+ : dr inż. Tkaczuk Sławomir\nNr zajęć: 10/20\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:eabb811c570b88f0d232f193@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261123T114000
+DTEND;TZID=Europe/Warsaw:20261123T131500
+SUMMARY:FlightM (w)
+LOCATION:24 67
+DESCRIPTION:Flight Mechanics\nRodzaj: wykład\nProwadzący: dr inż. Majch
+ er Maciej\nNr zajęć: 4/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:22addc4a10c60c66d16a1a4d@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261124T095000
+DTEND;TZID=Europe/Warsaw:20261124T112500
+SUMMARY:Aircon (P)
+LOCATION:34 67
+DESCRIPTION:Aircraft Construction\nRodzaj: projekt\nProwadzący: mgr inż.
+  Syta Borys\nNr zajęć: 5/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a46bdf286ca2f76ffd95e5fb@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261124T114000
+DTEND;TZID=Europe/Warsaw:20261124T131500
+SUMMARY:AME (w)
+LOCATION:12 H7
+DESCRIPTION:Aircraft Maintenance Enginnering\nRodzaj: wykład\nProwadzący
+ : dr inż. Tkaczuk Sławomir\nNr zajęć: 11/20\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:793498ad63450bad3f422732@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261124T133000
+DTEND;TZID=Europe/Warsaw:20261124T150500
+SUMMARY:AME (w)
+LOCATION:12 H7
+DESCRIPTION:Aircraft Maintenance Enginnering\nRodzaj: wykład\nProwadzący
+ : dr inż. Tkaczuk Sławomir\nNr zajęć: 12/20\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:34831aaedbd3eb157c87ad6b@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261124T160000
+DTEND;TZID=Europe/Warsaw:20261124T173500
+SUMMARY:Aircon (w)
+LOCATION:34 67
+DESCRIPTION:Aircraft Construction\nRodzaj: wykład\nProwadzący: ppłk dr 
+ inż. Kiszkowiak Łukasz\nNr zajęć: 4/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:3b4c7fbb5a05bd63daaf1d91@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261125T080000
+DTEND;TZID=Europe/Warsaw:20261125T093500
+SUMMARY:DipSe (S)
+LOCATION:34 67
+DESCRIPTION:Diploma Seminar\nRodzaj: seminarium\nProwadzący: dr inż. Grz
+ ejszczak Pączek Olga\nNr zajęć: 5/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f4548de392dad60ddeb1abd1@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261125T095000
+DTEND;TZID=Europe/Warsaw:20261125T112500
+SUMMARY:Dmoai (L)
+LOCATION:4 H7
+DESCRIPTION:Design and Manufacture of Airframes\nRodzaj: laboratorium\nPro
+ wadzący: ppłk dr inż. Leszczyński Piotr\nNr zajęć: 4/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d7971c781d55b62651b05d77@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261125T114000
+DTEND;TZID=Europe/Warsaw:20261125T131500
+SUMMARY:FlightM (w)
+LOCATION:24 67
+DESCRIPTION:Flight Mechanics\nRodzaj: wykład\nProwadzący: dr inż. Majch
+ er Maciej\nNr zajęć: 5/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:68769a32bb139e9c072d752b@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261130T080000
+DTEND;TZID=Europe/Warsaw:20261130T093500
+SUMMARY:DipSe (S)
+LOCATION:34 67
+DESCRIPTION:Diploma Seminar\nRodzaj: seminarium\nProwadzący: dr inż. Grz
+ ejszczak Pączek Olga\nNr zajęć: 6/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ec9647431d29d1946285556b@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261130T095000
+DTEND;TZID=Europe/Warsaw:20261130T112500
+SUMMARY:Dmoai (ć)
+LOCATION:12 H7
+DESCRIPTION:Design and Manufacture of Airframes\nRodzaj: ćwiczenia\nProwa
+ dzący: ppłk dr inż. Leszczyński Piotr\nNr zajęć: 5/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5bcd544c061d6b5b1c136b11@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261130T114000
+DTEND;TZID=Europe/Warsaw:20261130T131500
+SUMMARY:FlightM (ć)
+LOCATION:24 67
+DESCRIPTION:Flight Mechanics\nRodzaj: ćwiczenia\nProwadzący: mgr inż. M
+ isiak Zawadzka Aneta\nNr zajęć: 3/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:cb9a5430ec63041f8f2ea6e8@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261130T133000
+DTEND;TZID=Europe/Warsaw:20261130T150500
+SUMMARY:DipSe (S)
+LOCATION:34 67
+DESCRIPTION:Diploma Seminar\nRodzaj: seminarium\nProwadzący: dr inż. Grz
+ ejszczak Pączek Olga\nNr zajęć: 7/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9c07e2618ba2bfe3e91b5943@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261201T095000
+DTEND;TZID=Europe/Warsaw:20261201T112500
+SUMMARY:Dmoai (L)
+LOCATION:4 H7
+DESCRIPTION:Design and Manufacture of Airframes\nRodzaj: laboratorium\nPro
+ wadzący: ppłk dr inż. Leszczyński Piotr\nNr zajęć: 5/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:36008fc086ac27497e378978@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261201T114000
+DTEND;TZID=Europe/Warsaw:20261201T131500
+SUMMARY:AME (w)
+LOCATION:12 H7
+DESCRIPTION:Aircraft Maintenance Enginnering\nRodzaj: wykład\nProwadzący
+ : dr inż. Tkaczuk Sławomir\nNr zajęć: 13/20\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0b3e82961e1f7d69b74039f1@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261201T133000
+DTEND;TZID=Europe/Warsaw:20261201T150500
+SUMMARY:AME (w)
+LOCATION:12 H7
+DESCRIPTION:Aircraft Maintenance Enginnering\nRodzaj: wykład\nProwadzący
+ : dr inż. Tkaczuk Sławomir\nNr zajęć: 14/20\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:439f521f5ce092a1a6bd9132@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261201T160000
+DTEND;TZID=Europe/Warsaw:20261201T173500
+SUMMARY:DipSe (S)
+LOCATION:S1 72
+DESCRIPTION:Diploma Seminar\nRodzaj: seminarium\nProwadzący: dr inż. Grz
+ ejszczak Pączek Olga\nNr zajęć: 8/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:3a4aca3099a214fae30c1598@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261201T175000
+DTEND;TZID=Europe/Warsaw:20261201T192500
+SUMMARY:DipSe (S)
+LOCATION:S1 72
+DESCRIPTION:Diploma Seminar\nRodzaj: seminarium\nProwadzący: dr inż. Grz
+ ejszczak Pączek Olga\nNr zajęć: 9/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:a48f8e15f6779b9457ffc437@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261207T080000
+DTEND;TZID=Europe/Warsaw:20261207T093500
+SUMMARY:Aircon (P)
+LOCATION:34 67
+DESCRIPTION:Aircraft Construction\nRodzaj: projekt\nProwadzący: mgr inż.
+  Syta Borys\nNr zajęć: 6/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:cf543ae7e1dce43de4051656@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261207T095000
+DTEND;TZID=Europe/Warsaw:20261207T112500
+SUMMARY:Dmoai (ć)
+LOCATION:12 H7
+DESCRIPTION:Design and Manufacture of Airframes\nRodzaj: ćwiczenia\nProwa
+ dzący: ppłk dr inż. Leszczyński Piotr\nNr zajęć: 6/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4577e9353cd50edb418684a1@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261207T114000
+DTEND;TZID=Europe/Warsaw:20261207T131500
+SUMMARY:FlightM (w)
+LOCATION:24 67
+DESCRIPTION:Flight Mechanics\nRodzaj: wykład\nProwadzący: dr inż. Majch
+ er Maciej\nNr zajęć: 6/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a75cf165b1bb317e5ab7ed6e@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261208T095000
+DTEND;TZID=Europe/Warsaw:20261208T112500
+SUMMARY:Dmoai (L)
+LOCATION:4 H7
+DESCRIPTION:Design and Manufacture of Airframes\nRodzaj: laboratorium\nPro
+ wadzący: dr inż. Tkaczuk Sławomir\nNr zajęć: 6/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ed7c3283d9893d46247d4921@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261208T114000
+DTEND;TZID=Europe/Warsaw:20261208T131500
+SUMMARY:AME (w)
+LOCATION:12 H7
+DESCRIPTION:Aircraft Maintenance Enginnering\nRodzaj: wykład\nProwadzący
+ : dr inż. Tkaczuk Sławomir\nNr zajęć: 15/20\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b0f158fad6216489469edcd4@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261208T133000
+DTEND;TZID=Europe/Warsaw:20261208T150500
+SUMMARY:AME (w)
+LOCATION:12 H7
+DESCRIPTION:Aircraft Maintenance Enginnering\nRodzaj: wykład\nProwadzący
+ : dr inż. Tkaczuk Sławomir\nNr zajęć: 16/20\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f2d4450628817ce9ad0126e5@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261208T160000
+DTEND;TZID=Europe/Warsaw:20261208T173500
+SUMMARY:DipSe (S)
+LOCATION:S1 72
+DESCRIPTION:Diploma Seminar\nRodzaj: seminarium\nProwadzący: dr inż. Grz
+ ejszczak Pączek Olga\nNr zajęć: 10/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:3451ad65fd30e48166ee4880@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261208T175000
+DTEND;TZID=Europe/Warsaw:20261208T192500
+SUMMARY:DipSe (S)
+LOCATION:S1 72
+DESCRIPTION:Diploma Seminar\nRodzaj: seminarium\nProwadzący: dr inż. Grz
+ ejszczak Pączek Olga\nNr zajęć: 11/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:e86da8bbbb31a704787406a6@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261209T080000
+DTEND;TZID=Europe/Warsaw:20261209T093500
+SUMMARY:DipSe (S)
+LOCATION:S1 72
+DESCRIPTION:Diploma Seminar\nRodzaj: seminarium\nProwadzący: dr inż. Grz
+ ejszczak Pączek Olga\nNr zajęć: 12/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f08daa936e08e797d5e13025@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261209T095000
+DTEND;TZID=Europe/Warsaw:20261209T112500
+SUMMARY:Dmoai (L)
+LOCATION:4 H7
+DESCRIPTION:Design and Manufacture of Airframes\nRodzaj: laboratorium\nPro
+ wadzący: ppłk dr inż. Leszczyński Piotr\nNr zajęć: 7/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e1f33be295e0d994c11b4ac6@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261209T114000
+DTEND;TZID=Europe/Warsaw:20261209T131500
+SUMMARY:FlightM (w)
+LOCATION:24 67
+DESCRIPTION:Flight Mechanics\nRodzaj: wykład\nProwadzący: dr inż. Majch
+ er Maciej\nNr zajęć: 7/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d60247f735ca7c75351fa54f@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261214T080000
+DTEND;TZID=Europe/Warsaw:20261214T093500
+SUMMARY:Aircon (P)
+LOCATION:34 67
+DESCRIPTION:Aircraft Construction\nRodzaj: projekt\nProwadzący: mgr inż.
+  Syta Borys\nNr zajęć: 7/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:642b2ad923ce4fde1a883c01@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261214T114000
+DTEND;TZID=Europe/Warsaw:20261214T131500
+SUMMARY:FlightM (w)
+LOCATION:24 67
+DESCRIPTION:Flight Mechanics\nRodzaj: wykład\nProwadzący: dr inż. Majch
+ er Maciej\nNr zajęć: 8/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:dff758c43b67eca10eb4da33@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261215T095000
+DTEND;TZID=Europe/Warsaw:20261215T112500
+SUMMARY:Dmoai (L)
+LOCATION:4 H7
+DESCRIPTION:Design and Manufacture of Airframes\nRodzaj: laboratorium\nPro
+ wadzący: dr inż. Tkaczuk Sławomir\nNr zajęć: 8/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:30629b42ce402c415b5c9a26@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261215T114000
+DTEND;TZID=Europe/Warsaw:20261215T131500
+SUMMARY:AME (w)
+LOCATION:12 H7
+DESCRIPTION:Aircraft Maintenance Enginnering\nRodzaj: wykład\nProwadzący
+ : dr inż. Tkaczuk Sławomir\nNr zajęć: 17/20\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:52620382c0bd7a2f86a34b16@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261215T133000
+DTEND;TZID=Europe/Warsaw:20261215T150500
+SUMMARY:AME (w)
+LOCATION:12 H7
+DESCRIPTION:Aircraft Maintenance Enginnering\nRodzaj: wykład\nProwadzący
+ : dr inż. Tkaczuk Sławomir\nNr zajęć: 18/20\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c4856719c84d15fd1e8648be@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261215T160000
+DTEND;TZID=Europe/Warsaw:20261215T173500
+SUMMARY:DipSe (S)
+LOCATION:S1 72
+DESCRIPTION:Diploma Seminar\nRodzaj: seminarium\nProwadzący: dr inż. Grz
+ ejszczak Pączek Olga\nNr zajęć: 13/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:fb95c80b01c214443af38dbe@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261215T175000
+DTEND;TZID=Europe/Warsaw:20261215T192500
+SUMMARY:DipSe (S)
+LOCATION:S1 72
+DESCRIPTION:Diploma Seminar\nRodzaj: seminarium\nProwadzący: dr inż. Grz
+ ejszczak Pączek Olga\nNr zajęć: 14/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:3b5929ed842ab2484ca14e2b@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261221T080000
+DTEND;TZID=Europe/Warsaw:20261221T093500
+SUMMARY:Aircon (P)
+LOCATION:34 67
+DESCRIPTION:Aircraft Construction\nRodzaj: projekt\nProwadzący: mgr inż.
+  Syta Borys\nNr zajęć: 8/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0c0d963cdbf23bab001d74e7@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261221T095000
+DTEND;TZID=Europe/Warsaw:20261221T112500
+SUMMARY:Dmoai (L)
+LOCATION:4 H7
+DESCRIPTION:Design and Manufacture of Airframes\nRodzaj: laboratorium\nPro
+ wadzący: ppłk dr inż. Leszczyński Piotr\nNr zajęć: 9/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:07eaff10476ce3182d96d0e4@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261222T114000
+DTEND;TZID=Europe/Warsaw:20261222T131500
+SUMMARY:AME (w)
+LOCATION:12 H7
+DESCRIPTION:Aircraft Maintenance Enginnering\nRodzaj: wykład\nProwadzący
+ : dr inż. Tkaczuk Sławomir\nNr zajęć: 19/20\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7792784b0add6a32ae77b0b6@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261222T133000
+DTEND;TZID=Europe/Warsaw:20261222T150500
+SUMMARY:AME (w)
+LOCATION:12 H7
+DESCRIPTION:Aircraft Maintenance Enginnering\nRodzaj: wykład\nProwadzący
+ : dr inż. Tkaczuk Sławomir\nNr zajęć: 20/20\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:dda107e6c29588269182627e@wat-plan
+DTSTAMP:20261118T142915Z
+DTSTART;TZID=Europe/Warsaw:20261222T160000
+DTEND;TZID=Europe/Warsaw:20261222T173500
+SUMMARY:DipSe (S)
+LOCATION:34 67
+DESCRIPTION:Diploma Seminar\nRodzaj: seminarium\nProwadzący: dr inż. Grz
+ ejszczak Pączek Olga\nNr zajęć: 15/15\nBlok: 5
+END:VEVENT
+END:VCALENDAR

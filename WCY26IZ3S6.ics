@@ -1,0 +1,647 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WCY26IZ3S6
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:86961df2defbcfc2d85f12ab@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261012T080000
+DTEND;TZID=Europe/Warsaw:20261012T093500
+SUMMARY:Sws (Inne)
+LOCATION:klub WAT
+DESCRIPTION:Spotkanie organizacyjne\nRodzaj: inne\nNr zajęć: 1/1\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9d698af6725757c41ff07a6f@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261012T095000
+DTEND;TZID=Europe/Warsaw:20261012T112500
+SUMMARY:Lan (w)
+LOCATION:205 65
+DESCRIPTION:Administrowanie i konfiguracja sieci LAN\nRodzaj: wykład\nPro
+ wadzący: Malinowski Tomasz\nNr zajęć: 1/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8cf4ee433aee336a0287f27f@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261012T114000
+DTEND;TZID=Europe/Warsaw:20261012T131500
+SUMMARY:Lan (w)
+LOCATION:205 65
+DESCRIPTION:Administrowanie i konfiguracja sieci LAN\nRodzaj: wykład\nPro
+ wadzący: Malinowski Tomasz\nNr zajęć: 2/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:077ae0404622ca8bf236a90a@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261013T175000
+DTEND;TZID=Europe/Warsaw:20261013T192500
+SUMMARY:Rou (w)
+LOCATION:101 65
+DESCRIPTION:Routing w sieciach komputerowych\nRodzaj: wykład\nProwadzący
+ : Skibniewski Łukasz\nNr zajęć: 1/5\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:9c6d00b6e75b621694c9fccf@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261013T194000
+DTEND;TZID=Europe/Warsaw:20261013T211500
+SUMMARY:Rou (w)
+LOCATION:101 65
+DESCRIPTION:Routing w sieciach komputerowych\nRodzaj: wykład\nProwadzący
+ : Skibniewski Łukasz\nNr zajęć: 2/5\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:1e001e62df47169cd6850f23@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261014T080000
+DTEND;TZID=Europe/Warsaw:20261014T093500
+SUMMARY:zsw (w)
+LOCATION:201 65
+DESCRIPTION:Zarządzanie środowiskiem Windows\nRodzaj: wykład\nProwadzą
+ cy: Mielniczuk Łukasz\nNr zajęć: 1/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2f1757d4dd825b2d1bc1146a@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261014T095000
+DTEND;TZID=Europe/Warsaw:20261014T112500
+SUMMARY:zsw (w)
+LOCATION:201 65
+DESCRIPTION:Zarządzanie środowiskiem Windows\nRodzaj: wykład\nProwadzą
+ cy: Mielniczuk Łukasz\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8f43c37771c4d4993e54f75e@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261014T114000
+DTEND;TZID=Europe/Warsaw:20261014T131500
+SUMMARY:Rou (L)
+LOCATION:120 65
+DESCRIPTION:Routing w sieciach komputerowych\nRodzaj: laboratorium\nProwad
+ zący: Skibniewski Łukasz\nNr zajęć: 1/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2d3b13993056113427fedbf6@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261014T133000
+DTEND;TZID=Europe/Warsaw:20261014T150500
+SUMMARY:Rou (L)
+LOCATION:120 65
+DESCRIPTION:Routing w sieciach komputerowych\nRodzaj: laboratorium\nProwad
+ zący: Skibniewski Łukasz\nNr zajęć: 2/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:04227762a66e15bd057d62f6@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261015T095000
+DTEND;TZID=Europe/Warsaw:20261015T112500
+SUMMARY:Lan (L)
+LOCATION:120 65
+DESCRIPTION:Administrowanie i konfiguracja sieci LAN\nRodzaj: laboratorium
+ \nProwadzący: Mazur Dagmara\nNr zajęć: 1/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:67edbc032668914d716dc6e9@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261015T114000
+DTEND;TZID=Europe/Warsaw:20261015T131500
+SUMMARY:Lan (L)
+LOCATION:120 65
+DESCRIPTION:Administrowanie i konfiguracja sieci LAN\nRodzaj: laboratorium
+ \nProwadzący: Mazur Dagmara\nNr zajęć: 2/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:461e4699e909fba780353606@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261016T080000
+DTEND;TZID=Europe/Warsaw:20261016T093500
+SUMMARY:zsw (L)
+LOCATION:120 65
+DESCRIPTION:Zarządzanie środowiskiem Windows\nRodzaj: laboratorium\nProw
+ adzący: Mielniczuk Łukasz\nNr zajęć: 1/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3ccd6e2894bf86ce58516d86@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261016T095000
+DTEND;TZID=Europe/Warsaw:20261016T112500
+SUMMARY:zsl (w)
+LOCATION:205 65
+DESCRIPTION:Zarządzanie środowiskiem Linux\nRodzaj: wykład\nProwadzący
+ : Machowski Sławomir\nNr zajęć: 1/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:bbc3673a1e2f563cf2850a74@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261016T114000
+DTEND;TZID=Europe/Warsaw:20261016T131500
+SUMMARY:zsl (w)
+LOCATION:205 65
+DESCRIPTION:Zarządzanie środowiskiem Linux\nRodzaj: wykład\nProwadzący
+ : Machowski Sławomir\nNr zajęć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a553ce17f411f5a85b8650c1@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261019T080000
+DTEND;TZID=Europe/Warsaw:20261019T093500
+SUMMARY:Lan (w)
+LOCATION:205 65
+DESCRIPTION:Administrowanie i konfiguracja sieci LAN\nRodzaj: wykład\nPro
+ wadzący: Malinowski Tomasz\nNr zajęć: 3/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:92e9dd2b5306b73ae565f94c@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261019T095000
+DTEND;TZID=Europe/Warsaw:20261019T112500
+SUMMARY:Lan (w)
+LOCATION:205 65
+DESCRIPTION:Administrowanie i konfiguracja sieci LAN\nRodzaj: wykład\nPro
+ wadzący: Malinowski Tomasz\nNr zajęć: 4/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8615c41ba9a0338ca87b47eb@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261019T114000
+DTEND;TZID=Europe/Warsaw:20261019T131500
+SUMMARY:zsl (w)
+LOCATION:205 65
+DESCRIPTION:Zarządzanie środowiskiem Linux\nRodzaj: wykład\nProwadzący
+ : Machowski Sławomir\nNr zajęć: 3/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ff64bc06c137a5aab6e7bad7@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261019T133000
+DTEND;TZID=Europe/Warsaw:20261019T150500
+SUMMARY:zsl (w)
+LOCATION:205 65
+DESCRIPTION:Zarządzanie środowiskiem Linux\nRodzaj: wykład\nProwadzący
+ : Machowski Sławomir\nNr zajęć: 4/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9fd52d86d54f7f8bfad6cd08@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261020T095000
+DTEND;TZID=Europe/Warsaw:20261020T112500
+SUMMARY:zsw (w)
+LOCATION:101 65
+DESCRIPTION:Zarządzanie środowiskiem Windows\nRodzaj: wykład\nProwadzą
+ cy: Mielniczuk Łukasz\nNr zajęć: 3/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c19e5a5d14277199428391f8@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261020T114000
+DTEND;TZID=Europe/Warsaw:20261020T131500
+SUMMARY:Rou (L)
+LOCATION:121 65
+DESCRIPTION:Routing w sieciach komputerowych\nRodzaj: laboratorium\nProwad
+ zący: Skibniewski Łukasz\nNr zajęć: 3/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:dac66c57fc99dd8762cda439@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261020T133000
+DTEND;TZID=Europe/Warsaw:20261020T150500
+SUMMARY:Rou (L)
+LOCATION:121 65
+DESCRIPTION:Routing w sieciach komputerowych\nRodzaj: laboratorium\nProwad
+ zący: Skibniewski Łukasz\nNr zajęć: 4/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2af520ee2d445286316607ef@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261021T080000
+DTEND;TZID=Europe/Warsaw:20261021T093500
+SUMMARY:Lan (L)
+LOCATION:120 65
+DESCRIPTION:Administrowanie i konfiguracja sieci LAN\nRodzaj: laboratorium
+ \nProwadzący: Mazur Dagmara\nNr zajęć: 3/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a25e70b17639217b14bb9070@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261021T095000
+DTEND;TZID=Europe/Warsaw:20261021T112500
+SUMMARY:Lan (L)
+LOCATION:120 65
+DESCRIPTION:Administrowanie i konfiguracja sieci LAN\nRodzaj: laboratorium
+ \nProwadzący: Mazur Dagmara\nNr zajęć: 4/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7c593eb619c5db686f963152@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261021T114000
+DTEND;TZID=Europe/Warsaw:20261021T131500
+SUMMARY:zsw (L)
+LOCATION:106 65
+DESCRIPTION:Zarządzanie środowiskiem Windows\nRodzaj: laboratorium\nProw
+ adzący: Mielniczuk Łukasz\nNr zajęć: 2/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f02a4b703ffd4229c2f37b1f@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261021T133000
+DTEND;TZID=Europe/Warsaw:20261021T150500
+SUMMARY:zsw (L)
+LOCATION:106 65
+DESCRIPTION:Zarządzanie środowiskiem Windows\nRodzaj: laboratorium\nProw
+ adzący: Mielniczuk Łukasz\nNr zajęć: 3/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:db6558a541310bf7a7015bcc@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261022T080000
+DTEND;TZID=Europe/Warsaw:20261022T093500
+SUMMARY:zsw (L)
+LOCATION:106 65
+DESCRIPTION:Zarządzanie środowiskiem Windows\nRodzaj: laboratorium\nProw
+ adzący: Mielniczuk Łukasz\nNr zajęć: 4/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b8d06561af72d099ea823fd9@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261022T095000
+DTEND;TZID=Europe/Warsaw:20261022T112500
+SUMMARY:zsw (L)
+LOCATION:106 65
+DESCRIPTION:Zarządzanie środowiskiem Windows\nRodzaj: laboratorium\nProw
+ adzący: Mielniczuk Łukasz\nNr zajęć: 5/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f85d064f9353ac1d340e7132@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261022T160000
+DTEND;TZID=Europe/Warsaw:20261022T173500
+SUMMARY:Rou (w)
+LOCATION:120 65
+DESCRIPTION:Routing w sieciach komputerowych\nRodzaj: wykład\nProwadzący
+ : Skibniewski Łukasz\nNr zajęć: 3/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:57238a1f78f8f0fe30a54ffa@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261022T175000
+DTEND;TZID=Europe/Warsaw:20261022T192500
+SUMMARY:Rou (w)
+LOCATION:120 65
+DESCRIPTION:Routing w sieciach komputerowych\nRodzaj: wykład\nProwadzący
+ : Skibniewski Łukasz\nNr zajęć: 4/5\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:bc83cbe50ecca234d77d8e10@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261023T080000
+DTEND;TZID=Europe/Warsaw:20261023T093500
+SUMMARY:zsw (L)
+LOCATION:121 65
+DESCRIPTION:Zarządzanie środowiskiem Windows\nRodzaj: laboratorium\nProw
+ adzący: Mielniczuk Łukasz\nNr zajęć: 6/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e021a7c6f42e7580794e5f04@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261023T095000
+DTEND;TZID=Europe/Warsaw:20261023T112500
+SUMMARY:zsl (L)
+LOCATION:106 65
+DESCRIPTION:Zarządzanie środowiskiem Linux\nRodzaj: laboratorium\nProwad
+ zący: Machowski Sławomir\nNr zajęć: 1/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:50fc60ec3d49b61114266a35@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261023T114000
+DTEND;TZID=Europe/Warsaw:20261023T131500
+SUMMARY:zsl (L)
+LOCATION:106 65
+DESCRIPTION:Zarządzanie środowiskiem Linux\nRodzaj: laboratorium\nProwad
+ zący: Machowski Sławomir\nNr zajęć: 2/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:64f0fe8a45bfbd359feedd45@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261026T080000
+DTEND;TZID=Europe/Warsaw:20261026T093500
+SUMMARY:Lan (w)
+LOCATION:205 65
+DESCRIPTION:Administrowanie i konfiguracja sieci LAN\nRodzaj: wykład\nPro
+ wadzący: Malinowski Tomasz\nNr zajęć: 5/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a75e638fb5e13185a12a4511@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261026T095000
+DTEND;TZID=Europe/Warsaw:20261026T112500
+SUMMARY:Lan (w)
+LOCATION:205 65
+DESCRIPTION:Administrowanie i konfiguracja sieci LAN\nRodzaj: wykład\nPro
+ wadzący: Malinowski Tomasz\nNr zajęć: 6/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:91686e5714669da6a3ce700a@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261026T114000
+DTEND;TZID=Europe/Warsaw:20261026T131500
+SUMMARY:zsl (w)
+LOCATION:101 65
+DESCRIPTION:Zarządzanie środowiskiem Linux\nRodzaj: wykład\nProwadzący
+ : Machowski Sławomir\nNr zajęć: 5/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3d8dafb6a88648e700c12629@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261026T133000
+DTEND;TZID=Europe/Warsaw:20261026T150500
+SUMMARY:zsl (L)
+LOCATION:106 65
+DESCRIPTION:Zarządzanie środowiskiem Linux\nRodzaj: laboratorium\nProwad
+ zący: Machowski Sławomir\nNr zajęć: 3/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e424889c4bcc2922076f05cb@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261027T095000
+DTEND;TZID=Europe/Warsaw:20261027T112500
+SUMMARY:zsw (w)
+LOCATION:101 65
+DESCRIPTION:Zarządzanie środowiskiem Windows\nRodzaj: wykład\nProwadzą
+ cy: Mielniczuk Łukasz\nNr zajęć: 4/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:79b4f596675ce62447452815@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261027T114000
+DTEND;TZID=Europe/Warsaw:20261027T131500
+SUMMARY:Rou (L)
+LOCATION:121 65
+DESCRIPTION:Routing w sieciach komputerowych\nRodzaj: laboratorium\nProwad
+ zący: Skibniewski Łukasz\nNr zajęć: 5/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9da6014e0f1bb8b81a63f13a@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261027T133000
+DTEND;TZID=Europe/Warsaw:20261027T150500
+SUMMARY:Rou (L)
+LOCATION:121 65
+DESCRIPTION:Routing w sieciach komputerowych\nRodzaj: laboratorium\nProwad
+ zący: Skibniewski Łukasz\nNr zajęć: 6/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:221db93934ea0a3c3ff574cd@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261028T080000
+DTEND;TZID=Europe/Warsaw:20261028T093500
+SUMMARY:zsw (w)
+LOCATION:205 65
+DESCRIPTION:Zarządzanie środowiskiem Windows\nRodzaj: wykład\nProwadzą
+ cy: Mielniczuk Łukasz\nNr zajęć: 5/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ee5c3264ae3d5d7b0d433d6d@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261028T095000
+DTEND;TZID=Europe/Warsaw:20261028T112500
+SUMMARY:Lan (L)
+LOCATION:120 65
+DESCRIPTION:Administrowanie i konfiguracja sieci LAN\nRodzaj: laboratorium
+ \nProwadzący: Mazur Dagmara\nNr zajęć: 5/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b288b107403b5755d7b73642@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261028T114000
+DTEND;TZID=Europe/Warsaw:20261028T131500
+SUMMARY:Lan (L)
+LOCATION:120 65
+DESCRIPTION:Administrowanie i konfiguracja sieci LAN\nRodzaj: laboratorium
+ \nProwadzący: Mazur Dagmara\nNr zajęć: 6/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f611dd1e9cf83036b104afc6@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261029T080000
+DTEND;TZID=Europe/Warsaw:20261029T093500
+SUMMARY:zsw (L)
+LOCATION:106 65
+DESCRIPTION:Zarządzanie środowiskiem Windows\nRodzaj: laboratorium\nProw
+ adzący: Mielniczuk Łukasz\nNr zajęć: 7/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b44064852755b770669620b2@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261029T095000
+DTEND;TZID=Europe/Warsaw:20261029T112500
+SUMMARY:zsw (L)
+LOCATION:106 65
+DESCRIPTION:Zarządzanie środowiskiem Windows\nRodzaj: laboratorium\nProw
+ adzący: Mielniczuk Łukasz\nNr zajęć: 8/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0ea85986519d08dec0f81de5@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261030T095000
+DTEND;TZID=Europe/Warsaw:20261030T112500
+SUMMARY:zsl (L)
+LOCATION:106 65
+DESCRIPTION:Zarządzanie środowiskiem Linux\nRodzaj: laboratorium\nProwad
+ zący: Machowski Sławomir\nNr zajęć: 4/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e7dbfe675e3155997db345d4@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261030T114000
+DTEND;TZID=Europe/Warsaw:20261030T131500
+SUMMARY:zsl (L)
+LOCATION:106 65
+DESCRIPTION:Zarządzanie środowiskiem Linux\nRodzaj: laboratorium\nProwad
+ zący: Machowski Sławomir\nNr zajęć: 5/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1a9ddf1e1b1804a51299642a@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261030T133000
+DTEND;TZID=Europe/Warsaw:20261030T150500
+SUMMARY:zsw (L)
+LOCATION:106 65
+DESCRIPTION:Zarządzanie środowiskiem Windows\nRodzaj: laboratorium\nProw
+ adzący: Mielniczuk Łukasz\nNr zajęć: 9/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:334be45fc4e1bb503f846889@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261030T160000
+DTEND;TZID=Europe/Warsaw:20261030T173500
+SUMMARY:zsw (L)
+LOCATION:106 65
+DESCRIPTION:Zarządzanie środowiskiem Windows\nRodzaj: laboratorium\nProw
+ adzący: Mielniczuk Łukasz\nNr zajęć: 10/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:0e73386e643e54c14e9a19f0@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261102T080000
+DTEND;TZID=Europe/Warsaw:20261102T093500
+SUMMARY:Lan (w)
+LOCATION:205 65
+DESCRIPTION:Administrowanie i konfiguracja sieci LAN\nRodzaj: wykład\nPro
+ wadzący: Malinowski Tomasz\nNr zajęć: 7/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:392e7ad062ebb74a963f6429@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261102T095000
+DTEND;TZID=Europe/Warsaw:20261102T112500
+SUMMARY:zsl (L)
+LOCATION:106 65
+DESCRIPTION:Zarządzanie środowiskiem Linux\nRodzaj: laboratorium\nProwad
+ zący: Machowski Sławomir\nNr zajęć: 6/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:cc42a8af3d217e6d246b4bde@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261102T114000
+DTEND;TZID=Europe/Warsaw:20261102T131500
+SUMMARY:zsl (L)
+LOCATION:106 65
+DESCRIPTION:Zarządzanie środowiskiem Linux\nRodzaj: laboratorium\nProwad
+ zący: Machowski Sławomir\nNr zajęć: 7/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9eb3ff3d10bf11987ebc73a9@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261102T133000
+DTEND;TZID=Europe/Warsaw:20261102T150500
+SUMMARY:zsl (L)
+LOCATION:106 65
+DESCRIPTION:Zarządzanie środowiskiem Linux\nRodzaj: laboratorium\nProwad
+ zący: Machowski Sławomir\nNr zajęć: 8/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:644b13c908fce8f18a6db696@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261103T114000
+DTEND;TZID=Europe/Warsaw:20261103T131500
+SUMMARY:Rou (L)
+LOCATION:121 65
+DESCRIPTION:Routing w sieciach komputerowych\nRodzaj: laboratorium\nProwad
+ zący: Skibniewski Łukasz\nNr zajęć: 7/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e2c7d56d063c3e0fb9f226c0@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261103T133000
+DTEND;TZID=Europe/Warsaw:20261103T150500
+SUMMARY:Rou (L)
+LOCATION:121 65
+DESCRIPTION:Routing w sieciach komputerowych\nRodzaj: laboratorium\nProwad
+ zący: Skibniewski Łukasz\nNr zajęć: 8/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7f7b4fd50d91b5a8961c86dc@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261104T114000
+DTEND;TZID=Europe/Warsaw:20261104T131500
+SUMMARY:Lan (L)
+LOCATION:120 65
+DESCRIPTION:Administrowanie i konfiguracja sieci LAN\nRodzaj: laboratorium
+ \nProwadzący: Mazur Dagmara\nNr zajęć: 7/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2f2c36b69de9538091c6077b@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261104T133000
+DTEND;TZID=Europe/Warsaw:20261104T150500
+SUMMARY:Lan (L)
+LOCATION:120 65
+DESCRIPTION:Administrowanie i konfiguracja sieci LAN\nRodzaj: laboratorium
+ \nProwadzący: Mazur Dagmara\nNr zajęć: 8/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4dd05df3bf1bc51f674fe319@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261105T160000
+DTEND;TZID=Europe/Warsaw:20261105T173500
+SUMMARY:Rou (w)
+LOCATION:203 65
+DESCRIPTION:Routing w sieciach komputerowych\nRodzaj: wykład\nProwadzący
+ : Skibniewski Łukasz\nNr zajęć: 5/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f4a11476ea0f71f815f212e8@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261105T175000
+DTEND;TZID=Europe/Warsaw:20261105T192500
+SUMMARY:Rou (L)
+LOCATION:125 65
+DESCRIPTION:Routing w sieciach komputerowych\nRodzaj: laboratorium\nProwad
+ zący: Skibniewski Łukasz\nNr zajęć: 9/10\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:7bb663b83ca92c80d17abff1@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261105T194000
+DTEND;TZID=Europe/Warsaw:20261105T211500
+SUMMARY:Rou (L)
+LOCATION:125 65
+DESCRIPTION:Routing w sieciach komputerowych\nRodzaj: laboratorium\nProwad
+ zący: Skibniewski Łukasz\nNr zajęć: 10/10\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:23fb0193e2c0b699a70b9436@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261106T095000
+DTEND;TZID=Europe/Warsaw:20261106T112500
+SUMMARY:zsl (L)
+LOCATION:106 65
+DESCRIPTION:Zarządzanie środowiskiem Linux\nRodzaj: laboratorium\nProwad
+ zący: Machowski Sławomir\nNr zajęć: 9/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6bcb41044761d469ba9b0ebe@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261106T114000
+DTEND;TZID=Europe/Warsaw:20261106T131500
+SUMMARY:zsl (L)
+LOCATION:106 65
+DESCRIPTION:Zarządzanie środowiskiem Linux\nRodzaj: laboratorium\nProwad
+ zący: Machowski Sławomir\nNr zajęć: 10/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4ba0c52d0e696925f1bd533b@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261106T133000
+DTEND;TZID=Europe/Warsaw:20261106T150500
+SUMMARY:Espr (E)
+LOCATION:101 65
+DESCRIPTION:Egzamin sprawdzający\nRodzaj: egzamin\nProwadzący: Grad Lesz
+ ek\nNr zajęć: 1/1\nBlok: 4
+END:VEVENT
+END:VCALENDAR

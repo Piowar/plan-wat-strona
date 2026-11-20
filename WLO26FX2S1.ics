@@ -1,0 +1,2270 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WLO26FX2S1
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:7f25d8b394037270e89cb9e3@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261001T095000
+DTEND;TZID=Europe/Warsaw:20261001T112500
+SUMMARY:SIn (i)
+LOCATION:aula/ 135\; dla studentów I roku: Zarządzanie\, Logistyka
+DESCRIPTION:Spotkanie informacyjne\nRodzaj: inne\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0b09d63176be07649ce1c062@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261002T095000
+DTEND;TZID=Europe/Warsaw:20261002T112500
+SUMMARY:Ez (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Etyka zawodowa\nRodzaj: wykład\nProwadzący: dr hab. Świniar
+ ski Janusz\nNr zajęć: 1/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:fbae5f9f9435bc0c715df7e9@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261002T114000
+DTEND;TZID=Europe/Warsaw:20261002T131500
+SUMMARY:PGI (w)
+LOCATION:301/ S
+DESCRIPTION:Podstawy grafiki inżynierskiej\nRodzaj: wykład\nProwadzący:
+  dr hab. inż. (prof. ucz.) Hutsaylyuk Volodymyr\nNr zajęć: 1/7\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:86a2c8640a75cdd866e51cd8@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261002T133000
+DTEND;TZID=Europe/Warsaw:20261002T150500
+SUMMARY:WDM (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Wprowadzenie do metrologii\nRodzaj: wykład\nProwadzący: dr i
+ nż. Boruta Grzegorz\nNr zajęć: 1/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:17448bfb46ed8f633cc3b1be@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261002T160000
+DTEND;TZID=Europe/Warsaw:20261002T173500
+SUMMARY:WdS (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Wprowadzenie do studiowania\nRodzaj: wykład\nProwadzący: kpt
+ . dr inż. Lesiak Gabriel\nNr zajęć: 1/3\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f0b07b342505864be2e5c9cd@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261005T095000
+DTEND;TZID=Europe/Warsaw:20261005T112500
+SUMMARY:Wzp (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Wybrane zagadnienia prawa\nRodzaj: wykład\nProwadzący: dr Sz
+ ewczyk-Rokicki Rafał\nNr zajęć: 1/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5074fd2b4547a94d6b95ef35@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261005T133000
+DTEND;TZID=Europe/Warsaw:20261005T150500
+SUMMARY:Wzp (ć)
+LOCATION:1.15/ 16
+DESCRIPTION:Wybrane zagadnienia prawa\nRodzaj: ćwiczenia\nProwadzący: dr
+  Szewczyk-Rokicki Rafał\nNr zajęć: 1/2\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b369f493ab38a42b9f1a31d6@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261006T080000
+DTEND;TZID=Europe/Warsaw:20261006T093500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Wło
+ dek Janusz\nNr zajęć: 1/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8abd4fd5e97e3dd27672c178@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261006T133000
+DTEND;TZID=Europe/Warsaw:20261006T150500
+SUMMARY:M1 (w)
+LOCATION:aula/ 135
+DESCRIPTION:Matematyka 1\nRodzaj: wykład\nProwadzący: dr Prusińska Agni
+ eszka\nNr zajęć: 1/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a9e66aad5f7d27c1be83721b@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261006T160000
+DTEND;TZID=Europe/Warsaw:20261006T173500
+SUMMARY:JoM (ć)
+LOCATION:233 K\;232 K\;231 K\;230 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 1/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:133e00e1f194de451c52a74c@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261006T175000
+DTEND;TZID=Europe/Warsaw:20261006T192500
+SUMMARY:Ja (ć)
+LOCATION:126 K\;125 K\;124 K\;122 K\;121 K\;120 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 1/15\nBlok: 
+ 6
+END:VEVENT
+BEGIN:VEVENT
+UID:58057402ec613ad30dd92d39@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261007T160000
+DTEND;TZID=Europe/Warsaw:20261007T173500
+SUMMARY:WdI (w)
+LOCATION:aula/ 135
+DESCRIPTION:Wprowadzenie do informatyki\nRodzaj: wykład\nProwadzący: pł
+ k dr hab.(prof. ucz.) Kozicki Bartosz\nNr zajęć: 1/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:a976a9436592bbfdc97ee3c5@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261007T175000
+DTEND;TZID=Europe/Warsaw:20261007T192500
+SUMMARY:WdI (w)
+LOCATION:19 36
+DESCRIPTION:Wprowadzenie do informatyki\nRodzaj: wykład\nProwadzący: Wa
+ ś.To\nNr zajęć: 2/8\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:ea3674f41dcda3e61b454f81@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261008T133000
+DTEND;TZID=Europe/Warsaw:20261008T150500
+SUMMARY:M1 (w)
+LOCATION:51/ 62
+DESCRIPTION:Matematyka 1\nRodzaj: wykład\nProwadzący: dr Prusińska Agni
+ eszka\nNr zajęć: 2/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:cf6e1a3d2c3bfce0471bf90d@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261009T080000
+DTEND;TZID=Europe/Warsaw:20261009T093500
+SUMMARY:PGI (ć)
+LOCATION:5.17/ 135
+DESCRIPTION:Podstawy grafiki inżynierskiej\nRodzaj: ćwiczenia\nProwadzą
+ cy: dr hab. inż. (prof. ucz.) Hutsaylyuk Volodymyr\nNr zajęć: 1/12\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8bba375d4b1f5760913e7aa4@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261009T095000
+DTEND;TZID=Europe/Warsaw:20261009T112500
+SUMMARY:Ez (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Etyka zawodowa\nRodzaj: wykład\nProwadzący: dr hab. Świniar
+ ski Janusz\nNr zajęć: 2/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:46c99af57f79dcee9ced4f49@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261009T114000
+DTEND;TZID=Europe/Warsaw:20261009T131500
+SUMMARY:PGI (w)
+LOCATION:301/ S
+DESCRIPTION:Podstawy grafiki inżynierskiej\nRodzaj: wykład\nProwadzący:
+  dr hab. inż. (prof. ucz.) Hutsaylyuk Volodymyr\nNr zajęć: 2/7\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6ddc0f61d2044c027c71d5d8@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261009T133000
+DTEND;TZID=Europe/Warsaw:20261009T150500
+SUMMARY:WDM (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Wprowadzenie do metrologii\nRodzaj: wykład\nProwadzący: dr i
+ nż. Boruta Grzegorz\nNr zajęć: 2/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:288981e2e3b1388ac66a3314@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261012T160000
+DTEND;TZID=Europe/Warsaw:20261012T173500
+SUMMARY:Wzp (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Wybrane zagadnienia prawa\nRodzaj: wykład\nProwadzący: dr Sz
+ ewczyk-Rokicki Rafał\nNr zajęć: 2/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:faf03151f0c3bd3f9bce7f8f@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261012T175000
+DTEND;TZID=Europe/Warsaw:20261012T192500
+SUMMARY:PZiP (w)
+LOCATION:aula/ 135
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: wykład\
+ nProwadzący: dr hab. Przychocka Iwona\nNr zajęć: 1/9\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:d63b97f7d2eed4f2b99f0dfc@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261013T080000
+DTEND;TZID=Europe/Warsaw:20261013T093500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Wło
+ dek Janusz\nNr zajęć: 2/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:cce8d508fbe5047c7626e1c1@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261013T095000
+DTEND;TZID=Europe/Warsaw:20261013T112500
+SUMMARY:Owi (w)
+LOCATION:aula/ 135
+DESCRIPTION:Ochrona własności intelektualnych\nRodzaj: wykład\nProwadz
+ ący: dr hab. inż. Rybiński Janusz\nNr zajęć: 1/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:565b11ce1a8855655ba755dc@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261013T133000
+DTEND;TZID=Europe/Warsaw:20261013T150500
+SUMMARY:M1 (w)
+LOCATION:aula/ 135
+DESCRIPTION:Matematyka 1\nRodzaj: wykład\nProwadzący: dr Prusińska Agni
+ eszka\nNr zajęć: 3/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c1a1c4aedaa3da10e5a6bc58@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261013T160000
+DTEND;TZID=Europe/Warsaw:20261013T173500
+SUMMARY:JoM (ć)
+LOCATION:233 K\;232 K\;231 K\;230 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 2/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:0f3731b7dd65113f6bedc138@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261013T175000
+DTEND;TZID=Europe/Warsaw:20261013T192500
+SUMMARY:Ja (ć)
+LOCATION:126 K\;125 K\;124 K\;122 K\;121 K\;120 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 2/15\nBlok: 
+ 6
+END:VEVENT
+BEGIN:VEVENT
+UID:3574f8e649fcec2bc90ec3fd@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261014T095000
+DTEND;TZID=Europe/Warsaw:20261014T112500
+SUMMARY:M1 (ć)
+LOCATION:255 S
+DESCRIPTION:Matematyka 1\nRodzaj: ćwiczenia\nProwadzący: dr Szostakiewic
+ z Michał\nNr zajęć: 1/19\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c43381e824498d237dd4a3ba@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261014T160000
+DTEND;TZID=Europe/Warsaw:20261014T173500
+SUMMARY:WdI (w)
+LOCATION:aula/ 135
+DESCRIPTION:Wprowadzenie do informatyki\nRodzaj: wykład\nProwadzący: dr 
+ hab. inż.(prof. ucz.) Wysocki Józef\nNr zajęć: 3/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:a3d87caf4563baab5880c0fb@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261014T175000
+DTEND;TZID=Europe/Warsaw:20261014T192500
+SUMMARY:WdI (w)
+LOCATION:19 36
+DESCRIPTION:Wprowadzenie do informatyki\nRodzaj: wykład\nProwadzący: Wa
+ ś.To\nNr zajęć: 4/8\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:d5e1297140042dad384daeee@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261015T095000
+DTEND;TZID=Europe/Warsaw:20261015T112500
+SUMMARY:M1 (w)
+LOCATION:aula/ 135
+DESCRIPTION:Matematyka 1\nRodzaj: wykład\nProwadzący: dr Prusińska Agni
+ eszka\nNr zajęć: 4/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:82916947e839dc49d9cb58d4@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261015T160000
+DTEND;TZID=Europe/Warsaw:20261015T173500
+SUMMARY:WdS (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Wprowadzenie do studiowania\nRodzaj: wykład\nProwadzący: kpt
+ . dr inż. Lesiak Gabriel\nNr zajęć: 2/3\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:4768b2de78e5f5e6b50708ee@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261016T114000
+DTEND;TZID=Europe/Warsaw:20261016T131500
+SUMMARY:Ez (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Etyka zawodowa\nRodzaj: wykład\nProwadzący: dr hab. Świniar
+ ski Janusz\nNr zajęć: 3/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:791fba306bbe95546a41a2e4@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261016T133000
+DTEND;TZID=Europe/Warsaw:20261016T150500
+SUMMARY:WDM (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Wprowadzenie do metrologii\nRodzaj: wykład\nProwadzący: dr i
+ nż. Boruta Grzegorz\nNr zajęć: 3/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2643b6917d64ed3277341bd9@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261016T160000
+DTEND;TZID=Europe/Warsaw:20261016T173500
+SUMMARY:M1 (ć)
+LOCATION:5.17/ 135
+DESCRIPTION:Matematyka 1\nRodzaj: ćwiczenia\nProwadzący: dr Szostakiewic
+ z Michał\nNr zajęć: 2/19\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:40798a7adedab735d5bce944@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261019T095000
+DTEND;TZID=Europe/Warsaw:20261019T112500
+SUMMARY:PGI (ć)
+LOCATION:255 S
+DESCRIPTION:Podstawy grafiki inżynierskiej\nRodzaj: ćwiczenia\nProwadzą
+ cy: dr hab. inż. (prof. ucz.) Hutsaylyuk Volodymyr\nNr zajęć: 2/12\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1b1f9f8339cafce036f8233d@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261019T114000
+DTEND;TZID=Europe/Warsaw:20261019T131500
+SUMMARY:PGI (ć)
+LOCATION:255 S
+DESCRIPTION:Podstawy grafiki inżynierskiej\nRodzaj: ćwiczenia\nProwadzą
+ cy: dr hab. inż. (prof. ucz.) Hutsaylyuk Volodymyr\nNr zajęć: 3/12\nBl
+ ok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0284d34895a8ef8d401f1bce@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261019T160000
+DTEND;TZID=Europe/Warsaw:20261019T173500
+SUMMARY:WdI (L)
+LOCATION:0.8/ 16
+DESCRIPTION:Wprowadzenie do informatyki\nRodzaj: laboratorium\nProwadzący
+ : Waś.To\nNr zajęć: 1/11\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:03d43063e3c008900353b138@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261019T175000
+DTEND;TZID=Europe/Warsaw:20261019T192500
+SUMMARY:PZiP (w)
+LOCATION:19 36
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: wykład\
+ nProwadzący: dr hab. Przychocka Iwona\nNr zajęć: 2/9\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:74527b67ea215dd6d44611b7@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261020T080000
+DTEND;TZID=Europe/Warsaw:20261020T093500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Wło
+ dek Janusz\nNr zajęć: 3/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a3b91870299c1c6be5e8d7e9@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261020T095000
+DTEND;TZID=Europe/Warsaw:20261020T112500
+SUMMARY:Owi (w)
+LOCATION:19 36
+DESCRIPTION:Ochrona własności intelektualnych\nRodzaj: wykład\nProwadz
+ ący: dr hab. inż. Rybiński Janusz\nNr zajęć: 2/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0df0a267b1f45d5d997dd9c5@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261020T133000
+DTEND;TZID=Europe/Warsaw:20261020T150500
+SUMMARY:PZiP (ć)
+LOCATION:4.17b/ 135
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: ćwiczen
+ ia\nProwadzący: dr Nyszk Łukasz\nNr zajęć: 1/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d459c807d75a089252541afe@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261020T160000
+DTEND;TZID=Europe/Warsaw:20261020T173500
+SUMMARY:JoM (ć)
+LOCATION:233 K\;232 K\;231 K\;230 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 3/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:7c85e960978178a715feb1e6@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261020T175000
+DTEND;TZID=Europe/Warsaw:20261020T192500
+SUMMARY:Ja (ć)
+LOCATION:126 K\;125 K\;124 K\;122 K\;121 K\;120 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 3/15\nBlok: 
+ 6
+END:VEVENT
+BEGIN:VEVENT
+UID:38918980c28b4230c50d306e@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261021T114000
+DTEND;TZID=Europe/Warsaw:20261021T131500
+SUMMARY:WDM (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Wprowadzenie do metrologii\nRodzaj: wykład\nProwadzący: dr i
+ nż. Boruta Grzegorz\nNr zajęć: 4/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:bba41ceb21c457d18cba072e@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261021T133000
+DTEND;TZID=Europe/Warsaw:20261021T150500
+SUMMARY:WDM (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Wprowadzenie do metrologii\nRodzaj: wykład\nProwadzący: dr i
+ nż. Boruta Grzegorz\nNr zajęć: 5/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:eb5d239bfb04aa24379c62af@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261021T160000
+DTEND;TZID=Europe/Warsaw:20261021T173500
+SUMMARY:WdI (w)
+LOCATION:aula/ 135
+DESCRIPTION:Wprowadzenie do informatyki\nRodzaj: wykład\nProwadzący: Wa
+ ś.To\nNr zajęć: 5/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:b81f4a6b9cab147659be5575@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261021T175000
+DTEND;TZID=Europe/Warsaw:20261021T192500
+SUMMARY:WdI (w)
+LOCATION:aula/ 135
+DESCRIPTION:Wprowadzenie do informatyki\nRodzaj: wykład\nProwadzący: Wa
+ ś.To\nNr zajęć: 6/8\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:c4701e1b8a783805d477d8fb@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261022T095000
+DTEND;TZID=Europe/Warsaw:20261022T112500
+SUMMARY:M1 (ć)
+LOCATION:5.17/ 135
+DESCRIPTION:Matematyka 1\nRodzaj: ćwiczenia\nProwadzący: dr Szostakiewic
+ z Michał\nNr zajęć: 3/19\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0d2ce256dceaa44eb8341996@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261022T133000
+DTEND;TZID=Europe/Warsaw:20261022T150500
+SUMMARY:M1 (w)
+LOCATION:aula/ 135
+DESCRIPTION:Matematyka 1\nRodzaj: wykład\nProwadzący: dr Prusińska Agni
+ eszka\nNr zajęć: 5/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:52249ddea6f524435b5fba49@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261023T114000
+DTEND;TZID=Europe/Warsaw:20261023T131500
+SUMMARY:PGI (w)
+LOCATION:301/ S
+DESCRIPTION:Podstawy grafiki inżynierskiej\nRodzaj: wykład\nProwadzący:
+  dr hab. inż. (prof. ucz.) Hutsaylyuk Volodymyr\nNr zajęć: 3/7\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9e80fb8fa86d6a97a64acac1@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261026T114000
+DTEND;TZID=Europe/Warsaw:20261026T131500
+SUMMARY:M1 (ć)
+LOCATION:255 S
+DESCRIPTION:Matematyka 1\nRodzaj: ćwiczenia\nProwadzący: dr Szostakiewic
+ z Michał\nNr zajęć: 4/19\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6f21e834f514c2f70bf98522@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261026T160000
+DTEND;TZID=Europe/Warsaw:20261026T173500
+SUMMARY:Wzp (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Wybrane zagadnienia prawa\nRodzaj: wykład\nProwadzący: dr Sz
+ ewczyk-Rokicki Rafał\nNr zajęć: 3/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:b7f18839750ab8e13629a605@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261027T080000
+DTEND;TZID=Europe/Warsaw:20261027T093500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Wło
+ dek Janusz\nNr zajęć: 4/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:adde201a86a42d9bd245a38a@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261027T095000
+DTEND;TZID=Europe/Warsaw:20261027T112500
+SUMMARY:Owi (w)
+LOCATION:19 36
+DESCRIPTION:Ochrona własności intelektualnych\nRodzaj: wykład\nProwadz
+ ący: dr hab. inż. Rybiński Janusz\nNr zajęć: 3/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:da52050c28146e91a134bdef@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261027T114000
+DTEND;TZID=Europe/Warsaw:20261027T131500
+SUMMARY:M1 (w)
+LOCATION:aula/ 135
+DESCRIPTION:Matematyka 1\nRodzaj: wykład\nProwadzący: dr Prusińska Agni
+ eszka\nNr zajęć: 6/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3ef29a5181199c53a66297fb@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261027T133000
+DTEND;TZID=Europe/Warsaw:20261027T150500
+SUMMARY:PZiP (ć)
+LOCATION:1/ 22
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: ćwiczen
+ ia\nProwadzący: dr Nyszk Łukasz\nNr zajęć: 2/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:858994844971ea4cdba8852a@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261027T160000
+DTEND;TZID=Europe/Warsaw:20261027T173500
+SUMMARY:JoM (ć)
+LOCATION:233 K\;232 K\;231 K\;230 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 4/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:4bcc595c6aa8d9316a73f13e@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261027T175000
+DTEND;TZID=Europe/Warsaw:20261027T192500
+SUMMARY:Ja (ć)
+LOCATION:126 K\;125 K\;124 K\;122 K\;121 K\;120 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 4/15\nBlok: 
+ 6
+END:VEVENT
+BEGIN:VEVENT
+UID:e816dca861519fa128460741@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261028T114000
+DTEND;TZID=Europe/Warsaw:20261028T131500
+SUMMARY:M1 (ć)
+LOCATION:255 S
+DESCRIPTION:Matematyka 1\nRodzaj: ćwiczenia\nProwadzący: dr Szostakiewic
+ z Michał\nNr zajęć: 5/19\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:abbbd8f643671770888e03ca@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261029T095000
+DTEND;TZID=Europe/Warsaw:20261029T112500
+SUMMARY:M1 (w)
+LOCATION:aula/ 135
+DESCRIPTION:Matematyka 1\nRodzaj: wykład\nProwadzący: dr Prusińska Agni
+ eszka\nNr zajęć: 7/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:76b3e22a122863b8dacc941c@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261029T114000
+DTEND;TZID=Europe/Warsaw:20261029T131500
+SUMMARY:M1 (w)
+LOCATION:aula/ 135
+DESCRIPTION:Matematyka 1\nRodzaj: wykład\nProwadzący: dr Prusińska Agni
+ eszka\nNr zajęć: 8/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:26786e07d416f8bd075c1f40@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261029T133000
+DTEND;TZID=Europe/Warsaw:20261029T150500
+SUMMARY:PGI (w)
+LOCATION:aula/ 135
+DESCRIPTION:Podstawy grafiki inżynierskiej\nRodzaj: wykład\nProwadzący:
+  dr hab. inż. (prof. ucz.) Hutsaylyuk Volodymyr\nNr zajęć: 4/7\nBlok: 
+ 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6fca0c926226f50acbd12fdc@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261029T160000
+DTEND;TZID=Europe/Warsaw:20261029T173500
+SUMMARY:WDM (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Wprowadzenie do metrologii\nRodzaj: wykład\nProwadzący: dr i
+ nż. Boruta Grzegorz\nNr zajęć: 6/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:d08c4334d220dbe028eee063@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261030T114000
+DTEND;TZID=Europe/Warsaw:20261030T131500
+SUMMARY:M1 (ć)
+LOCATION:0.19/ 135
+DESCRIPTION:Matematyka 1\nRodzaj: ćwiczenia\nProwadzący: dr Szostakiewic
+ z Michał\nNr zajęć: 6/19\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:40e394e9e66d5dca65a3044a@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261102T095000
+DTEND;TZID=Europe/Warsaw:20261102T112500
+SUMMARY:PGI (ć)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Podstawy grafiki inżynierskiej\nRodzaj: ćwiczenia\nProwadzą
+ cy: mgr inż. Mantur Tomasz\; dr hab. inż. (prof. ucz.) Hutsaylyuk Volod
+ ymyr\nNr zajęć: 4/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:02a08bf5abc648c6651683d8@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261102T114000
+DTEND;TZID=Europe/Warsaw:20261102T131500
+SUMMARY:PGI (ć)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Podstawy grafiki inżynierskiej\nRodzaj: ćwiczenia\nProwadzą
+ cy: mgr inż. Mantur Tomasz\; dr hab. inż. (prof. ucz.) Hutsaylyuk Volod
+ ymyr\nNr zajęć: 5/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:92fb1d220144a22cad2604e6@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261102T133000
+DTEND;TZID=Europe/Warsaw:20261102T150500
+SUMMARY:Ez (ć)
+LOCATION:4.23/ 135
+DESCRIPTION:Etyka zawodowa\nRodzaj: ćwiczenia\nProwadzący: dr hab. Świn
+ iarski Janusz\nNr zajęć: 1/2\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4981fa2ced30a0e5fd2a5ad8@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261102T175000
+DTEND;TZID=Europe/Warsaw:20261102T192500
+SUMMARY:PZiP (w)
+LOCATION:19 36
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: wykład\
+ nProwadzący: dr hab. Przychocka Iwona\nNr zajęć: 3/9\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:5dc93931a234982ecae00371@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261103T080000
+DTEND;TZID=Europe/Warsaw:20261103T093500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Wło
+ dek Janusz\nNr zajęć: 5/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3f4de30e2e08bc8b18235a55@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261103T095000
+DTEND;TZID=Europe/Warsaw:20261103T112500
+SUMMARY:M1 (ć)
+LOCATION:5.21/ 135
+DESCRIPTION:Matematyka 1\nRodzaj: ćwiczenia\nProwadzący: dr Szostakiewic
+ z Michał\nNr zajęć: 7/19\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:75cb80435d582b4e14a5edd5@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261103T114000
+DTEND;TZID=Europe/Warsaw:20261103T131500
+SUMMARY:M1 (w)
+LOCATION:aula/ 135
+DESCRIPTION:Matematyka 1\nRodzaj: wykład\nProwadzący: dr Prusińska Agni
+ eszka\nNr zajęć: 9/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d404fdbab89ec67de7a892f3@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261103T133000
+DTEND;TZID=Europe/Warsaw:20261103T150500
+SUMMARY:PZiP (ć)
+LOCATION:2/ 22
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: ćwiczen
+ ia\nProwadzący: dr Nyszk Łukasz\nNr zajęć: 3/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:54d1fda931210bc5768835a2@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261103T160000
+DTEND;TZID=Europe/Warsaw:20261103T173500
+SUMMARY:JoM (ć)
+LOCATION:233 K\;232 K\;231 K\;230 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 5/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:316d66d4754e5e8521478b4a@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261103T175000
+DTEND;TZID=Europe/Warsaw:20261103T192500
+SUMMARY:Ja (ć)
+LOCATION:126 K\;125 K\;124 K\;122 K\;121 K\;120 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 5/15\nBlok: 
+ 6
+END:VEVENT
+BEGIN:VEVENT
+UID:1fe91df4e85acf3a0df90e8d@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261104T095000
+DTEND;TZID=Europe/Warsaw:20261104T112500
+SUMMARY:M1 (ć)
+LOCATION:255 S
+DESCRIPTION:Matematyka 1\nRodzaj: ćwiczenia\nProwadzący: dr Szostakiewic
+ z Michał\nNr zajęć: 8/19\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4d3b0e20cab5266c78ca7813@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261104T114000
+DTEND;TZID=Europe/Warsaw:20261104T131500
+SUMMARY:WDM (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Wprowadzenie do metrologii\nRodzaj: wykład\nProwadzący: dr i
+ nż. Boruta Grzegorz\nNr zajęć: 7/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:537e6c487458acca04d3c85b@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261104T133000
+DTEND;TZID=Europe/Warsaw:20261104T150500
+SUMMARY:WDM (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Wprowadzenie do metrologii\nRodzaj: wykład\nProwadzący: dr i
+ nż. Boruta Grzegorz\nNr zajęć: 8/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2ac532d218ed3aa7a7e053c9@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261104T175000
+DTEND;TZID=Europe/Warsaw:20261104T192500
+SUMMARY:WdI (w)
+LOCATION:aula/ 135
+DESCRIPTION:Wprowadzenie do informatyki\nRodzaj: wykład\nProwadzący: kpt
+ . dr inż. Lesiak Gabriel\nNr zajęć: 7/8\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:579366d6843ca036ccd3f915@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261105T114000
+DTEND;TZID=Europe/Warsaw:20261105T131500
+SUMMARY:PGI (w)
+LOCATION:aula/ 135
+DESCRIPTION:Podstawy grafiki inżynierskiej\nRodzaj: wykład\nProwadzący:
+  dr hab. inż. (prof. ucz.) Hutsaylyuk Volodymyr\nNr zajęć: 5/7\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:43b34767b8a16a10085075b4@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261105T133000
+DTEND;TZID=Europe/Warsaw:20261105T150500
+SUMMARY:Wzp (w)
+LOCATION:aula/ 135
+DESCRIPTION:Wybrane zagadnienia prawa\nRodzaj: wykład\nProwadzący: dr Sz
+ ewczyk-Rokicki Rafał\nNr zajęć: 4/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4664ecd0bd57a095e88a8f29@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261106T114000
+DTEND;TZID=Europe/Warsaw:20261106T131500
+SUMMARY:Ez (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Etyka zawodowa\nRodzaj: wykład\nProwadzący: dr hab. Świniar
+ ski Janusz\nNr zajęć: 4/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:135992c5a285fea84499d13e@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261106T133000
+DTEND;TZID=Europe/Warsaw:20261106T150500
+SUMMARY:M1 (ć)
+LOCATION:8/ 62
+DESCRIPTION:Matematyka 1\nRodzaj: ćwiczenia\nProwadzący: dr Szostakiewic
+ z Michał\nNr zajęć: 9/19\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:91f686a37f1a2a1a1623c2ac@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261106T160000
+DTEND;TZID=Europe/Warsaw:20261106T173500
+SUMMARY:WdS (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Wprowadzenie do studiowania\nRodzaj: wykład\nProwadzący: kpt
+ . dr inż. Lesiak Gabriel\nNr zajęć: 3/3\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:528ca8ae1d947f59dfa426b4@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261109T095000
+DTEND;TZID=Europe/Warsaw:20261109T112500
+SUMMARY:M1 (ć)
+LOCATION:255 S
+DESCRIPTION:Matematyka 1\nRodzaj: ćwiczenia\nProwadzący: dr Szostakiewic
+ z Michał\nNr zajęć: 10/19\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:dc91c1201f6bc65335877064@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261109T114000
+DTEND;TZID=Europe/Warsaw:20261109T131500
+SUMMARY:PGI (ć)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Podstawy grafiki inżynierskiej\nRodzaj: ćwiczenia\nProwadzą
+ cy: mgr inż. Mantur Tomasz\; dr hab. inż. (prof. ucz.) Hutsaylyuk Volod
+ ymyr\nNr zajęć: 6/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:02914e86f9c057db2a30c142@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261109T133000
+DTEND;TZID=Europe/Warsaw:20261109T150500
+SUMMARY:WDM (ć)
+LOCATION:1.15/ 16
+DESCRIPTION:Wprowadzenie do metrologii\nRodzaj: ćwiczenia\nProwadzący: m
+ gr inż. Rajewski Marek\nNr zajęć: 1/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:117a4af1287487183c82195f@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261110T080000
+DTEND;TZID=Europe/Warsaw:20261110T093500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Wło
+ dek Janusz\nNr zajęć: 6/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5b46ef12981ed6697ea14fa2@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261110T095000
+DTEND;TZID=Europe/Warsaw:20261110T112500
+SUMMARY:Owi (w)
+LOCATION:19 36
+DESCRIPTION:Ochrona własności intelektualnych\nRodzaj: wykład\nProwadz
+ ący: dr hab. inż. Rybiński Janusz\nNr zajęć: 4/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:bdf8c685d34a85fea41f117e@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261110T114000
+DTEND;TZID=Europe/Warsaw:20261110T131500
+SUMMARY:M1 (ć)
+LOCATION:A.1.3/ 135
+DESCRIPTION:Matematyka 1\nRodzaj: ćwiczenia\nProwadzący: dr Szostakiewic
+ z Michał\nNr zajęć: 11/19\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ad3627dd8049b49e89331205@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261110T133000
+DTEND;TZID=Europe/Warsaw:20261110T150500
+SUMMARY:M1 (w)
+LOCATION:aula/ 135
+DESCRIPTION:Matematyka 1\nRodzaj: wykład\nProwadzący: dr Prusińska Agni
+ eszka\nNr zajęć: 10/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5c0822d38a6d107e16d54623@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261110T160000
+DTEND;TZID=Europe/Warsaw:20261110T173500
+SUMMARY:JoM (ć)
+LOCATION:233 K\;232 K\;231 K\;230 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 6/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:9a54908b7945ba3e1a244a9d@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261110T175000
+DTEND;TZID=Europe/Warsaw:20261110T192500
+SUMMARY:Ja (ć)
+LOCATION:126 K\;125 K\;124 K\;122 K\;121 K\;120 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 6/15\nBlok: 
+ 6
+END:VEVENT
+BEGIN:VEVENT
+UID:ee1c70b2dc573822f4096716@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261112T095000
+DTEND;TZID=Europe/Warsaw:20261112T112500
+SUMMARY:Mat2 (w)
+LOCATION:aula/ 135
+DESCRIPTION:Matematyka 2\nRodzaj: wykład\nProwadzący: dr Prusińska Agni
+ eszka\nNr zajęć: 1/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d6bade98653c44d251cc5ef0@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261112T114000
+DTEND;TZID=Europe/Warsaw:20261112T131500
+SUMMARY:Ez (ć)
+LOCATION:4.17b/ 135
+DESCRIPTION:Etyka zawodowa\nRodzaj: ćwiczenia\nProwadzący: dr hab. Świn
+ iarski Janusz\nNr zajęć: 2/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6d6f4383f1f7509fd1ae2054@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261112T133000
+DTEND;TZID=Europe/Warsaw:20261112T150500
+SUMMARY:PGI (w)
+LOCATION:aula/ 135
+DESCRIPTION:Podstawy grafiki inżynierskiej\nRodzaj: wykład\nProwadzący:
+  dr hab. inż. (prof. ucz.) Hutsaylyuk Volodymyr\nNr zajęć: 6/7\nBlok: 
+ 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9e19c991d08c47d8251664be@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261113T095000
+DTEND;TZID=Europe/Warsaw:20261113T112500
+SUMMARY:PGI (ć)
+LOCATION:1.27/ 135
+DESCRIPTION:Podstawy grafiki inżynierskiej\nRodzaj: ćwiczenia\nProwadzą
+ cy: dr hab. inż. (prof. ucz.) Hutsaylyuk Volodymyr\nNr zajęć: 7/12\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e899f6e3deff0edaa7fe2155@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261116T095000
+DTEND;TZID=Europe/Warsaw:20261116T112500
+SUMMARY:PGI (ć)
+LOCATION:255 S
+DESCRIPTION:Podstawy grafiki inżynierskiej\nRodzaj: ćwiczenia\nProwadzą
+ cy: dr hab. inż. (prof. ucz.) Hutsaylyuk Volodymyr\nNr zajęć: 8/12\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3aa6a014eca2f8fd5b91cfac@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261116T114000
+DTEND;TZID=Europe/Warsaw:20261116T131500
+SUMMARY:M1 (ć)
+LOCATION:255 S
+DESCRIPTION:Matematyka 1\nRodzaj: ćwiczenia\nProwadzący: dr Szostakiewic
+ z Michał\nNr zajęć: 12/19\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f09b30daa9f29bda2933fa60@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261117T080000
+DTEND;TZID=Europe/Warsaw:20261117T093500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Wło
+ dek Janusz\nNr zajęć: 7/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:79e1e096093a00586f28e6fb@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261117T095000
+DTEND;TZID=Europe/Warsaw:20261117T112500
+SUMMARY:Owi (w)
+LOCATION:19 36
+DESCRIPTION:Ochrona własności intelektualnych\nRodzaj: wykład\nProwadz
+ ący: dr hab. inż. Rybiński Janusz\nNr zajęć: 5/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:874e44b6112e94c89908c32f@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261117T133000
+DTEND;TZID=Europe/Warsaw:20261117T150500
+SUMMARY:M1 (w)
+LOCATION:aula/ 135
+DESCRIPTION:Matematyka 1\nRodzaj: wykład\nProwadzący: dr Prusińska Agni
+ eszka\nNr zajęć: 11/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d18746bbf4019d1e9ea4864d@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261117T160000
+DTEND;TZID=Europe/Warsaw:20261117T173500
+SUMMARY:JoM (ć)
+LOCATION:233 K\;232 K\;231 K\;230 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 7/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:87855758fd66612b5207f177@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261117T175000
+DTEND;TZID=Europe/Warsaw:20261117T192500
+SUMMARY:Ja (ć)
+LOCATION:126 K\;125 K\;124 K\;122 K\;121 K\;120 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 7/15\nBlok: 
+ 6
+END:VEVENT
+BEGIN:VEVENT
+UID:db651b8f5175007db97e5de1@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261118T080000
+DTEND;TZID=Europe/Warsaw:20261118T093500
+SUMMARY:WDM (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Wprowadzenie do metrologii\nRodzaj: ćwiczenia\nProwadzący: m
+ gr inż. Rajewski Marek\nNr zajęć: 2/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:38660ade466ad5005671797b@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261118T095000
+DTEND;TZID=Europe/Warsaw:20261118T112500
+SUMMARY:M1 (ć)
+LOCATION:255 S
+DESCRIPTION:Matematyka 1\nRodzaj: ćwiczenia\nProwadzący: dr Szostakiewic
+ z Michał\nNr zajęć: 13/19\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5010aed8e1bea83fdd24bd4e@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261118T114000
+DTEND;TZID=Europe/Warsaw:20261118T131500
+SUMMARY:M1 (ć)
+LOCATION:255 S
+DESCRIPTION:Matematyka 1\nRodzaj: ćwiczenia\nProwadzący: dr Szostakiewic
+ z Michał\nNr zajęć: 14/19\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b379b36d57d9c70d037829a9@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261119T095000
+DTEND;TZID=Europe/Warsaw:20261119T112500
+SUMMARY:M1 (w)
+LOCATION:aula/ 135
+DESCRIPTION:Matematyka 1\nRodzaj: wykład\nProwadzący: dr Prusińska Agni
+ eszka\nNr zajęć: 12/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4e727272a208d187ecfc1af0@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261119T114000
+DTEND;TZID=Europe/Warsaw:20261119T131500
+SUMMARY:Wzp (ć)
+LOCATION:5.21/ 135
+DESCRIPTION:Wybrane zagadnienia prawa\nRodzaj: ćwiczenia\nProwadzący: dr
+  Szewczyk-Rokicki Rafał\nNr zajęć: 2/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f9e46c1e5df19eda6d8c7005@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261119T133000
+DTEND;TZID=Europe/Warsaw:20261119T150500
+SUMMARY:Wzp (w)
+LOCATION:aula/ 135
+DESCRIPTION:Wybrane zagadnienia prawa\nRodzaj: wykład\nProwadzący: dr Sz
+ ewczyk-Rokicki Rafał\nNr zajęć: 5/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:dbcfa535740dcccf3aab27b8@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261119T160000
+DTEND;TZID=Europe/Warsaw:20261119T173500
+SUMMARY:WdI (L)
+LOCATION:0.8/ 16
+DESCRIPTION:Wprowadzenie do informatyki\nRodzaj: laboratorium\nProwadzący
+ : Waś.To\nNr zajęć: 2/11\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:135a5278272d608f3d542e09@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261120T095000
+DTEND;TZID=Europe/Warsaw:20261120T112500
+SUMMARY:Ez (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Etyka zawodowa\nRodzaj: wykład\nProwadzący: dr hab. Świniar
+ ski Janusz\nNr zajęć: 5/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9d759a4b9d3e2a5cb4cf6ea4@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261120T114000
+DTEND;TZID=Europe/Warsaw:20261120T131500
+SUMMARY:PGI (ć)
+LOCATION:5.17/ 135
+DESCRIPTION:Podstawy grafiki inżynierskiej\nRodzaj: ćwiczenia\nProwadzą
+ cy: dr hab. inż. (prof. ucz.) Hutsaylyuk Volodymyr\nNr zajęć: 9/12\nBl
+ ok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9a0cf5c3b81c6bda08cb5fda@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261120T133000
+DTEND;TZID=Europe/Warsaw:20261120T150500
+SUMMARY:WDM (ć)
+LOCATION:4.23/ 135
+DESCRIPTION:Wprowadzenie do metrologii\nRodzaj: ćwiczenia\nProwadzący: m
+ gr inż. Rajewski Marek\nNr zajęć: 3/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ba9b23b0e4c43aec410c1864@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261123T114000
+DTEND;TZID=Europe/Warsaw:20261123T131500
+SUMMARY:WdI (L)
+LOCATION:0.8/ 16
+DESCRIPTION:Wprowadzenie do informatyki\nRodzaj: laboratorium\nProwadzący
+ : Waś.To\nNr zajęć: 3/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3135c54564bd502f5aacce04@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261123T133000
+DTEND;TZID=Europe/Warsaw:20261123T150500
+SUMMARY:WdI (L)
+LOCATION:0.8/ 16
+DESCRIPTION:Wprowadzenie do informatyki\nRodzaj: laboratorium\nProwadzący
+ : Waś.To\nNr zajęć: 4/11\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7707b8e4df13a782acc617a6@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261123T160000
+DTEND;TZID=Europe/Warsaw:20261123T173500
+SUMMARY:WdI (w)
+LOCATION:aula/ 135
+DESCRIPTION:Wprowadzenie do informatyki\nRodzaj: wykład\nProwadzący: Wa
+ ś.To\nNr zajęć: 8/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:c355efa0a8110b5cf7e4e42c@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261124T080000
+DTEND;TZID=Europe/Warsaw:20261124T093500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Wło
+ dek Janusz\nNr zajęć: 8/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e02bf1c7a8e720545284e698@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261124T133000
+DTEND;TZID=Europe/Warsaw:20261124T150500
+SUMMARY:M1 (w)
+LOCATION:aula/ 135
+DESCRIPTION:Matematyka 1\nRodzaj: wykład\nProwadzący: dr Prusińska Agni
+ eszka\nNr zajęć: 13/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8baa5d6ff8943098f9f23551@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261124T160000
+DTEND;TZID=Europe/Warsaw:20261124T173500
+SUMMARY:JoM (ć)
+LOCATION:233 K\;232 K\;231 K\;230 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 8/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f06f55b7d51af5b289f7b4d7@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261124T175000
+DTEND;TZID=Europe/Warsaw:20261124T192500
+SUMMARY:Ja (ć)
+LOCATION:126 K\;125 K\;124 K\;122 K\;121 K\;120 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 8/15\nBlok: 
+ 6
+END:VEVENT
+BEGIN:VEVENT
+UID:621f846fe7c3249b92dacef6@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261125T095000
+DTEND;TZID=Europe/Warsaw:20261125T112500
+SUMMARY:WDM (ć)
+LOCATION:0.6/ 16
+DESCRIPTION:Wprowadzenie do metrologii\nRodzaj: ćwiczenia\nProwadzący: m
+ gr inż. Rajewski Marek\nNr zajęć: 4/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:310e6112b14715777fcaab51@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261125T114000
+DTEND;TZID=Europe/Warsaw:20261125T131500
+SUMMARY:PZiP (ć)
+LOCATION:0.6/ 16
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: ćwiczen
+ ia\nProwadzący: dr Nyszk Łukasz\nNr zajęć: 4/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c9cff56c048ff0b9a35e13d8@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261125T133000
+DTEND;TZID=Europe/Warsaw:20261125T150500
+SUMMARY:PZiP (w)
+LOCATION:aula/ 135
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: wykład\
+ nProwadzący: dr hab. Przychocka Iwona\nNr zajęć: 4/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:11c3aa7e757b28ce759dd4ab@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261126T095000
+DTEND;TZID=Europe/Warsaw:20261126T112500
+SUMMARY:Mat2 (w)
+LOCATION:aula/ 135
+DESCRIPTION:Matematyka 2\nRodzaj: wykład\nProwadzący: dr Prusińska Agni
+ eszka\nNr zajęć: 2/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c83d257b8e1851a67d3117e3@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261126T114000
+DTEND;TZID=Europe/Warsaw:20261126T131500
+SUMMARY:Mat2 (w)
+LOCATION:aula/ 135
+DESCRIPTION:Matematyka 2\nRodzaj: wykład\nProwadzący: dr Prusińska Agni
+ eszka\nNr zajęć: 3/17\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:073c6453c17b7512ec7d7764@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261126T133000
+DTEND;TZID=Europe/Warsaw:20261126T150500
+SUMMARY:Wzp (w)
+LOCATION:aula/ 135
+DESCRIPTION:Wybrane zagadnienia prawa\nRodzaj: wykład\nProwadzący: dr Sz
+ ewczyk-Rokicki Rafał\nNr zajęć: 6/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2dd20582c744544f2c68902b@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261130T095000
+DTEND;TZID=Europe/Warsaw:20261130T112500
+SUMMARY:M1 (ć)
+LOCATION:255 S
+DESCRIPTION:Matematyka 1\nRodzaj: ćwiczenia\nProwadzący: dr Szostakiewic
+ z Michał\nNr zajęć: 15/19\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:657a096f367dafa27a6dfb39@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261130T114000
+DTEND;TZID=Europe/Warsaw:20261130T131500
+SUMMARY:M1 (ć)
+LOCATION:255 S
+DESCRIPTION:Matematyka 1\nRodzaj: ćwiczenia\nProwadzący: dr Szostakiewic
+ z Michał\nNr zajęć: 16/19\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e3af77c623c9409933c8b6ad@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261130T160000
+DTEND;TZID=Europe/Warsaw:20261130T173500
+SUMMARY:PZiP (w)
+LOCATION:aula/ 135
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: wykład\
+ nProwadzący: dr hab. Przychocka Iwona\nNr zajęć: 5/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:e8521572302d5a9a300aeb2d@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261201T080000
+DTEND;TZID=Europe/Warsaw:20261201T093500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Wło
+ dek Janusz\nNr zajęć: 9/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a77b864584d5adf4a0076d51@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261201T133000
+DTEND;TZID=Europe/Warsaw:20261201T150500
+SUMMARY:Mat2 (w)
+LOCATION:aula/ 135
+DESCRIPTION:Matematyka 2\nRodzaj: wykład\nProwadzący: dr Prusińska Agni
+ eszka\nNr zajęć: 4/17\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:aa89cb31296b12891da71384@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261201T160000
+DTEND;TZID=Europe/Warsaw:20261201T173500
+SUMMARY:JoM (ć)
+LOCATION:233 K\;232 K\;231 K\;230 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 9/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:e67ce3ba872e23040b6199bc@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261201T175000
+DTEND;TZID=Europe/Warsaw:20261201T192500
+SUMMARY:Ja (ć)
+LOCATION:126 K\;125 K\;124 K\;122 K\;121 K\;120 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 9/15\nBlok: 
+ 6
+END:VEVENT
+BEGIN:VEVENT
+UID:54049cc85e2984923ce2d811@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261202T114000
+DTEND;TZID=Europe/Warsaw:20261202T131500
+SUMMARY:M1 (ć)
+LOCATION:2 45
+DESCRIPTION:Matematyka 1\nRodzaj: ćwiczenia\nProwadzący: dr Szostakiewic
+ z Michał\nNr zajęć: 17/19\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:76c350fc486d7f2eb61362e9@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261202T133000
+DTEND;TZID=Europe/Warsaw:20261202T150500
+SUMMARY:WDM (ć)
+LOCATION:0.6/ 16
+DESCRIPTION:Wprowadzenie do metrologii\nRodzaj: ćwiczenia\nProwadzący: m
+ gr inż. Rajewski Marek\nNr zajęć: 5/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b2b36005245c919d83b1f527@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261203T095000
+DTEND;TZID=Europe/Warsaw:20261203T112500
+SUMMARY:M1 (ć)
+LOCATION:255 S
+DESCRIPTION:Matematyka 1\nRodzaj: ćwiczenia\nProwadzący: dr Szostakiewic
+ z Michał\nNr zajęć: 18/19\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d932f70333d53009ff78b678@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261203T114000
+DTEND;TZID=Europe/Warsaw:20261203T131500
+SUMMARY:PZiP (ć)
+LOCATION:4.17b/ 135
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: ćwiczen
+ ia\nProwadzący: dr Nyszk Łukasz\nNr zajęć: 5/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:bfd38947da02ec8201229735@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261203T133000
+DTEND;TZID=Europe/Warsaw:20261203T150500
+SUMMARY:M1 (w)
+LOCATION:aula/ 135
+DESCRIPTION:Matematyka 1\nRodzaj: wykład\nProwadzący: dr Prusińska Agni
+ eszka\nNr zajęć: 14/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:cf27df000609d611cc7b9d3a@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261204T095000
+DTEND;TZID=Europe/Warsaw:20261204T112500
+SUMMARY:Ez (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Etyka zawodowa\nRodzaj: wykład\nProwadzący: dr hab. Świniar
+ ski Janusz\nNr zajęć: 6/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8eee88aa450b27092ac6e96d@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261204T133000
+DTEND;TZID=Europe/Warsaw:20261204T150500
+SUMMARY:M1 (ć)
+LOCATION:255 S
+DESCRIPTION:Matematyka 1\nRodzaj: ćwiczenia\nProwadzący: dr Szostakiewic
+ z Michał\nNr zajęć: 19/19\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6504f320b5233ac70e1c9507@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261207T095000
+DTEND;TZID=Europe/Warsaw:20261207T112500
+SUMMARY:PGI (ć)
+LOCATION:255 S
+DESCRIPTION:Podstawy grafiki inżynierskiej\nRodzaj: ćwiczenia\nProwadzą
+ cy: dr hab. inż. (prof. ucz.) Hutsaylyuk Volodymyr\nNr zajęć: 10/12\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2b50125d257c98e1aa546b6a@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261207T114000
+DTEND;TZID=Europe/Warsaw:20261207T131500
+SUMMARY:WDM (ć)
+LOCATION:0.6/ 16
+DESCRIPTION:Wprowadzenie do metrologii\nRodzaj: ćwiczenia\nProwadzący: m
+ gr inż. Rajewski Marek\nNr zajęć: 6/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:77560213ab38f074a68a7c2a@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261208T080000
+DTEND;TZID=Europe/Warsaw:20261208T093500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Wło
+ dek Janusz\nNr zajęć: 10/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4df9f33c71c35057fc6bec25@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261208T095000
+DTEND;TZID=Europe/Warsaw:20261208T112500
+SUMMARY:PZiP (ć)
+LOCATION:1.15/ 16
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: ćwiczen
+ ia\nProwadzący: dr Nyszk Łukasz\nNr zajęć: 6/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d686fcdefdef6b11b1bb8880@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261208T133000
+DTEND;TZID=Europe/Warsaw:20261208T150500
+SUMMARY:Mat2 (w)
+LOCATION:aula/ 135
+DESCRIPTION:Matematyka 2\nRodzaj: wykład\nProwadzący: dr Prusińska Agni
+ eszka\nNr zajęć: 5/17\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:daca61a20a70e39549f70fdc@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261208T160000
+DTEND;TZID=Europe/Warsaw:20261208T173500
+SUMMARY:JoM (ć)
+LOCATION:233 K\;232 K\;231 K\;230 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 10/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:9da3fa9dff556fd924a16444@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261208T175000
+DTEND;TZID=Europe/Warsaw:20261208T192500
+SUMMARY:Ja (ć)
+LOCATION:126 K\;125 K\;124 K\;122 K\;121 K\;120 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 10/15\nBlok:
+  6
+END:VEVENT
+BEGIN:VEVENT
+UID:1e197598119f6b0de3825534@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261209T080000
+DTEND;TZID=Europe/Warsaw:20261209T093500
+SUMMARY:WdI (L)
+LOCATION:1/ 22
+DESCRIPTION:Wprowadzenie do informatyki\nRodzaj: laboratorium\nProwadzący
+ : Waś.To\nNr zajęć: 5/11\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a80956083eb07f14e33f7f84@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261209T095000
+DTEND;TZID=Europe/Warsaw:20261209T112500
+SUMMARY:WdI (L)
+LOCATION:1/ 22
+DESCRIPTION:Wprowadzenie do informatyki\nRodzaj: laboratorium\nProwadzący
+ : Waś.To\nNr zajęć: 6/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5c3ecd5370ccd916987dc034@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261209T114000
+DTEND;TZID=Europe/Warsaw:20261209T131500
+SUMMARY:Mat2 (ć)
+LOCATION:255 S
+DESCRIPTION:Matematyka 2\nRodzaj: ćwiczenia\nProwadzący: dr Szostakiewic
+ z Michał\nNr zajęć: 1/17\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:071640ddbb978f11ea85c51b@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261210T080000
+DTEND;TZID=Europe/Warsaw:20261210T093500
+SUMMARY:PGI (w)
+LOCATION:301/ S
+DESCRIPTION:Podstawy grafiki inżynierskiej\nRodzaj: wykład\nProwadzący:
+  dr hab. inż. (prof. ucz.) Hutsaylyuk Volodymyr\nNr zajęć: 7/7\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e24a2037ace368a56bd9da93@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261210T095000
+DTEND;TZID=Europe/Warsaw:20261210T112500
+SUMMARY:Mat2 (w)
+LOCATION:aula/ 135
+DESCRIPTION:Matematyka 2\nRodzaj: wykład\nProwadzący: dr Prusińska Agni
+ eszka\nNr zajęć: 6/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:167f04639a4ed0c0bf657ce2@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261210T160000
+DTEND;TZID=Europe/Warsaw:20261210T173500
+SUMMARY:Mat2 (ć)
+LOCATION:A.1.3/ 135
+DESCRIPTION:Matematyka 2\nRodzaj: ćwiczenia\nProwadzący: dr Szostakiewic
+ z Michał\nNr zajęć: 2/17\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:100588d29279c281b70fc7ce@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261211T133000
+DTEND;TZID=Europe/Warsaw:20261211T150500
+SUMMARY:Mat2 (ć)
+LOCATION:5.17/ 135
+DESCRIPTION:Matematyka 2\nRodzaj: ćwiczenia\nProwadzący: dr Szostakiewic
+ z Michał\nNr zajęć: 3/17\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:793f72fecbdf8a21227d0348@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261214T114000
+DTEND;TZID=Europe/Warsaw:20261214T131500
+SUMMARY:WDM (ć)
+LOCATION:1.15/ 16
+DESCRIPTION:Wprowadzenie do metrologii\nRodzaj: ćwiczenia\nProwadzący: m
+ gr inż. Rajewski Marek\nNr zajęć: 7/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d795d1332d2ffc84aff50465@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261214T160000
+DTEND;TZID=Europe/Warsaw:20261214T173500
+SUMMARY:PZiP (w)
+LOCATION:aula/ 135
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: wykład\
+ nProwadzący: dr hab. Przychocka Iwona\nNr zajęć: 6/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:5ad3acbc39fc4dd0eb9338c2@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261215T080000
+DTEND;TZID=Europe/Warsaw:20261215T093500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Wło
+ dek Janusz\nNr zajęć: 11/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2d344d7dc1b2ca164019eb40@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261215T095000
+DTEND;TZID=Europe/Warsaw:20261215T112500
+SUMMARY:Owi (w)
+LOCATION:19 36
+DESCRIPTION:Ochrona własności intelektualnych\nRodzaj: wykład\nProwadz
+ ący: dr hab. inż. Rybiński Janusz\nNr zajęć: 6/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:beca48dd3e0a43756bc3ccef@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261215T114000
+DTEND;TZID=Europe/Warsaw:20261215T131500
+SUMMARY:Owi (ć)
+LOCATION:4.17a/ 135
+DESCRIPTION:Ochrona własności intelektualnych\nRodzaj: ćwiczenia\nProwa
+ dzący: dr hab. inż. Rybiński Janusz\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:169b45c7ef8e8e51ab34018a@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261215T133000
+DTEND;TZID=Europe/Warsaw:20261215T150500
+SUMMARY:Mat2 (w)
+LOCATION:aula/ 135
+DESCRIPTION:Matematyka 2\nRodzaj: wykład\nProwadzący: dr Prusińska Agni
+ eszka\nNr zajęć: 7/17\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c3348742245138787ec752ac@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261215T160000
+DTEND;TZID=Europe/Warsaw:20261215T173500
+SUMMARY:JoM (ć)
+LOCATION:233 K\;232 K\;231 K\;230 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 11/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:6a90ff2a3c83292382807867@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261215T175000
+DTEND;TZID=Europe/Warsaw:20261215T192500
+SUMMARY:Ja (ć)
+LOCATION:126 K\;125 K\;124 K\;122 K\;121 K\;120 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 11/15\nBlok:
+  6
+END:VEVENT
+BEGIN:VEVENT
+UID:e6bab2e746ab6764ec84d82d@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261217T095000
+DTEND;TZID=Europe/Warsaw:20261217T112500
+SUMMARY:M1 (w)
+LOCATION:aula/ 135
+DESCRIPTION:Matematyka 1\nRodzaj: wykład\nProwadzący: dr Prusińska Agni
+ eszka\nNr zajęć: 15/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:947d02757d5c6b9080a347b7@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261217T114000
+DTEND;TZID=Europe/Warsaw:20261217T131500
+SUMMARY:Mat2 (w)
+LOCATION:aula/ 135
+DESCRIPTION:Matematyka 2\nRodzaj: wykład\nProwadzący: dr Prusińska Agni
+ eszka\nNr zajęć: 8/17\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:decbd9424bf466bcab6bdca2@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261217T133000
+DTEND;TZID=Europe/Warsaw:20261217T150500
+SUMMARY:WdI (L)
+LOCATION:0.8/ 16
+DESCRIPTION:Wprowadzenie do informatyki\nRodzaj: laboratorium\nProwadzący
+ : kpt. dr inż. Lesiak Gabriel\nNr zajęć: 7/11\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:526b20d25e1ccbd0adedefa6@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261217T160000
+DTEND;TZID=Europe/Warsaw:20261217T173500
+SUMMARY:WdI (L)
+LOCATION:0.8/ 16
+DESCRIPTION:Wprowadzenie do informatyki\nRodzaj: laboratorium\nProwadzący
+ : kpt. dr inż. Lesiak Gabriel\nNr zajęć: 8/11\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:a95d7462d8169579c7dee76c@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261218T114000
+DTEND;TZID=Europe/Warsaw:20261218T131500
+SUMMARY:Ez (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Etyka zawodowa\nRodzaj: wykład\nProwadzący: dr hab. Świniar
+ ski Janusz\nNr zajęć: 7/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:45c584564ca2d7e03602eec9@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261218T133000
+DTEND;TZID=Europe/Warsaw:20261218T150500
+SUMMARY:Mat2 (ć)
+LOCATION:255 S
+DESCRIPTION:Matematyka 2\nRodzaj: ćwiczenia\nProwadzący: dr Szostakiewic
+ z Michał\nNr zajęć: 4/17\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d10db79af1799f86edee5c97@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261221T095000
+DTEND;TZID=Europe/Warsaw:20261221T112500
+SUMMARY:Mat2 (ć)
+LOCATION:255 S
+DESCRIPTION:Matematyka 2\nRodzaj: ćwiczenia\nProwadzący: dr Szostakiewic
+ z Michał\nNr zajęć: 5/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b294c98e90341ea2a85b45c6@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261221T114000
+DTEND;TZID=Europe/Warsaw:20261221T131500
+SUMMARY:WDM (ć)
+LOCATION:1.15/ 16
+DESCRIPTION:Wprowadzenie do metrologii\nRodzaj: ćwiczenia\nProwadzący: m
+ gr inż. Rajewski Marek\nNr zajęć: 8/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:315a656064a9a5ce0a153880@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261221T133000
+DTEND;TZID=Europe/Warsaw:20261221T150500
+SUMMARY:WdI (L)
+LOCATION:1/ 22
+DESCRIPTION:Wprowadzenie do informatyki\nRodzaj: laboratorium\nProwadzący
+ : dr hab. inż.(prof. ucz.) Wysocki Józef\nNr zajęć: 9/11\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d4a62001a004592e58ed872b@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261221T160000
+DTEND;TZID=Europe/Warsaw:20261221T173500
+SUMMARY:WdI (L)
+LOCATION:1/ 22
+DESCRIPTION:Wprowadzenie do informatyki\nRodzaj: laboratorium\nProwadzący
+ : dr hab. inż.(prof. ucz.) Wysocki Józef\nNr zajęć: 10/11\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:71f0b137fcb824418d99e665@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261222T080000
+DTEND;TZID=Europe/Warsaw:20261222T093500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Wło
+ dek Janusz\nNr zajęć: 12/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:db512590ddca3440d6504143@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261222T114000
+DTEND;TZID=Europe/Warsaw:20261222T131500
+SUMMARY:Mat2 (ć)
+LOCATION:0.19/ 135
+DESCRIPTION:Matematyka 2\nRodzaj: ćwiczenia\nProwadzący: dr Szostakiewic
+ z Michał\nNr zajęć: 6/17\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:842a650c0221e739d0c499f4@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261222T133000
+DTEND;TZID=Europe/Warsaw:20261222T150500
+SUMMARY:Mat2 (w)
+LOCATION:aula/ 135
+DESCRIPTION:Matematyka 2\nRodzaj: wykład\nProwadzący: dr Prusińska Agni
+ eszka\nNr zajęć: 9/17\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0d895f29a37e69c955971020@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261222T160000
+DTEND;TZID=Europe/Warsaw:20261222T173500
+SUMMARY:JoM (ć)
+LOCATION:233 K\;232 K\;231 K\;230 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 12/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:bfe0417f151597ca667ee32b@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261222T175000
+DTEND;TZID=Europe/Warsaw:20261222T192500
+SUMMARY:Ja (ć)
+LOCATION:126 K\;125 K\;124 K\;122 K\;121 K\;120 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 12/15\nBlok:
+  6
+END:VEVENT
+BEGIN:VEVENT
+UID:a50387ef76011a4947891c39@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261223T095000
+DTEND;TZID=Europe/Warsaw:20261223T112500
+SUMMARY:Mat2 (ć)
+LOCATION:255 S
+DESCRIPTION:Matematyka 2\nRodzaj: ćwiczenia\nProwadzący: dr Szostakiewic
+ z Michał\nNr zajęć: 7/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f1d0fbed6921565dc2571cef@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261223T133000
+DTEND;TZID=Europe/Warsaw:20261223T150500
+SUMMARY:PZiP (w)
+LOCATION:aula/ 135
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: wykład\
+ nProwadzący: dr hab. Przychocka Iwona\nNr zajęć: 7/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:af88e2f2d6ecbf093f1e3da1@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270107T095000
+DTEND;TZID=Europe/Warsaw:20270107T112500
+SUMMARY:Mat2 (w)
+LOCATION:aula/ 135
+DESCRIPTION:Matematyka 2\nRodzaj: wykład\nProwadzący: dr Prusińska Agni
+ eszka\nNr zajęć: 10/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f51cefde1f1b05db76559489@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270107T114000
+DTEND;TZID=Europe/Warsaw:20270107T131500
+SUMMARY:Mat2 (w)
+LOCATION:aula/ 135
+DESCRIPTION:Matematyka 2\nRodzaj: wykład\nProwadzący: dr Prusińska Agni
+ eszka\nNr zajęć: 11/17\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:384bdec478a2bc11aacd13e0@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270107T133000
+DTEND;TZID=Europe/Warsaw:20270107T150500
+SUMMARY:PGI (ć)
+LOCATION:3 54E
+DESCRIPTION:Podstawy grafiki inżynierskiej\nRodzaj: ćwiczenia\nProwadzą
+ cy: dr hab. inż. (prof. ucz.) Hutsaylyuk Volodymyr\nNr zajęć: 11/12\nB
+ lok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6dd8686fe1f54182a05c329e@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270107T160000
+DTEND;TZID=Europe/Warsaw:20270107T173500
+SUMMARY:WDM (ć)
+LOCATION:0.6/ 16
+DESCRIPTION:Wprowadzenie do metrologii\nRodzaj: ćwiczenia\nProwadzący: m
+ gr inż. Rajewski Marek\nNr zajęć: 9/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:a779d9d19dd748122ccf5c2b@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270108T095000
+DTEND;TZID=Europe/Warsaw:20270108T112500
+SUMMARY:Mat2 (ć)
+LOCATION:A.1.3/ 135
+DESCRIPTION:Matematyka 2\nRodzaj: ćwiczenia\nProwadzący: dr Szostakiewic
+ z Michał\nNr zajęć: 8/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d5f23637e6dea916765cd9a3@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270111T095000
+DTEND;TZID=Europe/Warsaw:20270111T112500
+SUMMARY:Mat2 (ć)
+LOCATION:255 S
+DESCRIPTION:Matematyka 2\nRodzaj: ćwiczenia\nProwadzący: dr Szostakiewic
+ z Michał\nNr zajęć: 9/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3f1f248240ad0aee256104c6@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270111T114000
+DTEND;TZID=Europe/Warsaw:20270111T131500
+SUMMARY:Mat2 (ć)
+LOCATION:255 S
+DESCRIPTION:Matematyka 2\nRodzaj: ćwiczenia\nProwadzący: dr Szostakiewic
+ z Michał\nNr zajęć: 10/17\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3f8ec14df57196edfdb98619@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270112T080000
+DTEND;TZID=Europe/Warsaw:20270112T093500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Wło
+ dek Janusz\nNr zajęć: 13/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8f592e626aa483b8e2890e6e@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270112T133000
+DTEND;TZID=Europe/Warsaw:20270112T150500
+SUMMARY:Mat2 (w)
+LOCATION:aula/ 135
+DESCRIPTION:Matematyka 2\nRodzaj: wykład\nProwadzący: dr Prusińska Agni
+ eszka\nNr zajęć: 12/17\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7175b44b83cb3f42cac228d9@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270112T160000
+DTEND;TZID=Europe/Warsaw:20270112T173500
+SUMMARY:JoM (ć)
+LOCATION:233 K\;232 K\;231 K\;230 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 13/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:35c92277de35be69e4ff0a0c@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270112T175000
+DTEND;TZID=Europe/Warsaw:20270112T192500
+SUMMARY:Ja (ć)
+LOCATION:126 K\;125 K\;124 K\;122 K\;121 K\;120 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 13/15\nBlok:
+  6
+END:VEVENT
+BEGIN:VEVENT
+UID:d4b37a3a3599cc40f3b4855d@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270113T095000
+DTEND;TZID=Europe/Warsaw:20270113T112500
+SUMMARY:Mat2 (ć)
+LOCATION:255 S
+DESCRIPTION:Matematyka 2\nRodzaj: ćwiczenia\nProwadzący: dr Szostakiewic
+ z Michał\nNr zajęć: 11/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d9fcac508c890931f1361035@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270113T114000
+DTEND;TZID=Europe/Warsaw:20270113T131500
+SUMMARY:PZiP (ć)
+LOCATION:4.23/ 135
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: ćwiczen
+ ia\nProwadzący: dr Nyszk Łukasz\nNr zajęć: 7/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c55fbf08c9dc23b5609f2406@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270113T133000
+DTEND;TZID=Europe/Warsaw:20270113T150500
+SUMMARY:PZiP (w)
+LOCATION:aula/ 135
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: wykład\
+ nProwadzący: dr hab. Przychocka Iwona\nNr zajęć: 8/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6ad39ff9ddb80b4be50690cd@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270114T095000
+DTEND;TZID=Europe/Warsaw:20270114T112500
+SUMMARY:Mat2 (w)
+LOCATION:aula/ 135
+DESCRIPTION:Matematyka 2\nRodzaj: wykład\nProwadzący: dr Prusińska Agni
+ eszka\nNr zajęć: 13/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ae82fc38ac3b20052e8f49f0@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270114T114000
+DTEND;TZID=Europe/Warsaw:20270114T131500
+SUMMARY:PGI (ć)
+LOCATION:255 S
+DESCRIPTION:Podstawy grafiki inżynierskiej\nRodzaj: ćwiczenia\nProwadzą
+ cy: dr hab. inż. (prof. ucz.) Hutsaylyuk Volodymyr\nNr zajęć: 12/12\nB
+ lok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d2ef8f7b33cc62974cc5b7ec@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270114T133000
+DTEND;TZID=Europe/Warsaw:20270114T150500
+SUMMARY:WdI (L)
+LOCATION:1/ 22
+DESCRIPTION:Wprowadzenie do informatyki\nRodzaj: laboratorium\nProwadzący
+ : Waś.To\nNr zajęć: 11/11\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:cd99f0380291aac154ebc1bd@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270114T160000
+DTEND;TZID=Europe/Warsaw:20270114T173500
+SUMMARY:Mat2 (ć)
+LOCATION:0.8/ 16
+DESCRIPTION:Matematyka 2\nRodzaj: ćwiczenia\nProwadzący: dr Szostakiewic
+ z Michał\nNr zajęć: 12/17\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:1bf00fe2715ba9095574af38@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270118T095000
+DTEND;TZID=Europe/Warsaw:20270118T112500
+SUMMARY:Mat2 (ć)
+LOCATION:255 S
+DESCRIPTION:Matematyka 2\nRodzaj: ćwiczenia\nProwadzący: dr Szostakiewic
+ z Michał\nNr zajęć: 13/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:375ccff23445b00a0a4bf9de@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270119T080000
+DTEND;TZID=Europe/Warsaw:20270119T093500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Wło
+ dek Janusz\nNr zajęć: 14/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:726c9292ae5fbfcabd5e9873@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270119T133000
+DTEND;TZID=Europe/Warsaw:20270119T150500
+SUMMARY:Mat2 (w)
+LOCATION:aula/ 135
+DESCRIPTION:Matematyka 2\nRodzaj: wykład\nProwadzący: dr Prusińska Agni
+ eszka\nNr zajęć: 14/17\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:bb44993fd3ebfaa3e145f7d5@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270119T160000
+DTEND;TZID=Europe/Warsaw:20270119T173500
+SUMMARY:JoM (ć)
+LOCATION:233 K\;232 K\;231 K\;230 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 14/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:58c6128629045e29ed47b08d@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270119T175000
+DTEND;TZID=Europe/Warsaw:20270119T192500
+SUMMARY:Ja (ć)
+LOCATION:126 K\;125 K\;124 K\;122 K\;121 K\;120 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 14/15\nBlok:
+  6
+END:VEVENT
+BEGIN:VEVENT
+UID:68864fdf3cf7e72eaaa94145@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270120T095000
+DTEND;TZID=Europe/Warsaw:20270120T112500
+SUMMARY:Mat2 (ć)
+LOCATION:255 S
+DESCRIPTION:Matematyka 2\nRodzaj: ćwiczenia\nProwadzący: dr Szostakiewic
+ z Michał\nNr zajęć: 14/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:cf87ae81ec5ee5def1901fbf@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270120T133000
+DTEND;TZID=Europe/Warsaw:20270120T150500
+SUMMARY:PZiP (w)
+LOCATION:aula/ 135
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: wykład\
+ nProwadzący: dr hab. Przychocka Iwona\nNr zajęć: 9/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d3f566574fc2d942bf95eb1f@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270121T095000
+DTEND;TZID=Europe/Warsaw:20270121T112500
+SUMMARY:Mat2 (w)
+LOCATION:aula/ 135
+DESCRIPTION:Matematyka 2\nRodzaj: wykład\nProwadzący: dr Prusińska Agni
+ eszka\nNr zajęć: 15/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6b2d058d73a580082a481907@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270121T114000
+DTEND;TZID=Europe/Warsaw:20270121T131500
+SUMMARY:Wzp (w)
+LOCATION:aula/ 135
+DESCRIPTION:Wybrane zagadnienia prawa\nRodzaj: wykład\nProwadzący: dr Sz
+ ewczyk-Rokicki Rafał\nNr zajęć: 7/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:345ac4c6ab914a99b7532ac5@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270121T133000
+DTEND;TZID=Europe/Warsaw:20270121T150500
+SUMMARY:WDM (ć)
+LOCATION:A.1.3/ 135
+DESCRIPTION:Wprowadzenie do metrologii\nRodzaj: ćwiczenia\nProwadzący: m
+ gr inż. Rajewski Marek\nNr zajęć: 10/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5e2186c3ec73bbdc5272d145@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270125T095000
+DTEND;TZID=Europe/Warsaw:20270125T112500
+SUMMARY:Mat2 (ć)
+LOCATION:255 S
+DESCRIPTION:Matematyka 2\nRodzaj: ćwiczenia\nProwadzący: dr Szostakiewic
+ z Michał\nNr zajęć: 15/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3d7f308c9bc6141311367717@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270126T080000
+DTEND;TZID=Europe/Warsaw:20270126T093500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Wło
+ dek Janusz\nNr zajęć: 15/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c1f22045a8c773c86e0efc12@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270126T114000
+DTEND;TZID=Europe/Warsaw:20270126T131500
+SUMMARY:Mat2 (ć)
+LOCATION:255 S
+DESCRIPTION:Matematyka 2\nRodzaj: ćwiczenia\nProwadzący: dr Szostakiewic
+ z Michał\nNr zajęć: 16/17\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9b90ed183935d4655e566f48@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270126T133000
+DTEND;TZID=Europe/Warsaw:20270126T150500
+SUMMARY:Mat2 (w)
+LOCATION:aula/ 135
+DESCRIPTION:Matematyka 2\nRodzaj: wykład\nProwadzący: dr Prusińska Agni
+ eszka\nNr zajęć: 16/17\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:65ca41afbbe632570ce752c7@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270126T160000
+DTEND;TZID=Europe/Warsaw:20270126T173500
+SUMMARY:JoM (ć)
+LOCATION:233 K\;232 K\;231 K\;230 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 15/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:c7250cae8aa2a9d1b26a2d30@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270126T175000
+DTEND;TZID=Europe/Warsaw:20270126T192500
+SUMMARY:Ja (ć)
+LOCATION:126 K\;125 K\;124 K\;122 K\;121 K\;120 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 15/15\nBlok:
+  6
+END:VEVENT
+BEGIN:VEVENT
+UID:457abf7946107f7ffb93c791@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270127T080000
+DTEND;TZID=Europe/Warsaw:20270127T093500
+SUMMARY:WDM (w)
+LOCATION:7a-b Bibl
+DESCRIPTION:Wprowadzenie do metrologii\nRodzaj: wykład\nProwadzący: dr i
+ nż. Boruta Grzegorz\nNr zajęć: 9/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b0a06e813bbe69c8b336feaa@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270128T095000
+DTEND;TZID=Europe/Warsaw:20270128T112500
+SUMMARY:Mat2 (w)
+LOCATION:aula/ 135
+DESCRIPTION:Matematyka 2\nRodzaj: wykład\nProwadzący: dr Prusińska Agni
+ eszka\nNr zajęć: 17/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c8d17d416509c1925fe38855@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270128T114000
+DTEND;TZID=Europe/Warsaw:20270128T131500
+SUMMARY:PZiP (ć)
+LOCATION:4.23/ 135
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: ćwiczen
+ ia\nProwadzący: dr Nyszk Łukasz\nNr zajęć: 8/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:11e25f4cc89c7d9392e0ffd3@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270128T133000
+DTEND;TZID=Europe/Warsaw:20270128T150500
+SUMMARY:Mat2 (ć)
+LOCATION:255 S
+DESCRIPTION:Matematyka 2\nRodzaj: ćwiczenia\nProwadzący: dr Szostakiewic
+ z Michał\nNr zajęć: 17/17\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e849ca1c357377fdff6c2f50@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270204T095000
+DTEND;TZID=Europe/Warsaw:20270204T112500
+SUMMARY:Mat2 (E)
+LOCATION:aula/ 135
+DESCRIPTION:Matematyka 2\nRodzaj: egzamin\nProwadzący: dr Prusińska Agni
+ eszka\nNr zajęć: 1/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0c6775d949871fd1ffafc5a5@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270204T114000
+DTEND;TZID=Europe/Warsaw:20270204T131500
+SUMMARY:Mat2 (E)
+LOCATION:aula/ 135
+DESCRIPTION:Matematyka 2\nRodzaj: egzamin\nProwadzący: dr Prusińska Agni
+ eszka\nNr zajęć: 2/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ca7abe89376868804d6beef9@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270208T095000
+DTEND;TZID=Europe/Warsaw:20270208T112500
+SUMMARY:M1 (E)
+LOCATION:aula/ 135
+DESCRIPTION:Matematyka 1\nRodzaj: egzamin\nProwadzący: dr Prusińska Agni
+ eszka\nNr zajęć: 1/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:cbe2ebc61bbaa91cb522abcb@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270208T114000
+DTEND;TZID=Europe/Warsaw:20270208T131500
+SUMMARY:M1 (E)
+LOCATION:aula/ 135
+DESCRIPTION:Matematyka 1\nRodzaj: egzamin\nProwadzący: dr Prusińska Agni
+ eszka\nNr zajęć: 2/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:723e03d164fd3a8e9741403b@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270216T095000
+DTEND;TZID=Europe/Warsaw:20270216T112500
+SUMMARY:M1 (Ep)
+LOCATION:aula/ 135
+DESCRIPTION:Matematyka 1\nRodzaj: egzamin poprawkowy\nProwadzący: dr Prus
+ ińska Agnieszka\nNr zajęć: 1/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:be4e876c5f372fade568cd96@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270216T114000
+DTEND;TZID=Europe/Warsaw:20270216T131500
+SUMMARY:M1 (Ep)
+LOCATION:aula/ 135
+DESCRIPTION:Matematyka 1\nRodzaj: egzamin poprawkowy\nProwadzący: dr Prus
+ ińska Agnieszka\nNr zajęć: 2/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:fbb23ba67e52a5e27bc2a1a4@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270218T095000
+DTEND;TZID=Europe/Warsaw:20270218T112500
+SUMMARY:Mat2 (Ep)
+LOCATION:aula/ 135
+DESCRIPTION:Matematyka 2\nRodzaj: egzamin poprawkowy\nProwadzący: dr Prus
+ ińska Agnieszka\nNr zajęć: 1/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d5c6f11e7fd3435fce6fc15a@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270218T114000
+DTEND;TZID=Europe/Warsaw:20270218T131500
+SUMMARY:Mat2 (Ep)
+LOCATION:aula/ 135
+DESCRIPTION:Matematyka 2\nRodzaj: egzamin poprawkowy\nProwadzący: dr Prus
+ ińska Agnieszka\nNr zajęć: 2/2\nBlok: 3
+END:VEVENT
+END:VCALENDAR

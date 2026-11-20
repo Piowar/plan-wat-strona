@@ -1,0 +1,1207 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WLO24PW1N1
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:842e9718f50aadae0fa3d491@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261003T080000
+DTEND;TZID=Europe/Warsaw:20261003T093500
+SUMMARY:Krym (w)
+LOCATION:4.17b/ 135
+DESCRIPTION:Kryminalistyka\nRodzaj: wykład\nProwadzący: mgr Bogusz Marek
+ \nNr zajęć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:dee7fffab3bc854977e50e37@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261003T095000
+DTEND;TZID=Europe/Warsaw:20261003T112500
+SUMMARY:Krym (w)
+LOCATION:4.17b/ 135
+DESCRIPTION:Kryminalistyka\nRodzaj: wykład\nProwadzący: mgr Bogusz Marek
+ \nNr zajęć: 2/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a22c51ff6b1ae57f5826b055@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261003T114000
+DTEND;TZID=Europe/Warsaw:20261003T131500
+SUMMARY:Krym (ć)
+LOCATION:4.17b/ 135
+DESCRIPTION:Kryminalistyka\nRodzaj: ćwiczenia\nProwadzący: mgr Bogusz Ma
+ rek\nNr zajęć: 1/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8c5a423de17b7b946bda2f4b@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261003T133000
+DTEND;TZID=Europe/Warsaw:20261003T150500
+SUMMARY:Krym (ć)
+LOCATION:4.17b/ 135
+DESCRIPTION:Kryminalistyka\nRodzaj: ćwiczenia\nProwadzący: mgr Bogusz Ma
+ rek\nNr zajęć: 2/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a4cd06fdbac0c1baafe2da01@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261003T152000
+DTEND;TZID=Europe/Warsaw:20261003T165500
+SUMMARY:Krym (ć)
+LOCATION:4.17b/ 135
+DESCRIPTION:Kryminalistyka\nRodzaj: ćwiczenia\nProwadzący: mgr Bogusz Ma
+ rek\nNr zajęć: 3/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:10f32ac26de6ec17565cf38c@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261004T080000
+DTEND;TZID=Europe/Warsaw:20261004T093500
+SUMMARY:GDiZR (w)
+LOCATION:4.23/ 135
+DESCRIPTION:Gry decyzyjne i zarządzanie ryzykiem\nRodzaj: wykład\nProwad
+ zący: dr hab. (prof. WAT) Świerszcz Katarzyna\nNr zajęć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5387c58a62534da6fe1a6284@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261004T095000
+DTEND;TZID=Europe/Warsaw:20261004T112500
+SUMMARY:GDiZR (w)
+LOCATION:4.23/ 135
+DESCRIPTION:Gry decyzyjne i zarządzanie ryzykiem\nRodzaj: wykład\nProwad
+ zący: dr hab. (prof. WAT) Świerszcz Katarzyna\nNr zajęć: 2/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:501a5bb1fd8993c672b15f8f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261004T114000
+DTEND;TZID=Europe/Warsaw:20261004T131500
+SUMMARY:Karno.praw\, asp.och. inf. (w)
+LOCATION:1.17/ 16
+DESCRIPTION:Karnoprawne aspekty ochrony informacji\nRodzaj: wykład\nProwa
+ dzący: dr Kochanowicz Małgorzata\nNr zajęć: 1/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d6f1f8ae0b250fb729254a7a@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261004T133000
+DTEND;TZID=Europe/Warsaw:20261004T150500
+SUMMARY:Karno.praw\, asp.och. inf. (w)
+LOCATION:1.17/ 16
+DESCRIPTION:Karnoprawne aspekty ochrony informacji\nRodzaj: wykład\nProwa
+ dzący: dr Kochanowicz Małgorzata\nNr zajęć: 2/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2bc8666f884f2c7c4f439205@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261010T095000
+DTEND;TZID=Europe/Warsaw:20261010T112500
+SUMMARY:OIN (w)
+LOCATION:0.21/ 16
+DESCRIPTION:Ochrona informacji niejawnych\nRodzaj: wykład\nProwadzący: p
+ rof. dr hab. Skrabacz Aleksandra\nNr zajęć: 1/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5ed682b801b8f88c47eead91@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261010T114000
+DTEND;TZID=Europe/Warsaw:20261010T131500
+SUMMARY:OIN (w)
+LOCATION:0.21/ 16
+DESCRIPTION:Ochrona informacji niejawnych\nRodzaj: wykład\nProwadzący: p
+ rof. dr hab. Skrabacz Aleksandra\nNr zajęć: 2/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a54a0ace72104841d0dc2ef8@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261010T133000
+DTEND;TZID=Europe/Warsaw:20261010T150500
+SUMMARY:Pszw (w)
+LOCATION:187 S
+DESCRIPTION:Podstawy sztuki wojennej\nRodzaj: wykład\nProwadzący: prof. 
+ dr hab. Skrabacz Aleksandra\nNr zajęć: 1/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4e2d156bf5beb6f966473e8e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261010T152000
+DTEND;TZID=Europe/Warsaw:20261010T165500
+SUMMARY:Pszw (w)
+LOCATION:187 S
+DESCRIPTION:Podstawy sztuki wojennej\nRodzaj: wykład\nProwadzący: prof. 
+ dr hab. Skrabacz Aleksandra\nNr zajęć: 2/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:497348557d2c23328e6fd363@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261011T080000
+DTEND;TZID=Europe/Warsaw:20261011T093500
+SUMMARY:Zte (w)
+LOCATION:1.17/ 16
+DESCRIPTION:Zwalczanie przestępczości zorganizowanej i terroryzmu\nRodza
+ j: wykład\nProwadzący: prof. dr hab. Misiuk Andrzej\nNr zajęć: 1/4\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2f55e1450a44941599ffa991@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261011T095000
+DTEND;TZID=Europe/Warsaw:20261011T112500
+SUMMARY:Zte (w)
+LOCATION:1.17/ 16
+DESCRIPTION:Zwalczanie przestępczości zorganizowanej i terroryzmu\nRodza
+ j: wykład\nProwadzący: prof. dr hab. Misiuk Andrzej\nNr zajęć: 2/4\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a74eb668956b4d1ca8726d59@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261011T114000
+DTEND;TZID=Europe/Warsaw:20261011T131500
+SUMMARY:OIN (w)
+LOCATION:0.21/ 16
+DESCRIPTION:Ochrona informacji niejawnych\nRodzaj: wykład\nProwadzący: p
+ rof. dr hab. Skrabacz Aleksandra\nNr zajęć: 3/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6764d9768eaa16d9356fff87@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261011T133000
+DTEND;TZID=Europe/Warsaw:20261011T150500
+SUMMARY:Zas.Inf.wP.Obr.Pa. (w)
+LOCATION:1.15/ 16
+DESCRIPTION:Zasoby informacyjne w potencjale obronnym Państwa\nRodzaj: wy
+ kład\nProwadzący: dr inż. Kubaczyk Tadeusz\nNr zajęć: 1/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:355f2e178b0cb076b3a12469@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261011T152000
+DTEND;TZID=Europe/Warsaw:20261011T165500
+SUMMARY:Zas.Inf.wP.Obr.Pa. (w)
+LOCATION:1.15/ 16
+DESCRIPTION:Zasoby informacyjne w potencjale obronnym Państwa\nRodzaj: wy
+ kład\nProwadzący: dr inż. Kubaczyk Tadeusz\nNr zajęć: 2/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:0a29f9a68c9f95209cd0dc9e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261024T080000
+DTEND;TZID=Europe/Warsaw:20261024T093500
+SUMMARY:Au.Sys.Bezp.Inf. (w)
+LOCATION:4.17a/ 135
+DESCRIPTION:Audyt systemów bezpieczeństwa informacji\nRodzaj: wykład\nP
+ rowadzący: dr inż. Magierski Mieczysław\nNr zajęć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7f25b0459815b3fc18a742bb@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261024T095000
+DTEND;TZID=Europe/Warsaw:20261024T112500
+SUMMARY:Zas.Inf.wP.Obr.Pa. (w)
+LOCATION:2.22/ 135
+DESCRIPTION:Zasoby informacyjne w potencjale obronnym Państwa\nRodzaj: wy
+ kład\nProwadzący: dr inż. Kubaczyk Tadeusz\nNr zajęć: 3/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b7ff657c6f81e4e65f0dce6e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261024T114000
+DTEND;TZID=Europe/Warsaw:20261024T131500
+SUMMARY:Zas.Inf.wP.Obr.Pa. (w)
+LOCATION:2.22/ 135
+DESCRIPTION:Zasoby informacyjne w potencjale obronnym Państwa\nRodzaj: wy
+ kład\nProwadzący: dr inż. Kubaczyk Tadeusz\nNr zajęć: 4/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:30d17ff8f70ce220ab24220d@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261024T133000
+DTEND;TZID=Europe/Warsaw:20261024T150500
+SUMMARY:Karno.praw\, asp.och. inf. (w)
+LOCATION:187 S
+DESCRIPTION:Karnoprawne aspekty ochrony informacji\nRodzaj: wykład\nProwa
+ dzący: dr Kochanowicz Małgorzata\nNr zajęć: 3/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b55d2e4e1ffecf9b13516e41@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261024T152000
+DTEND;TZID=Europe/Warsaw:20261024T165500
+SUMMARY:Karno.praw\, asp.och. inf. (w)
+LOCATION:187 S
+DESCRIPTION:Karnoprawne aspekty ochrony informacji\nRodzaj: wykład\nProwa
+ dzący: dr Kochanowicz Małgorzata\nNr zajęć: 4/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:ba405f4c058b548d664ca2d0@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261025T080000
+DTEND;TZID=Europe/Warsaw:20261025T093500
+SUMMARY:Au.Sys.Bezp.Inf. (w)
+LOCATION:4.23/ 135
+DESCRIPTION:Audyt systemów bezpieczeństwa informacji\nRodzaj: wykład\nP
+ rowadzący: dr inż. Magierski Mieczysław\nNr zajęć: 2/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8dbd333b1373191f24b827c6@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261025T095000
+DTEND;TZID=Europe/Warsaw:20261025T112500
+SUMMARY:Inf. publ. (w)
+LOCATION:1002 HILTON
+DESCRIPTION:Informacja publiczna\nRodzaj: wykład\nProwadzący: dr Jaśkow
+ ski Rafał\nNr zajęć: 1/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:66d0e342838cdb8dfb920a9d@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261025T114000
+DTEND;TZID=Europe/Warsaw:20261025T131500
+SUMMARY:Inf. publ. (w)
+LOCATION:1002 HILTON
+DESCRIPTION:Informacja publiczna\nRodzaj: wykład\nProwadzący: dr Jaśkow
+ ski Rafał\nNr zajęć: 2/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:88824c20faa0b14b8fe73500@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261025T133000
+DTEND;TZID=Europe/Warsaw:20261025T150500
+SUMMARY:Inf. publ. (ć)
+LOCATION:1002 HILTON
+DESCRIPTION:Informacja publiczna\nRodzaj: ćwiczenia\nProwadzący: dr Jaś
+ kowski Rafał\nNr zajęć: 1/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:685e33887912abeb518a16a0@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261107T095000
+DTEND;TZID=Europe/Warsaw:20261107T112500
+SUMMARY:Pszw (ć)
+LOCATION:1002 HILTON
+DESCRIPTION:Podstawy sztuki wojennej\nRodzaj: ćwiczenia\nProwadzący: pro
+ f. dr hab. Skrabacz Aleksandra\nNr zajęć: 1/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:36099197fb4947f8fea555dd@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261107T114000
+DTEND;TZID=Europe/Warsaw:20261107T131500
+SUMMARY:Pszw (ć)
+LOCATION:1002 HILTON
+DESCRIPTION:Podstawy sztuki wojennej\nRodzaj: ćwiczenia\nProwadzący: pro
+ f. dr hab. Skrabacz Aleksandra\nNr zajęć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:744a1978addb9418a62afb65@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261107T133000
+DTEND;TZID=Europe/Warsaw:20261107T150500
+SUMMARY:Zcz (w)
+LOCATION:0.22/ 16
+DESCRIPTION:Zarządzanie ciągłością działania\nRodzaj: wykład\nProwa
+ dzący: dr Krawczyk Mateusz\nNr zajęć: 1/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:197e3078377c29bb9d5ef601@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261107T152000
+DTEND;TZID=Europe/Warsaw:20261107T165500
+SUMMARY:Zcz (w)
+LOCATION:0.22/ 16
+DESCRIPTION:Zarządzanie ciągłością działania\nRodzaj: wykład\nProwa
+ dzący: dr Krawczyk Mateusz\nNr zajęć: 2/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:9c7c8f35f6b85fcde2479f7a@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261108T080000
+DTEND;TZID=Europe/Warsaw:20261108T093500
+SUMMARY:Zte (w)
+LOCATION:2/ 22
+DESCRIPTION:Zwalczanie przestępczości zorganizowanej i terroryzmu\nRodza
+ j: wykład\nProwadzący: prof. dr hab. Misiuk Andrzej\nNr zajęć: 3/4\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d3095d8f44a2b9e318916206@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261108T095000
+DTEND;TZID=Europe/Warsaw:20261108T112500
+SUMMARY:Obr. Powsz. (w)
+LOCATION:2/ 22
+DESCRIPTION:Obrona Powszechna\nRodzaj: wykład\nProwadzący: prof. dr hab.
+  Skrabacz Aleksandra\nNr zajęć: 1/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2a0aa41b2d6101975054f40e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261108T114000
+DTEND;TZID=Europe/Warsaw:20261108T131500
+SUMMARY:Obr. Powsz. (w)
+LOCATION:2/ 22
+DESCRIPTION:Obrona Powszechna\nRodzaj: wykład\nProwadzący: prof. dr hab.
+  Skrabacz Aleksandra\nNr zajęć: 2/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8c00c1f5bf13c26fddef4341@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261108T133000
+DTEND;TZID=Europe/Warsaw:20261108T150500
+SUMMARY:Zte (w)
+LOCATION:255 S
+DESCRIPTION:Zwalczanie przestępczości zorganizowanej i terroryzmu\nRodza
+ j: wykład\nProwadzący: prof. dr hab. Misiuk Andrzej\nNr zajęć: 4/4\nB
+ lok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4af8270a013741efe5c61c9d@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261114T095000
+DTEND;TZID=Europe/Warsaw:20261114T112500
+SUMMARY:Inf. publ. (w)
+LOCATION:1002 HILTON
+DESCRIPTION:Informacja publiczna\nRodzaj: wykład\nProwadzący: dr Jaśkow
+ ski Rafał\nNr zajęć: 3/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9b358550ea726cc28cee2a6d@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261114T114000
+DTEND;TZID=Europe/Warsaw:20261114T131500
+SUMMARY:Inf. publ. (w)
+LOCATION:1002 HILTON
+DESCRIPTION:Informacja publiczna\nRodzaj: wykład\nProwadzący: dr Jaśkow
+ ski Rafał\nNr zajęć: 4/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d6a73b962b95d8cf25c161fc@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261114T133000
+DTEND;TZID=Europe/Warsaw:20261114T150500
+SUMMARY:Inf. publ. (ć)
+LOCATION:1002 HILTON
+DESCRIPTION:Informacja publiczna\nRodzaj: ćwiczenia\nProwadzący: dr Jaś
+ kowski Rafał\nNr zajęć: 2/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ab2807c312536953b9b595b6@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261114T152000
+DTEND;TZID=Europe/Warsaw:20261114T165500
+SUMMARY:Inf. publ. (ć)
+LOCATION:1002 HILTON
+DESCRIPTION:Informacja publiczna\nRodzaj: ćwiczenia\nProwadzący: dr Jaś
+ kowski Rafał\nNr zajęć: 3/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:8184dad3933f0cb75e133d8b@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261115T095000
+DTEND;TZID=Europe/Warsaw:20261115T112500
+SUMMARY:Obr. Powsz. (ć)
+LOCATION:1003 HILTON
+DESCRIPTION:Obrona Powszechna\nRodzaj: ćwiczenia\nProwadzący: dr inż. K
+ ubaczyk Tadeusz\nNr zajęć: 1/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d4f05f130781f67fd6925264@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261115T114000
+DTEND;TZID=Europe/Warsaw:20261115T131500
+SUMMARY:Obr. Powsz. (ć)
+LOCATION:1003 HILTON
+DESCRIPTION:Obrona Powszechna\nRodzaj: ćwiczenia\nProwadzący: dr inż. K
+ ubaczyk Tadeusz\nNr zajęć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:dd23a3a02b19efcf71d0a86a@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261115T133000
+DTEND;TZID=Europe/Warsaw:20261115T150500
+SUMMARY:Zas.Inf.wP.Obr.Pa. (ć)
+LOCATION:1.17/ 16
+DESCRIPTION:Zasoby informacyjne w potencjale obronnym Państwa\nRodzaj: ć
+ wiczenia\nProwadzący: dr inż. Kubaczyk Tadeusz\nNr zajęć: 1/5\nBlok: 
+ 4
+END:VEVENT
+BEGIN:VEVENT
+UID:037a9dcebcd26346fd2dd33b@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261121T095000
+DTEND;TZID=Europe/Warsaw:20261121T112500
+SUMMARY:OIN (ć)
+LOCATION:1002 HILTON
+DESCRIPTION:Ochrona informacji niejawnych\nRodzaj: ćwiczenia\nProwadzący
+ : prof. dr hab. Skrabacz Aleksandra\nNr zajęć: 1/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b2267aa5e6ef853b580deb89@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261121T114000
+DTEND;TZID=Europe/Warsaw:20261121T131500
+SUMMARY:OIN (ć)
+LOCATION:1002 HILTON
+DESCRIPTION:Ochrona informacji niejawnych\nRodzaj: ćwiczenia\nProwadzący
+ : prof. dr hab. Skrabacz Aleksandra\nNr zajęć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f19f8eb78a4d280133363e4d@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261121T133000
+DTEND;TZID=Europe/Warsaw:20261121T150500
+SUMMARY:Pszw (w)
+LOCATION:1003 HILTON
+DESCRIPTION:Podstawy sztuki wojennej\nRodzaj: wykład\nProwadzący: prof. 
+ dr hab. Skrabacz Aleksandra\nNr zajęć: 3/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:54f16c1b576f6ed26c92de7e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261121T152000
+DTEND;TZID=Europe/Warsaw:20261121T165500
+SUMMARY:Pszw (w)
+LOCATION:1003 HILTON
+DESCRIPTION:Podstawy sztuki wojennej\nRodzaj: wykład\nProwadzący: prof. 
+ dr hab. Skrabacz Aleksandra\nNr zajęć: 4/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:91ce0ee56071f39313ac279b@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261122T080000
+DTEND;TZID=Europe/Warsaw:20261122T093500
+SUMMARY:Karno.praw\, asp.och. inf. (ć)
+LOCATION:0.23/ 16
+DESCRIPTION:Karnoprawne aspekty ochrony informacji\nRodzaj: ćwiczenia\nPr
+ owadzący: mgr Trzcińska Luiza\nNr zajęć: 1/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d2b1712fd89d0aeae32a9cf6@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261122T095000
+DTEND;TZID=Europe/Warsaw:20261122T112500
+SUMMARY:P. o.p. (w)
+LOCATION:1002 HILTON
+DESCRIPTION:Przygotowania obronne państwa\nRodzaj: wykład\nProwadzący: 
+ dr inż. Kubaczyk Tadeusz\nNr zajęć: 1/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:69bd1f01339c9a755c979868@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261122T114000
+DTEND;TZID=Europe/Warsaw:20261122T131500
+SUMMARY:P. o.p. (w)
+LOCATION:1002 HILTON
+DESCRIPTION:Przygotowania obronne państwa\nRodzaj: wykład\nProwadzący: 
+ dr inż. Kubaczyk Tadeusz\nNr zajęć: 2/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:354df9cd32bb341ac8b9fc5d@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261122T133000
+DTEND;TZID=Europe/Warsaw:20261122T150500
+SUMMARY:OIN (ć)
+LOCATION:0.21/ 16
+DESCRIPTION:Ochrona informacji niejawnych\nRodzaj: ćwiczenia\nProwadzący
+ : prof. dr hab. Skrabacz Aleksandra\nNr zajęć: 3/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:dcc420e9f6b82279b5c75b24@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261205T095000
+DTEND;TZID=Europe/Warsaw:20261205T112500
+SUMMARY:P. o.p. (w)
+LOCATION:1002 HILTON
+DESCRIPTION:Przygotowania obronne państwa\nRodzaj: wykład\nProwadzący: 
+ dr inż. Kubaczyk Tadeusz\nNr zajęć: 3/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c23d1de918cf9decf5dc3149@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261205T114000
+DTEND;TZID=Europe/Warsaw:20261205T131500
+SUMMARY:P. o.p. (w)
+LOCATION:1002 HILTON
+DESCRIPTION:Przygotowania obronne państwa\nRodzaj: wykład\nProwadzący: 
+ dr inż. Kubaczyk Tadeusz\nNr zajęć: 4/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8e1ce38e913f3f20553ca298@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261205T133000
+DTEND;TZID=Europe/Warsaw:20261205T150500
+SUMMARY:P. o.p. (ć)
+LOCATION:0.6/ 16
+DESCRIPTION:Przygotowania obronne państwa\nRodzaj: ćwiczenia\nProwadząc
+ y: dr inż. Kubaczyk Tadeusz\nNr zajęć: 1/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6bea9e2a01f1d4b12bd18d22@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261205T152000
+DTEND;TZID=Europe/Warsaw:20261205T165500
+SUMMARY:P. o.p. (ć)
+LOCATION:0.6/ 16
+DESCRIPTION:Przygotowania obronne państwa\nRodzaj: ćwiczenia\nProwadząc
+ y: dr inż. Kubaczyk Tadeusz\nNr zajęć: 2/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:04db1ff00425661d1d257962@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261206T080000
+DTEND;TZID=Europe/Warsaw:20261206T093500
+SUMMARY:GDiZR (w)
+LOCATION:1.16/ 16
+DESCRIPTION:Gry decyzyjne i zarządzanie ryzykiem\nRodzaj: wykład\nProwad
+ zący: dr hab. (prof. WAT) Świerszcz Katarzyna\nNr zajęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:062d7f6fe1fa2286493bbc66@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261206T095000
+DTEND;TZID=Europe/Warsaw:20261206T112500
+SUMMARY:GDiZR (w)
+LOCATION:1.16/ 16
+DESCRIPTION:Gry decyzyjne i zarządzanie ryzykiem\nRodzaj: wykład\nProwad
+ zący: dr hab. (prof. WAT) Świerszcz Katarzyna\nNr zajęć: 4/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:924c4790191805ec32523951@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261206T114000
+DTEND;TZID=Europe/Warsaw:20261206T131500
+SUMMARY:GDiZR (ć)
+LOCATION:0.22/ 16
+DESCRIPTION:Gry decyzyjne i zarządzanie ryzykiem\nRodzaj: ćwiczenia\nPro
+ wadzący: dr hab. (prof. WAT) Świerszcz Katarzyna\nNr zajęć: 1/5\nBlok
+ : 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d40bcf7175fd9a0bc248999a@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261206T133000
+DTEND;TZID=Europe/Warsaw:20261206T150500
+SUMMARY:GDiZR (ć)
+LOCATION:0.22/ 16
+DESCRIPTION:Gry decyzyjne i zarządzanie ryzykiem\nRodzaj: ćwiczenia\nPro
+ wadzący: dr hab. (prof. WAT) Świerszcz Katarzyna\nNr zajęć: 2/5\nBlok
+ : 4
+END:VEVENT
+BEGIN:VEVENT
+UID:bfdc0361c7c6377fd8f2f039@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261212T080000
+DTEND;TZID=Europe/Warsaw:20261212T093500
+SUMMARY:Zcz (w)
+LOCATION:0.21/ 16
+DESCRIPTION:Zarządzanie ciągłością działania\nRodzaj: wykład\nProwa
+ dzący: dr Krawczyk Mateusz\nNr zajęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6e4d873925c01f43ddef015e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261212T095000
+DTEND;TZID=Europe/Warsaw:20261212T112500
+SUMMARY:Zcz (w)
+LOCATION:0.21/ 16
+DESCRIPTION:Zarządzanie ciągłością działania\nRodzaj: wykład\nProwa
+ dzący: dr Krawczyk Mateusz\nNr zajęć: 4/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:687ebd92fe9dc06c8d439660@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261212T114000
+DTEND;TZID=Europe/Warsaw:20261212T131500
+SUMMARY:OIN (ć)
+LOCATION:1002 HILTON
+DESCRIPTION:Ochrona informacji niejawnych\nRodzaj: ćwiczenia\nProwadzący
+ : prof. dr hab. Skrabacz Aleksandra\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b92b467bc5f80e3847aa653a@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261212T133000
+DTEND;TZID=Europe/Warsaw:20261212T150500
+SUMMARY:OIN (ć)
+LOCATION:1002 HILTON
+DESCRIPTION:Ochrona informacji niejawnych\nRodzaj: ćwiczenia\nProwadzący
+ : prof. dr hab. Skrabacz Aleksandra\nNr zajęć: 5/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:615a999ec41bd9f5da1bec43@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261212T152000
+DTEND;TZID=Europe/Warsaw:20261212T165500
+SUMMARY:Au.Sys.Bezp.Inf. (w)
+LOCATION:0.6/ 16
+DESCRIPTION:Audyt systemów bezpieczeństwa informacji\nRodzaj: wykład\nP
+ rowadzący: dr inż. Magierski Mieczysław\nNr zajęć: 3/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:ac759e14d73f988d16af76f2@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261212T171000
+DTEND;TZID=Europe/Warsaw:20261212T184500
+SUMMARY:Au.Sys.Bezp.Inf. (w)
+LOCATION:0.6/ 16
+DESCRIPTION:Audyt systemów bezpieczeństwa informacji\nRodzaj: wykład\nP
+ rowadzący: dr inż. Magierski Mieczysław\nNr zajęć: 4/4\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:925e610f637aab1fd312847d@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261213T095000
+DTEND;TZID=Europe/Warsaw:20261213T112500
+SUMMARY:P. o.p. (ć)
+LOCATION:0.21/ 16
+DESCRIPTION:Przygotowania obronne państwa\nRodzaj: ćwiczenia\nProwadząc
+ y: dr inż. Kubaczyk Tadeusz\nNr zajęć: 3/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1114ccf522bfe0fea78f432d@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261213T114000
+DTEND;TZID=Europe/Warsaw:20261213T131500
+SUMMARY:P. o.p. (ć)
+LOCATION:1003 HILTON
+DESCRIPTION:Przygotowania obronne państwa\nRodzaj: ćwiczenia\nProwadząc
+ y: dr inż. Kubaczyk Tadeusz\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:fc5bc46a3857158189e2b12f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261213T133000
+DTEND;TZID=Europe/Warsaw:20261213T150500
+SUMMARY:P. o.p. (ć)
+LOCATION:1003 HILTON
+DESCRIPTION:Przygotowania obronne państwa\nRodzaj: ćwiczenia\nProwadząc
+ y: dr inż. Kubaczyk Tadeusz\nNr zajęć: 5/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:efa43bc238ca38b7930be80e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261219T095000
+DTEND;TZID=Europe/Warsaw:20261219T112500
+SUMMARY:Obr. Powsz. (w)
+LOCATION:255 S
+DESCRIPTION:Obrona Powszechna\nRodzaj: wykład\nProwadzący: prof. dr hab.
+  Skrabacz Aleksandra\nNr zajęć: 3/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e0d6341f39c0467b79c1b53f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261219T114000
+DTEND;TZID=Europe/Warsaw:20261219T131500
+SUMMARY:Obr. Powsz. (w)
+LOCATION:255 S
+DESCRIPTION:Obrona Powszechna\nRodzaj: wykład\nProwadzący: prof. dr hab.
+  Skrabacz Aleksandra\nNr zajęć: 4/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:30178e6c04fbb9fbce9d20c0@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261219T133000
+DTEND;TZID=Europe/Warsaw:20261219T150500
+SUMMARY:Obr. Powsz. (ć)
+LOCATION:0.23/ 16
+DESCRIPTION:Obrona Powszechna\nRodzaj: ćwiczenia\nProwadzący: dr inż. K
+ ubaczyk Tadeusz\nNr zajęć: 3/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b33cc548527884d2434363ba@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261219T152000
+DTEND;TZID=Europe/Warsaw:20261219T165500
+SUMMARY:Au.Sys.Bezp.Inf. (ć)
+LOCATION:0.6/ 16
+DESCRIPTION:Audyt systemów bezpieczeństwa informacji\nRodzaj: ćwiczenia
+ \nProwadzący: dr inż. Magierski Mieczysław\nNr zajęć: 1/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:a90ee3c83a8ca003b52c3296@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261219T171000
+DTEND;TZID=Europe/Warsaw:20261219T184500
+SUMMARY:Au.Sys.Bezp.Inf. (ć)
+LOCATION:0.6/ 16
+DESCRIPTION:Audyt systemów bezpieczeństwa informacji\nRodzaj: ćwiczenia
+ \nProwadzący: dr inż. Magierski Mieczysław\nNr zajęć: 2/5\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:11bdd9e164b531d5e750ca52@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261220T080000
+DTEND;TZID=Europe/Warsaw:20261220T093500
+SUMMARY:Karno.praw\, asp.och. inf. (ć)
+LOCATION:0.21/ 16
+DESCRIPTION:Karnoprawne aspekty ochrony informacji\nRodzaj: ćwiczenia\nPr
+ owadzący: mgr Trzcińska Luiza\nNr zajęć: 2/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5a94bd8127e557c3222aff33@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261220T095000
+DTEND;TZID=Europe/Warsaw:20261220T112500
+SUMMARY:Karno.praw\, asp.och. inf. (ć)
+LOCATION:0.21/ 16
+DESCRIPTION:Karnoprawne aspekty ochrony informacji\nRodzaj: ćwiczenia\nPr
+ owadzący: mgr Trzcińska Luiza\nNr zajęć: 3/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:fd6432d354988a0185b22e59@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261220T114000
+DTEND;TZID=Europe/Warsaw:20261220T131500
+SUMMARY:Zcz (ć)
+LOCATION:0.6/ 16
+DESCRIPTION:Zarządzanie ciągłością działania\nRodzaj: ćwiczenia\nPr
+ owadzący: dr Krawczyk Mateusz\nNr zajęć: 1/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:69744228bbad1cdf88e64548@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270109T080000
+DTEND;TZID=Europe/Warsaw:20270109T093500
+SUMMARY:Zas.Inf.wP.Obr.Pa. (ć)
+LOCATION:187 S
+DESCRIPTION:Zasoby informacyjne w potencjale obronnym Państwa\nRodzaj: ć
+ wiczenia\nProwadzący: dr inż. Kubaczyk Tadeusz\nNr zajęć: 2/5\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:796c4d0685ddd98fe183d894@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270109T095000
+DTEND;TZID=Europe/Warsaw:20270109T112500
+SUMMARY:Zas.Inf.wP.Obr.Pa. (ć)
+LOCATION:187 S
+DESCRIPTION:Zasoby informacyjne w potencjale obronnym Państwa\nRodzaj: ć
+ wiczenia\nProwadzący: dr inż. Kubaczyk Tadeusz\nNr zajęć: 3/5\nBlok: 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:69760c1b68f75907f23411da@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270109T114000
+DTEND;TZID=Europe/Warsaw:20270109T131500
+SUMMARY:Zas.Inf.wP.Obr.Pa. (ć)
+LOCATION:187 S
+DESCRIPTION:Zasoby informacyjne w potencjale obronnym Państwa\nRodzaj: ć
+ wiczenia\nProwadzący: dr inż. Kubaczyk Tadeusz\nNr zajęć: 4/5\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6f25933d844cd631e5782055@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270109T133000
+DTEND;TZID=Europe/Warsaw:20270109T150500
+SUMMARY:Zcz (ć)
+LOCATION:255 S
+DESCRIPTION:Zarządzanie ciągłością działania\nRodzaj: ćwiczenia\nPr
+ owadzący: dr Krawczyk Mateusz\nNr zajęć: 2/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:bfa5efe9eb922266d5224d36@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270109T152000
+DTEND;TZID=Europe/Warsaw:20270109T165500
+SUMMARY:Zcz (ć)
+LOCATION:255 S
+DESCRIPTION:Zarządzanie ciągłością działania\nRodzaj: ćwiczenia\nPr
+ owadzący: dr Krawczyk Mateusz\nNr zajęć: 3/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f79e28a4eacb966188b097be@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270110T095000
+DTEND;TZID=Europe/Warsaw:20270110T112500
+SUMMARY:Pszw (ć)
+LOCATION:1.9/ 16
+DESCRIPTION:Podstawy sztuki wojennej\nRodzaj: ćwiczenia\nProwadzący: pro
+ f. dr hab. Skrabacz Aleksandra\nNr zajęć: 3/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7b693f82a6ab71594dc1486e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270110T114000
+DTEND;TZID=Europe/Warsaw:20270110T131500
+SUMMARY:Zte (ć)
+LOCATION:255 S
+DESCRIPTION:Zwalczanie przestępczości zorganizowanej i terroryzmu\nRodza
+ j: ćwiczenia\nProwadzący: prof. dr hab. Misiuk Andrzej\nNr zajęć: 1/5
+ \nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b32862b7393a6e254db2ea59@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270110T133000
+DTEND;TZID=Europe/Warsaw:20270110T150500
+SUMMARY:Zte (ć)
+LOCATION:255 S
+DESCRIPTION:Zwalczanie przestępczości zorganizowanej i terroryzmu\nRodza
+ j: ćwiczenia\nProwadzący: prof. dr hab. Misiuk Andrzej\nNr zajęć: 2/5
+ \nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:226d9b98a0a92c031e0bd04f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270116T080000
+DTEND;TZID=Europe/Warsaw:20270116T093500
+SUMMARY:OIN (w)
+LOCATION:2/ 22
+DESCRIPTION:Ochrona informacji niejawnych\nRodzaj: wykład\nProwadzący: p
+ rof. dr hab. Skrabacz Aleksandra\nNr zajęć: 4/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ecab3c68510834d715457e8a@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270116T095000
+DTEND;TZID=Europe/Warsaw:20270116T112500
+SUMMARY:Zas.Inf.wP.Obr.Pa. (ć)
+LOCATION:1002 HILTON
+DESCRIPTION:Zasoby informacyjne w potencjale obronnym Państwa\nRodzaj: ć
+ wiczenia\nProwadzący: dr inż. Kubaczyk Tadeusz\nNr zajęć: 5/5\nBlok: 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b3ce5c46917e5d0ccb40f557@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270116T114000
+DTEND;TZID=Europe/Warsaw:20270116T131500
+SUMMARY:Pszw (ć)
+LOCATION:1.10/ 16
+DESCRIPTION:Podstawy sztuki wojennej\nRodzaj: ćwiczenia\nProwadzący: pro
+ f. dr hab. Skrabacz Aleksandra\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:15efa1fdb23d2495e39d99ee@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270116T133000
+DTEND;TZID=Europe/Warsaw:20270116T150500
+SUMMARY:Inf. publ. (ć)
+LOCATION:1.9/ 16
+DESCRIPTION:Informacja publiczna\nRodzaj: ćwiczenia\nProwadzący: dr Jaś
+ kowski Rafał\nNr zajęć: 4/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2a771527a84067042b48e1dd@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270116T152000
+DTEND;TZID=Europe/Warsaw:20270116T165500
+SUMMARY:Inf. publ. (ć)
+LOCATION:1.9/ 16
+DESCRIPTION:Informacja publiczna\nRodzaj: ćwiczenia\nProwadzący: dr Jaś
+ kowski Rafał\nNr zajęć: 5/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:d3f442766b847681eca3407b@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270117T114000
+DTEND;TZID=Europe/Warsaw:20270117T131500
+SUMMARY:Zte (ć)
+LOCATION:aula/ 135
+DESCRIPTION:Zwalczanie przestępczości zorganizowanej i terroryzmu\nRodza
+ j: ćwiczenia\nProwadzący: prof. dr hab. Misiuk Andrzej\nNr zajęć: 3/5
+ \nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:020fcf6636ff58405dba5b3b@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270117T133000
+DTEND;TZID=Europe/Warsaw:20270117T150500
+SUMMARY:Zte (ć)
+LOCATION:aula/ 135
+DESCRIPTION:Zwalczanie przestępczości zorganizowanej i terroryzmu\nRodza
+ j: ćwiczenia\nProwadzący: prof. dr hab. Misiuk Andrzej\nNr zajęć: 4/5
+ \nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a7924d8acbf977529f69175a@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270123T080000
+DTEND;TZID=Europe/Warsaw:20270123T093500
+SUMMARY:Krym (w)
+LOCATION:4.17b/ 135
+DESCRIPTION:Kryminalistyka\nRodzaj: wykład\nProwadzący: mgr Bogusz Marek
+ \nNr zajęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:59765891038839e2eb4f09ff@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270123T095000
+DTEND;TZID=Europe/Warsaw:20270123T112500
+SUMMARY:Krym (w)
+LOCATION:4.17b/ 135
+DESCRIPTION:Kryminalistyka\nRodzaj: wykład\nProwadzący: mgr Bogusz Marek
+ \nNr zajęć: 4/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5e15a0c2d71a73d3f9c2b514@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270123T114000
+DTEND;TZID=Europe/Warsaw:20270123T131500
+SUMMARY:Krym (ć)
+LOCATION:4.17b/ 135
+DESCRIPTION:Kryminalistyka\nRodzaj: ćwiczenia\nProwadzący: mgr Bogusz Ma
+ rek\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5063022879ec1223cbf4d949@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270123T133000
+DTEND;TZID=Europe/Warsaw:20270123T150500
+SUMMARY:Krym (ć)
+LOCATION:4.17b/ 135
+DESCRIPTION:Kryminalistyka\nRodzaj: ćwiczenia\nProwadzący: mgr Bogusz Ma
+ rek\nNr zajęć: 5/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3e856cd62beed355203a491d@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270123T152000
+DTEND;TZID=Europe/Warsaw:20270123T165500
+SUMMARY:Au.Sys.Bezp.Inf. (ć)
+LOCATION:1.15/ 16
+DESCRIPTION:Audyt systemów bezpieczeństwa informacji\nRodzaj: ćwiczenia
+ \nProwadzący: dr inż. Magierski Mieczysław\nNr zajęć: 3/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:fcaecbcc2a43b2fc4fb15857@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270123T171000
+DTEND;TZID=Europe/Warsaw:20270123T184500
+SUMMARY:Au.Sys.Bezp.Inf. (ć)
+LOCATION:1.15/ 16
+DESCRIPTION:Audyt systemów bezpieczeństwa informacji\nRodzaj: ćwiczenia
+ \nProwadzący: dr inż. Magierski Mieczysław\nNr zajęć: 4/5\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:25ff3c30c31e0b9f99bba07b@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270124T080000
+DTEND;TZID=Europe/Warsaw:20270124T093500
+SUMMARY:Zte (ć)
+LOCATION:aula/ 135
+DESCRIPTION:Zwalczanie przestępczości zorganizowanej i terroryzmu\nRodza
+ j: ćwiczenia\nProwadzący: prof. dr hab. Misiuk Andrzej\nNr zajęć: 5/5
+ \nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:25fac1e716b12fb4f3b328f2@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270124T095000
+DTEND;TZID=Europe/Warsaw:20270124T112500
+SUMMARY:GDiZR (ć)
+LOCATION:0.8/ 16
+DESCRIPTION:Gry decyzyjne i zarządzanie ryzykiem\nRodzaj: ćwiczenia\nPro
+ wadzący: dr hab. (prof. WAT) Świerszcz Katarzyna\nNr zajęć: 3/5\nBlok
+ : 2
+END:VEVENT
+BEGIN:VEVENT
+UID:20129fd7c29df94f362cb724@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270124T114000
+DTEND;TZID=Europe/Warsaw:20270124T131500
+SUMMARY:GDiZR (ć)
+LOCATION:0.8/ 16
+DESCRIPTION:Gry decyzyjne i zarządzanie ryzykiem\nRodzaj: ćwiczenia\nPro
+ wadzący: dr hab. (prof. WAT) Świerszcz Katarzyna\nNr zajęć: 4/5\nBlok
+ : 3
+END:VEVENT
+BEGIN:VEVENT
+UID:568dd5a05804a752b38069bb@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270124T133000
+DTEND;TZID=Europe/Warsaw:20270124T150500
+SUMMARY:GDiZR (ć)
+LOCATION:0.8/ 16
+DESCRIPTION:Gry decyzyjne i zarządzanie ryzykiem\nRodzaj: ćwiczenia\nPro
+ wadzący: dr hab. (prof. WAT) Świerszcz Katarzyna\nNr zajęć: 5/5\nBlok
+ : 4
+END:VEVENT
+BEGIN:VEVENT
+UID:bd1ca99ed6dbafb30eec2a4a@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270130T095000
+DTEND;TZID=Europe/Warsaw:20270130T112500
+SUMMARY:Obr. Powsz. (ć)
+LOCATION:1003 HILTON
+DESCRIPTION:Obrona Powszechna\nRodzaj: ćwiczenia\nProwadzący: dr inż. K
+ ubaczyk Tadeusz\nNr zajęć: 4/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a766e7faf3d286e502b36104@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270130T114000
+DTEND;TZID=Europe/Warsaw:20270130T131500
+SUMMARY:Obr. Powsz. (ć)
+LOCATION:1003 HILTON
+DESCRIPTION:Obrona Powszechna\nRodzaj: ćwiczenia\nProwadzący: dr inż. K
+ ubaczyk Tadeusz\nNr zajęć: 5/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:478eaaf7235ac0f03ae6c9ed@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270130T133000
+DTEND;TZID=Europe/Warsaw:20270130T150500
+SUMMARY:Zcz (ć)
+LOCATION:0.6/ 16
+DESCRIPTION:Zarządzanie ciągłością działania\nRodzaj: ćwiczenia\nPr
+ owadzący: dr Krawczyk Mateusz\nNr zajęć: 4/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:bad11a606a410bc90b695427@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270130T152000
+DTEND;TZID=Europe/Warsaw:20270130T165500
+SUMMARY:Zcz (ć)
+LOCATION:0.6/ 16
+DESCRIPTION:Zarządzanie ciągłością działania\nRodzaj: ćwiczenia\nPr
+ owadzący: dr Krawczyk Mateusz\nNr zajęć: 5/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:3d724fc0e45dd16bd2da5ec8@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270131T080000
+DTEND;TZID=Europe/Warsaw:20270131T093500
+SUMMARY:Au.Sys.Bezp.Inf. (ć)
+LOCATION:1.15/ 16
+DESCRIPTION:Audyt systemów bezpieczeństwa informacji\nRodzaj: ćwiczenia
+ \nProwadzący: dr inż. Magierski Mieczysław\nNr zajęć: 5/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:80923666594fbe6c04de822d@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270131T095000
+DTEND;TZID=Europe/Warsaw:20270131T112500
+SUMMARY:Pszw (ć)
+LOCATION:1.10/ 16
+DESCRIPTION:Podstawy sztuki wojennej\nRodzaj: ćwiczenia\nProwadzący: pro
+ f. dr hab. Skrabacz Aleksandra\nNr zajęć: 5/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:fd931c9f3bd93199e5fdb963@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270131T114000
+DTEND;TZID=Europe/Warsaw:20270131T131500
+SUMMARY:Karno.praw\, asp.och. inf. (ć)
+LOCATION:4.23/ 135
+DESCRIPTION:Karnoprawne aspekty ochrony informacji\nRodzaj: ćwiczenia\nPr
+ owadzący: mgr Trzcińska Luiza\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b298e4afef48cb414b332696@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270131T133000
+DTEND;TZID=Europe/Warsaw:20270131T150500
+SUMMARY:Karno.praw\, asp.och. inf. (ć)
+LOCATION:4.23/ 135
+DESCRIPTION:Karnoprawne aspekty ochrony informacji\nRodzaj: ćwiczenia\nPr
+ owadzący: mgr Trzcińska Luiza\nNr zajęć: 5/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4c72af585383d4b5072a7ac9@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270206T114000
+DTEND;TZID=Europe/Warsaw:20270206T131500
+SUMMARY:P. o.p. (E)
+LOCATION:2.21/ 135
+DESCRIPTION:Przygotowania obronne państwa\nRodzaj: egzamin\nProwadzący: 
+ dr inż. Kubaczyk Tadeusz\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:70ffdbf5ab3e4ddc6367b502@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270206T133000
+DTEND;TZID=Europe/Warsaw:20270206T150500
+SUMMARY:Obr. Powsz. (E)
+LOCATION:0.23/ 16
+DESCRIPTION:Obrona Powszechna\nRodzaj: egzamin\nProwadzący: prof. dr hab.
+  Skrabacz Aleksandra\nNr zajęć: 1/1\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:46b56ef3ed5be9b2707c1c73@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270207T114000
+DTEND;TZID=Europe/Warsaw:20270207T131500
+SUMMARY:Au.Sys.Bezp.Inf. (E)
+LOCATION:0.23/ 16
+DESCRIPTION:Audyt systemów bezpieczeństwa informacji\nRodzaj: egzamin\nP
+ rowadzący: dr inż. Magierski Mieczysław\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1b6fe92d4b1703977c3c4067@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270207T133000
+DTEND;TZID=Europe/Warsaw:20270207T150500
+SUMMARY:OIN (E)
+LOCATION:0.28/ 135
+DESCRIPTION:Ochrona informacji niejawnych\nRodzaj: egzamin\nProwadzący: p
+ rof. dr hab. Skrabacz Aleksandra\nNr zajęć: 1/1\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:aa6527bd337a56c8ede3709c@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270220T114000
+DTEND;TZID=Europe/Warsaw:20270220T131500
+SUMMARY:P. o.p. (Ep)
+LOCATION:1003 HILTON
+DESCRIPTION:Przygotowania obronne państwa\nRodzaj: egzamin poprawkowy\nPr
+ owadzący: dr inż. Kubaczyk Tadeusz\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d81670bba17621d097ab4347@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270220T133000
+DTEND;TZID=Europe/Warsaw:20270220T150500
+SUMMARY:Obr. Powsz. (Ep)
+LOCATION:2.21/ 135
+DESCRIPTION:Obrona Powszechna\nRodzaj: egzamin poprawkowy\nProwadzący: pr
+ of. dr hab. Skrabacz Aleksandra\nNr zajęć: 1/1\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0bd36449e52ad92a954dda66@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270221T114000
+DTEND;TZID=Europe/Warsaw:20270221T131500
+SUMMARY:Au.Sys.Bezp.Inf. (Ep)
+LOCATION:255 S
+DESCRIPTION:Audyt systemów bezpieczeństwa informacji\nRodzaj: egzamin po
+ prawkowy\nProwadzący: dr inż. Magierski Mieczysław\nNr zajęć: 1/1\nB
+ lok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ad3a613cfd70b4522bc7f489@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270221T133000
+DTEND;TZID=Europe/Warsaw:20270221T150500
+SUMMARY:OIN (Ep)
+LOCATION:1.27/ 135
+DESCRIPTION:Ochrona informacji niejawnych\nRodzaj: egzamin poprawkowy\nPro
+ wadzący: prof. dr hab. Skrabacz Aleksandra\nNr zajęć: 1/1\nBlok: 4
+END:VEVENT
+END:VCALENDAR

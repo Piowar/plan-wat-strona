@@ -1,0 +1,2718 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WMT24LL4S0
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ca5c327cfc28a977e4ade684@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20260923T080000
+DTEND;TZID=Europe/Warsaw:20260923T093500
+SUMMARY:PA (Ep)
+LOCATION:19 36
+DESCRIPTION:Podstawy automatyki\nRodzaj: egzamin poprawkowy\nProwadzący: 
+ ppłk dr inż. Henzel Maciej\nNr zajęć: 1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d72e2040d56b1d301385ca29@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261002T080000
+DTEND;TZID=Europe/Warsaw:20261002T093500
+SUMMARY:ZaMe (w)
+LOCATION:AW 1
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: wykład\nProwadzący: ppor. m
+ gr Szwed Katarzyna\nNr zajęć: 1/2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:577080c582295cfcfaf21df0@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261002T095000
+DTEND;TZID=Europe/Warsaw:20261002T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mjr mgr 
+ Lubkiewicz Tomasz\nNr zajęć: 1/30\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:acefb376533c794c4237ce04@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261002T133000
+DTEND;TZID=Europe/Warsaw:20261002T150500
+SUMMARY:SzS (w)
+LOCATION:ST.nr 1(KS
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: wykład\nNr zajęć: 1/1\nBlok:
+  4
+END:VEVENT
+BEGIN:VEVENT
+UID:3ae47e24751d71274510e08b@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261003T095000
+DTEND;TZID=Europe/Warsaw:20261003T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 1/15\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:dc9bb36c4dc780a42be93ba7@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261006T080000
+DTEND;TZID=Europe/Warsaw:20261006T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K\;133
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 1/30\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8f1215b6243e423763ad0999@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261006T095000
+DTEND;TZID=Europe/Warsaw:20261006T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mjr mgr 
+ Lubkiewicz Tomasz\nNr zajęć: 2/30\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4ec855e7e3f296464f0fa789@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261006T114000
+DTEND;TZID=Europe/Warsaw:20261006T131500
+SUMMARY:Sa (w)
+LOCATION:33 67
+DESCRIPTION:Systemy awioniczne\nRodzaj: wykład\nProwadzący: dr inż. Wa
+ żny Mariusz\nNr zajęć: 1/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9bba734db7ee336dc269ee39@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261007T114000
+DTEND;TZID=Europe/Warsaw:20261007T131500
+SUMMARY:Lmp (w)
+LOCATION:S2 72
+DESCRIPTION:Lotnicze materiały pędne i smary\nRodzaj: wykład\nProwadzą
+ cy: dr inż. (prof. ucz.) Szczawiński Piotr\nNr zajęć: 1/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ca318325a191cff8d84467b1@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261008T080000
+DTEND;TZID=Europe/Warsaw:20261008T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K\;133
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 2/30\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:14253522a420d0501379a5ba@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261008T175000
+DTEND;TZID=Europe/Warsaw:20261008T192500
+SUMMARY:GMiB (w)
+LOCATION:103 K
+DESCRIPTION:Gotowość mobilizacyjna i bojowa\nRodzaj: wykład\nProwadząc
+ y: ppłk mgr Lasak Michał\nNr zajęć: 1/2\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:e8cf042cd1e071eddc0f2d55@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261009T080000
+DTEND;TZID=Europe/Warsaw:20261009T093500
+SUMMARY:DSiSM (w)
+LOCATION:103 K
+DESCRIPTION:Działalność szkoleniowa i szkoleniowo-metodyczna\nRodzaj: w
+ ykład\nProwadzący: ppłk mgr inż. Grądziel Grzegorz\nNr zajęć: 1/3\
+ nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:674d9c18db24020434d1dc9d@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261009T095000
+DTEND;TZID=Europe/Warsaw:20261009T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mjr mgr 
+ Lubkiewicz Tomasz\nNr zajęć: 3/30\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ce9ecb50cea90a0b96b7d654@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261009T114000
+DTEND;TZID=Europe/Warsaw:20261009T131500
+SUMMARY:ZaMe (w)
+LOCATION:AW 4
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: wykład\nProwadzący: ppor. m
+ gr Szwed Katarzyna\nNr zajęć: 2/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0d38d46b2a7131ecac5dc9f6@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261009T133000
+DTEND;TZID=Europe/Warsaw:20261009T150500
+SUMMARY:Oś (w)
+LOCATION:118 57
+DESCRIPTION:Ochrona środowiska\nRodzaj: wykład\nProwadzący: por. mgr in
+ ż. Mikulski Erik\nNr zajęć: 1/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:180d00ac4ce6645a9e4b9aba@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261010T095000
+DTEND;TZID=Europe/Warsaw:20261010T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 2/15\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b27bfa3fea9b83d1a78f7271@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261012T080000
+DTEND;TZID=Europe/Warsaw:20261012T093500
+SUMMARY:Lmp (w)
+LOCATION:S2 72
+DESCRIPTION:Lotnicze materiały pędne i smary\nRodzaj: wykład\nProwadzą
+ cy: dr inż. (prof. ucz.) Szczawiński Piotr\nNr zajęć: 2/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a6fd99bd4149c8e43a93a1da@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261012T095000
+DTEND;TZID=Europe/Warsaw:20261012T112500
+SUMMARY:Lmp (w)
+LOCATION:S2 72
+DESCRIPTION:Lotnicze materiały pędne i smary\nRodzaj: wykład\nProwadzą
+ cy: dr inż. (prof. ucz.) Szczawiński Piotr\nNr zajęć: 3/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9bde16e51856c746f805616d@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261013T080000
+DTEND;TZID=Europe/Warsaw:20261013T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K\;133
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 3/30\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2f03cce9ff8b8f4ace02e591@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261013T095000
+DTEND;TZID=Europe/Warsaw:20261013T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mjr mgr 
+ Lubkiewicz Tomasz\nNr zajęć: 4/30\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a74eea34e5a86fb02b58b25f@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261013T114000
+DTEND;TZID=Europe/Warsaw:20261013T131500
+SUMMARY:Sa (w)
+LOCATION:33 67
+DESCRIPTION:Systemy awioniczne\nRodzaj: wykład\nProwadzący: dr inż. Wa
+ żny Mariusz\nNr zajęć: 2/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1bb55f0951ac1a282060e640@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261013T133000
+DTEND;TZID=Europe/Warsaw:20261013T150500
+SUMMARY:Wkc (w)
+LOCATION:S2 72
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: wykład\
+ nProwadzący: dr hab. inż. Kachel Stanisław\nNr zajęć: 1/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:fff246b30cf5264fdb8b3b50@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261014T080000
+DTEND;TZID=Europe/Warsaw:20261014T093500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 1/8\
+ nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:fadcf04c8e98715080531caa@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261014T095000
+DTEND;TZID=Europe/Warsaw:20261014T112500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 2/8\
+ nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b51852b57379518d88246954@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261014T114000
+DTEND;TZID=Europe/Warsaw:20261014T131500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 3/8\
+ nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b806810474390edd38f4b3bf@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261014T133000
+DTEND;TZID=Europe/Warsaw:20261014T150500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 4/8\
+ nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f7e3d85a68f68e8b14a73075@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261015T080000
+DTEND;TZID=Europe/Warsaw:20261015T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K\;133
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 4/30\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1c2bf49d7a63eca396ca12a1@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261015T095000
+DTEND;TZID=Europe/Warsaw:20261015T112500
+SUMMARY:Sa (L)
+LOCATION:141 36\;128
+DESCRIPTION:Systemy awioniczne\nRodzaj: laboratorium\nProwadzący: * Soszy
+ ński P\nNr zajęć: 1/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f58f411fe0f9a4952963ace2@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261016T095000
+DTEND;TZID=Europe/Warsaw:20261016T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mjr mgr 
+ Lubkiewicz Tomasz\nNr zajęć: 5/30\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:eb23645aef57ced1fbdaa9c4@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261016T160000
+DTEND;TZID=Europe/Warsaw:20261016T173500
+SUMMARY:DSiSM (w)
+LOCATION:103 K
+DESCRIPTION:Działalność szkoleniowa i szkoleniowo-metodyczna\nRodzaj: w
+ ykład\nProwadzący: ppłk mgr inż. Grądziel Grzegorz\nNr zajęć: 2/3\
+ nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:e32293ff004e7cdf24dc9f9b@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261017T095000
+DTEND;TZID=Europe/Warsaw:20261017T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 3/15\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:34d6a6f4eef4229255c16ca1@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261019T080000
+DTEND;TZID=Europe/Warsaw:20261019T093500
+SUMMARY:Lmp (w)
+LOCATION:S2 72
+DESCRIPTION:Lotnicze materiały pędne i smary\nRodzaj: wykład\nProwadzą
+ cy: dr inż. (prof. ucz.) Szczawiński Piotr\nNr zajęć: 4/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:06703afd3f7d34970c70465c@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261019T095000
+DTEND;TZID=Europe/Warsaw:20261019T112500
+SUMMARY:Lmp (w)
+LOCATION:S2 72
+DESCRIPTION:Lotnicze materiały pędne i smary\nRodzaj: wykład\nProwadzą
+ cy: dr inż. (prof. ucz.) Szczawiński Piotr\nNr zajęć: 5/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e1568c4a61626a72e161a82f@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261020T080000
+DTEND;TZID=Europe/Warsaw:20261020T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K\;133
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 5/30\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:eaeccc5cb61fbde60b448b9d@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261020T095000
+DTEND;TZID=Europe/Warsaw:20261020T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mjr mgr 
+ Lubkiewicz Tomasz\nNr zajęć: 6/30\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a8adf38b2aef5799d8aba3f6@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261020T114000
+DTEND;TZID=Europe/Warsaw:20261020T131500
+SUMMARY:Sa (w)
+LOCATION:33 67
+DESCRIPTION:Systemy awioniczne\nRodzaj: wykład\nProwadzący: dr inż. Wa
+ żny Mariusz\nNr zajęć: 3/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a45cd91d3ecb3f4094200e16@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261020T133000
+DTEND;TZID=Europe/Warsaw:20261020T150500
+SUMMARY:Wkc (w)
+LOCATION:S2 72
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: wykład\
+ nProwadzący: dr hab. inż. Kachel Stanisław\nNr zajęć: 2/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c0c12e9b4ab2414c3cbce495@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261020T160000
+DTEND;TZID=Europe/Warsaw:20261020T173500
+SUMMARY:Ae (w)
+LOCATION:S2 72
+DESCRIPTION:Aerodynamika\nRodzaj: wykład\nProwadzący: dr inż. Majcher M
+ aciej\nNr zajęć: 1/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:baf65a00bc9db370510f9871@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261021T080000
+DTEND;TZID=Europe/Warsaw:20261021T093500
+SUMMARY:Wkc (ć)
+LOCATION:33 67
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: ćwiczen
+ ia\nProwadzący: ppłk dr inż. Rogólski Robert\nNr zajęć: 1/16\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:3e8248a677c2ff35d974f1c1@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261021T095000
+DTEND;TZID=Europe/Warsaw:20261021T112500
+SUMMARY:Ae (w)
+LOCATION:S2 72
+DESCRIPTION:Aerodynamika\nRodzaj: wykład\nProwadzący: dr inż. Majcher M
+ aciej\nNr zajęć: 2/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:358dcaae827b4f130340176b@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261021T114000
+DTEND;TZID=Europe/Warsaw:20261021T131500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mjr mgr 
+ Lubkiewicz Tomasz\nNr zajęć: 7/30\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b5c5f0679a396fadcde8bb05@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261021T133000
+DTEND;TZID=Europe/Warsaw:20261021T150500
+SUMMARY:Wkc (ć)
+LOCATION:9 67
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: ćwiczen
+ ia\nProwadzący: ppłk dr inż. Rogólski Robert\nNr zajęć: 2/16\nBlok:
+  4
+END:VEVENT
+BEGIN:VEVENT
+UID:ceebb549ac554d3c0051e5d3@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261021T160000
+DTEND;TZID=Europe/Warsaw:20261021T173500
+SUMMARY:Wmk (ć)
+LOCATION:P 66
+DESCRIPTION:Wytrzymałość materiałów i konstrukcji\nRodzaj: ćwiczenia
+ \nProwadzący: dr inż. Wróblewski Piotr\nNr zajęć: 1/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:159397d0b029341a052a916c@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261021T175000
+DTEND;TZID=Europe/Warsaw:20261021T192500
+SUMMARY:Wmk (ć)
+LOCATION:33 67
+DESCRIPTION:Wytrzymałość materiałów i konstrukcji\nRodzaj: ćwiczenia
+ \nProwadzący: dr inż. Wróblewski Piotr\nNr zajęć: 2/10\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:f3f8930d2d5d5a0b8cb3ed13@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261022T080000
+DTEND;TZID=Europe/Warsaw:20261022T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K\;133
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 6/30\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1a950976e511d92086eee98f@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261022T095000
+DTEND;TZID=Europe/Warsaw:20261022T112500
+SUMMARY:Sa (L)
+LOCATION:141 36\;128
+DESCRIPTION:Systemy awioniczne\nRodzaj: laboratorium\nProwadzący: * Soszy
+ ński P\nNr zajęć: 2/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:54ef4efc758bed2fd7e07fa4@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261023T080000
+DTEND;TZID=Europe/Warsaw:20261023T093500
+SUMMARY:GMiB (w)
+LOCATION:103 K
+DESCRIPTION:Gotowość mobilizacyjna i bojowa\nRodzaj: wykład\nProwadząc
+ y: ppłk mgr Lasak Michał\nNr zajęć: 2/2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0cde8823340dc122f34252bd@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261023T095000
+DTEND;TZID=Europe/Warsaw:20261023T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mjr mgr 
+ Lubkiewicz Tomasz\nNr zajęć: 8/30\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:666cb972089076fe6ff190d4@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261023T114000
+DTEND;TZID=Europe/Warsaw:20261023T131500
+SUMMARY:DSiSM (ć)
+LOCATION:AW 7
+DESCRIPTION:Działalność szkoleniowa i szkoleniowo-metodyczna\nRodzaj: 
+ ćwiczenia\nProwadzący: ppłk mgr Misiejuk Tomasz\nNr zajęć: 1/3\nBlok
+ : 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c8550b3d9d42aba5a7c6db29@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261023T133000
+DTEND;TZID=Europe/Warsaw:20261023T150500
+SUMMARY:Wkc (ć)
+LOCATION:3 67
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: ćwiczen
+ ia\nProwadzący: ppłk dr inż. Rogólski Robert\nNr zajęć: 3/16\nBlok:
+  4
+END:VEVENT
+BEGIN:VEVENT
+UID:955baf6129bf9e8854dcc2c0@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261024T095000
+DTEND;TZID=Europe/Warsaw:20261024T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 4/15\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7f48e74371e6c9cbab3463a2@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261026T080000
+DTEND;TZID=Europe/Warsaw:20261026T093500
+SUMMARY:Wmk (w)
+LOCATION:S3 72
+DESCRIPTION:Wytrzymałość materiałów i konstrukcji\nRodzaj: wykład\nP
+ rowadzący: ppłk dr inż. Kiszkowiak Łukasz\nNr zajęć: 1/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:337d99147b5b6de9ea46d7b1@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261026T114000
+DTEND;TZID=Europe/Warsaw:20261026T131500
+SUMMARY:Lmp (ć)
+LOCATION:39 36
+DESCRIPTION:Lotnicze materiały pędne i smary\nRodzaj: ćwiczenia\nProwad
+ zący: mgr inż. Dziobek Ilona\nNr zajęć: 1/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ba5562642841db4963e61634@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261026T133000
+DTEND;TZID=Europe/Warsaw:20261026T150500
+SUMMARY:Ter (ć)
+LOCATION:S1 72
+DESCRIPTION:Termodynamika\nRodzaj: ćwiczenia\nProwadzący: prof. dr hab. 
+ inż. Koniorczyk Piotr\nNr zajęć: 1/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9eb7322e8a7907445fe177a8@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261027T080000
+DTEND;TZID=Europe/Warsaw:20261027T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K\;133
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 7/30\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:aa35f8abfd1d7755778a9533@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261027T095000
+DTEND;TZID=Europe/Warsaw:20261027T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mjr mgr 
+ Lubkiewicz Tomasz\nNr zajęć: 9/30\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d8e44f3bfbfb502a06d344fc@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261027T114000
+DTEND;TZID=Europe/Warsaw:20261027T131500
+SUMMARY:Sa (w)
+LOCATION:33 67
+DESCRIPTION:Systemy awioniczne\nRodzaj: wykład\nProwadzący: dr inż. Wa
+ żny Mariusz\nNr zajęć: 4/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e081d3d0e9d362ec42c02087@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261027T133000
+DTEND;TZID=Europe/Warsaw:20261027T150500
+SUMMARY:Ter (w)
+LOCATION:S2 72
+DESCRIPTION:Termodynamika\nRodzaj: wykład\nProwadzący: prof. dr hab. in
+ ż. Zmywaczyk Janusz\nNr zajęć: 1/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:486c42dc00dd8063861eaca7@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261028T080000
+DTEND;TZID=Europe/Warsaw:20261028T093500
+SUMMARY:ZŻWAT (ć)
+DESCRIPTION:Zbiórka żołnierzy WAT\nRodzaj: ćwiczenia\nNr zajęć: 1/3\
+ nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:fc25d5c7883b09db37f5d359@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261028T095000
+DTEND;TZID=Europe/Warsaw:20261028T112500
+SUMMARY:Wkc (ć)
+LOCATION:9 67
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: ćwiczen
+ ia\nProwadzący: ppłk dr inż. Rogólski Robert\nNr zajęć: 4/16\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:e5925dd0c631853c0bad21f2@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261028T114000
+DTEND;TZID=Europe/Warsaw:20261028T131500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mjr mgr 
+ Lubkiewicz Tomasz\nNr zajęć: 10/30\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:48f3f8da29ea6d475f41cbf0@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261028T133000
+DTEND;TZID=Europe/Warsaw:20261028T150500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 4
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: st. 
+ kpr. Polankiewicz Anna\nNr zajęć: 1/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6c98f9cb3ef3c1df92f4294e@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261028T160000
+DTEND;TZID=Europe/Warsaw:20261028T173500
+SUMMARY:Wmk (ć)
+LOCATION:33 67
+DESCRIPTION:Wytrzymałość materiałów i konstrukcji\nRodzaj: ćwiczenia
+ \nProwadzący: dr inż. Wróblewski Piotr\nNr zajęć: 3/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:401e939ef5d4851acc3b21db@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261028T175000
+DTEND;TZID=Europe/Warsaw:20261028T192500
+SUMMARY:Wmk (ć)
+LOCATION:33 67
+DESCRIPTION:Wytrzymałość materiałów i konstrukcji\nRodzaj: ćwiczenia
+ \nProwadzący: dr inż. Wróblewski Piotr\nNr zajęć: 4/10\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:b85cd1e60d18959f3aa98c4f@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261029T080000
+DTEND;TZID=Europe/Warsaw:20261029T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K\;133
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 8/30\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:75b5a7dbf9de4893d3a6a16f@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261029T095000
+DTEND;TZID=Europe/Warsaw:20261029T112500
+SUMMARY:Sa (ć)
+LOCATION:136 36
+DESCRIPTION:Systemy awioniczne\nRodzaj: ćwiczenia\nProwadzący: dr inż. 
+ Ważny Mariusz\nNr zajęć: 1/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:aa2877a765d068b0eeeda9bd@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261029T133000
+DTEND;TZID=Europe/Warsaw:20261029T150500
+SUMMARY:Sa (L)
+LOCATION:141 36\;128
+DESCRIPTION:Systemy awioniczne\nRodzaj: laboratorium\nProwadzący: * Soszy
+ ński P\nNr zajęć: 3/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0c623e3076247748833c2904@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261030T080000
+DTEND;TZID=Europe/Warsaw:20261030T093500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 4
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: mł.
+ chor. Koczański Maciej\nNr zajęć: 2/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5d7f23e363a2d941fb3948dd@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261030T095000
+DTEND;TZID=Europe/Warsaw:20261030T112500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(RG
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 1/4\nBl
+ ok: 2\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:44164fd47345a1dcdeb65f6c@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261030T114000
+DTEND;TZID=Europe/Warsaw:20261030T131500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(RG
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 2/4\nBl
+ ok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d0784823cf4ace21bbc7ee1f@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261031T095000
+DTEND;TZID=Europe/Warsaw:20261031T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 5/15\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c19b94cc5483d266dbab930c@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261102T080000
+DTEND;TZID=Europe/Warsaw:20261102T093500
+SUMMARY:Wmk (w)
+LOCATION:S3 72
+DESCRIPTION:Wytrzymałość materiałów i konstrukcji\nRodzaj: wykład\nP
+ rowadzący: ppłk dr inż. Kiszkowiak Łukasz\nNr zajęć: 2/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:039ae319e97896c8727fa491@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261102T095000
+DTEND;TZID=Europe/Warsaw:20261102T112500
+SUMMARY:Ter (w)
+LOCATION:S2 72
+DESCRIPTION:Termodynamika\nRodzaj: wykład\nProwadzący: prof. dr hab. in
+ ż. Zmywaczyk Janusz\nNr zajęć: 2/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:25de78dcb1c2511fca496263@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261102T133000
+DTEND;TZID=Europe/Warsaw:20261102T150500
+SUMMARY:Sa (w)
+LOCATION:33 67
+DESCRIPTION:Systemy awioniczne\nRodzaj: wykład\nProwadzący: dr inż. Roc
+ hala Zdzisław\nNr zajęć: 5/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4408e7a7ba7742f089b168b7@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261103T080000
+DTEND;TZID=Europe/Warsaw:20261103T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K\;133
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 9/30\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:294024aed6b8945d9b3c2e66@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261103T095000
+DTEND;TZID=Europe/Warsaw:20261103T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mjr mgr 
+ Lubkiewicz Tomasz\nNr zajęć: 11/30\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d3aca50fae8bfa29ee4e87e6@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261103T114000
+DTEND;TZID=Europe/Warsaw:20261103T131500
+SUMMARY:Sa (L)
+LOCATION:141 36\;128
+DESCRIPTION:Systemy awioniczne\nRodzaj: laboratorium\nProwadzący: * Soszy
+ ński P\nNr zajęć: 4/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6a380dc2015d95d99bf66e40@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261104T080000
+DTEND;TZID=Europe/Warsaw:20261104T093500
+SUMMARY:Malo (w)
+LOCATION:19 36
+DESCRIPTION:Materiały lotnicze\nRodzaj: wykład\nProwadzący: ppłk dr in
+ ż. Leszczyński Piotr\nNr zajęć: 1/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:fd32b9e76be9d5f2f4306980@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261104T095000
+DTEND;TZID=Europe/Warsaw:20261104T112500
+SUMMARY:Ter (ć)
+LOCATION:S1 72
+DESCRIPTION:Termodynamika\nRodzaj: ćwiczenia\nProwadzący: prof. dr hab. 
+ inż. Koniorczyk Piotr\nNr zajęć: 2/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4be803098a80099418d3f1a5@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261104T114000
+DTEND;TZID=Europe/Warsaw:20261104T131500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mjr mgr 
+ Lubkiewicz Tomasz\nNr zajęć: 12/30\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a007d03bd53701a8b8e55fa7@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261104T133000
+DTEND;TZID=Europe/Warsaw:20261104T150500
+SUMMARY:Sa (L)
+LOCATION:141 36\;128
+DESCRIPTION:Systemy awioniczne\nRodzaj: laboratorium\nProwadzący: * Soszy
+ ński P\nNr zajęć: 5/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a2dbaf24d9fe93baeeae178f@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261104T160000
+DTEND;TZID=Europe/Warsaw:20261104T173500
+SUMMARY:Wmk (ć)
+LOCATION:33 67
+DESCRIPTION:Wytrzymałość materiałów i konstrukcji\nRodzaj: ćwiczenia
+ \nProwadzący: dr inż. Wróblewski Piotr\nNr zajęć: 5/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:3443abab89bb6c9b95a498ec@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261104T175000
+DTEND;TZID=Europe/Warsaw:20261104T192500
+SUMMARY:Wmk (ć)
+LOCATION:33 67
+DESCRIPTION:Wytrzymałość materiałów i konstrukcji\nRodzaj: ćwiczenia
+ \nProwadzący: dr inż. Wróblewski Piotr\nNr zajęć: 6/10\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:27d28de50fdebdb78c7e739a@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261105T080000
+DTEND;TZID=Europe/Warsaw:20261105T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K\;133
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 10/30\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:b515da249f4a36466c4742ef@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261105T095000
+DTEND;TZID=Europe/Warsaw:20261105T112500
+SUMMARY:Wkc (ć)
+LOCATION:9 67
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: ćwiczen
+ ia\nProwadzący: ppłk dr inż. Rogólski Robert\nNr zajęć: 5/16\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:884324bcce1666b603bf956b@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261105T114000
+DTEND;TZID=Europe/Warsaw:20261105T131500
+SUMMARY:Lmp (L)
+LOCATION:17/ 19
+DESCRIPTION:Lotnicze materiały pędne i smary\nRodzaj: laboratorium\nProw
+ adzący: mgr inż. Dziobek Ilona\nNr zajęć: 1/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4b6eaaf4646d6c6a296946d6@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261105T133000
+DTEND;TZID=Europe/Warsaw:20261105T150500
+SUMMARY:Lmp (L)
+LOCATION:17/ 19
+DESCRIPTION:Lotnicze materiały pędne i smary\nRodzaj: laboratorium\nProw
+ adzący: mgr inż. Dziobek Ilona\nNr zajęć: 2/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:de5f8751ec2d2fc15c9158bb@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261106T080000
+DTEND;TZID=Europe/Warsaw:20261106T093500
+SUMMARY:Oś (w)
+LOCATION:118 57
+DESCRIPTION:Ochrona środowiska\nRodzaj: wykład\nProwadzący: por. mgr in
+ ż. Mikulski Erik\nNr zajęć: 2/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:70a0c031fa4d2d83d6773a75@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261106T095000
+DTEND;TZID=Europe/Warsaw:20261106T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mjr mgr 
+ Lubkiewicz Tomasz\nNr zajęć: 13/30\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5badd7a9817d680567608018@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261106T114000
+DTEND;TZID=Europe/Warsaw:20261106T131500
+SUMMARY:DSiSM (ć)
+LOCATION:AW 3/043
+DESCRIPTION:Działalność szkoleniowa i szkoleniowo-metodyczna\nRodzaj: 
+ ćwiczenia\nProwadzący: ppłk mgr Misiejuk Tomasz\nNr zajęć: 2/3\nBlok
+ : 3
+END:VEVENT
+BEGIN:VEVENT
+UID:45bf7daa65e04c3fefd625c8@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261106T133000
+DTEND;TZID=Europe/Warsaw:20261106T150500
+SUMMARY:GMiB (S)
+LOCATION:22 /BIBL
+DESCRIPTION:Gotowość mobilizacyjna i bojowa\nRodzaj: seminarium\nProwadz
+ ący: ppłk mgr Lasak Michał\nNr zajęć: 1/2\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7620a4c922494eb3ca3b4184@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261107T095000
+DTEND;TZID=Europe/Warsaw:20261107T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 6/15\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a590f8b92336ce6f5dcb039b@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261109T095000
+DTEND;TZID=Europe/Warsaw:20261109T112500
+SUMMARY:Lmp (ć)
+LOCATION:15 63
+DESCRIPTION:Lotnicze materiały pędne i smary\nRodzaj: ćwiczenia\nProwad
+ zący: mgr inż. Dziobek Ilona\nNr zajęć: 2/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:28eca8ffafbdbd4cae339830@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261109T114000
+DTEND;TZID=Europe/Warsaw:20261109T131500
+SUMMARY:Sa (L)
+LOCATION:141 36\;128
+DESCRIPTION:Systemy awioniczne\nRodzaj: laboratorium\nProwadzący: * Soszy
+ ński P\nNr zajęć: 6/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d8d2e2a22c7a2d87e5a6cec0@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261109T133000
+DTEND;TZID=Europe/Warsaw:20261109T150500
+SUMMARY:Sa (w)
+LOCATION:33 67
+DESCRIPTION:Systemy awioniczne\nRodzaj: wykład\nProwadzący: dr inż. Roc
+ hala Zdzisław\nNr zajęć: 6/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ef07e9761d3eb501943bcb6e@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261109T160000
+DTEND;TZID=Europe/Warsaw:20261109T173500
+SUMMARY:Wkc (ć)
+LOCATION:9 67
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: ćwiczen
+ ia\nProwadzący: ppłk dr inż. Rogólski Robert\nNr zajęć: 6/16\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:3b2f9164f7c96ba5a8a6e545@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261110T080000
+DTEND;TZID=Europe/Warsaw:20261110T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K\;133
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 11/30\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:274421236ea7aded8e559b89@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261110T095000
+DTEND;TZID=Europe/Warsaw:20261110T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mjr mgr 
+ Lubkiewicz Tomasz\nNr zajęć: 14/30\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:11240ceb7c4b738f1552cdfe@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261110T114000
+DTEND;TZID=Europe/Warsaw:20261110T131500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 4
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: kpr.
+  Majewska Natalia\nNr zajęć: 3/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e528a101b84e74ea0bfce7a7@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261110T133000
+DTEND;TZID=Europe/Warsaw:20261110T150500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 4
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: kpr.
+  Majewska Natalia\nNr zajęć: 4/9\nBlok: 4\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:4fd598b9c30bddd42916f88e@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261112T080000
+DTEND;TZID=Europe/Warsaw:20261112T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K\;133
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 12/30\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:5275095a826900e83840757b@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261112T095000
+DTEND;TZID=Europe/Warsaw:20261112T112500
+SUMMARY:Ae (L)
+LOCATION:3 67\;43 67
+DESCRIPTION:Aerodynamika\nRodzaj: laboratorium\nProwadzący: mgr inż. Mis
+ iak Zawadzka Aneta\nNr zajęć: 1/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a8e98060933b921b3880b38a@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261112T114000
+DTEND;TZID=Europe/Warsaw:20261112T131500
+SUMMARY:Ter (L)
+LOCATION:8 72
+DESCRIPTION:Termodynamika\nRodzaj: laboratorium\nProwadzący: dr inż. Zie
+ liński Mateusz\nNr zajęć: 1/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9451f715c60e715c91a1b3a2@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261113T080000
+DTEND;TZID=Europe/Warsaw:20261113T093500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 4
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: ppor
+ . mgr Szwed Katarzyna\nNr zajęć: 5/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:fbfae6b65029021aa1cda0e6@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261113T095000
+DTEND;TZID=Europe/Warsaw:20261113T112500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 4
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: ppor
+ . mgr Szwed Katarzyna\nNr zajęć: 6/9\nBlok: 2\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:d4b98d60111f32ac2196fa35@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261113T114000
+DTEND;TZID=Europe/Warsaw:20261113T131500
+SUMMARY:DSiSM (ć)
+LOCATION:PL.MUSZ1
+DESCRIPTION:Działalność szkoleniowa i szkoleniowo-metodyczna\nRodzaj: 
+ ćwiczenia\nProwadzący: ppłk mgr Misiejuk Tomasz\nNr zajęć: 3/3\nBlok
+ : 3
+END:VEVENT
+BEGIN:VEVENT
+UID:edd67d9c30fe4b10c8730f43@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261114T095000
+DTEND;TZID=Europe/Warsaw:20261114T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 7/15\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0843560f01321cf319b62946@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261116T080000
+DTEND;TZID=Europe/Warsaw:20261116T093500
+SUMMARY:Wmk (w)
+LOCATION:S3 72
+DESCRIPTION:Wytrzymałość materiałów i konstrukcji\nRodzaj: wykład\nP
+ rowadzący: ppłk dr inż. Kiszkowiak Łukasz\nNr zajęć: 3/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:91bff39a157e7298f31858bc@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261116T095000
+DTEND;TZID=Europe/Warsaw:20261116T112500
+SUMMARY:Wkc (ć)
+LOCATION:9 67
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: ćwiczen
+ ia\nProwadzący: ppłk dr inż. Rogólski Robert\nNr zajęć: 7/16\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:2437bc561a913148e914855f@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261116T133000
+DTEND;TZID=Europe/Warsaw:20261116T150500
+SUMMARY:Sa (w)
+LOCATION:33 67
+DESCRIPTION:Systemy awioniczne\nRodzaj: wykład\nProwadzący: dr inż. Roc
+ hala Zdzisław\nNr zajęć: 7/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:fcc0fb0056ac283c0fcc6b79@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261116T160000
+DTEND;TZID=Europe/Warsaw:20261116T173500
+SUMMARY:Ae (w)
+LOCATION:S2 72
+DESCRIPTION:Aerodynamika\nRodzaj: wykład\nProwadzący: dr inż. Majcher M
+ aciej\nNr zajęć: 3/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:6335cb2ccecc845087e3fc1b@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261117T080000
+DTEND;TZID=Europe/Warsaw:20261117T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K\;133
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 13/30\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:f18c55b7467b6c1dc1057aed@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261117T095000
+DTEND;TZID=Europe/Warsaw:20261117T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mjr mgr 
+ Lubkiewicz Tomasz\nNr zajęć: 15/30\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3e263090ee567622f0303925@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261117T133000
+DTEND;TZID=Europe/Warsaw:20261117T150500
+SUMMARY:Wkc (w)
+LOCATION:S2 72
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: wykład\
+ nProwadzący: dr hab. inż. Kachel Stanisław\nNr zajęć: 3/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1fa01320fd5c719e1da281c4@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261117T160000
+DTEND;TZID=Europe/Warsaw:20261117T173500
+SUMMARY:Wmk (ć)
+LOCATION:33 67
+DESCRIPTION:Wytrzymałość materiałów i konstrukcji\nRodzaj: ćwiczenia
+ \nProwadzący: dr inż. Wróblewski Piotr\nNr zajęć: 7/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:e74be477ea031a0da31591ec@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261119T080000
+DTEND;TZID=Europe/Warsaw:20261119T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K\;133
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 14/30\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:9b74f143bbaaa7202a54d813@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261119T095000
+DTEND;TZID=Europe/Warsaw:20261119T112500
+SUMMARY:Ae (w)
+LOCATION:S2 72
+DESCRIPTION:Aerodynamika\nRodzaj: wykład\nProwadzący: dr inż. Majcher M
+ aciej\nNr zajęć: 4/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:827f1c746d6d526fb3f5cc3f@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261119T114000
+DTEND;TZID=Europe/Warsaw:20261119T131500
+SUMMARY:Wkc (L)
+LOCATION:31 67
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: laborato
+ rium\nProwadzący: mgr inż. Syta Borys\nNr zajęć: 1/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b88605ebae914090b69e0070@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261120T095000
+DTEND;TZID=Europe/Warsaw:20261120T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mjr mgr 
+ Lubkiewicz Tomasz\nNr zajęć: 16/30\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:dd959726721c89faad425ff5@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261121T095000
+DTEND;TZID=Europe/Warsaw:20261121T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 8/15\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ce7453fc417ec1ccc54cb250@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261123T080000
+DTEND;TZID=Europe/Warsaw:20261123T093500
+SUMMARY:Wmk (w)
+LOCATION:S3 72
+DESCRIPTION:Wytrzymałość materiałów i konstrukcji\nRodzaj: wykład\nP
+ rowadzący: ppłk dr inż. Kiszkowiak Łukasz\nNr zajęć: 4/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8740a28bd7e7b7d40ffa8048@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261123T095000
+DTEND;TZID=Europe/Warsaw:20261123T112500
+SUMMARY:Malo (ć)
+LOCATION:4 H7
+DESCRIPTION:Materiały lotnicze\nRodzaj: ćwiczenia\nProwadzący: kpt. mgr
+  inż. Arkuszyńska Angelika\nNr zajęć: 1/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a361f68398ffbc58a139f87b@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261123T114000
+DTEND;TZID=Europe/Warsaw:20261123T131500
+SUMMARY:Ae (L)
+LOCATION:3 67\;43 67
+DESCRIPTION:Aerodynamika\nRodzaj: laboratorium\nProwadzący: mgr inż. Mis
+ iak Zawadzka Aneta\nNr zajęć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:fc14d456f4e0b51cdaad0943@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261123T133000
+DTEND;TZID=Europe/Warsaw:20261123T150500
+SUMMARY:Sa (w)
+LOCATION:33 67
+DESCRIPTION:Systemy awioniczne\nRodzaj: wykład\nProwadzący: dr inż. Roc
+ hala Zdzisław\nNr zajęć: 8/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4d639d782e1aedbcd1e7d1f3@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261124T080000
+DTEND;TZID=Europe/Warsaw:20261124T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K\;133
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 15/30\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:532698f1b081cc8946991966@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261124T095000
+DTEND;TZID=Europe/Warsaw:20261124T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mjr mgr 
+ Lubkiewicz Tomasz\nNr zajęć: 17/30\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f356f331e0ad1e98c9ca6742@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261124T133000
+DTEND;TZID=Europe/Warsaw:20261124T150500
+SUMMARY:Wkc (w)
+LOCATION:S2 72
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: wykład\
+ nProwadzący: dr hab. inż. Kachel Stanisław\nNr zajęć: 4/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ab16b29fa3f068c146014e65@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261125T080000
+DTEND;TZID=Europe/Warsaw:20261125T093500
+SUMMARY:Ter (w)
+LOCATION:S2 72
+DESCRIPTION:Termodynamika\nRodzaj: wykład\nProwadzący: prof. dr hab. in
+ ż. Zmywaczyk Janusz\nNr zajęć: 3/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:fff90642cfb03b1e3ccc9d3e@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261125T095000
+DTEND;TZID=Europe/Warsaw:20261125T112500
+SUMMARY:Ter (L)
+LOCATION:8 72
+DESCRIPTION:Termodynamika\nRodzaj: laboratorium\nProwadzący: dr inż. Zie
+ liński Mateusz\nNr zajęć: 2/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:27dea32798820f6e914d1d81@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261125T114000
+DTEND;TZID=Europe/Warsaw:20261125T131500
+SUMMARY:Ter (w)
+LOCATION:S3 72
+DESCRIPTION:Termodynamika\nRodzaj: wykład\nProwadzący: prof. dr hab. in
+ ż. Zmywaczyk Janusz\nNr zajęć: 4/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:fa1b19de5708f906362dcdb5@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261125T133000
+DTEND;TZID=Europe/Warsaw:20261125T150500
+SUMMARY:Sa (ć)
+LOCATION:136 36
+DESCRIPTION:Systemy awioniczne\nRodzaj: ćwiczenia\nProwadzący: dr inż. 
+ Ważny Mariusz\nNr zajęć: 2/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:02924fc385af4dd566e6aef9@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261126T080000
+DTEND;TZID=Europe/Warsaw:20261126T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K\;133
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 16/30\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:56021c93710e8f20a2caa122@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261126T095000
+DTEND;TZID=Europe/Warsaw:20261126T112500
+SUMMARY:Ae (w)
+LOCATION:S3 72
+DESCRIPTION:Aerodynamika\nRodzaj: wykład\nProwadzący: dr inż. Majcher M
+ aciej\nNr zajęć: 5/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:023081b5866970b4e42ba01c@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261126T114000
+DTEND;TZID=Europe/Warsaw:20261126T131500
+SUMMARY:Wkc (L)
+LOCATION:31 67
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: laborato
+ rium\nProwadzący: mgr inż. Syta Borys\nNr zajęć: 2/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1c7d8a769ea07a510f4b77eb@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261126T133000
+DTEND;TZID=Europe/Warsaw:20261126T150500
+SUMMARY:Ter (L)
+LOCATION:8 72
+DESCRIPTION:Termodynamika\nRodzaj: laboratorium\nProwadzący: dr inż. Zie
+ liński Mateusz\nNr zajęć: 3/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:75871a1fc6517a8c548629d4@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261128T095000
+DTEND;TZID=Europe/Warsaw:20261128T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 9/15\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ff280660c0999432e1e1654d@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261130T080000
+DTEND;TZID=Europe/Warsaw:20261130T093500
+SUMMARY:Ae (w)
+LOCATION:S2 72
+DESCRIPTION:Aerodynamika\nRodzaj: wykład\nProwadzący: dr inż. Majcher M
+ aciej\nNr zajęć: 6/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:861d5fb7d6684588da8933bf@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261130T095000
+DTEND;TZID=Europe/Warsaw:20261130T112500
+SUMMARY:Ter (w)
+LOCATION:S2 72
+DESCRIPTION:Termodynamika\nRodzaj: wykład\nProwadzący: prof. dr hab. in
+ ż. Zmywaczyk Janusz\nNr zajęć: 5/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9be41482914bc0381d9919e2@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261130T114000
+DTEND;TZID=Europe/Warsaw:20261130T131500
+SUMMARY:Ter (ć)
+LOCATION:S3 72
+DESCRIPTION:Termodynamika\nRodzaj: ćwiczenia\nProwadzący: prof. dr hab. 
+ inż. Koniorczyk Piotr\nNr zajęć: 3/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:457abd2b747ac3b463cc6bed@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261130T133000
+DTEND;TZID=Europe/Warsaw:20261130T150500
+SUMMARY:Sa (w)
+LOCATION:33 67
+DESCRIPTION:Systemy awioniczne\nRodzaj: wykład\nProwadzący: dr inż. Roc
+ hala Zdzisław\nNr zajęć: 9/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:551fb47dd4832d35657d47d4@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261201T080000
+DTEND;TZID=Europe/Warsaw:20261201T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K\;133
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 17/30\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:44cea41fdbfe0809289af004@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261201T095000
+DTEND;TZID=Europe/Warsaw:20261201T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mjr mgr 
+ Lubkiewicz Tomasz\nNr zajęć: 18/30\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0c1aacfd9e2e714af0fd55d4@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261201T114000
+DTEND;TZID=Europe/Warsaw:20261201T131500
+SUMMARY:Ter (ć)
+LOCATION:S1 72
+DESCRIPTION:Termodynamika\nRodzaj: ćwiczenia\nProwadzący: prof. dr hab. 
+ inż. Koniorczyk Piotr\nNr zajęć: 4/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:99b1902252f19d03471b19ad@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261201T133000
+DTEND;TZID=Europe/Warsaw:20261201T150500
+SUMMARY:Wkc (w)
+LOCATION:S2 72
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: wykład\
+ nProwadzący: dr hab. inż. Kachel Stanisław\nNr zajęć: 5/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e8a059cd87c92bccf023214a@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261201T160000
+DTEND;TZID=Europe/Warsaw:20261201T173500
+SUMMARY:Wmk (ć)
+LOCATION:33 67
+DESCRIPTION:Wytrzymałość materiałów i konstrukcji\nRodzaj: ćwiczenia
+ \nProwadzący: dr inż. Wróblewski Piotr\nNr zajęć: 8/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:1c47511ef31fdfa110decb70@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261202T095000
+DTEND;TZID=Europe/Warsaw:20261202T112500
+SUMMARY:Sa (ć)
+LOCATION:136 36
+DESCRIPTION:Systemy awioniczne\nRodzaj: ćwiczenia\nProwadzący: dr inż. 
+ Rochala Zdzisław\nNr zajęć: 3/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b1bc367194e035b8fa952c9e@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261202T114000
+DTEND;TZID=Europe/Warsaw:20261202T131500
+SUMMARY:Ter (w)
+LOCATION:S3 72
+DESCRIPTION:Termodynamika\nRodzaj: wykład\nProwadzący: prof. dr hab. in
+ ż. Zmywaczyk Janusz\nNr zajęć: 6/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:34cf5c1a30f8e352830d521e@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261202T160000
+DTEND;TZID=Europe/Warsaw:20261202T173500
+SUMMARY:Malo (w)
+LOCATION:19 36
+DESCRIPTION:Materiały lotnicze\nRodzaj: wykład\nProwadzący: ppłk dr in
+ ż. Leszczyński Piotr\nNr zajęć: 2/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:9ba9aa79bc5edb087d866cbf@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261203T080000
+DTEND;TZID=Europe/Warsaw:20261203T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K\;133
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 18/30\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:a1dc5ec134be4c9d7208481c@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261203T095000
+DTEND;TZID=Europe/Warsaw:20261203T112500
+SUMMARY:Ae (w)
+LOCATION:S3 72
+DESCRIPTION:Aerodynamika\nRodzaj: wykład\nProwadzący: dr inż. Majcher M
+ aciej\nNr zajęć: 7/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2e67c383b90804b56937c691@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261203T133000
+DTEND;TZID=Europe/Warsaw:20261203T150500
+SUMMARY:Wkc (L)
+LOCATION:31 67
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: laborato
+ rium\nProwadzący: mgr inż. Syta Borys\nNr zajęć: 3/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7c9e277bf4c1c5e6ce8e35d4@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261204T095000
+DTEND;TZID=Europe/Warsaw:20261204T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mjr mgr 
+ Lubkiewicz Tomasz\nNr zajęć: 19/30\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:78ed40f28d594353c74556d7@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261204T133000
+DTEND;TZID=Europe/Warsaw:20261204T150500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(KS
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 3/4\nBl
+ ok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5d0603c3d5cb07c58fbe582e@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261204T160000
+DTEND;TZID=Europe/Warsaw:20261204T173500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(KS
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 4/4\nBl
+ ok: 5\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:3c08ef9777bf92747f4f8859@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261205T095000
+DTEND;TZID=Europe/Warsaw:20261205T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 10/15\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1a896e327e4a51624e83eeef@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261207T080000
+DTEND;TZID=Europe/Warsaw:20261207T093500
+SUMMARY:Lmp (ć)
+LOCATION:39 36
+DESCRIPTION:Lotnicze materiały pędne i smary\nRodzaj: ćwiczenia\nProwad
+ zący: mgr inż. Dziobek Ilona\nNr zajęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a1538ed99126dde2c530a5b2@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261207T095000
+DTEND;TZID=Europe/Warsaw:20261207T112500
+SUMMARY:Lmp (L)
+LOCATION:16/ 19
+DESCRIPTION:Lotnicze materiały pędne i smary\nRodzaj: laboratorium\nProw
+ adzący: mgr inż. Dziobek Ilona\nNr zajęć: 3/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:404e7a07c5b07ab2866f333b@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261207T114000
+DTEND;TZID=Europe/Warsaw:20261207T131500
+SUMMARY:Malo (ć)
+LOCATION:4 H7
+DESCRIPTION:Materiały lotnicze\nRodzaj: ćwiczenia\nProwadzący: kpt. mgr
+  inż. Arkuszyńska Angelika\nNr zajęć: 2/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5e67556ad51c5b9343f949ba@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261207T133000
+DTEND;TZID=Europe/Warsaw:20261207T150500
+SUMMARY:Sa (w)
+LOCATION:33 67
+DESCRIPTION:Systemy awioniczne\nRodzaj: wykład\nProwadzący: dr inż. Roc
+ hala Zdzisław\nNr zajęć: 10/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d2d4e268d5eb5389351e1ad6@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261207T160000
+DTEND;TZID=Europe/Warsaw:20261207T173500
+SUMMARY:Wkc (ć)
+LOCATION:3 67
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: ćwiczen
+ ia\nProwadzący: ppłk dr inż. Rogólski Robert\nNr zajęć: 8/16\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:31cdf1cabb9c3fe745662786@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261208T080000
+DTEND;TZID=Europe/Warsaw:20261208T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K\;133
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 19/30\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:a098747130c89b4144619556@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261208T095000
+DTEND;TZID=Europe/Warsaw:20261208T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mjr mgr 
+ Lubkiewicz Tomasz\nNr zajęć: 20/30\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:bf4ae0c16592cc7e4755f967@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261208T133000
+DTEND;TZID=Europe/Warsaw:20261208T150500
+SUMMARY:Ter (ć)
+LOCATION:S2 72
+DESCRIPTION:Termodynamika\nRodzaj: ćwiczenia\nProwadzący: prof. dr hab. 
+ inż. Koniorczyk Piotr\nNr zajęć: 5/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d642f5af1284c80a7b31bc93@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261208T160000
+DTEND;TZID=Europe/Warsaw:20261208T173500
+SUMMARY:Wkc (ć)
+LOCATION:9 67
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: ćwiczen
+ ia\nProwadzący: ppłk dr inż. Rogólski Robert\nNr zajęć: 9/16\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:cedde96932d6ffbd8cd7938d@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261209T080000
+DTEND;TZID=Europe/Warsaw:20261209T093500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 5/8\
+ nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:99d261278465957deaad6a85@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261209T095000
+DTEND;TZID=Europe/Warsaw:20261209T112500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 6/8\
+ nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:059c19825b2641d8f75bbc6a@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261209T114000
+DTEND;TZID=Europe/Warsaw:20261209T131500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 7/8\
+ nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a5287634d94091386fcfd60e@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261209T133000
+DTEND;TZID=Europe/Warsaw:20261209T150500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 8/8\
+ nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ca4c5378a1d4576f86cfc4a7@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261209T160000
+DTEND;TZID=Europe/Warsaw:20261209T173500
+SUMMARY:Malo (w)
+LOCATION:19 36
+DESCRIPTION:Materiały lotnicze\nRodzaj: wykład\nProwadzący: ppłk dr in
+ ż. Leszczyński Piotr\nNr zajęć: 3/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:c515d6eca8dbb2d471c854c3@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261209T175000
+DTEND;TZID=Europe/Warsaw:20261209T192500
+SUMMARY:WF (w)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: wykład\nProwadzący: mjr mgr Lub
+ kiewicz Tomasz\nNr zajęć: 1/5\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:dbf45ae4bd149b6fac2e9c3d@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261210T080000
+DTEND;TZID=Europe/Warsaw:20261210T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K\;133
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 20/30\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:0b4388f81d60d5bd54840059@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261210T095000
+DTEND;TZID=Europe/Warsaw:20261210T112500
+SUMMARY:Ae (w)
+LOCATION:S3 72
+DESCRIPTION:Aerodynamika\nRodzaj: wykład\nProwadzący: dr inż. Majcher M
+ aciej\nNr zajęć: 8/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9b95165c554eacc911af6f7c@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261210T114000
+DTEND;TZID=Europe/Warsaw:20261210T131500
+SUMMARY:Wkc (L)
+LOCATION:31 67
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: laborato
+ rium\nProwadzący: mgr inż. Syta Borys\nNr zajęć: 4/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c18f04903d9a9554c30cc07a@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261210T133000
+DTEND;TZID=Europe/Warsaw:20261210T150500
+SUMMARY:Wkc (w)
+LOCATION:S2 72
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: wykład\
+ nProwadzący: dr hab. inż. Kachel Stanisław\nNr zajęć: 6/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:af8dddcc7003a69ff2cee089@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261211T080000
+DTEND;TZID=Europe/Warsaw:20261211T093500
+SUMMARY:DSiSM (w)
+LOCATION:103 K
+DESCRIPTION:Działalność szkoleniowa i szkoleniowo-metodyczna\nRodzaj: w
+ ykład\nProwadzący: ppłk mgr inż. Grądziel Grzegorz\nNr zajęć: 3/3\
+ nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e7222339ef650f6b542581a3@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261211T095000
+DTEND;TZID=Europe/Warsaw:20261211T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mjr mgr 
+ Lubkiewicz Tomasz\nNr zajęć: 21/30\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:25d504fbe0b947fe1eed7415@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261212T095000
+DTEND;TZID=Europe/Warsaw:20261212T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 11/15\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0d95edd0dd30fae55ea00a7f@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261214T080000
+DTEND;TZID=Europe/Warsaw:20261214T093500
+SUMMARY:Lmp (ć)
+LOCATION:41 36
+DESCRIPTION:Lotnicze materiały pędne i smary\nRodzaj: ćwiczenia\nProwad
+ zący: mgr inż. Dziobek Ilona\nNr zajęć: 4/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c6efa23424740c1cb8bc6e63@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261214T095000
+DTEND;TZID=Europe/Warsaw:20261214T112500
+SUMMARY:Ter (w)
+LOCATION:S2 72
+DESCRIPTION:Termodynamika\nRodzaj: wykład\nProwadzący: prof. dr hab. in
+ ż. Zmywaczyk Janusz\nNr zajęć: 7/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5b8d53c09d92dc78efe051a7@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261214T114000
+DTEND;TZID=Europe/Warsaw:20261214T131500
+SUMMARY:Malo (ć)
+LOCATION:4 H7
+DESCRIPTION:Materiały lotnicze\nRodzaj: ćwiczenia\nProwadzący: kpt. mgr
+  inż. Arkuszyńska Angelika\nNr zajęć: 3/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b63efd93aedb27b46833b847@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261214T133000
+DTEND;TZID=Europe/Warsaw:20261214T150500
+SUMMARY:Ae (w)
+LOCATION:S2 72
+DESCRIPTION:Aerodynamika\nRodzaj: wykład\nProwadzący: dr inż. Majcher M
+ aciej\nNr zajęć: 9/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9026f2af61cdf8ea6bdf457c@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261214T160000
+DTEND;TZID=Europe/Warsaw:20261214T173500
+SUMMARY:Wmk (w)
+LOCATION:33 67
+DESCRIPTION:Wytrzymałość materiałów i konstrukcji\nRodzaj: wykład\nP
+ rowadzący: ppłk dr inż. Kiszkowiak Łukasz\nNr zajęć: 5/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:2b7c2f1c26cfdb67b8f679bd@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261215T080000
+DTEND;TZID=Europe/Warsaw:20261215T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K\;133
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 21/30\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:3e0ffc5bc4aa6cb2c8ec485c@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261215T095000
+DTEND;TZID=Europe/Warsaw:20261215T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mjr mgr 
+ Lubkiewicz Tomasz\nNr zajęć: 22/30\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:729b5731d62de04875547e3f@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261215T114000
+DTEND;TZID=Europe/Warsaw:20261215T131500
+SUMMARY:Sa (L)
+LOCATION:141 36\;128
+DESCRIPTION:Systemy awioniczne\nRodzaj: laboratorium\nProwadzący: * Soszy
+ ński P\nNr zajęć: 7/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:65d10d43afab57b6bd41bf3c@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261215T160000
+DTEND;TZID=Europe/Warsaw:20261215T173500
+SUMMARY:Wkc (ć)
+LOCATION:9 67
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: ćwiczen
+ ia\nProwadzący: ppłk dr inż. Rogólski Robert\nNr zajęć: 10/16\nBlok
+ : 5
+END:VEVENT
+BEGIN:VEVENT
+UID:2130c6a060c7a7fbf844d58a@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261216T080000
+DTEND;TZID=Europe/Warsaw:20261216T093500
+SUMMARY:ZŻWAT (ć)
+DESCRIPTION:Zbiórka żołnierzy WAT\nRodzaj: ćwiczenia\nNr zajęć: 2/3\
+ nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:97c184dbd5ec230fbce8c630@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261216T095000
+DTEND;TZID=Europe/Warsaw:20261216T112500
+SUMMARY:Wkc (ć)
+LOCATION:9 67
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: ćwiczen
+ ia\nProwadzący: ppłk dr inż. Rogólski Robert\nNr zajęć: 11/16\nBlok
+ : 2
+END:VEVENT
+BEGIN:VEVENT
+UID:99a0f1186a443e252729cb11@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261216T133000
+DTEND;TZID=Europe/Warsaw:20261216T150500
+SUMMARY:Ae (L)
+LOCATION:3 67
+DESCRIPTION:Aerodynamika\nRodzaj: laboratorium\nProwadzący: mgr inż. Mis
+ iak Zawadzka Aneta\nNr zajęć: 3/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:45a9fb1a20994be009957b4f@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261216T160000
+DTEND;TZID=Europe/Warsaw:20261216T173500
+SUMMARY:Malo (w)
+LOCATION:19 36
+DESCRIPTION:Materiały lotnicze\nRodzaj: wykład\nProwadzący: ppłk dr in
+ ż. Leszczyński Piotr\nNr zajęć: 4/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:0f89d044ef76beee1503295d@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261216T175000
+DTEND;TZID=Europe/Warsaw:20261216T192500
+SUMMARY:WF (w)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: wykład\nProwadzący: mjr mgr Lub
+ kiewicz Tomasz\nNr zajęć: 2/5\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:9a52a47b6dcb14eb5de57053@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261217T080000
+DTEND;TZID=Europe/Warsaw:20261217T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K\;133
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 22/30\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:a4e85688b12b3e8a17391985@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261217T095000
+DTEND;TZID=Europe/Warsaw:20261217T112500
+SUMMARY:Ter (L)
+LOCATION:8 72
+DESCRIPTION:Termodynamika\nRodzaj: laboratorium\nProwadzący: dr inż. Zie
+ liński Mateusz\nNr zajęć: 4/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:be279070b1a4e00805b13005@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261217T114000
+DTEND;TZID=Europe/Warsaw:20261217T131500
+SUMMARY:Sa (ć)
+LOCATION:136 36
+DESCRIPTION:Systemy awioniczne\nRodzaj: ćwiczenia\nProwadzący: dr inż. 
+ Rochala Zdzisław\nNr zajęć: 4/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1a8029a71067271266482106@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261217T133000
+DTEND;TZID=Europe/Warsaw:20261217T150500
+SUMMARY:Wkc (L)
+LOCATION:31 67
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: laborato
+ rium\nProwadzący: mgr inż. Syta Borys\nNr zajęć: 5/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:39cd5efdf26c0572564c1d24@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261218T080000
+DTEND;TZID=Europe/Warsaw:20261218T093500
+SUMMARY:DSiSM
+LOCATION:AW 3/043\; r
+DESCRIPTION:Działalność szkoleniowa i szkoleniowo-metodyczna\nProwadzą
+ cy: ppłk mgr inż. Grądziel Grzegorz\nNr zajęć: 1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8623e0390ebd1b177f750da8@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261218T095000
+DTEND;TZID=Europe/Warsaw:20261218T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mjr mgr 
+ Lubkiewicz Tomasz\nNr zajęć: 23/30\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1c4673ae3e1c4a81f84b1ac1@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261218T114000
+DTEND;TZID=Europe/Warsaw:20261218T131500
+SUMMARY:GMiB (S)
+LOCATION:AW 7
+DESCRIPTION:Gotowość mobilizacyjna i bojowa\nRodzaj: seminarium\nProwadz
+ ący: ppłk mgr Lasak Michał\nNr zajęć: 2/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0a5a5066c26fe660e6e57248@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261218T133000
+DTEND;TZID=Europe/Warsaw:20261218T150500
+SUMMARY:Oś (w)
+LOCATION:118 57
+DESCRIPTION:Ochrona środowiska\nRodzaj: wykład\nProwadzący: por. mgr in
+ ż. Mikulski Erik\nNr zajęć: 3/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:470197d71880795b8a34497a@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261219T095000
+DTEND;TZID=Europe/Warsaw:20261219T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 12/15\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:bb0c5b40ca92a4e1f64dfe20@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261221T080000
+DTEND;TZID=Europe/Warsaw:20261221T093500
+SUMMARY:Wkc (ć)
+LOCATION:9 67
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: ćwiczen
+ ia\nProwadzący: ppłk dr inż. Rogólski Robert\nNr zajęć: 12/16\nBlok
+ : 1
+END:VEVENT
+BEGIN:VEVENT
+UID:79805dec8208141448670220@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261221T095000
+DTEND;TZID=Europe/Warsaw:20261221T112500
+SUMMARY:Ter (w)
+LOCATION:S2 72
+DESCRIPTION:Termodynamika\nRodzaj: wykład\nProwadzący: prof. dr hab. in
+ ż. Zmywaczyk Janusz\nNr zajęć: 8/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:70cc5d2b0d410b1af86b0a4f@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261221T133000
+DTEND;TZID=Europe/Warsaw:20261221T150500
+SUMMARY:Ae (w)
+LOCATION:S2 72
+DESCRIPTION:Aerodynamika\nRodzaj: wykład\nProwadzący: dr inż. Majcher M
+ aciej\nNr zajęć: 10/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7b40fe1af2f361df6f250b69@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261222T080000
+DTEND;TZID=Europe/Warsaw:20261222T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K\;133
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 23/30\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:e50e9e58590b25087f749b41@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261222T095000
+DTEND;TZID=Europe/Warsaw:20261222T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mjr mgr 
+ Lubkiewicz Tomasz\nNr zajęć: 24/30\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0f64c54f2a1e19a070155b42@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261223T080000
+DTEND;TZID=Europe/Warsaw:20261223T093500
+SUMMARY:Malo (w)
+LOCATION:19 36
+DESCRIPTION:Materiały lotnicze\nRodzaj: wykład\nProwadzący: ppłk dr in
+ ż. Leszczyński Piotr\nNr zajęć: 5/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:fce3dc12ec23f39234ef4bc9@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261223T095000
+DTEND;TZID=Europe/Warsaw:20261223T112500
+SUMMARY:Ter (ć)
+LOCATION:S3 72
+DESCRIPTION:Termodynamika\nRodzaj: ćwiczenia\nProwadzący: prof. dr hab. 
+ inż. Koniorczyk Piotr\nNr zajęć: 6/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:adb980ce342437fde6ead013@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261223T114000
+DTEND;TZID=Europe/Warsaw:20261223T131500
+SUMMARY:Ter (w)
+LOCATION:S3 72
+DESCRIPTION:Termodynamika\nRodzaj: wykład\nProwadzący: prof. dr hab. in
+ ż. Zmywaczyk Janusz\nNr zajęć: 9/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:959bc2bccb4887df7e829725@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261223T133000
+DTEND;TZID=Europe/Warsaw:20261223T150500
+SUMMARY:Ae (L)
+LOCATION:3 67
+DESCRIPTION:Aerodynamika\nRodzaj: laboratorium\nProwadzący: mgr inż. Mis
+ iak Zawadzka Aneta\nNr zajęć: 4/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a96e58d3d348c31054b607ef@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270107T080000
+DTEND;TZID=Europe/Warsaw:20270107T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K\;133
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 24/30\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:83ef176f85b93c8c0ec9e860@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270107T095000
+DTEND;TZID=Europe/Warsaw:20270107T112500
+SUMMARY:Ter (w)
+LOCATION:S2 72
+DESCRIPTION:Termodynamika\nRodzaj: wykład\nProwadzący: prof. dr hab. in
+ ż. Zmywaczyk Janusz\nNr zajęć: 10/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:63269c7722a48f5cb78a5864@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270107T114000
+DTEND;TZID=Europe/Warsaw:20270107T131500
+SUMMARY:Wkc (L)
+LOCATION:31 67
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: laborato
+ rium\nProwadzący: mgr inż. Syta Borys\nNr zajęć: 6/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2f399a0156c48b403b3803fb@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270107T133000
+DTEND;TZID=Europe/Warsaw:20270107T150500
+SUMMARY:Ter (L)
+LOCATION:8 72
+DESCRIPTION:Termodynamika\nRodzaj: laboratorium\nProwadzący: dr inż. Zie
+ liński Mateusz\nNr zajęć: 5/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f66fb6b21a21be0bdc785dd2@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270108T095000
+DTEND;TZID=Europe/Warsaw:20270108T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mjr mgr 
+ Lubkiewicz Tomasz\nNr zajęć: 25/30\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:bac3c30c9365d9cbc134cb25@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270109T095000
+DTEND;TZID=Europe/Warsaw:20270109T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 13/15\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a518633c84baf8c901c69bd6@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270111T080000
+DTEND;TZID=Europe/Warsaw:20270111T093500
+SUMMARY:Wkc (ć)
+LOCATION:9 67
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: ćwiczen
+ ia\nProwadzący: ppłk dr inż. Rogólski Robert\nNr zajęć: 13/16\nBlok
+ : 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3f2b71aa31f7a61b183ef779@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270111T095000
+DTEND;TZID=Europe/Warsaw:20270111T112500
+SUMMARY:Ter (ć)
+LOCATION:S3 72
+DESCRIPTION:Termodynamika\nRodzaj: ćwiczenia\nProwadzący: prof. dr hab. 
+ inż. Koniorczyk Piotr\nNr zajęć: 7/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9aaf6b684c680f3c3e859ea1@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270111T114000
+DTEND;TZID=Europe/Warsaw:20270111T131500
+SUMMARY:Ter (w)
+LOCATION:S3 72
+DESCRIPTION:Termodynamika\nRodzaj: wykład\nProwadzący: prof. dr hab. in
+ ż. Zmywaczyk Janusz\nNr zajęć: 11/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5e49accc089ed2ae34c3f4c8@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270111T133000
+DTEND;TZID=Europe/Warsaw:20270111T150500
+SUMMARY:Lmp (L)
+LOCATION:16/ 19
+DESCRIPTION:Lotnicze materiały pędne i smary\nRodzaj: laboratorium\nProw
+ adzący: mgr inż. Nogas Patrycja\nNr zajęć: 4/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:25cad858ee0480fbaaf7ccd7@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270111T160000
+DTEND;TZID=Europe/Warsaw:20270111T173500
+SUMMARY:Lmp (L)
+LOCATION:16/ 19
+DESCRIPTION:Lotnicze materiały pędne i smary\nRodzaj: laboratorium\nProw
+ adzący: mgr inż. Nogas Patrycja\nNr zajęć: 5/12\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:c7f017014ac7efd4ca3867a6@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270112T080000
+DTEND;TZID=Europe/Warsaw:20270112T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K\;133
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 25/30\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:e1deffd665d8040b42090360@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270112T095000
+DTEND;TZID=Europe/Warsaw:20270112T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mjr mgr 
+ Lubkiewicz Tomasz\nNr zajęć: 26/30\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5d2c352b143f544f3f36e593@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270112T114000
+DTEND;TZID=Europe/Warsaw:20270112T131500
+SUMMARY:Malo (ć)
+LOCATION:4 H7
+DESCRIPTION:Materiały lotnicze\nRodzaj: ćwiczenia\nProwadzący: kpt. mgr
+  inż. Arkuszyńska Angelika\nNr zajęć: 4/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:05b2398cf5d4939a2d052c2c@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270112T133000
+DTEND;TZID=Europe/Warsaw:20270112T150500
+SUMMARY:Ter (w)
+LOCATION:S2 72
+DESCRIPTION:Termodynamika\nRodzaj: wykład\nProwadzący: prof. dr hab. in
+ ż. Zmywaczyk Janusz\nNr zajęć: 12/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0682b6f1144933782d0ab827@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270113T080000
+DTEND;TZID=Europe/Warsaw:20270113T093500
+SUMMARY:ZŻWAT (ć)
+DESCRIPTION:Zbiórka żołnierzy WAT\nRodzaj: ćwiczenia\nNr zajęć: 3/3\
+ nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:966d66ddeed1f1ffb2cb0c4b@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270113T095000
+DTEND;TZID=Europe/Warsaw:20270113T112500
+SUMMARY:Wkc (w)
+LOCATION:S2 72
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: wykład\
+ nProwadzący: dr hab. inż. Kachel Stanisław\nNr zajęć: 7/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0e0c15200a3ea0a3509e41f9@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270113T160000
+DTEND;TZID=Europe/Warsaw:20270113T173500
+SUMMARY:Malo (w)
+LOCATION:19 36
+DESCRIPTION:Materiały lotnicze\nRodzaj: wykład\nProwadzący: ppłk dr in
+ ż. Leszczyński Piotr\nNr zajęć: 6/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:9b10af215aab0ad961dfe0e2@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270113T175000
+DTEND;TZID=Europe/Warsaw:20270113T192500
+SUMMARY:WF (w)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: wykład\nProwadzący: mjr mgr Lub
+ kiewicz Tomasz\nNr zajęć: 3/5\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:45ac9a3ae7d252682a55f608@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270114T080000
+DTEND;TZID=Europe/Warsaw:20270114T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K\;133
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 26/30\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:951f50f08038449a33733394@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270114T095000
+DTEND;TZID=Europe/Warsaw:20270114T112500
+SUMMARY:Ter (w)
+LOCATION:S2 72
+DESCRIPTION:Termodynamika\nRodzaj: wykład\nProwadzący: prof. dr hab. in
+ ż. Zmywaczyk Janusz\nNr zajęć: 13/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7d969aaeed660f419e24c2fe@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270114T114000
+DTEND;TZID=Europe/Warsaw:20270114T131500
+SUMMARY:Lmp (L)
+LOCATION:16/ 19
+DESCRIPTION:Lotnicze materiały pędne i smary\nRodzaj: laboratorium\nProw
+ adzący: mgr inż. Dziobek Ilona\nNr zajęć: 6/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:bd6d2d8bc884c9aed31710bb@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270114T133000
+DTEND;TZID=Europe/Warsaw:20270114T150500
+SUMMARY:Lmp (L)
+LOCATION:16/ 19
+DESCRIPTION:Lotnicze materiały pędne i smary\nRodzaj: laboratorium\nProw
+ adzący: mgr inż. Dziobek Ilona\nNr zajęć: 7/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2bc1dd2e30e9bdef91038e01@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270115T080000
+DTEND;TZID=Europe/Warsaw:20270115T093500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 4
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: ppor
+ . mgr Szwed Katarzyna\nNr zajęć: 7/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5acec4b86e2b213200f3c3d9@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270115T095000
+DTEND;TZID=Europe/Warsaw:20270115T112500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 4
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: ppor
+ . mgr Szwed Katarzyna\nNr zajęć: 8/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:bcbb6a50e368accbf316d9ff@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270115T114000
+DTEND;TZID=Europe/Warsaw:20270115T131500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 4
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: ppor
+ . mgr Szwed Katarzyna\nNr zajęć: 9/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7bcd39061464b57fedd12c83@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270116T095000
+DTEND;TZID=Europe/Warsaw:20270116T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 14/15\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:206d349f2ce416d228ebcccf@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270118T080000
+DTEND;TZID=Europe/Warsaw:20270118T093500
+SUMMARY:Ter (w)
+LOCATION:S2 72
+DESCRIPTION:Termodynamika\nRodzaj: wykład\nProwadzący: prof. dr hab. in
+ ż. Zmywaczyk Janusz\nNr zajęć: 14/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:923ad8ed048758a88c32e383@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270118T095000
+DTEND;TZID=Europe/Warsaw:20270118T112500
+SUMMARY:Ter (w)
+LOCATION:S2 72
+DESCRIPTION:Termodynamika\nRodzaj: wykład\nProwadzący: prof. dr hab. in
+ ż. Zmywaczyk Janusz\nNr zajęć: 15/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:45b4ba2c10b1f163b8ecb771@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270118T114000
+DTEND;TZID=Europe/Warsaw:20270118T131500
+SUMMARY:Malo (ć)
+LOCATION:4 H7
+DESCRIPTION:Materiały lotnicze\nRodzaj: ćwiczenia\nProwadzący: kpt. mgr
+  inż. Arkuszyńska Angelika\nNr zajęć: 5/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:13ff45c9f77b113cff9850b2@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270118T133000
+DTEND;TZID=Europe/Warsaw:20270118T150500
+SUMMARY:Lmp (L)
+LOCATION:16/ 19
+DESCRIPTION:Lotnicze materiały pędne i smary\nRodzaj: laboratorium\nProw
+ adzący: mgr inż. Nogas Patrycja\nNr zajęć: 8/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0d8a7b403c5463f4d9b44050@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270118T160000
+DTEND;TZID=Europe/Warsaw:20270118T173500
+SUMMARY:Lmp (L)
+LOCATION:16/ 19
+DESCRIPTION:Lotnicze materiały pędne i smary\nRodzaj: laboratorium\nProw
+ adzący: mgr inż. Nogas Patrycja\nNr zajęć: 9/12\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:77cd004e34b3fef4e9fd5b05@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270119T080000
+DTEND;TZID=Europe/Warsaw:20270119T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K\;133
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 27/30\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:1cf05ec48618929fb69d8ac1@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270119T095000
+DTEND;TZID=Europe/Warsaw:20270119T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mjr mgr 
+ Lubkiewicz Tomasz\nNr zajęć: 27/30\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:18a79dfd1c0dd0f249e296e0@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270119T114000
+DTEND;TZID=Europe/Warsaw:20270119T131500
+SUMMARY:Sa (L)
+LOCATION:141 36\;128
+DESCRIPTION:Systemy awioniczne\nRodzaj: laboratorium\nProwadzący: * Soszy
+ ński P\nNr zajęć: 8/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ee54b0cfce7bf058aa832bd3@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270119T133000
+DTEND;TZID=Europe/Warsaw:20270119T150500
+SUMMARY:Lmp (L)
+LOCATION:16/ 19
+DESCRIPTION:Lotnicze materiały pędne i smary\nRodzaj: laboratorium\nProw
+ adzący: mgr inż. Dziobek Ilona\nNr zajęć: 10/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2bee49a1a5a64bcabef80938@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270120T080000
+DTEND;TZID=Europe/Warsaw:20270120T093500
+SUMMARY:Malo (w)
+LOCATION:19 36
+DESCRIPTION:Materiały lotnicze\nRodzaj: wykład\nProwadzący: ppłk dr in
+ ż. Leszczyński Piotr\nNr zajęć: 7/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7049e87e8297bde49ee0056e@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270120T095000
+DTEND;TZID=Europe/Warsaw:20270120T112500
+SUMMARY:Malo (w)
+LOCATION:19 36
+DESCRIPTION:Materiały lotnicze\nRodzaj: wykład\nProwadzący: ppłk dr in
+ ż. Leszczyński Piotr\nNr zajęć: 8/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3e7da9b213e31242f4d58bf4@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270120T114000
+DTEND;TZID=Europe/Warsaw:20270120T131500
+SUMMARY:Ter (L)
+LOCATION:8 72
+DESCRIPTION:Termodynamika\nRodzaj: laboratorium\nProwadzący: dr inż. Zie
+ liński Mateusz\nNr zajęć: 6/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1493f75d8d1d059d54d95e4c@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270120T160000
+DTEND;TZID=Europe/Warsaw:20270120T173500
+SUMMARY:Wmk (ć)
+LOCATION:33 67
+DESCRIPTION:Wytrzymałość materiałów i konstrukcji\nRodzaj: ćwiczenia
+ \nProwadzący: dr inż. Wróblewski Piotr\nNr zajęć: 9/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:034af7a965cfbedef5c7936a@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270120T175000
+DTEND;TZID=Europe/Warsaw:20270120T192500
+SUMMARY:WF (w)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: wykład\nProwadzący: mjr mgr Lub
+ kiewicz Tomasz\nNr zajęć: 4/5\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:ad863f8c6b8a6670919bd0e6@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270121T080000
+DTEND;TZID=Europe/Warsaw:20270121T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K\;133
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 28/30\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:f8577b90fb53c13762e1db77@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270121T095000
+DTEND;TZID=Europe/Warsaw:20270121T112500
+SUMMARY:Ae (L)
+LOCATION:3 67
+DESCRIPTION:Aerodynamika\nRodzaj: laboratorium\nProwadzący: mgr inż. Mis
+ iak Zawadzka Aneta\nNr zajęć: 5/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0ee110e00ba9516e48e0a3cd@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270121T114000
+DTEND;TZID=Europe/Warsaw:20270121T131500
+SUMMARY:Ter (L)
+LOCATION:8 72
+DESCRIPTION:Termodynamika\nRodzaj: laboratorium\nProwadzący: dr inż. Zie
+ liński Mateusz\nNr zajęć: 7/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:70fa9e4c888dd02ec4227861@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270121T133000
+DTEND;TZID=Europe/Warsaw:20270121T150500
+SUMMARY:Wkc (ć)
+LOCATION:9 67
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: ćwiczen
+ ia\nProwadzący: ppłk dr inż. Rogólski Robert\nNr zajęć: 14/16\nBlok
+ : 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c1f33e2658ad281351f89d43@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270121T160000
+DTEND;TZID=Europe/Warsaw:20270121T173500
+SUMMARY:Wkc (ć)
+LOCATION:9 67
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: ćwiczen
+ ia\nProwadzący: ppłk dr inż. Rogólski Robert\nNr zajęć: 15/16\nBlok
+ : 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f06b1960de09ea55bf8923c4@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270122T080000
+DTEND;TZID=Europe/Warsaw:20270122T093500
+SUMMARY:Oś (ć)
+LOCATION:114 57
+DESCRIPTION:Ochrona środowiska\nRodzaj: ćwiczenia\nProwadzący: por. mgr
+  inż. Mikulski Erik\nNr zajęć: 1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:eaa85a79052b2db7710cf71e@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270122T095000
+DTEND;TZID=Europe/Warsaw:20270122T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mjr mgr 
+ Lubkiewicz Tomasz\nNr zajęć: 28/30\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:dd7f2c60ff93008662d49daf@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270123T095000
+DTEND;TZID=Europe/Warsaw:20270123T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 15/15\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c11daf19ca63a22f606c5da3@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270125T080000
+DTEND;TZID=Europe/Warsaw:20270125T093500
+SUMMARY:Wkc (ć)
+LOCATION:33 67
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: ćwiczen
+ ia\nProwadzący: ppłk dr inż. Rogólski Robert\nNr zajęć: 16/16\nBlok
+ : 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f4c229b01f7dacdd1ed63bd8@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270125T095000
+DTEND;TZID=Europe/Warsaw:20270125T112500
+SUMMARY:Malo (ć)
+LOCATION:4 H7
+DESCRIPTION:Materiały lotnicze\nRodzaj: ćwiczenia\nProwadzący: kpt. mgr
+  inż. Arkuszyńska Angelika\nNr zajęć: 6/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9a43cc4ccc98a783806622b2@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270125T114000
+DTEND;TZID=Europe/Warsaw:20270125T131500
+SUMMARY:Malo (w)
+LOCATION:19 36
+DESCRIPTION:Materiały lotnicze\nRodzaj: wykład\nProwadzący: ppłk dr in
+ ż. Leszczyński Piotr\nNr zajęć: 9/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:34196e573142cd4378301a02@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270125T133000
+DTEND;TZID=Europe/Warsaw:20270125T150500
+SUMMARY:Lmp (L)
+LOCATION:16/ 19
+DESCRIPTION:Lotnicze materiały pędne i smary\nRodzaj: laboratorium\nProw
+ adzący: mgr inż. Nogas Patrycja\nNr zajęć: 11/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:542462ea91c9b51a8c1b4d53@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270125T160000
+DTEND;TZID=Europe/Warsaw:20270125T173500
+SUMMARY:Lmp (L)
+LOCATION:16/ 19
+DESCRIPTION:Lotnicze materiały pędne i smary\nRodzaj: laboratorium\nProw
+ adzący: mgr inż. Nogas Patrycja\nNr zajęć: 12/12\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:87596d81db49a79189a320e2@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270126T080000
+DTEND;TZID=Europe/Warsaw:20270126T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K\;133
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 29/30\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:7c97081dc783d18cc006d2d8@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270126T095000
+DTEND;TZID=Europe/Warsaw:20270126T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mjr mgr 
+ Lubkiewicz Tomasz\nNr zajęć: 29/30\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a697a3c39a81d958eb390c8e@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270127T095000
+DTEND;TZID=Europe/Warsaw:20270127T112500
+SUMMARY:Wkc (w)
+LOCATION:19 36
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: wykład\
+ nProwadzący: dr hab. inż. Kachel Stanisław\nNr zajęć: 8/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:12877200d460a3774a96b750@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270127T160000
+DTEND;TZID=Europe/Warsaw:20270127T173500
+SUMMARY:Wmk (ć)
+LOCATION:33 67
+DESCRIPTION:Wytrzymałość materiałów i konstrukcji\nRodzaj: ćwiczenia
+ \nProwadzący: dr inż. Wróblewski Piotr\nNr zajęć: 10/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:2428932f741c5999c574214c@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270127T175000
+DTEND;TZID=Europe/Warsaw:20270127T192500
+SUMMARY:WF (w)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: wykład\nProwadzący: mjr mgr Lub
+ kiewicz Tomasz\nNr zajęć: 5/5\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:f452d6c2359d43e4df66760d@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270128T080000
+DTEND;TZID=Europe/Warsaw:20270128T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K\;133
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 30/30\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:cc5d066e70d83367becf05ab@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270128T095000
+DTEND;TZID=Europe/Warsaw:20270128T112500
+SUMMARY:Ter (L)
+LOCATION:8 72
+DESCRIPTION:Termodynamika\nRodzaj: laboratorium\nProwadzący: dr inż. Zie
+ liński Mateusz\nNr zajęć: 8/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:afebfdce3e62ea92efde0c3f@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270128T114000
+DTEND;TZID=Europe/Warsaw:20270128T131500
+SUMMARY:Wkc (L)
+LOCATION:31 67
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: laborato
+ rium\nProwadzący: mgr inż. Syta Borys\nNr zajęć: 7/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:507547ea2fbfdcfed561124f@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270129T080000
+DTEND;TZID=Europe/Warsaw:20270129T093500
+SUMMARY:GMiB (Rep)
+LOCATION:AW 7
+DESCRIPTION:Gotowość mobilizacyjna i bojowa\nRodzaj: repetytorium\nProwa
+ dzący: ppłk mgr Lasak Michał\nNr zajęć: 1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:da941f6c29517125fa5b031b@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270129T095000
+DTEND;TZID=Europe/Warsaw:20270129T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mjr mgr 
+ Lubkiewicz Tomasz\nNr zajęć: 30/30\nBlok: 2
+END:VEVENT
+END:VCALENDAR

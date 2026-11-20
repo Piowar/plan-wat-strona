@@ -1,0 +1,1213 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WCY26KC1N2
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:31a0b08597d829aadc2c977a@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261003T080000
+DTEND;TZID=Europe/Warsaw:20261003T093500
+SUMMARY:Ing (Inne)
+LOCATION:klub WAT
+DESCRIPTION:Inauguracja\nRodzaj: spotkanie organizacyjne\nNr zajęć: 1/2\
+ nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:79e3d2278259c3cb7bf7e5a9@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261003T095000
+DTEND;TZID=Europe/Warsaw:20261003T112500
+SUMMARY:Ing (Inne)
+LOCATION:klub WAT
+DESCRIPTION:Inauguracja\nRodzaj: spotkanie organizacyjne\nNr zajęć: 2/2\
+ nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:edf05086dab7d1aa40ba4e5e@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261003T114000
+DTEND;TZID=Europe/Warsaw:20261003T131500
+SUMMARY:Nmtz (w)
+LOCATION:317 S
+DESCRIPTION:Nowoczesne metody i techniki zarządzania\nRodzaj: wykład\nNr
+  zajęć: 1/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9e3980f7a1e29d5526113ca2@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261003T133000
+DTEND;TZID=Europe/Warsaw:20261003T150500
+SUMMARY:Ps (w)
+LOCATION:317 S
+DESCRIPTION:Procesy stochastyczne\nRodzaj: wykład\nProwadzący: Mularczyk
+  Piotr\nNr zajęć: 1/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f9300a5693ac8024a52d9d66@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261003T152000
+DTEND;TZID=Europe/Warsaw:20261003T165500
+SUMMARY:Mnk (w)
+LOCATION:316 S
+DESCRIPTION:Metody numeryczne w kryptologii\nRodzaj: wykład\nProwadzący:
+  Czuchry Ewa\nNr zajęć: 1/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:9e11deae7809a51505dd7255@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261003T171000
+DTEND;TZID=Europe/Warsaw:20261003T184500
+SUMMARY:Mnk (w)
+LOCATION:316 S
+DESCRIPTION:Metody numeryczne w kryptologii\nRodzaj: wykład\nProwadzący:
+  Czuchry Ewa\nNr zajęć: 2/7\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:401e685b02c302df014bdc7b@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261004T080000
+DTEND;TZID=Europe/Warsaw:20261004T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 1/15\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:251ed3dc188b87bab693acf7@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261004T095000
+DTEND;TZID=Europe/Warsaw:20261004T112500
+SUMMARY:WIT (w)
+LOCATION:307 S
+DESCRIPTION:Wirtualizacja systemów IT\nRodzaj: wykład\nProwadzący: Żor
+ ski Witold\nNr zajęć: 1/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:520b0cde9491bb459e73f2b3@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261004T114000
+DTEND;TZID=Europe/Warsaw:20261004T131500
+SUMMARY:WIT (w)
+LOCATION:307 S
+DESCRIPTION:Wirtualizacja systemów IT\nRodzaj: wykład\nProwadzący: Żor
+ ski Witold\nNr zajęć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8ca41bbe5922bdc00e4824d9@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261004T133000
+DTEND;TZID=Europe/Warsaw:20261004T150500
+SUMMARY:WIT (P)
+LOCATION:106 65
+DESCRIPTION:Wirtualizacja systemów IT\nRodzaj: projekt\nProwadzący: Żor
+ ski Witold\nNr zajęć: 1/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1c7dc1f3341993f8d2ff8ecb@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261004T152000
+DTEND;TZID=Europe/Warsaw:20261004T165500
+SUMMARY:WIT (P)
+LOCATION:106 65
+DESCRIPTION:Wirtualizacja systemów IT\nRodzaj: projekt\nProwadzący: Żor
+ ski Witold\nNr zajęć: 2/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:164aac20f7844bee39f6dd41@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261010T080000
+DTEND;TZID=Europe/Warsaw:20261010T093500
+SUMMARY:Nmtz (w)
+LOCATION:317 S
+DESCRIPTION:Nowoczesne metody i techniki zarządzania\nRodzaj: wykład\nNr
+  zajęć: 2/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c5dfc94b3017bf3697f32890@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261010T095000
+DTEND;TZID=Europe/Warsaw:20261010T112500
+SUMMARY:Nmtz (w)
+LOCATION:317 S
+DESCRIPTION:Nowoczesne metody i techniki zarządzania\nRodzaj: wykład\nNr
+  zajęć: 3/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ca63f42605e9139ebd7b075f@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261010T114000
+DTEND;TZID=Europe/Warsaw:20261010T131500
+SUMMARY:Ps (w)
+LOCATION:307 S
+DESCRIPTION:Procesy stochastyczne\nRodzaj: wykład\nProwadzący: Mularczyk
+  Piotr\nNr zajęć: 2/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ddbacf2c3a7bc15ef5f01619@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261010T133000
+DTEND;TZID=Europe/Warsaw:20261010T150500
+SUMMARY:Ps (w)
+LOCATION:307 S
+DESCRIPTION:Procesy stochastyczne\nRodzaj: wykład\nProwadzący: Mularczyk
+  Piotr\nNr zajęć: 3/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:dc2053ca38157c6f03573efa@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261010T152000
+DTEND;TZID=Europe/Warsaw:20261010T165500
+SUMMARY:Ps (ć)
+LOCATION:218 65
+DESCRIPTION:Procesy stochastyczne\nRodzaj: ćwiczenia\nProwadzący: Mularc
+ zyk Piotr\nNr zajęć: 1/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:e58083b441e2768f2bc5fafe@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261011T080000
+DTEND;TZID=Europe/Warsaw:20261011T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 2/15\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ed3b0d01072b1359f7b1a92c@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261011T095000
+DTEND;TZID=Europe/Warsaw:20261011T112500
+SUMMARY:WIT (w)
+LOCATION:203 65
+DESCRIPTION:Wirtualizacja systemów IT\nRodzaj: wykład\nProwadzący: Żor
+ ski Witold\nNr zajęć: 3/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:572befd9b41cf3f00840b2ec@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261011T114000
+DTEND;TZID=Europe/Warsaw:20261011T131500
+SUMMARY:WIT (w)
+LOCATION:203 65
+DESCRIPTION:Wirtualizacja systemów IT\nRodzaj: wykład\nProwadzący: Żor
+ ski Witold\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:75572ca60721a770b121b805@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261011T133000
+DTEND;TZID=Europe/Warsaw:20261011T150500
+SUMMARY:mST (w)
+LOCATION:203 65
+DESCRIPTION:Modelowanie systemów teleinformatycznych\nRodzaj: wykład\nPr
+ owadzący: Laszko Łukasz\nNr zajęć: 1/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c79a8bbf6df46b4aceb24209@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261011T152000
+DTEND;TZID=Europe/Warsaw:20261011T165500
+SUMMARY:mST (w)
+LOCATION:203 65
+DESCRIPTION:Modelowanie systemów teleinformatycznych\nRodzaj: wykład\nPr
+ owadzący: Laszko Łukasz\nNr zajęć: 2/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:bd75adb8a6d435edca077adc@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261017T080000
+DTEND;TZID=Europe/Warsaw:20261017T093500
+SUMMARY:Ek (w)
+LOCATION:309 S
+DESCRIPTION:Ekonomia\nRodzaj: wykład\nNr zajęć: 1/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:dcb033bdef61149cc8da42f9@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261017T095000
+DTEND;TZID=Europe/Warsaw:20261017T112500
+SUMMARY:Ps (w)
+LOCATION:314 S
+DESCRIPTION:Procesy stochastyczne\nRodzaj: wykład\nProwadzący: Mularczyk
+  Piotr\nNr zajęć: 4/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4bce560e7db2a6ff5f9ecc83@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261017T114000
+DTEND;TZID=Europe/Warsaw:20261017T131500
+SUMMARY:Ps (w)
+LOCATION:314 S
+DESCRIPTION:Procesy stochastyczne\nRodzaj: wykład\nProwadzący: Mularczyk
+  Piotr\nNr zajęć: 5/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:367fa8d956a6da3ba2931779@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261017T133000
+DTEND;TZID=Europe/Warsaw:20261017T150500
+SUMMARY:Tal (w)
+LOCATION:314 S
+DESCRIPTION:Techniki algorytmiczne\nRodzaj: wykład\nProwadzący: Tarapata
+  Zbigniew\nNr zajęć: 1/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c11a81c6c102479602dd4f42@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261017T152000
+DTEND;TZID=Europe/Warsaw:20261017T165500
+SUMMARY:Mnk (w)
+LOCATION:203 65
+DESCRIPTION:Metody numeryczne w kryptologii\nRodzaj: wykład\nProwadzący:
+  Czuchry Ewa\nNr zajęć: 3/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:03c9e37d3fb674c5ed5f71e6@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261017T171000
+DTEND;TZID=Europe/Warsaw:20261017T184500
+SUMMARY:Mnk (L)
+LOCATION:219 65
+DESCRIPTION:Metody numeryczne w kryptologii\nRodzaj: laboratorium\nProwadz
+ ący: Czuchry Ewa\nNr zajęć: 1/8\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:48d437353cda925ad67008f2@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261017T190000
+DTEND;TZID=Europe/Warsaw:20261017T203500
+SUMMARY:Mnk (L)
+LOCATION:219 65
+DESCRIPTION:Metody numeryczne w kryptologii\nRodzaj: laboratorium\nProwadz
+ ący: Czuchry Ewa\nNr zajęć: 2/8\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:b4ea5fbb2bf55a29022d6443@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261018T080000
+DTEND;TZID=Europe/Warsaw:20261018T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 3/15\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4dd8fb3f20d3b31449945047@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261018T095000
+DTEND;TZID=Europe/Warsaw:20261018T112500
+SUMMARY:Dtu (w)
+LOCATION:307 S
+DESCRIPTION:Diagnostyka i tolerowanie uszkodzeń\nRodzaj: wykład\nProwadz
+ ący: Zielinski Zbigniew\nNr zajęć: 1/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:fc95222314abbf8122e821f8@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261018T114000
+DTEND;TZID=Europe/Warsaw:20261018T131500
+SUMMARY:Dtu (w)
+LOCATION:307 S
+DESCRIPTION:Diagnostyka i tolerowanie uszkodzeń\nRodzaj: wykład\nProwadz
+ ący: Zielinski Zbigniew\nNr zajęć: 2/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:57c3ab0ba87e30e515750e14@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261018T133000
+DTEND;TZID=Europe/Warsaw:20261018T150500
+SUMMARY:Soc (w)
+LOCATION:307 S
+DESCRIPTION:Socjologia\nRodzaj: wykład\nNr zajęć: 1/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1b4d86890d2f0fc110250d3d@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261018T152000
+DTEND;TZID=Europe/Warsaw:20261018T165500
+SUMMARY:Mnk (w)
+LOCATION:203 65
+DESCRIPTION:Metody numeryczne w kryptologii\nRodzaj: wykład\nProwadzący:
+  Czuchry Ewa\nNr zajęć: 4/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:a6ed1cd18ba3c5e215a303f5@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261024T080000
+DTEND;TZID=Europe/Warsaw:20261024T093500
+SUMMARY:WIT (w)
+LOCATION:203 65
+DESCRIPTION:Wirtualizacja systemów IT\nRodzaj: wykład\nProwadzący: Żor
+ ski Witold\nNr zajęć: 5/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:419aa7a80ba207b82517b7d9@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261024T095000
+DTEND;TZID=Europe/Warsaw:20261024T112500
+SUMMARY:Ek (w)
+LOCATION:309 S
+DESCRIPTION:Ekonomia\nRodzaj: wykład\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3427cff367a153e238e5cfdd@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261024T114000
+DTEND;TZID=Europe/Warsaw:20261024T131500
+SUMMARY:Tal (w)
+LOCATION:313 S
+DESCRIPTION:Techniki algorytmiczne\nRodzaj: wykład\nProwadzący: Tarapata
+  Zbigniew\nNr zajęć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8475c958676509e31721aa7d@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261024T133000
+DTEND;TZID=Europe/Warsaw:20261024T150500
+SUMMARY:Tal (w)
+LOCATION:313 S
+DESCRIPTION:Techniki algorytmiczne\nRodzaj: wykład\nProwadzący: Tarapata
+  Zbigniew\nNr zajęć: 3/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7d7bc0a31fe7733c3ddd2686@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261024T171000
+DTEND;TZID=Europe/Warsaw:20261024T184500
+SUMMARY:Sws (Inne)
+LOCATION:314 S
+DESCRIPTION:Spotkanie organizacyjne\nRodzaj: spotkanie organizacyjne\nProw
+ adzący: Kutyła Adam\nNr zajęć: 1/1\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:e96cee8f93920d6689c1e8e3@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261024T171000
+DTEND;TZID=Europe/Warsaw:20261024T184500
+SUMMARY:Sws (Inne)
+LOCATION:314 S
+DESCRIPTION:Spotkanie organizacyjne\nRodzaj: spotkanie organizacyjne\nProw
+ adzący: Piasecka Joanna\nNr zajęć: 1/1\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:b56191dd196e4a44a7a0f01f@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261025T080000
+DTEND;TZID=Europe/Warsaw:20261025T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 4/15\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:84b709961f9fb9e7a4ddf87a@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261025T095000
+DTEND;TZID=Europe/Warsaw:20261025T112500
+SUMMARY:Dtu (w)
+LOCATION:204 65
+DESCRIPTION:Diagnostyka i tolerowanie uszkodzeń\nRodzaj: wykład\nProwadz
+ ący: Zielinski Zbigniew\nNr zajęć: 3/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:05411c1c0829121e20bbaa6e@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261025T114000
+DTEND;TZID=Europe/Warsaw:20261025T131500
+SUMMARY:Dtu (w)
+LOCATION:204 65
+DESCRIPTION:Diagnostyka i tolerowanie uszkodzeń\nRodzaj: wykład\nProwadz
+ ący: Zielinski Zbigniew\nNr zajęć: 4/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2efeb9e5624dc24ae34c62f3@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261025T133000
+DTEND;TZID=Europe/Warsaw:20261025T150500
+SUMMARY:Soc (w)
+LOCATION:307 S
+DESCRIPTION:Socjologia\nRodzaj: wykład\nNr zajęć: 2/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3ddfa61b50ae1b1d5caa87a1@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261025T152000
+DTEND;TZID=Europe/Warsaw:20261025T165500
+SUMMARY:mST (w)
+LOCATION:203 65
+DESCRIPTION:Modelowanie systemów teleinformatycznych\nRodzaj: wykład\nPr
+ owadzący: Laszko Łukasz\nNr zajęć: 3/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:351729322d323ada292edcd4@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261025T171000
+DTEND;TZID=Europe/Warsaw:20261025T184500
+SUMMARY:mST (w)
+LOCATION:203 65
+DESCRIPTION:Modelowanie systemów teleinformatycznych\nRodzaj: wykład\nPr
+ owadzący: Laszko Łukasz\nNr zajęć: 4/6\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:f968a9c7e792cbe11318fbeb@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261114T080000
+DTEND;TZID=Europe/Warsaw:20261114T093500
+SUMMARY:Dtu (L)
+LOCATION:106 65
+DESCRIPTION:Diagnostyka i tolerowanie uszkodzeń\nRodzaj: laboratorium\nPr
+ owadzący: Melaniuk Michał\nNr zajęć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a4044814cef9f9163d2a4a99@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261114T095000
+DTEND;TZID=Europe/Warsaw:20261114T112500
+SUMMARY:Ek (w)
+LOCATION:309 S
+DESCRIPTION:Ekonomia\nRodzaj: wykład\nNr zajęć: 3/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0b183e4850079a03711abe60@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261114T114000
+DTEND;TZID=Europe/Warsaw:20261114T131500
+SUMMARY:Tal (w)
+LOCATION:314 S
+DESCRIPTION:Techniki algorytmiczne\nRodzaj: wykład\nProwadzący: Tarapata
+  Zbigniew\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:00995ccb0a75138f4cf4c2ca@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261114T133000
+DTEND;TZID=Europe/Warsaw:20261114T150500
+SUMMARY:Tal (w)
+LOCATION:314 S
+DESCRIPTION:Techniki algorytmiczne\nRodzaj: wykład\nProwadzący: Tarapata
+  Zbigniew\nNr zajęć: 5/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ce6f6450db05eeaeb8015534@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261114T152000
+DTEND;TZID=Europe/Warsaw:20261114T165500
+SUMMARY:Mnk (w)
+LOCATION:203 65
+DESCRIPTION:Metody numeryczne w kryptologii\nRodzaj: wykład\nProwadzący:
+  Czuchry Ewa\nNr zajęć: 5/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:a5f11121af594bce4fad12a6@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261115T080000
+DTEND;TZID=Europe/Warsaw:20261115T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 5/15\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:31617da76f1a771910579763@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261115T095000
+DTEND;TZID=Europe/Warsaw:20261115T112500
+SUMMARY:Dtu (w)
+LOCATION:313 S
+DESCRIPTION:Diagnostyka i tolerowanie uszkodzeń\nRodzaj: wykład\nProwadz
+ ący: Zielinski Zbigniew\nNr zajęć: 5/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e7270830d9b5527d5fa05cbb@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261115T114000
+DTEND;TZID=Europe/Warsaw:20261115T131500
+SUMMARY:Dtu (w)
+LOCATION:313 S
+DESCRIPTION:Diagnostyka i tolerowanie uszkodzeń\nRodzaj: wykład\nProwadz
+ ący: Zielinski Zbigniew\nNr zajęć: 6/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:95c0d9c8cdae10e42cfbe0ce@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261115T133000
+DTEND;TZID=Europe/Warsaw:20261115T150500
+SUMMARY:Mnk (w)
+LOCATION:309 S
+DESCRIPTION:Metody numeryczne w kryptologii\nRodzaj: wykład\nProwadzący:
+  Czuchry Ewa\nNr zajęć: 6/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b7062b96fe34a676105ad352@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261121T095000
+DTEND;TZID=Europe/Warsaw:20261121T112500
+SUMMARY:Ek (ć)
+LOCATION:309 S
+DESCRIPTION:Ekonomia\nRodzaj: ćwiczenia\nNr zajęć: 1/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d1b7ce29f1f071a753644fe5@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261121T114000
+DTEND;TZID=Europe/Warsaw:20261121T131500
+SUMMARY:Ps (ć)
+LOCATION:218 65
+DESCRIPTION:Procesy stochastyczne\nRodzaj: ćwiczenia\nProwadzący: Mularc
+ zyk Piotr\nNr zajęć: 2/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:454c4c108eaa404237858166@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261121T133000
+DTEND;TZID=Europe/Warsaw:20261121T150500
+SUMMARY:Ps (w)
+LOCATION:314 S
+DESCRIPTION:Procesy stochastyczne\nRodzaj: wykład\nProwadzący: Mularczyk
+  Piotr\nNr zajęć: 6/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b389ce3010f08d6a311acffd@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261121T152000
+DTEND;TZID=Europe/Warsaw:20261121T165500
+SUMMARY:Nmtz (w)
+LOCATION:317 S
+DESCRIPTION:Nowoczesne metody i techniki zarządzania\nRodzaj: wykład\nNr
+  zajęć: 4/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:801efedf30176bb0d7d77b11@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261122T080000
+DTEND;TZID=Europe/Warsaw:20261122T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 6/15\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b9687e74b5f2db0d586de947@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261122T095000
+DTEND;TZID=Europe/Warsaw:20261122T112500
+SUMMARY:Soc (w)
+LOCATION:307 S
+DESCRIPTION:Socjologia\nRodzaj: wykład\nNr zajęć: 3/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d8c96cdc84d438153c62df28@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261122T114000
+DTEND;TZID=Europe/Warsaw:20261122T131500
+SUMMARY:Tal (L)
+LOCATION:227 S
+DESCRIPTION:Techniki algorytmiczne\nRodzaj: laboratorium\nProwadzący: Nap
+ iórkowski Jarosław\nNr zajęć: 1/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:33f24082c336d474b185e304@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261122T133000
+DTEND;TZID=Europe/Warsaw:20261122T150500
+SUMMARY:mST (w)
+LOCATION:205 65
+DESCRIPTION:Modelowanie systemów teleinformatycznych\nRodzaj: wykład\nPr
+ owadzący: Laszko Łukasz\nNr zajęć: 5/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:79fdde85d4d5338849ec6fab@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261122T152000
+DTEND;TZID=Europe/Warsaw:20261122T165500
+SUMMARY:mST (L)
+LOCATION:106 65
+DESCRIPTION:Modelowanie systemów teleinformatycznych\nRodzaj: laboratoriu
+ m\nProwadzący: Laszko Łukasz\nNr zajęć: 1/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:489d22e74fcca78e8896b657@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261205T080000
+DTEND;TZID=Europe/Warsaw:20261205T093500
+SUMMARY:Dtu (L)
+LOCATION:106 65
+DESCRIPTION:Diagnostyka i tolerowanie uszkodzeń\nRodzaj: laboratorium\nPr
+ owadzący: Melaniuk Michał\nNr zajęć: 2/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b9de948bd2bfbb1f47dd62c4@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261205T095000
+DTEND;TZID=Europe/Warsaw:20261205T112500
+SUMMARY:Ek (ć)
+LOCATION:309 S
+DESCRIPTION:Ekonomia\nRodzaj: ćwiczenia\nNr zajęć: 2/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b9aa2a527bf372c017c3e53f@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261205T114000
+DTEND;TZID=Europe/Warsaw:20261205T131500
+SUMMARY:Dtu (P)
+LOCATION:106 65
+DESCRIPTION:Diagnostyka i tolerowanie uszkodzeń\nRodzaj: projekt\nProwadz
+ ący: Melaniuk Michał\nNr zajęć: 1/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b35d42d736c4462f72a8b8ff@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261205T133000
+DTEND;TZID=Europe/Warsaw:20261205T150500
+SUMMARY:Mnk (w)
+LOCATION:203 65
+DESCRIPTION:Metody numeryczne w kryptologii\nRodzaj: wykład\nProwadzący:
+  Czuchry Ewa\nNr zajęć: 7/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4695dd94edb37c185887c6b1@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261205T152000
+DTEND;TZID=Europe/Warsaw:20261205T165500
+SUMMARY:Mnk (L)
+LOCATION:219 65
+DESCRIPTION:Metody numeryczne w kryptologii\nRodzaj: laboratorium\nProwadz
+ ący: Czuchry Ewa\nNr zajęć: 3/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:187eccc673ff19f85c75615c@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261206T080000
+DTEND;TZID=Europe/Warsaw:20261206T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 7/15\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0a1cef24a862b15302e27474@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261206T095000
+DTEND;TZID=Europe/Warsaw:20261206T112500
+SUMMARY:Soc (w)
+LOCATION:307 S
+DESCRIPTION:Socjologia\nRodzaj: wykład\nNr zajęć: 4/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:38f4e806c7cf04f041c55b94@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261206T114000
+DTEND;TZID=Europe/Warsaw:20261206T131500
+SUMMARY:Soc (ć)
+LOCATION:307 S
+DESCRIPTION:Socjologia\nRodzaj: ćwiczenia\nNr zajęć: 1/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:635acc99eef47058a8e826fa@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261206T133000
+DTEND;TZID=Europe/Warsaw:20261206T150500
+SUMMARY:mST (L)
+LOCATION:106 65
+DESCRIPTION:Modelowanie systemów teleinformatycznych\nRodzaj: laboratoriu
+ m\nProwadzący: Laszko Łukasz\nNr zajęć: 2/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:919619331b1412df57c33000@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261206T152000
+DTEND;TZID=Europe/Warsaw:20261206T165500
+SUMMARY:mST (P)
+LOCATION:106 65
+DESCRIPTION:Modelowanie systemów teleinformatycznych\nRodzaj: projekt\nPr
+ owadzący: Laszko Łukasz\nNr zajęć: 1/3\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:4fec61934c9a9942be066605@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261212T095000
+DTEND;TZID=Europe/Warsaw:20261212T112500
+SUMMARY:Ek (w)
+LOCATION:309 S
+DESCRIPTION:Ekonomia\nRodzaj: wykład\nNr zajęć: 4/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9f2df670e69550c0742506b7@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261212T114000
+DTEND;TZID=Europe/Warsaw:20261212T131500
+SUMMARY:Nmtz (ć)
+LOCATION:317 S
+DESCRIPTION:Nowoczesne metody i techniki zarządzania\nRodzaj: ćwiczenia\
+ nNr zajęć: 1/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:71dbd3b35f21ad5c94d04210@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261212T133000
+DTEND;TZID=Europe/Warsaw:20261212T150500
+SUMMARY:Dtu (P)
+LOCATION:106 65
+DESCRIPTION:Diagnostyka i tolerowanie uszkodzeń\nRodzaj: projekt\nProwadz
+ ący: Melaniuk Michał\nNr zajęć: 2/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:03dabf9657b4fac28e433822@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261212T152000
+DTEND;TZID=Europe/Warsaw:20261212T165500
+SUMMARY:mST (L)
+LOCATION:106 65
+DESCRIPTION:Modelowanie systemów teleinformatycznych\nRodzaj: laboratoriu
+ m\nProwadzący: Laszko Łukasz\nNr zajęć: 3/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:85b1ec672af91a3617fd007a@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261212T171000
+DTEND;TZID=Europe/Warsaw:20261212T184500
+SUMMARY:Ps (ć)
+LOCATION:218 65
+DESCRIPTION:Procesy stochastyczne\nRodzaj: ćwiczenia\nProwadzący: Mularc
+ zyk Piotr\nNr zajęć: 3/4\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:7dc608c2ff87e6d3bf30ab73@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261213T080000
+DTEND;TZID=Europe/Warsaw:20261213T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 8/15\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:20a03a8bf5827b6fbd42e580@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261213T095000
+DTEND;TZID=Europe/Warsaw:20261213T112500
+SUMMARY:Soc (w)
+LOCATION:307 S
+DESCRIPTION:Socjologia\nRodzaj: wykład\nNr zajęć: 5/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9738574bcc295d5716cd57ab@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261213T152000
+DTEND;TZID=Europe/Warsaw:20261213T165500
+SUMMARY:Nmtz (w)
+LOCATION:317 S
+DESCRIPTION:Nowoczesne metody i techniki zarządzania\nRodzaj: wykład\nNr
+  zajęć: 5/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:883141e7a6f18e6341d96952@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261218T175000
+DTEND;TZID=Europe/Warsaw:20261218T192500
+SUMMARY:Ja (ć)
+LOCATION:on-line..
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 9/15\nBlok: 
+ 6
+END:VEVENT
+BEGIN:VEVENT
+UID:83f99c6e68c2ecd8dcea09ed@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261218T194000
+DTEND;TZID=Europe/Warsaw:20261218T211500
+SUMMARY:Ja (ć)
+LOCATION:on-line..
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 10/15\nBlok:
+  7
+END:VEVENT
+BEGIN:VEVENT
+UID:d94ab6821d71f6907813f71d@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261219T080000
+DTEND;TZID=Europe/Warsaw:20261219T093500
+SUMMARY:Dtu (L)
+LOCATION:106 65
+DESCRIPTION:Diagnostyka i tolerowanie uszkodzeń\nRodzaj: laboratorium\nPr
+ owadzący: Melaniuk Michał\nNr zajęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c182147d10eb00db0865aafe@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261219T095000
+DTEND;TZID=Europe/Warsaw:20261219T112500
+SUMMARY:Ek (w)
+LOCATION:309 S
+DESCRIPTION:Ekonomia\nRodzaj: wykład\nNr zajęć: 5/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5d55e8a515bd93e3f9452448@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261219T114000
+DTEND;TZID=Europe/Warsaw:20261219T131500
+SUMMARY:mST (w)
+LOCATION:203 65
+DESCRIPTION:Modelowanie systemów teleinformatycznych\nRodzaj: wykład\nPr
+ owadzący: Laszko Łukasz\nNr zajęć: 6/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3987caa5df5ff2fd6c1fb790@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261219T152000
+DTEND;TZID=Europe/Warsaw:20261219T165500
+SUMMARY:Mnk (L)
+LOCATION:219 65
+DESCRIPTION:Metody numeryczne w kryptologii\nRodzaj: laboratorium\nProwadz
+ ący: Czuchry Ewa\nNr zajęć: 4/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:9ba64cba94297357f54e738f@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261219T171000
+DTEND;TZID=Europe/Warsaw:20261219T184500
+SUMMARY:Mnk (L)
+LOCATION:219 65
+DESCRIPTION:Metody numeryczne w kryptologii\nRodzaj: laboratorium\nProwadz
+ ący: Czuchry Ewa\nNr zajęć: 5/8\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:7bc1eb40806306e9b882c0e5@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261220T080000
+DTEND;TZID=Europe/Warsaw:20261220T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 11/15\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:75552db9f93fc5d90f71be8a@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261220T095000
+DTEND;TZID=Europe/Warsaw:20261220T112500
+SUMMARY:Tal (L)
+LOCATION:223 S
+DESCRIPTION:Techniki algorytmiczne\nRodzaj: laboratorium\nProwadzący: Nap
+ iórkowski Jarosław\nNr zajęć: 2/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a57b512bc3a689a144316b10@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261220T114000
+DTEND;TZID=Europe/Warsaw:20261220T131500
+SUMMARY:Tal (P)
+LOCATION:223 S
+DESCRIPTION:Techniki algorytmiczne\nRodzaj: projekt\nProwadzący: Napiórk
+ owski Jarosław\nNr zajęć: 1/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:47dd72a973329d7fba298689@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261220T133000
+DTEND;TZID=Europe/Warsaw:20261220T150500
+SUMMARY:WIT (L)
+LOCATION:120 65
+DESCRIPTION:Wirtualizacja systemów IT\nRodzaj: laboratorium\nProwadzący:
+  Paciorek Łukasz\nNr zajęć: 1/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0274f913a292ce358b8c0532@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261220T152000
+DTEND;TZID=Europe/Warsaw:20261220T165500
+SUMMARY:WIT (L)
+LOCATION:120 65
+DESCRIPTION:Wirtualizacja systemów IT\nRodzaj: laboratorium\nProwadzący:
+  Paciorek Łukasz\nNr zajęć: 2/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:e6b72f4d6c5f5e8475cd9521@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270109T080000
+DTEND;TZID=Europe/Warsaw:20270109T093500
+SUMMARY:Dtu (L)
+LOCATION:106 65
+DESCRIPTION:Diagnostyka i tolerowanie uszkodzeń\nRodzaj: laboratorium\nPr
+ owadzący: Melaniuk Michał\nNr zajęć: 4/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b6b1058d727dab0d35416f39@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270109T095000
+DTEND;TZID=Europe/Warsaw:20270109T112500
+SUMMARY:Dtu (P)
+LOCATION:106 65
+DESCRIPTION:Diagnostyka i tolerowanie uszkodzeń\nRodzaj: projekt\nProwadz
+ ący: Melaniuk Michał\nNr zajęć: 3/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a08fc47b9cbc96e71036d2cf@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270109T114000
+DTEND;TZID=Europe/Warsaw:20270109T131500
+SUMMARY:Nmtz (ć)
+LOCATION:317 S
+DESCRIPTION:Nowoczesne metody i techniki zarządzania\nRodzaj: ćwiczenia\
+ nNr zajęć: 2/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:29cd00b501e4d796aad22be4@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270109T133000
+DTEND;TZID=Europe/Warsaw:20270109T150500
+SUMMARY:Mnk (L)
+LOCATION:219 65
+DESCRIPTION:Metody numeryczne w kryptologii\nRodzaj: laboratorium\nProwadz
+ ący: Czuchry Ewa\nNr zajęć: 6/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:95809dd41fa9bbbdf9c840b3@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270110T080000
+DTEND;TZID=Europe/Warsaw:20270110T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 12/15\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:2edcea280fe547d169608dda@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270110T114000
+DTEND;TZID=Europe/Warsaw:20270110T131500
+SUMMARY:mST (L)
+LOCATION:106 65
+DESCRIPTION:Modelowanie systemów teleinformatycznych\nRodzaj: laboratoriu
+ m\nProwadzący: Laszko Łukasz\nNr zajęć: 4/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:49af311c46512e26bd7d7cd6@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270110T133000
+DTEND;TZID=Europe/Warsaw:20270110T150500
+SUMMARY:WIT (L)
+LOCATION:120 65
+DESCRIPTION:Wirtualizacja systemów IT\nRodzaj: laboratorium\nProwadzący:
+  Paciorek Łukasz\nNr zajęć: 3/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5e8a53b214051d14db83f0e0@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270110T152000
+DTEND;TZID=Europe/Warsaw:20270110T165500
+SUMMARY:WIT (L)
+LOCATION:120 65
+DESCRIPTION:Wirtualizacja systemów IT\nRodzaj: laboratorium\nProwadzący:
+  Paciorek Łukasz\nNr zajęć: 4/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:2826e89061de7353883998b7@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270117T080000
+DTEND;TZID=Europe/Warsaw:20270117T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 13/15\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:d7bcd5929911ffc4827d6321@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270117T114000
+DTEND;TZID=Europe/Warsaw:20270117T131500
+SUMMARY:Soc (ć)
+LOCATION:308 S
+DESCRIPTION:Socjologia\nRodzaj: ćwiczenia\nNr zajęć: 2/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0f5d3a857baf2bf1e03af576@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270117T133000
+DTEND;TZID=Europe/Warsaw:20270117T150500
+SUMMARY:mST (L)
+LOCATION:120 65
+DESCRIPTION:Modelowanie systemów teleinformatycznych\nRodzaj: laboratoriu
+ m\nProwadzący: Laszko Łukasz\nNr zajęć: 5/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e5c172918caf8fa6d519deca@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270123T095000
+DTEND;TZID=Europe/Warsaw:20270123T112500
+SUMMARY:WIT (L)
+LOCATION:120 65
+DESCRIPTION:Wirtualizacja systemów IT\nRodzaj: laboratorium\nProwadzący:
+  Paciorek Łukasz\nNr zajęć: 5/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6460dff3f274e87a23b8fd65@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270123T114000
+DTEND;TZID=Europe/Warsaw:20270123T131500
+SUMMARY:WIT (L)
+LOCATION:120 65
+DESCRIPTION:Wirtualizacja systemów IT\nRodzaj: laboratorium\nProwadzący:
+  Paciorek Łukasz\nNr zajęć: 6/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e341534e4e1345cb2b144405@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270123T133000
+DTEND;TZID=Europe/Warsaw:20270123T150500
+SUMMARY:mST (L)
+LOCATION:106 65
+DESCRIPTION:Modelowanie systemów teleinformatycznych\nRodzaj: laboratoriu
+ m\nProwadzący: Laszko Łukasz\nNr zajęć: 6/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b05c15fb5b85c6fc6dd4e971@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270123T152000
+DTEND;TZID=Europe/Warsaw:20270123T165500
+SUMMARY:Mnk (L)
+LOCATION:219 65
+DESCRIPTION:Metody numeryczne w kryptologii\nRodzaj: laboratorium\nProwadz
+ ący: Czuchry Ewa\nNr zajęć: 7/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:6a02cbbe854c0e1713f9e26d@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270123T171000
+DTEND;TZID=Europe/Warsaw:20270123T184500
+SUMMARY:Mnk (L)
+LOCATION:219 65
+DESCRIPTION:Metody numeryczne w kryptologii\nRodzaj: laboratorium\nProwadz
+ ący: Czuchry Ewa\nNr zajęć: 8/8\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:c74b824430c08cd56f671927@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270124T080000
+DTEND;TZID=Europe/Warsaw:20270124T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 14/15\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:1b15ef3fcf7b735e3f66e14f@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270124T114000
+DTEND;TZID=Europe/Warsaw:20270124T131500
+SUMMARY:Tal (P)
+LOCATION:223 S
+DESCRIPTION:Techniki algorytmiczne\nRodzaj: projekt\nProwadzący: Napiórk
+ owski Jarosław\nNr zajęć: 2/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:fcf5ba6b4caadcd7a3175142@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270124T133000
+DTEND;TZID=Europe/Warsaw:20270124T150500
+SUMMARY:Tal (P)
+LOCATION:223 S
+DESCRIPTION:Techniki algorytmiczne\nRodzaj: projekt\nProwadzący: Napiórk
+ owski Jarosław\nNr zajęć: 3/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4775db4292f244e365993a09@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270130T095000
+DTEND;TZID=Europe/Warsaw:20270130T112500
+SUMMARY:Ps (ć)
+LOCATION:218 65
+DESCRIPTION:Procesy stochastyczne\nRodzaj: ćwiczenia\nProwadzący: Mularc
+ zyk Piotr\nNr zajęć: 4/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:05323afdb1f54c2164ae4a16@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270130T114000
+DTEND;TZID=Europe/Warsaw:20270130T131500
+SUMMARY:Dtu (P)
+LOCATION:120 65
+DESCRIPTION:Diagnostyka i tolerowanie uszkodzeń\nRodzaj: projekt\nProwadz
+ ący: Melaniuk Michał\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4f48d33626da8ccd7963d1fa@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270130T133000
+DTEND;TZID=Europe/Warsaw:20270130T150500
+SUMMARY:Dtu (P)
+LOCATION:120 65
+DESCRIPTION:Diagnostyka i tolerowanie uszkodzeń\nRodzaj: projekt\nProwadz
+ ący: Melaniuk Michał\nNr zajęć: 5/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:da1f810782ecf82efce542f4@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270131T080000
+DTEND;TZID=Europe/Warsaw:20270131T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 15/15\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:05b5fadaba3db82c90e0b65a@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270131T095000
+DTEND;TZID=Europe/Warsaw:20270131T112500
+SUMMARY:WIT (P)
+LOCATION:120 65
+DESCRIPTION:Wirtualizacja systemów IT\nRodzaj: projekt\nProwadzący: Żor
+ ski Witold\nNr zajęć: 3/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d08e9a2bffb9f04e714ba44b@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270131T114000
+DTEND;TZID=Europe/Warsaw:20270131T131500
+SUMMARY:WIT (P)
+LOCATION:120 65
+DESCRIPTION:Wirtualizacja systemów IT\nRodzaj: projekt\nProwadzący: Żor
+ ski Witold\nNr zajęć: 4/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:83e46783a93d11805dfd87c1@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270131T133000
+DTEND;TZID=Europe/Warsaw:20270131T150500
+SUMMARY:mST (P)
+LOCATION:120 65
+DESCRIPTION:Modelowanie systemów teleinformatycznych\nRodzaj: projekt\nPr
+ owadzący: Laszko Łukasz\nNr zajęć: 2/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:436e98354d0ffda434216920@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270131T152000
+DTEND;TZID=Europe/Warsaw:20270131T165500
+SUMMARY:mST (P)
+LOCATION:120 65
+DESCRIPTION:Modelowanie systemów teleinformatycznych\nRodzaj: projekt\nPr
+ owadzący: Laszko Łukasz\nNr zajęć: 3/3\nBlok: 5
+END:VEVENT
+END:VCALENDAR

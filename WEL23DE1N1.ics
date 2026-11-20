@@ -1,0 +1,818 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WEL23DE1N1
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:427c815042590a2eef696614@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261003T080000
+DTEND;TZID=Europe/Warsaw:20261003T093500
+SUMMARY:Sdwel (S)
+LOCATION:315b S
+DESCRIPTION:Seminaria dyplomowe wel\nRodzaj: seminarium\nProwadzący: prof
+ . dr hab. inż. Kulas Stanisław\nNr zajęć: 1/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:77aea7da26f3d72392bb8359@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261003T095000
+DTEND;TZID=Europe/Warsaw:20261003T112500
+SUMMARY:Sdwel (S)
+LOCATION:315b S
+DESCRIPTION:Seminaria dyplomowe wel\nRodzaj: seminarium\nProwadzący: prof
+ . dr hab. inż. Kulas Stanisław\nNr zajęć: 2/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f921bbd92f4f49f196d7b654@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261003T114000
+DTEND;TZID=Europe/Warsaw:20261003T131500
+SUMMARY:Mitp (w)
+LOCATION:7 61
+DESCRIPTION:Metodyka i techniki programowania\nRodzaj: wykład\nProwadząc
+ y: dr inż. Banasiak Kazimierz\nNr zajęć: 1/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:17d8dc94d4348ad0818cefda@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261003T133000
+DTEND;TZID=Europe/Warsaw:20261003T150500
+SUMMARY:Mitp (w)
+LOCATION:7 61
+DESCRIPTION:Metodyka i techniki programowania\nRodzaj: wykład\nProwadząc
+ y: dr inż. Banasiak Kazimierz\nNr zajęć: 2/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:247780ef890bb616d924e880@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261004T080000
+DTEND;TZID=Europe/Warsaw:20261004T093500
+SUMMARY:Pewe (w)
+LOCATION:120 45
+DESCRIPTION:Przemiany elektrotermiczne w energetyce\nRodzaj: wykład\nProw
+ adzący: dr hab. inż. Wesołowski Marcin\nNr zajęć: 1/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:bb3cbcbaa35d620fe253939b@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261004T095000
+DTEND;TZID=Europe/Warsaw:20261004T112500
+SUMMARY:Pewe (w)
+LOCATION:120 45
+DESCRIPTION:Przemiany elektrotermiczne w energetyce\nRodzaj: wykład\nProw
+ adzący: dr hab. inż. Wesołowski Marcin\nNr zajęć: 2/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:95b842a7da7e54bae6afbdc9@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261010T080000
+DTEND;TZID=Europe/Warsaw:20261010T093500
+SUMMARY:Mitp (w)
+LOCATION:7 61
+DESCRIPTION:Metodyka i techniki programowania\nRodzaj: wykład\nProwadząc
+ y: dr inż. Banasiak Kazimierz\nNr zajęć: 3/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c02f9504bd5027af64618932@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261010T095000
+DTEND;TZID=Europe/Warsaw:20261010T112500
+SUMMARY:Mitp (w)
+LOCATION:7 61
+DESCRIPTION:Metodyka i techniki programowania\nRodzaj: wykład\nProwadząc
+ y: dr inż. Banasiak Kazimierz\nNr zajęć: 4/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4154f8408c63dc6bf8122d29@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261010T114000
+DTEND;TZID=Europe/Warsaw:20261010T131500
+SUMMARY:Pewe (w)
+LOCATION:120 45
+DESCRIPTION:Przemiany elektrotermiczne w energetyce\nRodzaj: wykład\nProw
+ adzący: dr hab. inż. Wesołowski Marcin\nNr zajęć: 3/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:443228adf474b3646a95a8b1@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261010T133000
+DTEND;TZID=Europe/Warsaw:20261010T150500
+SUMMARY:Pewe (w)
+LOCATION:120 45
+DESCRIPTION:Przemiany elektrotermiczne w energetyce\nRodzaj: wykład\nProw
+ adzący: dr hab. inż. Wesołowski Marcin\nNr zajęć: 4/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:cc93b442a26f75366f55004a@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261017T080000
+DTEND;TZID=Europe/Warsaw:20261017T093500
+SUMMARY:Mitp (w)
+LOCATION:7 61
+DESCRIPTION:Metodyka i techniki programowania\nRodzaj: wykład\nProwadząc
+ y: dr inż. Banasiak Kazimierz\nNr zajęć: 5/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:50694a7c6b903b71961430dc@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261017T095000
+DTEND;TZID=Europe/Warsaw:20261017T112500
+SUMMARY:Mitp (w)
+LOCATION:7 61
+DESCRIPTION:Metodyka i techniki programowania\nRodzaj: wykład\nProwadząc
+ y: dr inż. Banasiak Kazimierz\nNr zajęć: 6/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6660110197a8a3dca3389333@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261017T114000
+DTEND;TZID=Europe/Warsaw:20261017T131500
+SUMMARY:Sdwel (S)
+LOCATION:315b S
+DESCRIPTION:Seminaria dyplomowe wel\nRodzaj: seminarium\nProwadzący: prof
+ . dr hab. inż. Kulas Stanisław\nNr zajęć: 3/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8500d3dea427fe96516b4100@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261017T133000
+DTEND;TZID=Europe/Warsaw:20261017T150500
+SUMMARY:Sdwel (S)
+LOCATION:315b S
+DESCRIPTION:Seminaria dyplomowe wel\nRodzaj: seminarium\nProwadzący: prof
+ . dr hab. inż. Kulas Stanisław\nNr zajęć: 4/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:eb1b239ac592f456244cacf1@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261018T080000
+DTEND;TZID=Europe/Warsaw:20261018T093500
+SUMMARY:Pdper (w)
+LOCATION:315b S
+DESCRIPTION:Prowadzenie działalności przedsiębiorstwa energetycznego na
+  rynku\nRodzaj: wykład\nProwadzący: dr inż. (prof. ucz.) Kowalczyk Sta
+ nisław\nNr zajęć: 1/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:229fcf06bf262e0d73de7e5b@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261018T095000
+DTEND;TZID=Europe/Warsaw:20261018T112500
+SUMMARY:Pdper (w)
+LOCATION:315b S
+DESCRIPTION:Prowadzenie działalności przedsiębiorstwa energetycznego na
+  rynku\nRodzaj: wykład\nProwadzący: dr inż. (prof. ucz.) Kowalczyk Sta
+ nisław\nNr zajęć: 2/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:97fe03b445d3fd7250dfd517@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261018T114000
+DTEND;TZID=Europe/Warsaw:20261018T131500
+SUMMARY:Pewe (w)
+LOCATION:120 45
+DESCRIPTION:Przemiany elektrotermiczne w energetyce\nRodzaj: wykład\nProw
+ adzący: dr hab. inż. Wesołowski Marcin\nNr zajęć: 5/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c64819a27f96fa6eda7a126a@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261018T133000
+DTEND;TZID=Europe/Warsaw:20261018T150500
+SUMMARY:Pewe (w)
+LOCATION:120 45
+DESCRIPTION:Przemiany elektrotermiczne w energetyce\nRodzaj: wykład\nProw
+ adzący: dr hab. inż. Wesołowski Marcin\nNr zajęć: 6/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:93c32fcd037c650fea87cee0@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261024T080000
+DTEND;TZID=Europe/Warsaw:20261024T093500
+SUMMARY:Sdwel (S)
+LOCATION:315b S
+DESCRIPTION:Seminaria dyplomowe wel\nRodzaj: seminarium\nProwadzący: prof
+ . dr hab. inż. Kulas Stanisław\nNr zajęć: 5/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4e6c8fa657bbfd0bf2137b7d@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261024T095000
+DTEND;TZID=Europe/Warsaw:20261024T112500
+SUMMARY:Sdwel (S)
+LOCATION:315b S
+DESCRIPTION:Seminaria dyplomowe wel\nRodzaj: seminarium\nProwadzący: prof
+ . dr hab. inż. Kulas Stanisław\nNr zajęć: 6/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b7164fdb80c9b9619e29e740@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261024T114000
+DTEND;TZID=Europe/Warsaw:20261024T131500
+SUMMARY:Mitp (w)
+LOCATION:7 61
+DESCRIPTION:Metodyka i techniki programowania\nRodzaj: wykład\nProwadząc
+ y: dr inż. Banasiak Kazimierz\nNr zajęć: 7/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0edeb0e7d21086921872522b@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261024T133000
+DTEND;TZID=Europe/Warsaw:20261024T150500
+SUMMARY:Mitp (w)
+LOCATION:7 61
+DESCRIPTION:Metodyka i techniki programowania\nRodzaj: wykład\nProwadząc
+ y: dr inż. Banasiak Kazimierz\nNr zajęć: 8/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a8249b070a9bc7f9506e1f12@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261025T080000
+DTEND;TZID=Europe/Warsaw:20261025T093500
+SUMMARY:Pdper (w)
+LOCATION:315b S
+DESCRIPTION:Prowadzenie działalności przedsiębiorstwa energetycznego na
+  rynku\nRodzaj: wykład\nProwadzący: dr inż. (prof. ucz.) Kowalczyk Sta
+ nisław\nNr zajęć: 3/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9b49e0442dddacdcd100f227@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261025T095000
+DTEND;TZID=Europe/Warsaw:20261025T112500
+SUMMARY:Pdper (w)
+LOCATION:315b S
+DESCRIPTION:Prowadzenie działalności przedsiębiorstwa energetycznego na
+  rynku\nRodzaj: wykład\nProwadzący: dr inż. (prof. ucz.) Kowalczyk Sta
+ nisław\nNr zajęć: 4/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:21dd8c29fb41103d28b77e55@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261025T114000
+DTEND;TZID=Europe/Warsaw:20261025T131500
+SUMMARY:Pewe (w)
+LOCATION:120 45
+DESCRIPTION:Przemiany elektrotermiczne w energetyce\nRodzaj: wykład\nProw
+ adzący: dr hab. inż. Wesołowski Marcin\nNr zajęć: 7/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0db3e2ab5997973bc0a3acb6@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261025T133000
+DTEND;TZID=Europe/Warsaw:20261025T150500
+SUMMARY:Pewe (w)
+LOCATION:120 45
+DESCRIPTION:Przemiany elektrotermiczne w energetyce\nRodzaj: wykład\nProw
+ adzący: dr hab. inż. Wesołowski Marcin\nNr zajęć: 8/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:be85d025c17fcc1977669784@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261107T080000
+DTEND;TZID=Europe/Warsaw:20261107T093500
+SUMMARY:Mitp (w)
+LOCATION:7 61
+DESCRIPTION:Metodyka i techniki programowania\nRodzaj: wykład\nProwadząc
+ y: dr inż. Banasiak Kazimierz\nNr zajęć: 9/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c955b7e4f1d22825ac6ca566@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261107T095000
+DTEND;TZID=Europe/Warsaw:20261107T112500
+SUMMARY:Mitp (w)
+LOCATION:7 61
+DESCRIPTION:Metodyka i techniki programowania\nRodzaj: wykład\nProwadząc
+ y: dr inż. Banasiak Kazimierz\nNr zajęć: 10/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:40613266f88edbb09df65455@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261107T114000
+DTEND;TZID=Europe/Warsaw:20261107T131500
+SUMMARY:Pewe (ć)
+LOCATION:119 45
+DESCRIPTION:Przemiany elektrotermiczne w energetyce\nRodzaj: ćwiczenia\nN
+ r zajęć: 1/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f88da79318fc5518d915686d@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261107T133000
+DTEND;TZID=Europe/Warsaw:20261107T150500
+SUMMARY:Pewe (ć)
+LOCATION:119 45
+DESCRIPTION:Przemiany elektrotermiczne w energetyce\nRodzaj: ćwiczenia\nN
+ r zajęć: 2/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d053ce42d0b7c6150a1b60e3@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261108T080000
+DTEND;TZID=Europe/Warsaw:20261108T093500
+SUMMARY:Mitp (L)
+LOCATION:7 61
+DESCRIPTION:Metodyka i techniki programowania\nRodzaj: laboratorium\nProwa
+ dzący: mgr inż. Kubicki Ireneusz\nNr zajęć: 1/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9e6783b9f908af80071b7586@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261108T095000
+DTEND;TZID=Europe/Warsaw:20261108T112500
+SUMMARY:Mitp (L)
+LOCATION:7 61
+DESCRIPTION:Metodyka i techniki programowania\nRodzaj: laboratorium\nProwa
+ dzący: mgr inż. Kubicki Ireneusz\nNr zajęć: 2/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5caf69cebeb4b0834b027b31@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261108T114000
+DTEND;TZID=Europe/Warsaw:20261108T131500
+SUMMARY:Pdper (w)
+LOCATION:315b S
+DESCRIPTION:Prowadzenie działalności przedsiębiorstwa energetycznego na
+  rynku\nRodzaj: wykład\nProwadzący: dr inż. (prof. ucz.) Kowalczyk Sta
+ nisław\nNr zajęć: 5/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:27392cbe42dbb4757740213b@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261108T133000
+DTEND;TZID=Europe/Warsaw:20261108T150500
+SUMMARY:Pdper (w)
+LOCATION:315b S
+DESCRIPTION:Prowadzenie działalności przedsiębiorstwa energetycznego na
+  rynku\nRodzaj: wykład\nProwadzący: dr inż. (prof. ucz.) Kowalczyk Sta
+ nisław\nNr zajęć: 6/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:56ac709419985b1d5a42b5de@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261121T080000
+DTEND;TZID=Europe/Warsaw:20261121T093500
+SUMMARY:Mitp (L)
+LOCATION:7 61
+DESCRIPTION:Metodyka i techniki programowania\nRodzaj: laboratorium\nProwa
+ dzący: mgr inż. Kubicki Ireneusz\nNr zajęć: 3/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d1abb4c3cac7584d03499043@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261121T095000
+DTEND;TZID=Europe/Warsaw:20261121T112500
+SUMMARY:Mitp (L)
+LOCATION:7 61
+DESCRIPTION:Metodyka i techniki programowania\nRodzaj: laboratorium\nProwa
+ dzący: mgr inż. Kubicki Ireneusz\nNr zajęć: 4/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d129bd4b9b8a5e58393a5833@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261121T114000
+DTEND;TZID=Europe/Warsaw:20261121T131500
+SUMMARY:Sdwel (S)
+LOCATION:315a S
+DESCRIPTION:Seminaria dyplomowe wel\nRodzaj: seminarium\nProwadzący: prof
+ . dr hab. inż. Kulas Stanisław\nNr zajęć: 7/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:81ddd5b872672de7120c356c@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261121T133000
+DTEND;TZID=Europe/Warsaw:20261121T150500
+SUMMARY:Sdwel (S)
+LOCATION:315a S
+DESCRIPTION:Seminaria dyplomowe wel\nRodzaj: seminarium\nProwadzący: prof
+ . dr hab. inż. Kulas Stanisław\nNr zajęć: 8/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b204b2de01d9c649b346757f@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261122T080000
+DTEND;TZID=Europe/Warsaw:20261122T093500
+SUMMARY:Pdper (w)
+LOCATION:315b S
+DESCRIPTION:Prowadzenie działalności przedsiębiorstwa energetycznego na
+  rynku\nRodzaj: wykład\nProwadzący: dr inż. (prof. ucz.) Kowalczyk Sta
+ nisław\nNr zajęć: 7/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:abe20ce2a46240b8c2304c67@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261122T095000
+DTEND;TZID=Europe/Warsaw:20261122T112500
+SUMMARY:Pdper (w)
+LOCATION:315b S
+DESCRIPTION:Prowadzenie działalności przedsiębiorstwa energetycznego na
+  rynku\nRodzaj: wykład\nProwadzący: dr inż. (prof. ucz.) Kowalczyk Sta
+ nisław\nNr zajęć: 8/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:cd0070c7664729c8160d0f9b@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261122T114000
+DTEND;TZID=Europe/Warsaw:20261122T131500
+SUMMARY:Pewe (ć)
+LOCATION:120 45
+DESCRIPTION:Przemiany elektrotermiczne w energetyce\nRodzaj: ćwiczenia\nN
+ r zajęć: 3/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ffbe4d0cdfc57b39cc045b9f@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261122T133000
+DTEND;TZID=Europe/Warsaw:20261122T150500
+SUMMARY:Pewe (ć)
+LOCATION:120 45
+DESCRIPTION:Przemiany elektrotermiczne w energetyce\nRodzaj: ćwiczenia\nN
+ r zajęć: 4/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f242bc31d9b1d880024c30d9@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261128T080000
+DTEND;TZID=Europe/Warsaw:20261128T093500
+SUMMARY:Mitp (L)
+LOCATION:7 61
+DESCRIPTION:Metodyka i techniki programowania\nRodzaj: laboratorium\nProwa
+ dzący: mgr inż. Kubicki Ireneusz\nNr zajęć: 5/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:fb53034d812137d4c2a551ba@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261128T095000
+DTEND;TZID=Europe/Warsaw:20261128T112500
+SUMMARY:Mitp (L)
+LOCATION:7 61
+DESCRIPTION:Metodyka i techniki programowania\nRodzaj: laboratorium\nProwa
+ dzący: mgr inż. Kubicki Ireneusz\nNr zajęć: 6/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:638084ccde6c66e0b5671618@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261128T114000
+DTEND;TZID=Europe/Warsaw:20261128T131500
+SUMMARY:Pewe (ć)
+LOCATION:119 45
+DESCRIPTION:Przemiany elektrotermiczne w energetyce\nRodzaj: ćwiczenia\nN
+ r zajęć: 5/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:72d59bb85f4a836560ff7982@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261128T133000
+DTEND;TZID=Europe/Warsaw:20261128T150500
+SUMMARY:Pewe (ć)
+LOCATION:119 45
+DESCRIPTION:Przemiany elektrotermiczne w energetyce\nRodzaj: ćwiczenia\nN
+ r zajęć: 6/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c052e2be22595662bc4bddea@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261128T152000
+DTEND;TZID=Europe/Warsaw:20261128T165500
+SUMMARY:Pdper (w)
+LOCATION:aE S
+DESCRIPTION:Prowadzenie działalności przedsiębiorstwa energetycznego na
+  rynku\nRodzaj: wykład\nProwadzący: dr inż. (prof. ucz.) Kowalczyk Sta
+ nisław\nNr zajęć: 9/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:16da97802cd75f554d1369a6@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261205T080000
+DTEND;TZID=Europe/Warsaw:20261205T093500
+SUMMARY:Mitp (L)
+LOCATION:7 61
+DESCRIPTION:Metodyka i techniki programowania\nRodzaj: laboratorium\nProwa
+ dzący: mgr inż. Kubicki Ireneusz\nNr zajęć: 7/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1a404b69fbc758e4d6142ab6@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261205T095000
+DTEND;TZID=Europe/Warsaw:20261205T112500
+SUMMARY:Mitp (L)
+LOCATION:7 61
+DESCRIPTION:Metodyka i techniki programowania\nRodzaj: laboratorium\nProwa
+ dzący: mgr inż. Kubicki Ireneusz\nNr zajęć: 8/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9d535c7a923f3c74f7123dc2@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261205T114000
+DTEND;TZID=Europe/Warsaw:20261205T131500
+SUMMARY:Sdwel (S)
+LOCATION:315b S
+DESCRIPTION:Seminaria dyplomowe wel\nRodzaj: seminarium\nProwadzący: prof
+ . dr hab. inż. Kulas Stanisław\nNr zajęć: 9/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:017042ab6b59e7e34b6558fd@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261205T133000
+DTEND;TZID=Europe/Warsaw:20261205T150500
+SUMMARY:Sdwel (S)
+LOCATION:315b S
+DESCRIPTION:Seminaria dyplomowe wel\nRodzaj: seminarium\nProwadzący: prof
+ . dr hab. inż. Kulas Stanisław\nNr zajęć: 10/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b86465e26376166bfc964a7b@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261211T175000
+DTEND;TZID=Europe/Warsaw:20261211T192500
+SUMMARY:S.zas. (wyk zal)
+DESCRIPTION:Sesja zasadnicza\nNr zajęć: 1/16\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:60faf845cea0a707c9b22cef@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261211T194000
+DTEND;TZID=Europe/Warsaw:20261211T211500
+SUMMARY:S.zas. (wyk zal)
+DESCRIPTION:Sesja zasadnicza\nNr zajęć: 2/16\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:61731c3349bf2f170b14a0c9@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261212T080000
+DTEND;TZID=Europe/Warsaw:20261212T093500
+SUMMARY:S.zas. (wyk zal)
+DESCRIPTION:Sesja zasadnicza\nNr zajęć: 3/16\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a54ae9a0baaf589719b8d666@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261212T095000
+DTEND;TZID=Europe/Warsaw:20261212T112500
+SUMMARY:S.zas. (wyk zal)
+DESCRIPTION:Sesja zasadnicza\nNr zajęć: 4/16\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d481fcc1c3f225f746b1076c@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261212T114000
+DTEND;TZID=Europe/Warsaw:20261212T131500
+SUMMARY:S.zas. (wyk zal)
+DESCRIPTION:Sesja zasadnicza\nNr zajęć: 5/16\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:17f0f26f4012f3b6a418ac2d@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261212T133000
+DTEND;TZID=Europe/Warsaw:20261212T150500
+SUMMARY:S.zas. (wyk zal)
+DESCRIPTION:Sesja zasadnicza\nNr zajęć: 6/16\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6c26d5e339ed3867ebf4e3e2@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261212T152000
+DTEND;TZID=Europe/Warsaw:20261212T165500
+SUMMARY:S.zas. (wyk zal)
+DESCRIPTION:Sesja zasadnicza\nNr zajęć: 7/16\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:72fef7df04ea83b853ab5e91@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261212T171000
+DTEND;TZID=Europe/Warsaw:20261212T184500
+SUMMARY:S.zas. (wyk zal)
+DESCRIPTION:Sesja zasadnicza\nNr zajęć: 8/16\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:1e33341e8ec080cab636b509@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261212T190000
+DTEND;TZID=Europe/Warsaw:20261212T203500
+SUMMARY:S.zas. (wyk zal)
+DESCRIPTION:Sesja zasadnicza\nNr zajęć: 9/16\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:15590f81a0a8ebcdb75aebc6@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261213T080000
+DTEND;TZID=Europe/Warsaw:20261213T093500
+SUMMARY:S.zas. (wyk zal)
+DESCRIPTION:Sesja zasadnicza\nNr zajęć: 10/16\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7b3ed95b2dbde86b63a6aed6@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261213T095000
+DTEND;TZID=Europe/Warsaw:20261213T112500
+SUMMARY:S.zas. (wyk zal)
+DESCRIPTION:Sesja zasadnicza\nNr zajęć: 11/16\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:492bee22b01cfcd73893ec9c@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261213T114000
+DTEND;TZID=Europe/Warsaw:20261213T131500
+SUMMARY:S.zas. (wyk zal)
+DESCRIPTION:Sesja zasadnicza\nNr zajęć: 12/16\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6130145733e65eda3a74ad2c@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261213T133000
+DTEND;TZID=Europe/Warsaw:20261213T150500
+SUMMARY:S.zas. (wyk zal)
+DESCRIPTION:Sesja zasadnicza\nNr zajęć: 13/16\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ca89762d1ec2f1679c30d59f@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261213T152000
+DTEND;TZID=Europe/Warsaw:20261213T165500
+SUMMARY:S.zas. (wyk zal)
+DESCRIPTION:Sesja zasadnicza\nNr zajęć: 14/16\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:21a9ac19ba51ee475568dd96@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261213T171000
+DTEND;TZID=Europe/Warsaw:20261213T184500
+SUMMARY:S.zas. (wyk zal)
+DESCRIPTION:Sesja zasadnicza\nNr zajęć: 15/16\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:bf6ca94d606e2a6dc6c021ad@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261213T190000
+DTEND;TZID=Europe/Warsaw:20261213T203500
+SUMMARY:S.zas. (wyk zal)
+DESCRIPTION:Sesja zasadnicza\nNr zajęć: 16/16\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:4138e2ee7a04fa96b437bacf@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270108T175000
+DTEND;TZID=Europe/Warsaw:20270108T192500
+SUMMARY:S.pop. (Zp.)
+DESCRIPTION:Sesja poprawkowa\nRodzaj: zaliczenie poprawkowe\nNr zajęć: 1
+ /16\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:133009336919d5ebb4f83866@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270108T194000
+DTEND;TZID=Europe/Warsaw:20270108T211500
+SUMMARY:S.pop. (Zp.)
+DESCRIPTION:Sesja poprawkowa\nRodzaj: zaliczenie poprawkowe\nNr zajęć: 2
+ /16\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:6b92dd6b4bf21ce253c329ae@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270109T080000
+DTEND;TZID=Europe/Warsaw:20270109T093500
+SUMMARY:S.pop. (Zp.)
+DESCRIPTION:Sesja poprawkowa\nRodzaj: zaliczenie poprawkowe\nNr zajęć: 3
+ /16\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4905d29542250884029f95e8@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270109T095000
+DTEND;TZID=Europe/Warsaw:20270109T112500
+SUMMARY:S.pop. (Zp.)
+DESCRIPTION:Sesja poprawkowa\nRodzaj: zaliczenie poprawkowe\nNr zajęć: 4
+ /16\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3b6b95d6c6b232d50920109f@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270109T114000
+DTEND;TZID=Europe/Warsaw:20270109T131500
+SUMMARY:S.pop. (Zp.)
+DESCRIPTION:Sesja poprawkowa\nRodzaj: zaliczenie poprawkowe\nNr zajęć: 5
+ /16\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9db5eba55914f289c3e013a1@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270109T133000
+DTEND;TZID=Europe/Warsaw:20270109T150500
+SUMMARY:S.pop. (Zp.)
+DESCRIPTION:Sesja poprawkowa\nRodzaj: zaliczenie poprawkowe\nNr zajęć: 6
+ /16\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2bec61914fa3259d09456d10@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270109T152000
+DTEND;TZID=Europe/Warsaw:20270109T165500
+SUMMARY:S.pop. (Zp.)
+DESCRIPTION:Sesja poprawkowa\nRodzaj: zaliczenie poprawkowe\nNr zajęć: 7
+ /16\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:0cf0735698a417944e45dbba@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270109T171000
+DTEND;TZID=Europe/Warsaw:20270109T184500
+SUMMARY:S.pop. (Zp.)
+DESCRIPTION:Sesja poprawkowa\nRodzaj: zaliczenie poprawkowe\nNr zajęć: 8
+ /16\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:43c95aaa556c78290b8ea6de@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270109T190000
+DTEND;TZID=Europe/Warsaw:20270109T203500
+SUMMARY:S.pop. (Zp.)
+DESCRIPTION:Sesja poprawkowa\nRodzaj: zaliczenie poprawkowe\nNr zajęć: 9
+ /16\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:0232a22ef87501127ec62ada@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270110T080000
+DTEND;TZID=Europe/Warsaw:20270110T093500
+SUMMARY:S.pop. (Zp.)
+DESCRIPTION:Sesja poprawkowa\nRodzaj: zaliczenie poprawkowe\nNr zajęć: 1
+ 0/16\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:789b7f7feee9d12c31bbf0a1@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270110T095000
+DTEND;TZID=Europe/Warsaw:20270110T112500
+SUMMARY:S.pop. (Zp.)
+DESCRIPTION:Sesja poprawkowa\nRodzaj: zaliczenie poprawkowe\nNr zajęć: 1
+ 1/16\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:805ace6d4caa84824019c533@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270110T114000
+DTEND;TZID=Europe/Warsaw:20270110T131500
+SUMMARY:S.pop. (Zp.)
+DESCRIPTION:Sesja poprawkowa\nRodzaj: zaliczenie poprawkowe\nNr zajęć: 1
+ 2/16\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:964a744c684cd1ac5d51b241@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270110T133000
+DTEND;TZID=Europe/Warsaw:20270110T150500
+SUMMARY:S.pop. (Zp.)
+DESCRIPTION:Sesja poprawkowa\nRodzaj: zaliczenie poprawkowe\nNr zajęć: 1
+ 3/16\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c0ec16b739f626f70510d470@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270110T152000
+DTEND;TZID=Europe/Warsaw:20270110T165500
+SUMMARY:S.pop. (Zp.)
+DESCRIPTION:Sesja poprawkowa\nRodzaj: zaliczenie poprawkowe\nNr zajęć: 1
+ 4/16\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:e39b3c0a7d9f0f9d80a23d0a@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270110T171000
+DTEND;TZID=Europe/Warsaw:20270110T184500
+SUMMARY:S.pop. (Zp.)
+DESCRIPTION:Sesja poprawkowa\nRodzaj: zaliczenie poprawkowe\nNr zajęć: 1
+ 5/16\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:732103d32ea9e9f7730ddd24@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270110T190000
+DTEND;TZID=Europe/Warsaw:20270110T203500
+SUMMARY:S.pop. (Zp.)
+DESCRIPTION:Sesja poprawkowa\nRodzaj: zaliczenie poprawkowe\nNr zajęć: 1
+ 6/16\nBlok: 7
+END:VEVENT
+END:VCALENDAR

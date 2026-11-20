@@ -1,0 +1,1291 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WEL25DE1N4
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:c15e3472ec53ecb9b6265885@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261003T080000
+DTEND;TZID=Europe/Warsaw:20261003T093500
+SUMMARY:Pwek (w)
+LOCATION:73b S
+DESCRIPTION:Pomiary w elektroenergetyce\nRodzaj: wykład\nProwadzący: dr 
+ hab. inż. Suproniuk Marek\nNr zajęć: 1/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7876a0ba5aca5918a4bf5677@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261003T095000
+DTEND;TZID=Europe/Warsaw:20261003T112500
+SUMMARY:Pwek (w)
+LOCATION:73b S
+DESCRIPTION:Pomiary w elektroenergetyce\nRodzaj: wykład\nProwadzący: dr 
+ hab. inż. Suproniuk Marek\nNr zajęć: 2/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:48c7c1cb93ff54562a8ad558@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261003T114000
+DTEND;TZID=Europe/Warsaw:20261003T131500
+SUMMARY:MsE (w)
+LOCATION:73b S
+DESCRIPTION:Modelowanie systemów energetycznych\nRodzaj: wykład\nProwadz
+ ący: dr hab. inż. Ziemianek Stanisław\nNr zajęć: 1/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2001c4b618ca7cba1998dc85@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261003T133000
+DTEND;TZID=Europe/Warsaw:20261003T150500
+SUMMARY:MsE (w)
+LOCATION:73b S
+DESCRIPTION:Modelowanie systemów energetycznych\nRodzaj: wykład\nProwadz
+ ący: dr hab. inż. Ziemianek Stanisław\nNr zajęć: 2/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9d21225f5c5a21b038f17c66@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261003T152000
+DTEND;TZID=Europe/Warsaw:20261003T165500
+SUMMARY:Uk* (w)
+LOCATION:315a S
+DESCRIPTION:Urządzenia klimatyzacyjne i chłodnicze\nRodzaj: wykład\nPro
+ wadzący: dr inż. Koliński Kazimierz\nNr zajęć: 1/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f2d17f846b4a37d9517fec69@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261003T171000
+DTEND;TZID=Europe/Warsaw:20261003T184500
+SUMMARY:Uk* (w)
+LOCATION:315a S
+DESCRIPTION:Urządzenia klimatyzacyjne i chłodnicze\nRodzaj: wykład\nPro
+ wadzący: dr inż. Koliński Kazimierz\nNr zajęć: 2/4\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:5106217ac21346017fa56404@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261004T080000
+DTEND;TZID=Europe/Warsaw:20261004T093500
+SUMMARY:Swen (w)
+LOCATION:315a S
+DESCRIPTION:Sensory w energetyce\nRodzaj: wykład\nProwadzący: dr inż. P
+ rokopiuk Artur\nNr zajęć: 1/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a1bf3d1e5a4936310ecc1805@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261004T095000
+DTEND;TZID=Europe/Warsaw:20261004T112500
+SUMMARY:Swen (w)
+LOCATION:315a S
+DESCRIPTION:Sensory w energetyce\nRodzaj: wykład\nProwadzący: dr inż. P
+ rokopiuk Artur\nNr zajęć: 2/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b8e991a7d50224807c269771@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261004T114000
+DTEND;TZID=Europe/Warsaw:20261004T131500
+SUMMARY:Tpus (w)
+LOCATION:73b S
+DESCRIPTION:Tory prądowe i układy stykowe\nRodzaj: wykład\nProwadzący:
+  prof. dr hab. inż. Kulas Stanisław\nNr zajęć: 1/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:409414e06ab9dabdfca84d60@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261004T133000
+DTEND;TZID=Europe/Warsaw:20261004T150500
+SUMMARY:Tpus (w)
+LOCATION:73b S
+DESCRIPTION:Tory prądowe i układy stykowe\nRodzaj: wykład\nProwadzący:
+  prof. dr hab. inż. Kulas Stanisław\nNr zajęć: 2/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:86e6ce3d7fdd94b24168592a@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261010T080000
+DTEND;TZID=Europe/Warsaw:20261010T093500
+SUMMARY:Ppwe (P)
+LOCATION:315a S
+DESCRIPTION:Projekt problemowy w elektroenergetyce\nRodzaj: projekt\nProwa
+ dzący: prof. dr hab. inż. Kulas Stanisław\nNr zajęć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4788b1bb37a7bfa0d49f7dea@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261010T095000
+DTEND;TZID=Europe/Warsaw:20261010T112500
+SUMMARY:Ppwe (P)
+LOCATION:315a S
+DESCRIPTION:Projekt problemowy w elektroenergetyce\nRodzaj: projekt\nProwa
+ dzący: prof. dr hab. inż. Kulas Stanisław\nNr zajęć: 2/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1319f2bda0f6be746b423cfe@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261010T114000
+DTEND;TZID=Europe/Warsaw:20261010T131500
+SUMMARY:Tpus (w)
+LOCATION:315a S
+DESCRIPTION:Tory prądowe i układy stykowe\nRodzaj: wykład\nProwadzący:
+  prof. dr hab. inż. Kulas Stanisław\nNr zajęć: 3/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5875c999b0355e819a4a79ca@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261010T133000
+DTEND;TZID=Europe/Warsaw:20261010T150500
+SUMMARY:Tpus (w)
+LOCATION:315a S
+DESCRIPTION:Tory prądowe i układy stykowe\nRodzaj: wykład\nProwadzący:
+  prof. dr hab. inż. Kulas Stanisław\nNr zajęć: 4/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:da23cbafecfe0a10ca77ab03@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261011T080000
+DTEND;TZID=Europe/Warsaw:20261011T093500
+SUMMARY:Pej (w)
+LOCATION:118 45
+DESCRIPTION:Podstawy energetyki jądrowej\nRodzaj: wykład\nProwadzący: d
+ r hab. inż. Puton Jarosław\nNr zajęć: 1/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2fdaff0c20a59532f90544af@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261011T095000
+DTEND;TZID=Europe/Warsaw:20261011T112500
+SUMMARY:Pej (w)
+LOCATION:118 45
+DESCRIPTION:Podstawy energetyki jądrowej\nRodzaj: wykład\nProwadzący: d
+ r hab. inż. Puton Jarosław\nNr zajęć: 2/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d8c9567c89aab9829910b663@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261011T114000
+DTEND;TZID=Europe/Warsaw:20261011T131500
+SUMMARY:Zmpp (w)
+LOCATION:S2 72
+DESCRIPTION:Zaawansowane metody i techniki pozyskiwania paliw i energii\nR
+ odzaj: wykład\nProwadzący: prof.dr hab.inż. Terpiłowski Janusz\nNr za
+ jęć: 1/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:00f391d7103e9be29e5025ed@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261011T133000
+DTEND;TZID=Europe/Warsaw:20261011T150500
+SUMMARY:Zmpp (w)
+LOCATION:S2 72
+DESCRIPTION:Zaawansowane metody i techniki pozyskiwania paliw i energii\nR
+ odzaj: wykład\nProwadzący: prof.dr hab.inż. Terpiłowski Janusz\nNr za
+ jęć: 2/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:87b6f4c0406aef5f5fa789dd@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261017T114000
+DTEND;TZID=Europe/Warsaw:20261017T131500
+SUMMARY:Spds (w)
+LOCATION:062 S
+DESCRIPTION:Selected problems of dynamic systems theory\nRodzaj: wykład\n
+ Prowadzący: prof.dr hab. Osowski Stanisław\nNr zajęć: 1/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ea544ab9a7756a386d77d9b1@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261017T133000
+DTEND;TZID=Europe/Warsaw:20261017T150500
+SUMMARY:Spds (w)
+LOCATION:062 S
+DESCRIPTION:Selected problems of dynamic systems theory\nRodzaj: wykład\n
+ Prowadzący: prof.dr hab. Osowski Stanisław\nNr zajęć: 2/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4e0cf142ea8b1663751a4511@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261017T152000
+DTEND;TZID=Europe/Warsaw:20261017T165500
+SUMMARY:Kpn (w)
+LOCATION:116 45
+DESCRIPTION:Komunikacja i podstawy negogacji\nRodzaj: wykład\nProwadzący
+ : dr Skulska Joanna\nNr zajęć: 1/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:ee40727883068240985bd6b1@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261017T171000
+DTEND;TZID=Europe/Warsaw:20261017T184500
+SUMMARY:Kpn (w)
+LOCATION:116 45
+DESCRIPTION:Komunikacja i podstawy negogacji\nRodzaj: wykład\nProwadzący
+ : dr Skulska Joanna\nNr zajęć: 2/4\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:5d96135680fde4c20654b256@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261018T080000
+DTEND;TZID=Europe/Warsaw:20261018T093500
+SUMMARY:Uk* (w)
+LOCATION:118 45
+DESCRIPTION:Urządzenia klimatyzacyjne i chłodnicze\nRodzaj: wykład\nPro
+ wadzący: dr inż. Koliński Kazimierz\nNr zajęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b803d2d5dc0737e9bb39a4c7@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261018T095000
+DTEND;TZID=Europe/Warsaw:20261018T112500
+SUMMARY:Uk* (w)
+LOCATION:118 45
+DESCRIPTION:Urządzenia klimatyzacyjne i chłodnicze\nRodzaj: wykład\nPro
+ wadzący: dr inż. Koliński Kazimierz\nNr zajęć: 4/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3860ba3a25884e4ab52f528e@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261018T114000
+DTEND;TZID=Europe/Warsaw:20261018T131500
+SUMMARY:Wzam (w)
+LOCATION:118 45
+DESCRIPTION:Wybrane zagadnienia z analizy matematycznej\nRodzaj: wykład\n
+ Prowadzący: dr Multarzyński Piotr\nNr zajęć: 1/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:64950bd9f728f5ae4db97cc9@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261018T133000
+DTEND;TZID=Europe/Warsaw:20261018T150500
+SUMMARY:Wzam (w)
+LOCATION:118 45
+DESCRIPTION:Wybrane zagadnienia z analizy matematycznej\nRodzaj: wykład\n
+ Prowadzący: dr Multarzyński Piotr\nNr zajęć: 2/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5f32e1d0aed228626010f04e@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261024T080000
+DTEND;TZID=Europe/Warsaw:20261024T093500
+SUMMARY:Pej (w)
+LOCATION:118 45
+DESCRIPTION:Podstawy energetyki jądrowej\nRodzaj: wykład\nProwadzący: d
+ r hab. inż. Puton Jarosław\nNr zajęć: 3/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:fe817999183343e5f6d2834c@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261024T095000
+DTEND;TZID=Europe/Warsaw:20261024T112500
+SUMMARY:Pej (w)
+LOCATION:118 45
+DESCRIPTION:Podstawy energetyki jądrowej\nRodzaj: wykład\nProwadzący: d
+ r hab. inż. Puton Jarosław\nNr zajęć: 4/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2adfb25ed7bdea9e25ad2d08@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261024T114000
+DTEND;TZID=Europe/Warsaw:20261024T131500
+SUMMARY:MsE (w)
+LOCATION:118 45
+DESCRIPTION:Modelowanie systemów energetycznych\nRodzaj: wykład\nProwadz
+ ący: dr hab. inż. Ziemianek Stanisław\nNr zajęć: 3/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ea5fbb8750af5d0ce799effe@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261024T133000
+DTEND;TZID=Europe/Warsaw:20261024T150500
+SUMMARY:MsE (w)
+LOCATION:118 45
+DESCRIPTION:Modelowanie systemów energetycznych\nRodzaj: wykład\nProwadz
+ ący: dr hab. inż. Ziemianek Stanisław\nNr zajęć: 4/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5015079897dc4d4aef3d371b@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261024T152000
+DTEND;TZID=Europe/Warsaw:20261024T165500
+SUMMARY:Pwek (L)
+LOCATION:062 S\; 049 S
+DESCRIPTION:Pomiary w elektroenergetyce\nRodzaj: laboratorium\nNr zajęć:
+  1/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:ce54cc8038247ac9a0745495@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261024T171000
+DTEND;TZID=Europe/Warsaw:20261024T184500
+SUMMARY:Pwek (L)
+LOCATION:062 S\; 049 S
+DESCRIPTION:Pomiary w elektroenergetyce\nRodzaj: laboratorium\nNr zajęć:
+  2/6\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:6475ad4764de92a2790191d0@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261025T080000
+DTEND;TZID=Europe/Warsaw:20261025T093500
+SUMMARY:Wzam (w)
+LOCATION:73b S
+DESCRIPTION:Wybrane zagadnienia z analizy matematycznej\nRodzaj: wykład\n
+ Prowadzący: dr Multarzyński Piotr\nNr zajęć: 3/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3357d22e17fde3ebc480bde6@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261025T095000
+DTEND;TZID=Europe/Warsaw:20261025T112500
+SUMMARY:Wzam (w)
+LOCATION:73b S
+DESCRIPTION:Wybrane zagadnienia z analizy matematycznej\nRodzaj: wykład\n
+ Prowadzący: dr Multarzyński Piotr\nNr zajęć: 4/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b512154768c58b61698f6cb5@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261025T114000
+DTEND;TZID=Europe/Warsaw:20261025T131500
+SUMMARY:Spds (w)
+LOCATION:062 S
+DESCRIPTION:Selected problems of dynamic systems theory\nRodzaj: wykład\n
+ Prowadzący: prof.dr hab. Osowski Stanisław\nNr zajęć: 3/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0465a2b8b7d3f57eba181794@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261025T133000
+DTEND;TZID=Europe/Warsaw:20261025T150500
+SUMMARY:Spds (w)
+LOCATION:062 S
+DESCRIPTION:Selected problems of dynamic systems theory\nRodzaj: wykład\n
+ Prowadzący: prof.dr hab. Osowski Stanisław\nNr zajęć: 4/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0319b40c49e69ce6572489a6@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261107T080000
+DTEND;TZID=Europe/Warsaw:20261107T093500
+SUMMARY:Pwek (L)
+LOCATION:062 S\; 049 S
+DESCRIPTION:Pomiary w elektroenergetyce\nRodzaj: laboratorium\nNr zajęć:
+  3/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c893cb104c3b1e7b4cc1cf64@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261107T095000
+DTEND;TZID=Europe/Warsaw:20261107T112500
+SUMMARY:Pwek (L)
+LOCATION:062 S\; 049 S
+DESCRIPTION:Pomiary w elektroenergetyce\nRodzaj: laboratorium\nNr zajęć:
+  4/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e32f9c77e534b257b4d7eaa7@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261107T114000
+DTEND;TZID=Europe/Warsaw:20261107T131500
+SUMMARY:MsE (w)
+LOCATION:315a S
+DESCRIPTION:Modelowanie systemów energetycznych\nRodzaj: wykład\nProwadz
+ ący: dr hab. inż. Ziemianek Stanisław\nNr zajęć: 5/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a627f7fe59467e7ef07e7e80@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261107T133000
+DTEND;TZID=Europe/Warsaw:20261107T150500
+SUMMARY:MsE (w)
+LOCATION:315a S
+DESCRIPTION:Modelowanie systemów energetycznych\nRodzaj: wykład\nProwadz
+ ący: dr hab. inż. Ziemianek Stanisław\nNr zajęć: 6/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b052bef54b500316d275a523@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261107T152000
+DTEND;TZID=Europe/Warsaw:20261107T165500
+SUMMARY:Pwek (w)
+LOCATION:73b S
+DESCRIPTION:Pomiary w elektroenergetyce\nRodzaj: wykład\nProwadzący: dr 
+ hab. inż. Suproniuk Marek\nNr zajęć: 3/3\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:933734efe5d2c97afe64ecdb@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261108T080000
+DTEND;TZID=Europe/Warsaw:20261108T093500
+SUMMARY:Spds (w)
+LOCATION:82 S
+DESCRIPTION:Selected problems of dynamic systems theory\nRodzaj: wykład\n
+ Prowadzący: prof.dr hab. Osowski Stanisław\nNr zajęć: 5/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:36d597f6922c655dd16da2c4@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261108T095000
+DTEND;TZID=Europe/Warsaw:20261108T112500
+SUMMARY:Swen (w)
+LOCATION:117 45
+DESCRIPTION:Sensory w energetyce\nRodzaj: wykład\nProwadzący: dr inż. P
+ rokopiuk Artur\nNr zajęć: 3/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:98b42750926f0895b7892860@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261108T114000
+DTEND;TZID=Europe/Warsaw:20261108T131500
+SUMMARY:Pej (w)
+LOCATION:117 45
+DESCRIPTION:Podstawy energetyki jądrowej\nRodzaj: wykład\nProwadzący: d
+ r hab. inż. Puton Jarosław\nNr zajęć: 5/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:356907b054f5bf5082a4b461@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261108T133000
+DTEND;TZID=Europe/Warsaw:20261108T150500
+SUMMARY:Pej (w)
+LOCATION:117 45
+DESCRIPTION:Podstawy energetyki jądrowej\nRodzaj: wykład\nProwadzący: d
+ r hab. inż. Puton Jarosław\nNr zajęć: 6/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:93209b54a01f0f4d3939be7e@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261120T175000
+DTEND;TZID=Europe/Warsaw:20261120T192500
+SUMMARY:Swen (w)
+LOCATION:315a S
+DESCRIPTION:Sensory w energetyce\nRodzaj: wykład\nProwadzący: dr inż. P
+ rokopiuk Artur\nNr zajęć: 4/6\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:ab696b19ad8c51ed2b537f77@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261120T194000
+DTEND;TZID=Europe/Warsaw:20261120T211500
+SUMMARY:Swen (w)
+LOCATION:315a S
+DESCRIPTION:Sensory w energetyce\nRodzaj: wykład\nProwadzący: dr inż. P
+ rokopiuk Artur\nNr zajęć: 5/6\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:28ae8e6280da9bda4a1e01a2@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261121T080000
+DTEND;TZID=Europe/Warsaw:20261121T093500
+SUMMARY:Tpus (w)
+LOCATION:73b S
+DESCRIPTION:Tory prądowe i układy stykowe\nRodzaj: wykład\nProwadzący:
+  prof. dr hab. inż. Kulas Stanisław\nNr zajęć: 5/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:28b9a9e04946129efec8fd6a@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261121T095000
+DTEND;TZID=Europe/Warsaw:20261121T112500
+SUMMARY:Tpus (w)
+LOCATION:73b S
+DESCRIPTION:Tory prądowe i układy stykowe\nRodzaj: wykład\nProwadzący:
+  prof. dr hab. inż. Kulas Stanisław\nNr zajęć: 6/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a81bf8d9c6b41a874a0f741d@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261121T114000
+DTEND;TZID=Europe/Warsaw:20261121T131500
+SUMMARY:Pej (w)
+LOCATION:116 45
+DESCRIPTION:Podstawy energetyki jądrowej\nRodzaj: wykład\nProwadzący: d
+ r hab. inż. Puton Jarosław\nNr zajęć: 7/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e85c4ef4d4e9bad1397a25a0@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261121T133000
+DTEND;TZID=Europe/Warsaw:20261121T150500
+SUMMARY:Pej (w)
+LOCATION:116 45
+DESCRIPTION:Podstawy energetyki jądrowej\nRodzaj: wykład\nProwadzący: d
+ r hab. inż. Puton Jarosław\nNr zajęć: 8/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2e2f39d62b8d25a440618107@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261121T152000
+DTEND;TZID=Europe/Warsaw:20261121T165500
+SUMMARY:Swen (w)
+LOCATION:116 45
+DESCRIPTION:Sensory w energetyce\nRodzaj: wykład\nProwadzący: dr inż. P
+ rokopiuk Artur\nNr zajęć: 6/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:5d1a301dad6fb81bdd04943f@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261121T171000
+DTEND;TZID=Europe/Warsaw:20261121T184500
+SUMMARY:Swen (ć)
+LOCATION:116 45
+DESCRIPTION:Sensory w energetyce\nRodzaj: ćwiczenia\nNr zajęć: 1/3\nBlo
+ k: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:1fd1692e5f0c6136c47ab08b@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261122T080000
+DTEND;TZID=Europe/Warsaw:20261122T093500
+SUMMARY:Zmpp (w)
+LOCATION:S2 72
+DESCRIPTION:Zaawansowane metody i techniki pozyskiwania paliw i energii\nR
+ odzaj: wykład\nProwadzący: prof.dr hab.inż. Terpiłowski Janusz\nNr za
+ jęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:da905b29c5b070009954d6cf@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261122T095000
+DTEND;TZID=Europe/Warsaw:20261122T112500
+SUMMARY:Zmpp (w)
+LOCATION:S2 72
+DESCRIPTION:Zaawansowane metody i techniki pozyskiwania paliw i energii\nR
+ odzaj: wykład\nProwadzący: prof.dr hab.inż. Terpiłowski Janusz\nNr za
+ jęć: 4/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:00472341880ef2b42dddee52@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261122T114000
+DTEND;TZID=Europe/Warsaw:20261122T131500
+SUMMARY:Kpn (w)
+LOCATION:315b S
+DESCRIPTION:Komunikacja i podstawy negogacji\nRodzaj: wykład\nProwadzący
+ : dr Skulska Joanna\nNr zajęć: 3/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:51d6080da634ada8d2f4c606@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261122T133000
+DTEND;TZID=Europe/Warsaw:20261122T150500
+SUMMARY:Kpn (w)
+LOCATION:315b S
+DESCRIPTION:Komunikacja i podstawy negogacji\nRodzaj: wykład\nProwadzący
+ : dr Skulska Joanna\nNr zajęć: 4/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:35860b76566ae182f96f2aa6@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261122T152000
+DTEND;TZID=Europe/Warsaw:20261122T165500
+SUMMARY:Kpn (ć)
+LOCATION:315b S
+DESCRIPTION:Komunikacja i podstawy negogacji\nRodzaj: ćwiczenia\nNr zaję
+ ć: 1/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:82236bfbb1ca9746a3341922@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261128T080000
+DTEND;TZID=Europe/Warsaw:20261128T093500
+SUMMARY:Tpus (w)
+LOCATION:315a S
+DESCRIPTION:Tory prądowe i układy stykowe\nRodzaj: wykład\nProwadzący:
+  prof. dr hab. inż. Kulas Stanisław\nNr zajęć: 7/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7816b10a86b05ef038b7b735@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261128T095000
+DTEND;TZID=Europe/Warsaw:20261128T112500
+SUMMARY:Tpus (w)
+LOCATION:315a S
+DESCRIPTION:Tory prądowe i układy stykowe\nRodzaj: wykład\nProwadzący:
+  prof. dr hab. inż. Kulas Stanisław\nNr zajęć: 8/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6953f010da0f03e638dab1e5@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261128T114000
+DTEND;TZID=Europe/Warsaw:20261128T131500
+SUMMARY:Mzte (w)
+LOCATION:73b S
+DESCRIPTION:Modelowanie zagadnień elektrotechniki\nRodzaj: wykład\nProwa
+ dzący: prof. dr hab. inż. Starzyński Jacek\nNr zajęć: 1/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:38d631f69acd5bfa15e2da63@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261128T133000
+DTEND;TZID=Europe/Warsaw:20261128T150500
+SUMMARY:Mzte (w)
+LOCATION:73b S
+DESCRIPTION:Modelowanie zagadnień elektrotechniki\nRodzaj: wykład\nProwa
+ dzący: prof. dr hab. inż. Starzyński Jacek\nNr zajęć: 2/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7af8e0eb0b1ec1de16a61026@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261128T152000
+DTEND;TZID=Europe/Warsaw:20261128T165500
+SUMMARY:MsE (ć)
+LOCATION:315a S
+DESCRIPTION:Modelowanie systemów energetycznych\nRodzaj: ćwiczenia\nNr z
+ ajęć: 1/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:5e0349835188c9175d85e78f@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261128T171000
+DTEND;TZID=Europe/Warsaw:20261128T184500
+SUMMARY:MsE (ć)
+LOCATION:315a S
+DESCRIPTION:Modelowanie systemów energetycznych\nRodzaj: ćwiczenia\nNr z
+ ajęć: 2/7\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:235fb129317d63113185dfdb@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261129T080000
+DTEND;TZID=Europe/Warsaw:20261129T093500
+SUMMARY:Pej (ć)
+LOCATION:315a S
+DESCRIPTION:Podstawy energetyki jądrowej\nRodzaj: ćwiczenia\nNr zajęć:
+  1/2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9fbf859cb1f80f285f0ce4f1@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261129T095000
+DTEND;TZID=Europe/Warsaw:20261129T112500
+SUMMARY:Pej (ć)
+LOCATION:315a S
+DESCRIPTION:Podstawy energetyki jądrowej\nRodzaj: ćwiczenia\nNr zajęć:
+  2/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0e02203bce947e5e6f97bfd2@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261129T114000
+DTEND;TZID=Europe/Warsaw:20261129T131500
+SUMMARY:Wzam (ć)
+LOCATION:315a S
+DESCRIPTION:Wybrane zagadnienia z analizy matematycznej\nRodzaj: ćwiczeni
+ a\nNr zajęć: 1/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:359af8dc583d726fe3212943@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261129T133000
+DTEND;TZID=Europe/Warsaw:20261129T150500
+SUMMARY:Wzam (ć)
+LOCATION:315a S
+DESCRIPTION:Wybrane zagadnienia z analizy matematycznej\nRodzaj: ćwiczeni
+ a\nNr zajęć: 2/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:11599b7f2c1fdda9a733f1e4@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261205T080000
+DTEND;TZID=Europe/Warsaw:20261205T093500
+SUMMARY:Mzte (w)
+LOCATION:73b S
+DESCRIPTION:Modelowanie zagadnień elektrotechniki\nRodzaj: wykład\nProwa
+ dzący: prof. dr hab. inż. Starzyński Jacek\nNr zajęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2f7fe29105b3c4a9bb8ba9bd@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261205T095000
+DTEND;TZID=Europe/Warsaw:20261205T112500
+SUMMARY:Mzte (w)
+LOCATION:73b S
+DESCRIPTION:Modelowanie zagadnień elektrotechniki\nRodzaj: wykład\nProwa
+ dzący: prof. dr hab. inż. Starzyński Jacek\nNr zajęć: 4/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:fcc5a08bfe58697407500d35@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261205T114000
+DTEND;TZID=Europe/Warsaw:20261205T131500
+SUMMARY:Wzam (w)
+LOCATION:73b S
+DESCRIPTION:Wybrane zagadnienia z analizy matematycznej\nRodzaj: wykład\n
+ Prowadzący: dr Multarzyński Piotr\nNr zajęć: 5/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ee93c7cbd872eb8ff55c061e@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261205T133000
+DTEND;TZID=Europe/Warsaw:20261205T150500
+SUMMARY:Wzam (w)
+LOCATION:73b S
+DESCRIPTION:Wybrane zagadnienia z analizy matematycznej\nRodzaj: wykład\n
+ Prowadzący: dr Multarzyński Piotr\nNr zajęć: 6/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3c8dcc800ab11cfad48e9a32@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261205T152000
+DTEND;TZID=Europe/Warsaw:20261205T165500
+SUMMARY:Wzam (ć)
+LOCATION:73b S
+DESCRIPTION:Wybrane zagadnienia z analizy matematycznej\nRodzaj: ćwiczeni
+ a\nNr zajęć: 3/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:a968a85fe07cddfb87a30672@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261205T171000
+DTEND;TZID=Europe/Warsaw:20261205T184500
+SUMMARY:Swen (ć)
+LOCATION:73b S
+DESCRIPTION:Sensory w energetyce\nRodzaj: ćwiczenia\nNr zajęć: 2/3\nBlo
+ k: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:1c27fb2db1a8a3873fd2f048@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261206T080000
+DTEND;TZID=Europe/Warsaw:20261206T093500
+SUMMARY:Pej (S)
+LOCATION:315b S
+DESCRIPTION:Podstawy energetyki jądrowej\nRodzaj: seminarium\nNr zajęć:
+  1/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6024dd2f9818b6a03cd2f405@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261206T095000
+DTEND;TZID=Europe/Warsaw:20261206T112500
+SUMMARY:Pej (S)
+LOCATION:315b S
+DESCRIPTION:Podstawy energetyki jądrowej\nRodzaj: seminarium\nNr zajęć:
+  2/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e0e9631b89ca83f55f5c5a9a@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261206T114000
+DTEND;TZID=Europe/Warsaw:20261206T131500
+SUMMARY:Kpn (ć)
+LOCATION:315a S
+DESCRIPTION:Komunikacja i podstawy negogacji\nRodzaj: ćwiczenia\nNr zaję
+ ć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:059bd83c3904fd44e00f65c7@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261206T133000
+DTEND;TZID=Europe/Warsaw:20261206T150500
+SUMMARY:Kpn (ć)
+LOCATION:315a S
+DESCRIPTION:Komunikacja i podstawy negogacji\nRodzaj: ćwiczenia\nNr zaję
+ ć: 3/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:45929ee50070d5169e568bcc@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261212T080000
+DTEND;TZID=Europe/Warsaw:20261212T093500
+SUMMARY:Uk* (ć)
+LOCATION:73b S
+DESCRIPTION:Urządzenia klimatyzacyjne i chłodnicze\nRodzaj: ćwiczenia\n
+ Nr zajęć: 1/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:dacd8c9bce3d027b3bad3a24@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261212T095000
+DTEND;TZID=Europe/Warsaw:20261212T112500
+SUMMARY:Uk* (ć)
+LOCATION:73b S
+DESCRIPTION:Urządzenia klimatyzacyjne i chłodnicze\nRodzaj: ćwiczenia\n
+ Nr zajęć: 2/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:59addebdc9849147b89482ae@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261212T114000
+DTEND;TZID=Europe/Warsaw:20261212T131500
+SUMMARY:Ppwe (S)
+LOCATION:73b S
+DESCRIPTION:Projekt problemowy w elektroenergetyce\nRodzaj: seminarium\nNr
+  zajęć: 1/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8ff63e29fa45f24126675936@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261212T133000
+DTEND;TZID=Europe/Warsaw:20261212T150500
+SUMMARY:Ppwe (S)
+LOCATION:73b S
+DESCRIPTION:Projekt problemowy w elektroenergetyce\nRodzaj: seminarium\nNr
+  zajęć: 2/2\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d89725850ea5801afd829fdc@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261212T152000
+DTEND;TZID=Europe/Warsaw:20261212T165500
+SUMMARY:MsE (ć)
+LOCATION:059 S
+DESCRIPTION:Modelowanie systemów energetycznych\nRodzaj: ćwiczenia\nNr z
+ ajęć: 3/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:5af46f5f4a89a162ef6c9790@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261212T171000
+DTEND;TZID=Europe/Warsaw:20261212T184500
+SUMMARY:MsE (ć)
+LOCATION:059 S
+DESCRIPTION:Modelowanie systemów energetycznych\nRodzaj: ćwiczenia\nNr z
+ ajęć: 4/7\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:2056064416b9e5d0af4c47a7@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261213T080000
+DTEND;TZID=Europe/Warsaw:20261213T093500
+SUMMARY:Zmpp (S)
+LOCATION:S2 72
+DESCRIPTION:Zaawansowane metody i techniki pozyskiwania paliw i energii\nR
+ odzaj: seminarium\nNr zajęć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d7a236d59cb30fa6f3d82999@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261213T095000
+DTEND;TZID=Europe/Warsaw:20261213T112500
+SUMMARY:Zmpp (S)
+LOCATION:S2 72
+DESCRIPTION:Zaawansowane metody i techniki pozyskiwania paliw i energii\nR
+ odzaj: seminarium\nNr zajęć: 2/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e28c904dac1c6fd731937b00@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261213T114000
+DTEND;TZID=Europe/Warsaw:20261213T131500
+SUMMARY:Wzam (ć)
+LOCATION:315a S
+DESCRIPTION:Wybrane zagadnienia z analizy matematycznej\nRodzaj: ćwiczeni
+ a\nNr zajęć: 4/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:50acc62658e7ea803f0ee081@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20261213T133000
+DTEND;TZID=Europe/Warsaw:20261213T150500
+SUMMARY:Wzam (ć)
+LOCATION:315a S
+DESCRIPTION:Wybrane zagadnienia z analizy matematycznej\nRodzaj: ćwiczeni
+ a\nNr zajęć: 5/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ab2779470733fc5ff5859c62@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20270109T080000
+DTEND;TZID=Europe/Warsaw:20270109T093500
+SUMMARY:Pwek (L)
+LOCATION:062 S\; 049 S
+DESCRIPTION:Pomiary w elektroenergetyce\nRodzaj: laboratorium\nNr zajęć:
+  5/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5293859ddf419dd7e1150eaa@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20270109T095000
+DTEND;TZID=Europe/Warsaw:20270109T112500
+SUMMARY:Pwek (L)
+LOCATION:062 S\; 049 S
+DESCRIPTION:Pomiary w elektroenergetyce\nRodzaj: laboratorium\nNr zajęć:
+  6/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:972307775680f58a9706b087@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20270109T114000
+DTEND;TZID=Europe/Warsaw:20270109T131500
+SUMMARY:Tpus (P)
+LOCATION:315a S
+DESCRIPTION:Tory prądowe i układy stykowe\nRodzaj: projekt\nNr zajęć: 
+ 1/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ca0df6bc152ff172dad03e78@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20270109T133000
+DTEND;TZID=Europe/Warsaw:20270109T150500
+SUMMARY:Tpus (P)
+LOCATION:315a S
+DESCRIPTION:Tory prądowe i układy stykowe\nRodzaj: projekt\nNr zajęć: 
+ 2/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b6bb85618fc92a94689c44d5@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20270109T152000
+DTEND;TZID=Europe/Warsaw:20270109T165500
+SUMMARY:Spds (ć)
+LOCATION:82 S
+DESCRIPTION:Selected problems of dynamic systems theory\nRodzaj: ćwiczeni
+ a\nNr zajęć: 1/1\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:1af2787aadda43bec9ad3911@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20270109T171000
+DTEND;TZID=Europe/Warsaw:20270109T184500
+SUMMARY:Pej (S)
+LOCATION:315a S
+DESCRIPTION:Podstawy energetyki jądrowej\nRodzaj: seminarium\nNr zajęć:
+  3/3\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:9b2b20be27002c73f2bde2a1@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20270110T080000
+DTEND;TZID=Europe/Warsaw:20270110T093500
+SUMMARY:Mzte (ć)
+LOCATION:30a 54E
+DESCRIPTION:Modelowanie zagadnień elektrotechniki\nRodzaj: ćwiczenia\nNr
+  zajęć: 1/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a9772e0ef46f5b7fb587b1cb@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20270110T095000
+DTEND;TZID=Europe/Warsaw:20270110T112500
+SUMMARY:Mzte (ć)
+LOCATION:30a 54E
+DESCRIPTION:Modelowanie zagadnień elektrotechniki\nRodzaj: ćwiczenia\nNr
+  zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f46e84a98751551ff400279e@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20270110T114000
+DTEND;TZID=Europe/Warsaw:20270110T131500
+SUMMARY:MsE (ć)
+LOCATION:059 S
+DESCRIPTION:Modelowanie systemów energetycznych\nRodzaj: ćwiczenia\nNr z
+ ajęć: 5/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f51f6e35a7ca6c2471896c82@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20270110T133000
+DTEND;TZID=Europe/Warsaw:20270110T150500
+SUMMARY:MsE (ć)
+LOCATION:059 S
+DESCRIPTION:Modelowanie systemów energetycznych\nRodzaj: ćwiczenia\nNr z
+ ajęć: 6/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1e18eaa75a2ff2d51877d6ac@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20270116T080000
+DTEND;TZID=Europe/Warsaw:20270116T093500
+SUMMARY:Mzte (ć)
+LOCATION:30a 54E
+DESCRIPTION:Modelowanie zagadnień elektrotechniki\nRodzaj: ćwiczenia\nNr
+  zajęć: 3/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:71597f1ca3640a673b88f25e@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20270116T095000
+DTEND;TZID=Europe/Warsaw:20270116T112500
+SUMMARY:Mzte (ć)
+LOCATION:30a 54E
+DESCRIPTION:Modelowanie zagadnień elektrotechniki\nRodzaj: ćwiczenia\nNr
+  zajęć: 4/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3054eb9de45520bef3fa72f3@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20270116T114000
+DTEND;TZID=Europe/Warsaw:20270116T131500
+SUMMARY:Tpus (P)
+LOCATION:73b S
+DESCRIPTION:Tory prądowe i układy stykowe\nRodzaj: projekt\nNr zajęć: 
+ 3/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a08c8906d0bd6e1379bbe168@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20270116T133000
+DTEND;TZID=Europe/Warsaw:20270116T150500
+SUMMARY:Tpus (P)
+LOCATION:73b S
+DESCRIPTION:Tory prądowe i układy stykowe\nRodzaj: projekt\nNr zajęć: 
+ 4/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e7afbbe39c161993a7be9441@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20270116T152000
+DTEND;TZID=Europe/Warsaw:20270116T165500
+SUMMARY:MsE (ć)
+LOCATION:059 S
+DESCRIPTION:Modelowanie systemów energetycznych\nRodzaj: ćwiczenia\nNr z
+ ajęć: 7/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:2093d8516324a658ba1f95e2@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20270117T080000
+DTEND;TZID=Europe/Warsaw:20270117T093500
+SUMMARY:Uk* (L)
+LOCATION:9/ 68\; 4/ 68
+DESCRIPTION:Urządzenia klimatyzacyjne i chłodnicze\nRodzaj: laboratorium
+ \nNr zajęć: 1/2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:da3d37f3919b4dae67b82853@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20270117T095000
+DTEND;TZID=Europe/Warsaw:20270117T112500
+SUMMARY:Uk* (L)
+LOCATION:9/ 68\; 4/ 68
+DESCRIPTION:Urządzenia klimatyzacyjne i chłodnicze\nRodzaj: laboratorium
+ \nNr zajęć: 2/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:51165a27ef42bdc3a1c80a7f@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20270117T114000
+DTEND;TZID=Europe/Warsaw:20270117T131500
+SUMMARY:Swen (L)
+LOCATION:9 70\; 12 70
+DESCRIPTION:Sensory w energetyce\nRodzaj: laboratorium\nProwadzący: mgr i
+ nż. Mazur Krzysztof\nNr zajęć: 1/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0d279fc61382a48844c11749@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20270117T133000
+DTEND;TZID=Europe/Warsaw:20270117T150500
+SUMMARY:Swen (L)
+LOCATION:9 70\; 12 70
+DESCRIPTION:Sensory w energetyce\nRodzaj: laboratorium\nProwadzący: mgr i
+ nż. Mazur Krzysztof\nNr zajęć: 2/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:dbafba8bb7a909b64b628dc6@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20270123T080000
+DTEND;TZID=Europe/Warsaw:20270123T093500
+SUMMARY:Spds (L)
+LOCATION:86 S
+DESCRIPTION:Selected problems of dynamic systems theory\nRodzaj: laborator
+ ium\nNr zajęć: 1/2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2e853945e88ba0d80b9f1819@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20270123T095000
+DTEND;TZID=Europe/Warsaw:20270123T112500
+SUMMARY:Spds (L)
+LOCATION:86 S
+DESCRIPTION:Selected problems of dynamic systems theory\nRodzaj: laborator
+ ium\nNr zajęć: 2/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c4d3120a04b72479f2ec9cd6@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20270123T114000
+DTEND;TZID=Europe/Warsaw:20270123T131500
+SUMMARY:Ppwe (P)
+LOCATION:73b S
+DESCRIPTION:Projekt problemowy w elektroenergetyce\nRodzaj: projekt\nProwa
+ dzący: prof. dr hab. inż. Kulas Stanisław\nNr zajęć: 3/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:619e14bda5edfdb2b8cf9fdf@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20270123T133000
+DTEND;TZID=Europe/Warsaw:20270123T150500
+SUMMARY:Ppwe (P)
+LOCATION:73b S
+DESCRIPTION:Projekt problemowy w elektroenergetyce\nRodzaj: projekt\nProwa
+ dzący: prof. dr hab. inż. Kulas Stanisław\nNr zajęć: 4/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:cb60141e11155127d819dcc3@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20270123T152000
+DTEND;TZID=Europe/Warsaw:20270123T165500
+SUMMARY:Swen (ć)
+LOCATION:73b S
+DESCRIPTION:Sensory w energetyce\nRodzaj: ćwiczenia\nNr zajęć: 3/3\nBlo
+ k: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:4f65ad3e40599f7a6f6bed77@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20270124T080000
+DTEND;TZID=Europe/Warsaw:20270124T093500
+SUMMARY:Kpn (ć)
+LOCATION:315b S
+DESCRIPTION:Komunikacja i podstawy negogacji\nRodzaj: ćwiczenia\nNr zaję
+ ć: 4/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:bd1234a8071e674b95a9cb77@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20270124T095000
+DTEND;TZID=Europe/Warsaw:20270124T112500
+SUMMARY:Kpn (ć)
+LOCATION:315b S
+DESCRIPTION:Komunikacja i podstawy negogacji\nRodzaj: ćwiczenia\nNr zaję
+ ć: 5/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7af574ae6e60709c4d07482a@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20270124T114000
+DTEND;TZID=Europe/Warsaw:20270124T131500
+SUMMARY:Wzam (ć)
+LOCATION:315b S
+DESCRIPTION:Wybrane zagadnienia z analizy matematycznej\nRodzaj: ćwiczeni
+ a\nNr zajęć: 6/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:97a59f3751539bdb1dedf6b9@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20270124T133000
+DTEND;TZID=Europe/Warsaw:20270124T150500
+SUMMARY:Wzam (ć)
+LOCATION:315b S
+DESCRIPTION:Wybrane zagadnienia z analizy matematycznej\nRodzaj: ćwiczeni
+ a\nNr zajęć: 7/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3b6c0b77b26958e116e5523d@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20270130T080000
+DTEND;TZID=Europe/Warsaw:20270130T093500
+SUMMARY:MsE (w)
+LOCATION:315a S
+DESCRIPTION:Modelowanie systemów energetycznych\nRodzaj: wykład\nProwadz
+ ący: dr hab. inż. Ziemianek Stanisław\nNr zajęć: 7/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0c692c92de83a7002b107558@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20270130T095000
+DTEND;TZID=Europe/Warsaw:20270130T112500
+SUMMARY:Spds (w)
+LOCATION:82 S
+DESCRIPTION:Selected problems of dynamic systems theory\nRodzaj: wykład\n
+ Prowadzący: prof.dr hab. Osowski Stanisław\nNr zajęć: 6/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:93dc4cf8d82dd09dce5cbe74@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20270130T114000
+DTEND;TZID=Europe/Warsaw:20270130T131500
+SUMMARY:Tpus (P)
+LOCATION:315a S
+DESCRIPTION:Tory prądowe i układy stykowe\nRodzaj: projekt\nNr zajęć: 
+ 5/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e29bb6021d5ae229d2e868dc@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20270130T133000
+DTEND;TZID=Europe/Warsaw:20270130T150500
+SUMMARY:Tpus (P)
+LOCATION:315a S
+DESCRIPTION:Tory prądowe i układy stykowe\nRodzaj: projekt\nNr zajęć: 
+ 6/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:24600baa902b6d400b8990a6@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20270130T152000
+DTEND;TZID=Europe/Warsaw:20270130T165500
+SUMMARY:Uk* (ć)
+LOCATION:315a S
+DESCRIPTION:Urządzenia klimatyzacyjne i chłodnicze\nRodzaj: ćwiczenia\n
+ Nr zajęć: 3/3\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:6fe5cb1b8194e27f5607eb5e@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20270130T171000
+DTEND;TZID=Europe/Warsaw:20270130T184500
+SUMMARY:Mzte (ć)
+LOCATION:30a 54E
+DESCRIPTION:Modelowanie zagadnień elektrotechniki\nRodzaj: ćwiczenia\nNr
+  zajęć: 5/5\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:a8f76e1c39f55c84f5f6d97d@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20270131T080000
+DTEND;TZID=Europe/Warsaw:20270131T093500
+SUMMARY:Swen (L)
+LOCATION:9 70\; 12 70
+DESCRIPTION:Sensory w energetyce\nRodzaj: laboratorium\nProwadzący: mgr i
+ nż. Mazur Krzysztof\nNr zajęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:aa5a3bdb9148830488ee62f2@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20270131T095000
+DTEND;TZID=Europe/Warsaw:20270131T112500
+SUMMARY:Swen (L)
+LOCATION:9 70\; 12 70
+DESCRIPTION:Sensory w energetyce\nRodzaj: laboratorium\nProwadzący: mgr i
+ nż. Mazur Krzysztof\nNr zajęć: 4/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d6bf5a1dc18bd1b08c51fe19@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20270131T114000
+DTEND;TZID=Europe/Warsaw:20270131T131500
+SUMMARY:Zmpp (S)
+LOCATION:S2 72
+DESCRIPTION:Zaawansowane metody i techniki pozyskiwania paliw i energii\nR
+ odzaj: seminarium\nNr zajęć: 3/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:74df5f21bef670b6413ce366@wat-plan
+DTSTAMP:20261119T155919Z
+DTSTART;TZID=Europe/Warsaw:20270131T133000
+DTEND;TZID=Europe/Warsaw:20270131T150500
+SUMMARY:Zmpp (S)
+LOCATION:S2 72
+DESCRIPTION:Zaawansowane metody i techniki pozyskiwania paliw i energii\nR
+ odzaj: seminarium\nNr zajęć: 4/4\nBlok: 4
+END:VEVENT
+END:VCALENDAR

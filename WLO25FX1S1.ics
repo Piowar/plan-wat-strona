@@ -1,0 +1,2210 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WLO25FX1S1
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:2c8672d3e6375e58875e0546@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261002T080000
+DTEND;TZID=Europe/Warsaw:20261002T093500
+SUMMARY:Ek (w)
+LOCATION:aula/ 135
+DESCRIPTION:Ekonomia\nRodzaj: wykład\nProwadzący: płk dr hab. Stańczyk
+  Konrad\nNr zajęć: 1/11\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3e1b1f80a11f1b9b7bcb615e@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261002T095000
+DTEND;TZID=Europe/Warsaw:20261002T112500
+SUMMARY:Ek (ć)
+LOCATION:4.17a/ 135
+DESCRIPTION:Ekonomia\nRodzaj: ćwiczenia\nProwadzący: płk dr hab. Stańc
+ zyk Konrad\nNr zajęć: 1/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f16e3d21feedabd04a44c7c2@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261005T160000
+DTEND;TZID=Europe/Warsaw:20261005T173500
+SUMMARY:Met (w)
+LOCATION:aula/ 135
+DESCRIPTION:Mechanika techniczna\nRodzaj: wykład\nProwadzący: dr inż. N
+ owak Jacek\nNr zajęć: 1/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:265a957aa04a4318e07fbb5c@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261005T175000
+DTEND;TZID=Europe/Warsaw:20261005T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231 K\;232 K\;233 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 1/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:ff9d9e9f086d2b7eba985c15@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261006T080000
+DTEND;TZID=Europe/Warsaw:20261006T093500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: prof.dr hab.inż. Rutk
+ owski Jarosław\nNr zajęć: 1/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5199a3caf304ec0c92fa3939@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261006T095000
+DTEND;TZID=Europe/Warsaw:20261006T112500
+SUMMARY:BiESTS (w)
+LOCATION:1002 HILTON
+DESCRIPTION:Budowa i eksploatacja środków transportu samochodowego\nRodz
+ aj: wykład\nProwadzący: mgr inż. Radzimierski Mariusz\nNr zajęć: 1/9
+ \nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4dc22ac5799ebfc3181501c1@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261006T114000
+DTEND;TZID=Europe/Warsaw:20261006T131500
+SUMMARY:Ek (ć)
+LOCATION:2.21/ 135
+DESCRIPTION:Ekonomia\nRodzaj: ćwiczenia\nProwadzący: płk dr hab. Stańc
+ zyk Konrad\nNr zajęć: 2/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:45edc1ff758337018ced1b2b@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261006T160000
+DTEND;TZID=Europe/Warsaw:20261006T173500
+SUMMARY:T* (w)
+LOCATION:aula/ 135
+DESCRIPTION:Towaroznawstwo\nRodzaj: wykład\nProwadzący: dr Oziębło Ma
+ łgorzata\nNr zajęć: 1/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:cb0e41d9da806a9035f31fc2@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261006T175000
+DTEND;TZID=Europe/Warsaw:20261006T192500
+SUMMARY:Ek (w)
+LOCATION:aula/ 135
+DESCRIPTION:Ekonomia\nRodzaj: wykład\nProwadzący: płk dr hab. Stańczyk
+  Konrad\nNr zajęć: 2/11\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:f35eab149f30aa09ff3a88bc@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261007T114000
+DTEND;TZID=Europe/Warsaw:20261007T131500
+SUMMARY:Is (w)
+LOCATION:aula/ 135
+DESCRIPTION:Inżynieria systemów i analiza systemowa\nRodzaj: wykład\nPr
+ owadzący: prof. dr. hab. inż. Brzeziński Marian\nNr zajęć: 1/10\nBlo
+ k: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6c454d5ae48131813dc2623a@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261007T133000
+DTEND;TZID=Europe/Warsaw:20261007T150500
+SUMMARY:Ja (ć)
+LOCATION:241 K\;132 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 1/15\nBlok: 
+ 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1d36afc2fb3c901ddb3aa4bc@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261009T133000
+DTEND;TZID=Europe/Warsaw:20261009T150500
+SUMMARY:T* (ć)
+LOCATION:0.21/ 16
+DESCRIPTION:Towaroznawstwo\nRodzaj: ćwiczenia\nProwadzący: dr Oziębło 
+ Małgorzata\nNr zajęć: 1/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:66f9b15b48457bc9d3e76b80@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261009T160000
+DTEND;TZID=Europe/Warsaw:20261009T173500
+SUMMARY:LZ (w)
+LOCATION:aula/ 135
+DESCRIPTION:Logistyka zaopatrzenia\nRodzaj: wykład\nProwadzący: płk dr 
+ inż. Zelkowski Jarosław\nNr zajęć: 1/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:2ce9653790a378df90206c24@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261009T175000
+DTEND;TZID=Europe/Warsaw:20261009T192500
+SUMMARY:LZ (w)
+LOCATION:aula/ 135
+DESCRIPTION:Logistyka zaopatrzenia\nRodzaj: wykład\nProwadzący: płk dr 
+ inż. Zelkowski Jarosław\nNr zajęć: 2/7\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:425110ff803d2b236ea9434e@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261012T095000
+DTEND;TZID=Europe/Warsaw:20261012T112500
+SUMMARY:Is (w)
+LOCATION:aula/ 135
+DESCRIPTION:Inżynieria systemów i analiza systemowa\nRodzaj: wykład\nPr
+ owadzący: prof. dr. hab. inż. Brzeziński Marian\nNr zajęć: 2/10\nBlo
+ k: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4b05cc873f4c129d5091a6ce@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261012T160000
+DTEND;TZID=Europe/Warsaw:20261012T173500
+SUMMARY:Met (w)
+LOCATION:aula/ 135
+DESCRIPTION:Mechanika techniczna\nRodzaj: wykład\nProwadzący: dr inż. N
+ owak Jacek\nNr zajęć: 2/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:a4acbeb119fe5a0659088895@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261012T175000
+DTEND;TZID=Europe/Warsaw:20261012T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231 K\;232 K\;233 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 2/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:7e601355bada27de6c52e8da@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261013T080000
+DTEND;TZID=Europe/Warsaw:20261013T093500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: prof.dr hab.inż. Rutk
+ owski Jarosław\nNr zajęć: 2/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:44fce0932acc44e950fdf5ab@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261013T114000
+DTEND;TZID=Europe/Warsaw:20261013T131500
+SUMMARY:IJL (w)
+LOCATION:aula/ 135
+DESCRIPTION:Inżynieria jakości w logistyce\nRodzaj: wykład\nProwadzący
+ : dr n.społ. inż. Rogowski Bogusław\nNr zajęć: 1/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a73e2b816f6efc2e935f4080@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261013T160000
+DTEND;TZID=Europe/Warsaw:20261013T173500
+SUMMARY:T* (w)
+LOCATION:aula/ 135
+DESCRIPTION:Towaroznawstwo\nRodzaj: wykład\nProwadzący: dr Oziębło Ma
+ łgorzata\nNr zajęć: 2/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:9a1c9b4860562e3ca85b5496@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261013T175000
+DTEND;TZID=Europe/Warsaw:20261013T192500
+SUMMARY:Ek (w)
+LOCATION:aula/ 135
+DESCRIPTION:Ekonomia\nRodzaj: wykład\nProwadzący: płk dr hab. Stańczyk
+  Konrad\nNr zajęć: 3/11\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:43022c0a40d5d82a5fc869de@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261014T114000
+DTEND;TZID=Europe/Warsaw:20261014T131500
+SUMMARY:BiESTS (w)
+LOCATION:0.28/ 135
+DESCRIPTION:Budowa i eksploatacja środków transportu samochodowego\nRodz
+ aj: wykład\nProwadzący: mgr inż. Radzimierski Mariusz\nNr zajęć: 2/9
+ \nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2eb0e1acaa7dd2fb2f2974e5@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261014T133000
+DTEND;TZID=Europe/Warsaw:20261014T150500
+SUMMARY:Ja (ć)
+LOCATION:241 K\;132 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 2/15\nBlok: 
+ 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3e94ae80375904a78710d2cd@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261014T160000
+DTEND;TZID=Europe/Warsaw:20261014T173500
+SUMMARY:IJL (ć)
+LOCATION:5.17/ 135
+DESCRIPTION:Inżynieria jakości w logistyce\nRodzaj: ćwiczenia\nProwadz
+ ący: kpt. dr inż. Piękoś Dominik\nNr zajęć: 1/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:242c6d84ebb03791b510cf4f@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261014T175000
+DTEND;TZID=Europe/Warsaw:20261014T192500
+SUMMARY:IJL (ć)
+LOCATION:5.17/ 135
+DESCRIPTION:Inżynieria jakości w logistyce\nRodzaj: ćwiczenia\nProwadz
+ ący: kpt. dr inż. Piękoś Dominik\nNr zajęć: 2/6\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:acb534530691508626f0ab9f@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261016T133000
+DTEND;TZID=Europe/Warsaw:20261016T150500
+SUMMARY:T* (S)
+LOCATION:A.1.3/ 135
+DESCRIPTION:Towaroznawstwo\nRodzaj: seminarium\nProwadzący: dr Oziębło 
+ Małgorzata\nNr zajęć: 1/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:96125e96e47c616749d0a9f8@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261016T160000
+DTEND;TZID=Europe/Warsaw:20261016T173500
+SUMMARY:LZ (w)
+LOCATION:aula/ 135
+DESCRIPTION:Logistyka zaopatrzenia\nRodzaj: wykład\nProwadzący: płk dr 
+ inż. Zelkowski Jarosław\nNr zajęć: 3/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:178fe9fc2c7aec0b92119a84@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261016T175000
+DTEND;TZID=Europe/Warsaw:20261016T192500
+SUMMARY:LZ (w)
+LOCATION:aula/ 135
+DESCRIPTION:Logistyka zaopatrzenia\nRodzaj: wykład\nProwadzący: płk dr 
+ inż. Zelkowski Jarosław\nNr zajęć: 4/7\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:388d6ede35172fbcf0223709@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261019T160000
+DTEND;TZID=Europe/Warsaw:20261019T173500
+SUMMARY:Met (w)
+LOCATION:aula/ 135
+DESCRIPTION:Mechanika techniczna\nRodzaj: wykład\nProwadzący: dr inż. N
+ owak Jacek\nNr zajęć: 3/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:dab1cfb8fd056489afaa34c5@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261019T175000
+DTEND;TZID=Europe/Warsaw:20261019T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231 K\;232 K\;233 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 3/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:5b005321c73dad17da1294c8@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261020T080000
+DTEND;TZID=Europe/Warsaw:20261020T093500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: prof.dr hab.inż. Rutk
+ owski Jarosław\nNr zajęć: 3/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ee6389f50eff687095442f4a@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261020T095000
+DTEND;TZID=Europe/Warsaw:20261020T112500
+SUMMARY:BiESTS (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Budowa i eksploatacja środków transportu samochodowego\nRodz
+ aj: wykład\nProwadzący: mgr inż. Radzimierski Mariusz\nNr zajęć: 3/9
+ \nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ce8ba8e3f6382496f0f4691a@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261020T114000
+DTEND;TZID=Europe/Warsaw:20261020T131500
+SUMMARY:IJL (w)
+LOCATION:aula/ 135
+DESCRIPTION:Inżynieria jakości w logistyce\nRodzaj: wykład\nProwadzący
+ : dr n.społ. inż. Rogowski Bogusław\nNr zajęć: 2/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:af750e6f90e36349c9172e94@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261020T133000
+DTEND;TZID=Europe/Warsaw:20261020T150500
+SUMMARY:LP (w)
+LOCATION:aula/ 135
+DESCRIPTION:Logistyka produkcji\nRodzaj: wykład\nProwadzący: ppłk dr in
+ ż. Grzelak Małgorzata\nNr zajęć: 1/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1746dcaf0f26ffd4ec5c7e49@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261020T160000
+DTEND;TZID=Europe/Warsaw:20261020T173500
+SUMMARY:LP (w)
+LOCATION:aula/ 135
+DESCRIPTION:Logistyka produkcji\nRodzaj: wykład\nProwadzący: ppłk dr in
+ ż. Grzelak Małgorzata\nNr zajęć: 2/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:5678d1013063c2a3ee1c8cb4@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261020T175000
+DTEND;TZID=Europe/Warsaw:20261020T192500
+SUMMARY:LD (w)
+LOCATION:aula/ 135
+DESCRIPTION:Logistyka dystrybucji\nRodzaj: wykład\nProwadzący: dr Kalbar
+ czyk Ewa\nNr zajęć: 1/7\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:e49f925b8958224a259678d7@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261021T133000
+DTEND;TZID=Europe/Warsaw:20261021T150500
+SUMMARY:Ja (ć)
+LOCATION:241 K\;132 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 3/15\nBlok: 
+ 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3463f67c78b2e666b7355a4f@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261023T133000
+DTEND;TZID=Europe/Warsaw:20261023T150500
+SUMMARY:T* (S)
+LOCATION:1/ 22
+DESCRIPTION:Towaroznawstwo\nRodzaj: seminarium\nProwadzący: dr Oziębło 
+ Małgorzata\nNr zajęć: 2/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e16ec46d0029ba1e4966de5e@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261023T160000
+DTEND;TZID=Europe/Warsaw:20261023T173500
+SUMMARY:T* (w)
+LOCATION:aula/ 135
+DESCRIPTION:Towaroznawstwo\nRodzaj: wykład\nProwadzący: dr Oziębło Ma
+ łgorzata\nNr zajęć: 3/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:97a13693946a92923f77e6fe@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261026T160000
+DTEND;TZID=Europe/Warsaw:20261026T173500
+SUMMARY:IJL (ć)
+LOCATION:1.17/ 16
+DESCRIPTION:Inżynieria jakości w logistyce\nRodzaj: ćwiczenia\nProwadz
+ ący: kpt. dr inż. Piękoś Dominik\nNr zajęć: 3/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:3029ba870a0141935fc56ff4@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261026T175000
+DTEND;TZID=Europe/Warsaw:20261026T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231 K\;232 K\;233 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 4/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:65056944f77785033d869743@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261027T080000
+DTEND;TZID=Europe/Warsaw:20261027T093500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: prof.dr hab.inż. Rutk
+ owski Jarosław\nNr zajęć: 4/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:737164b31389ffad324c0c3a@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261027T133000
+DTEND;TZID=Europe/Warsaw:20261027T150500
+SUMMARY:LP (w)
+LOCATION:aula/ 135
+DESCRIPTION:Logistyka produkcji\nRodzaj: wykład\nProwadzący: ppłk dr in
+ ż. Grzelak Małgorzata\nNr zajęć: 3/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d7ebfd88ac13023414439ddd@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261027T160000
+DTEND;TZID=Europe/Warsaw:20261027T173500
+SUMMARY:LP (w)
+LOCATION:aula/ 135
+DESCRIPTION:Logistyka produkcji\nRodzaj: wykład\nProwadzący: ppłk dr in
+ ż. Grzelak Małgorzata\nNr zajęć: 4/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:dc8bd1c1c631fb1dd4c31048@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261027T175000
+DTEND;TZID=Europe/Warsaw:20261027T192500
+SUMMARY:LZ (w)
+LOCATION:aula/ 135
+DESCRIPTION:Logistyka zaopatrzenia\nRodzaj: wykład\nProwadzący: płk dr 
+ inż. Zelkowski Jarosław\nNr zajęć: 5/7\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:594e642a098f57657052617f@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261028T114000
+DTEND;TZID=Europe/Warsaw:20261028T131500
+SUMMARY:F2 (L)
+LOCATION:Grb\; Żuch\; Lar\; Jkb\; 141 S\;139 S
+DESCRIPTION:Fizyka 2\nRodzaj: laboratorium\nNr zajęć: 1/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2f3b9f9bd8b3c0217ebe586c@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261028T133000
+DTEND;TZID=Europe/Warsaw:20261028T150500
+SUMMARY:Ja (ć)
+LOCATION:241 K\;132 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 4/15\nBlok: 
+ 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3405f5b672aaafe9c1390b83@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261028T160000
+DTEND;TZID=Europe/Warsaw:20261028T173500
+SUMMARY:LZ (ć)
+LOCATION:1.27/ 135
+DESCRIPTION:Logistyka zaopatrzenia\nRodzaj: ćwiczenia\nProwadzący: płk 
+ dr inż. Zelkowski Jarosław\nNr zajęć: 1/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:173333976014a1d13c888fea@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261028T175000
+DTEND;TZID=Europe/Warsaw:20261028T192500
+SUMMARY:LZ (ć)
+LOCATION:1.27/ 135
+DESCRIPTION:Logistyka zaopatrzenia\nRodzaj: ćwiczenia\nProwadzący: płk 
+ dr inż. Zelkowski Jarosław\nNr zajęć: 2/6\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:3887cfdd4f0bcb64d06aa477@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261030T114000
+DTEND;TZID=Europe/Warsaw:20261030T131500
+SUMMARY:LD (w)
+LOCATION:aula/ 135
+DESCRIPTION:Logistyka dystrybucji\nRodzaj: wykład\nProwadzący: dr Kalbar
+ czyk Ewa\nNr zajęć: 2/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3f0dd9f0e084899d7fb15f3e@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261030T133000
+DTEND;TZID=Europe/Warsaw:20261030T150500
+SUMMARY:Is (ć)
+LOCATION:4.17a/ 135
+DESCRIPTION:Inżynieria systemów i analiza systemowa\nRodzaj: ćwiczenia\
+ nProwadzący: dr inż. Głodowska Katarzyna\nNr zajęć: 1/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ccd4d994f8da8e38e00b7c22@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261030T160000
+DTEND;TZID=Europe/Warsaw:20261030T173500
+SUMMARY:LP (L)
+LOCATION:4.17a/ 135
+DESCRIPTION:Logistyka produkcji\nRodzaj: laboratorium\nProwadzący: por mg
+ r inż. Sobczyk Olimpia\nNr zajęć: 1/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:925c00e0130fbe6fe4d382a3@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261030T175000
+DTEND;TZID=Europe/Warsaw:20261030T192500
+SUMMARY:IJL (ć)
+LOCATION:2.21/ 135
+DESCRIPTION:Inżynieria jakości w logistyce\nRodzaj: ćwiczenia\nProwadz
+ ący: kpt. dr inż. Piękoś Dominik\nNr zajęć: 4/6\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:4c996e9d86c8f2499a0ba785@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261102T114000
+DTEND;TZID=Europe/Warsaw:20261102T131500
+SUMMARY:BiESTS (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Budowa i eksploatacja środków transportu samochodowego\nRodz
+ aj: wykład\nProwadzący: mgr inż. Radzimierski Mariusz\nNr zajęć: 4/9
+ \nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f3f1a59ea49a7157fe1b5f20@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261102T133000
+DTEND;TZID=Europe/Warsaw:20261102T150500
+SUMMARY:BiESTS (L)
+LOCATION:22/ 21
+DESCRIPTION:Budowa i eksploatacja środków transportu samochodowego\nRodz
+ aj: laboratorium\nProwadzący: mgr inż. Pogorzelski Ireneusz\; kpt. mgr 
+ inż. Żmuda Marcin\nNr zajęć: 1/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e85a1cef8bed710f7047e65e@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261102T160000
+DTEND;TZID=Europe/Warsaw:20261102T173500
+SUMMARY:Met (w)
+LOCATION:aula/ 135
+DESCRIPTION:Mechanika techniczna\nRodzaj: wykład\nProwadzący: dr inż. N
+ owak Jacek\nNr zajęć: 4/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:a3f800cbcb6bdc75e30998d0@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261102T175000
+DTEND;TZID=Europe/Warsaw:20261102T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231 K\;232 K\;233 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 5/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:e83d6e97e90be8d3855d76d8@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261103T080000
+DTEND;TZID=Europe/Warsaw:20261103T093500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: prof.dr hab.inż. Rutk
+ owski Jarosław\nNr zajęć: 5/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:784e7f0335bd02167c1cfa2f@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261103T095000
+DTEND;TZID=Europe/Warsaw:20261103T112500
+SUMMARY:F2 (ć)
+LOCATION:0.19/ 135
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr inż. Pawluczyk 
+ Jarosław\nNr zajęć: 1/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:dec7dc59f94cbc401b95df39@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261103T114000
+DTEND;TZID=Europe/Warsaw:20261103T131500
+SUMMARY:BiESTS (ć)
+LOCATION:1/ 19
+DESCRIPTION:Budowa i eksploatacja środków transportu samochodowego\nRodz
+ aj: ćwiczenia\nProwadzący: kpt. mgr inż. Żmuda Marcin\nNr zajęć: 1/
+ 5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e94f615e4fda108c7fcf70fd@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261103T133000
+DTEND;TZID=Europe/Warsaw:20261103T150500
+SUMMARY:LP (w)
+LOCATION:aula/ 135
+DESCRIPTION:Logistyka produkcji\nRodzaj: wykład\nProwadzący: ppłk dr in
+ ż. Grzelak Małgorzata\nNr zajęć: 5/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8ecd98c3a78906494b06f639@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261103T160000
+DTEND;TZID=Europe/Warsaw:20261103T173500
+SUMMARY:LP (w)
+LOCATION:aula/ 135
+DESCRIPTION:Logistyka produkcji\nRodzaj: wykład\nProwadzący: ppłk dr in
+ ż. Grzelak Małgorzata\nNr zajęć: 6/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:b4d89f23a3c22d8c5e4773c4@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261103T175000
+DTEND;TZID=Europe/Warsaw:20261103T192500
+SUMMARY:Ek (w)
+LOCATION:aula/ 135
+DESCRIPTION:Ekonomia\nRodzaj: wykład\nProwadzący: płk dr hab. Stańczyk
+  Konrad\nNr zajęć: 4/11\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:37de5207bd7e611a2b82d66a@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261104T114000
+DTEND;TZID=Europe/Warsaw:20261104T131500
+SUMMARY:LD (ć)
+LOCATION:1/ 22
+DESCRIPTION:Logistyka dystrybucji\nRodzaj: ćwiczenia\nProwadzący: dr Kal
+ barczyk Ewa\nNr zajęć: 1/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1a48dd53608f62c566d1370a@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261104T133000
+DTEND;TZID=Europe/Warsaw:20261104T150500
+SUMMARY:Ja (ć)
+LOCATION:241 K\;132 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 5/15\nBlok: 
+ 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c0ba57a44a0ba856b6dfdd29@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261104T160000
+DTEND;TZID=Europe/Warsaw:20261104T173500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: prof.dr hab.inż. Rutk
+ owski Jarosław\nNr zajęć: 6/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:551a6b5e48ae7ca075ad3ab8@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261104T175000
+DTEND;TZID=Europe/Warsaw:20261104T192500
+SUMMARY:IJL (ć)
+LOCATION:0.8/ 16
+DESCRIPTION:Inżynieria jakości w logistyce\nRodzaj: ćwiczenia\nProwadz
+ ący: kpt. dr inż. Piękoś Dominik\nNr zajęć: 5/6\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:a807c6f34336bcb6b7901953@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261106T114000
+DTEND;TZID=Europe/Warsaw:20261106T131500
+SUMMARY:T* (ć)
+LOCATION:0.21/ 16
+DESCRIPTION:Towaroznawstwo\nRodzaj: ćwiczenia\nProwadzący: dr Oziębło 
+ Małgorzata\nNr zajęć: 2/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f1f97f2089bae00c99c4e308@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261106T133000
+DTEND;TZID=Europe/Warsaw:20261106T150500
+SUMMARY:T* (ć)
+LOCATION:0.21/ 16
+DESCRIPTION:Towaroznawstwo\nRodzaj: ćwiczenia\nProwadzący: dr Oziębło 
+ Małgorzata\nNr zajęć: 3/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:434d62cad49ae66c079f64ec@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261106T160000
+DTEND;TZID=Europe/Warsaw:20261106T173500
+SUMMARY:IJL (ć)
+LOCATION:4.17a/ 135
+DESCRIPTION:Inżynieria jakości w logistyce\nRodzaj: ćwiczenia\nProwadz
+ ący: kpt. dr inż. Piękoś Dominik\nNr zajęć: 6/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:7c70db62ad6888cdc0cc7dcd@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261109T095000
+DTEND;TZID=Europe/Warsaw:20261109T112500
+SUMMARY:Is (w)
+LOCATION:aula/ 135
+DESCRIPTION:Inżynieria systemów i analiza systemowa\nRodzaj: wykład\nPr
+ owadzący: prof. dr. hab. inż. Brzeziński Marian\nNr zajęć: 3/10\nBlo
+ k: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:919a2c8e633d9029da9a35c0@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261109T114000
+DTEND;TZID=Europe/Warsaw:20261109T131500
+SUMMARY:Is (ć)
+LOCATION:1 55A
+DESCRIPTION:Inżynieria systemów i analiza systemowa\nRodzaj: ćwiczenia\
+ nProwadzący: dr inż. Głodowska Katarzyna\nNr zajęć: 2/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:02ab3c910182fabf3b536dcf@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261109T133000
+DTEND;TZID=Europe/Warsaw:20261109T150500
+SUMMARY:Met (ć)
+LOCATION:A.1.3/ 135
+DESCRIPTION:Mechanika techniczna\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Nowak Jacek\nNr zajęć: 1/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7d42977a72ab0036945349dd@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261109T160000
+DTEND;TZID=Europe/Warsaw:20261109T173500
+SUMMARY:Met (w)
+LOCATION:aula/ 135
+DESCRIPTION:Mechanika techniczna\nRodzaj: wykład\nProwadzący: dr inż. N
+ owak Jacek\nNr zajęć: 5/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:e44b12b98e3888fdce15ead9@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261109T175000
+DTEND;TZID=Europe/Warsaw:20261109T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231 K\;232 K\;233 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 6/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:c829a2e66a90bf15f25e6b37@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261110T080000
+DTEND;TZID=Europe/Warsaw:20261110T093500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: prof.dr hab.inż. Rutk
+ owski Jarosław\nNr zajęć: 7/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:df453a26fb38a3c2cf431b00@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261110T095000
+DTEND;TZID=Europe/Warsaw:20261110T112500
+SUMMARY:LD (ć)
+LOCATION:1/ 22
+DESCRIPTION:Logistyka dystrybucji\nRodzaj: ćwiczenia\nProwadzący: dr Kal
+ barczyk Ewa\nNr zajęć: 2/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:30b1344ad4b1611b2567b1dc@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261110T114000
+DTEND;TZID=Europe/Warsaw:20261110T131500
+SUMMARY:IJL (w)
+LOCATION:aula/ 135
+DESCRIPTION:Inżynieria jakości w logistyce\nRodzaj: wykład\nProwadzący
+ : dr n.społ. inż. Rogowski Bogusław\nNr zajęć: 3/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a34aedef6ee54fc55e0d7851@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261110T133000
+DTEND;TZID=Europe/Warsaw:20261110T150500
+SUMMARY:F2 (ć)
+LOCATION:0.19/ 135
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr inż. Pawluczyk 
+ Jarosław\nNr zajęć: 2/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:14db89594ef9002fe776f003@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261110T160000
+DTEND;TZID=Europe/Warsaw:20261110T173500
+SUMMARY:LZ (w)
+LOCATION:aula/ 135
+DESCRIPTION:Logistyka zaopatrzenia\nRodzaj: wykład\nProwadzący: płk dr 
+ inż. Zelkowski Jarosław\nNr zajęć: 6/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:5b339fe0fdcdd1a975569ab2@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261110T175000
+DTEND;TZID=Europe/Warsaw:20261110T192500
+SUMMARY:Ek (w)
+LOCATION:aula/ 135
+DESCRIPTION:Ekonomia\nRodzaj: wykład\nProwadzący: płk dr hab. Stańczyk
+  Konrad\nNr zajęć: 5/11\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:312b49c19e6a683f6e5299db@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261112T095000
+DTEND;TZID=Europe/Warsaw:20261112T112500
+SUMMARY:BiESTS (L)
+LOCATION:22/ 21
+DESCRIPTION:Budowa i eksploatacja środków transportu samochodowego\nRodz
+ aj: laboratorium\nProwadzący: mgr inż. Pogorzelski Ireneusz\; kpt. mgr 
+ inż. Żmuda Marcin\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:05ba02a5a432ab86ca687d60@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261112T114000
+DTEND;TZID=Europe/Warsaw:20261112T131500
+SUMMARY:T* (ć)
+LOCATION:0.21/ 16
+DESCRIPTION:Towaroznawstwo\nRodzaj: ćwiczenia\nProwadzący: dr Oziębło 
+ Małgorzata\nNr zajęć: 4/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:77f8d3e43bc7c1db02af241a@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261113T133000
+DTEND;TZID=Europe/Warsaw:20261113T150500
+SUMMARY:T* (S)
+LOCATION:0.21/ 16
+DESCRIPTION:Towaroznawstwo\nRodzaj: seminarium\nProwadzący: dr Oziębło 
+ Małgorzata\nNr zajęć: 3/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:eece84daf36079789d521399@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261113T160000
+DTEND;TZID=Europe/Warsaw:20261113T173500
+SUMMARY:LZ (ć)
+LOCATION:1.27/ 135
+DESCRIPTION:Logistyka zaopatrzenia\nRodzaj: ćwiczenia\nProwadzący: płk 
+ dr inż. Zelkowski Jarosław\nNr zajęć: 3/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:caf61e02f65d2327b969fcc3@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261113T175000
+DTEND;TZID=Europe/Warsaw:20261113T192500
+SUMMARY:LZ (ć)
+LOCATION:1.27/ 135
+DESCRIPTION:Logistyka zaopatrzenia\nRodzaj: ćwiczenia\nProwadzący: płk 
+ dr inż. Zelkowski Jarosław\nNr zajęć: 4/6\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:616e5fd6058479842a3583ef@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261116T080000
+DTEND;TZID=Europe/Warsaw:20261116T093500
+SUMMARY:F2 (L)
+LOCATION:Grb\; Żuch\; Lar\; Jkb\; 141 S\;139 S
+DESCRIPTION:Fizyka 2\nRodzaj: laboratorium\nNr zajęć: 2/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:50bbaf0a8b14be50b25799ea@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261116T095000
+DTEND;TZID=Europe/Warsaw:20261116T112500
+SUMMARY:Is (w)
+LOCATION:aula/ 135
+DESCRIPTION:Inżynieria systemów i analiza systemowa\nRodzaj: wykład\nPr
+ owadzący: prof. dr. hab. inż. Brzeziński Marian\nNr zajęć: 4/10\nBlo
+ k: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:aaad055369cd3608f699258f@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261116T114000
+DTEND;TZID=Europe/Warsaw:20261116T131500
+SUMMARY:BiESTS (ć)
+LOCATION:1/ 19
+DESCRIPTION:Budowa i eksploatacja środków transportu samochodowego\nRodz
+ aj: ćwiczenia\nProwadzący: kpt. mgr inż. Żmuda Marcin\nNr zajęć: 2/
+ 5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:19cd9c9d2713a4c369a2e910@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261116T133000
+DTEND;TZID=Europe/Warsaw:20261116T150500
+SUMMARY:Met (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Mechanika techniczna\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Nowak Jacek\nNr zajęć: 2/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2ff66a0724c67c903e1853fa@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261116T160000
+DTEND;TZID=Europe/Warsaw:20261116T173500
+SUMMARY:Met (w)
+LOCATION:aula/ 135
+DESCRIPTION:Mechanika techniczna\nRodzaj: wykład\nProwadzący: dr inż. N
+ owak Jacek\nNr zajęć: 6/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:16e8812a54b0efe319ac2d84@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261116T175000
+DTEND;TZID=Europe/Warsaw:20261116T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231 K\;232 K\;233 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 7/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:7b4fb1af85ace3106368a3d6@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261117T114000
+DTEND;TZID=Europe/Warsaw:20261117T131500
+SUMMARY:LD (ć)
+LOCATION:1/ 22
+DESCRIPTION:Logistyka dystrybucji\nRodzaj: ćwiczenia\nProwadzący: dr Kal
+ barczyk Ewa\nNr zajęć: 3/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:963c9d65462cdd02871415c1@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261117T133000
+DTEND;TZID=Europe/Warsaw:20261117T150500
+SUMMARY:F2 (ć)
+LOCATION:0.19/ 135
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr inż. Pawluczyk 
+ Jarosław\nNr zajęć: 3/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2f0ecd925a9d61e8da769e6f@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261117T160000
+DTEND;TZID=Europe/Warsaw:20261117T173500
+SUMMARY:Ek (w)
+LOCATION:aula/ 135
+DESCRIPTION:Ekonomia\nRodzaj: wykład\nProwadzący: płk dr hab. Stańczyk
+  Konrad\nNr zajęć: 6/11\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:444961eb7b7d12d9deca3c6e@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261117T175000
+DTEND;TZID=Europe/Warsaw:20261117T192500
+SUMMARY:Ek (w)
+LOCATION:aula/ 135
+DESCRIPTION:Ekonomia\nRodzaj: wykład\nProwadzący: płk dr hab. Stańczyk
+  Konrad\nNr zajęć: 7/11\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:b08a5be3de2b79071164510c@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261118T114000
+DTEND;TZID=Europe/Warsaw:20261118T131500
+SUMMARY:T* (S)
+LOCATION:0.21/ 16
+DESCRIPTION:Towaroznawstwo\nRodzaj: seminarium\nProwadzący: dr Oziębło 
+ Małgorzata\nNr zajęć: 4/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:eec2e7975ec704bed760acb6@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261118T133000
+DTEND;TZID=Europe/Warsaw:20261118T150500
+SUMMARY:Ja (ć)
+LOCATION:241 K\;132 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 6/15\nBlok: 
+ 4
+END:VEVENT
+BEGIN:VEVENT
+UID:82a8dff8e3fac17430bbb12f@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261120T114000
+DTEND;TZID=Europe/Warsaw:20261120T131500
+SUMMARY:T* (w)
+LOCATION:aula/ 135
+DESCRIPTION:Towaroznawstwo\nRodzaj: wykład\nProwadzący: dr Oziębło Ma
+ łgorzata\nNr zajęć: 4/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:386d98cbf3073b99bc669558@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261120T160000
+DTEND;TZID=Europe/Warsaw:20261120T173500
+SUMMARY:LD (w)
+LOCATION:aula/ 135
+DESCRIPTION:Logistyka dystrybucji\nRodzaj: wykład\nProwadzący: dr Kalbar
+ czyk Ewa\nNr zajęć: 3/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:515495aeb66ff8b2fd7bf43e@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261122T114000
+DTEND;TZID=Europe/Warsaw:20261122T131500
+SUMMARY:XWDM (ć)
+LOCATION:2.22/ 135\; powtarzanie zajęć
+DESCRIPTION:XWprowadzenie do metrologii\nRodzaj: ćwiczenia\nProwadzący: 
+ dr hab. inż.(prof. ucz.) Pszczółkowski Józef\nNr zajęć: 1/6\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:06698d49d47e35d15d3ca4f8@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261122T133000
+DTEND;TZID=Europe/Warsaw:20261122T150500
+SUMMARY:XWDM (ć)
+LOCATION:2.22/ 135\; powtarzanie zajęć
+DESCRIPTION:XWprowadzenie do metrologii\nRodzaj: ćwiczenia\nProwadzący: 
+ dr hab. inż.(prof. ucz.) Pszczółkowski Józef\nNr zajęć: 2/6\nBlok: 
+ 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8882a7fa37d85296efc482ac@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261123T080000
+DTEND;TZID=Europe/Warsaw:20261123T093500
+SUMMARY:F2 (ć)
+LOCATION:0.19/ 135
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr inż. Pawluczyk 
+ Jarosław\nNr zajęć: 4/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:55baaff0e72440489b6e94d4@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261123T095000
+DTEND;TZID=Europe/Warsaw:20261123T112500
+SUMMARY:LD (ć)
+LOCATION:1/ 22
+DESCRIPTION:Logistyka dystrybucji\nRodzaj: ćwiczenia\nProwadzący: dr Kal
+ barczyk Ewa\nNr zajęć: 4/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:48c975a5360fe10496f1585d@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261123T114000
+DTEND;TZID=Europe/Warsaw:20261123T131500
+SUMMARY:Is (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Inżynieria systemów i analiza systemowa\nRodzaj: ćwiczenia\
+ nProwadzący: dr inż. Głodowska Katarzyna\nNr zajęć: 3/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c43498b64b40c226506602ab@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261123T133000
+DTEND;TZID=Europe/Warsaw:20261123T150500
+SUMMARY:Is (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Inżynieria systemów i analiza systemowa\nRodzaj: ćwiczenia\
+ nProwadzący: dr inż. Głodowska Katarzyna\nNr zajęć: 4/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:dc46d4227375c615bb4a89a2@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261123T160000
+DTEND;TZID=Europe/Warsaw:20261123T173500
+SUMMARY:Met (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Mechanika techniczna\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Nowak Jacek\nNr zajęć: 3/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:15096040241fa8d0a5912648@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261123T175000
+DTEND;TZID=Europe/Warsaw:20261123T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231 K\;232 K\;233 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 8/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:a35d3561e3f41a7356128dab@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261124T080000
+DTEND;TZID=Europe/Warsaw:20261124T093500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: prof.dr hab.inż. Rutk
+ owski Jarosław\nNr zajęć: 8/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7b403c961ac571f5a072414a@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261124T095000
+DTEND;TZID=Europe/Warsaw:20261124T112500
+SUMMARY:BiESTS (w)
+LOCATION:3.16/ 135
+DESCRIPTION:Budowa i eksploatacja środków transportu samochodowego\nRodz
+ aj: wykład\nProwadzący: mgr inż. Radzimierski Mariusz\nNr zajęć: 5/9
+ \nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:15595a9a2edca6346e04560c@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261124T114000
+DTEND;TZID=Europe/Warsaw:20261124T131500
+SUMMARY:IJL (w)
+LOCATION:aula/ 135
+DESCRIPTION:Inżynieria jakości w logistyce\nRodzaj: wykład\nProwadzący
+ : dr n.społ. inż. Rogowski Bogusław\nNr zajęć: 4/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1d30cdb94544cad263f00467@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261125T114000
+DTEND;TZID=Europe/Warsaw:20261125T131500
+SUMMARY:Is (w)
+LOCATION:aula/ 135
+DESCRIPTION:Inżynieria systemów i analiza systemowa\nRodzaj: wykład\nPr
+ owadzący: prof. dr. hab. inż. Brzeziński Marian\nNr zajęć: 5/10\nBlo
+ k: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e98907a99f0cbaa9877d19c8@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261125T133000
+DTEND;TZID=Europe/Warsaw:20261125T150500
+SUMMARY:Ja (ć)
+LOCATION:241 K\;132 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 7/15\nBlok: 
+ 4
+END:VEVENT
+BEGIN:VEVENT
+UID:45d3243ea41135db6d8b3dfe@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261126T095000
+DTEND;TZID=Europe/Warsaw:20261126T112500
+SUMMARY:BiESTS (L)
+LOCATION:22/ 21
+DESCRIPTION:Budowa i eksploatacja środków transportu samochodowego\nRodz
+ aj: laboratorium\nProwadzący: mgr inż. Pogorzelski Ireneusz\; mgr inż.
+  Gajda Olga\nNr zajęć: 3/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7c5011b8c350610511d89047@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261126T114000
+DTEND;TZID=Europe/Warsaw:20261126T131500
+SUMMARY:Ek (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Ekonomia\nRodzaj: ćwiczenia\nProwadzący: płk dr hab. Stańc
+ zyk Konrad\nNr zajęć: 3/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2447747cf887ce9fd6d3ba52@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261130T080000
+DTEND;TZID=Europe/Warsaw:20261130T093500
+SUMMARY:F2 (L)
+LOCATION:Grb\; Żuch\; Lar\; Jkb\; 141 S\;139 S
+DESCRIPTION:Fizyka 2\nRodzaj: laboratorium\nNr zajęć: 3/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f180dc36753917533df26d18@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261130T095000
+DTEND;TZID=Europe/Warsaw:20261130T112500
+SUMMARY:Is (w)
+LOCATION:aula/ 135
+DESCRIPTION:Inżynieria systemów i analiza systemowa\nRodzaj: wykład\nPr
+ owadzący: prof. dr. hab. inż. Brzeziński Marian\nNr zajęć: 6/10\nBlo
+ k: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:405fd94182f95c8a0df1f535@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261130T114000
+DTEND;TZID=Europe/Warsaw:20261130T131500
+SUMMARY:BiESTS (ć)
+LOCATION:1/ 19
+DESCRIPTION:Budowa i eksploatacja środków transportu samochodowego\nRodz
+ aj: ćwiczenia\nProwadzący: kpt. mgr inż. Żmuda Marcin\nNr zajęć: 3/
+ 5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:146f515828107a80e2ed6f4d@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261130T133000
+DTEND;TZID=Europe/Warsaw:20261130T150500
+SUMMARY:Met (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Mechanika techniczna\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Nowak Jacek\nNr zajęć: 4/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ec0d0cb531982e028e03bc52@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261130T160000
+DTEND;TZID=Europe/Warsaw:20261130T173500
+SUMMARY:Met (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Mechanika techniczna\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Nowak Jacek\nNr zajęć: 5/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:087c6f51ec70df58a9ae52f6@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261130T175000
+DTEND;TZID=Europe/Warsaw:20261130T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231 K\;232 K\;233 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 9/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:bfd5c841dd6a85769a12d76d@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261201T080000
+DTEND;TZID=Europe/Warsaw:20261201T093500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: prof.dr hab.inż. Rutk
+ owski Jarosław\nNr zajęć: 9/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8838fed1f782c2e69243723d@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261201T095000
+DTEND;TZID=Europe/Warsaw:20261201T112500
+SUMMARY:BiESTS (w)
+LOCATION:3.16/ 135
+DESCRIPTION:Budowa i eksploatacja środków transportu samochodowego\nRodz
+ aj: wykład\nProwadzący: mgr inż. Radzimierski Mariusz\nNr zajęć: 6/9
+ \nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:275aa314509c671a382794b4@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261201T114000
+DTEND;TZID=Europe/Warsaw:20261201T131500
+SUMMARY:IJL (w)
+LOCATION:aula/ 135
+DESCRIPTION:Inżynieria jakości w logistyce\nRodzaj: wykład\nProwadzący
+ : dr n.społ. inż. Rogowski Bogusław\nNr zajęć: 5/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f51e23c510a6f542590a203d@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261201T133000
+DTEND;TZID=Europe/Warsaw:20261201T150500
+SUMMARY:Ek (ć)
+LOCATION:4.17a/ 135
+DESCRIPTION:Ekonomia\nRodzaj: ćwiczenia\nProwadzący: płk dr hab. Stańc
+ zyk Konrad\nNr zajęć: 4/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f55a97dc540a9c3f63e47b49@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261201T160000
+DTEND;TZID=Europe/Warsaw:20261201T173500
+SUMMARY:Ek (w)
+LOCATION:aula/ 135
+DESCRIPTION:Ekonomia\nRodzaj: wykład\nProwadzący: płk dr hab. Stańczyk
+  Konrad\nNr zajęć: 8/11\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:27417c226d6e20b23fb1eb30@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261201T175000
+DTEND;TZID=Europe/Warsaw:20261201T192500
+SUMMARY:Ek (w)
+LOCATION:aula/ 135
+DESCRIPTION:Ekonomia\nRodzaj: wykład\nProwadzący: płk dr hab. Stańczyk
+  Konrad\nNr zajęć: 9/11\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:b49481e3048ab729dc6a2223@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261202T114000
+DTEND;TZID=Europe/Warsaw:20261202T131500
+SUMMARY:LD (ć)
+LOCATION:1/ 22
+DESCRIPTION:Logistyka dystrybucji\nRodzaj: ćwiczenia\nProwadzący: dr Kal
+ barczyk Ewa\nNr zajęć: 5/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a399905f25b03f460f78c772@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261202T133000
+DTEND;TZID=Europe/Warsaw:20261202T150500
+SUMMARY:Ja (ć)
+LOCATION:241 K\;132 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 8/15\nBlok: 
+ 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9f3781d1433c65e12b7273b0@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261202T160000
+DTEND;TZID=Europe/Warsaw:20261202T173500
+SUMMARY:LZ (ć)
+LOCATION:1.27/ 135
+DESCRIPTION:Logistyka zaopatrzenia\nRodzaj: ćwiczenia\nProwadzący: płk 
+ dr inż. Zelkowski Jarosław\nNr zajęć: 5/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:1245d265da431da55d4dbe9b@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261202T175000
+DTEND;TZID=Europe/Warsaw:20261202T192500
+SUMMARY:LZ (ć)
+LOCATION:1.27/ 135
+DESCRIPTION:Logistyka zaopatrzenia\nRodzaj: ćwiczenia\nProwadzący: płk 
+ dr inż. Zelkowski Jarosław\nNr zajęć: 6/6\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:c5a58b882f22864c14a65638@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261204T114000
+DTEND;TZID=Europe/Warsaw:20261204T131500
+SUMMARY:T* (w)
+LOCATION:aula/ 135
+DESCRIPTION:Towaroznawstwo\nRodzaj: wykład\nProwadzący: dr Oziębło Ma
+ łgorzata\nNr zajęć: 5/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5a9f148f2b0edc5cbe4799f9@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261204T160000
+DTEND;TZID=Europe/Warsaw:20261204T173500
+SUMMARY:LP (L)
+LOCATION:0.7/ 16
+DESCRIPTION:Logistyka produkcji\nRodzaj: laboratorium\nProwadzący: por mg
+ r inż. Sobczyk Olimpia\nNr zajęć: 2/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:4ab3544f8c9d064ddb15bbf6@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261204T194000
+DTEND;TZID=Europe/Warsaw:20261204T211500
+SUMMARY:Ja (ć)
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 9/15\nBlok: 
+ 7
+END:VEVENT
+BEGIN:VEVENT
+UID:2ef1515fbeb6abd0e6840ae6@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261207T095000
+DTEND;TZID=Europe/Warsaw:20261207T112500
+SUMMARY:F2 (ć)
+LOCATION:0.19/ 135
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr inż. Pawluczyk 
+ Jarosław\nNr zajęć: 5/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ae75503ed97558f4d4cf07c0@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261207T114000
+DTEND;TZID=Europe/Warsaw:20261207T131500
+SUMMARY:BiESTS (ć)
+LOCATION:1/ 19
+DESCRIPTION:Budowa i eksploatacja środków transportu samochodowego\nRodz
+ aj: ćwiczenia\nProwadzący: kpt. mgr inż. Żmuda Marcin\nNr zajęć: 4/
+ 5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:03f8ff29336067694e40fd03@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261207T133000
+DTEND;TZID=Europe/Warsaw:20261207T150500
+SUMMARY:Is (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Inżynieria systemów i analiza systemowa\nRodzaj: ćwiczenia\
+ nProwadzący: dr inż. Głodowska Katarzyna\nNr zajęć: 5/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:78996718e80be7c9d8023257@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261207T160000
+DTEND;TZID=Europe/Warsaw:20261207T173500
+SUMMARY:Is (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Inżynieria systemów i analiza systemowa\nRodzaj: ćwiczenia\
+ nProwadzący: dr inż. Głodowska Katarzyna\nNr zajęć: 6/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:4bcac83def741734447286a7@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261207T175000
+DTEND;TZID=Europe/Warsaw:20261207T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231 K\;232 K\;233 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 10/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:234f5f92cdd43c3fff264e71@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261208T080000
+DTEND;TZID=Europe/Warsaw:20261208T093500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: prof.dr hab.inż. Rutk
+ owski Jarosław\nNr zajęć: 10/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2f58057608c9837d864a1b05@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261208T114000
+DTEND;TZID=Europe/Warsaw:20261208T131500
+SUMMARY:IJL (w)
+LOCATION:aula/ 135
+DESCRIPTION:Inżynieria jakości w logistyce\nRodzaj: wykład\nProwadzący
+ : dr n.społ. inż. Rogowski Bogusław\nNr zajęć: 6/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ca92a4e285a8078778baa0da@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261208T133000
+DTEND;TZID=Europe/Warsaw:20261208T150500
+SUMMARY:BiESTS (w)
+LOCATION:3.16/ 135
+DESCRIPTION:Budowa i eksploatacja środków transportu samochodowego\nRodz
+ aj: wykład\nProwadzący: mgr inż. Radzimierski Mariusz\nNr zajęć: 7/9
+ \nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:68233a9f1f52aedabf9e9d43@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261208T160000
+DTEND;TZID=Europe/Warsaw:20261208T173500
+SUMMARY:LZ (S)
+LOCATION:1.27/ 135
+DESCRIPTION:Logistyka zaopatrzenia\nRodzaj: seminarium\nProwadzący: płk 
+ dr inż. Zelkowski Jarosław\nNr zajęć: 1/2\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f8978135bc83805a0a97e67c@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261208T175000
+DTEND;TZID=Europe/Warsaw:20261208T192500
+SUMMARY:LZ (S)
+LOCATION:1.27/ 135
+DESCRIPTION:Logistyka zaopatrzenia\nRodzaj: seminarium\nProwadzący: płk 
+ dr inż. Zelkowski Jarosław\nNr zajęć: 2/2\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:63468a0303ede7333e440165@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261209T114000
+DTEND;TZID=Europe/Warsaw:20261209T131500
+SUMMARY:F2 (L)
+LOCATION:Grb\; Żuch\; Lar\; Jkb\; 141 S\;139 S
+DESCRIPTION:Fizyka 2\nRodzaj: laboratorium\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ddf4d299a2bbc55c5e77c557@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261209T133000
+DTEND;TZID=Europe/Warsaw:20261209T150500
+SUMMARY:Ja (ć)
+LOCATION:241 K\;132 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 10/15\nBlok:
+  4
+END:VEVENT
+BEGIN:VEVENT
+UID:85f7c2d921765f0002884dd9@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261209T160000
+DTEND;TZID=Europe/Warsaw:20261209T173500
+SUMMARY:LP (L)
+LOCATION:0.7/ 16
+DESCRIPTION:Logistyka produkcji\nRodzaj: laboratorium\nProwadzący: por mg
+ r inż. Sobczyk Olimpia\nNr zajęć: 3/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:7b5f7e37b593ba0a5aae3ea1@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261214T114000
+DTEND;TZID=Europe/Warsaw:20261214T131500
+SUMMARY:BiESTS (L)
+LOCATION:22/ 21
+DESCRIPTION:Budowa i eksploatacja środków transportu samochodowego\nRodz
+ aj: laboratorium\nProwadzący: mgr inż. Pogorzelski Ireneusz\; kpt. mgr 
+ inż. Żmuda Marcin\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:648bfbd7fa5e66ca7a3a1fa6@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261214T133000
+DTEND;TZID=Europe/Warsaw:20261214T150500
+SUMMARY:Met (ć)
+LOCATION:2.21/ 135
+DESCRIPTION:Mechanika techniczna\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Nowak Jacek\nNr zajęć: 6/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:82aba92d90e0cb60e0b192fe@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261214T160000
+DTEND;TZID=Europe/Warsaw:20261214T173500
+SUMMARY:LP (L)
+LOCATION:1/ 22
+DESCRIPTION:Logistyka produkcji\nRodzaj: laboratorium\nProwadzący: por mg
+ r inż. Sobczyk Olimpia\nNr zajęć: 4/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:255052e1fe84cdf2cd3eacd2@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261214T175000
+DTEND;TZID=Europe/Warsaw:20261214T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231 K\;232 K\;233 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 11/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:013b91a57bfa85e712c86ebe@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261215T080000
+DTEND;TZID=Europe/Warsaw:20261215T093500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: prof.dr hab.inż. Rutk
+ owski Jarosław\nNr zajęć: 11/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0a36241dc5593b3661052cc0@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261215T114000
+DTEND;TZID=Europe/Warsaw:20261215T131500
+SUMMARY:IJL (w)
+LOCATION:aula/ 135
+DESCRIPTION:Inżynieria jakości w logistyce\nRodzaj: wykład\nProwadzący
+ : dr n.społ. inż. Rogowski Bogusław\nNr zajęć: 7/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c09647d84f4c69683bd6594c@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261215T133000
+DTEND;TZID=Europe/Warsaw:20261215T150500
+SUMMARY:F2 (ć)
+LOCATION:0.19/ 135
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr inż. Pawluczyk 
+ Jarosław\nNr zajęć: 6/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:28fbfeabec20291a8ee08fb7@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261215T160000
+DTEND;TZID=Europe/Warsaw:20261215T173500
+SUMMARY:Ek (w)
+LOCATION:aula/ 135
+DESCRIPTION:Ekonomia\nRodzaj: wykład\nProwadzący: płk dr hab. Stańczyk
+  Konrad\nNr zajęć: 10/11\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:a17c7f18bcfc81cdbd7e769a@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261216T133000
+DTEND;TZID=Europe/Warsaw:20261216T150500
+SUMMARY:Ja (ć)
+LOCATION:241 K\;132 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 11/15\nBlok:
+  4
+END:VEVENT
+BEGIN:VEVENT
+UID:091d80a47a5334d535234d9d@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261216T160000
+DTEND;TZID=Europe/Warsaw:20261216T173500
+SUMMARY:BiESTS (ć)
+LOCATION:1/ 19
+DESCRIPTION:Budowa i eksploatacja środków transportu samochodowego\nRodz
+ aj: ćwiczenia\nProwadzący: kpt. mgr inż. Żmuda Marcin\nNr zajęć: 5/
+ 5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:e0b8da858a437e52efdca726@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261217T080000
+DTEND;TZID=Europe/Warsaw:20261217T093500
+SUMMARY:LP (ć)
+LOCATION:5.17/ 135
+DESCRIPTION:Logistyka produkcji\nRodzaj: ćwiczenia\nProwadzący: ppłk dr
+  inż. Grzelak Małgorzata\nNr zajęć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6e2298ec1292de78c49ec683@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261217T095000
+DTEND;TZID=Europe/Warsaw:20261217T112500
+SUMMARY:LP (ć)
+LOCATION:5.17/ 135
+DESCRIPTION:Logistyka produkcji\nRodzaj: ćwiczenia\nProwadzący: ppłk dr
+  inż. Grzelak Małgorzata\nNr zajęć: 2/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2aa59efd0817afdd4dcf38ed@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261217T114000
+DTEND;TZID=Europe/Warsaw:20261217T131500
+SUMMARY:LP (ć)
+LOCATION:5.17/ 135
+DESCRIPTION:Logistyka produkcji\nRodzaj: ćwiczenia\nProwadzący: ppłk dr
+  inż. Grzelak Małgorzata\nNr zajęć: 3/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7308db616247165770bfb2a9@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261218T080000
+DTEND;TZID=Europe/Warsaw:20261218T093500
+SUMMARY:LD (w)
+LOCATION:aula/ 135
+DESCRIPTION:Logistyka dystrybucji\nRodzaj: wykład\nProwadzący: dr Kalbar
+ czyk Ewa\nNr zajęć: 4/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:91f88db8c020dace41fd1036@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261218T114000
+DTEND;TZID=Europe/Warsaw:20261218T131500
+SUMMARY:T* (w)
+LOCATION:aula/ 135
+DESCRIPTION:Towaroznawstwo\nRodzaj: wykład\nProwadzący: dr Oziębło Ma
+ łgorzata\nNr zajęć: 6/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c6deb8162a2ef860a0af4b06@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261220T133000
+DTEND;TZID=Europe/Warsaw:20261220T150500
+SUMMARY:XWDM (ć)
+LOCATION:1.15/ 16\; powtarzanie zajęć
+DESCRIPTION:XWprowadzenie do metrologii\nRodzaj: ćwiczenia\nProwadzący: 
+ dr hab. inż.(prof. ucz.) Pszczółkowski Józef\nNr zajęć: 3/6\nBlok: 
+ 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e5189e6b6a2b4efa80a8debf@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261220T152000
+DTEND;TZID=Europe/Warsaw:20261220T165500
+SUMMARY:XWDM (ć)
+LOCATION:1.15/ 16\; powtarzanie zajęć
+DESCRIPTION:XWprowadzenie do metrologii\nRodzaj: ćwiczenia\nProwadzący: 
+ dr hab. inż.(prof. ucz.) Pszczółkowski Józef\nNr zajęć: 4/6\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:5c08c8a67862648e5e06cd93@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261221T080000
+DTEND;TZID=Europe/Warsaw:20261221T093500
+SUMMARY:Is (w)
+LOCATION:aula/ 135
+DESCRIPTION:Inżynieria systemów i analiza systemowa\nRodzaj: wykład\nPr
+ owadzący: prof. dr. hab. inż. Brzeziński Marian\nNr zajęć: 7/10\nBlo
+ k: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:dcc18ec28ab16e193e4cc312@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261221T095000
+DTEND;TZID=Europe/Warsaw:20261221T112500
+SUMMARY:F2 (ć)
+LOCATION:0.19/ 135
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr inż. Pawluczyk 
+ Jarosław\nNr zajęć: 7/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9f167dd52fef62532aa69353@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261221T114000
+DTEND;TZID=Europe/Warsaw:20261221T131500
+SUMMARY:BiESTS (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Budowa i eksploatacja środków transportu samochodowego\nRodz
+ aj: wykład\nProwadzący: mgr inż. Radzimierski Mariusz\nNr zajęć: 8/9
+ \nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7a54d9ad7d740e874b74871a@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261221T133000
+DTEND;TZID=Europe/Warsaw:20261221T150500
+SUMMARY:Met (ć)
+LOCATION:2.21/ 135
+DESCRIPTION:Mechanika techniczna\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Nowak Jacek\nNr zajęć: 7/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8e8ab5107b164638c20bf9b2@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261221T160000
+DTEND;TZID=Europe/Warsaw:20261221T173500
+SUMMARY:LP (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Logistyka produkcji\nRodzaj: ćwiczenia\nProwadzący: Olimp.So
+ b\nNr zajęć: 4/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:48eaac28e939e87251750bf5@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261221T175000
+DTEND;TZID=Europe/Warsaw:20261221T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231 K\;232 K\;233 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 12/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:fb214a9f99155a6981f6a819@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261222T080000
+DTEND;TZID=Europe/Warsaw:20261222T093500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: prof.dr hab.inż. Rutk
+ owski Jarosław\nNr zajęć: 12/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e90485a0a077f9001ef8eda6@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261222T133000
+DTEND;TZID=Europe/Warsaw:20261222T150500
+SUMMARY:LD (ć)
+LOCATION:1/ 22
+DESCRIPTION:Logistyka dystrybucji\nRodzaj: ćwiczenia\nProwadzący: dr Kal
+ barczyk Ewa\nNr zajęć: 6/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2f9ddf01a2223b13597d7bbc@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261222T160000
+DTEND;TZID=Europe/Warsaw:20261222T173500
+SUMMARY:LZ (w)
+LOCATION:aula/ 135
+DESCRIPTION:Logistyka zaopatrzenia\nRodzaj: wykład\nProwadzący: płk dr 
+ inż. Zelkowski Jarosław\nNr zajęć: 7/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:8bbca91b024671c1dde6b6c3@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261223T133000
+DTEND;TZID=Europe/Warsaw:20261223T150500
+SUMMARY:Ja (ć)
+LOCATION:241 K\;132 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 12/15\nBlok:
+  4
+END:VEVENT
+BEGIN:VEVENT
+UID:a9dd280a9780be564c689c1e@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261223T160000
+DTEND;TZID=Europe/Warsaw:20261223T173500
+SUMMARY:Is (ć)
+LOCATION:1.27/ 135
+DESCRIPTION:Inżynieria systemów i analiza systemowa\nRodzaj: ćwiczenia\
+ nProwadzący: dr inż. Głodowska Katarzyna\nNr zajęć: 7/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:1721008ef02d15c59cd11101@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270107T095000
+DTEND;TZID=Europe/Warsaw:20270107T112500
+SUMMARY:BiESTS (L)
+LOCATION:22/ 21
+DESCRIPTION:Budowa i eksploatacja środków transportu samochodowego\nRodz
+ aj: laboratorium\nProwadzący: kpt. mgr inż. Żmuda Marcin\; mgr inż. P
+ ogorzelski Ireneusz\nNr zajęć: 5/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0c35ff9dea6e9a2e20f81fd9@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270107T114000
+DTEND;TZID=Europe/Warsaw:20270107T131500
+SUMMARY:IJL (S)
+LOCATION:1.16/ 16
+DESCRIPTION:Inżynieria jakości w logistyce\nRodzaj: seminarium\nProwadz
+ ący: kpt. dr inż. Piękoś Dominik\nNr zajęć: 1/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2008dabac0cb6890b9c1a3e3@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270107T133000
+DTEND;TZID=Europe/Warsaw:20270107T150500
+SUMMARY:IJL (S)
+LOCATION:1.16/ 16
+DESCRIPTION:Inżynieria jakości w logistyce\nRodzaj: seminarium\nProwadz
+ ący: kpt. dr inż. Piękoś Dominik\nNr zajęć: 2/2\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:077421ea7032f74bda903f2e@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270108T080000
+DTEND;TZID=Europe/Warsaw:20270108T093500
+SUMMARY:LD (w)
+LOCATION:aula/ 135
+DESCRIPTION:Logistyka dystrybucji\nRodzaj: wykład\nProwadzący: dr Kalbar
+ czyk Ewa\nNr zajęć: 5/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a2602baf484ed95c8c3bff25@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270108T114000
+DTEND;TZID=Europe/Warsaw:20270108T131500
+SUMMARY:Is (w)
+LOCATION:aula/ 135
+DESCRIPTION:Inżynieria systemów i analiza systemowa\nRodzaj: wykład\nPr
+ owadzący: prof. dr. hab. inż. Brzeziński Marian\nNr zajęć: 8/10\nBlo
+ k: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:626f10feb1d986fec24d59e2@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270111T114000
+DTEND;TZID=Europe/Warsaw:20270111T131500
+SUMMARY:BiESTS (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Budowa i eksploatacja środków transportu samochodowego\nRodz
+ aj: wykład\nProwadzący: mgr inż. Radzimierski Mariusz\nNr zajęć: 9/9
+ \nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:dfa5a3be952cc5a7b0a1f72c@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270111T133000
+DTEND;TZID=Europe/Warsaw:20270111T150500
+SUMMARY:Is (ć)
+LOCATION:aula/ 135
+DESCRIPTION:Inżynieria systemów i analiza systemowa\nRodzaj: ćwiczenia\
+ nProwadzący: dr inż. Głodowska Katarzyna\nNr zajęć: 8/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:65b1f006547614f4b5f6364c@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270111T160000
+DTEND;TZID=Europe/Warsaw:20270111T173500
+SUMMARY:Is (w)
+LOCATION:aula/ 135
+DESCRIPTION:Inżynieria systemów i analiza systemowa\nRodzaj: wykład\nPr
+ owadzący: prof. dr. hab. inż. Brzeziński Marian\nNr zajęć: 9/10\nBlo
+ k: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:8d5f8d5774fb6f6050bf3ba5@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270111T175000
+DTEND;TZID=Europe/Warsaw:20270111T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231 K\;232 K\;233 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 13/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:6ffa19344af5297aa7ce2680@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270112T080000
+DTEND;TZID=Europe/Warsaw:20270112T093500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: prof.dr hab.inż. Rutk
+ owski Jarosław\nNr zajęć: 13/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a119242186e86fba2058beec@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270112T095000
+DTEND;TZID=Europe/Warsaw:20270112T112500
+SUMMARY:F2 (ć)
+LOCATION:0.19/ 135
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr inż. Pawluczyk 
+ Jarosław\nNr zajęć: 8/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:89d725d8fbb09837a21975ce@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270112T133000
+DTEND;TZID=Europe/Warsaw:20270112T150500
+SUMMARY:Ek (ć)
+LOCATION:A.1.3/ 135
+DESCRIPTION:Ekonomia\nRodzaj: ćwiczenia\nProwadzący: płk dr hab. Stańc
+ zyk Konrad\nNr zajęć: 5/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ae7282c72bd42462e9af8a3a@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270112T160000
+DTEND;TZID=Europe/Warsaw:20270112T173500
+SUMMARY:Ek (w)
+LOCATION:aula/ 135
+DESCRIPTION:Ekonomia\nRodzaj: wykład\nProwadzący: płk dr hab. Stańczyk
+  Konrad\nNr zajęć: 11/11\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:4d6691856514e41640646747@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270113T133000
+DTEND;TZID=Europe/Warsaw:20270113T150500
+SUMMARY:Ja (ć)
+LOCATION:241 K\;132 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 13/15\nBlok:
+  4
+END:VEVENT
+BEGIN:VEVENT
+UID:ac49cfeb42beda8dd7ddc34d@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270115T080000
+DTEND;TZID=Europe/Warsaw:20270115T093500
+SUMMARY:LD (w)
+LOCATION:aula/ 135
+DESCRIPTION:Logistyka dystrybucji\nRodzaj: wykład\nProwadzący: dr Kalbar
+ czyk Ewa\nNr zajęć: 6/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f9df243475c491418c031d08@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270116T114000
+DTEND;TZID=Europe/Warsaw:20270116T131500
+SUMMARY:XWDM (ć)
+LOCATION:2.22/ 135\; powtarzanie zajęć
+DESCRIPTION:XWprowadzenie do metrologii\nRodzaj: ćwiczenia\nProwadzący: 
+ dr hab. inż.(prof. ucz.) Pszczółkowski Józef\nNr zajęć: 5/6\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:53743839f5a9c0f06a3c374f@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270116T133000
+DTEND;TZID=Europe/Warsaw:20270116T150500
+SUMMARY:XWDM (ć)
+LOCATION:2.22/ 135\; powtarzanie zajęć
+DESCRIPTION:XWprowadzenie do metrologii\nRodzaj: ćwiczenia\nProwadzący: 
+ dr hab. inż.(prof. ucz.) Pszczółkowski Józef\nNr zajęć: 6/6\nBlok: 
+ 4
+END:VEVENT
+BEGIN:VEVENT
+UID:33879c28ed91b91dc8dee4b9@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270118T175000
+DTEND;TZID=Europe/Warsaw:20270118T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231 K\;232 K\;233 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 14/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:df2279addc7e727c282b913e@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270119T080000
+DTEND;TZID=Europe/Warsaw:20270119T093500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: prof.dr hab.inż. Rutk
+ owski Jarosław\nNr zajęć: 14/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2cf4cdf29a5af1164541262a@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270119T095000
+DTEND;TZID=Europe/Warsaw:20270119T112500
+SUMMARY:F2 (ć)
+LOCATION:0.19/ 135
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr inż. Pawluczyk 
+ Jarosław\nNr zajęć: 9/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e228d5c440d439faea1277a8@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270119T114000
+DTEND;TZID=Europe/Warsaw:20270119T131500
+SUMMARY:Ek (ć)
+LOCATION:4.17a/ 135
+DESCRIPTION:Ekonomia\nRodzaj: ćwiczenia\nProwadzący: płk dr hab. Stańc
+ zyk Konrad\nNr zajęć: 6/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:86b6ad2608d57f36cbde69b3@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270119T160000
+DTEND;TZID=Europe/Warsaw:20270119T173500
+SUMMARY:Is (w)
+LOCATION:aula/ 135
+DESCRIPTION:Inżynieria systemów i analiza systemowa\nRodzaj: wykład\nPr
+ owadzący: prof. dr. hab. inż. Brzeziński Marian\nNr zajęć: 10/10\nBl
+ ok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:85fd31c6560ac9a53952084e@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270120T114000
+DTEND;TZID=Europe/Warsaw:20270120T131500
+SUMMARY:F2 (L)
+LOCATION:Grb\; Żuch\; Lar\; Jkb\; 141 S\;139 S
+DESCRIPTION:Fizyka 2\nRodzaj: laboratorium\nNr zajęć: 5/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6343be4608abe7101126db0d@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270120T133000
+DTEND;TZID=Europe/Warsaw:20270120T150500
+SUMMARY:Ja (ć)
+LOCATION:241 K\;132 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 14/15\nBlok:
+  4
+END:VEVENT
+BEGIN:VEVENT
+UID:db81196903a4cae409ea8d5d@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270121T080000
+DTEND;TZID=Europe/Warsaw:20270121T093500
+SUMMARY:Is (S)
+LOCATION:0.7/ 16
+DESCRIPTION:Inżynieria systemów i analiza systemowa\nRodzaj: seminarium\
+ nProwadzący: prof. dr. hab. inż. Brzeziński Marian\nNr zajęć: 1/2\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:528ff1080ab1c1f968dddb7f@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270121T095000
+DTEND;TZID=Europe/Warsaw:20270121T112500
+SUMMARY:Is (S)
+LOCATION:0.7/ 16
+DESCRIPTION:Inżynieria systemów i analiza systemowa\nRodzaj: seminarium\
+ nProwadzący: prof. dr. hab. inż. Brzeziński Marian\nNr zajęć: 2/2\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a08a28455c92908e4b540b9e@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270122T080000
+DTEND;TZID=Europe/Warsaw:20270122T093500
+SUMMARY:LD (w)
+LOCATION:aula/ 135
+DESCRIPTION:Logistyka dystrybucji\nRodzaj: wykład\nProwadzący: dr Kalbar
+ czyk Ewa\nNr zajęć: 7/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:33efb76241509b56202eb102@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270122T095000
+DTEND;TZID=Europe/Warsaw:20270122T112500
+SUMMARY:LD (S)
+LOCATION:1/ 22
+DESCRIPTION:Logistyka dystrybucji\nRodzaj: seminarium\nProwadzący: dr Kal
+ barczyk Ewa\nNr zajęć: 1/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0d361334b1ecc88bd28e893e@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270125T175000
+DTEND;TZID=Europe/Warsaw:20270125T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231 K\;232 K\;233 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 15/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:f837af86b8cc6c320b1fe038@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270126T080000
+DTEND;TZID=Europe/Warsaw:20270126T093500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: prof.dr hab.inż. Rutk
+ owski Jarosław\nNr zajęć: 15/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6cb4c4acb118bd3e115fcaeb@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270126T095000
+DTEND;TZID=Europe/Warsaw:20270126T112500
+SUMMARY:Ek (ć)
+LOCATION:4.17a/ 135
+DESCRIPTION:Ekonomia\nRodzaj: ćwiczenia\nProwadzący: płk dr hab. Stańc
+ zyk Konrad\nNr zajęć: 7/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f820ec15c247204a21a9b665@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270126T114000
+DTEND;TZID=Europe/Warsaw:20270126T131500
+SUMMARY:LP (w)
+LOCATION:aula/ 135
+DESCRIPTION:Logistyka produkcji\nRodzaj: wykład\nProwadzący: ppłk dr in
+ ż. Grzelak Małgorzata\nNr zajęć: 7/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7463fa9f3409bf08240b3478@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270126T133000
+DTEND;TZID=Europe/Warsaw:20270126T150500
+SUMMARY:F2 (ć)
+LOCATION:0.19/ 135
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr inż. Pawluczyk 
+ Jarosław\nNr zajęć: 10/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f22a8ffa24c7c19ea63be0db@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270126T160000
+DTEND;TZID=Europe/Warsaw:20270126T173500
+SUMMARY:T* (w)
+LOCATION:aula/ 135
+DESCRIPTION:Towaroznawstwo\nRodzaj: wykład\nProwadzący: dr Oziębło Ma
+ łgorzata\nNr zajęć: 7/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:2db5b4df5d9d573e532e2fea@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270127T133000
+DTEND;TZID=Europe/Warsaw:20270127T150500
+SUMMARY:Ja (ć)
+LOCATION:241 K\;132 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 15/15\nBlok:
+  4
+END:VEVENT
+BEGIN:VEVENT
+UID:7c0e081e46e3e036235e281f@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270129T095000
+DTEND;TZID=Europe/Warsaw:20270129T112500
+SUMMARY:LD (S)
+LOCATION:1/ 22
+DESCRIPTION:Logistyka dystrybucji\nRodzaj: seminarium\nProwadzący: dr Kal
+ barczyk Ewa\nNr zajęć: 2/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a6961c014e5730ea4ce67df3@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270201T114000
+DTEND;TZID=Europe/Warsaw:20270201T131500
+SUMMARY:F2 (E)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: egzamin\nProwadzący: prof.dr hab.inż. Rutk
+ owski Jarosław\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:cb44633770f21dfb38995727@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270203T160000
+DTEND;TZID=Europe/Warsaw:20270203T173500
+SUMMARY:Is (E)
+LOCATION:aula/ 135
+DESCRIPTION:Inżynieria systemów i analiza systemowa\nRodzaj: egzamin\nPr
+ owadzący: prof. dr. hab. inż. Brzeziński Marian\nNr zajęć: 1/1\nBlok
+ : 5
+END:VEVENT
+BEGIN:VEVENT
+UID:ad06d693ab41af30f9674c1b@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270215T114000
+DTEND;TZID=Europe/Warsaw:20270215T131500
+SUMMARY:F2 (Ep)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: egzamin poprawkowy\nProwadzący: prof.dr hab
+ .inż. Rutkowski Jarosław\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ecaeb60cf6a3ee73d536d382@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270217T160000
+DTEND;TZID=Europe/Warsaw:20270217T173500
+SUMMARY:Is (Ep)
+LOCATION:aula/ 135
+DESCRIPTION:Inżynieria systemów i analiza systemowa\nRodzaj: egzamin pop
+ rawkowy\nProwadzący: prof. dr. hab. inż. Brzeziński Marian\nNr zajęć
+ : 1/1\nBlok: 5
+END:VEVENT
+END:VCALENDAR

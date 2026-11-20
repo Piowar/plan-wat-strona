@@ -1,0 +1,1652 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
+<link rel="icon" href="ikony/ikona.svg" type="image/svg+xml">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="ikony/ikona-180.png">
+<meta name="theme-color" content="#2457c5">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Plan WAT">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<title>Plany zajęć WAT</title>
+<style>
+:root {
+  --bg: #f6f7f9; --surface: #ffffff; --surface-2: #eef0f4; --text: #1d2129; --muted: #5d6573;
+  --line: #d9dde5; --accent: #2457c5; --accent-text: #ffffff;
+  --ok: #1f7a3d; --ok-bg: #e3f4e8; --warn: #8a5a00; --warn-bg: #fff2d6; --bad: #b42318; --bad-bg: #fde7e4;
+  --today: #fff8db; --radius: 10px;
+  --busy-bg: #dbe4f8; --busy-text: #1c3770;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #121418; --surface: #1b1e24; --surface-2: #252931; --text: #e6e8ec; --muted: #a0a7b4;
+    --line: #333844; --accent: #7aa2ff; --accent-text: #0d1220;
+    --ok: #7ad69a; --ok-bg: #173323; --warn: #f0c063; --warn-bg: #3a2e12; --bad: #ff8f84; --bad-bg: #3d1a17;
+    --today: #2c2a1a;
+    --busy-bg: #2b3a5c; --busy-text: #d3defc;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #121418; --surface: #1b1e24; --surface-2: #252931; --text: #e6e8ec; --muted: #a0a7b4;
+  --line: #333844; --accent: #7aa2ff; --accent-text: #0d1220;
+  --ok: #7ad69a; --ok-bg: #173323; --warn: #f0c063; --warn-bg: #3a2e12; --bad: #ff8f84; --bad-bg: #3d1a17;
+  --today: #2c2a1a;
+  --busy-bg: #2b3a5c; --busy-text: #d3defc;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; }
+body { background: var(--bg); color: var(--text); font: 15px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+a { color: var(--accent); }
+header { background: var(--surface); border-bottom: 1px solid var(--line); }
+.wrap { max-width: 1200px; margin: 0 auto; padding: 0 16px; }
+.top { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 16px; padding: 14px 0 6px; }
+h1 { font-size: 20px; margin: 0; }
+h2 { font-size: 16px; margin: 0 0 8px; }
+.sub { color: var(--muted); font-size: 13px; }
+nav.tabs { display: flex; gap: 4px; overflow-x: auto; }
+nav.tabs button { border: 0; background: none; color: var(--muted); font: inherit; font-weight: 600; padding: 10px 12px; border-bottom: 3px solid transparent; cursor: pointer; white-space: nowrap; }
+nav.tabs button[aria-selected="true"] { color: var(--text); border-bottom-color: var(--accent); }
+main { padding: 16px 0 40px; }
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px; margin-bottom: 14px; }
+.controls { display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: end; }
+label.f { display: flex; flex-direction: column; gap: 4px; font-size: 13px; color: var(--muted); min-width: 0; }
+select, input[type="search"], input[type="number"] { font: inherit; color: var(--text); background: var(--surface-2); border: 1px solid var(--line); border-radius: 8px; padding: 7px 9px; max-width: 100%; }
+label.chk { display: inline-flex; gap: 6px; align-items: center; font-size: 14px; cursor: pointer; }
+.btn { display: inline-block; text-decoration: none; font: inherit; border: 1px solid var(--line); background: var(--surface-2); color: var(--text); border-radius: 8px; padding: 7px 12px; cursor: pointer; }
+.btn.primary { background: var(--accent); color: var(--accent-text); border-color: var(--accent); }
+.btn.small { padding: 3px 9px; font-size: 13px; }
+.btn:focus-visible, nav.tabs button:focus-visible, .ev:focus-visible, .chip button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.chip { display: inline-flex; align-items: center; gap: 6px; background: var(--surface-2); border: 1px solid var(--line); border-radius: 999px; padding: 3px 4px 3px 10px; font-size: 13px; }
+.chip .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--c, var(--accent)); }
+.chip button { border: 0; background: none; color: var(--muted); cursor: pointer; font-size: 15px; line-height: 1; padding: 2px 6px; border-radius: 999px; }
+.picker { position: relative; flex: 1 1 260px; }
+.picker input { width: 100%; }
+.sugg { position: absolute; z-index: 5; left: 0; right: 0; top: 100%; margin-top: 4px; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; max-height: 280px; overflow: auto; box-shadow: 0 6px 20px rgb(0 0 0 / .18); }
+.sugg button { display: flex; justify-content: space-between; gap: 10px; width: 100%; text-align: left; font: inherit; color: var(--text); background: none; border: 0; border-bottom: 1px solid var(--line); padding: 7px 10px; cursor: pointer; }
+.sugg button:hover, .sugg button.act { background: var(--surface-2); }
+.weekbar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 12px 0; }
+.weekbar .title { font-weight: 600; margin-right: auto; }
+.grid { display: grid; gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; }
+.grid > div { background: var(--surface); padding: 6px; min-height: 54px; }
+.grid .h { background: var(--surface-2); font-weight: 600; font-size: 13px; min-height: 0; }
+.grid .h.today { background: var(--today); }
+.grid .t { background: var(--surface-2); font-size: 12px; color: var(--muted); }
+.grid .t b { color: var(--text); font-size: 14px; display: block; }
+.grid .free { background: var(--ok-bg); color: var(--ok); font-size: 12.5px; font-weight: 600; }
+.grid .busy { font-size: 12px; }
+.sale-sum { margin: 12px 0 4px; }
+.sale-sum .ile { font-size: 17px; font-weight: 700; }
+.sale-sum .ile small { font-size: 13px; font-weight: 400; color: var(--muted); }
+.sale-grp { margin-top: 10px; }
+.sale-grp > .lbl { font-size: 12.5px; color: var(--muted); font-weight: 600; text-transform: uppercase; letter-spacing: .03em; }
+.sale-grp .chips { margin-top: 5px; }
+button.sala { font: inherit; font-size: 14px; font-weight: 600; color: var(--ok); background: var(--ok-bg); border: 1px solid transparent; border-radius: 8px; padding: 4px 9px; cursor: pointer; line-height: 1.2; }
+button.sala small { display: block; font-size: 11px; font-weight: 500; opacity: .85; }
+button.sala.krotko { color: var(--warn); background: var(--warn-bg); }
+button.sala:hover { border-color: currentColor; }
+.sale-opcje { display: flex; flex-wrap: wrap; gap: 6px 16px; align-items: center; margin: 16px 0 8px; font-size: 13px; color: var(--muted); }
+.sale-opcje .leg { display: inline-flex; align-items: center; gap: 5px; }
+.sale-opcje .leg i { width: 14px; height: 14px; border-radius: 4px; display: inline-block; border: 1px solid var(--line); }
+table.sale { border-collapse: separate; border-spacing: 2px; width: 100%; }
+table.sale th { font-size: 12px; font-weight: 600; color: var(--muted); text-align: center; padding: 2px 2px 4px; white-space: nowrap; border: 0; }
+table.sale th small { display: block; font-weight: 400; font-size: 10.5px; }
+table.sale th.wyb { color: var(--accent); }
+table.sale td { border: 0; padding: 0; }
+table.sale td.n { position: sticky; left: 0; z-index: 1; background: var(--surface); font-weight: 600; font-size: 13.5px; padding: 0 8px 0 2px; white-space: nowrap; }
+table.sale td.b { height: 30px; min-width: 44px; border-radius: 5px; background: var(--surface-2); font-size: 12px; text-align: center; padding: 2px 4px; line-height: 1.15; }
+table.sale td.b.zaj { background: var(--busy-bg); color: var(--busy-text); font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 0; }
+table.sale td.b.zaj small { font-weight: 400; opacity: .8; }
+table.sale td.b.wolna.wyb { background: var(--ok-bg); box-shadow: inset 0 0 0 2px var(--ok); }
+table.sale td.b.zaj.wyb { box-shadow: inset 0 0 0 2px var(--busy-text); }
+@media (max-width: 480px) {
+  table.sale { border-spacing: 1px; }
+  table.sale td.b { min-width: 34px; height: 28px; font-size: 11px; padding: 1px 2px; }
+  table.sale td.b.zaj small { display: none; }
+  table.sale td.n { font-size: 12.5px; padding-right: 4px; }
+}
+table.sale tr.klik { cursor: pointer; }
+#sSzczegoly > ul { list-style: none; padding: 0; margin: 0; }
+li.sala-dzien { margin: 0 0 8px; }
+li.sala-dzien ul { margin: 2px 0 0; padding-left: 16px; }
+li.sala-dzien .kiedy { color: var(--muted); font-variant-numeric: tabular-nums; }
+table.sale tr.klik:hover td.n { text-decoration: underline; }
+.ev { display: block; width: 100%; text-align: left; font: inherit; color: inherit; background: var(--surface-2); border: 0; border-left: 4px solid var(--c, var(--accent)); border-radius: 6px; padding: 4px 6px; margin: 0 0 4px; cursor: pointer; font-size: 12.5px; line-height: 1.3; }
+.ev:last-child { margin-bottom: 0; }
+.ev .s { font-weight: 700; }
+.ev .m, .ev .g { color: var(--muted); }
+.ev .g { font-size: 11px; display: block; }
+.ev.zn { cursor: default; border-left-color: var(--muted); font-style: italic; }
+.who { display: inline-block; border-left: 3px solid var(--c, var(--accent)); padding-left: 5px; margin: 0 6px 2px 0; }
+.days { display: flex; flex-direction: column; gap: 10px; }
+.day { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 10px; }
+.day.today { background: var(--today); }
+.day h3 { margin: 0 0 8px; font-size: 15px; }
+.row { display: flex; gap: 10px; align-items: flex-start; padding: 4px 0; border-top: 1px solid var(--line); }
+.row:first-of-type { border-top: 0; }
+.row .tm { width: 62px; flex: none; font-size: 12px; color: var(--muted); padding-top: 4px; }
+.row .tm b { color: var(--text); display: block; font-size: 13px; }
+.row .evs { flex: 1; min-width: 0; }
+.row .evs.free { color: var(--ok); font-weight: 600; font-size: 13px; padding-top: 4px; }
+.empty { color: var(--muted); padding: 16px; text-align: center; }
+.badge { display: inline-block; font-size: 12px; font-weight: 600; padding: 2px 8px; border-radius: 999px; white-space: nowrap; }
+.badge.ok { background: var(--ok-bg); color: var(--ok); }
+.badge.bad { background: var(--bad-bg); color: var(--bad); }
+.badge.warn { background: var(--warn-bg); color: var(--warn); }
+.badge.mut { background: var(--surface-2); color: var(--muted); }
+.note { font-size: 13px; color: var(--muted); margin: 8px 0 0; }
+.note.warn { color: var(--warn); }
+#ostrzezenia { margin: 6px 0 2px; padding: 8px 12px; border-radius: 8px; background: var(--warn-bg); color: var(--warn); font-size: 13px; }
+#ostrzezenia ul { margin: 4px 0 0; padding-left: 18px; }
+.ref { background: var(--surface-2); border-radius: 8px; padding: 8px 10px; margin: 12px 0; font-size: 14px; }
+.cards { display: flex; flex-direction: column; gap: 8px; margin-top: 10px; }
+.card { border: 1px solid var(--line); border-left: 4px solid var(--c, var(--accent)); border-radius: 8px; padding: 9px 11px; background: var(--surface); display: grid; grid-template-columns: 1fr auto; gap: 4px 10px; }
+.card .when { font-weight: 700; }
+.card .meta { color: var(--muted); font-size: 13px; grid-column: 1 / -1; }
+.card .st { text-align: right; }
+.card.dim { opacity: .62; }
+.slots { display: flex; flex-direction: column; gap: 6px; margin-top: 10px; }
+.slotday { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; padding: 6px 0; border-top: 1px solid var(--line); }
+.slotday b { min-width: 150px; }
+table.list { width: 100%; border-collapse: collapse; font-size: 14px; }
+table.list th, table.list td { text-align: left; padding: 7px 6px; border-bottom: 1px solid var(--line); vertical-align: top; }
+table.list th { font-size: 12px; color: var(--muted); font-weight: 600; }
+.scroll { overflow-x: auto; }
+code { background: var(--surface-2); border-radius: 5px; padding: 1px 5px; word-break: break-all; }
+dialog { border: 1px solid var(--line); border-radius: 12px; background: var(--surface); color: var(--text); padding: 0; width: min(460px, calc(100vw - 32px)); }
+dialog::backdrop { background: rgb(0 0 0 / .45); }
+dialog .dh { padding: 14px 16px 10px; border-left: 6px solid var(--c, var(--accent)); }
+dialog .dh h2 { margin: 0; font-size: 17px; }
+dialog dl { margin: 0; padding: 0 16px; display: grid; grid-template-columns: auto 1fr; gap: 4px 12px; font-size: 14px; }
+dialog dt { color: var(--muted); }
+dialog dd { margin: 0; }
+dialog .da { display: flex; gap: 8px; justify-content: flex-end; padding: 14px 16px; flex-wrap: wrap; }
+.hidden { display: none !important; }
+.loading { color: var(--muted); font-size: 13px; }
+@media (max-width: 700px) {
+  .controls > label.f { flex: 1 1 100%; }
+  .card { grid-template-columns: 1fr; }
+  .card .st { text-align: left; }
+  .slotday b { min-width: 0; width: 100%; }
+}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="top">
+      <h1>Plany zajęć WAT</h1>
+      <span class="sub" id="info"></span>
+      <span class="badge warn hidden" id="offline">bez internetu – zapisane dane</span>
+      <button type="button" class="btn small hidden" id="instaluj">Zainstaluj aplikację</button>
+    </div>
+    <div id="ostrzezenia" class="hidden" role="status"></div>
+    <nav class="tabs" role="tablist">
+      <button role="tab" data-tab="plan">Plan</button>
+      <button role="tab" data-tab="wolne">Wspólny wolny czas</button>
+      <button role="tab" data-tab="odrabianie">Odrabianie</button>
+      <button role="tab" data-tab="sale">Sale i prowadzący</button>
+      <button role="tab" data-tab="wf">WF</button>
+      <button role="tab" data-tab="rok">Rok akademicki</button>
+      <button role="tab" data-tab="grupy">Moje grupy</button>
+      <button role="tab" data-tab="kalendarze">Kalendarz w telefonie</button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <div id="brak" class="panel hidden">
+    Brak danych. Plik <code>dane/indeks.js</code> nie został wczytany – uruchom
+    <code>python3 generuj.py --wszystkie</code> w folderze projektu albo poczekaj na odświeżenie w GitHub Actions.
+  </div>
+
+  <!-- PLAN -->
+  <section id="tab-plan" class="hidden">
+    <div class="panel controls">
+      <label class="f">Pokaż
+        <select id="planTryb">
+          <option value="moje">Moje grupy (razem)</option>
+          <option value="jedna">Jedna grupa…</option>
+        </select>
+      </label>
+      <div class="picker hidden" id="planPicker"></div>
+      <label class="f">Szukaj przedmiotu
+        <input type="search" id="planFiltr" placeholder="np. angielski, L, 309 S">
+      </label>
+    </div>
+    <div class="weekbar">
+      <span class="title" id="tydzienTytul"></span>
+      <button class="btn" data-tydz="-1">‹ Poprzedni</button>
+      <button class="btn" data-tydz="0">Dziś</button>
+      <button class="btn" data-tydz="1">Następny ›</button>
+    </div>
+    <div id="planWidok"></div>
+  </section>
+
+  <!-- WSPÓLNY WOLNY CZAS -->
+  <section id="tab-wolne" class="hidden">
+    <div class="panel">
+      <h2>Porównaj plany</h2>
+      <p class="note" style="margin-top:0">Dodaj grupy, które chcesz porównać – z dowolnego wydziału. Grupę usuniesz krzyżykiem.</p>
+      <div class="controls" style="margin-top:8px">
+        <div class="picker" id="wPicker"></div>
+      </div>
+      <div class="chips" id="wChips"></div>
+    </div>
+    <div class="weekbar">
+      <span class="title" id="wTytul"></span>
+      <button class="btn" data-wtydz="-1">‹ Poprzedni</button>
+      <button class="btn" data-wtydz="0">Dziś</button>
+      <button class="btn" data-wtydz="1">Następny ›</button>
+    </div>
+    <div id="wWidok"></div>
+    <div class="panel" style="margin-top:14px">
+      <h2>Wspólne wolne bloki</h2>
+      <div class="controls">
+        <label class="f">Najbliższe dni
+          <select id="wDni"><option>7</option><option selected>14</option><option>30</option></select>
+        </label>
+        <label class="f">Bloki od – do
+          <span style="display:flex;gap:6px"><select id="wOd"></select><select id="wDo"></select></span>
+        </label>
+        <label class="chk"><input type="checkbox" id="wWeekend"> także sobota i niedziela</label>
+      </div>
+      <div id="wLista"></div>
+    </div>
+  </section>
+
+  <!-- ODRABIANIE -->
+  <section id="tab-odrabianie" class="hidden">
+    <div class="panel">
+      <div class="controls">
+        <label class="f">Grupa
+          <select id="oGrupa"></select>
+        </label>
+        <div style="display:flex;flex-direction:column;gap:4px;font-size:13px;color:var(--muted);flex:0 1 220px;min-width:0">Inna grupa<div class="picker" id="oPicker"></div></div>
+        <label class="f" style="flex:1 1 320px">Przedmiot i rodzaj zajęć
+          <select id="oPrzedmiot"></select>
+        </label>
+        <label class="f">Numer zajęć
+          <select id="oNr"></select>
+        </label>
+      </div>
+      <div class="controls" style="margin-top:10px">
+        <label class="chk"><input type="checkbox" id="oPrzyszle" checked> tylko przyszłe terminy</label>
+        <label class="chk"><input type="checkbox" id="oKolizje" checked> pokaż terminy kolidujące</label>
+        <label class="chk"><input type="checkbox" id="oWspolne"> pokaż zajęcia w tym samym terminie co moje</label>
+      </div>
+      <p class="note">Szukane są wszystkie grupy WAT mające ten sam przedmiot i rodzaj zajęć. Kolizje sprawdzane są z planem Twoich grup (z zakładki „Moje grupy”), a gdy ich nie masz – z planem wybranej grupy.</p>
+    </div>
+    <div id="oRef"></div>
+    <div id="oWyniki"></div>
+  </section>
+
+  <!-- SALE I PROWADZĄCY -->
+  <section id="tab-sale" class="hidden">
+    <div class="panel">
+      <h2>Wolna sala</h2>
+      <div class="controls">
+        <label class="f">Budynek <select id="sBud"></select></label>
+        <label class="f">Dzień <input type="date" id="sDzien"></label>
+        <label class="f">Blok <select id="sBlok"></select></label>
+        <label class="f" style="flex:1 1 160px">Sala <input type="search" id="sSala" placeholder="np. 314"></label>
+      </div>
+      <div id="sWynik"></div>
+      <p class="note">Według planów zajęć z publicznych stron wydziałów. Sala może być zajęta przez coś, czego tam nie ma (WIG, egzaminy, wydarzenia, rezerwacje), a skrót budynku jest taki jak w planach (np. „S”, „K”, „65”).</p>
+    </div>
+    <div class="panel">
+      <h2>Prowadzący – kiedy i gdzie ma zajęcia</h2>
+      <div class="controls"><div class="picker" id="osPicker"></div></div>
+      <div id="osWynik"></div>
+    </div>
+  </section>
+
+  <!-- WF -->
+  <section id="tab-wf" class="hidden">
+    <div class="panel">
+      <h2>Wychowanie fizyczne (SWF)</h2>
+      <div class="controls">
+        <label class="f">Moja grupa w rozkładzie SWF
+          <select id="wfGrupa"></select>
+        </label>
+        <label class="chk"><input type="checkbox" id="wfPrzeszle"> pokaż minione zajęcia</label>
+      </div>
+      <p class="note" id="wfPodpowiedz"></p>
+    </div>
+    <div id="wfZajecia"></div>
+    <div class="panel" id="wfPowt"></div>
+    <div class="panel">
+      <h2>Pływalnia – kiedy mogę popływać</h2>
+      <div class="controls">
+        <label class="f">Jestem
+          <select id="pKto">
+            <option value="cywilni">studentem cywilnym</option>
+            <option value="podchorazowie">podchorążym</option>
+            <option value="kadra">żołnierzem zawodowym / pracownikiem</option>
+          </select>
+        </label>
+        <label class="f">Dzień
+          <select id="pDzien"></select>
+        </label>
+      </div>
+      <div id="pWynik"></div>
+    </div>
+    <div class="panel">
+      <h2>Konsultacje nauczycieli SWF</h2>
+      <div class="controls"><label class="f" style="flex:1 1 260px">Szukaj osoby
+        <input type="search" id="kSzukaj" placeholder="np. Krauz, Kępniak"></label></div>
+      <div id="kWynik"></div>
+    </div>
+    <div class="panel" id="wfLegenda"></div>
+    <div class="panel" id="wfDok"></div>
+  </section>
+
+  <!-- ROK AKADEMICKI -->
+  <section id="tab-rok" class="hidden">
+    <div class="panel">
+      <h2>Dni akademickie</h2>
+      <div class="controls">
+        <label class="f">Pokaż
+          <select id="rDla">
+            <option value="wszyscy">wszystko</option>
+            <option value="cywilni">tylko dotyczące wszystkich studentów</option>
+          </select>
+        </label>
+        <label class="chk"><input type="checkbox" id="rPrzeszle"> pokaż minione</label>
+      </div>
+      <div id="rOstrz"></div>
+    </div>
+    <div id="rLista"></div>
+  </section>
+
+  <!-- MOJE GRUPY -->
+  <section id="tab-grupy" class="hidden">
+    <div class="panel">
+      <h2>Moje grupy</h2>
+      <p class="note" style="margin-top:0">Wybierz grupy, do których należysz (np. grupę dziekańską i grupę językową). Ich zajęcia to „Twój plan” – zapamiętywane w tej przeglądarce.</p>
+      <div class="controls" style="margin-top:8px"><div class="picker" id="mPicker"></div></div>
+      <div class="chips" id="mChips"></div>
+    </div>
+    <div class="panel">
+      <h2>Wydziały</h2>
+      <div class="scroll"><table class="list" id="tWydz"></table></div>
+      <p class="note">Plany są pobierane z oficjalnych stron wydziałów raz dziennie. Liczba przy wydziale to grupy, które mają zajęcia w ostatnich miesiącach. Gdy plan nagle się skraca (np. wydział zmienił format strony), zostaje poprzednia wersja i pojawia się ostrzeżenie; zmiana trwająca ok. 2 dni jest przyjmowana.</p>
+    </div>
+  </section>
+
+  <!-- KALENDARZE -->
+  <section id="tab-kalendarze" class="hidden">
+    <div class="panel" id="kal"></div>
+  </section>
+</main>
+
+<dialog id="dlg">
+  <div class="dh"><h2 id="dTytul"></h2><div class="sub" id="dPod"></div></div>
+  <dl id="dLista"></dl>
+  <div class="da">
+    <button class="btn" id="dOdrob">Szukaj innych terminów</button>
+    <button class="btn primary" id="dZamknij">Zamknij</button>
+  </div>
+</dialog>
+
+<script>
+  // dane zmieniają się codziennie - znacznik czasu (co 10 min) omija starą kopię w pamięci przeglądarki
+  (function () {
+    var v = Math.floor(Date.now() / 600000);
+    ["indeks", "wf", "rok"].forEach(function (n) { document.write('<script src="dane/' + n + '.js?v=' + v + '"><\/script>'); });
+  })();
+</script>
+<script>
+"use strict";
+(function () {
+  function $(id) { return document.getElementById(id); }
+  var I = window.PLAN_INDEKS;
+  if (!I || !I.grupy) { $("brak").classList.remove("hidden"); return; }
+
+  var DNI = ["poniedziałek", "wtorek", "środa", "czwartek", "piątek", "sobota", "niedziela"];
+  var DNI_K = ["pon.", "wt.", "śr.", "czw.", "pt.", "sob.", "niedz."];
+  var MIES = ["sty", "lut", "mar", "kwi", "maj", "cze", "lip", "sie", "wrz", "paź", "lis", "gru"];
+  var TYP_KOLEJNOSC = { "ć": 0, "l": 1, "p": 2, "s": 3 };
+  var KOLORY = ["#2457c5", "#c2410c", "#15803d", "#9333ea", "#be123c", "#0e7490", "#a16207", "#4d7c0f"];
+  // znaczniki, które NIE oznaczają zajętości (dni wolne, rezerwy)
+  var ZN_WOLNE = /^(I|Św\.?|P\.?\s?św\.?|ŚwA|DW|Dz\.? ?wol.*)$/i;   // dni wolne (sprawdzone po datach)
+  var ZN_NIEPEWNE = /^(REZ)$/i;                                       // znaczenie nieustalone
+
+  // ---------- pomocnicze ----------
+  function el(tag, attrs) {
+    var e = document.createElement(tag);
+    if (attrs) for (var k in attrs) {
+      if (attrs[k] == null || attrs[k] === false) continue;
+      if (k === "text") e.textContent = attrs[k];
+      else if (k === "cls") e.className = attrs[k];
+      else if (k === "style") e.setAttribute("style", attrs[k]);
+      else if (k.slice(0, 2) === "on") e.addEventListener(k.slice(2), attrs[k]);
+      else e.setAttribute(k, attrs[k]);
+    }
+    for (var i = 2; i < arguments.length; i++) {
+      var c = arguments[i];
+      if (c == null || c === false) continue;
+      if (Array.isArray(c)) c.forEach(function (x) { if (x != null && x !== false) e.append(x); });
+      else e.append(c);
+    }
+    return e;
+  }
+  function pamiec(k, v) {
+    try {
+      if (v === undefined) return JSON.parse(localStorage.getItem("planwat." + k));
+      localStorage.setItem("planwat." + k, JSON.stringify(v));
+    } catch (e) { return null; }
+  }
+  function dataZ(s) { var p = s.split("-"); return new Date(+p[0], +p[1] - 1, +p[2]); }
+  function iso(d) { return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0"); }
+  function poniedzialek(d) { var x = new Date(d); x.setHours(0, 0, 0, 0); x.setDate(x.getDate() - ((x.getDay() + 6) % 7)); return x; }
+  function dodajDni(d, n) { var x = new Date(d); x.setDate(x.getDate() + n); return x; }
+  function dzienTyg(s) { return (dataZ(s).getDay() + 6) % 7; }
+  function ladnaData(s, zDniem, bezRoku) {
+    var d = dataZ(s);
+    return (zDniem ? DNI_K[(d.getDay() + 6) % 7] + " " : "") + d.getDate() + " " + MIES[d.getMonth()] + (bezRoku ? "" : " " + d.getFullYear());
+  }
+  function norm(s) { return (s || "").toLowerCase().replace(/\s+/g, " ").trim(); }
+  function normTyp(t) {
+    var x = norm(t).replace(/[().]/g, "");
+    return (x === "c" || x === "ćw" || x === "cw") ? "ć" : x;
+  }
+  function klucz(nazwa, skrot, typ) { return norm(nazwa || skrot || "?") + "|" + normTyp(typ); }
+  var DZIS = iso(new Date());
+  var GODZ = I.meta.godziny || {}, GODZ_W = I.meta.godziny_weekend || GODZ;
+  function godzinyBloku(b, data) {
+    var t = (data && dzienTyg(data) >= 5 ? GODZ_W : GODZ)[b];
+    return t ? t[0] + "–" + t[1] : "blok " + b;
+  }
+
+  var idsGrup = Object.keys(I.grupy).sort();
+  var WYDZ = {}; (I.wydzialy || []).forEach(function (w) { WYDZ[w.kod] = w; });
+
+  // ---------- wczytywanie grup na żądanie ----------
+  window.PLAN_G = window.PLAN_G || {};
+  var Z = {}, ladowanie = {};
+  function plikGrupy(id) {
+    return "dane/g/" + id.replace(/[^A-Za-z0-9_.-]/g, "_") + ".js?v=" + encodeURIComponent(I.meta.wygenerowano || "");
+  }
+  function przygotuj(id) {
+    var G = window.PLAN_G[id]; if (!G) return null;
+    Z[id] = G.z.map(function (r) {
+      var p = G.przedmioty[r[2]] || [], s = G.semestry[r[9]] || [];
+      var nazwa = p[1] || p[0] || "(bez nazwy)";
+      return { g: id, data: r[0], blok: r[1], skrot: p[0] || r[3] || "?", nazwa: nazwa, kolor: p[2],
+        typ: r[3], typNazwa: r[4], nr: r[5], nrZ: r[6], miejsce: r[7],
+        prow: r[8] >= 0 ? G.prowadzacy[r[8]] : null, sem: s[0], semNazwa: s[1], uwagi: r[10], wsp: r[11],
+        liczone: G.nr === "liczone", klucz: klucz(p[1], p[0], r[3]) };
+    });
+    (G.zn || []).forEach(function (r) {
+      Z[id].push({ g: id, data: r[0], blok: r[1], skrot: r[2], nazwa: r[2], znacznik: true,
+                   zajety: !ZN_WOLNE.test(r[2]), niepewny: ZN_NIEPEWNE.test(r[2]), klucz: "" });
+    });
+    return Z[id];
+  }
+  function zaladuj(ids) {
+    return Promise.all(ids.map(function (id) {
+      if (Z[id]) return Promise.resolve(Z[id]);
+      if (window.PLAN_G[id]) return Promise.resolve(przygotuj(id));
+      if (ladowanie[id]) return ladowanie[id];
+      ladowanie[id] = new Promise(function (ok) {
+        var s = document.createElement("script");
+        s.src = plikGrupy(id);
+        s.onload = function () { ok(przygotuj(id)); };
+        s.onerror = function () { Z[id] = []; ok(Z[id]); };
+        document.head.appendChild(s);
+      });
+      return ladowanie[id];
+    }));
+  }
+
+  // ---------- WF (Studium Wychowania Fizycznego) ----------
+  var W = window.PLAN_WF || null;
+  var RE_WF = /wychowanie fizyczne|^x?wf\b|^wf_e$/i;
+  function czyWF(e) { return !e.znacznik && (RE_WF.test(e.nazwa || "") || RE_WF.test(e.skrot || "")); }
+  function slownikWF() {
+    if (!W || !W.slowniki) return null;
+    var k = Object.keys(W.slowniki).sort(); return W.slowniki[k[k.length - 1]];
+  }
+  function dekodujWF(kod) {
+    var s = slownikWF(); if (!s || !kod) return { kod: kod, rodzaj: "inny" };
+    kod = kod.replace(/\s*\\\s*/g, "/");
+    var m = /^([A-ZŻ])([1-3])?\s*-\s*(\d{1,2})\s*\/\s*(\d{1,3})$/.exec(kod.trim());
+    if (m) {
+      var ob = s.obiekty[m[1]] || null, czesc = m[1] + (m[2] || "");
+      return { kod: kod, rodzaj: "wojskowy", obiektKod: czesc, obiekt: (s.obiekty_czesci || {})[czesc] || (ob ? ob[0] : null),
+               zewn: ob ? ob[1] : null, tematNr: +m[3], temat: s.tematy[m[3]] || null, nr: +m[4], sprawdzian: m[3] === "18" };
+    }
+    m = /^([A-ZŻ])-([A-Z]{1,2})$/.exec(kod.trim());
+    if (m) {
+      var ob2 = s.obiekty[m[1]] || null;
+      return { kod: kod, rodzaj: "cywilny", obiektKod: m[1], obiekt: ob2 ? ob2[0] : null, zewn: ob2 ? ob2[1] : null,
+               temat: s.cywilne[m[2]] || s.cywilne[m[1]] || null };
+    }
+    return { kod: kod, rodzaj: "inny" };
+  }
+  function opisWF(d) {
+    if (!d) return "";
+    if (d.rodzaj === "wojskowy") return d.kod + " · " + (d.obiekt || "?") + " · " + (d.temat || "temat " + d.tematNr) + ", zajęcia " + d.nr;
+    if (d.rodzaj === "cywilny") return d.kod + " · " + (d.temat || "?") + " · " + (d.obiekt || "?");
+    return d.kod;
+  }
+  // grupa SWF dla grupy dziekańskiej: wybrana ręcznie (moja), cywilna (prefiks), pluton z planów
+  var wfMoja = pamiec("wfGrupa") || "";
+  function grupySWF() { return W && W.rozklad ? Object.keys(W.rozklad).sort() : []; }
+  // ręczne przypisanie grupy SWF do konkretnej grupy dziekańskiej (okno szczegółów zajęć WF)
+  var wfPrzyp = pamiec("wfPrzypisania") || {};
+  // dopasowanie po terminach: grupa SWF, której zajęcia (prawie) w całości leżą w blokach WF grupy
+  var swfAuto = {};
+  function rankingSWF(g) {
+    if (!W || !W.rozklad || !Z[g]) return [];
+    var sloty = {}, n = 0;
+    Z[g].forEach(function (e) { if (czyWF(e)) { sloty[e.data + "#" + e.blok] = 1; n++; } });
+    if (!n) return [];
+    return grupySWF().map(function (sg) {
+      var rs = W.rozklad[sg], tr = 0;
+      rs.forEach(function (r) { if (sloty[r[0] + "#" + r[1]]) tr++; });
+      return { sg: sg, tr: tr, f: rs.length ? tr / rs.length : 0 };
+    }).filter(function (x) { return x.tr > 0; })
+      .sort(function (a, b) { return b.f * b.tr - a.f * a.tr || b.tr - a.tr; });
+  }
+  function autoSWF(g) {
+    if (swfAuto[g] !== undefined) return swfAuto[g];
+    if (!Z[g]) return null;                       // plan grupy jeszcze niewczytany
+    var r = rankingSWF(g), a = r[0], b = r[1];
+    swfAuto[g] = a && a.tr >= 8 && a.f >= 0.85 && (!b || a.f - b.f >= 0.05 || a.tr - b.tr >= 5) ? a : false;
+    return swfAuto[g];
+  }
+  // kandydaci w kolejności: ręczny wybór (dla grupy / moich grup), grupa cywilna (prefiks),
+  // pluton z planów, dopasowanie po terminach
+  function swfKandydaci(g) {
+    if (!W || !W.rozklad) return [];
+    var wynik = [];
+    if (wfPrzyp[g] && W.rozklad[wfPrzyp[g]]) return [wfPrzyp[g]];
+    if (moje.indexOf(g) >= 0 && wfMoja && W.rozklad[wfMoja]) wynik.push(wfMoja);
+    grupySWF().filter(function (s) { return /^[A-Z]{3}\d{2}/.test(s) && g.indexOf(s) === 0; })
+      .sort(function (a, b) { return b.length - a.length; }).forEach(function (s) { wynik.push(s); });
+    // pluton z planów - tylko przypisania potwierdzone zgodnością terminów z rozkładem SWF
+    if (W.plutony_zweryfikowane && W.plutony) {
+      for (var pl in W.plutony) if (W.plutony[pl].indexOf(g) >= 0 && W.rozklad[pl]) wynik.push(pl);
+    }
+    var au = autoSWF(g);
+    if (au && wynik.indexOf(au.sg) < 0) wynik.push(au.sg);
+    return wynik;
+  }  var swfIndeks = {};
+  function wpisSWF(sg, data, blok) {
+    if (!sg || !W || !W.rozklad[sg]) return null;
+    var idx = swfIndeks[sg];
+    if (!idx) { idx = swfIndeks[sg] = {}; W.rozklad[sg].forEach(function (r) { idx[r[0] + "#" + r[1]] = r; }); }
+    return idx[data + "#" + blok] || null;
+  }
+  function wfDlaZajec(e) {
+    if (!czyWF(e)) return null;
+    var kand = swfKandydaci(e.g), sg = null, r = null;
+    for (var i = 0; i < kand.length && !r; i++) { sg = kand[i]; r = wpisSWF(sg, e.data, e.blok); }
+    if (!r) return null;
+    var d = dekodujWF(r[2]); d.grupaSWF = sg; d.ini = r[3]; d.uwagi = r[4];
+    return d;
+  }
+
+  // ---------- moje grupy ----------
+  var moje = pamiec("moje");
+  if (!Array.isArray(moje)) moje = [];      // bez domyślnych grup - każdy dodaje swoje
+  moje = moje.filter(function (g) { return I.grupy[g]; });
+  function zapiszMoje() { pamiec("moje", moje); }
+
+  // ---------- wybór grupy (wyszukiwarka) ----------
+  // Grupy części wydziałów mają inny przedrostek niż kod wydziału (WML -> WMT…, WIM -> WME…),
+  // więc „WML”, „WML24” itp. dopasowujemy także po kodzie wydziału.
+  function pasujeGrupa(g, q) {
+    var G = g.toUpperCase();
+    if (G.indexOf(q) >= 0) return true;
+    var w = ((I.grupy[g] || {}).w || "").toUpperCase();
+    if (!w) return false;
+    if (q.length <= w.length) return w.indexOf(q) === 0;
+    // „WML24AO” -> grupa WMT24AO1S0: po kodzie wydziału reszta musi pasować od 4. znaku nazwy
+    return q.indexOf(w) === 0 && G.slice(w.length).indexOf(q.slice(w.length)) === 0;
+  }
+  function wybierak(kontener, onWybor, opisPola) {
+    kontener.textContent = "";
+    var inp = el("input", { type: "search", placeholder: opisPola || "Wpisz grupę, np. WEL24EA1S0 lub WCY24", autocomplete: "off", "aria-label": opisPola || "Szukaj grupy" });
+    var lista = el("div", { cls: "sugg hidden", role: "listbox" });
+    var akt = -1, wyniki = [];
+    function pokaz() {
+      var q = inp.value.trim().toUpperCase().replace(/\s+/g, "");
+      lista.textContent = ""; akt = -1;
+      if (!q) { lista.classList.add("hidden"); return; }
+      var wszystkie = idsGrup.filter(function (g) { return pasujeGrupa(g, q); });
+      wyniki = wszystkie.slice(0, 40);
+      if (!wyniki.length) { lista.append(el("div", { cls: "empty", text: "Brak takiej grupy" })); }
+      wyniki.forEach(function (g) {
+        var G = I.grupy[g];
+        lista.append(el("button", { type: "button", onclick: function () { wybierz(g); } },
+          el("span", { text: g }), el("span", { cls: "sub", text: (G.w || "") + " · " + (G.n || 0) + " zajęć" })));
+      });
+      if (wszystkie.length > wyniki.length)
+        lista.append(el("div", { cls: "empty", text: "…i " + (wszystkie.length - wyniki.length) + " więcej – wpisz dokładniej, np. rocznik (" + ((I.grupy[wyniki[0]] || {}).w || wyniki[0].slice(0, 3)) + wyniki[0].slice(3, 5) + ")" }));
+      lista.classList.remove("hidden");
+    }
+    function wybierz(g) { inp.value = ""; lista.classList.add("hidden"); onWybor(g); }
+    inp.addEventListener("input", pokaz);
+    inp.addEventListener("keydown", function (e) {
+      var b = lista.querySelectorAll("button");
+      if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+        e.preventDefault(); akt = Math.max(0, Math.min(b.length - 1, akt + (e.key === "ArrowDown" ? 1 : -1)));
+        b.forEach(function (x, i) { x.classList.toggle("act", i === akt); });
+      } else if (e.key === "Enter") {
+        e.preventDefault();
+        if (akt >= 0 && wyniki[akt]) wybierz(wyniki[akt]);
+        else if (wyniki.length) wybierz(wyniki[0]);
+      } else if (e.key === "Escape") lista.classList.add("hidden");
+    });
+    inp.addEventListener("blur", function () { setTimeout(function () { lista.classList.add("hidden"); }, 200); });
+    kontener.append(inp, lista);
+  }
+  function chip(g, kolor, onUsun, dopisek) {
+    return el("span", { cls: "chip", style: kolor ? "--c:" + kolor : null },
+      kolor ? el("span", { cls: "dot" }) : null, el("span", { text: g + " (" + (I.grupy[g] ? I.grupy[g].w : "?") + ")" + (dopisek || "") }),
+      onUsun ? el("button", { type: "button", "aria-label": "Usuń " + g, text: "×", onclick: onUsun }) : null);
+  }
+
+  // ---------- nagłówek ----------
+  var wyg = I.meta.wygenerowano ? I.meta.wygenerowano.replace("T", " ").replace("Z", " UTC") : "?";
+  $("info").textContent = "Dane z " + wyg + " · grup: " + idsGrup.length + " · wydziałów: " + (I.wydzialy || []).length;
+  (function () {
+    var o = I.meta.ostrzezenia || [], box = $("ostrzezenia");
+    if (!o.length) return;
+    box.classList.remove("hidden");
+    box.append(el("b", { text: "Uwaga – dane mogą być nieaktualne:" }));
+    var ul = el("ul"); o.forEach(function (t) { ul.append(el("li", { text: t })); }); box.append(ul);
+  })();
+  function opisSem(k) {
+    var m = /^(\d{4}\/\d{4})-([ZL])$/.exec(k || "");
+    return m ? (m[2] === "Z" ? "zimowy " : "letni ") + m[1] : "—";
+  }
+
+  // ---------- statystyki odwiedzin (GoatCounter: bez ciasteczek, bez danych osobowych) ----------
+  // Kod konta z https://<KOD>.goatcounter.com; pusty = licznik wyłączony. Działa tylko na
+  // opublikowanej stronie (https), nie na localhost. Liczone są wejścia oraz zdarzenia
+  // (otwarte zakładki, kliknięcia przy subskrypcji kalendarza) - bez nazw grup.
+  var GC_KOD = "planwat";
+  var LICZ_ON = !!GC_KOD && location.protocol === "https:" && !/^(localhost|127\.|\[::1\])/.test(location.hostname);
+  if (LICZ_ON) {
+    var gc = document.createElement("script");
+    gc.async = true; gc.src = "https://gc.zgo.at/count.js";
+    gc.setAttribute("data-goatcounter", "https://" + GC_KOD + ".goatcounter.com/count");
+    document.head.appendChild(gc);
+  }
+  var policzone = {};
+  function licz(zdarzenie, raz) {      // raz = najwyżej raz na wizytę
+    if (!LICZ_ON || (raz && policzone[zdarzenie])) return;
+    policzone[zdarzenie] = true;
+    function wyslij() { try { window.goatcounter.count({ path: zdarzenie, title: zdarzenie, event: true }); } catch (e) {} }
+    if (window.goatcounter && window.goatcounter.count) wyslij();
+    else setTimeout(function () { if (window.goatcounter && window.goatcounter.count) wyslij(); }, 3000);
+  }
+
+  // ---------- zakładki ----------
+  var tabs = document.querySelectorAll("nav.tabs button");
+  var NAZWY_TAB = ["plan", "wolne", "odrabianie", "sale", "wf", "rok", "grupy", "kalendarze"];
+  function pokazTab(nazwa) {
+    if (NAZWY_TAB.indexOf(nazwa) < 0) nazwa = moje.length ? "plan" : "grupy";
+    tabs.forEach(function (b) { b.setAttribute("aria-selected", b.dataset.tab === nazwa ? "true" : "false"); });
+    NAZWY_TAB.forEach(function (t) { $("tab-" + t).classList.toggle("hidden", t !== nazwa); });
+    if (location.hash !== "#" + nazwa) history.replaceState(null, "", "#" + nazwa);
+    licz("zakladka-" + nazwa, true);
+    ({ plan: rysujPlan, wolne: rysujWolne, odrabianie: rysujOdrabianie, sale: rysujSale, wf: rysujWF, rok: rysujRok, grupy: rysujGrupy, kalendarze: rysujKalendarze })[nazwa]();
+  }
+  tabs.forEach(function (b) { b.addEventListener("click", function () { pokazTab(b.dataset.tab); }); });
+  window.addEventListener("hashchange", function () { pokazTab(location.hash.slice(1)); });
+
+  // ---------- szczegóły zajęć ----------
+  var dlgZaj = null;
+  function kolorTla(e) { return e.kolor && /^#[0-9a-f]{3,8}$/i.test(e.kolor) ? "--c:" + e.kolor : null; }
+  function nrTekst(e) { return e.nr == null ? "" : (e.liczone ? "≈" : "") + e.nr + (e.nrZ ? "/" + e.nrZ : ""); }
+  function pokazSzczegoly(e) {
+    dlgZaj = e;
+    $("dTytul").textContent = e.nazwa;
+    $("dPod").textContent = e.skrot + (e.typNazwa ? " · " + e.typNazwa : (e.typ ? " · " + e.typ : ""));
+    document.querySelector("dialog .dh").setAttribute("style", kolorTla(e) || "");
+    var dl = $("dLista"); dl.textContent = "";
+    [["Termin", ladnaData(e.data, true) + ", " + godzinyBloku(e.blok, e.data)],
+     ["Numer", e.nr != null ? nrTekst(e) + (e.liczone ? " (policzony przez skrypt – orientacyjnie)" : "") : null],
+     ["Sala", e.miejsce], ["Prowadzący", e.prow], ["Grupa", e.g + " (" + (I.grupy[e.g] || {}).w + ")"],
+     ["Razem z", e.wsp && e.wsp.length > 1 ? e.wsp.join(", ") : null],
+     ["Semestr", e.semNazwa], ["Uwagi", e.uwagi]].forEach(function (p) {
+      if (p[1]) dl.append(el("dt", { text: p[0] }), el("dd", { text: p[1] }));
+    });
+    var dwf = wfDlaZajec(e), s = slownikWF();
+    if (dwf) {
+      [["Kod SWF", dwf.kod + " (grupa SWF " + dwf.grupaSWF + ")"], ["Obiekt", dwf.obiekt ? dwf.obiekt + (dwf.zewn == null ? "" : dwf.zewn ? " – zewnętrzny" : " – wewnętrzny") : null],
+       ["Temat", dwf.temat ? (dwf.tematNr ? dwf.tematNr + " – " : "") + dwf.temat : null], ["Zajęcia nr", dwf.nr != null ? String(dwf.nr) : null],
+       ["Prowadzący SWF", dwf.ini], ["Sprawdzian", dwf.sprawdzian ? "tak – temat 18" : null],
+       ["Strój", dwf.zewn == null || !s ? null : (dwf.zewn ? s.zasady.zewnetrzne : s.zasady.wewnetrzne)]].forEach(function (p) {
+        if (p[1]) dl.append(el("dt", { text: p[0] }), el("dd", { text: p[1] }));
+      });
+    } else if (czyWF(e) && W) {
+      var kand = swfKandydaci(e.g);
+      dl.append(el("dt", { text: "WF" }), el("dd", { text: kand.length
+        ? "Tego terminu nie ma w rozkładzie SWF grupy " + kand[0] + " (np. zmiana terminu albo zajęcia spoza rozkładu)."
+        : "Nie udało się ustalić grupy SWF – wybierz ją poniżej." }));
+    }
+    if (czyWF(e) && W && W.rozklad) {
+      // wybór grupy SWF (plutonu) dla tej grupy - najpierw najlepiej pasujące terminami
+      var akt = (wfDlaZajec(e) || {}).grupaSWF || swfKandydaci(e.g)[0] || "";
+      var ranking = rankingSWF(e.g).slice(0, 8).map(function (x) { return x.sg; });
+      var naTermin = grupySWF().filter(function (sg) { return wpisSWF(sg, e.data, e.blok); });
+      var opcje = [];
+      [akt].concat(ranking, naTermin).forEach(function (sg) { if (sg && opcje.indexOf(sg) < 0) opcje.push(sg); });
+      var sel = el("select", { "aria-label": "Grupa SWF" },
+        el("option", { value: "", text: "automatycznie" + (wfPrzyp[e.g] ? "" : akt ? " (" + akt + ")" : "") }));
+      opcje.forEach(function (sg) { sel.append(el("option", { value: sg, text: sg + (wpisSWF(sg, e.data, e.blok) ? " – ma zajęcia w tym terminie" : "") })); });
+      sel.value = wfPrzyp[e.g] || "";
+      sel.addEventListener("change", function () {
+        if (sel.value) wfPrzyp[e.g] = sel.value; else delete wfPrzyp[e.g];
+        pamiec("wfPrzypisania", wfPrzyp);
+        pokazSzczegoly(e);
+        if (!$("tab-plan").classList.contains("hidden")) rysujPlan();
+      });
+      dl.append(el("dt", { text: "Grupa SWF" }), el("dd", null, sel,
+        el("div", { cls: "sub", text: "Jeśli szczegóły się nie zgadzają, wybierz swój pluton / grupę z rozkładu SWF (zapamiętane dla " + e.g + ")." })));
+    }
+    $("dOdrob").classList.toggle("hidden", !e.typ);
+    var d = $("dlg"); if (d.open) return; if (d.showModal) d.showModal(); else d.setAttribute("open", "");
+  }
+  $("dZamknij").addEventListener("click", function () { $("dlg").close(); });
+  $("dlg").addEventListener("click", function (ev) { if (ev.target === $("dlg")) $("dlg").close(); });
+  $("dOdrob").addEventListener("click", function () {
+    var e = dlgZaj; $("dlg").close();
+    stanO = { grupa: e.g, klucz: e.klucz, nr: e.nr != null ? String(e.nr) : "" };
+    pokazTab("odrabianie");
+  });
+  function przyciskZajec(e, zGrupa) {
+    if (e.znacznik) return el("div", { cls: "ev zn", title: e.zajety ? "zajęcia/wydarzenie spoza siatki" : "dzień wolny lub rezerwa" },
+      el("span", { cls: "s", text: e.skrot }), zGrupa ? el("span", { cls: "g", text: e.g }) : null);
+    var dwf = wfDlaZajec(e);
+    var w2 = [e.typ ? "(" + e.typ + ")" : "", dwf ? dwf.kod : (e.nr != null ? "nr " + nrTekst(e) : ""), dwf && dwf.obiekt ? dwf.obiekt : (e.miejsce || "")].filter(Boolean).join(" ");
+    return el("button", { cls: "ev", style: kolorTla(e), title: e.nazwa + (e.prow ? " – " + e.prow : ""), onclick: function () { pokazSzczegoly(e); } },
+      el("span", { cls: "s", text: e.skrot }), " ", el("span", { cls: "m", text: w2 }), zGrupa ? el("span", { cls: "g", text: e.g }) : null);
+  }
+  function mobilny() { return window.matchMedia("(max-width: 700px)").matches; }
+
+  // ---------- dni akademickie ----------
+  var R = window.PLAN_ROK || null;
+  var ROK_WPISY = [];
+  if (R && R.harmonogramy) Object.keys(R.harmonogramy).forEach(function (k) {
+    R.harmonogramy[k].wpisy.forEach(function (w) { ROK_WPISY.push({ od: w[0], do: w[1], rodzaj: w[2], dla: w[3], opis: w[4], rok: k }); });
+  });
+  ROK_WPISY.sort(function (a, b) { return a.od < b.od ? -1 : a.od > b.od ? 1 : (a.do < b.do ? -1 : 1); });
+  var ROK_KLASY = { wolne: "ok", przerwa: "ok", sesja: "warn", zajecia: "mut", wydarzenie: "mut" };
+  var ROK_NAZWY = { wolne: "wolne", przerwa: "przerwa", sesja: "sesja", zajecia: "zajęcia", wydarzenie: "wydarzenie" };
+  function dzienAkademicki(dIso) {   // najważniejsze oznaczenie dnia dla wszystkich (wolne/przerwa/sesja)
+    var w = ROK_WPISY.filter(function (x) { return x.dla === "wszyscy" && x.od <= dIso && dIso <= x.do && /wolne|przerwa|sesja/.test(x.rodzaj); });
+    w.sort(function (a, b) { return ({ wolne: 0, przerwa: 1, sesja: 2 })[a.rodzaj] - ({ wolne: 0, przerwa: 1, sesja: 2 })[b.rodzaj]; });
+    return w[0] || null;
+  }
+  function rysujRok() {
+    var out = $("rLista"), oz = $("rOstrz"); out.textContent = ""; oz.textContent = "";
+    if (!R) { out.append(el("div", { cls: "panel empty", text: "Brak danych (dane/rok.js)." })); return; }
+    (R.ostrzezenia || []).forEach(function (t) { oz.append(el("p", { cls: "note warn", text: t })); });
+    var h = R.harmonogramy[Object.keys(R.harmonogramy).sort().pop()];
+    oz.append(el("p", { cls: "note" }, "Źródło: " + h.dokument + " (", el("a", { href: h.adres, target: "_blank", rel: "noopener", text: "PDF" }),
+      "). Daty wpisane z dokumentu; strona z harmonogramami sprawdzana " + (R.sprawdzono ? R.sprawdzono.replace("T", " ").replace("Z", " UTC") : "—") + (R.blad ? " – ostatnio bez powodzenia" : "") + "."));
+    var tylkoWsz = $("rDla").value === "cywilni", przeszle = $("rPrzeszle").checked;
+    var mies = {}, kolej = [];
+    ROK_WPISY.forEach(function (w) {
+      if (!przeszle && w.do < DZIS) return;
+      if (tylkoWsz && w.dla !== "wszyscy") return;
+      var k = w.od.slice(0, 7); if (!mies[k]) { mies[k] = []; kolej.push(k); } mies[k].push(w);
+    });
+    if (!kolej.length) out.append(el("div", { cls: "panel empty", text: "Brak wpisów." }));
+    kolej.forEach(function (k) {
+      var d = dataZ(k + "-01");
+      var p = el("div", { cls: "panel" }, el("h2", { text: ["Styczeń", "Luty", "Marzec", "Kwiecień", "Maj", "Czerwiec", "Lipiec", "Sierpień", "Wrzesień", "Październik", "Listopad", "Grudzień"][d.getMonth()] + " " + d.getFullYear() }));
+      p.append(el("div", { cls: "cards" }, mies[k].map(function (w) {
+        var trwa = w.od <= DZIS && DZIS <= w.do;
+        var kiedy = w.od === w.do ? ladnaData(w.od, true) : ladnaData(w.od, true) + " – " + ladnaData(w.do, true);
+        return el("div", { cls: "card", style: trwa ? "--c:var(--accent)" : (w.rodzaj === "wolne" || w.rodzaj === "przerwa" ? "--c:var(--ok)" : w.rodzaj === "sesja" ? "--c:var(--warn)" : "--c:var(--line)") },
+          el("div", null, el("span", { cls: "when", text: kiedy }), trwa ? el("span", { cls: "badge warn", style: "margin-left:8px", text: "trwa" }) : null),
+          el("div", { cls: "st" }, el("span", { cls: "badge " + ROK_KLASY[w.rodzaj], text: ROK_NAZWY[w.rodzaj] })),
+          el("div", { cls: "meta", text: w.opis + (w.dla !== "wszyscy" ? " · dotyczy: " + w.dla : "") }));
+      })));
+      out.append(p);
+    });
+  }
+  $("rDla").addEventListener("change", rysujRok); $("rPrzeszle").addEventListener("change", rysujRok);
+
+  // ---------- wspólne: siatka tygodnia ----------
+  function rysujTydzien(cel, tydzien, zaj, komorka, pustyTekst) {
+    var mapa = {}, maxBlok = 7, dniZ = [true, true, true, true, true, false, false];
+    var od = iso(tydzien), doo = iso(dodajDni(tydzien, 6));
+    zaj.forEach(function (e) {
+      if (e.data < od || e.data > doo) return;
+      var k = e.data + "#" + e.blok; (mapa[k] = mapa[k] || []).push(e);
+      maxBlok = Math.max(maxBlok, e.blok || 0); dniZ[dzienTyg(e.data)] = true;
+    });
+    var dni = []; for (var i = 0; i < 7; i++) if (dniZ[i]) dni.push(i);
+    cel.textContent = "";
+    if (mobilny()) {
+      var lista = el("div", { cls: "days" });
+      dni.forEach(function (di) {
+        var d = iso(dodajDni(tydzien, di));
+        var dak = dzienAkademicki(d);
+        var karta = el("div", { cls: "day" + (d === DZIS ? " today" : "") }, el("h3", null, DNI[di] + ", " + ladnaData(d),
+          dak ? el("span", { cls: "badge " + ROK_KLASY[dak.rodzaj], style: "margin-left:8px", title: dak.opis, text: dak.opis.split("(")[0].trim() }) : null));
+        var jest = false;
+        for (var b = 1; b <= maxBlok; b++) {
+          var c = komorka(mapa[d + "#" + b] || [], d, b, true);
+          if (!c) continue; jest = true;
+          karta.append(el("div", { cls: "row" }, el("div", { cls: "tm" }, el("b", { text: "Blok " + b }), godzinyBloku(b, d)), c));
+        }
+        if (!jest) karta.append(el("div", { cls: "sub", text: pustyTekst }));
+        lista.append(karta);
+      });
+      cel.append(lista);
+    } else {
+      var grid = el("div", { cls: "grid", style: "grid-template-columns: 92px repeat(" + dni.length + ", minmax(0, 1fr))" });
+      grid.append(el("div", { cls: "h" }));
+      dni.forEach(function (di) {
+        var d = iso(dodajDni(tydzien, di));
+        var dak = dzienAkademicki(d);
+        grid.append(el("div", { cls: "h" + (d === DZIS ? " today" : ""), title: dak ? dak.opis : null }, DNI_K[di] + " " + ladnaData(d, false, true),
+          dak ? el("div", null, el("span", { cls: "badge " + ROK_KLASY[dak.rodzaj], style: "white-space:normal;font-weight:500", text: dak.opis.split("(")[0].trim() })) : null));
+      });
+      for (var b = 1; b <= maxBlok; b++) {
+        grid.append(el("div", { cls: "t" }, el("b", { text: "Blok " + b }), godzinyBloku(b)));
+        dni.forEach(function (di) {
+          var d = iso(dodajDni(tydzien, di));
+          var c = komorka(mapa[d + "#" + b] || [], d, b, false);
+          grid.append(c && c.dataset && c.dataset.cls ? (c.className = c.dataset.cls, c) : el("div", null, c));
+        });
+      }
+      cel.append(grid);
+    }
+  }
+
+  // ---------- PLAN ----------
+  var planTydzien = poniedzialek(new Date());
+  var planJedna = pamiec("planJedna") || null;
+  $("planTryb").value = pamiec("planTryb") || "moje";
+  wybierak($("planPicker"), function (g) { planJedna = g; pamiec("planJedna", g); rysujPlan(); }, "Wpisz dowolną grupę");
+  $("planTryb").addEventListener("change", function () { pamiec("planTryb", $("planTryb").value); rysujPlan(); });
+  $("planFiltr").addEventListener("input", rysujPlan);
+  document.querySelectorAll("[data-tydz]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      var n = +b.dataset.tydz; planTydzien = n ? dodajDni(planTydzien, 7 * n) : poniedziałekDzis(); rysujPlan();
+    });
+  });
+  function poniedziałekDzis() { return poniedzialek(new Date()); }
+  function rysujPlan() {
+    var tryb = $("planTryb").value;
+    $("planPicker").classList.toggle("hidden", tryb !== "jedna");
+    var wybrane = tryb === "moje" ? moje : (planJedna && I.grupy[planJedna] ? [planJedna] : []);
+    var w = $("planWidok");
+    $("tydzienTytul").textContent = ladnaData(iso(planTydzien)) + " – " + ladnaData(iso(dodajDni(planTydzien, 6))) +
+      (tryb === "jedna" && planJedna ? " · " + planJedna : "");
+    if (!wybrane.length) {
+      w.textContent = "";
+      w.append(el("div", { cls: "panel empty", text: tryb === "moje" ? "Nie masz jeszcze wybranych grup – dodaj je w zakładce „Moje grupy”." : "Wpisz nazwę grupy powyżej." }));
+      return;
+    }
+    w.textContent = ""; w.append(el("p", { cls: "loading", text: "Wczytywanie planu…" }));
+    zaladuj(wybrane).then(function () {
+      var f = norm($("planFiltr").value), zaj = [];
+      wybrane.forEach(function (g) { (Z[g] || []).forEach(function (e) {
+        if (f && norm(e.skrot + " " + e.nazwa + " " + (e.typ || "") + " " + (e.miejsce || "") + " " + (e.prow || "")).indexOf(f) < 0) return;
+        zaj.push(e);
+      }); });
+      var wiele = wybrane.length > 1;
+      rysujTydzien(w, planTydzien, zaj, function (ev, d, b, mob) {
+        if (!ev.length) return mob ? null : null;
+        return el("div", { cls: "evs" }, ev.map(function (e) { return przyciskZajec(e, wiele); }));
+      }, "Brak zajęć");
+      if (wybrane.some(function (g) { return window.PLAN_G[g] && window.PLAN_G[g].nr === "liczone"; }))
+        w.append(el("p", { cls: "note", text: "Numery ze znakiem ≈ policzył skrypt (plany w formacie Plansoft) – mogą się różnić od numeracji prowadzącego. Szare pozycje to oznaczenia z planu (np. I – dzień wolny, SSW, REZ)." }));
+    });
+  }
+  var rTimer;
+  window.addEventListener("resize", function () { clearTimeout(rTimer); rTimer = setTimeout(function () {
+    if (!$("tab-plan").classList.contains("hidden")) rysujPlan();
+    if (!$("tab-wolne").classList.contains("hidden")) rysujWolne();
+  }, 150); });
+
+  // ---------- WSPÓLNY WOLNY CZAS ----------
+  var porown = pamiec("porownaj") || [];
+  porown = porown.filter(function (g) { return I.grupy[g]; });
+  var wTydzien = poniedzialek(new Date());
+  wybierak($("wPicker"), function (g) { if (porown.indexOf(g) < 0) porown.push(g); pamiec("porownaj", porown); rysujWolne(); }, "Dodaj grupę do porównania");
+  ["wDni", "wOd", "wDo", "wWeekend"].forEach(function (id) { $(id).addEventListener("change", rysujListeWolnych); });
+  for (var b0 = 1; b0 <= 7; b0++) { $("wOd").append(el("option", { value: b0, text: "blok " + b0 })); $("wDo").append(el("option", { value: b0, text: "blok " + b0 })); }
+  $("wOd").value = "1"; $("wDo").value = "6";
+  document.querySelectorAll("[data-wtydz]").forEach(function (b) {
+    b.addEventListener("click", function () { var n = +b.dataset.wtydz; wTydzien = n ? dodajDni(wTydzien, 7 * n) : poniedzialek(new Date()); rysujWolne(); });
+  });
+  function grupyPorownania() {
+    return porown.slice();
+  }
+  function kolorGrupy(lista, g) { return KOLORY[lista.indexOf(g) % KOLORY.length]; }
+  var zajeteMapa = {};
+  function liczZajete(lista) {
+    zajeteMapa = {};
+    lista.forEach(function (g) { (Z[g] || []).forEach(function (e) {
+      if (e.znacznik && !e.zajety) return;
+      var k = e.data + "#" + e.blok; var m = zajeteMapa[k] || (zajeteMapa[k] = {});
+      (m[g] = m[g] || []).push(e);
+    }); });
+  }
+  function tylkoNiepewne(m) {
+    return Object.keys(m).every(function (g) { return m[g].every(function (e) { return e.niepewny; }); });
+  }
+  function rysujWolne() {
+    var lista = grupyPorownania(), ch = $("wChips"); ch.textContent = "";
+    lista.forEach(function (g) {
+      ch.append(chip(g, kolorGrupy(lista, g), function () {
+        porown = porown.filter(function (x) { return x !== g; }); pamiec("porownaj", porown); rysujWolne();
+      }));
+    });
+    $("wTytul").textContent = ladnaData(iso(wTydzien)) + " – " + ladnaData(iso(dodajDni(wTydzien, 6)));
+    var w = $("wWidok");
+    if (lista.length < 1) { w.textContent = ""; w.append(el("div", { cls: "panel empty", text: "Dodaj co najmniej jedną grupę." })); $("wLista").textContent = ""; return; }
+    w.textContent = ""; w.append(el("p", { cls: "loading", text: "Wczytywanie planów…" }));
+    zaladuj(lista).then(function () {
+      liczZajete(lista);
+      var pseudo = [];   // siatka: wszystkie dni pon.-pt. (weekend gdy ktoś ma zajęcia)
+      for (var di = 0; di < 7; di++) for (var b = 1; b <= 7; b++) {
+        var d = iso(dodajDni(wTydzien, di)), m = zajeteMapa[d + "#" + b];
+        if (m || di < 5) pseudo.push({ data: d, blok: b });
+      }
+      rysujTydzien(w, wTydzien, pseudo, function (ev, d, b, mob) {
+        var m = zajeteMapa[d + "#" + b];
+        if (!m) { var x = el("div", { cls: mob ? "evs free" : "free", text: "wszyscy wolni" }); x.dataset.cls = "free"; return x; }
+        var kto = Object.keys(m);
+        if (tylkoNiepewne(m)) {
+          var n = el("div", { cls: mob ? "evs" : "busy", style: "color:var(--warn)", text: "niepewne – oznaczenie " + kto.map(function (g) { return m[g][0].skrot + " (" + g + ")"; }).join(", ") });
+          n.dataset.cls = "busy"; return n;
+        }
+        var c = el("div", { cls: mob ? "evs busy" : "busy" }, kto.map(function (g) {
+          var e = m[g][0];
+          return el("span", { cls: "who", style: "--c:" + kolorGrupy(lista, g), title: m[g].map(function (x) { return x.nazwa; }).join(", ") },
+            el("b", { text: g }), " " + e.skrot + (e.typ ? " (" + e.typ + ")" : ""));
+        }), kto.length < lista.length ? el("div", { cls: "sub", text: "wolni: " + lista.filter(function (g) { return !m[g]; }).join(", ") }) : null);
+        c.dataset.cls = "busy"; return c;
+      }, "");
+      rysujListeWolnych();
+    });
+  }
+  function rysujListeWolnych() {
+    var lista = grupyPorownania(), out = $("wLista"); out.textContent = "";
+    if (!lista.length) return;
+    var dni = +$("wDni").value, od = +$("wOd").value, doo = +$("wDo").value, weekend = $("wWeekend").checked;
+    if (doo < od) { var t = od; od = doo; doo = t; }
+    var start = new Date(); start.setHours(0, 0, 0, 0);
+    var licz = 0;
+    for (var i = 0; i < dni; i++) {
+      var d = dodajDni(start, i), dIso = iso(d), dt = (d.getDay() + 6) % 7;
+      if (dt >= 5 && !weekend) continue;
+      var wolne = [];
+      for (var b = od; b <= doo; b++) if (!zajeteMapa[dIso + "#" + b]) wolne.push(b);
+      if (!wolne.length) continue;
+      licz += wolne.length;
+      var dak = dzienAkademicki(dIso);
+      out.append(el("div", { cls: "slotday" }, el("b", { text: DNI[dt] + ", " + ladnaData(dIso, false, true) + (dak ? " · " + dak.opis.split("(")[0].trim() : "") }),
+        wolne.map(function (b) { return el("span", { cls: "badge ok", text: "blok " + b + " · " + godzinyBloku(b, dIso) }); })));
+    }
+    if (!licz) out.append(el("p", { cls: "note", text: "Brak wspólnych wolnych bloków w wybranym zakresie." }));
+    out.append(el("p", { cls: "note", text: "Bloki z oznaczeniem o nieustalonym znaczeniu (np. REZ) nie są liczone jako wolne. Porównanie po numerach bloków. Godziny bloków są wspólne dla WAT w dni robocze (siatka WCY/WEL); w weekend bloki 5–7 zaczynają się wcześniej. Grupy bez planu w danym dniu traktowane są jako wolne." }));
+  }
+
+  // ---------- ODRABIANIE ----------
+  var stanO = pamiec("odrabianie") || {};
+  var LIMIT_GRUP = 120;
+  function przedmiotyGrupy(g) {
+    var m = {};
+    (Z[g] || []).forEach(function (e) {
+      if (!e.typ || e.znacznik) return;
+      var p = m[e.klucz] || (m[e.klucz] = { klucz: e.klucz, nazwa: e.nazwa, typ: e.typ, typNazwa: e.typNazwa });
+    });
+    return Object.keys(m).map(function (k) { return m[k]; }).sort(function (a, b) {
+      var ta = TYP_KOLEJNOSC[normTyp(a.typ)], tb = TYP_KOLEJNOSC[normTyp(b.typ)];
+      ta = ta == null ? 9 : ta; tb = tb == null ? 9 : tb;
+      return ta - tb || a.nazwa.localeCompare(b.nazwa, "pl");
+    });
+  }
+  // grupy do wyboru: moje + grupa, z której przyszło „Szukaj innych terminów” (albo wpisana tutaj)
+  function grupyOdrabiania() {
+    var l = moje.slice();
+    if (stanO.grupa && I.grupy[stanO.grupa] && l.indexOf(stanO.grupa) < 0) l.push(stanO.grupa);
+    return l;
+  }
+  // kolizje: z moimi grupami, a gdy ich nie ma - z planem wybranej grupy
+  function grupyKolizji(g) { return moje.indexOf(g) >= 0 || !moje.length ? (moje.length ? moje : [g]) : moje.concat([g]); }
+  wybierak($("oPicker"), function (g) { stanO = { grupa: g, klucz: null, nr: "" }; pamiec("odrabianie", stanO); rysujOdrabianie(); }, "Inna grupa, np. WEL24EA1S0");
+  function rysujOdrabianie() {
+    var sg = $("oGrupa"), lista = grupyOdrabiania();
+    if (!lista.length) { sg.textContent = ""; $("oPrzedmiot").textContent = ""; $("oNr").textContent = ""; $("oWyniki").textContent = ""; $("oRef").textContent = ""; $("oWyniki").append(el("div", { cls: "panel empty", text: "Wpisz grupę powyżej albo kliknij zajęcia w planie i wybierz „Szukaj innych terminów”." })); return; }
+    sg.textContent = "";
+    lista.forEach(function (g) { sg.append(el("option", { value: g, text: g })); });
+    sg.value = lista.indexOf(stanO.grupa) >= 0 ? stanO.grupa : lista[0];
+    zaladuj(grupyKolizji(sg.value)).then(function () {
+      var sp = $("oPrzedmiot"), sn = $("oNr");
+      var prz = przedmiotyGrupy(sg.value);
+      sp.textContent = "";
+      var aktTyp = null, og = null;
+      prz.forEach(function (p) {
+        var t = normTyp(p.typ);
+        if (t !== aktTyp) { aktTyp = t; og = el("optgroup", { label: p.typNazwa || p.typ }); sp.append(og); }
+        og.append(el("option", { value: p.klucz, text: p.nazwa + " (" + p.typ + ")" }));
+      });
+      var domyslny = prz.filter(function (p) { return normTyp(p.typ) === "ć"; })[0] || prz[0];
+      sp.value = prz.some(function (p) { return p.klucz === stanO.klucz; }) ? stanO.klucz : (domyslny ? domyslny.klucz : "");
+      var mojeZ = (Z[sg.value] || []).filter(function (e) { return e.klucz === sp.value; });
+      sn.textContent = ""; sn.append(el("option", { value: "", text: "wszystkie" }));
+      var widz = {};
+      mojeZ.forEach(function (e) {
+        if (e.nr == null || widz[e.nr]) return; widz[e.nr] = 1;
+        sn.append(el("option", { value: String(e.nr), text: "nr " + nrTekst(e) + " – " + ladnaData(e.data, true) }));
+      });
+      sn.value = stanO.nr && widz[stanO.nr] ? stanO.nr : "";
+      wynikiOdrabiania(mojeZ);
+    });
+  }
+  ["oGrupa", "oPrzedmiot", "oNr"].forEach(function (id, i) {
+    $(id).addEventListener("change", function () {
+      stanO = { grupa: $("oGrupa").value, klucz: i >= 1 ? $("oPrzedmiot").value : null, nr: i === 2 ? $("oNr").value : "" };
+      pamiec("odrabianie", stanO); rysujOdrabianie();
+    });
+  });
+  ["oPrzyszle", "oKolizje", "oWspolne"].forEach(function (id) { $(id).addEventListener("change", rysujOdrabianie); });
+
+  function wynikiOdrabiania(mojeZ) {
+    var g = $("oGrupa").value, kl = $("oPrzedmiot").value, nr = $("oNr").value;
+    var ref = $("oRef"), out = $("oWyniki"); ref.textContent = ""; out.textContent = "";
+    if (!kl) { out.append(el("div", { cls: "panel empty", text: "Ta grupa nie ma zajęć do wyboru." })); return; }
+    var ki = I.klucze.indexOf(kl);
+    var kand = idsGrup.filter(function (h) { return h !== g && ki >= 0 && (I.grupy[h].p || []).indexOf(ki) >= 0; });
+    // najpierw grupy z tego samego wydziału i rocznika
+    var pref = g.slice(0, 5);
+    kand.sort(function (a, b) { return (b.slice(0, 5) === pref) - (a.slice(0, 5) === pref) || a.localeCompare(b); });
+    var obciete = kand.length > LIMIT_GRUP; if (obciete) kand = kand.slice(0, LIMIT_GRUP);
+    out.append(el("p", { cls: "loading", text: "Wczytywanie planów " + kand.length + " grup…" }));
+    var kolizyjne = grupyKolizji(g);
+    zaladuj(kand.concat(kolizyjne)).then(function () {
+      out.textContent = "";
+      var moje1 = mojeZ.filter(function (e) { return !nr || String(e.nr) === nr; });
+      var semMoje = {}; mojeZ.forEach(function (e) { if (e.sem) semMoje[e.sem] = 1; });
+      var maxMoje = mojeZ.reduce(function (m, e) { return Math.max(m, e.nr || 0); }, 0);
+      var mojeSloty = {};
+      kolizyjne.forEach(function (h) { (Z[h] || []).forEach(function (e) {
+        if (e.znacznik && !e.zajety) return;
+        var k = e.data + "#" + e.blok; (mojeSloty[k] = mojeSloty[k] || []).push(e);
+      }); });
+      if (moje1.length) {
+        var e0 = nr ? moje1[0] : (moje1.filter(function (x) { return x.data >= DZIS; })[0] || moje1[moje1.length - 1]);
+        ref.append(el("div", { cls: "ref" }, el("b", { text: nr ? "Twój termin (nr " + nrTekst(e0) + "): " : "Twoje terminy: " + moje1.length + " · najbliższy: " }),
+          ladnaData(e0.data, true) + ", " + godzinyBloku(e0.blok, e0.data) + (e0.miejsce ? ", " + e0.miejsce : "") + (e0.prow ? " – " + e0.prow : "")));
+      }
+      if (window.PLAN_G[g] && window.PLAN_G[g].nr === "liczone")
+        ref.append(el("p", { cls: "note warn", text: "W planach Plansoft (wszystkie wydziały poza WCY) numer zajęć liczy skrypt. Przy podgrupach lub zajęciach podwójnych może się przesunąć – porównuj też daty." }));
+      var wyniki = [], maxInne = {};
+      kand.forEach(function (h) { (Z[h] || []).forEach(function (e) {
+        if (e.klucz !== kl || e.znacznik) return;
+        if (e.sem && Object.keys(semMoje).length && !semMoje[e.sem]) return;
+        maxInne[h] = Math.max(maxInne[h] || 0, e.nr || 0);
+        if (nr && String(e.nr) !== nr) return;
+        if ($("oPrzyszle").checked && e.data < DZIS) return;
+        wyniki.push(e);
+      }); });
+      wyniki.sort(function (a, b) { return a.data < b.data ? -1 : a.data > b.data ? 1 : a.blok - b.blok || a.g.localeCompare(b.g); });
+      // to samo spotkanie kilku grup (wspólny wykład) pokaż raz
+      var widziane = {};
+      var pokazane = 0, ukrKol = 0, ukrWsp = 0, karty = el("div", { cls: "cards" });
+      wyniki.forEach(function (e) {
+        var sig = e.data + "#" + e.blok + "#" + (e.miejsce || "") + "#" + (e.prow || "");
+        if (widziane[sig]) { widziane[sig].push(e.g); return; }
+        var slot = mojeSloty[e.data + "#" + e.blok] || [];
+        var wsp = slot.filter(function (x) { return x.klucz === e.klucz; });
+        var inne = slot.filter(function (x) { return x.klucz !== e.klucz; });
+        var status;
+        if (wsp.length) { if (!$("oWspolne").checked) { ukrWsp++; return; } status = el("span", { cls: "badge mut", text: "ten sam termin co Twoje zajęcia" }); }
+        else if (inne.length) { if (!$("oKolizje").checked) { ukrKol++; return; }
+          status = el("span", { cls: "badge bad", text: "kolizja: " + inne.map(function (x) { return x.skrot + (x.typ ? " (" + x.typ + ")" : ""); }).join(", ") }); }
+        else status = el("span", { cls: "badge ok", text: "masz wolne" });
+        var grupyTu = [e.g]; widziane[sig] = grupyTu;
+        var uwaga = (maxInne[e.g] && maxMoje && maxInne[e.g] !== maxMoje) ? "W tej grupie " + maxInne[e.g] + " zajęć tego typu (u Ciebie " + maxMoje + ") – numeracja może się nie pokrywać." : null;
+        var metaEl = el("div", { cls: "meta" });
+        pokazane++;
+        karty.append(el("div", { cls: "card" + (inne.length || wsp.length ? " dim" : ""), style: kolorTla(e) },
+          el("div", null, el("span", { cls: "when", text: ladnaData(e.data, true) + ", " + godzinyBloku(e.blok, e.data) }), " ", el("span", { cls: "sub", text: "blok " + e.blok })),
+          el("div", { cls: "st" }, status), metaEl,
+          uwaga ? el("div", { cls: "meta", style: "color:var(--warn)", text: uwaga }) : null));
+        metaEl._e = e; metaEl._g = grupyTu;
+      });
+      karty.querySelectorAll(".meta").forEach(function (m) {
+        if (!m._e) return; var e = m._e;
+        m.textContent = [m._g.join(", ") + " (" + (I.grupy[e.g] || {}).w + ")" + (I.grupy[e.g] && I.grupy[e.g].s !== "ok" ? " – dane nieaktualne" : ""),
+          e.nr != null ? "nr " + nrTekst(e) : null, e.miejsce, e.prow, e.uwagi].filter(Boolean).join(" · ");
+      });
+      var nag = el("div", { cls: "panel" }, el("b", { text: pokazane ? "Znalezione terminy w innych grupach: " + pokazane : "Brak terminów w innych grupach" }));
+      var ukr = [];
+      if (ukrKol) ukr.push("kolidujące: " + ukrKol);
+      if (ukrWsp) ukr.push("w tym samym terminie co Twoje: " + ukrWsp);
+      if (ukr.length) nag.append(el("p", { cls: "note", text: "Ukryte – " + ukr.join(", ") + " (zmień opcje powyżej)." }));
+      if (obciete) nag.append(el("p", { cls: "note warn", text: "Ten przedmiot ma bardzo wiele grup – przeszukano " + LIMIT_GRUP + " (najpierw z Twojego rocznika i wydziału)." }));
+      if (!pokazane && !ukr.length) nag.append(el("p", { cls: "note", text: "Żadna grupa WAT nie ma tych zajęć" + (nr ? " o tym numerze" : "") + ($("oPrzyszle").checked ? " w przyszłości" : "") + "." }));
+      if (pokazane) nag.append(karty);
+      out.append(nag);
+    });
+  }
+
+  // ---------- zakładka WF ----------
+  $("wfGrupa").addEventListener("change", function () { wfMoja = $("wfGrupa").value; pamiec("wfGrupa", wfMoja); swfIndeks = {}; rysujWF(); });
+  $("wfPrzeszle").addEventListener("change", rysujWF);
+  function rysujWF() {
+    var sel = $("wfGrupa"), lista = grupySWF();
+    sel.textContent = "";
+    sel.append(el("option", { value: "", text: lista.length ? "— wybierz —" : "brak rozkładu SWF" }));
+    // podpowiedzi: plutony / grupy cywilne powiązane z moimi grupami
+    var podp = [];
+    moje.forEach(function (g) {
+      lista.forEach(function (s) { if (/^[A-Z]{3}\d{2}/.test(s) && g.indexOf(s) === 0 && podp.indexOf(s) < 0) podp.push(s); });
+      Object.keys((W && W.plutony) || {}).forEach(function (p) { if (W.plutony[p].indexOf(g) >= 0 && W.rozklad[p] && podp.indexOf(p) < 0) podp.push(p); });
+    });
+    if (podp.length) { var og = el("optgroup", { label: "Prawdopodobnie pasujące do moich grup (sprawdź)" }); podp.forEach(function (s) { og.append(el("option", { value: s, text: s })); }); sel.append(og); }
+    var og2 = el("optgroup", { label: "Wszystkie grupy SWF" }); lista.forEach(function (s) { og2.append(el("option", { value: s, text: s })); }); sel.append(og2);
+
+    sel.value = W && W.rozklad && W.rozklad[wfMoja] ? wfMoja : "";
+    $("wfPodpowiedz").textContent = !W ? "Brak danych WF (dane/wf.js)." :
+      !lista.length ? "Rozkład SWF nie jest jeszcze wczytany – zobacz „Dokumenty SWF” niżej." :
+      "Żołnierze: wybierz swój pluton (np. 1PL/10KP). Studenci cywilni: swoją grupę (np. WME26BX1). " + (podp.length ? "Pasujące do Twoich grup są na górze listy." : "");
+    var out = $("wfZajecia"); out.textContent = "";
+    var s = slownikWF();
+    if (W && sel.value) {
+      var wpisy = W.rozklad[sel.value].filter(function (r) { return $("wfPrzeszle").checked || r[0] >= DZIS; });
+      var p = el("div", { cls: "panel" }, el("h2", { text: "Zajęcia WF – " + sel.value + " (" + wpisy.length + ")" }));
+      var karty = el("div", { cls: "cards" });
+      wpisy.forEach(function (r) {
+        var d = dekodujWF(r[2]);
+        karty.append(el("div", { cls: "card", style: d.sprawdzian ? "--c:var(--bad)" : (d.zewn ? "--c:#15803d" : null) },
+          el("div", null, el("span", { cls: "when", text: ladnaData(r[0], true) + ", " + godzinyBloku(r[1], r[0]) }), " ", el("span", { cls: "sub", text: "blok " + r[1] })),
+          el("div", { cls: "st" }, el("span", { cls: "badge " + (d.sprawdzian ? "bad" : d.zewn ? "ok" : "mut"), text: d.sprawdzian ? "sprawdzian" : d.zewn == null ? d.kod : d.zewn ? "na zewnątrz" : "w budynku" })),
+          el("div", { cls: "meta", text: [opisWF(d), r[3] ? "prowadzący: " + r[3] : null, r[4] ? "uwagi: " + r[4] : null].filter(Boolean).join(" · ") }),
+          d.zewn != null && s ? el("div", { cls: "meta", text: d.zewn ? s.zasady.zewnetrzne : s.zasady.wewnetrzne }) : null));
+      });
+      p.append(wpisy.length ? karty : el("p", { cls: "note", text: "Brak zajęć w wybranym zakresie." }));
+      out.append(p);
+      // odrabianie: te same zajęcia (temat/numer) w innych grupach SWF
+      zaladuj(moje).then(function () {
+        var zajete = {};
+        moje.forEach(function (h) { (Z[h] || []).forEach(function (e) { if (!(e.znacznik && !e.zajety)) zajete[e.data + "#" + e.blok] = e; }); });
+        var tematy = {};
+        Object.keys(W.rozklad).forEach(function (g2) {
+          if (g2 === sel.value) return;
+          W.rozklad[g2].forEach(function (r) {
+            var m = /-(\d{1,2})\/(\d{1,3})$/.exec(r[2]); if (!m || r[0] < DZIS) return;
+            (tematy[m[1] + "/" + m[2]] = tematy[m[1] + "/" + m[2]] || []).push([g2, r]);
+          });
+        });
+        karty.querySelectorAll(".card").forEach(function (c, i) {
+          var r = wpisy[i], m = /-(\d{1,2})\/(\d{1,3})$/.exec(r[2]); if (!m) return;
+          var alt = (tematy[m[1] + "/" + m[2]] || []).filter(function (x) { return !zajete[x[1][0] + "#" + x[1][1]]; })
+            .sort(function (a, b) { return a[1][0] < b[1][0] ? -1 : a[1][0] > b[1][0] ? 1 : a[1][1] - b[1][1]; });
+          if (!alt.length) return;
+          var det = el("details", { cls: "meta" }, el("summary", { text: "Te same zajęcia (" + m[1] + "/" + m[2] + ") w innych grupach, gdy masz wolne: " + alt.length }));
+          alt.slice(0, 20).forEach(function (x) {
+            det.append(el("div", { text: ladnaData(x[1][0], true) + ", " + godzinyBloku(x[1][1], x[1][0]) + " · " + x[0] + " · " + opisWF(dekodujWF(x[1][2])) }));
+          });
+          c.append(det);
+        });
+      });
+    }
+    // powtarzanie WF (oficjalny harmonogram)
+    var pw = $("wfPowt"); pw.textContent = "";
+    pw.append(el("h2", { text: "Powtarzanie przedmiotu WF (harmonogram SWF)" }));
+    var rok = null;
+    if (W && sel.value && W.rozklad[sel.value]) { var r0 = W.rozklad[sel.value].filter(function (r) { return r[5]; })[0]; rok = r0 ? r0[5] : null; }
+    var terminy = (W && W.powtarzanie || []).filter(function (x) { return x.data >= DZIS && (!rok || x.rocznik.indexOf(rok + " ") === 0); });
+    if (!terminy.length) pw.append(el("p", { cls: "note", text: W && W.powtarzanie && W.powtarzanie.length ? "Brak przyszłych terminów" + (rok ? " dla roku " + rok : "") + "." : "Harmonogram powtarzania nie jest wczytany." }));
+    else pw.append(el("div", { cls: "scroll" }, el("table", { cls: "list" },
+      el("thead", null, el("tr", null, ["Data", "Godziny", "Rocznik", "Temat", "Prowadzący"].map(function (h) { return el("th", { text: h }); }))),
+      el("tbody", null, terminy.map(function (x) {
+        return el("tr", null, el("td", { text: ladnaData(x.data, true) }), el("td", { text: x.godziny }), el("td", { text: x.rocznik }),
+          el("td", { text: opisWF(dekodujWF(x.kod)) }), el("td", { text: x.prowadzacy || "—" }));
+      })))));
+    if (rok) pw.append(el("p", { cls: "note", text: "Pokazano terminy dla roku " + rok + " (z rozkładu Twojej grupy SWF)." }));
+    rysujPlywalnie(); rysujKonsultacje();
+    // legenda
+    var lg = $("wfLegenda"); lg.textContent = "";
+    if (s) {
+      lg.append(el("h2", { text: "Oznaczenia w rozkładzie SWF" }),
+        el("p", { cls: "note", style: "margin-top:0", text: "Kod wojskowy, np. T-2/16: obiekt – numer tematu / numer zajęć. Kod cywilny, np. T-AT: obiekt – dyscyplina. Źródło: " + s.zrodlo + "." }));
+      var tab = function (tytul, wiersze) {
+        return el("div", { style: "margin-top:10px" }, el("b", { text: tytul }), el("div", { cls: "scroll" }, el("table", { cls: "list" }, el("tbody", null, wiersze))));
+      };
+      lg.append(tab("Obiekty", Object.keys(s.obiekty).map(function (k) { return el("tr", null, el("td", null, el("b", { text: k })), el("td", { text: s.obiekty[k][0] }), el("td", { cls: "sub", text: s.obiekty[k][1] ? "zewnętrzny" : "wewnętrzny" })); })));
+      lg.append(tab("Tematy (żołnierze)", Object.keys(s.tematy).map(function (k) { return el("tr", null, el("td", null, el("b", { text: k })), el("td", { text: s.tematy[k] })); })));
+      lg.append(tab("Tematyka cywilna", Object.keys(s.cywilne).map(function (k) { return el("tr", null, el("td", null, el("b", { text: k })), el("td", { text: s.cywilne[k] })); })));
+      lg.append(el("p", { cls: "note", text: s.zasady.budynek }));
+    }
+    // dokumenty
+    var dk = $("wfDok"); dk.textContent = "";
+    dk.append(el("h2", { text: "Dokumenty SWF" }));
+    if (W) {
+      dk.append(el("p", { cls: "note", style: "margin-top:0" }, "Oficjalna strona: ", el("a", { href: W.strona, target: "_blank", rel: "noopener", text: "Rozkłady zajęć i rygory dydaktyczne (SWF WAT)" }),
+        " · sprawdzono " + (W.sprawdzono || "?").replace("T", " ").replace("Z", " UTC")));
+      ["rozklad", "powtarzanie", "plywalnia", "konsultacje"].forEach(function (k) {
+        var st = (W.pliki || {})[k]; if (!st) return;
+        dk.append(el("p", { cls: "note " + (st.aktualny ? "" : "warn"), text: ({ rozklad: "Rozkład zajęć: ", powtarzanie: "Powtarzanie: ", plywalnia: "Plan pływalni: ", konsultacje: "Konsultacje: " })[k] +
+          (st.aktualny ? "aktualny (" + st.plik + ")" : st.plik ? "wczytany " + st.plik + ", ale na stronie SWF jest nowszy: " + st.oficjalny : "nie wczytany – serwer wymaga przy pobieraniu potwierdzenia (CAPTCHA). Pobierz plik ze strony SWF i wrzuć go do folderu swf/ w repozytorium.") }));
+      });
+      dk.append(el("ul", null, (W.dokumenty || []).map(function (d) {
+        return el("li", null, el("a", { href: d.adres, target: "_blank", rel: "noopener", text: d.nazwa }), d.aktualizacja ? el("span", { cls: "sub", text: " · " + d.aktualizacja }) : null);
+      })));
+      if (W.blad) dk.append(el("p", { cls: "note warn", text: W.blad }));
+    }
+  }
+
+  // ---------- pływalnia i konsultacje ----------
+  var P_KAT = { zajecia: ["zajęcia programowe WF", "mut"], cywilni: ["studenci cywilni", "ok"], podchorazowie: ["treningi indywidualne podchorążych", "ok"],
+                kadra: ["żołnierze zawodowi i pracownicy", "ok"], inne: ["inne (sekcje, kursy, jednostki)", "mut"] };
+  function minuty(h) { var m = /(\d{1,2}):(\d{2})/.exec(h || ""); return m ? +m[1] * 60 + +m[2] : null; }
+  function mojeZajeciaWDniu(dIso) {   // [ [od, do, opis] ] w minutach
+    var wynik = [];
+    moje.forEach(function (g) { (Z[g] || []).forEach(function (e) {
+      if (e.data !== dIso || (e.znacznik && !e.zajety)) return;
+      var t = ((dzienTyg(dIso) >= 5 ? GODZ_W : GODZ)[e.blok]) || null;
+      if (t) wynik.push([minuty(t[0]), minuty(t[1]), e.skrot + (e.typ ? " (" + e.typ + ")" : "")]);
+    }); });
+    return wynik;
+  }
+  function kolizjaZPlanem(zaj, od, doo) {
+    return zaj.filter(function (z) { return z[0] < doo && od < z[1]; }).map(function (z) { return z[2]; });
+  }
+  $("pKto").value = pamiec("pKto") || "cywilni";
+  $("pKto").addEventListener("change", function () { pamiec("pKto", $("pKto").value); rysujPlywalnie(); });
+  $("pDzien").addEventListener("change", rysujPlywalnie);
+  (function () { var d0 = new Date(); d0.setHours(0, 0, 0, 0);
+    for (var i = 0; i < 14; i++) { var d = dodajDni(d0, i), di = iso(d); $("pDzien").append(el("option", { value: di, text: (i === 0 ? "dziś – " : i === 1 ? "jutro – " : "") + DNI[(d.getDay() + 6) % 7] + " " + ladnaData(di, false, true) })); } })();
+  function rysujPlywalnie() {
+    var out = $("pWynik"); out.textContent = "";
+    var plan = W && W.plywalnia; if (!plan || !Object.keys(plan).length) { out.append(el("p", { cls: "note", text: "Plan pływalni nie jest wczytany." })); return; }
+    var kto = $("pKto").value, dIso = $("pDzien").value;
+    zaladuj(moje).then(function () {
+      out.textContent = "";
+      var sloty = plan[String(dzienTyg(dIso))] || [], zaj = mojeZajeciaWDniu(dIso);
+      var lista = el("div", { cls: "cards" });
+      sloty.forEach(function (sl) {
+        var kat = sl.wpisy.map(function (w) { return w.kategoria; });
+        var dlaMnie = kat.indexOf(kto) >= 0;
+        var kol = kolizjaZPlanem(zaj, minuty(sl.start), minuty(sl.koniec));
+        var status = !sl.wpisy.length ? el("span", { cls: "badge mut", text: "brak wpisu w planie" })
+          : dlaMnie ? (kol.length ? el("span", { cls: "badge warn", text: "otwarta dla Ciebie, ale masz: " + kol.join(", ") }) : el("span", { cls: "badge ok", text: "możesz wejść – masz wolne" }))
+          : el("span", { cls: "badge mut", text: "nie dla Ciebie" });
+        lista.append(el("div", { cls: "card" + (dlaMnie && !kol.length ? "" : " dim"), style: dlaMnie && !kol.length ? "--c:var(--ok)" : "--c:var(--line)" },
+          el("div", null, el("span", { cls: "when", text: sl.start + "–" + sl.koniec })), el("div", { cls: "st" }, status),
+          el("div", { cls: "meta", text: sl.wpisy.map(function (w) { return w.tekst; }).join(" · ") || "—" })));
+      });
+      out.append(lista);
+      // najbliższe wejścia w ciągu 7 dni
+      var najbl = el("div", { cls: "slots" }), licz = 0, d0 = new Date(); d0.setHours(0, 0, 0, 0);
+      var teraz = new Date(), minTeraz = teraz.getHours() * 60 + teraz.getMinutes();
+      for (var i = 0; i < 7; i++) {
+        var di = iso(dodajDni(d0, i)), z2 = mojeZajeciaWDniu(di);
+        var ok = (plan[String(dzienTyg(di))] || []).filter(function (sl) {
+          return sl.wpisy.some(function (w) { return w.kategoria === kto; }) && !kolizjaZPlanem(z2, minuty(sl.start), minuty(sl.koniec)).length && (i > 0 || minuty(sl.koniec) > minTeraz);
+        });
+        if (!ok.length) continue; licz += ok.length;
+        najbl.append(el("div", { cls: "slotday" }, el("b", { text: DNI[dzienTyg(di)] + ", " + ladnaData(di, false, true) }),
+          ok.map(function (sl) { return el("span", { cls: "badge ok", text: sl.start + "–" + sl.koniec }); })));
+      }
+      out.append(el("h3", { style: "font-size:15px;margin:16px 0 4px", text: "Najbliższe wejścia dla Ciebie (7 dni, bez kolizji z Twoim planem)" }),
+        licz ? najbl : el("p", { cls: "note", text: "Brak wolnych wejść w najbliższym tygodniu." }));
+      out.append(el("p", { cls: "note", text: "Według „Planu wykorzystania pływalni” SWF (plan tygodniowy – nie uwzględnia świąt i zmian doraźnych; zasady wejścia w Regulaminie pływalni)." }));
+    });
+  }
+  $("kSzukaj").addEventListener("input", rysujKonsultacje);
+  function rysujKonsultacje() {
+    var out = $("kWynik"); out.textContent = "";
+    var k = W && W.konsultacje; if (!k || !k.length) { out.append(el("p", { cls: "note", text: "Lista konsultacji nie jest wczytana." })); return; }
+    var q = norm($("kSzukaj").value), d0 = new Date(); d0.setHours(0, 0, 0, 0);
+    var teraz = new Date(), minTeraz = teraz.getHours() * 60 + teraz.getMinutes(), dzis = (teraz.getDay() + 6) % 7;
+    var wiersze = k.filter(function (x) { return !q || norm(x.osoba + " " + x.pokoj).indexOf(q) >= 0; }).map(function (x) {
+      var dni = (x.dzien - dzis + 7) % 7; if (dni === 0 && minuty(x.koniec) <= minTeraz) dni = 7;
+      return { x: x, data: iso(dodajDni(d0, dni)) };
+    }).sort(function (a, b) { return a.data < b.data ? -1 : a.data > b.data ? 1 : minuty(a.x.start) - minuty(b.x.start); });
+    out.append(el("div", { cls: "scroll" }, el("table", { cls: "list" },
+      el("thead", null, el("tr", null, ["Najbliższy termin", "Godziny", "Osoba", "Pokój"].map(function (h) { return el("th", { text: h }); }))),
+      el("tbody", null, wiersze.map(function (w) {
+        return el("tr", null, el("td", { text: (w.data === DZIS ? "dziś, " : "") + DNI[w.x.dzien] + " " + ladnaData(w.data, false, true) }),
+          el("td", { text: w.x.start + "–" + w.x.koniec }), el("td", { text: w.x.osoba }), el("td", { text: w.x.pokoj ? "p. " + w.x.pokoj : "—" }));
+      })))));
+    out.append(el("p", { cls: "note", text: "Według „Konsultacji nauczycieli akademickich SWF” na semestr zimowy (budynek SWF). Pokazano " + wiersze.length + " z " + k.length + "." }));
+  }
+
+  // ---------- SALE I PROWADZĄCY ----------
+  var S = null, sLad = null, sPamiec = pamiec("sale") || {};
+  function zaladujSale() {
+    if (S) return Promise.resolve(S);
+    if (sLad) return sLad;
+    sLad = new Promise(function (ok) {
+      var s = document.createElement("script");
+      s.src = "dane/sale.js?v=" + encodeURIComponent(I.meta.wygenerowano || "");
+      s.onload = function () { S = window.PLAN_SALE || null; if (S) przygotujSale(); ok(S); };
+      s.onerror = function () { ok(null); };
+      document.head.appendChild(s);
+    });
+    return sLad;
+  }
+  var sDzienIdx = {}, sBudynki = [];
+  function przygotujSale() {
+    S.dni.forEach(function (d, i) { sDzienIdx[d] = i; });
+    var licz = {};
+    S.sale.forEach(function (s) {
+      licz[s[0]] = (licz[s[0]] || 0) + 1;
+      s.mapa = {}; s[2].forEach(function (z) { s.mapa[z[0]] = z; });
+    });
+    sBudynki = Object.keys(licz).sort(function (a, b) { return licz[b] - licz[a] || a.localeCompare(b, "pl", { numeric: true }); })
+      .map(function (b) { return [b, licz[b]]; });
+    S.osoby.forEach(function (o) { o.szukaj = norm(o[0] + " " + o[1]); });
+  }
+  function kluczOsoby(n) {   // jak klucz_osoby w generuj.py: bez tytułów, słowa posortowane
+    var t = (n || "").replace(/\*/g, " ").replace(/\([^)]*\)/g, " ").replace(/\.(?=\S)/g, ". ").replace(/\s*-\s*/g, "-");
+    return t.split(/[\s,]+/).filter(function (s) {
+      return s && !/\.$/.test(s) && !/^(dr|hab|inż|prof|mgr|lic|ucz|ppor|por|kpt|mjr|ppłk|płk|gen|sierż|kmdr|plut|chor)$/i.test(s);
+    }).map(function (s) { return s.toLowerCase(); }).sort().join(" ");
+  }
+  function blokTeraz() {   // bieżący albo najbliższy blok dziś (po ostatnim - ostatni)
+    var d = new Date(), m = d.getHours() * 60 + d.getMinutes(), G = dzienTyg(DZIS) >= 5 ? GODZ_W : GODZ;
+    var bl = Object.keys(G).map(Number).sort(function (a, b) { return a - b; });
+    for (var i = 0; i < bl.length; i++) {
+      var k = G[bl[i]][1].split(":"); if (m <= +k[0] * 60 + +k[1]) return bl[i];
+    }
+    return bl[bl.length - 1] || 1;
+  }
+  function tekstS(i) { return S.teksty[i] || ""; }
+  function opisZajSali(z) {
+    var gr = z[3].map(function (i) { return S.grupy[i]; });
+    return tekstS(z[1]) + (tekstS(z[2]) ? " (" + tekstS(z[2]) + ")" : "") + " · " + gr.slice(0, 3).join(", ") + (gr.length > 3 ? " +" + (gr.length - 3) : "");
+  }
+
+  function rysujSale() {
+    var out = $("sWynik");
+    if (!S) {
+      out.textContent = "Wczytywanie danych sal…";
+      zaladujSale().then(function (x) {
+        if (!x) { out.textContent = ""; out.append(el("p", { cls: "note warn", text: "Brak danych sal (dane/sale.js) – uruchom: python3 generuj.py --sale" })); return; }
+        initSale(); rysujSale();
+      });
+      return;
+    }
+    rysujWolneSale(); rysujOsobe();
+  }
+  var sInit = false;
+  function initSale() {
+    if (sInit) return; sInit = true;
+    var bud = $("sBud");
+    bud.append(el("option", { value: "", text: "wszystkie" }));
+    sBudynki.forEach(function (b) { bud.append(el("option", { value: b[0], text: (b[0] === "strzelnica" ? b[0] : "bud. " + b[0]) + " (" + b[1] + " sal)" })); });
+    bud.value = sPamiec.bud != null && sBudynki.some(function (b) { return b[0] === sPamiec.bud; }) ? sPamiec.bud : (sBudynki[0] || [""])[0];
+    $("sDzien").value = DZIS;
+    var bl = $("sBlok");
+    Object.keys(GODZ).map(Number).sort(function (a, b) { return a - b; }).forEach(function (b) {
+      bl.append(el("option", { value: String(b), text: b + " · " + GODZ[b][0] + "–" + GODZ[b][1] }));
+    });
+    bl.value = String(blokTeraz());
+    bud.addEventListener("change", function () { sPamiec.bud = bud.value; pamiec("sale", sPamiec); rysujWolneSale(); });
+    $("sDzien").addEventListener("change", rysujWolneSale);
+    bl.addEventListener("change", rysujWolneSale);
+    $("sSala").addEventListener("input", rysujWolneSale);
+    // wyszukiwarka osób
+    var box = $("osPicker"), inp = el("input", { type: "search", placeholder: "Nazwisko prowadzącego, np. Szulim", autocomplete: "off", "aria-label": "Szukaj prowadzącego" });
+    var lista = el("div", { cls: "sugg hidden", role: "listbox" });
+    box.append(inp, lista);
+    inp.addEventListener("input", function () {
+      var q = norm(inp.value); lista.textContent = "";
+      if (q.length < 2) { lista.classList.add("hidden"); return; }
+      var cz = q.split(" ");
+      var wyn = S.osoby.filter(function (o) { return cz.every(function (c) { return o.szukaj.indexOf(c) >= 0; }); }).slice(0, 12);
+      wyn.forEach(function (o) {
+        lista.append(el("button", { type: "button", onclick: function () { inp.value = o[0]; lista.classList.add("hidden"); sPamiec.os = o[1]; pamiec("sale", sPamiec); rysujOsobe(); } },
+          el("span", { text: o[0] }), el("span", { cls: "sub", text: o[2].length + " zaj." })));
+      });
+      if (!wyn.length) lista.append(el("div", { cls: "sub", style: "padding:7px 10px", text: "Nie znaleziono." }));
+      lista.classList.remove("hidden");
+    });
+    inp.addEventListener("blur", function () { setTimeout(function () { lista.classList.add("hidden"); }, 200); });
+    var o0 = sPamiec.os && S.osoby.find(function (o) { return o[1] === sPamiec.os; });
+    if (o0) inp.value = o0[0];
+  }
+
+  function porownajSale(x, y) { return x[1].localeCompare(y[1], "pl", { numeric: true, sensitivity: "base" }); }
+  function nazwaSali(s, bud) { return s[1] + (bud ? "" : " · " + s[0]); }
+  function rysujWolneSale() {
+    var out = $("sWynik"); out.textContent = "";
+    var bud = $("sBud").value, dzien = $("sDzien").value || DZIS, blok = +$("sBlok").value, q = norm($("sSala").value);
+    var di = sDzienIdx[dzien];
+    var G = dzienTyg(dzien) >= 5 ? GODZ_W : GODZ;
+    var bloki = Object.keys(G).map(Number).sort(function (a, b) { return a - b; });
+    var sale = S.sale.filter(function (s) { return (!bud || s[0] === bud) && (!q || norm(s[1] + " " + s[0]).indexOf(q) >= 0); })
+      .sort(function (x, y) { return bud ? porownajSale(x, y) : x[0].localeCompare(y[0], "pl", { numeric: true }) || porownajSale(x, y); });
+    if (di == null) {
+      out.append(el("p", { cls: "note", text: dzien < S.dni[0] ? "Dane sal obejmują tylko ostatni tydzień i przyszłe zajęcia." : "Tego dnia w planach nie ma żadnych zajęć – według planów wszystkie sale są wolne." }));
+      return;
+    }
+    if (!sale.length) { out.append(el("p", { cls: "note", text: "Nie ma takiej sali w planach." })); return; }
+    function zaj(s, b) { return s.mapa[di * 8 + b]; }
+    function pokaz(s) { return function () { pokazSale(s, dzien); }; }
+
+    // --- podsumowanie: które sale są wolne w wybranym bloku i do kiedy ---
+    var doKonca = [], krotko = [];
+    sale.forEach(function (s) {
+      if (zaj(s, blok)) return;
+      var nast = bloki.filter(function (b) { return b > blok && zaj(s, b); })[0];
+      (nast ? krotko : doKonca).push([s, nast]);
+    });
+    var wolnych = doKonca.length + krotko.length;
+    var sum = el("div", { cls: "sale-sum" },
+      el("div", { cls: "ile" }, (wolnych ? "Wolne sale: " + wolnych + " / " + sale.length : (sale.length > 1 ? "Wszystkie sale zajęte" : "Sala zajęta")) + " ",
+        el("small", { text: "· " + DNI_K[dzienTyg(dzien)] + " " + ladnaData(dzien, false, true) + ", blok " + blok + " (" + godzinyBloku(blok, dzien) + ")" })));
+    function grupa(lbl, lista, cls) {
+      if (!lista.length) return null;
+      return el("div", { cls: "sale-grp" }, el("div", { cls: "lbl", text: lbl + " (" + lista.length + ")" }),
+        el("div", { cls: "chips" }, lista.map(function (x) {
+          var s = x[0], nast = x[1];
+          return el("button", { type: "button", cls: "sala" + (cls ? " " + cls : ""), title: "Pokaż najbliższe dni tej sali", onclick: pokaz(s) },
+            nazwaSali(s, bud), nast ? el("small", { text: "do " + G[nast][0] }) : null);
+        })));
+    }
+    out.append(sum);
+    if (sale.length > 120) { out.append(el("p", { cls: "note", text: "Wybierz budynek albo wpisz salę, żeby zobaczyć listę wolnych sal i cały dzień (" + sale.length + " sal)." })); return; }
+    [grupa("Wolne do końca dnia", doKonca), grupa("Wolne, potem zajęte", krotko, "krotko")].forEach(function (g) { if (g) sum.append(g); });
+
+    // --- siatka dnia ---
+    var tylko = !!sPamiec.tylkoWolne;
+    var cb = el("input", { type: "checkbox", checked: tylko ? "checked" : null, onchange: function () { sPamiec.tylkoWolne = cb.checked; pamiec("sale", sPamiec); rysujWolneSale(); } });
+    out.append(el("div", { cls: "sale-opcje" },
+      el("b", { style: "color:var(--text)", text: "Cały dzień" }),
+      el("span", { cls: "leg" }, el("i", { style: "background:var(--busy-bg)" }), "zajęta (skrót przedmiotu, rodzaj)"),
+      el("span", { cls: "leg" }, el("i", { style: "background:var(--surface-2)" }), "wolna"),
+      el("label", { cls: "leg", style: "cursor:pointer" }, cb, "tylko wolne w bloku " + blok)));
+    var wiersze = tylko ? sale.filter(function (s) { return !zaj(s, blok); }) : sale;
+    var tab = el("table", { cls: "sale" });
+    tab.append(el("thead", null, el("tr", null, [el("th", { text: "" })].concat(bloki.map(function (b) {
+      return el("th", { cls: b === blok ? "wyb" : null }, String(b), el("small", { text: G[b][0] }));
+    })))));
+    var tb = el("tbody");
+    wiersze.forEach(function (s) {
+      var tr = el("tr", { cls: "klik", title: "Pokaż najbliższe dni tej sali", onclick: pokaz(s) }, el("td", { cls: "n", text: nazwaSali(s, bud) }));
+      for (var i = 0; i < bloki.length; i++) {
+        var b = bloki[i], z = zaj(s, b);
+        if (!z) { tr.append(el("td", { cls: "b wolna" + (b === blok ? " wyb" : ""), title: "blok " + b + ": wolna" })); continue; }
+        // te same zajęcia w kolejnych blokach -> jedna komórka
+        var n = 1;
+        while (i + n < bloki.length) {
+          var z2 = zaj(s, bloki[i + n]);
+          if (!z2 || z2[1] !== z[1] || z2[2] !== z[2] || z2[3].join() !== z[3].join()) break;
+          n++;
+        }
+        var obejmuje = blok >= b && blok <= bloki[i + n - 1];
+        tr.append(el("td", { cls: "b zaj" + (obejmuje ? " wyb" : ""), colspan: n > 1 ? String(n) : null,
+          title: (n > 1 ? "bloki " + b + "–" + bloki[i + n - 1] : "blok " + b) + ": " + opisZajSali(z) },
+          tekstS(z[1]), tekstS(z[2]) ? el("small", { text: " " + tekstS(z[2]) }) : null));
+        i += n - 1;
+      }
+      tb.append(tr);
+    });
+    tab.append(tb);
+    out.append(wiersze.length ? el("div", { cls: "scroll" }, tab) : el("p", { cls: "note", text: "Żadna z tych sal nie jest wolna w bloku " + blok + "." }),
+      el("div", { id: "sSzczegoly" }));
+  }
+
+  function pokazSale(s, odDnia) {
+    var box = $("sSzczegoly"); if (!box) return; box.textContent = "";
+    box.append(el("h3", { text: "Sala " + s[1] + " (" + (s[0] === "strzelnica" ? s[0] : "bud. " + s[0]) + ") – najbliższe 7 dni" }));
+    var d0 = dataZ(odDnia), ul = el("ul");
+    for (var i = 0; i < 7; i++) {
+      var d = iso(dodajDni(d0, i)), di = sDzienIdx[d];
+      var zaj = di == null ? [] : Object.keys(s.mapa).map(Number).filter(function (k) { return Math.floor(k / 8) === di; }).sort(function (a, b) { return a - b; });
+      if (dzienTyg(d) >= 5 && !zaj.length) continue;
+      // te same zajęcia w kolejnych blokach -> jeden wiersz
+      var odc = [];
+      zaj.forEach(function (k) {
+        var z = s.mapa[k], o = odc[odc.length - 1];
+        if (o && o.do === k - 1 && o.z[1] === z[1] && o.z[2] === z[2] && o.z[3].join() === z[3].join()) o.do = k;
+        else odc.push({ od: k, do: k, z: z });
+      });
+      var G7 = dzienTyg(d) >= 5 ? GODZ_W : GODZ;
+      ul.append(el("li", { cls: "sala-dzien" }, el("b", { text: DNI_K[dzienTyg(d)] + " " + ladnaData(d, false, true) }),
+        odc.length ? el("ul", null, odc.map(function (o) {
+          var b1 = o.od % 8, b2 = o.do % 8;
+          return el("li", null, el("span", { cls: "kiedy", text: (b1 === b2 ? "bl. " + b1 : "bl. " + b1 + "–" + b2) + " · " + ((G7[b1] || [""])[0] + "–" + (G7[b2] || ["", ""])[1]) }), " " + opisZajSali(o.z));
+        })) : el("span", { cls: "sub", style: "color:var(--ok)", text: " – wolna cały dzień" })));
+    }
+    box.append(ul);
+    box.scrollIntoView({ block: "nearest" });
+  }
+
+  function rysujOsobe() {
+    var out = $("osWynik"); out.textContent = "";
+    var o = sPamiec.os && S.osoby.find(function (x) { return x[1] === sPamiec.os; });
+    if (!o) { out.append(el("p", { cls: "note", text: "Wpisz nazwisko – zobaczysz najbliższe zajęcia tej osoby (sala, grupy) ze wszystkich wydziałów." })); return; }
+    out.append(el("h3", { text: o[0] }));
+    // konsultacje SWF (ta sama osoba = te same słowa imienia i nazwiska)
+    var kons = (W && W.konsultacje || []).filter(function (k) { return kluczOsoby(k.osoba) === o[1]; });
+    if (kons.length) out.append(el("p", null, el("b", { text: "Konsultacje (SWF): " }),
+      kons.map(function (k) { return DNI[k.dzien] + " " + k.start + "–" + k.koniec + (k.pokoj ? ", p. " + k.pokoj : ""); }).join("; ")));
+    var teraz = (sDzienIdx[DZIS] != null ? sDzienIdx[DZIS] : S.dni.filter(function (d) { return d < DZIS; }).length) * 8;
+    var przyszle = o[2].filter(function (z) { return z[0] >= teraz; });
+    if (!przyszle.length) { out.append(el("p", { cls: "note", text: "Brak zajęć w planach od dziś." })); return; }
+    var poDniach = {}, kol = [];
+    przyszle.forEach(function (z) { var d = S.dni[Math.floor(z[0] / 8)]; if (!poDniach[d]) { poDniach[d] = []; kol.push(d); } poDniach[d].push(z); });
+    var ile = 0, tb = el("tbody");
+    kol.slice(0, 10).forEach(function (d) {
+      poDniach[d].forEach(function (z, j) {
+        var b = z[0] % 8, gr = z[4].map(function (i) { return S.grupy[i]; });
+        tb.append(el("tr", null,
+          el("td", { text: j ? "" : (d === DZIS ? "dziś, " : "") + DNI_K[dzienTyg(d)] + " " + ladnaData(d, false, true) }),
+          el("td", { text: b + " · " + godzinyBloku(b, d) }),
+          el("td", { text: tekstS(z[1]) + (tekstS(z[2]) ? " (" + tekstS(z[2]) + ")" : "") }),
+          el("td", { text: tekstS(z[3]) || "—" }),
+          el("td", { cls: "sub", text: gr.join(", ") })));
+        ile++;
+      });
+    });
+    out.append(el("div", { cls: "scroll" }, el("table", { cls: "list" },
+      el("thead", null, el("tr", null, ["Dzień", "Blok", "Przedmiot", "Sala", "Grupy"].map(function (h) { return el("th", { text: h }); }))), tb)));
+    out.append(el("p", { cls: "note", text: "Pokazano " + ile + " zajęć z najbliższych " + Math.min(kol.length, 10) + " dni z zajęciami (wszystkich przyszłych: " + przyszle.length + ")." }));
+  }
+
+  // ---------- APLIKACJA (PWA): praca bez internetu, instalacja ----------
+  if ("serviceWorker" in navigator && /^https?:$/.test(location.protocol)) {
+    navigator.serviceWorker.register("sw.js").catch(function () {});
+  }
+  function stanSieci() { $("offline").classList.toggle("hidden", navigator.onLine !== false); }
+  window.addEventListener("online", stanSieci); window.addEventListener("offline", stanSieci); stanSieci();
+  var prosbaInstalacji = null;
+  window.addEventListener("appinstalled", function () { licz("aplikacja-zainstalowana"); });
+  window.addEventListener("beforeinstallprompt", function (e) {
+    e.preventDefault(); prosbaInstalacji = e; $("instaluj").classList.remove("hidden");
+  });
+  $("instaluj").addEventListener("click", function () {
+    if (!prosbaInstalacji) return;
+    prosbaInstalacji.prompt();
+    prosbaInstalacji.userChoice.then(function () { prosbaInstalacji = null; $("instaluj").classList.add("hidden"); });
+  });
+  window.addEventListener("appinstalled", function () { $("instaluj").classList.add("hidden"); });
+  // grupy z "Moje grupy" pobierane z wyprzedzeniem, żeby plan działał też bez internetu
+  if (navigator.onLine !== false && moje.length) setTimeout(function () { zaladuj(moje); }, 1500);
+
+  // ---------- MOJE GRUPY ----------
+  wybierak($("mPicker"), function (g) { if (moje.indexOf(g) < 0) moje.push(g); zapiszMoje(); rysujGrupy(); }, "Dodaj swoją grupę, np. WEL24EA1S0");
+  function rysujGrupy() {
+    var ch = $("mChips"); ch.textContent = "";
+    if (!moje.length) ch.append(el("span", { cls: "sub", text: "Brak – wpisz swoją grupę powyżej." }));
+    moje.forEach(function (g) { ch.append(chip(g, null, function () { moje = moje.filter(function (x) { return x !== g; }); zapiszMoje(); rysujGrupy(); })); });
+    var t = $("tWydz"); t.textContent = "";
+    t.append(el("thead", null, el("tr", null, ["Wydział", "Grup", "Semestr", "Stan", "Źródło"].map(function (h) { return el("th", { text: h }); }))));
+    var tb = el("tbody"), licz = {};
+    idsGrup.forEach(function (g) { var w = I.grupy[g].w; licz[w] = (licz[w] || 0) + 1; });
+    (I.wydzialy || []).forEach(function (w) {
+      var n = (licz[w.kod] || 0) + (w.kod === "WEL" ? (licz.IOE || 0) : 0);
+      tb.append(el("tr", null, el("td", null, el("b", { text: w.kod }), " " + w.nazwa), el("td", { text: String(n) }),
+        el("td", null, el("span", { text: opisSem(w.semestr) }),
+          w.semestr_uwaga ? el("div", { cls: "note warn", style: "margin:2px 0 0", text: w.semestr_uwaga }) : null),
+        el("td", null, el("span", { cls: "badge " + (w.stan === "ok" ? "ok" : "warn"), text: w.stan === "ok" ? "aktualne" : w.stan })),
+        el("td", null, w.spis ? el("a", { href: w.spis, target: "_blank", rel: "noopener", text: "spis grup" }) : "—")));
+    });
+    (I.meta.niedostepne || []).forEach(function (w) {
+      tb.append(el("tr", null, el("td", null, el("b", { text: w.kod }), " " + w.nazwa), el("td", { text: "—" }), el("td", { text: "—" }),
+        el("td", null, el("span", { cls: "badge mut", text: "niedostępny" })), el("td", { cls: "sub", text: w.powod })));
+    });
+    t.append(tb);
+  }
+
+  // ---------- KALENDARZE ----------
+  function rysujKalendarze() {
+    var k = $("kal"); k.textContent = "";
+    var baza = /^https?:/.test(location.protocol) ? location.href.replace(/[#?].*$/, "").replace(/\/[^\/]*$/, "") : "";
+    k.append(el("h2", { text: "Aplikacja na telefonie" }));
+    var zainst = window.matchMedia && matchMedia("(display-mode: standalone)").matches || navigator.standalone;
+    k.append(el("p", { cls: "note", style: "margin-top:0", text: zainst
+      ? "Strona działa jako aplikacja. Twoje grupy, WF i dni akademickie są zapisane w telefonie i działają bez internetu (dane z ostatniego połączenia)."
+      : "Stronę można dodać do ekranu głównego jak aplikację – działa wtedy także bez internetu (Twoje grupy, WF, dni akademickie; inne grupy i sale po wcześniejszym otwarciu)." }));
+    if (!zainst) k.append(el("ul", { cls: "note" },
+      el("li", { text: "Android (Chrome): przycisk „Zainstaluj aplikację” u góry strony albo menu ⋮ → „Zainstaluj aplikację” / „Dodaj do ekranu głównego”." }),
+      el("li", { text: "iPhone (Safari): przycisk Udostępnij → „Do ekranu początkowego”." })));
+    if (!baza) k.append(el("p", { cls: "note warn", text: "Instalacja działa dopiero na opublikowanej stronie (https), nie z pliku na dysku." }));
+    k.append(el("h2", { text: "Subskrypcja planu w kalendarzu" }));
+    k.append(el("p", { cls: "note", style: "margin-top:0", text: "Każda grupa WAT ma swój kalendarz. Dodaj grupy poniżej (to te same co w zakładce „Moje grupy”) – przy każdej jest adres do subskrypcji. Usunięcie grupy tutaj nie usuwa kalendarza z telefonu." }));
+    if (!baza) k.append(el("p", { cls: "note warn", text: "Strona jest otwarta z dysku – adresy do subskrypcji pojawią się po opublikowaniu na GitHub Pages." }));
+    var wyb = el("div", { cls: "picker" });
+    k.append(el("div", { cls: "controls", style: "margin:8px 0" }, wyb));
+    wybierak(wyb, function (g) { if (moje.indexOf(g) < 0) moje.push(g); zapiszMoje(); rysujKalendarze(); }, "Dodaj grupę, np. WEL24EA1S0");
+    if (!moje.length) k.append(el("p", { cls: "sub", text: "Brak wybranych grup – wpisz grupę powyżej." }));
+    moje.forEach(function (g) {
+      var c = { plik: g.replace(/[^A-Za-z0-9_.-]/g, "_"), nazwa: "Plan " + g };
+      var usun = el("button", { cls: "btn", text: "Usuń z listy", onclick: function () {
+        moje = moje.filter(function (x) { return x !== g; }); zapiszMoje(); rysujKalendarze();
+      } });
+      var url = (baza ? baza + "/" : "") + c.plik + ".ics";
+      var webcal = baza ? url.replace(/^https?:\/\//, "webcal://") : null;
+      var kopiuj = el("button", { cls: "btn", text: "Kopiuj adres", onclick: function () {
+        licz("kalendarz-kopiuj-adres"); if (navigator.clipboard) navigator.clipboard.writeText(url).then(function () { kopiuj.textContent = "Skopiowano"; });
+      } });
+      k.append(el("div", { cls: "ref" }, el("b", { text: c.nazwa }), el("br"), el("code", { text: url }),
+        el("div", { style: "display:flex;gap:8px;flex-wrap:wrap;margin-top:6px" },
+          baza ? kopiuj : null, webcal ? el("a", { cls: "btn", href: webcal, text: "Dodaj do Kalendarza (Apple / Outlook)", onclick: function () { licz("kalendarz-webcal"); } }) : null,
+          el("a", { cls: "btn", href: c.plik + ".ics", text: "Pobierz plik .ics", onclick: function () { licz("kalendarz-pobierz-ics"); } }), usun)));
+    });
+    k.append(el("p", { cls: "note", text: "Google Kalendarz: Inne kalendarze → + → Z adresu URL (odświeża co ok. 12–24 h). iPhone: Ustawienia → Kalendarz → Konta → Dodaj konto → Inne → Dodaj subskrybowany kalendarz." }));
+    if (GC_KOD) k.append(el("p", { cls: "note", text: "Strona liczy anonimowe odwiedziny (GoatCounter – bez ciasteczek i bez danych osobowych; nazwy grup nie są wysyłane)." }));
+  }
+
+  pokazTab((location.hash || "#plan").slice(1));
+})();
+</script>
+</body>
+</html>

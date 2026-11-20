@@ -1,0 +1,723 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WMT23LA1S1
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:56a7966a08b7df4ec5f636d5@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261005T080000
+DTEND;TZID=Europe/Warsaw:20261005T093500
+SUMMARY:Pszis (w)
+LOCATION:24 67
+DESCRIPTION:Pokładowe systemy zobrazowania informacji i symulatory\nRodza
+ j: wykład\nProwadzący: dr inż. Wróblewski Mirosław\nNr zajęć: 1/13
+ \nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:739007f091b007ee9c6c0b5c@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261005T095000
+DTEND;TZID=Europe/Warsaw:20261005T112500
+SUMMARY:Pszis (w)
+LOCATION:24 67
+DESCRIPTION:Pokładowe systemy zobrazowania informacji i symulatory\nRodza
+ j: wykład\nProwadzący: dr inż. Wróblewski Mirosław\nNr zajęć: 2/13
+ \nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0b60c932cc86380c56c8945b@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261006T114000
+DTEND;TZID=Europe/Warsaw:20261006T131500
+SUMMARY:Pszis (w)
+LOCATION:24 67
+DESCRIPTION:Pokładowe systemy zobrazowania informacji i symulatory\nRodza
+ j: wykład\nProwadzący: dr inż. Wróblewski Mirosław\nNr zajęć: 3/13
+ \nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1f63671b43966fdf430e1f9d@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261007T114000
+DTEND;TZID=Europe/Warsaw:20261007T131500
+SUMMARY:Esp (w)
+LOCATION:4 H7
+DESCRIPTION:Eksploatacja statków powiet.\nRodzaj: wykład\nProwadzący: d
+ r inż. Tkaczuk Sławomir\nNr zajęć: 1/22\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:dfb20a3e7f65717c75fdcd6f@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261007T133000
+DTEND;TZID=Europe/Warsaw:20261007T150500
+SUMMARY:Esp (w)
+LOCATION:4 H7
+DESCRIPTION:Eksploatacja statków powiet.\nRodzaj: wykład\nProwadzący: d
+ r inż. Tkaczuk Sławomir\nNr zajęć: 2/22\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:82e62a55498838912fb43d33@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261008T133000
+DTEND;TZID=Europe/Warsaw:20261008T150500
+SUMMARY:Pszis (w)
+LOCATION:24 67
+DESCRIPTION:Pokładowe systemy zobrazowania informacji i symulatory\nRodza
+ j: wykład\nProwadzący: dr inż. Wróblewski Mirosław\nNr zajęć: 4/13
+ \nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:605924fad19c16a67e02130b@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261014T080000
+DTEND;TZID=Europe/Warsaw:20261014T093500
+SUMMARY:Sd. (S)
+LOCATION:24 67
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: ppłk d
+ r inż. Henzel Maciej\nNr zajęć: 1/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c15f15505b882a3be574d123@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261014T095000
+DTEND;TZID=Europe/Warsaw:20261014T112500
+SUMMARY:Sd. (S)
+LOCATION:005 36
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Kurnyta-Mazurek Paulina\nNr zajęć: 2/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:945803493e6ad6452a93f9a4@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261014T114000
+DTEND;TZID=Europe/Warsaw:20261014T131500
+SUMMARY:Esp (w)
+LOCATION:4 H7
+DESCRIPTION:Eksploatacja statków powiet.\nRodzaj: wykład\nProwadzący: d
+ r inż. Tkaczuk Sławomir\nNr zajęć: 3/22\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2aec9560170cf7a100844d74@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261014T133000
+DTEND;TZID=Europe/Warsaw:20261014T150500
+SUMMARY:Esp (w)
+LOCATION:4 H7
+DESCRIPTION:Eksploatacja statków powiet.\nRodzaj: wykład\nProwadzący: d
+ r inż. Tkaczuk Sławomir\nNr zajęć: 4/22\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a4a45377fbb94384f98b6338@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261015T133000
+DTEND;TZID=Europe/Warsaw:20261015T150500
+SUMMARY:Pszis (ć)
+LOCATION:130 36
+DESCRIPTION:Pokładowe systemy zobrazowania informacji i symulatory\nRodza
+ j: ćwiczenia\nProwadzący: dr inż. Wróblewski Mirosław\nNr zajęć: 1
+ /6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:fd39e068f473f571fd31a2f2@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261019T080000
+DTEND;TZID=Europe/Warsaw:20261019T093500
+SUMMARY:Pszis (w)
+LOCATION:24 67
+DESCRIPTION:Pokładowe systemy zobrazowania informacji i symulatory\nRodza
+ j: wykład\nProwadzący: dr inż. Wróblewski Mirosław\nNr zajęć: 5/13
+ \nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6d4bdb2576c370db4e7113a5@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261021T080000
+DTEND;TZID=Europe/Warsaw:20261021T093500
+SUMMARY:Sd. (S)
+LOCATION:34 67
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: ppłk d
+ r inż. Henzel Maciej\nNr zajęć: 3/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e74e52c283ade5ca5144dbb1@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261021T114000
+DTEND;TZID=Europe/Warsaw:20261021T131500
+SUMMARY:Esp (w)
+LOCATION:4 H7
+DESCRIPTION:Eksploatacja statków powiet.\nRodzaj: wykład\nProwadzący: d
+ r inż. Tkaczuk Sławomir\nNr zajęć: 5/22\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:93300bdb55bb8c4a566de886@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261021T133000
+DTEND;TZID=Europe/Warsaw:20261021T150500
+SUMMARY:Esp (w)
+LOCATION:4 H7
+DESCRIPTION:Eksploatacja statków powiet.\nRodzaj: wykład\nProwadzący: d
+ r inż. Tkaczuk Sławomir\nNr zajęć: 6/22\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6621c3b647e24f89cf5c4c86@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261022T095000
+DTEND;TZID=Europe/Warsaw:20261022T112500
+SUMMARY:Pszis (S)
+LOCATION:12 36
+DESCRIPTION:Pokładowe systemy zobrazowania informacji i symulatory\nRodza
+ j: seminarium\nProwadzący: dr inż. Wróblewski Mirosław\nNr zajęć: 1
+ /3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c9abdac652f0bbfff0c724a1@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261022T133000
+DTEND;TZID=Europe/Warsaw:20261022T150500
+SUMMARY:Pszis (w)
+LOCATION:24 67
+DESCRIPTION:Pokładowe systemy zobrazowania informacji i symulatory\nRodza
+ j: wykład\nProwadzący: dr inż. Wróblewski Mirosław\nNr zajęć: 6/13
+ \nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:65e92034f7ca98b3c1b517dc@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261028T114000
+DTEND;TZID=Europe/Warsaw:20261028T131500
+SUMMARY:Esp (w)
+LOCATION:4 H7
+DESCRIPTION:Eksploatacja statków powiet.\nRodzaj: wykład\nProwadzący: d
+ r inż. Tkaczuk Sławomir\nNr zajęć: 7/22\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1a6409f9d4f3ad5be6aa7332@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261028T133000
+DTEND;TZID=Europe/Warsaw:20261028T150500
+SUMMARY:Esp (w)
+LOCATION:4 H7
+DESCRIPTION:Eksploatacja statków powiet.\nRodzaj: wykład\nProwadzący: d
+ r inż. Tkaczuk Sławomir\nNr zajęć: 8/22\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:31d1813c40050dc0df33ff4d@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261102T133000
+DTEND;TZID=Europe/Warsaw:20261102T150500
+SUMMARY:Pszis (w)
+LOCATION:24 67
+DESCRIPTION:Pokładowe systemy zobrazowania informacji i symulatory\nRodza
+ j: wykład\nProwadzący: dr inż. Wróblewski Mirosław\nNr zajęć: 7/13
+ \nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:470bfcab266f9a444c0c3e92@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261102T160000
+DTEND;TZID=Europe/Warsaw:20261102T173500
+SUMMARY:Pszis (w)
+LOCATION:24 67
+DESCRIPTION:Pokładowe systemy zobrazowania informacji i symulatory\nRodza
+ j: wykład\nProwadzący: dr inż. Wróblewski Mirosław\nNr zajęć: 8/13
+ \nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:bfe587501319243b21390bae@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261104T080000
+DTEND;TZID=Europe/Warsaw:20261104T093500
+SUMMARY:Sd. (S)
+LOCATION:24 67
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: ppłk d
+ r inż. Henzel Maciej\nNr zajęć: 4/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ab79c293190c5f7a68500d5b@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261104T114000
+DTEND;TZID=Europe/Warsaw:20261104T131500
+SUMMARY:Esp (w)
+LOCATION:4 H7
+DESCRIPTION:Eksploatacja statków powiet.\nRodzaj: wykład\nProwadzący: d
+ r inż. Tkaczuk Sławomir\nNr zajęć: 9/22\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f5cf222e2bb47a8cff7738f5@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261104T133000
+DTEND;TZID=Europe/Warsaw:20261104T150500
+SUMMARY:Esp (w)
+LOCATION:4 H7
+DESCRIPTION:Eksploatacja statków powiet.\nRodzaj: wykład\nProwadzący: d
+ r inż. Tkaczuk Sławomir\nNr zajęć: 10/22\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a3d1e7f92befb2521572d499@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261105T080000
+DTEND;TZID=Europe/Warsaw:20261105T093500
+SUMMARY:Pszis (ć)
+LOCATION:43 67
+DESCRIPTION:Pokładowe systemy zobrazowania informacji i symulatory\nRodza
+ j: ćwiczenia\nProwadzący: dr inż. Wróblewski Mirosław\nNr zajęć: 2
+ /6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:02194e74a3ba3dccb93fab41@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261105T095000
+DTEND;TZID=Europe/Warsaw:20261105T112500
+SUMMARY:Pszis (L)
+LOCATION:12 36
+DESCRIPTION:Pokładowe systemy zobrazowania informacji i symulatory\nRodza
+ j: laboratorium\nProwadzący: dr inż. Wróblewski Mirosław\nNr zajęć:
+  1/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9fbd8456fe31f8c48c980f99@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261109T133000
+DTEND;TZID=Europe/Warsaw:20261109T150500
+SUMMARY:Pszis (ć)
+LOCATION:130 36
+DESCRIPTION:Pokładowe systemy zobrazowania informacji i symulatory\nRodza
+ j: ćwiczenia\nProwadzący: dr inż. Wróblewski Mirosław\nNr zajęć: 3
+ /6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2c8962797e7165d849f7e73a@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261109T160000
+DTEND;TZID=Europe/Warsaw:20261109T173500
+SUMMARY:Pszis (w)
+LOCATION:24 67
+DESCRIPTION:Pokładowe systemy zobrazowania informacji i symulatory\nRodza
+ j: wykład\nProwadzący: dr inż. Wróblewski Mirosław\nNr zajęć: 9/13
+ \nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:c882a7b0324d0eab0b71bcbd@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261112T080000
+DTEND;TZID=Europe/Warsaw:20261112T093500
+SUMMARY:Pszis (ć)
+LOCATION:130 36
+DESCRIPTION:Pokładowe systemy zobrazowania informacji i symulatory\nRodza
+ j: ćwiczenia\nProwadzący: dr inż. Wróblewski Mirosław\nNr zajęć: 4
+ /6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:10738a35d34805327a8bff86@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261112T095000
+DTEND;TZID=Europe/Warsaw:20261112T112500
+SUMMARY:Pszis (L)
+LOCATION:12 36
+DESCRIPTION:Pokładowe systemy zobrazowania informacji i symulatory\nRodza
+ j: laboratorium\nProwadzący: dr inż. Wróblewski Mirosław\nNr zajęć:
+  2/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:62db3f3c20e1308e5da0bb09@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261118T080000
+DTEND;TZID=Europe/Warsaw:20261118T093500
+SUMMARY:Sd. (S)
+LOCATION:005 36
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Kurnyta-Mazurek Paulina\nNr zajęć: 5/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9cb082a7983cbb701b178bc7@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261118T095000
+DTEND;TZID=Europe/Warsaw:20261118T112500
+SUMMARY:Pszis (L)
+LOCATION:12 36
+DESCRIPTION:Pokładowe systemy zobrazowania informacji i symulatory\nRodza
+ j: laboratorium\nProwadzący: * Soszyński P\nNr zajęć: 3/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:bebeec4ad922b8c76a8b796f@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261118T114000
+DTEND;TZID=Europe/Warsaw:20261118T131500
+SUMMARY:Esp (w)
+LOCATION:4 H7
+DESCRIPTION:Eksploatacja statków powiet.\nRodzaj: wykład\nProwadzący: d
+ r inż. Tkaczuk Sławomir\nNr zajęć: 11/22\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:36ec2d74cfba0626d129eaa1@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261118T133000
+DTEND;TZID=Europe/Warsaw:20261118T150500
+SUMMARY:Esp (w)
+LOCATION:4 H7
+DESCRIPTION:Eksploatacja statków powiet.\nRodzaj: wykład\nProwadzący: d
+ r inż. Tkaczuk Sławomir\nNr zajęć: 12/22\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:324c5f26c8abcb9904900061@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261119T095000
+DTEND;TZID=Europe/Warsaw:20261119T112500
+SUMMARY:Pszis (L)
+LOCATION:12 36
+DESCRIPTION:Pokładowe systemy zobrazowania informacji i symulatory\nRodza
+ j: laboratorium\nProwadzący: dr inż. Wróblewski Mirosław\nNr zajęć:
+  4/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5f61e827b8c945da3ac2d329@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261119T114000
+DTEND;TZID=Europe/Warsaw:20261119T131500
+SUMMARY:Pszis (w)
+LOCATION:005 36
+DESCRIPTION:Pokładowe systemy zobrazowania informacji i symulatory\nRodza
+ j: wykład\nProwadzący: dr inż. Wróblewski Mirosław\nNr zajęć: 10/1
+ 3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b3bbbd9e3e99c6d3c9ddb30b@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261119T133000
+DTEND;TZID=Europe/Warsaw:20261119T150500
+SUMMARY:Sd. (S)
+LOCATION:24 67
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Kurnyta-Mazurek Paulina\nNr zajęć: 6/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d5e2445fdfd46f5be29d4036@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261125T080000
+DTEND;TZID=Europe/Warsaw:20261125T093500
+SUMMARY:Sd. (S)
+LOCATION:24 67
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: ppłk d
+ r inż. Henzel Maciej\nNr zajęć: 7/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e043573939230d1b97b952d2@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261125T095000
+DTEND;TZID=Europe/Warsaw:20261125T112500
+SUMMARY:Pszis (L)
+LOCATION:12 36
+DESCRIPTION:Pokładowe systemy zobrazowania informacji i symulatory\nRodza
+ j: laboratorium\nProwadzący: * Soszyński P\nNr zajęć: 5/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7995009b238f9c10680cb73f@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261125T114000
+DTEND;TZID=Europe/Warsaw:20261125T131500
+SUMMARY:Esp (w)
+LOCATION:4 H7
+DESCRIPTION:Eksploatacja statków powiet.\nRodzaj: wykład\nProwadzący: d
+ r inż. Tkaczuk Sławomir\nNr zajęć: 13/22\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f6c1879caf666c6f57e13046@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261125T133000
+DTEND;TZID=Europe/Warsaw:20261125T150500
+SUMMARY:Esp (w)
+LOCATION:4 H7
+DESCRIPTION:Eksploatacja statków powiet.\nRodzaj: wykład\nProwadzący: d
+ r inż. Tkaczuk Sławomir\nNr zajęć: 14/22\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:496ede761c806e8af721beb6@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261130T114000
+DTEND;TZID=Europe/Warsaw:20261130T131500
+SUMMARY:Pszis (ć)
+LOCATION:43 67
+DESCRIPTION:Pokładowe systemy zobrazowania informacji i symulatory\nRodza
+ j: ćwiczenia\nProwadzący: dr inż. Wróblewski Mirosław\nNr zajęć: 5
+ /6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4c0ce09ec71e352539dca51d@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261202T080000
+DTEND;TZID=Europe/Warsaw:20261202T093500
+SUMMARY:Sd. (S)
+LOCATION:24 67
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: ppłk d
+ r inż. Henzel Maciej\nNr zajęć: 8/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d7ee3f8f6a096c96a3106635@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261202T095000
+DTEND;TZID=Europe/Warsaw:20261202T112500
+SUMMARY:Pszis (L)
+LOCATION:12 36
+DESCRIPTION:Pokładowe systemy zobrazowania informacji i symulatory\nRodza
+ j: laboratorium\nProwadzący: * Soszyński P\nNr zajęć: 6/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a0c0bc87cc5a2b3c0d7c1f0c@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261202T114000
+DTEND;TZID=Europe/Warsaw:20261202T131500
+SUMMARY:Esp (w)
+LOCATION:4 H7
+DESCRIPTION:Eksploatacja statków powiet.\nRodzaj: wykład\nProwadzący: d
+ r inż. Tkaczuk Sławomir\nNr zajęć: 15/22\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b21654a0aabe278f7b5916b3@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261202T133000
+DTEND;TZID=Europe/Warsaw:20261202T150500
+SUMMARY:Esp (w)
+LOCATION:4 H7
+DESCRIPTION:Eksploatacja statków powiet.\nRodzaj: wykład\nProwadzący: d
+ r inż. Tkaczuk Sławomir\nNr zajęć: 16/22\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1f932b6a3c510b657460b729@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261203T080000
+DTEND;TZID=Europe/Warsaw:20261203T093500
+SUMMARY:Sd. (S)
+LOCATION:34 67
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Kurnyta-Mazurek Paulina\nNr zajęć: 9/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:685bf27d51c1afe258df3728@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261203T095000
+DTEND;TZID=Europe/Warsaw:20261203T112500
+SUMMARY:Sd. (S)
+LOCATION:005 36
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Kurnyta-Mazurek Paulina\nNr zajęć: 10/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6a384d29b66f9972c0e52230@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261208T080000
+DTEND;TZID=Europe/Warsaw:20261208T093500
+SUMMARY:Pszis (ć)
+LOCATION:43 67
+DESCRIPTION:Pokładowe systemy zobrazowania informacji i symulatory\nRodza
+ j: ćwiczenia\nProwadzący: dr inż. Wróblewski Mirosław\nNr zajęć: 6
+ /6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:42e8b75991ee799d59d7c80f@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261208T095000
+DTEND;TZID=Europe/Warsaw:20261208T112500
+SUMMARY:Pszis (S)
+LOCATION:005 36
+DESCRIPTION:Pokładowe systemy zobrazowania informacji i symulatory\nRodza
+ j: seminarium\nProwadzący: dr inż. Wróblewski Mirosław\nNr zajęć: 2
+ /3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1c90f2d8197c850b351f84ff@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261209T080000
+DTEND;TZID=Europe/Warsaw:20261209T093500
+SUMMARY:Sd. (S)
+LOCATION:24 67
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Kurnyta-Mazurek Paulina\nNr zajęć: 11/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d0b774e7a4dcb49969a91248@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261209T095000
+DTEND;TZID=Europe/Warsaw:20261209T112500
+SUMMARY:Pszis (L)
+LOCATION:12 36
+DESCRIPTION:Pokładowe systemy zobrazowania informacji i symulatory\nRodza
+ j: laboratorium\nProwadzący: * Soszyński P\nNr zajęć: 7/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:022f9c09887fc41eb1a28367@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261209T114000
+DTEND;TZID=Europe/Warsaw:20261209T131500
+SUMMARY:Esp (w)
+LOCATION:4 H7
+DESCRIPTION:Eksploatacja statków powiet.\nRodzaj: wykład\nProwadzący: d
+ r inż. Tkaczuk Sławomir\nNr zajęć: 17/22\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:06c91d121eac73856e7781df@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261209T133000
+DTEND;TZID=Europe/Warsaw:20261209T150500
+SUMMARY:Esp (w)
+LOCATION:4 H7
+DESCRIPTION:Eksploatacja statków powiet.\nRodzaj: wykład\nProwadzący: d
+ r inż. Tkaczuk Sławomir\nNr zajęć: 18/22\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:42b5c9ff257b9268c24bd62b@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261210T095000
+DTEND;TZID=Europe/Warsaw:20261210T112500
+SUMMARY:Pszis (S)
+LOCATION:12 36
+DESCRIPTION:Pokładowe systemy zobrazowania informacji i symulatory\nRodza
+ j: seminarium\nProwadzący: dr inż. Wróblewski Mirosław\nNr zajęć: 3
+ /3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:bde1e1f7a962d23541a61dc7@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261214T133000
+DTEND;TZID=Europe/Warsaw:20261214T150500
+SUMMARY:Pszis (L)
+LOCATION:12 36
+DESCRIPTION:Pokładowe systemy zobrazowania informacji i symulatory\nRodza
+ j: laboratorium\nProwadzący: dr inż. Wróblewski Mirosław\nNr zajęć:
+  8/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:12dfd2bcfdf422336e454f19@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261214T160000
+DTEND;TZID=Europe/Warsaw:20261214T173500
+SUMMARY:Pszis (w)
+LOCATION:24 67
+DESCRIPTION:Pokładowe systemy zobrazowania informacji i symulatory\nRodza
+ j: wykład\nProwadzący: dr inż. Wróblewski Mirosław\nNr zajęć: 11/1
+ 3\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:857cd6427e4977d76128988b@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261216T114000
+DTEND;TZID=Europe/Warsaw:20261216T131500
+SUMMARY:Esp (w)
+LOCATION:4 H7
+DESCRIPTION:Eksploatacja statków powiet.\nRodzaj: wykład\nProwadzący: d
+ r inż. Tkaczuk Sławomir\nNr zajęć: 19/22\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7273ddf6125b3f8e2fcdbfaf@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261216T133000
+DTEND;TZID=Europe/Warsaw:20261216T150500
+SUMMARY:Esp (w)
+LOCATION:4 H7
+DESCRIPTION:Eksploatacja statków powiet.\nRodzaj: wykład\nProwadzący: d
+ r inż. Tkaczuk Sławomir\nNr zajęć: 20/22\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:14b398dce92e4b37834f7b21@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261217T114000
+DTEND;TZID=Europe/Warsaw:20261217T131500
+SUMMARY:Sd. (S)
+LOCATION:34 67
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Kurnyta-Mazurek Paulina\nNr zajęć: 12/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c476f4ecf82e0d71ec8f2659@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261217T133000
+DTEND;TZID=Europe/Warsaw:20261217T150500
+SUMMARY:Sd. (S)
+LOCATION:34 67
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Kurnyta-Mazurek Paulina\nNr zajęć: 13/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d02bf659adae93daead0e4ab@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261217T160000
+DTEND;TZID=Europe/Warsaw:20261217T173500
+SUMMARY:Sd. (S)
+LOCATION:34 67
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Kurnyta-Mazurek Paulina\nNr zajęć: 14/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:770172453bd33a3cb7aa8599@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261221T114000
+DTEND;TZID=Europe/Warsaw:20261221T131500
+SUMMARY:Pszis (w)
+LOCATION:24 67
+DESCRIPTION:Pokładowe systemy zobrazowania informacji i symulatory\nRodza
+ j: wykład\nProwadzący: dr inż. Wróblewski Mirosław\nNr zajęć: 12/1
+ 3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0f7181e9bcbd9ddfad8355a3@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261221T133000
+DTEND;TZID=Europe/Warsaw:20261221T150500
+SUMMARY:Pszis (w)
+LOCATION:005 36
+DESCRIPTION:Pokładowe systemy zobrazowania informacji i symulatory\nRodza
+ j: wykład\nProwadzący: dr inż. Wróblewski Mirosław\nNr zajęć: 13/1
+ 3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8abae0278f5800a154d74ad7@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261222T133000
+DTEND;TZID=Europe/Warsaw:20261222T150500
+SUMMARY:Sd. (S)
+LOCATION:34 67
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: ppłk d
+ r inż. Jasztal Michał\nNr zajęć: 15/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:54a6e98971435b2678f8ac28@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261223T114000
+DTEND;TZID=Europe/Warsaw:20261223T131500
+SUMMARY:Esp (w)
+LOCATION:4 H7
+DESCRIPTION:Eksploatacja statków powiet.\nRodzaj: wykład\nProwadzący: d
+ r inż. Tkaczuk Sławomir\nNr zajęć: 21/22\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:32c602a460457be36dd3149e@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261223T133000
+DTEND;TZID=Europe/Warsaw:20261223T150500
+SUMMARY:Esp (w)
+LOCATION:4 H7
+DESCRIPTION:Eksploatacja statków powiet.\nRodzaj: wykład\nProwadzący: d
+ r inż. Tkaczuk Sławomir\nNr zajęć: 22/22\nBlok: 4
+END:VEVENT
+END:VCALENDAR

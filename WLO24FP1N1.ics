@@ -1,0 +1,1141 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WLO24FP1N1
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:9aa91b9c45235ceaae83c782@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261003T080000
+DTEND;TZID=Europe/Warsaw:20261003T093500
+SUMMARY:NwL (w)
+LOCATION:1.27/ 135
+DESCRIPTION:Normalizacja w logistyce\nRodzaj: wykład\nProwadzący: dr n.s
+ poł. inż. Rogowski Bogusław\nNr zajęć: 1/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:04d326a0517d952da81d18c7@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261003T095000
+DTEND;TZID=Europe/Warsaw:20261003T112500
+SUMMARY:NwL (w)
+LOCATION:1.27/ 135
+DESCRIPTION:Normalizacja w logistyce\nRodzaj: wykład\nProwadzący: dr n.s
+ poł. inż. Rogowski Bogusław\nNr zajęć: 2/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6ac5d220db78d1f9e1d041e2@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261003T114000
+DTEND;TZID=Europe/Warsaw:20261003T131500
+SUMMARY:PLwP (w)
+LOCATION:5.17/ 135
+DESCRIPTION:Procesy logistyczne w przedsiębiorstwie\nRodzaj: wykład\nPro
+ wadzący: dr Woźniak Jacek\, prof. WAT\nNr zajęć: 1/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4b8c7faff56036d856924314@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261003T133000
+DTEND;TZID=Europe/Warsaw:20261003T150500
+SUMMARY:PS. (w)
+LOCATION:5.17/ 135
+DESCRIPTION:Podstawy spedycji\nRodzaj: wykład\nProwadzący: dr Woźniak J
+ acek\, prof. WAT\nNr zajęć: 1/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f7b02e10379afde723819496@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261003T152000
+DTEND;TZID=Europe/Warsaw:20261003T165500
+SUMMARY:PEL (w)
+LOCATION:5.17/ 135
+DESCRIPTION:Podstawy ekonomiki logistyki\nRodzaj: wykład\nProwadzący: dr
+  n.ekon.\, inż. Kochański Tomasz\nNr zajęć: 1/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:af95a479c59c6a888124f5de@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261004T080000
+DTEND;TZID=Europe/Warsaw:20261004T093500
+SUMMARY:Nsl* (w)
+LOCATION:1.16/ 16
+DESCRIPTION:Niezawodność systemów logistycznych\nRodzaj: wykład\nProwa
+ dzący: dr hab. inż.(prof. ucz.) Wysocki Józef\nNr zajęć: 1/4\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:08799dfeb82f29028b4841c6@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261004T095000
+DTEND;TZID=Europe/Warsaw:20261004T112500
+SUMMARY:Nsl* (w)
+LOCATION:1.16/ 16
+DESCRIPTION:Niezawodność systemów logistycznych\nRodzaj: wykład\nProwa
+ dzący: dr hab. inż.(prof. ucz.) Wysocki Józef\nNr zajęć: 2/4\nBlok: 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7a68422b1bb3f53771909b00@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261004T114000
+DTEND;TZID=Europe/Warsaw:20261004T131500
+SUMMARY:TwL (w)
+LOCATION:0.23/ 16
+DESCRIPTION:Transport w logistyce\nRodzaj: wykład\nProwadzący: dr inż. 
+ Sieczka Jarosław\nNr zajęć: 1/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:dff871afd80f6da40a3cf9cf@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261004T133000
+DTEND;TZID=Europe/Warsaw:20261004T150500
+SUMMARY:TwL (w)
+LOCATION:0.23/ 16
+DESCRIPTION:Transport w logistyce\nRodzaj: wykład\nProwadzący: dr inż. 
+ Sieczka Jarosław\nNr zajęć: 2/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a30dfc8ccd59fa55cd6532cb@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261010T080000
+DTEND;TZID=Europe/Warsaw:20261010T093500
+SUMMARY:NwL (w)
+LOCATION:0.23/ 16
+DESCRIPTION:Normalizacja w logistyce\nRodzaj: wykład\nProwadzący: dr n.s
+ poł. inż. Rogowski Bogusław\nNr zajęć: 3/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7a70ae1540cbf6a1c15795cf@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261010T095000
+DTEND;TZID=Europe/Warsaw:20261010T112500
+SUMMARY:PEL (w)
+LOCATION:1.16/ 16
+DESCRIPTION:Podstawy ekonomiki logistyki\nRodzaj: wykład\nProwadzący: dr
+  n.ekon.\, inż. Kochański Tomasz\nNr zajęć: 2/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5d888344758860a8ff6ca90e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261010T114000
+DTEND;TZID=Europe/Warsaw:20261010T131500
+SUMMARY:NwL (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Normalizacja w logistyce\nRodzaj: ćwiczenia\nProwadzący: dr 
+ n.społ. inż. Rogowski Bogusław\nNr zajęć: 1/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1882af9b1f981fc67f0d7f72@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261010T133000
+DTEND;TZID=Europe/Warsaw:20261010T150500
+SUMMARY:Ośl (w)
+LOCATION:1.17/ 16
+DESCRIPTION:Ochrona środowiska w logistyce\nRodzaj: wykład\nProwadzący:
+  dr n. społ. inż. Krupnik Dorota\nNr zajęć: 1/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4b12683b08b0e14f1bd0a2fa@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261010T152000
+DTEND;TZID=Europe/Warsaw:20261010T165500
+SUMMARY:Ośl (w)
+LOCATION:1.16/ 16
+DESCRIPTION:Ochrona środowiska w logistyce\nRodzaj: wykład\nProwadzący:
+  dr n. społ. inż. Krupnik Dorota\nNr zajęć: 2/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:b8517b7be8ee9d5293a5ce5a@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261011T080000
+DTEND;TZID=Europe/Warsaw:20261011T093500
+SUMMARY:MrBr (w)
+LOCATION:255 S
+DESCRIPTION:Mechanika ruchu i bezpieczeństwo ruchu drogowego\nRodzaj: wyk
+ ład\nProwadzący: dr inż. Ziubiński Mateusz\nNr zajęć: 1/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c3c171a22f8ca0376e8c19d9@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261011T095000
+DTEND;TZID=Europe/Warsaw:20261011T112500
+SUMMARY:MrBr (w)
+LOCATION:255 S
+DESCRIPTION:Mechanika ruchu i bezpieczeństwo ruchu drogowego\nRodzaj: wyk
+ ład\nProwadzący: dr inż. Ziubiński Mateusz\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:276f7ab17ef2050d631fc6c4@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261011T114000
+DTEND;TZID=Europe/Warsaw:20261011T131500
+SUMMARY:Pmiuwl (w)
+LOCATION:255 S
+DESCRIPTION:Projektowanie maszyn i urządzeń w logistyce\nRodzaj: wykład
+ \nProwadzący: dr inż. Torzewski Janusz\nNr zajęć: 1/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:cadd4aaceb918e94a778a523@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261011T133000
+DTEND;TZID=Europe/Warsaw:20261011T150500
+SUMMARY:PLwP (w)
+LOCATION:255 S
+DESCRIPTION:Procesy logistyczne w przedsiębiorstwie\nRodzaj: wykład\nPro
+ wadzący: dr Woźniak Jacek\, prof. WAT\nNr zajęć: 2/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e67ce59126813526b2416868@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261024T095000
+DTEND;TZID=Europe/Warsaw:20261024T112500
+SUMMARY:Zzl (w)
+LOCATION:0.23/ 16
+DESCRIPTION:Zarządzanie zasobami ludzkimi\nRodzaj: wykład\nProwadzący: 
+ prof. dr hab. Kościelecki Lech\nNr zajęć: 1/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ec25161ef8b98e98c240d347@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261024T114000
+DTEND;TZID=Europe/Warsaw:20261024T131500
+SUMMARY:Zzl (w)
+LOCATION:187 S
+DESCRIPTION:Zarządzanie zasobami ludzkimi\nRodzaj: wykład\nProwadzący: 
+ prof. dr hab. Kościelecki Lech\nNr zajęć: 2/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2af649236d3a2114cf63f780@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261024T133000
+DTEND;TZID=Europe/Warsaw:20261024T150500
+SUMMARY:TrŁ (w)
+LOCATION:120 45
+DESCRIPTION:Transport ładunków\nRodzaj: wykład\nProwadzący: dr inż. (
+ prof. ucz.) Żuchowski Andrzej\nNr zajęć: 1/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1bb66dae53a18dc07763a0da@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261024T152000
+DTEND;TZID=Europe/Warsaw:20261024T165500
+SUMMARY:PS. (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Podstawy spedycji\nRodzaj: wykład\nProwadzący: dr Woźniak J
+ acek\, prof. WAT\nNr zajęć: 2/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:3616cf00d23311b7e29a368a@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261024T171000
+DTEND;TZID=Europe/Warsaw:20261024T184500
+SUMMARY:PLwP (w)
+LOCATION:5.17/ 135
+DESCRIPTION:Procesy logistyczne w przedsiębiorstwie\nRodzaj: wykład\nPro
+ wadzący: dr Woźniak Jacek\, prof. WAT\nNr zajęć: 3/4\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:2bf451b1c3015e3511cd225a@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261024T190000
+DTEND;TZID=Europe/Warsaw:20261024T203500
+SUMMARY:PEL (w)
+LOCATION:5.17/ 135
+DESCRIPTION:Podstawy ekonomiki logistyki\nRodzaj: wykład\nProwadzący: dr
+  n.ekon.\, inż. Kochański Tomasz\nNr zajęć: 3/4\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:0b8a1661c15c0fedccc75866@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261025T080000
+DTEND;TZID=Europe/Warsaw:20261025T093500
+SUMMARY:TrŁ (w)
+LOCATION:255 S
+DESCRIPTION:Transport ładunków\nRodzaj: wykład\nProwadzący: dr inż. (
+ prof. ucz.) Żuchowski Andrzej\nNr zajęć: 2/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:58143b0c62568fc841f7d593@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261025T095000
+DTEND;TZID=Europe/Warsaw:20261025T112500
+SUMMARY:Nsl* (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Niezawodność systemów logistycznych\nRodzaj: wykład\nProwa
+ dzący: dr hab. inż.(prof. ucz.) Wysocki Józef\nNr zajęć: 3/4\nBlok: 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:939794f11e5ef47868414dba@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261025T114000
+DTEND;TZID=Europe/Warsaw:20261025T131500
+SUMMARY:ZwSL (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Zapasy w systemach logistycznych\nRodzaj: wykład\nProwadzący
+ : dr Sobczak Iwona\nNr zajęć: 1/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1d5a4e07bd237e633a08fd2b@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261025T133000
+DTEND;TZID=Europe/Warsaw:20261025T150500
+SUMMARY:MrBr (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Mechanika ruchu i bezpieczeństwo ruchu drogowego\nRodzaj: ćw
+ iczenia\nProwadzący: mgr inż. Gajda Olga\nNr zajęć: 1/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9a68ae9bd945f8e05aca0a74@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261025T152000
+DTEND;TZID=Europe/Warsaw:20261025T165500
+SUMMARY:TwL (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Transport w logistyce\nRodzaj: wykład\nProwadzący: dr inż. 
+ Sieczka Jarosław\nNr zajęć: 3/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:ebedf6e82a03df33927892cb@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261107T080000
+DTEND;TZID=Europe/Warsaw:20261107T093500
+SUMMARY:PS. (w)
+LOCATION:1.16/ 16
+DESCRIPTION:Podstawy spedycji\nRodzaj: wykład\nProwadzący: dr Woźniak J
+ acek\, prof. WAT\nNr zajęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d991360f2b0d993c72b9847c@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261107T095000
+DTEND;TZID=Europe/Warsaw:20261107T112500
+SUMMARY:PLwP (w)
+LOCATION:1.16/ 16
+DESCRIPTION:Procesy logistyczne w przedsiębiorstwie\nRodzaj: wykład\nPro
+ wadzący: dr Woźniak Jacek\, prof. WAT\nNr zajęć: 4/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:350409b587ca405758376780@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261107T114000
+DTEND;TZID=Europe/Warsaw:20261107T131500
+SUMMARY:TrŁ (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Transport ładunków\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . (prof. ucz.) Żuchowski Andrzej\nNr zajęć: 1/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:06afa8d93f2cb0f380a4d117@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261107T133000
+DTEND;TZID=Europe/Warsaw:20261107T150500
+SUMMARY:TwL (ć)
+LOCATION:1.17/ 16
+DESCRIPTION:Transport w logistyce\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Sieczka Jarosław\nNr zajęć: 1/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a1779d9cd41a4fe7279cd71e@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261107T152000
+DTEND;TZID=Europe/Warsaw:20261107T165500
+SUMMARY:TrŁ (w)
+LOCATION:0.8/ 16
+DESCRIPTION:Transport ładunków\nRodzaj: wykład\nProwadzący: dr inż. (
+ prof. ucz.) Żuchowski Andrzej\nNr zajęć: 3/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:689d6e3ecf03bc9af509b744@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261107T171000
+DTEND;TZID=Europe/Warsaw:20261107T184500
+SUMMARY:TwL (w)
+LOCATION:0.23/ 16
+DESCRIPTION:Transport w logistyce\nRodzaj: wykład\nProwadzący: dr inż. 
+ Sieczka Jarosław\nNr zajęć: 4/4\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:d920e1f0058502f6aeb95f26@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261107T190000
+DTEND;TZID=Europe/Warsaw:20261107T203500
+SUMMARY:PEL (w)
+LOCATION:5.17/ 135
+DESCRIPTION:Podstawy ekonomiki logistyki\nRodzaj: wykład\nProwadzący: dr
+  n.ekon.\, inż. Kochański Tomasz\nNr zajęć: 4/4\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:4b955f8b3a9d2b89b44f0052@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261108T095000
+DTEND;TZID=Europe/Warsaw:20261108T112500
+SUMMARY:Pmiuwl (P)
+LOCATION:1.17/ 16\;1.15/ 16
+DESCRIPTION:Projektowanie maszyn i urządzeń w logistyce\nRodzaj: projekt
+ \nProwadzący: dr inż. Kosturek Robert\; dr inż. Szachogłuchowicz Iren
+ eusz\nNr zajęć: 1/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4d0b8b84dd8138998304be02@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261108T114000
+DTEND;TZID=Europe/Warsaw:20261108T131500
+SUMMARY:Pmiuwl (w)
+LOCATION:255 S
+DESCRIPTION:Projektowanie maszyn i urządzeń w logistyce\nRodzaj: wykład
+ \nProwadzący: dr inż. Torzewski Janusz\nNr zajęć: 2/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5d7299c5150a55469e3f6a10@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261108T133000
+DTEND;TZID=Europe/Warsaw:20261108T150500
+SUMMARY:TrŁ (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Transport ładunków\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . (prof. ucz.) Żuchowski Andrzej\nNr zajęć: 2/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:03753e54463a70c47929619d@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261114T095000
+DTEND;TZID=Europe/Warsaw:20261114T112500
+SUMMARY:NwL (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Normalizacja w logistyce\nRodzaj: ćwiczenia\nProwadzący: dr 
+ n.społ. inż. Rogowski Bogusław\nNr zajęć: 2/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e8ddb18f004688488363910f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261114T114000
+DTEND;TZID=Europe/Warsaw:20261114T131500
+SUMMARY:TrŁ (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Transport ładunków\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . (prof. ucz.) Żuchowski Andrzej\nNr zajęć: 3/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:33282163dabafbe51dd217d9@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261114T133000
+DTEND;TZID=Europe/Warsaw:20261114T150500
+SUMMARY:PLwP (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Procesy logistyczne w przedsiębiorstwie\nRodzaj: ćwiczenia\n
+ Prowadzący: dr Woźniak Jacek\, prof. WAT\nNr zajęć: 1/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b3fa92d6d8e82ff35d72e338@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261114T152000
+DTEND;TZID=Europe/Warsaw:20261114T165500
+SUMMARY:PEL (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Podstawy ekonomiki logistyki\nRodzaj: ćwiczenia\nProwadzący:
+  dr n.ekon.\, inż. Kochański Tomasz\nNr zajęć: 1/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:14b3ec622d437bee3e7271a9@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261114T171000
+DTEND;TZID=Europe/Warsaw:20261114T184500
+SUMMARY:PEL (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Podstawy ekonomiki logistyki\nRodzaj: ćwiczenia\nProwadzący:
+  dr n.ekon.\, inż. Kochański Tomasz\nNr zajęć: 2/5\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:71c28adf8ec7d3f7b9cf51f1@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261115T095000
+DTEND;TZID=Europe/Warsaw:20261115T112500
+SUMMARY:TrŁ (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Transport ładunków\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . (prof. ucz.) Żuchowski Andrzej\nNr zajęć: 4/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0d8d8bb397f5771cf182ef07@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261115T114000
+DTEND;TZID=Europe/Warsaw:20261115T131500
+SUMMARY:MrBr (w)
+LOCATION:1.16/ 16
+DESCRIPTION:Mechanika ruchu i bezpieczeństwo ruchu drogowego\nRodzaj: wyk
+ ład\nProwadzący: dr inż. Ziubiński Mateusz\nNr zajęć: 3/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f7ee7c5e131fb43f4d99a14f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261115T133000
+DTEND;TZID=Europe/Warsaw:20261115T150500
+SUMMARY:TrŁ (w)
+LOCATION:0.23/ 16
+DESCRIPTION:Transport ładunków\nRodzaj: wykład\nProwadzący: dr inż. (
+ prof. ucz.) Żuchowski Andrzej\nNr zajęć: 4/5\nBlok: 4\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:811adc683006621883e98400@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261115T152000
+DTEND;TZID=Europe/Warsaw:20261115T165500
+SUMMARY:ZwSL (w)
+LOCATION:5.17/ 135
+DESCRIPTION:Zapasy w systemach logistycznych\nRodzaj: wykład\nProwadzący
+ : dr Sobczak Iwona\nNr zajęć: 2/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:37eeca634be2dbfc0dbbce71@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261115T171000
+DTEND;TZID=Europe/Warsaw:20261115T184500
+SUMMARY:ZwSL (ć)
+LOCATION:0.23/ 16
+DESCRIPTION:Zapasy w systemach logistycznych\nRodzaj: ćwiczenia\nProwadz
+ ący: dr Sobczak Iwona\nNr zajęć: 1/6\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:a778ecda7663e68bf3e84fdb@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261121T080000
+DTEND;TZID=Europe/Warsaw:20261121T093500
+SUMMARY:Nsl* (w)
+LOCATION:1.16/ 16
+DESCRIPTION:Niezawodność systemów logistycznych\nRodzaj: wykład\nProwa
+ dzący: dr hab. inż.(prof. ucz.) Wysocki Józef\nNr zajęć: 4/4\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d8efa9407a73d452591f009a@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261121T095000
+DTEND;TZID=Europe/Warsaw:20261121T112500
+SUMMARY:NwL (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Normalizacja w logistyce\nRodzaj: ćwiczenia\nProwadzący: dr 
+ n.społ. inż. Rogowski Bogusław\nNr zajęć: 3/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:10d1fa6d7af05667053530b0@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261121T114000
+DTEND;TZID=Europe/Warsaw:20261121T131500
+SUMMARY:Ośl (L)
+LOCATION:1.17/ 16
+DESCRIPTION:Ochrona środowiska w logistyce\nRodzaj: laboratorium\nProwadz
+ ący: dr n. społ. inż. Krupnik Dorota\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7bdc94c1c360e8084c366a04@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261121T133000
+DTEND;TZID=Europe/Warsaw:20261121T150500
+SUMMARY:Pmiuwl (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Projektowanie maszyn i urządzeń w logistyce\nRodzaj: ćwicze
+ nia\nProwadzący: dr inż. Kosturek Robert\nNr zajęć: 1/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d0a2b0b3b00777f83691c4a5@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261121T152000
+DTEND;TZID=Europe/Warsaw:20261121T165500
+SUMMARY:PS. (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Podstawy spedycji\nRodzaj: ćwiczenia\nProwadzący: dr inż. O
+ wczarek Paulina\nNr zajęć: 1/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:cc9517306bb7236ae9c5c23a@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261122T080000
+DTEND;TZID=Europe/Warsaw:20261122T093500
+SUMMARY:PS. (w)
+LOCATION:187 S
+DESCRIPTION:Podstawy spedycji\nRodzaj: wykład\nProwadzący: dr Woźniak J
+ acek\, prof. WAT\nNr zajęć: 4/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:47fdd0573f6566aa8e1dbf40@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261122T095000
+DTEND;TZID=Europe/Warsaw:20261122T112500
+SUMMARY:Pmiuwl (w)
+LOCATION:1.17/ 16
+DESCRIPTION:Projektowanie maszyn i urządzeń w logistyce\nRodzaj: wykład
+ \nProwadzący: dr inż. Torzewski Janusz\nNr zajęć: 3/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5de0635f2333a728e5332514@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261122T114000
+DTEND;TZID=Europe/Warsaw:20261122T131500
+SUMMARY:MrBr (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Mechanika ruchu i bezpieczeństwo ruchu drogowego\nRodzaj: ćw
+ iczenia\nProwadzący: mgr inż. Gajda Olga\nNr zajęć: 2/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0b44c880b3090369ffff9271@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261122T133000
+DTEND;TZID=Europe/Warsaw:20261122T150500
+SUMMARY:MrBr (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Mechanika ruchu i bezpieczeństwo ruchu drogowego\nRodzaj: ćw
+ iczenia\nProwadzący: mgr inż. Gajda Olga\nNr zajęć: 3/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6d5c8e5dfad70946914a8b43@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261205T080000
+DTEND;TZID=Europe/Warsaw:20261205T093500
+SUMMARY:Ośl (ć)
+LOCATION:1.17/ 16
+DESCRIPTION:Ochrona środowiska w logistyce\nRodzaj: ćwiczenia\nProwadzą
+ cy: dr n. społ. inż. Krupnik Dorota\nNr zajęć: 1/2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0b25959ccf10547ea87494d3@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261205T095000
+DTEND;TZID=Europe/Warsaw:20261205T112500
+SUMMARY:PEL (ć)
+LOCATION:1.17/ 16
+DESCRIPTION:Podstawy ekonomiki logistyki\nRodzaj: ćwiczenia\nProwadzący:
+  dr n.ekon.\, inż. Kochański Tomasz\nNr zajęć: 3/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7405eaff8294b9fbe5dad3c1@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261205T114000
+DTEND;TZID=Europe/Warsaw:20261205T131500
+SUMMARY:Ośl (ć)
+LOCATION:1.17/ 16
+DESCRIPTION:Ochrona środowiska w logistyce\nRodzaj: ćwiczenia\nProwadzą
+ cy: dr n. społ. inż. Krupnik Dorota\nNr zajęć: 2/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:823abcd266715033ef3bb021@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261205T133000
+DTEND;TZID=Europe/Warsaw:20261205T150500
+SUMMARY:Pmiuwl (w)
+LOCATION:5.17/ 135
+DESCRIPTION:Projektowanie maszyn i urządzeń w logistyce\nRodzaj: wykład
+ \nProwadzący: dr inż. Torzewski Janusz\nNr zajęć: 4/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:384bd559c792c772cd987a91@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261205T152000
+DTEND;TZID=Europe/Warsaw:20261205T165500
+SUMMARY:NwL (ć)
+LOCATION:3.16/ 135
+DESCRIPTION:Normalizacja w logistyce\nRodzaj: ćwiczenia\nProwadzący: dr 
+ n.społ. inż. Rogowski Bogusław\nNr zajęć: 4/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:8ee4912817876ee57955eff1@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261206T095000
+DTEND;TZID=Europe/Warsaw:20261206T112500
+SUMMARY:Pmiuwl (P)
+LOCATION:0.6/ 16\;2.22/ 135
+DESCRIPTION:Projektowanie maszyn i urządzeń w logistyce\nRodzaj: projekt
+ \nProwadzący: dr inż. Kosturek Robert\; dr inż. Szachogłuchowicz Iren
+ eusz\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6aba058877b1851f88c3c9d0@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261206T114000
+DTEND;TZID=Europe/Warsaw:20261206T131500
+SUMMARY:Pmiuwl (P)
+LOCATION:0.6/ 16\;2.22/ 135
+DESCRIPTION:Projektowanie maszyn i urządzeń w logistyce\nRodzaj: projekt
+ \nProwadzący: dr inż. Kosturek Robert\; dr inż. Szachogłuchowicz Iren
+ eusz\nNr zajęć: 3/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e6fd844728d2498c0fd3ba04@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261206T133000
+DTEND;TZID=Europe/Warsaw:20261206T150500
+SUMMARY:TrŁ (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Transport ładunków\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . (prof. ucz.) Żuchowski Andrzej\nNr zajęć: 5/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7f2898bfc89d659fc5f3151f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261206T152000
+DTEND;TZID=Europe/Warsaw:20261206T165500
+SUMMARY:TrŁ (w)
+LOCATION:1.16/ 16
+DESCRIPTION:Transport ładunków\nRodzaj: wykład\nProwadzący: dr inż. (
+ prof. ucz.) Żuchowski Andrzej\nNr zajęć: 5/5\nBlok: 5\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:290ea8c22edf1dcd37397b51@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261212T080000
+DTEND;TZID=Europe/Warsaw:20261212T093500
+SUMMARY:MrBr (w)
+LOCATION:255 S
+DESCRIPTION:Mechanika ruchu i bezpieczeństwo ruchu drogowego\nRodzaj: wyk
+ ład\nProwadzący: dr inż. Ziubiński Mateusz\nNr zajęć: 4/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f96033b826e340ac49e4fa32@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261212T095000
+DTEND;TZID=Europe/Warsaw:20261212T112500
+SUMMARY:MrBr (L)
+LOCATION:3/ 23A\;5/ 23A
+DESCRIPTION:Mechanika ruchu i bezpieczeństwo ruchu drogowego\nRodzaj: lab
+ oratorium\nProwadzący: mgr inż. Gajda Olga\; mgr inż. Pogorzelski Iren
+ eusz\nNr zajęć: 1/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0b85d428325e340e8f03705a@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261212T114000
+DTEND;TZID=Europe/Warsaw:20261212T131500
+SUMMARY:MrBr (L)
+LOCATION:3/ 23A\;5/ 23A
+DESCRIPTION:Mechanika ruchu i bezpieczeństwo ruchu drogowego\nRodzaj: lab
+ oratorium\nProwadzący: mgr inż. Gajda Olga\; mgr inż. Pogorzelski Iren
+ eusz\nNr zajęć: 2/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:210e1b942b65eef8259b53f5@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261212T133000
+DTEND;TZID=Europe/Warsaw:20261212T150500
+SUMMARY:Nsl* (ć)
+LOCATION:1.17/ 16
+DESCRIPTION:Niezawodność systemów logistycznych\nRodzaj: ćwiczenia\nPr
+ owadzący: dr hab. inż.(prof. ucz.) Wysocki Józef\nNr zajęć: 1/3\nBlo
+ k: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:bbf28e3f8937c7f43a69fa4d@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261212T152000
+DTEND;TZID=Europe/Warsaw:20261212T165500
+SUMMARY:Nsl* (ć)
+LOCATION:1.17/ 16
+DESCRIPTION:Niezawodność systemów logistycznych\nRodzaj: ćwiczenia\nPr
+ owadzący: dr hab. inż.(prof. ucz.) Wysocki Józef\nNr zajęć: 2/3\nBlo
+ k: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:68267c8371dd75eabba93568@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261212T171000
+DTEND;TZID=Europe/Warsaw:20261212T184500
+SUMMARY:PEL (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Podstawy ekonomiki logistyki\nRodzaj: ćwiczenia\nProwadzący:
+  dr n.ekon.\, inż. Kochański Tomasz\nNr zajęć: 4/5\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:1fffe5e061517c89d5a75ab1@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261213T095000
+DTEND;TZID=Europe/Warsaw:20261213T112500
+SUMMARY:PS. (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Podstawy spedycji\nRodzaj: ćwiczenia\nProwadzący: dr inż. O
+ wczarek Paulina\nNr zajęć: 2/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:404ead081284e30ad74585e8@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261213T114000
+DTEND;TZID=Europe/Warsaw:20261213T131500
+SUMMARY:Ośl (w)
+LOCATION:0.23/ 16
+DESCRIPTION:Ochrona środowiska w logistyce\nRodzaj: wykład\nProwadzący:
+  dr n. społ. inż. Krupnik Dorota\nNr zajęć: 3/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8fdfc853bffd5b705c36b92d@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261213T133000
+DTEND;TZID=Europe/Warsaw:20261213T150500
+SUMMARY:TwL (ć)
+LOCATION:255 S
+DESCRIPTION:Transport w logistyce\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Sieczka Jarosław\nNr zajęć: 2/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:15f403588910ee3269b1196f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261219T080000
+DTEND;TZID=Europe/Warsaw:20261219T093500
+SUMMARY:PS. (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Podstawy spedycji\nRodzaj: ćwiczenia\nProwadzący: dr inż. O
+ wczarek Paulina\nNr zajęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c016bfd8e4e1856b75a86730@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261219T095000
+DTEND;TZID=Europe/Warsaw:20261219T112500
+SUMMARY:PS. (ć)
+LOCATION:1.17/ 16
+DESCRIPTION:Podstawy spedycji\nRodzaj: ćwiczenia\nProwadzący: dr inż. O
+ wczarek Paulina\nNr zajęć: 4/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:637c6810e1cd4e37c602d070@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261219T114000
+DTEND;TZID=Europe/Warsaw:20261219T131500
+SUMMARY:Pmiuwl (ć)
+LOCATION:1.17/ 16
+DESCRIPTION:Projektowanie maszyn i urządzeń w logistyce\nRodzaj: ćwicze
+ nia\nProwadzący: dr inż. Kosturek Robert\nNr zajęć: 2/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:de37928eceeeddf36154b520@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261219T133000
+DTEND;TZID=Europe/Warsaw:20261219T150500
+SUMMARY:PEL (ć)
+LOCATION:1.17/ 16
+DESCRIPTION:Podstawy ekonomiki logistyki\nRodzaj: ćwiczenia\nProwadzący:
+  dr n.ekon.\, inż. Kochański Tomasz\nNr zajęć: 5/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:65624fb1869d3cd7f31fc631@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261219T152000
+DTEND;TZID=Europe/Warsaw:20261219T165500
+SUMMARY:ZwSL (w)
+LOCATION:0.23/ 16
+DESCRIPTION:Zapasy w systemach logistycznych\nRodzaj: wykład\nProwadzący
+ : dr Sobczak Iwona\nNr zajęć: 3/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:e92fc52f43a02f2337ce5d78@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261219T171000
+DTEND;TZID=Europe/Warsaw:20261219T184500
+SUMMARY:ZwSL (ć)
+LOCATION:1.17/ 16
+DESCRIPTION:Zapasy w systemach logistycznych\nRodzaj: ćwiczenia\nProwadz
+ ący: dr Sobczak Iwona\nNr zajęć: 2/6\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:e97f385d8f72b8f197cc2f5f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261220T095000
+DTEND;TZID=Europe/Warsaw:20261220T112500
+SUMMARY:MrBr (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Mechanika ruchu i bezpieczeństwo ruchu drogowego\nRodzaj: ćw
+ iczenia\nProwadzący: mgr inż. Gajda Olga\nNr zajęć: 4/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b6ab538db1edc8c99094c551@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261220T114000
+DTEND;TZID=Europe/Warsaw:20261220T131500
+SUMMARY:PLwP (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Procesy logistyczne w przedsiębiorstwie\nRodzaj: ćwiczenia\n
+ Prowadzący: dr Woźniak Jacek\, prof. WAT\nNr zajęć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:fefb9b94570bb38358ab15c0@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261220T133000
+DTEND;TZID=Europe/Warsaw:20261220T150500
+SUMMARY:PLwP (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Procesy logistyczne w przedsiębiorstwie\nRodzaj: ćwiczenia\n
+ Prowadzący: dr Woźniak Jacek\, prof. WAT\nNr zajęć: 3/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1fce3f97c98d80d56906b961@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20261220T152000
+DTEND;TZID=Europe/Warsaw:20261220T165500
+SUMMARY:Nsl* (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Niezawodność systemów logistycznych\nRodzaj: ćwiczenia\nPr
+ owadzący: dr hab. inż.(prof. ucz.) Wysocki Józef\nNr zajęć: 3/3\nBlo
+ k: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:6b272c0c054ef1d6ecc3c8da@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270109T080000
+DTEND;TZID=Europe/Warsaw:20270109T093500
+SUMMARY:Zzl (ć)
+LOCATION:1.17/ 16
+DESCRIPTION:Zarządzanie zasobami ludzkimi\nRodzaj: ćwiczenia\nProwadząc
+ y: prof. dr hab. Kościelecki Lech\nNr zajęć: 1/2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:fa2d8f4648de06266904782d@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270109T095000
+DTEND;TZID=Europe/Warsaw:20270109T112500
+SUMMARY:Zzl (ć)
+LOCATION:1.17/ 16
+DESCRIPTION:Zarządzanie zasobami ludzkimi\nRodzaj: ćwiczenia\nProwadząc
+ y: prof. dr hab. Kościelecki Lech\nNr zajęć: 2/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:894aca5f3b1c1f73e1f7ffe9@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270109T114000
+DTEND;TZID=Europe/Warsaw:20270109T131500
+SUMMARY:TwL (ć)
+LOCATION:1.17/ 16
+DESCRIPTION:Transport w logistyce\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Sieczka Jarosław\nNr zajęć: 3/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8ce5343d2ff721b25fd9eaa1@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270110T080000
+DTEND;TZID=Europe/Warsaw:20270110T093500
+SUMMARY:PLwP (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Procesy logistyczne w przedsiębiorstwie\nRodzaj: ćwiczenia\n
+ Prowadzący: dr Woźniak Jacek\, prof. WAT\nNr zajęć: 4/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:12afe0542539540700a3c83a@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270110T095000
+DTEND;TZID=Europe/Warsaw:20270110T112500
+SUMMARY:PLwP (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Procesy logistyczne w przedsiębiorstwie\nRodzaj: ćwiczenia\n
+ Prowadzący: dr Woźniak Jacek\, prof. WAT\nNr zajęć: 5/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:288f377ba7c052c9f79a1cf7@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270116T080000
+DTEND;TZID=Europe/Warsaw:20270116T093500
+SUMMARY:Zzl (S)
+LOCATION:7a-b Bibl
+DESCRIPTION:Zarządzanie zasobami ludzkimi\nRodzaj: seminarium\nProwadząc
+ y: prof. dr hab. Kościelecki Lech\nNr zajęć: 1/2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1f6c685e12ed1e7fb9d41d25@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270116T095000
+DTEND;TZID=Europe/Warsaw:20270116T112500
+SUMMARY:Zzl (S)
+LOCATION:7a-b Bibl
+DESCRIPTION:Zarządzanie zasobami ludzkimi\nRodzaj: seminarium\nProwadząc
+ y: prof. dr hab. Kościelecki Lech\nNr zajęć: 2/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9d3b03b77eda9b607424cb86@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270116T114000
+DTEND;TZID=Europe/Warsaw:20270116T131500
+SUMMARY:TwL (S)
+LOCATION:7a-b Bibl
+DESCRIPTION:Transport w logistyce\nRodzaj: seminarium\nProwadzący: dr in
+ ż. Sieczka Jarosław\nNr zajęć: 1/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:445235d11a5c06f8a24dc4d3@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270116T133000
+DTEND;TZID=Europe/Warsaw:20270116T150500
+SUMMARY:PS. (L)
+LOCATION:7a-b Bibl
+DESCRIPTION:Podstawy spedycji\nRodzaj: laboratorium\nProwadzący: dr inż.
+  Owczarek Paulina\nNr zajęć: 1/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1b00875726e192f9e01b4b50@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270116T152000
+DTEND;TZID=Europe/Warsaw:20270116T165500
+SUMMARY:PS. (L)
+LOCATION:7a-b Bibl
+DESCRIPTION:Podstawy spedycji\nRodzaj: laboratorium\nProwadzący: dr inż.
+  Owczarek Paulina\nNr zajęć: 2/3\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:4c66e35b1a5a352c69df9f24@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270117T080000
+DTEND;TZID=Europe/Warsaw:20270117T093500
+SUMMARY:ZwSL (w)
+LOCATION:1.16/ 16
+DESCRIPTION:Zapasy w systemach logistycznych\nRodzaj: wykład\nProwadzący
+ : dr Sobczak Iwona\nNr zajęć: 4/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1e258611368cd9908e9b314c@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270117T095000
+DTEND;TZID=Europe/Warsaw:20270117T112500
+SUMMARY:ZwSL (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Zapasy w systemach logistycznych\nRodzaj: ćwiczenia\nProwadz
+ ący: dr Sobczak Iwona\nNr zajęć: 3/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:21d9d11796d8fb49948a6e08@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270117T114000
+DTEND;TZID=Europe/Warsaw:20270117T131500
+SUMMARY:ZwSL (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Zapasy w systemach logistycznych\nRodzaj: ćwiczenia\nProwadz
+ ący: dr Sobczak Iwona\nNr zajęć: 4/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3cd4439ff5b37342d6e8eeac@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270123T133000
+DTEND;TZID=Europe/Warsaw:20270123T150500
+SUMMARY:Zzl (w)
+LOCATION:0.23/ 16
+DESCRIPTION:Zarządzanie zasobami ludzkimi\nRodzaj: wykład\nProwadzący: 
+ prof. dr hab. Kościelecki Lech\nNr zajęć: 3/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4ce4d1c6d6141e1b78c44c46@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270123T152000
+DTEND;TZID=Europe/Warsaw:20270123T165500
+SUMMARY:Pmiuwl (ć)
+LOCATION:0.23/ 16
+DESCRIPTION:Projektowanie maszyn i urządzeń w logistyce\nRodzaj: ćwicze
+ nia\nProwadzący: dr inż. Kosturek Robert\nNr zajęć: 3/3\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:12e62148a83546ce352f6cdb@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270124T095000
+DTEND;TZID=Europe/Warsaw:20270124T112500
+SUMMARY:Pmiuwl (P)
+LOCATION:5.21/ 135\;4.17a/ 135
+DESCRIPTION:Projektowanie maszyn i urządzeń w logistyce\nRodzaj: projekt
+ \nProwadzący: dr inż. Kosturek Robert\; dr inż. Szachogłuchowicz Iren
+ eusz\nNr zajęć: 4/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:546fc02646b8118ad00e9033@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270124T114000
+DTEND;TZID=Europe/Warsaw:20270124T131500
+SUMMARY:ZwSL (w)
+LOCATION:1.16/ 16
+DESCRIPTION:Zapasy w systemach logistycznych\nRodzaj: wykład\nProwadzący
+ : dr Sobczak Iwona\nNr zajęć: 5/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f4ff126888231dec34203e70@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270124T133000
+DTEND;TZID=Europe/Warsaw:20270124T150500
+SUMMARY:PS. (L)
+LOCATION:1.16/ 16
+DESCRIPTION:Podstawy spedycji\nRodzaj: laboratorium\nProwadzący: dr inż.
+  Owczarek Paulina\nNr zajęć: 3/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f0c83e5a49207abbdec2bc81@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270124T152000
+DTEND;TZID=Europe/Warsaw:20270124T165500
+SUMMARY:ZwSL (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Zapasy w systemach logistycznych\nRodzaj: ćwiczenia\nProwadz
+ ący: dr Sobczak Iwona\nNr zajęć: 5/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:e10d89a185f6060f292fd837@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270130T114000
+DTEND;TZID=Europe/Warsaw:20270130T131500
+SUMMARY:Pmiuwl (P)
+LOCATION:1.17/ 16\;1.10/ 16
+DESCRIPTION:Projektowanie maszyn i urządzeń w logistyce\nRodzaj: projekt
+ \nProwadzący: dr inż. Kosturek Robert\; dr inż. Szachogłuchowicz Iren
+ eusz\nNr zajęć: 5/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1671692b6ff5fb0d2ee430b6@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270130T133000
+DTEND;TZID=Europe/Warsaw:20270130T150500
+SUMMARY:MrBr (w)
+LOCATION:0.8/ 16
+DESCRIPTION:Mechanika ruchu i bezpieczeństwo ruchu drogowego\nRodzaj: wyk
+ ład\nProwadzący: dr inż. Ziubiński Mateusz\nNr zajęć: 5/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ca1bdacb9ebf4910df9d27d3@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270130T152000
+DTEND;TZID=Europe/Warsaw:20270130T165500
+SUMMARY:Ośl (w)
+LOCATION:1.17/ 16
+DESCRIPTION:Ochrona środowiska w logistyce\nRodzaj: wykład\nProwadzący:
+  dr n. społ. inż. Krupnik Dorota\nNr zajęć: 4/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:1c70a7db7a1bf5ff5ad4a87f@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270131T095000
+DTEND;TZID=Europe/Warsaw:20270131T112500
+SUMMARY:TwL (S)
+LOCATION:1.17/ 16
+DESCRIPTION:Transport w logistyce\nRodzaj: seminarium\nProwadzący: dr in
+ ż. Sieczka Jarosław\nNr zajęć: 2/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:077f725ea6aabecb93fa6eb6@wat-plan
+DTSTAMP:20261118T134922Z
+DTSTART;TZID=Europe/Warsaw:20270131T114000
+DTEND;TZID=Europe/Warsaw:20270131T131500
+SUMMARY:ZwSL (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Zapasy w systemach logistycznych\nRodzaj: ćwiczenia\nProwadz
+ ący: dr Sobczak Iwona\nNr zajęć: 6/6\nBlok: 3
+END:VEVENT
+END:VCALENDAR

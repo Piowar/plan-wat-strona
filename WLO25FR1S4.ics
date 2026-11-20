@@ -1,0 +1,2082 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WLO25FR1S4
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:cc70c5db8b2a1d42db0e0158@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261001T080000
+DTEND;TZID=Europe/Warsaw:20261001T093500
+SUMMARY:WNwL (w)
+LOCATION:0.23/ 16
+DESCRIPTION:Wirtualne narzędzia w logistyce\nRodzaj: wykład\nProwadzący
+ : dr inż. Waśniewski Tomasz\nNr zajęć: 1/2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7de5307e4f7dae73a553b6c1@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261001T095000
+DTEND;TZID=Europe/Warsaw:20261001T112500
+SUMMARY:WNwL (w)
+LOCATION:0.23/ 16
+DESCRIPTION:Wirtualne narzędzia w logistyce\nRodzaj: wykład\nProwadzący
+ : dr inż. Waśniewski Tomasz\nNr zajęć: 2/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4b2154743f400c035fe2ed5b@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261001T114000
+DTEND;TZID=Europe/Warsaw:20261001T131500
+SUMMARY:Mv. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Military vehicles\nRodzaj: wykład\nProwadzący: dr inż. Papl
+ iński Krzysztof\nNr zajęć: 1/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1b415ae8bb866fb844f02260@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261001T133000
+DTEND;TZID=Europe/Warsaw:20261001T150500
+SUMMARY:WNwL (L)
+LOCATION:0.22/ 16
+DESCRIPTION:Wirtualne narzędzia w logistyce\nRodzaj: laboratorium\nProwad
+ zący: Waś.To\nNr zajęć: 1/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:dd2e59c79e18f8bd5a221423@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261001T160000
+DTEND;TZID=Europe/Warsaw:20261001T173500
+SUMMARY:WNwL (L)
+LOCATION:0.22/ 16
+DESCRIPTION:Wirtualne narzędzia w logistyce\nRodzaj: laboratorium\nProwad
+ zący: Waś.To\nNr zajęć: 2/12\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:5c831291bd200f4eca71785a@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261002T080000
+DTEND;TZID=Europe/Warsaw:20261002T093500
+SUMMARY:NSM (w)
+LOCATION:0.23/ 16
+DESCRIPTION:Nowoczesne systemy magazynowania\nRodzaj: wykład\nProwadzący
+ : dr inż. Głodowska Katarzyna\nNr zajęć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f698229981cbd8241f9d3824@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261002T095000
+DTEND;TZID=Europe/Warsaw:20261002T112500
+SUMMARY:NSM (w)
+LOCATION:0.23/ 16
+DESCRIPTION:Nowoczesne systemy magazynowania\nRodzaj: wykład\nProwadzący
+ : dr inż. Głodowska Katarzyna\nNr zajęć: 2/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:026aa99b425cac5af00001c5@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261002T114000
+DTEND;TZID=Europe/Warsaw:20261002T131500
+SUMMARY:TT (w)
+LOCATION:0.23/ 16
+DESCRIPTION:Technologie transportowe\nRodzaj: wykład\nProwadzący: dr in
+ ż. Głodowska Katarzyna\nNr zajęć: 1/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:872aef963e3e4795cc308606@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261005T133000
+DTEND;TZID=Europe/Warsaw:20261005T150500
+SUMMARY:CoO (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Controlling Operacyjny\nRodzaj: wykład\nProwadzący: dr n.eko
+ n.\, inż. Kochański Tomasz\nNr zajęć: 1/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:878a75f7d76780a8aa2a908f@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261005T160000
+DTEND;TZID=Europe/Warsaw:20261005T173500
+SUMMARY:IBwL (w)
+LOCATION:1.15/ 16
+DESCRIPTION:Inżynieria bezpieczeństwa w logistyce\nRodzaj: wykład\nProw
+ adzący: dr hab. inż.(prof. ucz.) Wysocki Józef\nNr zajęć: 1/4\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:ebd8c8d012eb55875752bdc1@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261005T175000
+DTEND;TZID=Europe/Warsaw:20261005T192500
+SUMMARY:Osl (w)
+LOCATION:1.27/ 135
+DESCRIPTION:Ocena systemów logistycznych\nRodzaj: wykład\nProwadzący: p
+ łk dr inż. Zelkowski Jarosław\nNr zajęć: 1/6\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:6ad8f93c1fab85e52a8b4436@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261006T080000
+DTEND;TZID=Europe/Warsaw:20261006T093500
+SUMMARY:Psp. (w)
+LOCATION:0.21/ 16
+DESCRIPTION:Projektowanie systemów i procesów logistycznych\nRodzaj: wyk
+ ład\nProwadzący: dr hab. inż. Bartosiewicz Sławomir\nNr zajęć: 1/5\
+ nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ca393e904259ae60b79aa5ee@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261006T095000
+DTEND;TZID=Europe/Warsaw:20261006T112500
+SUMMARY:RwSL (w)
+LOCATION:0.21/ 16
+DESCRIPTION:Ryzyko w systemach logistycznych\nRodzaj: wykład\nProwadzący
+ : dr inż. Lewiński Ryszard\nNr zajęć: 1/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9c8681187ef108416e5eb8ad@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261006T114000
+DTEND;TZID=Europe/Warsaw:20261006T131500
+SUMMARY:WNwL (L)
+LOCATION:1.15/ 16
+DESCRIPTION:Wirtualne narzędzia w logistyce\nRodzaj: laboratorium\nProwad
+ zący: dr n.społ. inż. Rogowski Bogusław\nNr zajęć: 3/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:807e0716b19beb361025a9cc@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261009T080000
+DTEND;TZID=Europe/Warsaw:20261009T093500
+SUMMARY:UL. (w)
+LOCATION:2.22/ 135
+DESCRIPTION:Usługi logistyczne\nRodzaj: wykład\nProwadzący: dr Sobczak 
+ Iwona\nNr zajęć: 1/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a9faf933222dad4bf3c3969f@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261009T095000
+DTEND;TZID=Europe/Warsaw:20261009T112500
+SUMMARY:UL. (ć)
+LOCATION:5.21/ 135
+DESCRIPTION:Usługi logistyczne\nRodzaj: ćwiczenia\nProwadzący: dr Sobcz
+ ak Iwona\nNr zajęć: 1/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6d1d9ec948c5558b541b123b@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261009T114000
+DTEND;TZID=Europe/Warsaw:20261009T131500
+SUMMARY:TT (w)
+LOCATION:2.22/ 135
+DESCRIPTION:Technologie transportowe\nRodzaj: wykład\nProwadzący: dr in
+ ż. Głodowska Katarzyna\nNr zajęć: 2/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1a7871c0dea8e989e39c447a@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261009T133000
+DTEND;TZID=Europe/Warsaw:20261009T150500
+SUMMARY:TT (w)
+LOCATION:2.22/ 135
+DESCRIPTION:Technologie transportowe\nRodzaj: wykład\nProwadzący: dr in
+ ż. Głodowska Katarzyna\nNr zajęć: 3/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ade02aab5692a53788659911@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261012T095000
+DTEND;TZID=Europe/Warsaw:20261012T112500
+SUMMARY:CoO (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Controlling Operacyjny\nRodzaj: wykład\nProwadzący: dr n.eko
+ n.\, inż. Kochański Tomasz\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f7976bb40eb450d3d9d24916@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261012T114000
+DTEND;TZID=Europe/Warsaw:20261012T131500
+SUMMARY:WzzD (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Wybrane zagadnienia z dynamiki środków transportowych\nRodza
+ j: wykład\nProwadzący: dr hab. inż. (prof. ucz.) Luty Witold\nNr zaję
+ ć: 1/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d275f546f5515b455aa73fa4@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261012T133000
+DTEND;TZID=Europe/Warsaw:20261012T150500
+SUMMARY:Mv. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Military vehicles\nRodzaj: wykład\nProwadzący: dr inż. Papl
+ iński Krzysztof\nNr zajęć: 2/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6e6c2e145d20000b36bbfdd3@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261012T160000
+DTEND;TZID=Europe/Warsaw:20261012T173500
+SUMMARY:Osl (w)
+LOCATION:0.23/ 16
+DESCRIPTION:Ocena systemów logistycznych\nRodzaj: wykład\nProwadzący: p
+ łk dr inż. Zelkowski Jarosław\nNr zajęć: 2/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:b24c7ac9999a785266b3f03f@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261012T175000
+DTEND;TZID=Europe/Warsaw:20261012T192500
+SUMMARY:Osl (w)
+LOCATION:0.23/ 16
+DESCRIPTION:Ocena systemów logistycznych\nRodzaj: wykład\nProwadzący: p
+ łk dr inż. Zelkowski Jarosław\nNr zajęć: 3/6\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:1f80bf5175f6c8826ab0c51f@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261013T080000
+DTEND;TZID=Europe/Warsaw:20261013T093500
+SUMMARY:Psp. (w)
+LOCATION:0.21/ 16
+DESCRIPTION:Projektowanie systemów i procesów logistycznych\nRodzaj: wyk
+ ład\nProwadzący: dr hab. inż. Bartosiewicz Sławomir\nNr zajęć: 2/5\
+ nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:116bcdcbd3fd96e1a3cd2dcf@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261013T095000
+DTEND;TZID=Europe/Warsaw:20261013T112500
+SUMMARY:Psp. (w)
+LOCATION:0.21/ 16
+DESCRIPTION:Projektowanie systemów i procesów logistycznych\nRodzaj: wyk
+ ład\nProwadzący: dr hab. inż. Bartosiewicz Sławomir\nNr zajęć: 3/5\
+ nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:60c0dbb98ae1de49de9a7a63@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261014T080000
+DTEND;TZID=Europe/Warsaw:20261014T093500
+SUMMARY:UL. (w)
+LOCATION:zajęcia wyjazdowe
+DESCRIPTION:Usługi logistyczne\nRodzaj: wykład\nProwadzący: dr Sobczak 
+ Iwona\nNr zajęć: 2/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:316edbccced61e842ab86a50@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261014T095000
+DTEND;TZID=Europe/Warsaw:20261014T112500
+SUMMARY:UL. (w)
+LOCATION:zajęcia wyjazdowe
+DESCRIPTION:Usługi logistyczne\nRodzaj: wykład\nProwadzący: dr Sobczak 
+ Iwona\nNr zajęć: 3/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4c765d98b98870ddbdad3dc3@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261014T114000
+DTEND;TZID=Europe/Warsaw:20261014T131500
+SUMMARY:UL. (w)
+LOCATION:zajęcia wyjazdowe
+DESCRIPTION:Usługi logistyczne\nRodzaj: wykład\nProwadzący: dr Sobczak 
+ Iwona\nNr zajęć: 4/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:24269011f314507be4fec31a@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261015T114000
+DTEND;TZID=Europe/Warsaw:20261015T131500
+SUMMARY:WNwL (L)
+LOCATION:0.8/ 16
+DESCRIPTION:Wirtualne narzędzia w logistyce\nRodzaj: laboratorium\nProwad
+ zący: Waś.To\nNr zajęć: 4/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1638ab31cf69c0d5de001fdb@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261015T133000
+DTEND;TZID=Europe/Warsaw:20261015T150500
+SUMMARY:WNwL (L)
+LOCATION:0.8/ 16
+DESCRIPTION:Wirtualne narzędzia w logistyce\nRodzaj: laboratorium\nProwad
+ zący: Waś.To\nNr zajęć: 5/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:15a0054f282f74c80cbf5485@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261015T160000
+DTEND;TZID=Europe/Warsaw:20261015T173500
+SUMMARY:WNwL (L)
+LOCATION:1.15/ 16
+DESCRIPTION:Wirtualne narzędzia w logistyce\nRodzaj: laboratorium\nProwad
+ zący: dr n.społ. inż. Rogowski Bogusław\nNr zajęć: 6/12\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:aebc76e658ecbc08c49e03a5@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261016T080000
+DTEND;TZID=Europe/Warsaw:20261016T093500
+SUMMARY:NSM (w)
+LOCATION:0.21/ 16
+DESCRIPTION:Nowoczesne systemy magazynowania\nRodzaj: wykład\nProwadzący
+ : dr inż. Głodowska Katarzyna\nNr zajęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ee30ecccc5fb3acaced40b2e@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261016T095000
+DTEND;TZID=Europe/Warsaw:20261016T112500
+SUMMARY:NSM (w)
+LOCATION:0.21/ 16
+DESCRIPTION:Nowoczesne systemy magazynowania\nRodzaj: wykład\nProwadzący
+ : dr inż. Głodowska Katarzyna\nNr zajęć: 4/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f5c999c9c71ee300c2049ad1@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261016T114000
+DTEND;TZID=Europe/Warsaw:20261016T131500
+SUMMARY:TT (w)
+LOCATION:0.7/ 16
+DESCRIPTION:Technologie transportowe\nRodzaj: wykład\nProwadzący: dr in
+ ż. Głodowska Katarzyna\nNr zajęć: 4/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ddf904fec55e18482e95ab5d@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261016T133000
+DTEND;TZID=Europe/Warsaw:20261016T150500
+SUMMARY:TT (w)
+LOCATION:0.7/ 16
+DESCRIPTION:Technologie transportowe\nRodzaj: wykład\nProwadzący: dr in
+ ż. Głodowska Katarzyna\nNr zajęć: 5/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b16b806d7f3e3dd86ee1a8bf@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261019T095000
+DTEND;TZID=Europe/Warsaw:20261019T112500
+SUMMARY:CoO (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Controlling Operacyjny\nRodzaj: wykład\nProwadzący: dr n.eko
+ n.\, inż. Kochański Tomasz\nNr zajęć: 3/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ff545cdb9b972c7887f8e1c2@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261019T114000
+DTEND;TZID=Europe/Warsaw:20261019T131500
+SUMMARY:WzzD (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Wybrane zagadnienia z dynamiki środków transportowych\nRodza
+ j: wykład\nProwadzący: dr hab. inż. (prof. ucz.) Luty Witold\nNr zaję
+ ć: 2/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e53c00564121b46b1be78765@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261019T133000
+DTEND;TZID=Europe/Warsaw:20261019T150500
+SUMMARY:Mv. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Military vehicles\nRodzaj: wykład\nProwadzący: dr inż. Papl
+ iński Krzysztof\nNr zajęć: 3/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:bcd045524d443d57bb894880@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261020T080000
+DTEND;TZID=Europe/Warsaw:20261020T093500
+SUMMARY:Psp. (w)
+LOCATION:0.21/ 16
+DESCRIPTION:Projektowanie systemów i procesów logistycznych\nRodzaj: wyk
+ ład\nProwadzący: dr hab. inż. Bartosiewicz Sławomir\nNr zajęć: 4/5\
+ nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f38fdb58a930b3c6351b8454@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261020T095000
+DTEND;TZID=Europe/Warsaw:20261020T112500
+SUMMARY:Psp. (w)
+LOCATION:0.21/ 16
+DESCRIPTION:Projektowanie systemów i procesów logistycznych\nRodzaj: wyk
+ ład\nProwadzący: dr hab. inż. Bartosiewicz Sławomir\nNr zajęć: 5/5\
+ nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:18ee30b809eae175478d2cd9@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261020T114000
+DTEND;TZID=Europe/Warsaw:20261020T131500
+SUMMARY:IBwL (w)
+LOCATION:1.15/ 16
+DESCRIPTION:Inżynieria bezpieczeństwa w logistyce\nRodzaj: wykład\nProw
+ adzący: dr hab. inż.(prof. ucz.) Wysocki Józef\nNr zajęć: 2/4\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:b9f35aa742ca4378a4c6ae75@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261021T080000
+DTEND;TZID=Europe/Warsaw:20261021T093500
+SUMMARY:PADL (w)
+LOCATION:2.21/ 135
+DESCRIPTION:Praktyczne aspekty działalności logistycznej\nRodzaj: wykła
+ d\nProwadzący: dr inż. Owczarek Paulina\nNr zajęć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b105741e39250fd995fa34e2@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261021T095000
+DTEND;TZID=Europe/Warsaw:20261021T112500
+SUMMARY:TT (w)
+LOCATION:1a/ 28
+DESCRIPTION:Technologie transportowe\nRodzaj: wykład\nProwadzący: dr in
+ ż. Głodowska Katarzyna\nNr zajęć: 6/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3a5552ca578cf362b737ea57@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261021T114000
+DTEND;TZID=Europe/Warsaw:20261021T131500
+SUMMARY:TT (ć)
+LOCATION:1a/ 28
+DESCRIPTION:Technologie transportowe\nRodzaj: ćwiczenia\nProwadzący: dr 
+ inż. Głodowska Katarzyna\nNr zajęć: 1/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b38e8a36cbd64769c11ad8d3@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261022T095000
+DTEND;TZID=Europe/Warsaw:20261022T112500
+SUMMARY:UL. (w)
+LOCATION:1b/ 28
+DESCRIPTION:Usługi logistyczne\nRodzaj: wykład\nProwadzący: dr Sobczak 
+ Iwona\nNr zajęć: 5/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:711e04293741cd05d69a7200@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261022T114000
+DTEND;TZID=Europe/Warsaw:20261022T131500
+SUMMARY:UL. (ć)
+LOCATION:5.21/ 135
+DESCRIPTION:Usługi logistyczne\nRodzaj: ćwiczenia\nProwadzący: dr Sobcz
+ ak Iwona\nNr zajęć: 2/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:64c14afdac6d06b59080636a@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261026T133000
+DTEND;TZID=Europe/Warsaw:20261026T150500
+SUMMARY:TT (ć)
+LOCATION:2/ 22
+DESCRIPTION:Technologie transportowe\nRodzaj: ćwiczenia\nProwadzący: dr 
+ inż. Głodowska Katarzyna\nNr zajęć: 2/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5424b022a9ff6dd19572ed3e@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261026T160000
+DTEND;TZID=Europe/Warsaw:20261026T173500
+SUMMARY:TT (ć)
+LOCATION:2/ 22
+DESCRIPTION:Technologie transportowe\nRodzaj: ćwiczenia\nProwadzący: dr 
+ inż. Głodowska Katarzyna\nNr zajęć: 3/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:19e36f0afac1c582eb32c4bf@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261026T175000
+DTEND;TZID=Europe/Warsaw:20261026T192500
+SUMMARY:Osl (w)
+LOCATION:1.27/ 135
+DESCRIPTION:Ocena systemów logistycznych\nRodzaj: wykład\nProwadzący: p
+ łk dr inż. Zelkowski Jarosław\nNr zajęć: 4/6\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:ed80e40e11860c62a47765a5@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261027T095000
+DTEND;TZID=Europe/Warsaw:20261027T112500
+SUMMARY:IBwL (ć)
+LOCATION:4.17b/ 135
+DESCRIPTION:Inżynieria bezpieczeństwa w logistyce\nRodzaj: ćwiczenia\nP
+ rowadzący: dr hab. inż.(prof. ucz.) Wysocki Józef\nNr zajęć: 1/4\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:bb4bee9410f7481f50bba1e8@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261027T114000
+DTEND;TZID=Europe/Warsaw:20261027T131500
+SUMMARY:LZr (w)
+LOCATION:2.22/ 135
+DESCRIPTION:Logistyka zrównoważona\nRodzaj: wykład\nProwadzący: dr n. 
+ społ. inż. Krupnik Dorota\nNr zajęć: 1/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:022abc518c389f031b37cc70@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261027T133000
+DTEND;TZID=Europe/Warsaw:20261027T150500
+SUMMARY:LZr (w)
+LOCATION:2.22/ 135
+DESCRIPTION:Logistyka zrównoważona\nRodzaj: wykład\nProwadzący: dr n. 
+ społ. inż. Krupnik Dorota\nNr zajęć: 2/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5b03d0546475e676cacea064@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261028T095000
+DTEND;TZID=Europe/Warsaw:20261028T112500
+SUMMARY:RwSL (w)
+LOCATION:1.16/ 16
+DESCRIPTION:Ryzyko w systemach logistycznych\nRodzaj: wykład\nProwadzący
+ : dr inż. Lewiński Ryszard\nNr zajęć: 2/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2a0314885ee7ca1d17a38e2e@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261028T133000
+DTEND;TZID=Europe/Warsaw:20261028T150500
+SUMMARY:Mv. (ć)
+LOCATION:2/ 22
+DESCRIPTION:Military vehicles\nRodzaj: ćwiczenia\nProwadzący: dr inż. P
+ apliński Krzysztof\nNr zajęć: 1/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3b5788f8fbcebfd0d89b752b@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261029T114000
+DTEND;TZID=Europe/Warsaw:20261029T131500
+SUMMARY:UL. (w)
+LOCATION:1a/ 28
+DESCRIPTION:Usługi logistyczne\nRodzaj: wykład\nProwadzący: dr Sobczak 
+ Iwona\nNr zajęć: 6/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:67a6bed4647e46b58134a766@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261029T133000
+DTEND;TZID=Europe/Warsaw:20261029T150500
+SUMMARY:UL. (ć)
+LOCATION:1.15/ 16
+DESCRIPTION:Usługi logistyczne\nRodzaj: ćwiczenia\nProwadzący: dr Sobcz
+ ak Iwona\nNr zajęć: 3/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0952047f6534d67283f71d6d@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261030T080000
+DTEND;TZID=Europe/Warsaw:20261030T093500
+SUMMARY:PADL (w)
+LOCATION:1.15/ 16
+DESCRIPTION:Praktyczne aspekty działalności logistycznej\nRodzaj: wykła
+ d\nProwadzący: dr inż. Owczarek Paulina\nNr zajęć: 2/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9059c15502a6856b3f5b5a9a@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261030T095000
+DTEND;TZID=Europe/Warsaw:20261030T112500
+SUMMARY:PADL (w)
+LOCATION:1.15/ 16
+DESCRIPTION:Praktyczne aspekty działalności logistycznej\nRodzaj: wykła
+ d\nProwadzący: dr inż. Owczarek Paulina\nNr zajęć: 3/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:555aec2ad23f2191e12db0aa@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261030T114000
+DTEND;TZID=Europe/Warsaw:20261030T131500
+SUMMARY:CoO (ć)
+LOCATION:2/ 22
+DESCRIPTION:Controlling Operacyjny\nRodzaj: ćwiczenia\nProwadzący: dr n.
+ ekon.\, inż. Kochański Tomasz\nNr zajęć: 1/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:85f7c192ce2f5a16ca71d938@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261030T133000
+DTEND;TZID=Europe/Warsaw:20261030T150500
+SUMMARY:WzzD (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Wybrane zagadnienia z dynamiki środków transportowych\nRodza
+ j: wykład\nProwadzący: dr hab. inż. (prof. ucz.) Luty Witold\nNr zaję
+ ć: 3/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3d6fa66f991d2919914fceda@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261102T095000
+DTEND;TZID=Europe/Warsaw:20261102T112500
+SUMMARY:NSM (ć)
+LOCATION:4.17a/ 135
+DESCRIPTION:Nowoczesne systemy magazynowania\nRodzaj: ćwiczenia\nProwadz
+ ący: dr inż. Głodowska Katarzyna\nNr zajęć: 1/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ea2e723a068baf06c66fc904@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261102T114000
+DTEND;TZID=Europe/Warsaw:20261102T131500
+SUMMARY:CoO (ć)
+LOCATION:2.22/ 135
+DESCRIPTION:Controlling Operacyjny\nRodzaj: ćwiczenia\nProwadzący: dr n.
+ ekon.\, inż. Kochański Tomasz\nNr zajęć: 2/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0a80c0aa444e42795c3bccca@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261102T133000
+DTEND;TZID=Europe/Warsaw:20261102T150500
+SUMMARY:IBwL (w)
+LOCATION:2/ 22
+DESCRIPTION:Inżynieria bezpieczeństwa w logistyce\nRodzaj: wykład\nProw
+ adzący: dr hab. inż.(prof. ucz.) Wysocki Józef\nNr zajęć: 3/4\nBlok:
+  4
+END:VEVENT
+BEGIN:VEVENT
+UID:c68360b3da3b087fbe8eddc8@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261102T160000
+DTEND;TZID=Europe/Warsaw:20261102T173500
+SUMMARY:Osl (ć)
+LOCATION:2.21/ 135
+DESCRIPTION:Ocena systemów logistycznych\nRodzaj: ćwiczenia\nProwadzący
+ : płk dr inż. Zelkowski Jarosław\nNr zajęć: 1/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f41bfe1f8d0fd52c579ead8c@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261102T175000
+DTEND;TZID=Europe/Warsaw:20261102T192500
+SUMMARY:Osl (ć)
+LOCATION:2.21/ 135
+DESCRIPTION:Ocena systemów logistycznych\nRodzaj: ćwiczenia\nProwadzący
+ : płk dr inż. Zelkowski Jarosław\nNr zajęć: 2/5\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:6843c240900033b223899321@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261103T080000
+DTEND;TZID=Europe/Warsaw:20261103T093500
+SUMMARY:Zp* (w)
+LOCATION:1.27/ 135
+DESCRIPTION:Zamówienia publiczne\nRodzaj: wykład\nProwadzący: dr inż. 
+ Kalwasiński Marek\nNr zajęć: 1/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ee3e483aafcf1629e0b822bd@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261103T095000
+DTEND;TZID=Europe/Warsaw:20261103T112500
+SUMMARY:Zp* (w)
+LOCATION:1.27/ 135
+DESCRIPTION:Zamówienia publiczne\nRodzaj: wykład\nProwadzący: dr inż. 
+ Kalwasiński Marek\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:34fed0a7585b202ab3d32f5d@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261104T114000
+DTEND;TZID=Europe/Warsaw:20261104T131500
+SUMMARY:UL. (w)
+LOCATION:1.15/ 16
+DESCRIPTION:Usługi logistyczne\nRodzaj: wykład\nProwadzący: dr Sobczak 
+ Iwona\nNr zajęć: 7/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:cf183721d88c74622112d31d@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261104T133000
+DTEND;TZID=Europe/Warsaw:20261104T150500
+SUMMARY:UL. (ć)
+LOCATION:1.15/ 16
+DESCRIPTION:Usługi logistyczne\nRodzaj: ćwiczenia\nProwadzący: dr Sobcz
+ ak Iwona\nNr zajęć: 4/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:deba6ca327b7c45cffa516bf@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261104T160000
+DTEND;TZID=Europe/Warsaw:20261104T173500
+SUMMARY:Mv. (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Military vehicles\nRodzaj: wykład\nProwadzący: dr inż. Papl
+ iński Krzysztof\nNr zajęć: 4/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:6bc375248eb67ede8324f4f6@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261105T114000
+DTEND;TZID=Europe/Warsaw:20261105T131500
+SUMMARY:PADL (w)
+LOCATION:2.22/ 135
+DESCRIPTION:Praktyczne aspekty działalności logistycznej\nRodzaj: wykła
+ d\nProwadzący: dr inż. Owczarek Paulina\nNr zajęć: 4/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8199a33e4c9375641aae2f80@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261105T133000
+DTEND;TZID=Europe/Warsaw:20261105T150500
+SUMMARY:Mv. (ć)
+LOCATION:A.1.3/ 135
+DESCRIPTION:Military vehicles\nRodzaj: ćwiczenia\nProwadzący: dr inż. P
+ apliński Krzysztof\nNr zajęć: 2/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:945057db33a015a733ef7bbb@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261106T133000
+DTEND;TZID=Europe/Warsaw:20261106T150500
+SUMMARY:WzzD (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Wybrane zagadnienia z dynamiki środków transportowych\nRodza
+ j: wykład\nProwadzący: dr hab. inż. (prof. ucz.) Luty Witold\nNr zaję
+ ć: 4/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:268436929ce619667b7ab477@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261106T160000
+DTEND;TZID=Europe/Warsaw:20261106T173500
+SUMMARY:TT (ć)
+LOCATION:2.22/ 135
+DESCRIPTION:Technologie transportowe\nRodzaj: ćwiczenia\nProwadzący: dr 
+ inż. Głodowska Katarzyna\nNr zajęć: 4/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:4986ceef5aff26d08496af6f@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261109T095000
+DTEND;TZID=Europe/Warsaw:20261109T112500
+SUMMARY:CoO (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Controlling Operacyjny\nRodzaj: wykład\nProwadzący: dr n.eko
+ n.\, inż. Kochański Tomasz\nNr zajęć: 4/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9d481a55b4ede8126d627fe2@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261109T114000
+DTEND;TZID=Europe/Warsaw:20261109T131500
+SUMMARY:UL. (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Usługi logistyczne\nRodzaj: ćwiczenia\nProwadzący: dr Sobcz
+ ak Iwona\nNr zajęć: 5/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:973fe3ba2ba46bd8dde55add@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261109T133000
+DTEND;TZID=Europe/Warsaw:20261109T150500
+SUMMARY:UL. (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Usługi logistyczne\nRodzaj: ćwiczenia\nProwadzący: dr Sobcz
+ ak Iwona\nNr zajęć: 6/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d0f179e4fd9fbfaa641bf721@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261109T160000
+DTEND;TZID=Europe/Warsaw:20261109T173500
+SUMMARY:Osl (L)
+LOCATION:0.8/ 16
+DESCRIPTION:Ocena systemów logistycznych\nRodzaj: laboratorium\nProwadzą
+ cy: płk dr inż. Zelkowski Jarosław\nNr zajęć: 1/2\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:2213ab1f19df78f7d756a5ec@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261109T175000
+DTEND;TZID=Europe/Warsaw:20261109T192500
+SUMMARY:Osl (L)
+LOCATION:0.8/ 16
+DESCRIPTION:Ocena systemów logistycznych\nRodzaj: laboratorium\nProwadzą
+ cy: płk dr inż. Zelkowski Jarosław\nNr zajęć: 2/2\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:d4bb0c663b93bf752ffc2d1f@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261110T080000
+DTEND;TZID=Europe/Warsaw:20261110T093500
+SUMMARY:Zp* (w)
+LOCATION:1.17/ 16
+DESCRIPTION:Zamówienia publiczne\nRodzaj: wykład\nProwadzący: dr inż. 
+ Kalwasiński Marek\nNr zajęć: 3/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3f67bbab0a8a982c3f7b13de@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261110T095000
+DTEND;TZID=Europe/Warsaw:20261110T112500
+SUMMARY:Zp* (w)
+LOCATION:1.17/ 16
+DESCRIPTION:Zamówienia publiczne\nRodzaj: wykład\nProwadzący: dr inż. 
+ Kalwasiński Marek\nNr zajęć: 4/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d4cbc057bfbe17c1ee354ebd@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261110T114000
+DTEND;TZID=Europe/Warsaw:20261110T131500
+SUMMARY:LZr (w)
+LOCATION:1.15/ 16
+DESCRIPTION:Logistyka zrównoważona\nRodzaj: wykład\nProwadzący: dr n. 
+ społ. inż. Krupnik Dorota\nNr zajęć: 3/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:661d6aa7ce5d89c5a983859d@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261110T133000
+DTEND;TZID=Europe/Warsaw:20261110T150500
+SUMMARY:LZr (w)
+LOCATION:1.15/ 16
+DESCRIPTION:Logistyka zrównoważona\nRodzaj: wykład\nProwadzący: dr n. 
+ społ. inż. Krupnik Dorota\nNr zajęć: 4/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:feafe47f25ae674ab2002e37@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261112T080000
+DTEND;TZID=Europe/Warsaw:20261112T093500
+SUMMARY:WNwL (L)
+LOCATION:0.8/ 16
+DESCRIPTION:Wirtualne narzędzia w logistyce\nRodzaj: laboratorium\nProwad
+ zący: Waś.To\nNr zajęć: 7/12\nBlok: 1\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:f0718f5fa140fd9147a11fa3@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261112T095000
+DTEND;TZID=Europe/Warsaw:20261112T112500
+SUMMARY:WNwL (L)
+LOCATION:0.8/ 16
+DESCRIPTION:Wirtualne narzędzia w logistyce\nRodzaj: laboratorium\nProwad
+ zący: Waś.To\nNr zajęć: 8/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:88d6986e8d994f36613d15c1@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261112T114000
+DTEND;TZID=Europe/Warsaw:20261112T131500
+SUMMARY:WNwL (L)
+LOCATION:0.8/ 16
+DESCRIPTION:Wirtualne narzędzia w logistyce\nRodzaj: laboratorium\nProwad
+ zący: Waś.To\nNr zajęć: 9/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:fa49a11aacb725cb7f7f7ea1@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261112T133000
+DTEND;TZID=Europe/Warsaw:20261112T150500
+SUMMARY:Mv. (ć)
+LOCATION:0.21/ 16
+DESCRIPTION:Military vehicles\nRodzaj: ćwiczenia\nProwadzący: dr inż. P
+ apliński Krzysztof\nNr zajęć: 3/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:25a4130ca7f0505cab898e30@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261113T080000
+DTEND;TZID=Europe/Warsaw:20261113T093500
+SUMMARY:PADL (ć)
+LOCATION:0.6/ 16
+DESCRIPTION:Praktyczne aspekty działalności logistycznej\nRodzaj: ćwicz
+ enia\nProwadzący: dr inż. Owczarek Paulina\nNr zajęć: 1/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e5adf4b6220e37b1c2428077@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261113T095000
+DTEND;TZID=Europe/Warsaw:20261113T112500
+SUMMARY:PADL (ć)
+LOCATION:0.6/ 16
+DESCRIPTION:Praktyczne aspekty działalności logistycznej\nRodzaj: ćwicz
+ enia\nProwadzący: dr inż. Owczarek Paulina\nNr zajęć: 2/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3f736d0f0dd55fab42c984cc@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261113T114000
+DTEND;TZID=Europe/Warsaw:20261113T131500
+SUMMARY:IBwL (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Inżynieria bezpieczeństwa w logistyce\nRodzaj: ćwiczenia\nP
+ rowadzący: dr hab. inż.(prof. ucz.) Wysocki Józef\nNr zajęć: 2/4\nBl
+ ok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:842b4afde6099ba5eadb3116@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261113T133000
+DTEND;TZID=Europe/Warsaw:20261113T150500
+SUMMARY:WzzD (ć)
+LOCATION:0.22/ 16
+DESCRIPTION:Wybrane zagadnienia z dynamiki środków transportowych\nRodza
+ j: ćwiczenia\nProwadzący: mgr inż. Michałowski Bogusław\nNr zajęć:
+  1/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:544932f36038f64378fa7439@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261116T095000
+DTEND;TZID=Europe/Warsaw:20261116T112500
+SUMMARY:NSM (ć)
+LOCATION:0.21/ 16
+DESCRIPTION:Nowoczesne systemy magazynowania\nRodzaj: ćwiczenia\nProwadz
+ ący: dr inż. Głodowska Katarzyna\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a7b4b3e164e730e32719b6e4@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261116T114000
+DTEND;TZID=Europe/Warsaw:20261116T131500
+SUMMARY:PADL (ć)
+LOCATION:0.6/ 16
+DESCRIPTION:Praktyczne aspekty działalności logistycznej\nRodzaj: ćwicz
+ enia\nProwadzący: dr inż. Owczarek Paulina\nNr zajęć: 3/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6429dea668380a7a71452377@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261116T133000
+DTEND;TZID=Europe/Warsaw:20261116T150500
+SUMMARY:Mv. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Military vehicles\nRodzaj: wykład\nProwadzący: dr inż. Papl
+ iński Krzysztof\nNr zajęć: 5/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:387629b75d500ce9e020b624@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261116T160000
+DTEND;TZID=Europe/Warsaw:20261116T173500
+SUMMARY:Osl (w)
+LOCATION:0.23/ 16
+DESCRIPTION:Ocena systemów logistycznych\nRodzaj: wykład\nProwadzący: p
+ łk dr inż. Zelkowski Jarosław\nNr zajęć: 5/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:8cd023eff60dcc1b09e00fc1@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261116T175000
+DTEND;TZID=Europe/Warsaw:20261116T192500
+SUMMARY:Osl (w)
+LOCATION:0.23/ 16
+DESCRIPTION:Ocena systemów logistycznych\nRodzaj: wykład\nProwadzący: p
+ łk dr inż. Zelkowski Jarosław\nNr zajęć: 6/6\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:9f2d93af2a6f3c033855b91a@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261117T080000
+DTEND;TZID=Europe/Warsaw:20261117T093500
+SUMMARY:RwSL (w)
+LOCATION:1.17/ 16
+DESCRIPTION:Ryzyko w systemach logistycznych\nRodzaj: wykład\nProwadzący
+ : dr inż. Lewiński Ryszard\nNr zajęć: 3/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a119b0bbd7ea930f62ccd141@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261117T095000
+DTEND;TZID=Europe/Warsaw:20261117T112500
+SUMMARY:RwSL (w)
+LOCATION:1.17/ 16
+DESCRIPTION:Ryzyko w systemach logistycznych\nRodzaj: wykład\nProwadzący
+ : dr inż. Lewiński Ryszard\nNr zajęć: 4/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:99b0f2c301bfa1186be870e6@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261117T114000
+DTEND;TZID=Europe/Warsaw:20261117T131500
+SUMMARY:Zp* (w)
+LOCATION:1.17/ 16
+DESCRIPTION:Zamówienia publiczne\nRodzaj: wykład\nProwadzący: dr inż. 
+ Kalwasiński Marek\nNr zajęć: 5/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:71beed35289c89dbd8e31287@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261118T080000
+DTEND;TZID=Europe/Warsaw:20261118T093500
+SUMMARY:LZr (ć)
+LOCATION:4.23/ 135
+DESCRIPTION:Logistyka zrównoważona\nRodzaj: ćwiczenia\nProwadzący: dr 
+ n. społ. inż. Krupnik Dorota\nNr zajęć: 1/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6d467783b49dc09355813d57@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261118T095000
+DTEND;TZID=Europe/Warsaw:20261118T112500
+SUMMARY:IBwL (S)
+LOCATION:1.16/ 16
+DESCRIPTION:Inżynieria bezpieczeństwa w logistyce\nRodzaj: seminarium\nP
+ rowadzący: dr hab. inż.(prof. ucz.) Wysocki Józef\nNr zajęć: 1/4\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:fd3156bb597db9f59d98c2e1@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261118T114000
+DTEND;TZID=Europe/Warsaw:20261118T131500
+SUMMARY:IBwL (S)
+LOCATION:1.16/ 16
+DESCRIPTION:Inżynieria bezpieczeństwa w logistyce\nRodzaj: seminarium\nP
+ rowadzący: dr hab. inż.(prof. ucz.) Wysocki Józef\nNr zajęć: 2/4\nBl
+ ok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d55bd32994f193cae285c0ed@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261119T080000
+DTEND;TZID=Europe/Warsaw:20261119T093500
+SUMMARY:WNwL (L)
+LOCATION:Hala badawcza 16
+DESCRIPTION:Wirtualne narzędzia w logistyce\nRodzaj: laboratorium\nProwad
+ zący: dr n. ekon. mgr inż. Ślaski Paweł\nNr zajęć: 10/12\nBlok: 1\n
+ Uwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:9ae7aa817357ac57899f98bf@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261119T095000
+DTEND;TZID=Europe/Warsaw:20261119T112500
+SUMMARY:WNwL (L)
+LOCATION:Hala badawcza 16
+DESCRIPTION:Wirtualne narzędzia w logistyce\nRodzaj: laboratorium\nProwad
+ zący: dr n. ekon. mgr inż. Ślaski Paweł\nNr zajęć: 11/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d2258d0abadc4eeabc33e0da@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261119T114000
+DTEND;TZID=Europe/Warsaw:20261119T131500
+SUMMARY:WNwL (L)
+LOCATION:Hala badawcza 16
+DESCRIPTION:Wirtualne narzędzia w logistyce\nRodzaj: laboratorium\nProwad
+ zący: dr n. ekon. mgr inż. Ślaski Paweł\nNr zajęć: 12/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:76c15a229054b0c0312410fd@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261119T133000
+DTEND;TZID=Europe/Warsaw:20261119T150500
+SUMMARY:Mv. (ć)
+LOCATION:0.21/ 16
+DESCRIPTION:Military vehicles\nRodzaj: ćwiczenia\nProwadzący: dr inż. P
+ apliński Krzysztof\nNr zajęć: 4/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f86cd84f1a7f2b6f75cd92a7@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261120T080000
+DTEND;TZID=Europe/Warsaw:20261120T093500
+SUMMARY:NSM (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Nowoczesne systemy magazynowania\nRodzaj: ćwiczenia\nProwadz
+ ący: dr inż. Głodowska Katarzyna\nNr zajęć: 3/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3788f0467d7d842c7b2db4cf@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261120T095000
+DTEND;TZID=Europe/Warsaw:20261120T112500
+SUMMARY:CoO (ć)
+LOCATION:0.22/ 16
+DESCRIPTION:Controlling Operacyjny\nRodzaj: ćwiczenia\nProwadzący: dr n.
+ ekon.\, inż. Kochański Tomasz\nNr zajęć: 3/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:06f76ea6e524139218e85668@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261120T114000
+DTEND;TZID=Europe/Warsaw:20261120T131500
+SUMMARY:Psp. (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Projektowanie systemów i procesów logistycznych\nRodzaj: ćw
+ iczenia\nProwadzący: dr hab. inż. Bartosiewicz Sławomir\nNr zajęć: 1
+ /5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a351e5da9ea033cf7437e530@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261120T133000
+DTEND;TZID=Europe/Warsaw:20261120T150500
+SUMMARY:WzzD (ć)
+LOCATION:0.21/ 16
+DESCRIPTION:Wybrane zagadnienia z dynamiki środków transportowych\nRodza
+ j: ćwiczenia\nProwadzący: mgr inż. Michałowski Bogusław\nNr zajęć:
+  2/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6daf10a2b26cc16e3dd6c4c9@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261123T095000
+DTEND;TZID=Europe/Warsaw:20261123T112500
+SUMMARY:CoO (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Controlling Operacyjny\nRodzaj: wykład\nProwadzący: dr n.eko
+ n.\, inż. Kochański Tomasz\nNr zajęć: 5/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:abf5b931bcc5d88c3a7cf627@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261123T114000
+DTEND;TZID=Europe/Warsaw:20261123T131500
+SUMMARY:WzzD (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Wybrane zagadnienia z dynamiki środków transportowych\nRodza
+ j: wykład\nProwadzący: dr hab. inż. (prof. ucz.) Luty Witold\nNr zaję
+ ć: 5/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d2dc6e7166e23371e2e39c23@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261123T133000
+DTEND;TZID=Europe/Warsaw:20261123T150500
+SUMMARY:Mv. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Military vehicles\nRodzaj: wykład\nProwadzący: dr inż. Papl
+ iński Krzysztof\nNr zajęć: 6/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:930396dfea352ef927e03fb3@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261124T114000
+DTEND;TZID=Europe/Warsaw:20261124T131500
+SUMMARY:Zp* (ć)
+LOCATION:1.27/ 135
+DESCRIPTION:Zamówienia publiczne\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Kalwasiński Marek\nNr zajęć: 1/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1d8457b4b4352a6e42203300@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261124T133000
+DTEND;TZID=Europe/Warsaw:20261124T150500
+SUMMARY:Zp* (ć)
+LOCATION:1.27/ 135
+DESCRIPTION:Zamówienia publiczne\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Kalwasiński Marek\nNr zajęć: 2/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6e1cc20774adeb66e698b0d1@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261125T080000
+DTEND;TZID=Europe/Warsaw:20261125T093500
+SUMMARY:TT (ć)
+LOCATION:5.21/ 135
+DESCRIPTION:Technologie transportowe\nRodzaj: ćwiczenia\nProwadzący: dr 
+ inż. Głodowska Katarzyna\nNr zajęć: 5/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c692d99ec1804216ba4bf834@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261125T095000
+DTEND;TZID=Europe/Warsaw:20261125T112500
+SUMMARY:RwSL (w)
+LOCATION:2.22/ 135
+DESCRIPTION:Ryzyko w systemach logistycznych\nRodzaj: wykład\nProwadzący
+ : dr inż. Lewiński Ryszard\nNr zajęć: 5/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6fbfdd3a875833c8cdbf1d15@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261125T114000
+DTEND;TZID=Europe/Warsaw:20261125T131500
+SUMMARY:PADL (ć)
+LOCATION:0.22/ 16
+DESCRIPTION:Praktyczne aspekty działalności logistycznej\nRodzaj: ćwicz
+ enia\nProwadzący: dr inż. Owczarek Paulina\nNr zajęć: 4/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5e7c761f5213e17ac5624751@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261126T080000
+DTEND;TZID=Europe/Warsaw:20261126T093500
+SUMMARY:Psp. (ć)
+LOCATION:1b/ 28
+DESCRIPTION:Projektowanie systemów i procesów logistycznych\nRodzaj: ćw
+ iczenia\nProwadzący: dr hab. inż. Bartosiewicz Sławomir\nNr zajęć: 2
+ /5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:338ef1b3e580b4ae179b3224@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261126T095000
+DTEND;TZID=Europe/Warsaw:20261126T112500
+SUMMARY:IBwL (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Inżynieria bezpieczeństwa w logistyce\nRodzaj: ćwiczenia\nP
+ rowadzący: dr hab. inż.(prof. ucz.) Wysocki Józef\nNr zajęć: 3/4\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:da48abef32968b184c06c9d2@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261126T114000
+DTEND;TZID=Europe/Warsaw:20261126T131500
+SUMMARY:Mv. (ć)
+LOCATION:0.6/ 16
+DESCRIPTION:Military vehicles\nRodzaj: ćwiczenia\nProwadzący: dr inż. P
+ apliński Krzysztof\nNr zajęć: 5/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:bd8db4b0af05909ee28dc436@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261130T114000
+DTEND;TZID=Europe/Warsaw:20261130T131500
+SUMMARY:WzzD (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Wybrane zagadnienia z dynamiki środków transportowych\nRodza
+ j: wykład\nProwadzący: dr hab. inż. (prof. ucz.) Luty Witold\nNr zaję
+ ć: 6/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:97c0e9a2f668d7aba0c0ac17@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261130T133000
+DTEND;TZID=Europe/Warsaw:20261130T150500
+SUMMARY:Mv. (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Military vehicles\nRodzaj: wykład\nProwadzący: dr inż. Papl
+ iński Krzysztof\nNr zajęć: 7/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7a400f7937fd7746645df123@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261130T160000
+DTEND;TZID=Europe/Warsaw:20261130T173500
+SUMMARY:Mv. (ć)
+LOCATION:2.22/ 135
+DESCRIPTION:Military vehicles\nRodzaj: ćwiczenia\nProwadzący: dr inż. P
+ apliński Krzysztof\nNr zajęć: 6/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:37d9ed86b5f6c27f08d9b479@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261201T114000
+DTEND;TZID=Europe/Warsaw:20261201T131500
+SUMMARY:Zp* (ć)
+LOCATION:1.27/ 135
+DESCRIPTION:Zamówienia publiczne\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Kalwasiński Marek\nNr zajęć: 3/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:dfd2e79174bc5138acc05d8a@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261201T133000
+DTEND;TZID=Europe/Warsaw:20261201T150500
+SUMMARY:Zp* (ć)
+LOCATION:1.27/ 135
+DESCRIPTION:Zamówienia publiczne\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Kalwasiński Marek\nNr zajęć: 4/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a4803fa32dcf6e27660f31af@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261201T160000
+DTEND;TZID=Europe/Warsaw:20261201T173500
+SUMMARY:Psp. (ć)
+LOCATION:255 S
+DESCRIPTION:Projektowanie systemów i procesów logistycznych\nRodzaj: ćw
+ iczenia\nProwadzący: dr hab. inż. Bartosiewicz Sławomir\nNr zajęć: 3
+ /5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:52e2c84db6e9c00ae20e9d55@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261202T095000
+DTEND;TZID=Europe/Warsaw:20261202T112500
+SUMMARY:IBwL (ć)
+LOCATION:1.15/ 16
+DESCRIPTION:Inżynieria bezpieczeństwa w logistyce\nRodzaj: ćwiczenia\nP
+ rowadzący: dr hab. inż.(prof. ucz.) Wysocki Józef\nNr zajęć: 4/4\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e5c02f76fda6d1a56ac4f28c@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261202T114000
+DTEND;TZID=Europe/Warsaw:20261202T131500
+SUMMARY:LZr (ć)
+LOCATION:2.22/ 135
+DESCRIPTION:Logistyka zrównoważona\nRodzaj: ćwiczenia\nProwadzący: dr 
+ n. społ. inż. Krupnik Dorota\nNr zajęć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ec482dcaa1b094ae97882ff4@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261202T133000
+DTEND;TZID=Europe/Warsaw:20261202T150500
+SUMMARY:RwSL (ć)
+LOCATION:5.21/ 135
+DESCRIPTION:Ryzyko w systemach logistycznych\nRodzaj: ćwiczenia\nProwadz
+ ący: dr inż. Lewiński Ryszard\nNr zajęć: 1/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1e4ed8ef746501371916b550@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261202T160000
+DTEND;TZID=Europe/Warsaw:20261202T173500
+SUMMARY:RwSL (ć)
+LOCATION:5.21/ 135
+DESCRIPTION:Ryzyko w systemach logistycznych\nRodzaj: ćwiczenia\nProwadz
+ ący: dr inż. Lewiński Ryszard\nNr zajęć: 2/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:68089d40fbe273e699455c53@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261203T114000
+DTEND;TZID=Europe/Warsaw:20261203T131500
+SUMMARY:UL. (S)
+LOCATION:2.22/ 135
+DESCRIPTION:Usługi logistyczne\nRodzaj: seminarium\nProwadzący: dr Sobcz
+ ak Iwona\nNr zajęć: 1/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3eb39b66d901e19eb15b0b9d@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261203T133000
+DTEND;TZID=Europe/Warsaw:20261203T150500
+SUMMARY:UL. (S)
+LOCATION:2.22/ 135
+DESCRIPTION:Usługi logistyczne\nRodzaj: seminarium\nProwadzący: dr Sobcz
+ ak Iwona\nNr zajęć: 2/2\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7f90b5580c275226df94ff2d@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261204T080000
+DTEND;TZID=Europe/Warsaw:20261204T093500
+SUMMARY:WzzD (L)
+LOCATION:14/ 23A
+DESCRIPTION:Wybrane zagadnienia z dynamiki środków transportowych\nRodza
+ j: laboratorium\nProwadzący: mgr inż. Michałowski Bogusław\; dr inż.
+  Wiśniewski Andrzej\nNr zajęć: 1/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5f6faed85f26d98b7217e8f5@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261204T095000
+DTEND;TZID=Europe/Warsaw:20261204T112500
+SUMMARY:CoO (ć)
+LOCATION:0.22/ 16
+DESCRIPTION:Controlling Operacyjny\nRodzaj: ćwiczenia\nProwadzący: dr n.
+ ekon.\, inż. Kochański Tomasz\nNr zajęć: 4/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:430b43cbbb90f92e4dcb76f2@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261204T114000
+DTEND;TZID=Europe/Warsaw:20261204T131500
+SUMMARY:PADL (L)
+LOCATION:0.6/ 16
+DESCRIPTION:Praktyczne aspekty działalności logistycznej\nRodzaj: labora
+ torium\nProwadzący: dr inż. Owczarek Paulina\nNr zajęć: 1/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2e9a57653cae51db950ee40d@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261204T133000
+DTEND;TZID=Europe/Warsaw:20261204T150500
+SUMMARY:PADL (L)
+LOCATION:0.6/ 16
+DESCRIPTION:Praktyczne aspekty działalności logistycznej\nRodzaj: labora
+ torium\nProwadzący: dr inż. Owczarek Paulina\nNr zajęć: 2/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7d5bb01b8c3a2a4caf91b5ff@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261207T114000
+DTEND;TZID=Europe/Warsaw:20261207T131500
+SUMMARY:WzzD (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Wybrane zagadnienia z dynamiki środków transportowych\nRodza
+ j: wykład\nProwadzący: dr hab. inż. (prof. ucz.) Luty Witold\nNr zaję
+ ć: 7/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9f46105a5d9d2c095cad14d0@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261207T133000
+DTEND;TZID=Europe/Warsaw:20261207T150500
+SUMMARY:Mv. (ć)
+LOCATION:0.21/ 16
+DESCRIPTION:Military vehicles\nRodzaj: ćwiczenia\nProwadzący: dr inż. P
+ apliński Krzysztof\nNr zajęć: 7/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e49f5c9619d0f378a10bfdeb@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261207T160000
+DTEND;TZID=Europe/Warsaw:20261207T173500
+SUMMARY:Osl (ć)
+LOCATION:0.23/ 16
+DESCRIPTION:Ocena systemów logistycznych\nRodzaj: ćwiczenia\nProwadzący
+ : płk dr inż. Zelkowski Jarosław\nNr zajęć: 3/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:e49747d16f7651faefa0e7b0@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261207T175000
+DTEND;TZID=Europe/Warsaw:20261207T192500
+SUMMARY:Osl (ć)
+LOCATION:0.23/ 16
+DESCRIPTION:Ocena systemów logistycznych\nRodzaj: ćwiczenia\nProwadzący
+ : płk dr inż. Zelkowski Jarosław\nNr zajęć: 4/5\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:97c9dd3cad23d23bb0c40b7a@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261208T095000
+DTEND;TZID=Europe/Warsaw:20261208T112500
+SUMMARY:Zp* (ć)
+LOCATION:1.27/ 135
+DESCRIPTION:Zamówienia publiczne\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Kalwasiński Marek\nNr zajęć: 5/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:68e451190721775f5b1491b6@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261208T114000
+DTEND;TZID=Europe/Warsaw:20261208T131500
+SUMMARY:Zp* (ć)
+LOCATION:1.27/ 135
+DESCRIPTION:Zamówienia publiczne\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Kalwasiński Marek\nNr zajęć: 6/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8416a47143b4bad916697244@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261208T133000
+DTEND;TZID=Europe/Warsaw:20261208T150500
+SUMMARY:PADL (ć)
+LOCATION:0.22/ 16
+DESCRIPTION:Praktyczne aspekty działalności logistycznej\nRodzaj: ćwicz
+ enia\nProwadzący: dr inż. Owczarek Paulina\nNr zajęć: 5/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:517ae882afaaa4bb5d8ea95f@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261209T095000
+DTEND;TZID=Europe/Warsaw:20261209T112500
+SUMMARY:PADL (L)
+LOCATION:0.21/ 16
+DESCRIPTION:Praktyczne aspekty działalności logistycznej\nRodzaj: labora
+ torium\nProwadzący: dr inż. Owczarek Paulina\nNr zajęć: 3/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:869f61169697d4af95a013e0@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261209T114000
+DTEND;TZID=Europe/Warsaw:20261209T131500
+SUMMARY:PADL (L)
+LOCATION:0.21/ 16
+DESCRIPTION:Praktyczne aspekty działalności logistycznej\nRodzaj: labora
+ torium\nProwadzący: dr inż. Owczarek Paulina\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:43b3bbd21905f3e9b73d04b7@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261209T133000
+DTEND;TZID=Europe/Warsaw:20261209T150500
+SUMMARY:WzzD (L)
+LOCATION:14/ 23A
+DESCRIPTION:Wybrane zagadnienia z dynamiki środków transportowych\nRodza
+ j: laboratorium\nProwadzący: mgr inż. Michałowski Bogusław\; dr inż.
+  Wiśniewski Andrzej\nNr zajęć: 2/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:868071d7ff39d1e3890242cc@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261209T160000
+DTEND;TZID=Europe/Warsaw:20261209T173500
+SUMMARY:LZr (ć)
+LOCATION:0.21/ 16
+DESCRIPTION:Logistyka zrównoważona\nRodzaj: ćwiczenia\nProwadzący: dr 
+ n. społ. inż. Krupnik Dorota\nNr zajęć: 3/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:4af967ae1e247815b9ec2e9d@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261209T175000
+DTEND;TZID=Europe/Warsaw:20261209T192500
+SUMMARY:LZr (ć)
+LOCATION:0.21/ 16
+DESCRIPTION:Logistyka zrównoważona\nRodzaj: ćwiczenia\nProwadzący: dr 
+ n. społ. inż. Krupnik Dorota\nNr zajęć: 4/5\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:798cd0ccd61f65bab14e0261@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261210T080000
+DTEND;TZID=Europe/Warsaw:20261210T093500
+SUMMARY:Psp. (ć)
+LOCATION:4.23/ 135
+DESCRIPTION:Projektowanie systemów i procesów logistycznych\nRodzaj: ćw
+ iczenia\nProwadzący: dr hab. inż. Bartosiewicz Sławomir\nNr zajęć: 4
+ /5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a3f013dadb6ec374674726d2@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261210T095000
+DTEND;TZID=Europe/Warsaw:20261210T112500
+SUMMARY:Psp. (ć)
+LOCATION:4.23/ 135
+DESCRIPTION:Projektowanie systemów i procesów logistycznych\nRodzaj: ćw
+ iczenia\nProwadzący: dr hab. inż. Bartosiewicz Sławomir\nNr zajęć: 5
+ /5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e760540aaa17246927351b8d@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261210T114000
+DTEND;TZID=Europe/Warsaw:20261210T131500
+SUMMARY:NSM (S)
+LOCATION:2.22/ 135
+DESCRIPTION:Nowoczesne systemy magazynowania\nRodzaj: seminarium\nProwadz
+ ący: dr inż. Głodowska Katarzyna\nNr zajęć: 1/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:197bec58b504e28422b06a52@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261210T133000
+DTEND;TZID=Europe/Warsaw:20261210T150500
+SUMMARY:NSM (S)
+LOCATION:2.22/ 135
+DESCRIPTION:Nowoczesne systemy magazynowania\nRodzaj: seminarium\nProwadz
+ ący: dr inż. Głodowska Katarzyna\nNr zajęć: 2/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:bc5d44308fba1c1c63175e42@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261211T080000
+DTEND;TZID=Europe/Warsaw:20261211T093500
+SUMMARY:IBwL (S)
+LOCATION:1.15/ 16
+DESCRIPTION:Inżynieria bezpieczeństwa w logistyce\nRodzaj: seminarium\nP
+ rowadzący: dr hab. inż.(prof. ucz.) Wysocki Józef\nNr zajęć: 3/4\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:de31896b5f321d753188ac4e@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261211T095000
+DTEND;TZID=Europe/Warsaw:20261211T112500
+SUMMARY:IBwL (S)
+LOCATION:1.15/ 16
+DESCRIPTION:Inżynieria bezpieczeństwa w logistyce\nRodzaj: seminarium\nP
+ rowadzący: dr hab. inż.(prof. ucz.) Wysocki Józef\nNr zajęć: 4/4\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a4a430d1221a449a672651ea@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261211T114000
+DTEND;TZID=Europe/Warsaw:20261211T131500
+SUMMARY:Mv. (ć)
+LOCATION:1.15/ 16
+DESCRIPTION:Military vehicles\nRodzaj: ćwiczenia\nProwadzący: dr inż. P
+ apliński Krzysztof\nNr zajęć: 8/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:822cd1e9f408b7d5eefba9c8@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261211T133000
+DTEND;TZID=Europe/Warsaw:20261211T150500
+SUMMARY:NSM (ć)
+LOCATION:301/ S
+DESCRIPTION:Nowoczesne systemy magazynowania\nRodzaj: ćwiczenia\nProwadz
+ ący: dr inż. Głodowska Katarzyna\nNr zajęć: 4/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:373d4e51f4f51140dc9fb876@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261211T160000
+DTEND;TZID=Europe/Warsaw:20261211T173500
+SUMMARY:NSM (ć)
+LOCATION:301/ S
+DESCRIPTION:Nowoczesne systemy magazynowania\nRodzaj: ćwiczenia\nProwadz
+ ący: dr inż. Głodowska Katarzyna\nNr zajęć: 5/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:2359cad331483c96bca4da36@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261214T080000
+DTEND;TZID=Europe/Warsaw:20261214T093500
+SUMMARY:PADL (L)
+LOCATION:0.6/ 16
+DESCRIPTION:Praktyczne aspekty działalności logistycznej\nRodzaj: labora
+ torium\nProwadzący: dr inż. Owczarek Paulina\nNr zajęć: 5/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ef36e61d27d4b1c15e81a8b2@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261214T095000
+DTEND;TZID=Europe/Warsaw:20261214T112500
+SUMMARY:CoO (ć)
+LOCATION:0.21/ 16
+DESCRIPTION:Controlling Operacyjny\nRodzaj: ćwiczenia\nProwadzący: dr n.
+ ekon.\, inż. Kochański Tomasz\nNr zajęć: 5/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0edfae00d32afa4139f96047@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261215T114000
+DTEND;TZID=Europe/Warsaw:20261215T131500
+SUMMARY:Zp* (ć)
+LOCATION:1.27/ 135
+DESCRIPTION:Zamówienia publiczne\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Kalwasiński Marek\nNr zajęć: 7/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:bfdd265d017183cf6f068738@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261215T133000
+DTEND;TZID=Europe/Warsaw:20261215T150500
+SUMMARY:Zp* (ć)
+LOCATION:1.27/ 135
+DESCRIPTION:Zamówienia publiczne\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Kalwasiński Marek\nNr zajęć: 8/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f970e666914ac1e8cbd9b288@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261216T080000
+DTEND;TZID=Europe/Warsaw:20261216T093500
+SUMMARY:RwSL (ć)
+LOCATION:1a/ 28
+DESCRIPTION:Ryzyko w systemach logistycznych\nRodzaj: ćwiczenia\nProwadz
+ ący: dr inż. Lewiński Ryszard\nNr zajęć: 3/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:43577ba18370bf456cb7c44f@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261216T095000
+DTEND;TZID=Europe/Warsaw:20261216T112500
+SUMMARY:RwSL (ć)
+LOCATION:1a/ 28
+DESCRIPTION:Ryzyko w systemach logistycznych\nRodzaj: ćwiczenia\nProwadz
+ ący: dr inż. Lewiński Ryszard\nNr zajęć: 4/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ba43160d8d524c808aace204@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261216T114000
+DTEND;TZID=Europe/Warsaw:20261216T131500
+SUMMARY:WzzD (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Wybrane zagadnienia z dynamiki środków transportowych\nRodza
+ j: ćwiczenia\nProwadzący: mgr inż. Michałowski Bogusław\nNr zajęć:
+  3/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ba8b1ee3462b9975646f039d@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261216T133000
+DTEND;TZID=Europe/Warsaw:20261216T150500
+SUMMARY:LZr (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Logistyka zrównoważona\nRodzaj: ćwiczenia\nProwadzący: dr 
+ n. społ. inż. Krupnik Dorota\nNr zajęć: 5/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:06ccdab9c437516eb763d408@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261217T114000
+DTEND;TZID=Europe/Warsaw:20261217T131500
+SUMMARY:CoO (ć)
+LOCATION:2.22/ 135
+DESCRIPTION:Controlling Operacyjny\nRodzaj: ćwiczenia\nProwadzący: dr n.
+ ekon.\, inż. Kochański Tomasz\nNr zajęć: 6/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:21c1e35565e86b84b2c03e1b@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261217T133000
+DTEND;TZID=Europe/Warsaw:20261217T150500
+SUMMARY:Psp. (P)
+LOCATION:2.22/ 135
+DESCRIPTION:Projektowanie systemów i procesów logistycznych\nRodzaj: pro
+ jekt\nProwadzący: dr hab. inż. Bartosiewicz Sławomir\nNr zajęć: 1/5\
+ nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1cbeef74615e61fea96c2cc3@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261218T080000
+DTEND;TZID=Europe/Warsaw:20261218T093500
+SUMMARY:WzzD (ć)
+LOCATION:6/ 23A
+DESCRIPTION:Wybrane zagadnienia z dynamiki środków transportowych\nRodza
+ j: ćwiczenia\nProwadzący: mgr inż. Michałowski Bogusław\nNr zajęć:
+  4/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:bc7dbd25e2620248c1f1167e@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261218T095000
+DTEND;TZID=Europe/Warsaw:20261218T112500
+SUMMARY:WzzD (ć)
+LOCATION:6/ 23A
+DESCRIPTION:Wybrane zagadnienia z dynamiki środków transportowych\nRodza
+ j: ćwiczenia\nProwadzący: mgr inż. Michałowski Bogusław\nNr zajęć:
+  5/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:85b9412bcf4405e0d1166b0a@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261221T095000
+DTEND;TZID=Europe/Warsaw:20261221T112500
+SUMMARY:RwSL (ć)
+LOCATION:2.22/ 135
+DESCRIPTION:Ryzyko w systemach logistycznych\nRodzaj: ćwiczenia\nProwadz
+ ący: dr inż. Lewiński Ryszard\nNr zajęć: 5/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f5f11f484b4b8787027ba5a9@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261221T114000
+DTEND;TZID=Europe/Warsaw:20261221T131500
+SUMMARY:RwSL (ć)
+LOCATION:2.22/ 135
+DESCRIPTION:Ryzyko w systemach logistycznych\nRodzaj: ćwiczenia\nProwadz
+ ący: dr inż. Lewiński Ryszard\nNr zajęć: 6/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ea2722a5ac9daf878c8626f9@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261221T133000
+DTEND;TZID=Europe/Warsaw:20261221T150500
+SUMMARY:NSM (S)
+LOCATION:2.22/ 135
+DESCRIPTION:Nowoczesne systemy magazynowania\nRodzaj: seminarium\nProwadz
+ ący: dr inż. Głodowska Katarzyna\nNr zajęć: 3/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:82917c81302c74aa25723fdf@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261221T160000
+DTEND;TZID=Europe/Warsaw:20261221T173500
+SUMMARY:Osl (ć)
+LOCATION:1.27/ 135
+DESCRIPTION:Ocena systemów logistycznych\nRodzaj: ćwiczenia\nProwadzący
+ : płk dr inż. Zelkowski Jarosław\nNr zajęć: 5/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:4da9993088c6126db033f88d@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261221T175000
+DTEND;TZID=Europe/Warsaw:20261221T192500
+SUMMARY:WzzD (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Wybrane zagadnienia z dynamiki środków transportowych\nRodza
+ j: wykład\nProwadzący: dr hab. inż. (prof. ucz.) Luty Witold\nNr zaję
+ ć: 8/8\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:625cb3229fe75fc3c2875031@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261222T080000
+DTEND;TZID=Europe/Warsaw:20261222T093500
+SUMMARY:RwSL (w)
+LOCATION:1a/ 28
+DESCRIPTION:Ryzyko w systemach logistycznych\nRodzaj: wykład\nProwadzący
+ : dr inż. Lewiński Ryszard\nNr zajęć: 6/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:bc916fd75a3e724a42a40bad@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261222T095000
+DTEND;TZID=Europe/Warsaw:20261222T112500
+SUMMARY:RwSL (w)
+LOCATION:1.16/ 16
+DESCRIPTION:Ryzyko w systemach logistycznych\nRodzaj: wykład\nProwadzący
+ : dr inż. Lewiński Ryszard\nNr zajęć: 7/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9b73380bfaa9aba45e2533c1@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261222T114000
+DTEND;TZID=Europe/Warsaw:20261222T131500
+SUMMARY:Zp* (ć)
+LOCATION:1.27/ 135
+DESCRIPTION:Zamówienia publiczne\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Kalwasiński Marek\nNr zajęć: 9/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6ead387a62871cf53b44117a@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261222T133000
+DTEND;TZID=Europe/Warsaw:20261222T150500
+SUMMARY:IBwL (w)
+LOCATION:1.15/ 16
+DESCRIPTION:Inżynieria bezpieczeństwa w logistyce\nRodzaj: wykład\nProw
+ adzący: dr hab. inż.(prof. ucz.) Wysocki Józef\nNr zajęć: 4/4\nBlok:
+  4
+END:VEVENT
+BEGIN:VEVENT
+UID:e345e150b036d4cc9cce0e05@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261223T095000
+DTEND;TZID=Europe/Warsaw:20261223T112500
+SUMMARY:TT (S)
+LOCATION:4.23/ 135
+DESCRIPTION:Technologie transportowe\nRodzaj: seminarium\nProwadzący: dr 
+ inż. Głodowska Katarzyna\nNr zajęć: 1/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:68f39726763531fc8a1a3080@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261223T114000
+DTEND;TZID=Europe/Warsaw:20261223T131500
+SUMMARY:TT (S)
+LOCATION:4.23/ 135
+DESCRIPTION:Technologie transportowe\nRodzaj: seminarium\nProwadzący: dr 
+ inż. Głodowska Katarzyna\nNr zajęć: 2/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7020767b9cd96c659070240a@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261223T133000
+DTEND;TZID=Europe/Warsaw:20261223T150500
+SUMMARY:Psp. (P)
+LOCATION:2.22/ 135
+DESCRIPTION:Projektowanie systemów i procesów logistycznych\nRodzaj: pro
+ jekt\nProwadzący: dr hab. inż. Bartosiewicz Sławomir\nNr zajęć: 2/5\
+ nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:49ce100368a99cf009f81e20@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20261223T160000
+DTEND;TZID=Europe/Warsaw:20261223T173500
+SUMMARY:CoO (ć)
+LOCATION:1.15/ 16
+DESCRIPTION:Controlling Operacyjny\nRodzaj: ćwiczenia\nProwadzący: dr n.
+ ekon.\, inż. Kochański Tomasz\nNr zajęć: 7/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:a8176fb88748552b7c987b28@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270107T080000
+DTEND;TZID=Europe/Warsaw:20270107T093500
+SUMMARY:Psp. (P)
+LOCATION:1.15/ 16
+DESCRIPTION:Projektowanie systemów i procesów logistycznych\nRodzaj: pro
+ jekt\nProwadzący: dr hab. inż. Bartosiewicz Sławomir\nNr zajęć: 3/5\
+ nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:772d79c738ff2ca18ddab76c@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270107T095000
+DTEND;TZID=Europe/Warsaw:20270107T112500
+SUMMARY:RwSL (S)
+LOCATION:1.15/ 16
+DESCRIPTION:Ryzyko w systemach logistycznych\nRodzaj: seminarium\nProwadz
+ ący: dr inż. Lewiński Ryszard\nNr zajęć: 1/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:181a396688fe894054772fef@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270107T114000
+DTEND;TZID=Europe/Warsaw:20270107T131500
+SUMMARY:RwSL (S)
+LOCATION:1.15/ 16
+DESCRIPTION:Ryzyko w systemach logistycznych\nRodzaj: seminarium\nProwadz
+ ący: dr inż. Lewiński Ryszard\nNr zajęć: 2/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a6fc04dfa49db88997f33434@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270108T095000
+DTEND;TZID=Europe/Warsaw:20270108T112500
+SUMMARY:WzzD (L)
+LOCATION:14/ 23A
+DESCRIPTION:Wybrane zagadnienia z dynamiki środków transportowych\nRodza
+ j: laboratorium\nProwadzący: dr inż. Wiśniewski Andrzej\; mgr inż. Mi
+ chałowski Bogusław\nNr zajęć: 3/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:138b21f77b4c9faa36bba0da@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270111T133000
+DTEND;TZID=Europe/Warsaw:20270111T150500
+SUMMARY:PADL (ć)
+LOCATION:0.22/ 16
+DESCRIPTION:Praktyczne aspekty działalności logistycznej\nRodzaj: ćwicz
+ enia\nProwadzący: dr inż. Owczarek Paulina\nNr zajęć: 6/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1daf7a6fbbd642d1d15842fd@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270111T160000
+DTEND;TZID=Europe/Warsaw:20270111T173500
+SUMMARY:Osl (S)
+LOCATION:1.27/ 135
+DESCRIPTION:Ocena systemów logistycznych\nRodzaj: seminarium\nProwadzący
+ : płk dr inż. Zelkowski Jarosław\nNr zajęć: 1/2\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:ce0b7a718654d51e0cbe2407@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270111T175000
+DTEND;TZID=Europe/Warsaw:20270111T192500
+SUMMARY:Osl (S)
+LOCATION:1.27/ 135
+DESCRIPTION:Ocena systemów logistycznych\nRodzaj: seminarium\nProwadzący
+ : płk dr inż. Zelkowski Jarosław\nNr zajęć: 2/2\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:baf504113ac5430b846ea6d7@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270112T114000
+DTEND;TZID=Europe/Warsaw:20270112T131500
+SUMMARY:LZr (S)
+LOCATION:2.22/ 135
+DESCRIPTION:Logistyka zrównoważona\nRodzaj: seminarium\nProwadzący: dr 
+ n. społ. inż. Krupnik Dorota\nNr zajęć: 1/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:57c2b9e071f862a84ece34cb@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270112T133000
+DTEND;TZID=Europe/Warsaw:20270112T150500
+SUMMARY:LZr (S)
+LOCATION:2.22/ 135
+DESCRIPTION:Logistyka zrównoważona\nRodzaj: seminarium\nProwadzący: dr 
+ n. społ. inż. Krupnik Dorota\nNr zajęć: 2/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:36b2c40e3e93cfcb5fb0390f@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270114T114000
+DTEND;TZID=Europe/Warsaw:20270114T131500
+SUMMARY:Psp. (P)
+LOCATION:2.22/ 135
+DESCRIPTION:Projektowanie systemów i procesów logistycznych\nRodzaj: pro
+ jekt\nProwadzący: dr hab. inż. Bartosiewicz Sławomir\nNr zajęć: 4/5\
+ nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d23adced969bb848f5681a79@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270114T133000
+DTEND;TZID=Europe/Warsaw:20270114T150500
+SUMMARY:Psp. (P)
+LOCATION:2.22/ 135
+DESCRIPTION:Projektowanie systemów i procesów logistycznych\nRodzaj: pro
+ jekt\nProwadzący: dr hab. inż. Bartosiewicz Sławomir\nNr zajęć: 5/5\
+ nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:931ab76a77849a0b300bf79f@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270120T080000
+DTEND;TZID=Europe/Warsaw:20270120T093500
+SUMMARY:LZr (S)
+LOCATION:2.22/ 135
+DESCRIPTION:Logistyka zrównoważona\nRodzaj: seminarium\nProwadzący: dr 
+ n. społ. inż. Krupnik Dorota\nNr zajęć: 3/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:39614176c93b771a2125a467@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270202T095000
+DTEND;TZID=Europe/Warsaw:20270202T112500
+SUMMARY:RwSL (E)
+LOCATION:0.19/ 135
+DESCRIPTION:Ryzyko w systemach logistycznych\nRodzaj: egzamin\nProwadzący
+ : dr inż. Lewiński Ryszard\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6a49e739e632e55d88202a2d@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270204T160000
+DTEND;TZID=Europe/Warsaw:20270204T173500
+SUMMARY:Osl (E)
+LOCATION:5.17/ 135
+DESCRIPTION:Ocena systemów logistycznych\nRodzaj: egzamin\nProwadzący: p
+ łk dr inż. Zelkowski Jarosław\nNr zajęć: 1/1\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:bff1bc4c2b80627830b23820@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270208T080000
+DTEND;TZID=Europe/Warsaw:20270208T093500
+SUMMARY:PADL (E)
+LOCATION:1.10/ 16\;1.9/ 16
+DESCRIPTION:Praktyczne aspekty działalności logistycznej\nRodzaj: egzami
+ n\nProwadzący: dr inż. Owczarek Paulina\nNr zajęć: 1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c711df919527805eeb04fc2d@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270215T080000
+DTEND;TZID=Europe/Warsaw:20270215T093500
+SUMMARY:PADL (Ep)
+LOCATION:3.16/ 135
+DESCRIPTION:Praktyczne aspekty działalności logistycznej\nRodzaj: egzami
+ n poprawkowy\nProwadzący: dr inż. Owczarek Paulina\nNr zajęć: 1/1\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d849aad11bdd31777afc5d5e@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270216T095000
+DTEND;TZID=Europe/Warsaw:20270216T112500
+SUMMARY:RwSL (Ep)
+LOCATION:A.1.3/ 135
+DESCRIPTION:Ryzyko w systemach logistycznych\nRodzaj: egzamin poprawkowy\n
+ Prowadzący: dr inż. Lewiński Ryszard\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:dc9425aa13c08493c233df10@wat-plan
+DTSTAMP:20261119T155923Z
+DTSTART;TZID=Europe/Warsaw:20270218T175000
+DTEND;TZID=Europe/Warsaw:20270218T192500
+SUMMARY:Osl (Ep)
+LOCATION:3.16/ 135
+DESCRIPTION:Ocena systemów logistycznych\nRodzaj: egzamin poprawkowy\nPro
+ wadzący: płk dr inż. Zelkowski Jarosław\nNr zajęć: 1/1\nBlok: 6
+END:VEVENT
+END:VCALENDAR

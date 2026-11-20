@@ -1,0 +1,1022 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WME23TC1S1
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ffba0dd6348a25b8f906fefa@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261005T080000
+DTEND;TZID=Europe/Warsaw:20261005T093500
+SUMMARY:Zil. (w)
+LOCATION:2/ 23A
+DESCRIPTION:Zastosowanie informatyki w logistyce\nRodzaj: wykład\nProwadz
+ ący: dr inż. Waśniewski Tomasz\nNr zajęć: 1/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ab9f7d3cd247c0ec2f946736@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261005T095000
+DTEND;TZID=Europe/Warsaw:20261005T112500
+SUMMARY:Nzj* (w)
+LOCATION:3/ 23A
+DESCRIPTION:Normalizacja i zarządzanie jakością w logistyce\nRodzaj: wy
+ kład\nProwadzący: dr n.społ. inż. Rogowski Bogusław\nNr zajęć: 1/7
+ \nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:043ad25d5bce042d9816074e@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261005T114000
+DTEND;TZID=Europe/Warsaw:20261005T131500
+SUMMARY:PPwL (w)
+LOCATION:3/ 23A
+DESCRIPTION:Podstawy prawa w logistyce\nRodzaj: wykład\nProwadzący: dr n
+ .społ. inż. Rogowski Bogusław\nNr zajęć: 1/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d7fa9ae8733a8b47a416643d@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261006T095000
+DTEND;TZID=Europe/Warsaw:20261006T112500
+SUMMARY:Zil. (w)
+LOCATION:2/ 23A
+DESCRIPTION:Zastosowanie informatyki w logistyce\nRodzaj: wykład\nProwadz
+ ący: dr inż. Waśniewski Tomasz\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d5e4707063b6cf8d3dae1b10@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261006T114000
+DTEND;TZID=Europe/Warsaw:20261006T131500
+SUMMARY:Ek (w)
+LOCATION:2/ 23A
+DESCRIPTION:Ekonomia\nRodzaj: wykład\nProwadzący: dr Owczarczyk Anna\nNr
+  zajęć: 1/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:fbff91a53b931ebb8b7868b8@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261006T133000
+DTEND;TZID=Europe/Warsaw:20261006T150500
+SUMMARY:Ek (w)
+LOCATION:2/ 23A
+DESCRIPTION:Ekonomia\nRodzaj: wykład\nProwadzący: dr Owczarczyk Anna\nNr
+  zajęć: 2/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e2e6a2d132aba515704f8afa@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261007T095000
+DTEND;TZID=Europe/Warsaw:20261007T112500
+SUMMARY:Sd. (S)
+LOCATION:5/ 19
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr Woź
+ niak Jacek\, prof. WAT\nNr zajęć: 1/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:72721cf931666b1d4e249205@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261007T114000
+DTEND;TZID=Europe/Warsaw:20261007T131500
+SUMMARY:Ek (ć)
+LOCATION:42/ 20
+DESCRIPTION:Ekonomia\nRodzaj: ćwiczenia\nProwadzący: dr Owczarczyk Anna\
+ nNr zajęć: 1/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0b1e9d7a7d9505bcc8f76f52@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261008T095000
+DTEND;TZID=Europe/Warsaw:20261008T112500
+SUMMARY:Ek (w)
+LOCATION:3/ 23A
+DESCRIPTION:Ekonomia\nRodzaj: wykład\nProwadzący: dr Owczarczyk Anna\nNr
+  zajęć: 3/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:54708222c65b9194e6d30dec@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261008T114000
+DTEND;TZID=Europe/Warsaw:20261008T131500
+SUMMARY:Ek (w)
+LOCATION:3/ 23A
+DESCRIPTION:Ekonomia\nRodzaj: wykład\nProwadzący: dr Owczarczyk Anna\nNr
+  zajęć: 4/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0cbdba47d82c6cf498b7fb83@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261012T080000
+DTEND;TZID=Europe/Warsaw:20261012T093500
+SUMMARY:Zil. (w)
+LOCATION:2/ 23A
+DESCRIPTION:Zastosowanie informatyki w logistyce\nRodzaj: wykład\nProwadz
+ ący: dr inż. Waśniewski Tomasz\nNr zajęć: 3/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6f5f9465075e1742d2680123@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261012T095000
+DTEND;TZID=Europe/Warsaw:20261012T112500
+SUMMARY:Sd. (S)
+LOCATION:5/ 19
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr Woź
+ niak Jacek\, prof. WAT\nNr zajęć: 2/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0edda94ebba40eea473dcc58@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261013T095000
+DTEND;TZID=Europe/Warsaw:20261013T112500
+SUMMARY:Zil. (w)
+LOCATION:2/ 23A
+DESCRIPTION:Zastosowanie informatyki w logistyce\nRodzaj: wykład\nProwadz
+ ący: dr inż. Waśniewski Tomasz\nNr zajęć: 4/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a3c12c7ba923072d39c64cc5@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261013T114000
+DTEND;TZID=Europe/Warsaw:20261013T131500
+SUMMARY:Ek (w)
+LOCATION:3/ 23A
+DESCRIPTION:Ekonomia\nRodzaj: wykład\nProwadzący: dr Owczarczyk Anna\nNr
+  zajęć: 5/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d943c56686a91a38e62cba22@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261013T133000
+DTEND;TZID=Europe/Warsaw:20261013T150500
+SUMMARY:Ek (w)
+LOCATION:3/ 23A
+DESCRIPTION:Ekonomia\nRodzaj: wykład\nProwadzący: dr Owczarczyk Anna\nNr
+  zajęć: 6/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3584965ca94f9deb527c0777@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261014T080000
+DTEND;TZID=Europe/Warsaw:20261014T093500
+SUMMARY:Zil. (L)
+LOCATION:1/ 22
+DESCRIPTION:Zastosowanie informatyki w logistyce\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Waśniewski Tomasz\nNr zajęć: 1/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6b0888ac5c293294ed61001e@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261014T095000
+DTEND;TZID=Europe/Warsaw:20261014T112500
+SUMMARY:Zil. (L)
+LOCATION:1/ 22
+DESCRIPTION:Zastosowanie informatyki w logistyce\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Waśniewski Tomasz\nNr zajęć: 2/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:667df9c545da02b2d29b818f@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261014T114000
+DTEND;TZID=Europe/Warsaw:20261014T131500
+SUMMARY:Ek (ć)
+LOCATION:42/ 20
+DESCRIPTION:Ekonomia\nRodzaj: ćwiczenia\nProwadzący: dr Owczarczyk Anna\
+ nNr zajęć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:141b5f7d17639ec0e355557c@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261014T133000
+DTEND;TZID=Europe/Warsaw:20261014T150500
+SUMMARY:PPwL (w)
+LOCATION:3/ 23A
+DESCRIPTION:Podstawy prawa w logistyce\nRodzaj: wykład\nProwadzący: dr n
+ .społ. inż. Rogowski Bogusław\nNr zajęć: 2/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6019c56c7a264c4fcd681e33@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261018T095000
+DTEND;TZID=Europe/Warsaw:20261018T112500
+SUMMARY:XSp* (w)
+LOCATION:1/ 21
+DESCRIPTION:XSystemy produkcji\nRodzaj: wykład\nProwadzący: dr inż. Wo
+ źniak Adam\nNr zajęć: 1/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3b44fb19cda3a677bdbea014@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261018T114000
+DTEND;TZID=Europe/Warsaw:20261018T131500
+SUMMARY:XSp* (w)
+LOCATION:1/ 21
+DESCRIPTION:XSystemy produkcji\nRodzaj: wykład\nProwadzący: dr inż. Wo
+ źniak Adam\nNr zajęć: 2/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:621e561d32ec07549b31f184@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261019T080000
+DTEND;TZID=Europe/Warsaw:20261019T093500
+SUMMARY:Zil. (w)
+LOCATION:2/ 23A
+DESCRIPTION:Zastosowanie informatyki w logistyce\nRodzaj: wykład\nProwadz
+ ący: dr inż. Waśniewski Tomasz\nNr zajęć: 5/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3bd4c2a3e0f1f74d0c0dce9a@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261019T095000
+DTEND;TZID=Europe/Warsaw:20261019T112500
+SUMMARY:Nzj* (w)
+LOCATION:2/ 23A
+DESCRIPTION:Normalizacja i zarządzanie jakością w logistyce\nRodzaj: wy
+ kład\nProwadzący: dr n.społ. inż. Rogowski Bogusław\nNr zajęć: 2/7
+ \nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:806fd3b5463a1ca9d18316c8@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261021T095000
+DTEND;TZID=Europe/Warsaw:20261021T112500
+SUMMARY:Zil. (L)
+LOCATION:1/ 22
+DESCRIPTION:Zastosowanie informatyki w logistyce\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Waśniewski Tomasz\nNr zajęć: 3/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:fb5841f3e11da595050421e5@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261021T114000
+DTEND;TZID=Europe/Warsaw:20261021T131500
+SUMMARY:Zil. (L)
+LOCATION:1/ 22
+DESCRIPTION:Zastosowanie informatyki w logistyce\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Waśniewski Tomasz\nNr zajęć: 4/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0f58588a4a73afb8f7b1449b@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261022T080000
+DTEND;TZID=Europe/Warsaw:20261022T093500
+SUMMARY:Nzj* (ć)
+LOCATION:5/ 20
+DESCRIPTION:Normalizacja i zarządzanie jakością w logistyce\nRodzaj: ć
+ wiczenia\nProwadzący: dr n.społ. inż. Rogowski Bogusław\nNr zajęć: 
+ 1/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:154ae7a82c1055fe4316bf78@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261022T114000
+DTEND;TZID=Europe/Warsaw:20261022T131500
+SUMMARY:PPwL (w)
+LOCATION:3/ 23A
+DESCRIPTION:Podstawy prawa w logistyce\nRodzaj: wykład\nProwadzący: dr n
+ .społ. inż. Rogowski Bogusław\nNr zajęć: 3/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b4f78822daab35cbcf5a57d7@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261022T133000
+DTEND;TZID=Europe/Warsaw:20261022T150500
+SUMMARY:PPwL (ć)
+LOCATION:3/ 23A
+DESCRIPTION:Podstawy prawa w logistyce\nRodzaj: ćwiczenia\nProwadzący: d
+ r n.społ. inż. Rogowski Bogusław\nNr zajęć: 1/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6a0040b0ef4dc5aaa3348d93@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261024T133000
+DTEND;TZID=Europe/Warsaw:20261024T150500
+SUMMARY:XPeUT (w)
+LOCATION:42/ 20
+DESCRIPTION:XPodstawy eksploatacji urządzeń technicznych\nRodzaj: wykła
+ d\nProwadzący: dr hab. inż.(prof. ucz.) Pszczółkowski Józef\nNr zaj
+ ęć: 1/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c1a05808a7e60022feab6b05@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261024T152000
+DTEND;TZID=Europe/Warsaw:20261024T165500
+SUMMARY:XPeUT (w)
+LOCATION:42/ 20
+DESCRIPTION:XPodstawy eksploatacji urządzeń technicznych\nRodzaj: wykła
+ d\nProwadzący: dr hab. inż.(prof. ucz.) Pszczółkowski Józef\nNr zaj
+ ęć: 2/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:8c9c899022958159ba5c4a93@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261025T080000
+DTEND;TZID=Europe/Warsaw:20261025T093500
+SUMMARY:XPeUT (w)
+LOCATION:42/ 20
+DESCRIPTION:XPodstawy eksploatacji urządzeń technicznych\nRodzaj: wykła
+ d\nProwadzący: dr hab. inż.(prof. ucz.) Pszczółkowski Józef\nNr zaj
+ ęć: 3/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a9b21e7fd082c841e435bbb5@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261025T095000
+DTEND;TZID=Europe/Warsaw:20261025T112500
+SUMMARY:XPeUT (w)
+LOCATION:42/ 20
+DESCRIPTION:XPodstawy eksploatacji urządzeń technicznych\nRodzaj: wykła
+ d\nProwadzący: dr hab. inż.(prof. ucz.) Pszczółkowski Józef\nNr zaj
+ ęć: 4/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:175ef59dd0a4f66f48e9e63c@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261025T133000
+DTEND;TZID=Europe/Warsaw:20261025T150500
+SUMMARY:XSp* (w)
+LOCATION:1/ 21
+DESCRIPTION:XSystemy produkcji\nRodzaj: wykład\nProwadzący: dr inż. Wo
+ źniak Adam\nNr zajęć: 3/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:af280fab100269e3d0cabd93@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261025T152000
+DTEND;TZID=Europe/Warsaw:20261025T165500
+SUMMARY:XSp* (w)
+LOCATION:1/ 21
+DESCRIPTION:XSystemy produkcji\nRodzaj: wykład\nProwadzący: dr inż. Wo
+ źniak Adam\nNr zajęć: 4/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:b5c9dd099d80c4b42fe5eaa1@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261026T080000
+DTEND;TZID=Europe/Warsaw:20261026T093500
+SUMMARY:Zil. (L)
+LOCATION:1/ 22
+DESCRIPTION:Zastosowanie informatyki w logistyce\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Waśniewski Tomasz\nNr zajęć: 5/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:56cc8eb7a90661c24639d653@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261026T095000
+DTEND;TZID=Europe/Warsaw:20261026T112500
+SUMMARY:Zil. (L)
+LOCATION:1/ 22
+DESCRIPTION:Zastosowanie informatyki w logistyce\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Waśniewski Tomasz\nNr zajęć: 6/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:47ef17c8b8019b03f26c6162@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261026T114000
+DTEND;TZID=Europe/Warsaw:20261026T131500
+SUMMARY:Nzj* (w)
+LOCATION:2/ 23A
+DESCRIPTION:Normalizacja i zarządzanie jakością w logistyce\nRodzaj: wy
+ kład\nProwadzący: dr n.społ. inż. Rogowski Bogusław\nNr zajęć: 3/7
+ \nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ad1779e5444038373262c946@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261026T133000
+DTEND;TZID=Europe/Warsaw:20261026T150500
+SUMMARY:PPwL (w)
+LOCATION:2/ 23A
+DESCRIPTION:Podstawy prawa w logistyce\nRodzaj: wykład\nProwadzący: dr n
+ .społ. inż. Rogowski Bogusław\nNr zajęć: 4/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9fc6dd560507d1015793f657@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261027T080000
+DTEND;TZID=Europe/Warsaw:20261027T093500
+SUMMARY:Sd. (S)
+LOCATION:6/ 23A
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr Woź
+ niak Jacek\, prof. WAT\nNr zajęć: 3/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:97b55d4e5548247d3874273d@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261027T095000
+DTEND;TZID=Europe/Warsaw:20261027T112500
+SUMMARY:Sd. (S)
+LOCATION:6/ 23A
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr Woź
+ niak Jacek\, prof. WAT\nNr zajęć: 4/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9fef9eef94e0fe23f196fd48@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261027T114000
+DTEND;TZID=Europe/Warsaw:20261027T131500
+SUMMARY:Ek (w)
+LOCATION:3/ 23A
+DESCRIPTION:Ekonomia\nRodzaj: wykład\nProwadzący: dr Owczarczyk Anna\nNr
+  zajęć: 7/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:64cefdbc936304a1dfc38209@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261027T133000
+DTEND;TZID=Europe/Warsaw:20261027T150500
+SUMMARY:Ek (w)
+LOCATION:3/ 23A
+DESCRIPTION:Ekonomia\nRodzaj: wykład\nProwadzący: dr Owczarczyk Anna\nNr
+  zajęć: 8/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d6360a6f98b161764a671813@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261028T114000
+DTEND;TZID=Europe/Warsaw:20261028T131500
+SUMMARY:Ek (ć)
+LOCATION:42/ 20
+DESCRIPTION:Ekonomia\nRodzaj: ćwiczenia\nProwadzący: dr Owczarczyk Anna\
+ nNr zajęć: 3/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ba888542bb038feb6985e71f@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261029T080000
+DTEND;TZID=Europe/Warsaw:20261029T093500
+SUMMARY:Nzj* (ć)
+LOCATION:5/ 20
+DESCRIPTION:Normalizacja i zarządzanie jakością w logistyce\nRodzaj: ć
+ wiczenia\nProwadzący: dr n.społ. inż. Rogowski Bogusław\nNr zajęć: 
+ 2/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:092573e55f3b06891cbecd1d@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261029T095000
+DTEND;TZID=Europe/Warsaw:20261029T112500
+SUMMARY:PPwL (ć)
+LOCATION:3/ 23A
+DESCRIPTION:Podstawy prawa w logistyce\nRodzaj: ćwiczenia\nProwadzący: d
+ r n.społ. inż. Rogowski Bogusław\nNr zajęć: 2/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1a2fed75562cafc3440ef17f@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261102T080000
+DTEND;TZID=Europe/Warsaw:20261102T093500
+SUMMARY:Zil. (L)
+LOCATION:1/ 22
+DESCRIPTION:Zastosowanie informatyki w logistyce\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Waśniewski Tomasz\nNr zajęć: 7/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:fb3b8b1e5fb6902ac77022ac@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261102T095000
+DTEND;TZID=Europe/Warsaw:20261102T112500
+SUMMARY:Zil. (L)
+LOCATION:1/ 22
+DESCRIPTION:Zastosowanie informatyki w logistyce\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Waśniewski Tomasz\nNr zajęć: 8/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6d38967888266893bc3f218a@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261103T095000
+DTEND;TZID=Europe/Warsaw:20261103T112500
+SUMMARY:Sd. (S)
+LOCATION:A.1.3/ 135
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr Woź
+ niak Jacek\, prof. WAT\nNr zajęć: 5/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:467cc12e0d835fba9e2cd3f0@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261103T114000
+DTEND;TZID=Europe/Warsaw:20261103T131500
+SUMMARY:Sd. (S)
+LOCATION:1/ 21
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr Woź
+ niak Jacek\, prof. WAT\nNr zajęć: 6/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:68f4b626795b059528d79c26@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261103T133000
+DTEND;TZID=Europe/Warsaw:20261103T150500
+SUMMARY:Zil. (L)
+LOCATION:1/ 22
+DESCRIPTION:Zastosowanie informatyki w logistyce\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Waśniewski Tomasz\nNr zajęć: 9/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:568afe9d08a0ff3f1486dcd6@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261103T160000
+DTEND;TZID=Europe/Warsaw:20261103T173500
+SUMMARY:Zil. (L)
+LOCATION:1/ 22
+DESCRIPTION:Zastosowanie informatyki w logistyce\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Waśniewski Tomasz\nNr zajęć: 10/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:21dfd4344efbdc621376365c@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261104T080000
+DTEND;TZID=Europe/Warsaw:20261104T093500
+SUMMARY:Nzj* (w)
+LOCATION:2/ 23A
+DESCRIPTION:Normalizacja i zarządzanie jakością w logistyce\nRodzaj: wy
+ kład\nProwadzący: dr n.społ. inż. Rogowski Bogusław\nNr zajęć: 4/7
+ \nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f8b287759eefc522a10ce019@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261105T095000
+DTEND;TZID=Europe/Warsaw:20261105T112500
+SUMMARY:PPwL (w)
+LOCATION:3/ 23A
+DESCRIPTION:Podstawy prawa w logistyce\nRodzaj: wykład\nProwadzący: dr n
+ .społ. inż. Rogowski Bogusław\nNr zajęć: 5/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e7c807ba6f6e0a220fefb6fd@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261105T114000
+DTEND;TZID=Europe/Warsaw:20261105T131500
+SUMMARY:PPwL (ć)
+LOCATION:3/ 23A
+DESCRIPTION:Podstawy prawa w logistyce\nRodzaj: ćwiczenia\nProwadzący: d
+ r n.społ. inż. Rogowski Bogusław\nNr zajęć: 3/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:60c129f498bcb6f6289ec6c5@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261109T114000
+DTEND;TZID=Europe/Warsaw:20261109T131500
+SUMMARY:Nzj* (w)
+LOCATION:2/ 23A
+DESCRIPTION:Normalizacja i zarządzanie jakością w logistyce\nRodzaj: wy
+ kład\nProwadzący: dr n.społ. inż. Rogowski Bogusław\nNr zajęć: 5/7
+ \nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6962fa25e64c870353084324@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261109T133000
+DTEND;TZID=Europe/Warsaw:20261109T150500
+SUMMARY:PPwL (w)
+LOCATION:2/ 23A
+DESCRIPTION:Podstawy prawa w logistyce\nRodzaj: wykład\nProwadzący: dr n
+ .społ. inż. Rogowski Bogusław\nNr zajęć: 6/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:654944a7b15bb1154ae992c1@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261115T095000
+DTEND;TZID=Europe/Warsaw:20261115T112500
+SUMMARY:XSp* (w)
+LOCATION:42/ 20
+DESCRIPTION:XSystemy produkcji\nRodzaj: wykład\nProwadzący: dr inż. Wo
+ źniak Adam\nNr zajęć: 5/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f6c36c365f09339be7e5571e@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261115T114000
+DTEND;TZID=Europe/Warsaw:20261115T131500
+SUMMARY:XSp* (w)
+LOCATION:42/ 20
+DESCRIPTION:XSystemy produkcji\nRodzaj: wykład\nProwadzący: dr inż. Wo
+ źniak Adam\nNr zajęć: 6/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ed3dc2b6ba1aee4371d20b7c@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261115T133000
+DTEND;TZID=Europe/Warsaw:20261115T150500
+SUMMARY:XPeUT (ć)
+LOCATION:42/ 20
+DESCRIPTION:XPodstawy eksploatacji urządzeń technicznych\nRodzaj: ćwicz
+ enia\nProwadzący: dr hab. inż.(prof. ucz.) Pszczółkowski Józef\nNr z
+ ajęć: 1/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c2788b014368ba961dad2709@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261116T114000
+DTEND;TZID=Europe/Warsaw:20261116T131500
+SUMMARY:Nzj* (w)
+LOCATION:2/ 23A
+DESCRIPTION:Normalizacja i zarządzanie jakością w logistyce\nRodzaj: wy
+ kład\nProwadzący: dr n.społ. inż. Rogowski Bogusław\nNr zajęć: 6/7
+ \nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d7495f7b3fc002b27a65d24d@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261116T133000
+DTEND;TZID=Europe/Warsaw:20261116T150500
+SUMMARY:PPwL (ć)
+LOCATION:2/ 23A
+DESCRIPTION:Podstawy prawa w logistyce\nRodzaj: ćwiczenia\nProwadzący: d
+ r n.społ. inż. Rogowski Bogusław\nNr zajęć: 4/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:44b18603cdfb9635ce950794@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261117T114000
+DTEND;TZID=Europe/Warsaw:20261117T131500
+SUMMARY:Ek (w)
+LOCATION:3/ 23A
+DESCRIPTION:Ekonomia\nRodzaj: wykład\nProwadzący: dr Owczarczyk Anna\nNr
+  zajęć: 9/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:bf3f6c9ec42982c57ed271fd@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261117T133000
+DTEND;TZID=Europe/Warsaw:20261117T150500
+SUMMARY:Nzj* (ć)
+LOCATION:5/ 20
+DESCRIPTION:Normalizacja i zarządzanie jakością w logistyce\nRodzaj: ć
+ wiczenia\nProwadzący: dr n.społ. inż. Rogowski Bogusław\nNr zajęć: 
+ 3/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9b2f3d209c741cb1f6b18cc7@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261121T080000
+DTEND;TZID=Europe/Warsaw:20261121T093500
+SUMMARY:XPeUT (w)
+LOCATION:42/ 20
+DESCRIPTION:XPodstawy eksploatacji urządzeń technicznych\nRodzaj: wykła
+ d\nProwadzący: dr hab. inż.(prof. ucz.) Pszczółkowski Józef\nNr zaj
+ ęć: 5/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:baaed71567f285b113250081@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261121T095000
+DTEND;TZID=Europe/Warsaw:20261121T112500
+SUMMARY:XPeUT (w)
+LOCATION:42/ 20
+DESCRIPTION:XPodstawy eksploatacji urządzeń technicznych\nRodzaj: wykła
+ d\nProwadzący: dr hab. inż.(prof. ucz.) Pszczółkowski Józef\nNr zaj
+ ęć: 6/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b443d7e2f3a62e811b47b5ec@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261122T095000
+DTEND;TZID=Europe/Warsaw:20261122T112500
+SUMMARY:XPeUT (ć)
+LOCATION:42/ 20
+DESCRIPTION:XPodstawy eksploatacji urządzeń technicznych\nRodzaj: ćwicz
+ enia\nProwadzący: dr hab. inż.(prof. ucz.) Pszczółkowski Józef\nNr z
+ ajęć: 2/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5f982ebf4f4d86f46eadf92a@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261122T114000
+DTEND;TZID=Europe/Warsaw:20261122T131500
+SUMMARY:XSp* (w)
+LOCATION:1/ 21
+DESCRIPTION:XSystemy produkcji\nRodzaj: wykład\nProwadzący: dr inż. Wo
+ źniak Adam\nNr zajęć: 7/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c82b026acd86dd5b74f7d35e@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261122T133000
+DTEND;TZID=Europe/Warsaw:20261122T150500
+SUMMARY:XSp* (w)
+LOCATION:1/ 21
+DESCRIPTION:XSystemy produkcji\nRodzaj: wykład\nProwadzący: dr inż. Wo
+ źniak Adam\nNr zajęć: 8/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a10123cce84eb345a28e5acf@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261123T114000
+DTEND;TZID=Europe/Warsaw:20261123T131500
+SUMMARY:Nzj* (w)
+LOCATION:2/ 23A
+DESCRIPTION:Normalizacja i zarządzanie jakością w logistyce\nRodzaj: wy
+ kład\nProwadzący: dr n.społ. inż. Rogowski Bogusław\nNr zajęć: 7/7
+ \nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:eaeb574e8dc265c7c7bd7a1b@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261123T133000
+DTEND;TZID=Europe/Warsaw:20261123T150500
+SUMMARY:PPwL (w)
+LOCATION:2/ 23A
+DESCRIPTION:Podstawy prawa w logistyce\nRodzaj: wykład\nProwadzący: dr n
+ .społ. inż. Rogowski Bogusław\nNr zajęć: 7/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:728da3828e42f8aea47a1264@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261125T114000
+DTEND;TZID=Europe/Warsaw:20261125T131500
+SUMMARY:Ek (ć)
+LOCATION:42/ 20
+DESCRIPTION:Ekonomia\nRodzaj: ćwiczenia\nProwadzący: dr Owczarczyk Anna\
+ nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:935866d98d7fcab521e18495@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261125T133000
+DTEND;TZID=Europe/Warsaw:20261125T150500
+SUMMARY:Ek (ć)
+LOCATION:42/ 20
+DESCRIPTION:Ekonomia\nRodzaj: ćwiczenia\nProwadzący: dr Owczarczyk Anna\
+ nNr zajęć: 5/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9d27124b13b9beedf374f3c7@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261126T080000
+DTEND;TZID=Europe/Warsaw:20261126T093500
+SUMMARY:Nzj* (ć)
+LOCATION:5/ 20
+DESCRIPTION:Normalizacja i zarządzanie jakością w logistyce\nRodzaj: ć
+ wiczenia\nProwadzący: dr n.społ. inż. Rogowski Bogusław\nNr zajęć: 
+ 4/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7bb02f37cae59b2e96cbf093@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261126T095000
+DTEND;TZID=Europe/Warsaw:20261126T112500
+SUMMARY:Sd. (S)
+LOCATION:42/ 20
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr Woź
+ niak Jacek\, prof. WAT\nNr zajęć: 7/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6f58fe672540c2049b31ad39@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261126T114000
+DTEND;TZID=Europe/Warsaw:20261126T131500
+SUMMARY:PPwL (ć)
+LOCATION:42/ 20
+DESCRIPTION:Podstawy prawa w logistyce\nRodzaj: ćwiczenia\nProwadzący: d
+ r n.społ. inż. Rogowski Bogusław\nNr zajęć: 5/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7fd0873ce8ae6cd3637c33e5@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261201T080000
+DTEND;TZID=Europe/Warsaw:20261201T093500
+SUMMARY:Sd. (S)
+LOCATION:2/ 23A
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr Woź
+ niak Jacek\, prof. WAT\nNr zajęć: 8/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d4a36a74ef414645642f245f@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261201T095000
+DTEND;TZID=Europe/Warsaw:20261201T112500
+SUMMARY:Sd. (S)
+LOCATION:2/ 23A
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr Woź
+ niak Jacek\, prof. WAT\nNr zajęć: 9/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d7a18582f583164935ef5c4b@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261201T114000
+DTEND;TZID=Europe/Warsaw:20261201T131500
+SUMMARY:Sd. (S)
+LOCATION:5/ 23A
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr Woź
+ niak Jacek\, prof. WAT\nNr zajęć: 10/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:86cac5d76b1285ad4f7610e3@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261201T133000
+DTEND;TZID=Europe/Warsaw:20261201T150500
+SUMMARY:PPwL (ć)
+LOCATION:5/ 19
+DESCRIPTION:Podstawy prawa w logistyce\nRodzaj: ćwiczenia\nProwadzący: d
+ r n.społ. inż. Rogowski Bogusław\nNr zajęć: 6/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ac2fdc6ff0e5fdca47e4bfa8@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261202T095000
+DTEND;TZID=Europe/Warsaw:20261202T112500
+SUMMARY:Nzj* (ć)
+LOCATION:5/ 19
+DESCRIPTION:Normalizacja i zarządzanie jakością w logistyce\nRodzaj: ć
+ wiczenia\nProwadzący: dr n.społ. inż. Rogowski Bogusław\nNr zajęć: 
+ 5/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2c75e26a8801db1e6ef882ab@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261206T080000
+DTEND;TZID=Europe/Warsaw:20261206T093500
+SUMMARY:XPeUT (ć)
+LOCATION:42/ 20
+DESCRIPTION:XPodstawy eksploatacji urządzeń technicznych\nRodzaj: ćwicz
+ enia\nProwadzący: dr hab. inż.(prof. ucz.) Pszczółkowski Józef\nNr z
+ ajęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:dc6d22692c36cac113c6cb89@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261208T114000
+DTEND;TZID=Europe/Warsaw:20261208T131500
+SUMMARY:Ek (w)
+LOCATION:11/ 34
+DESCRIPTION:Ekonomia\nRodzaj: wykład\nProwadzący: dr Owczarczyk Anna\nNr
+  zajęć: 10/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4afc72098e95dc9f03f3a6d8@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261209T095000
+DTEND;TZID=Europe/Warsaw:20261209T112500
+SUMMARY:Nzj* (ć)
+LOCATION:5/ 19
+DESCRIPTION:Normalizacja i zarządzanie jakością w logistyce\nRodzaj: ć
+ wiczenia\nProwadzący: dr n.społ. inż. Rogowski Bogusław\nNr zajęć: 
+ 6/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c3d99532e531495f3bd619c4@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261209T133000
+DTEND;TZID=Europe/Warsaw:20261209T150500
+SUMMARY:PPwL (S)
+LOCATION:5/ 19
+DESCRIPTION:Podstawy prawa w logistyce\nRodzaj: seminarium\nProwadzący: d
+ r n.społ. inż. Rogowski Bogusław\nNr zajęć: 1/2\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c4c5bd7554c5910cd8ec71d4@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261209T160000
+DTEND;TZID=Europe/Warsaw:20261209T173500
+SUMMARY:PPwL (S)
+LOCATION:5/ 19
+DESCRIPTION:Podstawy prawa w logistyce\nRodzaj: seminarium\nProwadzący: d
+ r n.społ. inż. Rogowski Bogusław\nNr zajęć: 2/2\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:eb6d02a4fcaa14b5af00a5bd@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261213T095000
+DTEND;TZID=Europe/Warsaw:20261213T112500
+SUMMARY:XSp* (w)
+LOCATION:42/ 20
+DESCRIPTION:XSystemy produkcji\nRodzaj: wykład\nProwadzący: dr inż. Wo
+ źniak Adam\nNr zajęć: 9/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c2b0868337875443c41cd71b@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261213T114000
+DTEND;TZID=Europe/Warsaw:20261213T131500
+SUMMARY:XSp* (w)
+LOCATION:42/ 20
+DESCRIPTION:XSystemy produkcji\nRodzaj: wykład\nProwadzący: dr inż. Wo
+ źniak Adam\nNr zajęć: 10/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:72b93beeb7c96b85eaa76a49@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261215T095000
+DTEND;TZID=Europe/Warsaw:20261215T112500
+SUMMARY:Zil. (Zp/lab.)
+LOCATION:1/ 22
+DESCRIPTION:Zastosowanie informatyki w logistyce\nProwadzący: dr inż. Wa
+ śniewski Tomasz\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3d3c051c1291c070839880e9@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261215T114000
+DTEND;TZID=Europe/Warsaw:20261215T131500
+SUMMARY:Ek (Zp. Ćw)
+LOCATION:5/ 19
+DESCRIPTION:Ekonomia\nProwadzący: dr Owczarczyk Anna\nNr zajęć: 1/1\nBl
+ ok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3b596eb40cc6114bcd1afd87@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261215T133000
+DTEND;TZID=Europe/Warsaw:20261215T150500
+SUMMARY:Sd. (Zp.S)
+LOCATION:51/ 62
+DESCRIPTION:Seminarium dyplomowe\nProwadzący: dr Woźniak Jacek\, prof. W
+ AT\nNr zajęć: 1/1\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c1fd6bf9b4c6c9ad9c3f4f8c@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261216T114000
+DTEND;TZID=Europe/Warsaw:20261216T131500
+SUMMARY:Zil. (E)
+LOCATION:1/ 21
+DESCRIPTION:Zastosowanie informatyki w logistyce\nRodzaj: egzamin\nProwadz
+ ący: dr inż. Waśniewski Tomasz\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:804b96cb47e323c251bee3f8@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261219T095000
+DTEND;TZID=Europe/Warsaw:20261219T112500
+SUMMARY:XPeUT (ć)
+LOCATION:42/ 20
+DESCRIPTION:XPodstawy eksploatacji urządzeń technicznych\nRodzaj: ćwicz
+ enia\nProwadzący: dr hab. inż.(prof. ucz.) Pszczółkowski Józef\nNr z
+ ajęć: 4/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:654174053ac58fd4c8aeafe9@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261219T114000
+DTEND;TZID=Europe/Warsaw:20261219T131500
+SUMMARY:XPeUT (w)
+LOCATION:42/ 20
+DESCRIPTION:XPodstawy eksploatacji urządzeń technicznych\nRodzaj: wykła
+ d\nProwadzący: dr hab. inż.(prof. ucz.) Pszczółkowski Józef\nNr zaj
+ ęć: 7/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:30c1ff660ae8e5f076af50eb@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270112T114000
+DTEND;TZID=Europe/Warsaw:20270112T131500
+SUMMARY:Nzj* (Zp.)
+LOCATION:3/ 23A
+DESCRIPTION:Normalizacja i zarządzanie jakością w logistyce\nRodzaj: za
+ liczenie poprawkowe\nProwadzący: dr n.społ. inż. Rogowski Bogusław\nN
+ r zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d21a34a431b94ffc2a2e146e@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270112T133000
+DTEND;TZID=Europe/Warsaw:20270112T150500
+SUMMARY:Ek (Zp.)
+LOCATION:3/ 23A
+DESCRIPTION:Ekonomia\nRodzaj: zaliczenie poprawkowe\nProwadzący: dr Owcza
+ rczyk Anna\nNr zajęć: 1/1\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a6045acc1edf6a76838dede2@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270113T080000
+DTEND;TZID=Europe/Warsaw:20270113T093500
+SUMMARY:PPwL (Zp.)
+LOCATION:5/ 19
+DESCRIPTION:Podstawy prawa w logistyce\nRodzaj: zaliczenie poprawkowe\nPro
+ wadzący: dr n.społ. inż. Rogowski Bogusław\nNr zajęć: 1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:655427ca97775a2b95f9192e@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270113T114000
+DTEND;TZID=Europe/Warsaw:20270113T131500
+SUMMARY:Zil. (Ep)
+LOCATION:1/ 21
+DESCRIPTION:Zastosowanie informatyki w logistyce\nRodzaj: egzamin poprawko
+ wy\nProwadzący: dr inż. Waśniewski Tomasz\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,887 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WMT23LP1S1
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ee2f03bc8acff843918b226b@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261005T114000
+DTEND;TZID=Europe/Warsaw:20261005T131500
+SUMMARY:Tpł (ć)
+LOCATION:4 H7
+DESCRIPTION:Technologia produkcji płatowców\nRodzaj: ćwiczenia\nProwadz
+ ący: ppłk dr inż. Leszczyński Piotr\nNr zajęć: 1/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6e9bd0b160b760822272577e@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261007T114000
+DTEND;TZID=Europe/Warsaw:20261007T131500
+SUMMARY:Esp (w)
+LOCATION:4 H7
+DESCRIPTION:Eksploatacja statków powiet.\nRodzaj: wykład\nProwadzący: d
+ r inż. Tkaczuk Sławomir\nNr zajęć: 1/22\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d37e91911abf1a07db1e6d64@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261007T133000
+DTEND;TZID=Europe/Warsaw:20261007T150500
+SUMMARY:Esp (w)
+LOCATION:4 H7
+DESCRIPTION:Eksploatacja statków powiet.\nRodzaj: wykład\nProwadzący: d
+ r inż. Tkaczuk Sławomir\nNr zajęć: 2/22\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:cde61abd62e3985e945d8377@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261008T080000
+DTEND;TZID=Europe/Warsaw:20261008T093500
+SUMMARY:Ksp (w)
+LOCATION:33 67
+DESCRIPTION:Konstrukcja statków powietrznych\nRodzaj: wykład\nProwadząc
+ y: ppłk dr inż. Kiszkowiak Łukasz\nNr zajęć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1f3751730d4a17597bf9e62a@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261012T095000
+DTEND;TZID=Europe/Warsaw:20261012T112500
+SUMMARY:Ksp (w)
+LOCATION:9 67
+DESCRIPTION:Konstrukcja statków powietrznych\nRodzaj: wykład\nProwadząc
+ y: ppłk dr inż. Kiszkowiak Łukasz\nNr zajęć: 2/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:326b4a4764db1ce2958d3cf5@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261012T114000
+DTEND;TZID=Europe/Warsaw:20261012T131500
+SUMMARY:Tpł (ć)
+LOCATION:4 H7
+DESCRIPTION:Technologia produkcji płatowców\nRodzaj: ćwiczenia\nProwadz
+ ący: ppłk dr inż. Leszczyński Piotr\nNr zajęć: 2/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:42e40003233ab02aec3d89ca@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261014T080000
+DTEND;TZID=Europe/Warsaw:20261014T093500
+SUMMARY:Ksp (w)
+LOCATION:33 67
+DESCRIPTION:Konstrukcja statków powietrznych\nRodzaj: wykład\nProwadząc
+ y: ppłk dr inż. Kiszkowiak Łukasz\nNr zajęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8566768c0b2bea2ecd080987@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261014T114000
+DTEND;TZID=Europe/Warsaw:20261014T131500
+SUMMARY:Esp (w)
+LOCATION:4 H7
+DESCRIPTION:Eksploatacja statków powiet.\nRodzaj: wykład\nProwadzący: d
+ r inż. Tkaczuk Sławomir\nNr zajęć: 3/22\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:64eb391eb319b0e97036dac0@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261014T133000
+DTEND;TZID=Europe/Warsaw:20261014T150500
+SUMMARY:Esp (w)
+LOCATION:4 H7
+DESCRIPTION:Eksploatacja statków powiet.\nRodzaj: wykład\nProwadzący: d
+ r inż. Tkaczuk Sławomir\nNr zajęć: 4/22\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:479d1d99bd7cf84bce5b80d6@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261015T114000
+DTEND;TZID=Europe/Warsaw:20261015T131500
+SUMMARY:Mlot (w)
+LOCATION:S2 72
+DESCRIPTION:Mechanika lotu\nRodzaj: wykład\nProwadzący: prof. dr hab. in
+ ż. Sibilski Krzysztof\nNr zajęć: 1/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e69066894824ab65e6df4d08@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261019T080000
+DTEND;TZID=Europe/Warsaw:20261019T093500
+SUMMARY:Sd. (S)
+LOCATION:3 67
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Grzejszczak Pączek Olga\nNr zajęć: 1/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e49f1dbabb111d879876245d@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261019T095000
+DTEND;TZID=Europe/Warsaw:20261019T112500
+SUMMARY:Ksp (L)
+LOCATION:34 67
+DESCRIPTION:Konstrukcja statków powietrznych\nRodzaj: laboratorium\nProwa
+ dzący: mgr inż. Syta Borys\nNr zajęć: 1/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:93cfbb4d15bbf37953cfc876@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261019T133000
+DTEND;TZID=Europe/Warsaw:20261019T150500
+SUMMARY:Ksp (L)
+LOCATION:18 67
+DESCRIPTION:Konstrukcja statków powietrznych\nRodzaj: laboratorium\nProwa
+ dzący: mgr inż. Syta Borys\nNr zajęć: 2/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3a6ccf26853acd5a17961045@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261019T160000
+DTEND;TZID=Europe/Warsaw:20261019T173500
+SUMMARY:Tpł (ć)
+LOCATION:4 H7
+DESCRIPTION:Technologia produkcji płatowców\nRodzaj: ćwiczenia\nProwadz
+ ący: ppłk dr inż. Leszczyński Piotr\nNr zajęć: 3/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:cf69634ed0f68fcc2395a847@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261021T080000
+DTEND;TZID=Europe/Warsaw:20261021T093500
+SUMMARY:Tpł (L)
+LOCATION:4 H7
+DESCRIPTION:Technologia produkcji płatowców\nRodzaj: laboratorium\nProwa
+ dzący: ppłk dr inż. Leszczyński Piotr\nNr zajęć: 1/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3651537d769c260de5c3dc76@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261021T095000
+DTEND;TZID=Europe/Warsaw:20261021T112500
+SUMMARY:Tpł (L)
+LOCATION:4 H7
+DESCRIPTION:Technologia produkcji płatowców\nRodzaj: laboratorium\nProwa
+ dzący: ppłk dr inż. Leszczyński Piotr\nNr zajęć: 2/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7203f4da5c69416684b4a601@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261021T114000
+DTEND;TZID=Europe/Warsaw:20261021T131500
+SUMMARY:Esp (w)
+LOCATION:4 H7
+DESCRIPTION:Eksploatacja statków powiet.\nRodzaj: wykład\nProwadzący: d
+ r inż. Tkaczuk Sławomir\nNr zajęć: 5/22\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:84b69092c32838a0478736e6@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261021T133000
+DTEND;TZID=Europe/Warsaw:20261021T150500
+SUMMARY:Esp (w)
+LOCATION:4 H7
+DESCRIPTION:Eksploatacja statków powiet.\nRodzaj: wykład\nProwadzący: d
+ r inż. Tkaczuk Sławomir\nNr zajęć: 6/22\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8e76856133d1b9f11fe8f634@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261022T095000
+DTEND;TZID=Europe/Warsaw:20261022T112500
+SUMMARY:Mlot (w)
+LOCATION:S2 72
+DESCRIPTION:Mechanika lotu\nRodzaj: wykład\nProwadzący: prof. dr hab. in
+ ż. Sibilski Krzysztof\nNr zajęć: 2/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5c229b62c7e0537a0ab6a060@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261026T080000
+DTEND;TZID=Europe/Warsaw:20261026T093500
+SUMMARY:Ksp (L)
+LOCATION:18 67
+DESCRIPTION:Konstrukcja statków powietrznych\nRodzaj: laboratorium\nProwa
+ dzący: mgr inż. Syta Borys\nNr zajęć: 3/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1ac9cd06dc42922c5fac884e@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261026T095000
+DTEND;TZID=Europe/Warsaw:20261026T112500
+SUMMARY:Ksp (L)
+LOCATION:18 67
+DESCRIPTION:Konstrukcja statków powietrznych\nRodzaj: laboratorium\nProwa
+ dzący: mgr inż. Syta Borys\nNr zajęć: 4/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:cee5c4be2f50739ebd79b6fe@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261026T114000
+DTEND;TZID=Europe/Warsaw:20261026T131500
+SUMMARY:Tpł (ć)
+LOCATION:4 H7
+DESCRIPTION:Technologia produkcji płatowców\nRodzaj: ćwiczenia\nProwadz
+ ący: ppłk dr inż. Leszczyński Piotr\nNr zajęć: 4/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:23f30508a0c32f3fed371dcc@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261026T133000
+DTEND;TZID=Europe/Warsaw:20261026T150500
+SUMMARY:Ksp (ć)
+LOCATION:3 67
+DESCRIPTION:Konstrukcja statków powietrznych\nRodzaj: ćwiczenia\nProwadz
+ ący: mgr inż. Syta Borys\nNr zajęć: 1/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:256c2926454cc338184ae4e6@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261028T080000
+DTEND;TZID=Europe/Warsaw:20261028T093500
+SUMMARY:Mlot (ć)
+LOCATION:3 67
+DESCRIPTION:Mechanika lotu\nRodzaj: ćwiczenia\nProwadzący: mgr inż. Mis
+ iak Zawadzka Aneta\nNr zajęć: 1/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e6b33a34e8a5b11fae0bd6e1@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261028T095000
+DTEND;TZID=Europe/Warsaw:20261028T112500
+SUMMARY:Ksp (ć)
+LOCATION:S1 72
+DESCRIPTION:Konstrukcja statków powietrznych\nRodzaj: ćwiczenia\nProwadz
+ ący: mgr inż. Syta Borys\nNr zajęć: 2/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:dcc85bf5f58b61a1619e44fd@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261028T114000
+DTEND;TZID=Europe/Warsaw:20261028T131500
+SUMMARY:Esp (w)
+LOCATION:4 H7
+DESCRIPTION:Eksploatacja statków powiet.\nRodzaj: wykład\nProwadzący: d
+ r inż. Tkaczuk Sławomir\nNr zajęć: 7/22\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6f9e6f8a37e7e61962ff7d9d@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261028T133000
+DTEND;TZID=Europe/Warsaw:20261028T150500
+SUMMARY:Esp (w)
+LOCATION:4 H7
+DESCRIPTION:Eksploatacja statków powiet.\nRodzaj: wykład\nProwadzący: d
+ r inż. Tkaczuk Sławomir\nNr zajęć: 8/22\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3d2df30af58af81786d7f1af@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261029T160000
+DTEND;TZID=Europe/Warsaw:20261029T173500
+SUMMARY:Tpł (L)
+LOCATION:4 H7
+DESCRIPTION:Technologia produkcji płatowców\nRodzaj: laboratorium\nProwa
+ dzący: dr inż. Tkaczuk Sławomir\nNr zajęć: 3/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:9359b6cba63c46365f9dd772@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261103T080000
+DTEND;TZID=Europe/Warsaw:20261103T093500
+SUMMARY:Mlot (L)
+LOCATION:41 67
+DESCRIPTION:Mechanika lotu\nRodzaj: laboratorium\nProwadzący: dr inż. Fr
+ ant Michał\nNr zajęć: 1/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ac42c83e7709918bfa0a4adf@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261103T095000
+DTEND;TZID=Europe/Warsaw:20261103T112500
+SUMMARY:Mlot (L)
+LOCATION:41 67
+DESCRIPTION:Mechanika lotu\nRodzaj: laboratorium\nProwadzący: dr inż. Fr
+ ant Michał\nNr zajęć: 2/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:39b82a29cc16739eb661f64a@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261104T080000
+DTEND;TZID=Europe/Warsaw:20261104T093500
+SUMMARY:Sd. (S)
+LOCATION:S1 72
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Grzejszczak Pączek Olga\nNr zajęć: 2/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:db8d7affadde278960b918d3@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261104T095000
+DTEND;TZID=Europe/Warsaw:20261104T112500
+SUMMARY:Ksp (L)
+LOCATION:18 67
+DESCRIPTION:Konstrukcja statków powietrznych\nRodzaj: laboratorium\nProwa
+ dzący: mgr inż. Syta Borys\nNr zajęć: 5/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:29e3eddd99bb3d2e1f35699b@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261104T114000
+DTEND;TZID=Europe/Warsaw:20261104T131500
+SUMMARY:Esp (w)
+LOCATION:4 H7
+DESCRIPTION:Eksploatacja statków powiet.\nRodzaj: wykład\nProwadzący: d
+ r inż. Tkaczuk Sławomir\nNr zajęć: 9/22\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3740dc4965f47abead8a29e1@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261104T133000
+DTEND;TZID=Europe/Warsaw:20261104T150500
+SUMMARY:Esp (w)
+LOCATION:4 H7
+DESCRIPTION:Eksploatacja statków powiet.\nRodzaj: wykład\nProwadzący: d
+ r inż. Tkaczuk Sławomir\nNr zajęć: 10/22\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5c6a73ba13551630a0ee5d1c@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261105T160000
+DTEND;TZID=Europe/Warsaw:20261105T173500
+SUMMARY:Tpł (L)
+LOCATION:4 H7
+DESCRIPTION:Technologia produkcji płatowców\nRodzaj: laboratorium\nProwa
+ dzący: dr inż. Tkaczuk Sławomir\nNr zajęć: 4/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:808255a0bf489eac3772bfe2@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261109T114000
+DTEND;TZID=Europe/Warsaw:20261109T131500
+SUMMARY:Tpł (ć)
+LOCATION:4 H7
+DESCRIPTION:Technologia produkcji płatowców\nRodzaj: ćwiczenia\nProwadz
+ ący: ppłk dr inż. Leszczyński Piotr\nNr zajęć: 5/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:cdae536349171a549b3356ee@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261109T133000
+DTEND;TZID=Europe/Warsaw:20261109T150500
+SUMMARY:Mlot (ć)
+LOCATION:24 67
+DESCRIPTION:Mechanika lotu\nRodzaj: ćwiczenia\nProwadzący: mgr inż. Mis
+ iak Zawadzka Aneta\nNr zajęć: 2/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3ee170dabbd2172f86ba6a73@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261109T160000
+DTEND;TZID=Europe/Warsaw:20261109T173500
+SUMMARY:Tpł (L)
+LOCATION:4 H7
+DESCRIPTION:Technologia produkcji płatowców\nRodzaj: laboratorium\nProwa
+ dzący: dr inż. Tkaczuk Sławomir\nNr zajęć: 5/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:74ba6c6da77c13298fa4b318@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261110T080000
+DTEND;TZID=Europe/Warsaw:20261110T093500
+SUMMARY:Ksp (w)
+LOCATION:S1 72
+DESCRIPTION:Konstrukcja statków powietrznych\nRodzaj: wykład\nProwadząc
+ y: ppłk dr inż. Kiszkowiak Łukasz\nNr zajęć: 4/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:974232fe14c00ad6190941ee@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261110T160000
+DTEND;TZID=Europe/Warsaw:20261110T173500
+SUMMARY:Sd. (S)
+LOCATION:S1 72
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Grzejszczak Pączek Olga\nNr zajęć: 3/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:2e8d81a0a0c14a4e63dc9dc8@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261112T114000
+DTEND;TZID=Europe/Warsaw:20261112T131500
+SUMMARY:Mlot (w)
+LOCATION:S2 72
+DESCRIPTION:Mechanika lotu\nRodzaj: wykład\nProwadzący: prof. dr hab. in
+ ż. Sibilski Krzysztof\nNr zajęć: 3/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b014aa51ce46ead7bef279ea@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261116T080000
+DTEND;TZID=Europe/Warsaw:20261116T093500
+SUMMARY:Tpł (ć)
+LOCATION:4 H7
+DESCRIPTION:Technologia produkcji płatowców\nRodzaj: ćwiczenia\nProwadz
+ ący: ppłk dr inż. Leszczyński Piotr\nNr zajęć: 6/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:aac86f3e6cce71051c6bcc36@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261117T080000
+DTEND;TZID=Europe/Warsaw:20261117T093500
+SUMMARY:Mlot (L)
+LOCATION:41 67
+DESCRIPTION:Mechanika lotu\nRodzaj: laboratorium\nProwadzący: dr inż. Fr
+ ant Michał\nNr zajęć: 3/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0513ddc0d3db68d84f22aa28@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261117T095000
+DTEND;TZID=Europe/Warsaw:20261117T112500
+SUMMARY:Mlot (L)
+LOCATION:41 67
+DESCRIPTION:Mechanika lotu\nRodzaj: laboratorium\nProwadzący: dr inż. Fr
+ ant Michał\nNr zajęć: 4/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:45273e833a4c53b0bca4c198@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261118T114000
+DTEND;TZID=Europe/Warsaw:20261118T131500
+SUMMARY:Esp (w)
+LOCATION:4 H7
+DESCRIPTION:Eksploatacja statków powiet.\nRodzaj: wykład\nProwadzący: d
+ r inż. Tkaczuk Sławomir\nNr zajęć: 11/22\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ff3b408312805cde4e15c3b4@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261118T133000
+DTEND;TZID=Europe/Warsaw:20261118T150500
+SUMMARY:Esp (w)
+LOCATION:4 H7
+DESCRIPTION:Eksploatacja statków powiet.\nRodzaj: wykład\nProwadzący: d
+ r inż. Tkaczuk Sławomir\nNr zajęć: 12/22\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:06233fecdc7756f4e60c84a7@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261118T160000
+DTEND;TZID=Europe/Warsaw:20261118T173500
+SUMMARY:Sd. (S)
+LOCATION:S1 72
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Grzejszczak Pączek Olga\nNr zajęć: 4/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:19cea0c1594c0bd45a43c75f@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261118T175000
+DTEND;TZID=Europe/Warsaw:20261118T192500
+SUMMARY:Sd. (S)
+LOCATION:S1 72
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Grzejszczak Pączek Olga\nNr zajęć: 5/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:25ccc7f0fc45ed638f7d9b8f@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261119T095000
+DTEND;TZID=Europe/Warsaw:20261119T112500
+SUMMARY:Ksp (ć)
+LOCATION:3 67
+DESCRIPTION:Konstrukcja statków powietrznych\nRodzaj: ćwiczenia\nProwadz
+ ący: mgr inż. Syta Borys\nNr zajęć: 3/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:73320e3e0c29d631d24558bc@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261119T114000
+DTEND;TZID=Europe/Warsaw:20261119T131500
+SUMMARY:Tpł (L)
+LOCATION:4 H7
+DESCRIPTION:Technologia produkcji płatowców\nRodzaj: laboratorium\nProwa
+ dzący: dr inż. Tkaczuk Sławomir\nNr zajęć: 6/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d35efd9d9bbbf9f34f57da42@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261119T133000
+DTEND;TZID=Europe/Warsaw:20261119T150500
+SUMMARY:Mlot (w)
+LOCATION:S3 72
+DESCRIPTION:Mechanika lotu\nRodzaj: wykład\nProwadzący: prof. dr hab. in
+ ż. Sibilski Krzysztof\nNr zajęć: 4/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4f0909c2738d30108e1a2214@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261119T160000
+DTEND;TZID=Europe/Warsaw:20261119T173500
+SUMMARY:Ksp (E)
+LOCATION:34 67
+DESCRIPTION:Konstrukcja statków powietrznych\nRodzaj: egzamin\nProwadząc
+ y: ppłk dr inż. Kiszkowiak Łukasz\nNr zajęć: 1/1\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:9338e90bcea5894903c82634@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261124T095000
+DTEND;TZID=Europe/Warsaw:20261124T112500
+SUMMARY:Mlot (ć)
+LOCATION:3 67
+DESCRIPTION:Mechanika lotu\nRodzaj: ćwiczenia\nProwadzący: mgr inż. Mis
+ iak Zawadzka Aneta\nNr zajęć: 3/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d44d02d19800e709ecd73f05@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261124T114000
+DTEND;TZID=Europe/Warsaw:20261124T131500
+SUMMARY:Ksp (L)
+LOCATION:18 67
+DESCRIPTION:Konstrukcja statków powietrznych\nRodzaj: laboratorium\nProwa
+ dzący: mgr inż. Syta Borys\nNr zajęć: 6/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:875286d4689d4db397519b4d@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261124T133000
+DTEND;TZID=Europe/Warsaw:20261124T150500
+SUMMARY:Ksp (L)
+LOCATION:18 67
+DESCRIPTION:Konstrukcja statków powietrznych\nRodzaj: laboratorium\nProwa
+ dzący: mgr inż. Syta Borys\nNr zajęć: 7/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:68b3f04b73e830f10cd8fd86@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261124T160000
+DTEND;TZID=Europe/Warsaw:20261124T173500
+SUMMARY:Sd. (S)
+LOCATION:S1 72
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Grzejszczak Pączek Olga\nNr zajęć: 6/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:1bfb6b1d4f7cb7b36238dc0d@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261125T114000
+DTEND;TZID=Europe/Warsaw:20261125T131500
+SUMMARY:Esp (w)
+LOCATION:4 H7
+DESCRIPTION:Eksploatacja statków powiet.\nRodzaj: wykład\nProwadzący: d
+ r inż. Tkaczuk Sławomir\nNr zajęć: 13/22\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d2b75b397e349e849f037e9e@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261125T133000
+DTEND;TZID=Europe/Warsaw:20261125T150500
+SUMMARY:Esp (w)
+LOCATION:4 H7
+DESCRIPTION:Eksploatacja statków powiet.\nRodzaj: wykład\nProwadzący: d
+ r inż. Tkaczuk Sławomir\nNr zajęć: 14/22\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:10d7212bdfbca13c400d67be@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261125T160000
+DTEND;TZID=Europe/Warsaw:20261125T173500
+SUMMARY:Tpł (L)
+LOCATION:4 H7
+DESCRIPTION:Technologia produkcji płatowców\nRodzaj: laboratorium\nProwa
+ dzący: dr inż. Tkaczuk Sławomir\nNr zajęć: 7/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:feda26b944360bcbe957b84a@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261126T095000
+DTEND;TZID=Europe/Warsaw:20261126T112500
+SUMMARY:Tpł (L)
+LOCATION:4 H7
+DESCRIPTION:Technologia produkcji płatowców\nRodzaj: laboratorium\nProwa
+ dzący: dr inż. Tkaczuk Sławomir\nNr zajęć: 8/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1c10b81e93ce7ecbb2f33a01@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261126T133000
+DTEND;TZID=Europe/Warsaw:20261126T150500
+SUMMARY:Mlot (w)
+LOCATION:S3 72
+DESCRIPTION:Mechanika lotu\nRodzaj: wykład\nProwadzący: prof. dr hab. in
+ ż. Sibilski Krzysztof\nNr zajęć: 5/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a61b2ec290f84ef41ddf4fb5@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261126T160000
+DTEND;TZID=Europe/Warsaw:20261126T173500
+SUMMARY:Sd. (S)
+LOCATION:S1 72
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Grzejszczak Pączek Olga\nNr zajęć: 7/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:fb1e6cb2b1774d0072466a64@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261201T080000
+DTEND;TZID=Europe/Warsaw:20261201T093500
+SUMMARY:Mlot (L)
+LOCATION:41 67
+DESCRIPTION:Mechanika lotu\nRodzaj: laboratorium\nProwadzący: dr inż. Fr
+ ant Michał\nNr zajęć: 5/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ef1b69998361ead04336cfac@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261201T095000
+DTEND;TZID=Europe/Warsaw:20261201T112500
+SUMMARY:Mlot (L)
+LOCATION:41 67
+DESCRIPTION:Mechanika lotu\nRodzaj: laboratorium\nProwadzący: dr inż. Fr
+ ant Michał\nNr zajęć: 6/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5048734394960934dc04c4f7@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261202T114000
+DTEND;TZID=Europe/Warsaw:20261202T131500
+SUMMARY:Esp (w)
+LOCATION:4 H7
+DESCRIPTION:Eksploatacja statków powiet.\nRodzaj: wykład\nProwadzący: d
+ r inż. Tkaczuk Sławomir\nNr zajęć: 15/22\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:26f7c228921eaf981bb1f90a@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261202T133000
+DTEND;TZID=Europe/Warsaw:20261202T150500
+SUMMARY:Esp (w)
+LOCATION:4 H7
+DESCRIPTION:Eksploatacja statków powiet.\nRodzaj: wykład\nProwadzący: d
+ r inż. Tkaczuk Sławomir\nNr zajęć: 16/22\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b0d7e26637c40af426363d9a@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261203T133000
+DTEND;TZID=Europe/Warsaw:20261203T150500
+SUMMARY:Mlot (w)
+LOCATION:S3 72
+DESCRIPTION:Mechanika lotu\nRodzaj: wykład\nProwadzący: prof. dr hab. in
+ ż. Sibilski Krzysztof\nNr zajęć: 6/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:45ecea8671ce01307def201e@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261207T080000
+DTEND;TZID=Europe/Warsaw:20261207T093500
+SUMMARY:Tpł (L)
+LOCATION:4 H7
+DESCRIPTION:Technologia produkcji płatowców\nRodzaj: laboratorium\nProwa
+ dzący: ppłk dr inż. Leszczyński Piotr\nNr zajęć: 9/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2c635c5416a4a9dd96b8b189@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261207T133000
+DTEND;TZID=Europe/Warsaw:20261207T150500
+SUMMARY:Sd. (S)
+LOCATION:34 67
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Grzejszczak Pączek Olga\nNr zajęć: 8/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5aedc1b8c38cf3bba4d9ed7a@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261209T095000
+DTEND;TZID=Europe/Warsaw:20261209T112500
+SUMMARY:Sd. (S)
+LOCATION:S2 72
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Grzejszczak Pączek Olga\nNr zajęć: 9/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:23e63d0db6eff710c36c49ce@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261209T114000
+DTEND;TZID=Europe/Warsaw:20261209T131500
+SUMMARY:Esp (w)
+LOCATION:4 H7
+DESCRIPTION:Eksploatacja statków powiet.\nRodzaj: wykład\nProwadzący: d
+ r inż. Tkaczuk Sławomir\nNr zajęć: 17/22\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:25574406410515d19765692f@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261209T133000
+DTEND;TZID=Europe/Warsaw:20261209T150500
+SUMMARY:Esp (w)
+LOCATION:4 H7
+DESCRIPTION:Eksploatacja statków powiet.\nRodzaj: wykład\nProwadzący: d
+ r inż. Tkaczuk Sławomir\nNr zajęć: 18/22\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c7b81c93b59d949eb1182dc5@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261209T160000
+DTEND;TZID=Europe/Warsaw:20261209T173500
+SUMMARY:Sd. (S)
+LOCATION:S1 72
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Grzejszczak Pączek Olga\nNr zajęć: 10/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:c6c314a9fd2f94f5a5e9b3fb@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261210T133000
+DTEND;TZID=Europe/Warsaw:20261210T150500
+SUMMARY:Mlot (w)
+LOCATION:S3 72
+DESCRIPTION:Mechanika lotu\nRodzaj: wykład\nProwadzący: prof. dr hab. in
+ ż. Sibilski Krzysztof\nNr zajęć: 7/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b1f993a8ed1c1c4a350f217f@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261210T160000
+DTEND;TZID=Europe/Warsaw:20261210T173500
+SUMMARY:Sd. (S)
+LOCATION:S2 72
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Grzejszczak Pączek Olga\nNr zajęć: 11/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:a3004ec02105765f09516c6c@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261215T080000
+DTEND;TZID=Europe/Warsaw:20261215T093500
+SUMMARY:Mlot (L)
+LOCATION:43 67
+DESCRIPTION:Mechanika lotu\nRodzaj: laboratorium\nProwadzący: dr inż. Fr
+ ant Michał\nNr zajęć: 7/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d48a415ae9810f4fb444bf86@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261216T080000
+DTEND;TZID=Europe/Warsaw:20261216T093500
+SUMMARY:Sd. (S)
+LOCATION:S1 72
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Grzejszczak Pączek Olga\nNr zajęć: 12/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:82bd4cae79c1974ec0e07c3d@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261216T095000
+DTEND;TZID=Europe/Warsaw:20261216T112500
+SUMMARY:Sd. (S)
+LOCATION:20 69
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Grzejszczak Pączek Olga\nNr zajęć: 13/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d4b47e1f7697eac7664860d8@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261216T114000
+DTEND;TZID=Europe/Warsaw:20261216T131500
+SUMMARY:Esp (w)
+LOCATION:4 H7
+DESCRIPTION:Eksploatacja statków powiet.\nRodzaj: wykład\nProwadzący: d
+ r inż. Tkaczuk Sławomir\nNr zajęć: 19/22\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:28a0111e3d964b849eb35798@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261216T133000
+DTEND;TZID=Europe/Warsaw:20261216T150500
+SUMMARY:Esp (w)
+LOCATION:4 H7
+DESCRIPTION:Eksploatacja statków powiet.\nRodzaj: wykład\nProwadzący: d
+ r inż. Tkaczuk Sławomir\nNr zajęć: 20/22\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:21faa99adb3907980e425f4b@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261217T133000
+DTEND;TZID=Europe/Warsaw:20261217T150500
+SUMMARY:Mlot (w)
+LOCATION:S3 72
+DESCRIPTION:Mechanika lotu\nRodzaj: wykład\nProwadzący: prof. dr hab. in
+ ż. Sibilski Krzysztof\nNr zajęć: 8/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d04c9028e6c2f3abbc418d13@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261222T080000
+DTEND;TZID=Europe/Warsaw:20261222T093500
+SUMMARY:Mlot (L)
+LOCATION:43 67
+DESCRIPTION:Mechanika lotu\nRodzaj: laboratorium\nProwadzący: dr inż. Fr
+ ant Michał\nNr zajęć: 8/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6bc4715bc67e9cfaaa14fa07@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261223T080000
+DTEND;TZID=Europe/Warsaw:20261223T093500
+SUMMARY:Sd. (S)
+LOCATION:3 67
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Grzejszczak Pączek Olga\nNr zajęć: 14/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:da0690cc8e781838cc3a0d2e@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261223T095000
+DTEND;TZID=Europe/Warsaw:20261223T112500
+SUMMARY:Sd. (S)
+LOCATION:3 67
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Grzejszczak Pączek Olga\nNr zajęć: 15/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:889c25493104f5e8ca82f93a@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261223T114000
+DTEND;TZID=Europe/Warsaw:20261223T131500
+SUMMARY:Esp (w)
+LOCATION:4 H7
+DESCRIPTION:Eksploatacja statków powiet.\nRodzaj: wykład\nProwadzący: d
+ r inż. Tkaczuk Sławomir\nNr zajęć: 21/22\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:26c7d47872f9e98089b43fef@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261223T133000
+DTEND;TZID=Europe/Warsaw:20261223T150500
+SUMMARY:Esp (w)
+LOCATION:4 H7
+DESCRIPTION:Eksploatacja statków powiet.\nRodzaj: wykład\nProwadzący: d
+ r inż. Tkaczuk Sławomir\nNr zajęć: 22/22\nBlok: 4
+END:VEVENT
+END:VCALENDAR

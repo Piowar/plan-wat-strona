@@ -1,0 +1,772 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WME23BM1S1
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:8faf54f33f6a90f92a8d5f7c@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261006T080000
+DTEND;TZID=Europe/Warsaw:20261006T093500
+SUMMARY:SNUB (w)
+LOCATION:6/ 62
+DESCRIPTION:Symulacja numeryczna układów biomechanicznych\nRodzaj: wykł
+ ad\nProwadzący: dr inż. Tomaszewski Michał\nNr zajęć: 1/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:bd85a47b813a7e3eac258253@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261006T095000
+DTEND;TZID=Europe/Warsaw:20261006T112500
+SUMMARY:MiSSR (w)
+LOCATION:6/ 62
+DESCRIPTION:Modelowanie i symulacja sprzętu rehabilitacyjnego 1\nRodzaj: 
+ wykład\nProwadzący: dr hab. inż. (prof. ucz.) Baranowski Paweł\nNr za
+ jęć: 1/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:94407a5fc92c9db1b9dfc2e7@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261006T114000
+DTEND;TZID=Europe/Warsaw:20261006T131500
+SUMMARY:MiSSR (w)
+LOCATION:6/ 62
+DESCRIPTION:Modelowanie i symulacja sprzętu rehabilitacyjnego 1\nRodzaj: 
+ wykład\nProwadzący: dr hab. inż. (prof. ucz.) Baranowski Paweł\nNr za
+ jęć: 2/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:afdac9fcc3610eecf3bddedd@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261013T095000
+DTEND;TZID=Europe/Warsaw:20261013T112500
+SUMMARY:SNUB (w)
+LOCATION:6/ 62
+DESCRIPTION:Symulacja numeryczna układów biomechanicznych\nRodzaj: wykł
+ ad\nProwadzący: dr inż. Tomaszewski Michał\nNr zajęć: 2/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a1f9a2fd3391c7b86008615e@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261013T114000
+DTEND;TZID=Europe/Warsaw:20261013T131500
+SUMMARY:MiSSR (w)
+LOCATION:6/ 62
+DESCRIPTION:Modelowanie i symulacja sprzętu rehabilitacyjnego 1\nRodzaj: 
+ wykład\nProwadzący: dr hab. inż. (prof. ucz.) Baranowski Paweł\nNr za
+ jęć: 3/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:732215edd6525170e17e85c7@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261017T171000
+DTEND;TZID=Europe/Warsaw:20261017T184500
+SUMMARY:Ppu.(Rp) (w)
+LOCATION:6/ 23A
+DESCRIPTION:Podstawy projektowania uniwersalnego-(różnica programowa)\nR
+ odzaj: wykład\nProwadzący: dr inż. Ziubiński Mateusz\nNr zajęć: 1/1
+ \nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:55ce92205698a57a0a008eac@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261017T190000
+DTEND;TZID=Europe/Warsaw:20261017T203500
+SUMMARY:Ppu.(Rp) (L)
+LOCATION:6/ 23A
+DESCRIPTION:Podstawy projektowania uniwersalnego-(różnica programowa)\nR
+ odzaj: laboratorium\nProwadzący: dr inż. Ziubiński Mateusz\nNr zajęć
+ : 1/2\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:49174d9fe26b2d30e79e820a@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261025T152000
+DTEND;TZID=Europe/Warsaw:20261025T165500
+SUMMARY:Ppu.(Rp) (L)
+LOCATION:6/ 23A
+DESCRIPTION:Podstawy projektowania uniwersalnego-(różnica programowa)\nR
+ odzaj: laboratorium\nProwadzący: mgr inż. Mantur Tomasz\nNr zajęć: 2/
+ 2\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:44563b1533b3fe16edd07a4b@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261026T080000
+DTEND;TZID=Europe/Warsaw:20261026T093500
+SUMMARY:MiSSR (L)
+LOCATION:6/ 62
+DESCRIPTION:Modelowanie i symulacja sprzętu rehabilitacyjnego 1\nRodzaj: 
+ laboratorium\nProwadzący: dr inż. Damaziak Krzysztof\; dr inż. Kucewic
+ z Michał\nNr zajęć: 1/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f4a2fa76dc6aa7c018a7c7e1@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261026T095000
+DTEND;TZID=Europe/Warsaw:20261026T112500
+SUMMARY:MiSSR (L)
+LOCATION:6/ 62
+DESCRIPTION:Modelowanie i symulacja sprzętu rehabilitacyjnego 1\nRodzaj: 
+ laboratorium\nProwadzący: dr inż. Damaziak Krzysztof\; dr inż. Kucewic
+ z Michał\nNr zajęć: 2/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:95104fdc2cd73c4419970c22@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261026T114000
+DTEND;TZID=Europe/Warsaw:20261026T131500
+SUMMARY:MiSSR (L)
+LOCATION:6/ 62
+DESCRIPTION:Modelowanie i symulacja sprzętu rehabilitacyjnego 1\nRodzaj: 
+ laboratorium\nProwadzący: dr inż. Damaziak Krzysztof\; dr inż. Kucewic
+ z Michał\nNr zajęć: 3/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8930045a37b6804a7f0c6d32@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261026T133000
+DTEND;TZID=Europe/Warsaw:20261026T150500
+SUMMARY:MiSSR (L)
+LOCATION:6/ 62
+DESCRIPTION:Modelowanie i symulacja sprzętu rehabilitacyjnego 1\nRodzaj: 
+ laboratorium\nProwadzący: dr inż. Damaziak Krzysztof\; dr inż. Kucewic
+ z Michał\nNr zajęć: 4/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:136a1212a975eab01fae0989@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261027T080000
+DTEND;TZID=Europe/Warsaw:20261027T093500
+SUMMARY:SNUB (w)
+LOCATION:6/ 62
+DESCRIPTION:Symulacja numeryczna układów biomechanicznych\nRodzaj: wykł
+ ad\nProwadzący: dr inż. Tomaszewski Michał\nNr zajęć: 3/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2f8f429ee107286fb41af75e@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261027T095000
+DTEND;TZID=Europe/Warsaw:20261027T112500
+SUMMARY:MiSSR (L)
+LOCATION:53/ 62
+DESCRIPTION:Modelowanie i symulacja sprzętu rehabilitacyjnego 1\nRodzaj: 
+ laboratorium\nProwadzący: dr inż. Damaziak Krzysztof\; dr inż. Kucewic
+ z Michał\nNr zajęć: 5/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f3920f6c67c4521ef34f348a@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261028T080000
+DTEND;TZID=Europe/Warsaw:20261028T093500
+SUMMARY:MiSSR (P)
+LOCATION:6/ 62
+DESCRIPTION:Modelowanie i symulacja sprzętu rehabilitacyjnego 1\nRodzaj: 
+ projekt\nProwadzący: dr inż. Tomaszewski Michał\; dr inż. Kucewicz Mi
+ chał\nNr zajęć: 1/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:cadc45afc8222a2d34f78697@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261028T095000
+DTEND;TZID=Europe/Warsaw:20261028T112500
+SUMMARY:MiSSR (P)
+LOCATION:6/ 62
+DESCRIPTION:Modelowanie i symulacja sprzętu rehabilitacyjnego 1\nRodzaj: 
+ projekt\nProwadzący: dr inż. Tomaszewski Michał\; dr inż. Kucewicz Mi
+ chał\nNr zajęć: 2/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:60fa3db28119313fad6e6860@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261028T114000
+DTEND;TZID=Europe/Warsaw:20261028T131500
+SUMMARY:MiSSR (P)
+LOCATION:6/ 62
+DESCRIPTION:Modelowanie i symulacja sprzętu rehabilitacyjnego 1\nRodzaj: 
+ projekt\nProwadzący: dr inż. Tomaszewski Michał\; dr inż. Kucewicz Mi
+ chał\nNr zajęć: 3/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1f5dfc1544e44f6f343b99b7@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261102T080000
+DTEND;TZID=Europe/Warsaw:20261102T093500
+SUMMARY:MiSSR (P)
+LOCATION:6/ 62
+DESCRIPTION:Modelowanie i symulacja sprzętu rehabilitacyjnego 1\nRodzaj: 
+ projekt\nProwadzący: dr inż. Tomaszewski Michał\; dr inż. Kucewicz Mi
+ chał\nNr zajęć: 4/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:84d6d8f41a71c521b2591a3d@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261102T095000
+DTEND;TZID=Europe/Warsaw:20261102T112500
+SUMMARY:MiSSR (P)
+LOCATION:6/ 62
+DESCRIPTION:Modelowanie i symulacja sprzętu rehabilitacyjnego 1\nRodzaj: 
+ projekt\nProwadzący: dr inż. Tomaszewski Michał\; dr inż. Kucewicz Mi
+ chał\nNr zajęć: 5/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9b99a0514f3e45ec8c2d13a0@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261102T114000
+DTEND;TZID=Europe/Warsaw:20261102T131500
+SUMMARY:MiSSR (L)
+LOCATION:6/ 62
+DESCRIPTION:Modelowanie i symulacja sprzętu rehabilitacyjnego 1\nRodzaj: 
+ laboratorium\nProwadzący: dr inż. Damaziak Krzysztof\; dr inż. Kucewic
+ z Michał\nNr zajęć: 6/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7707ce2f19448422fc2e0abe@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261104T080000
+DTEND;TZID=Europe/Warsaw:20261104T093500
+SUMMARY:MiSSR (P)
+LOCATION:6/ 62
+DESCRIPTION:Modelowanie i symulacja sprzętu rehabilitacyjnego 1\nRodzaj: 
+ projekt\nProwadzący: dr inż. Tomaszewski Michał\; dr inż. Kucewicz Mi
+ chał\nNr zajęć: 6/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:cb46bffca5fc0daa43a0d5a3@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261104T095000
+DTEND;TZID=Europe/Warsaw:20261104T112500
+SUMMARY:MiSSR (P)
+LOCATION:6/ 62
+DESCRIPTION:Modelowanie i symulacja sprzętu rehabilitacyjnego 1\nRodzaj: 
+ projekt\nProwadzący: dr inż. Tomaszewski Michał\; dr inż. Kucewicz Mi
+ chał\nNr zajęć: 7/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a6eea7a1a0715444ae0204de@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261104T114000
+DTEND;TZID=Europe/Warsaw:20261104T131500
+SUMMARY:MiSSR (P)
+LOCATION:6/ 62
+DESCRIPTION:Modelowanie i symulacja sprzętu rehabilitacyjnego 1\nRodzaj: 
+ projekt\nProwadzący: dr inż. Tomaszewski Michał\; dr inż. Kucewicz Mi
+ chał\nNr zajęć: 8/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e5644eafca356ae400df5867@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261104T133000
+DTEND;TZID=Europe/Warsaw:20261104T150500
+SUMMARY:SNUB (L)
+LOCATION:6/ 62
+DESCRIPTION:Symulacja numeryczna układów biomechanicznych\nRodzaj: labor
+ atorium\nProwadzący: dr inż. Tomaszewski Michał\; dr inż. Świerczews
+ ki Marek\nNr zajęć: 1/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:37ab050435132402c8e9125c@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261104T160000
+DTEND;TZID=Europe/Warsaw:20261104T173500
+SUMMARY:SNUB (L)
+LOCATION:6/ 62
+DESCRIPTION:Symulacja numeryczna układów biomechanicznych\nRodzaj: labor
+ atorium\nProwadzący: dr inż. Tomaszewski Michał\; dr inż. Świerczews
+ ki Marek\nNr zajęć: 2/12\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:42dbaf16acc9de1be94658ee@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261109T080000
+DTEND;TZID=Europe/Warsaw:20261109T093500
+SUMMARY:MiSSR (L)
+LOCATION:6/ 62
+DESCRIPTION:Modelowanie i symulacja sprzętu rehabilitacyjnego 1\nRodzaj: 
+ laboratorium\nProwadzący: dr inż. Damaziak Krzysztof\; dr inż. Kucewic
+ z Michał\nNr zajęć: 7/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d048e6e416656c64d0dcae6f@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261109T114000
+DTEND;TZID=Europe/Warsaw:20261109T131500
+SUMMARY:Sd. (S)
+LOCATION:53/ 62
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr hab.
+  inż. (prof. ucz.) Baranowski Paweł\nNr zajęć: 1/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:64e287505cbe4b2bcdd58ff1@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261109T133000
+DTEND;TZID=Europe/Warsaw:20261109T150500
+SUMMARY:Sd. (S)
+LOCATION:53/ 62
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr hab.
+  inż. (prof. ucz.) Baranowski Paweł\nNr zajęć: 2/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d15d68d2b24493c93c172cc9@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261110T080000
+DTEND;TZID=Europe/Warsaw:20261110T093500
+SUMMARY:MiSSR (L)
+LOCATION:6/ 62
+DESCRIPTION:Modelowanie i symulacja sprzętu rehabilitacyjnego 1\nRodzaj: 
+ laboratorium\nProwadzący: dr inż. Damaziak Krzysztof\; dr inż. Kucewic
+ z Michał\nNr zajęć: 8/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c1c8a2af091aba45e0c59aa3@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261110T095000
+DTEND;TZID=Europe/Warsaw:20261110T112500
+SUMMARY:MiSSR (L)
+LOCATION:6/ 62
+DESCRIPTION:Modelowanie i symulacja sprzętu rehabilitacyjnego 1\nRodzaj: 
+ laboratorium\nProwadzący: dr inż. Damaziak Krzysztof\; dr inż. Kucewic
+ z Michał\nNr zajęć: 9/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9d1ad1a74f56db403241dffc@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261110T114000
+DTEND;TZID=Europe/Warsaw:20261110T131500
+SUMMARY:MiSSR (L)
+LOCATION:6/ 62
+DESCRIPTION:Modelowanie i symulacja sprzętu rehabilitacyjnego 1\nRodzaj: 
+ laboratorium\nProwadzący: dr inż. Damaziak Krzysztof\; dr inż. Kucewic
+ z Michał\nNr zajęć: 10/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3752bc61e92103e6086bf3bf@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261110T133000
+DTEND;TZID=Europe/Warsaw:20261110T150500
+SUMMARY:MiSSR (L)
+LOCATION:6/ 62
+DESCRIPTION:Modelowanie i symulacja sprzętu rehabilitacyjnego 1\nRodzaj: 
+ laboratorium\nProwadzący: dr inż. Damaziak Krzysztof\; dr inż. Kucewic
+ z Michał\nNr zajęć: 11/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1134debeb0b3b258163c2d5a@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261115T133000
+DTEND;TZID=Europe/Warsaw:20261115T150500
+SUMMARY:Ppu.(Rp) (S)
+LOCATION:6/ 23A
+DESCRIPTION:Podstawy projektowania uniwersalnego-(różnica programowa)\nR
+ odzaj: seminarium\nProwadzący: dr inż. Ziubiński Mateusz\nNr zajęć: 
+ 1/2\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e46f8266dff72588a272f8a1@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261115T152000
+DTEND;TZID=Europe/Warsaw:20261115T165500
+SUMMARY:Ppu.(Rp) (S)
+LOCATION:6/ 23A
+DESCRIPTION:Podstawy projektowania uniwersalnego-(różnica programowa)\nR
+ odzaj: seminarium\nProwadzący: dr inż. Ziubiński Mateusz\nNr zajęć: 
+ 2/2\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:5623dc45b7e3038a75ac5d21@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261116T080000
+DTEND;TZID=Europe/Warsaw:20261116T093500
+SUMMARY:MiSSR (L)
+LOCATION:6/ 62
+DESCRIPTION:Modelowanie i symulacja sprzętu rehabilitacyjnego 1\nRodzaj: 
+ laboratorium\nProwadzący: dr inż. Damaziak Krzysztof\; dr inż. Kucewic
+ z Michał\nNr zajęć: 12/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7a78f261d41944b50854441a@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261116T095000
+DTEND;TZID=Europe/Warsaw:20261116T112500
+SUMMARY:MiSSR (L)
+LOCATION:6/ 62
+DESCRIPTION:Modelowanie i symulacja sprzętu rehabilitacyjnego 1\nRodzaj: 
+ laboratorium\nProwadzący: dr inż. Damaziak Krzysztof\; dr inż. Kucewic
+ z Michał\nNr zajęć: 13/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:619123337e24dc74e0bedaa2@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261118T080000
+DTEND;TZID=Europe/Warsaw:20261118T093500
+SUMMARY:MiSSR (P)
+LOCATION:6/ 62
+DESCRIPTION:Modelowanie i symulacja sprzętu rehabilitacyjnego 1\nRodzaj: 
+ projekt\nProwadzący: dr inż. Tomaszewski Michał\; dr inż. Kucewicz Mi
+ chał\nNr zajęć: 9/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:28d365b822b5cb9ba16cf8dc@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261118T095000
+DTEND;TZID=Europe/Warsaw:20261118T112500
+SUMMARY:MiSSR (P)
+LOCATION:6/ 62
+DESCRIPTION:Modelowanie i symulacja sprzętu rehabilitacyjnego 1\nRodzaj: 
+ projekt\nProwadzący: dr inż. Tomaszewski Michał\; dr inż. Kucewicz Mi
+ chał\nNr zajęć: 10/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:11b70665ec462f46bd568ed8@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261118T114000
+DTEND;TZID=Europe/Warsaw:20261118T131500
+SUMMARY:MiSSR (P)
+LOCATION:6/ 62
+DESCRIPTION:Modelowanie i symulacja sprzętu rehabilitacyjnego 1\nRodzaj: 
+ projekt\nProwadzący: dr inż. Tomaszewski Michał\; dr inż. Kucewicz Mi
+ chał\nNr zajęć: 11/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:37075b2cebe65823e1cca8f0@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261118T133000
+DTEND;TZID=Europe/Warsaw:20261118T150500
+SUMMARY:MiSSR (P)
+LOCATION:6/ 62
+DESCRIPTION:Modelowanie i symulacja sprzętu rehabilitacyjnego 1\nRodzaj: 
+ projekt\nProwadzący: dr inż. Tomaszewski Michał\; dr inż. Kucewicz Mi
+ chał\nNr zajęć: 12/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0fc2d0e7e98913e7f24d2f1d@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261118T160000
+DTEND;TZID=Europe/Warsaw:20261118T173500
+SUMMARY:SNUB (L)
+LOCATION:6/ 62
+DESCRIPTION:Symulacja numeryczna układów biomechanicznych\nRodzaj: labor
+ atorium\nProwadzący: dr inż. Tomaszewski Michał\; dr inż. Świerczews
+ ki Marek\nNr zajęć: 3/12\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:bc484a3ad4b544f079ce138e@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261123T095000
+DTEND;TZID=Europe/Warsaw:20261123T112500
+SUMMARY:MiSSR (L)
+LOCATION:6/ 62
+DESCRIPTION:Modelowanie i symulacja sprzętu rehabilitacyjnego 1\nRodzaj: 
+ laboratorium\nProwadzący: dr inż. Damaziak Krzysztof\; dr inż. Kucewic
+ z Michał\nNr zajęć: 14/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c1b3814396ba6612b77c1d62@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261124T080000
+DTEND;TZID=Europe/Warsaw:20261124T093500
+SUMMARY:MiSSR (P)
+LOCATION:6/ 62
+DESCRIPTION:Modelowanie i symulacja sprzętu rehabilitacyjnego 1\nRodzaj: 
+ projekt\nProwadzący: dr inż. Tomaszewski Michał\; dr inż. Kucewicz Mi
+ chał\nNr zajęć: 13/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e00c8d8347aaba9e31801fa2@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261124T095000
+DTEND;TZID=Europe/Warsaw:20261124T112500
+SUMMARY:MiSSR (P)
+LOCATION:6/ 62
+DESCRIPTION:Modelowanie i symulacja sprzętu rehabilitacyjnego 1\nRodzaj: 
+ projekt\nProwadzący: dr inż. Tomaszewski Michał\; dr inż. Kucewicz Mi
+ chał\nNr zajęć: 14/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:59a489a677a29cb2bf1d0566@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261124T114000
+DTEND;TZID=Europe/Warsaw:20261124T131500
+SUMMARY:MiSSR (P)
+LOCATION:6/ 62
+DESCRIPTION:Modelowanie i symulacja sprzętu rehabilitacyjnego 1\nRodzaj: 
+ projekt\nProwadzący: dr inż. Tomaszewski Michał\; dr inż. Kucewicz Mi
+ chał\nNr zajęć: 15/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4e57ffdbf54a7174c3df0ce7@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261125T080000
+DTEND;TZID=Europe/Warsaw:20261125T093500
+SUMMARY:MiSSR (L)
+LOCATION:6/ 62
+DESCRIPTION:Modelowanie i symulacja sprzętu rehabilitacyjnego 1\nRodzaj: 
+ laboratorium\nProwadzący: dr inż. Damaziak Krzysztof\; dr inż. Kucewic
+ z Michał\nNr zajęć: 15/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4858d49d2a3f98693fefaae9@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261125T095000
+DTEND;TZID=Europe/Warsaw:20261125T112500
+SUMMARY:Sd. (S)
+LOCATION:6/ 62
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr hab.
+  inż. (prof. ucz.) Baranowski Paweł\nNr zajęć: 3/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:089a32f3790c7aad6b272af1@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261125T114000
+DTEND;TZID=Europe/Warsaw:20261125T131500
+SUMMARY:Sd. (S)
+LOCATION:6/ 62
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr hab.
+  inż. (prof. ucz.) Baranowski Paweł\nNr zajęć: 4/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:70e9a522aebb6303629e8afa@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261125T160000
+DTEND;TZID=Europe/Warsaw:20261125T173500
+SUMMARY:SNUB (L)
+LOCATION:6/ 62
+DESCRIPTION:Symulacja numeryczna układów biomechanicznych\nRodzaj: labor
+ atorium\nProwadzący: dr inż. Tomaszewski Michał\; dr inż. Świerczews
+ ki Marek\nNr zajęć: 4/12\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:cbb434f113c1ed1c87d0aba0@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261130T080000
+DTEND;TZID=Europe/Warsaw:20261130T093500
+SUMMARY:SNUB (L)
+LOCATION:6/ 62
+DESCRIPTION:Symulacja numeryczna układów biomechanicznych\nRodzaj: labor
+ atorium\nProwadzący: dr inż. Tomaszewski Michał\; dr inż. Świerczews
+ ki Marek\nNr zajęć: 5/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:57bf40b9d4a12d1825a609d7@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261130T095000
+DTEND;TZID=Europe/Warsaw:20261130T112500
+SUMMARY:SNUB (L)
+LOCATION:6/ 62
+DESCRIPTION:Symulacja numeryczna układów biomechanicznych\nRodzaj: labor
+ atorium\nProwadzący: dr inż. Tomaszewski Michał\; dr inż. Świerczews
+ ki Marek\nNr zajęć: 6/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a128026c46809777d71a0879@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261201T080000
+DTEND;TZID=Europe/Warsaw:20261201T093500
+SUMMARY:SNUB (L)
+LOCATION:6/ 62
+DESCRIPTION:Symulacja numeryczna układów biomechanicznych\nRodzaj: labor
+ atorium\nProwadzący: dr inż. Tomaszewski Michał\; dr inż. Świerczews
+ ki Marek\nNr zajęć: 7/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:db489edb894c001c4fdcba19@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261201T095000
+DTEND;TZID=Europe/Warsaw:20261201T112500
+SUMMARY:SNUB (L)
+LOCATION:6/ 62
+DESCRIPTION:Symulacja numeryczna układów biomechanicznych\nRodzaj: labor
+ atorium\nProwadzący: dr inż. Tomaszewski Michał\; dr inż. Świerczews
+ ki Marek\nNr zajęć: 8/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a2ed6345873947ff488bfe9e@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261201T114000
+DTEND;TZID=Europe/Warsaw:20261201T131500
+SUMMARY:Sd. (S)
+LOCATION:6/ 62
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr hab.
+  inż. (prof. ucz.) Baranowski Paweł\nNr zajęć: 5/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:82755de5f649a7b956124067@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261201T133000
+DTEND;TZID=Europe/Warsaw:20261201T150500
+SUMMARY:Sd. (S)
+LOCATION:6/ 62
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr hab.
+  inż. (prof. ucz.) Baranowski Paweł\nNr zajęć: 6/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e6e4a5404582aa60f9b94f93@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261202T095000
+DTEND;TZID=Europe/Warsaw:20261202T112500
+SUMMARY:Sd. (S)
+LOCATION:56/ 62
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr hab.
+  inż. (prof. ucz.) Baranowski Paweł\nNr zajęć: 7/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a037648dea756639ad5ce73e@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261207T080000
+DTEND;TZID=Europe/Warsaw:20261207T093500
+SUMMARY:SNUB (L)
+LOCATION:6/ 62
+DESCRIPTION:Symulacja numeryczna układów biomechanicznych\nRodzaj: labor
+ atorium\nProwadzący: dr inż. Tomaszewski Michał\; dr inż. Świerczews
+ ki Marek\nNr zajęć: 9/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:15c5f189b43be98bb6751bf5@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261207T095000
+DTEND;TZID=Europe/Warsaw:20261207T112500
+SUMMARY:SNUB (L)
+LOCATION:6/ 62
+DESCRIPTION:Symulacja numeryczna układów biomechanicznych\nRodzaj: labor
+ atorium\nProwadzący: dr inż. Tomaszewski Michał\; dr inż. Świerczews
+ ki Marek\nNr zajęć: 10/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:af05a62b329c10e06b3ac9f9@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261208T080000
+DTEND;TZID=Europe/Warsaw:20261208T093500
+SUMMARY:SNUB (L)
+LOCATION:6/ 62
+DESCRIPTION:Symulacja numeryczna układów biomechanicznych\nRodzaj: labor
+ atorium\nProwadzący: dr inż. Tomaszewski Michał\; dr inż. Świerczews
+ ki Marek\nNr zajęć: 11/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:114b625ac6d455f7432933de@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261208T095000
+DTEND;TZID=Europe/Warsaw:20261208T112500
+SUMMARY:SNUB (L)
+LOCATION:6/ 62
+DESCRIPTION:Symulacja numeryczna układów biomechanicznych\nRodzaj: labor
+ atorium\nProwadzący: dr inż. Tomaszewski Michał\; dr inż. Świerczews
+ ki Marek\nNr zajęć: 12/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:579a07436d752887d3a4661c@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261208T114000
+DTEND;TZID=Europe/Warsaw:20261208T131500
+SUMMARY:Sd. (S)
+LOCATION:6/ 62
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr hab.
+  inż. (prof. ucz.) Baranowski Paweł\nNr zajęć: 8/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6ac745b8f6f388f83cd3fff3@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261208T133000
+DTEND;TZID=Europe/Warsaw:20261208T150500
+SUMMARY:Sd. (S)
+LOCATION:6/ 62
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr hab.
+  inż. (prof. ucz.) Baranowski Paweł\nNr zajęć: 9/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:03790d6ef1d2518b95d8f08f@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261208T160000
+DTEND;TZID=Europe/Warsaw:20261208T173500
+SUMMARY:Sd. (S)
+LOCATION:6/ 62
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr hab.
+  inż. (prof. ucz.) Baranowski Paweł\nNr zajęć: 10/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:11533989274d817de5cc8787@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261214T095000
+DTEND;TZID=Europe/Warsaw:20261214T112500
+SUMMARY:SNUB (Zp/lab.)
+LOCATION:6/ 62
+DESCRIPTION:Symulacja numeryczna układów biomechanicznych\nProwadzący: 
+ dr inż. Tomaszewski Michał\; dr inż. Świerczewski Marek\nNr zajęć: 
+ 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f485507cd55c1e2873cf5872@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261215T095000
+DTEND;TZID=Europe/Warsaw:20261215T112500
+SUMMARY:MiSSR (Zp/lab.)
+LOCATION:6/ 62
+DESCRIPTION:Modelowanie i symulacja sprzętu rehabilitacyjnego 1\nProwadz
+ ący: dr inż. Damaziak Krzysztof\; dr inż. Kucewicz Michał\nNr zajęć
+ : 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:81ed4ac56f7cab9d650e0a74@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20261215T114000
+DTEND;TZID=Europe/Warsaw:20261215T131500
+SUMMARY:MiSSR (Zp.Pr)
+LOCATION:6/ 62
+DESCRIPTION:Modelowanie i symulacja sprzętu rehabilitacyjnego 1\nProwadz
+ ący: dr inż. Tomaszewski Michał\; dr inż. Kucewicz Michał\nNr zaję
+ ć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2c6508e19accc90534249085@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270111T080000
+DTEND;TZID=Europe/Warsaw:20270111T093500
+SUMMARY:Sd. (Zp.S)
+LOCATION:6/ 62
+DESCRIPTION:Seminarium dyplomowe\nProwadzący: dr hab. inż. (prof. ucz.) 
+ Baranowski Paweł\nNr zajęć: 1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9614e33ceb847492121143cf@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270112T095000
+DTEND;TZID=Europe/Warsaw:20270112T112500
+SUMMARY:SNUB (Zp.)
+LOCATION:6/ 62
+DESCRIPTION:Symulacja numeryczna układów biomechanicznych\nRodzaj: zalic
+ zenie poprawkowe\nProwadzący: dr inż. Tomaszewski Michał\nNr zajęć: 
+ 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:03bc8fe60e254de7b538a126@wat-plan
+DTSTAMP:20261118T134923Z
+DTSTART;TZID=Europe/Warsaw:20270112T114000
+DTEND;TZID=Europe/Warsaw:20270112T131500
+SUMMARY:MiSSR (Zp.)
+LOCATION:6/ 62
+DESCRIPTION:Modelowanie i symulacja sprzętu rehabilitacyjnego 1\nRodzaj: 
+ zaliczenie poprawkowe\nProwadzący: dr hab. inż. (prof. ucz.) Baranowski
+  Paweł\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+END:VCALENDAR

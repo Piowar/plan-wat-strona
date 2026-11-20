@@ -1,0 +1,2394 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WME26DX4S1
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:941e69cccb0d2a9a64a4bd5f@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261006T080000
+DTEND;TZID=Europe/Warsaw:20261006T093500
+SUMMARY:PGI (w)
+LOCATION:3/ 54
+DESCRIPTION:Podstawy grafiki inżynierskiej\nRodzaj: wykład\nProwadzący:
+  dr inż. Torzewski Janusz\nNr zajęć: 1/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d680c874a47aa8c1fa30fbe4@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261006T095000
+DTEND;TZID=Europe/Warsaw:20261006T112500
+SUMMARY:M1 (w)
+LOCATION:3/ 54
+DESCRIPTION:Matematyka 1\nRodzaj: wykład\nProwadzący: dr Klepczarek Mich
+ ał\nNr zajęć: 1/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:22187b39a9470bce04088767@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261007T080000
+DTEND;TZID=Europe/Warsaw:20261007T093500
+SUMMARY:M1 (w)
+LOCATION:3/ 54
+DESCRIPTION:Matematyka 1\nRodzaj: wykład\nProwadzący: dr Klepczarek Mich
+ ał\nNr zajęć: 2/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8f2b3c7843080149f7b15bfb@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261007T114000
+DTEND;TZID=Europe/Warsaw:20261007T131500
+SUMMARY:M1 (ć)
+LOCATION:9/ 62
+DESCRIPTION:Matematyka 1\nRodzaj: ćwiczenia\nProwadzący: dr Klepczarek M
+ ichał\nNr zajęć: 1/19\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b94b1841636795e8c6dcba47@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261007T133000
+DTEND;TZID=Europe/Warsaw:20261007T150500
+SUMMARY:M1 (ć)
+LOCATION:9/ 62
+DESCRIPTION:Matematyka 1\nRodzaj: ćwiczenia\nProwadzący: dr Klepczarek M
+ ichał\nNr zajęć: 2/19\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:26ad8b14bd3d1613529e4c2b@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261008T114000
+DTEND;TZID=Europe/Warsaw:20261008T131500
+SUMMARY:Wdi. (w)
+LOCATION:3/ 54
+DESCRIPTION:Wprowadzenie do informatyki.\nRodzaj: wykład\nProwadzący: dr
+  inż. Konarzewski Marcin\nNr zajęć: 1/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4af675cc63f8a0fc6023664f@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261008T133000
+DTEND;TZID=Europe/Warsaw:20261008T150500
+SUMMARY:WDM (w)
+LOCATION:3/ 54
+DESCRIPTION:Wprowadzenie do metrologii\nRodzaj: wykład\nProwadzący: dr i
+ nż. Boruta Grzegorz\nNr zajęć: 1/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7d2a1d558fdcfb296b50ede4@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261008T160000
+DTEND;TZID=Europe/Warsaw:20261008T173500
+SUMMARY:JoM (ć)
+LOCATION:233 K\;232 K\;231 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 1/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:4b117b646ecddac4d0ead504@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261008T194000
+DTEND;TZID=Europe/Warsaw:20261008T211500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;235 K\;134 K\;133 K\;131 K\;126 K\;122 K\;121 K\;120 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 1/15\nBlok: 
+ 7
+END:VEVENT
+BEGIN:VEVENT
+UID:6bd2df2cbf345b5168948644@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261012T080000
+DTEND;TZID=Europe/Warsaw:20261012T093500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Uzar
+ ska Magdalena\nNr zajęć: 1/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:54f3970f6d18273a921713a5@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261012T095000
+DTEND;TZID=Europe/Warsaw:20261012T112500
+SUMMARY:M1 (w)
+LOCATION:3/ 54
+DESCRIPTION:Matematyka 1\nRodzaj: wykład\nProwadzący: dr Klepczarek Mich
+ ał\nNr zajęć: 3/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5ae7cc93dd0436c38b1a7d7e@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261012T114000
+DTEND;TZID=Europe/Warsaw:20261012T131500
+SUMMARY:WDM (w)
+LOCATION:3/ 54
+DESCRIPTION:Wprowadzenie do metrologii\nRodzaj: wykład\nProwadzący: dr i
+ nż. Boruta Grzegorz\nNr zajęć: 2/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e3167ed5123e8ad097570aab@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261012T133000
+DTEND;TZID=Europe/Warsaw:20261012T150500
+SUMMARY:PZiP (w)
+LOCATION:3/ 54
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: wykład\
+ nProwadzący: dr hab. Panek Joanna\nNr zajęć: 1/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b0d85fff3124265daef72cd2@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261013T080000
+DTEND;TZID=Europe/Warsaw:20261013T093500
+SUMMARY:PGI (w)
+LOCATION:3/ 54
+DESCRIPTION:Podstawy grafiki inżynierskiej\nRodzaj: wykład\nProwadzący:
+  dr inż. Torzewski Janusz\nNr zajęć: 2/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3d78d506a16bae1e59b6fca6@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261013T095000
+DTEND;TZID=Europe/Warsaw:20261013T112500
+SUMMARY:M1 (w)
+LOCATION:3/ 54
+DESCRIPTION:Matematyka 1\nRodzaj: wykład\nProwadzący: dr Klepczarek Mich
+ ał\nNr zajęć: 4/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0f38a1380b6944d904baf2fc@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261013T114000
+DTEND;TZID=Europe/Warsaw:20261013T131500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Uzar
+ ska Magdalena\nNr zajęć: 2/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f4569d3eeb0734fe4c1450af@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261014T133000
+DTEND;TZID=Europe/Warsaw:20261014T150500
+SUMMARY:M1 (ć)
+LOCATION:54/ 62
+DESCRIPTION:Matematyka 1\nRodzaj: ćwiczenia\nProwadzący: dr Klepczarek M
+ ichał\nNr zajęć: 3/19\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8efd1b0d886f32f9c7447397@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261014T160000
+DTEND;TZID=Europe/Warsaw:20261014T173500
+SUMMARY:M1 (ć)
+LOCATION:54/ 62
+DESCRIPTION:Matematyka 1\nRodzaj: ćwiczenia\nProwadzący: dr Klepczarek M
+ ichał\nNr zajęć: 4/19\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:98571e2527b3c53d49fc9970@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261015T095000
+DTEND;TZID=Europe/Warsaw:20261015T112500
+SUMMARY:M1 (w)
+LOCATION:3/ 54
+DESCRIPTION:Matematyka 1\nRodzaj: wykład\nProwadzący: dr Klepczarek Mich
+ ał\nNr zajęć: 5/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:91f6be232183195005e57684@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261015T114000
+DTEND;TZID=Europe/Warsaw:20261015T131500
+SUMMARY:Wdi. (w)
+LOCATION:3/ 54
+DESCRIPTION:Wprowadzenie do informatyki.\nRodzaj: wykład\nProwadzący: dr
+  inż. Konarzewski Marcin\nNr zajęć: 2/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4f634fbfbf46dd7175388184@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261015T133000
+DTEND;TZID=Europe/Warsaw:20261015T150500
+SUMMARY:WDM (w)
+LOCATION:3/ 54
+DESCRIPTION:Wprowadzenie do metrologii\nRodzaj: wykład\nProwadzący: dr i
+ nż. Boruta Grzegorz\nNr zajęć: 3/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:fc31b7f1f7fd0c70018ed3b0@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261015T160000
+DTEND;TZID=Europe/Warsaw:20261015T173500
+SUMMARY:JoM (ć)
+LOCATION:233 K\;232 K\;231 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 2/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:0beaad2b03471fd59d2402b3@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261015T194000
+DTEND;TZID=Europe/Warsaw:20261015T211500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;235 K\;134 K\;133 K\;131 K\;126 K\;122 K\;121 K\;120 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 2/15\nBlok: 
+ 7
+END:VEVENT
+BEGIN:VEVENT
+UID:cb4f735e40fd1808de8787ba@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261016T095000
+DTEND;TZID=Europe/Warsaw:20261016T112500
+SUMMARY:M1 (ć)
+LOCATION:8/ 62
+DESCRIPTION:Matematyka 1\nRodzaj: ćwiczenia\nProwadzący: dr Klepczarek M
+ ichał\nNr zajęć: 5/19\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b2329b5728db3a57e2c8e809@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261016T114000
+DTEND;TZID=Europe/Warsaw:20261016T131500
+SUMMARY:M1 (ć)
+LOCATION:8/ 62
+DESCRIPTION:Matematyka 1\nRodzaj: ćwiczenia\nProwadzący: dr Klepczarek M
+ ichał\nNr zajęć: 6/19\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:05a13e75a8db71e59d0d588b@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261016T160000
+DTEND;TZID=Europe/Warsaw:20261016T173500
+SUMMARY:BHP* (w)
+DESCRIPTION:Bezpieczeństwo i higiena pracy\nRodzaj: wykład\nProwadzący:
+  E - Lerning\nNr zajęć: 1/2\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:1c233902bf0ee64f01098117@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261016T175000
+DTEND;TZID=Europe/Warsaw:20261016T192500
+SUMMARY:BHP* (w)
+DESCRIPTION:Bezpieczeństwo i higiena pracy\nRodzaj: wykład\nProwadzący:
+  E - Lerning\nNr zajęć: 2/2\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:7ded204f5667c67f5889d3c6@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261019T080000
+DTEND;TZID=Europe/Warsaw:20261019T093500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Uzar
+ ska Magdalena\nNr zajęć: 3/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2f1a6cb68ad83c7d1338d910@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261019T095000
+DTEND;TZID=Europe/Warsaw:20261019T112500
+SUMMARY:M1 (w)
+LOCATION:3/ 54
+DESCRIPTION:Matematyka 1\nRodzaj: wykład\nProwadzący: dr Klepczarek Mich
+ ał\nNr zajęć: 6/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:71779bfd3e085905633f9a06@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261019T114000
+DTEND;TZID=Europe/Warsaw:20261019T131500
+SUMMARY:WDM (w)
+LOCATION:3/ 54
+DESCRIPTION:Wprowadzenie do metrologii\nRodzaj: wykład\nProwadzący: dr i
+ nż. Boruta Grzegorz\nNr zajęć: 4/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:acd3b3596ea8ac21c4028ec9@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261019T133000
+DTEND;TZID=Europe/Warsaw:20261019T150500
+SUMMARY:PZiP (w)
+LOCATION:3/ 54
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: wykład\
+ nProwadzący: dr hab. Panek Joanna\nNr zajęć: 2/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:50b23a045d4426cbf680d771@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261020T080000
+DTEND;TZID=Europe/Warsaw:20261020T093500
+SUMMARY:PGI (w)
+LOCATION:3/ 54
+DESCRIPTION:Podstawy grafiki inżynierskiej\nRodzaj: wykład\nProwadzący:
+  dr inż. Torzewski Janusz\nNr zajęć: 3/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ac4b8480b07ce7e03f8861e2@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261020T095000
+DTEND;TZID=Europe/Warsaw:20261020T112500
+SUMMARY:M1 (w)
+LOCATION:3/ 54
+DESCRIPTION:Matematyka 1\nRodzaj: wykład\nProwadzący: dr Klepczarek Mich
+ ał\nNr zajęć: 7/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e61dbb7ebb02d829ad820e91@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261020T114000
+DTEND;TZID=Europe/Warsaw:20261020T131500
+SUMMARY:PGI (ć)
+LOCATION:120/ 54
+DESCRIPTION:Podstawy grafiki inżynierskiej\nRodzaj: ćwiczenia\nProwadzą
+ cy: dr inż. Puchała Krzysztof\nNr zajęć: 1/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7927ae3e5c15463bc35f4cd4@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261021T080000
+DTEND;TZID=Europe/Warsaw:20261021T093500
+SUMMARY:M1 (w)
+LOCATION:3/ 54
+DESCRIPTION:Matematyka 1\nRodzaj: wykład\nProwadzący: dr Klepczarek Mich
+ ał\nNr zajęć: 8/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:93f8d748e08b0658d185cc40@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261021T133000
+DTEND;TZID=Europe/Warsaw:20261021T150500
+SUMMARY:M1 (ć)
+LOCATION:8/ 62
+DESCRIPTION:Matematyka 1\nRodzaj: ćwiczenia\nProwadzący: dr Klepczarek M
+ ichał\nNr zajęć: 7/19\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:aa41c788228eb40e9ae9e8c7@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261021T160000
+DTEND;TZID=Europe/Warsaw:20261021T173500
+SUMMARY:M1 (ć)
+LOCATION:8/ 62
+DESCRIPTION:Matematyka 1\nRodzaj: ćwiczenia\nProwadzący: dr Klepczarek M
+ ichał\nNr zajęć: 8/19\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:70fdbdc5ad87f39161d7877a@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261022T095000
+DTEND;TZID=Europe/Warsaw:20261022T112500
+SUMMARY:PZiP (ć)
+LOCATION:2.42/ 54A
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: ćwiczen
+ ia\nProwadzący: dr Antczak Joanna\nNr zajęć: 1/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e55e8cd04ebae85afb030867@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261022T133000
+DTEND;TZID=Europe/Warsaw:20261022T150500
+SUMMARY:WDM (w)
+LOCATION:3/ 54
+DESCRIPTION:Wprowadzenie do metrologii\nRodzaj: wykład\nProwadzący: dr i
+ nż. Boruta Grzegorz\nNr zajęć: 5/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9b40c6e487bc3e4a34ec518a@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261022T160000
+DTEND;TZID=Europe/Warsaw:20261022T173500
+SUMMARY:JoM (ć)
+LOCATION:233 K\;232 K\;231 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 3/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:a273e728b2d80239b85d81c3@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261022T194000
+DTEND;TZID=Europe/Warsaw:20261022T211500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;235 K\;134 K\;133 K\;131 K\;126 K\;122 K\;121 K\;120 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 3/15\nBlok: 
+ 7
+END:VEVENT
+BEGIN:VEVENT
+UID:3ff02dcd2f39998477661235@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261023T080000
+DTEND;TZID=Europe/Warsaw:20261023T093500
+SUMMARY:WdS (w)
+LOCATION:ONLINE
+DESCRIPTION:Wprowadzenie do studiowania\nRodzaj: wykład\nProwadzący: dr 
+ Łakoma Ewa\nNr zajęć: 1/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8c8d9c5654240b04006ec58d@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261023T095000
+DTEND;TZID=Europe/Warsaw:20261023T112500
+SUMMARY:WdS (w)
+LOCATION:ONLINE
+DESCRIPTION:Wprowadzenie do studiowania\nRodzaj: wykład\nProwadzący: dr 
+ Łakoma Ewa\nNr zajęć: 2/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:40b828fd40631e977fb65270@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261023T114000
+DTEND;TZID=Europe/Warsaw:20261023T131500
+SUMMARY:WdS (w)
+LOCATION:ONLINE
+DESCRIPTION:Wprowadzenie do studiowania\nRodzaj: wykład\nProwadzący: dr 
+ Łakoma Ewa\nNr zajęć: 3/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2b3159c7279624ac03e8246c@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261026T080000
+DTEND;TZID=Europe/Warsaw:20261026T093500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Uzar
+ ska Magdalena\nNr zajęć: 4/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f65e793318b0f7409647903a@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261026T095000
+DTEND;TZID=Europe/Warsaw:20261026T112500
+SUMMARY:M1 (w)
+LOCATION:3/ 54
+DESCRIPTION:Matematyka 1\nRodzaj: wykład\nProwadzący: dr Klepczarek Mich
+ ał\nNr zajęć: 9/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0cbf1ad896913d2516c6dce0@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261026T114000
+DTEND;TZID=Europe/Warsaw:20261026T131500
+SUMMARY:WDM (w)
+LOCATION:3/ 54
+DESCRIPTION:Wprowadzenie do metrologii\nRodzaj: wykład\nProwadzący: dr i
+ nż. Boruta Grzegorz\nNr zajęć: 6/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:fb8766571e3846ca243d9619@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261026T133000
+DTEND;TZID=Europe/Warsaw:20261026T150500
+SUMMARY:PZiP (w)
+LOCATION:3/ 54
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: wykład\
+ nProwadzący: dr hab. Panek Joanna\nNr zajęć: 3/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d85566610358cec9e4c61e72@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261027T080000
+DTEND;TZID=Europe/Warsaw:20261027T093500
+SUMMARY:PGI (w)
+LOCATION:3/ 54
+DESCRIPTION:Podstawy grafiki inżynierskiej\nRodzaj: wykład\nProwadzący:
+  dr inż. Torzewski Janusz\nNr zajęć: 4/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4fcee207d667aacac2a98c87@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261027T095000
+DTEND;TZID=Europe/Warsaw:20261027T112500
+SUMMARY:M1 (w)
+LOCATION:3/ 54
+DESCRIPTION:Matematyka 1\nRodzaj: wykład\nProwadzący: dr Klepczarek Mich
+ ał\nNr zajęć: 10/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:936f4369638dedf1ed249acc@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261027T114000
+DTEND;TZID=Europe/Warsaw:20261027T131500
+SUMMARY:PZiP (w)
+LOCATION:15/ 23A
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: wykład\
+ nProwadzący: dr hab. Panek Joanna\nNr zajęć: 4/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0542f3ba4307d63b6f46a355@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261027T133000
+DTEND;TZID=Europe/Warsaw:20261027T150500
+SUMMARY:PGI (ć)
+LOCATION:120/ 54
+DESCRIPTION:Podstawy grafiki inżynierskiej\nRodzaj: ćwiczenia\nProwadzą
+ cy: dr inż. Puchała Krzysztof\nNr zajęć: 2/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:fb82ef0c5fdfa93e07e978ff@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261027T160000
+DTEND;TZID=Europe/Warsaw:20261027T173500
+SUMMARY:PZiP (ć)
+LOCATION:1/ 19
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: ćwiczen
+ ia\nProwadzący: dr Antczak Joanna\nNr zajęć: 2/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:a2a17d7185ea5291394808e9@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261028T133000
+DTEND;TZID=Europe/Warsaw:20261028T150500
+SUMMARY:M1 (ć)
+LOCATION:3/ 54
+DESCRIPTION:Matematyka 1\nRodzaj: ćwiczenia\nProwadzący: dr Klepczarek M
+ ichał\nNr zajęć: 9/19\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3b96454be55ba268f5a7e4d0@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261028T160000
+DTEND;TZID=Europe/Warsaw:20261028T173500
+SUMMARY:M1 (ć)
+LOCATION:3/ 54
+DESCRIPTION:Matematyka 1\nRodzaj: ćwiczenia\nProwadzący: dr Klepczarek M
+ ichał\nNr zajęć: 10/19\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:4648fe6a2bd5e7516632e408@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261029T095000
+DTEND;TZID=Europe/Warsaw:20261029T112500
+SUMMARY:Wdi. (L)
+LOCATION:7/ 23A
+DESCRIPTION:Wprowadzenie do informatyki.\nRodzaj: laboratorium\nProwadząc
+ y: mgr inż. Dobrowolski Daniel\nNr zajęć: 1/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:11f78573c7340619fcce2c5e@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261029T114000
+DTEND;TZID=Europe/Warsaw:20261029T131500
+SUMMARY:Wdi. (w)
+LOCATION:3/ 54
+DESCRIPTION:Wprowadzenie do informatyki.\nRodzaj: wykład\nProwadzący: dr
+  inż. Konarzewski Marcin\nNr zajęć: 3/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:74b0aa4653d273aacf389a42@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261029T133000
+DTEND;TZID=Europe/Warsaw:20261029T150500
+SUMMARY:WDM (w)
+LOCATION:3/ 54
+DESCRIPTION:Wprowadzenie do metrologii\nRodzaj: wykład\nProwadzący: dr i
+ nż. Boruta Grzegorz\nNr zajęć: 7/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:787b376beac1ac3246da6565@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261029T160000
+DTEND;TZID=Europe/Warsaw:20261029T173500
+SUMMARY:JoM (ć)
+LOCATION:233 K\;232 K\;231 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 4/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:0d45dc93973a29a012f570e4@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261029T175000
+DTEND;TZID=Europe/Warsaw:20261029T192500
+SUMMARY:SpO (i)
+LOCATION:15/ 23A
+DESCRIPTION:Spotkanie z opiekunem rocznika\nRodzaj: inne\nProwadzący: mgr
+  inż. Gajda Olga\nNr zajęć: 1/1\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:122199f7d22b760461b88400@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261029T194000
+DTEND;TZID=Europe/Warsaw:20261029T211500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;235 K\;134 K\;133 K\;131 K\;126 K\;122 K\;121 K\;120 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 4/15\nBlok: 
+ 7
+END:VEVENT
+BEGIN:VEVENT
+UID:5ac908dd03c3d2667847fe53@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261102T080000
+DTEND;TZID=Europe/Warsaw:20261102T093500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Uzar
+ ska Magdalena\nNr zajęć: 5/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c9cc9f8444c4706dcc4b35d2@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261102T095000
+DTEND;TZID=Europe/Warsaw:20261102T112500
+SUMMARY:M1 (w)
+LOCATION:3/ 54
+DESCRIPTION:Matematyka 1\nRodzaj: wykład\nProwadzący: dr Klepczarek Mich
+ ał\nNr zajęć: 11/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c4cad7c835e6c79370b0d7a9@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261102T114000
+DTEND;TZID=Europe/Warsaw:20261102T131500
+SUMMARY:WDM (w)
+LOCATION:3/ 54
+DESCRIPTION:Wprowadzenie do metrologii\nRodzaj: wykład\nProwadzący: dr i
+ nż. Boruta Grzegorz\nNr zajęć: 8/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:81da7b308177cf28d42c232b@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261102T133000
+DTEND;TZID=Europe/Warsaw:20261102T150500
+SUMMARY:PZiP (w)
+LOCATION:3/ 54
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: wykład\
+ nProwadzący: dr hab. Panek Joanna\nNr zajęć: 5/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:673bd0640090075c2c95ee43@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261103T080000
+DTEND;TZID=Europe/Warsaw:20261103T093500
+SUMMARY:PGI (w)
+LOCATION:3/ 54
+DESCRIPTION:Podstawy grafiki inżynierskiej\nRodzaj: wykład\nProwadzący:
+  dr inż. Torzewski Janusz\nNr zajęć: 5/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:29f364ab0ec41a1bdfc9521e@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261103T095000
+DTEND;TZID=Europe/Warsaw:20261103T112500
+SUMMARY:M1 (w)
+LOCATION:3/ 54
+DESCRIPTION:Matematyka 1\nRodzaj: wykład\nProwadzący: dr Klepczarek Mich
+ ał\nNr zajęć: 12/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:91664f145de2f87458684934@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261104T133000
+DTEND;TZID=Europe/Warsaw:20261104T150500
+SUMMARY:M1 (ć)
+LOCATION:8/ 62
+DESCRIPTION:Matematyka 1\nRodzaj: ćwiczenia\nProwadzący: dr Klepczarek M
+ ichał\nNr zajęć: 11/19\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4a1be8f803c835cfd9ee3594@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261104T160000
+DTEND;TZID=Europe/Warsaw:20261104T173500
+SUMMARY:M1 (ć)
+LOCATION:8/ 62
+DESCRIPTION:Matematyka 1\nRodzaj: ćwiczenia\nProwadzący: dr Klepczarek M
+ ichał\nNr zajęć: 12/19\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:c3539105348d5c8bdeccbd29@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261105T095000
+DTEND;TZID=Europe/Warsaw:20261105T112500
+SUMMARY:Wdi. (L)
+LOCATION:7/ 23A
+DESCRIPTION:Wprowadzenie do informatyki.\nRodzaj: laboratorium\nProwadząc
+ y: mgr inż. Dobrowolski Daniel\nNr zajęć: 2/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7e2a2930959a79d4be5e8952@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261105T114000
+DTEND;TZID=Europe/Warsaw:20261105T131500
+SUMMARY:Ez (w)
+LOCATION:3/ 54
+DESCRIPTION:Etyka zawodowa\nRodzaj: wykład\nProwadzący: dr Kasperski Mar
+ ian\nNr zajęć: 1/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2269f97901f6afa50b3493ec@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261105T133000
+DTEND;TZID=Europe/Warsaw:20261105T150500
+SUMMARY:Wdi. (w)
+LOCATION:3/ 54
+DESCRIPTION:Wprowadzenie do informatyki.\nRodzaj: wykład\nProwadzący: dr
+  inż. Konarzewski Marcin\nNr zajęć: 4/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ee82916dc3d19b75ba6c0580@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261105T160000
+DTEND;TZID=Europe/Warsaw:20261105T173500
+SUMMARY:JoM (ć)
+LOCATION:233 K\;232 K\;231 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 5/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:b3fc94b5693614df83f8b233@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261105T194000
+DTEND;TZID=Europe/Warsaw:20261105T211500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;235 K\;134 K\;133 K\;131 K\;126 K\;122 K\;121 K\;120 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 5/15\nBlok: 
+ 7
+END:VEVENT
+BEGIN:VEVENT
+UID:0a2fab1bb6d8aa9752b376a3@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261109T080000
+DTEND;TZID=Europe/Warsaw:20261109T093500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Uzar
+ ska Magdalena\nNr zajęć: 6/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c0aaeee3947375e88ae80e1b@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261109T095000
+DTEND;TZID=Europe/Warsaw:20261109T112500
+SUMMARY:M1 (w)
+LOCATION:3/ 54
+DESCRIPTION:Matematyka 1\nRodzaj: wykład\nProwadzący: dr Klepczarek Mich
+ ał\nNr zajęć: 13/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:eb02eff400fd0b52eec7e332@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261109T114000
+DTEND;TZID=Europe/Warsaw:20261109T131500
+SUMMARY:Wzp (w)
+LOCATION:3/ 54
+DESCRIPTION:Wybrane zagadnienia prawa\nRodzaj: wykład\nProwadzący: dr Ś
+ ledzik Waldemar\nNr zajęć: 1/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:751985c75714a5bcec4dd8b7@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261109T133000
+DTEND;TZID=Europe/Warsaw:20261109T150500
+SUMMARY:PZiP (w)
+LOCATION:3/ 54
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: wykład\
+ nProwadzący: dr hab. Panek Joanna\nNr zajęć: 6/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:008cf9fa861e132491463825@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261110T080000
+DTEND;TZID=Europe/Warsaw:20261110T093500
+SUMMARY:PGI (w)
+LOCATION:3/ 54
+DESCRIPTION:Podstawy grafiki inżynierskiej\nRodzaj: wykład\nProwadzący:
+  dr inż. Torzewski Janusz\nNr zajęć: 6/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:47a8a6dcb5e5ca72a68c565c@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261110T095000
+DTEND;TZID=Europe/Warsaw:20261110T112500
+SUMMARY:M1 (w)
+LOCATION:3/ 54
+DESCRIPTION:Matematyka 1\nRodzaj: wykład\nProwadzący: dr Klepczarek Mich
+ ał\nNr zajęć: 14/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f1044262e8d52c256bb5a701@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261110T114000
+DTEND;TZID=Europe/Warsaw:20261110T131500
+SUMMARY:WDM (ć)
+LOCATION:2.42/ 54A
+DESCRIPTION:Wprowadzenie do metrologii\nRodzaj: ćwiczenia\nProwadzący: d
+ r inż. Boruta Grzegorz\nNr zajęć: 1/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:144994b802e829c10208493e@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261110T133000
+DTEND;TZID=Europe/Warsaw:20261110T150500
+SUMMARY:WDM (ć)
+LOCATION:2.42/ 54A
+DESCRIPTION:Wprowadzenie do metrologii\nRodzaj: ćwiczenia\nProwadzący: d
+ r inż. Boruta Grzegorz\nNr zajęć: 2/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:da6dbd0a35c37187f16e02b4@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261112T095000
+DTEND;TZID=Europe/Warsaw:20261112T112500
+SUMMARY:Wdi. (L)
+LOCATION:7/ 23A
+DESCRIPTION:Wprowadzenie do informatyki.\nRodzaj: laboratorium\nProwadząc
+ y: mgr inż. Dobrowolski Daniel\nNr zajęć: 3/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c7c1760aa685117eb2b7636d@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261112T114000
+DTEND;TZID=Europe/Warsaw:20261112T131500
+SUMMARY:Ez (w)
+LOCATION:3/ 54
+DESCRIPTION:Etyka zawodowa\nRodzaj: wykład\nProwadzący: dr Kasperski Mar
+ ian\nNr zajęć: 2/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e21859d6822863d8c47eb16d@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261112T133000
+DTEND;TZID=Europe/Warsaw:20261112T150500
+SUMMARY:Wdi. (w)
+LOCATION:3/ 54
+DESCRIPTION:Wprowadzenie do informatyki.\nRodzaj: wykład\nProwadzący: dr
+  inż. Konarzewski Marcin\nNr zajęć: 5/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:99ff139e3c36793819ac8da9@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261112T160000
+DTEND;TZID=Europe/Warsaw:20261112T173500
+SUMMARY:JoM (ć)
+LOCATION:233 K\;232 K\;231 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 6/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:c3425b4153de5471d17b2dad@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261112T194000
+DTEND;TZID=Europe/Warsaw:20261112T211500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;235 K\;134 K\;133 K\;131 K\;126 K\;122 K\;121 K\;120 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 6/15\nBlok: 
+ 7
+END:VEVENT
+BEGIN:VEVENT
+UID:5933d7711bb95925dd489703@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261113T114000
+DTEND;TZID=Europe/Warsaw:20261113T131500
+SUMMARY:M1 (ć)
+LOCATION:8/ 62
+DESCRIPTION:Matematyka 1\nRodzaj: ćwiczenia\nProwadzący: dr Klepczarek M
+ ichał\nNr zajęć: 13/19\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9f01565981e91ca740c6a12b@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261113T133000
+DTEND;TZID=Europe/Warsaw:20261113T150500
+SUMMARY:M1 (ć)
+LOCATION:8/ 62
+DESCRIPTION:Matematyka 1\nRodzaj: ćwiczenia\nProwadzący: dr Klepczarek M
+ ichał\nNr zajęć: 14/19\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:eddf82b2926f0e78c2dad908@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261113T160000
+DTEND;TZID=Europe/Warsaw:20261113T173500
+SUMMARY:PGI (ć)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Podstawy grafiki inżynierskiej\nRodzaj: ćwiczenia\nProwadzą
+ cy: dr inż. Puchała Krzysztof\; dr inż. Wiśniewski Andrzej\nNr zaję
+ ć: 3/12\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:bce2b2063c33b40099d521f2@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261113T175000
+DTEND;TZID=Europe/Warsaw:20261113T192500
+SUMMARY:PGI (ć)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Podstawy grafiki inżynierskiej\nRodzaj: ćwiczenia\nProwadzą
+ cy: dr inż. Puchała Krzysztof\; dr inż. Wiśniewski Andrzej\nNr zaję
+ ć: 4/12\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:34bcb0848a759e4c484bb0b7@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261116T080000
+DTEND;TZID=Europe/Warsaw:20261116T093500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Uzar
+ ska Magdalena\nNr zajęć: 7/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d175637a09bcd952ab83a2c8@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261116T095000
+DTEND;TZID=Europe/Warsaw:20261116T112500
+SUMMARY:Mat2 (w)
+LOCATION:3/ 54
+DESCRIPTION:Matematyka 2\nRodzaj: wykład\nProwadzący: dr Klepczarek Mich
+ ał\nNr zajęć: 1/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:cef0dacf32a8844bbc0532fa@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261116T114000
+DTEND;TZID=Europe/Warsaw:20261116T131500
+SUMMARY:Wzp (w)
+LOCATION:3/ 54
+DESCRIPTION:Wybrane zagadnienia prawa\nRodzaj: wykład\nProwadzący: dr Ś
+ ledzik Waldemar\nNr zajęć: 2/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:aa608235545c341034c67846@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261116T133000
+DTEND;TZID=Europe/Warsaw:20261116T150500
+SUMMARY:PZiP (w)
+LOCATION:3/ 54
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: wykład\
+ nProwadzący: dr hab. Panek Joanna\nNr zajęć: 7/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2e4af83f7a929e76b6804231@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261117T080000
+DTEND;TZID=Europe/Warsaw:20261117T093500
+SUMMARY:PGI (w)
+LOCATION:3/ 54
+DESCRIPTION:Podstawy grafiki inżynierskiej\nRodzaj: wykład\nProwadzący:
+  dr inż. Torzewski Janusz\nNr zajęć: 7/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:eab10dc8b28e5566b08eeab5@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261117T095000
+DTEND;TZID=Europe/Warsaw:20261117T112500
+SUMMARY:M1 (w)
+LOCATION:3/ 54
+DESCRIPTION:Matematyka 1\nRodzaj: wykład\nProwadzący: dr Klepczarek Mich
+ ał\nNr zajęć: 15/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:917c0b9d3bcfb6f220be43ee@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261117T114000
+DTEND;TZID=Europe/Warsaw:20261117T131500
+SUMMARY:PZiP (ć)
+LOCATION:15/ 23A
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: ćwiczen
+ ia\nProwadzący: dr Antczak Joanna\nNr zajęć: 3/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ea1880f1f391bf2527e06bad@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261118T095000
+DTEND;TZID=Europe/Warsaw:20261118T112500
+SUMMARY:M1 (ć)
+LOCATION:2/ 23A
+DESCRIPTION:Matematyka 1\nRodzaj: ćwiczenia\nProwadzący: dr Klepczarek M
+ ichał\nNr zajęć: 15/19\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a981cbb91deb605b582803ed@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261118T114000
+DTEND;TZID=Europe/Warsaw:20261118T131500
+SUMMARY:PGI (ć)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Podstawy grafiki inżynierskiej\nRodzaj: ćwiczenia\nProwadzą
+ cy: dr inż. Puchała Krzysztof\; dr inż. Wiśniewski Andrzej\nNr zaję
+ ć: 5/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:481b5b84ee2a94c4de2d3a6f@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261118T133000
+DTEND;TZID=Europe/Warsaw:20261118T150500
+SUMMARY:PZiP (ć)
+LOCATION:2.42/ 54A
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: ćwiczen
+ ia\nProwadzący: dr Antczak Joanna\nNr zajęć: 4/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f27e037c5df6d1462d55e830@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261118T160000
+DTEND;TZID=Europe/Warsaw:20261118T173500
+SUMMARY:WDM (ć)
+LOCATION:6/ 23A
+DESCRIPTION:Wprowadzenie do metrologii\nRodzaj: ćwiczenia\nProwadzący: d
+ r inż. Boruta Grzegorz\nNr zajęć: 3/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:c20e3cad7ea54805e94ddc94@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261119T095000
+DTEND;TZID=Europe/Warsaw:20261119T112500
+SUMMARY:Wdi. (L)
+LOCATION:7/ 23A
+DESCRIPTION:Wprowadzenie do informatyki.\nRodzaj: laboratorium\nProwadząc
+ y: mgr inż. Dobrowolski Daniel\nNr zajęć: 4/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:492138e654af3c428e766e9b@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261119T114000
+DTEND;TZID=Europe/Warsaw:20261119T131500
+SUMMARY:Ez (w)
+LOCATION:3/ 54
+DESCRIPTION:Etyka zawodowa\nRodzaj: wykład\nProwadzący: dr Kasperski Mar
+ ian\nNr zajęć: 3/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ed4a9213a07861cb534d090a@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261119T133000
+DTEND;TZID=Europe/Warsaw:20261119T150500
+SUMMARY:Wdi. (w)
+LOCATION:3/ 54
+DESCRIPTION:Wprowadzenie do informatyki.\nRodzaj: wykład\nProwadzący: dr
+  inż. Konarzewski Marcin\nNr zajęć: 6/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:80db4d00b84b48364bbb99eb@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261119T160000
+DTEND;TZID=Europe/Warsaw:20261119T173500
+SUMMARY:JoM (ć)
+LOCATION:233 K\;232 K\;231 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 7/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:222dc4049b95330e625afc2d@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261119T194000
+DTEND;TZID=Europe/Warsaw:20261119T211500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;235 K\;134 K\;133 K\;131 K\;126 K\;122 K\;121 K\;120 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 7/15\nBlok: 
+ 7
+END:VEVENT
+BEGIN:VEVENT
+UID:6f7d9fde3dca7a36a36995ba@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261120T095000
+DTEND;TZID=Europe/Warsaw:20261120T112500
+SUMMARY:WDM (ć)
+LOCATION:5/ 20
+DESCRIPTION:Wprowadzenie do metrologii\nRodzaj: ćwiczenia\nProwadzący: d
+ r inż. Boruta Grzegorz\nNr zajęć: 4/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:870d914c6aee2f663916cb69@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261120T114000
+DTEND;TZID=Europe/Warsaw:20261120T131500
+SUMMARY:WDM (ć)
+LOCATION:5/ 20
+DESCRIPTION:Wprowadzenie do metrologii\nRodzaj: ćwiczenia\nProwadzący: d
+ r inż. Boruta Grzegorz\nNr zajęć: 5/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:dac6165e7477f0470b830296@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261120T133000
+DTEND;TZID=Europe/Warsaw:20261120T150500
+SUMMARY:M1 (ć)
+LOCATION:116/ 54
+DESCRIPTION:Matematyka 1\nRodzaj: ćwiczenia\nProwadzący: dr Klepczarek M
+ ichał\nNr zajęć: 16/19\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:af3198184ac4dc9d8d5c9374@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261120T160000
+DTEND;TZID=Europe/Warsaw:20261120T173500
+SUMMARY:M1 (ć)
+LOCATION:116/ 54
+DESCRIPTION:Matematyka 1\nRodzaj: ćwiczenia\nProwadzący: dr Klepczarek M
+ ichał\nNr zajęć: 17/19\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:1001b1484066cd3c4fb54c15@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261123T080000
+DTEND;TZID=Europe/Warsaw:20261123T093500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Uzar
+ ska Magdalena\nNr zajęć: 8/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a62cc4aa6d1be2b30029bec9@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261123T095000
+DTEND;TZID=Europe/Warsaw:20261123T112500
+SUMMARY:Mat2 (w)
+LOCATION:3/ 54
+DESCRIPTION:Matematyka 2\nRodzaj: wykład\nProwadzący: dr Klepczarek Mich
+ ał\nNr zajęć: 2/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:78030e3c58693ad0dace93b1@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261123T114000
+DTEND;TZID=Europe/Warsaw:20261123T131500
+SUMMARY:Wzp (w)
+LOCATION:3/ 54
+DESCRIPTION:Wybrane zagadnienia prawa\nRodzaj: wykład\nProwadzący: dr Ś
+ ledzik Waldemar\nNr zajęć: 3/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:06d684b643fd92803dfb5ceb@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261123T133000
+DTEND;TZID=Europe/Warsaw:20261123T150500
+SUMMARY:Owi (w)
+LOCATION:3/ 54
+DESCRIPTION:Ochrona własności intelektualnych\nRodzaj: wykład\nProwadz
+ ący: dr Mielnik Marcin\nNr zajęć: 1/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:49959307b91b79168e4fff53@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261124T080000
+DTEND;TZID=Europe/Warsaw:20261124T093500
+SUMMARY:Owi (w)
+LOCATION:3/ 54
+DESCRIPTION:Ochrona własności intelektualnych\nRodzaj: wykład\nProwadz
+ ący: dr Mielnik Marcin\nNr zajęć: 2/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d13961bc3269bb938cb2cab6@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261124T095000
+DTEND;TZID=Europe/Warsaw:20261124T112500
+SUMMARY:Mat2 (w)
+LOCATION:3/ 54
+DESCRIPTION:Matematyka 2\nRodzaj: wykład\nProwadzący: dr Klepczarek Mich
+ ał\nNr zajęć: 3/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:fb745bf30d23523606a3ddff@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261124T114000
+DTEND;TZID=Europe/Warsaw:20261124T131500
+SUMMARY:PZiP (ć)
+LOCATION:2.42/ 54A
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: ćwiczen
+ ia\nProwadzący: dr Antczak Joanna\nNr zajęć: 5/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ea3a8989a463771fd173d355@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261124T133000
+DTEND;TZID=Europe/Warsaw:20261124T150500
+SUMMARY:WDM (ć)
+LOCATION:3/ 54
+DESCRIPTION:Wprowadzenie do metrologii\nRodzaj: ćwiczenia\nProwadzący: d
+ r inż. Boruta Grzegorz\nNr zajęć: 6/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:fb3b49ff2c0259338c7871d5@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261125T095000
+DTEND;TZID=Europe/Warsaw:20261125T112500
+SUMMARY:Wzp (w)
+LOCATION:3/ 54
+DESCRIPTION:Wybrane zagadnienia prawa\nRodzaj: wykład\nProwadzący: dr Ś
+ ledzik Waldemar\nNr zajęć: 4/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9584dae65aec1e41a5fb18e5@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261125T133000
+DTEND;TZID=Europe/Warsaw:20261125T150500
+SUMMARY:PGI (ć)
+LOCATION:109/ 54
+DESCRIPTION:Podstawy grafiki inżynierskiej\nRodzaj: ćwiczenia\nProwadzą
+ cy: dr inż. Puchała Krzysztof\nNr zajęć: 6/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5359a7c9fa6d9953186ae38e@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261125T160000
+DTEND;TZID=Europe/Warsaw:20261125T173500
+SUMMARY:M1 (ć)
+LOCATION:120/ 54
+DESCRIPTION:Matematyka 1\nRodzaj: ćwiczenia\nProwadzący: dr Klepczarek M
+ ichał\nNr zajęć: 18/19\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:8969291acdfe0dd5e1506c25@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261126T095000
+DTEND;TZID=Europe/Warsaw:20261126T112500
+SUMMARY:Wdi. (L)
+LOCATION:7/ 23A
+DESCRIPTION:Wprowadzenie do informatyki.\nRodzaj: laboratorium\nProwadząc
+ y: mgr inż. Dobrowolski Daniel\nNr zajęć: 5/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:52333bbfd417049765ae8636@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261126T114000
+DTEND;TZID=Europe/Warsaw:20261126T131500
+SUMMARY:Ez (w)
+LOCATION:3/ 54
+DESCRIPTION:Etyka zawodowa\nRodzaj: wykład\nProwadzący: dr Kasperski Mar
+ ian\nNr zajęć: 4/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6487a254eeca4373360e2943@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261126T133000
+DTEND;TZID=Europe/Warsaw:20261126T150500
+SUMMARY:Wdi. (w)
+LOCATION:3/ 54
+DESCRIPTION:Wprowadzenie do informatyki.\nRodzaj: wykład\nProwadzący: dr
+  inż. Konarzewski Marcin\nNr zajęć: 7/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:62d689255c989a36bba9a783@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261126T160000
+DTEND;TZID=Europe/Warsaw:20261126T173500
+SUMMARY:JoM (ć)
+LOCATION:233 K\;232 K\;231 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 8/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:3a997c468f745c1dc2900489@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261126T194000
+DTEND;TZID=Europe/Warsaw:20261126T211500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;235 K\;134 K\;133 K\;131 K\;126 K\;122 K\;121 K\;120 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 8/15\nBlok: 
+ 7
+END:VEVENT
+BEGIN:VEVENT
+UID:82e9878a9549085c82c7b19e@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261130T080000
+DTEND;TZID=Europe/Warsaw:20261130T093500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Uzar
+ ska Magdalena\nNr zajęć: 9/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4baa4fd9cc28a491fdb51007@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261130T095000
+DTEND;TZID=Europe/Warsaw:20261130T112500
+SUMMARY:Mat2 (w)
+LOCATION:3/ 54
+DESCRIPTION:Matematyka 2\nRodzaj: wykład\nProwadzący: dr Klepczarek Mich
+ ał\nNr zajęć: 4/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3b23883e41f438712248c890@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261130T114000
+DTEND;TZID=Europe/Warsaw:20261130T131500
+SUMMARY:Wzp (w)
+LOCATION:3/ 54
+DESCRIPTION:Wybrane zagadnienia prawa\nRodzaj: wykład\nProwadzący: dr Ś
+ ledzik Waldemar\nNr zajęć: 5/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1f6a25c09cbe116a1e212fe1@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261130T133000
+DTEND;TZID=Europe/Warsaw:20261130T150500
+SUMMARY:Owi (w)
+LOCATION:3/ 54
+DESCRIPTION:Ochrona własności intelektualnych\nRodzaj: wykład\nProwadz
+ ący: dr Mielnik Marcin\nNr zajęć: 3/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c77fbaee396a90494a2ea786@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261201T080000
+DTEND;TZID=Europe/Warsaw:20261201T093500
+SUMMARY:Owi (w)
+LOCATION:3/ 54
+DESCRIPTION:Ochrona własności intelektualnych\nRodzaj: wykład\nProwadz
+ ący: dr Mielnik Marcin\nNr zajęć: 4/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5cc27f07656257b432269c0b@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261201T095000
+DTEND;TZID=Europe/Warsaw:20261201T112500
+SUMMARY:Mat2 (w)
+LOCATION:3/ 54
+DESCRIPTION:Matematyka 2\nRodzaj: wykład\nProwadzący: dr Klepczarek Mich
+ ał\nNr zajęć: 5/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:cff927f077124a8e2e6ded5f@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261201T114000
+DTEND;TZID=Europe/Warsaw:20261201T131500
+SUMMARY:PZiP (ć)
+LOCATION:2.42/ 54A
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: ćwiczen
+ ia\nProwadzący: dr Antczak Joanna\nNr zajęć: 6/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:616e8fa1ae3ef2cfc27b4f36@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261202T133000
+DTEND;TZID=Europe/Warsaw:20261202T150500
+SUMMARY:Wdi. (L)
+LOCATION:53/ 62
+DESCRIPTION:Wprowadzenie do informatyki.\nRodzaj: laboratorium\nProwadząc
+ y: mgr inż. Dobrowolski Daniel\nNr zajęć: 6/11\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ea5358fca5ecd12386a27d66@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261202T160000
+DTEND;TZID=Europe/Warsaw:20261202T173500
+SUMMARY:M1 (ć)
+LOCATION:301/ S
+DESCRIPTION:Matematyka 1\nRodzaj: ćwiczenia\nProwadzący: dr Klepczarek M
+ ichał\nNr zajęć: 19/19\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:456481f36d223706558dc5e7@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261203T080000
+DTEND;TZID=Europe/Warsaw:20261203T093500
+SUMMARY:PGI (ć)
+LOCATION:120/ 54
+DESCRIPTION:Podstawy grafiki inżynierskiej\nRodzaj: ćwiczenia\nProwadzą
+ cy: dr inż. Puchała Krzysztof\nNr zajęć: 7/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c04cd57bf97b031715f0a153@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261203T095000
+DTEND;TZID=Europe/Warsaw:20261203T112500
+SUMMARY:Wdi. (L)
+LOCATION:7/ 23A
+DESCRIPTION:Wprowadzenie do informatyki.\nRodzaj: laboratorium\nProwadząc
+ y: mgr inż. Dobrowolski Daniel\nNr zajęć: 7/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8a0ad388fcd2bf3b5394719b@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261203T114000
+DTEND;TZID=Europe/Warsaw:20261203T131500
+SUMMARY:Ez (w)
+LOCATION:3/ 54
+DESCRIPTION:Etyka zawodowa\nRodzaj: wykład\nProwadzący: dr Kasperski Mar
+ ian\nNr zajęć: 5/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c70092a3ae3543c073d35a61@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261203T133000
+DTEND;TZID=Europe/Warsaw:20261203T150500
+SUMMARY:Wdi. (w)
+LOCATION:3/ 54
+DESCRIPTION:Wprowadzenie do informatyki.\nRodzaj: wykład\nProwadzący: dr
+  inż. Konarzewski Marcin\nNr zajęć: 8/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:bd96ff2d9634522bf836071a@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261203T160000
+DTEND;TZID=Europe/Warsaw:20261203T173500
+SUMMARY:JoM (ć)
+LOCATION:233 K\;232 K\;231 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 9/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:fc8afa8459372c0155cb9277@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261203T194000
+DTEND;TZID=Europe/Warsaw:20261203T211500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;235 K\;134 K\;133 K\;131 K\;126 K\;122 K\;121 K\;120 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 9/15\nBlok: 
+ 7
+END:VEVENT
+BEGIN:VEVENT
+UID:56753a4ac83e8e60c4c562cf@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261204T114000
+DTEND;TZID=Europe/Warsaw:20261204T131500
+SUMMARY:WDM (ć)
+LOCATION:5/ 20
+DESCRIPTION:Wprowadzenie do metrologii\nRodzaj: ćwiczenia\nProwadzący: d
+ r inż. Boruta Grzegorz\nNr zajęć: 7/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:aa35763e44b4128b614ebdb9@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261207T080000
+DTEND;TZID=Europe/Warsaw:20261207T093500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Uzar
+ ska Magdalena\nNr zajęć: 10/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ed3392b91acd298dad8f861c@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261207T095000
+DTEND;TZID=Europe/Warsaw:20261207T112500
+SUMMARY:Mat2 (w)
+LOCATION:3/ 54
+DESCRIPTION:Matematyka 2\nRodzaj: wykład\nProwadzący: dr Klepczarek Mich
+ ał\nNr zajęć: 6/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c978e7b825d54c82de4aea2e@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261207T114000
+DTEND;TZID=Europe/Warsaw:20261207T131500
+SUMMARY:Wzp (w)
+LOCATION:3/ 54
+DESCRIPTION:Wybrane zagadnienia prawa\nRodzaj: wykład\nProwadzący: dr Ś
+ ledzik Waldemar\nNr zajęć: 6/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5bf21d008d5ffb528757ba1b@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261207T133000
+DTEND;TZID=Europe/Warsaw:20261207T150500
+SUMMARY:PZiP (w)
+LOCATION:3/ 54
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: wykład\
+ nProwadzący: dr hab. Panek Joanna\nNr zajęć: 8/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c8a96231eb4096edd931a207@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261208T080000
+DTEND;TZID=Europe/Warsaw:20261208T093500
+SUMMARY:Owi (w)
+LOCATION:3/ 54
+DESCRIPTION:Ochrona własności intelektualnych\nRodzaj: wykład\nProwadz
+ ący: dr Mielnik Marcin\nNr zajęć: 5/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a7b4ea8499626b6ecd79dce5@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261208T095000
+DTEND;TZID=Europe/Warsaw:20261208T112500
+SUMMARY:Mat2 (w)
+LOCATION:3/ 54
+DESCRIPTION:Matematyka 2\nRodzaj: wykład\nProwadzący: dr Klepczarek Mich
+ ał\nNr zajęć: 7/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6952e140dc86d1885a09f1bc@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261208T133000
+DTEND;TZID=Europe/Warsaw:20261208T150500
+SUMMARY:Wzp (ć)
+LOCATION:5/ 20
+DESCRIPTION:Wybrane zagadnienia prawa\nRodzaj: ćwiczenia\nProwadzący: dr
+  Śledzik Waldemar\nNr zajęć: 1/2\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:233282e4a1b5b4a5c22daa5c@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261210T080000
+DTEND;TZID=Europe/Warsaw:20261210T093500
+SUMMARY:Mat2 (ć)
+LOCATION:3.3 75
+DESCRIPTION:Matematyka 2\nRodzaj: ćwiczenia\nProwadzący: dr Klepczarek M
+ ichał\nNr zajęć: 1/17\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4323328c218f43ad930de079@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261210T095000
+DTEND;TZID=Europe/Warsaw:20261210T112500
+SUMMARY:Wdi. (L)
+LOCATION:7/ 23A
+DESCRIPTION:Wprowadzenie do informatyki.\nRodzaj: laboratorium\nProwadząc
+ y: mgr inż. Dobrowolski Daniel\nNr zajęć: 8/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c0bbaf16b8e1bb51233de988@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261210T114000
+DTEND;TZID=Europe/Warsaw:20261210T131500
+SUMMARY:Ez (w)
+LOCATION:3/ 54
+DESCRIPTION:Etyka zawodowa\nRodzaj: wykład\nProwadzący: dr Kasperski Mar
+ ian\nNr zajęć: 6/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:646a3afd797ac537df0d2cdc@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261210T133000
+DTEND;TZID=Europe/Warsaw:20261210T150500
+SUMMARY:PGI (ć)
+LOCATION:120/ 54
+DESCRIPTION:Podstawy grafiki inżynierskiej\nRodzaj: ćwiczenia\nProwadzą
+ cy: dr inż. Puchała Krzysztof\nNr zajęć: 8/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:747df407890f7237df3176d9@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261210T160000
+DTEND;TZID=Europe/Warsaw:20261210T173500
+SUMMARY:JoM (ć)
+LOCATION:233 K\;232 K\;231 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 10/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:2fcc7375ead08840eef4544c@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261210T194000
+DTEND;TZID=Europe/Warsaw:20261210T211500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;235 K\;134 K\;133 K\;131 K\;126 K\;122 K\;121 K\;120 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 10/15\nBlok:
+  7
+END:VEVENT
+BEGIN:VEVENT
+UID:b61de6ee422a658e2d651429@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261211T114000
+DTEND;TZID=Europe/Warsaw:20261211T131500
+SUMMARY:Wdi. (L)
+LOCATION:53/ 62
+DESCRIPTION:Wprowadzenie do informatyki.\nRodzaj: laboratorium\nProwadząc
+ y: mgr inż. Dobrowolski Daniel\nNr zajęć: 9/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:30cc06690b81d66b82b0d10f@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261211T133000
+DTEND;TZID=Europe/Warsaw:20261211T150500
+SUMMARY:Mat2 (ć)
+LOCATION:51/ 62
+DESCRIPTION:Matematyka 2\nRodzaj: ćwiczenia\nProwadzący: dr Klepczarek M
+ ichał\nNr zajęć: 2/17\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2ce74c4a2891c2c7f598b17b@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261211T160000
+DTEND;TZID=Europe/Warsaw:20261211T173500
+SUMMARY:Mat2 (ć)
+LOCATION:51/ 62
+DESCRIPTION:Matematyka 2\nRodzaj: ćwiczenia\nProwadzący: dr Klepczarek M
+ ichał\nNr zajęć: 3/17\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:fc1558c15f5e1f3995057a17@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261214T080000
+DTEND;TZID=Europe/Warsaw:20261214T093500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Uzar
+ ska Magdalena\nNr zajęć: 11/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:264fe3bc0decc095c979b328@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261214T095000
+DTEND;TZID=Europe/Warsaw:20261214T112500
+SUMMARY:Mat2 (w)
+LOCATION:3/ 54
+DESCRIPTION:Matematyka 2\nRodzaj: wykład\nProwadzący: dr Klepczarek Mich
+ ał\nNr zajęć: 8/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e8e637584bcae2c4735a697a@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261214T114000
+DTEND;TZID=Europe/Warsaw:20261214T131500
+SUMMARY:PGI (ć)
+LOCATION:120/ 54
+DESCRIPTION:Podstawy grafiki inżynierskiej\nRodzaj: ćwiczenia\nProwadzą
+ cy: dr inż. Puchała Krzysztof\nNr zajęć: 9/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9738698afd0fb6934fcc6c7b@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261215T080000
+DTEND;TZID=Europe/Warsaw:20261215T093500
+SUMMARY:Owi (w)
+LOCATION:3/ 54
+DESCRIPTION:Ochrona własności intelektualnych\nRodzaj: wykład\nProwadz
+ ący: dr Mielnik Marcin\nNr zajęć: 6/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:85c34a5b739d617cd1fa42e2@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261215T095000
+DTEND;TZID=Europe/Warsaw:20261215T112500
+SUMMARY:Mat2 (w)
+LOCATION:3/ 54
+DESCRIPTION:Matematyka 2\nRodzaj: wykład\nProwadzący: dr Klepczarek Mich
+ ał\nNr zajęć: 9/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f446055bd88f7e91adbb2d95@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261215T133000
+DTEND;TZID=Europe/Warsaw:20261215T150500
+SUMMARY:Wzp (ć)
+LOCATION:5/ 20
+DESCRIPTION:Wybrane zagadnienia prawa\nRodzaj: ćwiczenia\nProwadzący: dr
+  Śledzik Waldemar\nNr zajęć: 2/2\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d70b8a15582ed84cc801c112@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261216T133000
+DTEND;TZID=Europe/Warsaw:20261216T150500
+SUMMARY:Mat2 (ć)
+LOCATION:3/ 54
+DESCRIPTION:Matematyka 2\nRodzaj: ćwiczenia\nProwadzący: dr Klepczarek M
+ ichał\nNr zajęć: 4/17\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:bc10441d2f78e5f982a05b4f@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261216T160000
+DTEND;TZID=Europe/Warsaw:20261216T173500
+SUMMARY:Mat2 (ć)
+LOCATION:3/ 54
+DESCRIPTION:Matematyka 2\nRodzaj: ćwiczenia\nProwadzący: dr Klepczarek M
+ ichał\nNr zajęć: 5/17\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:535068de5c9ac88935a48c18@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261217T114000
+DTEND;TZID=Europe/Warsaw:20261217T131500
+SUMMARY:Ez (w)
+LOCATION:3/ 54
+DESCRIPTION:Etyka zawodowa\nRodzaj: wykład\nProwadzący: dr Kasperski Mar
+ ian\nNr zajęć: 7/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4f0ebdaaec983dc3651d34e5@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261217T160000
+DTEND;TZID=Europe/Warsaw:20261217T173500
+SUMMARY:JoM (ć)
+LOCATION:233 K\;232 K\;231 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 11/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:d10d1385594438c4a2a28ea4@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261217T194000
+DTEND;TZID=Europe/Warsaw:20261217T211500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;235 K\;134 K\;133 K\;131 K\;126 K\;122 K\;121 K\;120 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 11/15\nBlok:
+  7
+END:VEVENT
+BEGIN:VEVENT
+UID:beb1fce97ffd3cfada2d31c5@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261218T133000
+DTEND;TZID=Europe/Warsaw:20261218T150500
+SUMMARY:Mat2 (ć)
+LOCATION:51/ 62
+DESCRIPTION:Matematyka 2\nRodzaj: ćwiczenia\nProwadzący: dr Klepczarek M
+ ichał\nNr zajęć: 6/17\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7b25e41d71057689c3631545@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261218T160000
+DTEND;TZID=Europe/Warsaw:20261218T173500
+SUMMARY:Mat2 (ć)
+LOCATION:51/ 62
+DESCRIPTION:Matematyka 2\nRodzaj: ćwiczenia\nProwadzący: dr Klepczarek M
+ ichał\nNr zajęć: 7/17\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:64bb05c9d01c506cab44e48b@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261221T080000
+DTEND;TZID=Europe/Warsaw:20261221T093500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Uzar
+ ska Magdalena\nNr zajęć: 12/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:89c2920a5d2fb4e0e974a7d7@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261221T095000
+DTEND;TZID=Europe/Warsaw:20261221T112500
+SUMMARY:Mat2 (w)
+LOCATION:3/ 54
+DESCRIPTION:Matematyka 2\nRodzaj: wykład\nProwadzący: dr Klepczarek Mich
+ ał\nNr zajęć: 10/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:bad25b442abb2e5990526a1e@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261221T114000
+DTEND;TZID=Europe/Warsaw:20261221T131500
+SUMMARY:PGI (ć)
+LOCATION:120/ 54
+DESCRIPTION:Podstawy grafiki inżynierskiej\nRodzaj: ćwiczenia\nProwadzą
+ cy: dr inż. Puchała Krzysztof\nNr zajęć: 10/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:62f895cd1334af1a49d3e591@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261221T133000
+DTEND;TZID=Europe/Warsaw:20261221T150500
+SUMMARY:Owi (ć)
+LOCATION:3/ 23A
+DESCRIPTION:Ochrona własności intelektualnych\nRodzaj: ćwiczenia\nProwa
+ dzący: dr Mielnik Marcin\nNr zajęć: 1/1\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:97fb8c2481bb63a59b2f7200@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261222T080000
+DTEND;TZID=Europe/Warsaw:20261222T093500
+SUMMARY:Wzp (w)
+LOCATION:3/ 54
+DESCRIPTION:Wybrane zagadnienia prawa\nRodzaj: wykład\nProwadzący: dr Ś
+ ledzik Waldemar\nNr zajęć: 7/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:090b895eecd43a38bc0df927@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261222T095000
+DTEND;TZID=Europe/Warsaw:20261222T112500
+SUMMARY:Mat2 (w)
+LOCATION:3/ 54
+DESCRIPTION:Matematyka 2\nRodzaj: wykład\nProwadzący: dr Klepczarek Mich
+ ał\nNr zajęć: 11/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:26dbb73c1f6d2615c250d719@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20261222T114000
+DTEND;TZID=Europe/Warsaw:20261222T131500
+SUMMARY:PZiP (ć)
+LOCATION:5/ 23A
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: ćwiczen
+ ia\nProwadzący: dr Antczak Joanna\nNr zajęć: 7/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b8d86a40405816bdff7a7d80@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270107T080000
+DTEND;TZID=Europe/Warsaw:20270107T093500
+SUMMARY:Ez (ć)
+LOCATION:2.09/ 54A
+DESCRIPTION:Etyka zawodowa\nRodzaj: ćwiczenia\nProwadzący: dr Kasperski 
+ Marian\nNr zajęć: 1/2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7d01392128eb143a0eb996e0@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270107T095000
+DTEND;TZID=Europe/Warsaw:20270107T112500
+SUMMARY:WDM (ć)
+LOCATION:3/ 23A
+DESCRIPTION:Wprowadzenie do metrologii\nRodzaj: ćwiczenia\nProwadzący: d
+ r inż. Boruta Grzegorz\nNr zajęć: 8/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c54209bef02eebcefb8a95db@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270107T114000
+DTEND;TZID=Europe/Warsaw:20270107T131500
+SUMMARY:Wdi. (L)
+LOCATION:7/ 23A
+DESCRIPTION:Wprowadzenie do informatyki.\nRodzaj: laboratorium\nProwadząc
+ y: mgr inż. Dobrowolski Daniel\nNr zajęć: 10/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c058dc425934cbc144bf31d9@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270107T160000
+DTEND;TZID=Europe/Warsaw:20270107T173500
+SUMMARY:JoM (ć)
+LOCATION:233 K\;232 K\;231 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 12/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:ba67e9e4a20924c0a79c0fc4@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270107T194000
+DTEND;TZID=Europe/Warsaw:20270107T211500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;235 K\;134 K\;133 K\;131 K\;126 K\;122 K\;121 K\;120 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 12/15\nBlok:
+  7
+END:VEVENT
+BEGIN:VEVENT
+UID:b72442993e7f54a284772910@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270108T095000
+DTEND;TZID=Europe/Warsaw:20270108T112500
+SUMMARY:Mat2 (ć)
+LOCATION:52/ 62
+DESCRIPTION:Matematyka 2\nRodzaj: ćwiczenia\nProwadzący: dr Klepczarek M
+ ichał\nNr zajęć: 8/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7dc5bff2ad8d5e63345cd4d9@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270108T114000
+DTEND;TZID=Europe/Warsaw:20270108T131500
+SUMMARY:Mat2 (ć)
+LOCATION:52/ 62
+DESCRIPTION:Matematyka 2\nRodzaj: ćwiczenia\nProwadzący: dr Klepczarek M
+ ichał\nNr zajęć: 9/17\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8bdefb2672c263334555344a@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270111T080000
+DTEND;TZID=Europe/Warsaw:20270111T093500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Uzar
+ ska Magdalena\nNr zajęć: 13/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:01f28ddb987c48721ec15dcf@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270111T095000
+DTEND;TZID=Europe/Warsaw:20270111T112500
+SUMMARY:Mat2 (w)
+LOCATION:3/ 54
+DESCRIPTION:Matematyka 2\nRodzaj: wykład\nProwadzący: dr Klepczarek Mich
+ ał\nNr zajęć: 12/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:bebc5ab1f536b0725354671c@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270111T114000
+DTEND;TZID=Europe/Warsaw:20270111T131500
+SUMMARY:WDM (ć)
+LOCATION:2/ 23A
+DESCRIPTION:Wprowadzenie do metrologii\nRodzaj: ćwiczenia\nProwadzący: d
+ r inż. Boruta Grzegorz\nNr zajęć: 9/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0358711e165c76a375f7a2c3@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270112T080000
+DTEND;TZID=Europe/Warsaw:20270112T093500
+SUMMARY:PGI (ć)
+LOCATION:120/ 54
+DESCRIPTION:Podstawy grafiki inżynierskiej\nRodzaj: ćwiczenia\nProwadzą
+ cy: dr inż. Puchała Krzysztof\nNr zajęć: 11/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:24b135ac0d27945c0c3e5373@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270112T095000
+DTEND;TZID=Europe/Warsaw:20270112T112500
+SUMMARY:Mat2 (w)
+LOCATION:3/ 54
+DESCRIPTION:Matematyka 2\nRodzaj: wykład\nProwadzący: dr Klepczarek Mich
+ ał\nNr zajęć: 13/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4ad70f0204e165df2f1dbd69@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270112T114000
+DTEND;TZID=Europe/Warsaw:20270112T131500
+SUMMARY:PZiP (ć)
+LOCATION:5/ 23A
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: ćwiczen
+ ia\nProwadzący: dr Antczak Joanna\nNr zajęć: 8/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:dd7d14b798d0a0cd7e78561d@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270113T114000
+DTEND;TZID=Europe/Warsaw:20270113T131500
+SUMMARY:Mat2 (ć)
+LOCATION:51/ 62
+DESCRIPTION:Matematyka 2\nRodzaj: ćwiczenia\nProwadzący: dr Klepczarek M
+ ichał\nNr zajęć: 10/17\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c0d100f879190dbdf792b859@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270113T133000
+DTEND;TZID=Europe/Warsaw:20270113T150500
+SUMMARY:Mat2 (ć)
+LOCATION:51/ 62
+DESCRIPTION:Matematyka 2\nRodzaj: ćwiczenia\nProwadzący: dr Klepczarek M
+ ichał\nNr zajęć: 11/17\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b79f1f87e6fc77bd23ac1874@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270114T080000
+DTEND;TZID=Europe/Warsaw:20270114T093500
+SUMMARY:Ez (ć)
+LOCATION:2.42/ 54A
+DESCRIPTION:Etyka zawodowa\nRodzaj: ćwiczenia\nProwadzący: dr Kasperski 
+ Marian\nNr zajęć: 2/2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:93b4ef26a85c91297fa63ab5@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270114T114000
+DTEND;TZID=Europe/Warsaw:20270114T131500
+SUMMARY:Wdi. (L)
+LOCATION:7/ 23A
+DESCRIPTION:Wprowadzenie do informatyki.\nRodzaj: laboratorium\nProwadząc
+ y: mgr inż. Dobrowolski Daniel\nNr zajęć: 11/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:262458145376709fbec76864@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270114T160000
+DTEND;TZID=Europe/Warsaw:20270114T173500
+SUMMARY:JoM (ć)
+LOCATION:233 K\;232 K\;231 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 13/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:c889b486227314fe2231bc95@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270114T194000
+DTEND;TZID=Europe/Warsaw:20270114T211500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;235 K\;134 K\;133 K\;131 K\;126 K\;122 K\;121 K\;120 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 13/15\nBlok:
+  7
+END:VEVENT
+BEGIN:VEVENT
+UID:8a2d42ecbae70c2ce1628342@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270115T133000
+DTEND;TZID=Europe/Warsaw:20270115T150500
+SUMMARY:Mat2 (ć)
+LOCATION:51/ 62
+DESCRIPTION:Matematyka 2\nRodzaj: ćwiczenia\nProwadzący: dr Klepczarek M
+ ichał\nNr zajęć: 12/17\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0b4b0c6ff9621abaa0e896e5@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270115T160000
+DTEND;TZID=Europe/Warsaw:20270115T173500
+SUMMARY:Mat2 (ć)
+LOCATION:51/ 62
+DESCRIPTION:Matematyka 2\nRodzaj: ćwiczenia\nProwadzący: dr Klepczarek M
+ ichał\nNr zajęć: 13/17\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:257a2e505e6ce9eb109aeb93@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270118T080000
+DTEND;TZID=Europe/Warsaw:20270118T093500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Uzar
+ ska Magdalena\nNr zajęć: 14/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:daf7443d1bb4bfe4ae2655f8@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270118T095000
+DTEND;TZID=Europe/Warsaw:20270118T112500
+SUMMARY:Mat2 (w)
+LOCATION:3/ 54
+DESCRIPTION:Matematyka 2\nRodzaj: wykład\nProwadzący: dr Klepczarek Mich
+ ał\nNr zajęć: 14/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:79ff0a23d526d00c366838ca@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270118T114000
+DTEND;TZID=Europe/Warsaw:20270118T131500
+SUMMARY:PGI (ć)
+LOCATION:120/ 54
+DESCRIPTION:Podstawy grafiki inżynierskiej\nRodzaj: ćwiczenia\nProwadzą
+ cy: dr inż. Puchała Krzysztof\nNr zajęć: 12/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:70ef4649cc2f914d69396e4b@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270118T133000
+DTEND;TZID=Europe/Warsaw:20270118T150500
+SUMMARY:PZiP (w)
+LOCATION:3/ 54
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: wykład\
+ nProwadzący: dr hab. Panek Joanna\nNr zajęć: 9/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:34a81a573ce5fefa9ca3ccef@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270119T095000
+DTEND;TZID=Europe/Warsaw:20270119T112500
+SUMMARY:Mat2 (w)
+LOCATION:3/ 54
+DESCRIPTION:Matematyka 2\nRodzaj: wykład\nProwadzący: dr Klepczarek Mich
+ ał\nNr zajęć: 15/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5cf8e66969465a27613f7cac@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270119T114000
+DTEND;TZID=Europe/Warsaw:20270119T131500
+SUMMARY:WDM (ć)
+LOCATION:3/ 23A
+DESCRIPTION:Wprowadzenie do metrologii\nRodzaj: ćwiczenia\nProwadzący: d
+ r inż. Boruta Grzegorz\nNr zajęć: 10/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:188807b66dbbc1586cd3c4d8@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270120T114000
+DTEND;TZID=Europe/Warsaw:20270120T131500
+SUMMARY:Mat2 (ć)
+LOCATION:52/ 62
+DESCRIPTION:Matematyka 2\nRodzaj: ćwiczenia\nProwadzący: dr Klepczarek M
+ ichał\nNr zajęć: 14/17\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:db386ee94b95a4f2057daddc@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270120T133000
+DTEND;TZID=Europe/Warsaw:20270120T150500
+SUMMARY:Mat2 (ć)
+LOCATION:52/ 62
+DESCRIPTION:Matematyka 2\nRodzaj: ćwiczenia\nProwadzący: dr Klepczarek M
+ ichał\nNr zajęć: 15/17\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:173cc454b8c8e4f4c75988c5@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270121T160000
+DTEND;TZID=Europe/Warsaw:20270121T173500
+SUMMARY:JoM (ć)
+LOCATION:233 K\;232 K\;231 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 14/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:086b610e8070958d23b9d146@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270121T194000
+DTEND;TZID=Europe/Warsaw:20270121T211500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;235 K\;134 K\;133 K\;131 K\;126 K\;122 K\;121 K\;120 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 14/15\nBlok:
+  7
+END:VEVENT
+BEGIN:VEVENT
+UID:9708e1a197088b3e19f233f4@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270125T080000
+DTEND;TZID=Europe/Warsaw:20270125T093500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Uzar
+ ska Magdalena\nNr zajęć: 15/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d2db4e05f79b97431a8e89c5@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270125T095000
+DTEND;TZID=Europe/Warsaw:20270125T112500
+SUMMARY:Mat2 (w)
+LOCATION:3/ 54
+DESCRIPTION:Matematyka 2\nRodzaj: wykład\nProwadzący: dr Klepczarek Mich
+ ał\nNr zajęć: 16/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b303378586966722b5726157@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270125T114000
+DTEND;TZID=Europe/Warsaw:20270125T131500
+SUMMARY:WDM (w)
+LOCATION:3/ 54
+DESCRIPTION:Wprowadzenie do metrologii\nRodzaj: wykład\nProwadzący: dr i
+ nż. Boruta Grzegorz\nNr zajęć: 9/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:635b714501455181c8f838b5@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270126T095000
+DTEND;TZID=Europe/Warsaw:20270126T112500
+SUMMARY:Mat2 (w)
+LOCATION:3/ 54
+DESCRIPTION:Matematyka 2\nRodzaj: wykład\nProwadzący: dr Klepczarek Mich
+ ał\nNr zajęć: 17/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5942aa34aa0c59786c9f309c@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270127T114000
+DTEND;TZID=Europe/Warsaw:20270127T131500
+SUMMARY:Mat2 (ć)
+LOCATION:55/ 62
+DESCRIPTION:Matematyka 2\nRodzaj: ćwiczenia\nProwadzący: dr Klepczarek M
+ ichał\nNr zajęć: 16/17\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:633c2957e3dca894bd83aedb@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270127T133000
+DTEND;TZID=Europe/Warsaw:20270127T150500
+SUMMARY:Mat2 (ć)
+LOCATION:55/ 62
+DESCRIPTION:Matematyka 2\nRodzaj: ćwiczenia\nProwadzący: dr Klepczarek M
+ ichał\nNr zajęć: 17/17\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3fcd5d581b5aba7dc3b7aded@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270128T160000
+DTEND;TZID=Europe/Warsaw:20270128T173500
+SUMMARY:JoM (ć)
+LOCATION:233 K\;232 K\;231 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 15/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:55506ec10ad7441c7521c7b6@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270128T194000
+DTEND;TZID=Europe/Warsaw:20270128T211500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;235 K\;134 K\;133 K\;131 K\;126 K\;122 K\;121 K\;120 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 15/15\nBlok:
+  7
+END:VEVENT
+BEGIN:VEVENT
+UID:b87f4da48417874f485331f1@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270201T080000
+DTEND;TZID=Europe/Warsaw:20270201T093500
+SUMMARY:PGI (Zp. Ćw)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Podstawy grafiki inżynierskiej\nProwadzący: dr inż. Puchał
+ a Krzysztof\; dr inż. Wiśniewski Andrzej\nNr zajęć: 1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3bfd8655aca53a3dd7843de1@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270201T095000
+DTEND;TZID=Europe/Warsaw:20270201T112500
+SUMMARY:WDM (Zp. Ćw)
+LOCATION:5/ 20
+DESCRIPTION:Wprowadzenie do metrologii\nProwadzący: dr inż. Boruta Grzeg
+ orz\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7e2aa7c689a00e73fcf83323@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270201T114000
+DTEND;TZID=Europe/Warsaw:20270201T131500
+SUMMARY:Wzp (Zp.)
+LOCATION:3/ 54
+DESCRIPTION:Wybrane zagadnienia prawa\nRodzaj: zaliczenie poprawkowe\nProw
+ adzący: dr Śledzik Waldemar\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d3c5d29ccef806240f4a0e1a@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270201T133000
+DTEND;TZID=Europe/Warsaw:20270201T150500
+SUMMARY:Wdi. (Zp/lab.)
+LOCATION:7/ 23A
+DESCRIPTION:Wprowadzenie do informatyki.\nProwadzący: mgr inż. Dobrowols
+ ki Daniel\nNr zajęć: 1/1\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a890687a5ea557718d46ccc2@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270203T114000
+DTEND;TZID=Europe/Warsaw:20270203T131500
+SUMMARY:M1 (Zp. Ćw)
+LOCATION:8/ 62
+DESCRIPTION:Matematyka 1\nProwadzący: dr Klepczarek Michał\nNr zajęć: 
+ 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a9c2fb8be0041fad76e4ea13@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270203T133000
+DTEND;TZID=Europe/Warsaw:20270203T150500
+SUMMARY:Mat2 (Zp. Ćw)
+LOCATION:8/ 62
+DESCRIPTION:Matematyka 2\nProwadzący: dr Klepczarek Michał\nNr zajęć: 
+ 1/1\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2383c98c874c42dd4597206d@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270204T080000
+DTEND;TZID=Europe/Warsaw:20270204T093500
+SUMMARY:PZiP (Zp. Ćw)
+LOCATION:5/ 19
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nProwadzący: dr 
+ Antczak Joanna\nNr zajęć: 1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:da39ca6544e1a2f336d6a362@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270204T095000
+DTEND;TZID=Europe/Warsaw:20270204T112500
+SUMMARY:M1 (E)
+LOCATION:3/ 54
+DESCRIPTION:Matematyka 1\nRodzaj: egzamin\nProwadzący: dr Klepczarek Mich
+ ał\nNr zajęć: 1/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e893854d4044db61d1a6bafd@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270204T114000
+DTEND;TZID=Europe/Warsaw:20270204T131500
+SUMMARY:M1 (E)
+LOCATION:3/ 54
+DESCRIPTION:Matematyka 1\nRodzaj: egzamin\nProwadzący: dr Klepczarek Mich
+ ał\nNr zajęć: 2/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:813c52cb74479efbc51852a6@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270208T080000
+DTEND;TZID=Europe/Warsaw:20270208T093500
+SUMMARY:Owi (Zp.)
+LOCATION:3/ 54
+DESCRIPTION:Ochrona własności intelektualnych\nRodzaj: zaliczenie popraw
+ kowe\nProwadzący: dr Mielnik Marcin\nNr zajęć: 1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ae1f14cb5e123ca391fadf91@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270208T095000
+DTEND;TZID=Europe/Warsaw:20270208T112500
+SUMMARY:Mat2 (E)
+LOCATION:3/ 54
+DESCRIPTION:Matematyka 2\nRodzaj: egzamin\nProwadzący: dr Klepczarek Mich
+ ał\nNr zajęć: 1/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:eb8b8cd3ff344e5374be56f9@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270208T114000
+DTEND;TZID=Europe/Warsaw:20270208T131500
+SUMMARY:Mat2 (E)
+LOCATION:3/ 54
+DESCRIPTION:Matematyka 2\nRodzaj: egzamin\nProwadzący: dr Klepczarek Mich
+ ał\nNr zajęć: 2/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f52f009c44736a5470c184b5@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270209T114000
+DTEND;TZID=Europe/Warsaw:20270209T131500
+SUMMARY:PZiP (Zp.)
+LOCATION:3/ 54
+DESCRIPTION:Podstawy zarządzania i przedsiębiorczości\nRodzaj: zaliczen
+ ie poprawkowe\nProwadzący: dr hab. Panek Joanna\nNr zajęć: 1/1\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9004b75e60a4c2eb26fd3f15@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270215T080000
+DTEND;TZID=Europe/Warsaw:20270215T093500
+SUMMARY:WDM (Zp.)
+LOCATION:3/ 54
+DESCRIPTION:Wprowadzenie do metrologii\nRodzaj: zaliczenie poprawkowe\nPro
+ wadzący: dr inż. Boruta Grzegorz\nNr zajęć: 1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2abb89c3023b2f775a8cd6e1@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270215T095000
+DTEND;TZID=Europe/Warsaw:20270215T112500
+SUMMARY:M1 (Ep)
+LOCATION:3/ 54
+DESCRIPTION:Matematyka 1\nRodzaj: egzamin poprawkowy\nProwadzący: dr Klep
+ czarek Michał\nNr zajęć: 1/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7da34c39040a326ca5d07ec3@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270215T114000
+DTEND;TZID=Europe/Warsaw:20270215T131500
+SUMMARY:M1 (Ep)
+LOCATION:3/ 54
+DESCRIPTION:Matematyka 1\nRodzaj: egzamin poprawkowy\nProwadzący: dr Klep
+ czarek Michał\nNr zajęć: 2/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:33de9685b5b07b300a657a5c@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270216T080000
+DTEND;TZID=Europe/Warsaw:20270216T093500
+SUMMARY:PGI (Zp.)
+LOCATION:3/ 54
+DESCRIPTION:Podstawy grafiki inżynierskiej\nRodzaj: zaliczenie poprawkowe
+ \nProwadzący: dr inż. Torzewski Janusz\nNr zajęć: 1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:563698e8255075b8d9aeba43@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270217T095000
+DTEND;TZID=Europe/Warsaw:20270217T112500
+SUMMARY:Wdi. (Zp.)
+LOCATION:3/ 54
+DESCRIPTION:Wprowadzenie do informatyki.\nRodzaj: zaliczenie poprawkowe\nP
+ rowadzący: dr inż. Konarzewski Marcin\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:65920dd1fa4ceffc09925507@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270218T095000
+DTEND;TZID=Europe/Warsaw:20270218T112500
+SUMMARY:Mat2 (Ep)
+LOCATION:3/ 54
+DESCRIPTION:Matematyka 2\nRodzaj: egzamin poprawkowy\nProwadzący: dr Klep
+ czarek Michał\nNr zajęć: 1/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:32fe96b249f23b661b2abebb@wat-plan
+DTSTAMP:20261118T134924Z
+DTSTART;TZID=Europe/Warsaw:20270218T114000
+DTEND;TZID=Europe/Warsaw:20270218T131500
+SUMMARY:Mat2 (Ep)
+LOCATION:3/ 54
+DESCRIPTION:Matematyka 2\nRodzaj: egzamin poprawkowy\nProwadzący: dr Klep
+ czarek Michał\nNr zajęć: 2/2\nBlok: 3
+END:VEVENT
+END:VCALENDAR

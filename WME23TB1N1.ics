@@ -1,0 +1,437 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WME23TB1N1
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:121892f99b2ba39d2ee6de2a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261003T133000
+DTEND;TZID=Europe/Warsaw:20261003T150500
+SUMMARY:Par (w)
+LOCATION:5/ 23A
+DESCRIPTION:Podstawy automatyki i robotyki\nRodzaj: wykład\nProwadzący: 
+ dr hab. inż.(prof. ucz.) Żardecki Dariusz\nNr zajęć: 1/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e1ffe0ef59638f84629c2d73@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261003T152000
+DTEND;TZID=Europe/Warsaw:20261003T165500
+SUMMARY:Par (w)
+LOCATION:5/ 23A
+DESCRIPTION:Podstawy automatyki i robotyki\nRodzaj: wykład\nProwadzący: 
+ dr hab. inż.(prof. ucz.) Żardecki Dariusz\nNr zajęć: 2/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:1b662063b88814af310def23@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261017T133000
+DTEND;TZID=Europe/Warsaw:20261017T150500
+SUMMARY:Par (w)
+LOCATION:3/ 23A
+DESCRIPTION:Podstawy automatyki i robotyki\nRodzaj: wykład\nProwadzący: 
+ dr hab. inż.(prof. ucz.) Żardecki Dariusz\nNr zajęć: 3/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d806e668a38f5bcb3aa4bdd9@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261017T152000
+DTEND;TZID=Europe/Warsaw:20261017T165500
+SUMMARY:Par (w)
+LOCATION:3/ 23A
+DESCRIPTION:Podstawy automatyki i robotyki\nRodzaj: wykład\nProwadzący: 
+ dr hab. inż.(prof. ucz.) Żardecki Dariusz\nNr zajęć: 4/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f9ba4518ee05d8c28637f481@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261017T171000
+DTEND;TZID=Europe/Warsaw:20261017T184500
+SUMMARY:Ppu.(Rp) (w)
+LOCATION:6/ 23A
+DESCRIPTION:Podstawy projektowania uniwersalnego-(różnica programowa)\nR
+ odzaj: wykład\nProwadzący: dr inż. Ziubiński Mateusz\nNr zajęć: 1/1
+ \nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:51080ec735848b491c300391@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261017T190000
+DTEND;TZID=Europe/Warsaw:20261017T203500
+SUMMARY:Ppu.(Rp) (L)
+LOCATION:6/ 23A
+DESCRIPTION:Podstawy projektowania uniwersalnego-(różnica programowa)\nR
+ odzaj: laboratorium\nProwadzący: dr inż. Ziubiński Mateusz\nNr zajęć
+ : 1/2\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:ddb25d9d1af7a8ecfc2ee90b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261018T114000
+DTEND;TZID=Europe/Warsaw:20261018T131500
+SUMMARY:App (w)
+LOCATION:2/ 23A
+DESCRIPTION:Aspekty praktyczne projektowania uniwersalnego w obszarze tran
+ sportu indywidualnego\nRodzaj: wykład\nProwadzący: dr inż. Ziubiński 
+ Mateusz\nNr zajęć: 1/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a888699e22438d309a54602f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261018T133000
+DTEND;TZID=Europe/Warsaw:20261018T150500
+SUMMARY:App (w)
+LOCATION:2/ 23A
+DESCRIPTION:Aspekty praktyczne projektowania uniwersalnego w obszarze tran
+ sportu indywidualnego\nRodzaj: wykład\nProwadzący: dr inż. Ziubiński 
+ Mateusz\nNr zajęć: 2/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3a22e7ad816b8a244b939272@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261024T133000
+DTEND;TZID=Europe/Warsaw:20261024T150500
+SUMMARY:XUk* (L)
+LOCATION:4/ 68
+DESCRIPTION:XUrządzenia klimatyzacyjne i chłodnicze\nRodzaj: laboratoriu
+ m\nProwadzący: dr inż. Karczewski Mirosław\nNr zajęć: 1/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:89eac8e97d9edf2f64fe3ae7@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261024T152000
+DTEND;TZID=Europe/Warsaw:20261024T165500
+SUMMARY:XUk* (L)
+LOCATION:4/ 68
+DESCRIPTION:XUrządzenia klimatyzacyjne i chłodnicze\nRodzaj: laboratoriu
+ m\nProwadzący: dr inż. Karczewski Mirosław\nNr zajęć: 2/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:4ee5a65588d681add1b9241e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261025T133000
+DTEND;TZID=Europe/Warsaw:20261025T150500
+SUMMARY:Par (ć)
+LOCATION:3/ 23A
+DESCRIPTION:Podstawy automatyki i robotyki\nRodzaj: ćwiczenia\nProwadząc
+ y: dr inż. Dębowski Andrzej\nNr zajęć: 1/2\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3ad2c10ed8595c575175012e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261025T152000
+DTEND;TZID=Europe/Warsaw:20261025T165500
+SUMMARY:Ppu.(Rp) (L)
+LOCATION:6/ 23A
+DESCRIPTION:Podstawy projektowania uniwersalnego-(różnica programowa)\nR
+ odzaj: laboratorium\nProwadzący: mgr inż. Mantur Tomasz\nNr zajęć: 2/
+ 2\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:8d3fcfdca82384f06d29f0b2@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261107T095000
+DTEND;TZID=Europe/Warsaw:20261107T112500
+SUMMARY:App (L)
+LOCATION:3/ 23A
+DESCRIPTION:Aspekty praktyczne projektowania uniwersalnego w obszarze tran
+ sportu indywidualnego\nRodzaj: laboratorium\nProwadzący: mgr inż. Pogor
+ zelski Ireneusz\nNr zajęć: 1/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a04bb08b59a1a18c8cc031e8@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261107T114000
+DTEND;TZID=Europe/Warsaw:20261107T131500
+SUMMARY:App (L)
+LOCATION:3/ 23A
+DESCRIPTION:Aspekty praktyczne projektowania uniwersalnego w obszarze tran
+ sportu indywidualnego\nRodzaj: laboratorium\nProwadzący: mgr inż. Pogor
+ zelski Ireneusz\nNr zajęć: 2/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:064d8d7c3fdbff20e9365ac8@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261107T133000
+DTEND;TZID=Europe/Warsaw:20261107T150500
+SUMMARY:Par (w)
+LOCATION:3/ 23A
+DESCRIPTION:Podstawy automatyki i robotyki\nRodzaj: wykład\nProwadzący: 
+ dr hab. inż.(prof. ucz.) Żardecki Dariusz\nNr zajęć: 5/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1974f5e414b6f1ccc32df2c0@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261107T152000
+DTEND;TZID=Europe/Warsaw:20261107T165500
+SUMMARY:XSsh (ć)
+LOCATION:20/ 68
+DESCRIPTION:XSilniki spalinowe i hybrydowe układy napędowe\nRodzaj: ćwi
+ czenia\nProwadzący: dr inż Polak Filip\nNr zajęć: 1/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:5192bdc49432e415eb158817@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261107T171000
+DTEND;TZID=Europe/Warsaw:20261107T184500
+SUMMARY:XSsh (ć)
+LOCATION:20/ 68
+DESCRIPTION:XSilniki spalinowe i hybrydowe układy napędowe\nRodzaj: ćwi
+ czenia\nProwadzący: dr inż Polak Filip\nNr zajęć: 2/5\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:8ea339db3a51a6f5e35bec09@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261108T152000
+DTEND;TZID=Europe/Warsaw:20261108T165500
+SUMMARY:App (L)
+LOCATION:7/ 23A
+DESCRIPTION:Aspekty praktyczne projektowania uniwersalnego w obszarze tran
+ sportu indywidualnego\nRodzaj: laboratorium\nProwadzący: mgr inż. Król
+  Barbara\nNr zajęć: 3/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:79b26518db968b010f4a3a86@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261114T080000
+DTEND;TZID=Europe/Warsaw:20261114T093500
+SUMMARY:App (w)
+LOCATION:2/ 23A
+DESCRIPTION:Aspekty praktyczne projektowania uniwersalnego w obszarze tran
+ sportu indywidualnego\nRodzaj: wykład\nProwadzący: dr inż. Ziubiński 
+ Mateusz\nNr zajęć: 3/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:27dc2064de5ca309dc2af14f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261114T095000
+DTEND;TZID=Europe/Warsaw:20261114T112500
+SUMMARY:App (L)
+LOCATION:5/ 23A
+DESCRIPTION:Aspekty praktyczne projektowania uniwersalnego w obszarze tran
+ sportu indywidualnego\nRodzaj: laboratorium\nProwadzący: mgr inż. Gajda
+  Olga\nNr zajęć: 4/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:850e2108f8b431562dde06d5@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261114T114000
+DTEND;TZID=Europe/Warsaw:20261114T131500
+SUMMARY:App (L)
+LOCATION:5/ 23A
+DESCRIPTION:Aspekty praktyczne projektowania uniwersalnego w obszarze tran
+ sportu indywidualnego\nRodzaj: laboratorium\nProwadzący: mgr inż. Gajda
+  Olga\nNr zajęć: 5/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:55685c7749b1e63560d0c38c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261114T133000
+DTEND;TZID=Europe/Warsaw:20261114T150500
+SUMMARY:XSsh (ć)
+LOCATION:20/ 68
+DESCRIPTION:XSilniki spalinowe i hybrydowe układy napędowe\nRodzaj: ćwi
+ czenia\nProwadzący: dr inż Polak Filip\nNr zajęć: 3/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d74385922ab20d3b02469cee@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261114T152000
+DTEND;TZID=Europe/Warsaw:20261114T165500
+SUMMARY:XSsh (ć)
+LOCATION:20/ 68
+DESCRIPTION:XSilniki spalinowe i hybrydowe układy napędowe\nRodzaj: ćwi
+ czenia\nProwadzący: dr inż Polak Filip\nNr zajęć: 4/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:38f2ae9c0819396433e33879@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261115T133000
+DTEND;TZID=Europe/Warsaw:20261115T150500
+SUMMARY:Ppu.(Rp) (S)
+LOCATION:6/ 23A
+DESCRIPTION:Podstawy projektowania uniwersalnego-(różnica programowa)\nR
+ odzaj: seminarium\nProwadzący: dr inż. Ziubiński Mateusz\nNr zajęć: 
+ 1/2\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5393fc924df523295fe75cc6@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261115T152000
+DTEND;TZID=Europe/Warsaw:20261115T165500
+SUMMARY:Ppu.(Rp) (S)
+LOCATION:6/ 23A
+DESCRIPTION:Podstawy projektowania uniwersalnego-(różnica programowa)\nR
+ odzaj: seminarium\nProwadzący: dr inż. Ziubiński Mateusz\nNr zajęć: 
+ 2/2\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:88a4408b8dd225a13678c415@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261121T080000
+DTEND;TZID=Europe/Warsaw:20261121T093500
+SUMMARY:App (L)
+LOCATION:7/ 23A
+DESCRIPTION:Aspekty praktyczne projektowania uniwersalnego w obszarze tran
+ sportu indywidualnego\nRodzaj: laboratorium\nProwadzący: dr inż. Dębow
+ ski Andrzej\nNr zajęć: 6/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a780006edd9374309afa9028@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261121T095000
+DTEND;TZID=Europe/Warsaw:20261121T112500
+SUMMARY:App (L)
+LOCATION:7/ 23A
+DESCRIPTION:Aspekty praktyczne projektowania uniwersalnego w obszarze tran
+ sportu indywidualnego\nRodzaj: laboratorium\nProwadzący: dr inż. Dębow
+ ski Andrzej\nNr zajęć: 7/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6595318b9df55ed5385b955c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261121T114000
+DTEND;TZID=Europe/Warsaw:20261121T131500
+SUMMARY:Par (ć)
+LOCATION:3/ 23A
+DESCRIPTION:Podstawy automatyki i robotyki\nRodzaj: ćwiczenia\nProwadząc
+ y: dr inż. Dębowski Andrzej\nNr zajęć: 2/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:db7e80516ca854b431f893b3@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261121T133000
+DTEND;TZID=Europe/Warsaw:20261121T150500
+SUMMARY:Par (L)
+LOCATION:14/ 23A
+DESCRIPTION:Podstawy automatyki i robotyki\nRodzaj: laboratorium\nProwadz
+ ący: dr inż. Wiśniewski Andrzej\; mgr inż. Michałowski Bogusław\nNr
+  zajęć: 1/2\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:53bd2284da671a73dbb7c937@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261121T152000
+DTEND;TZID=Europe/Warsaw:20261121T165500
+SUMMARY:XSsh (ć)
+LOCATION:20/ 68
+DESCRIPTION:XSilniki spalinowe i hybrydowe układy napędowe\nRodzaj: ćwi
+ czenia\nProwadzący: dr inż Polak Filip\nNr zajęć: 5/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:b656013073ec851c3b668478@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261121T190000
+DTEND;TZID=Europe/Warsaw:20261121T203500
+SUMMARY:Par (L)
+LOCATION:14/ 23A
+DESCRIPTION:Podstawy automatyki i robotyki\nRodzaj: laboratorium\nProwadz
+ ący: mgr inż. Michałowski Bogusław\nNr zajęć: 2/2\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:ae40d88f6f46bc1a748cc8be@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261122T114000
+DTEND;TZID=Europe/Warsaw:20261122T131500
+SUMMARY:XUk* (L)
+LOCATION:4/ 68
+DESCRIPTION:XUrządzenia klimatyzacyjne i chłodnicze\nRodzaj: laboratoriu
+ m\nProwadzący: dr inż. Karczewski Mirosław\nNr zajęć: 3/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c27096984e97f84da57a229f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261122T133000
+DTEND;TZID=Europe/Warsaw:20261122T150500
+SUMMARY:XUk* (L)
+LOCATION:4/ 68
+DESCRIPTION:XUrządzenia klimatyzacyjne i chłodnicze\nRodzaj: laboratoriu
+ m\nProwadzący: dr inż. Karczewski Mirosław\nNr zajęć: 4/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:94879bc56f48a128966af16e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261206T114000
+DTEND;TZID=Europe/Warsaw:20261206T131500
+SUMMARY:XUk* (L)
+LOCATION:4/ 68
+DESCRIPTION:XUrządzenia klimatyzacyjne i chłodnicze\nRodzaj: laboratoriu
+ m\nProwadzący: dr inż. Karczewski Mirosław\nNr zajęć: 5/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:822014b4c3e2736a8b9c6813@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261206T133000
+DTEND;TZID=Europe/Warsaw:20261206T150500
+SUMMARY:XUk* (L)
+LOCATION:4/ 68
+DESCRIPTION:XUrządzenia klimatyzacyjne i chłodnicze\nRodzaj: laboratoriu
+ m\nProwadzący: dr inż. Karczewski Mirosław\nNr zajęć: 6/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e4df26b20a6489c64fbe5095@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261212T095000
+DTEND;TZID=Europe/Warsaw:20261212T112500
+SUMMARY:App (w)
+LOCATION:2/ 23A
+DESCRIPTION:Aspekty praktyczne projektowania uniwersalnego w obszarze tran
+ sportu indywidualnego\nRodzaj: wykład\nProwadzący: dr inż. Ziubiński 
+ Mateusz\nNr zajęć: 4/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:497fe9efec19fbdd09039575@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261212T114000
+DTEND;TZID=Europe/Warsaw:20261212T131500
+SUMMARY:App (S)
+LOCATION:2/ 23A
+DESCRIPTION:Aspekty praktyczne projektowania uniwersalnego w obszarze tran
+ sportu indywidualnego\nRodzaj: seminarium\nProwadzący: dr inż. Ziubińs
+ ki Mateusz\nNr zajęć: 1/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5f6ecc1134121814ac00409f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261212T133000
+DTEND;TZID=Europe/Warsaw:20261212T150500
+SUMMARY:App (S)
+LOCATION:2/ 23A
+DESCRIPTION:Aspekty praktyczne projektowania uniwersalnego w obszarze tran
+ sportu indywidualnego\nRodzaj: seminarium\nProwadzący: dr inż. Ziubińs
+ ki Mateusz\nNr zajęć: 2/2\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9991e21a4568a1b76ac28701@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270116T171000
+DTEND;TZID=Europe/Warsaw:20270116T184500
+SUMMARY:App (w)
+LOCATION:2/ 23A
+DESCRIPTION:Aspekty praktyczne projektowania uniwersalnego w obszarze tran
+ sportu indywidualnego\nRodzaj: wykład\nProwadzący: dr inż. Ziubiński 
+ Mateusz\nNr zajęć: 5/5\nBlok: 6
+END:VEVENT
+END:VCALENDAR

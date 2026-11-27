@@ -1,0 +1,3077 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WEL25EX2S0
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:b327d4d8af3cb650248dbad9@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261001T080000
+DTEND;TZID=Europe/Warsaw:20261001T093500
+SUMMARY:Me (w)
+LOCATION:30 61A
+DESCRIPTION:Miernictwo elektroniczne\nRodzaj: wykład\nProwadzący: dr in
+ ż. Wawer Janusz\nNr zajęć: 1/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a11af6ff50cb7e064afd08c9@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261001T095000
+DTEND;TZID=Europe/Warsaw:20261001T112500
+SUMMARY:Os2 (w)
+LOCATION:aE S
+DESCRIPTION:Obwody i sygnały 2\nRodzaj: wykład\nProwadzący: dr inż. Sz
+ ulim Marek\nNr zajęć: 1/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:da1c1e43b3c54e89972a9351@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261001T114000
+DTEND;TZID=Europe/Warsaw:20261001T131500
+SUMMARY:Pps (w)
+LOCATION:30 61A
+DESCRIPTION:Podstawy przetwarzania sygnałów\nRodzaj: wykład\nProwadząc
+ y: dr hab. inż. Leśnik Czesław\nNr zajęć: 1/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8d077c091ec8106390da63b5@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261002T080000
+DTEND;TZID=Europe/Warsaw:20261002T093500
+SUMMARY:Ucy (w)
+LOCATION:aE S
+DESCRIPTION:Układy cyfrowe\nRodzaj: wykład\nProwadzący: dr inż. Szyman
+ owski Rafał\nNr zajęć: 1/16\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:538455c62d0b92e2fd88ccde@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261002T095000
+DTEND;TZID=Europe/Warsaw:20261002T112500
+SUMMARY:F2 (w)
+LOCATION:315 S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: dr hab. inż. Madejczy
+ k Paweł\nNr zajęć: 1/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4d52baa4d8f1123894bb8234@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261002T114000
+DTEND;TZID=Europe/Warsaw:20261002T131500
+SUMMARY:Ja (ć)
+LOCATION:131 K\; 128 K\; 127 K\; 126 K\; 12
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 1/30\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:de425471ea6945e795d159a4@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261002T133000
+DTEND;TZID=Europe/Warsaw:20261002T150500
+SUMMARY:WF: Gimnastyka i ćwiczenia siłowe
+LOCATION:siłownia
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Gimnastyka i 
+ ćwiczenia siłowe (zajęcia 4)\nObiekt: siłownia\nKod SWF: S-3/4 (grupa
+  SWF 1PL/19KP)\nProwadzący: ppłk mgr inż. Goławski Rafał\nNr zajęć
+ : 1/30\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ac355e4621e6c50a762e68f1@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261003T080000
+DTEND;TZID=Europe/Warsaw:20261003T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 1/15\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:114899d4e0ea70a3257bb330@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261005T080000
+DTEND;TZID=Europe/Warsaw:20261005T093500
+SUMMARY:SzS (w)
+LOCATION:AW 4\; T2.1W
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: wykład\nProwadzący: . 1 STRZE
+ L.\nNr zajęć: 1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8b943cb159a726e9c90943c9@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261005T114000
+DTEND;TZID=Europe/Warsaw:20261005T131500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:Ośrodek Sprawności Fizycznej
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 9)\nObiek
+ t: Ośrodek Sprawności Fizycznej\nKod SWF: O-2/9 (grupa SWF 1PL/19KP)\nP
+ rowadzący: ppłk mgr inż. Goławski Rafał\nNr zajęć: 2/30\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6162b8783e3a0f1c359ac125@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261005T133000
+DTEND;TZID=Europe/Warsaw:20261005T150500
+SUMMARY:ZINŻ (w)
+LOCATION:AW 1\; T6W
+DESCRIPTION:Zabezpieczenie inżynieryjne\nRodzaj: wykład\nProwadzący: pp
+ łk mgr Jurzysta Paweł\nNr zajęć: 1/2\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a9bcbec49dad9d80772881b4@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261005T160000
+DTEND;TZID=Europe/Warsaw:20261005T173500
+SUMMARY:ZINŻ (w)
+LOCATION:AW 1\; T6W
+DESCRIPTION:Zabezpieczenie inżynieryjne\nRodzaj: wykład\nProwadzący: pp
+ łk mgr Jurzysta Paweł\nNr zajęć: 2/2\nBlok: 5\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:f723305e0fb7ad6a18bc52b4@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261006T080000
+DTEND;TZID=Europe/Warsaw:20261006T093500
+SUMMARY:Pps (w)
+LOCATION:30 61A
+DESCRIPTION:Podstawy przetwarzania sygnałów\nRodzaj: wykład\nProwadząc
+ y: dr hab. inż. Leśnik Czesław\nNr zajęć: 2/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7c5a493b7ac3aba7f60d2cbc@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261006T095000
+DTEND;TZID=Europe/Warsaw:20261006T112500
+SUMMARY:Pwd (w)
+LOCATION:315 S
+DESCRIPTION:Przywództwo w dowodzeniu\nRodzaj: wykład\nProwadzący: dr ha
+ b. inż. Rybiński Janusz\nNr zajęć: 1/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2642e32bb000099737fbdd7c@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261006T114000
+DTEND;TZID=Europe/Warsaw:20261006T131500
+SUMMARY:Ja (ć)
+LOCATION:131 K\; 128 K\; 127 K\; 126 K\; 12
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 2/30\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f9ffad78d2a81fc2ddb973a0@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261006T133000
+DTEND;TZID=Europe/Warsaw:20261006T150500
+SUMMARY:Ucy (w)
+LOCATION:3.8 75
+DESCRIPTION:Układy cyfrowe\nRodzaj: wykład\nProwadzący: dr inż. Szyman
+ owski Rafał\nNr zajęć: 2/16\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:34fbdd56669c1495624fb125@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261006T160000
+DTEND;TZID=Europe/Warsaw:20261006T173500
+SUMMARY:Me (w)
+LOCATION:aE S
+DESCRIPTION:Miernictwo elektroniczne\nRodzaj: wykład\nProwadzący: dr in
+ ż. Wawer Janusz\nNr zajęć: 2/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:b72115ac654fec2a00369de7@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261007T133000
+DTEND;TZID=Europe/Warsaw:20261007T150500
+SUMMARY:Os2 (w)
+LOCATION:aE S
+DESCRIPTION:Obwody i sygnały 2\nRodzaj: wykład\nProwadzący: dr inż. Sz
+ ulim Marek\nNr zajęć: 2/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:53d6e55a34532c2c0c645515@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261007T160000
+DTEND;TZID=Europe/Warsaw:20261007T173500
+SUMMARY:Ucy (w)
+LOCATION:3.8 75
+DESCRIPTION:Układy cyfrowe\nRodzaj: wykład\nProwadzący: dr inż. Szyman
+ owski Rafał\nNr zajęć: 3/16\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:1895bc3705c50a85685cd94c@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261008T080000
+DTEND;TZID=Europe/Warsaw:20261008T093500
+SUMMARY:Uka (w)
+LOCATION:aE S
+DESCRIPTION:Układy analogowe\nRodzaj: wykład\nProwadzący: dr inż. Chud
+ y Zdzisław\nNr zajęć: 1/11\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f0b070c6d7e48bb3ebf07613@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261009T080000
+DTEND;TZID=Europe/Warsaw:20261009T093500
+SUMMARY:Ucy (w)
+LOCATION:3.8 75
+DESCRIPTION:Układy cyfrowe\nRodzaj: wykład\nProwadzący: dr inż. Szyman
+ owski Rafał\nNr zajęć: 4/16\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:035d4efac7fce8e36f3dbdc0@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261009T095000
+DTEND;TZID=Europe/Warsaw:20261009T112500
+SUMMARY:F2 (w)
+LOCATION:315 S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: dr hab. inż. Madejczy
+ k Paweł\nNr zajęć: 2/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f8e8b8e7b8d4af24fd42ac8e@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261009T114000
+DTEND;TZID=Europe/Warsaw:20261009T131500
+SUMMARY:Ja (ć)
+LOCATION:131 K\; 128 K\; 127 K\; 126 K\; 12
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 3/30\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d50ecd82c4de2ff818d30fc9@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261009T133000
+DTEND;TZID=Europe/Warsaw:20261009T150500
+SUMMARY:WF: Gimnastyka i ćwiczenia siłowe
+LOCATION:siłownia modułowa przy AW3
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Gimnastyka i 
+ ćwiczenia siłowe (zajęcia 2)\nObiekt: siłownia modułowa przy AW3\nKo
+ d SWF: E-3/2 (grupa SWF 1PL/19KP)\nProwadzący: ppłk mgr inż. Goławski
+  Rafał\nNr zajęć: 3/30\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:cff1168c00e64af5b562028f@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261010T080000
+DTEND;TZID=Europe/Warsaw:20261010T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 2/15\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a23c15493ddfa4392acee0ff@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261012T080000
+DTEND;TZID=Europe/Warsaw:20261012T093500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(KSP)\; T2.2Ć
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 1/6\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f63c6d7a47bbf07b20b2fa69@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261012T095000
+DTEND;TZID=Europe/Warsaw:20261012T112500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(KSP)\; T2.2Ć
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 2/6\nBl
+ ok: 2\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:76ebc79ede5eedb31711e79d@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261012T114000
+DTEND;TZID=Europe/Warsaw:20261012T131500
+SUMMARY:WF: Zajęcia sportowe z różnych dyscyplin sportu i rekreacji ruc
+ howej
+LOCATION:strzelnica
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Zajęcia sport
+ owe z różnych dyscyplin sportu i rekreacji ruchowej (zajęcia 6)\nObiek
+ t: strzelnica\nKod SWF: U-16/6 (grupa SWF 1PL/19KP)\nProwadzący: ppłk m
+ gr inż. Goławski Rafał\nNr zajęć: 4/30\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:866cc156b409381012fdf2f0@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261013T080000
+DTEND;TZID=Europe/Warsaw:20261013T093500
+SUMMARY:Uka (w)
+LOCATION:3.8 75
+DESCRIPTION:Układy analogowe\nRodzaj: wykład\nProwadzący: dr inż. Chud
+ y Zdzisław\nNr zajęć: 2/11\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b27b6607f425ba8a37ac13c1@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261013T095000
+DTEND;TZID=Europe/Warsaw:20261013T112500
+SUMMARY:Os2 (w)
+LOCATION:aE S
+DESCRIPTION:Obwody i sygnały 2\nRodzaj: wykład\nProwadzący: dr inż. Sz
+ ulim Marek\nNr zajęć: 3/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9f9f9f098557412262240520@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261013T114000
+DTEND;TZID=Europe/Warsaw:20261013T131500
+SUMMARY:Ja (ć)
+LOCATION:131 K\; 128 K\; 127 K\; 126 K\; 12
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 4/30\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:cffc19ed7ad766a7f5d2e759@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261013T133000
+DTEND;TZID=Europe/Warsaw:20261013T150500
+SUMMARY:Ucy (w)
+LOCATION:3.8 75
+DESCRIPTION:Układy cyfrowe\nRodzaj: wykład\nProwadzący: dr inż. Szyman
+ owski Rafał\nNr zajęć: 5/16\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:04a27436a97667db04069c06@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261013T160000
+DTEND;TZID=Europe/Warsaw:20261013T173500
+SUMMARY:Me (L)
+LOCATION:032 S
+DESCRIPTION:Miernictwo elektroniczne\nRodzaj: laboratorium\nNr zajęć: 1/
+ 14\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:11f70c84393ba87aa7c735a2@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261013T175000
+DTEND;TZID=Europe/Warsaw:20261013T192500
+SUMMARY:Me (L)
+LOCATION:032 S
+DESCRIPTION:Miernictwo elektroniczne\nRodzaj: laboratorium\nNr zajęć: 2/
+ 14\nBlok: 6\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:466573b5f0646aa39aec5c6d@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261014T080000
+DTEND;TZID=Europe/Warsaw:20261014T093500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 1/8\
+ nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:168b0adf6b2cde866849b996@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261014T095000
+DTEND;TZID=Europe/Warsaw:20261014T112500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 2/8\
+ nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9f5931209ffc7e21a12b2521@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261014T114000
+DTEND;TZID=Europe/Warsaw:20261014T131500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 3/8\
+ nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:cfd750e2e464e4c165c64dcc@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261014T133000
+DTEND;TZID=Europe/Warsaw:20261014T150500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 4/8\
+ nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a359ec4fffc07ab00a883321@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261014T160000
+DTEND;TZID=Europe/Warsaw:20261014T173500
+SUMMARY:PP2 (w)
+LOCATION:30 61A
+DESCRIPTION:Podstawy programowania 2\nRodzaj: wykład\nProwadzący: dr in
+ ż. Górski Tomasz\nNr zajęć: 1/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:18b328143c92b1085be6e3e1@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261015T080000
+DTEND;TZID=Europe/Warsaw:20261015T093500
+SUMMARY:Pr.A (w)
+LOCATION:315 S
+DESCRIPTION:Profilaktyka antykorupcyjna\nRodzaj: wykład\nProwadzący: dr 
+ Strychalski Andrzej\nNr zajęć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:fe3547fb6a079fa238424695@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261015T114000
+DTEND;TZID=Europe/Warsaw:20261015T131500
+SUMMARY:Uka (w)
+LOCATION:aE S
+DESCRIPTION:Układy analogowe\nRodzaj: wykład\nProwadzący: dr inż. Chud
+ y Zdzisław\nNr zajęć: 3/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9a8d4c00d97ba0353616e57a@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261016T080000
+DTEND;TZID=Europe/Warsaw:20261016T093500
+SUMMARY:Ucy (w)
+LOCATION:3.8 75
+DESCRIPTION:Układy cyfrowe\nRodzaj: wykład\nProwadzący: dr inż. Szyman
+ owski Rafał\nNr zajęć: 6/16\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7f635ca6bb156a2353de6386@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261016T095000
+DTEND;TZID=Europe/Warsaw:20261016T112500
+SUMMARY:F2 (w)
+LOCATION:315 S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: dr hab. inż. Madejczy
+ k Paweł\nNr zajęć: 3/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9ceb3144647340baf4ffb333@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261016T114000
+DTEND;TZID=Europe/Warsaw:20261016T131500
+SUMMARY:Ja (ć)
+LOCATION:131 K\; 128 K\; 127 K\; 126 K\; 12
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 5/30\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:947ccfff88abc17fea808c8e@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261016T133000
+DTEND;TZID=Europe/Warsaw:20261016T150500
+SUMMARY:WF: Gimnastyka i ćwiczenia siłowe
+LOCATION:hala tartanowa – gimnastyka
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Gimnastyka i 
+ ćwiczenia siłowe (zajęcia 10)\nObiekt: hala tartanowa – gimnastyka\n
+ Kod SWF: B3-3/10 (grupa SWF 1PL/19KP)\nProwadzący: ppłk mgr inż. Goła
+ wski Rafał\nNr zajęć: 5/30\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:bdd87ad9090f3728ae7ac4fb@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261017T080000
+DTEND;TZID=Europe/Warsaw:20261017T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 3/15\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:bcbe146d318f3113199e69f4@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261019T080000
+DTEND;TZID=Europe/Warsaw:20261019T093500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PWC2)\; T2.3Ć
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 3/6\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c144d69349a6bfe090f6e8b5@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261019T095000
+DTEND;TZID=Europe/Warsaw:20261019T112500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PWC2)\; T2.3Ć
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 4/6\nBl
+ ok: 2\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:4d0523b566732d0abc8abf5c@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261020T080000
+DTEND;TZID=Europe/Warsaw:20261020T093500
+SUMMARY:Pwd (w)
+LOCATION:315 S
+DESCRIPTION:Przywództwo w dowodzeniu\nRodzaj: wykład\nProwadzący: dr ha
+ b. inż. Rybiński Janusz\nNr zajęć: 2/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:eb3bd2249f88c680ba9c9ffd@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261020T095000
+DTEND;TZID=Europe/Warsaw:20261020T112500
+SUMMARY:Uka (w)
+LOCATION:3.8 75
+DESCRIPTION:Układy analogowe\nRodzaj: wykład\nProwadzący: dr inż. Chud
+ y Zdzisław\nNr zajęć: 4/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:83746ae0586f021879590cd2@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261020T114000
+DTEND;TZID=Europe/Warsaw:20261020T131500
+SUMMARY:Ja (ć)
+LOCATION:131 K\; 128 K\; 127 K\; 126 K\; 12
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 6/30\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c5bac4429ec9d7c166982490@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261021T095000
+DTEND;TZID=Europe/Warsaw:20261021T112500
+SUMMARY:Os2 (L)
+LOCATION:81 S\; 83 S
+DESCRIPTION:Obwody i sygnały 2\nRodzaj: laboratorium\nProwadzący: mgr in
+ ż. Zachwieja Eugeniusz\nNr zajęć: 1/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ac7846f94989ace3e36c8f0f@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261021T114000
+DTEND;TZID=Europe/Warsaw:20261021T131500
+SUMMARY:Os2 (L)
+LOCATION:81 S\; 83 S
+DESCRIPTION:Obwody i sygnały 2\nRodzaj: laboratorium\nProwadzący: mgr in
+ ż. Zachwieja Eugeniusz\nNr zajęć: 2/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:49ce97de44867084ffa685ba@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261021T133000
+DTEND;TZID=Europe/Warsaw:20261021T150500
+SUMMARY:Ucy (w)
+LOCATION:3.8 75
+DESCRIPTION:Układy cyfrowe\nRodzaj: wykład\nProwadzący: dr inż. Szyman
+ owski Rafał\nNr zajęć: 7/16\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:96df6746e32e18117b03c145@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261022T080000
+DTEND;TZID=Europe/Warsaw:20261022T093500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 17)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/17 (grupa SWF 1PL/19KP)\nProwadz
+ ący: ppłk mgr inż. Goławski Rafał\nNr zajęć: 6/30\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7b2488a02e06e26721285738@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261022T095000
+DTEND;TZID=Europe/Warsaw:20261022T112500
+SUMMARY:F2 (ć)
+LOCATION:3.3 75
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: mgr inż. Walczakow
+ ski Michał\nNr zajęć: 1/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7637be11e77e13f1b61f886b@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261022T114000
+DTEND;TZID=Europe/Warsaw:20261022T131500
+SUMMARY:Os2 (w)
+LOCATION:aE S
+DESCRIPTION:Obwody i sygnały 2\nRodzaj: wykład\nProwadzący: dr inż. Sz
+ ulim Marek\nNr zajęć: 4/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2710a5bc8d489018c4d5819c@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261023T080000
+DTEND;TZID=Europe/Warsaw:20261023T093500
+SUMMARY:Ucy (w)
+LOCATION:3.8 75
+DESCRIPTION:Układy cyfrowe\nRodzaj: wykład\nProwadzący: dr inż. Szyman
+ owski Rafał\nNr zajęć: 8/16\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:cb05f811805120af08f316b6@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261023T095000
+DTEND;TZID=Europe/Warsaw:20261023T112500
+SUMMARY:F2 (w)
+LOCATION:315 S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: dr hab. inż. Madejczy
+ k Paweł\nNr zajęć: 4/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:13c30043f771e13677ba81f4@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261023T114000
+DTEND;TZID=Europe/Warsaw:20261023T131500
+SUMMARY:Ja (ć)
+LOCATION:131 K\; 128 K\; 127 K\; 126 K\; 12
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 7/30\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e5359f67f8f0db0239f96434@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261023T133000
+DTEND;TZID=Europe/Warsaw:20261023T150500
+SUMMARY:WF: Gimnastyka i ćwiczenia siłowe
+LOCATION:sala gimnastyczna nr 54
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Gimnastyka i 
+ ćwiczenia siłowe (zajęcia 2)\nObiekt: sala gimnastyczna nr 54\nKod SWF
+ : G-3/2 (grupa SWF 1PL/19KP)\nProwadzący: ppłk mgr inż. Goławski Rafa
+ ł\nNr zajęć: 7/30\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:71b35b5fb802dae6dd898476@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261023T160000
+DTEND;TZID=Europe/Warsaw:20261023T173500
+SUMMARY:PP2 (w)
+LOCATION:aE S
+DESCRIPTION:Podstawy programowania 2\nRodzaj: wykład\nProwadzący: dr in
+ ż. Górski Tomasz\nNr zajęć: 2/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:3c28e188b8decb9db4eafe90@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261024T080000
+DTEND;TZID=Europe/Warsaw:20261024T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 4/15\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:42ddee44d4a9a16a4b4ae489@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261026T080000
+DTEND;TZID=Europe/Warsaw:20261026T093500
+SUMMARY:OIN (w)
+LOCATION:AW 3/038\; T3W
+DESCRIPTION:Ochrona informacji niejawnych\nRodzaj: wykład\nProwadzący: p
+ płk mgr inż. Grądziel Grzegorz\nNr zajęć: 1/2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3c4ef676b0fe4f611add4b0f@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261026T114000
+DTEND;TZID=Europe/Warsaw:20261026T131500
+SUMMARY:ZINŻ (ć)
+LOCATION:PĆT1\; T7Ć
+DESCRIPTION:Zabezpieczenie inżynieryjne\nRodzaj: ćwiczenia\nNr zajęć: 
+ 1/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3a45229f1b0f7dab3db89980@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261026T133000
+DTEND;TZID=Europe/Warsaw:20261026T150500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PWC2)\; T2.4Ć
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 5/6\nBl
+ ok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e410d9e71d365b5c49d15a05@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261026T160000
+DTEND;TZID=Europe/Warsaw:20261026T173500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PWC2)\; T2.4Ć
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 6/6\nBl
+ ok: 5\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:78434a505bd998bac0cfc887@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261027T080000
+DTEND;TZID=Europe/Warsaw:20261027T093500
+SUMMARY:Uka (L)
+LOCATION:31 54E\; 45 54E
+DESCRIPTION:Układy analogowe\nRodzaj: laboratorium\nNr zajęć: 1/12\nBlo
+ k: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f0ab85f087cdce0eb1f53ef8@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261027T095000
+DTEND;TZID=Europe/Warsaw:20261027T112500
+SUMMARY:Uka (L)
+LOCATION:31 54E\; 45 54E
+DESCRIPTION:Układy analogowe\nRodzaj: laboratorium\nNr zajęć: 2/12\nBlo
+ k: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:560d9444c9158d69c801de7f@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261027T114000
+DTEND;TZID=Europe/Warsaw:20261027T131500
+SUMMARY:Ja (ć)
+LOCATION:131 K\; 120 K\; 121 K\; 122 K\; 12\; Grupy WEL25EY7S0\; WEL25EQ2S
+ 0 blok 13-14 ONLINE
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 8/30\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:caf0331e93845e689134d3ee@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261027T133000
+DTEND;TZID=Europe/Warsaw:20261027T150500
+SUMMARY:Pps (ć)
+LOCATION:108 80
+DESCRIPTION:Podstawy przetwarzania sygnałów\nRodzaj: ćwiczenia\nProwadz
+ ący: mgr inż. Pietrow Dymitr\nNr zajęć: 1/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:74ebb9906b9a01e74ec72858@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261028T080000
+DTEND;TZID=Europe/Warsaw:20261028T093500
+SUMMARY:ZŻWAT (i)
+DESCRIPTION:Zbiórka żołnierzy WAT\nRodzaj: inne\nNr zajęć: 1/3\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:6a979f78d9c5cc9e339b1642@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261028T095000
+DTEND;TZID=Europe/Warsaw:20261028T112500
+SUMMARY:Me (w)
+LOCATION:aE S
+DESCRIPTION:Miernictwo elektroniczne\nRodzaj: wykład\nProwadzący: dr in
+ ż. Wawer Janusz\nNr zajęć: 3/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5f861b5d967878be5f36cd72@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261028T114000
+DTEND;TZID=Europe/Warsaw:20261028T131500
+SUMMARY:Pwd (ć)
+LOCATION:3 54E
+DESCRIPTION:Przywództwo w dowodzeniu\nRodzaj: ćwiczenia\nProwadzący: mg
+ r Nowak Michał\nNr zajęć: 1/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b4431516f41dac1b407eec8b@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261028T133000
+DTEND;TZID=Europe/Warsaw:20261028T150500
+SUMMARY:Ucy (w)
+LOCATION:3.8 75
+DESCRIPTION:Układy cyfrowe\nRodzaj: wykład\nProwadzący: dr inż. Szyman
+ owski Rafał\nNr zajęć: 9/16\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8812a4da831cf9fb38b2f0ef@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261028T160000
+DTEND;TZID=Europe/Warsaw:20261028T173500
+SUMMARY:Uka (w)
+LOCATION:aE S
+DESCRIPTION:Układy analogowe\nRodzaj: wykład\nProwadzący: dr inż. Chud
+ y Zdzisław\nNr zajęć: 5/11\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:0af2ff5882800c02fcf66e46@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261029T080000
+DTEND;TZID=Europe/Warsaw:20261029T093500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 17)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/17 (grupa SWF 1PL/19KP)\nProwadz
+ ący: ppłk mgr inż. Goławski Rafał\nNr zajęć: 8/30\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b5d0535d078a84e64c94c565@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261029T095000
+DTEND;TZID=Europe/Warsaw:20261029T112500
+SUMMARY:Pr.A (w)
+LOCATION:315 S
+DESCRIPTION:Profilaktyka antykorupcyjna\nRodzaj: wykład\nProwadzący: dr 
+ Strychalski Andrzej\nNr zajęć: 2/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7a6d614efc0951d02fb1b8e2@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261029T114000
+DTEND;TZID=Europe/Warsaw:20261029T131500
+SUMMARY:Os2 (w)
+LOCATION:aE S
+DESCRIPTION:Obwody i sygnały 2\nRodzaj: wykład\nProwadzący: dr inż. Sz
+ ulim Marek\nNr zajęć: 5/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:85f2bd220e39ed4b7492154f@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261029T133000
+DTEND;TZID=Europe/Warsaw:20261029T150500
+SUMMARY:F2 (L)
+LOCATION:141 S\; 139 S
+DESCRIPTION:Fizyka 2\nRodzaj: laboratorium\nNr zajęć: 1/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b218733d65b0c108734e4792@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261030T080000
+DTEND;TZID=Europe/Warsaw:20261030T093500
+SUMMARY:Ucy (w)
+LOCATION:3.8 75
+DESCRIPTION:Układy cyfrowe\nRodzaj: wykład\nProwadzący: dr inż. Szyman
+ owski Rafał\nNr zajęć: 10/16\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:082633b5a631a42f7d6f806a@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261030T095000
+DTEND;TZID=Europe/Warsaw:20261030T112500
+SUMMARY:F2 (w)
+LOCATION:315 S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: dr hab. inż. Madejczy
+ k Paweł\nNr zajęć: 5/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f15e7f6c91583f5aae472c4d@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261030T114000
+DTEND;TZID=Europe/Warsaw:20261030T131500
+SUMMARY:Ja (ć)
+LOCATION:131 K\; 128 K\; 127 K\; 126 K\; 12
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 9/30\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:76cc7095711dba7238b5c424@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261030T133000
+DTEND;TZID=Europe/Warsaw:20261030T150500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:Ośrodek Sprawności Fizycznej
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 10)\nObie
+ kt: Ośrodek Sprawności Fizycznej\nKod SWF: O-2/10 (grupa SWF 1PL/19KP)\
+ nProwadzący: ppłk mgr inż. Goławski Rafał\nNr zajęć: 9/30\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4013d44afc776ba1724a8a41@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261030T160000
+DTEND;TZID=Europe/Warsaw:20261030T173500
+SUMMARY:Uka (w)
+LOCATION:aE S
+DESCRIPTION:Układy analogowe\nRodzaj: wykład\nProwadzący: dr inż. Chud
+ y Zdzisław\nNr zajęć: 6/11\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:d35cd8dff99551f3dbb2ecb7@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261031T080000
+DTEND;TZID=Europe/Warsaw:20261031T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 5/15\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:04f798ea57a5d26b6d23d34c@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261102T080000
+DTEND;TZID=Europe/Warsaw:20261102T093500
+SUMMARY:PODS.SUR. (ć)
+DESCRIPTION:Podstawy survivalu\nRodzaj: ćwiczenia\nProwadzący: POLIGON\n
+ Nr zajęć: 1/11\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c167924845e331d44fdf4e6d@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261102T095000
+DTEND;TZID=Europe/Warsaw:20261102T112500
+SUMMARY:PODS.SUR. (ć)
+DESCRIPTION:Podstawy survivalu\nRodzaj: ćwiczenia\nProwadzący: POLIGON\n
+ Nr zajęć: 2/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c9c7d73bd369c4d17ab473a6@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261102T114000
+DTEND;TZID=Europe/Warsaw:20261102T131500
+SUMMARY:PODS.SUR. (ć)
+DESCRIPTION:Podstawy survivalu\nRodzaj: ćwiczenia\nProwadzący: POLIGON\n
+ Nr zajęć: 3/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:043d71e47698ccedffb65a32@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261102T133000
+DTEND;TZID=Europe/Warsaw:20261102T150500
+SUMMARY:PODS.SUR. (ć)
+DESCRIPTION:Podstawy survivalu\nRodzaj: ćwiczenia\nProwadzący: POLIGON\n
+ Nr zajęć: 4/11\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:240f6a6eb43f5da21990caae@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261102T160000
+DTEND;TZID=Europe/Warsaw:20261102T173500
+SUMMARY:PODS.SUR. (ć)
+DESCRIPTION:Podstawy survivalu\nRodzaj: ćwiczenia\nProwadzący: POLIGON\n
+ Nr zajęć: 5/11\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:d30dea507fa03e054269ff6d@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261102T175000
+DTEND;TZID=Europe/Warsaw:20261102T192500
+SUMMARY:PODS.SUR. (ć)
+DESCRIPTION:Podstawy survivalu\nRodzaj: ćwiczenia\nProwadzący: POLIGON\n
+ Nr zajęć: 6/11\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:279a93b59bee7fd1f1465585@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261102T194000
+DTEND;TZID=Europe/Warsaw:20261102T211500
+SUMMARY:PODS.SUR. (ć)
+DESCRIPTION:Podstawy survivalu\nRodzaj: ćwiczenia\nProwadzący: POLIGON\n
+ Nr zajęć: 7/11\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:e3a639a8104535c38eb12c12@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261103T080000
+DTEND;TZID=Europe/Warsaw:20261103T093500
+SUMMARY:PODS.SUR. (ć)
+DESCRIPTION:Podstawy survivalu\nRodzaj: ćwiczenia\nProwadzący: POLIGON\n
+ Nr zajęć: 8/11\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:bb1365c9cd8a2dc60ad3770d@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261103T095000
+DTEND;TZID=Europe/Warsaw:20261103T112500
+SUMMARY:PODS.SUR. (ć)
+DESCRIPTION:Podstawy survivalu\nRodzaj: ćwiczenia\nProwadzący: POLIGON\n
+ Nr zajęć: 9/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:625055197a9e0a142e6d8179@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261103T114000
+DTEND;TZID=Europe/Warsaw:20261103T131500
+SUMMARY:PODS.SUR. (ć)
+DESCRIPTION:Podstawy survivalu\nRodzaj: ćwiczenia\nProwadzący: POLIGON\n
+ Nr zajęć: 10/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ad4d36ae049ee231caac7ecd@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261103T133000
+DTEND;TZID=Europe/Warsaw:20261103T150500
+SUMMARY:PODS.SUR. (ć)
+DESCRIPTION:Podstawy survivalu\nRodzaj: ćwiczenia\nProwadzący: POLIGON\n
+ Nr zajęć: 11/11\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:824526941c04f0998144174c@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261103T175000
+DTEND;TZID=Europe/Warsaw:20261103T192500
+SUMMARY:Ja (ć)
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: ONLINE\nNr 
+ zajęć: 10/30\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:237bcced9d5ae3a68ed98dca@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261104T095000
+DTEND;TZID=Europe/Warsaw:20261104T112500
+SUMMARY:PP2 (w)
+LOCATION:30 61A
+DESCRIPTION:Podstawy programowania 2\nRodzaj: wykład\nProwadzący: dr in
+ ż. Górski Tomasz\nNr zajęć: 3/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d961a0ec948d3aa58c4a154f@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261104T114000
+DTEND;TZID=Europe/Warsaw:20261104T131500
+SUMMARY:Os2 (ć)
+LOCATION:315b S
+DESCRIPTION:Obwody i sygnały 2\nRodzaj: ćwiczenia\nProwadzący: mgr inż
+ . Preibisch Piotr\nNr zajęć: 1/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f7f6a1283f61a3acbd5b793f@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261104T133000
+DTEND;TZID=Europe/Warsaw:20261104T150500
+SUMMARY:Ucy (w)
+LOCATION:3.8 75
+DESCRIPTION:Układy cyfrowe\nRodzaj: wykład\nProwadzący: dr inż. Szyman
+ owski Rafał\nNr zajęć: 11/16\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b3318c28e1101d1385065e9a@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261104T160000
+DTEND;TZID=Europe/Warsaw:20261104T173500
+SUMMARY:Uka (w)
+LOCATION:aE S
+DESCRIPTION:Układy analogowe\nRodzaj: wykład\nProwadzący: dr inż. Chud
+ y Zdzisław\nNr zajęć: 7/11\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:dd4ca80672d451802a2b9685@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261105T080000
+DTEND;TZID=Europe/Warsaw:20261105T093500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 17)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/17 (grupa SWF 1PL/19KP)\nProwadz
+ ący: ppłk mgr inż. Goławski Rafał\nNr zajęć: 10/30\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:658485d9410e2e2b0957840b@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261105T095000
+DTEND;TZID=Europe/Warsaw:20261105T112500
+SUMMARY:Pr.A (w)
+LOCATION:315 S
+DESCRIPTION:Profilaktyka antykorupcyjna\nRodzaj: wykład\nProwadzący: dr 
+ Strychalski Andrzej\nNr zajęć: 3/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2439e36b0721083894b00b77@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261105T114000
+DTEND;TZID=Europe/Warsaw:20261105T131500
+SUMMARY:Os2 (w)
+LOCATION:aE S
+DESCRIPTION:Obwody i sygnały 2\nRodzaj: wykład\nProwadzący: dr inż. Sz
+ ulim Marek\nNr zajęć: 6/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:79c94882343560a92aed578f@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261105T133000
+DTEND;TZID=Europe/Warsaw:20261105T150500
+SUMMARY:F2 (ć)
+LOCATION:116 45
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: mgr inż. Walczakow
+ ski Michał\nNr zajęć: 2/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:350ec9910cb45453a45658b9@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261106T080000
+DTEND;TZID=Europe/Warsaw:20261106T093500
+SUMMARY:Os2 (L)
+LOCATION:81 S\; 83 S
+DESCRIPTION:Obwody i sygnały 2\nRodzaj: laboratorium\nProwadzący: mgr in
+ ż. Zachwieja Eugeniusz\nNr zajęć: 3/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a94b924037084f2127e86715@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261106T095000
+DTEND;TZID=Europe/Warsaw:20261106T112500
+SUMMARY:Os2 (L)
+LOCATION:81 S\; 83 S
+DESCRIPTION:Obwody i sygnały 2\nRodzaj: laboratorium\nProwadzący: mgr in
+ ż. Zachwieja Eugeniusz\nNr zajęć: 4/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5da94616f7ce9ba1e81e7e41@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261106T114000
+DTEND;TZID=Europe/Warsaw:20261106T131500
+SUMMARY:Ja (ć)
+LOCATION:131 K\; 120 K\; 121 K\; 122 K\; 12
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 11/30\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:a275a23f33ff31d2d254006e@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261106T133000
+DTEND;TZID=Europe/Warsaw:20261106T150500
+SUMMARY:Uka (w)
+LOCATION:aE S
+DESCRIPTION:Układy analogowe\nRodzaj: wykład\nProwadzący: dr inż. Chud
+ y Zdzisław\nNr zajęć: 8/11\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:aed3086c5a5362a97fe5248a@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261107T080000
+DTEND;TZID=Europe/Warsaw:20261107T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 6/15\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e2b1d5f5441be97a92bd3bbf@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261109T080000
+DTEND;TZID=Europe/Warsaw:20261109T093500
+SUMMARY:ZINŻ (ć)
+LOCATION:ST.nr 1(ZI)\; T8Ć
+DESCRIPTION:Zabezpieczenie inżynieryjne\nRodzaj: ćwiczenia\nNr zajęć: 
+ 2/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8ace38d534fe9436c4d2f00a@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261109T114000
+DTEND;TZID=Europe/Warsaw:20261109T131500
+SUMMARY:WF: Pływanie i ratownictwo wodne
+LOCATION:pływalnia
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Pływanie i ra
+ townictwo wodne (zajęcia 2)\nObiekt: pływalnia\nKod SWF: P-5/2 (grupa S
+ WF 1PL/19KP)\nProwadzący: ppłk mgr inż. Goławski Rafał\nNr zajęć: 
+ 11/30\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d220b12408850ef5a8b144b0@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261110T114000
+DTEND;TZID=Europe/Warsaw:20261110T131500
+SUMMARY:Ja (ć)
+LOCATION:131 K\; 120 K\; 121 K\; 122 K\; 12
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 12/30\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:364f9d2861f283f66aa053d9@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261110T133000
+DTEND;TZID=Europe/Warsaw:20261110T150500
+SUMMARY:Os2 (ć)
+LOCATION:315a S
+DESCRIPTION:Obwody i sygnały 2\nRodzaj: ćwiczenia\nProwadzący: mgr inż
+ . Preibisch Piotr\nNr zajęć: 2/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0aa1f722f8cb639ab701c173@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261110T160000
+DTEND;TZID=Europe/Warsaw:20261110T173500
+SUMMARY:Uka (L)
+LOCATION:31 54E\; 45 54E
+DESCRIPTION:Układy analogowe\nRodzaj: laboratorium\nNr zajęć: 3/12\nBlo
+ k: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:a2da855bbf51ef5ef5db416d@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261110T175000
+DTEND;TZID=Europe/Warsaw:20261110T192500
+SUMMARY:Uka (L)
+LOCATION:31 54E\; 45 54E
+DESCRIPTION:Układy analogowe\nRodzaj: laboratorium\nNr zajęć: 4/12\nBlo
+ k: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:7c2046b9e7265f4bc806f136@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261112T080000
+DTEND;TZID=Europe/Warsaw:20261112T093500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 18)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/18 (grupa SWF 1PL/19KP)\nProwadz
+ ący: ppłk mgr inż. Goławski Rafał\nNr zajęć: 12/30\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6ad624d3cabd264c0945da56@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261112T095000
+DTEND;TZID=Europe/Warsaw:20261112T112500
+SUMMARY:Ucy (w)
+LOCATION:3.8 75
+DESCRIPTION:Układy cyfrowe\nRodzaj: wykład\nProwadzący: dr inż. Szyman
+ owski Rafał\nNr zajęć: 12/16\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:93dead605bb9fff946c92198@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261112T114000
+DTEND;TZID=Europe/Warsaw:20261112T131500
+SUMMARY:Os2 (w)
+LOCATION:aE S
+DESCRIPTION:Obwody i sygnały 2\nRodzaj: wykład\nProwadzący: dr inż. Sz
+ ulim Marek\nNr zajęć: 7/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3b2a2fbdc7a06f0561c11fa4@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261112T133000
+DTEND;TZID=Europe/Warsaw:20261112T150500
+SUMMARY:F2 (L)
+LOCATION:141 S\; 139 S
+DESCRIPTION:Fizyka 2\nRodzaj: laboratorium\nNr zajęć: 2/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:402295f7376e2ba18af31fa5@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261113T080000
+DTEND;TZID=Europe/Warsaw:20261113T093500
+SUMMARY:Ucy (w)
+LOCATION:3.8 75
+DESCRIPTION:Układy cyfrowe\nRodzaj: wykład\nProwadzący: dr inż. Szyman
+ owski Rafał\nNr zajęć: 13/16\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:42a53f6f1e773e8afe831a39@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261113T095000
+DTEND;TZID=Europe/Warsaw:20261113T112500
+SUMMARY:F2 (w)
+LOCATION:315 S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: dr hab. inż. Madejczy
+ k Paweł\nNr zajęć: 6/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a59c6e42eec37a9a6dd54d8d@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261113T114000
+DTEND;TZID=Europe/Warsaw:20261113T131500
+SUMMARY:Ja (ć)
+LOCATION:131 K\; 128 K\; 127 K\; 126 K\; 12
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 13/30\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:d41b4a66dd165f2925c6bd98@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261113T133000
+DTEND;TZID=Europe/Warsaw:20261113T150500
+SUMMARY:WF: Pływanie i ratownictwo wodne
+LOCATION:pływalnia
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Pływanie i ra
+ townictwo wodne (zajęcia 3)\nObiekt: pływalnia\nKod SWF: P-5/3 (grupa S
+ WF 1PL/19KP)\nProwadzący: ppłk mgr inż. Goławski Rafał\nNr zajęć: 
+ 13/30\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7f8e312a87905eb9429f8b7d@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261114T080000
+DTEND;TZID=Europe/Warsaw:20261114T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 7/15\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:59b989b158e3d0bd8e6cb089@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261116T080000
+DTEND;TZID=Europe/Warsaw:20261116T093500
+SUMMARY:OIN (w)
+LOCATION:AW 3/038\; T4W
+DESCRIPTION:Ochrona informacji niejawnych\nRodzaj: wykład\nProwadzący: p
+ płk mgr inż. Grądziel Grzegorz\nNr zajęć: 2/2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:81432bd03ac727bd47f23924@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261116T114000
+DTEND;TZID=Europe/Warsaw:20261116T131500
+SUMMARY:WF: Gimnastyka i ćwiczenia siłowe
+LOCATION:sala gimnastyczna nr 54
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Gimnastyka i 
+ ćwiczenia siłowe (zajęcia 2)\nObiekt: sala gimnastyczna nr 54\nKod SWF
+ : G-3/2 (grupa SWF 1PL/19KP)\nProwadzący: ppłk mgr inż. Goławski Rafa
+ ł\nNr zajęć: 14/30\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ddaff5fe4d38ed093b286601@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261116T133000
+DTEND;TZID=Europe/Warsaw:20261116T150500
+SUMMARY:TA (w)
+LOCATION:AW 3/043\; T8W
+DESCRIPTION:TAKTYKA\nRodzaj: wykład\nProwadzący: płk rez. dr inż. Kraw
+ czyk Grzegorz\nNr zajęć: 1/1\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:bf6fbbfc21e1cfe683d32563@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261117T080000
+DTEND;TZID=Europe/Warsaw:20261117T093500
+SUMMARY:Os2 (w)
+LOCATION:aE S
+DESCRIPTION:Obwody i sygnały 2\nRodzaj: wykład\nProwadzący: dr inż. Sz
+ ulim Marek\nNr zajęć: 8/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:68f3b58f6ea4f4065f335585@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261117T095000
+DTEND;TZID=Europe/Warsaw:20261117T112500
+SUMMARY:F2 (w)
+LOCATION:315 S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: dr hab. inż. Madejczy
+ k Paweł\nNr zajęć: 7/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:59f574fca616474dca650de0@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261117T114000
+DTEND;TZID=Europe/Warsaw:20261117T131500
+SUMMARY:Ja (ć)
+LOCATION:131 K\; 120 K\; 121 K\; 122 K\; 12
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 14/30\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:729a6c32f92dcccd879426fa@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261117T133000
+DTEND;TZID=Europe/Warsaw:20261117T150500
+SUMMARY:Pwd (w)
+LOCATION:315 S
+DESCRIPTION:Przywództwo w dowodzeniu\nRodzaj: wykład\nProwadzący: dr ha
+ b. inż. Rybiński Janusz\nNr zajęć: 3/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:800c6e4c20ca93cfdfc9a5a9@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261117T160000
+DTEND;TZID=Europe/Warsaw:20261117T173500
+SUMMARY:PP2 (w)
+LOCATION:30 61A
+DESCRIPTION:Podstawy programowania 2\nRodzaj: wykład\nProwadzący: dr in
+ ż. Górski Tomasz\nNr zajęć: 4/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:39d0ed62098636d6bdcdace0@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261118T095000
+DTEND;TZID=Europe/Warsaw:20261118T112500
+SUMMARY:Uka (w)
+LOCATION:aE S
+DESCRIPTION:Układy analogowe\nRodzaj: wykład\nProwadzący: dr inż. Chud
+ y Zdzisław\nNr zajęć: 9/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a0529070d62f42cfaa3ee404@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261118T114000
+DTEND;TZID=Europe/Warsaw:20261118T131500
+SUMMARY:Ucy (L)
+LOCATION:14 45
+DESCRIPTION:Układy cyfrowe\nRodzaj: laboratorium\nNr zajęć: 1/14\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:b444d8200beceabe1e2c4d47@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261118T133000
+DTEND;TZID=Europe/Warsaw:20261118T150500
+SUMMARY:Ucy (L)
+LOCATION:14 45
+DESCRIPTION:Układy cyfrowe\nRodzaj: laboratorium\nNr zajęć: 2/14\nBlok:
+  4
+END:VEVENT
+BEGIN:VEVENT
+UID:55d27c21d58bfbf2cfbf36a3@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261118T160000
+DTEND;TZID=Europe/Warsaw:20261118T173500
+SUMMARY:Me (L)
+LOCATION:032 S
+DESCRIPTION:Miernictwo elektroniczne\nRodzaj: laboratorium\nNr zajęć: 3/
+ 14\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:ffb45b638c8c615c13d28338@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261118T175000
+DTEND;TZID=Europe/Warsaw:20261118T192500
+SUMMARY:Me (L)
+LOCATION:032 S
+DESCRIPTION:Miernictwo elektroniczne\nRodzaj: laboratorium\nNr zajęć: 4/
+ 14\nBlok: 6\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:cecfc9b07034be1e0f6d50ce@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261119T080000
+DTEND;TZID=Europe/Warsaw:20261119T093500
+SUMMARY:Pnspec (w)
+DESCRIPTION:Podział na specjalności\nRodzaj: wykład\nProwadzący: S. Ki
+ nowa K\nNr zajęć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7c6ffb5bd534bba33cabd371@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261119T095000
+DTEND;TZID=Europe/Warsaw:20261119T112500
+SUMMARY:Pnspec (w)
+DESCRIPTION:Podział na specjalności\nRodzaj: wykład\nProwadzący: S. Ki
+ nowa K\nNr zajęć: 2/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:585b97c4492a4bedc4c30edd@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261119T114000
+DTEND;TZID=Europe/Warsaw:20261119T131500
+SUMMARY:Pnspec (w)
+DESCRIPTION:Podział na specjalności\nRodzaj: wykład\nProwadzący: S. Ki
+ nowa K\nNr zajęć: 3/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b49cf85014acfa942acb56d7@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261119T133000
+DTEND;TZID=Europe/Warsaw:20261119T150500
+SUMMARY:Pnspec (w)
+DESCRIPTION:Podział na specjalności\nRodzaj: wykład\nProwadzący: S. Ki
+ nowa K\nNr zajęć: 4/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a76dd59a1230e7a348a6860b@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261120T080000
+DTEND;TZID=Europe/Warsaw:20261120T093500
+SUMMARY:Ucy (w)
+LOCATION:3.8 75
+DESCRIPTION:Układy cyfrowe\nRodzaj: wykład\nProwadzący: dr inż. Szyman
+ owski Rafał\nNr zajęć: 14/16\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ec668d3f8d9d69a4bee2207f@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261120T095000
+DTEND;TZID=Europe/Warsaw:20261120T112500
+SUMMARY:Uka (w)
+LOCATION:aE S
+DESCRIPTION:Układy analogowe\nRodzaj: wykład\nProwadzący: dr inż. Chud
+ y Zdzisław\nNr zajęć: 10/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f72863cb5138b64638b56ef4@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261120T114000
+DTEND;TZID=Europe/Warsaw:20261120T131500
+SUMMARY:Ja (ć)
+LOCATION:131 K\; 128 K\; 127 K\; 126 K\; 12
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 15/30\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:8f32421abee6e1e198a425ab@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261120T133000
+DTEND;TZID=Europe/Warsaw:20261120T150500
+SUMMARY:WF: Walka wręcz
+LOCATION:sala do walki wręcz nr 57
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Walka wręcz (
+ zajęcia 7)\nObiekt: sala do walki wręcz nr 57\nKod SWF: J-4/7 (grupa SW
+ F 1PL/19KP)\nProwadzący: ppłk mgr inż. Goławski Rafał\nNr zajęć: 1
+ 5/30\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:84c5e2dd88983daf90da0cd1@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261121T080000
+DTEND;TZID=Europe/Warsaw:20261121T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 8/15\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:fb5bb3f21ef1f8e024a8665c@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261123T114000
+DTEND;TZID=Europe/Warsaw:20261123T131500
+SUMMARY:WF: Piłka nożna
+LOCATION:boisko do piłki nożnej przy ul. Archimedesa
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Piłka nożna 
+ (zajęcia 3)\nObiekt: boisko do piłki nożnej przy ul. Archimedesa\nKod 
+ SWF: D-9/3 (grupa SWF 1PL/19KP)\nProwadzący: ppłk mgr inż. Goławski R
+ afał\nNr zajęć: 16/30\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3cecbd1322cc033b8621a0c0@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261124T080000
+DTEND;TZID=Europe/Warsaw:20261124T093500
+SUMMARY:Uka (L)
+LOCATION:31 54E\; 45 54E
+DESCRIPTION:Układy analogowe\nRodzaj: laboratorium\nNr zajęć: 5/12\nBlo
+ k: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:60ea2e52c27ffe229725188c@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261124T095000
+DTEND;TZID=Europe/Warsaw:20261124T112500
+SUMMARY:Uka (L)
+LOCATION:31 54E\; 45 54E
+DESCRIPTION:Układy analogowe\nRodzaj: laboratorium\nNr zajęć: 6/12\nBlo
+ k: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2ecea0285bea00b933cb725b@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261124T114000
+DTEND;TZID=Europe/Warsaw:20261124T131500
+SUMMARY:Ja (ć)
+LOCATION:131 K\; 120 K\; 121 K\; 122 K\; 12
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 16/30\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:54a540a388c21d629c11be4d@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261124T133000
+DTEND;TZID=Europe/Warsaw:20261124T150500
+SUMMARY:F2 (ć)
+LOCATION:120 45
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: mgr inż. Walczakow
+ ski Michał\nNr zajęć: 3/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3427c7692ecf791bfb0ac330@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261125T095000
+DTEND;TZID=Europe/Warsaw:20261125T112500
+SUMMARY:F2 (L)
+LOCATION:141 S\; 139 S
+DESCRIPTION:Fizyka 2\nRodzaj: laboratorium\nNr zajęć: 3/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2a409c0b772a9cc4daded665@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261125T114000
+DTEND;TZID=Europe/Warsaw:20261125T131500
+SUMMARY:Ucy (L)
+LOCATION:14 45
+DESCRIPTION:Układy cyfrowe\nRodzaj: laboratorium\nNr zajęć: 3/14\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:84cc1aabff482a12763a6902@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261125T133000
+DTEND;TZID=Europe/Warsaw:20261125T150500
+SUMMARY:Ucy (L)
+LOCATION:14 45
+DESCRIPTION:Układy cyfrowe\nRodzaj: laboratorium\nNr zajęć: 4/14\nBlok:
+  4
+END:VEVENT
+BEGIN:VEVENT
+UID:e78ec4c61cd54a48ad06fcc2@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261126T080000
+DTEND;TZID=Europe/Warsaw:20261126T093500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 18)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/18 (grupa SWF 1PL/19KP)\nProwadz
+ ący: ppłk mgr inż. Goławski Rafał\nNr zajęć: 17/30\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a8c29cbb0291338a9d1f5e81@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261126T095000
+DTEND;TZID=Europe/Warsaw:20261126T112500
+SUMMARY:Pps (ć)
+LOCATION:109 80
+DESCRIPTION:Podstawy przetwarzania sygnałów\nRodzaj: ćwiczenia\nProwadz
+ ący: mgr inż. Pietrow Dymitr\nNr zajęć: 2/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0ecbb0fc98bde35bf3671dc0@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261126T114000
+DTEND;TZID=Europe/Warsaw:20261126T131500
+SUMMARY:F2 (ć)
+LOCATION:120 45
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: mgr inż. Walczakow
+ ski Michał\nNr zajęć: 4/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:00d5d8b76496e66d133f0b70@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261126T133000
+DTEND;TZID=Europe/Warsaw:20261126T150500
+SUMMARY:Os2 (ć)
+LOCATION:15 47
+DESCRIPTION:Obwody i sygnały 2\nRodzaj: ćwiczenia\nProwadzący: mgr inż
+ . Preibisch Piotr\nNr zajęć: 3/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e592e736c041bc7611c0249f@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261128T080000
+DTEND;TZID=Europe/Warsaw:20261128T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 9/15\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:825d195df91b82c6daf4cd81@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261130T080000
+DTEND;TZID=Europe/Warsaw:20261130T093500
+SUMMARY:OIN (ć)
+LOCATION:AW 3/043\; T5Ć
+DESCRIPTION:Ochrona informacji niejawnych\nRodzaj: ćwiczenia\nNr zajęć:
+  1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8ebf70bc5c336ecdba21de77@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261130T095000
+DTEND;TZID=Europe/Warsaw:20261130T112500
+SUMMARY:ZINŻ (r)
+LOCATION:AW 3/043\; T9R
+DESCRIPTION:Zabezpieczenie inżynieryjne\nNr zajęć: 1/1\nBlok: 2\nUwagi:
+  50%
+END:VEVENT
+BEGIN:VEVENT
+UID:cc671b96cb7183b77fea1dc5@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261130T114000
+DTEND;TZID=Europe/Warsaw:20261130T131500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 18)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/18 (grupa SWF 1PL/19KP)\nProwadz
+ ący: ppłk mgr inż. Goławski Rafał\nNr zajęć: 18/30\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8cc714b929c331214902738f@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261130T133000
+DTEND;TZID=Europe/Warsaw:20261130T150500
+SUMMARY:Pwd (ć)
+LOCATION:119 45
+DESCRIPTION:Przywództwo w dowodzeniu\nRodzaj: ćwiczenia\nProwadzący: mg
+ r Nowak Michał\nNr zajęć: 2/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2777d1ac794c26628a19291b@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261201T080000
+DTEND;TZID=Europe/Warsaw:20261201T093500
+SUMMARY:Ucy (w)
+LOCATION:3.8 75
+DESCRIPTION:Układy cyfrowe\nRodzaj: wykład\nProwadzący: dr inż. Szyman
+ owski Rafał\nNr zajęć: 15/16\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b57a970a43cfe361da9f93fc@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261201T095000
+DTEND;TZID=Europe/Warsaw:20261201T112500
+SUMMARY:F2 (w)
+LOCATION:315 S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: dr hab. inż. Madejczy
+ k Paweł\nNr zajęć: 8/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f73c6c216e3167dcd3358235@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261201T114000
+DTEND;TZID=Europe/Warsaw:20261201T131500
+SUMMARY:Ja (ć)
+LOCATION:131 K\; 120 K\; 121 K\; 122 K\; 12
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 17/30\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:136ababa1581a9b55cc582ef@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261201T133000
+DTEND;TZID=Europe/Warsaw:20261201T150500
+SUMMARY:Pr.A (w)
+LOCATION:315 S
+DESCRIPTION:Profilaktyka antykorupcyjna\nRodzaj: wykład\nProwadzący: dr 
+ Strychalski Andrzej\nNr zajęć: 4/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:cab80078b22c30d1585bbd35@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261201T160000
+DTEND;TZID=Europe/Warsaw:20261201T173500
+SUMMARY:Uka (w)
+LOCATION:aE S
+DESCRIPTION:Układy analogowe\nRodzaj: wykład\nProwadzący: dr inż. Chud
+ y Zdzisław\nNr zajęć: 11/11\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:2cb1558eb4a05ff04c09c202@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261201T175000
+DTEND;TZID=Europe/Warsaw:20261201T192500
+SUMMARY:Os2 (w)
+LOCATION:aE S
+DESCRIPTION:Obwody i sygnały 2\nRodzaj: wykład\nProwadzący: dr inż. Sz
+ ulim Marek\nNr zajęć: 9/10\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:3f90482ddd8773d4fba0519b@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261202T095000
+DTEND;TZID=Europe/Warsaw:20261202T112500
+SUMMARY:PP2 (w)
+LOCATION:30 61A
+DESCRIPTION:Podstawy programowania 2\nRodzaj: wykład\nProwadzący: dr in
+ ż. Górski Tomasz\nNr zajęć: 5/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5379da0b2ceb554552336ca8@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261202T114000
+DTEND;TZID=Europe/Warsaw:20261202T131500
+SUMMARY:Os2 (w)
+LOCATION:aE S
+DESCRIPTION:Obwody i sygnały 2\nRodzaj: wykład\nProwadzący: dr inż. Sz
+ ulim Marek\nNr zajęć: 10/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6e56b5376ab24fe87c9fe80b@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261202T133000
+DTEND;TZID=Europe/Warsaw:20261202T150500
+SUMMARY:Pps (w)
+LOCATION:30 61A
+DESCRIPTION:Podstawy przetwarzania sygnałów\nRodzaj: wykład\nProwadząc
+ y: dr hab. inż. Leśnik Czesław\nNr zajęć: 3/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ae4f6377a6116f26b4dfc955@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261203T080000
+DTEND;TZID=Europe/Warsaw:20261203T093500
+SUMMARY:Pwd (ć)
+LOCATION:3 54E
+DESCRIPTION:Przywództwo w dowodzeniu\nRodzaj: ćwiczenia\nProwadzący: mg
+ r Nowak Michał\nNr zajęć: 3/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b9debd8aeca675a1811b12ae@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261203T095000
+DTEND;TZID=Europe/Warsaw:20261203T112500
+SUMMARY:F2 (ć)
+LOCATION:116 45
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: mgr inż. Walczakow
+ ski Michał\nNr zajęć: 5/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8fc82ec793b80db28714cef7@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261203T114000
+DTEND;TZID=Europe/Warsaw:20261203T131500
+SUMMARY:Uka (L)
+LOCATION:31 54E\; 45 54E
+DESCRIPTION:Układy analogowe\nRodzaj: laboratorium\nNr zajęć: 7/12\nBlo
+ k: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c039b880619c340a8499c1da@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261203T133000
+DTEND;TZID=Europe/Warsaw:20261203T150500
+SUMMARY:Uka (L)
+LOCATION:31 54E\; 45 54E
+DESCRIPTION:Układy analogowe\nRodzaj: laboratorium\nNr zajęć: 8/12\nBlo
+ k: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f6ebee5cc5685729789efe7a@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261203T160000
+DTEND;TZID=Europe/Warsaw:20261203T173500
+SUMMARY:PP2 (L)
+LOCATION:104 61
+DESCRIPTION:Podstawy programowania 2\nRodzaj: laboratorium\nProwadzący: m
+ gr inż. Floriańczyk Marek\nNr zajęć: 1/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:ec54867b1beff871f1aa6ab9@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261203T175000
+DTEND;TZID=Europe/Warsaw:20261203T192500
+SUMMARY:PP2 (L)
+LOCATION:104 61
+DESCRIPTION:Podstawy programowania 2\nRodzaj: laboratorium\nProwadzący: m
+ gr inż. Floriańczyk Marek\nNr zajęć: 2/10\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:300368a234cc585083dabfa6@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261204T080000
+DTEND;TZID=Europe/Warsaw:20261204T093500
+SUMMARY:Pps (w)
+LOCATION:30 61A
+DESCRIPTION:Podstawy przetwarzania sygnałów\nRodzaj: wykład\nProwadząc
+ y: dr hab. inż. Leśnik Czesław\nNr zajęć: 4/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ac935f5b93983c9a094e7a4e@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261204T095000
+DTEND;TZID=Europe/Warsaw:20261204T112500
+SUMMARY:Me (w)
+LOCATION:aE S
+DESCRIPTION:Miernictwo elektroniczne\nRodzaj: wykład\nProwadzący: dr in
+ ż. Wawer Janusz\nNr zajęć: 4/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:285ef5bbee0e5e4d4f93c14d@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261204T114000
+DTEND;TZID=Europe/Warsaw:20261204T131500
+SUMMARY:Ja (ć)
+LOCATION:131 K\; 128 K\; 127 K\; 126 K\; 12
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 18/30\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:c77ed528fc048063d3922bf3@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261204T133000
+DTEND;TZID=Europe/Warsaw:20261204T150500
+SUMMARY:WF: Walka wręcz
+LOCATION:hala tartanowa – walka wręcz
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Walka wręcz (
+ zajęcia 8)\nObiekt: hala tartanowa – walka wręcz\nKod SWF: B2-4/8 (gr
+ upa SWF 1PL/19KP)\nProwadzący: ppłk mgr inż. Goławski Rafał\nNr zaj
+ ęć: 19/30\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:46135d1504a0fb79e87c7e95@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261204T160000
+DTEND;TZID=Europe/Warsaw:20261204T173500
+SUMMARY:Me (L)
+LOCATION:032 S
+DESCRIPTION:Miernictwo elektroniczne\nRodzaj: laboratorium\nNr zajęć: 5/
+ 14\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:dd7a8380133e4d407eb00c58@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261204T175000
+DTEND;TZID=Europe/Warsaw:20261204T192500
+SUMMARY:Me (L)
+LOCATION:032 S
+DESCRIPTION:Miernictwo elektroniczne\nRodzaj: laboratorium\nNr zajęć: 6/
+ 14\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:60a50e6dc0bb75a7932bd417@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261205T080000
+DTEND;TZID=Europe/Warsaw:20261205T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 10/15\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:317e1f63ee3b37c76feac92e@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261207T114000
+DTEND;TZID=Europe/Warsaw:20261207T131500
+SUMMARY:WF: Piłka koszykowa
+LOCATION:zewnętrzne boisko do koszykówki
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Piłka koszyko
+ wa (zajęcia 2)\nObiekt: zewnętrzne boisko do koszykówki\nKod SWF: K-8/
+ 2 (grupa SWF 1PL/19KP)\nProwadzący: ppłk mgr inż. Goławski Rafał\nNr
+  zajęć: 20/30\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:56935faf00d5397ba7ebaab9@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261208T080000
+DTEND;TZID=Europe/Warsaw:20261208T093500
+SUMMARY:Pps (w)
+LOCATION:30 61A
+DESCRIPTION:Podstawy przetwarzania sygnałów\nRodzaj: wykład\nProwadząc
+ y: dr hab. inż. Leśnik Czesław\nNr zajęć: 5/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8e991fd16f998ff2ec2e693a@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261208T095000
+DTEND;TZID=Europe/Warsaw:20261208T112500
+SUMMARY:F2 (w)
+LOCATION:315 S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: dr hab. inż. Madejczy
+ k Paweł\nNr zajęć: 9/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f8385d6eb37bc762b683e5d5@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261208T114000
+DTEND;TZID=Europe/Warsaw:20261208T131500
+SUMMARY:Ja (ć)
+LOCATION:131 K\; 128 K\; 127 K\; 126 K\; 12
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 19/30\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:a9bb5f58cb63a00bbb5a4979@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261208T133000
+DTEND;TZID=Europe/Warsaw:20261208T150500
+SUMMARY:Ucy (w)
+LOCATION:0.09 42
+DESCRIPTION:Układy cyfrowe\nRodzaj: wykład\nProwadzący: dr inż. Szyman
+ owski Rafał\nNr zajęć: 16/16\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:65f82950b577fe4e8eb5ffc9@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261208T160000
+DTEND;TZID=Europe/Warsaw:20261208T173500
+SUMMARY:Me (L)
+LOCATION:032 S
+DESCRIPTION:Miernictwo elektroniczne\nRodzaj: laboratorium\nNr zajęć: 7/
+ 14\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:5ab5e5eb2e5ae5af4bfeea7f@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261208T175000
+DTEND;TZID=Europe/Warsaw:20261208T192500
+SUMMARY:Me (L)
+LOCATION:032 S
+DESCRIPTION:Miernictwo elektroniczne\nRodzaj: laboratorium\nNr zajęć: 8/
+ 14\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:ae271821d4748e6265cd70e2@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261209T080000
+DTEND;TZID=Europe/Warsaw:20261209T093500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 5/8\
+ nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1d3d47f5c779d7e26b9ff805@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261209T095000
+DTEND;TZID=Europe/Warsaw:20261209T112500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 6/8\
+ nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:060235590f109caf3d16289a@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261209T114000
+DTEND;TZID=Europe/Warsaw:20261209T131500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 7/8\
+ nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:353c9e78c5c6e34f08e947c1@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261209T133000
+DTEND;TZID=Europe/Warsaw:20261209T150500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 8/8\
+ nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:70d79a3adb1108a86fb355bc@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261210T080000
+DTEND;TZID=Europe/Warsaw:20261210T093500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 18)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/18 (grupa SWF 1PL/19KP)\nProwadz
+ ący: ppłk mgr inż. Goławski Rafał\nNr zajęć: 21/30\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d801845f3383a38104dfafc2@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261210T095000
+DTEND;TZID=Europe/Warsaw:20261210T112500
+SUMMARY:Pps (ć)
+LOCATION:109 80
+DESCRIPTION:Podstawy przetwarzania sygnałów\nRodzaj: ćwiczenia\nProwadz
+ ący: mgr inż. Pietrow Dymitr\nNr zajęć: 3/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:bbafeaa5438691c7374da821@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261210T114000
+DTEND;TZID=Europe/Warsaw:20261210T131500
+SUMMARY:Os2 (L)
+LOCATION:81 S\; 83 S
+DESCRIPTION:Obwody i sygnały 2\nRodzaj: laboratorium\nProwadzący: mgr in
+ ż. Zachwieja Eugeniusz\nNr zajęć: 5/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4661b7f75a7b6fd2106893e6@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261210T133000
+DTEND;TZID=Europe/Warsaw:20261210T150500
+SUMMARY:Os2 (L)
+LOCATION:81 S\; 83 S
+DESCRIPTION:Obwody i sygnały 2\nRodzaj: laboratorium\nProwadzący: mgr in
+ ż. Zachwieja Eugeniusz\nNr zajęć: 6/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7e6cbfb6357cb8624d70a440@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261210T160000
+DTEND;TZID=Europe/Warsaw:20261210T173500
+SUMMARY:Ucy (L)
+LOCATION:14 45
+DESCRIPTION:Układy cyfrowe\nRodzaj: laboratorium\nNr zajęć: 5/14\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:19b4d7c8793755301490a84d@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261210T175000
+DTEND;TZID=Europe/Warsaw:20261210T192500
+SUMMARY:Ucy (L)
+LOCATION:14 45
+DESCRIPTION:Układy cyfrowe\nRodzaj: laboratorium\nNr zajęć: 6/14\nBlok:
+  6
+END:VEVENT
+BEGIN:VEVENT
+UID:19eba677406a502cb1ee9f6e@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261211T080000
+DTEND;TZID=Europe/Warsaw:20261211T093500
+SUMMARY:Pps (w)
+LOCATION:30 61A
+DESCRIPTION:Podstawy przetwarzania sygnałów\nRodzaj: wykład\nProwadząc
+ y: dr hab. inż. Leśnik Czesław\nNr zajęć: 6/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d1329bdfa78cb6f958de3b94@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261211T095000
+DTEND;TZID=Europe/Warsaw:20261211T112500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: dr hab. inż. Madejczy
+ k Paweł\nNr zajęć: 10/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:cb4515829a73c05c9be9caed@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261211T114000
+DTEND;TZID=Europe/Warsaw:20261211T131500
+SUMMARY:Ja (ć)
+LOCATION:131 K\; 128 K\; 127 K\; 126 K\; 12
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 20/30\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:1dee5570960a2f471531ff64@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261211T133000
+DTEND;TZID=Europe/Warsaw:20261211T150500
+SUMMARY:WF: Pływanie i ratownictwo wodne
+LOCATION:pływalnia
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Pływanie i ra
+ townictwo wodne (zajęcia 4)\nObiekt: pływalnia\nKod SWF: P-5/4 (grupa S
+ WF 1PL/19KP)\nProwadzący: ppłk mgr inż. Goławski Rafał\nNr zajęć: 
+ 22/30\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1229ea6f605c3e964d79ec66@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261212T080000
+DTEND;TZID=Europe/Warsaw:20261212T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 11/15\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:95caa4d180f290780b5ab76e@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261214T080000
+DTEND;TZID=Europe/Warsaw:20261214T093500
+SUMMARY:ZINŻ (ć)
+LOCATION:2.01/ 54A\; T10Ć
+DESCRIPTION:Zabezpieczenie inżynieryjne\nRodzaj: ćwiczenia\nNr zajęć: 
+ 3/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:96dba73e9e37352466ad1615@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261214T095000
+DTEND;TZID=Europe/Warsaw:20261214T112500
+SUMMARY:SŁiŚD (w)
+LOCATION:118 45\; T4W
+DESCRIPTION:System łączności i środki dowodzenia\nRodzaj: wykład\nNr 
+ zajęć: 1/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e7269c180dd3164cdfa5d3de@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261214T114000
+DTEND;TZID=Europe/Warsaw:20261214T131500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 18)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/18 (grupa SWF 1PL/19KP)\nProwadz
+ ący: ppłk mgr inż. Goławski Rafał\nNr zajęć: 23/30\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5f82fc98c85c2cec4d3ee5db@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261214T133000
+DTEND;TZID=Europe/Warsaw:20261214T150500
+SUMMARY:Pwd (ć)
+LOCATION:120 45
+DESCRIPTION:Przywództwo w dowodzeniu\nRodzaj: ćwiczenia\nProwadzący: mg
+ r Nowak Michał\nNr zajęć: 4/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8249a9f2ac7c1ecc3f55992c@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261215T080000
+DTEND;TZID=Europe/Warsaw:20261215T093500
+SUMMARY:Os2 (ć)
+LOCATION:19 47
+DESCRIPTION:Obwody i sygnały 2\nRodzaj: ćwiczenia\nProwadzący: mgr inż
+ . Preibisch Piotr\nNr zajęć: 4/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ea5e7950cee0d0f9fdb2c46c@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261215T095000
+DTEND;TZID=Europe/Warsaw:20261215T112500
+SUMMARY:F2 (ć)
+LOCATION:117 45
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: mgr inż. Walczakow
+ ski Michał\nNr zajęć: 6/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9bb830219bcbe53930f60769@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261215T114000
+DTEND;TZID=Europe/Warsaw:20261215T131500
+SUMMARY:Ja (ć)
+LOCATION:131 K\; 128 K\; 127 K\; 126 K\; 12
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 21/30\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:ba82efbe8294224f061568c8@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261215T133000
+DTEND;TZID=Europe/Warsaw:20261215T150500
+SUMMARY:Pps (w)
+LOCATION:30 61A
+DESCRIPTION:Podstawy przetwarzania sygnałów\nRodzaj: wykład\nProwadząc
+ y: dr hab. inż. Leśnik Czesław\nNr zajęć: 7/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9835bac69df306ffa3d0bc6c@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261215T160000
+DTEND;TZID=Europe/Warsaw:20261215T173500
+SUMMARY:Me (w)
+LOCATION:315 S
+DESCRIPTION:Miernictwo elektroniczne\nRodzaj: wykład\nProwadzący: dr in
+ ż. Wawer Janusz\nNr zajęć: 5/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:672957fb0469a6e14b937560@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261216T080000
+DTEND;TZID=Europe/Warsaw:20261216T093500
+SUMMARY:ZŻWAT (i)
+DESCRIPTION:Zbiórka żołnierzy WAT\nRodzaj: inne\nNr zajęć: 2/3\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:7871e0cc902388653fc84532@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261216T095000
+DTEND;TZID=Europe/Warsaw:20261216T112500
+SUMMARY:Pps (w)
+LOCATION:30 61A
+DESCRIPTION:Podstawy przetwarzania sygnałów\nRodzaj: wykład\nProwadząc
+ y: dr hab. inż. Leśnik Czesław\nNr zajęć: 8/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c76a4e7569b32a074448ab95@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261216T114000
+DTEND;TZID=Europe/Warsaw:20261216T131500
+SUMMARY:PP2 (L)
+LOCATION:116 61
+DESCRIPTION:Podstawy programowania 2\nRodzaj: laboratorium\nProwadzący: m
+ gr inż. Floriańczyk Marek\nNr zajęć: 3/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ddc8948766cbc4e353e384e5@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261216T133000
+DTEND;TZID=Europe/Warsaw:20261216T150500
+SUMMARY:PP2 (L)
+LOCATION:116 61
+DESCRIPTION:Podstawy programowania 2\nRodzaj: laboratorium\nProwadzący: m
+ gr inż. Floriańczyk Marek\nNr zajęć: 4/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b28ace5b4ae230b1cfccbb61@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261217T080000
+DTEND;TZID=Europe/Warsaw:20261217T093500
+SUMMARY:Pwd (ć)
+LOCATION:118 45
+DESCRIPTION:Przywództwo w dowodzeniu\nRodzaj: ćwiczenia\nProwadzący: mg
+ r Nowak Michał\nNr zajęć: 5/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:487ceef9c46ce8027cbb60a6@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261217T095000
+DTEND;TZID=Europe/Warsaw:20261217T112500
+SUMMARY:F2 (ć)
+LOCATION:3.3 75
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: mgr inż. Walczakow
+ ski Michał\nNr zajęć: 7/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6ae254d0f69b21fba7692215@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261217T114000
+DTEND;TZID=Europe/Warsaw:20261217T131500
+SUMMARY:Me (L)
+LOCATION:032 S
+DESCRIPTION:Miernictwo elektroniczne\nRodzaj: laboratorium\nNr zajęć: 9/
+ 14\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6de6739d61610ce4b53fd242@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261217T133000
+DTEND;TZID=Europe/Warsaw:20261217T150500
+SUMMARY:Me (L)
+LOCATION:032 S
+DESCRIPTION:Miernictwo elektroniczne\nRodzaj: laboratorium\nNr zajęć: 10
+ /14\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8c75d1dae1d0cfb1a762bcb3@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261217T160000
+DTEND;TZID=Europe/Warsaw:20261217T173500
+SUMMARY:Ucy (L)
+LOCATION:14 45
+DESCRIPTION:Układy cyfrowe\nRodzaj: laboratorium\nNr zajęć: 7/14\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:8b20b3438984a2c2d2c92684@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261217T175000
+DTEND;TZID=Europe/Warsaw:20261217T192500
+SUMMARY:Ucy (L)
+LOCATION:14 45
+DESCRIPTION:Układy cyfrowe\nRodzaj: laboratorium\nNr zajęć: 8/14\nBlok:
+  6
+END:VEVENT
+BEGIN:VEVENT
+UID:b1cedbcc68ebd17b3f2448ed@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261218T095000
+DTEND;TZID=Europe/Warsaw:20261218T112500
+SUMMARY:Pps (ć)
+LOCATION:109 80
+DESCRIPTION:Podstawy przetwarzania sygnałów\nRodzaj: ćwiczenia\nProwadz
+ ący: mgr inż. Pietrow Dymitr\nNr zajęć: 4/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:78932917f9503070d1ffe3cc@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261218T114000
+DTEND;TZID=Europe/Warsaw:20261218T131500
+SUMMARY:Ja (ć)
+LOCATION:131 K\; 128 K\; 127 K\; 126 K\; 12
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 22/30\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:81e560eb2b169ccde3de1565@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261218T133000
+DTEND;TZID=Europe/Warsaw:20261218T150500
+SUMMARY:WF: Gimnastyka i ćwiczenia siłowe
+LOCATION:hala tartanowa – gimnastyka
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Gimnastyka i 
+ ćwiczenia siłowe (zajęcia 5)\nObiekt: hala tartanowa – gimnastyka\nK
+ od SWF: B1-3/5 (grupa SWF 1PL/19KP)\nProwadzący: ppłk mgr inż. Goławs
+ ki Rafał\nNr zajęć: 24/30\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0274a63b9e23706d2ebc1a32@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261219T080000
+DTEND;TZID=Europe/Warsaw:20261219T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 12/15\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4478e6f2de95421d052cf249@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261221T095000
+DTEND;TZID=Europe/Warsaw:20261221T112500
+SUMMARY:Pwd (ć)
+LOCATION:120 45
+DESCRIPTION:Przywództwo w dowodzeniu\nRodzaj: ćwiczenia\nProwadzący: mg
+ r Nowak Michał\nNr zajęć: 6/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:71f7ba6efbd9d1c0a8d5fdc3@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261221T114000
+DTEND;TZID=Europe/Warsaw:20261221T131500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 18)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/18 (grupa SWF 1PL/19KP)\nProwadz
+ ący: ppłk mgr inż. Goławski Rafał\nNr zajęć: 25/30\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6a12485089c582735ff6ed64@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261222T080000
+DTEND;TZID=Europe/Warsaw:20261222T093500
+SUMMARY:Me (w)
+LOCATION:aE S
+DESCRIPTION:Miernictwo elektroniczne\nRodzaj: wykład\nProwadzący: dr in
+ ż. Wawer Janusz\nNr zajęć: 6/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:18de0fdb1cfd937885be3d4b@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261222T095000
+DTEND;TZID=Europe/Warsaw:20261222T112500
+SUMMARY:F2 (w)
+LOCATION:315 S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: dr hab. inż. Madejczy
+ k Paweł\nNr zajęć: 11/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:17302484da3052416b8b9f64@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261222T114000
+DTEND;TZID=Europe/Warsaw:20261222T131500
+SUMMARY:Ja (ć)
+LOCATION:131 K\; 128 K\; 127 K\; 126 K\; 12
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 23/30\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:82a43cfb1b6b7d5c3294a73c@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261222T133000
+DTEND;TZID=Europe/Warsaw:20261222T150500
+SUMMARY:Os2 (L)
+LOCATION:81 S\; 83 S
+DESCRIPTION:Obwody i sygnały 2\nRodzaj: laboratorium\nProwadzący: mgr in
+ ż. Zachwieja Eugeniusz\nNr zajęć: 7/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:26562c5465e1369d045072e2@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261222T160000
+DTEND;TZID=Europe/Warsaw:20261222T173500
+SUMMARY:Os2 (L)
+LOCATION:81 S\; 83 S
+DESCRIPTION:Obwody i sygnały 2\nRodzaj: laboratorium\nProwadzący: mgr in
+ ż. Zachwieja Eugeniusz\nNr zajęć: 8/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:e8aa6a5903b3049e39744289@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261223T080000
+DTEND;TZID=Europe/Warsaw:20261223T093500
+SUMMARY:Os2 (ć)
+LOCATION:73b S
+DESCRIPTION:Obwody i sygnały 2\nRodzaj: ćwiczenia\nProwadzący: mgr inż
+ . Preibisch Piotr\nNr zajęć: 5/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d5303b6e652af484ece5044f@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261223T095000
+DTEND;TZID=Europe/Warsaw:20261223T112500
+SUMMARY:F2 (L)
+LOCATION:141 S\; 139 S
+DESCRIPTION:Fizyka 2\nRodzaj: laboratorium\nNr zajęć: 4/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2fba4c6069a82daa7e09d8bc@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20261223T114000
+DTEND;TZID=Europe/Warsaw:20261223T131500
+SUMMARY:Pwd (ć)
+LOCATION:3 54E
+DESCRIPTION:Przywództwo w dowodzeniu\nRodzaj: ćwiczenia\nProwadzący: mg
+ r Nowak Michał\nNr zajęć: 7/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:933fdedc7365e0b1e3d18f73@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270107T080000
+DTEND;TZID=Europe/Warsaw:20270107T093500
+SUMMARY:PP2 (L)
+LOCATION:7 61
+DESCRIPTION:Podstawy programowania 2\nRodzaj: laboratorium\nProwadzący: m
+ gr inż. Floriańczyk Marek\nNr zajęć: 5/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:59784684c7e0e546c9cb5f6d@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270107T095000
+DTEND;TZID=Europe/Warsaw:20270107T112500
+SUMMARY:PP2 (L)
+LOCATION:7 61
+DESCRIPTION:Podstawy programowania 2\nRodzaj: laboratorium\nProwadzący: m
+ gr inż. Floriańczyk Marek\nNr zajęć: 6/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ee4bda123803a74ffa5fc542@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270107T114000
+DTEND;TZID=Europe/Warsaw:20270107T131500
+SUMMARY:Me (L)
+LOCATION:032 S
+DESCRIPTION:Miernictwo elektroniczne\nRodzaj: laboratorium\nNr zajęć: 11
+ /14\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:79f0f7c3a1bd28bf6186878d@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270107T133000
+DTEND;TZID=Europe/Warsaw:20270107T150500
+SUMMARY:Me (L)
+LOCATION:032 S
+DESCRIPTION:Miernictwo elektroniczne\nRodzaj: laboratorium\nNr zajęć: 12
+ /14\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:061bd08478ad03c278187195@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270108T080000
+DTEND;TZID=Europe/Warsaw:20270108T093500
+SUMMARY:Me (w)
+LOCATION:aE S
+DESCRIPTION:Miernictwo elektroniczne\nRodzaj: wykład\nProwadzący: dr in
+ ż. Wawer Janusz\nNr zajęć: 7/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5a42760aee49e79515a692f6@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270108T095000
+DTEND;TZID=Europe/Warsaw:20270108T112500
+SUMMARY:F2 (w)
+LOCATION:315 S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: dr hab. inż. Madejczy
+ k Paweł\nNr zajęć: 12/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b62df3302bb6e9ce582835c6@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270108T114000
+DTEND;TZID=Europe/Warsaw:20270108T131500
+SUMMARY:Ja (ć)
+LOCATION:131 K\; 128 K\; 127 K\; 126 K\; 12
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 24/30\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:2b771a0c4e862f4a829c0023@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270108T133000
+DTEND;TZID=Europe/Warsaw:20270108T150500
+SUMMARY:WF: Walka wręcz
+LOCATION:sala do walki wręcz nr 57
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Walka wręcz (
+ zajęcia 9)\nObiekt: sala do walki wręcz nr 57\nKod SWF: J-4/9 (grupa SW
+ F 1PL/19KP)\nProwadzący: ppłk mgr inż. Goławski Rafał\nNr zajęć: 2
+ 6/30\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6d8c62d73536a281801c9b52@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270109T080000
+DTEND;TZID=Europe/Warsaw:20270109T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 13/15\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8eaa38cd4981259c7b67bea2@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270111T080000
+DTEND;TZID=Europe/Warsaw:20270111T093500
+SUMMARY:SŁiŚD (w)
+LOCATION:118 45\; T5W
+DESCRIPTION:System łączności i środki dowodzenia\nRodzaj: wykład\nNr 
+ zajęć: 2/2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:51ebdc8667283553acd62e9f@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270111T114000
+DTEND;TZID=Europe/Warsaw:20270111T131500
+SUMMARY:TA (ć)
+LOCATION:PĆT1\; T9Ć
+DESCRIPTION:TAKTYKA\nRodzaj: ćwiczenia\nNr zajęć: 1/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0a288cf21e66d8d6c52ed6e4@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270111T133000
+DTEND;TZID=Europe/Warsaw:20270111T150500
+SUMMARY:TA (ć)
+LOCATION:PĆT1\; T9Ć
+DESCRIPTION:TAKTYKA\nRodzaj: ćwiczenia\nNr zajęć: 2/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3870db6ca30c9c5f547322ca@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270112T114000
+DTEND;TZID=Europe/Warsaw:20270112T131500
+SUMMARY:Ja (ć)
+LOCATION:131 K\; 128 K\; 127 K\; 126 K\; 12
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 25/30\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:0662f591deecb349f4dcb58c@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270112T133000
+DTEND;TZID=Europe/Warsaw:20270112T150500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: dr hab. inż. Madejczy
+ k Paweł\nNr zajęć: 13/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:90ed2572cd2b388af1b38e1f@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270112T160000
+DTEND;TZID=Europe/Warsaw:20270112T173500
+SUMMARY:Uka (L)
+LOCATION:31 54E\; 45 54E
+DESCRIPTION:Układy analogowe\nRodzaj: laboratorium\nNr zajęć: 9/12\nBlo
+ k: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:a24e5b4b43efe9ca28898dec@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270112T175000
+DTEND;TZID=Europe/Warsaw:20270112T192500
+SUMMARY:Uka (L)
+LOCATION:31 54E\; 45 54E
+DESCRIPTION:Układy analogowe\nRodzaj: laboratorium\nNr zajęć: 10/12\nBl
+ ok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:6ee5722f0891bedaabcd4a21@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270113T080000
+DTEND;TZID=Europe/Warsaw:20270113T093500
+SUMMARY:ZŻWAT (i)
+DESCRIPTION:Zbiórka żołnierzy WAT\nRodzaj: inne\nNr zajęć: 3/3\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:76c927caf6d7446318fced30@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270113T095000
+DTEND;TZID=Europe/Warsaw:20270113T112500
+SUMMARY:F2 (L)
+LOCATION:141 S\; 139 S
+DESCRIPTION:Fizyka 2\nRodzaj: laboratorium\nNr zajęć: 5/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a0e83eb9a4612f608ddd1166@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270113T114000
+DTEND;TZID=Europe/Warsaw:20270113T131500
+SUMMARY:Ucy (L)
+LOCATION:14 45
+DESCRIPTION:Układy cyfrowe\nRodzaj: laboratorium\nNr zajęć: 9/14\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:eb4b50e6e2dcd237e373dfff@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270113T133000
+DTEND;TZID=Europe/Warsaw:20270113T150500
+SUMMARY:Ucy (L)
+LOCATION:14 45
+DESCRIPTION:Układy cyfrowe\nRodzaj: laboratorium\nNr zajęć: 10/14\nBlok
+ : 4
+END:VEVENT
+BEGIN:VEVENT
+UID:107bb55d76d747baa8b98f82@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270114T114000
+DTEND;TZID=Europe/Warsaw:20270114T131500
+SUMMARY:F2 (ć)
+LOCATION:120 45
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: mgr inż. Walczakow
+ ski Michał\nNr zajęć: 8/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:38084e33677ce6c3fbf7be2a@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270115T114000
+DTEND;TZID=Europe/Warsaw:20270115T131500
+SUMMARY:Ja (ć)
+LOCATION:131 K\; 128 K\; 127 K\; 126 K\; 12
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 26/30\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:cdd5d50c340727ab0b9da27c@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270115T133000
+DTEND;TZID=Europe/Warsaw:20270115T150500
+SUMMARY:WF: sprawdzian
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: sprawdzian nr 
+ 3\nObiekt: teren (las\, poligon)\nKod SWF: T-18/3 (grupa SWF 1PL/19KP)\nP
+ rowadzący: ppłk mgr inż. Goławski Rafał\nNr zajęć: 27/30\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:03d68ad1e8a326f3621a3b16@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270115T160000
+DTEND;TZID=Europe/Warsaw:20270115T173500
+SUMMARY:PP2 (L)
+LOCATION:7 61
+DESCRIPTION:Podstawy programowania 2\nRodzaj: laboratorium\nProwadzący: m
+ gr inż. Floriańczyk Marek\nNr zajęć: 7/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:e37e7419793278b4584216bf@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270115T175000
+DTEND;TZID=Europe/Warsaw:20270115T192500
+SUMMARY:PP2 (L)
+LOCATION:7 61
+DESCRIPTION:Podstawy programowania 2\nRodzaj: laboratorium\nProwadzący: m
+ gr inż. Floriańczyk Marek\nNr zajęć: 8/10\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:c59f6397e5ee320c2d7ff748@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270116T080000
+DTEND;TZID=Europe/Warsaw:20270116T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 14/15\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6c696cf773c3b0f98b7d7672@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270118T114000
+DTEND;TZID=Europe/Warsaw:20270118T131500
+SUMMARY:WF: sprawdzian
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: sprawdzian nr 
+ 3\nObiekt: teren (las\, poligon)\nKod SWF: T-18/3 (grupa SWF 1PL/19KP)\nP
+ rowadzący: ppłk mgr inż. Goławski Rafał\nNr zajęć: 28/30\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7b26327c39159dc5a9faf7bf@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270119T080000
+DTEND;TZID=Europe/Warsaw:20270119T093500
+SUMMARY:Ucy (L)
+LOCATION:14 45
+DESCRIPTION:Układy cyfrowe\nRodzaj: laboratorium\nNr zajęć: 11/14\nBlok
+ : 1
+END:VEVENT
+BEGIN:VEVENT
+UID:40eb849279f5f8e27719e454@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270119T095000
+DTEND;TZID=Europe/Warsaw:20270119T112500
+SUMMARY:Ucy (L)
+LOCATION:14 45
+DESCRIPTION:Układy cyfrowe\nRodzaj: laboratorium\nNr zajęć: 12/14\nBlok
+ : 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ec8b8d3513ccc5aa08d794dd@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270119T114000
+DTEND;TZID=Europe/Warsaw:20270119T131500
+SUMMARY:Ja (ć)
+LOCATION:131 K\; 128 K\; 127 K\; 126 K\; 12
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 27/30\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:4c1eb52cd1e370d126dd5cd9@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270119T133000
+DTEND;TZID=Europe/Warsaw:20270119T150500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: dr hab. inż. Madejczy
+ k Paweł\nNr zajęć: 14/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:cb3c4d7edc65f4e4f477c8cc@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270120T080000
+DTEND;TZID=Europe/Warsaw:20270120T093500
+SUMMARY:Pwd (ć)
+LOCATION:119 45
+DESCRIPTION:Przywództwo w dowodzeniu\nRodzaj: ćwiczenia\nProwadzący: mg
+ r Nowak Michał\nNr zajęć: 8/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:57827ee60534886e18c57c7e@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270120T095000
+DTEND;TZID=Europe/Warsaw:20270120T112500
+SUMMARY:Pps (ć)
+LOCATION:107 80
+DESCRIPTION:Podstawy przetwarzania sygnałów\nRodzaj: ćwiczenia\nProwadz
+ ący: mgr inż. Pietrow Dymitr\nNr zajęć: 5/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8bce449002d8230e0177f543@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270120T114000
+DTEND;TZID=Europe/Warsaw:20270120T131500
+SUMMARY:Os2 (ć)
+LOCATION:118 45
+DESCRIPTION:Obwody i sygnały 2\nRodzaj: ćwiczenia\nProwadzący: mgr inż
+ . Preibisch Piotr\nNr zajęć: 6/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2bb901d97e6cdcf15e5653e5@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270121T080000
+DTEND;TZID=Europe/Warsaw:20270121T093500
+SUMMARY:PP2 (L)
+LOCATION:7 61
+DESCRIPTION:Podstawy programowania 2\nRodzaj: laboratorium\nProwadzący: m
+ gr inż. Floriańczyk Marek\nNr zajęć: 9/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1bc73e9d09f2eadcec773a4d@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270121T095000
+DTEND;TZID=Europe/Warsaw:20270121T112500
+SUMMARY:PP2 (L)
+LOCATION:7 61
+DESCRIPTION:Podstawy programowania 2\nRodzaj: laboratorium\nProwadzący: m
+ gr inż. Floriańczyk Marek\nNr zajęć: 10/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f24e9ee65b191e06581e255a@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270122T080000
+DTEND;TZID=Europe/Warsaw:20270122T093500
+SUMMARY:Pps (ć)
+LOCATION:107 80
+DESCRIPTION:Podstawy przetwarzania sygnałów\nRodzaj: ćwiczenia\nProwadz
+ ący: mgr inż. Pietrow Dymitr\nNr zajęć: 6/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d143c7aa3bb698b71b80c577@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270122T095000
+DTEND;TZID=Europe/Warsaw:20270122T112500
+SUMMARY:F2 (ć)
+LOCATION:118 45
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: mgr inż. Walczakow
+ ski Michał\nNr zajęć: 9/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:68d5ff599c12a9514d8eafab@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270122T114000
+DTEND;TZID=Europe/Warsaw:20270122T131500
+SUMMARY:Ja (ć)
+LOCATION:131 K\; 128 K\; 127 K\; 126 K\; 12
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 28/30\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:80c74b76f1fb13b9599ca78a@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270122T133000
+DTEND;TZID=Europe/Warsaw:20270122T150500
+SUMMARY:WF: Walka wręcz
+LOCATION:sala do walki wręcz nr 57
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Walka wręcz (
+ zajęcia 10)\nObiekt: sala do walki wręcz nr 57\nKod SWF: J-4/10 (grupa 
+ SWF 1PL/19KP)\nProwadzący: ppłk mgr inż. Goławski Rafał\nNr zajęć:
+  29/30\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:210c2b6feca9b60a507d692a@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270123T080000
+DTEND;TZID=Europe/Warsaw:20270123T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 15/15\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:375807bd582326d2f1dadb88@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270125T080000
+DTEND;TZID=Europe/Warsaw:20270125T093500
+SUMMARY:TA (ć)
+LOCATION:AW 7\; T10Ć
+DESCRIPTION:TAKTYKA\nRodzaj: ćwiczenia\nNr zajęć: 3/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ebfcb5490ca04bc63f3d0782@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270125T095000
+DTEND;TZID=Europe/Warsaw:20270125T112500
+SUMMARY:SŁiŚD (ć)
+LOCATION:6 47\; 5 47\; 24 47\; 23 47\; T6Ć\, T7Ć
+DESCRIPTION:System łączności i środki dowodzenia\nRodzaj: ćwiczenia\n
+ Nr zajęć: 1/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6b7f85f74e6d8a0b5077a957@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270125T114000
+DTEND;TZID=Europe/Warsaw:20270125T131500
+SUMMARY:SŁiŚD (ć)
+LOCATION:6 47\; 5 47\; 24 47\; 23 47\; T6Ć\, T7Ć
+DESCRIPTION:System łączności i środki dowodzenia\nRodzaj: ćwiczenia\n
+ Nr zajęć: 2/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8c882d755491210b20baaf60@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270125T133000
+DTEND;TZID=Europe/Warsaw:20270125T150500
+SUMMARY:SŁiŚD (ć)
+LOCATION:6 47\; 5 47\; 24 47\; 23 47\; T6Ć\, T7Ć
+DESCRIPTION:System łączności i środki dowodzenia\nRodzaj: ćwiczenia\n
+ Nr zajęć: 3/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b72eaf5bf120dc5d361726ab@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270126T080000
+DTEND;TZID=Europe/Warsaw:20270126T093500
+SUMMARY:Uka (L)
+LOCATION:31 54E\; 45 54E
+DESCRIPTION:Układy analogowe\nRodzaj: laboratorium\nNr zajęć: 11/12\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:65c0970e1c2233b599270efe@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270126T095000
+DTEND;TZID=Europe/Warsaw:20270126T112500
+SUMMARY:Uka (L)
+LOCATION:31 54E\; 45 54E
+DESCRIPTION:Układy analogowe\nRodzaj: laboratorium\nNr zajęć: 12/12\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d2e393431fbbe4206f9e0736@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270126T114000
+DTEND;TZID=Europe/Warsaw:20270126T131500
+SUMMARY:Ja (ć)
+LOCATION:131 K\; 128 K\; 127 K\; 126 K\; 12
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 29/30\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:9c7e574ff442220e159aa3d8@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270126T133000
+DTEND;TZID=Europe/Warsaw:20270126T150500
+SUMMARY:Os2 (ć)
+LOCATION:315b S
+DESCRIPTION:Obwody i sygnały 2\nRodzaj: ćwiczenia\nProwadzący: mgr inż
+ . Preibisch Piotr\nNr zajęć: 7/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:dd16b06e0a91cbcf1916a3ff@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270127T080000
+DTEND;TZID=Europe/Warsaw:20270127T093500
+SUMMARY:Ucy (L)
+LOCATION:14 45
+DESCRIPTION:Układy cyfrowe\nRodzaj: laboratorium\nNr zajęć: 13/14\nBlok
+ : 1
+END:VEVENT
+BEGIN:VEVENT
+UID:cc33bfbef4f1932e4eb6cc8d@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270127T095000
+DTEND;TZID=Europe/Warsaw:20270127T112500
+SUMMARY:Ucy (L)
+LOCATION:14 45
+DESCRIPTION:Układy cyfrowe\nRodzaj: laboratorium\nNr zajęć: 14/14\nBlok
+ : 2
+END:VEVENT
+BEGIN:VEVENT
+UID:76077a702fbeec758b00d097@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270128T080000
+DTEND;TZID=Europe/Warsaw:20270128T093500
+SUMMARY:Me (L)
+LOCATION:032 S
+DESCRIPTION:Miernictwo elektroniczne\nRodzaj: laboratorium\nNr zajęć: 13
+ /14\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:71067d111aa21f18bc2b060b@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270128T095000
+DTEND;TZID=Europe/Warsaw:20270128T112500
+SUMMARY:Me (L)
+LOCATION:032 S
+DESCRIPTION:Miernictwo elektroniczne\nRodzaj: laboratorium\nNr zajęć: 14
+ /14\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:636ddbc1b3cb7b2b5549e207@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270128T114000
+DTEND;TZID=Europe/Warsaw:20270128T131500
+SUMMARY:F2 (ć)
+LOCATION:119 45
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: mgr inż. Walczakow
+ ski Michał\nNr zajęć: 10/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9e7c72eaaac8e7711946d0f7@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270129T080000
+DTEND;TZID=Europe/Warsaw:20270129T093500
+SUMMARY:Pps (w)
+LOCATION:30 61A
+DESCRIPTION:Podstawy przetwarzania sygnałów\nRodzaj: wykład\nProwadząc
+ y: dr hab. inż. Leśnik Czesław\nNr zajęć: 9/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:165016587071b8ebeb4861f9@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270129T095000
+DTEND;TZID=Europe/Warsaw:20270129T112500
+SUMMARY:F2 (w)
+LOCATION:315 S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: dr hab. inż. Madejczy
+ k Paweł\nNr zajęć: 15/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ba8c31920d0f1deda0303958@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270129T114000
+DTEND;TZID=Europe/Warsaw:20270129T131500
+SUMMARY:Ja (ć)
+LOCATION:131 K\; 128 K\; 127 K\; 126 K\; 12
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 30/30\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:e146bf28a3285f29c0d1e635@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270129T133000
+DTEND;TZID=Europe/Warsaw:20270129T150500
+SUMMARY:WF: Piłka siatkowa
+LOCATION:zewnętrzne boisko do piłki siatkowej
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Piłka siatkow
+ a (zajęcia 4)\nObiekt: zewnętrzne boisko do piłki siatkowej\nKod SWF: 
+ F-7/4 (grupa SWF 1PL/19KP)\nProwadzący: ppłk mgr inż. Goławski Rafał
+ \nNr zajęć: 30/30\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e4c3b31251fe4763c6380917@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270201T080000
+DTEND;TZID=Europe/Warsaw:20270201T093500
+SUMMARY:Pwd (E)
+LOCATION:307 S
+DESCRIPTION:Przywództwo w dowodzeniu\nRodzaj: egzamin\nProwadzący: dr ha
+ b. inż. Rybiński Janusz\nNr zajęć: 1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d558da29cf8f6f9cb3514822@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270205T114000
+DTEND;TZID=Europe/Warsaw:20270205T131500
+SUMMARY:F2 (E)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: egzamin\nProwadzący: dr hab. inż. Madejczy
+ k Paweł\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e0e39bee1614dffa41e17d1c@wat-plan
+DTSTAMP:20261126T155710Z
+DTSTART;TZID=Europe/Warsaw:20270219T080000
+DTEND;TZID=Europe/Warsaw:20270219T093500
+SUMMARY:F2 (Ep)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: egzamin poprawkowy\nNr zajęć: 1/1\nBlok: 1
+END:VEVENT
+END:VCALENDAR

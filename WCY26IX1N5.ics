@@ -1,0 +1,557 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WCY26IX1N5
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:215f0e8ed076eede7f30c6fa@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261008T080000
+DTEND;TZID=Europe/Warsaw:20261008T093500
+SUMMARY:Pna (ć)
+LOCATION:309 S
+DESCRIPTION:Portfolio nauczyciela akademickiego\nRodzaj: ćwiczenia\nProwa
+ dzący: dr Łakoma Ewa\nNr zajęć: 1/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:87e776f4c3c12ec90da342e2@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261008T095000
+DTEND;TZID=Europe/Warsaw:20261008T112500
+SUMMARY:WED (w)
+LOCATION:309 S
+DESCRIPTION:Wprowadzenie do metod eksploracji danych\nRodzaj: wykład\nPro
+ wadzący: dr hab. inż. Antkiewicz Ryszard\nNr zajęć: 1/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f645764d7984930ce2af0cc3@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261008T114000
+DTEND;TZID=Europe/Warsaw:20261008T131500
+SUMMARY:WED (w)
+LOCATION:309 S
+DESCRIPTION:Wprowadzenie do metod eksploracji danych\nRodzaj: wykład\nPro
+ wadzący: dr hab. inż. Antkiewicz Ryszard\nNr zajęć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:05e01376d22ba4988def0af9@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261015T095000
+DTEND;TZID=Europe/Warsaw:20261015T112500
+SUMMARY:UPCH (w)
+LOCATION:309 S
+DESCRIPTION:Usługi przetwarzania w chmurze\nRodzaj: wykład\nProwadzący:
+  Gutowski Tomasz\nNr zajęć: 1/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:74c25151dbc9d26a11f696b0@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261015T114000
+DTEND;TZID=Europe/Warsaw:20261015T131500
+SUMMARY:UPCH (w)
+LOCATION:309 S
+DESCRIPTION:Usługi przetwarzania w chmurze\nRodzaj: wykład\nProwadzący:
+  Gutowski Tomasz\nNr zajęć: 2/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1cef9c6e9c44dd1879dd96d0@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261015T133000
+DTEND;TZID=Europe/Warsaw:20261015T150500
+SUMMARY:WED (w)
+LOCATION:309 S
+DESCRIPTION:Wprowadzenie do metod eksploracji danych\nRodzaj: wykład\nPro
+ wadzący: dr hab. inż. Antkiewicz Ryszard\nNr zajęć: 3/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7701a3c0a778cee5af1d8ea0@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261022T080000
+DTEND;TZID=Europe/Warsaw:20261022T093500
+SUMMARY:UPCH (L)
+LOCATION:223 S
+DESCRIPTION:Usługi przetwarzania w chmurze\nRodzaj: laboratorium\nProwadz
+ ący: Gutowski Tomasz\nNr zajęć: 1/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:baa0946eb3103bec17bf8bc5@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261022T095000
+DTEND;TZID=Europe/Warsaw:20261022T112500
+SUMMARY:UPCH (L)
+LOCATION:223 S
+DESCRIPTION:Usługi przetwarzania w chmurze\nRodzaj: laboratorium\nProwadz
+ ący: Gutowski Tomasz\nNr zajęć: 2/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8d7d1b5033cca5fca59704d1@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261022T114000
+DTEND;TZID=Europe/Warsaw:20261022T131500
+SUMMARY:UPCH (w)
+LOCATION:309 S
+DESCRIPTION:Usługi przetwarzania w chmurze\nRodzaj: wykład\nProwadzący:
+  Gutowski Tomasz\nNr zajęć: 3/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:55f7ff0bd952cff73a5fac33@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261022T133000
+DTEND;TZID=Europe/Warsaw:20261022T150500
+SUMMARY:WED (w)
+LOCATION:309 S
+DESCRIPTION:Wprowadzenie do metod eksploracji danych\nRodzaj: wykład\nPro
+ wadzący: dr hab. inż. Antkiewicz Ryszard\nNr zajęć: 4/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:40bd039762034b92964dab7e@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261029T080000
+DTEND;TZID=Europe/Warsaw:20261029T093500
+SUMMARY:WED (L)
+LOCATION:223 S
+DESCRIPTION:Wprowadzenie do metod eksploracji danych\nRodzaj: laboratorium
+ \nProwadzący: Gutowski Tomasz\nNr zajęć: 1/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ab569cd40e841baecef44f65@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261029T095000
+DTEND;TZID=Europe/Warsaw:20261029T112500
+SUMMARY:WED (L)
+LOCATION:223 S
+DESCRIPTION:Wprowadzenie do metod eksploracji danych\nRodzaj: laboratorium
+ \nProwadzący: Gutowski Tomasz\nNr zajęć: 2/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f15cb82b265be9d03c96e9f0@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261029T114000
+DTEND;TZID=Europe/Warsaw:20261029T131500
+SUMMARY:UPCH (w)
+LOCATION:309 S
+DESCRIPTION:Usługi przetwarzania w chmurze\nRodzaj: wykład\nProwadzący:
+  Gutowski Tomasz\nNr zajęć: 4/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b6ac5519137adc6020772336@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261029T133000
+DTEND;TZID=Europe/Warsaw:20261029T150500
+SUMMARY:WED (w)
+LOCATION:309 S
+DESCRIPTION:Wprowadzenie do metod eksploracji danych\nRodzaj: wykład\nPro
+ wadzący: dr hab. inż. Antkiewicz Ryszard\nNr zajęć: 5/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d1c2b4c34e6d3f4528088b43@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261105T080000
+DTEND;TZID=Europe/Warsaw:20261105T093500
+SUMMARY:WED (w)
+LOCATION:309 S
+DESCRIPTION:Wprowadzenie do metod eksploracji danych\nRodzaj: wykład\nPro
+ wadzący: Mazurek Marcin\nNr zajęć: 1/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1f47b5b1b71e30c852151ae6@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261105T095000
+DTEND;TZID=Europe/Warsaw:20261105T112500
+SUMMARY:PZCB (w)
+LOCATION:309 S
+DESCRIPTION:Podstawowe zagadnienia cyberbezpieczeństwa\nRodzaj: wykład\n
+ Prowadzący: dr hab. inż. Marczyk Maciej\nNr zajęć: 1/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:96bcd73139ed5bf2e1c4d628@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261105T114000
+DTEND;TZID=Europe/Warsaw:20261105T131500
+SUMMARY:PZCB (w)
+LOCATION:309 S
+DESCRIPTION:Podstawowe zagadnienia cyberbezpieczeństwa\nRodzaj: wykład\n
+ Prowadzący: dr hab. inż. Marczyk Maciej\nNr zajęć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:112eae388b691558d9e67d5b@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261105T133000
+DTEND;TZID=Europe/Warsaw:20261105T150500
+SUMMARY:WED (w)
+LOCATION:309 S
+DESCRIPTION:Wprowadzenie do metod eksploracji danych\nRodzaj: wykład\nPro
+ wadzący: Mazurek Marcin\nNr zajęć: 2/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5bc9e558dbcdb866f6b1504b@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261112T080000
+DTEND;TZID=Europe/Warsaw:20261112T093500
+SUMMARY:UPCH (w)
+LOCATION:309 S
+DESCRIPTION:Usługi przetwarzania w chmurze\nRodzaj: wykład\nProwadzący:
+  Gutowski Tomasz\nNr zajęć: 5/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8fdf551c3b94e201d01aa52b@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261112T095000
+DTEND;TZID=Europe/Warsaw:20261112T112500
+SUMMARY:UPCH (w)
+LOCATION:309 S
+DESCRIPTION:Usługi przetwarzania w chmurze\nRodzaj: wykład\nProwadzący:
+  Gutowski Tomasz\nNr zajęć: 6/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5137fdaee441cd1447b035a5@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261112T114000
+DTEND;TZID=Europe/Warsaw:20261112T131500
+SUMMARY:PZCB (ć)
+LOCATION:121 65
+DESCRIPTION:Podstawowe zagadnienia cyberbezpieczeństwa\nRodzaj: ćwiczeni
+ a\nProwadzący: mgr inż. Kalman Leszek\nNr zajęć: 1/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ec0c66765213e1fcca8999d9@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261119T080000
+DTEND;TZID=Europe/Warsaw:20261119T093500
+SUMMARY:WED (L)
+LOCATION:223 S
+DESCRIPTION:Wprowadzenie do metod eksploracji danych\nRodzaj: laboratorium
+ \nProwadzący: Gutowski Tomasz\nNr zajęć: 3/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:215c7d36efbe22d8fe97250f@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261119T095000
+DTEND;TZID=Europe/Warsaw:20261119T112500
+SUMMARY:WED (L)
+LOCATION:223 S
+DESCRIPTION:Wprowadzenie do metod eksploracji danych\nRodzaj: laboratorium
+ \nProwadzący: Gutowski Tomasz\nNr zajęć: 4/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9a6043130a206b96a8eaa68a@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261119T114000
+DTEND;TZID=Europe/Warsaw:20261119T131500
+SUMMARY:UPCH (w)
+LOCATION:309 S
+DESCRIPTION:Usługi przetwarzania w chmurze\nRodzaj: wykład\nProwadzący:
+  Gutowski Tomasz\nNr zajęć: 7/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a8a4e8620a4ba1444e46aeef@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261126T080000
+DTEND;TZID=Europe/Warsaw:20261126T093500
+SUMMARY:UPCH (L)
+LOCATION:223 S
+DESCRIPTION:Usługi przetwarzania w chmurze\nRodzaj: laboratorium\nProwadz
+ ący: Gutowski Tomasz\nNr zajęć: 3/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8f6f0577a5cd9017e6dc301d@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261126T095000
+DTEND;TZID=Europe/Warsaw:20261126T112500
+SUMMARY:UPCH (L)
+LOCATION:223 S
+DESCRIPTION:Usługi przetwarzania w chmurze\nRodzaj: laboratorium\nProwadz
+ ący: Gutowski Tomasz\nNr zajęć: 4/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:dd0f7af032534619b15969e9@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261126T114000
+DTEND;TZID=Europe/Warsaw:20261126T131500
+SUMMARY:PZCB (ć)
+LOCATION:120 65
+DESCRIPTION:Podstawowe zagadnienia cyberbezpieczeństwa\nRodzaj: ćwiczeni
+ a\nProwadzący: mgr inż. Kalman Leszek\nNr zajęć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e246a2943f8c8c5d9a0f8ec8@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261126T133000
+DTEND;TZID=Europe/Warsaw:20261126T150500
+SUMMARY:PZCB (ć)
+LOCATION:120 65
+DESCRIPTION:Podstawowe zagadnienia cyberbezpieczeństwa\nRodzaj: ćwiczeni
+ a\nProwadzący: mgr inż. Kalman Leszek\nNr zajęć: 3/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1949d39f084481af2fb04eb5@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261203T080000
+DTEND;TZID=Europe/Warsaw:20261203T093500
+SUMMARY:WED (L)
+LOCATION:223 S
+DESCRIPTION:Wprowadzenie do metod eksploracji danych\nRodzaj: laboratorium
+ \nProwadzący: Gutowski Tomasz\nNr zajęć: 5/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5d1e440afa80ea1c7f87a99a@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261203T095000
+DTEND;TZID=Europe/Warsaw:20261203T112500
+SUMMARY:WED (L)
+LOCATION:223 S
+DESCRIPTION:Wprowadzenie do metod eksploracji danych\nRodzaj: laboratorium
+ \nProwadzący: Gutowski Tomasz\nNr zajęć: 6/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:250a18aca44fc77cd10b9bea@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261203T114000
+DTEND;TZID=Europe/Warsaw:20261203T131500
+SUMMARY:PZCB (w)
+LOCATION:309 S
+DESCRIPTION:Podstawowe zagadnienia cyberbezpieczeństwa\nRodzaj: wykład\n
+ Prowadzący: dr hab. inż. Marczyk Maciej\nNr zajęć: 3/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:be8eb74477db212236ed1725@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261203T133000
+DTEND;TZID=Europe/Warsaw:20261203T150500
+SUMMARY:PZCB (w)
+LOCATION:309 S
+DESCRIPTION:Podstawowe zagadnienia cyberbezpieczeństwa\nRodzaj: wykład\n
+ Prowadzący: dr hab. inż. Marczyk Maciej\nNr zajęć: 4/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:64ab65481fb088954f90da0e@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261210T080000
+DTEND;TZID=Europe/Warsaw:20261210T093500
+SUMMARY:Pna (ć)
+LOCATION:309 S
+DESCRIPTION:Portfolio nauczyciela akademickiego\nRodzaj: ćwiczenia\nProwa
+ dzący: dr Łakoma Ewa\nNr zajęć: 2/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:444900f44a54fa345ab714d9@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261210T095000
+DTEND;TZID=Europe/Warsaw:20261210T112500
+SUMMARY:PZCB (ć)
+LOCATION:120 65
+DESCRIPTION:Podstawowe zagadnienia cyberbezpieczeństwa\nRodzaj: ćwiczeni
+ a\nProwadzący: mgr inż. Kalman Leszek\nNr zajęć: 4/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f4ddc1556bde526a32098442@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261210T114000
+DTEND;TZID=Europe/Warsaw:20261210T131500
+SUMMARY:UPCH (L)
+LOCATION:223 S
+DESCRIPTION:Usługi przetwarzania w chmurze\nRodzaj: laboratorium\nProwadz
+ ący: Gutowski Tomasz\nNr zajęć: 5/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1e6e98f0ee347f532c3fbb14@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261210T133000
+DTEND;TZID=Europe/Warsaw:20261210T150500
+SUMMARY:UPCH (L)
+LOCATION:223 S
+DESCRIPTION:Usługi przetwarzania w chmurze\nRodzaj: laboratorium\nProwadz
+ ący: Gutowski Tomasz\nNr zajęć: 6/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4248f1ae24c3b23066c7ad0b@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261217T080000
+DTEND;TZID=Europe/Warsaw:20261217T093500
+SUMMARY:WED (L)
+LOCATION:223 S
+DESCRIPTION:Wprowadzenie do metod eksploracji danych\nRodzaj: laboratorium
+ \nProwadzący: Gutowski Tomasz\nNr zajęć: 7/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:053feb8e3bf35942136cf8e8@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261217T095000
+DTEND;TZID=Europe/Warsaw:20261217T112500
+SUMMARY:WED (L)
+LOCATION:223 S
+DESCRIPTION:Wprowadzenie do metod eksploracji danych\nRodzaj: laboratorium
+ \nProwadzący: Gutowski Tomasz\nNr zajęć: 8/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8eee088b69556f9810a3bce0@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261217T114000
+DTEND;TZID=Europe/Warsaw:20261217T131500
+SUMMARY:UPCH (L)
+LOCATION:223 S
+DESCRIPTION:Usługi przetwarzania w chmurze\nRodzaj: laboratorium\nProwadz
+ ący: Gutowski Tomasz\nNr zajęć: 7/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e4ade055ddcfa5a425dc338e@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261217T133000
+DTEND;TZID=Europe/Warsaw:20261217T150500
+SUMMARY:UPCH (L)
+LOCATION:223 S
+DESCRIPTION:Usługi przetwarzania w chmurze\nRodzaj: laboratorium\nProwadz
+ ący: Gutowski Tomasz\nNr zajęć: 8/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a13fc816c56e9dffbfe0c9f0@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270107T080000
+DTEND;TZID=Europe/Warsaw:20270107T093500
+SUMMARY:PZCB (L)
+LOCATION:120 65
+DESCRIPTION:Podstawowe zagadnienia cyberbezpieczeństwa\nRodzaj: laborator
+ ium\nProwadzący: mgr inż. Kalman Leszek\nNr zajęć: 1/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0583362e7538a195364fc5af@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270107T095000
+DTEND;TZID=Europe/Warsaw:20270107T112500
+SUMMARY:PZCB (L)
+LOCATION:120 65
+DESCRIPTION:Podstawowe zagadnienia cyberbezpieczeństwa\nRodzaj: laborator
+ ium\nProwadzący: mgr inż. Kalman Leszek\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a7978d0c1d8cf80d6cdb8433@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270114T080000
+DTEND;TZID=Europe/Warsaw:20270114T093500
+SUMMARY:PZCB (L)
+LOCATION:120 65
+DESCRIPTION:Podstawowe zagadnienia cyberbezpieczeństwa\nRodzaj: laborator
+ ium\nProwadzący: mgr inż. Kalman Leszek\nNr zajęć: 3/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3ab52eef549500f8ecde52b5@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270114T095000
+DTEND;TZID=Europe/Warsaw:20270114T112500
+SUMMARY:PZCB (L)
+LOCATION:120 65
+DESCRIPTION:Podstawowe zagadnienia cyberbezpieczeństwa\nRodzaj: laborator
+ ium\nProwadzący: mgr inż. Kalman Leszek\nNr zajęć: 4/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:816ac35bf9d7f3ad068b282d@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270121T080000
+DTEND;TZID=Europe/Warsaw:20270121T093500
+SUMMARY:Pna (ć)
+LOCATION:309 S
+DESCRIPTION:Portfolio nauczyciela akademickiego\nRodzaj: ćwiczenia\nProwa
+ dzący: dr Łakoma Ewa\nNr zajęć: 3/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1d5f2c958e66bdf500c1a370@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270121T095000
+DTEND;TZID=Europe/Warsaw:20270121T112500
+SUMMARY:Pna (ć)
+LOCATION:309 S
+DESCRIPTION:Portfolio nauczyciela akademickiego\nRodzaj: ćwiczenia\nProwa
+ dzący: dr Łakoma Ewa\nNr zajęć: 4/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4e272710e106db66df8d4fcb@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270121T114000
+DTEND;TZID=Europe/Warsaw:20270121T131500
+SUMMARY:Pna (ć)
+LOCATION:309 S
+DESCRIPTION:Portfolio nauczyciela akademickiego\nRodzaj: ćwiczenia\nProwa
+ dzący: dr Łakoma Ewa\nNr zajęć: 5/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:260e21016a3815509d70fff8@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270121T133000
+DTEND;TZID=Europe/Warsaw:20270121T150500
+SUMMARY:PZCB (w)
+LOCATION:309 S
+DESCRIPTION:Podstawowe zagadnienia cyberbezpieczeństwa\nRodzaj: wykład\n
+ Prowadzący: dr hab. inż. Marczyk Maciej\nNr zajęć: 5/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:16ed06483313fbcbc9d35236@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270128T080000
+DTEND;TZID=Europe/Warsaw:20270128T093500
+SUMMARY:PZCB (L)
+LOCATION:120 65
+DESCRIPTION:Podstawowe zagadnienia cyberbezpieczeństwa\nRodzaj: laborator
+ ium\nProwadzący: mgr inż. Kalman Leszek\nNr zajęć: 5/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:17d09d80f6891fb61a7814a1@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270128T095000
+DTEND;TZID=Europe/Warsaw:20270128T112500
+SUMMARY:PZCB (ć)
+LOCATION:120 65
+DESCRIPTION:Podstawowe zagadnienia cyberbezpieczeństwa\nRodzaj: ćwiczeni
+ a\nProwadzący: mgr inż. Kalman Leszek\nNr zajęć: 5/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:042dbe49eea4f3ab1d2f6475@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270204T133000
+DTEND;TZID=Europe/Warsaw:20270204T150500
+SUMMARY:WED (E)
+LOCATION:309 S
+DESCRIPTION:Wprowadzenie do metod eksploracji danych\nRodzaj: egzamin\nPro
+ wadzący: dr hab. inż. Antkiewicz Ryszard\nNr zajęć: 1/1\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7de6dee24e20abf745a8f9e5@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270211T095000
+DTEND;TZID=Europe/Warsaw:20270211T112500
+SUMMARY:Eko (E)
+LOCATION:314 S\, 223 S
+DESCRIPTION:Egzamin końcowy\nRodzaj: egzamin\nProwadzący: dr Łakoma Ewa
+ \nNr zajęć: 1/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9969dd520fae82236a1cad1a@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270211T114000
+DTEND;TZID=Europe/Warsaw:20270211T131500
+SUMMARY:Eko (E)
+LOCATION:314 S\, 223 S
+DESCRIPTION:Egzamin końcowy\nRodzaj: egzamin\nProwadzący: dr Łakoma Ewa
+ \nNr zajęć: 2/2\nBlok: 3
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,566 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WTC23CW1S1
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:41420f340f7857a0baaaad0b@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261002T095000
+DTEND;TZID=Europe/Warsaw:20261002T112500
+SUMMARY:Sd. (S)
+LOCATION:110/ 14
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: Dzr\nNr
+  zajęć: 1/30\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5c14f0611d944a3aeea9df21@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261005T095000
+DTEND;TZID=Europe/Warsaw:20261005T112500
+SUMMARY:ZEk (w)
+LOCATION:10 55
+DESCRIPTION:Zagrożenia ekologiczne\nRodzaj: wykład\nProwadzący: dr hab.
+  inż Harmata Władysław\nNr zajęć: 1/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e6ada744696ae29f6c54c2f1@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261005T114000
+DTEND;TZID=Europe/Warsaw:20261005T131500
+SUMMARY:Ldy (S)
+LOCATION:110/ 14
+DESCRIPTION:Laboratorium dyplomowe\nRodzaj: seminarium\nProwadzący: dr in
+ ż. Dziura Aleksandra\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:dfc3c350bc6075aca994689d@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261005T133000
+DTEND;TZID=Europe/Warsaw:20261005T150500
+SUMMARY:Sd. (S)
+LOCATION:10 55
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr hab.
+  inż Harmata Władysław\nNr zajęć: 2/30\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c1e79264251e2d098bc3efe0@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261014T080000
+DTEND;TZID=Europe/Warsaw:20261014T093500
+SUMMARY:ZEk (w)
+LOCATION:10 55
+DESCRIPTION:Zagrożenia ekologiczne\nRodzaj: wykład\nProwadzący: dr hab.
+  inż Harmata Władysław\nNr zajęć: 2/11\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ae961a023dd26bef769b79b3@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261014T095000
+DTEND;TZID=Europe/Warsaw:20261014T112500
+SUMMARY:ZEk (w)
+LOCATION:10 55
+DESCRIPTION:Zagrożenia ekologiczne\nRodzaj: wykład\nProwadzący: dr hab.
+  inż Harmata Władysław\nNr zajęć: 3/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:796b89814cbe291396c39075@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261021T080000
+DTEND;TZID=Europe/Warsaw:20261021T093500
+SUMMARY:ZEk (w)
+LOCATION:10 55
+DESCRIPTION:Zagrożenia ekologiczne\nRodzaj: wykład\nProwadzący: dr hab.
+  inż Harmata Władysław\nNr zajęć: 4/11\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:692eb8999956c66ea87c7f34@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261021T095000
+DTEND;TZID=Europe/Warsaw:20261021T112500
+SUMMARY:ZEk (S)
+LOCATION:10 55
+DESCRIPTION:Zagrożenia ekologiczne\nRodzaj: seminarium\nProwadzący: dr h
+ ab. inż Harmata Władysław\nNr zajęć: 1/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:fc61274ae3f1d07408e90202@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261021T114000
+DTEND;TZID=Europe/Warsaw:20261021T131500
+SUMMARY:ZEk (S)
+LOCATION:10 55
+DESCRIPTION:Zagrożenia ekologiczne\nRodzaj: seminarium\nProwadzący: dr h
+ ab. inż Harmata Władysław\nNr zajęć: 2/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ebe3a3c73bf8e970d90194e5@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261028T080000
+DTEND;TZID=Europe/Warsaw:20261028T093500
+SUMMARY:ZEk (S)
+LOCATION:10 55
+DESCRIPTION:Zagrożenia ekologiczne\nRodzaj: seminarium\nProwadzący: dr h
+ ab. inż Harmata Władysław\nNr zajęć: 3/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:bfd44ce3c7e93537f97a456a@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261028T095000
+DTEND;TZID=Europe/Warsaw:20261028T112500
+SUMMARY:ZEk (S)
+LOCATION:10 55
+DESCRIPTION:Zagrożenia ekologiczne\nRodzaj: seminarium\nProwadzący: dr h
+ ab. inż Harmata Władysław\nNr zajęć: 4/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:fdbf4517719622bb573daa34@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261030T080000
+DTEND;TZID=Europe/Warsaw:20261030T093500
+SUMMARY:Sd. (S)
+LOCATION:10 55
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: prof. d
+ r hab. inż. Neffe Sławomir\nNr zajęć: 3/30\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6a9fc467c36dab859bcd387a@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261030T095000
+DTEND;TZID=Europe/Warsaw:20261030T112500
+SUMMARY:Sd. (S)
+LOCATION:110/ 14
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: Kpr\nNr
+  zajęć: 4/30\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b4b1c581ea293d463c7ea847@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261030T114000
+DTEND;TZID=Europe/Warsaw:20261030T131500
+SUMMARY:ZEk (w)
+LOCATION:10 55
+DESCRIPTION:Zagrożenia ekologiczne\nRodzaj: wykład\nProwadzący: dr hab.
+  inż Harmata Władysław\nNr zajęć: 5/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:34abc6b317b0e3701475f985@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261030T133000
+DTEND;TZID=Europe/Warsaw:20261030T150500
+SUMMARY:ZEk (ć)
+LOCATION:123 24
+DESCRIPTION:Zagrożenia ekologiczne\nRodzaj: ćwiczenia\nProwadzący: dr i
+ nż. Szymańczyk Leszek\nNr zajęć: 1/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f9704da8662b673d73e3d834@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261104T080000
+DTEND;TZID=Europe/Warsaw:20261104T093500
+SUMMARY:Sd. (S)
+LOCATION:109 24
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Paszula Józef\nNr zajęć: 5/30\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d7282a68299e0060465f5f53@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261104T095000
+DTEND;TZID=Europe/Warsaw:20261104T112500
+SUMMARY:ZEk (w)
+LOCATION:10 55
+DESCRIPTION:Zagrożenia ekologiczne\nRodzaj: wykład\nProwadzący: dr hab.
+  inż Harmata Władysław\nNr zajęć: 6/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:686ad11732b07c17d58a9c5d@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261104T114000
+DTEND;TZID=Europe/Warsaw:20261104T131500
+SUMMARY:ZEk (S)
+LOCATION:10 55
+DESCRIPTION:Zagrożenia ekologiczne\nRodzaj: seminarium\nProwadzący: dr h
+ ab. inż Harmata Władysław\nNr zajęć: 5/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c93c97bf707686f1ab701156@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261104T133000
+DTEND;TZID=Europe/Warsaw:20261104T150500
+SUMMARY:ZEk (S)
+LOCATION:10 55
+DESCRIPTION:Zagrożenia ekologiczne\nRodzaj: seminarium\nProwadzący: dr h
+ ab. inż Harmata Władysław\nNr zajęć: 6/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6c41d21acfd3f2410b8579b0@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261109T080000
+DTEND;TZID=Europe/Warsaw:20261109T093500
+SUMMARY:ZEk (ć)
+LOCATION:123 24
+DESCRIPTION:Zagrożenia ekologiczne\nRodzaj: ćwiczenia\nProwadzący: dr i
+ nż. Szymańczyk Leszek\nNr zajęć: 2/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:be78fad29a937921f7826b77@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261109T095000
+DTEND;TZID=Europe/Warsaw:20261109T112500
+SUMMARY:ZEk (w)
+LOCATION:2 55A
+DESCRIPTION:Zagrożenia ekologiczne\nRodzaj: wykład\nProwadzący: dr hab.
+  inż Harmata Władysław\nNr zajęć: 7/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5999c37e621443d07d553eb6@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261109T114000
+DTEND;TZID=Europe/Warsaw:20261109T131500
+SUMMARY:Sd. (S)
+LOCATION:110/ 14
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: Kpr\nNr
+  zajęć: 6/30\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f90a4b10375adb2de24a039e@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261109T133000
+DTEND;TZID=Europe/Warsaw:20261109T150500
+SUMMARY:Sd. (S)
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: prof. d
+ r hab. inż. Neffe Sławomir\nNr zajęć: 7/30\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:800d3c5fe309129bc6ca9723@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261116T080000
+DTEND;TZID=Europe/Warsaw:20261116T093500
+SUMMARY:ZEk (ć)
+LOCATION:123 24
+DESCRIPTION:Zagrożenia ekologiczne\nRodzaj: ćwiczenia\nProwadzący: dr i
+ nż. Szymańczyk Leszek\nNr zajęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0c685a2e9427b1c8c69de5e2@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261116T095000
+DTEND;TZID=Europe/Warsaw:20261116T112500
+SUMMARY:ZEk (w)
+LOCATION:2 55A
+DESCRIPTION:Zagrożenia ekologiczne\nRodzaj: wykład\nProwadzący: dr hab.
+  inż Harmata Władysław\nNr zajęć: 8/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b451a8e4e87387389bdfea2e@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261116T114000
+DTEND;TZID=Europe/Warsaw:20261116T131500
+SUMMARY:Sd. (S)
+LOCATION:110/ 14
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: Kpr\nNr
+  zajęć: 8/30\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7db0fe7f6f0db04769c73094@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261116T133000
+DTEND;TZID=Europe/Warsaw:20261116T150500
+SUMMARY:Sd. (S)
+LOCATION:10 55
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: prof. d
+ r hab. inż. Neffe Sławomir\nNr zajęć: 9/30\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:86284c02a355045387c4b45d@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261118T080000
+DTEND;TZID=Europe/Warsaw:20261118T093500
+SUMMARY:Sd. (S)
+LOCATION:109 24
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Paszula Józef\nNr zajęć: 10/30\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2dc1a7506e8a7aa3a8f48e7b@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261118T095000
+DTEND;TZID=Europe/Warsaw:20261118T112500
+SUMMARY:ZEk (w)
+LOCATION:10 55
+DESCRIPTION:Zagrożenia ekologiczne\nRodzaj: wykład\nProwadzący: dr hab.
+  inż Harmata Władysław\nNr zajęć: 9/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d2d4cf4995687b6c7491d3f0@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261118T114000
+DTEND;TZID=Europe/Warsaw:20261118T131500
+SUMMARY:ZEk (ć)
+LOCATION:123 24
+DESCRIPTION:Zagrożenia ekologiczne\nRodzaj: ćwiczenia\nProwadzący: dr i
+ nż. Szymańczyk Leszek\nNr zajęć: 4/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:afe1ce3d4d05e5b03d078ead@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261123T095000
+DTEND;TZID=Europe/Warsaw:20261123T112500
+SUMMARY:ZEk (w)
+LOCATION:2 55A
+DESCRIPTION:Zagrożenia ekologiczne\nRodzaj: wykład\nProwadzący: dr hab.
+  inż Harmata Władysław\nNr zajęć: 10/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c502c4e5da5b69c0be9b87c5@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261123T114000
+DTEND;TZID=Europe/Warsaw:20261123T131500
+SUMMARY:Sd. (S)
+LOCATION:110/ 14
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: Kpr\nNr
+  zajęć: 11/30\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:dcda18c1f8c821f1312585ec@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261123T133000
+DTEND;TZID=Europe/Warsaw:20261123T150500
+SUMMARY:Sd. (S)
+LOCATION:10 55
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: prof. d
+ r hab. inż. Neffe Sławomir\nNr zajęć: 12/30\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7487bfb3c7586f9c76dc688c@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261125T080000
+DTEND;TZID=Europe/Warsaw:20261125T093500
+SUMMARY:ZEk (S)
+LOCATION:10 55
+DESCRIPTION:Zagrożenia ekologiczne\nRodzaj: seminarium\nProwadzący: dr h
+ ab. inż Harmata Władysław\nNr zajęć: 7/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:94340cd147bd4d6b15f7ef4b@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261125T095000
+DTEND;TZID=Europe/Warsaw:20261125T112500
+SUMMARY:ZEk (S)
+LOCATION:10 55
+DESCRIPTION:Zagrożenia ekologiczne\nRodzaj: seminarium\nProwadzący: dr h
+ ab. inż Harmata Władysław\nNr zajęć: 8/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:15a3a3a9a07e4f0356d26e22@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261125T133000
+DTEND;TZID=Europe/Warsaw:20261125T150500
+SUMMARY:ZEk (w)
+LOCATION:10 55
+DESCRIPTION:Zagrożenia ekologiczne\nRodzaj: wykład\nProwadzący: dr hab.
+  inż Harmata Władysław\nNr zajęć: 11/11\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:06c254046200973f1ea91e83@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261201T080000
+DTEND;TZID=Europe/Warsaw:20261201T093500
+SUMMARY:Sd. (S)
+LOCATION:109 24
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Paszula Józef\nNr zajęć: 13/30\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0768639a7c1443a4adf58db6@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261202T095000
+DTEND;TZID=Europe/Warsaw:20261202T112500
+SUMMARY:Sd. (S)
+LOCATION:123 24
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Paszula Józef\nNr zajęć: 14/30\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:80cf8241b99b65f1803ad7ae@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261207T114000
+DTEND;TZID=Europe/Warsaw:20261207T131500
+SUMMARY:Sd. (S)
+LOCATION:10 55
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: prof. d
+ r hab. inż. Neffe Sławomir\nNr zajęć: 15/30\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:41688a3fd5f89c0e5dadfdab@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261207T133000
+DTEND;TZID=Europe/Warsaw:20261207T150500
+SUMMARY:Sd. (S)
+LOCATION:110/ 14
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: Kpr\nNr
+  zajęć: 16/30\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9807009fc299b7ce5ea11caa@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261209T080000
+DTEND;TZID=Europe/Warsaw:20261209T093500
+SUMMARY:Sd. (S)
+LOCATION:109 24
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Paszula Józef\nNr zajęć: 17/30\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ab168afe9eaddda8898e8565@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261214T080000
+DTEND;TZID=Europe/Warsaw:20261214T093500
+SUMMARY:Sd. (S)
+LOCATION:123 24
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: Kpr\nNr
+  zajęć: 18/30\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3dcfb884c7074ce013be7e0c@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261214T114000
+DTEND;TZID=Europe/Warsaw:20261214T131500
+SUMMARY:Sd. (S)
+LOCATION:10 55
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: prof. d
+ r hab. inż. Neffe Sławomir\nNr zajęć: 19/30\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8ffdf8da2e8cd59f2632b6b7@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261216T080000
+DTEND;TZID=Europe/Warsaw:20261216T093500
+SUMMARY:Sd. (S)
+LOCATION:109 24
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Paszula Józef\nNr zajęć: 20/30\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d904ed607fdfe23bbf1537e6@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261221T114000
+DTEND;TZID=Europe/Warsaw:20261221T131500
+SUMMARY:Sd. (S)
+LOCATION:10 55
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: prof. d
+ r hab. inż. Neffe Sławomir\nNr zajęć: 21/30\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:516ab1bcb526017652e37347@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261221T133000
+DTEND;TZID=Europe/Warsaw:20261221T150500
+SUMMARY:Sd. (S)
+LOCATION:110/ 14
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: Kpr\nNr
+  zajęć: 22/30\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6d2993010d803d2b33030c92@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261223T080000
+DTEND;TZID=Europe/Warsaw:20261223T093500
+SUMMARY:Sd. (S)
+LOCATION:109 24
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Paszula Józef\nNr zajęć: 23/30\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4d56826d6c3b75b694f58346@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270125T114000
+DTEND;TZID=Europe/Warsaw:20270125T131500
+SUMMARY:Sd. (S)
+LOCATION:10 55
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: prof. d
+ r hab. inż. Neffe Sławomir\nNr zajęć: 24/30\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:42a70d1d1a3c1db8b5aa1a49@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270125T133000
+DTEND;TZID=Europe/Warsaw:20270125T150500
+SUMMARY:Sd. (S)
+LOCATION:10 55
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: prof. d
+ r hab. inż. Neffe Sławomir\nNr zajęć: 25/30\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3c5953bf8a61e9b4b2ad5c94@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270126T080000
+DTEND;TZID=Europe/Warsaw:20270126T093500
+SUMMARY:Sd. (S)
+LOCATION:110/ 14
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: Kpr\nNr
+  zajęć: 26/30\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d95cd700dee36625b04792f8@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270126T095000
+DTEND;TZID=Europe/Warsaw:20270126T112500
+SUMMARY:Sd. (S)
+LOCATION:110/ 14
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: Kpr\nNr
+  zajęć: 27/30\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d816b4b32dbe5959938e4cbb@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270126T114000
+DTEND;TZID=Europe/Warsaw:20270126T131500
+SUMMARY:Sd. (S)
+LOCATION:110/ 14
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: Kpr\nNr
+  zajęć: 28/30\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:68bce280af4d2b6dfdaa4190@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270127T080000
+DTEND;TZID=Europe/Warsaw:20270127T093500
+SUMMARY:Sd. (S)
+LOCATION:109 24
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Paszula Józef\nNr zajęć: 29/30\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:174ce8238ac07ecd1ab8e09c@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270127T095000
+DTEND;TZID=Europe/Warsaw:20270127T112500
+SUMMARY:Sd. (S)
+LOCATION:109 24
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Paszula Józef\nNr zajęć: 30/30\nBlok: 2
+END:VEVENT
+END:VCALENDAR

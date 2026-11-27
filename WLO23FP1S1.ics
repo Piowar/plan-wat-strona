@@ -1,0 +1,723 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WLO23FP1S1
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:313684bee4be5124f356dbad@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261001T095000
+DTEND;TZID=Europe/Warsaw:20261001T112500
+SUMMARY:CL. (w)
+LOCATION:0.28/ 135
+DESCRIPTION:Centra logistyczne\nRodzaj: wykład\nProwadzący: dr hab. inż
+ . Bartosiewicz Sławomir\nNr zajęć: 1/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9e81eb3042bdb055613eec74@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261001T114000
+DTEND;TZID=Europe/Warsaw:20261001T131500
+SUMMARY:Zil. (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Zastosowanie informatyki w logistyce\nRodzaj: wykład\nProwadz
+ ący: dr inż. Waśniewski Tomasz\nNr zajęć: 1/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d698f4376985236a0af12922@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261002T080000
+DTEND;TZID=Europe/Warsaw:20261002T093500
+SUMMARY:Sd. (S)
+LOCATION:0.22/ 16
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr Woź
+ niak Jacek\, prof. WAT\nNr zajęć: 1/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:db982470cd9bdb4139944bd7@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261002T095000
+DTEND;TZID=Europe/Warsaw:20261002T112500
+SUMMARY:Sd. (S)
+LOCATION:0.22/ 16
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr Woź
+ niak Jacek\, prof. WAT\nNr zajęć: 2/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:71e87d1cfcb06bc6db879151@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261002T114000
+DTEND;TZID=Europe/Warsaw:20261002T131500
+SUMMARY:Sch. (w)
+LOCATION:1.27/ 135
+DESCRIPTION:Supply chain management (Zarządzanie łańcuchem dostaw)\nRod
+ zaj: wykład\nProwadzący: dr Zamelek Paulina\nNr zajęć: 1/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1c179aacd6ece7b63a7815df@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261002T133000
+DTEND;TZID=Europe/Warsaw:20261002T150500
+SUMMARY:Sch. (w)
+LOCATION:1.27/ 135
+DESCRIPTION:Supply chain management (Zarządzanie łańcuchem dostaw)\nRod
+ zaj: wykład\nProwadzący: dr Zamelek Paulina\nNr zajęć: 2/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:62af4d838501f0ea2a3c037b@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261007T114000
+DTEND;TZID=Europe/Warsaw:20261007T131500
+SUMMARY:Sd. (S)
+LOCATION:0.22/ 16
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr Woź
+ niak Jacek\, prof. WAT\nNr zajęć: 3/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8f441cfad87c78ef4bef27f6@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261007T133000
+DTEND;TZID=Europe/Warsaw:20261007T150500
+SUMMARY:Sd. (S)
+LOCATION:0.22/ 16
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr Woź
+ niak Jacek\, prof. WAT\nNr zajęć: 4/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1dea2fd5483fa9a4b7f4301c@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261007T160000
+DTEND;TZID=Europe/Warsaw:20261007T173500
+SUMMARY:Zil. (w)
+LOCATION:1.27/ 135
+DESCRIPTION:Zastosowanie informatyki w logistyce\nRodzaj: wykład\nProwadz
+ ący: dr inż. Waśniewski Tomasz\nNr zajęć: 2/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:40496729a64a5df296daa94c@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261008T114000
+DTEND;TZID=Europe/Warsaw:20261008T131500
+SUMMARY:CL. (w)
+LOCATION:1.27/ 135
+DESCRIPTION:Centra logistyczne\nRodzaj: wykład\nProwadzący: dr hab. inż
+ . Bartosiewicz Sławomir\nNr zajęć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4706c6b861554af564539cca@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261008T133000
+DTEND;TZID=Europe/Warsaw:20261008T150500
+SUMMARY:Zlwp (w)
+LOCATION:1.27/ 135
+DESCRIPTION:Zarzadzanie logistyczne w przedsiebiorstwie\nRodzaj: wykład\n
+ Prowadzący: dr inż. Owczarek Paulina\nNr zajęć: 1/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1b4efe822a557700a360d329@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261009T095000
+DTEND;TZID=Europe/Warsaw:20261009T112500
+SUMMARY:CL. (ć)
+LOCATION:1.15/ 16
+DESCRIPTION:Centra logistyczne\nRodzaj: ćwiczenia\nProwadzący: dr Ozięb
+ ło Małgorzata\nNr zajęć: 1/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:cf6d1c8c39c135c15631f857@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261009T114000
+DTEND;TZID=Europe/Warsaw:20261009T131500
+SUMMARY:CL. (ć)
+LOCATION:1.15/ 16
+DESCRIPTION:Centra logistyczne\nRodzaj: ćwiczenia\nProwadzący: dr Ozięb
+ ło Małgorzata\nNr zajęć: 2/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c842fae046afd152d8aff0e7@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261012T095000
+DTEND;TZID=Europe/Warsaw:20261012T112500
+SUMMARY:CL. (ć)
+LOCATION:0.21/ 16
+DESCRIPTION:Centra logistyczne\nRodzaj: ćwiczenia\nProwadzący: dr Ozięb
+ ło Małgorzata\nNr zajęć: 3/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c0067fb65b2997fe4fc80675@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261013T095000
+DTEND;TZID=Europe/Warsaw:20261013T112500
+SUMMARY:CL. (ć)
+LOCATION:0.22/ 16
+DESCRIPTION:Centra logistyczne\nRodzaj: ćwiczenia\nProwadzący: dr Ozięb
+ ło Małgorzata\nNr zajęć: 4/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d963cb34d8ea568e82866082@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261013T114000
+DTEND;TZID=Europe/Warsaw:20261013T131500
+SUMMARY:CL. (ć)
+LOCATION:0.22/ 16
+DESCRIPTION:Centra logistyczne\nRodzaj: ćwiczenia\nProwadzący: dr Ozięb
+ ło Małgorzata\nNr zajęć: 5/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:afe423f1218859546e45200f@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261015T080000
+DTEND;TZID=Europe/Warsaw:20261015T093500
+SUMMARY:Zil. (w)
+LOCATION:1.27/ 135
+DESCRIPTION:Zastosowanie informatyki w logistyce\nRodzaj: wykład\nProwadz
+ ący: dr inż. Waśniewski Tomasz\nNr zajęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3b6d994fc72d46808ec035b2@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261015T095000
+DTEND;TZID=Europe/Warsaw:20261015T112500
+SUMMARY:Zil. (w)
+LOCATION:1.27/ 135
+DESCRIPTION:Zastosowanie informatyki w logistyce\nRodzaj: wykład\nProwadz
+ ący: dr inż. Waśniewski Tomasz\nNr zajęć: 4/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4412c736a55ac608a55a100f@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261015T114000
+DTEND;TZID=Europe/Warsaw:20261015T131500
+SUMMARY:Zlwp (ć)
+LOCATION:0.22/ 16
+DESCRIPTION:Zarzadzanie logistyczne w przedsiebiorstwie\nRodzaj: ćwiczeni
+ a\nProwadzący: dr Kalbarczyk Ewa\nNr zajęć: 1/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0968cad07ce379d8aed7f4f2@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261016T095000
+DTEND;TZID=Europe/Warsaw:20261016T112500
+SUMMARY:Sd. (S)
+LOCATION:4.23/ 135
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr Woź
+ niak Jacek\, prof. WAT\nNr zajęć: 5/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f6874fb5d61d14f89d154cad@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261016T114000
+DTEND;TZID=Europe/Warsaw:20261016T131500
+SUMMARY:Sd. (S)
+LOCATION:4.23/ 135
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr Woź
+ niak Jacek\, prof. WAT\nNr zajęć: 6/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3be13835b6f4eee7f2c5913f@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261019T080000
+DTEND;TZID=Europe/Warsaw:20261019T093500
+SUMMARY:Sch. (w)
+LOCATION:1.27/ 135
+DESCRIPTION:Supply chain management (Zarządzanie łańcuchem dostaw)\nRod
+ zaj: wykład\nProwadzący: dr Zamelek Paulina\nNr zajęć: 3/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d45d3ee13a5561a08ed0ed83@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261019T095000
+DTEND;TZID=Europe/Warsaw:20261019T112500
+SUMMARY:CL. (w)
+LOCATION:0.23/ 16
+DESCRIPTION:Centra logistyczne\nRodzaj: wykład\nProwadzący: dr hab. inż
+ . Bartosiewicz Sławomir\nNr zajęć: 3/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7fa40bc7effe20f7650d6b72@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261019T114000
+DTEND;TZID=Europe/Warsaw:20261019T131500
+SUMMARY:Sd. (S)
+LOCATION:0.22/ 16
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr Woź
+ niak Jacek\, prof. WAT\nNr zajęć: 7/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3baa033bbdc4bead52b6eef1@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261019T133000
+DTEND;TZID=Europe/Warsaw:20261019T150500
+SUMMARY:Sd. (S)
+LOCATION:0.22/ 16
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr Woź
+ niak Jacek\, prof. WAT\nNr zajęć: 8/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7003b24ef372aa1af2a1895c@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261020T095000
+DTEND;TZID=Europe/Warsaw:20261020T112500
+SUMMARY:CL. (ć)
+LOCATION:0.6/ 16
+DESCRIPTION:Centra logistyczne\nRodzaj: ćwiczenia\nProwadzący: dr Ozięb
+ ło Małgorzata\nNr zajęć: 6/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e738e54d0b8c51146b3adca6@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261020T114000
+DTEND;TZID=Europe/Warsaw:20261020T131500
+SUMMARY:CL. (ć)
+LOCATION:0.6/ 16
+DESCRIPTION:Centra logistyczne\nRodzaj: ćwiczenia\nProwadzący: dr Ozięb
+ ło Małgorzata\nNr zajęć: 7/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:cdb02d8033ba2ee7f88a648b@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261020T133000
+DTEND;TZID=Europe/Warsaw:20261020T150500
+SUMMARY:Zlwp (ć)
+LOCATION:0.6/ 16
+DESCRIPTION:Zarzadzanie logistyczne w przedsiebiorstwie\nRodzaj: ćwiczeni
+ a\nProwadzący: dr Kalbarczyk Ewa\nNr zajęć: 2/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:eae95253453917a790e16e15@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261020T160000
+DTEND;TZID=Europe/Warsaw:20261020T173500
+SUMMARY:Zlwp (ć)
+LOCATION:0.6/ 16
+DESCRIPTION:Zarzadzanie logistyczne w przedsiebiorstwie\nRodzaj: ćwiczeni
+ a\nProwadzący: dr Kalbarczyk Ewa\nNr zajęć: 3/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:2933338d81a67036c5d907f7@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261021T133000
+DTEND;TZID=Europe/Warsaw:20261021T150500
+SUMMARY:Zlwp (w)
+LOCATION:5.17/ 135
+DESCRIPTION:Zarzadzanie logistyczne w przedsiebiorstwie\nRodzaj: wykład\n
+ Prowadzący: dr inż. Owczarek Paulina\nNr zajęć: 2/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7a0e99940d2887eba3a258c1@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261021T160000
+DTEND;TZID=Europe/Warsaw:20261021T173500
+SUMMARY:Zlwp (w)
+LOCATION:5.17/ 135
+DESCRIPTION:Zarzadzanie logistyczne w przedsiebiorstwie\nRodzaj: wykład\n
+ Prowadzący: dr inż. Owczarek Paulina\nNr zajęć: 3/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:513106d8761e99c9d4ed9421@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261021T175000
+DTEND;TZID=Europe/Warsaw:20261021T192500
+SUMMARY:Zlwp (w)
+LOCATION:5.17/ 135
+DESCRIPTION:Zarzadzanie logistyczne w przedsiebiorstwie\nRodzaj: wykład\n
+ Prowadzący: dr inż. Owczarek Paulina\nNr zajęć: 4/5\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:00b4174c2ac68c9618877c1b@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261022T080000
+DTEND;TZID=Europe/Warsaw:20261022T093500
+SUMMARY:Zil. (L)
+LOCATION:1/ 22
+DESCRIPTION:Zastosowanie informatyki w logistyce\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Waśniewski Tomasz\nNr zajęć: 1/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:970f54f62e0e6b9f9d1e8071@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261022T095000
+DTEND;TZID=Europe/Warsaw:20261022T112500
+SUMMARY:Zil. (L)
+LOCATION:1/ 22
+DESCRIPTION:Zastosowanie informatyki w logistyce\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Waśniewski Tomasz\nNr zajęć: 2/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:fb74262abcbc4ac8080dd325@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261022T114000
+DTEND;TZID=Europe/Warsaw:20261022T131500
+SUMMARY:Sch. (ć)
+LOCATION:1a/ 28
+DESCRIPTION:Supply chain management (Zarządzanie łańcuchem dostaw)\nRod
+ zaj: ćwiczenia\nProwadzący: dr Zamelek Paulina\nNr zajęć: 1/7\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a7939c97f57da5fe02ff785e@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261022T133000
+DTEND;TZID=Europe/Warsaw:20261022T150500
+SUMMARY:Sch. (ć)
+LOCATION:1a/ 28
+DESCRIPTION:Supply chain management (Zarządzanie łańcuchem dostaw)\nRod
+ zaj: ćwiczenia\nProwadzący: dr Zamelek Paulina\nNr zajęć: 2/7\nBlok: 
+ 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a951e7c5c46c93c05065edab@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261027T080000
+DTEND;TZID=Europe/Warsaw:20261027T093500
+SUMMARY:Zlwp (w)
+LOCATION:1002 HILTON
+DESCRIPTION:Zarzadzanie logistyczne w przedsiebiorstwie\nRodzaj: wykład\n
+ Prowadzący: dr inż. Owczarek Paulina\nNr zajęć: 5/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:dea1e07a80e8ff9262e9150a@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261029T080000
+DTEND;TZID=Europe/Warsaw:20261029T093500
+SUMMARY:CL. (w)
+LOCATION:1.27/ 135
+DESCRIPTION:Centra logistyczne\nRodzaj: wykład\nProwadzący: dr hab. inż
+ . Bartosiewicz Sławomir\nNr zajęć: 4/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:87a345385e30eab1ed6423c9@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261104T133000
+DTEND;TZID=Europe/Warsaw:20261104T150500
+SUMMARY:Zlwp (ć)
+LOCATION:2/ 22
+DESCRIPTION:Zarzadzanie logistyczne w przedsiebiorstwie\nRodzaj: ćwiczeni
+ a\nProwadzący: dr Kalbarczyk Ewa\nNr zajęć: 4/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e8cdda86465ca7cacdaf0409@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261104T160000
+DTEND;TZID=Europe/Warsaw:20261104T173500
+SUMMARY:Sch. (w)
+LOCATION:0.28/ 135
+DESCRIPTION:Supply chain management (Zarządzanie łańcuchem dostaw)\nRod
+ zaj: wykład\nProwadzący: dr Zamelek Paulina\nNr zajęć: 4/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:6adf972b0e9b9e3a6e3e3838@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261104T175000
+DTEND;TZID=Europe/Warsaw:20261104T192500
+SUMMARY:Sch. (w)
+LOCATION:0.28/ 135
+DESCRIPTION:Supply chain management (Zarządzanie łańcuchem dostaw)\nRod
+ zaj: wykład\nProwadzący: dr Zamelek Paulina\nNr zajęć: 5/8\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:939c5b0abb25d5bdfc05f367@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261109T080000
+DTEND;TZID=Europe/Warsaw:20261109T093500
+SUMMARY:Zil. (L)
+LOCATION:1/ 22
+DESCRIPTION:Zastosowanie informatyki w logistyce\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Waśniewski Tomasz\nNr zajęć: 3/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4d336597357193d1acebb58c@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261109T095000
+DTEND;TZID=Europe/Warsaw:20261109T112500
+SUMMARY:Zil. (L)
+LOCATION:1/ 22
+DESCRIPTION:Zastosowanie informatyki w logistyce\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Waśniewski Tomasz\nNr zajęć: 4/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5c5cffc7d8702b5f98228781@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261109T114000
+DTEND;TZID=Europe/Warsaw:20261109T131500
+SUMMARY:Sd. (S)
+LOCATION:1.27/ 135
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr Woź
+ niak Jacek\, prof. WAT\nNr zajęć: 9/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:88cb1cf260f33b81a8582415@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261109T133000
+DTEND;TZID=Europe/Warsaw:20261109T150500
+SUMMARY:Sd. (S)
+LOCATION:1.27/ 135
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr Woź
+ niak Jacek\, prof. WAT\nNr zajęć: 10/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b3c7d48dd93ce0338c1879c5@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261110T080000
+DTEND;TZID=Europe/Warsaw:20261110T093500
+SUMMARY:Zlwp (ć)
+LOCATION:0.21/ 16
+DESCRIPTION:Zarzadzanie logistyczne w przedsiebiorstwie\nRodzaj: ćwiczeni
+ a\nProwadzący: dr Kalbarczyk Ewa\nNr zajęć: 5/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:39d9ef4f01284ad9ed5a37aa@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261110T095000
+DTEND;TZID=Europe/Warsaw:20261110T112500
+SUMMARY:CL. (ć)
+LOCATION:0.6/ 16
+DESCRIPTION:Centra logistyczne\nRodzaj: ćwiczenia\nProwadzący: dr Ozięb
+ ło Małgorzata\nNr zajęć: 8/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9497bc8e77f224212865007d@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261110T114000
+DTEND;TZID=Europe/Warsaw:20261110T131500
+SUMMARY:CL. (ć)
+LOCATION:0.6/ 16
+DESCRIPTION:Centra logistyczne\nRodzaj: ćwiczenia\nProwadzący: dr Ozięb
+ ło Małgorzata\nNr zajęć: 9/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d811015a3636c8f170ca4f43@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261112T080000
+DTEND;TZID=Europe/Warsaw:20261112T093500
+SUMMARY:Sch. (ć)
+LOCATION:wyjazd studyjny
+DESCRIPTION:Supply chain management (Zarządzanie łańcuchem dostaw)\nRod
+ zaj: ćwiczenia\nProwadzący: dr Zamelek Paulina\nNr zajęć: 3/7\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:eaf784a8bda2214f60bcbcf4@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261112T095000
+DTEND;TZID=Europe/Warsaw:20261112T112500
+SUMMARY:Sch. (ć)
+LOCATION:wyjazd studyjny
+DESCRIPTION:Supply chain management (Zarządzanie łańcuchem dostaw)\nRod
+ zaj: ćwiczenia\nProwadzący: dr Zamelek Paulina\nNr zajęć: 4/7\nBlok: 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6fff9763eb78bc3513c56bca@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261112T114000
+DTEND;TZID=Europe/Warsaw:20261112T131500
+SUMMARY:Sch. (ć)
+LOCATION:wyjazd studyjny
+DESCRIPTION:Supply chain management (Zarządzanie łańcuchem dostaw)\nRod
+ zaj: ćwiczenia\nProwadzący: dr Zamelek Paulina\nNr zajęć: 5/7\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:30ed89c2e90a44ae367059e2@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261112T133000
+DTEND;TZID=Europe/Warsaw:20261112T150500
+SUMMARY:Sch. (ć)
+LOCATION:wyjazd studyjny
+DESCRIPTION:Supply chain management (Zarządzanie łańcuchem dostaw)\nRod
+ zaj: ćwiczenia\nProwadzący: dr Zamelek Paulina\nNr zajęć: 6/7\nBlok: 
+ 4
+END:VEVENT
+BEGIN:VEVENT
+UID:de998d1a68e914f33c8794da@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261116T080000
+DTEND;TZID=Europe/Warsaw:20261116T093500
+SUMMARY:Sch. (w)
+DESCRIPTION:Supply chain management (Zarządzanie łańcuchem dostaw)\nRod
+ zaj: wykład\nProwadzący: dr Zamelek Paulina\nNr zajęć: 6/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a599d1f5070507a3311acfe6@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261116T095000
+DTEND;TZID=Europe/Warsaw:20261116T112500
+SUMMARY:Zil. (L)
+LOCATION:1/ 22
+DESCRIPTION:Zastosowanie informatyki w logistyce\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Waśniewski Tomasz\nNr zajęć: 5/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:85f903ecb05aa71640c93e99@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261116T114000
+DTEND;TZID=Europe/Warsaw:20261116T131500
+SUMMARY:Zil. (L)
+LOCATION:1/ 22
+DESCRIPTION:Zastosowanie informatyki w logistyce\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Waśniewski Tomasz\nNr zajęć: 6/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c0d4d553936cca97bad933fc@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261116T133000
+DTEND;TZID=Europe/Warsaw:20261116T150500
+SUMMARY:CL. (w)
+LOCATION:0.8/ 16
+DESCRIPTION:Centra logistyczne\nRodzaj: wykład\nProwadzący: dr hab. inż
+ . Bartosiewicz Sławomir\nNr zajęć: 5/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:70444e22a66e40af851441aa@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261117T080000
+DTEND;TZID=Europe/Warsaw:20261117T093500
+SUMMARY:Zlwp (ć)
+LOCATION:5.21/ 135
+DESCRIPTION:Zarzadzanie logistyczne w przedsiebiorstwie\nRodzaj: ćwiczeni
+ a\nProwadzący: dr Kalbarczyk Ewa\nNr zajęć: 6/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:050760d8849285443c59327b@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261117T095000
+DTEND;TZID=Europe/Warsaw:20261117T112500
+SUMMARY:Zlwp (ć)
+LOCATION:5.21/ 135
+DESCRIPTION:Zarzadzanie logistyczne w przedsiebiorstwie\nRodzaj: ćwiczeni
+ a\nProwadzący: dr Kalbarczyk Ewa\nNr zajęć: 7/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a1f7b63276ea68135653266b@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261118T133000
+DTEND;TZID=Europe/Warsaw:20261118T150500
+SUMMARY:Sch. (w)
+LOCATION:0.8/ 16
+DESCRIPTION:Supply chain management (Zarządzanie łańcuchem dostaw)\nRod
+ zaj: wykład\nProwadzący: dr Zamelek Paulina\nNr zajęć: 7/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:782151a0fcee25c51a9890b2@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261118T160000
+DTEND;TZID=Europe/Warsaw:20261118T173500
+SUMMARY:Sch. (w)
+LOCATION:0.8/ 16
+DESCRIPTION:Supply chain management (Zarządzanie łańcuchem dostaw)\nRod
+ zaj: wykład\nProwadzący: dr Zamelek Paulina\nNr zajęć: 8/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:2276b857e58b9b81c0591934@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261119T080000
+DTEND;TZID=Europe/Warsaw:20261119T093500
+SUMMARY:Zil. (L)
+LOCATION:1/ 22
+DESCRIPTION:Zastosowanie informatyki w logistyce\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Waśniewski Tomasz\nNr zajęć: 7/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f3948b7c1c20fa6d98e9d9ae@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261119T095000
+DTEND;TZID=Europe/Warsaw:20261119T112500
+SUMMARY:Zil. (L)
+LOCATION:1/ 22
+DESCRIPTION:Zastosowanie informatyki w logistyce\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Waśniewski Tomasz\nNr zajęć: 8/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:08d6aa71540ad86a362687a7@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261119T114000
+DTEND;TZID=Europe/Warsaw:20261119T131500
+SUMMARY:Sch. (ć)
+LOCATION:0.22/ 16
+DESCRIPTION:Supply chain management (Zarządzanie łańcuchem dostaw)\nRod
+ zaj: ćwiczenia\nProwadzący: dr Zamelek Paulina\nNr zajęć: 7/7\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:622ddec446e3a34dd1e7a1a0@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261126T080000
+DTEND;TZID=Europe/Warsaw:20261126T093500
+SUMMARY:Zil. (L)
+LOCATION:1/ 22
+DESCRIPTION:Zastosowanie informatyki w logistyce\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Waśniewski Tomasz\nNr zajęć: 9/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0d0f3c6f4a42ec91f8161ee3@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261126T095000
+DTEND;TZID=Europe/Warsaw:20261126T112500
+SUMMARY:Zil. (L)
+LOCATION:1/ 22
+DESCRIPTION:Zastosowanie informatyki w logistyce\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Waśniewski Tomasz\nNr zajęć: 10/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1310ef3581622a3b1245741f@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261126T114000
+DTEND;TZID=Europe/Warsaw:20261126T131500
+SUMMARY:Sd. (S)
+LOCATION:255 S
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr Woź
+ niak Jacek\, prof. WAT\nNr zajęć: 11/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b6fdf3aeb4738d2c1c2f7c7d@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261126T133000
+DTEND;TZID=Europe/Warsaw:20261126T150500
+SUMMARY:Sd. (S)
+LOCATION:255 S
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr Woź
+ niak Jacek\, prof. WAT\nNr zajęć: 12/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2e695bd2c28913ede839de39@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261203T114000
+DTEND;TZID=Europe/Warsaw:20261203T131500
+SUMMARY:CL. (E)
+LOCATION:3.16/ 135
+DESCRIPTION:Centra logistyczne\nRodzaj: egzamin\nProwadzący: dr hab. inż
+ . Bartosiewicz Sławomir\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ef44f215a63a3ab661cec658@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261218T133000
+DTEND;TZID=Europe/Warsaw:20261218T150500
+SUMMARY:CL. (Ep)
+LOCATION:0.28/ 135
+DESCRIPTION:Centra logistyczne\nRodzaj: egzamin poprawkowy\nProwadzący: d
+ r hab. inż. Bartosiewicz Sławomir\nNr zajęć: 1/1\nBlok: 4
+END:VEVENT
+END:VCALENDAR

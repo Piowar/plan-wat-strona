@@ -1,0 +1,1957 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WMT24LA1S1
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:7b71b2ff1829e61cbe634393@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261006T095000
+DTEND;TZID=Europe/Warsaw:20261006T112500
+SUMMARY:Pkum (w)
+LOCATION:41 36
+DESCRIPTION:Podstawy konstrukcji urządzeń mechatroniki\nRodzaj: wykład\
+ nProwadzący: dr inż. Ważny Mariusz\nNr zajęć: 1/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a00dec6a9e19d8c44b79faf7@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261008T080000
+DTEND;TZID=Europe/Warsaw:20261008T093500
+SUMMARY:Moua (w)
+LOCATION:136 36
+DESCRIPTION:Modelowanie układów awionicznych\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Dziendzikowski Michał\nNr zajęć: 1/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:18b6a5d7bbd508c99957d2f7@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261008T095000
+DTEND;TZID=Europe/Warsaw:20261008T112500
+SUMMARY:Ts (w)
+LOCATION:S2 72
+DESCRIPTION:Teoria sterowania\nRodzaj: wykład\nProwadzący: dr inż. Dzie
+ ndzikowski Michał\nNr zajęć: 1/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a8fbc4ed559355f713750f81@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261008T133000
+DTEND;TZID=Europe/Warsaw:20261008T150500
+SUMMARY:Lsen (w)
+LOCATION:S2 72
+DESCRIPTION:Lotnicze systemy elektroenergetyczne\nRodzaj: wykład\nProwadz
+ ący: dr inż. Ważny Mariusz\nNr zajęć: 1/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ae43b16c8eae2529ac02e038@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261009T080000
+DTEND;TZID=Europe/Warsaw:20261009T093500
+SUMMARY:Lsd (w)
+LOCATION:136 36
+DESCRIPTION:Lotnicze systemy diagnostyczne\nRodzaj: wykład\nProwadzący: 
+ dr inż. Ważny Mariusz\nNr zajęć: 1/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9ff5570447e1c6f94ea30ef9@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261013T080000
+DTEND;TZID=Europe/Warsaw:20261013T093500
+SUMMARY:Pkum (w)
+LOCATION:41 36
+DESCRIPTION:Podstawy konstrukcji urządzeń mechatroniki\nRodzaj: wykład\
+ nProwadzący: dr inż. Ważny Mariusz\nNr zajęć: 2/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b64ec1f4c0731cdbbadb8b9d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261013T095000
+DTEND;TZID=Europe/Warsaw:20261013T112500
+SUMMARY:Pkum (w)
+LOCATION:41 36
+DESCRIPTION:Podstawy konstrukcji urządzeń mechatroniki\nRodzaj: wykład\
+ nProwadzący: dr inż. Ważny Mariusz\nNr zajęć: 3/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:771a568c72694d02dd6525e5@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261014T095000
+DTEND;TZID=Europe/Warsaw:20261014T112500
+SUMMARY:Psma (w)
+LOCATION:136 36
+DESCRIPTION:Programowanie systemów i modułów awionicznych\nRodzaj: wyk
+ ład\nProwadzący: dr inż. Rochala Zdzisław\nNr zajęć: 1/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:22808aad285dcd3fc57e768d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261014T114000
+DTEND;TZID=Europe/Warsaw:20261014T131500
+SUMMARY:Psma (w)
+LOCATION:136 36
+DESCRIPTION:Programowanie systemów i modułów awionicznych\nRodzaj: wyk
+ ład\nProwadzący: dr inż. Rochala Zdzisław\nNr zajęć: 2/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:24d2c80b4bb1f99c63627c5d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261015T080000
+DTEND;TZID=Europe/Warsaw:20261015T093500
+SUMMARY:Moua (ć)
+LOCATION:130 36
+DESCRIPTION:Modelowanie układów awionicznych\nRodzaj: ćwiczenia\nProwad
+ zący: mgr inż. Djabin Jakub\nNr zajęć: 1/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4e6e8fa7908456fe8e643f9f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261015T095000
+DTEND;TZID=Europe/Warsaw:20261015T112500
+SUMMARY:Pmlot (w)
+LOCATION:S2 72
+DESCRIPTION:Podstawy mechaniki lotu\nRodzaj: wykład\nProwadzący: prof. d
+ r hab. inż. Sibilski Krzysztof\nNr zajęć: 1/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5b4aca7d6f857583a3f729e1@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261015T133000
+DTEND;TZID=Europe/Warsaw:20261015T150500
+SUMMARY:Lsen (w)
+LOCATION:S2 72
+DESCRIPTION:Lotnicze systemy elektroenergetyczne\nRodzaj: wykład\nProwadz
+ ący: dr inż. Ważny Mariusz\nNr zajęć: 2/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a698489e004e00110e765a9b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261016T080000
+DTEND;TZID=Europe/Warsaw:20261016T093500
+SUMMARY:Lsd (w)
+LOCATION:136 36
+DESCRIPTION:Lotnicze systemy diagnostyczne\nRodzaj: wykład\nProwadzący: 
+ dr inż. Ważny Mariusz\nNr zajęć: 2/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:bb6fee42c964b3a97339ca94@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261016T114000
+DTEND;TZID=Europe/Warsaw:20261016T131500
+SUMMARY:Moua (ć)
+LOCATION:130 36
+DESCRIPTION:Modelowanie układów awionicznych\nRodzaj: ćwiczenia\nProwad
+ zący: mgr inż. Djabin Jakub\nNr zajęć: 2/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b8f177a8a2dcdf8aa4cbf5c7@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261016T133000
+DTEND;TZID=Europe/Warsaw:20261016T150500
+SUMMARY:Moua (w)
+LOCATION:136 36
+DESCRIPTION:Modelowanie układów awionicznych\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Dziendzikowski Michał\nNr zajęć: 2/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d3d64fb743418b6740cfc137@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261019T095000
+DTEND;TZID=Europe/Warsaw:20261019T112500
+SUMMARY:Moua (ć)
+LOCATION:130 36
+DESCRIPTION:Modelowanie układów awionicznych\nRodzaj: ćwiczenia\nProwad
+ zący: mgr inż. Djabin Jakub\nNr zajęć: 3/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e89d74203c51dba01b63c50c@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261019T114000
+DTEND;TZID=Europe/Warsaw:20261019T131500
+SUMMARY:Biisp (w)
+LOCATION:S3 72
+DESCRIPTION:Budowa i instalacje SP\nRodzaj: wykład\nProwadzący: dr inż.
+  Zalewski Piotr\nNr zajęć: 1/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9ad58aa2e99b9f18a081475f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261021T080000
+DTEND;TZID=Europe/Warsaw:20261021T093500
+SUMMARY:Psma (ć)
+LOCATION:130 36
+DESCRIPTION:Programowanie systemów i modułów awionicznych\nRodzaj: ćwi
+ czenia\nProwadzący: mgr inż. Kurenda Maciej\nNr zajęć: 1/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a4697340acae01bce90b47be@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261021T095000
+DTEND;TZID=Europe/Warsaw:20261021T112500
+SUMMARY:Psma (w)
+LOCATION:136 36
+DESCRIPTION:Programowanie systemów i modułów awionicznych\nRodzaj: wyk
+ ład\nProwadzący: dr inż. Rochala Zdzisław\nNr zajęć: 3/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:862c26a2d929cabf15a15310@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261021T114000
+DTEND;TZID=Europe/Warsaw:20261021T131500
+SUMMARY:Lsd (ć)
+LOCATION:39 36
+DESCRIPTION:Lotnicze systemy diagnostyczne\nRodzaj: ćwiczenia\nProwadząc
+ y: mgr inż. Janczewski Mariusz\nNr zajęć: 1/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3601c766c3030f8b3e8987d1@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261022T080000
+DTEND;TZID=Europe/Warsaw:20261022T093500
+SUMMARY:Ts (ć)
+LOCATION:20 63
+DESCRIPTION:Teoria sterowania\nRodzaj: ćwiczenia\nProwadzący: płk mgr i
+ nż. Hanc Damian\nNr zajęć: 1/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:69f1dc7f7679686beae4f772@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261022T114000
+DTEND;TZID=Europe/Warsaw:20261022T131500
+SUMMARY:Biisp (ć)
+LOCATION:4 H7
+DESCRIPTION:Budowa i instalacje SP\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Tkaczuk Sławomir\nNr zajęć: 1/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:596d525fb9d81bcc49885ce6@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261022T133000
+DTEND;TZID=Europe/Warsaw:20261022T150500
+SUMMARY:Lsen (w)
+LOCATION:S2 72
+DESCRIPTION:Lotnicze systemy elektroenergetyczne\nRodzaj: wykład\nProwadz
+ ący: dr inż. Ważny Mariusz\nNr zajęć: 3/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:cdc892fc0a97d7ff1aed30c2@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261023T080000
+DTEND;TZID=Europe/Warsaw:20261023T093500
+SUMMARY:Biisp (ć)
+LOCATION:33 67
+DESCRIPTION:Budowa i instalacje SP\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Zieliński Wojciech\nNr zajęć: 2/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f3bf5f8237e9b610fee06fd5@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261023T095000
+DTEND;TZID=Europe/Warsaw:20261023T112500
+SUMMARY:Pmlot (ć)
+LOCATION:3 67
+DESCRIPTION:Podstawy mechaniki lotu\nRodzaj: ćwiczenia\nProwadzący: mgr 
+ inż. Misiak Zawadzka Aneta\nNr zajęć: 1/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4d1cbdc2501cff8b7902840a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261023T114000
+DTEND;TZID=Europe/Warsaw:20261023T131500
+SUMMARY:Lsen (L)
+LOCATION:141 36
+DESCRIPTION:Lotnicze systemy elektroenergetyczne\nRodzaj: laboratorium\nPr
+ owadzący: mgr inż. Janczewski Mariusz\nNr zajęć: 1/16\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5e35fecec5a8bf0046a50e98@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261026T114000
+DTEND;TZID=Europe/Warsaw:20261026T131500
+SUMMARY:Biisp (w)
+LOCATION:S3 72
+DESCRIPTION:Budowa i instalacje SP\nRodzaj: wykład\nProwadzący: dr inż.
+  Zalewski Piotr\nNr zajęć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:adff476855337748e225d3c4@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261026T133000
+DTEND;TZID=Europe/Warsaw:20261026T150500
+SUMMARY:Moua (ć)
+LOCATION:130 36
+DESCRIPTION:Modelowanie układów awionicznych\nRodzaj: ćwiczenia\nProwad
+ zący: mgr inż. Kochan Jakub\nNr zajęć: 4/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d6d02fde1c4eedcf1fb59019@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261027T080000
+DTEND;TZID=Europe/Warsaw:20261027T093500
+SUMMARY:Lsen (ć)
+LOCATION:33 67
+DESCRIPTION:Lotnicze systemy elektroenergetyczne\nRodzaj: ćwiczenia\nProw
+ adzący: dr inż. Ważny Mariusz\nNr zajęć: 1/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:702c5a83985d9ddb565ece57@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261027T095000
+DTEND;TZID=Europe/Warsaw:20261027T112500
+SUMMARY:Lsen (L)
+LOCATION:141 36
+DESCRIPTION:Lotnicze systemy elektroenergetyczne\nRodzaj: laboratorium\nPr
+ owadzący: mgr inż. Janczewski Mariusz\nNr zajęć: 2/16\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d056bab68b208f96950e1848@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261027T133000
+DTEND;TZID=Europe/Warsaw:20261027T150500
+SUMMARY:Uniw (L)
+LOCATION:128 36
+DESCRIPTION:Układy nadążne i wykonawcze\nRodzaj: laboratorium\nProwadz
+ ący: mgr inż. Janczewski Mariusz\nNr zajęć: 1/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:54ddfbf2a8473ac6ae375179@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261027T160000
+DTEND;TZID=Europe/Warsaw:20261027T173500
+SUMMARY:Ts (L)
+LOCATION:130 36
+DESCRIPTION:Teoria sterowania\nRodzaj: laboratorium\nProwadzący: płk mgr
+  inż. Hanc Damian\nNr zajęć: 1/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:9da625f656d4819ebec53f07@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261028T080000
+DTEND;TZID=Europe/Warsaw:20261028T093500
+SUMMARY:Psma (ć)
+LOCATION:130 36
+DESCRIPTION:Programowanie systemów i modułów awionicznych\nRodzaj: ćwi
+ czenia\nProwadzący: mgr inż. Kurenda Maciej\nNr zajęć: 2/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0758984850dac960553ad217@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261028T095000
+DTEND;TZID=Europe/Warsaw:20261028T112500
+SUMMARY:Psma (w)
+LOCATION:136 36
+DESCRIPTION:Programowanie systemów i modułów awionicznych\nRodzaj: wyk
+ ład\nProwadzący: dr inż. Rochala Zdzisław\nNr zajęć: 4/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4beb16db21ab990812f17896@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261028T133000
+DTEND;TZID=Europe/Warsaw:20261028T150500
+SUMMARY:Ts (w)
+LOCATION:S2 72
+DESCRIPTION:Teoria sterowania\nRodzaj: wykład\nProwadzący: dr inż. Dzie
+ ndzikowski Michał\nNr zajęć: 2/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f350ab5d705a1d08da05bfe8@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261029T080000
+DTEND;TZID=Europe/Warsaw:20261029T093500
+SUMMARY:Lsen (L)
+LOCATION:141 36
+DESCRIPTION:Lotnicze systemy elektroenergetyczne\nRodzaj: laboratorium\nPr
+ owadzący: mgr inż. Janczewski Mariusz\nNr zajęć: 3/16\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:625d1ecdfeac9962d0557174@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261029T095000
+DTEND;TZID=Europe/Warsaw:20261029T112500
+SUMMARY:Pmlot (w)
+LOCATION:S2 72
+DESCRIPTION:Podstawy mechaniki lotu\nRodzaj: wykład\nProwadzący: prof. d
+ r hab. inż. Sibilski Krzysztof\nNr zajęć: 2/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:27313eb36bc3d08e2e7a00ca@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261029T133000
+DTEND;TZID=Europe/Warsaw:20261029T150500
+SUMMARY:Lsen (w)
+LOCATION:S2 72
+DESCRIPTION:Lotnicze systemy elektroenergetyczne\nRodzaj: wykład\nProwadz
+ ący: dr inż. Ważny Mariusz\nNr zajęć: 4/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6ce8446dae47006a1ec9c8aa@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261030T080000
+DTEND;TZID=Europe/Warsaw:20261030T093500
+SUMMARY:Moua (w)
+LOCATION:136 36
+DESCRIPTION:Modelowanie układów awionicznych\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Dziendzikowski Michał\nNr zajęć: 3/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d4735cbb3144ff8aba79753d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261030T095000
+DTEND;TZID=Europe/Warsaw:20261030T112500
+SUMMARY:Pkum (w)
+LOCATION:3 67
+DESCRIPTION:Podstawy konstrukcji urządzeń mechatroniki\nRodzaj: wykład\
+ nProwadzący: dr inż. Ważny Mariusz\nNr zajęć: 4/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:34ba4f1eb80b6edf7c7d4638@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261030T114000
+DTEND;TZID=Europe/Warsaw:20261030T131500
+SUMMARY:Uniw (w)
+LOCATION:136 36
+DESCRIPTION:Układy nadążne i wykonawcze\nRodzaj: wykład\nProwadzący: 
+ ppłk dr inż. Wachłaczenko Michał\nNr zajęć: 1/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d652e24cd6c7d9b152beafbd@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261102T080000
+DTEND;TZID=Europe/Warsaw:20261102T093500
+SUMMARY:Lsd (w)
+LOCATION:39 36
+DESCRIPTION:Lotnicze systemy diagnostyczne\nRodzaj: wykład\nProwadzący: 
+ dr inż. Ważny Mariusz\nNr zajęć: 3/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b343e3c0b330f1b668e3a24f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261102T095000
+DTEND;TZID=Europe/Warsaw:20261102T112500
+SUMMARY:Uniw (ć)
+LOCATION:130 36
+DESCRIPTION:Układy nadążne i wykonawcze\nRodzaj: ćwiczenia\nProwadząc
+ y: mgr inż. Marut Adam\nNr zajęć: 1/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1ca27a352f640b666ee66f8a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261102T133000
+DTEND;TZID=Europe/Warsaw:20261102T150500
+SUMMARY:Biisp (w)
+LOCATION:S3 72
+DESCRIPTION:Budowa i instalacje SP\nRodzaj: wykład\nProwadzący: dr inż.
+  Zalewski Piotr\nNr zajęć: 3/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d6f29eb13e37ba8844556551@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261103T080000
+DTEND;TZID=Europe/Warsaw:20261103T093500
+SUMMARY:Lsen (L)
+LOCATION:141 36
+DESCRIPTION:Lotnicze systemy elektroenergetyczne\nRodzaj: laboratorium\nPr
+ owadzący: mgr inż. Janczewski Mariusz\nNr zajęć: 4/16\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e3ea9a585d197249d5d5a917@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261103T133000
+DTEND;TZID=Europe/Warsaw:20261103T150500
+SUMMARY:Uniw (L)
+LOCATION:128 36
+DESCRIPTION:Układy nadążne i wykonawcze\nRodzaj: laboratorium\nProwadz
+ ący: mgr inż. Janczewski Mariusz\nNr zajęć: 2/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:49116bc34838c7475f522f42@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261104T080000
+DTEND;TZID=Europe/Warsaw:20261104T093500
+SUMMARY:Malo (w)
+LOCATION:19 36
+DESCRIPTION:Materiały lotnicze\nRodzaj: wykład\nProwadzący: ppłk dr in
+ ż. Leszczyński Piotr\nNr zajęć: 1/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8d6eceff97e4b19f2c77ae1a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261104T095000
+DTEND;TZID=Europe/Warsaw:20261104T112500
+SUMMARY:Moua (w)
+LOCATION:41 36
+DESCRIPTION:Modelowanie układów awionicznych\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Dziendzikowski Michał\nNr zajęć: 4/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:86edb5b326e4ed29e8ad8211@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261104T114000
+DTEND;TZID=Europe/Warsaw:20261104T131500
+SUMMARY:Lsd (w)
+LOCATION:39 36
+DESCRIPTION:Lotnicze systemy diagnostyczne\nRodzaj: wykład\nProwadzący: 
+ dr inż. Ważny Mariusz\nNr zajęć: 4/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8c380132f91f5e8605bd249b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261104T160000
+DTEND;TZID=Europe/Warsaw:20261104T173500
+SUMMARY:Ts (w)
+LOCATION:S2 72
+DESCRIPTION:Teoria sterowania\nRodzaj: wykład\nProwadzący: dr inż. Dzie
+ ndzikowski Michał\nNr zajęć: 3/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:4f1eec89ca20be14ffad5f63@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261104T175000
+DTEND;TZID=Europe/Warsaw:20261104T192500
+SUMMARY:Ts (w)
+LOCATION:S2 72
+DESCRIPTION:Teoria sterowania\nRodzaj: wykład\nProwadzący: dr inż. Dzie
+ ndzikowski Michał\nNr zajęć: 4/10\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:0bcefe64556d01049ca23578@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261105T080000
+DTEND;TZID=Europe/Warsaw:20261105T093500
+SUMMARY:Biisp (ć)
+LOCATION:4 H7
+DESCRIPTION:Budowa i instalacje SP\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Tkaczuk Sławomir\nNr zajęć: 3/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:acf6e69100d4fd65d3041df4@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261105T095000
+DTEND;TZID=Europe/Warsaw:20261105T112500
+SUMMARY:Pmlot (w)
+LOCATION:S2 72
+DESCRIPTION:Podstawy mechaniki lotu\nRodzaj: wykład\nProwadzący: prof. d
+ r hab. inż. Sibilski Krzysztof\nNr zajęć: 3/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a5461d5389d5a8bcbe2ad2ce@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261105T133000
+DTEND;TZID=Europe/Warsaw:20261105T150500
+SUMMARY:Lsen (w)
+LOCATION:S2 72
+DESCRIPTION:Lotnicze systemy elektroenergetyczne\nRodzaj: wykład\nProwadz
+ ący: dr inż. Ważny Mariusz\nNr zajęć: 5/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:224586c1e1400d57eb266db0@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261106T080000
+DTEND;TZID=Europe/Warsaw:20261106T093500
+SUMMARY:Biisp (ć)
+LOCATION:33 67
+DESCRIPTION:Budowa i instalacje SP\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Zieliński Wojciech\nNr zajęć: 4/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9f6d2b11a02288a45da10be1@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261106T095000
+DTEND;TZID=Europe/Warsaw:20261106T112500
+SUMMARY:Pkum (w)
+LOCATION:3 67
+DESCRIPTION:Podstawy konstrukcji urządzeń mechatroniki\nRodzaj: wykład\
+ nProwadzący: dr inż. Ważny Mariusz\nNr zajęć: 5/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4681c40d1d0326a0a48629e7@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261106T114000
+DTEND;TZID=Europe/Warsaw:20261106T131500
+SUMMARY:Uniw (w)
+LOCATION:136 36
+DESCRIPTION:Układy nadążne i wykonawcze\nRodzaj: wykład\nProwadzący: 
+ ppłk dr inż. Wachłaczenko Michał\nNr zajęć: 2/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8b433a41759cc7fe2c10db1d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261109T080000
+DTEND;TZID=Europe/Warsaw:20261109T093500
+SUMMARY:Malo (ć)
+LOCATION:4 H7
+DESCRIPTION:Materiały lotnicze\nRodzaj: ćwiczenia\nProwadzący: ppor. mg
+ r inż. Barca Iga\nNr zajęć: 1/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:20358b238cf1ad39bda31c2b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261109T095000
+DTEND;TZID=Europe/Warsaw:20261109T112500
+SUMMARY:Uniw (ć)
+LOCATION:130 36
+DESCRIPTION:Układy nadążne i wykonawcze\nRodzaj: ćwiczenia\nProwadząc
+ y: mgr inż. Marut Adam\nNr zajęć: 2/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b12d87c2d4e10a0195131cc6@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261109T133000
+DTEND;TZID=Europe/Warsaw:20261109T150500
+SUMMARY:Biisp (w)
+LOCATION:S3 72
+DESCRIPTION:Budowa i instalacje SP\nRodzaj: wykład\nProwadzący: dr inż.
+  Zalewski Piotr\nNr zajęć: 4/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a4222a34a44cebb77eb0e614@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261110T080000
+DTEND;TZID=Europe/Warsaw:20261110T093500
+SUMMARY:Lsen (ć)
+LOCATION:33 67
+DESCRIPTION:Lotnicze systemy elektroenergetyczne\nRodzaj: ćwiczenia\nProw
+ adzący: dr inż. Ważny Mariusz\nNr zajęć: 2/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:cc4130aaa21208e2d4f06c5a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261110T095000
+DTEND;TZID=Europe/Warsaw:20261110T112500
+SUMMARY:Moua (ć)
+LOCATION:18 67
+DESCRIPTION:Modelowanie układów awionicznych\nRodzaj: ćwiczenia\nProwad
+ zący: mgr inż. Djabin Jakub\nNr zajęć: 5/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ac7356282eed14714ec47b7a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261110T114000
+DTEND;TZID=Europe/Warsaw:20261110T131500
+SUMMARY:Moua (ć)
+LOCATION:18 67
+DESCRIPTION:Modelowanie układów awionicznych\nRodzaj: ćwiczenia\nProwad
+ zący: mgr inż. Djabin Jakub\nNr zajęć: 6/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:025146e601cada7ee5d28cac@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261112T080000
+DTEND;TZID=Europe/Warsaw:20261112T093500
+SUMMARY:Lsd (L)
+LOCATION:H H7
+DESCRIPTION:Lotnicze systemy diagnostyczne\nRodzaj: laboratorium\nProwadz
+ ący: dr inż. Ważny Mariusz\nNr zajęć: 1/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f28aefe47db2e7b9da38c4ae@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261112T095000
+DTEND;TZID=Europe/Warsaw:20261112T112500
+SUMMARY:Pmlot (w)
+LOCATION:S2 72
+DESCRIPTION:Podstawy mechaniki lotu\nRodzaj: wykład\nProwadzący: prof. d
+ r hab. inż. Sibilski Krzysztof\nNr zajęć: 4/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3090a651c42a315e5c257f0d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261112T114000
+DTEND;TZID=Europe/Warsaw:20261112T131500
+SUMMARY:Ts (ć)
+LOCATION:3 67
+DESCRIPTION:Teoria sterowania\nRodzaj: ćwiczenia\nProwadzący: płk mgr i
+ nż. Hanc Damian\nNr zajęć: 2/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6c79cf004903ef39602cb9d5@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261112T133000
+DTEND;TZID=Europe/Warsaw:20261112T150500
+SUMMARY:Lsen (w)
+LOCATION:S2 72
+DESCRIPTION:Lotnicze systemy elektroenergetyczne\nRodzaj: wykład\nProwadz
+ ący: dr inż. Ważny Mariusz\nNr zajęć: 6/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:32da8b810a1da911ad27c84d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261112T160000
+DTEND;TZID=Europe/Warsaw:20261112T173500
+SUMMARY:Uniw (w)
+LOCATION:S2 72
+DESCRIPTION:Układy nadążne i wykonawcze\nRodzaj: wykład\nProwadzący: 
+ ppłk dr inż. Wachłaczenko Michał\nNr zajęć: 3/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:de4b6275fc5fcc18220b9e74@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261113T080000
+DTEND;TZID=Europe/Warsaw:20261113T093500
+SUMMARY:Biisp (ć)
+LOCATION:33 67
+DESCRIPTION:Budowa i instalacje SP\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Zieliński Wojciech\nNr zajęć: 5/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ed264c74a2e1cdf75c311397@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261113T095000
+DTEND;TZID=Europe/Warsaw:20261113T112500
+SUMMARY:Lsd (L)
+LOCATION:003 36
+DESCRIPTION:Lotnicze systemy diagnostyczne\nRodzaj: laboratorium\nProwadz
+ ący: mgr inż. Janczewski Mariusz\nNr zajęć: 2/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b242f6edd8b43d623fcaef96@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261113T114000
+DTEND;TZID=Europe/Warsaw:20261113T131500
+SUMMARY:Uniw (w)
+LOCATION:136 36
+DESCRIPTION:Układy nadążne i wykonawcze\nRodzaj: wykład\nProwadzący: 
+ ppłk dr inż. Wachłaczenko Michał\nNr zajęć: 4/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:786a8d4f95242f1438a7660c@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261116T095000
+DTEND;TZID=Europe/Warsaw:20261116T112500
+SUMMARY:Uniw (ć)
+LOCATION:130 36
+DESCRIPTION:Układy nadążne i wykonawcze\nRodzaj: ćwiczenia\nProwadząc
+ y: mgr inż. Marut Adam\nNr zajęć: 3/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f1130ae14be592b3293ce18d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261116T114000
+DTEND;TZID=Europe/Warsaw:20261116T131500
+SUMMARY:Ts (ć)
+LOCATION:3 67
+DESCRIPTION:Teoria sterowania\nRodzaj: ćwiczenia\nProwadzący: płk mgr i
+ nż. Hanc Damian\nNr zajęć: 3/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:52862146bdad1328374d394d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261116T133000
+DTEND;TZID=Europe/Warsaw:20261116T150500
+SUMMARY:Biisp (w)
+LOCATION:S3 72
+DESCRIPTION:Budowa i instalacje SP\nRodzaj: wykład\nProwadzący: dr inż.
+  Zalewski Piotr\nNr zajęć: 5/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3e6f8706e58f62eb1f441a67@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261117T080000
+DTEND;TZID=Europe/Warsaw:20261117T093500
+SUMMARY:Moua (ć)
+LOCATION:130 36
+DESCRIPTION:Modelowanie układów awionicznych\nRodzaj: ćwiczenia\nProwad
+ zący: mgr inż. Kochan Jakub\nNr zajęć: 7/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0c32b88f12fb1d273b9ff0bf@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261117T095000
+DTEND;TZID=Europe/Warsaw:20261117T112500
+SUMMARY:Malo (ć)
+LOCATION:4 H7
+DESCRIPTION:Materiały lotnicze\nRodzaj: ćwiczenia\nProwadzący: ppor. mg
+ r inż. Barca Iga\nNr zajęć: 2/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:add1e9483a09e9e89739c859@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261118T080000
+DTEND;TZID=Europe/Warsaw:20261118T093500
+SUMMARY:Psma (w)
+LOCATION:136 36
+DESCRIPTION:Programowanie systemów i modułów awionicznych\nRodzaj: wyk
+ ład\nProwadzący: dr inż. Rochala Zdzisław\nNr zajęć: 5/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:fb9bb252939ff91f65c9cfae@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261118T133000
+DTEND;TZID=Europe/Warsaw:20261118T150500
+SUMMARY:Lsen (L)
+LOCATION:128 36
+DESCRIPTION:Lotnicze systemy elektroenergetyczne\nRodzaj: laboratorium\nPr
+ owadzący: * Soszyński P ...\nNr zajęć: 5/16\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:039cb9831fded00286e5a2f1@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261119T080000
+DTEND;TZID=Europe/Warsaw:20261119T093500
+SUMMARY:Pmlot (L)
+LOCATION:3 67
+DESCRIPTION:Podstawy mechaniki lotu\nRodzaj: laboratorium\nProwadzący: dr
+  inż. Frant Michał\nNr zajęć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:132cc5adf6eb78cb38e44456@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261119T095000
+DTEND;TZID=Europe/Warsaw:20261119T112500
+SUMMARY:Psma (ć)
+LOCATION:130 36
+DESCRIPTION:Programowanie systemów i modułów awionicznych\nRodzaj: ćwi
+ czenia\nProwadzący: mgr inż. Kurenda Maciej\nNr zajęć: 3/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:556503bdd4ccdede862efe6b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261119T133000
+DTEND;TZID=Europe/Warsaw:20261119T150500
+SUMMARY:Lsen (w)
+LOCATION:S2 72
+DESCRIPTION:Lotnicze systemy elektroenergetyczne\nRodzaj: wykład\nProwadz
+ ący: dr inż. Ważny Mariusz\nNr zajęć: 7/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0a7f90bf5c0a0f400711aa54@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261119T160000
+DTEND;TZID=Europe/Warsaw:20261119T173500
+SUMMARY:Uniw (w)
+LOCATION:S2 72
+DESCRIPTION:Układy nadążne i wykonawcze\nRodzaj: wykład\nProwadzący: 
+ ppłk dr inż. Wachłaczenko Michał\nNr zajęć: 5/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:ea8ac151db55f264fb91bd39@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261120T080000
+DTEND;TZID=Europe/Warsaw:20261120T093500
+SUMMARY:Uniw (w)
+LOCATION:136 36
+DESCRIPTION:Układy nadążne i wykonawcze\nRodzaj: wykład\nProwadzący: 
+ ppłk dr inż. Wachłaczenko Michał\nNr zajęć: 6/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1fe5394049548e43f6bd70aa@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261120T095000
+DTEND;TZID=Europe/Warsaw:20261120T112500
+SUMMARY:Biisp (ć)
+LOCATION:4 H7
+DESCRIPTION:Budowa i instalacje SP\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Tkaczuk Sławomir\nNr zajęć: 6/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:808a8abaa31a451e274e6a6a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261120T114000
+DTEND;TZID=Europe/Warsaw:20261120T131500
+SUMMARY:Pkum (L)
+LOCATION:004 36
+DESCRIPTION:Podstawy konstrukcji urządzeń mechatroniki\nRodzaj: laborato
+ rium\nProwadzący: mgr inż. Marut Adam\nNr zajęć: 1/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4af849208f77df33b1de2d03@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261120T133000
+DTEND;TZID=Europe/Warsaw:20261120T150500
+SUMMARY:Pkum (L)
+LOCATION:004 36
+DESCRIPTION:Podstawy konstrukcji urządzeń mechatroniki\nRodzaj: laborato
+ rium\nProwadzący: mgr inż. Marut Adam\nNr zajęć: 2/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:70cb2288a545ca2252baffac@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261123T095000
+DTEND;TZID=Europe/Warsaw:20261123T112500
+SUMMARY:Uniw (ć)
+LOCATION:130 36
+DESCRIPTION:Układy nadążne i wykonawcze\nRodzaj: ćwiczenia\nProwadząc
+ y: mgr inż. Marut Adam\nNr zajęć: 4/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0a16430d450033fbe4c6be1c@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261124T080000
+DTEND;TZID=Europe/Warsaw:20261124T093500
+SUMMARY:Lsen (ć)
+LOCATION:33 67
+DESCRIPTION:Lotnicze systemy elektroenergetyczne\nRodzaj: ćwiczenia\nProw
+ adzący: dr inż. Ważny Mariusz\nNr zajęć: 3/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:741b05bf6e3d767db58f14b5@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261124T095000
+DTEND;TZID=Europe/Warsaw:20261124T112500
+SUMMARY:Psma (ć)
+LOCATION:130 36
+DESCRIPTION:Programowanie systemów i modułów awionicznych\nRodzaj: ćwi
+ czenia\nProwadzący: mgr inż. Kurenda Maciej\nNr zajęć: 4/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f39a56bd7fbba6d9af1ea0ba@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261124T114000
+DTEND;TZID=Europe/Warsaw:20261124T131500
+SUMMARY:Malo (ć)
+LOCATION:4 H7
+DESCRIPTION:Materiały lotnicze\nRodzaj: ćwiczenia\nProwadzący: ppor. mg
+ r inż. Barca Iga\nNr zajęć: 3/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:81d69829ad8c2893c89f83dd@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261125T080000
+DTEND;TZID=Europe/Warsaw:20261125T093500
+SUMMARY:Psma (ć)
+LOCATION:130 36
+DESCRIPTION:Programowanie systemów i modułów awionicznych\nRodzaj: ćwi
+ czenia\nProwadzący: mgr inż. Kurenda Maciej\nNr zajęć: 5/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f37714a6be6c3907a4a97cf0@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261125T095000
+DTEND;TZID=Europe/Warsaw:20261125T112500
+SUMMARY:Lsd (w)
+LOCATION:39 36
+DESCRIPTION:Lotnicze systemy diagnostyczne\nRodzaj: wykład\nProwadzący: 
+ dr hab. inż. Zieja Mariusz\nNr zajęć: 5/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:bba7133e6d96382575e3d019@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261125T114000
+DTEND;TZID=Europe/Warsaw:20261125T131500
+SUMMARY:Lsen (L)
+LOCATION:128 36
+DESCRIPTION:Lotnicze systemy elektroenergetyczne\nRodzaj: laboratorium\nPr
+ owadzący: * Soszyński P ...\nNr zajęć: 6/16\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e4cc1580274a789aa3128ffc@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261125T133000
+DTEND;TZID=Europe/Warsaw:20261125T150500
+SUMMARY:Ts (w)
+LOCATION:S2 72
+DESCRIPTION:Teoria sterowania\nRodzaj: wykład\nProwadzący: dr inż. Dzie
+ ndzikowski Michał\nNr zajęć: 5/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5f63728b48eb020eceef96ce@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261125T160000
+DTEND;TZID=Europe/Warsaw:20261125T173500
+SUMMARY:Ts (w)
+LOCATION:S2 72
+DESCRIPTION:Teoria sterowania\nRodzaj: wykład\nProwadzący: dr inż. Dzie
+ ndzikowski Michał\nNr zajęć: 6/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:1845a0530f02a0bc2fc0ddec@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261126T080000
+DTEND;TZID=Europe/Warsaw:20261126T093500
+SUMMARY:Lsd (L)
+LOCATION:H H7
+DESCRIPTION:Lotnicze systemy diagnostyczne\nRodzaj: laboratorium\nProwadz
+ ący: dr inż. Ważny Mariusz\nNr zajęć: 3/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e53ac8d8626477015747bbb5@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261126T095000
+DTEND;TZID=Europe/Warsaw:20261126T112500
+SUMMARY:Pmlot (L)
+LOCATION:3 67
+DESCRIPTION:Podstawy mechaniki lotu\nRodzaj: laboratorium\nProwadzący: dr
+  inż. Frant Michał\nNr zajęć: 2/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c9cc79e8c75ed7339cc45d7f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261126T114000
+DTEND;TZID=Europe/Warsaw:20261126T131500
+SUMMARY:Pmlot (w)
+LOCATION:S2 72
+DESCRIPTION:Podstawy mechaniki lotu\nRodzaj: wykład\nProwadzący: prof. d
+ r hab. inż. Sibilski Krzysztof\nNr zajęć: 5/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6388d8c7970bf5b18f8be615@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261126T133000
+DTEND;TZID=Europe/Warsaw:20261126T150500
+SUMMARY:Lsen (w)
+LOCATION:S2 72
+DESCRIPTION:Lotnicze systemy elektroenergetyczne\nRodzaj: wykład\nProwadz
+ ący: dr inż. Ważny Mariusz\nNr zajęć: 8/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c3f309f5add3f7ee644ece1c@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261130T095000
+DTEND;TZID=Europe/Warsaw:20261130T112500
+SUMMARY:Uniw (ć)
+LOCATION:130 36
+DESCRIPTION:Układy nadążne i wykonawcze\nRodzaj: ćwiczenia\nProwadząc
+ y: mgr inż. Marut Adam\nNr zajęć: 5/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0732e262dec5157de36aac57@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261201T080000
+DTEND;TZID=Europe/Warsaw:20261201T093500
+SUMMARY:Lsd (L)
+LOCATION:H H7
+DESCRIPTION:Lotnicze systemy diagnostyczne\nRodzaj: laboratorium\nProwadz
+ ący: dr inż. Ważny Mariusz\nNr zajęć: 4/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8d2657fecea3faf6146465cc@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261201T095000
+DTEND;TZID=Europe/Warsaw:20261201T112500
+SUMMARY:Pkum (L)
+LOCATION:004 36
+DESCRIPTION:Podstawy konstrukcji urządzeń mechatroniki\nRodzaj: laborato
+ rium\nProwadzący: mgr inż. Marut Adam\nNr zajęć: 3/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:cb8f8ae0cd306bb87bd64367@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261201T114000
+DTEND;TZID=Europe/Warsaw:20261201T131500
+SUMMARY:Pkum (L)
+LOCATION:004 36
+DESCRIPTION:Podstawy konstrukcji urządzeń mechatroniki\nRodzaj: laborato
+ rium\nProwadzący: mgr inż. Marut Adam\nNr zajęć: 4/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b26004ad2b78ce6f64f9b2bf@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261202T080000
+DTEND;TZID=Europe/Warsaw:20261202T093500
+SUMMARY:Biisp (ć)
+LOCATION:4 H7
+DESCRIPTION:Budowa i instalacje SP\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Tkaczuk Sławomir\nNr zajęć: 7/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:fa09e3e3f8d515e07f2d3d19@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261202T114000
+DTEND;TZID=Europe/Warsaw:20261202T131500
+SUMMARY:Lsen (L)
+LOCATION:128 36
+DESCRIPTION:Lotnicze systemy elektroenergetyczne\nRodzaj: laboratorium\nPr
+ owadzący: * Soszyński P ...\nNr zajęć: 7/16\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9aa5c0c7b97c3ffb4769322d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261202T133000
+DTEND;TZID=Europe/Warsaw:20261202T150500
+SUMMARY:Ts (w)
+LOCATION:S2 72
+DESCRIPTION:Teoria sterowania\nRodzaj: wykład\nProwadzący: dr inż. Dzie
+ ndzikowski Michał\nNr zajęć: 7/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:31ca3111678d9fd2d2105522@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261202T160000
+DTEND;TZID=Europe/Warsaw:20261202T173500
+SUMMARY:Malo (w)
+LOCATION:19 36
+DESCRIPTION:Materiały lotnicze\nRodzaj: wykład\nProwadzący: ppłk dr in
+ ż. Leszczyński Piotr\nNr zajęć: 2/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f663885a1473c91d207d5f32@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261203T080000
+DTEND;TZID=Europe/Warsaw:20261203T093500
+SUMMARY:Ts (L)
+LOCATION:18 67
+DESCRIPTION:Teoria sterowania\nRodzaj: laboratorium\nProwadzący: płk mgr
+  inż. Hanc Damian\nNr zajęć: 2/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:51d53711378af7caa1be65f3@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261203T095000
+DTEND;TZID=Europe/Warsaw:20261203T112500
+SUMMARY:Lsd (L)
+LOCATION:H H7
+DESCRIPTION:Lotnicze systemy diagnostyczne\nRodzaj: laboratorium\nProwadz
+ ący: dr inż. Ważny Mariusz\nNr zajęć: 5/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c60ff61c3b3f4d02fec541b6@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261204T080000
+DTEND;TZID=Europe/Warsaw:20261204T093500
+SUMMARY:Biisp (ć)
+LOCATION:33 67
+DESCRIPTION:Budowa i instalacje SP\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Zieliński Wojciech\nNr zajęć: 8/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:55866afadd4c189a8e37e2a5@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261204T095000
+DTEND;TZID=Europe/Warsaw:20261204T112500
+SUMMARY:Pmlot (ć)
+LOCATION:3 67
+DESCRIPTION:Podstawy mechaniki lotu\nRodzaj: ćwiczenia\nProwadzący: mgr 
+ inż. Misiak Zawadzka Aneta\nNr zajęć: 2/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9d7dd149704fc688cce37c9d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261204T114000
+DTEND;TZID=Europe/Warsaw:20261204T131500
+SUMMARY:Moua (w)
+LOCATION:136 36
+DESCRIPTION:Modelowanie układów awionicznych\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Dziendzikowski Michał\nNr zajęć: 5/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:67e3b5f5a3eb147847182059@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261204T133000
+DTEND;TZID=Europe/Warsaw:20261204T150500
+SUMMARY:Ts (L)
+LOCATION:18 67
+DESCRIPTION:Teoria sterowania\nRodzaj: laboratorium\nProwadzący: płk mgr
+  inż. Hanc Damian\nNr zajęć: 3/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2849231b6d93201ec0194076@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261204T160000
+DTEND;TZID=Europe/Warsaw:20261204T173500
+SUMMARY:Uniw (w)
+LOCATION:9 67
+DESCRIPTION:Układy nadążne i wykonawcze\nRodzaj: wykład\nProwadzący: 
+ ppłk dr inż. Wachłaczenko Michał\nNr zajęć: 7/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:d33a624225ad82e218112e00@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261207T095000
+DTEND;TZID=Europe/Warsaw:20261207T112500
+SUMMARY:Uniw (ć)
+LOCATION:130 36
+DESCRIPTION:Układy nadążne i wykonawcze\nRodzaj: ćwiczenia\nProwadząc
+ y: mgr inż. Marut Adam\nNr zajęć: 6/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:63a5504864a6cef199eefd6f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261208T080000
+DTEND;TZID=Europe/Warsaw:20261208T093500
+SUMMARY:Moua (ć)
+LOCATION:130 36
+DESCRIPTION:Modelowanie układów awionicznych\nRodzaj: ćwiczenia\nProwad
+ zący: mgr inż. Kochan Jakub\nNr zajęć: 8/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f3c1dd6ff8198f9dd352dc4c@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261208T095000
+DTEND;TZID=Europe/Warsaw:20261208T112500
+SUMMARY:Ts (ć)
+LOCATION:3 67
+DESCRIPTION:Teoria sterowania\nRodzaj: ćwiczenia\nProwadzący: płk mgr i
+ nż. Hanc Damian\nNr zajęć: 4/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:48394e85bcfec6c12ebf1ec9@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261208T114000
+DTEND;TZID=Europe/Warsaw:20261208T131500
+SUMMARY:Malo (ć)
+LOCATION:4 H7
+DESCRIPTION:Materiały lotnicze\nRodzaj: ćwiczenia\nProwadzący: ppor. mg
+ r inż. Barca Iga\nNr zajęć: 4/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:dcd266966b3642bc42556bf0@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261208T175000
+DTEND;TZID=Europe/Warsaw:20261208T192500
+SUMMARY:Lsen (ć)
+LOCATION:136 36
+DESCRIPTION:Lotnicze systemy elektroenergetyczne\nRodzaj: ćwiczenia\nProw
+ adzący: dr inż. Ważny Mariusz\nNr zajęć: 4/6\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:7ba6decd1dbd8d3f909c0b09@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261209T080000
+DTEND;TZID=Europe/Warsaw:20261209T093500
+SUMMARY:Psma (w)
+LOCATION:136 36
+DESCRIPTION:Programowanie systemów i modułów awionicznych\nRodzaj: wyk
+ ład\nProwadzący: dr inż. Rochala Zdzisław\nNr zajęć: 6/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f18c6d795372e21087e80028@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261209T095000
+DTEND;TZID=Europe/Warsaw:20261209T112500
+SUMMARY:Psma (ć)
+LOCATION:130 36
+DESCRIPTION:Programowanie systemów i modułów awionicznych\nRodzaj: ćwi
+ czenia\nProwadzący: mgr inż. Kurenda Maciej\nNr zajęć: 6/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:92a82459286938493ff069e7@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261209T114000
+DTEND;TZID=Europe/Warsaw:20261209T131500
+SUMMARY:Lsd (w)
+LOCATION:39 36
+DESCRIPTION:Lotnicze systemy diagnostyczne\nRodzaj: wykład\nProwadzący: 
+ dr hab. inż. Zieja Mariusz\nNr zajęć: 6/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5e74c3f33c1f744975ee9a82@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261209T133000
+DTEND;TZID=Europe/Warsaw:20261209T150500
+SUMMARY:Lsd (w)
+LOCATION:136 36
+DESCRIPTION:Lotnicze systemy diagnostyczne\nRodzaj: wykład\nProwadzący: 
+ dr inż. Ważny Mariusz\nNr zajęć: 7/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:476791c066819e25261ffdff@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261209T160000
+DTEND;TZID=Europe/Warsaw:20261209T173500
+SUMMARY:Malo (w)
+LOCATION:19 36
+DESCRIPTION:Materiały lotnicze\nRodzaj: wykład\nProwadzący: ppłk dr in
+ ż. Leszczyński Piotr\nNr zajęć: 3/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:6d44f6e9953756bac5301df4@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261210T114000
+DTEND;TZID=Europe/Warsaw:20261210T131500
+SUMMARY:Pmlot (w)
+LOCATION:S2 72
+DESCRIPTION:Podstawy mechaniki lotu\nRodzaj: wykład\nProwadzący: prof. d
+ r hab. inż. Sibilski Krzysztof\nNr zajęć: 6/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f893a8a82e8e4690eab24e45@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261210T133000
+DTEND;TZID=Europe/Warsaw:20261210T150500
+SUMMARY:Lsen (L)
+LOCATION:128 36
+DESCRIPTION:Lotnicze systemy elektroenergetyczne\nRodzaj: laboratorium\nPr
+ owadzący: * Soszyński P ...\nNr zajęć: 8/16\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:75589fa6c0cd6970f475e270@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261211T080000
+DTEND;TZID=Europe/Warsaw:20261211T093500
+SUMMARY:Biisp (ć)
+LOCATION:33 67
+DESCRIPTION:Budowa i instalacje SP\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Zieliński Wojciech\nNr zajęć: 9/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:82a28c6302128c0884594fa4@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261211T095000
+DTEND;TZID=Europe/Warsaw:20261211T112500
+SUMMARY:Pmlot (ć)
+LOCATION:3 67
+DESCRIPTION:Podstawy mechaniki lotu\nRodzaj: ćwiczenia\nProwadzący: mgr 
+ inż. Misiak Zawadzka Aneta\nNr zajęć: 3/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5affbf5bf92dc9954e632da0@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261211T114000
+DTEND;TZID=Europe/Warsaw:20261211T131500
+SUMMARY:Moua (ć)
+LOCATION:130 36
+DESCRIPTION:Modelowanie układów awionicznych\nRodzaj: ćwiczenia\nProwad
+ zący: mgr inż. Kochan Jakub\nNr zajęć: 9/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7fa76865fcd49135a8d7f1c9@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261214T080000
+DTEND;TZID=Europe/Warsaw:20261214T093500
+SUMMARY:Uniw (L)
+LOCATION:004 36
+DESCRIPTION:Układy nadążne i wykonawcze\nRodzaj: laboratorium\nProwadz
+ ący: mgr inż. Główczyk Bartłomiej\nNr zajęć: 3/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:cc0e1b7ea35b2633f3fcb584@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261214T095000
+DTEND;TZID=Europe/Warsaw:20261214T112500
+SUMMARY:Uniw (L)
+LOCATION:003 36\;004
+DESCRIPTION:Układy nadążne i wykonawcze\nRodzaj: laboratorium\nProwadz
+ ący: mgr inż. Janczewski Mariusz\nNr zajęć: 4/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:bc2d2651325d62e4de3e4fa1@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261215T080000
+DTEND;TZID=Europe/Warsaw:20261215T093500
+SUMMARY:Uniw (ć)
+LOCATION:130 36
+DESCRIPTION:Układy nadążne i wykonawcze\nRodzaj: ćwiczenia\nProwadząc
+ y: mgr inż. Marut Adam\nNr zajęć: 7/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f6f43b24e361e8b4e750b36e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261215T095000
+DTEND;TZID=Europe/Warsaw:20261215T112500
+SUMMARY:Ts (ć)
+LOCATION:3 67
+DESCRIPTION:Teoria sterowania\nRodzaj: ćwiczenia\nProwadzący: płk mgr i
+ nż. Hanc Damian\nNr zajęć: 5/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:62c50d759b502485e7b0979c@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261215T114000
+DTEND;TZID=Europe/Warsaw:20261215T131500
+SUMMARY:Lsd (w)
+LOCATION:005 36
+DESCRIPTION:Lotnicze systemy diagnostyczne\nRodzaj: wykład\nProwadzący: 
+ dr inż. Ważny Mariusz\nNr zajęć: 8/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c0c3e412dea6a21e22ffd2c0@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261216T080000
+DTEND;TZID=Europe/Warsaw:20261216T093500
+SUMMARY:Psma (w)
+LOCATION:136 36
+DESCRIPTION:Programowanie systemów i modułów awionicznych\nRodzaj: wyk
+ ład\nProwadzący: dr inż. Rochala Zdzisław\nNr zajęć: 7/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b62d5b70e2df7ed9a478bd47@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261216T095000
+DTEND;TZID=Europe/Warsaw:20261216T112500
+SUMMARY:Moua (w)
+LOCATION:39 36
+DESCRIPTION:Modelowanie układów awionicznych\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Dziendzikowski Michał\nNr zajęć: 6/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f5c286d3642a4a84de59c1be@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261216T133000
+DTEND;TZID=Europe/Warsaw:20261216T150500
+SUMMARY:Ts (w)
+LOCATION:S2 72
+DESCRIPTION:Teoria sterowania\nRodzaj: wykład\nProwadzący: dr inż. Dzie
+ ndzikowski Michał\nNr zajęć: 8/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1b75b41fb2fd9b6b8e82f0eb@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261216T160000
+DTEND;TZID=Europe/Warsaw:20261216T173500
+SUMMARY:Malo (w)
+LOCATION:19 36
+DESCRIPTION:Materiały lotnicze\nRodzaj: wykład\nProwadzący: ppłk dr in
+ ż. Leszczyński Piotr\nNr zajęć: 4/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:8a1fcbe2711cef55addfa01d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261217T080000
+DTEND;TZID=Europe/Warsaw:20261217T093500
+SUMMARY:Lsd (L)
+LOCATION:003 36
+DESCRIPTION:Lotnicze systemy diagnostyczne\nRodzaj: laboratorium\nProwadz
+ ący: mgr inż. Janczewski Mariusz\nNr zajęć: 6/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5b52ac235cf2293ded1fb374@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261217T095000
+DTEND;TZID=Europe/Warsaw:20261217T112500
+SUMMARY:Ts (ć)
+LOCATION:15 63
+DESCRIPTION:Teoria sterowania\nRodzaj: ćwiczenia\nProwadzący: płk mgr i
+ nż. Hanc Damian\nNr zajęć: 6/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:09cd5f1effd5c2f2dfc25859@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261217T114000
+DTEND;TZID=Europe/Warsaw:20261217T131500
+SUMMARY:Pmlot (w)
+LOCATION:S2 72
+DESCRIPTION:Podstawy mechaniki lotu\nRodzaj: wykład\nProwadzący: prof. d
+ r hab. inż. Sibilski Krzysztof\nNr zajęć: 7/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3515eac1dae07dd94cbc9daa@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261217T133000
+DTEND;TZID=Europe/Warsaw:20261217T150500
+SUMMARY:Lsen (L)
+LOCATION:141 36
+DESCRIPTION:Lotnicze systemy elektroenergetyczne\nRodzaj: laboratorium\nPr
+ owadzący: mgr inż. Janczewski Mariusz\nNr zajęć: 9/16\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e59c0120f8216ff41e68f5fd@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261218T080000
+DTEND;TZID=Europe/Warsaw:20261218T093500
+SUMMARY:Lsen (L)
+LOCATION:128 36
+DESCRIPTION:Lotnicze systemy elektroenergetyczne\nRodzaj: laboratorium\nPr
+ owadzący: * Soszyński P ...\nNr zajęć: 10/16\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:421184042dda339fb59a0bf6@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261218T095000
+DTEND;TZID=Europe/Warsaw:20261218T112500
+SUMMARY:Biisp (ć)
+LOCATION:4 H7
+DESCRIPTION:Budowa i instalacje SP\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Tkaczuk Sławomir\nNr zajęć: 10/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:751e14196b0c14d0d3ce3e87@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261218T114000
+DTEND;TZID=Europe/Warsaw:20261218T131500
+SUMMARY:Lsd (ć)
+LOCATION:136 36
+DESCRIPTION:Lotnicze systemy diagnostyczne\nRodzaj: ćwiczenia\nProwadząc
+ y: mgr inż. Janczewski Mariusz\nNr zajęć: 2/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5d1afc084d7eaa5afc4f0cba@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261218T133000
+DTEND;TZID=Europe/Warsaw:20261218T150500
+SUMMARY:Lsd (ć)
+LOCATION:24 67
+DESCRIPTION:Lotnicze systemy diagnostyczne\nRodzaj: ćwiczenia\nProwadząc
+ y: mgr inż. Janczewski Mariusz\nNr zajęć: 3/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d9c2ecca45db3291407a66a1@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261221T160000
+DTEND;TZID=Europe/Warsaw:20261221T173500
+SUMMARY:Pmlot (L)
+LOCATION:3 67\;18 67
+DESCRIPTION:Podstawy mechaniki lotu\nRodzaj: laboratorium\nProwadzący: dr
+  inż. Frant Michał\nNr zajęć: 3/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:1d4912e3caa43f3edc21478e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261222T080000
+DTEND;TZID=Europe/Warsaw:20261222T093500
+SUMMARY:Lsen (ć)
+LOCATION:33 67
+DESCRIPTION:Lotnicze systemy elektroenergetyczne\nRodzaj: ćwiczenia\nProw
+ adzący: dr inż. Ważny Mariusz\nNr zajęć: 5/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:20ffcecc2038c33e54cc7bd5@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261222T095000
+DTEND;TZID=Europe/Warsaw:20261222T112500
+SUMMARY:Malo (ć)
+LOCATION:4 H7
+DESCRIPTION:Materiały lotnicze\nRodzaj: ćwiczenia\nProwadzący: ppor. mg
+ r inż. Barca Iga\nNr zajęć: 5/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2f348ae42871dbd4d4b2e7f8@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261223T080000
+DTEND;TZID=Europe/Warsaw:20261223T093500
+SUMMARY:Malo (w)
+LOCATION:19 36
+DESCRIPTION:Materiały lotnicze\nRodzaj: wykład\nProwadzący: ppłk dr in
+ ż. Leszczyński Piotr\nNr zajęć: 5/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:34caac0b305c1bb97d28146b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261223T160000
+DTEND;TZID=Europe/Warsaw:20261223T173500
+SUMMARY:Lsen (L)
+LOCATION:128 36
+DESCRIPTION:Lotnicze systemy elektroenergetyczne\nRodzaj: laboratorium\nPr
+ owadzący: * Soszyński P ...\nNr zajęć: 11/16\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:94e50435dffee8c4ed8098a0@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270107T080000
+DTEND;TZID=Europe/Warsaw:20270107T093500
+SUMMARY:Lsd (L)
+LOCATION:H H7
+DESCRIPTION:Lotnicze systemy diagnostyczne\nRodzaj: laboratorium\nProwadz
+ ący: dr inż. Ważny Mariusz\nNr zajęć: 7/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a48ffa285220c8f58cbdff7e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270107T114000
+DTEND;TZID=Europe/Warsaw:20270107T131500
+SUMMARY:Pmlot (w)
+LOCATION:S2 72
+DESCRIPTION:Podstawy mechaniki lotu\nRodzaj: wykład\nProwadzący: prof. d
+ r hab. inż. Sibilski Krzysztof\nNr zajęć: 8/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:acbcc3884c11653f1ff87c78@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270107T133000
+DTEND;TZID=Europe/Warsaw:20270107T150500
+SUMMARY:Lsen (L)
+LOCATION:128 36
+DESCRIPTION:Lotnicze systemy elektroenergetyczne\nRodzaj: laboratorium\nPr
+ owadzący: * Soszyński P ...\nNr zajęć: 12/16\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1f51aad343cf5e05ca0b8c9e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270108T080000
+DTEND;TZID=Europe/Warsaw:20270108T093500
+SUMMARY:Lsen (L)
+LOCATION:128 36
+DESCRIPTION:Lotnicze systemy elektroenergetyczne\nRodzaj: laboratorium\nPr
+ owadzący: * Soszyński P ...\nNr zajęć: 13/16\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7a06fe3d0eabf41791d3240a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270108T114000
+DTEND;TZID=Europe/Warsaw:20270108T131500
+SUMMARY:Moua (ć)
+LOCATION:130 36
+DESCRIPTION:Modelowanie układów awionicznych\nRodzaj: ćwiczenia\nProwad
+ zący: mgr inż. Kochan Jakub\nNr zajęć: 10/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d5a3fd1c4914d114c8b24ebb@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270111T133000
+DTEND;TZID=Europe/Warsaw:20270111T150500
+SUMMARY:Pkum (L)
+LOCATION:004 36
+DESCRIPTION:Podstawy konstrukcji urządzeń mechatroniki\nRodzaj: laborato
+ rium\nProwadzący: mgr inż. Marut Adam\nNr zajęć: 5/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:359faa6662b86bda5ae5f24f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270111T160000
+DTEND;TZID=Europe/Warsaw:20270111T173500
+SUMMARY:Pkum (L)
+LOCATION:004 36
+DESCRIPTION:Podstawy konstrukcji urządzeń mechatroniki\nRodzaj: laborato
+ rium\nProwadzący: mgr inż. Marut Adam\nNr zajęć: 6/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:e35f013d7489c3074b2f3f1c@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270112T080000
+DTEND;TZID=Europe/Warsaw:20270112T093500
+SUMMARY:Lsen (L)
+LOCATION:141 36
+DESCRIPTION:Lotnicze systemy elektroenergetyczne\nRodzaj: laboratorium\nPr
+ owadzący: mgr inż. Janczewski Mariusz\nNr zajęć: 14/16\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c8ea08c3419d2a547ca86b17@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270112T095000
+DTEND;TZID=Europe/Warsaw:20270112T112500
+SUMMARY:Malo (ć)
+LOCATION:4 H7
+DESCRIPTION:Materiały lotnicze\nRodzaj: ćwiczenia\nProwadzący: ppor. mg
+ r inż. Barca Iga\nNr zajęć: 6/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e31da5f036caec8a7c559c00@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270113T080000
+DTEND;TZID=Europe/Warsaw:20270113T093500
+SUMMARY:Psma (ć)
+LOCATION:130 36
+DESCRIPTION:Programowanie systemów i modułów awionicznych\nRodzaj: ćwi
+ czenia\nProwadzący: mgr inż. Kurenda Maciej\nNr zajęć: 7/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9f33e37ff0929eaa830d7ca1@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270113T095000
+DTEND;TZID=Europe/Warsaw:20270113T112500
+SUMMARY:Lsen (ć)
+LOCATION:33 67
+DESCRIPTION:Lotnicze systemy elektroenergetyczne\nRodzaj: ćwiczenia\nProw
+ adzący: dr inż. Ważny Mariusz\nNr zajęć: 6/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b79495db55abd1dceeebc2e7@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270113T114000
+DTEND;TZID=Europe/Warsaw:20270113T131500
+SUMMARY:Ts (ć)
+LOCATION:41 36
+DESCRIPTION:Teoria sterowania\nRodzaj: ćwiczenia\nProwadzący: płk mgr i
+ nż. Hanc Damian\nNr zajęć: 7/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c8a112f58fa06b0472e26e38@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270113T160000
+DTEND;TZID=Europe/Warsaw:20270113T173500
+SUMMARY:Malo (w)
+LOCATION:19 36
+DESCRIPTION:Materiały lotnicze\nRodzaj: wykład\nProwadzący: ppłk dr in
+ ż. Leszczyński Piotr\nNr zajęć: 6/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:453b352f4116d3432cf61b44@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270114T080000
+DTEND;TZID=Europe/Warsaw:20270114T093500
+SUMMARY:Lsd (L)
+LOCATION:H H7
+DESCRIPTION:Lotnicze systemy diagnostyczne\nRodzaj: laboratorium\nProwadz
+ ący: dr inż. Ważny Mariusz\nNr zajęć: 8/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8977c6d92c88099104d61a0e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270114T114000
+DTEND;TZID=Europe/Warsaw:20270114T131500
+SUMMARY:Uniw (L)
+LOCATION:03 36\;04 3
+DESCRIPTION:Układy nadążne i wykonawcze\nRodzaj: laboratorium\nProwadz
+ ący: płk mgr inż. Hanc Damian\nNr zajęć: 5/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8032e1a8f823bb280610c9a2@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270115T080000
+DTEND;TZID=Europe/Warsaw:20270115T093500
+SUMMARY:Pkum (L)
+LOCATION:004 36
+DESCRIPTION:Podstawy konstrukcji urządzeń mechatroniki\nRodzaj: laborato
+ rium\nProwadzący: mgr inż. Marut Adam\nNr zajęć: 7/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5b14ef2fceeb3e308b44d6cc@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270115T095000
+DTEND;TZID=Europe/Warsaw:20270115T112500
+SUMMARY:Pkum (L)
+LOCATION:004 36
+DESCRIPTION:Podstawy konstrukcji urządzeń mechatroniki\nRodzaj: laborato
+ rium\nProwadzący: mgr inż. Marut Adam\nNr zajęć: 8/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:af09a3367d9561fb87f6d0c8@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270115T114000
+DTEND;TZID=Europe/Warsaw:20270115T131500
+SUMMARY:Moua (ć)
+LOCATION:130 36
+DESCRIPTION:Modelowanie układów awionicznych\nRodzaj: ćwiczenia\nProwad
+ zący: mgr inż. Djabin Jakub\nNr zajęć: 11/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:aa0815f8c5fa5f68b2907251@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270115T133000
+DTEND;TZID=Europe/Warsaw:20270115T150500
+SUMMARY:Ts (ć)
+LOCATION:3 67
+DESCRIPTION:Teoria sterowania\nRodzaj: ćwiczenia\nProwadzący: płk mgr i
+ nż. Hanc Damian\nNr zajęć: 8/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:91cbd04b608bac7a61a8a0c3@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270118T080000
+DTEND;TZID=Europe/Warsaw:20270118T093500
+SUMMARY:Uniw (L)
+LOCATION:003 36\;04
+DESCRIPTION:Układy nadążne i wykonawcze\nRodzaj: laboratorium\nProwadz
+ ący: mgr inż. Janczewski Mariusz\nNr zajęć: 6/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0940c035183b57c63d0a7982@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270118T095000
+DTEND;TZID=Europe/Warsaw:20270118T112500
+SUMMARY:Uniw (L)
+LOCATION:003 36\;004
+DESCRIPTION:Układy nadążne i wykonawcze\nRodzaj: laboratorium\nProwadz
+ ący: mgr inż. Janczewski Mariusz\nNr zajęć: 7/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8db1e0b6536247bde3721856@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270118T114000
+DTEND;TZID=Europe/Warsaw:20270118T131500
+SUMMARY:Moua (w)
+LOCATION:3 67
+DESCRIPTION:Modelowanie układów awionicznych\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Dziendzikowski Michał\nNr zajęć: 7/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:dbd228848d3b172e47bf8793@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270119T080000
+DTEND;TZID=Europe/Warsaw:20270119T093500
+SUMMARY:Pmlot (L)
+LOCATION:3 67\;18 67
+DESCRIPTION:Podstawy mechaniki lotu\nRodzaj: laboratorium\nProwadzący: dr
+  inż. Frant Michał\nNr zajęć: 4/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4c5a28fdf684f25c05b74042@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270119T095000
+DTEND;TZID=Europe/Warsaw:20270119T112500
+SUMMARY:Lsen (L)
+LOCATION:141 36
+DESCRIPTION:Lotnicze systemy elektroenergetyczne\nRodzaj: laboratorium\nPr
+ owadzący: mgr inż. Janczewski Mariusz\nNr zajęć: 15/16\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0a2ad878d8c51b8bed192bd4@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270120T080000
+DTEND;TZID=Europe/Warsaw:20270120T093500
+SUMMARY:Malo (w)
+LOCATION:19 36
+DESCRIPTION:Materiały lotnicze\nRodzaj: wykład\nProwadzący: ppłk dr in
+ ż. Leszczyński Piotr\nNr zajęć: 7/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:179b2acc8c32949ea7c3ff16@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270120T095000
+DTEND;TZID=Europe/Warsaw:20270120T112500
+SUMMARY:Malo (w)
+LOCATION:19 36
+DESCRIPTION:Materiały lotnicze\nRodzaj: wykład\nProwadzący: ppłk dr in
+ ż. Leszczyński Piotr\nNr zajęć: 8/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d22c6636d14c6e94e8405d07@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270120T114000
+DTEND;TZID=Europe/Warsaw:20270120T131500
+SUMMARY:Ts (ć)
+LOCATION:41 36
+DESCRIPTION:Teoria sterowania\nRodzaj: ćwiczenia\nProwadzący: płk mgr i
+ nż. Hanc Damian\nNr zajęć: 9/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8d2deb5c46425fac06a92fd1@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270121T080000
+DTEND;TZID=Europe/Warsaw:20270121T093500
+SUMMARY:Pkum (L)
+LOCATION:004 36
+DESCRIPTION:Podstawy konstrukcji urządzeń mechatroniki\nRodzaj: laborato
+ rium\nProwadzący: mgr inż. Marut Adam\nNr zajęć: 9/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2bc9f078fc4cd8da79df466e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270121T095000
+DTEND;TZID=Europe/Warsaw:20270121T112500
+SUMMARY:Pkum (L)
+LOCATION:004 36
+DESCRIPTION:Podstawy konstrukcji urządzeń mechatroniki\nRodzaj: laborato
+ rium\nProwadzący: mgr inż. Marut Adam\nNr zajęć: 10/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:91a1ee1a6e85fee393f81b27@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270122T095000
+DTEND;TZID=Europe/Warsaw:20270122T112500
+SUMMARY:Ts (L)
+LOCATION:18 67
+DESCRIPTION:Teoria sterowania\nRodzaj: laboratorium\nProwadzący: płk mgr
+  inż. Hanc Damian\nNr zajęć: 4/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4723b11d02150213d21a590f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270122T114000
+DTEND;TZID=Europe/Warsaw:20270122T131500
+SUMMARY:Moua (ć)
+LOCATION:130 36
+DESCRIPTION:Modelowanie układów awionicznych\nRodzaj: ćwiczenia\nProwad
+ zący: mgr inż. Kochan Jakub\nNr zajęć: 12/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f2545ffe5d0e3f9e6ccb2348@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270122T133000
+DTEND;TZID=Europe/Warsaw:20270122T150500
+SUMMARY:Ts (w)
+LOCATION:S2 72
+DESCRIPTION:Teoria sterowania\nRodzaj: wykład\nProwadzący: dr inż. Dzie
+ ndzikowski Michał\nNr zajęć: 9/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:517606d39c385bcf6b2fe0dd@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270122T160000
+DTEND;TZID=Europe/Warsaw:20270122T173500
+SUMMARY:Ts (w)
+LOCATION:S2 72
+DESCRIPTION:Teoria sterowania\nRodzaj: wykład\nProwadzący: dr inż. Dzie
+ ndzikowski Michał\nNr zajęć: 10/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:9a4750698a06a716f1d305ec@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270125T080000
+DTEND;TZID=Europe/Warsaw:20270125T093500
+SUMMARY:Moua (ć)
+LOCATION:130 36
+DESCRIPTION:Modelowanie układów awionicznych\nRodzaj: ćwiczenia\nProwad
+ zący: mgr inż. Djabin Jakub\nNr zajęć: 13/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:be427a438646cd7e154db7c0@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270125T114000
+DTEND;TZID=Europe/Warsaw:20270125T131500
+SUMMARY:Malo (w)
+LOCATION:19 36
+DESCRIPTION:Materiały lotnicze\nRodzaj: wykład\nProwadzący: ppłk dr in
+ ż. Leszczyński Piotr\nNr zajęć: 9/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b1824134a0aec8e00f64d0a0@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270125T160000
+DTEND;TZID=Europe/Warsaw:20270125T173500
+SUMMARY:Uniw (L)
+LOCATION:003 36\;004
+DESCRIPTION:Układy nadążne i wykonawcze\nRodzaj: laboratorium\nProwadz
+ ący: mgr inż. Janczewski Mariusz\nNr zajęć: 8/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:599581f059114f46d0a744ce@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270126T095000
+DTEND;TZID=Europe/Warsaw:20270126T112500
+SUMMARY:Lsen (L)
+LOCATION:141 36
+DESCRIPTION:Lotnicze systemy elektroenergetyczne\nRodzaj: laboratorium\nPr
+ owadzący: mgr inż. Janczewski Mariusz\nNr zajęć: 16/16\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9bdf90292d1082b906202e27@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270127T080000
+DTEND;TZID=Europe/Warsaw:20270127T093500
+SUMMARY:Psma (ć)
+LOCATION:130 36
+DESCRIPTION:Programowanie systemów i modułów awionicznych\nRodzaj: ćwi
+ czenia\nProwadzący: mgr inż. Kurenda Maciej\nNr zajęć: 8/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:232a0aadbbb2f5b8ebbd2903@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270128T080000
+DTEND;TZID=Europe/Warsaw:20270128T093500
+SUMMARY:Uniw (L)
+LOCATION:03 36\;04 3
+DESCRIPTION:Układy nadążne i wykonawcze\nRodzaj: laboratorium\nProwadz
+ ący: płk mgr inż. Hanc Damian\nNr zajęć: 9/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:578ef3a25cbd1c288177b0a3@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270128T095000
+DTEND;TZID=Europe/Warsaw:20270128T112500
+SUMMARY:Uniw (L)
+LOCATION:03 36\;04 3
+DESCRIPTION:Układy nadążne i wykonawcze\nRodzaj: laboratorium\nProwadz
+ ący: płk mgr inż. Hanc Damian\nNr zajęć: 10/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9460c2bbb3e29b38e92f561b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270128T133000
+DTEND;TZID=Europe/Warsaw:20270128T150500
+SUMMARY:Moua (ć)
+LOCATION:130 36
+DESCRIPTION:Modelowanie układów awionicznych\nRodzaj: ćwiczenia\nProwad
+ zący: mgr inż. Kochan Jakub\nNr zajęć: 14/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e90e6f6e33660f0b6095a0d6@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270129T114000
+DTEND;TZID=Europe/Warsaw:20270129T131500
+SUMMARY:Moua (ć)
+LOCATION:130 36
+DESCRIPTION:Modelowanie układów awionicznych\nRodzaj: ćwiczenia\nProwad
+ zący: mgr inż. Kochan Jakub\nNr zajęć: 15/15\nBlok: 3
+END:VEVENT
+END:VCALENDAR

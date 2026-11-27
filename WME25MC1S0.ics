@@ -1,0 +1,4101 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WME25MC1S0
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:a018605ae06a846eb293c2d9@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261001T095000
+DTEND;TZID=Europe/Warsaw:20261001T112500
+SUMMARY:OIN (w)
+LOCATION:AW 4\; T3W
+DESCRIPTION:Ochrona informacji niejawnych\nRodzaj: wykład\nProwadzący: p
+ płk mgr inż. Grądziel Grzegorz\nNr zajęć: 1/2\nBlok: 2\nUwagi: Gr. G
+ .
+END:VEVENT
+BEGIN:VEVENT
+UID:4bfef187e54b2f28c3455a2d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261001T114000
+DTEND;TZID=Europe/Warsaw:20261001T131500
+SUMMARY:SzS (w)
+LOCATION:AW 1\; WYK-1\; T2.1W
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: wykład\nProwadzący: . 1 STRZE
+ L.\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:cbac85697bbf5aff1052dcbb@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261001T133000
+DTEND;TZID=Europe/Warsaw:20261001T150500
+SUMMARY:WF: Gimnastyka i ćwiczenia siłowe
+LOCATION:sala gimnastyczna nr 54
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Gimnastyka i 
+ ćwiczenia siłowe (zajęcia 2)\nObiekt: sala gimnastyczna nr 54\nKod SWF
+ : G-3/2 (grupa SWF 1PL/29KP)\nProwadzący: mgr Gulan Michał\nNr zajęć:
+  1/43\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0ea004695eacab65b39edadc@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261002T080000
+DTEND;TZID=Europe/Warsaw:20261002T093500
+SUMMARY:Sinż (w)
+LOCATION:15/ 23A
+DESCRIPTION:Statystyka inżynierska\nRodzaj: wykład\nProwadzący: dr inż
+ . Sobczyk Zbigniew\nNr zajęć: 1/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:84d47a6e63f8c96a75250381@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261002T095000
+DTEND;TZID=Europe/Warsaw:20261002T112500
+SUMMARY:F2 (w)
+LOCATION:51/ 62
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: prof. dr hab. inż. J
+ óźwikowski Krzysztof\nNr zajęć: 1/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8bc9dff68e48a896d6dca4d9@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261002T114000
+DTEND;TZID=Europe/Warsaw:20261002T131500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;235 K\;234 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 1/30\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1e6d37f94b2fc17903734c87@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261002T133000
+DTEND;TZID=Europe/Warsaw:20261002T150500
+SUMMARY:Mwg. (w)
+LOCATION:15/ 23A
+DESCRIPTION:Metrologia wielkości geometrycznych\nRodzaj: wykład\nProwadz
+ ący: dr inż. Cypko Edward\nNr zajęć: 1/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:fe1d827fcc7eaf677e5fe4de@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261003T080000
+DTEND;TZID=Europe/Warsaw:20261003T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 1/14\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:25b9b41e0a2878b5eecd372d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261005T114000
+DTEND;TZID=Europe/Warsaw:20261005T131500
+SUMMARY:Mkm2 (w)
+LOCATION:2.01/ 54A
+DESCRIPTION:Materiały konstrukcyjne w budowie maszyn 2\nRodzaj: wykład\n
+ Prowadzący: ppłk dr inż. Karczewski Krzysztof\nNr zajęć: 1/9\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:96ecea35b84a3630aa151e53@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261005T133000
+DTEND;TZID=Europe/Warsaw:20261005T150500
+SUMMARY:WF: Walka wręcz
+LOCATION:hala tartanowa – walka wręcz
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Walka wręcz (
+ zajęcia 7)\nObiekt: hala tartanowa – walka wręcz\nKod SWF: B2-4/7 (gr
+ upa SWF 1PL/29KP)\nProwadzący: mgr Gulan Michał\nNr zajęć: 2/43\nBlok
+ : 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4bc90fbb110bbb0c2e61b2ea@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261006T080000
+DTEND;TZID=Europe/Warsaw:20261006T093500
+SUMMARY:Mkm2 (w)
+LOCATION:15/ 23A
+DESCRIPTION:Materiały konstrukcyjne w budowie maszyn 2\nRodzaj: wykład\n
+ Prowadzący: ppłk dr inż. Karczewski Krzysztof\nNr zajęć: 2/9\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d0159b592b4d4ee6debf0cad@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261006T095000
+DTEND;TZID=Europe/Warsaw:20261006T112500
+SUMMARY:Bpk 1 (w)
+LOCATION:8/ 62
+DESCRIPTION:Budowa pojazdów kołowych 1\nRodzaj: wykład\nProwadzący: dr
+  inż. Wieczorek Marcin\nNr zajęć: 1/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f67e9536458a622c65dcf424@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261006T114000
+DTEND;TZID=Europe/Warsaw:20261006T131500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;235 K\;234 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 2/30\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3fe185c15750ba1e00434747@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261006T133000
+DTEND;TZID=Europe/Warsaw:20261006T150500
+SUMMARY:Sinż (w)
+LOCATION:15/ 23A
+DESCRIPTION:Statystyka inżynierska\nRodzaj: wykład\nProwadzący: dr inż
+ . Sobczyk Zbigniew\nNr zajęć: 2/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:acbf4cf2adab636c936f6c3e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261006T160000
+DTEND;TZID=Europe/Warsaw:20261006T173500
+SUMMARY:Tw1 (w)
+LOCATION:2.01/ 54A
+DESCRIPTION:Techniki wytwarzania 1\nRodzaj: wykład\nProwadzący: dr inż.
+  Woźniak Adam\nNr zajęć: 1/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:ccb5d3790f60c9ffaf4fb009@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261007T095000
+DTEND;TZID=Europe/Warsaw:20261007T112500
+SUMMARY:Bpk 1 (w)
+LOCATION:2/ 23A
+DESCRIPTION:Budowa pojazdów kołowych 1\nRodzaj: wykład\nProwadzący: dr
+  inż. Wieczorek Marcin\nNr zajęć: 2/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6bd8059519d0da602c914600@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261007T114000
+DTEND;TZID=Europe/Warsaw:20261007T131500
+SUMMARY:Bpk 1 (w)
+LOCATION:2/ 23A
+DESCRIPTION:Budowa pojazdów kołowych 1\nRodzaj: wykład\nProwadzący: dr
+  inż. Wieczorek Marcin\nNr zajęć: 3/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:568a07bf54fa37a12fb09b3e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261007T133000
+DTEND;TZID=Europe/Warsaw:20261007T150500
+SUMMARY:Tw1 (w)
+LOCATION:2.01/ 54A
+DESCRIPTION:Techniki wytwarzania 1\nRodzaj: wykład\nProwadzący: dr inż.
+  Woźniak Adam\nNr zajęć: 2/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0e1ef8b5d1f80cfdc5fd3f3b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261008T095000
+DTEND;TZID=Europe/Warsaw:20261008T112500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(KSP)\; T2.2Ć
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 1/12\nB
+ lok: 2\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:5beb97843c1bc637f4cecb2e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261008T114000
+DTEND;TZID=Europe/Warsaw:20261008T131500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(KSP)\; T2.2Ć
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 2/12\nB
+ lok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:93ef86e63762fd3248158401@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261008T133000
+DTEND;TZID=Europe/Warsaw:20261008T150500
+SUMMARY:WF: Piłka nożna
+LOCATION:tartanowe boisko do piłki nożnej
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Piłka nożna 
+ (zajęcia 3)\nObiekt: tartanowe boisko do piłki nożnej\nKod SWF: N-9/3 
+ (grupa SWF 1PL/29KP)\nProwadzący: mgr Gulan Michał\nNr zajęć: 3/43\nB
+ lok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:af674104dcfa04ebf7de7ae8@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261009T080000
+DTEND;TZID=Europe/Warsaw:20261009T093500
+SUMMARY:Pwd (w)
+LOCATION:aula/ 135
+DESCRIPTION:Przywództwo w dowodzeniu\nRodzaj: wykład\nProwadzący: dr Mi
+ szczak Marta\nNr zajęć: 1/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5caba83cd5550920a172970e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261009T095000
+DTEND;TZID=Europe/Warsaw:20261009T112500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: prof. dr hab. inż. J
+ óźwikowski Krzysztof\nNr zajęć: 2/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e5bc92d873fbcc41b9e4ac05@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261009T114000
+DTEND;TZID=Europe/Warsaw:20261009T131500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;235 K\;234 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 3/30\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e3524ba58c2847abecb59a9b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261009T133000
+DTEND;TZID=Europe/Warsaw:20261009T150500
+SUMMARY:Mwg. (w)
+LOCATION:15/ 23A
+DESCRIPTION:Metrologia wielkości geometrycznych\nRodzaj: wykład\nProwadz
+ ący: dr inż. Cypko Edward\nNr zajęć: 2/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ce2ec5a60b244bcceb2a9b7c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261010T080000
+DTEND;TZID=Europe/Warsaw:20261010T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 2/14\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:22c857dee85780afa7bbd1ba@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261012T080000
+DTEND;TZID=Europe/Warsaw:20261012T093500
+SUMMARY:SoM1 (w)
+LOCATION:2.01/ 54A
+DESCRIPTION:Strength of Materials 1\nRodzaj: wykład\nProwadzący: ppłk d
+ r inż. Kędzierski Piotr\nNr zajęć: 1/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:36787ba0d45825d8b6f75f60@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261012T095000
+DTEND;TZID=Europe/Warsaw:20261012T112500
+SUMMARY:Mp (w)
+LOCATION:2.01/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: wykład\nProwadzący: dr inż. Mus
+ zyński Tomasz\nNr zajęć: 1/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:51b12d218d59742171bfad8d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261012T114000
+DTEND;TZID=Europe/Warsaw:20261012T131500
+SUMMARY:Mt 2 (w)
+LOCATION:2.01/ 54A
+DESCRIPTION:Mechanika techniczna 2\nRodzaj: wykład\nProwadzący: dr inż.
+  Nowak Jacek\nNr zajęć: 1/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d139fc2d569b37460dca2854@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261012T133000
+DTEND;TZID=Europe/Warsaw:20261012T150500
+SUMMARY:WF: Walka wręcz
+LOCATION:hala tartanowa – walka wręcz
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Walka wręcz (
+ zajęcia 8)\nObiekt: hala tartanowa – walka wręcz\nKod SWF: B2-4/8 (gr
+ upa SWF 1PL/29KP)\nProwadzący: mgr Gulan Michał\nNr zajęć: 4/43\nBlok
+ : 4
+END:VEVENT
+BEGIN:VEVENT
+UID:916ce0f7e769bf3a6b1fc21d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261013T080000
+DTEND;TZID=Europe/Warsaw:20261013T093500
+SUMMARY:Pr.A (w)
+LOCATION:aula/ 135
+DESCRIPTION:Profilaktyka antykorupcyjna\nRodzaj: wykład\nProwadzący: dr 
+ Strychalski Andrzej\nNr zajęć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:26f7bc0494dad3fa537b4e28@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261013T095000
+DTEND;TZID=Europe/Warsaw:20261013T112500
+SUMMARY:Mkm2 (w)
+LOCATION:15/ 23A
+DESCRIPTION:Materiały konstrukcyjne w budowie maszyn 2\nRodzaj: wykład\n
+ Prowadzący: ppłk dr inż. Karczewski Krzysztof\nNr zajęć: 3/9\nBlok: 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7ecdaf383179d5e1d5ab87f4@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261013T114000
+DTEND;TZID=Europe/Warsaw:20261013T131500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;235 K\;234 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 4/30\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:cbd58aa549df0de173643bc3@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261013T133000
+DTEND;TZID=Europe/Warsaw:20261013T150500
+SUMMARY:Tw1 (w)
+LOCATION:2.01/ 54A
+DESCRIPTION:Techniki wytwarzania 1\nRodzaj: wykład\nProwadzący: dr inż.
+  Woźniak Adam\nNr zajęć: 3/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:76e6bd3a4d75aae76668de9d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261014T080000
+DTEND;TZID=Europe/Warsaw:20261014T093500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 1/16
+ \nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:830363d76423f1ace27e6e80@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261014T095000
+DTEND;TZID=Europe/Warsaw:20261014T112500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 2/16
+ \nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d62d414cdedc13786918abcd@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261014T114000
+DTEND;TZID=Europe/Warsaw:20261014T131500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 3/16
+ \nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:01de68d798ea064bc49eeabd@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261014T133000
+DTEND;TZID=Europe/Warsaw:20261014T150500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 4/16
+ \nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f29db489f7fcff07cb493a9d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261014T160000
+DTEND;TZID=Europe/Warsaw:20261014T173500
+SUMMARY:Bpk 1 (w)
+LOCATION:8/ 62
+DESCRIPTION:Budowa pojazdów kołowych 1\nRodzaj: wykład\nProwadzący: dr
+  inż. Wieczorek Marcin\nNr zajęć: 4/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:3df6d6aad62bfdd049f832e1@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261015T080000
+DTEND;TZID=Europe/Warsaw:20261015T093500
+SUMMARY:ZINŻ (w)
+LOCATION:AW 3/038\; T6W
+DESCRIPTION:Zabezpieczenie inżynieryjne\nRodzaj: wykład\nProwadzący: pp
+ łk mgr Jurzysta Paweł\nNr zajęć: 1/2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b40b80241aa0f16e5edd77f5@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261015T095000
+DTEND;TZID=Europe/Warsaw:20261015T112500
+SUMMARY:ZINŻ (w)
+LOCATION:AW 3/038\; T6W
+DESCRIPTION:Zabezpieczenie inżynieryjne\nRodzaj: wykład\nProwadzący: pp
+ łk mgr Jurzysta Paweł\nNr zajęć: 2/2\nBlok: 2\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:cfbb4d8e64de4979ee1d809d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261015T114000
+DTEND;TZID=Europe/Warsaw:20261015T131500
+SUMMARY:Bpk 1 (ć)
+LOCATION:5/ 20
+DESCRIPTION:Budowa pojazdów kołowych 1\nRodzaj: ćwiczenia\nProwadzący:
+  kpt. mgr inż. Żmuda Marcin\nNr zajęć: 1/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:23b67a0914e046669561d2c7@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261015T133000
+DTEND;TZID=Europe/Warsaw:20261015T150500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 17)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/17 (grupa SWF 1PL/29KP)\nProwadz
+ ący: mgr Gulan Michał\nNr zajęć: 5/43\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:435e98e052a3659e1c40140f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261016T080000
+DTEND;TZID=Europe/Warsaw:20261016T093500
+SUMMARY:Sinż (w)
+LOCATION:15/ 23A
+DESCRIPTION:Statystyka inżynierska\nRodzaj: wykład\nProwadzący: dr inż
+ . Sobczyk Zbigniew\nNr zajęć: 3/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e6dcaa40bdca772fc2ddf739@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261016T095000
+DTEND;TZID=Europe/Warsaw:20261016T112500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: prof. dr hab. inż. J
+ óźwikowski Krzysztof\nNr zajęć: 3/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7cd5303e12e851b89fd2e26a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261016T114000
+DTEND;TZID=Europe/Warsaw:20261016T131500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;235 K\;234 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 5/30\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2a112330a936b299540691cc@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261016T133000
+DTEND;TZID=Europe/Warsaw:20261016T150500
+SUMMARY:Mwg. (w)
+LOCATION:15/ 23A
+DESCRIPTION:Metrologia wielkości geometrycznych\nRodzaj: wykład\nProwadz
+ ący: dr inż. Cypko Edward\nNr zajęć: 3/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7983859a150b696627120faf@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261017T080000
+DTEND;TZID=Europe/Warsaw:20261017T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 3/14\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c45c687647f1303ef01d7d31@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261019T080000
+DTEND;TZID=Europe/Warsaw:20261019T093500
+SUMMARY:SoM1 (w)
+LOCATION:2.01/ 54A
+DESCRIPTION:Strength of Materials 1\nRodzaj: wykład\nProwadzący: ppłk d
+ r inż. Kędzierski Piotr\nNr zajęć: 2/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:66b5d15961164fec38ee1054@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261019T095000
+DTEND;TZID=Europe/Warsaw:20261019T112500
+SUMMARY:Mp (w)
+LOCATION:2.01/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: wykład\nProwadzący: dr inż. Mus
+ zyński Tomasz\nNr zajęć: 2/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6641b3cdcb5be1c4860c5f87@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261019T114000
+DTEND;TZID=Europe/Warsaw:20261019T131500
+SUMMARY:Mt 2 (w)
+LOCATION:2.01/ 54A
+DESCRIPTION:Mechanika techniczna 2\nRodzaj: wykład\nProwadzący: dr inż.
+  Nowak Jacek\nNr zajęć: 2/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4aae01bbb4598c2e1aaeaee8@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261019T133000
+DTEND;TZID=Europe/Warsaw:20261019T150500
+SUMMARY:WF: Gimnastyka i ćwiczenia siłowe
+LOCATION:sala gimnastyczna nr 54
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Gimnastyka i 
+ ćwiczenia siłowe (zajęcia 2)\nObiekt: sala gimnastyczna nr 54\nKod SWF
+ : G-3/2 (grupa SWF 1PL/29KP)\nProwadzący: mgr Gulan Michał\nNr zajęć:
+  6/43\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:33b7941914c51f7d5d6d084c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261020T095000
+DTEND;TZID=Europe/Warsaw:20261020T112500
+SUMMARY:F2 (L)
+LOCATION:141 S\;139 S\; Zu\; Ka.A\; Grb\; Kos.Ra
+DESCRIPTION:Fizyka 2\nRodzaj: laboratorium\nNr zajęć: 1/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3ef915b8ba49bd29202fed6d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261020T114000
+DTEND;TZID=Europe/Warsaw:20261020T131500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;235 K\;234 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 6/30\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5120e1a30e5fb5740a083a78@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261020T133000
+DTEND;TZID=Europe/Warsaw:20261020T150500
+SUMMARY:Tw1 (w)
+LOCATION:3/ 54
+DESCRIPTION:Techniki wytwarzania 1\nRodzaj: wykład\nProwadzący: dr inż.
+  Woźniak Adam\nNr zajęć: 4/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:dd71b87d8760d04a261abf45@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261020T160000
+DTEND;TZID=Europe/Warsaw:20261020T173500
+SUMMARY:Bpk 1 (ć)
+LOCATION:2/ 23A
+DESCRIPTION:Budowa pojazdów kołowych 1\nRodzaj: ćwiczenia\nProwadzący:
+  kpt. mgr inż. Żmuda Marcin\nNr zajęć: 2/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f2ee05884ae9418100b72e8f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261021T080000
+DTEND;TZID=Europe/Warsaw:20261021T093500
+SUMMARY:Sinż (ć)
+LOCATION:3/ 23A\;7/ 23A
+DESCRIPTION:Statystyka inżynierska\nRodzaj: ćwiczenia\nProwadzący: dr i
+ nż. Sobczyk Zbigniew\nNr zajęć: 1/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:40917941622f7f1046da358f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261021T095000
+DTEND;TZID=Europe/Warsaw:20261021T112500
+SUMMARY:Bpk 1 (w)
+LOCATION:5/ 23A
+DESCRIPTION:Budowa pojazdów kołowych 1\nRodzaj: wykład\nProwadzący: dr
+  inż. Wieczorek Marcin\nNr zajęć: 5/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:00d613df6a7424aeab5c9c89@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261021T114000
+DTEND;TZID=Europe/Warsaw:20261021T131500
+SUMMARY:Bpk 1 (w)
+LOCATION:5/ 23A
+DESCRIPTION:Budowa pojazdów kołowych 1\nRodzaj: wykład\nProwadzący: dr
+  inż. Wieczorek Marcin\nNr zajęć: 6/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:65a6fafee840a2b3ad76eb06@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261021T133000
+DTEND;TZID=Europe/Warsaw:20261021T150500
+SUMMARY:Mkm2 (w)
+LOCATION:52/ 62
+DESCRIPTION:Materiały konstrukcyjne w budowie maszyn 2\nRodzaj: wykład\n
+ Prowadzący: ppłk dr inż. Karczewski Krzysztof\nNr zajęć: 4/9\nBlok: 
+ 4
+END:VEVENT
+BEGIN:VEVENT
+UID:374eba45c479a9754751107b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261021T160000
+DTEND;TZID=Europe/Warsaw:20261021T173500
+SUMMARY:Bpk 1 (ć)
+LOCATION:6/ 23A
+DESCRIPTION:Budowa pojazdów kołowych 1\nRodzaj: ćwiczenia\nProwadzący:
+  kpt. mgr inż. Żmuda Marcin\nNr zajęć: 3/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:98ec579e3bfc343bea3ac302@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261022T080000
+DTEND;TZID=Europe/Warsaw:20261022T093500
+SUMMARY:OIN (w)
+LOCATION:103 K\; T4W
+DESCRIPTION:Ochrona informacji niejawnych\nRodzaj: wykład\nProwadzący: p
+ płk mgr inż. Grądziel Grzegorz\nNr zajęć: 2/2\nBlok: 1\nUwagi: Gr. G
+ .
+END:VEVENT
+BEGIN:VEVENT
+UID:c2e0d5247e528e9cdfdf2085@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261022T095000
+DTEND;TZID=Europe/Warsaw:20261022T112500
+SUMMARY:Bpk 1 (w)
+LOCATION:3/ 54
+DESCRIPTION:Budowa pojazdów kołowych 1\nRodzaj: wykład\nProwadzący: dr
+  inż. Wieczorek Marcin\nNr zajęć: 7/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1c47720e3298835b1007e53d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261022T133000
+DTEND;TZID=Europe/Warsaw:20261022T150500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 17)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/17 (grupa SWF 1PL/29KP)\nProwadz
+ ący: mgr Gulan Michał\nNr zajęć: 7/43\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:52633d73459796a042f792f7@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261023T080000
+DTEND;TZID=Europe/Warsaw:20261023T093500
+SUMMARY:Sinż (w)
+LOCATION:15/ 23A
+DESCRIPTION:Statystyka inżynierska\nRodzaj: wykład\nProwadzący: dr inż
+ . Sobczyk Zbigniew\nNr zajęć: 4/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:53dcbad3161dba1b2b3f9884@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261023T095000
+DTEND;TZID=Europe/Warsaw:20261023T112500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: prof. dr hab. inż. J
+ óźwikowski Krzysztof\nNr zajęć: 4/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:bfda874d0e27a18a798f8e35@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261023T114000
+DTEND;TZID=Europe/Warsaw:20261023T131500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;235 K\;234 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 7/30\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a9d99d047f0bc09a3c1835d1@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261023T133000
+DTEND;TZID=Europe/Warsaw:20261023T150500
+SUMMARY:Mwg. (w)
+LOCATION:15/ 23A
+DESCRIPTION:Metrologia wielkości geometrycznych\nRodzaj: wykład\nProwadz
+ ący: dr inż. Cypko Edward\nNr zajęć: 4/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:eb07d49f06db920692401060@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261023T160000
+DTEND;TZID=Europe/Warsaw:20261023T173500
+SUMMARY:SpOG (w)
+LOCATION:301/ S
+DESCRIPTION:Spotkanie z opiekunem grup\nRodzaj: wykład\nProwadzący: kpt.
+  mgr inż. Żmuda Marcin\nNr zajęć: 1/1\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:8447a19b57194b6b4735a0b6@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261024T080000
+DTEND;TZID=Europe/Warsaw:20261024T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 4/14\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:335fdbe87fedea7e77f9047b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261025T152000
+DTEND;TZID=Europe/Warsaw:20261025T165500
+SUMMARY:XWDM (w)
+LOCATION:5/ 20
+DESCRIPTION:XWprowadzenie do metrologii\nRodzaj: wykład\nProwadzący: dr 
+ inż. Boruta Grzegorz\nNr zajęć: 1/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:41bf49a2aaa84e3af4cd877c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261026T080000
+DTEND;TZID=Europe/Warsaw:20261026T093500
+SUMMARY:SoM1 (w)
+LOCATION:2.01/ 54A
+DESCRIPTION:Strength of Materials 1\nRodzaj: wykład\nProwadzący: ppłk d
+ r inż. Kędzierski Piotr\nNr zajęć: 3/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f1d81c7f7ab125d0b1ed92c0@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261026T095000
+DTEND;TZID=Europe/Warsaw:20261026T112500
+SUMMARY:Mp (w)
+LOCATION:2.01/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: wykład\nProwadzący: dr inż. Mus
+ zyński Tomasz\nNr zajęć: 3/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b1362f600ea75351ed8aa8ea@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261026T114000
+DTEND;TZID=Europe/Warsaw:20261026T131500
+SUMMARY:Mt 2 (w)
+LOCATION:2.01/ 54A
+DESCRIPTION:Mechanika techniczna 2\nRodzaj: wykład\nProwadzący: dr inż.
+  Nowak Jacek\nNr zajęć: 3/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:86e9dbfd07dd4c96434bb792@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261026T133000
+DTEND;TZID=Europe/Warsaw:20261026T150500
+SUMMARY:WF: Walka wręcz
+LOCATION:sala do walki wręcz nr 57
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Walka wręcz (
+ zajęcia 9)\nObiekt: sala do walki wręcz nr 57\nKod SWF: J-4/9 (grupa SW
+ F 1PL/29KP)\nProwadzący: mgr Gulan Michał\nNr zajęć: 8/43\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:38469f133f3381ca98295ee4@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261026T160000
+DTEND;TZID=Europe/Warsaw:20261026T173500
+SUMMARY:Bpk 1 (ć)
+LOCATION:2/ 23A
+DESCRIPTION:Budowa pojazdów kołowych 1\nRodzaj: ćwiczenia\nProwadzący:
+  kpt. mgr inż. Żmuda Marcin\nNr zajęć: 4/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:82d29d1bffa94bca08903fd4@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261027T080000
+DTEND;TZID=Europe/Warsaw:20261027T093500
+SUMMARY:Pr.A (w)
+LOCATION:aula/ 135
+DESCRIPTION:Profilaktyka antykorupcyjna\nRodzaj: wykład\nProwadzący: dr 
+ Strychalski Andrzej\nNr zajęć: 2/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:409081e816a36f626e2667c9@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261027T095000
+DTEND;TZID=Europe/Warsaw:20261027T112500
+SUMMARY:SoM1 (w)
+LOCATION:52/ 62
+DESCRIPTION:Strength of Materials 1\nRodzaj: wykład\nProwadzący: ppłk d
+ r inż. Kędzierski Piotr\nNr zajęć: 4/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:51c632a49722684d5f16a004@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261027T114000
+DTEND;TZID=Europe/Warsaw:20261027T131500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;235 K\;234 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 8/30\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f5978832ad0cfed8e0d1d079@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261027T133000
+DTEND;TZID=Europe/Warsaw:20261027T150500
+SUMMARY:Mkm2 (w)
+LOCATION:15/ 23A
+DESCRIPTION:Materiały konstrukcyjne w budowie maszyn 2\nRodzaj: wykład\n
+ Prowadzący: ppłk dr inż. Karczewski Krzysztof\nNr zajęć: 5/9\nBlok: 
+ 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5680c637b63428f8428c8778@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261027T160000
+DTEND;TZID=Europe/Warsaw:20261027T173500
+SUMMARY:Bpk 1 (w)
+LOCATION:55/ 62
+DESCRIPTION:Budowa pojazdów kołowych 1\nRodzaj: wykład\nProwadzący: dr
+  inż. Wieczorek Marcin\nNr zajęć: 8/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:541c8950136d44b25e78c69e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261028T080000
+DTEND;TZID=Europe/Warsaw:20261028T093500
+SUMMARY:ZŻWAT (ć)
+DESCRIPTION:Zbiórka żołnierzy WAT\nRodzaj: ćwiczenia\nNr zajęć: 1/6\
+ nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4393ded12b5c877e6dfa960e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261028T095000
+DTEND;TZID=Europe/Warsaw:20261028T112500
+SUMMARY:F2 (L)
+LOCATION:141 S\;139 S\; Zu\; Ka.A\; Grb\; Kos.Ra
+DESCRIPTION:Fizyka 2\nRodzaj: laboratorium\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:eeae28ab8f8a450a34f6369f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261028T114000
+DTEND;TZID=Europe/Warsaw:20261028T131500
+SUMMARY:F2 (ć)
+LOCATION:9/ 62
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr inż. Suligowski
+  Mariusz\nNr zajęć: 1/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:75949c8bb845115c64b26b7a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261028T133000
+DTEND;TZID=Europe/Warsaw:20261028T150500
+SUMMARY:Mkm2 (w)
+LOCATION:52/ 62
+DESCRIPTION:Materiały konstrukcyjne w budowie maszyn 2\nRodzaj: wykład\n
+ Prowadzący: ppłk dr inż. Karczewski Krzysztof\nNr zajęć: 6/9\nBlok: 
+ 4
+END:VEVENT
+BEGIN:VEVENT
+UID:28e1c4b333395ee211f537c2@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261028T160000
+DTEND;TZID=Europe/Warsaw:20261028T173500
+SUMMARY:Bpk 1 (w)
+LOCATION:8/ 62
+DESCRIPTION:Budowa pojazdów kołowych 1\nRodzaj: wykład\nProwadzący: dr
+  inż. Wieczorek Marcin\nNr zajęć: 9/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:ad4033a9f212afb3f897ab33@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261029T095000
+DTEND;TZID=Europe/Warsaw:20261029T112500
+SUMMARY:ZINŻ (ć)
+LOCATION:PĆT1\; T7Ć
+DESCRIPTION:Zabezpieczenie inżynieryjne\nRodzaj: ćwiczenia\nProwadzący:
+  ppłk mgr Jurzysta Paweł\nNr zajęć: 1/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:04b10482c71cb7930935911d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261029T133000
+DTEND;TZID=Europe/Warsaw:20261029T150500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 17)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/17 (grupa SWF 1PL/29KP)\nProwadz
+ ący: mgr Gulan Michał\nNr zajęć: 9/43\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ecf0f1a7b6661457e5dd7ab0@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261030T080000
+DTEND;TZID=Europe/Warsaw:20261030T093500
+SUMMARY:Sinż (w)
+LOCATION:15/ 23A
+DESCRIPTION:Statystyka inżynierska\nRodzaj: wykład\nProwadzący: dr inż
+ . Sobczyk Zbigniew\nNr zajęć: 5/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0293828f7f26f7ed83c2c84c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261030T095000
+DTEND;TZID=Europe/Warsaw:20261030T112500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: prof. dr hab. inż. J
+ óźwikowski Krzysztof\nNr zajęć: 5/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ca26f3255cc87c9188ab23e9@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261030T114000
+DTEND;TZID=Europe/Warsaw:20261030T131500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;235 K\;234 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 9/30\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:dd22455d30188cf179198bfd@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261030T133000
+DTEND;TZID=Europe/Warsaw:20261030T150500
+SUMMARY:Mwg. (w)
+LOCATION:15/ 23A
+DESCRIPTION:Metrologia wielkości geometrycznych\nRodzaj: wykład\nProwadz
+ ący: dr inż. Cypko Edward\nNr zajęć: 5/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3b73251c78ed1dd71b813cea@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261030T160000
+DTEND;TZID=Europe/Warsaw:20261030T173500
+SUMMARY:Mwg. (w)
+LOCATION:15/ 23A
+DESCRIPTION:Metrologia wielkości geometrycznych\nRodzaj: wykład\nProwadz
+ ący: dr inż. Cypko Edward\nNr zajęć: 6/7\nBlok: 5\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:4f64a5db2cc7ad6dc316158c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261102T080000
+DTEND;TZID=Europe/Warsaw:20261102T093500
+SUMMARY:SoM1 (w)
+LOCATION:2.01/ 54A
+DESCRIPTION:Strength of Materials 1\nRodzaj: wykład\nProwadzący: ppłk d
+ r inż. Kędzierski Piotr\nNr zajęć: 5/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:acf4b5554af09ea370aaf817@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261102T095000
+DTEND;TZID=Europe/Warsaw:20261102T112500
+SUMMARY:Mp (w)
+LOCATION:2.01/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: wykład\nProwadzący: dr inż. Mus
+ zyński Tomasz\nNr zajęć: 4/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:11c363a5d77b3647d36d17e5@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261102T114000
+DTEND;TZID=Europe/Warsaw:20261102T131500
+SUMMARY:Mt 2 (w)
+LOCATION:2.01/ 54A
+DESCRIPTION:Mechanika techniczna 2\nRodzaj: wykład\nProwadzący: dr inż.
+  Nowak Jacek\nNr zajęć: 4/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9b594e43448821cc7e2e6f2e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261102T133000
+DTEND;TZID=Europe/Warsaw:20261102T150500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:Ośrodek Sprawności Fizycznej
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 9)\nObiek
+ t: Ośrodek Sprawności Fizycznej\nKod SWF: O-2/9 (grupa SWF 1PL/29KP)\nP
+ rowadzący: mgr Gulan Michał\nNr zajęć: 10/43\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4fa3bff65120237c50d330df@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261102T160000
+DTEND;TZID=Europe/Warsaw:20261102T173500
+SUMMARY:Bpk 1 (ć)
+LOCATION:2/ 23A
+DESCRIPTION:Budowa pojazdów kołowych 1\nRodzaj: ćwiczenia\nProwadzący:
+  kpt. mgr inż. Żmuda Marcin\nNr zajęć: 5/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:a8a70026be696d045ae85835@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261103T080000
+DTEND;TZID=Europe/Warsaw:20261103T093500
+SUMMARY:Mt 2 (ć)
+LOCATION:8/ 62
+DESCRIPTION:Mechanika techniczna 2\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Morka Andrzej\nNr zajęć: 1/11\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2f01a2cf826a921a57ed499e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261103T095000
+DTEND;TZID=Europe/Warsaw:20261103T112500
+SUMMARY:Mkm2 (w)
+LOCATION:15/ 23A
+DESCRIPTION:Materiały konstrukcyjne w budowie maszyn 2\nRodzaj: wykład\n
+ Prowadzący: ppłk dr inż. Karczewski Krzysztof\nNr zajęć: 7/9\nBlok: 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:983cbe2d79ef509f554426e6@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261103T114000
+DTEND;TZID=Europe/Warsaw:20261103T131500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;235 K\;234 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 10/30\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:77d723b7aceb289e28684f4a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261103T133000
+DTEND;TZID=Europe/Warsaw:20261103T150500
+SUMMARY:Tw1 (w)
+LOCATION:52/ 62
+DESCRIPTION:Techniki wytwarzania 1\nRodzaj: wykład\nProwadzący: dr inż.
+  Woźniak Adam\nNr zajęć: 5/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f8bd56dbd166759f894b5623@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261103T160000
+DTEND;TZID=Europe/Warsaw:20261103T173500
+SUMMARY:Bpk 1 (w)
+LOCATION:55/ 62
+DESCRIPTION:Budowa pojazdów kołowych 1\nRodzaj: wykład\nProwadzący: dr
+  inż. Wieczorek Marcin\nNr zajęć: 10/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:5b155d91479e02a7642f5804@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261104T080000
+DTEND;TZID=Europe/Warsaw:20261104T093500
+SUMMARY:Mt 2 (ć)
+LOCATION:1/ 19
+DESCRIPTION:Mechanika techniczna 2\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Morka Andrzej\nNr zajęć: 2/11\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:726e09a5dc37da775538892f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261104T095000
+DTEND;TZID=Europe/Warsaw:20261104T112500
+SUMMARY:Mp (ć)
+LOCATION:2.09/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: ćwiczenia\nProwadzący: dr inż. 
+ Kończalski Karol\nNr zajęć: 1/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:dd1ddd93dc39e1565268651d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261104T114000
+DTEND;TZID=Europe/Warsaw:20261104T131500
+SUMMARY:F2 (ć)
+LOCATION:9/ 62
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr inż. Suligowski
+  Mariusz\nNr zajęć: 2/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c8c68894840f159115191b2e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261104T133000
+DTEND;TZID=Europe/Warsaw:20261104T150500
+SUMMARY:Mkm2 (w)
+LOCATION:52/ 62
+DESCRIPTION:Materiały konstrukcyjne w budowie maszyn 2\nRodzaj: wykład\n
+ Prowadzący: ppłk dr inż. Karczewski Krzysztof\nNr zajęć: 8/9\nBlok: 
+ 4
+END:VEVENT
+BEGIN:VEVENT
+UID:385f48ae4482277d4f31e8cb@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261104T160000
+DTEND;TZID=Europe/Warsaw:20261104T173500
+SUMMARY:SoM1 (ć)
+LOCATION:2/ 68
+DESCRIPTION:Strength of Materials 1\nRodzaj: ćwiczenia\nProwadzący: ppł
+ k dr inż. Kędzierski Piotr\nNr zajęć: 1/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:9953e495271c790df1c55b74@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261105T080000
+DTEND;TZID=Europe/Warsaw:20261105T093500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PWC2)\; T2.3Ć
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 3/12\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8854e60486d10f7222a09e95@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261105T095000
+DTEND;TZID=Europe/Warsaw:20261105T112500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PWC2)\; T2.3Ć
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 4/12\nB
+ lok: 2\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:21505fe2c84a5082b0f50955@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261105T114000
+DTEND;TZID=Europe/Warsaw:20261105T131500
+SUMMARY:SŁiŚD (w)
+LOCATION:117 45\; T4W
+DESCRIPTION:System łączności i środki dowodzenia\nRodzaj: wykład\nPro
+ wadzący: dr inż. Kudła Zbigniew\nNr zajęć: 1/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:fb2d7092785b55a829535413@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261105T133000
+DTEND;TZID=Europe/Warsaw:20261105T150500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:Ośrodek Sprawności Fizycznej
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 10)\nObie
+ kt: Ośrodek Sprawności Fizycznej\nKod SWF: O-2/10 (grupa SWF 1PL/29KP)\
+ nProwadzący: mgr Gulan Michał\nNr zajęć: 11/43\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:200ec6a61968b15182d21334@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261106T080000
+DTEND;TZID=Europe/Warsaw:20261106T093500
+SUMMARY:Sinż (w)
+LOCATION:15/ 23A
+DESCRIPTION:Statystyka inżynierska\nRodzaj: wykład\nProwadzący: dr inż
+ . Sobczyk Zbigniew\nNr zajęć: 6/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b8799b9f3cffb2451fb85d25@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261106T095000
+DTEND;TZID=Europe/Warsaw:20261106T112500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: prof. dr hab. inż. J
+ óźwikowski Krzysztof\nNr zajęć: 6/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1d0f92dd32b4fe0f8f2f6130@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261106T114000
+DTEND;TZID=Europe/Warsaw:20261106T131500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;235 K\;234 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 11/30\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:29b8984496d3c738c4405227@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261106T133000
+DTEND;TZID=Europe/Warsaw:20261106T150500
+SUMMARY:F2 (ć)
+LOCATION:9/ 62
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr inż. Suligowski
+  Mariusz\nNr zajęć: 3/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:21a0996a5d6aaf1f7103f37a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261107T080000
+DTEND;TZID=Europe/Warsaw:20261107T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 5/14\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5a47b3ef2d24e11ae567d816@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261108T152000
+DTEND;TZID=Europe/Warsaw:20261108T165500
+SUMMARY:XWDM (w)
+LOCATION:5/ 20
+DESCRIPTION:XWprowadzenie do metrologii\nRodzaj: wykład\nProwadzący: dr 
+ inż. Boruta Grzegorz\nNr zajęć: 2/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:5aae7ea709cec0e5bc41a9ea@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261109T080000
+DTEND;TZID=Europe/Warsaw:20261109T093500
+SUMMARY:SoM1 (w)
+LOCATION:2.01/ 54A
+DESCRIPTION:Strength of Materials 1\nRodzaj: wykład\nProwadzący: ppłk d
+ r inż. Kędzierski Piotr\nNr zajęć: 6/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f33c596507f2b37265cef6dc@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261109T095000
+DTEND;TZID=Europe/Warsaw:20261109T112500
+SUMMARY:Mp (w)
+LOCATION:2.01/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: wykład\nProwadzący: dr inż. Mus
+ zyński Tomasz\nNr zajęć: 5/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:766ce0c35969dbb548478ae5@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261109T114000
+DTEND;TZID=Europe/Warsaw:20261109T131500
+SUMMARY:Mt 2 (ć)
+LOCATION:1/ 19
+DESCRIPTION:Mechanika techniczna 2\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Morka Andrzej\nNr zajęć: 3/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0ef33a8a23719a0bb7d3efd6@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261109T133000
+DTEND;TZID=Europe/Warsaw:20261109T150500
+SUMMARY:WF: Walka wręcz
+LOCATION:sala do walki wręcz nr 57
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Walka wręcz (
+ zajęcia 10)\nObiekt: sala do walki wręcz nr 57\nKod SWF: J-4/10 (grupa 
+ SWF 1PL/29KP)\nProwadzący: mgr Gulan Michał\nNr zajęć: 12/43\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:72ef512f1375c799232c0f5d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261110T095000
+DTEND;TZID=Europe/Warsaw:20261110T112500
+SUMMARY:SoM1 (w)
+LOCATION:52/ 62
+DESCRIPTION:Strength of Materials 1\nRodzaj: wykład\nProwadzący: ppłk d
+ r inż. Kędzierski Piotr\nNr zajęć: 7/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:dbab5a71472dc7c2822a110d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261110T114000
+DTEND;TZID=Europe/Warsaw:20261110T131500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;235 K\;234 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 12/30\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:977e45975b3381b78859f8da@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261110T133000
+DTEND;TZID=Europe/Warsaw:20261110T150500
+SUMMARY:Tw1 (w)
+LOCATION:2.01/ 54A
+DESCRIPTION:Techniki wytwarzania 1\nRodzaj: wykład\nProwadzący: dr inż.
+  Woźniak Adam\nNr zajęć: 6/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:aa21bddf979fcbdccb4d36ec@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261112T095000
+DTEND;TZID=Europe/Warsaw:20261112T112500
+SUMMARY:ZINŻ (ć)
+LOCATION:ST.nr 1(ZI)\; T8Ć
+DESCRIPTION:Zabezpieczenie inżynieryjne\nRodzaj: ćwiczenia\nProwadzący:
+  ppłk mgr Jurzysta Paweł\nNr zajęć: 2/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ad84d65778fb394b8429cdab@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261112T133000
+DTEND;TZID=Europe/Warsaw:20261112T150500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 17)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/17 (grupa SWF 1PL/29KP)\nProwadz
+ ący: mgr Gulan Michał\nNr zajęć: 13/43\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9cad18ef9d29a4c68af85316@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261113T080000
+DTEND;TZID=Europe/Warsaw:20261113T093500
+SUMMARY:Pwd (w)
+LOCATION:aula/ 135
+DESCRIPTION:Przywództwo w dowodzeniu\nRodzaj: wykład\nProwadzący: dr Mi
+ szczak Marta\nNr zajęć: 2/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e8260bcee94dadc66b92cfcd@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261113T095000
+DTEND;TZID=Europe/Warsaw:20261113T112500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: prof. dr hab. inż. J
+ óźwikowski Krzysztof\nNr zajęć: 7/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f704a6b881283ee701416d5b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261113T114000
+DTEND;TZID=Europe/Warsaw:20261113T131500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;235 K\;234 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 13/30\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:ac9fcd746ef94054013929a0@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261113T133000
+DTEND;TZID=Europe/Warsaw:20261113T150500
+SUMMARY:F2 (ć)
+LOCATION:9/ 62
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr inż. Suligowski
+  Mariusz\nNr zajęć: 4/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2dca583f3350f9e2d02463b6@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261114T080000
+DTEND;TZID=Europe/Warsaw:20261114T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 6/14\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:dbcbd4b8d53b6205566deda3@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261115T152000
+DTEND;TZID=Europe/Warsaw:20261115T165500
+SUMMARY:XWDM (w)
+LOCATION:5/ 20
+DESCRIPTION:XWprowadzenie do metrologii\nRodzaj: wykład\nProwadzący: dr 
+ inż. Boruta Grzegorz\nNr zajęć: 3/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:34829358d359ee35482f5f86@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261116T080000
+DTEND;TZID=Europe/Warsaw:20261116T093500
+SUMMARY:SoM1 (w)
+LOCATION:2.01/ 54A
+DESCRIPTION:Strength of Materials 1\nRodzaj: wykład\nProwadzący: ppłk d
+ r inż. Kędzierski Piotr\nNr zajęć: 8/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f90611a3538696ead6b91e6b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261116T095000
+DTEND;TZID=Europe/Warsaw:20261116T112500
+SUMMARY:Mp (w)
+LOCATION:2.01/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: wykład\nProwadzący: dr inż. Mus
+ zyński Tomasz\nNr zajęć: 6/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7f21392fd82d4a7440357e0b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261116T114000
+DTEND;TZID=Europe/Warsaw:20261116T131500
+SUMMARY:Mt 2 (w)
+LOCATION:2.01/ 54A
+DESCRIPTION:Mechanika techniczna 2\nRodzaj: wykład\nProwadzący: dr inż.
+  Nowak Jacek\nNr zajęć: 5/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:05a6577044b9bede0593d0f0@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261116T133000
+DTEND;TZID=Europe/Warsaw:20261116T150500
+SUMMARY:WF: Gimnastyka i ćwiczenia siłowe
+LOCATION:siłownia modułowa przy AW3
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Gimnastyka i 
+ ćwiczenia siłowe (zajęcia 2)\nObiekt: siłownia modułowa przy AW3\nKo
+ d SWF: E-3/2 (grupa SWF 1PL/29KP)\nProwadzący: mgr Gulan Michał\nNr zaj
+ ęć: 14/43\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:99f13c94e3a16c15ae2668b7@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261116T160000
+DTEND;TZID=Europe/Warsaw:20261116T173500
+SUMMARY:Bpk 1 (ć)
+LOCATION:2/ 23A
+DESCRIPTION:Budowa pojazdów kołowych 1\nRodzaj: ćwiczenia\nProwadzący:
+  kpt. mgr inż. Żmuda Marcin\nNr zajęć: 6/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:cc227f1fd47585fdfea1138c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261117T080000
+DTEND;TZID=Europe/Warsaw:20261117T093500
+SUMMARY:Pr.A (w)
+LOCATION:aula/ 135
+DESCRIPTION:Profilaktyka antykorupcyjna\nRodzaj: wykład\nProwadzący: dr 
+ Strychalski Andrzej\nNr zajęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d3c2f68f48a85f79c571f292@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261117T095000
+DTEND;TZID=Europe/Warsaw:20261117T112500
+SUMMARY:SoM1 (w)
+LOCATION:15/ 23A
+DESCRIPTION:Strength of Materials 1\nRodzaj: wykład\nProwadzący: ppłk d
+ r inż. Kędzierski Piotr\nNr zajęć: 9/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6ed75414f0f9048385396eba@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261117T114000
+DTEND;TZID=Europe/Warsaw:20261117T131500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;235 K\;234 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 14/30\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:f7d6593f6d2618eafee25dde@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261117T133000
+DTEND;TZID=Europe/Warsaw:20261117T150500
+SUMMARY:SoM1 (ć)
+LOCATION:2/ 23A
+DESCRIPTION:Strength of Materials 1\nRodzaj: ćwiczenia\nProwadzący: ppł
+ k dr inż. Kędzierski Piotr\nNr zajęć: 2/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:bbbeb4169e074371dc7e6904@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261117T160000
+DTEND;TZID=Europe/Warsaw:20261117T173500
+SUMMARY:Mp (ć)
+LOCATION:2.09/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: ćwiczenia\nProwadzący: dr inż. 
+ Kończalski Karol\nNr zajęć: 2/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:9c71c592fa11fed8def2b2ff@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261118T080000
+DTEND;TZID=Europe/Warsaw:20261118T093500
+SUMMARY:Pr.A (w)
+LOCATION:aula/ 135
+DESCRIPTION:Profilaktyka antykorupcyjna\nRodzaj: wykład\nProwadzący: dr 
+ Strychalski Andrzej\nNr zajęć: 4/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:340de582e386ca19f4c3a1a3@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261118T095000
+DTEND;TZID=Europe/Warsaw:20261118T112500
+SUMMARY:F2 (L)
+LOCATION:141 S\;139 S\; Zu\; Ka.A\; Grb\; Kos.Ra
+DESCRIPTION:Fizyka 2\nRodzaj: laboratorium\nNr zajęć: 3/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:fd49108873d43686233c0ec9@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261118T114000
+DTEND;TZID=Europe/Warsaw:20261118T131500
+SUMMARY:Mt 2 (ć)
+LOCATION:1/ 19
+DESCRIPTION:Mechanika techniczna 2\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Morka Andrzej\nNr zajęć: 4/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:41ebd63164261d715e9fbaf3@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261118T133000
+DTEND;TZID=Europe/Warsaw:20261118T150500
+SUMMARY:TA (w)
+LOCATION:AW 3/043\; T8W
+DESCRIPTION:TAKTYKA\nRodzaj: wykład\nProwadzący: płk rez. dr inż. Kraw
+ czyk Grzegorz\nNr zajęć: 1/2\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:cfce90d24a3ef8093341f230@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261118T160000
+DTEND;TZID=Europe/Warsaw:20261118T173500
+SUMMARY:Sinż (ć)
+LOCATION:3/ 23A\;7/ 23A
+DESCRIPTION:Statystyka inżynierska\nRodzaj: ćwiczenia\nProwadzący: mgr 
+ inż. Michałowski Bogusław\nNr zajęć: 2/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:6c059c369a7082a3d4114546@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261119T080000
+DTEND;TZID=Europe/Warsaw:20261119T093500
+SUMMARY:Bpk 1 (w)
+LOCATION:8/ 62
+DESCRIPTION:Budowa pojazdów kołowych 1\nRodzaj: wykład\nProwadzący: dr
+  inż. Wieczorek Marcin\nNr zajęć: 11/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2314d337f298af7fbd0a5511@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261119T095000
+DTEND;TZID=Europe/Warsaw:20261119T112500
+SUMMARY:Pwd (ć)
+LOCATION:5/ 23A
+DESCRIPTION:Przywództwo w dowodzeniu\nRodzaj: ćwiczenia\nProwadzący: dr
+  Miszczak Marta\nNr zajęć: 1/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f27d4c703c72a6bc5fc7ea51@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261119T114000
+DTEND;TZID=Europe/Warsaw:20261119T131500
+SUMMARY:SŁiŚD (w)
+LOCATION:117 45\; T5W
+DESCRIPTION:System łączności i środki dowodzenia\nRodzaj: wykład\nPro
+ wadzący: mgr inż. Krawczak Robert\nNr zajęć: 2/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:98c826f414fb46fdebb72ca9@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261119T133000
+DTEND;TZID=Europe/Warsaw:20261119T150500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 17)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/17 (grupa SWF 1PL/29KP)\nProwadz
+ ący: mgr Gulan Michał\nNr zajęć: 15/43\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e15f33e15afdbee7d1343bbf@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261120T080000
+DTEND;TZID=Europe/Warsaw:20261120T093500
+SUMMARY:Pwd (w)
+LOCATION:aula/ 135
+DESCRIPTION:Przywództwo w dowodzeniu\nRodzaj: wykład\nProwadzący: dr Mi
+ szczak Marta\nNr zajęć: 3/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:822dbcd8516dbb2d065dfaaa@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261120T095000
+DTEND;TZID=Europe/Warsaw:20261120T112500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: prof. dr hab. inż. J
+ óźwikowski Krzysztof\nNr zajęć: 8/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:66df9f79b5e645431bee4126@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261120T114000
+DTEND;TZID=Europe/Warsaw:20261120T131500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;235 K\;234 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 15/30\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:bbbb90307a5de6ffd773dca4@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261120T133000
+DTEND;TZID=Europe/Warsaw:20261120T150500
+SUMMARY:Mkm2 (L)
+LOCATION:14/ 34\;15/ 34\;24/ 34\; Ra.A\; Przy.D.\; Dw.J
+DESCRIPTION:Materiały konstrukcyjne w budowie maszyn 2\nRodzaj: laborator
+ ium\nNr zajęć: 1/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b54c04f15ff383c8ee5c6480@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261120T160000
+DTEND;TZID=Europe/Warsaw:20261120T173500
+SUMMARY:Bpk 1 (ć)
+LOCATION:2/ 23A
+DESCRIPTION:Budowa pojazdów kołowych 1\nRodzaj: ćwiczenia\nProwadzący:
+  kpt. mgr inż. Żmuda Marcin\nNr zajęć: 7/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:57777d7a49448a46a73c98da@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261121T080000
+DTEND;TZID=Europe/Warsaw:20261121T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 7/14\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:53ef91e18d3385743bfc1df1@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261123T080000
+DTEND;TZID=Europe/Warsaw:20261123T093500
+SUMMARY:Mkm2 (w)
+LOCATION:2.01/ 54A
+DESCRIPTION:Materiały konstrukcyjne w budowie maszyn 2\nRodzaj: wykład\n
+ Prowadzący: ppłk dr inż. Karczewski Krzysztof\nNr zajęć: 9/9\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:74afd0e5ea4522ce6b643686@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261123T095000
+DTEND;TZID=Europe/Warsaw:20261123T112500
+SUMMARY:Mp (w)
+LOCATION:2.01/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: wykład\nProwadzący: dr inż. Mus
+ zyński Tomasz\nNr zajęć: 7/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8ed0a48bcd1d2de34efdface@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261123T114000
+DTEND;TZID=Europe/Warsaw:20261123T131500
+SUMMARY:Mt 2 (w)
+LOCATION:2.01/ 54A
+DESCRIPTION:Mechanika techniczna 2\nRodzaj: wykład\nProwadzący: dr inż.
+  Nowak Jacek\nNr zajęć: 6/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6601bd61583d7bd5a687a079@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261123T133000
+DTEND;TZID=Europe/Warsaw:20261123T150500
+SUMMARY:WF: Piłka koszykowa
+LOCATION:zewnętrzne boisko do koszykówki
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Piłka koszyko
+ wa (zajęcia 2)\nObiekt: zewnętrzne boisko do koszykówki\nKod SWF: K-8/
+ 2 (grupa SWF 1PL/29KP)\nProwadzący: mgr Gulan Michał\nNr zajęć: 16/43
+ \nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:bd2d497ca58831c3e75c55a3@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261123T160000
+DTEND;TZID=Europe/Warsaw:20261123T173500
+SUMMARY:Bpk 1 (L)
+LOCATION:0.31/ 54A\;PTW/ 28 HANGAR
+DESCRIPTION:Budowa pojazdów kołowych 1\nRodzaj: laboratorium\nProwadząc
+ y: mgr inż. Mantur Tomasz\; kpt. mgr inż. Żmuda Marcin\nNr zajęć: 1/
+ 2\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:d7b8e7aaea97232f8c81854a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261124T080000
+DTEND;TZID=Europe/Warsaw:20261124T093500
+SUMMARY:Mt 2 (ć)
+LOCATION:6/ 23A
+DESCRIPTION:Mechanika techniczna 2\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Morka Andrzej\nNr zajęć: 5/11\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f0830c10a919ee011fd81a71@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261124T095000
+DTEND;TZID=Europe/Warsaw:20261124T112500
+SUMMARY:Mkm2 (L)
+LOCATION:14/ 34\;15/ 34\;24/ 34\; Ra.A\; Przy.D.\; Dw.J
+DESCRIPTION:Materiały konstrukcyjne w budowie maszyn 2\nRodzaj: laborator
+ ium\nNr zajęć: 2/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:58039f670096678340f61f95@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261124T114000
+DTEND;TZID=Europe/Warsaw:20261124T131500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;235 K\;234 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 16/30\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:d8a11ef406c0b2803443adc2@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261124T133000
+DTEND;TZID=Europe/Warsaw:20261124T150500
+SUMMARY:Tw1 (w)
+LOCATION:2.01/ 54A
+DESCRIPTION:Techniki wytwarzania 1\nRodzaj: wykład\nProwadzący: dr inż.
+  Woźniak Adam\nNr zajęć: 7/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ec4fb31e3f6c377033633ec2@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261125T080000
+DTEND;TZID=Europe/Warsaw:20261125T093500
+SUMMARY:SoM1 (ć)
+LOCATION:8/ 62
+DESCRIPTION:Strength of Materials 1\nRodzaj: ćwiczenia\nProwadzący: ppł
+ k dr inż. Kędzierski Piotr\nNr zajęć: 3/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e34244079d26542c2b70b878@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261125T095000
+DTEND;TZID=Europe/Warsaw:20261125T112500
+SUMMARY:Sinż (ć)
+LOCATION:3/ 23A\;7/ 23A
+DESCRIPTION:Statystyka inżynierska\nRodzaj: ćwiczenia\nProwadzący: mgr 
+ inż. Michałowski Bogusław\nNr zajęć: 3/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d59effc59c088e26e67b8591@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261125T114000
+DTEND;TZID=Europe/Warsaw:20261125T131500
+SUMMARY:Bpk 1 (L)
+LOCATION:0.31/ 54A\;PTW/ 28 HANGAR
+DESCRIPTION:Budowa pojazdów kołowych 1\nRodzaj: laboratorium\nProwadząc
+ y: mgr inż. Mantur Tomasz\; kpt. mgr inż. Żmuda Marcin\nNr zajęć: 2/
+ 2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c3ee2870bd6d8756924019b4@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261125T133000
+DTEND;TZID=Europe/Warsaw:20261125T150500
+SUMMARY:Tw1 (ć)
+LOCATION:1/ 21
+DESCRIPTION:Techniki wytwarzania 1\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Napadłek Wojciech\nNr zajęć: 1/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:aa08c445a24bc6c131a1ec25@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261125T160000
+DTEND;TZID=Europe/Warsaw:20261125T173500
+SUMMARY:Bpk 1 (w)
+LOCATION:9/ 62
+DESCRIPTION:Budowa pojazdów kołowych 1\nRodzaj: wykład\nProwadzący: dr
+  inż. Wieczorek Marcin\nNr zajęć: 12/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:72a03a486c92a86d2b225748@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261126T080000
+DTEND;TZID=Europe/Warsaw:20261126T093500
+SUMMARY:SŁiŚD (ć)
+LOCATION:6 47\;5 47\;24 47\;23 47\; Gra\; Kuz\; KaL\; Orż\; T6Ć\, T7Ć
+DESCRIPTION:System łączności i środki dowodzenia\nRodzaj: ćwiczenia\n
+ Nr zajęć: 1/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ffc6d1a84fe4abcc1a8cde0d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261126T095000
+DTEND;TZID=Europe/Warsaw:20261126T112500
+SUMMARY:SŁiŚD (ć)
+LOCATION:6 47\;5 47\;24 47\;23 47\; Gra\; Kuz\; KaL\; Orż\; T6Ć\, T7Ć
+DESCRIPTION:System łączności i środki dowodzenia\nRodzaj: ćwiczenia\n
+ Nr zajęć: 2/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5015b7ad8eafa605283121f5@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261126T114000
+DTEND;TZID=Europe/Warsaw:20261126T131500
+SUMMARY:SŁiŚD (ć)
+LOCATION:6 47\;5 47\;24 47\;23 47\; Gra\; Kuz\; KaL\; Orż\; T6Ć\, T7Ć
+DESCRIPTION:System łączności i środki dowodzenia\nRodzaj: ćwiczenia\n
+ Nr zajęć: 3/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:bc7e97175ee5249f9ce6ab51@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261126T133000
+DTEND;TZID=Europe/Warsaw:20261126T150500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 17)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/17 (grupa SWF 1PL/29KP)\nProwadz
+ ący: mgr Gulan Michał\nNr zajęć: 17/43\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:970fa25b561d3cd1db3c17c7@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261128T080000
+DTEND;TZID=Europe/Warsaw:20261128T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 8/14\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:988783294697814bece0221a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261130T080000
+DTEND;TZID=Europe/Warsaw:20261130T093500
+SUMMARY:Bpk 1 (w)
+LOCATION:51/ 62
+DESCRIPTION:Budowa pojazdów kołowych 1\nRodzaj: wykład\nProwadzący: dr
+  inż. Wieczorek Marcin\nNr zajęć: 13/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:20ef8fc552411b7983c2b13e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261130T095000
+DTEND;TZID=Europe/Warsaw:20261130T112500
+SUMMARY:Sinż (ć)
+LOCATION:3/ 23A\;7/ 23A
+DESCRIPTION:Statystyka inżynierska\nRodzaj: ćwiczenia\nProwadzący: dr i
+ nż. Sobczyk Zbigniew\nNr zajęć: 4/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:41a0478447de2582a8b8dcd8@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261130T114000
+DTEND;TZID=Europe/Warsaw:20261130T131500
+SUMMARY:Mt 2 (w)
+LOCATION:2.01/ 54A
+DESCRIPTION:Mechanika techniczna 2\nRodzaj: wykład\nProwadzący: dr inż.
+  Nowak Jacek\nNr zajęć: 7/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b3959234898a6a37fa90eb1f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261130T133000
+DTEND;TZID=Europe/Warsaw:20261130T150500
+SUMMARY:WF: Pływanie i ratownictwo wodne
+LOCATION:pływalnia
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Pływanie i ra
+ townictwo wodne (zajęcia 2)\nObiekt: pływalnia\nKod SWF: P-5/2 (grupa S
+ WF 1PL/29KP)\nProwadzący: mgr Gulan Michał\nNr zajęć: 18/43\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:25c899b5c006079653dfba5c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261201T080000
+DTEND;TZID=Europe/Warsaw:20261201T093500
+SUMMARY:Mt 2 (ć)
+LOCATION:6/ 23A
+DESCRIPTION:Mechanika techniczna 2\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Morka Andrzej\nNr zajęć: 6/11\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a1350eafa49eccfdd8adddca@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261201T095000
+DTEND;TZID=Europe/Warsaw:20261201T112500
+SUMMARY:Mkm2 (L)
+LOCATION:14/ 34\;15/ 34\;24/ 34\; Ra.A\; Przy.D.\; Dw.J
+DESCRIPTION:Materiały konstrukcyjne w budowie maszyn 2\nRodzaj: laborator
+ ium\nNr zajęć: 3/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f6eb445bd67e26ae5d3e0fe1@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261201T114000
+DTEND;TZID=Europe/Warsaw:20261201T131500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;235 K\;234 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 17/30\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:229d0851ecfdc0b0564ecde5@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261201T133000
+DTEND;TZID=Europe/Warsaw:20261201T150500
+SUMMARY:Tw1 (w)
+LOCATION:2.01/ 54A
+DESCRIPTION:Techniki wytwarzania 1\nRodzaj: wykład\nProwadzący: dr inż.
+  Woźniak Adam\nNr zajęć: 8/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:15adc3ea98473a39b46d0113@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261201T160000
+DTEND;TZID=Europe/Warsaw:20261201T173500
+SUMMARY:Mp (L)
+LOCATION:2.05/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: laboratorium\nProwadzący: kpt. dr
+  inż. Dejewski Marcin\nNr zajęć: 1/13\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:a7c9ebd1067ac1a80709e9aa@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261202T080000
+DTEND;TZID=Europe/Warsaw:20261202T093500
+SUMMARY:Mwg. (ć)
+LOCATION:5/ 20
+DESCRIPTION:Metrologia wielkości geometrycznych\nRodzaj: ćwiczenia\nProw
+ adzący: dr inż. Cypko Edward\nNr zajęć: 1/2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:640a219ad935dbc60e55aa6e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261202T095000
+DTEND;TZID=Europe/Warsaw:20261202T112500
+SUMMARY:Mwg. (L)
+LOCATION:38/ 20\;17/ 21\;17a/ 21
+DESCRIPTION:Metrologia wielkości geometrycznych\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Woźniak Adam\nNr zajęć: 1/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:99a8f3f2d1f96701a7aee747@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261202T114000
+DTEND;TZID=Europe/Warsaw:20261202T131500
+SUMMARY:Mwg. (L)
+LOCATION:38/ 20\;17/ 21\;17a/ 21
+DESCRIPTION:Metrologia wielkości geometrycznych\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Woźniak Adam\nNr zajęć: 2/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6c8c9dceb432983fcc057a4c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261202T133000
+DTEND;TZID=Europe/Warsaw:20261202T150500
+SUMMARY:Tw1 (L)
+LOCATION:9/ 21\;10/ 21\;17b/ 21
+DESCRIPTION:Techniki wytwarzania 1\nRodzaj: laboratorium\nProwadzący: dr 
+ inż. Napadłek Wojciech\; dr inż. Chrzanowski Wojciech\nNr zajęć: 1/6
+ \nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6219bcd7c3b5f752c5629f8e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261202T160000
+DTEND;TZID=Europe/Warsaw:20261202T173500
+SUMMARY:Tw1 (L)
+LOCATION:9/ 21\;10/ 21\;17b/ 21
+DESCRIPTION:Techniki wytwarzania 1\nRodzaj: laboratorium\nProwadzący: dr 
+ inż. Napadłek Wojciech\; dr inż. Chrzanowski Wojciech\nNr zajęć: 2/6
+ \nBlok: 5\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:ae204d40fdf133c4f56001b1@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261203T080000
+DTEND;TZID=Europe/Warsaw:20261203T093500
+SUMMARY:SoM1 (ć)
+LOCATION:51/ 62
+DESCRIPTION:Strength of Materials 1\nRodzaj: ćwiczenia\nProwadzący: ppł
+ k dr inż. Kędzierski Piotr\nNr zajęć: 4/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:22d0fe55c58e71e878321e81@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261203T095000
+DTEND;TZID=Europe/Warsaw:20261203T112500
+SUMMARY:OIN (ć)
+LOCATION:22 /BIBL\; T5Ć
+DESCRIPTION:Ochrona informacji niejawnych\nRodzaj: ćwiczenia\nProwadzący
+ : ppłk mgr inż. Grądziel Grzegorz\nNr zajęć: 1/1\nBlok: 2\nUwagi: Gr
+ . G.
+END:VEVENT
+BEGIN:VEVENT
+UID:8136453ac02b9fc0d41b0826@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261203T114000
+DTEND;TZID=Europe/Warsaw:20261203T131500
+SUMMARY:ZINŻ (ć)
+LOCATION:2.01/ 54A\; T10Ć
+DESCRIPTION:Zabezpieczenie inżynieryjne\nRodzaj: ćwiczenia\nProwadzący:
+  dr inż. Kuchta Wiesław\nNr zajęć: 3/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1cedfc554c948d82dc10bb5b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261203T133000
+DTEND;TZID=Europe/Warsaw:20261203T150500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 18)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/18 (grupa SWF 1PL/29KP)\nProwadz
+ ący: mgr Gulan Michał\nNr zajęć: 19/43\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:410ebf81ff5752b0bc553eef@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261204T080000
+DTEND;TZID=Europe/Warsaw:20261204T093500
+SUMMARY:Mp (L)
+LOCATION:2.05/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: laboratorium\nProwadzący: kpt. dr
+  inż. Dejewski Marcin\nNr zajęć: 2/13\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9c6c15838ea385515a9dec82@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261204T095000
+DTEND;TZID=Europe/Warsaw:20261204T112500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: prof. dr hab. inż. J
+ óźwikowski Krzysztof\nNr zajęć: 9/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ea6f8cdea9aff5568e3dfbed@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261204T114000
+DTEND;TZID=Europe/Warsaw:20261204T131500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;235 K\;234 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 18/30\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:793a6bb1029156cef0f3b4ba@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261204T133000
+DTEND;TZID=Europe/Warsaw:20261204T150500
+SUMMARY:F2 (ć)
+LOCATION:9/ 62
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr inż. Suligowski
+  Mariusz\nNr zajęć: 5/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e5e4e8da26218411ff7a47a6@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261205T080000
+DTEND;TZID=Europe/Warsaw:20261205T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 9/14\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9cccda7c852647d134c774c2@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261206T095000
+DTEND;TZID=Europe/Warsaw:20261206T112500
+SUMMARY:XWDM (ć)
+LOCATION:5/ 20
+DESCRIPTION:XWprowadzenie do metrologii\nRodzaj: ćwiczenia\nProwadzący: 
+ dr inż. Boruta Grzegorz\nNr zajęć: 1/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1ca349ec09e92818a8fee176@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261207T095000
+DTEND;TZID=Europe/Warsaw:20261207T112500
+SUMMARY:Sinż (ć)
+LOCATION:3/ 23A\;7/ 23A
+DESCRIPTION:Statystyka inżynierska\nRodzaj: ćwiczenia\nProwadzący: dr i
+ nż. Sobczyk Zbigniew\nNr zajęć: 5/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:553c996c46a21bd83b7c6e31@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261207T114000
+DTEND;TZID=Europe/Warsaw:20261207T131500
+SUMMARY:Mt 2 (w)
+LOCATION:2.01/ 54A
+DESCRIPTION:Mechanika techniczna 2\nRodzaj: wykład\nProwadzący: dr inż.
+  Nowak Jacek\nNr zajęć: 8/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:aad15add6ddcf96df71878a7@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261207T133000
+DTEND;TZID=Europe/Warsaw:20261207T150500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 18)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/18 (grupa SWF 1PL/29KP)\nProwadz
+ ący: mgr Gulan Michał\nNr zajęć: 20/43\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:11dae6402ee6a066d245a321@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261207T160000
+DTEND;TZID=Europe/Warsaw:20261207T173500
+SUMMARY:Bpk 1 (ć)
+LOCATION:2/ 23A\;PTW/ 28 HANGAR
+DESCRIPTION:Budowa pojazdów kołowych 1\nRodzaj: ćwiczenia\nProwadzący:
+  kpt. mgr inż. Żmuda Marcin\; mgr inż. Mantur Tomasz\nNr zajęć: 8/15
+ \nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f759ab8c15a916767801dc71@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261208T080000
+DTEND;TZID=Europe/Warsaw:20261208T093500
+SUMMARY:Mwg. (ć)
+LOCATION:5/ 20
+DESCRIPTION:Metrologia wielkości geometrycznych\nRodzaj: ćwiczenia\nProw
+ adzący: dr inż. Cypko Edward\nNr zajęć: 2/2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a542f50d6efed11f7e5f8262@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261208T095000
+DTEND;TZID=Europe/Warsaw:20261208T112500
+SUMMARY:Pwd (ć)
+LOCATION:5/ 23A
+DESCRIPTION:Przywództwo w dowodzeniu\nRodzaj: ćwiczenia\nProwadzący: dr
+  Miszczak Marta\nNr zajęć: 2/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:18dba8725aa0b539eeb8c97d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261208T114000
+DTEND;TZID=Europe/Warsaw:20261208T131500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;235 K\;234 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 19/30\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:3273de38e88b041ed1ba3be2@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261208T133000
+DTEND;TZID=Europe/Warsaw:20261208T150500
+SUMMARY:Mp (ć)
+LOCATION:2.09/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: ćwiczenia\nProwadzący: dr inż. 
+ Kończalski Karol\nNr zajęć: 3/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0a0360585dc512c4d4a89ca7@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261208T160000
+DTEND;TZID=Europe/Warsaw:20261208T173500
+SUMMARY:Tw1 (ć)
+LOCATION:1/ 21
+DESCRIPTION:Techniki wytwarzania 1\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Napadłek Wojciech\nNr zajęć: 2/3\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:acbef1d3a7ef57dfcd385c90@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261209T080000
+DTEND;TZID=Europe/Warsaw:20261209T093500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 5/16
+ \nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0232e5046e5f0e82fc86e83a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261209T095000
+DTEND;TZID=Europe/Warsaw:20261209T112500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 6/16
+ \nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f5e5a3e0bf4c486291fc4caa@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261209T114000
+DTEND;TZID=Europe/Warsaw:20261209T131500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 7/16
+ \nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:29d4c751b6dc548e95ab9402@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261209T133000
+DTEND;TZID=Europe/Warsaw:20261209T150500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 8/16
+ \nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:22d2b5ac74ba6340e6944f8a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261210T095000
+DTEND;TZID=Europe/Warsaw:20261210T112500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PWC2)\; T2.4Ć
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 5/12\nB
+ lok: 2\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:abc29021b18df4e0a7598673@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261210T114000
+DTEND;TZID=Europe/Warsaw:20261210T131500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PWC2)\; T2.4Ć
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 6/12\nB
+ lok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:cffe0ca8479e7a23072078d5@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261211T080000
+DTEND;TZID=Europe/Warsaw:20261211T093500
+SUMMARY:Pwd (ć)
+LOCATION:8/ 62
+DESCRIPTION:Przywództwo w dowodzeniu\nRodzaj: ćwiczenia\nProwadzący: dr
+  Miszczak Marta\nNr zajęć: 3/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d7ff4b1f44079a8231411310@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261211T095000
+DTEND;TZID=Europe/Warsaw:20261211T112500
+SUMMARY:F2 (ć)
+LOCATION:8/ 62
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr inż. Suligowski
+  Mariusz\nNr zajęć: 6/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1c4315603ca985b856a226e4@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261211T114000
+DTEND;TZID=Europe/Warsaw:20261211T131500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;235 K\;234 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 20/30\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:9306a9166cdf8b6dcf25b2d6@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261211T133000
+DTEND;TZID=Europe/Warsaw:20261211T150500
+SUMMARY:Mkm2 (L)
+LOCATION:14/ 34\;15/ 34\;24/ 34\; Pe.M\; Łu.J\; An.A
+DESCRIPTION:Materiały konstrukcyjne w budowie maszyn 2\nRodzaj: laborator
+ ium\nNr zajęć: 4/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f24ea57243cab6fc1778ef37@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261212T080000
+DTEND;TZID=Europe/Warsaw:20261212T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 10/14\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:bddbd77b7c49f5a6d5a7ff35@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261213T095000
+DTEND;TZID=Europe/Warsaw:20261213T112500
+SUMMARY:XWDM (ć)
+LOCATION:5/ 20
+DESCRIPTION:XWprowadzenie do metrologii\nRodzaj: ćwiczenia\nProwadzący: 
+ dr inż. Boruta Grzegorz\nNr zajęć: 2/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:91aceea4706da61905c1aa99@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261214T080000
+DTEND;TZID=Europe/Warsaw:20261214T093500
+SUMMARY:Tw1 (ć)
+LOCATION:1/ 21
+DESCRIPTION:Techniki wytwarzania 1\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Napadłek Wojciech\nNr zajęć: 3/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:815842c04679e2937421c071@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261214T095000
+DTEND;TZID=Europe/Warsaw:20261214T112500
+SUMMARY:SoM1 (ć)
+LOCATION:2/ 23A
+DESCRIPTION:Strength of Materials 1\nRodzaj: ćwiczenia\nProwadzący: ppł
+ k dr inż. Kędzierski Piotr\nNr zajęć: 5/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:43142c8723c79a5291981e15@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261214T114000
+DTEND;TZID=Europe/Warsaw:20261214T131500
+SUMMARY:Mt 2 (w)
+LOCATION:2.01/ 54A
+DESCRIPTION:Mechanika techniczna 2\nRodzaj: wykład\nProwadzący: dr inż.
+  Nowak Jacek\nNr zajęć: 9/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5a4adb9056b60cfb9ef822e5@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261214T133000
+DTEND;TZID=Europe/Warsaw:20261214T150500
+SUMMARY:WF: Piłka siatkowa
+LOCATION:zewnętrzne boisko do piłki siatkowej
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Piłka siatkow
+ a (zajęcia 4)\nObiekt: zewnętrzne boisko do piłki siatkowej\nKod SWF: 
+ F-7/4 (grupa SWF 1PL/29KP)\nProwadzący: mgr Gulan Michał\nNr zajęć: 2
+ 1/43\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c6b9f3cdbf0dc25daa0cc749@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261214T160000
+DTEND;TZID=Europe/Warsaw:20261214T173500
+SUMMARY:Mt 2 (ć)
+LOCATION:8/ 62
+DESCRIPTION:Mechanika techniczna 2\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Morka Andrzej\nNr zajęć: 7/11\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:371dd8386132ae388ef75c68@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261215T080000
+DTEND;TZID=Europe/Warsaw:20261215T093500
+SUMMARY:Bpk 1 (w)
+LOCATION:52/ 62
+DESCRIPTION:Budowa pojazdów kołowych 1\nRodzaj: wykład\nProwadzący: dr
+  inż. Wieczorek Marcin\nNr zajęć: 14/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9fda4a92b17509a289a21395@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261215T095000
+DTEND;TZID=Europe/Warsaw:20261215T112500
+SUMMARY:F2 (ć)
+LOCATION:8/ 62
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr inż. Suligowski
+  Mariusz\nNr zajęć: 7/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4c30a9fef11fd2ff53c22716@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261215T114000
+DTEND;TZID=Europe/Warsaw:20261215T131500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;235 K\;234 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 21/30\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:635d5b19ed903993fd0b8e10@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261215T133000
+DTEND;TZID=Europe/Warsaw:20261215T150500
+SUMMARY:Mp (L)
+LOCATION:2.05/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: laboratorium\nProwadzący: kpt. dr
+  inż. Dejewski Marcin\nNr zajęć: 3/13\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:faf026ca2b3475fb9e444cc8@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261215T160000
+DTEND;TZID=Europe/Warsaw:20261215T173500
+SUMMARY:Mp (L)
+LOCATION:2.05/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: laboratorium\nProwadzący: kpt. dr
+  inż. Dejewski Marcin\nNr zajęć: 4/13\nBlok: 5\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:6188d74248d62dcd9e264aea@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261216T080000
+DTEND;TZID=Europe/Warsaw:20261216T093500
+SUMMARY:ZŻWAT (ć)
+DESCRIPTION:Zbiórka żołnierzy WAT\nRodzaj: ćwiczenia\nNr zajęć: 2/6\
+ nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d389431362b15df739d8ee5e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261216T095000
+DTEND;TZID=Europe/Warsaw:20261216T112500
+SUMMARY:Mp (L)
+LOCATION:2.05/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: laboratorium\nProwadzący: kpt. dr
+  inż. Dejewski Marcin\nNr zajęć: 5/13\nBlok: 2\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:7fcc9b5114281ffa2f20e5b1@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261216T114000
+DTEND;TZID=Europe/Warsaw:20261216T131500
+SUMMARY:Mp (L)
+LOCATION:2.05/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: laboratorium\nProwadzący: kpt. dr
+  inż. Dejewski Marcin\nNr zajęć: 6/13\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:cd650a4278561f77a470825d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261217T080000
+DTEND;TZID=Europe/Warsaw:20261217T093500
+SUMMARY:SoM1 (ć)
+LOCATION:8/ 62
+DESCRIPTION:Strength of Materials 1\nRodzaj: ćwiczenia\nProwadzący: ppł
+ k dr inż. Kędzierski Piotr\nNr zajęć: 6/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8b78727958f9e421bc00f97c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261217T095000
+DTEND;TZID=Europe/Warsaw:20261217T112500
+SUMMARY:TA (ć)
+LOCATION:AW 7\; T10Ć
+DESCRIPTION:TAKTYKA\nRodzaj: ćwiczenia\nProwadzący: por. mgr inż. Kłos
+ iński Artur\nNr zajęć: 1/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d358d1a93ce0d156af93e8ed@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261217T114000
+DTEND;TZID=Europe/Warsaw:20261217T131500
+SUMMARY:Mp (ć)
+LOCATION:2.09/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: ćwiczenia\nProwadzący: dr inż. 
+ Kończalski Karol\nNr zajęć: 4/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:10c02838279f90655aa7923c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261217T133000
+DTEND;TZID=Europe/Warsaw:20261217T150500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 18)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/18 (grupa SWF 1PL/29KP)\nProwadz
+ ący: mgr Gulan Michał\nNr zajęć: 22/43\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:47ed18c2fd73482360750ec7@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261218T080000
+DTEND;TZID=Europe/Warsaw:20261218T093500
+SUMMARY:Pwd (ć)
+LOCATION:55/ 62
+DESCRIPTION:Przywództwo w dowodzeniu\nRodzaj: ćwiczenia\nProwadzący: dr
+  Miszczak Marta\nNr zajęć: 4/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f0ac752858763b615014dbd1@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261218T095000
+DTEND;TZID=Europe/Warsaw:20261218T112500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: prof. dr hab. inż. J
+ óźwikowski Krzysztof\nNr zajęć: 10/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:369539b119b3cc9c70a16971@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261218T114000
+DTEND;TZID=Europe/Warsaw:20261218T131500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;235 K\;234 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 22/30\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:e0b73ac9b9d1f5483733da4a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261218T133000
+DTEND;TZID=Europe/Warsaw:20261218T150500
+SUMMARY:Mkm2 (L)
+LOCATION:14/ 34\;15/ 34\;24/ 34\; Pe.M\; Łu.J\; An.A
+DESCRIPTION:Materiały konstrukcyjne w budowie maszyn 2\nRodzaj: laborator
+ ium\nNr zajęć: 5/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:47bfba5c6005715d666930db@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261219T080000
+DTEND;TZID=Europe/Warsaw:20261219T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 11/14\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:efab9a619deabcde49dbf55b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261220T095000
+DTEND;TZID=Europe/Warsaw:20261220T112500
+SUMMARY:XWDM (ć)
+LOCATION:5/ 20
+DESCRIPTION:XWprowadzenie do metrologii\nRodzaj: ćwiczenia\nProwadzący: 
+ dr inż. Boruta Grzegorz\nNr zajęć: 3/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:30a9734776cf45e3d56aa685@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261221T080000
+DTEND;TZID=Europe/Warsaw:20261221T093500
+SUMMARY:Mp (L)
+LOCATION:2.05/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: laboratorium\nProwadzący: kpt. dr
+  inż. Dejewski Marcin\nNr zajęć: 7/13\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:fd3e8299b260a686e5f798cc@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261221T095000
+DTEND;TZID=Europe/Warsaw:20261221T112500
+SUMMARY:Sinż (ć)
+LOCATION:3/ 23A\;7/ 23A
+DESCRIPTION:Statystyka inżynierska\nRodzaj: ćwiczenia\nProwadzący: dr i
+ nż. Sobczyk Zbigniew\nNr zajęć: 6/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e9a66d77c071e789ba775425@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261221T114000
+DTEND;TZID=Europe/Warsaw:20261221T131500
+SUMMARY:Mt 2 (w)
+LOCATION:2.01/ 54A
+DESCRIPTION:Mechanika techniczna 2\nRodzaj: wykład\nProwadzący: dr inż.
+  Nowak Jacek\nNr zajęć: 10/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4b8c5d9abec73741ed049af4@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261221T133000
+DTEND;TZID=Europe/Warsaw:20261221T150500
+SUMMARY:WF: Gimnastyka i ćwiczenia siłowe
+LOCATION:hala tartanowa – gimnastyka
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Gimnastyka i 
+ ćwiczenia siłowe (zajęcia 5)\nObiekt: hala tartanowa – gimnastyka\nK
+ od SWF: B1-3/5 (grupa SWF 1PL/29KP)\nProwadzący: mgr Gulan Michał\nNr z
+ ajęć: 23/43\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6b70bc033faf975090f7caa5@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261221T160000
+DTEND;TZID=Europe/Warsaw:20261221T173500
+SUMMARY:Bpk 1 (ć)
+LOCATION:2/ 23A\;PTW/ 28 HANGAR
+DESCRIPTION:Budowa pojazdów kołowych 1\nRodzaj: ćwiczenia\nProwadzący:
+  kpt. mgr inż. Żmuda Marcin\; mgr inż. Mantur Tomasz\nNr zajęć: 9/15
+ \nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:04efaecc4e45e6aac046bb56@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261222T080000
+DTEND;TZID=Europe/Warsaw:20261222T093500
+SUMMARY:SoM1 (ć)
+LOCATION:2/ 68
+DESCRIPTION:Strength of Materials 1\nRodzaj: ćwiczenia\nProwadzący: ppł
+ k dr inż. Kędzierski Piotr\nNr zajęć: 7/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0958acd8af129895d7bd090e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261222T095000
+DTEND;TZID=Europe/Warsaw:20261222T112500
+SUMMARY:Pwd (ć)
+LOCATION:6/ 23A
+DESCRIPTION:Przywództwo w dowodzeniu\nRodzaj: ćwiczenia\nProwadzący: dr
+  Miszczak Marta\nNr zajęć: 5/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0aecfbd23c91df96f3bb0dfc@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261222T114000
+DTEND;TZID=Europe/Warsaw:20261222T131500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;235 K\;234 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 23/30\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:5e5217239f11db0e0a2ce783@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261222T133000
+DTEND;TZID=Europe/Warsaw:20261222T150500
+SUMMARY:Mt 2 (ć)
+LOCATION:6/ 23A
+DESCRIPTION:Mechanika techniczna 2\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Morka Andrzej\nNr zajęć: 8/11\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d9bc29000275f0fc1bb1409e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261222T160000
+DTEND;TZID=Europe/Warsaw:20261222T173500
+SUMMARY:Mp (L)
+LOCATION:2.05/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: laboratorium\nProwadzący: kpt. dr
+  inż. Dejewski Marcin\nNr zajęć: 8/13\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:d61003c4f00287e83b1d84f9@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261223T080000
+DTEND;TZID=Europe/Warsaw:20261223T093500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: prof. dr hab. inż. J
+ óźwikowski Krzysztof\nNr zajęć: 11/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:519ea3e102d8c99a9566745d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261223T095000
+DTEND;TZID=Europe/Warsaw:20261223T112500
+SUMMARY:Mkm2 (L)
+LOCATION:14/ 34\;15/ 34\;24/ 34\; Pe.M\; Łu.J\; An.A
+DESCRIPTION:Materiały konstrukcyjne w budowie maszyn 2\nRodzaj: laborator
+ ium\nNr zajęć: 6/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:baee5952a0dba0ab89d7a2a8@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261223T114000
+DTEND;TZID=Europe/Warsaw:20261223T131500
+SUMMARY:Bpk 1 (ć)
+LOCATION:2/ 23A\;PTW/ 28 HANGAR
+DESCRIPTION:Budowa pojazdów kołowych 1\nRodzaj: ćwiczenia\nProwadzący:
+  kpt. mgr inż. Żmuda Marcin\; mgr inż. Mantur Tomasz\nNr zajęć: 10/1
+ 5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:81d535973270acff7abe8b09@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261223T133000
+DTEND;TZID=Europe/Warsaw:20261223T150500
+SUMMARY:Sinż (ć)
+LOCATION:15/ 23A
+DESCRIPTION:Statystyka inżynierska\nRodzaj: ćwiczenia\nProwadzący: dr i
+ nż. Sobczyk Zbigniew\nNr zajęć: 7/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:fc6fa48a3cd8fd2afa1fc306@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270107T080000
+DTEND;TZID=Europe/Warsaw:20270107T093500
+SUMMARY:Mwg. (L)
+LOCATION:38/ 20\;17/ 21\;17a/ 21
+DESCRIPTION:Metrologia wielkości geometrycznych\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Cypko Edward\; mgr inż. Dziubak Sebastian\nNr zaję
+ ć: 3/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9a35161360294ee5b5f5f830@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270107T095000
+DTEND;TZID=Europe/Warsaw:20270107T112500
+SUMMARY:Mwg. (L)
+LOCATION:38/ 20\;17/ 21\;17a/ 21
+DESCRIPTION:Metrologia wielkości geometrycznych\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Cypko Edward\; mgr inż. Dziubak Sebastian\nNr zaję
+ ć: 4/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2262c3e2f721203ff6da77ae@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270107T114000
+DTEND;TZID=Europe/Warsaw:20270107T131500
+SUMMARY:Mp (L)
+LOCATION:2.05/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: laboratorium\nProwadzący: kpt. dr
+  inż. Dejewski Marcin\nNr zajęć: 9/13\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:589ebd41640d14c5d98e7444@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270107T133000
+DTEND;TZID=Europe/Warsaw:20270107T150500
+SUMMARY:WF: Pływanie i ratownictwo wodne
+LOCATION:pływalnia
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Pływanie i ra
+ townictwo wodne (zajęcia 3)\nObiekt: pływalnia\nKod SWF: P-5/3 (grupa S
+ WF 1PL/29KP)\nProwadzący: mgr Gulan Michał\nNr zajęć: 24/43\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3b2e8d36326f1cd52eba7a46@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270108T080000
+DTEND;TZID=Europe/Warsaw:20270108T093500
+SUMMARY:Mkm2 (L)
+LOCATION:14/ 34\;15/ 34\;24/ 34\; ŁuA\; Pe.M\; An.A
+DESCRIPTION:Materiały konstrukcyjne w budowie maszyn 2\nRodzaj: laborator
+ ium\nNr zajęć: 7/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8bb5ac481e5e3dae0fcb4ce6@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270108T095000
+DTEND;TZID=Europe/Warsaw:20270108T112500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: prof. dr hab. inż. J
+ óźwikowski Krzysztof\nNr zajęć: 12/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d0859b11718b691ebcb40cce@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270108T114000
+DTEND;TZID=Europe/Warsaw:20270108T131500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;235 K\;234 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 24/30\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:869134b2285c703594ea92dc@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270109T080000
+DTEND;TZID=Europe/Warsaw:20270109T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 12/14\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1516beee47fa21527461fc25@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270110T095000
+DTEND;TZID=Europe/Warsaw:20270110T112500
+SUMMARY:XWDM (ć)
+LOCATION:5/ 20
+DESCRIPTION:XWprowadzenie do metrologii\nRodzaj: ćwiczenia\nProwadzący: 
+ dr inż. Boruta Grzegorz\nNr zajęć: 4/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4fab8d132bb4d36f75085762@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270111T080000
+DTEND;TZID=Europe/Warsaw:20270111T093500
+SUMMARY:Mp (L)
+LOCATION:2.05/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: laboratorium\nProwadzący: kpt. dr
+  inż. Dejewski Marcin\nNr zajęć: 10/13\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a2deedfc23104553a451d0e2@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270111T095000
+DTEND;TZID=Europe/Warsaw:20270111T112500
+SUMMARY:F2 (ć)
+LOCATION:9/ 62
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr inż. Suligowski
+  Mariusz\nNr zajęć: 8/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ba0a7291fdfc14bdbb747630@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270111T133000
+DTEND;TZID=Europe/Warsaw:20270111T150500
+SUMMARY:WF: Gimnastyka i ćwiczenia siłowe
+LOCATION:hala tartanowa – gimnastyka
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Gimnastyka i 
+ ćwiczenia siłowe (zajęcia 10)\nObiekt: hala tartanowa – gimnastyka\n
+ Kod SWF: B3-3/10 (grupa SWF 1PL/29KP)\nProwadzący: mgr Gulan Michał\nNr
+  zajęć: 25/43\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c5085586c23f85c77ac971e6@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270111T160000
+DTEND;TZID=Europe/Warsaw:20270111T173500
+SUMMARY:Tw1 (L)
+LOCATION:9/ 21\;10/ 21\;17b/ 21
+DESCRIPTION:Techniki wytwarzania 1\nRodzaj: laboratorium\nProwadzący: dr 
+ inż. Napadłek Wojciech\; dr inż. Chrzanowski Wojciech\nNr zajęć: 3/6
+ \nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:dcb27835b895936910968993@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270111T175000
+DTEND;TZID=Europe/Warsaw:20270111T192500
+SUMMARY:Tw1 (L)
+LOCATION:9/ 21\;10/ 21\;17b/ 21
+DESCRIPTION:Techniki wytwarzania 1\nRodzaj: laboratorium\nProwadzący: dr 
+ inż. Napadłek Wojciech\; dr inż. Chrzanowski Wojciech\nNr zajęć: 4/6
+ \nBlok: 6\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:ddac8bc0931b9e1b32f0e28e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270112T080000
+DTEND;TZID=Europe/Warsaw:20270112T093500
+SUMMARY:Tw1 (L)
+LOCATION:17a/ 21
+DESCRIPTION:Techniki wytwarzania 1\nRodzaj: laboratorium\nProwadzący: dr 
+ inż. Woźniak Adam\nNr zajęć: 5/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e765aed8eb5dc2b54bea37b8@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270112T095000
+DTEND;TZID=Europe/Warsaw:20270112T112500
+SUMMARY:SoM1 (ć)
+LOCATION:2/ 68
+DESCRIPTION:Strength of Materials 1\nRodzaj: ćwiczenia\nProwadzący: ppł
+ k dr inż. Kędzierski Piotr\nNr zajęć: 8/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9433d069c89f7c45a025ac67@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270112T114000
+DTEND;TZID=Europe/Warsaw:20270112T131500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;235 K\;234 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 25/30\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:40f9e4a55460bb8bb15d4edf@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270112T133000
+DTEND;TZID=Europe/Warsaw:20270112T150500
+SUMMARY:Mt 2 (ć)
+LOCATION:1/ 19
+DESCRIPTION:Mechanika techniczna 2\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Morka Andrzej\nNr zajęć: 9/11\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7f8031640887b9188139ed19@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270112T160000
+DTEND;TZID=Europe/Warsaw:20270112T173500
+SUMMARY:Bpk 1 (ć)
+LOCATION:2/ 23A\;PTW/ 28 HANGAR
+DESCRIPTION:Budowa pojazdów kołowych 1\nRodzaj: ćwiczenia\nProwadzący:
+  kpt. mgr inż. Żmuda Marcin\; mgr inż. Mantur Tomasz\nNr zajęć: 11/1
+ 5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:2253f3b837ecd78053f6f9d5@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270113T080000
+DTEND;TZID=Europe/Warsaw:20270113T093500
+SUMMARY:ZŻWAT (ć)
+DESCRIPTION:Zbiórka żołnierzy WAT\nRodzaj: ćwiczenia\nNr zajęć: 3/6\
+ nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4c0452420fba08dff3a0561f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270113T114000
+DTEND;TZID=Europe/Warsaw:20270113T131500
+SUMMARY:F2 (L)
+LOCATION:141 S\;139 S\; Zu\; Ka.A\; Grb\; Kos.Ra
+DESCRIPTION:Fizyka 2\nRodzaj: laboratorium\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:cf7bc3cc4992f01f8453a9c6@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270113T133000
+DTEND;TZID=Europe/Warsaw:20270113T150500
+SUMMARY:Mp (L)
+LOCATION:2.05/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: laboratorium\nProwadzący: kpt. dr
+  inż. Dejewski Marcin\nNr zajęć: 11/13\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e2071bab38f41a5e29f2db1e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270113T160000
+DTEND;TZID=Europe/Warsaw:20270113T173500
+SUMMARY:Mp (L)
+LOCATION:2.05/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: laboratorium\nProwadzący: kpt. dr
+  inż. Dejewski Marcin\nNr zajęć: 12/13\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:31e63cbd32ae54844eaf25f2@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270113T175000
+DTEND;TZID=Europe/Warsaw:20270113T192500
+SUMMARY:Mp (L)
+LOCATION:2.05/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: laboratorium\nProwadzący: kpt. dr
+  inż. Dejewski Marcin\nNr zajęć: 13/13\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:2f198219ed74346e6d26b272@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270114T080000
+DTEND;TZID=Europe/Warsaw:20270114T093500
+SUMMARY:TA (ć)
+LOCATION:PĆT1\; T9Ć
+DESCRIPTION:TAKTYKA\nRodzaj: ćwiczenia\nProwadzący: kpt. mgr Ślusakowic
+ z Stanisław\nNr zajęć: 2/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:bc5e3ec3e41226d911eb6e0a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270114T095000
+DTEND;TZID=Europe/Warsaw:20270114T112500
+SUMMARY:TA (ć)
+LOCATION:PĆT1\; T9Ć
+DESCRIPTION:TAKTYKA\nRodzaj: ćwiczenia\nProwadzący: kpt. mgr Ślusakowic
+ z Stanisław\nNr zajęć: 3/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:bb73d5a01730bf0e7aa5343b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270114T133000
+DTEND;TZID=Europe/Warsaw:20270114T150500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 18)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/18 (grupa SWF 1PL/29KP)\nProwadz
+ ący: mgr Gulan Michał\nNr zajęć: 26/43\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:713ac52f6fd80945e44bde33@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270114T160000
+DTEND;TZID=Europe/Warsaw:20270114T173500
+SUMMARY:Bpk 1 (ć)
+LOCATION:6/ 23A\;PTW/ 28 HANGAR
+DESCRIPTION:Budowa pojazdów kołowych 1\nRodzaj: ćwiczenia\nProwadzący:
+  kpt. mgr inż. Żmuda Marcin\; mgr inż. Mantur Tomasz\nNr zajęć: 12/1
+ 5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:3f27c9ad47cf8a0b34b47366@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270115T080000
+DTEND;TZID=Europe/Warsaw:20270115T093500
+SUMMARY:F2 (ć)
+LOCATION:9/ 62
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr inż. Suligowski
+  Mariusz\nNr zajęć: 9/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d045b3129ecfaae2ae85520d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270115T095000
+DTEND;TZID=Europe/Warsaw:20270115T112500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: prof. dr hab. inż. J
+ óźwikowski Krzysztof\nNr zajęć: 13/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1bcfde332b0e0e79051a06e7@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270115T114000
+DTEND;TZID=Europe/Warsaw:20270115T131500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;235 K\;234 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 26/30\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:60f089dddf6f801e7da1a0e8@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270115T133000
+DTEND;TZID=Europe/Warsaw:20270115T150500
+SUMMARY:Pwd (ć)
+LOCATION:55/ 62
+DESCRIPTION:Przywództwo w dowodzeniu\nRodzaj: ćwiczenia\nProwadzący: dr
+  Miszczak Marta\nNr zajęć: 6/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a335add2de91b4daf27271ae@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270116T080000
+DTEND;TZID=Europe/Warsaw:20270116T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 13/14\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ccb265301c88dc024977253b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270118T080000
+DTEND;TZID=Europe/Warsaw:20270118T093500
+SUMMARY:Mkm2 (L)
+LOCATION:15/ 34\;24/ 34\; Pe.M\; An.A\; Ra.A
+DESCRIPTION:Materiały konstrukcyjne w budowie maszyn 2\nRodzaj: laborator
+ ium\nNr zajęć: 8/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:fe310f77031437baeb39497f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270118T095000
+DTEND;TZID=Europe/Warsaw:20270118T112500
+SUMMARY:F2 (ć)
+LOCATION:9/ 62
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr inż. Suligowski
+  Mariusz\nNr zajęć: 10/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ffbb03e87a9224bf61dc7071@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270118T114000
+DTEND;TZID=Europe/Warsaw:20270118T131500
+SUMMARY:Mkm2 (L)
+LOCATION:14/ 34\;15/ 34\;24/ 34\; ŁuA\; An.A\; Ra.A
+DESCRIPTION:Materiały konstrukcyjne w budowie maszyn 2\nRodzaj: laborator
+ ium\nNr zajęć: 9/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:48d3c6e70a90ac5d1b08414a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270118T133000
+DTEND;TZID=Europe/Warsaw:20270118T150500
+SUMMARY:WF: sprawdzian
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: sprawdzian nr 
+ 3\nObiekt: teren (las\, poligon)\nKod SWF: T-18/3 (grupa SWF 1PL/29KP)\nP
+ rowadzący: mgr Gulan Michał\nNr zajęć: 27/43\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:dda9dc309d7104a8dc15db8a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270119T080000
+DTEND;TZID=Europe/Warsaw:20270119T093500
+SUMMARY:ZINŻ (r)
+LOCATION:AW 3/038\; T9R
+DESCRIPTION:Zabezpieczenie inżynieryjne\nProwadzący: ppłk mgr Jurzysta 
+ Paweł\nNr zajęć: 1/1\nBlok: 1\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:f473992c5396fc9c72717016@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270119T095000
+DTEND;TZID=Europe/Warsaw:20270119T112500
+SUMMARY:F2 (L)
+LOCATION:141 S\;139 S\; Zu\; Ka.A\; Grb\; Kos.Ra
+DESCRIPTION:Fizyka 2\nRodzaj: laboratorium\nNr zajęć: 5/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:03683bebf58f3bc721c5cf29@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270119T114000
+DTEND;TZID=Europe/Warsaw:20270119T131500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;235 K\;234 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 27/30\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:e4fc76cf83d581f343607dfd@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270119T133000
+DTEND;TZID=Europe/Warsaw:20270119T150500
+SUMMARY:Mt 2 (ć)
+LOCATION:1/ 19
+DESCRIPTION:Mechanika techniczna 2\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Morka Andrzej\nNr zajęć: 10/11\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:be675b6b746274402646664a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270119T160000
+DTEND;TZID=Europe/Warsaw:20270119T173500
+SUMMARY:SoM1 (ć)
+LOCATION:54/ 62
+DESCRIPTION:Strength of Materials 1\nRodzaj: ćwiczenia\nProwadzący: ppł
+ k dr inż. Kędzierski Piotr\nNr zajęć: 9/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:5406b0ece1e6414053dd5faf@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270120T080000
+DTEND;TZID=Europe/Warsaw:20270120T093500
+SUMMARY:Mwg. (L)
+LOCATION:38/ 20\;17/ 21\;17a/ 21
+DESCRIPTION:Metrologia wielkości geometrycznych\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Cypko Edward\; mgr inż. Dziubak Sebastian\nNr zaję
+ ć: 5/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f528c8cc31b1a97abcbac923@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270120T095000
+DTEND;TZID=Europe/Warsaw:20270120T112500
+SUMMARY:Mwg. (L)
+LOCATION:38/ 20\;17/ 21\;17a/ 21
+DESCRIPTION:Metrologia wielkości geometrycznych\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Cypko Edward\; mgr inż. Dziubak Sebastian\nNr zaję
+ ć: 6/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:91d0fc0dde85c618f33fc788@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270121T114000
+DTEND;TZID=Europe/Warsaw:20270121T131500
+SUMMARY:Bpk 1 (ć)
+LOCATION:2/ 23A\;PTW/ 28 HANGAR
+DESCRIPTION:Budowa pojazdów kołowych 1\nRodzaj: ćwiczenia\nProwadzący:
+  kpt. mgr inż. Żmuda Marcin\; mgr inż. Mantur Tomasz\nNr zajęć: 13/1
+ 5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f68805610c82c119eac9d0e4@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270121T133000
+DTEND;TZID=Europe/Warsaw:20270121T150500
+SUMMARY:WF: sprawdzian
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: sprawdzian nr 
+ 3\nObiekt: teren (las\, poligon)\nKod SWF: T-18/3 (grupa SWF 1PL/29KP)\nP
+ rowadzący: mgr Gulan Michał\nNr zajęć: 28/43\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7f498c79a4faa73a2e3ba1d7@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270121T160000
+DTEND;TZID=Europe/Warsaw:20270121T173500
+SUMMARY:Bpk 1 (ć)
+LOCATION:2/ 23A\;PTW/ 28 HANGAR
+DESCRIPTION:Budowa pojazdów kołowych 1\nRodzaj: ćwiczenia\nProwadzący:
+  kpt. mgr inż. Żmuda Marcin\; mgr inż. Mantur Tomasz\nNr zajęć: 14/1
+ 5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:2670f39e9bd45a7f205dc614@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270122T080000
+DTEND;TZID=Europe/Warsaw:20270122T093500
+SUMMARY:Pwd (ć)
+LOCATION:55/ 62
+DESCRIPTION:Przywództwo w dowodzeniu\nRodzaj: ćwiczenia\nProwadzący: dr
+  Miszczak Marta\nNr zajęć: 7/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:cb959983b68db7a164fd1cc3@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270122T095000
+DTEND;TZID=Europe/Warsaw:20270122T112500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: prof. dr hab. inż. J
+ óźwikowski Krzysztof\nNr zajęć: 14/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a9ec68aa93f4f1c0b006c58e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270122T114000
+DTEND;TZID=Europe/Warsaw:20270122T131500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;235 K\;234 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 28/30\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:9add47dc29ceb33e6e6a7ee3@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270123T080000
+DTEND;TZID=Europe/Warsaw:20270123T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 14/14\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3323e9e8f6cccfd8056048ee@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270125T080000
+DTEND;TZID=Europe/Warsaw:20270125T093500
+SUMMARY:Mkm2 (L)
+LOCATION:14/ 34\;15/ 34\;24/ 34\; ŁuA\; Pe.M\; Ra.A
+DESCRIPTION:Materiały konstrukcyjne w budowie maszyn 2\nRodzaj: laborator
+ ium\nNr zajęć: 10/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:24712cffa7ef99c1d038c52a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270125T095000
+DTEND;TZID=Europe/Warsaw:20270125T112500
+SUMMARY:Mp (w)
+LOCATION:2.01/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: wykład\nProwadzący: dr inż. Mus
+ zyński Tomasz\nNr zajęć: 8/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:66a9d4eb866207b1de2af1e9@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270125T114000
+DTEND;TZID=Europe/Warsaw:20270125T131500
+SUMMARY:SoM1 (ć)
+LOCATION:9/ 62
+DESCRIPTION:Strength of Materials 1\nRodzaj: ćwiczenia\nProwadzący: ppł
+ k dr inż. Kędzierski Piotr\nNr zajęć: 10/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ec09b97141c8b12a5e397fde@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270125T133000
+DTEND;TZID=Europe/Warsaw:20270125T150500
+SUMMARY:WF: Gimnastyka i ćwiczenia siłowe
+LOCATION:siłownia
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Gimnastyka i 
+ ćwiczenia siłowe (zajęcia 4)\nObiekt: siłownia\nKod SWF: S-3/4 (grupa
+  SWF 1PL/29KP)\nProwadzący: mgr Gulan Michał\nNr zajęć: 29/43\nBlok: 
+ 4
+END:VEVENT
+BEGIN:VEVENT
+UID:506f37b102b77862143cf6b2@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270126T095000
+DTEND;TZID=Europe/Warsaw:20270126T112500
+SUMMARY:Tw1 (L)
+LOCATION:17a/ 21
+DESCRIPTION:Techniki wytwarzania 1\nRodzaj: laboratorium\nProwadzący: dr 
+ inż. Woźniak Adam\nNr zajęć: 6/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:fbf213355fe74b3631ca1dc8@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270126T114000
+DTEND;TZID=Europe/Warsaw:20270126T131500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;235 K\;234 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 29/30\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:5bc2bacb6076b5aef33eebb9@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270126T133000
+DTEND;TZID=Europe/Warsaw:20270126T150500
+SUMMARY:Mt 2 (ć)
+LOCATION:1/ 19
+DESCRIPTION:Mechanika techniczna 2\nRodzaj: ćwiczenia\nProwadzący: dr in
+ ż. Morka Andrzej\nNr zajęć: 11/11\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e88f0f57295f2aa02db7d23a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270127T080000
+DTEND;TZID=Europe/Warsaw:20270127T093500
+SUMMARY:Mwg. (w)
+LOCATION:15/ 23A
+DESCRIPTION:Metrologia wielkości geometrycznych\nRodzaj: wykład\nProwadz
+ ący: dr inż. Cypko Edward\nNr zajęć: 7/7\nBlok: 1\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:aff9878c8b73bfe33d2b1f0c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270128T095000
+DTEND;TZID=Europe/Warsaw:20270128T112500
+SUMMARY:Bpk 1 (ć)
+LOCATION:2/ 23A\;PTW/ 28 HANGAR
+DESCRIPTION:Budowa pojazdów kołowych 1\nRodzaj: ćwiczenia\nProwadzący:
+  mgr inż. Mantur Tomasz\; kpt. mgr inż. Żmuda Marcin\nNr zajęć: 15/1
+ 5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6b2a539ef90c1d7734435eb6@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270128T114000
+DTEND;TZID=Europe/Warsaw:20270128T131500
+SUMMARY:Bpk 1 (w)
+LOCATION:51/ 62
+DESCRIPTION:Budowa pojazdów kołowych 1\nRodzaj: wykład\nProwadzący: dr
+  inż. Wieczorek Marcin\nNr zajęć: 15/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5acf18bc10788e16f38a5fb5@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270128T133000
+DTEND;TZID=Europe/Warsaw:20270128T150500
+SUMMARY:WF: Zajęcia sportowe z różnych dyscyplin sportu i rekreacji ruc
+ howej
+LOCATION:strzelnica
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Zajęcia sport
+ owe z różnych dyscyplin sportu i rekreacji ruchowej (zajęcia 6)\nObiek
+ t: strzelnica\nKod SWF: U-16/6 (grupa SWF 1PL/29KP)\nProwadzący: ppłk d
+ r inż. Kurek Jarosław\nNr zajęć: 30/43\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6b930a102a30fd02e2b65870@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270129T080000
+DTEND;TZID=Europe/Warsaw:20270129T093500
+SUMMARY:Sinż (w)
+LOCATION:aula/ 135
+DESCRIPTION:Statystyka inżynierska\nRodzaj: wykład\nProwadzący: dr inż
+ . Sobczyk Zbigniew\nNr zajęć: 7/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9e69551809e1e04d884f750f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270129T095000
+DTEND;TZID=Europe/Warsaw:20270129T112500
+SUMMARY:F2 (w)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: prof. dr hab. inż. J
+ óźwikowski Krzysztof\nNr zajęć: 15/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a58764091519322d5ec3e37d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270129T114000
+DTEND;TZID=Europe/Warsaw:20270129T131500
+SUMMARY:Ja (ć)
+LOCATION:237 K\;235 K\;234 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 30/30\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:78afe06fa80e18fabda1313d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270129T133000
+DTEND;TZID=Europe/Warsaw:20270129T150500
+SUMMARY:Pwd (ć)
+LOCATION:8/ 62
+DESCRIPTION:Przywództwo w dowodzeniu\nRodzaj: ćwiczenia\nProwadzący: dr
+  Miszczak Marta\nNr zajęć: 8/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2a8d155fbe590dacd8bfdace@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270131T152000
+DTEND;TZID=Europe/Warsaw:20270131T165500
+SUMMARY:XWDM (w)
+LOCATION:5/ 20
+DESCRIPTION:XWprowadzenie do metrologii\nRodzaj: wykład\nProwadzący: dr 
+ inż. Boruta Grzegorz\nNr zajęć: 4/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:45bf4bd862daeebdb3f446a5@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270201T080000
+DTEND;TZID=Europe/Warsaw:20270201T093500
+SUMMARY:Mp (Zp. Ćw)
+LOCATION:2.09/ 54A
+DESCRIPTION:Mechanika płynów\nProwadzący: dr inż. Kończalski Karol\nN
+ r zajęć: 1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:56bb44d60e343c3a83e04527@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270201T114000
+DTEND;TZID=Europe/Warsaw:20270201T131500
+SUMMARY:Mt 2 (E)
+LOCATION:2.01/ 54A
+DESCRIPTION:Mechanika techniczna 2\nRodzaj: egzamin\nProwadzący: dr inż.
+  Nowak Jacek\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1821fbbadd06a16366222a5c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270201T133000
+DTEND;TZID=Europe/Warsaw:20270201T150500
+SUMMARY:SoM1 (Zp. Ćw)
+LOCATION:54/ 62
+DESCRIPTION:Strength of Materials 1\nProwadzący: ppłk dr inż. Kędziers
+ ki Piotr\nNr zajęć: 1/1\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f57bd3825e073ec4933d7d49@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270202T080000
+DTEND;TZID=Europe/Warsaw:20270202T093500
+SUMMARY:Tw1 (Zp. Ćw)
+LOCATION:1/ 21
+DESCRIPTION:Techniki wytwarzania 1\nProwadzący: dr inż. Napadłek Wojcie
+ ch\nNr zajęć: 1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8c3f309cf1f7d43569a2fef0@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270202T114000
+DTEND;TZID=Europe/Warsaw:20270202T131500
+SUMMARY:Mp (Zp/lab.)
+LOCATION:2.05/ 54A
+DESCRIPTION:Mechanika płynów\nProwadzący: kpt. dr inż. Dejewski Marcin
+ \nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4aca7296ad6bf00eab17b2a0@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270203T080000
+DTEND;TZID=Europe/Warsaw:20270203T093500
+SUMMARY:Mwg. (Zp/lab.)
+LOCATION:38/ 20\;4/ 68\;17a/ 21\; Cyp.E\; Woź.A.\; Dziu.S
+DESCRIPTION:Metrologia wielkości geometrycznych\nNr zajęć: 1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9bf06cbbf379155e0d49dbc4@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270203T095000
+DTEND;TZID=Europe/Warsaw:20270203T112500
+SUMMARY:Mkm2 (E)
+LOCATION:2.01/ 54A
+DESCRIPTION:Materiały konstrukcyjne w budowie maszyn 2\nRodzaj: egzamin\n
+ Prowadzący: ppłk dr inż. Karczewski Krzysztof\nNr zajęć: 1/1\nBlok: 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b910d7fdd7f08e5ed18ed8f3@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270203T114000
+DTEND;TZID=Europe/Warsaw:20270203T131500
+SUMMARY:Tw1 (Zp/lab.)
+LOCATION:9/ 21\;10/ 21\;17b/ 21\; Nap.W\; Chrz.W\; Woź.A
+DESCRIPTION:Techniki wytwarzania 1\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0b00001f3108c00b69bab047@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270204T095000
+DTEND;TZID=Europe/Warsaw:20270204T112500
+SUMMARY:Bpk 1 (Zp. Ćw)
+LOCATION:2/ 23A\;PTW/ 28 HANGAR
+DESCRIPTION:Budowa pojazdów kołowych 1\nProwadzący: mgr inż. Mantur To
+ masz\; kpt. mgr inż. Żmuda Marcin\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8a60c19f8c4e0d78941c03a7@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270204T114000
+DTEND;TZID=Europe/Warsaw:20270204T131500
+SUMMARY:F2 (Zp. Ćw)
+LOCATION:9/ 62
+DESCRIPTION:Fizyka 2\nProwadzący: dr inż. Suligowski Mariusz\nNr zajęć
+ : 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e4c96d6c2cec090004775f61@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270204T133000
+DTEND;TZID=Europe/Warsaw:20270204T150500
+SUMMARY:Mt 2 (Zp. Ćw)
+LOCATION:1/ 19
+DESCRIPTION:Mechanika techniczna 2\nProwadzący: dr inż. Morka Andrzej\nN
+ r zajęć: 1/1\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a99f567a319472362499e575@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270205T095000
+DTEND;TZID=Europe/Warsaw:20270205T112500
+SUMMARY:F2 (E)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: egzamin\nProwadzący: prof. dr hab. inż. J
+ óźwikowski Krzysztof\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b86749718d4af22a1b8eb7be@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270205T114000
+DTEND;TZID=Europe/Warsaw:20270205T131500
+SUMMARY:Sinż (Zp. Ćw)
+LOCATION:3/ 23A\;7/ 23A
+DESCRIPTION:Statystyka inżynierska\nProwadzący: dr inż. Sobczyk Zbignie
+ w\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f4d712cf5bde00fcfc157f1f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270205T133000
+DTEND;TZID=Europe/Warsaw:20270205T150500
+SUMMARY:Mkm2 (Zp/lab.)
+LOCATION:14/ 34\;15/ 34\;24/ 34
+DESCRIPTION:Materiały konstrukcyjne w budowie maszyn 2\nProwadzący: dr i
+ nż. Radziwonko Agata\nNr zajęć: 1/1\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:646b5aede9f8a2fe4a35f326@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270208T133000
+DTEND;TZID=Europe/Warsaw:20270208T150500
+SUMMARY:Pwd (E)
+LOCATION:aula/ 135
+DESCRIPTION:Przywództwo w dowodzeniu\nRodzaj: egzamin\nProwadzący: dr Mi
+ szczak Marta\nNr zajęć: 1/1\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9987af7d72af0cd4c57cbed7@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270215T080000
+DTEND;TZID=Europe/Warsaw:20270215T093500
+SUMMARY:SoM1 (Zp.)
+LOCATION:2.01/ 54A
+DESCRIPTION:Strength of Materials 1\nRodzaj: zaliczenie poprawkowe\nProwad
+ zący: ppłk dr inż. Kędzierski Piotr\nNr zajęć: 1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:77dd1c8ee4e4ab9f11448713@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270215T114000
+DTEND;TZID=Europe/Warsaw:20270215T131500
+SUMMARY:Mt 2 (Ep)
+LOCATION:2.01/ 54A
+DESCRIPTION:Mechanika techniczna 2\nRodzaj: egzamin poprawkowy\nProwadząc
+ y: dr inż. Nowak Jacek\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:06afc60bdad30620c547da14@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270215T133000
+DTEND;TZID=Europe/Warsaw:20270215T150500
+SUMMARY:Mp (Zp.)
+LOCATION:2.01/ 54A
+DESCRIPTION:Mechanika płynów\nRodzaj: zaliczenie poprawkowe\nProwadzący
+ : dr inż. Muszyński Tomasz\nNr zajęć: 1/1\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:217ff2496fe2d810a8e0c6a6@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270216T095000
+DTEND;TZID=Europe/Warsaw:20270216T112500
+SUMMARY:Mkm2 (Zp.)
+LOCATION:2.01/ 54A
+DESCRIPTION:Materiały konstrukcyjne w budowie maszyn 2\nRodzaj: zaliczeni
+ e poprawkowe\nProwadzący: ppłk dr inż. Karczewski Krzysztof\nNr zaję
+ ć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4c9996b0763b8152d3f8badc@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270216T114000
+DTEND;TZID=Europe/Warsaw:20270216T131500
+SUMMARY:Bpk 1 (Zp.)
+LOCATION:54/ 62
+DESCRIPTION:Budowa pojazdów kołowych 1\nRodzaj: zaliczenie poprawkowe\nP
+ rowadzący: dr inż. Wieczorek Marcin\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:674cd0c1f44e19fb57bfc505@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270216T133000
+DTEND;TZID=Europe/Warsaw:20270216T150500
+SUMMARY:Tw1 (Zp.)
+LOCATION:2.01/ 54A
+DESCRIPTION:Techniki wytwarzania 1\nRodzaj: zaliczenie poprawkowe\nProwadz
+ ący: dr inż. Woźniak Adam\nNr zajęć: 1/1\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:41f385c27dcd574c5e48203d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270217T095000
+DTEND;TZID=Europe/Warsaw:20270217T112500
+SUMMARY:Mkm2 (Ep)
+LOCATION:2.01/ 54A
+DESCRIPTION:Materiały konstrukcyjne w budowie maszyn 2\nRodzaj: egzamin p
+ oprawkowy\nProwadzący: ppłk dr inż. Karczewski Krzysztof\nNr zajęć: 
+ 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e9a43b7d2e618ff604353ce1@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270219T080000
+DTEND;TZID=Europe/Warsaw:20270219T093500
+SUMMARY:Sinż (Zp.)
+LOCATION:15/ 23A
+DESCRIPTION:Statystyka inżynierska\nRodzaj: zaliczenie poprawkowe\nProwad
+ zący: dr inż. Sobczyk Zbigniew\nNr zajęć: 1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a062b712a053d4b6842d63b3@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270219T095000
+DTEND;TZID=Europe/Warsaw:20270219T112500
+SUMMARY:F2 (Ep)
+LOCATION:aF S
+DESCRIPTION:Fizyka 2\nRodzaj: egzamin poprawkowy\nProwadzący: prof. dr ha
+ b. inż. Jóźwikowski Krzysztof\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:95c3926c1455fb10cda3bdc2@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270219T133000
+DTEND;TZID=Europe/Warsaw:20270219T150500
+SUMMARY:Mwg. (Zp.)
+LOCATION:15/ 23A
+DESCRIPTION:Metrologia wielkości geometrycznych\nRodzaj: zaliczenie popra
+ wkowe\nProwadzący: dr inż. Cypko Edward\nNr zajęć: 1/1\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a35b320cc1cbfbe75d10d928@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270302T095000
+DTEND;TZID=Europe/Warsaw:20270302T112500
+SUMMARY:TA (w)
+LOCATION:103 K\; T11W
+DESCRIPTION:TAKTYKA\nRodzaj: wykład\nProwadzący: kpt. mgr Ślusakowicz S
+ tanisław\nNr zajęć: 2/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:84d6d4c76704e652b78c63a9@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270304T080000
+DTEND;TZID=Europe/Warsaw:20270304T093500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(KSP)\; T2.5Ć\; T1.5Ć
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 7/12\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f63680fbbce75f51e562b950@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270304T095000
+DTEND;TZID=Europe/Warsaw:20270304T112500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(KSP)\; T2.5Ć\; T1.5Ć
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 8/12\nB
+ lok: 2\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:ef0bdc866a05a42653f2e385@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270304T114000
+DTEND;TZID=Europe/Warsaw:20270304T131500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 31/43\nBl
+ ok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e0223d4119ab313264aa8134@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270310T080000
+DTEND;TZID=Europe/Warsaw:20270310T093500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 9/16
+ \nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8003daf8e8455f5b19cf5737@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270310T095000
+DTEND;TZID=Europe/Warsaw:20270310T112500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 10/1
+ 6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6d455440ec22231c0182fb48@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270310T114000
+DTEND;TZID=Europe/Warsaw:20270310T131500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 11/1
+ 6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:247bdef7673314b766d786f4@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270310T133000
+DTEND;TZID=Europe/Warsaw:20270310T150500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 12/1
+ 6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3d8cbf0c512947f7f83569da@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270311T080000
+DTEND;TZID=Europe/Warsaw:20270311T093500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(KB)\; T2.6Ć
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 9/12\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0f86b2583317022cdd649a1a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270311T095000
+DTEND;TZID=Europe/Warsaw:20270311T112500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(KB)\; T2.6Ć
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 10/12\n
+ Blok: 2\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:b126f33464bf67182fb40d60@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270311T114000
+DTEND;TZID=Europe/Warsaw:20270311T131500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 32/43\nBl
+ ok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6eec2ce11fc0b8e988307515@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270311T133000
+DTEND;TZID=Europe/Warsaw:20270311T150500
+SUMMARY:TA (ć)
+LOCATION:AW 7\; T12Ć
+DESCRIPTION:TAKTYKA\nRodzaj: ćwiczenia\nProwadzący: kpt. mgr Ślusakowic
+ z Stanisław\nNr zajęć: 4/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a19ab86f41ce8f371a2a9321@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270318T080000
+DTEND;TZID=Europe/Warsaw:20270318T093500
+SUMMARY:OPW (ć)
+LOCATION:33 67\; T5Ć
+DESCRIPTION:Obrona powietrzna\nRodzaj: ćwiczenia\nProwadzący: płk dr in
+ ż. Zahor Mirosław\nNr zajęć: 1/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:692cee643458c291213bef20@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270318T095000
+DTEND;TZID=Europe/Warsaw:20270318T112500
+SUMMARY:OPW (ć)
+LOCATION:33 67\; T5Ć
+DESCRIPTION:Obrona powietrzna\nRodzaj: ćwiczenia\nProwadzący: płk dr in
+ ż. Zahor Mirosław\nNr zajęć: 2/3\nBlok: 2\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:37708e93defae580cabd68a4@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270318T114000
+DTEND;TZID=Europe/Warsaw:20270318T131500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 33/43\nBl
+ ok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d66dcd961a1d35edc2cd6944@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270324T080000
+DTEND;TZID=Europe/Warsaw:20270324T093500
+SUMMARY:ZŻWAT (ć)
+DESCRIPTION:Zbiórka żołnierzy WAT\nRodzaj: ćwiczenia\nNr zajęć: 4/6\
+ nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4137ee2d5dc1204b5e102481@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270325T095000
+DTEND;TZID=Europe/Warsaw:20270325T112500
+SUMMARY:OPW (w)
+LOCATION:103 K\; T6W
+DESCRIPTION:Obrona powietrzna\nRodzaj: wykład\nProwadzący: ppłk mgr in
+ ż. Świętochowski Mieczysław\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8ff964a3c23a05ad78ca6752@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270325T114000
+DTEND;TZID=Europe/Warsaw:20270325T131500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 34/43\nBl
+ ok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:16580445ff2fc7d6cd661840@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270401T095000
+DTEND;TZID=Europe/Warsaw:20270401T112500
+SUMMARY:TA (ć)
+LOCATION:116/ 54\; T13Ć
+DESCRIPTION:TAKTYKA\nRodzaj: ćwiczenia\nProwadzący: dr inż. Kuchta Wies
+ ław\nNr zajęć: 5/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:61958b58dde55d381bd6e90a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270401T114000
+DTEND;TZID=Europe/Warsaw:20270401T131500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 35/43\nBl
+ ok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:72a1828a3bda1802ee69cd27@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270408T114000
+DTEND;TZID=Europe/Warsaw:20270408T131500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 36/43\nBl
+ ok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4f54d5e9a4723253eb4278c4@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270415T114000
+DTEND;TZID=Europe/Warsaw:20270415T131500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 37/43\nBl
+ ok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9317cc7243ffde90ce128c0c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270422T114000
+DTEND;TZID=Europe/Warsaw:20270422T131500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 38/43\nBl
+ ok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:cc13ed1335533f09f5579b4e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270429T095000
+DTEND;TZID=Europe/Warsaw:20270429T112500
+SUMMARY:TA (ć)
+LOCATION:PĆT1\; T14Ć
+DESCRIPTION:TAKTYKA\nRodzaj: ćwiczenia\nProwadzący: kpt. mgr Ślusakowic
+ z Stanisław\nNr zajęć: 6/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7d4d34c6ead7c1b7c6adb861@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270429T114000
+DTEND;TZID=Europe/Warsaw:20270429T131500
+SUMMARY:TA (ć)
+LOCATION:PĆT1\; T14Ć
+DESCRIPTION:TAKTYKA\nRodzaj: ćwiczenia\nProwadzący: kpt. mgr Ślusakowic
+ z Stanisław\nNr zajęć: 7/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:915c168b0141eb23c263c8bf@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270429T133000
+DTEND;TZID=Europe/Warsaw:20270429T150500
+SUMMARY:OPW (ć)
+LOCATION:PĆT2\; T7Ć
+DESCRIPTION:Obrona powietrzna\nRodzaj: ćwiczenia\nProwadzący: ppłk mgr 
+ inż. Świętochowski Mieczysław\nNr zajęć: 3/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ee7d475af8f8a3d69d4e6a9e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270430T080000
+DTEND;TZID=Europe/Warsaw:20270430T093500
+SUMMARY:ZŻWAT (ć)
+DESCRIPTION:Zbiórka żołnierzy WAT\nRodzaj: ćwiczenia\nNr zajęć: 5/6\
+ nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:20607eefd334fd11939eb6ff@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270506T114000
+DTEND;TZID=Europe/Warsaw:20270506T131500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 39/43\nBl
+ ok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0d92b9318cc20efe08c43c3d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270513T114000
+DTEND;TZID=Europe/Warsaw:20270513T131500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 40/43\nBl
+ ok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:37b560c019f78cc9849566b4@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270520T095000
+DTEND;TZID=Europe/Warsaw:20270520T112500
+SUMMARY:OPW (S)
+LOCATION:AW 1\; T8S
+DESCRIPTION:Obrona powietrzna\nRodzaj: seminarium\nProwadzący: ppłk mgr 
+ inż. Świętochowski Mieczysław\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7393022a362cd78312e52970@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270520T114000
+DTEND;TZID=Europe/Warsaw:20270520T131500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 41/43\nBl
+ ok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9415d25648f4926cd97a0be3@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270520T160000
+DTEND;TZID=Europe/Warsaw:20270520T173500
+SUMMARY:TA (r)
+LOCATION:AW 3/038\; T15R
+DESCRIPTION:TAKTYKA\nProwadzący: kpt. mgr Ślusakowicz Stanisław\nNr zaj
+ ęć: 1/1\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:5374a4f7e2ad058e74c05073@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270602T080000
+DTEND;TZID=Europe/Warsaw:20270602T093500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 13/1
+ 6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:25a422c5f9ba9c18131904b3@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270602T095000
+DTEND;TZID=Europe/Warsaw:20270602T112500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 14/1
+ 6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:905029d349bf642348bd268b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270602T114000
+DTEND;TZID=Europe/Warsaw:20270602T131500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 15/1
+ 6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:15afce963ce55ccf32a76567@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270602T133000
+DTEND;TZID=Europe/Warsaw:20270602T150500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 16/1
+ 6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:87aa7b6f536d48b9dc5a102f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270603T080000
+DTEND;TZID=Europe/Warsaw:20270603T093500
+SUMMARY:PODS.SUR. (ć)
+LOCATION:W.STE\; WoKo\; Kam.P\; Jas\; Cza.C\; B.SŁO
+DESCRIPTION:Podstawy survivalu\nRodzaj: ćwiczenia\nProwadzący: POLIGON\n
+ Nr zajęć: 1/11\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:24a2e3af90a8edc5f93d030c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270603T095000
+DTEND;TZID=Europe/Warsaw:20270603T112500
+SUMMARY:PODS.SUR. (ć)
+LOCATION:W.STE\; WoKo\; Kam.P\; Jas\; Cza.C\; B.SŁO
+DESCRIPTION:Podstawy survivalu\nRodzaj: ćwiczenia\nProwadzący: POLIGON\n
+ Nr zajęć: 2/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:cef2f5a561459508029a495a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270603T114000
+DTEND;TZID=Europe/Warsaw:20270603T131500
+SUMMARY:PODS.SUR. (ć)
+LOCATION:W.STE\; WoKo\; Kam.P\; Jas\; Cza.C\; B.SŁO
+DESCRIPTION:Podstawy survivalu\nRodzaj: ćwiczenia\nProwadzący: POLIGON\n
+ Nr zajęć: 3/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a9fcd57b5fc6c26e2f612645@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270603T133000
+DTEND;TZID=Europe/Warsaw:20270603T150500
+SUMMARY:PODS.SUR. (ć)
+LOCATION:W.STE\; WoKo\; Kam.P\; Jas\; Cza.C\; B.SŁO
+DESCRIPTION:Podstawy survivalu\nRodzaj: ćwiczenia\nProwadzący: POLIGON\n
+ Nr zajęć: 4/11\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:12796295d2ce7b35e8517ec6@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270603T160000
+DTEND;TZID=Europe/Warsaw:20270603T173500
+SUMMARY:PODS.SUR. (ć)
+LOCATION:W.STE\; WoKo\; Kam.P\; Jas\; Cza.C\; B.SŁO
+DESCRIPTION:Podstawy survivalu\nRodzaj: ćwiczenia\nProwadzący: POLIGON\n
+ Nr zajęć: 5/11\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:49c5c25a26af7b9ff6d628f9@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270603T175000
+DTEND;TZID=Europe/Warsaw:20270603T192500
+SUMMARY:PODS.SUR. (ć)
+LOCATION:W.STE\; WoKo\; Kam.P\; Jas\; Cza.C\; B.SŁO
+DESCRIPTION:Podstawy survivalu\nRodzaj: ćwiczenia\nProwadzący: POLIGON\n
+ Nr zajęć: 6/11\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:47050833c6abcbf31333fe14@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270603T194000
+DTEND;TZID=Europe/Warsaw:20270603T211500
+SUMMARY:PODS.SUR. (ć)
+LOCATION:W.STE\; WoKo\; Kam.P\; Jas\; Cza.C\; B.SŁO
+DESCRIPTION:Podstawy survivalu\nRodzaj: ćwiczenia\nProwadzący: POLIGON\n
+ Nr zajęć: 7/11\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:c4df0a5fffb50ce13cc6a0a8@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270604T080000
+DTEND;TZID=Europe/Warsaw:20270604T093500
+SUMMARY:PODS.SUR. (ć)
+LOCATION:W.STE\; WoKo\; Kam.P\; Jas\; Cza.C\; B.SŁO
+DESCRIPTION:Podstawy survivalu\nRodzaj: ćwiczenia\nProwadzący: POLIGON\n
+ Nr zajęć: 8/11\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:cf80d6831be58a482d9e5868@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270604T095000
+DTEND;TZID=Europe/Warsaw:20270604T112500
+SUMMARY:PODS.SUR. (ć)
+LOCATION:W.STE\; WoKo\; Kam.P\; Jas\; Cza.C\; B.SŁO
+DESCRIPTION:Podstawy survivalu\nRodzaj: ćwiczenia\nProwadzący: POLIGON\n
+ Nr zajęć: 9/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3bb408e998656d118162744c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270604T114000
+DTEND;TZID=Europe/Warsaw:20270604T131500
+SUMMARY:PODS.SUR. (ć)
+LOCATION:W.STE\; WoKo\; Kam.P\; Jas\; Cza.C\; B.SŁO
+DESCRIPTION:Podstawy survivalu\nRodzaj: ćwiczenia\nProwadzący: POLIGON\n
+ Nr zajęć: 10/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0c07c0fe3b6ac2933445e598@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270604T133000
+DTEND;TZID=Europe/Warsaw:20270604T150500
+SUMMARY:PODS.SUR. (ć)
+LOCATION:W.STE\; WoKo\; Kam.P\; Jas\; Cza.C\; B.SŁO
+DESCRIPTION:Podstawy survivalu\nRodzaj: ćwiczenia\nProwadzący: POLIGON\n
+ Nr zajęć: 11/11\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c8217738df41bdc656442272@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270609T080000
+DTEND;TZID=Europe/Warsaw:20270609T093500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(KB)\; T2.7Ć
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 11/12\n
+ Blok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:bc5857af7b8b5fe8fe641ecd@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270609T095000
+DTEND;TZID=Europe/Warsaw:20270609T112500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(KB)\; T2.7Ć
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 12/12\n
+ Blok: 2\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:81fc87cab97661deeb2d4d1f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270610T114000
+DTEND;TZID=Europe/Warsaw:20270610T131500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 42/43\nBl
+ ok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5497df9332d0fee368bc0411@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270616T080000
+DTEND;TZID=Europe/Warsaw:20270616T093500
+SUMMARY:ZŻWAT (ć)
+DESCRIPTION:Zbiórka żołnierzy WAT\nRodzaj: ćwiczenia\nNr zajęć: 6/6\
+ nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1c8f0d1b9fa2febac2dff5bc@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270617T114000
+DTEND;TZID=Europe/Warsaw:20270617T131500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 43/43\nBl
+ ok: 3
+END:VEVENT
+END:VCALENDAR

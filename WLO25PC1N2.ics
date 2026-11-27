@@ -1,0 +1,1238 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WLO25PC1N2
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:1c08ada61d67b8c8b7776fd6@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261003T095000
+DTEND;TZID=Europe/Warsaw:20261003T112500
+SUMMARY:PDwK (w)
+LOCATION:1002 HILTON
+DESCRIPTION:Procesy decyzyjne w kierowaniu i dowodzeniu\nRodzaj: wykład\n
+ Prowadzący: dr inż. Kleszcz Sławomir\nNr zajęć: 1/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:40308b49e58f0e052192e1ea@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261003T114000
+DTEND;TZID=Europe/Warsaw:20261003T131500
+SUMMARY:Lg (w)
+LOCATION:1002 HILTON
+DESCRIPTION:Logika\nRodzaj: wykład\nProwadzący: dr Marciniak Mirosław\n
+ Nr zajęć: 1/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f723e87f4aeb6fb996af487e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261003T133000
+DTEND;TZID=Europe/Warsaw:20261003T150500
+SUMMARY:CNnS (w)
+LOCATION:1.16/ 16
+DESCRIPTION:Cywilny nadzór nad sektorem bezpieczeństwa\nRodzaj: wykład\
+ nProwadzący: prof. dr hab. Trejnis Zenon\nNr zajęć: 1/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4dfd8dcc7a7d15d538f448ae@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261003T152000
+DTEND;TZID=Europe/Warsaw:20261003T165500
+SUMMARY:Log w oper.międzyn. (w)
+LOCATION:1.16/ 16
+DESCRIPTION:Logistyka w operacjach międzynarodowych\nRodzaj: wykład\nPro
+ wadzący: dr Woźniak Jacek\, prof. WAT\nNr zajęć: 1/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:101d0ecb20b73fc2b60b81e1@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261003T171000
+DTEND;TZID=Europe/Warsaw:20261003T184500
+SUMMARY:BIwO (w)
+LOCATION:1002 HILTON
+DESCRIPTION:Bezpieczeństwo informacji w obronności\nRodzaj: wykład\nPro
+ wadzący: dr Beroud Magdalena\nNr zajęć: 1/4\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:9a7ff3a240da94b5046abc0b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261003T190000
+DTEND;TZID=Europe/Warsaw:20261003T203500
+SUMMARY:BIwO (w)
+LOCATION:1002 HILTON
+DESCRIPTION:Bezpieczeństwo informacji w obronności\nRodzaj: wykład\nPro
+ wadzący: dr Beroud Magdalena\nNr zajęć: 2/4\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:9d061733430c0d1df8b36b5a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261004T080000
+DTEND;TZID=Europe/Warsaw:20261004T093500
+SUMMARY:Fb (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Filozofia bezpieczeństwa\nRodzaj: wykład\nProwadzący: Prof.
+  dr hab. Cieślarczyk Marian\nNr zajęć: 1/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:60bad8eb1a82d1b1e39da9c3@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261004T095000
+DTEND;TZID=Europe/Warsaw:20261004T112500
+SUMMARY:Fb (ć)
+LOCATION:1/ 22
+DESCRIPTION:Filozofia bezpieczeństwa\nRodzaj: ćwiczenia\nProwadzący: Pr
+ of. dr hab. Cieślarczyk Marian\nNr zajęć: 1/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:78e0ab476c5b0e89cf324320@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261004T114000
+DTEND;TZID=Europe/Warsaw:20261004T131500
+SUMMARY:Wsp.Cyw - Woj (w)
+LOCATION:A.1.3/ 135
+DESCRIPTION:Współpraca cywilno-wojskowa\nRodzaj: wykład\nProwadzący: p
+ rof. dr hab. Jagusiak Bogusław\nNr zajęć: 1/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:cf56eaee12d292dc596eb9ee@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261004T133000
+DTEND;TZID=Europe/Warsaw:20261004T150500
+SUMMARY:Wsp.Cyw - Woj (w)
+LOCATION:A.1.3/ 135
+DESCRIPTION:Współpraca cywilno-wojskowa\nRodzaj: wykład\nProwadzący: p
+ rof. dr hab. Jagusiak Bogusław\nNr zajęć: 2/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a22c21baedb4085bc8baac1e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261010T080000
+DTEND;TZID=Europe/Warsaw:20261010T093500
+SUMMARY:CNnS (w)
+LOCATION:1.16/ 16
+DESCRIPTION:Cywilny nadzór nad sektorem bezpieczeństwa\nRodzaj: wykład\
+ nProwadzący: prof. dr hab. Trejnis Zenon\nNr zajęć: 2/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3d58795795765984a615daaa@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261010T095000
+DTEND;TZID=Europe/Warsaw:20261010T112500
+SUMMARY:GiRśb (w)
+LOCATION:0.8/ 16
+DESCRIPTION:Globalne i regionalne środowisko bezpieczeństwa\nRodzaj: wyk
+ ład\nProwadzący: dr Kościelecki Tomasz\nNr zajęć: 1/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ba062a72fe5dd28334ccca9e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261010T114000
+DTEND;TZID=Europe/Warsaw:20261010T131500
+SUMMARY:PDwK (w)
+LOCATION:0.8/ 16
+DESCRIPTION:Procesy decyzyjne w kierowaniu i dowodzeniu\nRodzaj: wykład\n
+ Prowadzący: dr inż. Kleszcz Sławomir\nNr zajęć: 2/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ee680c077a3e499369cf6ba9@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261010T133000
+DTEND;TZID=Europe/Warsaw:20261010T150500
+SUMMARY:Pr.Nego.w syt.kryz. (w)
+LOCATION:0.7/ 16
+DESCRIPTION:Prowadzenie negocjacji w syt.kryzysowych\nRodzaj: wykład\nPro
+ wadzący: dr Krysowaty Aneta\nNr zajęć: 1/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f44cde655090ca86f201e58b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261010T152000
+DTEND;TZID=Europe/Warsaw:20261010T165500
+SUMMARY:BIwO (ć)
+LOCATION:1003 HILTON
+DESCRIPTION:Bezpieczeństwo informacji w obronności\nRodzaj: ćwiczenia\n
+ Prowadzący: dr Beroud Magdalena\nNr zajęć: 1/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:33e564fca48a15ed07e6e5c6@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261010T171000
+DTEND;TZID=Europe/Warsaw:20261010T184500
+SUMMARY:BIwO (w)
+LOCATION:1002 HILTON
+DESCRIPTION:Bezpieczeństwo informacji w obronności\nRodzaj: wykład\nPro
+ wadzący: dr Beroud Magdalena\nNr zajęć: 3/4\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:d29bffcb7d861fdc9c3ff0d6@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261011T080000
+DTEND;TZID=Europe/Warsaw:20261011T093500
+SUMMARY:Log w oper.międzyn. (w)
+LOCATION:1.16/ 16
+DESCRIPTION:Logistyka w operacjach międzynarodowych\nRodzaj: wykład\nPro
+ wadzący: dr Woźniak Jacek\, prof. WAT\nNr zajęć: 2/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:710721b5907a839eff7c3936@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261011T095000
+DTEND;TZID=Europe/Warsaw:20261011T112500
+SUMMARY:Log w oper.międzyn. (w)
+LOCATION:1.16/ 16
+DESCRIPTION:Logistyka w operacjach międzynarodowych\nRodzaj: wykład\nPro
+ wadzący: dr Woźniak Jacek\, prof. WAT\nNr zajęć: 3/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b8cce9c78b9c9914f27476d6@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261011T114000
+DTEND;TZID=Europe/Warsaw:20261011T131500
+SUMMARY:MSwP (w)
+LOCATION:187 S
+DESCRIPTION:Misje stabilizacyjne w polityce supermocarstw\nRodzaj: wykład
+ \nProwadzący: dr Śmiałek Wiesław\nNr zajęć: 1/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e4dcd7c570afeecfc99eca2a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261011T133000
+DTEND;TZID=Europe/Warsaw:20261011T150500
+SUMMARY:Gd (w)
+LOCATION:0.8/ 16
+DESCRIPTION:Gra decyzyjna\nRodzaj: wykład\nProwadzący: dr hab. (prof. WA
+ T) Świerszcz Katarzyna\nNr zajęć: 1/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ae9041bda60b12b71caf3f2f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261011T152000
+DTEND;TZID=Europe/Warsaw:20261011T165500
+SUMMARY:Gd (w)
+LOCATION:0.8/ 16
+DESCRIPTION:Gra decyzyjna\nRodzaj: wykład\nProwadzący: dr hab. (prof. WA
+ T) Świerszcz Katarzyna\nNr zajęć: 2/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:3362f68e89464288b48fa27c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261024T080000
+DTEND;TZID=Europe/Warsaw:20261024T093500
+SUMMARY:Pr.Nego.w syt.kryz. (w)
+LOCATION:0.7/ 16
+DESCRIPTION:Prowadzenie negocjacji w syt.kryzysowych\nRodzaj: wykład\nPro
+ wadzący: dr Krysowaty Aneta\nNr zajęć: 2/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b262c00a024ee7ffc64d979f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261024T095000
+DTEND;TZID=Europe/Warsaw:20261024T112500
+SUMMARY:PDwK (w)
+LOCATION:1002 HILTON
+DESCRIPTION:Procesy decyzyjne w kierowaniu i dowodzeniu\nRodzaj: wykład\n
+ Prowadzący: dr inż. Kleszcz Sławomir\nNr zajęć: 3/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b8ad3f3a062946233782b073@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261024T114000
+DTEND;TZID=Europe/Warsaw:20261024T131500
+SUMMARY:PDwK (w)
+LOCATION:1002 HILTON
+DESCRIPTION:Procesy decyzyjne w kierowaniu i dowodzeniu\nRodzaj: wykład\n
+ Prowadzący: dr inż. Kleszcz Sławomir\nNr zajęć: 4/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9725ff4a5eea190aa16fa556@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261024T133000
+DTEND;TZID=Europe/Warsaw:20261024T150500
+SUMMARY:MSwP (w)
+LOCATION:0.23/ 16
+DESCRIPTION:Misje stabilizacyjne w polityce supermocarstw\nRodzaj: wykład
+ \nProwadzący: dr Śmiałek Wiesław\nNr zajęć: 2/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6b82894dc98874dc2f65c726@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261025T095000
+DTEND;TZID=Europe/Warsaw:20261025T112500
+SUMMARY:Gd (w)
+LOCATION:0.8/ 16
+DESCRIPTION:Gra decyzyjna\nRodzaj: wykład\nProwadzący: dr hab. (prof. WA
+ T) Świerszcz Katarzyna\nNr zajęć: 3/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6aa6078359371b7b27077a7c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261025T114000
+DTEND;TZID=Europe/Warsaw:20261025T131500
+SUMMARY:Gd (w)
+LOCATION:0.8/ 16
+DESCRIPTION:Gra decyzyjna\nRodzaj: wykład\nProwadzący: dr hab. (prof. WA
+ T) Świerszcz Katarzyna\nNr zajęć: 4/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f147b9406db01836aac34a1f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261025T133000
+DTEND;TZID=Europe/Warsaw:20261025T150500
+SUMMARY:Gd (ć)
+LOCATION:1.17/ 16
+DESCRIPTION:Gra decyzyjna\nRodzaj: ćwiczenia\nProwadzący: dr hab. (prof.
+  WAT) Świerszcz Katarzyna\nNr zajęć: 1/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:277a9ad4b35be4ca0abc833d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261107T080000
+DTEND;TZID=Europe/Warsaw:20261107T093500
+SUMMARY:CNnS (ć)
+LOCATION:1.15/ 16
+DESCRIPTION:Cywilny nadzór nad sektorem bezpieczeństwa\nRodzaj: ćwiczen
+ ia\nProwadzący: prof. dr hab. Trejnis Zenon\nNr zajęć: 1/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a2d5cbfc3cc9d51a2119f0f8@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261107T095000
+DTEND;TZID=Europe/Warsaw:20261107T112500
+SUMMARY:GiRśb (ć)
+LOCATION:1.15/ 16
+DESCRIPTION:Globalne i regionalne środowisko bezpieczeństwa\nRodzaj: ćw
+ iczenia\nProwadzący: dr Kościelecki Tomasz\nNr zajęć: 1/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a760f69118ec66c07b68436e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261107T114000
+DTEND;TZID=Europe/Warsaw:20261107T131500
+SUMMARY:Lg (w)
+LOCATION:0.8/ 16
+DESCRIPTION:Logika\nRodzaj: wykład\nProwadzący: dr Marciniak Mirosław\n
+ Nr zajęć: 2/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6c0de0b5b39015ac983493ee@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261107T133000
+DTEND;TZID=Europe/Warsaw:20261107T150500
+SUMMARY:Lg (ć)
+LOCATION:0.8/ 16
+DESCRIPTION:Logika\nRodzaj: ćwiczenia\nProwadzący: dr Marciniak Mirosła
+ w\nNr zajęć: 1/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f0c59386fbe3703ae1e4d74a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261107T152000
+DTEND;TZID=Europe/Warsaw:20261107T165500
+SUMMARY:BIwO (ć)
+LOCATION:0.23/ 16
+DESCRIPTION:Bezpieczeństwo informacji w obronności\nRodzaj: ćwiczenia\n
+ Prowadzący: dr Beroud Magdalena\nNr zajęć: 2/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:cdd4f38bd785c2b5c05b17cf@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261107T171000
+DTEND;TZID=Europe/Warsaw:20261107T184500
+SUMMARY:BIwO (ć)
+LOCATION:1003 HILTON
+DESCRIPTION:Bezpieczeństwo informacji w obronności\nRodzaj: ćwiczenia\n
+ Prowadzący: dr Beroud Magdalena\nNr zajęć: 3/5\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:e389aa6cb5b9dace82f6b997@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261108T080000
+DTEND;TZID=Europe/Warsaw:20261108T093500
+SUMMARY:Fb (w)
+LOCATION:0.8/ 16
+DESCRIPTION:Filozofia bezpieczeństwa\nRodzaj: wykład\nProwadzący: Prof.
+  dr hab. Cieślarczyk Marian\nNr zajęć: 2/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:bb65ead53ed3be417ab1ac9c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261108T095000
+DTEND;TZID=Europe/Warsaw:20261108T112500
+SUMMARY:PoODKiDN (w)
+LOCATION:1.16/ 16
+DESCRIPTION:Prawno-organizacyjna ochrona dóbr kultury i dziedzictwa narod
+ owego\nRodzaj: wykład\nProwadzący: prof. dr hab. Misiuk Andrzej\nNr zaj
+ ęć: 1/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d780f4840c4e440d425eaf45@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261108T114000
+DTEND;TZID=Europe/Warsaw:20261108T131500
+SUMMARY:PoODKiDN (w)
+LOCATION:1.16/ 16
+DESCRIPTION:Prawno-organizacyjna ochrona dóbr kultury i dziedzictwa narod
+ owego\nRodzaj: wykład\nProwadzący: prof. dr hab. Misiuk Andrzej\nNr zaj
+ ęć: 2/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c3a25507e1990ccf92ef4e2c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261114T080000
+DTEND;TZID=Europe/Warsaw:20261114T093500
+SUMMARY:Pr.Nego.w syt.kryz. (w)
+LOCATION:1.17/ 16
+DESCRIPTION:Prowadzenie negocjacji w syt.kryzysowych\nRodzaj: wykład\nPro
+ wadzący: dr Krysowaty Aneta\nNr zajęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:03318cd15092eaf8a2d78106@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261114T095000
+DTEND;TZID=Europe/Warsaw:20261114T112500
+SUMMARY:GiRśb (w)
+LOCATION:0.8/ 16
+DESCRIPTION:Globalne i regionalne środowisko bezpieczeństwa\nRodzaj: wyk
+ ład\nProwadzący: dr Kościelecki Tomasz\nNr zajęć: 2/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:063465ee17ea2c8bfaa3160b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261114T114000
+DTEND;TZID=Europe/Warsaw:20261114T131500
+SUMMARY:Wsp.Cyw - Woj (w)
+LOCATION:A.1.3/ 135
+DESCRIPTION:Współpraca cywilno-wojskowa\nRodzaj: wykład\nProwadzący: p
+ rof. dr hab. Jagusiak Bogusław\nNr zajęć: 3/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:626f21321cbbc894ef6e6700@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261114T133000
+DTEND;TZID=Europe/Warsaw:20261114T150500
+SUMMARY:Wsp.Cyw - Woj (w)
+LOCATION:A.1.3/ 135
+DESCRIPTION:Współpraca cywilno-wojskowa\nRodzaj: wykład\nProwadzący: p
+ rof. dr hab. Jagusiak Bogusław\nNr zajęć: 4/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:345944a4bcea2c00b609665b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261114T152000
+DTEND;TZID=Europe/Warsaw:20261114T165500
+SUMMARY:Wsp.Cyw - Woj (ć)
+LOCATION:A.1.3/ 135
+DESCRIPTION:Współpraca cywilno-wojskowa\nRodzaj: ćwiczenia\nProwadzący
+ : prof. dr hab. Jagusiak Bogusław\nNr zajęć: 1/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:4c54f8156eebdc21a6fc222f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261114T171000
+DTEND;TZID=Europe/Warsaw:20261114T184500
+SUMMARY:Log w oper.międzyn. (ć)
+LOCATION:2.21/ 135
+DESCRIPTION:Logistyka w operacjach międzynarodowych\nRodzaj: ćwiczenia\n
+ Prowadzący: dr Woźniak Jacek\, prof. WAT\nNr zajęć: 1/5\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:a94f9135336bbd1ec98f7cb6@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261115T095000
+DTEND;TZID=Europe/Warsaw:20261115T112500
+SUMMARY:Lg (w)
+LOCATION:0.8/ 16
+DESCRIPTION:Logika\nRodzaj: wykład\nProwadzący: dr Marciniak Mirosław\n
+ Nr zajęć: 3/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:49ffb09a41bb8683d92ce294@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261115T114000
+DTEND;TZID=Europe/Warsaw:20261115T131500
+SUMMARY:Lg (ć)
+LOCATION:1.15/ 16
+DESCRIPTION:Logika\nRodzaj: ćwiczenia\nProwadzący: dr Marciniak Mirosła
+ w\nNr zajęć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c9226c0b916c11e831268778@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261115T133000
+DTEND;TZID=Europe/Warsaw:20261115T150500
+SUMMARY:Log w oper.międzyn. (ć)
+LOCATION:187 S
+DESCRIPTION:Logistyka w operacjach międzynarodowych\nRodzaj: ćwiczenia\n
+ Prowadzący: dr Woźniak Jacek\, prof. WAT\nNr zajęć: 2/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6dc3b0d409d377585342648e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261115T152000
+DTEND;TZID=Europe/Warsaw:20261115T165500
+SUMMARY:Log w oper.międzyn. (ć)
+LOCATION:187 S
+DESCRIPTION:Logistyka w operacjach międzynarodowych\nRodzaj: ćwiczenia\n
+ Prowadzący: dr Woźniak Jacek\, prof. WAT\nNr zajęć: 3/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:5c5bf9d31af1bb2fd506c5e5@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261121T080000
+DTEND;TZID=Europe/Warsaw:20261121T093500
+SUMMARY:Pr.Nego.w syt.kryz. (w)
+LOCATION:1.17/ 16
+DESCRIPTION:Prowadzenie negocjacji w syt.kryzysowych\nRodzaj: wykład\nPro
+ wadzący: dr Krysowaty Aneta\nNr zajęć: 4/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:fb9f4b541d4af9e6adf843d7@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261121T095000
+DTEND;TZID=Europe/Warsaw:20261121T112500
+SUMMARY:GiRśb (ć)
+LOCATION:1.15/ 16
+DESCRIPTION:Globalne i regionalne środowisko bezpieczeństwa\nRodzaj: ćw
+ iczenia\nProwadzący: dr Kościelecki Tomasz\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:18fc1ae303827e81a10fd383@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261121T114000
+DTEND;TZID=Europe/Warsaw:20261121T131500
+SUMMARY:Wsp.Cyw - Woj (ć)
+LOCATION:A.1.3/ 135
+DESCRIPTION:Współpraca cywilno-wojskowa\nRodzaj: ćwiczenia\nProwadzący
+ : prof. dr hab. Jagusiak Bogusław\nNr zajęć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a79613d5d7bd4199d8d4291d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261121T133000
+DTEND;TZID=Europe/Warsaw:20261121T150500
+SUMMARY:Wsp.Cyw - Woj (ć)
+LOCATION:A.1.3/ 135
+DESCRIPTION:Współpraca cywilno-wojskowa\nRodzaj: ćwiczenia\nProwadzący
+ : prof. dr hab. Jagusiak Bogusław\nNr zajęć: 3/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:bc56f98685c2b415ab8f2422@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261121T152000
+DTEND;TZID=Europe/Warsaw:20261121T165500
+SUMMARY:BIwO (w)
+LOCATION:0.28/ 135
+DESCRIPTION:Bezpieczeństwo informacji w obronności\nRodzaj: wykład\nPro
+ wadzący: dr Beroud Magdalena\nNr zajęć: 4/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:5d82ecebd490f80ac5d349e8@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261122T095000
+DTEND;TZID=Europe/Warsaw:20261122T112500
+SUMMARY:Log w oper.międzyn. (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Logistyka w operacjach międzynarodowych\nRodzaj: ćwiczenia\n
+ Prowadzący: dr Woźniak Jacek\, prof. WAT\nNr zajęć: 4/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4074ada5c4a9e19fafd0e2e5@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261122T114000
+DTEND;TZID=Europe/Warsaw:20261122T131500
+SUMMARY:Gd (ć)
+LOCATION:1.17/ 16
+DESCRIPTION:Gra decyzyjna\nRodzaj: ćwiczenia\nProwadzący: dr hab. (prof.
+  WAT) Świerszcz Katarzyna\nNr zajęć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e756ecd5893437abafe6a253@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261122T133000
+DTEND;TZID=Europe/Warsaw:20261122T150500
+SUMMARY:Gd (ć)
+LOCATION:1.17/ 16
+DESCRIPTION:Gra decyzyjna\nRodzaj: ćwiczenia\nProwadzący: dr hab. (prof.
+  WAT) Świerszcz Katarzyna\nNr zajęć: 3/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f155a7564c02f85425071c1b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261205T080000
+DTEND;TZID=Europe/Warsaw:20261205T093500
+SUMMARY:Pr.Nego.w syt.kryz. (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Prowadzenie negocjacji w syt.kryzysowych\nRodzaj: ćwiczenia\n
+ Prowadzący: dr Krysowaty Aneta\nNr zajęć: 1/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:37660b47777c42a3db2ea32e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261205T095000
+DTEND;TZID=Europe/Warsaw:20261205T112500
+SUMMARY:Pr.Nego.w syt.kryz. (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Prowadzenie negocjacji w syt.kryzysowych\nRodzaj: ćwiczenia\n
+ Prowadzący: dr Krysowaty Aneta\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6f613fd24dbfe2ea9262f885@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261205T114000
+DTEND;TZID=Europe/Warsaw:20261205T131500
+SUMMARY:BIwO (ć)
+LOCATION:255 S
+DESCRIPTION:Bezpieczeństwo informacji w obronności\nRodzaj: ćwiczenia\n
+ Prowadzący: dr Beroud Magdalena\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1183242f187e085b992b1240@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261206T080000
+DTEND;TZID=Europe/Warsaw:20261206T093500
+SUMMARY:PoODKiDN (w)
+LOCATION:187 S
+DESCRIPTION:Prawno-organizacyjna ochrona dóbr kultury i dziedzictwa narod
+ owego\nRodzaj: wykład\nProwadzący: prof. dr hab. Misiuk Andrzej\nNr zaj
+ ęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4a7a38ebb209a04445c72a0f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261206T095000
+DTEND;TZID=Europe/Warsaw:20261206T112500
+SUMMARY:PoODKiDN (ć)
+LOCATION:187 S
+DESCRIPTION:Prawno-organizacyjna ochrona dóbr kultury i dziedzictwa narod
+ owego\nRodzaj: ćwiczenia\nProwadzący: prof. dr hab. Misiuk Andrzej\nNr 
+ zajęć: 1/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:96177fe77c384c4bfdf46984@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261206T114000
+DTEND;TZID=Europe/Warsaw:20261206T131500
+SUMMARY:MSwP (w)
+LOCATION:187 S
+DESCRIPTION:Misje stabilizacyjne w polityce supermocarstw\nRodzaj: wykład
+ \nProwadzący: dr Śmiałek Wiesław\nNr zajęć: 3/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0acc4d6ea80c9a742c638619@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261206T133000
+DTEND;TZID=Europe/Warsaw:20261206T150500
+SUMMARY:MSwP (ć)
+LOCATION:187 S
+DESCRIPTION:Misje stabilizacyjne w polityce supermocarstw\nRodzaj: ćwicze
+ nia\nProwadzący: dr Śmiałek Wiesław\nNr zajęć: 1/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5018ff5590d6fd3e7cd3acc3@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261212T114000
+DTEND;TZID=Europe/Warsaw:20261212T131500
+SUMMARY:Pr.Nego.w syt.kryz. (ć)
+LOCATION:1/ 22
+DESCRIPTION:Prowadzenie negocjacji w syt.kryzysowych\nRodzaj: ćwiczenia\n
+ Prowadzący: dr Krysowaty Aneta\nNr zajęć: 3/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f1c54193cfac9485b0e1645a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261212T133000
+DTEND;TZID=Europe/Warsaw:20261212T150500
+SUMMARY:Pr.Nego.w syt.kryz. (ć)
+LOCATION:1/ 22
+DESCRIPTION:Prowadzenie negocjacji w syt.kryzysowych\nRodzaj: ćwiczenia\n
+ Prowadzący: dr Krysowaty Aneta\nNr zajęć: 4/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ac7966f5bfa2dea6ca2ca44f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261213T080000
+DTEND;TZID=Europe/Warsaw:20261213T093500
+SUMMARY:Fb (w)
+LOCATION:1.9/ 16
+DESCRIPTION:Filozofia bezpieczeństwa\nRodzaj: wykład\nProwadzący: Prof.
+  dr hab. Cieślarczyk Marian\nNr zajęć: 3/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7a2318230936de08cabe6226@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261213T095000
+DTEND;TZID=Europe/Warsaw:20261213T112500
+SUMMARY:Fb (ć)
+LOCATION:255 S
+DESCRIPTION:Filozofia bezpieczeństwa\nRodzaj: ćwiczenia\nProwadzący: Pr
+ of. dr hab. Cieślarczyk Marian\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:be30ecc0839c8c454de3fe1e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261213T114000
+DTEND;TZID=Europe/Warsaw:20261213T131500
+SUMMARY:Fb (ć)
+LOCATION:255 S
+DESCRIPTION:Filozofia bezpieczeństwa\nRodzaj: ćwiczenia\nProwadzący: Pr
+ of. dr hab. Cieślarczyk Marian\nNr zajęć: 3/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b7fd9833e0efcbdeef4c827b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261213T133000
+DTEND;TZID=Europe/Warsaw:20261213T150500
+SUMMARY:Prko (w)
+LOCATION:166 S
+DESCRIPTION:Prakseologia kierowania obronnością\nRodzaj: wykład\nProwad
+ zący: dr Moskal Marta\nNr zajęć: 1/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:abcb88e1003e429056438a6c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261213T152000
+DTEND;TZID=Europe/Warsaw:20261213T165500
+SUMMARY:Prko (w)
+LOCATION:166 S
+DESCRIPTION:Prakseologia kierowania obronnością\nRodzaj: wykład\nProwad
+ zący: dr Moskal Marta\nNr zajęć: 2/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:881e2fce04f7d78fbea258ce@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261219T080000
+DTEND;TZID=Europe/Warsaw:20261219T093500
+SUMMARY:CNnS (w)
+LOCATION:255 S
+DESCRIPTION:Cywilny nadzór nad sektorem bezpieczeństwa\nRodzaj: wykład\
+ nProwadzący: prof. dr hab. Trejnis Zenon\nNr zajęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e505429abf52803a1bcf4a28@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261219T095000
+DTEND;TZID=Europe/Warsaw:20261219T112500
+SUMMARY:GiRśb (ć)
+LOCATION:5.21/ 135
+DESCRIPTION:Globalne i regionalne środowisko bezpieczeństwa\nRodzaj: ćw
+ iczenia\nProwadzący: dr Kościelecki Tomasz\nNr zajęć: 3/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:20c971756a77363a8166d98f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261219T114000
+DTEND;TZID=Europe/Warsaw:20261219T131500
+SUMMARY:Pr.Nego.w syt.kryz. (ć)
+LOCATION:0.6/ 16
+DESCRIPTION:Prowadzenie negocjacji w syt.kryzysowych\nRodzaj: ćwiczenia\n
+ Prowadzący: dr Krysowaty Aneta\nNr zajęć: 5/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d613b04afd7a6a220445c7fc@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261219T133000
+DTEND;TZID=Europe/Warsaw:20261219T150500
+SUMMARY:Log w oper.międzyn. (w)
+LOCATION:0.22/ 16
+DESCRIPTION:Logistyka w operacjach międzynarodowych\nRodzaj: wykład\nPro
+ wadzący: dr Woźniak Jacek\, prof. WAT\nNr zajęć: 4/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d92cb3a0ae84164ffbdc8af3@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261219T152000
+DTEND;TZID=Europe/Warsaw:20261219T165500
+SUMMARY:Log w oper.międzyn. (ć)
+LOCATION:0.22/ 16
+DESCRIPTION:Logistyka w operacjach międzynarodowych\nRodzaj: ćwiczenia\n
+ Prowadzący: dr Woźniak Jacek\, prof. WAT\nNr zajęć: 5/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:e1fa8184fdb2e40df4453269@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261220T095000
+DTEND;TZID=Europe/Warsaw:20261220T112500
+SUMMARY:Lg (ć)
+LOCATION:1.15/ 16
+DESCRIPTION:Logika\nRodzaj: ćwiczenia\nProwadzący: dr Marciniak Mirosła
+ w\nNr zajęć: 3/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a780de90ef439cd78fb8eefb@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261220T114000
+DTEND;TZID=Europe/Warsaw:20261220T131500
+SUMMARY:Lg (ć)
+LOCATION:1.15/ 16
+DESCRIPTION:Logika\nRodzaj: ćwiczenia\nProwadzący: dr Marciniak Mirosła
+ w\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f40e1f80d417d8dbce3af5ed@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261220T133000
+DTEND;TZID=Europe/Warsaw:20261220T150500
+SUMMARY:Prko (w)
+LOCATION:187 S
+DESCRIPTION:Prakseologia kierowania obronnością\nRodzaj: wykład\nProwad
+ zący: dr Moskal Marta\nNr zajęć: 3/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:99f016941fc4bcd0998b52b8@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261220T152000
+DTEND;TZID=Europe/Warsaw:20261220T165500
+SUMMARY:Prko (w)
+LOCATION:187 S
+DESCRIPTION:Prakseologia kierowania obronnością\nRodzaj: wykład\nProwad
+ zący: dr Moskal Marta\nNr zajęć: 4/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f05335116bae64aa4ac8d631@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270109T095000
+DTEND;TZID=Europe/Warsaw:20270109T112500
+SUMMARY:GiRśb (ć)
+LOCATION:1/ 22
+DESCRIPTION:Globalne i regionalne środowisko bezpieczeństwa\nRodzaj: ćw
+ iczenia\nProwadzący: dr Kościelecki Tomasz\nNr zajęć: 4/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:383214d1b80a613243fdf549@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270109T114000
+DTEND;TZID=Europe/Warsaw:20270109T131500
+SUMMARY:Lg (ć)
+LOCATION:4.17a/ 135
+DESCRIPTION:Logika\nRodzaj: ćwiczenia\nProwadzący: dr Marciniak Mirosła
+ w\nNr zajęć: 5/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8dc07aad4ad1ddb7dc7bdd62@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270109T133000
+DTEND;TZID=Europe/Warsaw:20270109T150500
+SUMMARY:PDwK (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Procesy decyzyjne w kierowaniu i dowodzeniu\nRodzaj: ćwiczeni
+ a\nProwadzący: dr inż. Kleszcz Sławomir\nNr zajęć: 1/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ba17d6c0705fe14d31b1890f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270109T152000
+DTEND;TZID=Europe/Warsaw:20270109T165500
+SUMMARY:PDwK (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Procesy decyzyjne w kierowaniu i dowodzeniu\nRodzaj: ćwiczeni
+ a\nProwadzący: dr inż. Kleszcz Sławomir\nNr zajęć: 2/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:745cd8fd5502399a07b86591@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270110T080000
+DTEND;TZID=Europe/Warsaw:20270110T093500
+SUMMARY:PoODKiDN (ć)
+LOCATION:5.17/ 135
+DESCRIPTION:Prawno-organizacyjna ochrona dóbr kultury i dziedzictwa narod
+ owego\nRodzaj: ćwiczenia\nProwadzący: prof. dr hab. Misiuk Andrzej\nNr 
+ zajęć: 2/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:028df4b8c2d800a81edb8216@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270110T095000
+DTEND;TZID=Europe/Warsaw:20270110T112500
+SUMMARY:PoODKiDN (ć)
+LOCATION:5.17/ 135
+DESCRIPTION:Prawno-organizacyjna ochrona dóbr kultury i dziedzictwa narod
+ owego\nRodzaj: ćwiczenia\nProwadzący: prof. dr hab. Misiuk Andrzej\nNr 
+ zajęć: 3/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:04696343c69aa766843b15fc@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270110T114000
+DTEND;TZID=Europe/Warsaw:20270110T131500
+SUMMARY:MSwP (ć)
+LOCATION:0.8/ 16
+DESCRIPTION:Misje stabilizacyjne w polityce supermocarstw\nRodzaj: ćwicze
+ nia\nProwadzący: dr Śmiałek Wiesław\nNr zajęć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:739a435de654e22b4026f95a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270110T133000
+DTEND;TZID=Europe/Warsaw:20270110T150500
+SUMMARY:MSwP (ć)
+LOCATION:0.8/ 16
+DESCRIPTION:Misje stabilizacyjne w polityce supermocarstw\nRodzaj: ćwicze
+ nia\nProwadzący: dr Śmiałek Wiesław\nNr zajęć: 3/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ae4fe3e9e66381927149a4d9@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270110T152000
+DTEND;TZID=Europe/Warsaw:20270110T165500
+SUMMARY:Prko (ć)
+LOCATION:1.17/ 16
+DESCRIPTION:Prakseologia kierowania obronnością\nRodzaj: ćwiczenia\nPro
+ wadzący: dr Moskal Marta\nNr zajęć: 1/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:bac2e5da131f6f3e68a14530@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270110T171000
+DTEND;TZID=Europe/Warsaw:20270110T184500
+SUMMARY:Prko (ć)
+LOCATION:1.17/ 16
+DESCRIPTION:Prakseologia kierowania obronnością\nRodzaj: ćwiczenia\nPro
+ wadzący: dr Moskal Marta\nNr zajęć: 2/5\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:f2f1640666a3c4e31bbe2760@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270116T095000
+DTEND;TZID=Europe/Warsaw:20270116T112500
+SUMMARY:CNnS (ć)
+LOCATION:0.24/ 135
+DESCRIPTION:Cywilny nadzór nad sektorem bezpieczeństwa\nRodzaj: ćwiczen
+ ia\nProwadzący: prof. dr hab. Trejnis Zenon\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6da278be14947a6e00750522@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270116T114000
+DTEND;TZID=Europe/Warsaw:20270116T131500
+SUMMARY:CNnS (ć)
+LOCATION:0.23/ 16
+DESCRIPTION:Cywilny nadzór nad sektorem bezpieczeństwa\nRodzaj: ćwiczen
+ ia\nProwadzący: prof. dr hab. Trejnis Zenon\nNr zajęć: 3/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f2fb1045fa43ff052e5bf063@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270116T133000
+DTEND;TZID=Europe/Warsaw:20270116T150500
+SUMMARY:Wsp.Cyw - Woj (ć)
+LOCATION:A.1.3/ 135
+DESCRIPTION:Współpraca cywilno-wojskowa\nRodzaj: ćwiczenia\nProwadzący
+ : prof. dr hab. Jagusiak Bogusław\nNr zajęć: 4/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:51b8af0e9d4a13483b5db428@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270116T152000
+DTEND;TZID=Europe/Warsaw:20270116T165500
+SUMMARY:Wsp.Cyw - Woj (ć)
+LOCATION:2.21/ 135
+DESCRIPTION:Współpraca cywilno-wojskowa\nRodzaj: ćwiczenia\nProwadzący
+ : prof. dr hab. Jagusiak Bogusław\nNr zajęć: 5/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:8e84fbb29bab78ff105f814e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270116T171000
+DTEND;TZID=Europe/Warsaw:20270116T184500
+SUMMARY:BIwO (ć)
+LOCATION:2.21/ 135
+DESCRIPTION:Bezpieczeństwo informacji w obronności\nRodzaj: ćwiczenia\n
+ Prowadzący: dr Beroud Magdalena\nNr zajęć: 5/5\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:43477257928773d565a9b86b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270117T080000
+DTEND;TZID=Europe/Warsaw:20270117T093500
+SUMMARY:PoODKiDN (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Prawno-organizacyjna ochrona dóbr kultury i dziedzictwa narod
+ owego\nRodzaj: ćwiczenia\nProwadzący: prof. dr hab. Misiuk Andrzej\nNr 
+ zajęć: 4/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c30a3dada70083f5d206d5d8@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270117T095000
+DTEND;TZID=Europe/Warsaw:20270117T112500
+SUMMARY:PoODKiDN (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Prawno-organizacyjna ochrona dóbr kultury i dziedzictwa narod
+ owego\nRodzaj: ćwiczenia\nProwadzący: prof. dr hab. Misiuk Andrzej\nNr 
+ zajęć: 5/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e03ed07ea5da405bccb837eb@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270117T114000
+DTEND;TZID=Europe/Warsaw:20270117T131500
+SUMMARY:MSwP (ć)
+LOCATION:0.6/ 16
+DESCRIPTION:Misje stabilizacyjne w polityce supermocarstw\nRodzaj: ćwicze
+ nia\nProwadzący: dr Śmiałek Wiesław\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6474fea9300fbaebad9dcb0f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270117T133000
+DTEND;TZID=Europe/Warsaw:20270117T150500
+SUMMARY:MSwP (ć)
+LOCATION:0.6/ 16
+DESCRIPTION:Misje stabilizacyjne w polityce supermocarstw\nRodzaj: ćwicze
+ nia\nProwadzący: dr Śmiałek Wiesław\nNr zajęć: 5/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7bf6e2759b0b3bbc84ae910e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270123T080000
+DTEND;TZID=Europe/Warsaw:20270123T093500
+SUMMARY:PDwK (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Procesy decyzyjne w kierowaniu i dowodzeniu\nRodzaj: ćwiczeni
+ a\nProwadzący: dr inż. Kleszcz Sławomir\nNr zajęć: 3/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b7c7605506e0e7e573368db1@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270123T095000
+DTEND;TZID=Europe/Warsaw:20270123T112500
+SUMMARY:GiRśb (w)
+LOCATION:0.8/ 16
+DESCRIPTION:Globalne i regionalne środowisko bezpieczeństwa\nRodzaj: wyk
+ ład\nProwadzący: dr Kościelecki Tomasz\nNr zajęć: 3/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:bfcc102030fff73e79c379a5@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270123T114000
+DTEND;TZID=Europe/Warsaw:20270123T131500
+SUMMARY:GiRśb (ć)
+LOCATION:3.16/ 135
+DESCRIPTION:Globalne i regionalne środowisko bezpieczeństwa\nRodzaj: ćw
+ iczenia\nProwadzący: dr Kościelecki Tomasz\nNr zajęć: 5/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5a42d028040faa2b65dabdd1@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270123T133000
+DTEND;TZID=Europe/Warsaw:20270123T150500
+SUMMARY:Prko (ć)
+LOCATION:1003 HILTON
+DESCRIPTION:Prakseologia kierowania obronnością\nRodzaj: ćwiczenia\nPro
+ wadzący: dr Moskal Marta\nNr zajęć: 3/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5ca738769094ea749daaf378@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270123T152000
+DTEND;TZID=Europe/Warsaw:20270123T165500
+SUMMARY:Prko (ć)
+LOCATION:1003 HILTON
+DESCRIPTION:Prakseologia kierowania obronnością\nRodzaj: ćwiczenia\nPro
+ wadzący: dr Moskal Marta\nNr zajęć: 4/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:b720265f96c2a2a9ceb34e87@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270124T095000
+DTEND;TZID=Europe/Warsaw:20270124T112500
+SUMMARY:Fb (ć)
+LOCATION:1/ 22
+DESCRIPTION:Filozofia bezpieczeństwa\nRodzaj: ćwiczenia\nProwadzący: Pr
+ of. dr hab. Cieślarczyk Marian\nNr zajęć: 4/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a46da28193b5589987bdd011@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270124T114000
+DTEND;TZID=Europe/Warsaw:20270124T131500
+SUMMARY:Fb (ć)
+LOCATION:1/ 22
+DESCRIPTION:Filozofia bezpieczeństwa\nRodzaj: ćwiczenia\nProwadzący: Pr
+ of. dr hab. Cieślarczyk Marian\nNr zajęć: 5/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6762c7d9291f2c6716ef019a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270124T133000
+DTEND;TZID=Europe/Warsaw:20270124T150500
+SUMMARY:PDwK (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Procesy decyzyjne w kierowaniu i dowodzeniu\nRodzaj: ćwiczeni
+ a\nProwadzący: dr inż. Kleszcz Sławomir\nNr zajęć: 4/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:aaa090bfa468cf0749bed45a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270124T152000
+DTEND;TZID=Europe/Warsaw:20270124T165500
+SUMMARY:PDwK (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Procesy decyzyjne w kierowaniu i dowodzeniu\nRodzaj: ćwiczeni
+ a\nProwadzący: dr inż. Kleszcz Sławomir\nNr zajęć: 5/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:af61f8ae7289152bba242eee@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270130T080000
+DTEND;TZID=Europe/Warsaw:20270130T093500
+SUMMARY:CNnS (w)
+LOCATION:120 45
+DESCRIPTION:Cywilny nadzór nad sektorem bezpieczeństwa\nRodzaj: wykład\
+ nProwadzący: prof. dr hab. Trejnis Zenon\nNr zajęć: 4/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9e8f685605a4c293c3108094@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270130T095000
+DTEND;TZID=Europe/Warsaw:20270130T112500
+SUMMARY:CNnS (ć)
+LOCATION:0.23/ 16
+DESCRIPTION:Cywilny nadzór nad sektorem bezpieczeństwa\nRodzaj: ćwiczen
+ ia\nProwadzący: prof. dr hab. Trejnis Zenon\nNr zajęć: 4/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3a02c8d97609a518b5d80024@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270130T114000
+DTEND;TZID=Europe/Warsaw:20270130T131500
+SUMMARY:CNnS (ć)
+LOCATION:0.23/ 16
+DESCRIPTION:Cywilny nadzór nad sektorem bezpieczeństwa\nRodzaj: ćwiczen
+ ia\nProwadzący: prof. dr hab. Trejnis Zenon\nNr zajęć: 5/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a91c1534e16c1b127dfa5a25@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270130T133000
+DTEND;TZID=Europe/Warsaw:20270130T150500
+SUMMARY:Prko (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Prakseologia kierowania obronnością\nRodzaj: ćwiczenia\nPro
+ wadzący: dr Moskal Marta\nNr zajęć: 5/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4d93a0487665b6edc9030bae@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270131T095000
+DTEND;TZID=Europe/Warsaw:20270131T112500
+SUMMARY:MSwP (w)
+LOCATION:1.27/ 135
+DESCRIPTION:Misje stabilizacyjne w polityce supermocarstw\nRodzaj: wykład
+ \nProwadzący: dr Śmiałek Wiesław\nNr zajęć: 4/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:354da8adb6ca41208ca31a15@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270131T114000
+DTEND;TZID=Europe/Warsaw:20270131T131500
+SUMMARY:PoODKiDN (w)
+LOCATION:0.21/ 16
+DESCRIPTION:Prawno-organizacyjna ochrona dóbr kultury i dziedzictwa narod
+ owego\nRodzaj: wykład\nProwadzący: prof. dr hab. Misiuk Andrzej\nNr zaj
+ ęć: 4/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:bf8ffc1344441a167b518d7e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270131T133000
+DTEND;TZID=Europe/Warsaw:20270131T150500
+SUMMARY:Gd (ć)
+LOCATION:4.17a/ 135
+DESCRIPTION:Gra decyzyjna\nRodzaj: ćwiczenia\nProwadzący: dr hab. (prof.
+  WAT) Świerszcz Katarzyna\nNr zajęć: 4/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0ac7fd477d759352028f2c52@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270131T152000
+DTEND;TZID=Europe/Warsaw:20270131T165500
+SUMMARY:Gd (ć)
+LOCATION:4.17a/ 135
+DESCRIPTION:Gra decyzyjna\nRodzaj: ćwiczenia\nProwadzący: dr hab. (prof.
+  WAT) Świerszcz Katarzyna\nNr zajęć: 5/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:af0e90c1f3b3fade3295c751@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270206T114000
+DTEND;TZID=Europe/Warsaw:20270206T131500
+SUMMARY:Wsp.Cyw - Woj (E)
+LOCATION:3.16/ 135
+DESCRIPTION:Współpraca cywilno-wojskowa\nRodzaj: egzamin\nProwadzący: p
+ rof. dr hab. Jagusiak Bogusław\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b2827fd0af7ff76d5d792d5f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270206T133000
+DTEND;TZID=Europe/Warsaw:20270206T150500
+SUMMARY:CNnS (E)
+LOCATION:0.8/ 16
+DESCRIPTION:Cywilny nadzór nad sektorem bezpieczeństwa\nRodzaj: egzamin\
+ nProwadzący: prof. dr hab. Trejnis Zenon\nNr zajęć: 1/1\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e3c4b12c1758416ef95d96b4@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270207T114000
+DTEND;TZID=Europe/Warsaw:20270207T131500
+SUMMARY:PDwK (E)
+LOCATION:0.8/ 16
+DESCRIPTION:Procesy decyzyjne w kierowaniu i dowodzeniu\nRodzaj: egzamin\n
+ Prowadzący: dr inż. Kleszcz Sławomir\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b1502b3546d1d1263dec98df@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270220T095000
+DTEND;TZID=Europe/Warsaw:20270220T112500
+SUMMARY:Wsp.Cyw - Woj (Ep)
+LOCATION:3.16/ 135
+DESCRIPTION:Współpraca cywilno-wojskowa\nRodzaj: egzamin poprawkowy\nPro
+ wadzący: prof. dr hab. Jagusiak Bogusław\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:80c16624e0655caae64399fa@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270220T114000
+DTEND;TZID=Europe/Warsaw:20270220T131500
+SUMMARY:PDwK (Ep)
+LOCATION:2.21/ 135
+DESCRIPTION:Procesy decyzyjne w kierowaniu i dowodzeniu\nRodzaj: egzamin p
+ oprawkowy\nProwadzący: dr inż. Kleszcz Sławomir\nNr zajęć: 1/1\nBlok
+ : 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d887901c9ab3f717a39bd550@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270220T133000
+DTEND;TZID=Europe/Warsaw:20270220T150500
+SUMMARY:CNnS (Ep)
+LOCATION:A.1.3/ 135
+DESCRIPTION:Cywilny nadzór nad sektorem bezpieczeństwa\nRodzaj: egzamin 
+ poprawkowy\nProwadzący: prof. dr hab. Trejnis Zenon\nNr zajęć: 1/1\nBl
+ ok: 4
+END:VEVENT
+END:VCALENDAR

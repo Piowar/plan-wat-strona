@@ -1,0 +1,1199 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WLO25PX1N1
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:4472d9420d528427f355f40c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261003T080000
+DTEND;TZID=Europe/Warsaw:20261003T093500
+SUMMARY:EkO (w)
+LOCATION:1.15/ 16
+DESCRIPTION:Ekonomika obronna\nRodzaj: wykład\nProwadzący: dr Kościelec
+ ki Tomasz\nNr zajęć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c4aaf8350ba22c8be01043eb@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261003T095000
+DTEND;TZID=Europe/Warsaw:20261003T112500
+SUMMARY:EkO (w)
+LOCATION:1.15/ 16
+DESCRIPTION:Ekonomika obronna\nRodzaj: wykład\nProwadzący: dr Kościelec
+ ki Tomasz\nNr zajęć: 2/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3f58e5994436f597068e7dcc@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261003T114000
+DTEND;TZID=Europe/Warsaw:20261003T131500
+SUMMARY:Ja (ć)
+LOCATION:235 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: mgr Gołdow
+ ski Adrian\nNr zajęć: 1/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2f556dd097b647e6857e21c3@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261003T133000
+DTEND;TZID=Europe/Warsaw:20261003T150500
+SUMMARY:ZŚN (w)
+LOCATION:0.6/ 16
+DESCRIPTION:Zagrożenia Środowiska Naturalnego\nRodzaj: wykład\nProwadz
+ ący: dr Adamkiewicz Jakub\nNr zajęć: 1/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:797ff4eaf6d334ed3e6590d0@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261003T152000
+DTEND;TZID=Europe/Warsaw:20261003T165500
+SUMMARY:ZŚN (w)
+LOCATION:0.6/ 16
+DESCRIPTION:Zagrożenia Środowiska Naturalnego\nRodzaj: wykład\nProwadz
+ ący: dr Adamkiewicz Jakub\nNr zajęć: 2/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:c8918502744082d100095ee7@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261003T171000
+DTEND;TZID=Europe/Warsaw:20261003T184500
+SUMMARY:ZŚN (w)
+LOCATION:0.6/ 16
+DESCRIPTION:Zagrożenia Środowiska Naturalnego\nRodzaj: wykład\nProwadz
+ ący: dr Adamkiewicz Jakub\nNr zajęć: 3/4\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:138ff923450ff5f70f2f8fd0@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261004T095000
+DTEND;TZID=Europe/Warsaw:20261004T112500
+SUMMARY:PODST. STRZELAŃ - TEORIA I PRAKTYKA (w)
+LOCATION:0.6/ 16
+DESCRIPTION:Podstawy strzelań - teoria i praktyka\nRodzaj: wykład\nProwa
+ dzący: mgr Trzcińska Luiza\nNr zajęć: 1/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ed006846bac63af13e95ccc2@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261004T114000
+DTEND;TZID=Europe/Warsaw:20261004T131500
+SUMMARY:PODST. STRZELAŃ - TEORIA I PRAKTYKA (w)
+LOCATION:0.6/ 16
+DESCRIPTION:Podstawy strzelań - teoria i praktyka\nRodzaj: wykład\nProwa
+ dzący: mgr Trzcińska Luiza\nNr zajęć: 2/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4c7e30254386e411e0fa69e8@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261004T133000
+DTEND;TZID=Europe/Warsaw:20261004T150500
+SUMMARY:Bwp (w)
+LOCATION:1003 HILTON
+DESCRIPTION:Bezpieczeństwo wewnętrzne państwa\nRodzaj: wykład\nProwadz
+ ący: prof. dr hab. Misiuk Andrzej\nNr zajęć: 1/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:dd7ef2611731cebd623bd1ca@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261004T152000
+DTEND;TZID=Europe/Warsaw:20261004T165500
+SUMMARY:Bwp (w)
+LOCATION:1003 HILTON
+DESCRIPTION:Bezpieczeństwo wewnętrzne państwa\nRodzaj: wykład\nProwadz
+ ący: prof. dr hab. Misiuk Andrzej\nNr zajęć: 2/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:d8a9768d415cc95a4a6c69b0@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261010T095000
+DTEND;TZID=Europe/Warsaw:20261010T112500
+SUMMARY:P społ. (w)
+LOCATION:1.15/ 16
+DESCRIPTION:Polityka społeczna\nRodzaj: wykład\nProwadzący: dr Adamkiew
+ icz Jakub\nNr zajęć: 1/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:615affeeedef22e484d8c973@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261010T114000
+DTEND;TZID=Europe/Warsaw:20261010T131500
+SUMMARY:Ja (ć)
+LOCATION:235 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: mgr Gołdow
+ ski Adrian\nNr zajęć: 2/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:403323264f379526aaca7660@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261010T133000
+DTEND;TZID=Europe/Warsaw:20261010T150500
+SUMMARY:ZŚN (w)
+LOCATION:0.8/ 16
+DESCRIPTION:Zagrożenia Środowiska Naturalnego\nRodzaj: wykład\nProwadz
+ ący: dr Adamkiewicz Jakub\nNr zajęć: 4/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5c5b50affb135b51363da82d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261010T152000
+DTEND;TZID=Europe/Warsaw:20261010T165500
+SUMMARY:EkO (w)
+LOCATION:0.6/ 16
+DESCRIPTION:Ekonomika obronna\nRodzaj: wykład\nProwadzący: dr Kościelec
+ ki Tomasz\nNr zajęć: 3/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:0017dbe1fdbedab7e4809f5f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261010T171000
+DTEND;TZID=Europe/Warsaw:20261010T184500
+SUMMARY:EkO (w)
+LOCATION:0.6/ 16
+DESCRIPTION:Ekonomika obronna\nRodzaj: wykład\nProwadzący: dr Kościelec
+ ki Tomasz\nNr zajęć: 4/4\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:3cff27c1e17d53b2da6589c4@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261011T095000
+DTEND;TZID=Europe/Warsaw:20261011T112500
+SUMMARY:PODST. STRZELAŃ - TEORIA I PRAKTYKA (w)
+LOCATION:0.8/ 16
+DESCRIPTION:Podstawy strzelań - teoria i praktyka\nRodzaj: wykład\nProwa
+ dzący: mgr Trzcińska Luiza\nNr zajęć: 3/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e5fd27e841ce67d4b86a89b6@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261011T114000
+DTEND;TZID=Europe/Warsaw:20261011T131500
+SUMMARY:PODST. STRZELAŃ - TEORIA I PRAKTYKA (w)
+LOCATION:0.8/ 16
+DESCRIPTION:Podstawy strzelań - teoria i praktyka\nRodzaj: wykład\nProwa
+ dzący: mgr Trzcińska Luiza\nNr zajęć: 4/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:39cdf0b242ae08807b5595e1@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261011T133000
+DTEND;TZID=Europe/Warsaw:20261011T150500
+SUMMARY:Bwp (w)
+LOCATION:1003 HILTON
+DESCRIPTION:Bezpieczeństwo wewnętrzne państwa\nRodzaj: wykład\nProwadz
+ ący: prof. dr hab. Misiuk Andrzej\nNr zajęć: 3/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f3343421ba735f58e55a632d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261011T152000
+DTEND;TZID=Europe/Warsaw:20261011T165500
+SUMMARY:Bwp (w)
+LOCATION:1003 HILTON
+DESCRIPTION:Bezpieczeństwo wewnętrzne państwa\nRodzaj: wykład\nProwadz
+ ący: prof. dr hab. Misiuk Andrzej\nNr zajęć: 4/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:44aefb7cc1e2aa3562cf885b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261024T080000
+DTEND;TZID=Europe/Warsaw:20261024T093500
+SUMMARY:Sta (w)
+LOCATION:0.21/ 16
+DESCRIPTION:Statystyka\nRodzaj: wykład\nProwadzący: dr Oziębło Małgor
+ zata\nNr zajęć: 1/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4a76e64f88eec4f999cd2a9e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261024T095000
+DTEND;TZID=Europe/Warsaw:20261024T112500
+SUMMARY:Sta (ć)
+LOCATION:0.21/ 16
+DESCRIPTION:Statystyka\nRodzaj: ćwiczenia\nProwadzący: dr Oziębło Mał
+ gorzata\nNr zajęć: 1/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3c8b5911a89330e97b4845d1@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261024T114000
+DTEND;TZID=Europe/Warsaw:20261024T131500
+SUMMARY:Ja (ć)
+LOCATION:235 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: mgr Gołdow
+ ski Adrian\nNr zajęć: 3/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:982e60d662501833b71d3f00@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261024T133000
+DTEND;TZID=Europe/Warsaw:20261024T150500
+SUMMARY:Hsw (w)
+LOCATION:1002 HILTON
+DESCRIPTION:Historia sztuki wojennej\nRodzaj: wykład\nProwadzący: dr in
+ ż. Kleszcz Sławomir\nNr zajęć: 1/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:84629484db4f252826178efb@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261025T114000
+DTEND;TZID=Europe/Warsaw:20261025T131500
+SUMMARY:Ap (w)
+LOCATION:1003 HILTON
+DESCRIPTION:Administracja publiczna\nRodzaj: wykład\nProwadzący: dr Chyr
+ zyński Ryszard\nNr zajęć: 1/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e4bf5cc05aa3ba134cb22702@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261025T133000
+DTEND;TZID=Europe/Warsaw:20261025T150500
+SUMMARY:Gp (w)
+LOCATION:1.15/ 16
+DESCRIPTION:Geografia polityczna\nRodzaj: wykład\nProwadzący: dr Stawarz
+  Paweł\nNr zajęć: 1/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:32d6a056ab01abae6c3a4e64@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261025T152000
+DTEND;TZID=Europe/Warsaw:20261025T165500
+SUMMARY:Gp (w)
+LOCATION:0.8/ 16
+DESCRIPTION:Geografia polityczna\nRodzaj: wykład\nProwadzący: dr Stawarz
+  Paweł\nNr zajęć: 2/3\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:a905658649d8bcea8db92e21@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261107T095000
+DTEND;TZID=Europe/Warsaw:20261107T112500
+SUMMARY:ZŚN (ć)
+LOCATION:0.6/ 16
+DESCRIPTION:Zagrożenia Środowiska Naturalnego\nRodzaj: ćwiczenia\nProwa
+ dzący: dr Adamkiewicz Jakub\nNr zajęć: 1/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:06c5b27348cd26896fffaec5@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261107T114000
+DTEND;TZID=Europe/Warsaw:20261107T131500
+SUMMARY:Ja (ć)
+LOCATION:235 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: mgr Gołdow
+ ski Adrian\nNr zajęć: 4/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:40f386dab60755c182ec7226@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261107T133000
+DTEND;TZID=Europe/Warsaw:20261107T150500
+SUMMARY:ZŚN (ć)
+LOCATION:0.6/ 16
+DESCRIPTION:Zagrożenia Środowiska Naturalnego\nRodzaj: ćwiczenia\nProwa
+ dzący: dr Adamkiewicz Jakub\nNr zajęć: 2/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c5c8f72dc8607d53c00b765b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261107T152000
+DTEND;TZID=Europe/Warsaw:20261107T165500
+SUMMARY:Hsw (w)
+LOCATION:5.17/ 135
+DESCRIPTION:Historia sztuki wojennej\nRodzaj: wykład\nProwadzący: dr in
+ ż. Kleszcz Sławomir\nNr zajęć: 2/3\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:caa5766050a91c008bb7e554@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261107T171000
+DTEND;TZID=Europe/Warsaw:20261107T184500
+SUMMARY:Hsw (w)
+LOCATION:5.17/ 135
+DESCRIPTION:Historia sztuki wojennej\nRodzaj: wykład\nProwadzący: dr in
+ ż. Kleszcz Sławomir\nNr zajęć: 3/3\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:5c5f5fb6637633467afacae7@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261108T080000
+DTEND;TZID=Europe/Warsaw:20261108T093500
+SUMMARY:EkO (ć)
+LOCATION:0.22/ 16
+DESCRIPTION:Ekonomika obronna\nRodzaj: ćwiczenia\nProwadzący: dr Koście
+ lecki Tomasz\nNr zajęć: 1/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ec601bc184d87dc5f52c4b29@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261108T095000
+DTEND;TZID=Europe/Warsaw:20261108T112500
+SUMMARY:EkO (ć)
+LOCATION:0.22/ 16
+DESCRIPTION:Ekonomika obronna\nRodzaj: ćwiczenia\nProwadzący: dr Koście
+ lecki Tomasz\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:bd1042bbe7220c47b5fbc854@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261108T114000
+DTEND;TZID=Europe/Warsaw:20261108T131500
+SUMMARY:Ap (w)
+LOCATION:1002 HILTON
+DESCRIPTION:Administracja publiczna\nRodzaj: wykład\nProwadzący: dr Chyr
+ zyński Ryszard\nNr zajęć: 2/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:370ec3ce4aefd7ef5fb9a61f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261108T133000
+DTEND;TZID=Europe/Warsaw:20261108T150500
+SUMMARY:Ap (w)
+LOCATION:1002 HILTON
+DESCRIPTION:Administracja publiczna\nRodzaj: wykład\nProwadzący: dr Chyr
+ zyński Ryszard\nNr zajęć: 3/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d2d72f9fa79e3c8cf41e092a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261114T080000
+DTEND;TZID=Europe/Warsaw:20261114T093500
+SUMMARY:PODST. STRZELAŃ - TEORIA I PRAKTYKA (ć)
+LOCATION:5.27/ STRZELNICA 135
+DESCRIPTION:Podstawy strzelań - teoria i praktyka\nRodzaj: ćwiczenia\nPr
+ owadzący: mgr Dąbrowska - Świder Małgorzata\nNr zajęć: 1/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:623be19e7b4158d5f716ee81@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261114T095000
+DTEND;TZID=Europe/Warsaw:20261114T112500
+SUMMARY:PODST. STRZELAŃ - TEORIA I PRAKTYKA (ć)
+LOCATION:5.27/ STRZELNICA 135
+DESCRIPTION:Podstawy strzelań - teoria i praktyka\nRodzaj: ćwiczenia\nPr
+ owadzący: mgr Dąbrowska - Świder Małgorzata\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:19045110313913401d14e575@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261114T114000
+DTEND;TZID=Europe/Warsaw:20261114T131500
+SUMMARY:Ja (ć)
+LOCATION:235 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: mgr Gołdow
+ ski Adrian\nNr zajęć: 5/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2c662f7fbc8c6c996d975158@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261115T095000
+DTEND;TZID=Europe/Warsaw:20261115T112500
+SUMMARY:Syst.zarz. kryzys. w państwie (w)
+LOCATION:1002 HILTON
+DESCRIPTION:System zarządzania kryzysowego w państwie\nRodzaj: wykład\n
+ Prowadzący: dr Bryczek-Wróbel Patrycja\nNr zajęć: 1/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5fc9da0b0fd2270dcbc823de@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261115T114000
+DTEND;TZID=Europe/Warsaw:20261115T131500
+SUMMARY:Syst.zarz. kryzys. w państwie (w)
+LOCATION:1002 HILTON
+DESCRIPTION:System zarządzania kryzysowego w państwie\nRodzaj: wykład\n
+ Prowadzący: dr Bryczek-Wróbel Patrycja\nNr zajęć: 2/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e7a45fc6a4259be3f74f1fd3@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261115T133000
+DTEND;TZID=Europe/Warsaw:20261115T150500
+SUMMARY:Gp (w)
+LOCATION:1.10/ 16
+DESCRIPTION:Geografia polityczna\nRodzaj: wykład\nProwadzący: dr Stawarz
+  Paweł\nNr zajęć: 3/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f28555aa4657aa0bb71e5e18@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261115T152000
+DTEND;TZID=Europe/Warsaw:20261115T165500
+SUMMARY:Gp (ć)
+LOCATION:1.10/ 16
+DESCRIPTION:Geografia polityczna\nRodzaj: ćwiczenia\nProwadzący: dr Staw
+ arz Paweł\nNr zajęć: 1/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:430b921c96f7ea81d9427de4@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261121T080000
+DTEND;TZID=Europe/Warsaw:20261121T093500
+SUMMARY:Ap (ć)
+LOCATION:0.22/ 16
+DESCRIPTION:Administracja publiczna\nRodzaj: ćwiczenia\nProwadzący: dr C
+ hyrzyński Ryszard\nNr zajęć: 1/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ed2b1c0221484a3bae3d78dd@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261121T095000
+DTEND;TZID=Europe/Warsaw:20261121T112500
+SUMMARY:Ap (ć)
+LOCATION:0.22/ 16
+DESCRIPTION:Administracja publiczna\nRodzaj: ćwiczenia\nProwadzący: dr C
+ hyrzyński Ryszard\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1df877ac76919c686f7a5c60@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261121T114000
+DTEND;TZID=Europe/Warsaw:20261121T131500
+SUMMARY:Ja (ć)
+LOCATION:235 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: mgr Gołdow
+ ski Adrian\nNr zajęć: 6/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:397a0f4d2ea99bfaea8ab45f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261121T133000
+DTEND;TZID=Europe/Warsaw:20261121T150500
+SUMMARY:Podst.prawne obr. i bezp. państwa (w)
+LOCATION:2.22/ 135
+DESCRIPTION:Podstawy prawne obronności i bezpieczeństwa państwa\nRodzaj
+ : wykład\nProwadzący: dr Kowalski Wawrzyniec\nNr zajęć: 1/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2a3d43876f78ad4d08cc69d9@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261121T152000
+DTEND;TZID=Europe/Warsaw:20261121T165500
+SUMMARY:Podst.prawne obr. i bezp. państwa (w)
+LOCATION:2.22/ 135
+DESCRIPTION:Podstawy prawne obronności i bezpieczeństwa państwa\nRodzaj
+ : wykład\nProwadzący: dr Kowalski Wawrzyniec\nNr zajęć: 2/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:0c7af43c139e2d3ec338f0b6@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261122T114000
+DTEND;TZID=Europe/Warsaw:20261122T131500
+SUMMARY:Podst.prawne obr. i bezp. państwa (ć)
+LOCATION:1003 HILTON
+DESCRIPTION:Podstawy prawne obronności i bezpieczeństwa państwa\nRodzaj
+ : ćwiczenia\nProwadzący: mgr Trzcińska Luiza\nNr zajęć: 1/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7bf72deb5ddd5593f9eefcc0@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261122T133000
+DTEND;TZID=Europe/Warsaw:20261122T150500
+SUMMARY:P społ. (w)
+LOCATION:1003 HILTON
+DESCRIPTION:Polityka społeczna\nRodzaj: wykład\nProwadzący: dr Adamkiew
+ icz Jakub\nNr zajęć: 2/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:27c5dbf2bd7c3b6a16eb146d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261122T152000
+DTEND;TZID=Europe/Warsaw:20261122T165500
+SUMMARY:P społ. (w)
+LOCATION:1003 HILTON
+DESCRIPTION:Polityka społeczna\nRodzaj: wykład\nProwadzący: dr Adamkiew
+ icz Jakub\nNr zajęć: 3/3\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:7da32e17a7aac7b6d177fd3f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261205T095000
+DTEND;TZID=Europe/Warsaw:20261205T112500
+SUMMARY:Sta (w)
+LOCATION:0.21/ 16
+DESCRIPTION:Statystyka\nRodzaj: wykład\nProwadzący: dr Oziębło Małgor
+ zata\nNr zajęć: 2/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:aa539ffe8c7dafe14f24c38f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261205T114000
+DTEND;TZID=Europe/Warsaw:20261205T131500
+SUMMARY:Ja (ć)
+LOCATION:235 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: mgr Gołdow
+ ski Adrian\nNr zajęć: 7/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0fdc18601ba766a8ea7a9e3e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261205T133000
+DTEND;TZID=Europe/Warsaw:20261205T150500
+SUMMARY:Podst.prawne obr. i bezp. państwa (w)
+LOCATION:2.22/ 135
+DESCRIPTION:Podstawy prawne obronności i bezpieczeństwa państwa\nRodzaj
+ : wykład\nProwadzący: dr Kowalski Wawrzyniec\nNr zajęć: 3/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a71fae53535622fa24c37666@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261205T152000
+DTEND;TZID=Europe/Warsaw:20261205T165500
+SUMMARY:Podst.prawne obr. i bezp. państwa (w)
+LOCATION:2.22/ 135
+DESCRIPTION:Podstawy prawne obronności i bezpieczeństwa państwa\nRodzaj
+ : wykład\nProwadzący: dr Kowalski Wawrzyniec\nNr zajęć: 4/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:9996491d71213fe03bc5c32d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261206T080000
+DTEND;TZID=Europe/Warsaw:20261206T093500
+SUMMARY:Ap (ć)
+LOCATION:1003 HILTON
+DESCRIPTION:Administracja publiczna\nRodzaj: ćwiczenia\nProwadzący: dr C
+ hyrzyński Ryszard\nNr zajęć: 3/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:46ebedc898584790a30180b3@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261206T095000
+DTEND;TZID=Europe/Warsaw:20261206T112500
+SUMMARY:Ap (ć)
+LOCATION:1003 HILTON
+DESCRIPTION:Administracja publiczna\nRodzaj: ćwiczenia\nProwadzący: dr C
+ hyrzyński Ryszard\nNr zajęć: 4/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5cc91ac84934ff6b997498f8@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261206T114000
+DTEND;TZID=Europe/Warsaw:20261206T131500
+SUMMARY:PODST. STRZELAŃ - TEORIA I PRAKTYKA (ć)
+LOCATION:5.27/ STRZELNICA 135
+DESCRIPTION:Podstawy strzelań - teoria i praktyka\nRodzaj: ćwiczenia\nPr
+ owadzący: mgr Dąbrowska - Świder Małgorzata\nNr zajęć: 3/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c4ba9c4f54fc8a94f9bca1c0@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261206T133000
+DTEND;TZID=Europe/Warsaw:20261206T150500
+SUMMARY:PODST. STRZELAŃ - TEORIA I PRAKTYKA (ć)
+LOCATION:5.27/ STRZELNICA 135
+DESCRIPTION:Podstawy strzelań - teoria i praktyka\nRodzaj: ćwiczenia\nPr
+ owadzący: mgr Dąbrowska - Świder Małgorzata\nNr zajęć: 4/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d8db4bb6ff91016845a75989@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261206T152000
+DTEND;TZID=Europe/Warsaw:20261206T165500
+SUMMARY:PODST. STRZELAŃ - TEORIA I PRAKTYKA (ć)
+LOCATION:5.27/ STRZELNICA 135
+DESCRIPTION:Podstawy strzelań - teoria i praktyka\nRodzaj: ćwiczenia\nPr
+ owadzący: mgr Dąbrowska - Świder Małgorzata\nNr zajęć: 5/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:ab2e5a2f48a022b3095b2c47@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261212T095000
+DTEND;TZID=Europe/Warsaw:20261212T112500
+SUMMARY:EkO (ć)
+LOCATION:1003 HILTON
+DESCRIPTION:Ekonomika obronna\nRodzaj: ćwiczenia\nProwadzący: dr Koście
+ lecki Tomasz\nNr zajęć: 3/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:13228a4d0d896ec8d9f9f6a2@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261212T114000
+DTEND;TZID=Europe/Warsaw:20261212T131500
+SUMMARY:Ja (ć)
+LOCATION:235 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: mgr Gołdow
+ ski Adrian\nNr zajęć: 8/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d1d772e446241d92728bb30a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261212T133000
+DTEND;TZID=Europe/Warsaw:20261212T150500
+SUMMARY:ZŚN (ć)
+LOCATION:0.23/ 16
+DESCRIPTION:Zagrożenia Środowiska Naturalnego\nRodzaj: ćwiczenia\nProwa
+ dzący: dr Adamkiewicz Jakub\nNr zajęć: 3/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:eed254a764f567fabf357f58@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261212T152000
+DTEND;TZID=Europe/Warsaw:20261212T165500
+SUMMARY:Ap (ć)
+LOCATION:1003 HILTON
+DESCRIPTION:Administracja publiczna\nRodzaj: ćwiczenia\nProwadzący: dr C
+ hyrzyński Ryszard\nNr zajęć: 5/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f5b7d81bc310d8110dce28bd@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261213T114000
+DTEND;TZID=Europe/Warsaw:20261213T131500
+SUMMARY:Gp (ć)
+LOCATION:1002 HILTON
+DESCRIPTION:Geografia polityczna\nRodzaj: ćwiczenia\nProwadzący: dr Staw
+ arz Paweł\nNr zajęć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f84c4d05de2cfa1f4e1162a3@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261213T133000
+DTEND;TZID=Europe/Warsaw:20261213T150500
+SUMMARY:Bwp (ć)
+LOCATION:1.9/ 16
+DESCRIPTION:Bezpieczeństwo wewnętrzne państwa\nRodzaj: ćwiczenia\nProw
+ adzący: prof. dr hab. Misiuk Andrzej\nNr zajęć: 1/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:240f7a3d23f3272dc0c9875d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261213T152000
+DTEND;TZID=Europe/Warsaw:20261213T165500
+SUMMARY:Bwp (ć)
+LOCATION:1.9/ 16
+DESCRIPTION:Bezpieczeństwo wewnętrzne państwa\nRodzaj: ćwiczenia\nProw
+ adzący: prof. dr hab. Misiuk Andrzej\nNr zajęć: 2/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f18561abcc0ed92396426b48@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261219T080000
+DTEND;TZID=Europe/Warsaw:20261219T093500
+SUMMARY:Sta (w)
+LOCATION:0.21/ 16
+DESCRIPTION:Statystyka\nRodzaj: wykład\nProwadzący: dr Oziębło Małgor
+ zata\nNr zajęć: 3/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0dd83aa0f9abc285794f398a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261219T095000
+DTEND;TZID=Europe/Warsaw:20261219T112500
+SUMMARY:Sta (ć)
+LOCATION:2/ 22
+DESCRIPTION:Statystyka\nRodzaj: ćwiczenia\nProwadzący: dr Oziębło Mał
+ gorzata\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:00ba7f5190e88b1cddcebad9@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261219T114000
+DTEND;TZID=Europe/Warsaw:20261219T131500
+SUMMARY:Ja (ć)
+LOCATION:235 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: mgr Gołdow
+ ski Adrian\nNr zajęć: 9/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:375331adbdcfe35c5778d269@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261219T133000
+DTEND;TZID=Europe/Warsaw:20261219T150500
+SUMMARY:ZŚN (ć)
+LOCATION:1002 HILTON
+DESCRIPTION:Zagrożenia Środowiska Naturalnego\nRodzaj: ćwiczenia\nProwa
+ dzący: dr Adamkiewicz Jakub\nNr zajęć: 4/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:eb0aac24f96ca425b48c66f3@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261219T152000
+DTEND;TZID=Europe/Warsaw:20261219T165500
+SUMMARY:Podst.prawne obr. i bezp. państwa (ć)
+LOCATION:255 S
+DESCRIPTION:Podstawy prawne obronności i bezpieczeństwa państwa\nRodzaj
+ : ćwiczenia\nProwadzący: mgr Trzcińska Luiza\nNr zajęć: 2/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:cc2b90b35f6b5ce31f3f6780@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261219T171000
+DTEND;TZID=Europe/Warsaw:20261219T184500
+SUMMARY:Syst.zarz. kryzys. w państwie (ć)
+LOCATION:4.23/ 135
+DESCRIPTION:System zarządzania kryzysowego w państwie\nRodzaj: ćwiczeni
+ a\nProwadzący: dr Bryczek-Wróbel Patrycja\nNr zajęć: 1/5\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:ae452b05816211d40c6486ee@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261220T114000
+DTEND;TZID=Europe/Warsaw:20261220T131500
+SUMMARY:Syst.zarz. kryzys. w państwie (ć)
+LOCATION:2.22/ 135
+DESCRIPTION:System zarządzania kryzysowego w państwie\nRodzaj: ćwiczeni
+ a\nProwadzący: dr Bryczek-Wróbel Patrycja\nNr zajęć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:59ee33cd950c7c3a9af0a392@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261220T133000
+DTEND;TZID=Europe/Warsaw:20261220T150500
+SUMMARY:Gp (ć)
+LOCATION:2.22/ 135
+DESCRIPTION:Geografia polityczna\nRodzaj: ćwiczenia\nProwadzący: dr Staw
+ arz Paweł\nNr zajęć: 3/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:35b856878eb7e96a324d0135@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261220T152000
+DTEND;TZID=Europe/Warsaw:20261220T165500
+SUMMARY:Syst.zarz. kryzys. w państwie (ć)
+LOCATION:4.23/ 135
+DESCRIPTION:System zarządzania kryzysowego w państwie\nRodzaj: ćwiczeni
+ a\nProwadzący: dr Bryczek-Wróbel Patrycja\nNr zajęć: 3/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:fff5798a34b22348c1fcd7fb@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270109T095000
+DTEND;TZID=Europe/Warsaw:20270109T112500
+SUMMARY:P społ. (ć)
+LOCATION:1002 HILTON
+DESCRIPTION:Polityka społeczna\nRodzaj: ćwiczenia\nProwadzący: dr Adamk
+ iewicz Jakub\nNr zajęć: 1/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f5045f49cd2c85e6c05e61ce@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270109T114000
+DTEND;TZID=Europe/Warsaw:20270109T131500
+SUMMARY:Ja (ć)
+LOCATION:235 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: mgr Gołdow
+ ski Adrian\nNr zajęć: 10/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6b572ec8d76f1ca55f24c86c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270109T133000
+DTEND;TZID=Europe/Warsaw:20270109T150500
+SUMMARY:Sta (ć)
+LOCATION:1.27/ 135
+DESCRIPTION:Statystyka\nRodzaj: ćwiczenia\nProwadzący: dr Oziębło Mał
+ gorzata\nNr zajęć: 3/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e2be73506700024bf62cb4cc@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270109T152000
+DTEND;TZID=Europe/Warsaw:20270109T165500
+SUMMARY:Ja (ć)
+LOCATION:235 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: mgr Gołdow
+ ski Adrian\nNr zajęć: 11/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:aaa69e7c298eaf008af34870@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270110T114000
+DTEND;TZID=Europe/Warsaw:20270110T131500
+SUMMARY:Podst.prawne obr. i bezp. państwa (ć)
+LOCATION:3.16/ 135
+DESCRIPTION:Podstawy prawne obronności i bezpieczeństwa państwa\nRodzaj
+ : ćwiczenia\nProwadzący: mgr Trzcińska Luiza\nNr zajęć: 3/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8e4031a2562201e7ffd7150d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270110T133000
+DTEND;TZID=Europe/Warsaw:20270110T150500
+SUMMARY:Podst.prawne obr. i bezp. państwa (ć)
+LOCATION:3.16/ 135
+DESCRIPTION:Podstawy prawne obronności i bezpieczeństwa państwa\nRodzaj
+ : ćwiczenia\nProwadzący: mgr Trzcińska Luiza\nNr zajęć: 4/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9fa315e7de428008d1812ee5@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270110T152000
+DTEND;TZID=Europe/Warsaw:20270110T165500
+SUMMARY:P społ. (ć)
+LOCATION:1003 HILTON
+DESCRIPTION:Polityka społeczna\nRodzaj: ćwiczenia\nProwadzący: dr Adamk
+ iewicz Jakub\nNr zajęć: 2/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:5bdeb32bf6a171ba5d6a75f9@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270110T171000
+DTEND;TZID=Europe/Warsaw:20270110T184500
+SUMMARY:P społ. (ć)
+LOCATION:1003 HILTON
+DESCRIPTION:Polityka społeczna\nRodzaj: ćwiczenia\nProwadzący: dr Adamk
+ iewicz Jakub\nNr zajęć: 3/5\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:1d06c8921601ae996dbccef4@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270116T080000
+DTEND;TZID=Europe/Warsaw:20270116T093500
+SUMMARY:Hsw (ć)
+LOCATION:4.17a/ 135
+DESCRIPTION:Historia sztuki wojennej\nRodzaj: ćwiczenia\nProwadzący: dr 
+ inż. Kleszcz Sławomir\nNr zajęć: 1/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:85879f0addc5b4f9f4158674@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270116T095000
+DTEND;TZID=Europe/Warsaw:20270116T112500
+SUMMARY:Hsw (ć)
+LOCATION:4.17a/ 135
+DESCRIPTION:Historia sztuki wojennej\nRodzaj: ćwiczenia\nProwadzący: dr 
+ inż. Kleszcz Sławomir\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c9634a38715886423340bc57@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270116T114000
+DTEND;TZID=Europe/Warsaw:20270116T131500
+SUMMARY:Ja (ć)
+LOCATION:235 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: mgr Gołdow
+ ski Adrian\nNr zajęć: 12/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c2321c61f2290e2d3ab3ceac@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270116T133000
+DTEND;TZID=Europe/Warsaw:20270116T150500
+SUMMARY:Podst.prawne obr. i bezp. państwa (ć)
+LOCATION:1003 HILTON
+DESCRIPTION:Podstawy prawne obronności i bezpieczeństwa państwa\nRodzaj
+ : ćwiczenia\nProwadzący: mgr Trzcińska Luiza\nNr zajęć: 5/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:cc003272276b05751619f769@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270116T152000
+DTEND;TZID=Europe/Warsaw:20270116T165500
+SUMMARY:Ja (ć)
+LOCATION:235 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: mgr Gołdow
+ ski Adrian\nNr zajęć: 13/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:3914881c8bafaa23466ae942@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270117T114000
+DTEND;TZID=Europe/Warsaw:20270117T131500
+SUMMARY:Syst.zarz. kryzys. w państwie (w)
+LOCATION:2.22/ 135
+DESCRIPTION:System zarządzania kryzysowego w państwie\nRodzaj: wykład\n
+ Prowadzący: dr Bryczek-Wróbel Patrycja\nNr zajęć: 3/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:78067a606ee8b37befc3c629@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270117T133000
+DTEND;TZID=Europe/Warsaw:20270117T150500
+SUMMARY:Syst.zarz. kryzys. w państwie (ć)
+LOCATION:4.23/ 135
+DESCRIPTION:System zarządzania kryzysowego w państwie\nRodzaj: ćwiczeni
+ a\nProwadzący: dr Bryczek-Wróbel Patrycja\nNr zajęć: 4/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6ac1bb88065fa8afda7f397c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270123T095000
+DTEND;TZID=Europe/Warsaw:20270123T112500
+SUMMARY:ZŚN (ć)
+LOCATION:187 S
+DESCRIPTION:Zagrożenia Środowiska Naturalnego\nRodzaj: ćwiczenia\nProwa
+ dzący: dr Adamkiewicz Jakub\nNr zajęć: 5/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:54333abc47ffc29d829efc9c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270123T114000
+DTEND;TZID=Europe/Warsaw:20270123T131500
+SUMMARY:Ja (ć)
+LOCATION:235 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: mgr Gołdow
+ ski Adrian\nNr zajęć: 14/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5cba14b31aa86e9c9cbabffc@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270123T133000
+DTEND;TZID=Europe/Warsaw:20270123T150500
+SUMMARY:Hsw (ć)
+LOCATION:5.21/ 135
+DESCRIPTION:Historia sztuki wojennej\nRodzaj: ćwiczenia\nProwadzący: dr 
+ inż. Kleszcz Sławomir\nNr zajęć: 3/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:22873396218b604c39d27bd0@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270123T152000
+DTEND;TZID=Europe/Warsaw:20270123T165500
+SUMMARY:Hsw (ć)
+LOCATION:5.21/ 135
+DESCRIPTION:Historia sztuki wojennej\nRodzaj: ćwiczenia\nProwadzący: dr 
+ inż. Kleszcz Sławomir\nNr zajęć: 4/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f382a45386b3d7b429c2611a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270124T095000
+DTEND;TZID=Europe/Warsaw:20270124T112500
+SUMMARY:Hsw (ć)
+LOCATION:A.1.3/ 135
+DESCRIPTION:Historia sztuki wojennej\nRodzaj: ćwiczenia\nProwadzący: dr 
+ inż. Kleszcz Sławomir\nNr zajęć: 5/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2e72ef48ddaae73dc2365f94@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270124T114000
+DTEND;TZID=Europe/Warsaw:20270124T131500
+SUMMARY:Gp (ć)
+LOCATION:5.17/ 135
+DESCRIPTION:Geografia polityczna\nRodzaj: ćwiczenia\nProwadzący: dr Staw
+ arz Paweł\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7bc948b0385d57a74bb4772e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270124T133000
+DTEND;TZID=Europe/Warsaw:20270124T150500
+SUMMARY:Bwp (ć)
+LOCATION:1003 HILTON
+DESCRIPTION:Bezpieczeństwo wewnętrzne państwa\nRodzaj: ćwiczenia\nProw
+ adzący: prof. dr hab. Misiuk Andrzej\nNr zajęć: 3/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ea818fbd8157e645fe195d6c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270124T152000
+DTEND;TZID=Europe/Warsaw:20270124T165500
+SUMMARY:Bwp (ć)
+LOCATION:1003 HILTON
+DESCRIPTION:Bezpieczeństwo wewnętrzne państwa\nRodzaj: ćwiczenia\nProw
+ adzący: prof. dr hab. Misiuk Andrzej\nNr zajęć: 4/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f16ef69717d2b2122ddfcb24@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270124T171000
+DTEND;TZID=Europe/Warsaw:20270124T184500
+SUMMARY:Bwp (ć)
+LOCATION:1003 HILTON
+DESCRIPTION:Bezpieczeństwo wewnętrzne państwa\nRodzaj: ćwiczenia\nProw
+ adzący: prof. dr hab. Misiuk Andrzej\nNr zajęć: 5/5\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:371e53b6a3db03ed4bf9fa93@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270130T080000
+DTEND;TZID=Europe/Warsaw:20270130T093500
+SUMMARY:Sta (ć)
+LOCATION:255 S
+DESCRIPTION:Statystyka\nRodzaj: ćwiczenia\nProwadzący: dr Oziębło Mał
+ gorzata\nNr zajęć: 4/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3e68ac0de901270ce40dc880@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270130T095000
+DTEND;TZID=Europe/Warsaw:20270130T112500
+SUMMARY:Sta (ć)
+LOCATION:255 S
+DESCRIPTION:Statystyka\nRodzaj: ćwiczenia\nProwadzący: dr Oziębło Mał
+ gorzata\nNr zajęć: 5/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d581d87d0564c186241bead7@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270130T114000
+DTEND;TZID=Europe/Warsaw:20270130T131500
+SUMMARY:Ja (ć)
+LOCATION:235 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: mgr Gołdow
+ ski Adrian\nNr zajęć: 15/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1c731c7cb646359d0b01a133@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270130T133000
+DTEND;TZID=Europe/Warsaw:20270130T150500
+SUMMARY:Syst.zarz. kryzys. w państwie (w)
+LOCATION:2.22/ 135
+DESCRIPTION:System zarządzania kryzysowego w państwie\nRodzaj: wykład\n
+ Prowadzący: dr Bryczek-Wróbel Patrycja\nNr zajęć: 4/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6d762159c759d0b51f06b0b0@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270130T152000
+DTEND;TZID=Europe/Warsaw:20270130T165500
+SUMMARY:Syst.zarz. kryzys. w państwie (ć)
+LOCATION:4.23/ 135
+DESCRIPTION:System zarządzania kryzysowego w państwie\nRodzaj: ćwiczeni
+ a\nProwadzący: dr Bryczek-Wróbel Patrycja\nNr zajęć: 5/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:e27377e13e8e966580f24613@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270131T095000
+DTEND;TZID=Europe/Warsaw:20270131T112500
+SUMMARY:Gp (ć)
+LOCATION:0.28/ 135
+DESCRIPTION:Geografia polityczna\nRodzaj: ćwiczenia\nProwadzący: dr Staw
+ arz Paweł\nNr zajęć: 5/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:20d92af0d2c6b137112e5fa6@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270131T114000
+DTEND;TZID=Europe/Warsaw:20270131T131500
+SUMMARY:EkO (ć)
+LOCATION:3.16/ 135
+DESCRIPTION:Ekonomika obronna\nRodzaj: ćwiczenia\nProwadzący: dr Koście
+ lecki Tomasz\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7af6853668e81ccad9723f12@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270131T133000
+DTEND;TZID=Europe/Warsaw:20270131T150500
+SUMMARY:EkO (ć)
+LOCATION:3.16/ 135
+DESCRIPTION:Ekonomika obronna\nRodzaj: ćwiczenia\nProwadzący: dr Koście
+ lecki Tomasz\nNr zajęć: 5/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a104af2d6dddb47d62b7fb35@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270131T152000
+DTEND;TZID=Europe/Warsaw:20270131T165500
+SUMMARY:P społ. (ć)
+LOCATION:0.22/ 16
+DESCRIPTION:Polityka społeczna\nRodzaj: ćwiczenia\nProwadzący: dr Adamk
+ iewicz Jakub\nNr zajęć: 4/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:9c1c4205e6b65d6ddee12154@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270131T171000
+DTEND;TZID=Europe/Warsaw:20270131T184500
+SUMMARY:P społ. (ć)
+LOCATION:0.22/ 16
+DESCRIPTION:Polityka społeczna\nRodzaj: ćwiczenia\nProwadzący: dr Adamk
+ iewicz Jakub\nNr zajęć: 5/5\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:97b716cffa58fb2dc7719d31@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270206T114000
+DTEND;TZID=Europe/Warsaw:20270206T131500
+SUMMARY:Podst.prawne obr. i bezp. państwa (E)
+LOCATION:0.19/ 135
+DESCRIPTION:Podstawy prawne obronności i bezpieczeństwa państwa\nRodzaj
+ : egzamin\nProwadzący: dr Kowalski Wawrzyniec\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:14f859e1d3842840cf6360a1@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270206T133000
+DTEND;TZID=Europe/Warsaw:20270206T150500
+SUMMARY:Syst.zarz. kryzys. w państwie (E)
+LOCATION:0.6/ 16
+DESCRIPTION:System zarządzania kryzysowego w państwie\nRodzaj: egzamin\n
+ Prowadzący: dr Bryczek-Wróbel Patrycja\nNr zajęć: 1/1\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7247ed2199d0d5d516200d53@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270207T095000
+DTEND;TZID=Europe/Warsaw:20270207T112500
+SUMMARY:PODST. STRZELAŃ - TEORIA I PRAKTYKA (E)
+LOCATION:2.22/ 135
+DESCRIPTION:Podstawy strzelań - teoria i praktyka\nRodzaj: egzamin\nProwa
+ dzący: mgr Trzcińska Luiza\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:eb36d52e05ff702186f9145a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270207T114000
+DTEND;TZID=Europe/Warsaw:20270207T131500
+SUMMARY:Bwp (E)
+LOCATION:255 S
+DESCRIPTION:Bezpieczeństwo wewnętrzne państwa\nRodzaj: egzamin\nProwadz
+ ący: prof. dr hab. Misiuk Andrzej\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7ee5fb532dbd505d352397d1@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270220T114000
+DTEND;TZID=Europe/Warsaw:20270220T131500
+SUMMARY:Podst.prawne obr. i bezp. państwa (Ep)
+LOCATION:0.19/ 135
+DESCRIPTION:Podstawy prawne obronności i bezpieczeństwa państwa\nRodzaj
+ : egzamin poprawkowy\nProwadzący: dr Kowalski Wawrzyniec\nNr zajęć: 1/
+ 1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7cc32d2bd06bbd0c2df75fd3@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270220T133000
+DTEND;TZID=Europe/Warsaw:20270220T150500
+SUMMARY:Syst.zarz. kryzys. w państwie (Ep)
+LOCATION:4.23/ 135
+DESCRIPTION:System zarządzania kryzysowego w państwie\nRodzaj: egzamin p
+ oprawkowy\nProwadzący: dr Bryczek-Wróbel Patrycja\nNr zajęć: 1/1\nBlo
+ k: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:420cc6d66ca3c8074288ab22@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270221T095000
+DTEND;TZID=Europe/Warsaw:20270221T112500
+SUMMARY:PODST. STRZELAŃ - TEORIA I PRAKTYKA (Ep)
+LOCATION:2.22/ 135
+DESCRIPTION:Podstawy strzelań - teoria i praktyka\nRodzaj: egzamin popraw
+ kowy\nProwadzący: mgr Trzcińska Luiza\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3f81f4ce91ed0bcf8d9daec5@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270221T114000
+DTEND;TZID=Europe/Warsaw:20270221T131500
+SUMMARY:Bwp (Ep)
+LOCATION:1003 HILTON
+DESCRIPTION:Bezpieczeństwo wewnętrzne państwa\nRodzaj: egzamin poprawko
+ wy\nProwadzący: prof. dr hab. Misiuk Andrzej\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+END:VCALENDAR

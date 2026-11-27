@@ -1,0 +1,2380 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WMT25LB1S4
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ee6f4cb02c6a318447b9e957@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261002T114000
+DTEND;TZID=Europe/Warsaw:20261002T131500
+SUMMARY:Bzzsp (w)
+LOCATION:S2 72
+DESCRIPTION:Bezzałogowe systemy powietrzne\nRodzaj: wykład\nProwadzący:
+  ppłk dr inż. Rogólski Robert\nNr zajęć: 1/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f1dbfa69ee13f7e43ac74cb0@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261006T133000
+DTEND;TZID=Europe/Warsaw:20261006T150500
+SUMMARY:Prela (w)
+LOCATION:33 67
+DESCRIPTION:Projektowanie elementów awioniki\nRodzaj: wykład\nProwadząc
+ y: dr inż. Ważny Mariusz\nNr zajęć: 1/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3d9525380482092edfb49626@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261008T095000
+DTEND;TZID=Europe/Warsaw:20261008T112500
+SUMMARY:Css (w)
+LOCATION:33 67
+DESCRIPTION:Cyfrowe systemy sterowania\nRodzaj: wykład\nProwadzący: dr h
+ ab. inż. Falkowski Krzysztof\nNr zajęć: 1/20\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d86af1928f525af459bad6df@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261008T114000
+DTEND;TZID=Europe/Warsaw:20261008T131500
+SUMMARY:Admest (w)
+LOCATION:24 67
+DESCRIPTION:Adaptacyjne metody sterowania\nRodzaj: wykład\nProwadzący: p
+ płk dr inż. Henzel Maciej\nNr zajęć: 1/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5fdd6865fc479db2f120d4d3@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261009T080000
+DTEND;TZID=Europe/Warsaw:20261009T093500
+SUMMARY:Css (w)
+LOCATION:39 36
+DESCRIPTION:Cyfrowe systemy sterowania\nRodzaj: wykład\nProwadzący: dr h
+ ab. inż. Falkowski Krzysztof\nNr zajęć: 2/20\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:579d44ee43cd03d6a5e59a73@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261009T095000
+DTEND;TZID=Europe/Warsaw:20261009T112500
+SUMMARY:Prela (w)
+LOCATION:33 67
+DESCRIPTION:Projektowanie elementów awioniki\nRodzaj: wykład\nProwadząc
+ y: dr inż. Ważny Mariusz\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2de3d55c7cf049d98a722acb@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261009T114000
+DTEND;TZID=Europe/Warsaw:20261009T131500
+SUMMARY:Mpwm (w)
+LOCATION:S3 72
+DESCRIPTION:Modelowanie procesów wymiany ciepła i masy\nRodzaj: wykład\
+ nProwadzący: prof. dr hab. inż. Koniorczyk Piotr\nNr zajęć: 1/8\nBlok
+ : 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ba3ac8a0df38f9ddcf0bd41f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261012T080000
+DTEND;TZID=Europe/Warsaw:20261012T093500
+SUMMARY:Modea (w)
+LOCATION:24 67
+DESCRIPTION:Modelowanie elementów awioniki\nRodzaj: wykład\nProwadzący:
+  dr inż. Dziendzikowski Michał\nNr zajęć: 1/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:583b6aeee08e0dcd2877ce4e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261012T114000
+DTEND;TZID=Europe/Warsaw:20261012T131500
+SUMMARY:Miksw (ć)
+LOCATION:130 36
+DESCRIPTION:Mikrokontrolery w systemach wbudowanych\nRodzaj: ćwiczenia\nP
+ rowadzący: dr inż. Rochala Zdzisław\nNr zajęć: 1/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8c252d4baa18d13bdf497276@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261012T133000
+DTEND;TZID=Europe/Warsaw:20261012T150500
+SUMMARY:Modea (ć)
+LOCATION:130 36
+DESCRIPTION:Modelowanie elementów awioniki\nRodzaj: ćwiczenia\nProwadzą
+ cy: mgr inż. Kurenda Maciej\nNr zajęć: 1/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ca7ff963141d43c809229906@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261012T160000
+DTEND;TZID=Europe/Warsaw:20261012T173500
+SUMMARY:Prela (ć)
+LOCATION:130 36
+DESCRIPTION:Projektowanie elementów awioniki\nRodzaj: ćwiczenia\nProwadz
+ ący: dr inż. Ważny Mariusz\nNr zajęć: 1/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:3422e1578e2b5ecb84fcfd23@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261013T080000
+DTEND;TZID=Europe/Warsaw:20261013T093500
+SUMMARY:Prela (w)
+LOCATION:136 36
+DESCRIPTION:Projektowanie elementów awioniki\nRodzaj: wykład\nProwadząc
+ y: dr hab. inż. Falkowski Krzysztof\nNr zajęć: 3/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4e6b8fda34a111f7264e626c@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261013T114000
+DTEND;TZID=Europe/Warsaw:20261013T131500
+SUMMARY:Miksw (w)
+LOCATION:24 67
+DESCRIPTION:Mikrokontrolery w systemach wbudowanych\nRodzaj: wykład\nProw
+ adzący: dr inż. Rochala Zdzisław\nNr zajęć: 1/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d9652bd478a06e34a68d0641@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261014T080000
+DTEND;TZID=Europe/Warsaw:20261014T093500
+SUMMARY:Css (w)
+LOCATION:39 36
+DESCRIPTION:Cyfrowe systemy sterowania\nRodzaj: wykład\nProwadzący: dr h
+ ab. inż. Falkowski Krzysztof\nNr zajęć: 3/20\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:62f10e3c5a52044b43517018@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261014T095000
+DTEND;TZID=Europe/Warsaw:20261014T112500
+SUMMARY:Css (w)
+LOCATION:39 36
+DESCRIPTION:Cyfrowe systemy sterowania\nRodzaj: wykład\nProwadzący: dr h
+ ab. inż. Falkowski Krzysztof\nNr zajęć: 4/20\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:651fd0a215f883a369f32fff@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261014T114000
+DTEND;TZID=Europe/Warsaw:20261014T131500
+SUMMARY:Miksw (L)
+LOCATION:130 36
+DESCRIPTION:Mikrokontrolery w systemach wbudowanych\nRodzaj: laboratorium\
+ nProwadzący: * Skolmowski Albert\nNr zajęć: 1/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:54a88197295d63550e2f4da6@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261014T133000
+DTEND;TZID=Europe/Warsaw:20261014T150500
+SUMMARY:Miksw (L)
+LOCATION:130 36
+DESCRIPTION:Mikrokontrolery w systemach wbudowanych\nRodzaj: laboratorium\
+ nProwadzący: * Skolmowski Albert\nNr zajęć: 2/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1eb32d4261c52f825f3d0f64@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261015T095000
+DTEND;TZID=Europe/Warsaw:20261015T112500
+SUMMARY:Css (w)
+LOCATION:33 67
+DESCRIPTION:Cyfrowe systemy sterowania\nRodzaj: wykład\nProwadzący: dr h
+ ab. inż. Falkowski Krzysztof\nNr zajęć: 5/20\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:aab7f9d2715dc9737fcd307e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261015T114000
+DTEND;TZID=Europe/Warsaw:20261015T131500
+SUMMARY:Css (ć)
+LOCATION:31 36
+DESCRIPTION:Cyfrowe systemy sterowania\nRodzaj: ćwiczenia\nProwadzący: p
+ łk mgr inż. Hanc Damian\nNr zajęć: 1/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1db8064bd5e168616eafeef3@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261015T133000
+DTEND;TZID=Europe/Warsaw:20261015T150500
+SUMMARY:Css (ć)
+LOCATION:136 36
+DESCRIPTION:Cyfrowe systemy sterowania\nRodzaj: ćwiczenia\nProwadzący: p
+ łk mgr inż. Hanc Damian\nNr zajęć: 2/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c648053e317e5c25da19fc1b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261015T160000
+DTEND;TZID=Europe/Warsaw:20261015T173500
+SUMMARY:Modea (w)
+LOCATION:41 36
+DESCRIPTION:Modelowanie elementów awioniki\nRodzaj: wykład\nProwadzący:
+  dr inż. Dziendzikowski Michał\nNr zajęć: 2/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:716581bd4e0db9d8925cef22@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261016T080000
+DTEND;TZID=Europe/Warsaw:20261016T093500
+SUMMARY:Bzzsp (w)
+LOCATION:S2 72
+DESCRIPTION:Bezzałogowe systemy powietrzne\nRodzaj: wykład\nProwadzący:
+  ppłk dr inż. Rogólski Robert\nNr zajęć: 2/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:58a0c9332db9ff8bff0859c6@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261016T095000
+DTEND;TZID=Europe/Warsaw:20261016T112500
+SUMMARY:Bzzsp (ć)
+LOCATION:18 67
+DESCRIPTION:Bezzałogowe systemy powietrzne\nRodzaj: ćwiczenia\nProwadzą
+ cy: mgr inż. Syta Borys\nNr zajęć: 1/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9d35046463da41853ec22c45@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261016T114000
+DTEND;TZID=Europe/Warsaw:20261016T131500
+SUMMARY:Modea (w)
+LOCATION:S3 72
+DESCRIPTION:Modelowanie elementów awioniki\nRodzaj: wykład\nProwadzący:
+  dr inż. Dziendzikowski Michał\nNr zajęć: 3/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:32375251628f9ba7b6be11fa@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261019T080000
+DTEND;TZID=Europe/Warsaw:20261019T093500
+SUMMARY:Modea (w)
+LOCATION:33 67
+DESCRIPTION:Modelowanie elementów awioniki\nRodzaj: wykład\nProwadzący:
+  dr inż. Dziendzikowski Michał\nNr zajęć: 4/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:22bba3a134b4003af0b5fede@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261019T095000
+DTEND;TZID=Europe/Warsaw:20261019T112500
+SUMMARY:Modea (ć)
+LOCATION:18 67
+DESCRIPTION:Modelowanie elementów awioniki\nRodzaj: ćwiczenia\nProwadzą
+ cy: mgr inż. Kurenda Maciej\nNr zajęć: 2/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c12502083088dceaefe3b4d9@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261019T160000
+DTEND;TZID=Europe/Warsaw:20261019T173500
+SUMMARY:Prela (ć)
+LOCATION:130 36
+DESCRIPTION:Projektowanie elementów awioniki\nRodzaj: ćwiczenia\nProwadz
+ ący: dr inż. Ważny Mariusz\nNr zajęć: 2/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:9aa1816617c00d1facb1f626@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261020T114000
+DTEND;TZID=Europe/Warsaw:20261020T131500
+SUMMARY:Css (w)
+LOCATION:41 36
+DESCRIPTION:Cyfrowe systemy sterowania\nRodzaj: wykład\nProwadzący: dr h
+ ab. inż. Falkowski Krzysztof\nNr zajęć: 6/20\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2d99db8b4d49f5cb12a16a1f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261021T080000
+DTEND;TZID=Europe/Warsaw:20261021T093500
+SUMMARY:Css (ć)
+LOCATION:136 36
+DESCRIPTION:Cyfrowe systemy sterowania\nRodzaj: ćwiczenia\nProwadzący: p
+ łk mgr inż. Hanc Damian\nNr zajęć: 3/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a017345f6f7a91e76b4cb6e6@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261021T095000
+DTEND;TZID=Europe/Warsaw:20261021T112500
+SUMMARY:Admest (w)
+LOCATION:24 67
+DESCRIPTION:Adaptacyjne metody sterowania\nRodzaj: wykład\nProwadzący: p
+ płk dr inż. Henzel Maciej\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3270a7d39b6c6b0a28d29699@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261022T095000
+DTEND;TZID=Europe/Warsaw:20261022T112500
+SUMMARY:Bzzsp (ć)
+LOCATION:18 67
+DESCRIPTION:Bezzałogowe systemy powietrzne\nRodzaj: ćwiczenia\nProwadzą
+ cy: mgr inż. Syta Borys\nNr zajęć: 2/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7b616695c7f950c498cfb2c2@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261022T114000
+DTEND;TZID=Europe/Warsaw:20261022T131500
+SUMMARY:Mpwm (L)
+LOCATION:8 72
+DESCRIPTION:Modelowanie procesów wymiany ciepła i masy\nRodzaj: laborato
+ rium\nProwadzący: dr inż. Zieliński Mateusz\nNr zajęć: 1/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6c956a395bbf491d7a940c04@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261022T133000
+DTEND;TZID=Europe/Warsaw:20261022T150500
+SUMMARY:Prela (ć)
+LOCATION:130 36
+DESCRIPTION:Projektowanie elementów awioniki\nRodzaj: ćwiczenia\nProwadz
+ ący: dr hab. inż. Falkowski Krzysztof\nNr zajęć: 3/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:31b4b731dee1169dbae331a0@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261022T160000
+DTEND;TZID=Europe/Warsaw:20261022T173500
+SUMMARY:Modea (L)
+LOCATION:004 36
+DESCRIPTION:Modelowanie elementów awioniki\nRodzaj: laboratorium\nProwadz
+ ący: dr inż. Kaźmierczak Krzysztof\nNr zajęć: 1/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:0a3f8e09c230a11baa577176@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261023T080000
+DTEND;TZID=Europe/Warsaw:20261023T093500
+SUMMARY:Prela (L)
+LOCATION:004 36
+DESCRIPTION:Projektowanie elementów awioniki\nRodzaj: laboratorium\nProwa
+ dzący: mgr inż. Kurenda Maciej\nNr zajęć: 1/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d2848fe434fc2846d9a7d896@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261023T095000
+DTEND;TZID=Europe/Warsaw:20261023T112500
+SUMMARY:Mpwm (ć)
+LOCATION:9 67
+DESCRIPTION:Modelowanie procesów wymiany ciepła i masy\nRodzaj: ćwiczen
+ ia\nProwadzący: prof. dr hab. inż. Zmywaczyk Janusz\nNr zajęć: 1/9\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:65905424a6fd2fbf1f7134e5@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261023T114000
+DTEND;TZID=Europe/Warsaw:20261023T131500
+SUMMARY:Mpwm (w)
+LOCATION:S3 72
+DESCRIPTION:Modelowanie procesów wymiany ciepła i masy\nRodzaj: wykład\
+ nProwadzący: prof. dr hab. inż. Koniorczyk Piotr\nNr zajęć: 2/8\nBlok
+ : 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8e2e5abacf1e437df9965075@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261026T114000
+DTEND;TZID=Europe/Warsaw:20261026T131500
+SUMMARY:Miksw (w)
+LOCATION:34 67
+DESCRIPTION:Mikrokontrolery w systemach wbudowanych\nRodzaj: wykład\nProw
+ adzący: dr inż. Rochala Zdzisław\nNr zajęć: 2/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4bcfaa5a5f7ca9917ae39b3d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261026T133000
+DTEND;TZID=Europe/Warsaw:20261026T150500
+SUMMARY:Fal. (w)
+LOCATION:24 67
+DESCRIPTION:Rodzaj: wykład\nProwadzący: Admes\nNr zajęć: 1/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:dcb9d05a61ce0bee8b854cff@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261026T160000
+DTEND;TZID=Europe/Warsaw:20261026T173500
+SUMMARY:Modea (L)
+LOCATION:004 36
+DESCRIPTION:Modelowanie elementów awioniki\nRodzaj: laboratorium\nProwadz
+ ący: dr inż. Kaźmierczak Krzysztof\nNr zajęć: 2/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:d9ff8a0335642573fe7594fa@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261027T080000
+DTEND;TZID=Europe/Warsaw:20261027T093500
+SUMMARY:Prela (ć)
+LOCATION:130 36
+DESCRIPTION:Projektowanie elementów awioniki\nRodzaj: ćwiczenia\nProwadz
+ ący: dr hab. inż. Falkowski Krzysztof\nNr zajęć: 4/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:87f4a77f21fa2db3af1740ca@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261027T114000
+DTEND;TZID=Europe/Warsaw:20261027T131500
+SUMMARY:Miksw (w)
+LOCATION:24 67
+DESCRIPTION:Mikrokontrolery w systemach wbudowanych\nRodzaj: wykład\nProw
+ adzący: dr inż. Rochala Zdzisław\nNr zajęć: 3/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3677696483f8eb66a4b5a8c1@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261027T133000
+DTEND;TZID=Europe/Warsaw:20261027T150500
+SUMMARY:Bzzsp (S)
+LOCATION:43 67
+DESCRIPTION:Bezzałogowe systemy powietrzne\nRodzaj: seminarium\nProwadzą
+ cy: ppłk dr inż. Rogólski Robert\nNr zajęć: 1/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:aa33d27e8c4cd77a9b807db3@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261028T133000
+DTEND;TZID=Europe/Warsaw:20261028T150500
+SUMMARY:Prela (L)
+LOCATION:003 36
+DESCRIPTION:Projektowanie elementów awioniki\nRodzaj: laboratorium\nProwa
+ dzący: mgr inż. Marut Adam\nNr zajęć: 2/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e757c3713e1e613087efe9ac@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261028T160000
+DTEND;TZID=Europe/Warsaw:20261028T173500
+SUMMARY:Prela (L)
+LOCATION:003 36
+DESCRIPTION:Projektowanie elementów awioniki\nRodzaj: laboratorium\nProwa
+ dzący: mgr inż. Marut Adam\nNr zajęć: 3/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:c9debba32184eed072613dde@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261029T080000
+DTEND;TZID=Europe/Warsaw:20261029T093500
+SUMMARY:Css (ć)
+LOCATION:130 36
+DESCRIPTION:Cyfrowe systemy sterowania\nRodzaj: ćwiczenia\nProwadzący: p
+ łk mgr inż. Hanc Damian\nNr zajęć: 4/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ed89efd08d211957e2620f49@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261029T095000
+DTEND;TZID=Europe/Warsaw:20261029T112500
+SUMMARY:Prela (L)
+LOCATION:004 36
+DESCRIPTION:Projektowanie elementów awioniki\nRodzaj: laboratorium\nProwa
+ dzący: mgr inż. Kurenda Maciej\nNr zajęć: 4/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e01723717665cae9898bec67@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261029T114000
+DTEND;TZID=Europe/Warsaw:20261029T131500
+SUMMARY:Prela (L)
+LOCATION:004 36
+DESCRIPTION:Projektowanie elementów awioniki\nRodzaj: laboratorium\nProwa
+ dzący: mgr inż. Kurenda Maciej\nNr zajęć: 5/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:81021dc9fa0916f1ff52273a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261029T133000
+DTEND;TZID=Europe/Warsaw:20261029T150500
+SUMMARY:Admest (w)
+LOCATION:24 67
+DESCRIPTION:Adaptacyjne metody sterowania\nRodzaj: wykład\nProwadzący: p
+ płk dr inż. Henzel Maciej\nNr zajęć: 3/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a74fcb38936949990b08f32b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261029T160000
+DTEND;TZID=Europe/Warsaw:20261029T173500
+SUMMARY:Tko (w)
+LOCATION:18 67
+DESCRIPTION:Techniki kosmiczne\nRodzaj: wykład\nProwadzący: mgr inż. Ch
+ udy Kamil\nNr zajęć: 1/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f5d68475a1bf52b21fca9a27@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261030T080000
+DTEND;TZID=Europe/Warsaw:20261030T093500
+SUMMARY:Tko (w)
+LOCATION:50 63
+DESCRIPTION:Techniki kosmiczne\nRodzaj: wykład\nProwadzący: dr Piątkows
+ ki Andrzej\nNr zajęć: 2/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5a79475be37dd15b291b728e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261030T095000
+DTEND;TZID=Europe/Warsaw:20261030T112500
+SUMMARY:Mpwm (w)
+LOCATION:S3 72
+DESCRIPTION:Modelowanie procesów wymiany ciepła i masy\nRodzaj: wykład\
+ nProwadzący: prof. dr hab. inż. Koniorczyk Piotr\nNr zajęć: 3/8\nBlok
+ : 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3cbdd9cf02204554042e584b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261030T114000
+DTEND;TZID=Europe/Warsaw:20261030T131500
+SUMMARY:Bzzsp (w)
+LOCATION:S2 72
+DESCRIPTION:Bezzałogowe systemy powietrzne\nRodzaj: wykład\nProwadzący:
+  ppłk dr inż. Rogólski Robert\nNr zajęć: 3/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:59781ca12b117b620c20ca0d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261030T133000
+DTEND;TZID=Europe/Warsaw:20261030T150500
+SUMMARY:Modea (w)
+LOCATION:24 67
+DESCRIPTION:Modelowanie elementów awioniki\nRodzaj: wykład\nProwadzący:
+  dr inż. Dziendzikowski Michał\nNr zajęć: 5/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2b206268a7625fb76c2a6090@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261030T160000
+DTEND;TZID=Europe/Warsaw:20261030T173500
+SUMMARY:Tko (w)
+LOCATION:S2 72
+DESCRIPTION:Techniki kosmiczne\nRodzaj: wykład\nProwadzący: mgr inż. Ch
+ udy Kamil\nNr zajęć: 3/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:3337c57e83cb198578e5822e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261102T080000
+DTEND;TZID=Europe/Warsaw:20261102T093500
+SUMMARY:Tko (ć)
+LOCATION:S2 72
+DESCRIPTION:Techniki kosmiczne\nRodzaj: ćwiczenia\nProwadzący: mgr inż.
+  Chudy Kamil\nNr zajęć: 1/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1bc1018d94007f9ee3350913@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261102T095000
+DTEND;TZID=Europe/Warsaw:20261102T112500
+SUMMARY:Modea (ć)
+LOCATION:18 67
+DESCRIPTION:Modelowanie elementów awioniki\nRodzaj: ćwiczenia\nProwadzą
+ cy: mgr inż. Kurenda Maciej\nNr zajęć: 3/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:981c24bd44b441e18e283985@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261102T114000
+DTEND;TZID=Europe/Warsaw:20261102T131500
+SUMMARY:Css (ć)
+LOCATION:50 63
+DESCRIPTION:Cyfrowe systemy sterowania\nRodzaj: ćwiczenia\nProwadzący: p
+ łk mgr inż. Hanc Damian\nNr zajęć: 5/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9e432491b34b8993e67458ed@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261102T160000
+DTEND;TZID=Europe/Warsaw:20261102T173500
+SUMMARY:Modea (L)
+LOCATION:004 36
+DESCRIPTION:Modelowanie elementów awioniki\nRodzaj: laboratorium\nProwadz
+ ący: dr inż. Kaźmierczak Krzysztof\nNr zajęć: 3/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:21998829eb60590c888462b0@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261103T080000
+DTEND;TZID=Europe/Warsaw:20261103T093500
+SUMMARY:Miksw (ć)
+LOCATION:130 36
+DESCRIPTION:Mikrokontrolery w systemach wbudowanych\nRodzaj: ćwiczenia\nP
+ rowadzący: dr inż. Rochala Zdzisław\nNr zajęć: 2/11\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:17a3a31328da959fc784f246@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261103T095000
+DTEND;TZID=Europe/Warsaw:20261103T112500
+SUMMARY:Modea (ć)
+LOCATION:18 67
+DESCRIPTION:Modelowanie elementów awioniki\nRodzaj: ćwiczenia\nProwadzą
+ cy: mgr inż. Kurenda Maciej\nNr zajęć: 4/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:03a226e1313be8975bb0dcec@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261104T080000
+DTEND;TZID=Europe/Warsaw:20261104T093500
+SUMMARY:Css (w)
+LOCATION:136 36
+DESCRIPTION:Cyfrowe systemy sterowania\nRodzaj: wykład\nProwadzący: dr h
+ ab. inż. Falkowski Krzysztof\nNr zajęć: 7/20\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:094b3a9d316b9eb1cf23811a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261104T095000
+DTEND;TZID=Europe/Warsaw:20261104T112500
+SUMMARY:Miksw (w)
+LOCATION:24 67
+DESCRIPTION:Mikrokontrolery w systemach wbudowanych\nRodzaj: wykład\nProw
+ adzący: dr inż. Rochala Zdzisław\nNr zajęć: 4/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d5d4dea31044d17cec26d6e2@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261104T114000
+DTEND;TZID=Europe/Warsaw:20261104T131500
+SUMMARY:Prela (w)
+LOCATION:41 36
+DESCRIPTION:Projektowanie elementów awioniki\nRodzaj: wykład\nProwadząc
+ y: dr hab. inż. Falkowski Krzysztof\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e7d5ab503a00f833e916268d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261105T080000
+DTEND;TZID=Europe/Warsaw:20261105T093500
+SUMMARY:Prela (L)
+LOCATION:003 36
+DESCRIPTION:Projektowanie elementów awioniki\nRodzaj: laboratorium\nProwa
+ dzący: mgr inż. Marut Adam\nNr zajęć: 6/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d29125436efbcb81b3a87087@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261105T095000
+DTEND;TZID=Europe/Warsaw:20261105T112500
+SUMMARY:Prela (L)
+LOCATION:003 36
+DESCRIPTION:Projektowanie elementów awioniki\nRodzaj: laboratorium\nProwa
+ dzący: mgr inż. Marut Adam\nNr zajęć: 7/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:88b136d62a40bbcf49f305cd@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261105T114000
+DTEND;TZID=Europe/Warsaw:20261105T131500
+SUMMARY:Mpwm (L)
+LOCATION:8 72
+DESCRIPTION:Modelowanie procesów wymiany ciepła i masy\nRodzaj: laborato
+ rium\nProwadzący: dr inż. Zieliński Mateusz\nNr zajęć: 2/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:67c8ad21fb06828fbdb7de8c@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261105T133000
+DTEND;TZID=Europe/Warsaw:20261105T150500
+SUMMARY:Admest (w)
+LOCATION:24 67
+DESCRIPTION:Adaptacyjne metody sterowania\nRodzaj: wykład\nProwadzący: p
+ płk dr inż. Henzel Maciej\nNr zajęć: 4/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:99c4650e9173c3be51ae0c3c@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261106T080000
+DTEND;TZID=Europe/Warsaw:20261106T093500
+SUMMARY:Mpwm (w)
+LOCATION:S2 72
+DESCRIPTION:Modelowanie procesów wymiany ciepła i masy\nRodzaj: wykład\
+ nProwadzący: prof. dr hab. inż. Koniorczyk Piotr\nNr zajęć: 4/8\nBlok
+ : 1
+END:VEVENT
+BEGIN:VEVENT
+UID:28bb61b077323fb075a4b922@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261106T095000
+DTEND;TZID=Europe/Warsaw:20261106T112500
+SUMMARY:Tko (S)
+LOCATION:18 67
+DESCRIPTION:Techniki kosmiczne\nRodzaj: seminarium\nProwadzący: mgr inż.
+  Chudy Kamil\nNr zajęć: 1/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:56b6008689d418e00e11a7bf@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261106T114000
+DTEND;TZID=Europe/Warsaw:20261106T131500
+SUMMARY:Mpwm (ć)
+LOCATION:9 67
+DESCRIPTION:Modelowanie procesów wymiany ciepła i masy\nRodzaj: ćwiczen
+ ia\nProwadzący: prof. dr hab. inż. Zmywaczyk Janusz\nNr zajęć: 2/9\nB
+ lok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4dbf22fba07689ddf3593037@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261106T133000
+DTEND;TZID=Europe/Warsaw:20261106T150500
+SUMMARY:Bzzsp (ć)
+LOCATION:18 67
+DESCRIPTION:Bezzałogowe systemy powietrzne\nRodzaj: ćwiczenia\nProwadzą
+ cy: mgr inż. Syta Borys\nNr zajęć: 3/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:492fbbe5156a08f12a968dea@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261109T095000
+DTEND;TZID=Europe/Warsaw:20261109T112500
+SUMMARY:Modea (ć)
+LOCATION:18 67
+DESCRIPTION:Modelowanie elementów awioniki\nRodzaj: ćwiczenia\nProwadzą
+ cy: mgr inż. Kurenda Maciej\nNr zajęć: 5/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5ae589ed78a8d038ffecbd75@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261109T114000
+DTEND;TZID=Europe/Warsaw:20261109T131500
+SUMMARY:Miksw (w)
+LOCATION:34 67
+DESCRIPTION:Mikrokontrolery w systemach wbudowanych\nRodzaj: wykład\nProw
+ adzący: dr inż. Rochala Zdzisław\nNr zajęć: 5/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:bf1bdaad16158c75643dadb9@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261109T133000
+DTEND;TZID=Europe/Warsaw:20261109T150500
+SUMMARY:Css (ć)
+LOCATION:136 36
+DESCRIPTION:Cyfrowe systemy sterowania\nRodzaj: ćwiczenia\nProwadzący: p
+ łk mgr inż. Hanc Damian\nNr zajęć: 6/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:501b165a75adf59148af168f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261110T080000
+DTEND;TZID=Europe/Warsaw:20261110T093500
+SUMMARY:Miksw (ć)
+LOCATION:130 36
+DESCRIPTION:Mikrokontrolery w systemach wbudowanych\nRodzaj: ćwiczenia\nP
+ rowadzący: dr inż. Rochala Zdzisław\nNr zajęć: 3/11\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9f379d4f70a18e11640b9bcc@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261110T095000
+DTEND;TZID=Europe/Warsaw:20261110T112500
+SUMMARY:Tko (w)
+LOCATION:50 63
+DESCRIPTION:Techniki kosmiczne\nRodzaj: wykład\nProwadzący: dr Piątkows
+ ki Andrzej\nNr zajęć: 4/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:578b092fc98d23a4fe3ba48a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261110T114000
+DTEND;TZID=Europe/Warsaw:20261110T131500
+SUMMARY:Miksw (L)
+LOCATION:130 36
+DESCRIPTION:Mikrokontrolery w systemach wbudowanych\nRodzaj: laboratorium\
+ nProwadzący: * Skolmowski Albert\nNr zajęć: 3/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:449da7fc30bac5a6b57ec46a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261110T133000
+DTEND;TZID=Europe/Warsaw:20261110T150500
+SUMMARY:Bzzsp (w)
+LOCATION:S2 72
+DESCRIPTION:Bezzałogowe systemy powietrzne\nRodzaj: wykład\nProwadzący:
+  dr hab. inż. Chachurski Ryszard\nNr zajęć: 4/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f5fac643641b8055b71029c8@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261112T080000
+DTEND;TZID=Europe/Warsaw:20261112T093500
+SUMMARY:Prela (w)
+LOCATION:9 67
+DESCRIPTION:Projektowanie elementów awioniki\nRodzaj: wykład\nProwadząc
+ y: dr hab. inż. Falkowski Krzysztof\nNr zajęć: 5/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d9a72f34cb082575eecc2809@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261112T095000
+DTEND;TZID=Europe/Warsaw:20261112T112500
+SUMMARY:Miksw (ć)
+LOCATION:130 36
+DESCRIPTION:Mikrokontrolery w systemach wbudowanych\nRodzaj: ćwiczenia\nP
+ rowadzący: dr inż. Rochala Zdzisław\nNr zajęć: 4/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0550afa17420a1117b13e87c@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261112T114000
+DTEND;TZID=Europe/Warsaw:20261112T131500
+SUMMARY:Miksw (L)
+LOCATION:130 36
+DESCRIPTION:Mikrokontrolery w systemach wbudowanych\nRodzaj: laboratorium\
+ nProwadzący: * Skolmowski Albert\nNr zajęć: 4/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ba056efc6e5ca17c3ea2faaa@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261112T133000
+DTEND;TZID=Europe/Warsaw:20261112T150500
+SUMMARY:Miksw (L)
+LOCATION:130 36
+DESCRIPTION:Mikrokontrolery w systemach wbudowanych\nRodzaj: laboratorium\
+ nProwadzący: * Skolmowski Albert\nNr zajęć: 5/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:279045087e666e0ec47a4d3f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261112T160000
+DTEND;TZID=Europe/Warsaw:20261112T173500
+SUMMARY:Bzzsp (S)
+LOCATION:18 67
+DESCRIPTION:Bezzałogowe systemy powietrzne\nRodzaj: seminarium\nProwadzą
+ cy: ppłk dr inż. Rogólski Robert\nNr zajęć: 2/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:4a59fc8748ef34ef37d4657b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261113T080000
+DTEND;TZID=Europe/Warsaw:20261113T093500
+SUMMARY:Mpwm (ć)
+LOCATION:9 67
+DESCRIPTION:Modelowanie procesów wymiany ciepła i masy\nRodzaj: ćwiczen
+ ia\nProwadzący: prof. dr hab. inż. Zmywaczyk Janusz\nNr zajęć: 3/9\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:731c734849724498bdd5c2f4@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261113T095000
+DTEND;TZID=Europe/Warsaw:20261113T112500
+SUMMARY:Tko (S)
+LOCATION:18 67
+DESCRIPTION:Techniki kosmiczne\nRodzaj: seminarium\nProwadzący: mgr inż.
+  Chudy Kamil\nNr zajęć: 2/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1678f5f88b115a46cdf3f3e0@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261113T114000
+DTEND;TZID=Europe/Warsaw:20261113T131500
+SUMMARY:Miksw (L)
+LOCATION:130 36
+DESCRIPTION:Mikrokontrolery w systemach wbudowanych\nRodzaj: laboratorium\
+ nProwadzący: mgr inż. Kurenda Maciej\nNr zajęć: 6/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3ed8a995531b786b20d17895@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261113T133000
+DTEND;TZID=Europe/Warsaw:20261113T150500
+SUMMARY:Bzzsp (L)
+LOCATION:43 67
+DESCRIPTION:Bezzałogowe systemy powietrzne\nRodzaj: laboratorium\nProwadz
+ ący: * Buczyński Rafał\nNr zajęć: 1/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5a288667c296147a81130bd3@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261116T080000
+DTEND;TZID=Europe/Warsaw:20261116T093500
+SUMMARY:Tko (w)
+LOCATION:S2 72
+DESCRIPTION:Techniki kosmiczne\nRodzaj: wykład\nProwadzący: mgr inż. Ch
+ udy Kamil\nNr zajęć: 5/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5cc33c1e2c8b39df189d81d4@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261116T114000
+DTEND;TZID=Europe/Warsaw:20261116T131500
+SUMMARY:Miksw (w)
+LOCATION:34 67
+DESCRIPTION:Mikrokontrolery w systemach wbudowanych\nRodzaj: wykład\nProw
+ adzący: dr inż. Rochala Zdzisław\nNr zajęć: 6/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0c7459a8ecc3311c5e6f06b8@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261116T133000
+DTEND;TZID=Europe/Warsaw:20261116T150500
+SUMMARY:Fal. (w)
+LOCATION:24 67
+DESCRIPTION:Rodzaj: wykład\nProwadzący: Admes\nNr zajęć: 2/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:cf5db66c93a9485d2fad4c40@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261116T160000
+DTEND;TZID=Europe/Warsaw:20261116T173500
+SUMMARY:Modea (L)
+LOCATION:004 36
+DESCRIPTION:Modelowanie elementów awioniki\nRodzaj: laboratorium\nProwadz
+ ący: dr inż. Kaźmierczak Krzysztof\nNr zajęć: 4/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:71038e31839138d4efc94942@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261117T080000
+DTEND;TZID=Europe/Warsaw:20261117T093500
+SUMMARY:Bzzsp (L)
+LOCATION:M H7
+DESCRIPTION:Bezzałogowe systemy powietrzne\nRodzaj: laboratorium\nProwadz
+ ący: mgr inż. Borcuch Dominik\nNr zajęć: 2/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a397bf9709c2de991cdc7977@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261117T095000
+DTEND;TZID=Europe/Warsaw:20261117T112500
+SUMMARY:Tko (ć)
+LOCATION:18 67
+DESCRIPTION:Techniki kosmiczne\nRodzaj: ćwiczenia\nProwadzący: mgr inż.
+  Chudy Kamil\nNr zajęć: 2/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:78753aaa87abb5b45b09e08d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261118T080000
+DTEND;TZID=Europe/Warsaw:20261118T093500
+SUMMARY:Css (ć)
+LOCATION:130 36
+DESCRIPTION:Cyfrowe systemy sterowania\nRodzaj: ćwiczenia\nProwadzący: p
+ łk mgr inż. Hanc Damian\nNr zajęć: 7/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6e259aa196b7ed4737e43b25@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261118T114000
+DTEND;TZID=Europe/Warsaw:20261118T131500
+SUMMARY:Miksw (ć)
+LOCATION:18 67
+DESCRIPTION:Mikrokontrolery w systemach wbudowanych\nRodzaj: ćwiczenia\nP
+ rowadzący: dr inż. Rochala Zdzisław\nNr zajęć: 5/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:20d039221e350f8c97949220@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261118T133000
+DTEND;TZID=Europe/Warsaw:20261118T150500
+SUMMARY:Admest (ć)
+LOCATION:18 67
+DESCRIPTION:Adaptacyjne metody sterowania\nRodzaj: ćwiczenia\nProwadzący
+ : dr inż. Kurnyta-Mazurek Paulina\nNr zajęć: 1/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d5c66124b2cd69746a4a99f1@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261118T160000
+DTEND;TZID=Europe/Warsaw:20261118T173500
+SUMMARY:Modea (L)
+LOCATION:004 36
+DESCRIPTION:Modelowanie elementów awioniki\nRodzaj: laboratorium\nProwadz
+ ący: dr inż. Kaźmierczak Krzysztof\nNr zajęć: 5/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:fccb35cdb3897a8965926e86@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261119T080000
+DTEND;TZID=Europe/Warsaw:20261119T093500
+SUMMARY:Admest (ć)
+LOCATION:18 67
+DESCRIPTION:Adaptacyjne metody sterowania\nRodzaj: ćwiczenia\nProwadzący
+ : dr inż. Kurnyta-Mazurek Paulina\nNr zajęć: 2/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:de0276fffce8945614b7e815@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261119T095000
+DTEND;TZID=Europe/Warsaw:20261119T112500
+SUMMARY:Mpwm (L)
+LOCATION:8 72
+DESCRIPTION:Modelowanie procesów wymiany ciepła i masy\nRodzaj: laborato
+ rium\nProwadzący: dr inż. Zieliński Mateusz\nNr zajęć: 3/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:fa33a2f5ec6ddb1ae0ca05ab@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261119T114000
+DTEND;TZID=Europe/Warsaw:20261119T131500
+SUMMARY:Bzzsp (S)
+LOCATION:3 67
+DESCRIPTION:Bezzałogowe systemy powietrzne\nRodzaj: seminarium\nProwadzą
+ cy: ppłk dr inż. Rogólski Robert\nNr zajęć: 3/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:00fbdf9846cbc2154565d228@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261119T133000
+DTEND;TZID=Europe/Warsaw:20261119T150500
+SUMMARY:Prela (ć)
+LOCATION:18 67
+DESCRIPTION:Projektowanie elementów awioniki\nRodzaj: ćwiczenia\nProwadz
+ ący: dr hab. inż. Falkowski Krzysztof\nNr zajęć: 5/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:bb4d65bb9947e9643acfa366@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261120T080000
+DTEND;TZID=Europe/Warsaw:20261120T093500
+SUMMARY:Tko (S)
+LOCATION:33 67
+DESCRIPTION:Techniki kosmiczne\nRodzaj: seminarium\nProwadzący: mgr inż.
+  Chudy Kamil\nNr zajęć: 3/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3d3980e6be12ea4a7646bcbd@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261120T095000
+DTEND;TZID=Europe/Warsaw:20261120T112500
+SUMMARY:Mpwm (ć)
+LOCATION:S1 72
+DESCRIPTION:Modelowanie procesów wymiany ciepła i masy\nRodzaj: ćwiczen
+ ia\nProwadzący: prof. dr hab. inż. Zmywaczyk Janusz\nNr zajęć: 4/9\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:77246cc8743582a0f7b58788@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261120T114000
+DTEND;TZID=Europe/Warsaw:20261120T131500
+SUMMARY:Mpwm (w)
+LOCATION:S2 72
+DESCRIPTION:Modelowanie procesów wymiany ciepła i masy\nRodzaj: wykład\
+ nProwadzący: prof. dr hab. inż. Koniorczyk Piotr\nNr zajęć: 5/8\nBlok
+ : 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e7334ef1e056aad2bbcd3bdb@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261120T133000
+DTEND;TZID=Europe/Warsaw:20261120T150500
+SUMMARY:Admest (ć)
+LOCATION:18 67
+DESCRIPTION:Adaptacyjne metody sterowania\nRodzaj: ćwiczenia\nProwadzący
+ : dr inż. Kurnyta-Mazurek Paulina\nNr zajęć: 3/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a3cc2b937d20c5003a59c5fc@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261123T080000
+DTEND;TZID=Europe/Warsaw:20261123T093500
+SUMMARY:Bzzsp (S)
+LOCATION:18 67
+DESCRIPTION:Bezzałogowe systemy powietrzne\nRodzaj: seminarium\nProwadzą
+ cy: ppłk dr inż. Rogólski Robert\nNr zajęć: 4/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:25ad25b53ebab0c06bc71f6b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261123T095000
+DTEND;TZID=Europe/Warsaw:20261123T112500
+SUMMARY:Admest (L)
+LOCATION:18 67
+DESCRIPTION:Adaptacyjne metody sterowania\nRodzaj: laboratorium\nProwadzą
+ cy: dr inż. Kurnyta-Mazurek Paulina\nNr zajęć: 1/13\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1574e74f97353221e36d464d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261123T114000
+DTEND;TZID=Europe/Warsaw:20261123T131500
+SUMMARY:Admest (L)
+LOCATION:18 67
+DESCRIPTION:Adaptacyjne metody sterowania\nRodzaj: laboratorium\nProwadzą
+ cy: dr inż. Kurnyta-Mazurek Paulina\nNr zajęć: 2/13\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5793d65ca2eca9cd58ef4fca@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261124T080000
+DTEND;TZID=Europe/Warsaw:20261124T093500
+SUMMARY:Prela (L)
+LOCATION:003 36
+DESCRIPTION:Projektowanie elementów awioniki\nRodzaj: laboratorium\nProwa
+ dzący: mgr inż. Marut Adam\nNr zajęć: 8/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a08c3a955422bcb610330aba@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261124T095000
+DTEND;TZID=Europe/Warsaw:20261124T112500
+SUMMARY:Prela (L)
+LOCATION:003 36
+DESCRIPTION:Projektowanie elementów awioniki\nRodzaj: laboratorium\nProwa
+ dzący: mgr inż. Marut Adam\nNr zajęć: 9/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ba4c3222cf206d23a738fe2d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261124T114000
+DTEND;TZID=Europe/Warsaw:20261124T131500
+SUMMARY:Miksw (ć)
+LOCATION:130 36
+DESCRIPTION:Mikrokontrolery w systemach wbudowanych\nRodzaj: ćwiczenia\nP
+ rowadzący: dr inż. Rochala Zdzisław\nNr zajęć: 6/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:48fe2dd8dab4079b82b96143@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261124T133000
+DTEND;TZID=Europe/Warsaw:20261124T150500
+SUMMARY:Miksw (ć)
+LOCATION:130 36
+DESCRIPTION:Mikrokontrolery w systemach wbudowanych\nRodzaj: ćwiczenia\nP
+ rowadzący: dr inż. Rochala Zdzisław\nNr zajęć: 7/11\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9db582f688492d4d6a1eddb4@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261125T080000
+DTEND;TZID=Europe/Warsaw:20261125T093500
+SUMMARY:Css (w)
+LOCATION:41 36
+DESCRIPTION:Cyfrowe systemy sterowania\nRodzaj: wykład\nProwadzący: dr h
+ ab. inż. Falkowski Krzysztof\nNr zajęć: 8/20\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:91657aba54d3c65dd8c0766b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261125T095000
+DTEND;TZID=Europe/Warsaw:20261125T112500
+SUMMARY:Css (w)
+LOCATION:41 36
+DESCRIPTION:Cyfrowe systemy sterowania\nRodzaj: wykład\nProwadzący: dr h
+ ab. inż. Falkowski Krzysztof\nNr zajęć: 9/20\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:13ab774a55f80e7c086413a7@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261125T160000
+DTEND;TZID=Europe/Warsaw:20261125T173500
+SUMMARY:Tko (S)
+LOCATION:18 67
+DESCRIPTION:Techniki kosmiczne\nRodzaj: seminarium\nProwadzący: mgr inż.
+  Chudy Kamil\nNr zajęć: 4/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:91b13e683a5745d475a0dc08@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261126T080000
+DTEND;TZID=Europe/Warsaw:20261126T093500
+SUMMARY:Admest (w)
+LOCATION:24 67
+DESCRIPTION:Adaptacyjne metody sterowania\nRodzaj: wykład\nProwadzący: p
+ płk dr inż. Henzel Maciej\nNr zajęć: 5/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:da42a0dd2c9e1b3fbadea0a5@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261126T095000
+DTEND;TZID=Europe/Warsaw:20261126T112500
+SUMMARY:Bzzsp (w)
+LOCATION:S2 72
+DESCRIPTION:Bezzałogowe systemy powietrzne\nRodzaj: wykład\nProwadzący:
+  dr hab. inż. Chachurski Ryszard\nNr zajęć: 5/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1a1f8cd6509fcac88f267041@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261130T095000
+DTEND;TZID=Europe/Warsaw:20261130T112500
+SUMMARY:Modea (w)
+LOCATION:9 67
+DESCRIPTION:Modelowanie elementów awioniki\nRodzaj: wykład\nProwadzący:
+  dr inż. Dziendzikowski Michał\nNr zajęć: 6/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:428a6da65d7906986c75aae7@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261130T133000
+DTEND;TZID=Europe/Warsaw:20261130T150500
+SUMMARY:Fal. (w)
+LOCATION:24 67
+DESCRIPTION:Rodzaj: wykład\nProwadzący: Admes\nNr zajęć: 3/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0df768bfeeeb37a13bfd166b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261201T080000
+DTEND;TZID=Europe/Warsaw:20261201T093500
+SUMMARY:Miksw (ć)
+LOCATION:130 36
+DESCRIPTION:Mikrokontrolery w systemach wbudowanych\nRodzaj: ćwiczenia\nP
+ rowadzący: dr inż. Rochala Zdzisław\nNr zajęć: 8/11\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8db1e4a3830f060cf03d02b5@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261201T095000
+DTEND;TZID=Europe/Warsaw:20261201T112500
+SUMMARY:Mpwm (ć)
+LOCATION:S2 72
+DESCRIPTION:Modelowanie procesów wymiany ciepła i masy\nRodzaj: ćwiczen
+ ia\nProwadzący: prof. dr hab. inż. Zmywaczyk Janusz\nNr zajęć: 5/9\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:037e316dd211a2f23a1a3560@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261201T114000
+DTEND;TZID=Europe/Warsaw:20261201T131500
+SUMMARY:Modea (ć)
+LOCATION:18 67
+DESCRIPTION:Modelowanie elementów awioniki\nRodzaj: ćwiczenia\nProwadzą
+ cy: mgr inż. Kurenda Maciej\nNr zajęć: 6/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e8ccae782f7a4d9d962ce3b9@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261202T080000
+DTEND;TZID=Europe/Warsaw:20261202T093500
+SUMMARY:Mpwm (ć)
+LOCATION:9 67
+DESCRIPTION:Modelowanie procesów wymiany ciepła i masy\nRodzaj: ćwiczen
+ ia\nProwadzący: prof. dr hab. inż. Zmywaczyk Janusz\nNr zajęć: 6/9\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9ab5b3e95d336067d4320648@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261202T095000
+DTEND;TZID=Europe/Warsaw:20261202T112500
+SUMMARY:Css (w)
+LOCATION:41 36
+DESCRIPTION:Cyfrowe systemy sterowania\nRodzaj: wykład\nProwadzący: dr h
+ ab. inż. Falkowski Krzysztof\nNr zajęć: 10/20\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ff8cced64796eca71cf6d078@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261202T114000
+DTEND;TZID=Europe/Warsaw:20261202T131500
+SUMMARY:Prela (ć)
+LOCATION:18 67
+DESCRIPTION:Projektowanie elementów awioniki\nRodzaj: ćwiczenia\nProwadz
+ ący: dr hab. inż. Falkowski Krzysztof\nNr zajęć: 6/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ef328ef5e62fc844b46fc0d7@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261202T133000
+DTEND;TZID=Europe/Warsaw:20261202T150500
+SUMMARY:Prela (ć)
+LOCATION:18 67
+DESCRIPTION:Projektowanie elementów awioniki\nRodzaj: ćwiczenia\nProwadz
+ ący: dr hab. inż. Falkowski Krzysztof\nNr zajęć: 7/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:077e11bc2c2e22ef2f3a6177@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261202T160000
+DTEND;TZID=Europe/Warsaw:20261202T173500
+SUMMARY:Modea (L)
+LOCATION:004 36
+DESCRIPTION:Modelowanie elementów awioniki\nRodzaj: laboratorium\nProwadz
+ ący: dr inż. Kaźmierczak Krzysztof\nNr zajęć: 6/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:43f551233cdc8639ab494e50@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261203T080000
+DTEND;TZID=Europe/Warsaw:20261203T093500
+SUMMARY:Bzzsp (L)
+LOCATION:M H7
+DESCRIPTION:Bezzałogowe systemy powietrzne\nRodzaj: laboratorium\nProwadz
+ ący: mgr inż. Borcuch Dominik\nNr zajęć: 3/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:673486ef6708f02c87cae1fa@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261203T095000
+DTEND;TZID=Europe/Warsaw:20261203T112500
+SUMMARY:Mpwm (w)
+LOCATION:S2 72
+DESCRIPTION:Modelowanie procesów wymiany ciepła i masy\nRodzaj: wykład\
+ nProwadzący: prof. dr hab. inż. Koniorczyk Piotr\nNr zajęć: 6/8\nBlok
+ : 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e6f53d59ef2254cad53237c6@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261203T114000
+DTEND;TZID=Europe/Warsaw:20261203T131500
+SUMMARY:Prela (L)
+LOCATION:004 36
+DESCRIPTION:Projektowanie elementów awioniki\nRodzaj: laboratorium\nProwa
+ dzący: mgr inż. Kurenda Maciej\nNr zajęć: 10/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8b9d64d0d0a12565bc49216d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261203T133000
+DTEND;TZID=Europe/Warsaw:20261203T150500
+SUMMARY:Prela (L)
+LOCATION:004 36
+DESCRIPTION:Projektowanie elementów awioniki\nRodzaj: laboratorium\nProwa
+ dzący: mgr inż. Kurenda Maciej\nNr zajęć: 11/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ea433f8ab84eb71649914d60@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261203T160000
+DTEND;TZID=Europe/Warsaw:20261203T173500
+SUMMARY:Tko (ć)
+LOCATION:18 67
+DESCRIPTION:Techniki kosmiczne\nRodzaj: ćwiczenia\nProwadzący: mgr inż.
+  Chudy Kamil\nNr zajęć: 3/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:fe5eb2b49e125b9b4fd60b7b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261204T080000
+DTEND;TZID=Europe/Warsaw:20261204T093500
+SUMMARY:Bzzsp (w)
+LOCATION:S2 72
+DESCRIPTION:Bezzałogowe systemy powietrzne\nRodzaj: wykład\nProwadzący:
+  ppłk dr inż. Rogólski Robert\nNr zajęć: 6/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f31262d241542d6c8797951b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261204T095000
+DTEND;TZID=Europe/Warsaw:20261204T112500
+SUMMARY:Admest (ć)
+LOCATION:18 67
+DESCRIPTION:Adaptacyjne metody sterowania\nRodzaj: ćwiczenia\nProwadzący
+ : dr inż. Kurnyta-Mazurek Paulina\nNr zajęć: 4/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4ea41e80e43a31df8c19a403@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261204T114000
+DTEND;TZID=Europe/Warsaw:20261204T131500
+SUMMARY:Bzzsp (L)
+LOCATION:43 67
+DESCRIPTION:Bezzałogowe systemy powietrzne\nRodzaj: laboratorium\nProwadz
+ ący: mgr inż. Kluska Krzysztof\nNr zajęć: 4/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5dc1f3d9fd1dffa45d574376@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261207T095000
+DTEND;TZID=Europe/Warsaw:20261207T112500
+SUMMARY:Admest (L)
+LOCATION:18 67
+DESCRIPTION:Adaptacyjne metody sterowania\nRodzaj: laboratorium\nProwadzą
+ cy: dr inż. Kurnyta-Mazurek Paulina\nNr zajęć: 3/13\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6fef5d8d955ec90db15c3da8@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261207T114000
+DTEND;TZID=Europe/Warsaw:20261207T131500
+SUMMARY:Admest (L)
+LOCATION:18 67
+DESCRIPTION:Adaptacyjne metody sterowania\nRodzaj: laboratorium\nProwadzą
+ cy: dr inż. Kurnyta-Mazurek Paulina\nNr zajęć: 4/13\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1a524efb560e8ed1a8f8c788@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261207T133000
+DTEND;TZID=Europe/Warsaw:20261207T150500
+SUMMARY:Fal. (w)
+LOCATION:24 67
+DESCRIPTION:Rodzaj: wykład\nProwadzący: Admes\nNr zajęć: 4/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5b686a1663eaa545f187823b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261207T160000
+DTEND;TZID=Europe/Warsaw:20261207T173500
+SUMMARY:Modea (L)
+LOCATION:004 36
+DESCRIPTION:Modelowanie elementów awioniki\nRodzaj: laboratorium\nProwadz
+ ący: dr inż. Kaźmierczak Krzysztof\nNr zajęć: 7/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:c0bbe3fbf542a732d825f62f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261208T080000
+DTEND;TZID=Europe/Warsaw:20261208T093500
+SUMMARY:Prela (L)
+LOCATION:003 36
+DESCRIPTION:Projektowanie elementów awioniki\nRodzaj: laboratorium\nProwa
+ dzący: mgr inż. Marut Adam\nNr zajęć: 12/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:78d7bb579ce95b9cb43853da@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261208T095000
+DTEND;TZID=Europe/Warsaw:20261208T112500
+SUMMARY:Prela (L)
+LOCATION:003 36
+DESCRIPTION:Projektowanie elementów awioniki\nRodzaj: laboratorium\nProwa
+ dzący: mgr inż. Marut Adam\nNr zajęć: 13/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:30eafaf6822cd74618fd5675@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261208T160000
+DTEND;TZID=Europe/Warsaw:20261208T173500
+SUMMARY:Tko (w)
+LOCATION:33 67
+DESCRIPTION:Techniki kosmiczne\nRodzaj: wykład\nProwadzący: mgr inż. Ch
+ udy Kamil\nNr zajęć: 6/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:a6af68a5abeff4af785a2a3e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261209T080000
+DTEND;TZID=Europe/Warsaw:20261209T093500
+SUMMARY:Css (ć)
+LOCATION:130 36
+DESCRIPTION:Cyfrowe systemy sterowania\nRodzaj: ćwiczenia\nProwadzący: p
+ łk mgr inż. Hanc Damian\nNr zajęć: 8/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1ab30c0371c46377f677fa82@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261209T095000
+DTEND;TZID=Europe/Warsaw:20261209T112500
+SUMMARY:Mpwm (w)
+LOCATION:S3 72
+DESCRIPTION:Modelowanie procesów wymiany ciepła i masy\nRodzaj: wykład\
+ nProwadzący: prof. dr hab. inż. Koniorczyk Piotr\nNr zajęć: 7/8\nBlok
+ : 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4aae974a4a04ae0a3f54cdf5@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261209T114000
+DTEND;TZID=Europe/Warsaw:20261209T131500
+SUMMARY:Css (w)
+LOCATION:41 36
+DESCRIPTION:Cyfrowe systemy sterowania\nRodzaj: wykład\nProwadzący: dr h
+ ab. inż. Falkowski Krzysztof\nNr zajęć: 11/20\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c8c264762ee32b7ad1e76cd3@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261209T133000
+DTEND;TZID=Europe/Warsaw:20261209T150500
+SUMMARY:Css (w)
+LOCATION:41 36
+DESCRIPTION:Cyfrowe systemy sterowania\nRodzaj: wykład\nProwadzący: dr h
+ ab. inż. Falkowski Krzysztof\nNr zajęć: 12/20\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:906e39358dec025cd3f0ea5f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261209T160000
+DTEND;TZID=Europe/Warsaw:20261209T173500
+SUMMARY:Miksw (L)
+LOCATION:130 36
+DESCRIPTION:Mikrokontrolery w systemach wbudowanych\nRodzaj: laboratorium\
+ nProwadzący: mgr inż. Kurenda Maciej\nNr zajęć: 7/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:83b52cf822542c3cb736601c@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261210T080000
+DTEND;TZID=Europe/Warsaw:20261210T093500
+SUMMARY:Admest (ć)
+LOCATION:18 67
+DESCRIPTION:Adaptacyjne metody sterowania\nRodzaj: ćwiczenia\nProwadzący
+ : dr inż. Kurnyta-Mazurek Paulina\nNr zajęć: 5/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3f3b870981ee2e3dddc0bd8d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261210T095000
+DTEND;TZID=Europe/Warsaw:20261210T112500
+SUMMARY:Prela (ć)
+LOCATION:18 67
+DESCRIPTION:Projektowanie elementów awioniki\nRodzaj: ćwiczenia\nProwadz
+ ący: dr hab. inż. Falkowski Krzysztof\nNr zajęć: 8/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:57cf2bb8b3fec2ad14e5802c@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261211T080000
+DTEND;TZID=Europe/Warsaw:20261211T093500
+SUMMARY:Mpwm (w)
+LOCATION:S3 72
+DESCRIPTION:Modelowanie procesów wymiany ciepła i masy\nRodzaj: wykład\
+ nProwadzący: prof. dr hab. inż. Koniorczyk Piotr\nNr zajęć: 8/8\nBlok
+ : 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6a3907ff81f4715d518cf2d6@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261211T095000
+DTEND;TZID=Europe/Warsaw:20261211T112500
+SUMMARY:Tko (S)
+LOCATION:18 67
+DESCRIPTION:Techniki kosmiczne\nRodzaj: seminarium\nProwadzący: mgr inż.
+  Chudy Kamil\nNr zajęć: 5/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2f6fbbf7e00642fdaf8cbe7f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261214T080000
+DTEND;TZID=Europe/Warsaw:20261214T093500
+SUMMARY:Modea (ć)
+LOCATION:18 67
+DESCRIPTION:Modelowanie elementów awioniki\nRodzaj: ćwiczenia\nProwadzą
+ cy: mgr inż. Kurenda Maciej\nNr zajęć: 7/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:270b2db37c99a6c58e6a66ea@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261214T095000
+DTEND;TZID=Europe/Warsaw:20261214T112500
+SUMMARY:Bzzsp (L)
+LOCATION:M H7
+DESCRIPTION:Bezzałogowe systemy powietrzne\nRodzaj: laboratorium\nProwadz
+ ący: mgr inż. Borcuch Dominik\nNr zajęć: 5/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:055e15ad95a72fa95b4d9953@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261214T114000
+DTEND;TZID=Europe/Warsaw:20261214T131500
+SUMMARY:Bzzsp (L)
+LOCATION:M H7
+DESCRIPTION:Bezzałogowe systemy powietrzne\nRodzaj: laboratorium\nProwadz
+ ący: mgr inż. Borcuch Dominik\nNr zajęć: 6/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1dcab40bf95dd0786937d8a9@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261214T133000
+DTEND;TZID=Europe/Warsaw:20261214T150500
+SUMMARY:Bzzsp (L)
+LOCATION:43 67
+DESCRIPTION:Bezzałogowe systemy powietrzne\nRodzaj: laboratorium\nProwadz
+ ący: mgr inż. Kluska Krzysztof\nNr zajęć: 7/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d0dce1583768890dfd76a714@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261215T080000
+DTEND;TZID=Europe/Warsaw:20261215T093500
+SUMMARY:Mpwm (ć)
+LOCATION:9 67
+DESCRIPTION:Modelowanie procesów wymiany ciepła i masy\nRodzaj: ćwiczen
+ ia\nProwadzący: prof. dr hab. inż. Zmywaczyk Janusz\nNr zajęć: 7/9\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5fc2d7aa19b91315d3e25312@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261215T095000
+DTEND;TZID=Europe/Warsaw:20261215T112500
+SUMMARY:Tko (ć)
+LOCATION:18 67
+DESCRIPTION:Techniki kosmiczne\nRodzaj: ćwiczenia\nProwadzący: mgr inż.
+  Chudy Kamil\nNr zajęć: 4/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:fd1a47f00275d1f8e620e254@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261215T114000
+DTEND;TZID=Europe/Warsaw:20261215T131500
+SUMMARY:Bzzsp (ć)
+LOCATION:43 67
+DESCRIPTION:Bezzałogowe systemy powietrzne\nRodzaj: ćwiczenia\nProwadzą
+ cy: mgr inż. Syta Borys\nNr zajęć: 4/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:25da9f202105af0a8ebad757@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261215T133000
+DTEND;TZID=Europe/Warsaw:20261215T150500
+SUMMARY:Miksw (w)
+LOCATION:24 67
+DESCRIPTION:Mikrokontrolery w systemach wbudowanych\nRodzaj: wykład\nProw
+ adzący: dr inż. Rochala Zdzisław\nNr zajęć: 7/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:46fd8876d53c45f96a4c0def@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261215T160000
+DTEND;TZID=Europe/Warsaw:20261215T173500
+SUMMARY:Tko (w)
+LOCATION:50 63
+DESCRIPTION:Techniki kosmiczne\nRodzaj: wykład\nProwadzący: dr Piątkows
+ ki Andrzej\nNr zajęć: 7/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:cede6e02eb41076a1f8d44ef@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261216T080000
+DTEND;TZID=Europe/Warsaw:20261216T093500
+SUMMARY:Css (ć)
+LOCATION:130 36
+DESCRIPTION:Cyfrowe systemy sterowania\nRodzaj: ćwiczenia\nProwadzący: p
+ łk mgr inż. Hanc Damian\nNr zajęć: 9/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4375011ee4dd286d92b38291@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261216T095000
+DTEND;TZID=Europe/Warsaw:20261216T112500
+SUMMARY:Miksw (L)
+LOCATION:18 67
+DESCRIPTION:Mikrokontrolery w systemach wbudowanych\nRodzaj: laboratorium\
+ nProwadzący: dr inż. Rochala Zdzisław\nNr zajęć: 8/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:99e590e775aa20442721f610@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261216T114000
+DTEND;TZID=Europe/Warsaw:20261216T131500
+SUMMARY:Bzzsp (S)
+LOCATION:18 67
+DESCRIPTION:Bezzałogowe systemy powietrzne\nRodzaj: seminarium\nProwadzą
+ cy: ppłk dr inż. Rogólski Robert\nNr zajęć: 5/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9aced253a996e63c7a9979ff@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261216T133000
+DTEND;TZID=Europe/Warsaw:20261216T150500
+SUMMARY:Bzzsp (ć)
+LOCATION:S1 72
+DESCRIPTION:Bezzałogowe systemy powietrzne\nRodzaj: ćwiczenia\nProwadzą
+ cy: dr hab. inż. Chachurski Ryszard\nNr zajęć: 5/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:cb22cce2e63980ad0aac3a3e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261217T080000
+DTEND;TZID=Europe/Warsaw:20261217T093500
+SUMMARY:Admest (ć)
+LOCATION:18 67
+DESCRIPTION:Adaptacyjne metody sterowania\nRodzaj: ćwiczenia\nProwadzący
+ : dr inż. Kurnyta-Mazurek Paulina\nNr zajęć: 6/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8fe50d1b968adeb8b9627826@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261217T095000
+DTEND;TZID=Europe/Warsaw:20261217T112500
+SUMMARY:Miksw (ć)
+LOCATION:18 67
+DESCRIPTION:Mikrokontrolery w systemach wbudowanych\nRodzaj: ćwiczenia\nP
+ rowadzący: dr inż. Rochala Zdzisław\nNr zajęć: 9/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:084790d2c7ca3f0d50088137@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261217T114000
+DTEND;TZID=Europe/Warsaw:20261217T131500
+SUMMARY:Prela (ć)
+LOCATION:18 67
+DESCRIPTION:Projektowanie elementów awioniki\nRodzaj: ćwiczenia\nProwadz
+ ący: dr hab. inż. Falkowski Krzysztof\nNr zajęć: 9/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:441ce9cd78b89359a21bdd91@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261218T080000
+DTEND;TZID=Europe/Warsaw:20261218T093500
+SUMMARY:Css (w)
+LOCATION:136 36
+DESCRIPTION:Cyfrowe systemy sterowania\nRodzaj: wykład\nProwadzący: dr h
+ ab. inż. Falkowski Krzysztof\nNr zajęć: 13/20\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:08014df77a002f1e38a9266f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261218T095000
+DTEND;TZID=Europe/Warsaw:20261218T112500
+SUMMARY:Mpwm (ć)
+LOCATION:9 67
+DESCRIPTION:Modelowanie procesów wymiany ciepła i masy\nRodzaj: ćwiczen
+ ia\nProwadzący: prof. dr hab. inż. Zmywaczyk Janusz\nNr zajęć: 8/9\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:319890750d58dd89fc990787@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261218T114000
+DTEND;TZID=Europe/Warsaw:20261218T131500
+SUMMARY:Miksw (L)
+LOCATION:130 36
+DESCRIPTION:Mikrokontrolery w systemach wbudowanych\nRodzaj: laboratorium\
+ nProwadzący: * Skolmowski Albert\nNr zajęć: 9/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:65bd749ea6ba3b0ae5a382a3@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261221T080000
+DTEND;TZID=Europe/Warsaw:20261221T093500
+SUMMARY:Modea (ć)
+LOCATION:18 67
+DESCRIPTION:Modelowanie elementów awioniki\nRodzaj: ćwiczenia\nProwadzą
+ cy: mgr inż. Kurenda Maciej\nNr zajęć: 8/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9f514ff667ae0186f47eac64@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261221T095000
+DTEND;TZID=Europe/Warsaw:20261221T112500
+SUMMARY:Admest (L)
+LOCATION:18 67
+DESCRIPTION:Adaptacyjne metody sterowania\nRodzaj: laboratorium\nProwadzą
+ cy: dr inż. Kurnyta-Mazurek Paulina\nNr zajęć: 5/13\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:718a2537aa91d51a20e84793@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261221T114000
+DTEND;TZID=Europe/Warsaw:20261221T131500
+SUMMARY:Admest (L)
+LOCATION:18 67
+DESCRIPTION:Adaptacyjne metody sterowania\nRodzaj: laboratorium\nProwadzą
+ cy: dr inż. Kurnyta-Mazurek Paulina\nNr zajęć: 6/13\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:faa065c2a74b99887bc5004f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261222T080000
+DTEND;TZID=Europe/Warsaw:20261222T093500
+SUMMARY:Mpwm (ć)
+LOCATION:3 67
+DESCRIPTION:Modelowanie procesów wymiany ciepła i masy\nRodzaj: ćwiczen
+ ia\nProwadzący: prof. dr hab. inż. Zmywaczyk Janusz\nNr zajęć: 9/9\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:15ee624f674b5df444974d45@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261222T095000
+DTEND;TZID=Europe/Warsaw:20261222T112500
+SUMMARY:Tko (w)
+LOCATION:50 63
+DESCRIPTION:Techniki kosmiczne\nRodzaj: wykład\nProwadzący: dr Piątkows
+ ki Andrzej\nNr zajęć: 8/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:20d9184b165682b6df238548@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261222T114000
+DTEND;TZID=Europe/Warsaw:20261222T131500
+SUMMARY:Admest (L)
+LOCATION:18 67
+DESCRIPTION:Adaptacyjne metody sterowania\nRodzaj: laboratorium\nProwadzą
+ cy: dr inż. Kurnyta-Mazurek Paulina\nNr zajęć: 7/13\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b355ca4ed25d948150a0e27e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261222T133000
+DTEND;TZID=Europe/Warsaw:20261222T150500
+SUMMARY:Admest (L)
+LOCATION:18 67
+DESCRIPTION:Adaptacyjne metody sterowania\nRodzaj: laboratorium\nProwadzą
+ cy: dr inż. Kurnyta-Mazurek Paulina\nNr zajęć: 8/13\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:552ef6a4914b2c4c51218a69@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261222T160000
+DTEND;TZID=Europe/Warsaw:20261222T173500
+SUMMARY:Modea (ć)
+LOCATION:18 67
+DESCRIPTION:Modelowanie elementów awioniki\nRodzaj: ćwiczenia\nProwadzą
+ cy: mgr inż. Kurenda Maciej\nNr zajęć: 9/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:004c9c1bda81901a1a5874ab@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261223T080000
+DTEND;TZID=Europe/Warsaw:20261223T093500
+SUMMARY:Prela (L)
+LOCATION:004 36
+DESCRIPTION:Projektowanie elementów awioniki\nRodzaj: laboratorium\nProwa
+ dzący: mgr inż. Kurenda Maciej\nNr zajęć: 14/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7ac947423164f509a95566c7@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261223T095000
+DTEND;TZID=Europe/Warsaw:20261223T112500
+SUMMARY:Prela (L)
+LOCATION:004 36
+DESCRIPTION:Projektowanie elementów awioniki\nRodzaj: laboratorium\nProwa
+ dzący: mgr inż. Kurenda Maciej\nNr zajęć: 15/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3a0dc8c44330c42ddb8e3a2e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270107T080000
+DTEND;TZID=Europe/Warsaw:20270107T093500
+SUMMARY:Css (w)
+LOCATION:33 67
+DESCRIPTION:Cyfrowe systemy sterowania\nRodzaj: wykład\nProwadzący: dr h
+ ab. inż. Falkowski Krzysztof\nNr zajęć: 14/20\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5f962245c1223884e60f7d30@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270107T095000
+DTEND;TZID=Europe/Warsaw:20270107T112500
+SUMMARY:Modea (w)
+LOCATION:3 67
+DESCRIPTION:Modelowanie elementów awioniki\nRodzaj: wykład\nProwadzący:
+  dr inż. Dziendzikowski Michał\nNr zajęć: 7/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9c780200f5b77a592e0bc66b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270108T080000
+DTEND;TZID=Europe/Warsaw:20270108T093500
+SUMMARY:Css (w)
+LOCATION:39 36
+DESCRIPTION:Cyfrowe systemy sterowania\nRodzaj: wykład\nProwadzący: dr h
+ ab. inż. Falkowski Krzysztof\nNr zajęć: 15/20\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:13b3ee7229130bf475479ee4@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270108T095000
+DTEND;TZID=Europe/Warsaw:20270108T112500
+SUMMARY:Tko (S)
+LOCATION:18 67
+DESCRIPTION:Techniki kosmiczne\nRodzaj: seminarium\nProwadzący: mgr inż.
+  Chudy Kamil\nNr zajęć: 6/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7472677ae5cbbd8db69099d2@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270108T114000
+DTEND;TZID=Europe/Warsaw:20270108T131500
+SUMMARY:Admest (ć)
+LOCATION:18 67
+DESCRIPTION:Adaptacyjne metody sterowania\nRodzaj: ćwiczenia\nProwadzący
+ : dr inż. Kurnyta-Mazurek Paulina\nNr zajęć: 7/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:75325808c7020a1bc38f2a9b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270108T133000
+DTEND;TZID=Europe/Warsaw:20270108T150500
+SUMMARY:Tko (ć)
+LOCATION:50 63
+DESCRIPTION:Techniki kosmiczne\nRodzaj: ćwiczenia\nProwadzący: dr Piątk
+ owski Andrzej\nNr zajęć: 5/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5ca4ea8b0ca284a595b40d6a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270111T080000
+DTEND;TZID=Europe/Warsaw:20270111T093500
+SUMMARY:Modea (w)
+LOCATION:24 67
+DESCRIPTION:Modelowanie elementów awioniki\nRodzaj: wykład\nProwadzący:
+  dr inż. Dziendzikowski Michał\nNr zajęć: 8/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:dcb087385a55053e03694a2a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270111T114000
+DTEND;TZID=Europe/Warsaw:20270111T131500
+SUMMARY:Miksw (w)
+LOCATION:34 67
+DESCRIPTION:Mikrokontrolery w systemach wbudowanych\nRodzaj: wykład\nProw
+ adzący: dr inż. Rochala Zdzisław\nNr zajęć: 8/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:bedc9f9b67e400ad94532974@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270111T133000
+DTEND;TZID=Europe/Warsaw:20270111T150500
+SUMMARY:Bzzsp (S)
+LOCATION:43 67
+DESCRIPTION:Bezzałogowe systemy powietrzne\nRodzaj: seminarium\nProwadzą
+ cy: ppłk dr inż. Rogólski Robert\nNr zajęć: 6/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7b2876e586e60238db67040c@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270112T080000
+DTEND;TZID=Europe/Warsaw:20270112T093500
+SUMMARY:Css (w)
+LOCATION:33 67
+DESCRIPTION:Cyfrowe systemy sterowania\nRodzaj: wykład\nProwadzący: dr h
+ ab. inż. Falkowski Krzysztof\nNr zajęć: 16/20\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:23bb572fc6e6b94af710de47@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270112T095000
+DTEND;TZID=Europe/Warsaw:20270112T112500
+SUMMARY:Bzzsp (w)
+LOCATION:S2 72
+DESCRIPTION:Bezzałogowe systemy powietrzne\nRodzaj: wykład\nProwadzący:
+  ppłk dr inż. Rogólski Robert\nNr zajęć: 7/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:fc9a0ed4cdb64d69a0033214@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270113T080000
+DTEND;TZID=Europe/Warsaw:20270113T093500
+SUMMARY:Css (w)
+LOCATION:136 36
+DESCRIPTION:Cyfrowe systemy sterowania\nRodzaj: wykład\nProwadzący: dr h
+ ab. inż. Falkowski Krzysztof\nNr zajęć: 17/20\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9df61df3925130964b8cb3b9@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270113T095000
+DTEND;TZID=Europe/Warsaw:20270113T112500
+SUMMARY:Css (w)
+LOCATION:136 36
+DESCRIPTION:Cyfrowe systemy sterowania\nRodzaj: wykład\nProwadzący: dr h
+ ab. inż. Falkowski Krzysztof\nNr zajęć: 18/20\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0c92eeb59acd0429b3b6ef3d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270113T133000
+DTEND;TZID=Europe/Warsaw:20270113T150500
+SUMMARY:Modea (w)
+LOCATION:39 36
+DESCRIPTION:Modelowanie elementów awioniki\nRodzaj: wykład\nProwadzący:
+  dr inż. Dziendzikowski Michał\nNr zajęć: 9/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d1f72fe00c818c3259dbc70d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270114T080000
+DTEND;TZID=Europe/Warsaw:20270114T093500
+SUMMARY:Admest (L)
+LOCATION:18 67
+DESCRIPTION:Adaptacyjne metody sterowania\nRodzaj: laboratorium\nProwadzą
+ cy: dr inż. Kurnyta-Mazurek Paulina\nNr zajęć: 9/13\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b18ca632e75fab2957fff2c9@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270114T095000
+DTEND;TZID=Europe/Warsaw:20270114T112500
+SUMMARY:Bzzsp (L)
+LOCATION:43 67
+DESCRIPTION:Bezzałogowe systemy powietrzne\nRodzaj: laboratorium\nProwadz
+ ący: mgr inż. Kluska Krzysztof\nNr zajęć: 8/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ad81a9eed5eb8c9b9e8e8a05@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270114T175000
+DTEND;TZID=Europe/Warsaw:20270114T192500
+SUMMARY:Bzzsp (ć)
+LOCATION:43 67
+DESCRIPTION:Bezzałogowe systemy powietrzne\nRodzaj: ćwiczenia\nProwadzą
+ cy: mgr inż. Syta Borys\nNr zajęć: 6/8\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:d17ad330da50fffb30a127f4@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270115T080000
+DTEND;TZID=Europe/Warsaw:20270115T093500
+SUMMARY:Bzzsp (ć)
+LOCATION:S3 72
+DESCRIPTION:Bezzałogowe systemy powietrzne\nRodzaj: ćwiczenia\nProwadzą
+ cy: dr hab. inż. Chachurski Ryszard\nNr zajęć: 7/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:05b0168c5c955199a0c089db@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270115T095000
+DTEND;TZID=Europe/Warsaw:20270115T112500
+SUMMARY:Admest (L)
+LOCATION:18 67
+DESCRIPTION:Adaptacyjne metody sterowania\nRodzaj: laboratorium\nProwadzą
+ cy: dr inż. Kurnyta-Mazurek Paulina\nNr zajęć: 10/13\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:351e4de586a7e6ac8f2bde76@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270115T114000
+DTEND;TZID=Europe/Warsaw:20270115T131500
+SUMMARY:Admest (L)
+LOCATION:18 67
+DESCRIPTION:Adaptacyjne metody sterowania\nRodzaj: laboratorium\nProwadzą
+ cy: dr inż. Kurnyta-Mazurek Paulina\nNr zajęć: 11/13\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7f080e51dd8cc487504cabf6@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270115T133000
+DTEND;TZID=Europe/Warsaw:20270115T150500
+SUMMARY:Bzzsp (L)
+LOCATION:43 67
+DESCRIPTION:Bezzałogowe systemy powietrzne\nRodzaj: laboratorium\nProwadz
+ ący: mgr inż. Kluska Krzysztof\nNr zajęć: 9/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:86a25d2bdb9b620f9c8b4959@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270118T080000
+DTEND;TZID=Europe/Warsaw:20270118T093500
+SUMMARY:Css (w)
+LOCATION:33 67
+DESCRIPTION:Cyfrowe systemy sterowania\nRodzaj: wykład\nProwadzący: dr h
+ ab. inż. Falkowski Krzysztof\nNr zajęć: 19/20\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ce596b4e3925c0bebbd4090b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270118T095000
+DTEND;TZID=Europe/Warsaw:20270118T112500
+SUMMARY:Bzzsp (S)
+LOCATION:43 67
+DESCRIPTION:Bezzałogowe systemy powietrzne\nRodzaj: seminarium\nProwadzą
+ cy: ppłk dr inż. Rogólski Robert\nNr zajęć: 7/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5aa0deb26418800a9edfad9c@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270118T133000
+DTEND;TZID=Europe/Warsaw:20270118T150500
+SUMMARY:Bzzsp (L)
+LOCATION:43 67
+DESCRIPTION:Bezzałogowe systemy powietrzne\nRodzaj: laboratorium\nProwadz
+ ący: mgr inż. Kluska Krzysztof\nNr zajęć: 10/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9e40a1f546f459406a0bdc60@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270118T160000
+DTEND;TZID=Europe/Warsaw:20270118T173500
+SUMMARY:Modea (L)
+LOCATION:004 36
+DESCRIPTION:Modelowanie elementów awioniki\nRodzaj: laboratorium\nProwadz
+ ący: dr inż. Kaźmierczak Krzysztof\nNr zajęć: 8/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:6e74787b28dff96870f361c3@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270119T095000
+DTEND;TZID=Europe/Warsaw:20270119T112500
+SUMMARY:Prela (ć)
+LOCATION:18 67
+DESCRIPTION:Projektowanie elementów awioniki\nRodzaj: ćwiczenia\nProwadz
+ ący: dr hab. inż. Falkowski Krzysztof\nNr zajęć: 10/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:86768f4cfe5a7df8800786a9@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270120T080000
+DTEND;TZID=Europe/Warsaw:20270120T093500
+SUMMARY:Miksw (ć)
+LOCATION:130 36
+DESCRIPTION:Mikrokontrolery w systemach wbudowanych\nRodzaj: ćwiczenia\nP
+ rowadzący: dr inż. Rochala Zdzisław\nNr zajęć: 10/11\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7a48b086d1528e2aee4f8af9@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270120T095000
+DTEND;TZID=Europe/Warsaw:20270120T112500
+SUMMARY:Css (ć)
+LOCATION:130 36
+DESCRIPTION:Cyfrowe systemy sterowania\nRodzaj: ćwiczenia\nProwadzący: p
+ łk mgr inż. Hanc Damian\nNr zajęć: 10/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:dd4b9cefd783fa92a0f2d14f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270120T114000
+DTEND;TZID=Europe/Warsaw:20270120T131500
+SUMMARY:Miksw (w)
+LOCATION:24 67
+DESCRIPTION:Mikrokontrolery w systemach wbudowanych\nRodzaj: wykład\nProw
+ adzący: dr inż. Rochala Zdzisław\nNr zajęć: 9/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3bad36a5c7df3770b290303a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270120T133000
+DTEND;TZID=Europe/Warsaw:20270120T150500
+SUMMARY:Bzzsp (ć)
+LOCATION:S1 72
+DESCRIPTION:Bezzałogowe systemy powietrzne\nRodzaj: ćwiczenia\nProwadzą
+ cy: dr hab. inż. Chachurski Ryszard\nNr zajęć: 8/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c19beb3c01f2f3ddcc74c6eb@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270120T160000
+DTEND;TZID=Europe/Warsaw:20270120T173500
+SUMMARY:Modea (L)
+LOCATION:004 36
+DESCRIPTION:Modelowanie elementów awioniki\nRodzaj: laboratorium\nProwadz
+ ący: dr inż. Kaźmierczak Krzysztof\nNr zajęć: 9/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:56d9d206d3ed1b2b7b4c8a41@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270121T080000
+DTEND;TZID=Europe/Warsaw:20270121T093500
+SUMMARY:Modea (ć)
+LOCATION:31 36
+DESCRIPTION:Modelowanie elementów awioniki\nRodzaj: ćwiczenia\nProwadzą
+ cy: mgr inż. Kurenda Maciej\nNr zajęć: 10/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8f0f3a3005eab5e27c514e1d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270121T095000
+DTEND;TZID=Europe/Warsaw:20270121T112500
+SUMMARY:Miksw (ć)
+LOCATION:130 36
+DESCRIPTION:Mikrokontrolery w systemach wbudowanych\nRodzaj: ćwiczenia\nP
+ rowadzący: dr inż. Rochala Zdzisław\nNr zajęć: 11/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:359ca7648cdb7b76db7b6b48@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270121T114000
+DTEND;TZID=Europe/Warsaw:20270121T131500
+SUMMARY:Bzzsp (L)
+LOCATION:M H7
+DESCRIPTION:Bezzałogowe systemy powietrzne\nRodzaj: laboratorium\nProwadz
+ ący: mgr inż. Borcuch Dominik\nNr zajęć: 11/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:fa6fe7236f82a140c3a1df0e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270121T133000
+DTEND;TZID=Europe/Warsaw:20270121T150500
+SUMMARY:Bzzsp (L)
+LOCATION:M H7
+DESCRIPTION:Bezzałogowe systemy powietrzne\nRodzaj: laboratorium\nProwadz
+ ący: mgr inż. Borcuch Dominik\nNr zajęć: 12/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a0d1b8bc0d2bd04da7c5cb53@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270122T114000
+DTEND;TZID=Europe/Warsaw:20270122T131500
+SUMMARY:Admest (ć)
+LOCATION:18 67
+DESCRIPTION:Adaptacyjne metody sterowania\nRodzaj: ćwiczenia\nProwadzący
+ : dr inż. Kurnyta-Mazurek Paulina\nNr zajęć: 8/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b502b6a61f4866ce913085aa@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270122T133000
+DTEND;TZID=Europe/Warsaw:20270122T150500
+SUMMARY:Tko (S)
+LOCATION:33 67
+DESCRIPTION:Techniki kosmiczne\nRodzaj: seminarium\nProwadzący: mgr inż.
+  Chudy Kamil\nNr zajęć: 7/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1eeeddceed1f71eeef234a4f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270122T160000
+DTEND;TZID=Europe/Warsaw:20270122T173500
+SUMMARY:Tko (S)
+LOCATION:33 67
+DESCRIPTION:Techniki kosmiczne\nRodzaj: seminarium\nProwadzący: mgr inż.
+  Chudy Kamil\nNr zajęć: 8/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:6345ec6f258b938348f3caa9@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270125T080000
+DTEND;TZID=Europe/Warsaw:20270125T093500
+SUMMARY:Tko (ć)
+LOCATION:18 67
+DESCRIPTION:Techniki kosmiczne\nRodzaj: ćwiczenia\nProwadzący: mgr inż.
+  Chudy Kamil\nNr zajęć: 6/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e34d7147d883f0f8b84bdc29@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270125T095000
+DTEND;TZID=Europe/Warsaw:20270125T112500
+SUMMARY:Tko (w)
+LOCATION:50 63
+DESCRIPTION:Techniki kosmiczne\nRodzaj: wykład\nProwadzący: dr Piątkows
+ ki Andrzej\nNr zajęć: 9/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e0ed7d0dbd0f19f2cb33cd8b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270125T114000
+DTEND;TZID=Europe/Warsaw:20270125T131500
+SUMMARY:Tko (ć)
+LOCATION:50 63
+DESCRIPTION:Techniki kosmiczne\nRodzaj: ćwiczenia\nProwadzący: dr Piątk
+ owski Andrzej\nNr zajęć: 7/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:189564bcbc4ab55e31a3ab0e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270126T133000
+DTEND;TZID=Europe/Warsaw:20270126T150500
+SUMMARY:Tko (S)
+LOCATION:33 67
+DESCRIPTION:Techniki kosmiczne\nRodzaj: seminarium\nProwadzący: mgr inż.
+  Chudy Kamil\nNr zajęć: 9/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4019f72ecfef6947ec6ddb64@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270127T080000
+DTEND;TZID=Europe/Warsaw:20270127T093500
+SUMMARY:Css (w)
+LOCATION:39 36
+DESCRIPTION:Cyfrowe systemy sterowania\nRodzaj: wykład\nProwadzący: dr h
+ ab. inż. Falkowski Krzysztof\nNr zajęć: 20/20\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4d4fc2f432be3c0f872de8ad@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270127T114000
+DTEND;TZID=Europe/Warsaw:20270127T131500
+SUMMARY:Miksw (w)
+LOCATION:24 67
+DESCRIPTION:Mikrokontrolery w systemach wbudowanych\nRodzaj: wykład\nProw
+ adzący: dr inż. Rochala Zdzisław\nNr zajęć: 10/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2b4105992bd34abb6d9e0b62@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270127T133000
+DTEND;TZID=Europe/Warsaw:20270127T150500
+SUMMARY:Bzzsp (S)
+LOCATION:43 67
+DESCRIPTION:Bezzałogowe systemy powietrzne\nRodzaj: seminarium\nProwadzą
+ cy: ppłk dr inż. Rogólski Robert\nNr zajęć: 8/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3de8d4f73d76265c98e4377c@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270127T160000
+DTEND;TZID=Europe/Warsaw:20270127T173500
+SUMMARY:Modea (L)
+LOCATION:004 36
+DESCRIPTION:Modelowanie elementów awioniki\nRodzaj: laboratorium\nProwadz
+ ący: dr inż. Kaźmierczak Krzysztof\nNr zajęć: 10/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:806163d407344d20d45f7b3c@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270128T080000
+DTEND;TZID=Europe/Warsaw:20270128T093500
+SUMMARY:Tko (ć)
+LOCATION:50 63
+DESCRIPTION:Techniki kosmiczne\nRodzaj: ćwiczenia\nProwadzący: dr Piątk
+ owski Andrzej\nNr zajęć: 8/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:00b6d85324ec7872f6464cea@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270128T095000
+DTEND;TZID=Europe/Warsaw:20270128T112500
+SUMMARY:Tko (ć)
+LOCATION:50 63
+DESCRIPTION:Techniki kosmiczne\nRodzaj: ćwiczenia\nProwadzący: dr Piątk
+ owski Andrzej\nNr zajęć: 9/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:35b85ed3bc43db411cd7ab55@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270128T114000
+DTEND;TZID=Europe/Warsaw:20270128T131500
+SUMMARY:Admest (L)
+LOCATION:18 67
+DESCRIPTION:Adaptacyjne metody sterowania\nRodzaj: laboratorium\nProwadzą
+ cy: dr inż. Kurnyta-Mazurek Paulina\nNr zajęć: 12/13\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e2582b017a86fb70177dbfd2@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270128T133000
+DTEND;TZID=Europe/Warsaw:20270128T150500
+SUMMARY:Admest (L)
+LOCATION:18 67
+DESCRIPTION:Adaptacyjne metody sterowania\nRodzaj: laboratorium\nProwadzą
+ cy: dr inż. Kurnyta-Mazurek Paulina\nNr zajęć: 13/13\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8f12a4b945533c5aa917a884@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270129T080000
+DTEND;TZID=Europe/Warsaw:20270129T093500
+SUMMARY:Tko (S)
+LOCATION:33 67
+DESCRIPTION:Techniki kosmiczne\nRodzaj: seminarium\nProwadzący: mgr inż.
+  Chudy Kamil\nNr zajęć: 10/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c00dd7e43ac6ba06d9067788@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270129T095000
+DTEND;TZID=Europe/Warsaw:20270129T112500
+SUMMARY:Tko (w)
+LOCATION:S3 72
+DESCRIPTION:Techniki kosmiczne\nRodzaj: wykład\nProwadzący: mgr inż. Ch
+ udy Kamil\nNr zajęć: 10/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:cd64d99e8eed94e7802b3624@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270129T133000
+DTEND;TZID=Europe/Warsaw:20270129T150500
+SUMMARY:Tko (ć)
+LOCATION:50 63
+DESCRIPTION:Techniki kosmiczne\nRodzaj: ćwiczenia\nProwadzący: dr Piątk
+ owski Andrzej\nNr zajęć: 10/10\nBlok: 4
+END:VEVENT
+END:VCALENDAR

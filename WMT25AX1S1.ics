@@ -1,0 +1,2287 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WMT25AX1S1
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:d4d9a9160acf1295850fdc4f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20260914T095000
+DTEND;TZID=Europe/Warsaw:20260914T112500
+SUMMARY:Mat3 (Ep)
+LOCATION:19 36
+DESCRIPTION:Matematyka 3\nRodzaj: egzamin poprawkowy\nProwadzący: dr Tark
+ a Joanna\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:994e94346c1b5318c9380e85@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20260918T080000
+DTEND;TZID=Europe/Warsaw:20260918T093500
+SUMMARY:F1 (Ep)
+LOCATION:19 36
+DESCRIPTION:Fizyka 1\nRodzaj: egzamin poprawkowy\nProwadzący: dr hab .in
+ ż. Perkowski Paweł\nNr zajęć: 1/2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d6a92a173d331c0e9026024e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20260918T095000
+DTEND;TZID=Europe/Warsaw:20260918T112500
+SUMMARY:F1 (Ep)
+LOCATION:19 36
+DESCRIPTION:Fizyka 1\nRodzaj: egzamin poprawkowy\nProwadzący: dr hab .in
+ ż. Perkowski Paweł\nNr zajęć: 2/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:63ea6cf34b498b64549a4559@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261001T080000
+DTEND;TZID=Europe/Warsaw:20261001T093500
+SUMMARY:Liwpw (w)
+LOCATION:46 63
+DESCRIPTION:Laboratorium inżynierii wytwarzania i pomiarów warsztatowych
+ \nRodzaj: wykład\nProwadzący: dr hab. inż. Majewski Tomasz\nNr zajęć
+ : 1/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:14af127c9b6ecf298798f942@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261001T095000
+DTEND;TZID=Europe/Warsaw:20261001T112500
+SUMMARY:Liwpw (w)
+LOCATION:46 63
+DESCRIPTION:Laboratorium inżynierii wytwarzania i pomiarów warsztatowych
+ \nRodzaj: wykład\nProwadzący: dr hab. inż. Majewski Tomasz\nNr zajęć
+ : 2/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9e088092b82550a5aa68d2c2@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261002T114000
+DTEND;TZID=Europe/Warsaw:20261002T131500
+SUMMARY:PKM (w)
+LOCATION:46 63
+DESCRIPTION:Podstawy konstrukcji maszyn\nRodzaj: wykład\nProwadzący: dr 
+ inż. Pac Małgorzata\nNr zajęć: 1/14\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:829883aa152164d9ad2cae71@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261002T133000
+DTEND;TZID=Europe/Warsaw:20261002T150500
+SUMMARY:Liwpw (w)
+LOCATION:46 63
+DESCRIPTION:Laboratorium inżynierii wytwarzania i pomiarów warsztatowych
+ \nRodzaj: wykład\nProwadzący: dr hab. inż. Janiszewski Jacek\nNr zaję
+ ć: 3/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d26ca7f97e25f1d5580c9dc8@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261002T160000
+DTEND;TZID=Europe/Warsaw:20261002T173500
+SUMMARY:Liwpw (w)
+LOCATION:46 63
+DESCRIPTION:Laboratorium inżynierii wytwarzania i pomiarów warsztatowych
+ \nRodzaj: wykład\nProwadzący: dr hab. inż. Janiszewski Jacek\nNr zaję
+ ć: 4/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f9615331b42ea539849537dd@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261005T114000
+DTEND;TZID=Europe/Warsaw:20261005T131500
+SUMMARY:PKM (w)
+LOCATION:46 63
+DESCRIPTION:Podstawy konstrukcji maszyn\nRodzaj: wykład\nProwadzący: dr 
+ inż. Pac Małgorzata\nNr zajęć: 2/14\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2c2ecb81a607e33c1f60f430@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261005T133000
+DTEND;TZID=Europe/Warsaw:20261005T150500
+SUMMARY:F2 (w)
+LOCATION:19 36
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: dr hab .inż. Perkowsk
+ i Paweł\nNr zajęć: 1/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2955f3abd854ca1e0af8e63c@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261005T160000
+DTEND;TZID=Europe/Warsaw:20261005T173500
+SUMMARY:Ja (ć)
+LOCATION:230 K\;134
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 1/15\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:8b8a5eadfbbf4f3e7bcf3c07@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261005T175000
+DTEND;TZID=Europe/Warsaw:20261005T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 1/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:8fb8fe6a9baf519e8c979a04@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261008T080000
+DTEND;TZID=Europe/Warsaw:20261008T093500
+SUMMARY:Met (w)
+LOCATION:46 63
+DESCRIPTION:Mechanika techniczna\nRodzaj: wykład\nProwadzący: prof. dr h
+ ab.inż. Trębiński Radosław\nNr zajęć: 1/17\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2e8c4cc80b32270e0c577393@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261008T095000
+DTEND;TZID=Europe/Warsaw:20261008T112500
+SUMMARY:Met (w)
+LOCATION:46 63
+DESCRIPTION:Mechanika techniczna\nRodzaj: wykład\nProwadzący: prof. dr h
+ ab.inż. Trębiński Radosław\nNr zajęć: 2/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:665a992c8afb1c5e133a3100@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261008T114000
+DTEND;TZID=Europe/Warsaw:20261008T131500
+SUMMARY:EiE1 (w)
+LOCATION:46 63
+DESCRIPTION:Elektrotechnika i elektronika 1\nRodzaj: wykład\nProwadzący:
+  dr inż. Szczurko Jan\nNr zajęć: 1/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2a84f07d1d92ad9064ebdf93@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261008T160000
+DTEND;TZID=Europe/Warsaw:20261008T173500
+SUMMARY:Liwpw (w)
+LOCATION:46 63
+DESCRIPTION:Laboratorium inżynierii wytwarzania i pomiarów warsztatowych
+ \nRodzaj: wykład\nProwadzący: dr hab. inż. Majewski Tomasz\nNr zajęć
+ : 5/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:39b5345609534deff37c1ad5@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261009T114000
+DTEND;TZID=Europe/Warsaw:20261009T131500
+SUMMARY:PKM (w)
+LOCATION:46 63
+DESCRIPTION:Podstawy konstrukcji maszyn\nRodzaj: wykład\nProwadzący: dr 
+ hab. inż. Woźniak Ryszard\nNr zajęć: 3/14\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ede6ab465b5499e9d801032e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261012T114000
+DTEND;TZID=Europe/Warsaw:20261012T131500
+SUMMARY:PKM (ć)
+LOCATION:20 69
+DESCRIPTION:Podstawy konstrukcji maszyn\nRodzaj: ćwiczenia\nProwadzący: 
+ dr inż. Pac Małgorzata\nNr zajęć: 1/16\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4446ae269fc59c7801e2e717@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261012T133000
+DTEND;TZID=Europe/Warsaw:20261012T150500
+SUMMARY:F2 (w)
+LOCATION:19 36
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: dr hab .inż. Perkowsk
+ i Paweł\nNr zajęć: 2/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:52b281878bd75ff7589eeb9d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261012T160000
+DTEND;TZID=Europe/Warsaw:20261012T173500
+SUMMARY:Ja (ć)
+LOCATION:230 K\;134
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 2/15\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:b49d266772916acc53773762@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261012T175000
+DTEND;TZID=Europe/Warsaw:20261012T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 2/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:b20834fa58d9cded98c97800@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261013T114000
+DTEND;TZID=Europe/Warsaw:20261013T131500
+SUMMARY:PKM (ć)
+LOCATION:20 69
+DESCRIPTION:Podstawy konstrukcji maszyn\nRodzaj: ćwiczenia\nProwadzący: 
+ dr inż. Pac Małgorzata\nNr zajęć: 2/16\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:58ebdf6952f7c2f286346f41@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261014T080000
+DTEND;TZID=Europe/Warsaw:20261014T093500
+SUMMARY:Liwpw (w)
+LOCATION:46 63
+DESCRIPTION:Laboratorium inżynierii wytwarzania i pomiarów warsztatowych
+ \nRodzaj: wykład\nProwadzący: dr hab. inż. Majewski Tomasz\nNr zajęć
+ : 6/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:87ab77e57ae816288645f6d4@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261014T095000
+DTEND;TZID=Europe/Warsaw:20261014T112500
+SUMMARY:PKM (w)
+LOCATION:46 63
+DESCRIPTION:Podstawy konstrukcji maszyn\nRodzaj: wykład\nProwadzący: dr 
+ inż. Pac Małgorzata\nNr zajęć: 4/14\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2f8876e57faaca85adb0ca62@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261015T114000
+DTEND;TZID=Europe/Warsaw:20261015T131500
+SUMMARY:EiE1 (w)
+LOCATION:46 63
+DESCRIPTION:Elektrotechnika i elektronika 1\nRodzaj: wykład\nProwadzący:
+  dr inż. Szczurko Jan\nNr zajęć: 2/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a060ec65862c3d458418e662@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261016T114000
+DTEND;TZID=Europe/Warsaw:20261016T131500
+SUMMARY:PKM (ć)
+LOCATION:28 69
+DESCRIPTION:Podstawy konstrukcji maszyn\nRodzaj: ćwiczenia\nProwadzący: 
+ dr inż. Pac Małgorzata\nNr zajęć: 3/16\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3c385d8e4840fbce3d7391f1@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261016T160000
+DTEND;TZID=Europe/Warsaw:20261016T173500
+SUMMARY:Liwpw (w)
+LOCATION:46 63
+DESCRIPTION:Laboratorium inżynierii wytwarzania i pomiarów warsztatowych
+ \nRodzaj: wykład\nProwadzący: dr hab. inż. Majewski Tomasz\nNr zajęć
+ : 7/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f95eaf53aa75ced7c29cc83c@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261019T133000
+DTEND;TZID=Europe/Warsaw:20261019T150500
+SUMMARY:F2 (w)
+LOCATION:19 36
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: dr hab .inż. Perkowsk
+ i Paweł\nNr zajęć: 3/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:10818de8ab53e08dc6a3e1dd@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261019T160000
+DTEND;TZID=Europe/Warsaw:20261019T173500
+SUMMARY:Ja (ć)
+LOCATION:230 K\;134
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 3/15\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:6239bc65f5131685e40911c7@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261019T175000
+DTEND;TZID=Europe/Warsaw:20261019T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 3/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:c6a02bc2d454cb5f434f2a6c@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261020T114000
+DTEND;TZID=Europe/Warsaw:20261020T131500
+SUMMARY:Met (w)
+LOCATION:46 63
+DESCRIPTION:Mechanika techniczna\nRodzaj: wykład\nProwadzący: prof. dr h
+ ab.inż. Trębiński Radosław\nNr zajęć: 3/17\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:31a8a6d048489a34ffa96252@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261020T133000
+DTEND;TZID=Europe/Warsaw:20261020T150500
+SUMMARY:F2 (L)
+LOCATION:141 S\;137
+DESCRIPTION:Fizyka 2\nRodzaj: laboratorium\nProwadzący: dr inż. Dudek Mi
+ chał\nNr zajęć: 1/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:104f8f6cb192acc4b2f4f487@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261021T095000
+DTEND;TZID=Europe/Warsaw:20261021T112500
+SUMMARY:PKM (ć)
+LOCATION:20 63
+DESCRIPTION:Podstawy konstrukcji maszyn\nRodzaj: ćwiczenia\nProwadzący: 
+ dr inż. Pac Małgorzata\nNr zajęć: 4/16\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:79f7b4a558d3f790c8f78bfc@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261021T114000
+DTEND;TZID=Europe/Warsaw:20261021T131500
+SUMMARY:Liim (L)
+LOCATION:113 25
+DESCRIPTION:Laboratorium informatyki i mechaniki\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Piechna Sławomir\nNr zajęć: 1/19\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7e081b9f8de59408126eb97e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261021T133000
+DTEND;TZID=Europe/Warsaw:20261021T150500
+SUMMARY:EiE1 (ć)
+LOCATION:325 S
+DESCRIPTION:Elektrotechnika i elektronika 1\nRodzaj: ćwiczenia\nProwadzą
+ cy: dr inż. Szczurko Jan\nNr zajęć: 1/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f89b9f190997f2666359f41f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261021T160000
+DTEND;TZID=Europe/Warsaw:20261021T173500
+SUMMARY:Liim (L)
+LOCATION:31 36
+DESCRIPTION:Laboratorium informatyki i mechaniki\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Gąsiorowski Marek\nNr zajęć: 2/19\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:32e6a75c2ccf07e64d4851b6@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261022T095000
+DTEND;TZID=Europe/Warsaw:20261022T112500
+SUMMARY:Met (w)
+LOCATION:46 63
+DESCRIPTION:Mechanika techniczna\nRodzaj: wykład\nProwadzący: prof. dr h
+ ab.inż. Trębiński Radosław\nNr zajęć: 4/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:12e5f98f6b3ed49b97db778f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261022T133000
+DTEND;TZID=Europe/Warsaw:20261022T150500
+SUMMARY:EiE1 (w)
+LOCATION:46 63
+DESCRIPTION:Elektrotechnika i elektronika 1\nRodzaj: wykład\nProwadzący:
+  dr inż. Szczurko Jan\nNr zajęć: 3/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0de9e16e37cf906c38a20aed@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261022T160000
+DTEND;TZID=Europe/Warsaw:20261022T173500
+SUMMARY:EiE1 (w)
+LOCATION:46 63
+DESCRIPTION:Elektrotechnika i elektronika 1\nRodzaj: wykład\nProwadzący:
+  dr inż. Szczurko Jan\nNr zajęć: 4/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:8f9b9e1564a7bc070c397243@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261023T114000
+DTEND;TZID=Europe/Warsaw:20261023T131500
+SUMMARY:PKM (ć)
+LOCATION:28 69
+DESCRIPTION:Podstawy konstrukcji maszyn\nRodzaj: ćwiczenia\nProwadzący: 
+ dr inż. Pac Małgorzata\nNr zajęć: 5/16\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ecf22e3dcb7cef0f1cdaaee9@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261023T133000
+DTEND;TZID=Europe/Warsaw:20261023T150500
+SUMMARY:Liim (L)
+LOCATION:113 25
+DESCRIPTION:Laboratorium informatyki i mechaniki\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Piechna Sławomir\nNr zajęć: 3/19\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:dd55e8d680753208062e52c0@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261026T080000
+DTEND;TZID=Europe/Warsaw:20261026T093500
+SUMMARY:Liwpw (L)
+LOCATION:2 25\;17 25
+DESCRIPTION:Laboratorium inżynierii wytwarzania i pomiarów warsztatowych
+ \nRodzaj: laboratorium\nProwadzący: dr inż. Sienkiewicz Judyta\nNr zaj
+ ęć: 1/18\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7f180cfcc3527d3108211fc5@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261026T095000
+DTEND;TZID=Europe/Warsaw:20261026T112500
+SUMMARY:Liwpw (L)
+LOCATION:2 25\;17 25
+DESCRIPTION:Laboratorium inżynierii wytwarzania i pomiarów warsztatowych
+ \nRodzaj: laboratorium\nProwadzący: dr inż. Sienkiewicz Judyta\nNr zaj
+ ęć: 2/18\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:308993c4bb8822f902af1857@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261026T133000
+DTEND;TZID=Europe/Warsaw:20261026T150500
+SUMMARY:F2 (w)
+LOCATION:19 36
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: dr hab .inż. Perkowsk
+ i Paweł\nNr zajęć: 4/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5c06359a88eb7168db2e8818@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261026T160000
+DTEND;TZID=Europe/Warsaw:20261026T173500
+SUMMARY:Ja (ć)
+LOCATION:230 K\;134
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 4/15\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:b063c110dfedab19ebc3abab@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261026T175000
+DTEND;TZID=Europe/Warsaw:20261026T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 4/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:51b7e95855262e5e1e87e6db@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261027T114000
+DTEND;TZID=Europe/Warsaw:20261027T131500
+SUMMARY:Met (w)
+LOCATION:46 63
+DESCRIPTION:Mechanika techniczna\nRodzaj: wykład\nProwadzący: prof. dr h
+ ab.inż. Trębiński Radosław\nNr zajęć: 5/17\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ea5cdb99b184a277430e8a42@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261027T133000
+DTEND;TZID=Europe/Warsaw:20261027T150500
+SUMMARY:F2 (ć)
+LOCATION:41 36
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr inż. Chrunik Ma
+ ciej\nNr zajęć: 1/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e55509633bdefabb748651aa@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261028T080000
+DTEND;TZID=Europe/Warsaw:20261028T093500
+SUMMARY:Liim (L)
+LOCATION:113 25
+DESCRIPTION:Laboratorium informatyki i mechaniki\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Piechna Sławomir\nNr zajęć: 4/19\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:38147dc0e809af99a63af268@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261028T114000
+DTEND;TZID=Europe/Warsaw:20261028T131500
+SUMMARY:PKM (ć)
+LOCATION:28 69
+DESCRIPTION:Podstawy konstrukcji maszyn\nRodzaj: ćwiczenia\nProwadzący: 
+ dr inż. Pac Małgorzata\nNr zajęć: 6/16\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:67894cece271d242a71ab0c2@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261028T133000
+DTEND;TZID=Europe/Warsaw:20261028T150500
+SUMMARY:Met (ć)
+LOCATION:20 69
+DESCRIPTION:Mechanika techniczna\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Czyżewska Marta\nNr zajęć: 1/17\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:59272b06ee0c8d67e447d615@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261029T080000
+DTEND;TZID=Europe/Warsaw:20261029T093500
+SUMMARY:F2 (w)
+LOCATION:19 36
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: dr hab .inż. Perkowsk
+ i Paweł\nNr zajęć: 5/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:26c92f87b254a6584f7e56de@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261029T095000
+DTEND;TZID=Europe/Warsaw:20261029T112500
+SUMMARY:Met (w)
+LOCATION:46 63
+DESCRIPTION:Mechanika techniczna\nRodzaj: wykład\nProwadzący: prof. dr h
+ ab.inż. Trębiński Radosław\nNr zajęć: 6/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1fd49f11933aea038bfa0826@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261029T114000
+DTEND;TZID=Europe/Warsaw:20261029T131500
+SUMMARY:Met (ć)
+LOCATION:28 69
+DESCRIPTION:Mechanika techniczna\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Czyżewska Marta\nNr zajęć: 2/17\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4a90909607210bfd739ada08@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261029T133000
+DTEND;TZID=Europe/Warsaw:20261029T150500
+SUMMARY:EiE1 (w)
+LOCATION:46 63
+DESCRIPTION:Elektrotechnika i elektronika 1\nRodzaj: wykład\nProwadzący:
+  dr inż. Szczurko Jan\nNr zajęć: 5/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:429e21c06b7318dcd6382969@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261030T080000
+DTEND;TZID=Europe/Warsaw:20261030T093500
+SUMMARY:PKM (w)
+LOCATION:46 63
+DESCRIPTION:Podstawy konstrukcji maszyn\nRodzaj: wykład\nProwadzący: dr 
+ inż. Pac Małgorzata\nNr zajęć: 5/14\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9e808dfcc342429c4f1392af@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261102T080000
+DTEND;TZID=Europe/Warsaw:20261102T093500
+SUMMARY:Liwpw (L)
+LOCATION:2 25\;17 25
+DESCRIPTION:Laboratorium inżynierii wytwarzania i pomiarów warsztatowych
+ \nRodzaj: laboratorium\nProwadzący: dr inż. Sienkiewicz Judyta\nNr zaj
+ ęć: 3/18\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:cb6c921af74a84d7068eba22@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261102T095000
+DTEND;TZID=Europe/Warsaw:20261102T112500
+SUMMARY:Liwpw (L)
+LOCATION:2 25\;17 25
+DESCRIPTION:Laboratorium inżynierii wytwarzania i pomiarów warsztatowych
+ \nRodzaj: laboratorium\nProwadzący: dr inż. Sienkiewicz Judyta\nNr zaj
+ ęć: 4/18\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:cf8ff7db4fd316f6f03aca20@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261102T133000
+DTEND;TZID=Europe/Warsaw:20261102T150500
+SUMMARY:Lwnm (L)
+LOCATION:24 25\;7 25
+DESCRIPTION:Laboratorium wytrzymałości i nauki o materiałach\nRodzaj: l
+ aboratorium\nProwadzący: mgr inż. Sarzyńska Katarzyna\nNr zajęć: 1/1
+ 5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b2a23d49430dd402f77750a0@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261102T160000
+DTEND;TZID=Europe/Warsaw:20261102T173500
+SUMMARY:Ja (ć)
+LOCATION:230 K\;134
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 5/15\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:6779e1541f383e858090ae10@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261102T175000
+DTEND;TZID=Europe/Warsaw:20261102T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 5/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:71077a0742707c1fd32c2527@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261103T114000
+DTEND;TZID=Europe/Warsaw:20261103T131500
+SUMMARY:Met (w)
+LOCATION:46 63
+DESCRIPTION:Mechanika techniczna\nRodzaj: wykład\nProwadzący: prof. dr h
+ ab.inż. Trębiński Radosław\nNr zajęć: 7/17\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1d65760e4b93135585c3168c@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261103T133000
+DTEND;TZID=Europe/Warsaw:20261103T150500
+SUMMARY:PKM (w)
+LOCATION:46 63
+DESCRIPTION:Podstawy konstrukcji maszyn\nRodzaj: wykład\nProwadzący: dr 
+ hab. inż. Leciejewski Zbigniew\nNr zajęć: 6/14\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7839cf3df563807aea1fabc6@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261104T095000
+DTEND;TZID=Europe/Warsaw:20261104T112500
+SUMMARY:Met (ć)
+LOCATION:20 69
+DESCRIPTION:Mechanika techniczna\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Czyżewska Marta\nNr zajęć: 3/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8f59e3f2abdc3ba83829db50@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261104T114000
+DTEND;TZID=Europe/Warsaw:20261104T131500
+SUMMARY:EiE1 (w)
+LOCATION:46 63
+DESCRIPTION:Elektrotechnika i elektronika 1\nRodzaj: wykład\nProwadzący:
+  dr inż. Para Wojciech\nNr zajęć: 6/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:fa03dc6f612257f5398c865e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261104T133000
+DTEND;TZID=Europe/Warsaw:20261104T150500
+SUMMARY:F2 (ć)
+LOCATION:41 36
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr inż. Chrunik Ma
+ ciej\nNr zajęć: 2/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7a8ad89c9222ea8cedfab45f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261105T080000
+DTEND;TZID=Europe/Warsaw:20261105T093500
+SUMMARY:F2 (w)
+LOCATION:19 36
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: dr hab .inż. Perkowsk
+ i Paweł\nNr zajęć: 6/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:dd8b72a6e312394a1e69425e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261105T095000
+DTEND;TZID=Europe/Warsaw:20261105T112500
+SUMMARY:Met (w)
+LOCATION:46 63
+DESCRIPTION:Mechanika techniczna\nRodzaj: wykład\nProwadzący: prof. dr h
+ ab.inż. Trębiński Radosław\nNr zajęć: 8/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8d0ce0092d6b201a1a5692b6@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261105T133000
+DTEND;TZID=Europe/Warsaw:20261105T150500
+SUMMARY:EiE1 (w)
+LOCATION:46 63
+DESCRIPTION:Elektrotechnika i elektronika 1\nRodzaj: wykład\nProwadzący:
+  dr inż. Szczurko Jan\nNr zajęć: 7/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a6952278ea3b8460f038c786@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261106T080000
+DTEND;TZID=Europe/Warsaw:20261106T093500
+SUMMARY:PKM (ć)
+LOCATION:28 69
+DESCRIPTION:Podstawy konstrukcji maszyn\nRodzaj: ćwiczenia\nProwadzący: 
+ dr inż. Pac Małgorzata\nNr zajęć: 7/16\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3a65725a24b687ed2926a61c@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261106T095000
+DTEND;TZID=Europe/Warsaw:20261106T112500
+SUMMARY:Liim (L)
+LOCATION:113 25
+DESCRIPTION:Laboratorium informatyki i mechaniki\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Piechna Sławomir\nNr zajęć: 5/19\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d123bb4fe86048c4826ad000@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261109T133000
+DTEND;TZID=Europe/Warsaw:20261109T150500
+SUMMARY:F2 (L)
+LOCATION:141 S\;137
+DESCRIPTION:Fizyka 2\nRodzaj: laboratorium\nProwadzący: dr inż. Dudek Mi
+ chał\nNr zajęć: 2/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:55a38ea38f3533c4fecbae68@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261109T160000
+DTEND;TZID=Europe/Warsaw:20261109T173500
+SUMMARY:Ja (ć)
+LOCATION:230 K\;134
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 6/15\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:09033c2457d5e5270767133d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261109T175000
+DTEND;TZID=Europe/Warsaw:20261109T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 6/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:d30652b64d1e0a6f15721c6a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261110T114000
+DTEND;TZID=Europe/Warsaw:20261110T131500
+SUMMARY:Met (w)
+LOCATION:46 63
+DESCRIPTION:Mechanika techniczna\nRodzaj: wykład\nProwadzący: prof. dr h
+ ab.inż. Trębiński Radosław\nNr zajęć: 9/17\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:808fcea05b2be60c9f166f95@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261110T133000
+DTEND;TZID=Europe/Warsaw:20261110T150500
+SUMMARY:PKM (w)
+LOCATION:46 63
+DESCRIPTION:Podstawy konstrukcji maszyn\nRodzaj: wykład\nProwadzący: dr 
+ inż. Pac Małgorzata\nNr zajęć: 7/14\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ccd45f90c485634c2a4127b6@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261112T080000
+DTEND;TZID=Europe/Warsaw:20261112T093500
+SUMMARY:PKM (ć)
+LOCATION:28 69
+DESCRIPTION:Podstawy konstrukcji maszyn\nRodzaj: ćwiczenia\nProwadzący: 
+ dr inż. Pac Małgorzata\nNr zajęć: 8/16\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:03cf004bf3c96740938783d2@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261112T095000
+DTEND;TZID=Europe/Warsaw:20261112T112500
+SUMMARY:Lwnm (L)
+LOCATION:31 67
+DESCRIPTION:Laboratorium wytrzymałości i nauki o materiałach\nRodzaj: l
+ aboratorium\nProwadzący: mgr inż. Szcześniak Michał\nNr zajęć: 2/15
+ \nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d4c1c8c2fb5a9a2c56254787@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261112T133000
+DTEND;TZID=Europe/Warsaw:20261112T150500
+SUMMARY:EiE1 (L)
+LOCATION:322 S
+DESCRIPTION:Elektrotechnika i elektronika 1\nRodzaj: laboratorium\nProwadz
+ ący: dr inż. Para Wojciech\nNr zajęć: 1/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:705d32bbd08d75fc270b3521@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261113T080000
+DTEND;TZID=Europe/Warsaw:20261113T093500
+SUMMARY:EiE1 (ć)
+LOCATION:325 S
+DESCRIPTION:Elektrotechnika i elektronika 1\nRodzaj: ćwiczenia\nProwadzą
+ cy: dr inż. Szczurko Jan\nNr zajęć: 2/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e5cc967dc65a053716865cae@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261113T133000
+DTEND;TZID=Europe/Warsaw:20261113T150500
+SUMMARY:Lwnm (L)
+LOCATION:31 67
+DESCRIPTION:Laboratorium wytrzymałości i nauki o materiałach\nRodzaj: l
+ aboratorium\nProwadzący: mgr inż. Bratkowski Przemysław\nNr zajęć: 3
+ /15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5e7d60a83d73b7f86c50b0c5@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261116T095000
+DTEND;TZID=Europe/Warsaw:20261116T112500
+SUMMARY:Lwnm (L)
+LOCATION:13 25\;7 25
+DESCRIPTION:Laboratorium wytrzymałości i nauki o materiałach\nRodzaj: l
+ aboratorium\nProwadzący: dr inż. Makowska Katarzyna\nNr zajęć: 4/15\n
+ Blok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:89d237c68c2a82110aa0224e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261116T133000
+DTEND;TZID=Europe/Warsaw:20261116T150500
+SUMMARY:F2 (w)
+LOCATION:19 36
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: dr hab .inż. Perkowsk
+ i Paweł\nNr zajęć: 7/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:27465eb7c1caf28b48dd7ece@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261116T160000
+DTEND;TZID=Europe/Warsaw:20261116T173500
+SUMMARY:Ja (ć)
+LOCATION:230 K\;134
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 7/15\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:e156b9596e159ef929c02aab@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261116T175000
+DTEND;TZID=Europe/Warsaw:20261116T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 7/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:b7d8e1d5335e2ec0a608a077@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261117T114000
+DTEND;TZID=Europe/Warsaw:20261117T131500
+SUMMARY:Met (w)
+LOCATION:46 63
+DESCRIPTION:Mechanika techniczna\nRodzaj: wykład\nProwadzący: prof. dr h
+ ab.inż. Trębiński Radosław\nNr zajęć: 10/17\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:78505c6fdd2645ba120bcc81@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261117T133000
+DTEND;TZID=Europe/Warsaw:20261117T150500
+SUMMARY:PKM (w)
+LOCATION:46 63
+DESCRIPTION:Podstawy konstrukcji maszyn\nRodzaj: wykład\nProwadzący: dr 
+ inż. Pac Małgorzata\nNr zajęć: 8/14\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:74f2cc7f4e1d1cbfeeb997c6@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261118T080000
+DTEND;TZID=Europe/Warsaw:20261118T093500
+SUMMARY:Met (ć)
+LOCATION:20 69
+DESCRIPTION:Mechanika techniczna\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Czyżewska Marta\nNr zajęć: 4/17\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ceb7dd049e767b49b4d1b849@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261118T095000
+DTEND;TZID=Europe/Warsaw:20261118T112500
+SUMMARY:EiE1 (L)
+LOCATION:322 S
+DESCRIPTION:Elektrotechnika i elektronika 1\nRodzaj: laboratorium\nProwadz
+ ący: dr inż. Para Wojciech\nNr zajęć: 2/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0568287281d8db3d5e30ab63@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261118T114000
+DTEND;TZID=Europe/Warsaw:20261118T131500
+SUMMARY:F2 (ć)
+LOCATION:41 36
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr inż. Chrunik Ma
+ ciej\nNr zajęć: 3/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9074a9cbe1e6c5d03edde595@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261118T133000
+DTEND;TZID=Europe/Warsaw:20261118T150500
+SUMMARY:EiE1 (w)
+LOCATION:46 63
+DESCRIPTION:Elektrotechnika i elektronika 1\nRodzaj: wykład\nProwadzący:
+  dr inż. Para Wojciech\nNr zajęć: 8/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c814b92aca18911e8db58e18@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261119T080000
+DTEND;TZID=Europe/Warsaw:20261119T093500
+SUMMARY:PKM (ć)
+LOCATION:28 69
+DESCRIPTION:Podstawy konstrukcji maszyn\nRodzaj: ćwiczenia\nProwadzący: 
+ dr inż. Pac Małgorzata\nNr zajęć: 9/16\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3ca115950b75c16ee90e3093@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261119T095000
+DTEND;TZID=Europe/Warsaw:20261119T112500
+SUMMARY:Met (ć)
+LOCATION:28 69
+DESCRIPTION:Mechanika techniczna\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Czyżewska Marta\nNr zajęć: 5/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:032c9b734bb6035cfac70a2e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261119T133000
+DTEND;TZID=Europe/Warsaw:20261119T150500
+SUMMARY:EiE1 (w)
+LOCATION:46 63
+DESCRIPTION:Elektrotechnika i elektronika 1\nRodzaj: wykład\nProwadzący:
+  dr hab. inż. Pietrasieński Jan\nNr zajęć: 9/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:39924658c20c67aa2dc6c242@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261120T080000
+DTEND;TZID=Europe/Warsaw:20261120T093500
+SUMMARY:PKM (ć)
+LOCATION:28 69
+DESCRIPTION:Podstawy konstrukcji maszyn\nRodzaj: ćwiczenia\nProwadzący: 
+ dr inż. Pac Małgorzata\nNr zajęć: 10/16\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:faa52c0d8573fc1d9a253d17@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261120T095000
+DTEND;TZID=Europe/Warsaw:20261120T112500
+SUMMARY:Liim (L)
+LOCATION:113 25
+DESCRIPTION:Laboratorium informatyki i mechaniki\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Gąsiorowski Marek\nNr zajęć: 6/19\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a48f0385982538653e082207@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261120T114000
+DTEND;TZID=Europe/Warsaw:20261120T131500
+SUMMARY:EiE1 (ć)
+LOCATION:331 S
+DESCRIPTION:Elektrotechnika i elektronika 1\nRodzaj: ćwiczenia\nProwadzą
+ cy: dr inż. Szczurko Jan\nNr zajęć: 3/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:bc19791c4360563063f15d33@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261120T175000
+DTEND;TZID=Europe/Warsaw:20261120T192500
+SUMMARY:Mat3 (Zp)
+LOCATION:46 63
+DESCRIPTION:Matematyka 3\nRodzaj: zaliczenie poprawkowe\nProwadzący: dr T
+ arka Joanna\nNr zajęć: 1/1\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:aad14f5666b5ca7668e6da25@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261123T095000
+DTEND;TZID=Europe/Warsaw:20261123T112500
+SUMMARY:Lwnm (L)
+LOCATION:2 25\;13 25
+DESCRIPTION:Laboratorium wytrzymałości i nauki o materiałach\nRodzaj: l
+ aboratorium\nProwadzący: mgr inż. Dziewit Piotr\nNr zajęć: 5/15\nBlok
+ : 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0a0b9b162e0531aaf08dd861@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261123T114000
+DTEND;TZID=Europe/Warsaw:20261123T131500
+SUMMARY:Liwpw (L)
+LOCATION:2 25\;3 25
+DESCRIPTION:Laboratorium inżynierii wytwarzania i pomiarów warsztatowych
+ \nRodzaj: laboratorium\nProwadzący: mgr inż. Dziewit Piotr\nNr zajęć:
+  5/18\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f23f84096a9d3bfa06a8c720@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261123T133000
+DTEND;TZID=Europe/Warsaw:20261123T150500
+SUMMARY:F2 (w)
+LOCATION:19 36
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: dr hab .inż. Perkowsk
+ i Paweł\nNr zajęć: 8/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0e9b5f4f406a2bf624d17516@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261123T160000
+DTEND;TZID=Europe/Warsaw:20261123T173500
+SUMMARY:Ja (ć)
+LOCATION:230 K\;134
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 8/15\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:1b9ed40d37ea5912946bd9f6@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261123T175000
+DTEND;TZID=Europe/Warsaw:20261123T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 8/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:4c5e3f3e1d4834beac67f865@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261124T095000
+DTEND;TZID=Europe/Warsaw:20261124T112500
+SUMMARY:Lwnm (L)
+LOCATION:31 67
+DESCRIPTION:Laboratorium wytrzymałości i nauki o materiałach\nRodzaj: l
+ aboratorium\nProwadzący: mgr inż. Szcześniak Michał\nNr zajęć: 6/15
+ \nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2b48f6e419f00078cc26cdc7@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261124T114000
+DTEND;TZID=Europe/Warsaw:20261124T131500
+SUMMARY:Met (w)
+LOCATION:46 63
+DESCRIPTION:Mechanika techniczna\nRodzaj: wykład\nProwadzący: prof. dr h
+ ab.inż. Trębiński Radosław\nNr zajęć: 11/17\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e6b65993e2b424f1f092ed34@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261124T133000
+DTEND;TZID=Europe/Warsaw:20261124T150500
+SUMMARY:PKM (w)
+LOCATION:46 63
+DESCRIPTION:Podstawy konstrukcji maszyn\nRodzaj: wykład\nProwadzący: dr 
+ inż. Pac Małgorzata\nNr zajęć: 9/14\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0f80f46927875906f536d95b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261124T160000
+DTEND;TZID=Europe/Warsaw:20261124T173500
+SUMMARY:Liim (L)
+LOCATION:113 25
+DESCRIPTION:Laboratorium informatyki i mechaniki\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Piechna Sławomir\nNr zajęć: 7/19\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:1345656958013cc201e5b0b4@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261125T080000
+DTEND;TZID=Europe/Warsaw:20261125T093500
+SUMMARY:Liim (P)
+LOCATION:113 25
+DESCRIPTION:Laboratorium informatyki i mechaniki\nRodzaj: projekt\nProwadz
+ ący: dr inż. Piechna Sławomir\nNr zajęć: 1/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:600ff2061c6434edcb44b5e1@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261125T095000
+DTEND;TZID=Europe/Warsaw:20261125T112500
+SUMMARY:EiE1 (ć)
+LOCATION:325 S
+DESCRIPTION:Elektrotechnika i elektronika 1\nRodzaj: ćwiczenia\nProwadzą
+ cy: dr inż. Szczurko Jan\nNr zajęć: 4/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6419381249a0e886dc9c7a3e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261125T114000
+DTEND;TZID=Europe/Warsaw:20261125T131500
+SUMMARY:F2 (ć)
+LOCATION:41 36
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr inż. Chrunik Ma
+ ciej\nNr zajęć: 4/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8370908f06972957c6b81834@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261125T133000
+DTEND;TZID=Europe/Warsaw:20261125T150500
+SUMMARY:EiE1 (w)
+LOCATION:46 63
+DESCRIPTION:Elektrotechnika i elektronika 1\nRodzaj: wykład\nProwadzący:
+  dr inż. Para Wojciech\nNr zajęć: 10/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:fdfe31528a2f4218ec48c2d1@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261125T160000
+DTEND;TZID=Europe/Warsaw:20261125T173500
+SUMMARY:F2 (L)
+LOCATION:141 S\;137
+DESCRIPTION:Fizyka 2\nRodzaj: laboratorium\nProwadzący: dr inż. Dudek Mi
+ chał\nNr zajęć: 3/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:b95935460d70d836a76f52df@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261126T080000
+DTEND;TZID=Europe/Warsaw:20261126T093500
+SUMMARY:Met (ć)
+LOCATION:28 69
+DESCRIPTION:Mechanika techniczna\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Czyżewska Marta\nNr zajęć: 6/17\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c4f7c529a7f9332c4a54c742@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261126T114000
+DTEND;TZID=Europe/Warsaw:20261126T131500
+SUMMARY:EiE1 (L)
+LOCATION:322 S
+DESCRIPTION:Elektrotechnika i elektronika 1\nRodzaj: laboratorium\nProwadz
+ ący: dr inż. Para Wojciech\nNr zajęć: 3/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f41df79c73cf6812f9ca6929@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261130T080000
+DTEND;TZID=Europe/Warsaw:20261130T093500
+SUMMARY:Lwnm (L)
+LOCATION:2 25\;13 25
+DESCRIPTION:Laboratorium wytrzymałości i nauki o materiałach\nRodzaj: l
+ aboratorium\nProwadzący: mgr inż. Dziewit Piotr\nNr zajęć: 7/15\nBlok
+ : 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8a38c66422203af9705c5e75@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261130T095000
+DTEND;TZID=Europe/Warsaw:20261130T112500
+SUMMARY:Met (ć)
+LOCATION:28 69
+DESCRIPTION:Mechanika techniczna\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Czyżewska Marta\nNr zajęć: 7/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f398cb4850bb89d0db411abf@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261130T114000
+DTEND;TZID=Europe/Warsaw:20261130T131500
+SUMMARY:Liwpw (L)
+LOCATION:2 25\;3 25
+DESCRIPTION:Laboratorium inżynierii wytwarzania i pomiarów warsztatowych
+ \nRodzaj: laboratorium\nProwadzący: mgr inż. Dziewit Piotr\nNr zajęć:
+  6/18\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6d53e5146ced3e1cf64cc9b4@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261130T133000
+DTEND;TZID=Europe/Warsaw:20261130T150500
+SUMMARY:F2 (w)
+LOCATION:19 36
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: dr hab .inż. Perkowsk
+ i Paweł\nNr zajęć: 9/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:48fabe963773b86642ca4a82@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261130T160000
+DTEND;TZID=Europe/Warsaw:20261130T173500
+SUMMARY:Ja (ć)
+LOCATION:230 K\;134
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 9/15\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:9d35ef906f5e79f6e06929e5@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261130T175000
+DTEND;TZID=Europe/Warsaw:20261130T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 9/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:476654d0474f5ff1fbd272a3@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261201T095000
+DTEND;TZID=Europe/Warsaw:20261201T112500
+SUMMARY:F2 (ć)
+LOCATION:41 36
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr inż. Chrunik Ma
+ ciej\nNr zajęć: 5/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:568cf270d8f9b4833b8c2ff2@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261201T114000
+DTEND;TZID=Europe/Warsaw:20261201T131500
+SUMMARY:Met (w)
+LOCATION:46 63
+DESCRIPTION:Mechanika techniczna\nRodzaj: wykład\nProwadzący: prof. dr h
+ ab.inż. Trębiński Radosław\nNr zajęć: 12/17\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:56e6753392f63ae12311398b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261201T133000
+DTEND;TZID=Europe/Warsaw:20261201T150500
+SUMMARY:PKM (w)
+LOCATION:46 63
+DESCRIPTION:Podstawy konstrukcji maszyn\nRodzaj: wykład\nProwadzący: dr 
+ inż. Pac Małgorzata\nNr zajęć: 10/14\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d6ba0d8310a0747f6d04d77d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261202T095000
+DTEND;TZID=Europe/Warsaw:20261202T112500
+SUMMARY:EiE1 (ć)
+LOCATION:325 S
+DESCRIPTION:Elektrotechnika i elektronika 1\nRodzaj: ćwiczenia\nProwadzą
+ cy: dr inż. Para Wojciech\nNr zajęć: 5/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b60756a7b045af1f1f2dfd44@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261202T114000
+DTEND;TZID=Europe/Warsaw:20261202T131500
+SUMMARY:F2 (ć)
+LOCATION:41 36
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr inż. Chrunik Ma
+ ciej\nNr zajęć: 6/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a11f094d552ea82fcfb86f6e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261202T133000
+DTEND;TZID=Europe/Warsaw:20261202T150500
+SUMMARY:EiE1 (w)
+LOCATION:46 63
+DESCRIPTION:Elektrotechnika i elektronika 1\nRodzaj: wykład\nProwadzący:
+  dr inż. Para Wojciech\nNr zajęć: 11/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b89c0c6d0354b9df2a35504e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261204T133000
+DTEND;TZID=Europe/Warsaw:20261204T150500
+SUMMARY:Lwnm (L)
+LOCATION:31 67
+DESCRIPTION:Laboratorium wytrzymałości i nauki o materiałach\nRodzaj: l
+ aboratorium\nProwadzący: mgr inż. Bratkowski Przemysław\nNr zajęć: 8
+ /15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ea40c65ff46e67c6d7d57639@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261204T160000
+DTEND;TZID=Europe/Warsaw:20261204T173500
+SUMMARY:Liim (L)
+LOCATION:31 36
+DESCRIPTION:Laboratorium informatyki i mechaniki\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Gąsiorowski Marek\nNr zajęć: 8/19\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:363c3168af5b1a8ff9843db1@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261207T080000
+DTEND;TZID=Europe/Warsaw:20261207T093500
+SUMMARY:Liwpw (L)
+LOCATION:2 25\;24 25
+DESCRIPTION:Laboratorium inżynierii wytwarzania i pomiarów warsztatowych
+ \nRodzaj: laboratorium\nProwadzący: mgr inż. Sarzyńska Katarzyna\nNr z
+ ajęć: 7/18\nBlok: 1\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:4eaccee7ecd1e33c504daa94@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261207T095000
+DTEND;TZID=Europe/Warsaw:20261207T112500
+SUMMARY:Liwpw (L)
+LOCATION:2 25\;24 25
+DESCRIPTION:Laboratorium inżynierii wytwarzania i pomiarów warsztatowych
+ \nRodzaj: laboratorium\nProwadzący: mgr inż. Sarzyńska Katarzyna\nNr z
+ ajęć: 8/18\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b6368742158530c79d8af06c@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261207T114000
+DTEND;TZID=Europe/Warsaw:20261207T131500
+SUMMARY:EiE1 (L)
+LOCATION:322 S
+DESCRIPTION:Elektrotechnika i elektronika 1\nRodzaj: laboratorium\nProwadz
+ ący: dr inż. Para Wojciech\nNr zajęć: 4/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:afc2e4f35d97e4c0c50d9e22@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261207T133000
+DTEND;TZID=Europe/Warsaw:20261207T150500
+SUMMARY:F2 (w)
+LOCATION:19 36
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: dr hab .inż. Perkowsk
+ i Paweł\nNr zajęć: 10/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7c5d9446ff0218a03e905f5c@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261207T160000
+DTEND;TZID=Europe/Warsaw:20261207T173500
+SUMMARY:Ja (ć)
+LOCATION:230 K\;134
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 10/15\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:cf0f77b66d34828e81269102@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261207T175000
+DTEND;TZID=Europe/Warsaw:20261207T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 10/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:1e40e773795aee9e0235f204@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261208T114000
+DTEND;TZID=Europe/Warsaw:20261208T131500
+SUMMARY:Met (w)
+LOCATION:46 63
+DESCRIPTION:Mechanika techniczna\nRodzaj: wykład\nProwadzący: prof. dr h
+ ab.inż. Trębiński Radosław\nNr zajęć: 13/17\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:83085545f3d7c30d6a6f90e7@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261208T133000
+DTEND;TZID=Europe/Warsaw:20261208T150500
+SUMMARY:PKM (w)
+LOCATION:46 63
+DESCRIPTION:Podstawy konstrukcji maszyn\nRodzaj: wykład\nProwadzący: dr 
+ inż. Pac Małgorzata\nNr zajęć: 11/14\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:87b0ccd2bb80519163ddc05f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261208T160000
+DTEND;TZID=Europe/Warsaw:20261208T173500
+SUMMARY:Liim (L)
+LOCATION:31 36
+DESCRIPTION:Laboratorium informatyki i mechaniki\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Czyżewska Marta\nNr zajęć: 9/19\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:70536edc928e0a4c4586b6c1@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261209T080000
+DTEND;TZID=Europe/Warsaw:20261209T093500
+SUMMARY:Lwnm (L)
+LOCATION:2 25\;13 25
+DESCRIPTION:Laboratorium wytrzymałości i nauki o materiałach\nRodzaj: l
+ aboratorium\nProwadzący: mgr inż. Dziewit Piotr\nNr zajęć: 9/15\nBlok
+ : 1
+END:VEVENT
+BEGIN:VEVENT
+UID:df6a0aa28e1733364d952360@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261209T095000
+DTEND;TZID=Europe/Warsaw:20261209T112500
+SUMMARY:F2 (L)
+LOCATION:141 S\;137
+DESCRIPTION:Fizyka 2\nRodzaj: laboratorium\nProwadzący: dr inż. Dudek Mi
+ chał\nNr zajęć: 4/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:06d344ed7f149b8d673559b3@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261209T114000
+DTEND;TZID=Europe/Warsaw:20261209T131500
+SUMMARY:EiE1 (w)
+LOCATION:46 63
+DESCRIPTION:Elektrotechnika i elektronika 1\nRodzaj: wykład\nProwadzący:
+  dr inż. Para Wojciech\nNr zajęć: 12/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f31e1d231bd142cfad1e38f7@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261209T133000
+DTEND;TZID=Europe/Warsaw:20261209T150500
+SUMMARY:EiE1 (w)
+LOCATION:46 63
+DESCRIPTION:Elektrotechnika i elektronika 1\nRodzaj: wykład\nProwadzący:
+  dr inż. Para Wojciech\nNr zajęć: 13/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e8ac00b27ca59744b9483824@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261209T160000
+DTEND;TZID=Europe/Warsaw:20261209T173500
+SUMMARY:Met (ć)
+LOCATION:20 69
+DESCRIPTION:Mechanika techniczna\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Czyżewska Marta\nNr zajęć: 8/17\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:ffb5224552aa9b512d613be6@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261210T095000
+DTEND;TZID=Europe/Warsaw:20261210T112500
+SUMMARY:Liwpw (L)
+LOCATION:25 25
+DESCRIPTION:Laboratorium inżynierii wytwarzania i pomiarów warsztatowych
+ \nRodzaj: laboratorium\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zaj
+ ęć: 9/18\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:73faf279111abd42097fa745@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261210T114000
+DTEND;TZID=Europe/Warsaw:20261210T131500
+SUMMARY:Liwpw (L)
+LOCATION:25 25
+DESCRIPTION:Laboratorium inżynierii wytwarzania i pomiarów warsztatowych
+ \nRodzaj: laboratorium\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zaj
+ ęć: 10/18\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3dbd9bf57b75a15b32c6b893@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261211T080000
+DTEND;TZID=Europe/Warsaw:20261211T093500
+SUMMARY:Liim (L)
+LOCATION:31 36
+DESCRIPTION:Laboratorium informatyki i mechaniki\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Gąsiorowski Marek\nNr zajęć: 10/19\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8e2b1b3d6b2c3711b405706f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261214T080000
+DTEND;TZID=Europe/Warsaw:20261214T093500
+SUMMARY:PKM (ć)
+LOCATION:20 69
+DESCRIPTION:Podstawy konstrukcji maszyn\nRodzaj: ćwiczenia\nProwadzący: 
+ dr inż. Pac Małgorzata\nNr zajęć: 11/16\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ca3de0ed9380e27db6e0eb5d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261214T095000
+DTEND;TZID=Europe/Warsaw:20261214T112500
+SUMMARY:Liwpw (L)
+LOCATION:2 25\;3 25
+DESCRIPTION:Laboratorium inżynierii wytwarzania i pomiarów warsztatowych
+ \nRodzaj: laboratorium\nProwadzący: mgr inż. Dziewit Piotr\nNr zajęć:
+  11/18\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c9b78d4ad370bd6e76cafe3d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261214T114000
+DTEND;TZID=Europe/Warsaw:20261214T131500
+SUMMARY:Liwpw (L)
+LOCATION:2 25\;3 25
+DESCRIPTION:Laboratorium inżynierii wytwarzania i pomiarów warsztatowych
+ \nRodzaj: laboratorium\nProwadzący: mgr inż. Dziewit Piotr\nNr zajęć:
+  12/18\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c003c9ee0dece2195e140ae5@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261214T133000
+DTEND;TZID=Europe/Warsaw:20261214T150500
+SUMMARY:F2 (w)
+LOCATION:19 36
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: dr hab .inż. Perkowsk
+ i Paweł\nNr zajęć: 11/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3535aa0d20882764005c1883@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261214T160000
+DTEND;TZID=Europe/Warsaw:20261214T173500
+SUMMARY:Ja (ć)
+LOCATION:230 K\;134
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 11/15\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:414e17ca67e64a1433b87976@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261214T175000
+DTEND;TZID=Europe/Warsaw:20261214T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 11/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:20b5ebbe51018ba272bc0659@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261215T114000
+DTEND;TZID=Europe/Warsaw:20261215T131500
+SUMMARY:Met (w)
+LOCATION:46 63
+DESCRIPTION:Mechanika techniczna\nRodzaj: wykład\nProwadzący: prof. dr h
+ ab.inż. Trębiński Radosław\nNr zajęć: 14/17\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8b00f040d58ecc7ca03932b5@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261215T133000
+DTEND;TZID=Europe/Warsaw:20261215T150500
+SUMMARY:PKM (w)
+LOCATION:46 63
+DESCRIPTION:Podstawy konstrukcji maszyn\nRodzaj: wykład\nProwadzący: dr 
+ inż. Pac Małgorzata\nNr zajęć: 12/14\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f0e76d8be0439a50888993cf@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261216T080000
+DTEND;TZID=Europe/Warsaw:20261216T093500
+SUMMARY:Lwnm (L)
+LOCATION:2 25\;13 25
+DESCRIPTION:Laboratorium wytrzymałości i nauki o materiałach\nRodzaj: l
+ aboratorium\nProwadzący: mgr inż. Dziewit Piotr\nNr zajęć: 10/15\nBlo
+ k: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3246d7065fac90e0b2734f0a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261216T095000
+DTEND;TZID=Europe/Warsaw:20261216T112500
+SUMMARY:EiE1 (ć)
+LOCATION:325 S
+DESCRIPTION:Elektrotechnika i elektronika 1\nRodzaj: ćwiczenia\nProwadzą
+ cy: dr inż. Para Wojciech\nNr zajęć: 6/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:486ded67542f795ef67cd118@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261216T114000
+DTEND;TZID=Europe/Warsaw:20261216T131500
+SUMMARY:F2 (ć)
+LOCATION:41 36
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr inż. Chrunik Ma
+ ciej\nNr zajęć: 7/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:bacbf7526c57a34810f0b468@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261216T133000
+DTEND;TZID=Europe/Warsaw:20261216T150500
+SUMMARY:EiE1 (w)
+LOCATION:46 63
+DESCRIPTION:Elektrotechnika i elektronika 1\nRodzaj: wykład\nProwadzący:
+  dr inż. Para Wojciech\nNr zajęć: 14/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5ff65be6df4c5d52576a3c6e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261216T160000
+DTEND;TZID=Europe/Warsaw:20261216T173500
+SUMMARY:Met (ć)
+LOCATION:20 69
+DESCRIPTION:Mechanika techniczna\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Czyżewska Marta\nNr zajęć: 9/17\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:6730f2617c4a6cf7a0ddaaa1@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261217T095000
+DTEND;TZID=Europe/Warsaw:20261217T112500
+SUMMARY:Liwpw (L)
+LOCATION:25 25
+DESCRIPTION:Laboratorium inżynierii wytwarzania i pomiarów warsztatowych
+ \nRodzaj: laboratorium\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zaj
+ ęć: 13/18\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:88624d92e786d2159f3ef30a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261217T114000
+DTEND;TZID=Europe/Warsaw:20261217T131500
+SUMMARY:Liwpw (L)
+LOCATION:25 25
+DESCRIPTION:Laboratorium inżynierii wytwarzania i pomiarów warsztatowych
+ \nRodzaj: laboratorium\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zaj
+ ęć: 14/18\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8cf2abbbabe110741124b82b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261218T080000
+DTEND;TZID=Europe/Warsaw:20261218T093500
+SUMMARY:Lwnm (L)
+LOCATION:31 67
+DESCRIPTION:Laboratorium wytrzymałości i nauki o materiałach\nRodzaj: l
+ aboratorium\nProwadzący: mgr inż. Bratkowski Przemysław\nNr zajęć: 1
+ 1/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b5049572af0c757e02dd939a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261218T160000
+DTEND;TZID=Europe/Warsaw:20261218T173500
+SUMMARY:Lwnm (L)
+LOCATION:31 67
+DESCRIPTION:Laboratorium wytrzymałości i nauki o materiałach\nRodzaj: l
+ aboratorium\nProwadzący: mgr inż. Bratkowski Przemysław\nNr zajęć: 1
+ 2/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:8c66298b33e69a78e34c1501@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261221T080000
+DTEND;TZID=Europe/Warsaw:20261221T093500
+SUMMARY:PKM (ć)
+LOCATION:20 69
+DESCRIPTION:Podstawy konstrukcji maszyn\nRodzaj: ćwiczenia\nProwadzący: 
+ dr inż. Pac Małgorzata\nNr zajęć: 12/16\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9ae679f82ffee871e3cb881f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261221T095000
+DTEND;TZID=Europe/Warsaw:20261221T112500
+SUMMARY:Lwnm (L)
+LOCATION:13 25\;7 25
+DESCRIPTION:Laboratorium wytrzymałości i nauki o materiałach\nRodzaj: l
+ aboratorium\nProwadzący: dr inż. Makowska Katarzyna\nNr zajęć: 13/15\
+ nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ee281dfbb0ffbc44fd9291c8@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261221T114000
+DTEND;TZID=Europe/Warsaw:20261221T131500
+SUMMARY:Met (ć)
+LOCATION:20 69
+DESCRIPTION:Mechanika techniczna\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Czyżewska Marta\nNr zajęć: 10/17\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c07660ab33f9446bae0e794a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261221T133000
+DTEND;TZID=Europe/Warsaw:20261221T150500
+SUMMARY:F2 (ć)
+LOCATION:41 36
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr inż. Chrunik Ma
+ ciej\nNr zajęć: 8/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:77ddf39c6c4454a986d22950@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261221T160000
+DTEND;TZID=Europe/Warsaw:20261221T173500
+SUMMARY:Ja (ć)
+LOCATION:230 K\;134
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 12/15\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:4f3a7b55fb7845dff7aeb235@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261221T175000
+DTEND;TZID=Europe/Warsaw:20261221T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 12/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:81fbc712a408fdc06d0cf481@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261222T080000
+DTEND;TZID=Europe/Warsaw:20261222T093500
+SUMMARY:Met (ć)
+LOCATION:20 69
+DESCRIPTION:Mechanika techniczna\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Czyżewska Marta\nNr zajęć: 11/17\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4ef6547b8cc66308c641de06@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261222T095000
+DTEND;TZID=Europe/Warsaw:20261222T112500
+SUMMARY:F2 (w)
+LOCATION:19 36
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: dr hab .inż. Perkowsk
+ i Paweł\nNr zajęć: 12/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a350d334e085f2f65e826475@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261222T114000
+DTEND;TZID=Europe/Warsaw:20261222T131500
+SUMMARY:Met (w)
+LOCATION:46 63
+DESCRIPTION:Mechanika techniczna\nRodzaj: wykład\nProwadzący: prof. dr h
+ ab.inż. Trębiński Radosław\nNr zajęć: 15/17\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:de0af123d9f9df8acddc856f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261222T133000
+DTEND;TZID=Europe/Warsaw:20261222T150500
+SUMMARY:PKM (w)
+LOCATION:46 63
+DESCRIPTION:Podstawy konstrukcji maszyn\nRodzaj: wykład\nProwadzący: dr 
+ inż. Pac Małgorzata\nNr zajęć: 13/14\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1a503b16d4d5193719f16080@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261223T080000
+DTEND;TZID=Europe/Warsaw:20261223T093500
+SUMMARY:Liim (L)
+LOCATION:31 36
+DESCRIPTION:Laboratorium informatyki i mechaniki\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Czyżewska Marta\nNr zajęć: 11/19\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:25c06e7c6cb49e0b9c46642b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261223T095000
+DTEND;TZID=Europe/Warsaw:20261223T112500
+SUMMARY:EiE1 (ć)
+LOCATION:325 S
+DESCRIPTION:Elektrotechnika i elektronika 1\nRodzaj: ćwiczenia\nProwadzą
+ cy: dr inż. Para Wojciech\nNr zajęć: 7/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0ea15f7e1cafa20615dfcc4f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261223T114000
+DTEND;TZID=Europe/Warsaw:20261223T131500
+SUMMARY:F2 (ć)
+LOCATION:41 36
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr inż. Chrunik Ma
+ ciej\nNr zajęć: 9/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:648d04efcca3a7a5b81bfa28@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261223T133000
+DTEND;TZID=Europe/Warsaw:20261223T150500
+SUMMARY:EiE1 (w)
+LOCATION:46 63
+DESCRIPTION:Elektrotechnika i elektronika 1\nRodzaj: wykład\nProwadzący:
+  dr hab. inż. Pietrasieński Jan\nNr zajęć: 15/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e87d2b93d6805191d2b06229@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270107T114000
+DTEND;TZID=Europe/Warsaw:20270107T131500
+SUMMARY:PKM (ć)
+LOCATION:27 69
+DESCRIPTION:Podstawy konstrukcji maszyn\nRodzaj: ćwiczenia\nProwadzący: 
+ dr inż. Pac Małgorzata\nNr zajęć: 13/16\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2265636f0a52b5e30f14e230@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270107T133000
+DTEND;TZID=Europe/Warsaw:20270107T150500
+SUMMARY:Met (ć)
+LOCATION:20 69
+DESCRIPTION:Mechanika techniczna\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Czyżewska Marta\nNr zajęć: 12/17\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:10ed298c710922d37bf3305b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270107T160000
+DTEND;TZID=Europe/Warsaw:20270107T173500
+SUMMARY:Met (ć)
+LOCATION:20 69
+DESCRIPTION:Mechanika techniczna\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Czyżewska Marta\nNr zajęć: 13/17\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:9b5414fdacf394681f8a58bf@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270108T080000
+DTEND;TZID=Europe/Warsaw:20270108T093500
+SUMMARY:PKM (w)
+LOCATION:46 63
+DESCRIPTION:Podstawy konstrukcji maszyn\nRodzaj: wykład\nProwadzący: dr 
+ hab. inż. Leciejewski Zbigniew\nNr zajęć: 14/14\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2e9bc82bbdacd429bdf2c753@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270111T095000
+DTEND;TZID=Europe/Warsaw:20270111T112500
+SUMMARY:EiE1 (L)
+LOCATION:322 S
+DESCRIPTION:Elektrotechnika i elektronika 1\nRodzaj: laboratorium\nProwadz
+ ący: dr inż. Para Wojciech\nNr zajęć: 5/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9e15f33928268efeeeabcc45@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270111T133000
+DTEND;TZID=Europe/Warsaw:20270111T150500
+SUMMARY:F2 (w)
+LOCATION:19 36
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: dr hab .inż. Perkowsk
+ i Paweł\nNr zajęć: 13/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:138054eeb43d3a3f0f10722d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270111T160000
+DTEND;TZID=Europe/Warsaw:20270111T173500
+SUMMARY:Ja (ć)
+LOCATION:230 K\;134
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 13/15\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:e861e8aea6689cb312a99ceb@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270111T175000
+DTEND;TZID=Europe/Warsaw:20270111T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 13/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:406200ef3e8eb38bf4af0eab@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270112T095000
+DTEND;TZID=Europe/Warsaw:20270112T112500
+SUMMARY:F2 (ć)
+LOCATION:41 36
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr inż. Chrunik Ma
+ ciej\nNr zajęć: 10/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:227024694746fcf047566839@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270112T114000
+DTEND;TZID=Europe/Warsaw:20270112T131500
+SUMMARY:Met (w)
+LOCATION:46 63
+DESCRIPTION:Mechanika techniczna\nRodzaj: wykład\nProwadzący: prof. dr h
+ ab.inż. Trębiński Radosław\nNr zajęć: 16/17\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:044b0f22cb3d72a8e1d2f005@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270113T080000
+DTEND;TZID=Europe/Warsaw:20270113T093500
+SUMMARY:PKM (ć)
+LOCATION:28 69
+DESCRIPTION:Podstawy konstrukcji maszyn\nRodzaj: ćwiczenia\nProwadzący: 
+ dr inż. Pac Małgorzata\nNr zajęć: 14/16\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8d9213422be5d78bd254a615@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270113T095000
+DTEND;TZID=Europe/Warsaw:20270113T112500
+SUMMARY:EiE1 (L)
+LOCATION:322 S
+DESCRIPTION:Elektrotechnika i elektronika 1\nRodzaj: laboratorium\nProwadz
+ ący: dr inż. Para Wojciech\nNr zajęć: 6/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8f0390ff8d910a2f5c6710b6@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270113T114000
+DTEND;TZID=Europe/Warsaw:20270113T131500
+SUMMARY:PKM (ć)
+LOCATION:28 69
+DESCRIPTION:Podstawy konstrukcji maszyn\nRodzaj: ćwiczenia\nProwadzący: 
+ dr inż. Pac Małgorzata\nNr zajęć: 15/16\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8794c5645652754334202195@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270113T133000
+DTEND;TZID=Europe/Warsaw:20270113T150500
+SUMMARY:Liim (P)
+LOCATION:113 25
+DESCRIPTION:Laboratorium informatyki i mechaniki\nRodzaj: projekt\nProwadz
+ ący: dr inż. Piechna Sławomir\nNr zajęć: 2/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:42573d7bfce8c820cd553338@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270114T133000
+DTEND;TZID=Europe/Warsaw:20270114T150500
+SUMMARY:Met (ć)
+LOCATION:20 69
+DESCRIPTION:Mechanika techniczna\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Czyżewska Marta\nNr zajęć: 14/17\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:36a2ff45b1a4e8c292797e71@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270115T080000
+DTEND;TZID=Europe/Warsaw:20270115T093500
+SUMMARY:Liim (L)
+LOCATION:31 36
+DESCRIPTION:Laboratorium informatyki i mechaniki\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Gąsiorowski Marek\nNr zajęć: 12/19\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:80a4dd6176bf6ec551904c75@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270118T080000
+DTEND;TZID=Europe/Warsaw:20270118T093500
+SUMMARY:Liwpw (L)
+LOCATION:2 25\;24 25
+DESCRIPTION:Laboratorium inżynierii wytwarzania i pomiarów warsztatowych
+ \nRodzaj: laboratorium\nProwadzący: mgr inż. Sarzyńska Katarzyna\nNr z
+ ajęć: 15/18\nBlok: 1\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:3fbf89d3e407473ac18aafb8@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270118T095000
+DTEND;TZID=Europe/Warsaw:20270118T112500
+SUMMARY:Liwpw (L)
+LOCATION:2 25\;24 25
+DESCRIPTION:Laboratorium inżynierii wytwarzania i pomiarów warsztatowych
+ \nRodzaj: laboratorium\nProwadzący: mgr inż. Sarzyńska Katarzyna\nNr z
+ ajęć: 16/18\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ddd3b10865123de75ed58932@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270118T133000
+DTEND;TZID=Europe/Warsaw:20270118T150500
+SUMMARY:F2 (w)
+LOCATION:19 36
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: dr hab .inż. Perkowsk
+ i Paweł\nNr zajęć: 14/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9dc86fd4bf53b4ead0a0f98b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270118T160000
+DTEND;TZID=Europe/Warsaw:20270118T173500
+SUMMARY:Ja (ć)
+LOCATION:230 K\;134
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 14/15\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:6095c16f9505cd88b404ca4f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270118T175000
+DTEND;TZID=Europe/Warsaw:20270118T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 14/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:88b5f9b6ee1958dad6af2961@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270119T095000
+DTEND;TZID=Europe/Warsaw:20270119T112500
+SUMMARY:Lwnm (L)
+LOCATION:31 67
+DESCRIPTION:Laboratorium wytrzymałości i nauki o materiałach\nRodzaj: l
+ aboratorium\nProwadzący: mgr inż. Bratkowski Przemysław\nNr zajęć: 1
+ 4/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:88caae3bfe89e1cf8373e200@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270119T114000
+DTEND;TZID=Europe/Warsaw:20270119T131500
+SUMMARY:Met (w)
+LOCATION:46 63
+DESCRIPTION:Mechanika techniczna\nRodzaj: wykład\nProwadzący: prof. dr h
+ ab.inż. Trębiński Radosław\nNr zajęć: 17/17\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9c08407bac8c3721d6f611da@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270119T133000
+DTEND;TZID=Europe/Warsaw:20270119T150500
+SUMMARY:Lwnm (L)
+LOCATION:24 25\;7 25
+DESCRIPTION:Laboratorium wytrzymałości i nauki o materiałach\nRodzaj: l
+ aboratorium\nProwadzący: mgr inż. Sarzyńska Katarzyna\nNr zajęć: 15/
+ 15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1d7078c14aabdf9cf6c0dd4a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270119T160000
+DTEND;TZID=Europe/Warsaw:20270119T173500
+SUMMARY:Liim (L)
+LOCATION:31 36
+DESCRIPTION:Laboratorium informatyki i mechaniki\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Gąsiorowski Marek\nNr zajęć: 13/19\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:e6fa4b970436641142cda9ca@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270120T080000
+DTEND;TZID=Europe/Warsaw:20270120T093500
+SUMMARY:Liim (L)
+LOCATION:113 25
+DESCRIPTION:Laboratorium informatyki i mechaniki\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Piechna Sławomir\nNr zajęć: 14/19\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ae43fa627fd0270b21cd2ce8@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270120T095000
+DTEND;TZID=Europe/Warsaw:20270120T112500
+SUMMARY:F2 (L)
+LOCATION:141 S\;137
+DESCRIPTION:Fizyka 2\nRodzaj: laboratorium\nProwadzący: dr inż. Dudek Mi
+ chał\nNr zajęć: 5/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8cdda3948418f52ccb2e2161@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270120T114000
+DTEND;TZID=Europe/Warsaw:20270120T131500
+SUMMARY:Liwpw (L)
+LOCATION:25 25
+DESCRIPTION:Laboratorium inżynierii wytwarzania i pomiarów warsztatowych
+ \nRodzaj: laboratorium\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zaj
+ ęć: 17/18\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c6b5e6c6e881727a2108ca10@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270120T133000
+DTEND;TZID=Europe/Warsaw:20270120T150500
+SUMMARY:Liwpw (L)
+LOCATION:25 25
+DESCRIPTION:Laboratorium inżynierii wytwarzania i pomiarów warsztatowych
+ \nRodzaj: laboratorium\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zaj
+ ęć: 18/18\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b5bd7251099989c5072b4d81@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270120T160000
+DTEND;TZID=Europe/Warsaw:20270120T173500
+SUMMARY:Liim (L)
+LOCATION:31 36
+DESCRIPTION:Laboratorium informatyki i mechaniki\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Czyżewska Marta\nNr zajęć: 15/19\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:41d9ec0b2f79f7cb64819338@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270121T133000
+DTEND;TZID=Europe/Warsaw:20270121T150500
+SUMMARY:EiE1 (L)
+LOCATION:322 S
+DESCRIPTION:Elektrotechnika i elektronika 1\nRodzaj: laboratorium\nProwadz
+ ący: dr inż. Para Wojciech\nNr zajęć: 7/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ac136e89a19feaef86e3455b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270122T080000
+DTEND;TZID=Europe/Warsaw:20270122T093500
+SUMMARY:Liim (L)
+LOCATION:31 36
+DESCRIPTION:Laboratorium informatyki i mechaniki\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Gąsiorowski Marek\nNr zajęć: 16/19\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7083724e53947a41a97f829b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270125T080000
+DTEND;TZID=Europe/Warsaw:20270125T093500
+SUMMARY:Met (ć)
+LOCATION:20 69
+DESCRIPTION:Mechanika techniczna\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Czyżewska Marta\nNr zajęć: 15/17\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:15cbb13ed00b835044999449@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270125T095000
+DTEND;TZID=Europe/Warsaw:20270125T112500
+SUMMARY:EiE1 (L)
+LOCATION:322 S
+DESCRIPTION:Elektrotechnika i elektronika 1\nRodzaj: laboratorium\nProwadz
+ ący: dr inż. Para Wojciech\nNr zajęć: 8/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3b5b7cb3f073c17279fbb2d8@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270125T133000
+DTEND;TZID=Europe/Warsaw:20270125T150500
+SUMMARY:F2 (w)
+LOCATION:19 36
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: dr hab .inż. Perkowsk
+ i Paweł\nNr zajęć: 15/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:00f705a89f2740ac11d4057c@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270125T160000
+DTEND;TZID=Europe/Warsaw:20270125T173500
+SUMMARY:Ja (ć)
+LOCATION:230 K\;134
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 15/15\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:3b6ef9dfd142c3de1d0ab0ad@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270125T175000
+DTEND;TZID=Europe/Warsaw:20270125T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 15/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:a6b8b3c1d098bbd0f00f1014@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270127T080000
+DTEND;TZID=Europe/Warsaw:20270127T093500
+SUMMARY:PKM (ć)
+LOCATION:28 69
+DESCRIPTION:Podstawy konstrukcji maszyn\nRodzaj: ćwiczenia\nProwadzący: 
+ dr inż. Pac Małgorzata\nNr zajęć: 16/16\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f2a73274dfa8fadd89b56abd@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270127T095000
+DTEND;TZID=Europe/Warsaw:20270127T112500
+SUMMARY:Met (ć)
+LOCATION:20 69
+DESCRIPTION:Mechanika techniczna\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Czyżewska Marta\nNr zajęć: 16/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b52c5325fe3776bc05c71dfc@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270127T114000
+DTEND;TZID=Europe/Warsaw:20270127T131500
+SUMMARY:Met (ć)
+LOCATION:20 69
+DESCRIPTION:Mechanika techniczna\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Czyżewska Marta\nNr zajęć: 17/17\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7a027f63abd88dd7e83ca257@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270127T133000
+DTEND;TZID=Europe/Warsaw:20270127T150500
+SUMMARY:Liim (P)
+LOCATION:113 25
+DESCRIPTION:Laboratorium informatyki i mechaniki\nRodzaj: projekt\nProwadz
+ ący: dr inż. Piechna Sławomir\nNr zajęć: 3/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:66cffc2b6e6a5d912dcde641@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270128T080000
+DTEND;TZID=Europe/Warsaw:20270128T093500
+SUMMARY:Liim (L)
+LOCATION:31 36
+DESCRIPTION:Laboratorium informatyki i mechaniki\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Gąsiorowski Marek\nNr zajęć: 17/19\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:31d9e9a19cfaa57f4bc40445@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270128T114000
+DTEND;TZID=Europe/Warsaw:20270128T131500
+SUMMARY:Liim (L)
+LOCATION:31 36
+DESCRIPTION:Laboratorium informatyki i mechaniki\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Czyżewska Marta\nNr zajęć: 18/19\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c9957d3b392bdca3674b5c6f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270129T080000
+DTEND;TZID=Europe/Warsaw:20270129T093500
+SUMMARY:Liim (L)
+LOCATION:31 36
+DESCRIPTION:Laboratorium informatyki i mechaniki\nRodzaj: laboratorium\nPr
+ owadzący: dr inż. Gąsiorowski Marek\nNr zajęć: 19/19\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6b490d0f76bf3f6f3b710e13@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270208T133000
+DTEND;TZID=Europe/Warsaw:20270208T150500
+SUMMARY:F2 (E)
+LOCATION:19 36
+DESCRIPTION:Fizyka 2\nRodzaj: egzamin\nProwadzący: dr hab .inż. Perkowsk
+ i Paweł\nNr zajęć: 1/1\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:add3729c759594fd6b5401a7@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270215T133000
+DTEND;TZID=Europe/Warsaw:20270215T150500
+SUMMARY:F2 (Ep)
+LOCATION:19 36
+DESCRIPTION:Fizyka 2\nRodzaj: egzamin poprawkowy\nProwadzący: dr hab .in
+ ż. Perkowski Paweł\nNr zajęć: 1/1\nBlok: 4
+END:VEVENT
+END:VCALENDAR

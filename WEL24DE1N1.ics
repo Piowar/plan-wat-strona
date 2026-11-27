@@ -1,0 +1,1322 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WEL24DE1N1
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ca115f74cba7b8ba70aefcda@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261003T080000
+DTEND;TZID=Europe/Warsaw:20261003T093500
+SUMMARY:Res (w)
+LOCATION:42/ 20
+DESCRIPTION:Renewable energy sources ( w języku angielskim)\nRodzaj: wyk
+ ład\nProwadzący: prof. dr hab. inż. Walentynowicz Jerzy\nNr zajęć: 1
+ /5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:78664e81e57aa8e1c8138b7d@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261003T095000
+DTEND;TZID=Europe/Warsaw:20261003T112500
+SUMMARY:Res (w)
+LOCATION:42/ 20
+DESCRIPTION:Renewable energy sources ( w języku angielskim)\nRodzaj: wyk
+ ład\nProwadzący: prof. dr hab. inż. Walentynowicz Jerzy\nNr zajęć: 2
+ /5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:18b896838741fd144a75bbdf@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261003T114000
+DTEND;TZID=Europe/Warsaw:20261003T131500
+SUMMARY:Apel (w)
+LOCATION:315a S
+DESCRIPTION:Aparaty elektryczne\nRodzaj: wykład\nProwadzący: prof. dr ha
+ b. inż. Kulas Stanisław\nNr zajęć: 1/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:65a11fccf90b35bbf3ebaf67@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261003T133000
+DTEND;TZID=Europe/Warsaw:20261003T150500
+SUMMARY:Apel (w)
+LOCATION:315a S
+DESCRIPTION:Aparaty elektryczne\nRodzaj: wykład\nProwadzący: prof. dr ha
+ b. inż. Kulas Stanisław\nNr zajęć: 2/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3961bda836640dcd26f6b744@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261003T152000
+DTEND;TZID=Europe/Warsaw:20261003T165500
+SUMMARY:Mwein (w)
+LOCATION:73b S
+DESCRIPTION:Miernictwo wielkości elektrycznych i nieelektrycznych\nRodzaj
+ : wykład\nNr zajęć: 1/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:019f5c2c5447d2534ae35cd6@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261003T171000
+DTEND;TZID=Europe/Warsaw:20261003T184500
+SUMMARY:Mwein (w)
+LOCATION:73b S
+DESCRIPTION:Miernictwo wielkości elektrycznych i nieelektrycznych\nRodzaj
+ : wykład\nNr zajęć: 2/10\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:3591b2dd9329aba8e3f3e785@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261004T080000
+DTEND;TZID=Europe/Warsaw:20261004T093500
+SUMMARY:Pee (w)
+LOCATION:119 45
+DESCRIPTION:Przesyłanie energii elektrycznej\nRodzaj: wykład\nProwadząc
+ y: dr inż. Perka Bogdan\nNr zajęć: 1/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7eb53b3f08c465b846313c08@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261004T095000
+DTEND;TZID=Europe/Warsaw:20261004T112500
+SUMMARY:Pee (w)
+LOCATION:119 45
+DESCRIPTION:Przesyłanie energii elektrycznej\nRodzaj: wykład\nProwadząc
+ y: dr inż. Perka Bogdan\nNr zajęć: 2/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:fb5f2ea0d931855d3853edc3@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261004T114000
+DTEND;TZID=Europe/Warsaw:20261004T131500
+SUMMARY:ToiS (w)
+LOCATION:315a S
+DESCRIPTION:Technika obliczeniowa i symulacyjna\nRodzaj: wykład\nProwadz
+ ący: kpt. dr inż. Gil Fabian\nNr zajęć: 1/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:af078a004e2ccf46359d75e8@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261004T133000
+DTEND;TZID=Europe/Warsaw:20261004T150500
+SUMMARY:ToiS (w)
+LOCATION:315a S
+DESCRIPTION:Technika obliczeniowa i symulacyjna\nRodzaj: wykład\nProwadz
+ ący: kpt. dr inż. Gil Fabian\nNr zajęć: 2/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d920c689bafc8f15e1065783@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261009T175000
+DTEND;TZID=Europe/Warsaw:20261009T192500
+SUMMARY:Mwein (w)
+LOCATION:73b S
+DESCRIPTION:Miernictwo wielkości elektrycznych i nieelektrycznych\nRodzaj
+ : wykład\nNr zajęć: 3/10\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:bcdec68295e842c0724d7e35@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261009T194000
+DTEND;TZID=Europe/Warsaw:20261009T211500
+SUMMARY:Mwein (w)
+LOCATION:73b S
+DESCRIPTION:Miernictwo wielkości elektrycznych i nieelektrycznych\nRodzaj
+ : wykład\nNr zajęć: 4/10\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:a9597525579b93b9832d3c01@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261010T080000
+DTEND;TZID=Europe/Warsaw:20261010T093500
+SUMMARY:Enel (w)
+LOCATION:73b S
+DESCRIPTION:Energoelektronika\nRodzaj: wykład\nProwadzący: dr hab. inż.
+  Suproniuk Marek\nNr zajęć: 1/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8a8792291d22ab5f0146f2a9@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261010T095000
+DTEND;TZID=Europe/Warsaw:20261010T112500
+SUMMARY:Enel (w)
+LOCATION:73b S
+DESCRIPTION:Energoelektronika\nRodzaj: wykład\nProwadzący: dr hab. inż.
+  Suproniuk Marek\nNr zajęć: 2/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8ddb52ef328a2875fac92d08@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261010T114000
+DTEND;TZID=Europe/Warsaw:20261010T131500
+SUMMARY:TC (w)
+LOCATION:119 45
+DESCRIPTION:Technika cyfrowa\nRodzaj: wykład\nProwadzący: dr inż. Jachn
+ a Zbigniew\nNr zajęć: 1/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ac04b3ccc763dea83733b9a2@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261010T133000
+DTEND;TZID=Europe/Warsaw:20261010T150500
+SUMMARY:TC (w)
+LOCATION:119 45
+DESCRIPTION:Technika cyfrowa\nRodzaj: wykład\nProwadzący: dr inż. Jachn
+ a Zbigniew\nNr zajęć: 2/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:75cfd1db7dd39f2efa13b6ed@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261010T152000
+DTEND;TZID=Europe/Warsaw:20261010T165500
+SUMMARY:Inel (w)
+LOCATION:315a S
+DESCRIPTION:Instalacje elektryczne\nRodzaj: wykład\nProwadzący: mgr inż
+ . Preibisch Piotr\nNr zajęć: 1/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:3ebc907b347be9963bd7dc4b@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261010T171000
+DTEND;TZID=Europe/Warsaw:20261010T184500
+SUMMARY:Inel (w)
+LOCATION:315a S
+DESCRIPTION:Instalacje elektryczne\nRodzaj: wykład\nProwadzący: mgr inż
+ . Preibisch Piotr\nNr zajęć: 2/8\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:07a2348c78a845810a875f34@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261011T080000
+DTEND;TZID=Europe/Warsaw:20261011T093500
+SUMMARY:Kee (w)
+LOCATION:116 45
+DESCRIPTION:Kompatybilność elektromagnetyczna w energetyce\nRodzaj: wyk
+ ład\nProwadzący: dr hab inż. Nowosielski Leszek\nNr zajęć: 1/6\nBlok
+ : 1
+END:VEVENT
+BEGIN:VEVENT
+UID:584f9678a36d4ed80edcee8f@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261011T095000
+DTEND;TZID=Europe/Warsaw:20261011T112500
+SUMMARY:Kee (w)
+LOCATION:116 45
+DESCRIPTION:Kompatybilność elektromagnetyczna w energetyce\nRodzaj: wyk
+ ład\nProwadzący: dr hab inż. Nowosielski Leszek\nNr zajęć: 2/6\nBlok
+ : 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e30c0efbeb9795f0b73f5fb4@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261011T114000
+DTEND;TZID=Europe/Warsaw:20261011T131500
+SUMMARY:Pee (w)
+LOCATION:119 45
+DESCRIPTION:Przesyłanie energii elektrycznej\nRodzaj: wykład\nProwadząc
+ y: dr inż. Perka Bogdan\nNr zajęć: 3/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:cf4a304c54dcfa85ae0e8da9@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261011T133000
+DTEND;TZID=Europe/Warsaw:20261011T150500
+SUMMARY:Pee (w)
+LOCATION:119 45
+DESCRIPTION:Przesyłanie energii elektrycznej\nRodzaj: wykład\nProwadząc
+ y: dr inż. Perka Bogdan\nNr zajęć: 4/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8ec9c6110c377ac172476633@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261011T152000
+DTEND;TZID=Europe/Warsaw:20261011T165500
+SUMMARY:Spd (S)
+LOCATION:aE S
+DESCRIPTION:Seminaria przeddyplomowe\nRodzaj: seminarium\nNr zajęć: 1/4\
+ nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:06a3903f2fa57f1a0c1c4255@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261017T080000
+DTEND;TZID=Europe/Warsaw:20261017T093500
+SUMMARY:Res (w)
+LOCATION:42/ 20
+DESCRIPTION:Renewable energy sources ( w języku angielskim)\nRodzaj: wyk
+ ład\nProwadzący: prof. dr hab. inż. Walentynowicz Jerzy\nNr zajęć: 3
+ /5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:97099e29dd15a8ea2edb455f@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261017T095000
+DTEND;TZID=Europe/Warsaw:20261017T112500
+SUMMARY:Res (w)
+LOCATION:42/ 20
+DESCRIPTION:Renewable energy sources ( w języku angielskim)\nRodzaj: wyk
+ ład\nProwadzący: prof. dr hab. inż. Walentynowicz Jerzy\nNr zajęć: 4
+ /5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4316a72a8cd6412c3bf4841b@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261017T114000
+DTEND;TZID=Europe/Warsaw:20261017T131500
+SUMMARY:ToiS (w)
+LOCATION:315a S
+DESCRIPTION:Technika obliczeniowa i symulacyjna\nRodzaj: wykład\nProwadz
+ ący: kpt. dr inż. Gil Fabian\nNr zajęć: 3/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:39958ca2d2f457fb0703e466@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261017T133000
+DTEND;TZID=Europe/Warsaw:20261017T150500
+SUMMARY:ToiS (w)
+LOCATION:315a S
+DESCRIPTION:Technika obliczeniowa i symulacyjna\nRodzaj: wykład\nProwadz
+ ący: kpt. dr inż. Gil Fabian\nNr zajęć: 4/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:010922eaf83c915452db679b@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261017T152000
+DTEND;TZID=Europe/Warsaw:20261017T165500
+SUMMARY:Kee (w)
+LOCATION:15 47
+DESCRIPTION:Kompatybilność elektromagnetyczna w energetyce\nRodzaj: wyk
+ ład\nProwadzący: dr hab inż. Nowosielski Leszek\nNr zajęć: 3/6\nBlok
+ : 5
+END:VEVENT
+BEGIN:VEVENT
+UID:28734d1ac03e2cae98f6bbc9@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261017T171000
+DTEND;TZID=Europe/Warsaw:20261017T184500
+SUMMARY:Kee (w)
+LOCATION:15 47
+DESCRIPTION:Kompatybilność elektromagnetyczna w energetyce\nRodzaj: wyk
+ ład\nProwadzący: dr hab inż. Nowosielski Leszek\nNr zajęć: 4/6\nBlok
+ : 6
+END:VEVENT
+BEGIN:VEVENT
+UID:6544a8d344c3b384a218cccd@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261018T080000
+DTEND;TZID=Europe/Warsaw:20261018T093500
+SUMMARY:Inel (w)
+LOCATION:315a S
+DESCRIPTION:Instalacje elektryczne\nRodzaj: wykład\nProwadzący: mgr inż
+ . Preibisch Piotr\nNr zajęć: 3/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:634a2cded6a86ceb9cc0473d@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261018T095000
+DTEND;TZID=Europe/Warsaw:20261018T112500
+SUMMARY:Inel (w)
+LOCATION:315a S
+DESCRIPTION:Instalacje elektryczne\nRodzaj: wykład\nProwadzący: mgr inż
+ . Preibisch Piotr\nNr zajęć: 4/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0fe00874b406b2f5e37e143b@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261018T114000
+DTEND;TZID=Europe/Warsaw:20261018T131500
+SUMMARY:Mwein (w)
+LOCATION:73b S
+DESCRIPTION:Miernictwo wielkości elektrycznych i nieelektrycznych\nRodzaj
+ : wykład\nNr zajęć: 5/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:90b0247086682d1cd65771e4@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261018T133000
+DTEND;TZID=Europe/Warsaw:20261018T150500
+SUMMARY:Mwein (w)
+LOCATION:73b S
+DESCRIPTION:Miernictwo wielkości elektrycznych i nieelektrycznych\nRodzaj
+ : wykład\nNr zajęć: 6/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5deaa360bd56e8b516baa751@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261023T175000
+DTEND;TZID=Europe/Warsaw:20261023T192500
+SUMMARY:Pee (w)
+LOCATION:119 45
+DESCRIPTION:Przesyłanie energii elektrycznej\nRodzaj: wykład\nProwadząc
+ y: dr inż. Perka Bogdan\nNr zajęć: 5/10\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:86b1aed931062b8cd13dd154@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261023T194000
+DTEND;TZID=Europe/Warsaw:20261023T211500
+SUMMARY:Pee (w)
+LOCATION:119 45
+DESCRIPTION:Przesyłanie energii elektrycznej\nRodzaj: wykład\nProwadząc
+ y: dr inż. Perka Bogdan\nNr zajęć: 6/10\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:5edb121bb9179033252a4ead@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261024T080000
+DTEND;TZID=Europe/Warsaw:20261024T093500
+SUMMARY:Enel (w)
+LOCATION:73b S
+DESCRIPTION:Energoelektronika\nRodzaj: wykład\nProwadzący: dr hab. inż.
+  Suproniuk Marek\nNr zajęć: 3/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:463434ace133716238529f1e@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261024T095000
+DTEND;TZID=Europe/Warsaw:20261024T112500
+SUMMARY:Enel (w)
+LOCATION:73b S
+DESCRIPTION:Energoelektronika\nRodzaj: wykład\nProwadzący: dr hab. inż.
+  Suproniuk Marek\nNr zajęć: 4/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:336174fec185758fdaf33a62@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261024T114000
+DTEND;TZID=Europe/Warsaw:20261024T131500
+SUMMARY:Apel (w)
+LOCATION:315a S
+DESCRIPTION:Aparaty elektryczne\nRodzaj: wykład\nProwadzący: prof. dr ha
+ b. inż. Kulas Stanisław\nNr zajęć: 3/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:201437544a22a039358783e1@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261024T133000
+DTEND;TZID=Europe/Warsaw:20261024T150500
+SUMMARY:Apel (w)
+LOCATION:315a S
+DESCRIPTION:Aparaty elektryczne\nRodzaj: wykład\nProwadzący: prof. dr ha
+ b. inż. Kulas Stanisław\nNr zajęć: 4/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:852a73a2bb23cef0b8a93e4b@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261024T152000
+DTEND;TZID=Europe/Warsaw:20261024T165500
+SUMMARY:Mwein (w)
+LOCATION:73b S
+DESCRIPTION:Miernictwo wielkości elektrycznych i nieelektrycznych\nRodzaj
+ : wykład\nNr zajęć: 7/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:8a44baca7409b9b0c5640f22@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261024T171000
+DTEND;TZID=Europe/Warsaw:20261024T184500
+SUMMARY:Mwein (w)
+LOCATION:73b S
+DESCRIPTION:Miernictwo wielkości elektrycznych i nieelektrycznych\nRodzaj
+ : wykład\nNr zajęć: 8/10\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:76d7d5e6092f6ef89c8ec7ef@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261025T080000
+DTEND;TZID=Europe/Warsaw:20261025T093500
+SUMMARY:Kee (w)
+LOCATION:15 47
+DESCRIPTION:Kompatybilność elektromagnetyczna w energetyce\nRodzaj: wyk
+ ład\nProwadzący: dr hab inż. Nowosielski Leszek\nNr zajęć: 5/6\nBlok
+ : 1
+END:VEVENT
+BEGIN:VEVENT
+UID:98e1c177986d08797052d65b@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261025T095000
+DTEND;TZID=Europe/Warsaw:20261025T112500
+SUMMARY:Kee (w)
+LOCATION:15 47
+DESCRIPTION:Kompatybilność elektromagnetyczna w energetyce\nRodzaj: wyk
+ ład\nProwadzący: dr hab inż. Nowosielski Leszek\nNr zajęć: 6/6\nBlok
+ : 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ca76be4cb76ac212ace82071@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261025T114000
+DTEND;TZID=Europe/Warsaw:20261025T131500
+SUMMARY:TC (w)
+LOCATION:119 45
+DESCRIPTION:Technika cyfrowa\nRodzaj: wykład\nProwadzący: dr inż. Jachn
+ a Zbigniew\nNr zajęć: 3/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:daa25b6de7d514ef2a517a41@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261025T133000
+DTEND;TZID=Europe/Warsaw:20261025T150500
+SUMMARY:TC (w)
+LOCATION:119 45
+DESCRIPTION:Technika cyfrowa\nRodzaj: wykład\nProwadzący: dr inż. Jachn
+ a Zbigniew\nNr zajęć: 4/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:01a4d50681bc3da90ae0df91@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261107T080000
+DTEND;TZID=Europe/Warsaw:20261107T093500
+SUMMARY:Apel (w)
+LOCATION:315a S
+DESCRIPTION:Aparaty elektryczne\nRodzaj: wykład\nProwadzący: prof. dr ha
+ b. inż. Kulas Stanisław\nNr zajęć: 5/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b9d73aafe422f092c4fc8f4d@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261107T095000
+DTEND;TZID=Europe/Warsaw:20261107T112500
+SUMMARY:Apel (w)
+LOCATION:315a S
+DESCRIPTION:Aparaty elektryczne\nRodzaj: wykład\nProwadzący: prof. dr ha
+ b. inż. Kulas Stanisław\nNr zajęć: 6/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:bd4c6069bbd3dc75dddcbf4d@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261107T114000
+DTEND;TZID=Europe/Warsaw:20261107T131500
+SUMMARY:Enel (w)
+LOCATION:73b S
+DESCRIPTION:Energoelektronika\nRodzaj: wykład\nProwadzący: dr hab. inż.
+  Suproniuk Marek\nNr zajęć: 5/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:fd930bd9203bdf3edfac5e00@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261107T133000
+DTEND;TZID=Europe/Warsaw:20261107T150500
+SUMMARY:Enel (w)
+LOCATION:73b S
+DESCRIPTION:Energoelektronika\nRodzaj: wykład\nProwadzący: dr hab. inż.
+  Suproniuk Marek\nNr zajęć: 6/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:bc00b887d1b1f84f7b5e1222@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261107T152000
+DTEND;TZID=Europe/Warsaw:20261107T165500
+SUMMARY:TC (w)
+LOCATION:119 45
+DESCRIPTION:Technika cyfrowa\nRodzaj: wykład\nProwadzący: dr inż. Jachn
+ a Zbigniew\nNr zajęć: 5/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:8a8438e6a7307adfcd915228@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261107T171000
+DTEND;TZID=Europe/Warsaw:20261107T184500
+SUMMARY:TC (w)
+LOCATION:119 45
+DESCRIPTION:Technika cyfrowa\nRodzaj: wykład\nProwadzący: dr inż. Jachn
+ a Zbigniew\nNr zajęć: 6/8\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:f2eb28c8b88e3129f9d9d7c5@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261108T080000
+DTEND;TZID=Europe/Warsaw:20261108T093500
+SUMMARY:Pee (w)
+LOCATION:119 45
+DESCRIPTION:Przesyłanie energii elektrycznej\nRodzaj: wykład\nProwadząc
+ y: dr inż. Perka Bogdan\nNr zajęć: 7/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:52444dcd0eadd791d71411b9@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261108T095000
+DTEND;TZID=Europe/Warsaw:20261108T112500
+SUMMARY:Pee (w)
+LOCATION:119 45
+DESCRIPTION:Przesyłanie energii elektrycznej\nRodzaj: wykład\nProwadząc
+ y: dr inż. Perka Bogdan\nNr zajęć: 8/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7df5466e3a16ec26fdaf3d85@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261108T114000
+DTEND;TZID=Europe/Warsaw:20261108T131500
+SUMMARY:Inel (w)
+LOCATION:315a S
+DESCRIPTION:Instalacje elektryczne\nRodzaj: wykład\nProwadzący: mgr inż
+ . Preibisch Piotr\nNr zajęć: 5/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6fc561348428db8d8f7b4fe8@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261108T133000
+DTEND;TZID=Europe/Warsaw:20261108T150500
+SUMMARY:Inel (w)
+LOCATION:315a S
+DESCRIPTION:Instalacje elektryczne\nRodzaj: wykład\nProwadzący: mgr inż
+ . Preibisch Piotr\nNr zajęć: 6/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d02d7168288adb374b0ac8e5@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261108T152000
+DTEND;TZID=Europe/Warsaw:20261108T165500
+SUMMARY:Spd (S)
+LOCATION:aE S
+DESCRIPTION:Seminaria przeddyplomowe\nRodzaj: seminarium\nNr zajęć: 2/4\
+ nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:49af7fb7d55c2b56f6f85167@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261121T080000
+DTEND;TZID=Europe/Warsaw:20261121T093500
+SUMMARY:ToiS (w)
+LOCATION:315a S
+DESCRIPTION:Technika obliczeniowa i symulacyjna\nRodzaj: wykład\nProwadz
+ ący: kpt. dr inż. Gil Fabian\nNr zajęć: 5/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4967af7ee0070d8acdf60719@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261121T095000
+DTEND;TZID=Europe/Warsaw:20261121T112500
+SUMMARY:ToiS (w)
+LOCATION:315a S
+DESCRIPTION:Technika obliczeniowa i symulacyjna\nRodzaj: wykład\nProwadz
+ ący: kpt. dr inż. Gil Fabian\nNr zajęć: 6/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a15ec41f27e68df8d5730d7a@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261121T114000
+DTEND;TZID=Europe/Warsaw:20261121T131500
+SUMMARY:Mwein (w)
+LOCATION:73b S
+DESCRIPTION:Miernictwo wielkości elektrycznych i nieelektrycznych\nRodzaj
+ : wykład\nNr zajęć: 9/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:393f7e1552eacc59f0d113ee@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261121T133000
+DTEND;TZID=Europe/Warsaw:20261121T150500
+SUMMARY:Mwein (w)
+LOCATION:73b S
+DESCRIPTION:Miernictwo wielkości elektrycznych i nieelektrycznych\nRodzaj
+ : wykład\nNr zajęć: 10/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:311123b85e3aff8487ac2e11@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261121T152000
+DTEND;TZID=Europe/Warsaw:20261121T165500
+SUMMARY:TC (w)
+LOCATION:119 45
+DESCRIPTION:Technika cyfrowa\nRodzaj: wykład\nProwadzący: dr inż. Jachn
+ a Zbigniew\nNr zajęć: 7/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:21f687762ca5348075a7ca80@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261121T171000
+DTEND;TZID=Europe/Warsaw:20261121T184500
+SUMMARY:TC (w)
+LOCATION:119 45
+DESCRIPTION:Technika cyfrowa\nRodzaj: wykład\nProwadzący: dr inż. Jachn
+ a Zbigniew\nNr zajęć: 8/8\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:5991cd94ed91079900970fcc@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261122T080000
+DTEND;TZID=Europe/Warsaw:20261122T093500
+SUMMARY:Inel (w)
+LOCATION:315a S
+DESCRIPTION:Instalacje elektryczne\nRodzaj: wykład\nProwadzący: mgr inż
+ . Preibisch Piotr\nNr zajęć: 7/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1684f234cca95f58b5394492@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261122T095000
+DTEND;TZID=Europe/Warsaw:20261122T112500
+SUMMARY:Inel (w)
+LOCATION:315a S
+DESCRIPTION:Instalacje elektryczne\nRodzaj: wykład\nProwadzący: mgr inż
+ . Preibisch Piotr\nNr zajęć: 8/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:030304a85a5018bd0186d368@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261122T114000
+DTEND;TZID=Europe/Warsaw:20261122T131500
+SUMMARY:Pee (w)
+LOCATION:315a S
+DESCRIPTION:Przesyłanie energii elektrycznej\nRodzaj: wykład\nProwadząc
+ y: dr inż. Perka Bogdan\nNr zajęć: 9/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7cead1132c2e4e30871ba5de@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261122T133000
+DTEND;TZID=Europe/Warsaw:20261122T150500
+SUMMARY:Pee (w)
+LOCATION:315a S
+DESCRIPTION:Przesyłanie energii elektrycznej\nRodzaj: wykład\nProwadząc
+ y: dr inż. Perka Bogdan\nNr zajęć: 10/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a379fb49b8db0e8be8284c67@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261128T080000
+DTEND;TZID=Europe/Warsaw:20261128T093500
+SUMMARY:Enel (w)
+LOCATION:73b S
+DESCRIPTION:Energoelektronika\nRodzaj: wykład\nProwadzący: dr hab. inż.
+  Suproniuk Marek\nNr zajęć: 7/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e14572a8a0d5e8484e2a17f0@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261128T095000
+DTEND;TZID=Europe/Warsaw:20261128T112500
+SUMMARY:Enel (w)
+LOCATION:73b S
+DESCRIPTION:Energoelektronika\nRodzaj: wykład\nProwadzący: dr hab. inż.
+  Suproniuk Marek\nNr zajęć: 8/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b2975b3ba3bed34e51670a26@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261128T114000
+DTEND;TZID=Europe/Warsaw:20261128T131500
+SUMMARY:Apel (w)
+LOCATION:315a S
+DESCRIPTION:Aparaty elektryczne\nRodzaj: wykład\nProwadzący: prof. dr ha
+ b. inż. Kulas Stanisław\nNr zajęć: 7/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e1c466434375e07ef6e09e2e@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261128T133000
+DTEND;TZID=Europe/Warsaw:20261128T150500
+SUMMARY:Apel (w)
+LOCATION:315a S
+DESCRIPTION:Aparaty elektryczne\nRodzaj: wykład\nProwadzący: prof. dr ha
+ b. inż. Kulas Stanisław\nNr zajęć: 8/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a9cd0a98893953d1aabf443d@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261128T152000
+DTEND;TZID=Europe/Warsaw:20261128T165500
+SUMMARY:Mwein (L)
+LOCATION:032 S
+DESCRIPTION:Miernictwo wielkości elektrycznych i nieelektrycznych\nRodzaj
+ : laboratorium\nNr zajęć: 1/12\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:a207e01a13ad6c9abb89ac7a@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261128T171000
+DTEND;TZID=Europe/Warsaw:20261128T184500
+SUMMARY:Mwein (L)
+LOCATION:032 S
+DESCRIPTION:Miernictwo wielkości elektrycznych i nieelektrycznych\nRodzaj
+ : laboratorium\nNr zajęć: 2/12\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:0e34a3ba85907e153d9bed55@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261129T080000
+DTEND;TZID=Europe/Warsaw:20261129T093500
+SUMMARY:Kee (L)
+LOCATION:7 29\; 8 29
+DESCRIPTION:Kompatybilność elektromagnetyczna w energetyce\nRodzaj: labo
+ ratorium\nProwadzący: mgr inż. Piwowarczyk Kazimierz\nNr zajęć: 1/4\n
+ Blok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:091d5b2f5e6d07b5ce365ea3@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261129T095000
+DTEND;TZID=Europe/Warsaw:20261129T112500
+SUMMARY:Kee (L)
+LOCATION:7 29\; 8 29
+DESCRIPTION:Kompatybilność elektromagnetyczna w energetyce\nRodzaj: labo
+ ratorium\nProwadzący: mgr inż. Piwowarczyk Kazimierz\nNr zajęć: 2/4\n
+ Blok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:16f427d508cfdc6bf4887841@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261129T114000
+DTEND;TZID=Europe/Warsaw:20261129T131500
+SUMMARY:TC (L)
+LOCATION:14 45
+DESCRIPTION:Technika cyfrowa\nRodzaj: laboratorium\nNr zajęć: 1/4\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:7e542f21ab46d6eaa3fcdeae@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261129T133000
+DTEND;TZID=Europe/Warsaw:20261129T150500
+SUMMARY:TC (L)
+LOCATION:14 45
+DESCRIPTION:Technika cyfrowa\nRodzaj: laboratorium\nNr zajęć: 2/4\nBlok:
+  4
+END:VEVENT
+BEGIN:VEVENT
+UID:e0704816a537c17ea7e12d5a@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261129T152000
+DTEND;TZID=Europe/Warsaw:20261129T165500
+SUMMARY:Inel (P)
+LOCATION:315b S
+DESCRIPTION:Instalacje elektryczne\nRodzaj: projekt\nNr zajęć: 1/6\nBlok
+ : 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f503c960dc26f9bc3e0cd92f@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261205T080000
+DTEND;TZID=Europe/Warsaw:20261205T093500
+SUMMARY:ToiS (w)
+LOCATION:315a S
+DESCRIPTION:Technika obliczeniowa i symulacyjna\nRodzaj: wykład\nProwadz
+ ący: kpt. dr inż. Gil Fabian\nNr zajęć: 7/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3152df88bede92a72103d7f1@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261205T095000
+DTEND;TZID=Europe/Warsaw:20261205T112500
+SUMMARY:ToiS (w)
+LOCATION:315a S
+DESCRIPTION:Technika obliczeniowa i symulacyjna\nRodzaj: wykład\nProwadz
+ ący: kpt. dr inż. Gil Fabian\nNr zajęć: 8/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:120388f671015abb387bf382@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261205T114000
+DTEND;TZID=Europe/Warsaw:20261205T131500
+SUMMARY:Mwein (L)
+LOCATION:032 S
+DESCRIPTION:Miernictwo wielkości elektrycznych i nieelektrycznych\nRodzaj
+ : laboratorium\nNr zajęć: 3/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:61a6fba202639539b92325c1@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261205T133000
+DTEND;TZID=Europe/Warsaw:20261205T150500
+SUMMARY:Mwein (L)
+LOCATION:032 S
+DESCRIPTION:Miernictwo wielkości elektrycznych i nieelektrycznych\nRodzaj
+ : laboratorium\nNr zajęć: 4/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6286c3f3568fab35abde1a45@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261205T152000
+DTEND;TZID=Europe/Warsaw:20261205T165500
+SUMMARY:Apel (w)
+LOCATION:315a S
+DESCRIPTION:Aparaty elektryczne\nRodzaj: wykład\nProwadzący: prof. dr ha
+ b. inż. Kulas Stanisław\nNr zajęć: 9/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:eea41b9d1f2452f370dbd729@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261205T171000
+DTEND;TZID=Europe/Warsaw:20261205T184500
+SUMMARY:Res (w)
+LOCATION:42/ 20
+DESCRIPTION:Renewable energy sources ( w języku angielskim)\nRodzaj: wyk
+ ład\nProwadzący: prof. dr hab. inż. Walentynowicz Jerzy\nNr zajęć: 5
+ /5\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:cb143b0a937cbe0da07ddfa6@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261206T095000
+DTEND;TZID=Europe/Warsaw:20261206T112500
+SUMMARY:Spd (S)
+LOCATION:aE S
+DESCRIPTION:Seminaria przeddyplomowe\nRodzaj: seminarium\nNr zajęć: 3/4\
+ nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0248b617f35dbebb19921311@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261206T114000
+DTEND;TZID=Europe/Warsaw:20261206T131500
+SUMMARY:Pee (P)
+LOCATION:062 S
+DESCRIPTION:Przesyłanie energii elektrycznej\nRodzaj: projekt\nNr zajęć
+ : 1/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7271a4b90ef01e2725ad10d1@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261206T133000
+DTEND;TZID=Europe/Warsaw:20261206T150500
+SUMMARY:Pee (P)
+LOCATION:062 S
+DESCRIPTION:Przesyłanie energii elektrycznej\nRodzaj: projekt\nNr zajęć
+ : 2/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c71555d60bb2f770817655eb@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261212T080000
+DTEND;TZID=Europe/Warsaw:20261212T093500
+SUMMARY:Apel (S)
+LOCATION:315a S
+DESCRIPTION:Aparaty elektryczne\nRodzaj: seminarium\nNr zajęć: 1/4\nBlok
+ : 1
+END:VEVENT
+BEGIN:VEVENT
+UID:34c2cd48a52f8cb84bf0f4a1@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261212T095000
+DTEND;TZID=Europe/Warsaw:20261212T112500
+SUMMARY:Apel (S)
+LOCATION:315a S
+DESCRIPTION:Aparaty elektryczne\nRodzaj: seminarium\nNr zajęć: 2/4\nBlok
+ : 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b3d1d4664ceeba40bb5559fa@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261212T114000
+DTEND;TZID=Europe/Warsaw:20261212T131500
+SUMMARY:Enel (L)
+LOCATION:062 S
+DESCRIPTION:Energoelektronika\nRodzaj: laboratorium\nNr zajęć: 1/6\nBlok
+ : 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8d069e59465cd1dbad46b7d2@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261212T133000
+DTEND;TZID=Europe/Warsaw:20261212T150500
+SUMMARY:Enel (L)
+LOCATION:062 S
+DESCRIPTION:Energoelektronika\nRodzaj: laboratorium\nNr zajęć: 2/6\nBlok
+ : 4
+END:VEVENT
+BEGIN:VEVENT
+UID:750377c2b445f594303921de@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261212T152000
+DTEND;TZID=Europe/Warsaw:20261212T165500
+SUMMARY:Res (L)
+LOCATION:9/ 68
+DESCRIPTION:Renewable energy sources ( w języku angielskim)\nRodzaj: labo
+ ratorium\nNr zajęć: 1/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:2ed6fa148f0227f2520e6b05@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261212T171000
+DTEND;TZID=Europe/Warsaw:20261212T184500
+SUMMARY:Res (L)
+LOCATION:9/ 68
+DESCRIPTION:Renewable energy sources ( w języku angielskim)\nRodzaj: labo
+ ratorium\nNr zajęć: 2/4\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:cf1db5b90012751091cd147c@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261213T080000
+DTEND;TZID=Europe/Warsaw:20261213T093500
+SUMMARY:TC (L)
+LOCATION:14 45
+DESCRIPTION:Technika cyfrowa\nRodzaj: laboratorium\nNr zajęć: 3/4\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:4631a468c058ea40850d1fd9@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261213T095000
+DTEND;TZID=Europe/Warsaw:20261213T112500
+SUMMARY:TC (L)
+LOCATION:14 45
+DESCRIPTION:Technika cyfrowa\nRodzaj: laboratorium\nNr zajęć: 4/4\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:5e5c319360e6c1806ae51777@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261213T114000
+DTEND;TZID=Europe/Warsaw:20261213T131500
+SUMMARY:Mwein (L)
+LOCATION:032 S
+DESCRIPTION:Miernictwo wielkości elektrycznych i nieelektrycznych\nRodzaj
+ : laboratorium\nNr zajęć: 5/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d49c8ad4654261ff56dfe440@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261213T133000
+DTEND;TZID=Europe/Warsaw:20261213T150500
+SUMMARY:Mwein (L)
+LOCATION:032 S
+DESCRIPTION:Miernictwo wielkości elektrycznych i nieelektrycznych\nRodzaj
+ : laboratorium\nNr zajęć: 6/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f68ef548de54116b9c4af1c1@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270109T080000
+DTEND;TZID=Europe/Warsaw:20270109T093500
+SUMMARY:Mwein (L)
+LOCATION:032 S
+DESCRIPTION:Miernictwo wielkości elektrycznych i nieelektrycznych\nRodzaj
+ : laboratorium\nNr zajęć: 7/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:dbe607c3a7e09adbf0bb350c@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270109T095000
+DTEND;TZID=Europe/Warsaw:20270109T112500
+SUMMARY:Mwein (L)
+LOCATION:032 S
+DESCRIPTION:Miernictwo wielkości elektrycznych i nieelektrycznych\nRodzaj
+ : laboratorium\nNr zajęć: 8/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:20ca5b4a4867025dcbe17dc5@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270109T114000
+DTEND;TZID=Europe/Warsaw:20270109T131500
+SUMMARY:ToiS (L)
+LOCATION:30a 54E
+DESCRIPTION:Technika obliczeniowa i symulacyjna\nRodzaj: laboratorium\nPro
+ wadzący: mgr inż. Kaźmierczak Jakub\nNr zajęć: 1/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0007702ec6a3bfcf38e4da12@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270109T133000
+DTEND;TZID=Europe/Warsaw:20270109T150500
+SUMMARY:ToiS (L)
+LOCATION:30a 54E
+DESCRIPTION:Technika obliczeniowa i symulacyjna\nRodzaj: laboratorium\nPro
+ wadzący: mgr inż. Kaźmierczak Jakub\nNr zajęć: 2/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:419ddc8fecf70a21310e41b3@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270109T152000
+DTEND;TZID=Europe/Warsaw:20270109T165500
+SUMMARY:Res (L)
+LOCATION:9/ 68
+DESCRIPTION:Renewable energy sources ( w języku angielskim)\nRodzaj: labo
+ ratorium\nNr zajęć: 3/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:3ad063dd4bb04967e49da14e@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270109T171000
+DTEND;TZID=Europe/Warsaw:20270109T184500
+SUMMARY:Res (L)
+LOCATION:9/ 68
+DESCRIPTION:Renewable energy sources ( w języku angielskim)\nRodzaj: labo
+ ratorium\nNr zajęć: 4/4\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:b7f1549382ce70722e5740cd@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270110T080000
+DTEND;TZID=Europe/Warsaw:20270110T093500
+SUMMARY:Kee (L)
+LOCATION:7 29\; 8 29
+DESCRIPTION:Kompatybilność elektromagnetyczna w energetyce\nRodzaj: labo
+ ratorium\nProwadzący: mgr inż. Piwowarczyk Kazimierz\nNr zajęć: 3/4\n
+ Blok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6989abb1bbd009916cdbde2f@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270110T095000
+DTEND;TZID=Europe/Warsaw:20270110T112500
+SUMMARY:Kee (L)
+LOCATION:7 29\; 8 29
+DESCRIPTION:Kompatybilność elektromagnetyczna w energetyce\nRodzaj: labo
+ ratorium\nProwadzący: mgr inż. Piwowarczyk Kazimierz\nNr zajęć: 4/4\n
+ Blok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7bd4185f109b67c9fe236967@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270110T114000
+DTEND;TZID=Europe/Warsaw:20270110T131500
+SUMMARY:Inel (P)
+LOCATION:315a S
+DESCRIPTION:Instalacje elektryczne\nRodzaj: projekt\nNr zajęć: 2/6\nBlok
+ : 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f649f7200d29aa5b62ff9417@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270110T133000
+DTEND;TZID=Europe/Warsaw:20270110T150500
+SUMMARY:Inel (P)
+LOCATION:315a S
+DESCRIPTION:Instalacje elektryczne\nRodzaj: projekt\nNr zajęć: 3/6\nBlok
+ : 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e08d5aa9eb82cf8524f9897c@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270116T080000
+DTEND;TZID=Europe/Warsaw:20270116T093500
+SUMMARY:Mwein (L)
+LOCATION:058 S
+DESCRIPTION:Miernictwo wielkości elektrycznych i nieelektrycznych\nRodzaj
+ : laboratorium\nNr zajęć: 9/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:456b1eb864542a9c4f7f7062@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270116T095000
+DTEND;TZID=Europe/Warsaw:20270116T112500
+SUMMARY:Mwein (L)
+LOCATION:058 S
+DESCRIPTION:Miernictwo wielkości elektrycznych i nieelektrycznych\nRodzaj
+ : laboratorium\nNr zajęć: 10/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:94a79318e9967c8f4afe22bd@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270116T114000
+DTEND;TZID=Europe/Warsaw:20270116T131500
+SUMMARY:Inel (P)
+LOCATION:315a S
+DESCRIPTION:Instalacje elektryczne\nRodzaj: projekt\nNr zajęć: 4/6\nBlok
+ : 3
+END:VEVENT
+BEGIN:VEVENT
+UID:55388eeb1454fd841f778d55@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270116T133000
+DTEND;TZID=Europe/Warsaw:20270116T150500
+SUMMARY:Inel (P)
+LOCATION:315a S
+DESCRIPTION:Instalacje elektryczne\nRodzaj: projekt\nNr zajęć: 5/6\nBlok
+ : 4
+END:VEVENT
+BEGIN:VEVENT
+UID:01531f6e87929d1b6fa76e49@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270116T152000
+DTEND;TZID=Europe/Warsaw:20270116T165500
+SUMMARY:Apel (S)
+LOCATION:315a S
+DESCRIPTION:Aparaty elektryczne\nRodzaj: seminarium\nNr zajęć: 3/4\nBlok
+ : 5
+END:VEVENT
+BEGIN:VEVENT
+UID:070c9347128b357e597afcae@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270117T080000
+DTEND;TZID=Europe/Warsaw:20270117T093500
+SUMMARY:Enel (L)
+LOCATION:062 S
+DESCRIPTION:Energoelektronika\nRodzaj: laboratorium\nNr zajęć: 3/6\nBlok
+ : 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6b3e14b023aff129e53028c9@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270117T095000
+DTEND;TZID=Europe/Warsaw:20270117T112500
+SUMMARY:Enel (L)
+LOCATION:062 S
+DESCRIPTION:Energoelektronika\nRodzaj: laboratorium\nNr zajęć: 4/6\nBlok
+ : 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4e5d9d220f667b8bb89f469d@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270117T114000
+DTEND;TZID=Europe/Warsaw:20270117T131500
+SUMMARY:ToiS (L)
+LOCATION:30a 54E
+DESCRIPTION:Technika obliczeniowa i symulacyjna\nRodzaj: laboratorium\nPro
+ wadzący: mgr inż. Kaźmierczak Jakub\nNr zajęć: 3/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9a27a4d083bb7e96165fbf43@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270117T133000
+DTEND;TZID=Europe/Warsaw:20270117T150500
+SUMMARY:ToiS (L)
+LOCATION:30a 54E
+DESCRIPTION:Technika obliczeniowa i symulacyjna\nRodzaj: laboratorium\nPro
+ wadzący: mgr inż. Kaźmierczak Jakub\nNr zajęć: 4/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c2825c18fb1dc9891840b89d@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270123T080000
+DTEND;TZID=Europe/Warsaw:20270123T093500
+SUMMARY:Spd (S)
+LOCATION:aE S
+DESCRIPTION:Seminaria przeddyplomowe\nRodzaj: seminarium\nNr zajęć: 4/4\
+ nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:92729b460e17c69365a5828b@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270123T095000
+DTEND;TZID=Europe/Warsaw:20270123T112500
+SUMMARY:Apel (S)
+LOCATION:315b S
+DESCRIPTION:Aparaty elektryczne\nRodzaj: seminarium\nNr zajęć: 4/4\nBlok
+ : 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0c32a46a1e25cf0b52a29ed5@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270123T114000
+DTEND;TZID=Europe/Warsaw:20270123T131500
+SUMMARY:Enel (L)
+LOCATION:062 S
+DESCRIPTION:Energoelektronika\nRodzaj: laboratorium\nNr zajęć: 5/6\nBlok
+ : 3
+END:VEVENT
+BEGIN:VEVENT
+UID:78dc880e4804ef9c20ecf0d6@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270123T133000
+DTEND;TZID=Europe/Warsaw:20270123T150500
+SUMMARY:Enel (L)
+LOCATION:062 S
+DESCRIPTION:Energoelektronika\nRodzaj: laboratorium\nNr zajęć: 6/6\nBlok
+ : 4
+END:VEVENT
+BEGIN:VEVENT
+UID:136db9efbdae6a65b8e4a41c@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270123T152000
+DTEND;TZID=Europe/Warsaw:20270123T165500
+SUMMARY:Inel (P)
+LOCATION:315a S
+DESCRIPTION:Instalacje elektryczne\nRodzaj: projekt\nNr zajęć: 6/6\nBlok
+ : 5
+END:VEVENT
+BEGIN:VEVENT
+UID:4a7459e6c3e41f556e941ff3@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270124T080000
+DTEND;TZID=Europe/Warsaw:20270124T093500
+SUMMARY:Pee (P)
+LOCATION:062 S
+DESCRIPTION:Przesyłanie energii elektrycznej\nRodzaj: projekt\nNr zajęć
+ : 3/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1216419a68cdc372dfb61523@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270124T095000
+DTEND;TZID=Europe/Warsaw:20270124T112500
+SUMMARY:Pee (P)
+LOCATION:062 S
+DESCRIPTION:Przesyłanie energii elektrycznej\nRodzaj: projekt\nNr zajęć
+ : 4/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2d32fe459bb8be1620805a70@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270124T114000
+DTEND;TZID=Europe/Warsaw:20270124T131500
+SUMMARY:ToiS (L)
+LOCATION:30a 54E
+DESCRIPTION:Technika obliczeniowa i symulacyjna\nRodzaj: laboratorium\nPro
+ wadzący: mgr inż. Kaźmierczak Jakub\nNr zajęć: 5/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:cbdc5b9677852bd2a9328e79@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270124T133000
+DTEND;TZID=Europe/Warsaw:20270124T150500
+SUMMARY:ToiS (L)
+LOCATION:30a 54E
+DESCRIPTION:Technika obliczeniowa i symulacyjna\nRodzaj: laboratorium\nPro
+ wadzący: mgr inż. Kaźmierczak Jakub\nNr zajęć: 6/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f98b44c67202e2802455df5c@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270130T080000
+DTEND;TZID=Europe/Warsaw:20270130T093500
+SUMMARY:Mwein (L)
+LOCATION:058 S
+DESCRIPTION:Miernictwo wielkości elektrycznych i nieelektrycznych\nRodzaj
+ : laboratorium\nNr zajęć: 11/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:24b7e2f2e0746c93788765f8@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270130T095000
+DTEND;TZID=Europe/Warsaw:20270130T112500
+SUMMARY:Mwein (L)
+LOCATION:058 S
+DESCRIPTION:Miernictwo wielkości elektrycznych i nieelektrycznych\nRodzaj
+ : laboratorium\nNr zajęć: 12/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:91844544cc59ee93b12c6b28@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270130T114000
+DTEND;TZID=Europe/Warsaw:20270130T131500
+SUMMARY:Pee (P)
+LOCATION:062 S
+DESCRIPTION:Przesyłanie energii elektrycznej\nRodzaj: projekt\nNr zajęć
+ : 5/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:27d8eb9c648f3cf011b96bb4@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270130T133000
+DTEND;TZID=Europe/Warsaw:20270130T150500
+SUMMARY:Pee (P)
+LOCATION:062 S
+DESCRIPTION:Przesyłanie energii elektrycznej\nRodzaj: projekt\nNr zajęć
+ : 6/6\nBlok: 4
+END:VEVENT
+END:VCALENDAR

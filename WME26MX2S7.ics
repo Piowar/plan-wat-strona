@@ -1,0 +1,1432 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WME26MX2S7
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:95416ff3fc7aa7148b64125b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261019T080000
+DTEND;TZID=Europe/Warsaw:20261019T093500
+SUMMARY:FMD 1 (w)
+LOCATION:2.43/ 54A
+DESCRIPTION:Fundamentals of Machinery Design 1\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Torzewski Janusz\nNr zajęć: 1/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a87421199283f92a47276f2b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261019T095000
+DTEND;TZID=Europe/Warsaw:20261019T112500
+SUMMARY:MT (w)
+LOCATION:56/ 62
+DESCRIPTION:Manufacturing Technology\nRodzaj: wykład\nProwadzący: dr hab
+ . inż.(prof. ucz.) Miedzińska Danuta\nNr zajęć: 1/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:be77ac031ce11a71cc32882e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261019T114000
+DTEND;TZID=Europe/Warsaw:20261019T131500
+SUMMARY:SoM1 (w)
+LOCATION:56/ 62
+DESCRIPTION:Strength of Materials 1\nRodzaj: wykład\nProwadzący: dr inż
+ . (prof. ucz.) Szurgott Piotr\nNr zajęć: 1/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:021d74bb27c726abd00f6c23@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261019T133000
+DTEND;TZID=Europe/Warsaw:20261019T150500
+SUMMARY:SoM1 (ć)
+LOCATION:56/ 62
+DESCRIPTION:Strength of Materials 1\nRodzaj: ćwiczenia\nProwadzący: dr i
+ nż. (prof. ucz.) Szurgott Piotr\nNr zajęć: 1/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d233360f3374f5f36ea42025@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261019T160000
+DTEND;TZID=Europe/Warsaw:20261019T173500
+SUMMARY:FEM (w)
+LOCATION:7/ 62
+DESCRIPTION:FEM and Simulation of Linear Problems of Mechanics\nRodzaj: wy
+ kład\nProwadzący: dr hab. inż.(prof. ucz.) Krasoń Wiesław\nNr zaję
+ ć: 1/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:e651ad8e7c73d7d1350fb10e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261020T080000
+DTEND;TZID=Europe/Warsaw:20261020T093500
+SUMMARY:Vd (w)
+LOCATION:20/ 68
+DESCRIPTION:Vehicle drivetrain\nRodzaj: wykład\nProwadzący: dr inż. Cho
+ jnowski Janusz\nNr zajęć: 1/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:cf3f93ebec1694e62f83f1d5@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261020T095000
+DTEND;TZID=Europe/Warsaw:20261020T112500
+SUMMARY:FMD 1 (w)
+LOCATION:2.43/ 54A
+DESCRIPTION:Fundamentals of Machinery Design 1\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Torzewski Janusz\nNr zajęć: 2/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:90f12eb5eb0b668d8cda3ef6@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261020T114000
+DTEND;TZID=Europe/Warsaw:20261020T131500
+SUMMARY:TG (w)
+LOCATION:20/ 68
+DESCRIPTION:Transport of goods\nRodzaj: wykład\nProwadzący: dr inż. Cho
+ jnowski Janusz\nNr zajęć: 1/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:32001d6ea79b0e07796c40dd@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261021T114000
+DTEND;TZID=Europe/Warsaw:20261021T131500
+SUMMARY:Hev (w)
+LOCATION:20/ 68
+DESCRIPTION:Hybrid and electric vehicles maintenance and safety\nRodzaj: w
+ ykład\nProwadzący: dr inż Polak Filip\nNr zajęć: 1/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e49e75e5d4d7ee065814ac6e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261022T133000
+DTEND;TZID=Europe/Warsaw:20261022T150500
+SUMMARY:Vd (w)
+LOCATION:20/ 68
+DESCRIPTION:Vehicle drivetrain\nRodzaj: wykład\nProwadzący: dr inż. Cho
+ jnowski Janusz\nNr zajęć: 2/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f821734e843f280e5a5280e4@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261026T080000
+DTEND;TZID=Europe/Warsaw:20261026T093500
+SUMMARY:FMD 1 (w)
+LOCATION:2.43/ 54A
+DESCRIPTION:Fundamentals of Machinery Design 1\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Torzewski Janusz\nNr zajęć: 3/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:72d212f2d94688258a1448f6@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261026T114000
+DTEND;TZID=Europe/Warsaw:20261026T131500
+SUMMARY:SoM1 (ć)
+LOCATION:56/ 62
+DESCRIPTION:Strength of Materials 1\nRodzaj: ćwiczenia\nProwadzący: dr i
+ nż. (prof. ucz.) Szurgott Piotr\nNr zajęć: 2/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:573aba9495d0bbb305a682c2@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261026T133000
+DTEND;TZID=Europe/Warsaw:20261026T150500
+SUMMARY:SoM1 (w)
+LOCATION:56/ 62
+DESCRIPTION:Strength of Materials 1\nRodzaj: wykład\nProwadzący: dr inż
+ . (prof. ucz.) Szurgott Piotr\nNr zajęć: 2/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:af35dd79f403d4176b3ec076@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261027T080000
+DTEND;TZID=Europe/Warsaw:20261027T093500
+SUMMARY:FEM (w)
+LOCATION:7/ 62
+DESCRIPTION:FEM and Simulation of Linear Problems of Mechanics\nRodzaj: wy
+ kład\nProwadzący: dr hab. inż.(prof. ucz.) Krasoń Wiesław\nNr zaję
+ ć: 2/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c7ed3eccd941ce508fa45943@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261027T095000
+DTEND;TZID=Europe/Warsaw:20261027T112500
+SUMMARY:FEM (w)
+LOCATION:7/ 62
+DESCRIPTION:FEM and Simulation of Linear Problems of Mechanics\nRodzaj: wy
+ kład\nProwadzący: dr hab. inż.(prof. ucz.) Krasoń Wiesław\nNr zaję
+ ć: 3/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b103eb0575f5016f6baeb74b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261027T133000
+DTEND;TZID=Europe/Warsaw:20261027T150500
+SUMMARY:FVNM (w)
+LOCATION:56/ 62
+DESCRIPTION:Fundamentals of Validation of Numerical Models\nRodzaj: wykła
+ d\nProwadzący: dr inż. Sławiński Grzegorz\nNr zajęć: 1/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2aef35ef4218a9197c252fb0@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261027T160000
+DTEND;TZID=Europe/Warsaw:20261027T173500
+SUMMARY:Mv (w)
+LOCATION:6/ 23A
+DESCRIPTION:Mechanical vibrations\nRodzaj: wykład\nProwadzący: płk dr i
+ nż. Hryciów Zdzisław\nNr zajęć: 1/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:fc61a36cb3daab22bd6df44e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261028T133000
+DTEND;TZID=Europe/Warsaw:20261028T150500
+SUMMARY:Hev (w)
+LOCATION:20/ 68
+DESCRIPTION:Hybrid and electric vehicles maintenance and safety\nRodzaj: w
+ ykład\nProwadzący: dr inż Polak Filip\nNr zajęć: 2/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:23e508baf7aa640673ed7e70@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261029T080000
+DTEND;TZID=Europe/Warsaw:20261029T093500
+SUMMARY:FEM (w)
+LOCATION:6/ 62
+DESCRIPTION:FEM and Simulation of Linear Problems of Mechanics\nRodzaj: wy
+ kład\nProwadzący: dr hab. inż.(prof. ucz.) Krasoń Wiesław\nNr zaję
+ ć: 4/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0e059d84683662e23b685b5b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261029T095000
+DTEND;TZID=Europe/Warsaw:20261029T112500
+SUMMARY:FEM (w)
+LOCATION:6/ 62
+DESCRIPTION:FEM and Simulation of Linear Problems of Mechanics\nRodzaj: wy
+ kład\nProwadzący: dr hab. inż.(prof. ucz.) Krasoń Wiesław\nNr zaję
+ ć: 5/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3f2b28ce541f56186fd2a62c@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261029T133000
+DTEND;TZID=Europe/Warsaw:20261029T150500
+SUMMARY:Vd (w)
+LOCATION:20/ 68
+DESCRIPTION:Vehicle drivetrain\nRodzaj: wykład\nProwadzący: dr inż. Cho
+ jnowski Janusz\nNr zajęć: 3/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:dd3855a16bc4cdfa86e37e86@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261029T160000
+DTEND;TZID=Europe/Warsaw:20261029T173500
+SUMMARY:Mv (w)
+LOCATION:7/ 23A
+DESCRIPTION:Mechanical vibrations\nRodzaj: wykład\nProwadzący: płk dr i
+ nż. Hryciów Zdzisław\nNr zajęć: 2/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:c71d314ece592e8ea4e84ec1@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261102T080000
+DTEND;TZID=Europe/Warsaw:20261102T093500
+SUMMARY:FMD 1 (w)
+LOCATION:2.43/ 54A
+DESCRIPTION:Fundamentals of Machinery Design 1\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Torzewski Janusz\nNr zajęć: 4/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2f841333d957f5a91e1db33a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261102T095000
+DTEND;TZID=Europe/Warsaw:20261102T112500
+SUMMARY:MT (w)
+LOCATION:56/ 62
+DESCRIPTION:Manufacturing Technology\nRodzaj: wykład\nProwadzący: dr hab
+ . inż.(prof. ucz.) Miedzińska Danuta\nNr zajęć: 2/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:22e8be9c665a87bf6da6f3ef@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261102T114000
+DTEND;TZID=Europe/Warsaw:20261102T131500
+SUMMARY:SoM1 (w)
+LOCATION:56/ 62
+DESCRIPTION:Strength of Materials 1\nRodzaj: wykład\nProwadzący: dr inż
+ . (prof. ucz.) Szurgott Piotr\nNr zajęć: 3/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:23fdc33fee9e75c041e673a4@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261102T133000
+DTEND;TZID=Europe/Warsaw:20261102T150500
+SUMMARY:SoM1 (w)
+LOCATION:56/ 62
+DESCRIPTION:Strength of Materials 1\nRodzaj: wykład\nProwadzący: dr inż
+ . (prof. ucz.) Szurgott Piotr\nNr zajęć: 4/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:75844bdc96abc303fe2d2314@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261103T080000
+DTEND;TZID=Europe/Warsaw:20261103T093500
+SUMMARY:FEM (ć)
+LOCATION:7/ 62
+DESCRIPTION:FEM and Simulation of Linear Problems of Mechanics\nRodzaj: ć
+ wiczenia\nProwadzący: dr hab. inż.(prof. ucz.) Krasoń Wiesław\nNr zaj
+ ęć: 1/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f0918bf2502247e3d6ce1b74@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261103T095000
+DTEND;TZID=Europe/Warsaw:20261103T112500
+SUMMARY:FEM (ć)
+LOCATION:7/ 62
+DESCRIPTION:FEM and Simulation of Linear Problems of Mechanics\nRodzaj: ć
+ wiczenia\nProwadzący: dr hab. inż.(prof. ucz.) Krasoń Wiesław\nNr zaj
+ ęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:53ce773445bd6a23642fb00f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261103T114000
+DTEND;TZID=Europe/Warsaw:20261103T131500
+SUMMARY:MT (w)
+LOCATION:56/ 62
+DESCRIPTION:Manufacturing Technology\nRodzaj: wykład\nProwadzący: dr hab
+ . inż.(prof. ucz.) Miedzińska Danuta\nNr zajęć: 3/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:88d336098811ffd265f92a19@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261103T133000
+DTEND;TZID=Europe/Warsaw:20261103T150500
+SUMMARY:FVNM (w)
+LOCATION:56/ 62
+DESCRIPTION:Fundamentals of Validation of Numerical Models\nRodzaj: wykła
+ d\nProwadzący: dr inż. Sławiński Grzegorz\nNr zajęć: 2/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8442c6ba66eea6082019cb29@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261103T160000
+DTEND;TZID=Europe/Warsaw:20261103T173500
+SUMMARY:MT (w)
+LOCATION:56/ 62
+DESCRIPTION:Manufacturing Technology\nRodzaj: wykład\nProwadzący: dr hab
+ . inż.(prof. ucz.) Miedzińska Danuta\nNr zajęć: 4/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:bd96fa32b70613e94117f0d7@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261104T080000
+DTEND;TZID=Europe/Warsaw:20261104T093500
+SUMMARY:TG (w)
+LOCATION:20/ 68
+DESCRIPTION:Transport of goods\nRodzaj: wykład\nProwadzący: dr inż. Cho
+ jnowski Janusz\nNr zajęć: 2/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2cc491a93865013b268c9d63@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261104T095000
+DTEND;TZID=Europe/Warsaw:20261104T112500
+SUMMARY:FVNM (L)
+LOCATION:7/ 62
+DESCRIPTION:Fundamentals of Validation of Numerical Models\nRodzaj: labora
+ torium\nProwadzący: mgr inż. Malesa Piotr\nNr zajęć: 1/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e1b5e5a2fa8ec8759dd44080@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261104T114000
+DTEND;TZID=Europe/Warsaw:20261104T131500
+SUMMARY:FVNM (L)
+LOCATION:7/ 62
+DESCRIPTION:Fundamentals of Validation of Numerical Models\nRodzaj: labora
+ torium\nProwadzący: mgr inż. Malesa Piotr\nNr zajęć: 2/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ab69927d94522cc16d1cd55d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261104T133000
+DTEND;TZID=Europe/Warsaw:20261104T150500
+SUMMARY:FMD 1 (ć)
+LOCATION:2.43/ 54A
+DESCRIPTION:Fundamentals of Machinery Design 1\nRodzaj: ćwiczenia\nProwad
+ zący: dr inż. Torzewski Janusz\nNr zajęć: 1/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f2081e59a3d2f2590ddb4b42@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261105T133000
+DTEND;TZID=Europe/Warsaw:20261105T150500
+SUMMARY:Vd (w)
+LOCATION:20/ 68
+DESCRIPTION:Vehicle drivetrain\nRodzaj: wykład\nProwadzący: dr inż. Cho
+ jnowski Janusz\nNr zajęć: 4/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d8e82112a2431cd0184d5da1@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261105T160000
+DTEND;TZID=Europe/Warsaw:20261105T173500
+SUMMARY:Mv (w)
+LOCATION:7/ 23A
+DESCRIPTION:Mechanical vibrations\nRodzaj: wykład\nProwadzący: płk dr i
+ nż. Hryciów Zdzisław\nNr zajęć: 3/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:c19bdf35a221cdf679a9f415@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261106T095000
+DTEND;TZID=Europe/Warsaw:20261106T112500
+SUMMARY:Hev (w)
+LOCATION:20/ 68
+DESCRIPTION:Hybrid and electric vehicles maintenance and safety\nRodzaj: w
+ ykład\nProwadzący: dr inż Polak Filip\nNr zajęć: 3/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0ea58612d2a25e6a480ed0e2@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261109T080000
+DTEND;TZID=Europe/Warsaw:20261109T093500
+SUMMARY:FMD 1 (w)
+LOCATION:2.43/ 54A
+DESCRIPTION:Fundamentals of Machinery Design 1\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Torzewski Janusz\nNr zajęć: 5/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ba9b9d256372f342c03dc185@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261109T095000
+DTEND;TZID=Europe/Warsaw:20261109T112500
+SUMMARY:MT (w)
+LOCATION:56/ 62
+DESCRIPTION:Manufacturing Technology\nRodzaj: wykład\nProwadzący: dr hab
+ . inż.(prof. ucz.) Miedzińska Danuta\nNr zajęć: 5/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:064ed10c8890ae04a61d4515@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261109T114000
+DTEND;TZID=Europe/Warsaw:20261109T131500
+SUMMARY:SoM1 (ć)
+LOCATION:56/ 62
+DESCRIPTION:Strength of Materials 1\nRodzaj: ćwiczenia\nProwadzący: dr i
+ nż. (prof. ucz.) Szurgott Piotr\nNr zajęć: 3/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:22be02980b716e6e18d0e43b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261109T133000
+DTEND;TZID=Europe/Warsaw:20261109T150500
+SUMMARY:SoM1 (ć)
+LOCATION:56/ 62
+DESCRIPTION:Strength of Materials 1\nRodzaj: ćwiczenia\nProwadzący: dr i
+ nż. (prof. ucz.) Szurgott Piotr\nNr zajęć: 4/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:04fac05f61554d37e8086787@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261110T080000
+DTEND;TZID=Europe/Warsaw:20261110T093500
+SUMMARY:FEM (ć)
+LOCATION:7/ 62
+DESCRIPTION:FEM and Simulation of Linear Problems of Mechanics\nRodzaj: ć
+ wiczenia\nProwadzący: dr hab. inż.(prof. ucz.) Krasoń Wiesław\nNr zaj
+ ęć: 3/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:dfe960a7c4e358214507e7e2@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261110T095000
+DTEND;TZID=Europe/Warsaw:20261110T112500
+SUMMARY:FEM (ć)
+LOCATION:7/ 62
+DESCRIPTION:FEM and Simulation of Linear Problems of Mechanics\nRodzaj: ć
+ wiczenia\nProwadzący: dr hab. inż.(prof. ucz.) Krasoń Wiesław\nNr zaj
+ ęć: 4/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:fe6d9318afcba3e209f34c8c@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261110T114000
+DTEND;TZID=Europe/Warsaw:20261110T131500
+SUMMARY:MT (w)
+LOCATION:56/ 62
+DESCRIPTION:Manufacturing Technology\nRodzaj: wykład\nProwadzący: dr hab
+ . inż.(prof. ucz.) Miedzińska Danuta\nNr zajęć: 6/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:31bbbed1efb5fc0c25174a2b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261112T133000
+DTEND;TZID=Europe/Warsaw:20261112T150500
+SUMMARY:Vd (w)
+LOCATION:20/ 68
+DESCRIPTION:Vehicle drivetrain\nRodzaj: wykład\nProwadzący: dr inż. Cho
+ jnowski Janusz\nNr zajęć: 5/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ccdae1320bbb9b4281a2d729@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261112T160000
+DTEND;TZID=Europe/Warsaw:20261112T173500
+SUMMARY:Mv (ć)
+LOCATION:7/ 23A
+DESCRIPTION:Mechanical vibrations\nRodzaj: ćwiczenia\nProwadzący: płk d
+ r inż. Hryciów Zdzisław\nNr zajęć: 1/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:c96b209a941259264036b62f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261113T095000
+DTEND;TZID=Europe/Warsaw:20261113T112500
+SUMMARY:Hev (w)
+LOCATION:20/ 68
+DESCRIPTION:Hybrid and electric vehicles maintenance and safety\nRodzaj: w
+ ykład\nProwadzący: dr inż Polak Filip\nNr zajęć: 4/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:cf281ffa478258f4b30a7255@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261116T080000
+DTEND;TZID=Europe/Warsaw:20261116T093500
+SUMMARY:FMD 1 (ć)
+LOCATION:2.43/ 54A
+DESCRIPTION:Fundamentals of Machinery Design 1\nRodzaj: ćwiczenia\nProwad
+ zący: dr inż. Torzewski Janusz\nNr zajęć: 2/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:00a011975942cfa73dceb4fa@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261116T095000
+DTEND;TZID=Europe/Warsaw:20261116T112500
+SUMMARY:MT (w)
+LOCATION:56/ 62
+DESCRIPTION:Manufacturing Technology\nRodzaj: wykład\nProwadzący: dr hab
+ . inż.(prof. ucz.) Miedzińska Danuta\nNr zajęć: 7/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c77d3cb0ce7bc9555a65a3f3@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261116T114000
+DTEND;TZID=Europe/Warsaw:20261116T131500
+SUMMARY:SoM1 (w)
+LOCATION:56/ 62
+DESCRIPTION:Strength of Materials 1\nRodzaj: wykład\nProwadzący: dr inż
+ . (prof. ucz.) Szurgott Piotr\nNr zajęć: 5/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:973dad670efbc24509816859@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261116T133000
+DTEND;TZID=Europe/Warsaw:20261116T150500
+SUMMARY:SoM1 (w)
+LOCATION:56/ 62
+DESCRIPTION:Strength of Materials 1\nRodzaj: wykład\nProwadzący: dr inż
+ . (prof. ucz.) Szurgott Piotr\nNr zajęć: 6/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c808ee33d45d4f07d52f5cdd@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261117T080000
+DTEND;TZID=Europe/Warsaw:20261117T093500
+SUMMARY:FEM (ć)
+LOCATION:7/ 62
+DESCRIPTION:FEM and Simulation of Linear Problems of Mechanics\nRodzaj: ć
+ wiczenia\nProwadzący: dr hab. inż.(prof. ucz.) Krasoń Wiesław\nNr zaj
+ ęć: 5/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b6e5c44224be96ac39e3a83c@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261117T095000
+DTEND;TZID=Europe/Warsaw:20261117T112500
+SUMMARY:FEM (L)
+LOCATION:7/ 62
+DESCRIPTION:FEM and Simulation of Linear Problems of Mechanics\nRodzaj: la
+ boratorium\nProwadzący: dr hab. inż.(prof. ucz.) Krasoń Wiesław\nNr z
+ ajęć: 1/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:87bd0c55414035f55bcbe827@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261117T114000
+DTEND;TZID=Europe/Warsaw:20261117T131500
+SUMMARY:MT (w)
+LOCATION:56/ 62
+DESCRIPTION:Manufacturing Technology\nRodzaj: wykład\nProwadzący: dr hab
+ . inż.(prof. ucz.) Miedzińska Danuta\nNr zajęć: 8/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:22fc04480412ac86e73b268b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261117T133000
+DTEND;TZID=Europe/Warsaw:20261117T150500
+SUMMARY:FVNM (w)
+LOCATION:56/ 62
+DESCRIPTION:Fundamentals of Validation of Numerical Models\nRodzaj: wykła
+ d\nProwadzący: dr inż. Sławiński Grzegorz\nNr zajęć: 3/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e7d126dfb60cbab2e57504c9@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261117T160000
+DTEND;TZID=Europe/Warsaw:20261117T173500
+SUMMARY:Mv (L)
+LOCATION:14/ 23A
+DESCRIPTION:Mechanical vibrations\nRodzaj: laboratorium\nProwadzący: płk
+  dr inż. Hryciów Zdzisław\nNr zajęć: 1/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:4bdf460fe8d38c2ca8ed4ec9@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261118T080000
+DTEND;TZID=Europe/Warsaw:20261118T093500
+SUMMARY:TG (w)
+LOCATION:20/ 68
+DESCRIPTION:Transport of goods\nRodzaj: wykład\nProwadzący: dr inż. Cho
+ jnowski Janusz\nNr zajęć: 3/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:213d6c4765483e27574bcf61@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261118T095000
+DTEND;TZID=Europe/Warsaw:20261118T112500
+SUMMARY:FVNM (L)
+LOCATION:7/ 62
+DESCRIPTION:Fundamentals of Validation of Numerical Models\nRodzaj: labora
+ torium\nProwadzący: mgr inż. Malesa Piotr\nNr zajęć: 3/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a31af72cdc647971e89275ce@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261118T114000
+DTEND;TZID=Europe/Warsaw:20261118T131500
+SUMMARY:FVNM (L)
+LOCATION:7/ 62
+DESCRIPTION:Fundamentals of Validation of Numerical Models\nRodzaj: labora
+ torium\nProwadzący: mgr inż. Malesa Piotr\nNr zajęć: 4/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3b605fdfdd54a0da13c814e9@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261118T133000
+DTEND;TZID=Europe/Warsaw:20261118T150500
+SUMMARY:FMD 1 (ć)
+LOCATION:2.43/ 54A
+DESCRIPTION:Fundamentals of Machinery Design 1\nRodzaj: ćwiczenia\nProwad
+ zący: dr inż. Torzewski Janusz\nNr zajęć: 3/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:08164c662e3dcb27ca4415ce@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261119T133000
+DTEND;TZID=Europe/Warsaw:20261119T150500
+SUMMARY:Vd (w)
+LOCATION:20/ 68
+DESCRIPTION:Vehicle drivetrain\nRodzaj: wykład\nProwadzący: dr inż. Cho
+ jnowski Janusz\nNr zajęć: 6/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6e003eb37e4cd79ee761499b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261119T160000
+DTEND;TZID=Europe/Warsaw:20261119T173500
+SUMMARY:Mv (w)
+LOCATION:7/ 23A
+DESCRIPTION:Mechanical vibrations\nRodzaj: wykład\nProwadzący: płk dr i
+ nż. Hryciów Zdzisław\nNr zajęć: 4/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:8f442455aa42bf248ea6ff4e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261120T095000
+DTEND;TZID=Europe/Warsaw:20261120T112500
+SUMMARY:Hev (ć)
+LOCATION:20/ 68
+DESCRIPTION:Hybrid and electric vehicles maintenance and safety\nRodzaj: 
+ ćwiczenia\nProwadzący: dr inż Polak Filip\nNr zajęć: 1/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e8e4b36fa910e743574eeef8@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261123T080000
+DTEND;TZID=Europe/Warsaw:20261123T093500
+SUMMARY:FEM (L)
+LOCATION:6/ 62
+DESCRIPTION:FEM and Simulation of Linear Problems of Mechanics\nRodzaj: la
+ boratorium\nProwadzący: dr hab. inż.(prof. ucz.) Krasoń Wiesław\nNr z
+ ajęć: 2/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f760d36398c799fede9f6ec8@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261123T095000
+DTEND;TZID=Europe/Warsaw:20261123T112500
+SUMMARY:MT (w)
+LOCATION:56/ 62
+DESCRIPTION:Manufacturing Technology\nRodzaj: wykład\nProwadzący: dr hab
+ . inż.(prof. ucz.) Miedzińska Danuta\nNr zajęć: 9/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f66c81a5d80957a33b6d9937@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261123T114000
+DTEND;TZID=Europe/Warsaw:20261123T131500
+SUMMARY:SoM1 (w)
+LOCATION:56/ 62
+DESCRIPTION:Strength of Materials 1\nRodzaj: wykład\nProwadzący: dr inż
+ . (prof. ucz.) Szurgott Piotr\nNr zajęć: 7/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b2eeb35298064969efa7cc43@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261123T133000
+DTEND;TZID=Europe/Warsaw:20261123T150500
+SUMMARY:SoM1 (ć)
+LOCATION:56/ 62
+DESCRIPTION:Strength of Materials 1\nRodzaj: ćwiczenia\nProwadzący: dr i
+ nż. (prof. ucz.) Szurgott Piotr\nNr zajęć: 5/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:497c04be0e05e1dca8cb20a7@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261124T080000
+DTEND;TZID=Europe/Warsaw:20261124T093500
+SUMMARY:FEM (L)
+LOCATION:7/ 62
+DESCRIPTION:FEM and Simulation of Linear Problems of Mechanics\nRodzaj: la
+ boratorium\nProwadzący: dr hab. inż.(prof. ucz.) Krasoń Wiesław\nNr z
+ ajęć: 3/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7f40247a1f13fe807a193c3a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261124T095000
+DTEND;TZID=Europe/Warsaw:20261124T112500
+SUMMARY:FEM (L)
+LOCATION:7/ 62
+DESCRIPTION:FEM and Simulation of Linear Problems of Mechanics\nRodzaj: la
+ boratorium\nProwadzący: dr hab. inż.(prof. ucz.) Krasoń Wiesław\nNr z
+ ajęć: 4/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:fd800a70774e7891ee68bc96@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261124T114000
+DTEND;TZID=Europe/Warsaw:20261124T131500
+SUMMARY:FVNM (L)
+LOCATION:7/ 62
+DESCRIPTION:Fundamentals of Validation of Numerical Models\nRodzaj: labora
+ torium\nProwadzący: mgr inż. Malesa Piotr\nNr zajęć: 5/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:cb371134d49c3e4fee2d6cd1@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261124T133000
+DTEND;TZID=Europe/Warsaw:20261124T150500
+SUMMARY:FVNM (L)
+LOCATION:7/ 62
+DESCRIPTION:Fundamentals of Validation of Numerical Models\nRodzaj: labora
+ torium\nProwadzący: mgr inż. Malesa Piotr\nNr zajęć: 6/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2d4ae3e8c56902b98667c662@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261124T160000
+DTEND;TZID=Europe/Warsaw:20261124T173500
+SUMMARY:Mv (L)
+LOCATION:14/ 23A
+DESCRIPTION:Mechanical vibrations\nRodzaj: laboratorium\nProwadzący: płk
+  dr inż. Hryciów Zdzisław\nNr zajęć: 2/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:4a8e76d17c64473c0c64c3fa@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261125T080000
+DTEND;TZID=Europe/Warsaw:20261125T093500
+SUMMARY:Vd (w)
+LOCATION:20/ 68
+DESCRIPTION:Vehicle drivetrain\nRodzaj: wykład\nProwadzący: dr inż. Cho
+ jnowski Janusz\nNr zajęć: 7/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c19218d1399b2f5589126f57@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261125T095000
+DTEND;TZID=Europe/Warsaw:20261125T112500
+SUMMARY:TG (w)
+LOCATION:20/ 68
+DESCRIPTION:Transport of goods\nRodzaj: wykład\nProwadzący: dr inż. Cho
+ jnowski Janusz\nNr zajęć: 4/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:22161a77609732cf9a321d62@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261125T114000
+DTEND;TZID=Europe/Warsaw:20261125T131500
+SUMMARY:FMD 1 (w)
+LOCATION:2.43/ 54A
+DESCRIPTION:Fundamentals of Machinery Design 1\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Torzewski Janusz\nNr zajęć: 6/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:bf2f31df5db1c5fb27c924f1@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261125T133000
+DTEND;TZID=Europe/Warsaw:20261125T150500
+SUMMARY:FMD 1 (ć)
+LOCATION:2.43/ 54A
+DESCRIPTION:Fundamentals of Machinery Design 1\nRodzaj: ćwiczenia\nProwad
+ zący: dr inż. Torzewski Janusz\nNr zajęć: 4/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5e10574930e25e09e7d4b521@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261126T133000
+DTEND;TZID=Europe/Warsaw:20261126T150500
+SUMMARY:Vd (ć)
+LOCATION:20/ 68
+DESCRIPTION:Vehicle drivetrain\nRodzaj: ćwiczenia\nProwadzący: dr inż. 
+ Chojnowski Janusz\nNr zajęć: 1/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7f7472d001ca12bb2fe97190@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261126T160000
+DTEND;TZID=Europe/Warsaw:20261126T173500
+SUMMARY:Mv (ć)
+LOCATION:7/ 23A
+DESCRIPTION:Mechanical vibrations\nRodzaj: ćwiczenia\nProwadzący: płk d
+ r inż. Hryciów Zdzisław\nNr zajęć: 2/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:49d91c3752393bb1f6c949b1@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261130T080000
+DTEND;TZID=Europe/Warsaw:20261130T093500
+SUMMARY:FMD 1 (ć)
+LOCATION:2.43/ 54A
+DESCRIPTION:Fundamentals of Machinery Design 1\nRodzaj: ćwiczenia\nProwad
+ zący: dr inż. Torzewski Janusz\nNr zajęć: 5/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:bbbb05afc75d47da064c6e3c@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261130T095000
+DTEND;TZID=Europe/Warsaw:20261130T112500
+SUMMARY:MT (w)
+LOCATION:56/ 62
+DESCRIPTION:Manufacturing Technology\nRodzaj: wykład\nProwadzący: dr hab
+ . inż.(prof. ucz.) Miedzińska Danuta\nNr zajęć: 10/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:be19eefc79a81c07d3c7a4c1@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261130T114000
+DTEND;TZID=Europe/Warsaw:20261130T131500
+SUMMARY:SoM1 (ć)
+LOCATION:56/ 62
+DESCRIPTION:Strength of Materials 1\nRodzaj: ćwiczenia\nProwadzący: dr i
+ nż. (prof. ucz.) Szurgott Piotr\nNr zajęć: 6/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9c301af567d838535e090a59@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261130T133000
+DTEND;TZID=Europe/Warsaw:20261130T150500
+SUMMARY:SoM1 (w)
+LOCATION:56/ 62
+DESCRIPTION:Strength of Materials 1\nRodzaj: wykład\nProwadzący: dr inż
+ . (prof. ucz.) Szurgott Piotr\nNr zajęć: 8/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:77a8589a149d4bdbd2f69606@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261201T080000
+DTEND;TZID=Europe/Warsaw:20261201T093500
+SUMMARY:FEM (L)
+LOCATION:7/ 62
+DESCRIPTION:FEM and Simulation of Linear Problems of Mechanics\nRodzaj: la
+ boratorium\nProwadzący: dr hab. inż.(prof. ucz.) Krasoń Wiesław\nNr z
+ ajęć: 5/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d51d82bb902f660845546ac5@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261201T095000
+DTEND;TZID=Europe/Warsaw:20261201T112500
+SUMMARY:FEM (L)
+LOCATION:7/ 62
+DESCRIPTION:FEM and Simulation of Linear Problems of Mechanics\nRodzaj: la
+ boratorium\nProwadzący: dr hab. inż.(prof. ucz.) Krasoń Wiesław\nNr z
+ ajęć: 6/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ecb45c6f6b32092c40e6436a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261201T114000
+DTEND;TZID=Europe/Warsaw:20261201T131500
+SUMMARY:FVNM (L)
+LOCATION:7/ 62
+DESCRIPTION:Fundamentals of Validation of Numerical Models\nRodzaj: labora
+ torium\nProwadzący: mgr inż. Malesa Piotr\nNr zajęć: 7/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7d1dc3d31236c2287ce6a662@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261201T133000
+DTEND;TZID=Europe/Warsaw:20261201T150500
+SUMMARY:FVNM (L)
+LOCATION:7/ 62
+DESCRIPTION:Fundamentals of Validation of Numerical Models\nRodzaj: labora
+ torium\nProwadzący: mgr inż. Malesa Piotr\nNr zajęć: 8/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:74c62b8a00eb6ae2c28c80a9@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261201T160000
+DTEND;TZID=Europe/Warsaw:20261201T173500
+SUMMARY:Mv (w)
+LOCATION:7/ 23A
+DESCRIPTION:Mechanical vibrations\nRodzaj: wykład\nProwadzący: płk dr i
+ nż. Hryciów Zdzisław\nNr zajęć: 5/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:edc1de0833ba3c440f249d55@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261202T080000
+DTEND;TZID=Europe/Warsaw:20261202T093500
+SUMMARY:Vd (w)
+LOCATION:20/ 68
+DESCRIPTION:Vehicle drivetrain\nRodzaj: wykład\nProwadzący: dr inż. Cho
+ jnowski Janusz\nNr zajęć: 8/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0eae62e7a57b82dd20910cbd@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261202T095000
+DTEND;TZID=Europe/Warsaw:20261202T112500
+SUMMARY:TG (w)
+LOCATION:20/ 68
+DESCRIPTION:Transport of goods\nRodzaj: wykład\nProwadzący: dr inż. Cho
+ jnowski Janusz\nNr zajęć: 5/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b4400961e4952d0399802efb@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261202T114000
+DTEND;TZID=Europe/Warsaw:20261202T131500
+SUMMARY:FMD 1 (w)
+LOCATION:2.43/ 54A
+DESCRIPTION:Fundamentals of Machinery Design 1\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Torzewski Janusz\nNr zajęć: 7/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:950ed70c676a6d31f89adece@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261202T133000
+DTEND;TZID=Europe/Warsaw:20261202T150500
+SUMMARY:FMD 1 (ć)
+LOCATION:2.43/ 54A
+DESCRIPTION:Fundamentals of Machinery Design 1\nRodzaj: ćwiczenia\nProwad
+ zący: dr inż. Torzewski Janusz\nNr zajęć: 6/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2e3008da40657be819c26c74@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261203T133000
+DTEND;TZID=Europe/Warsaw:20261203T150500
+SUMMARY:Vd (ć)
+LOCATION:20/ 68
+DESCRIPTION:Vehicle drivetrain\nRodzaj: ćwiczenia\nProwadzący: dr inż. 
+ Chojnowski Janusz\nNr zajęć: 2/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:71ee8653cf5be57dd012cd87@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261204T095000
+DTEND;TZID=Europe/Warsaw:20261204T112500
+SUMMARY:Hev (ć)
+LOCATION:20/ 68
+DESCRIPTION:Hybrid and electric vehicles maintenance and safety\nRodzaj: 
+ ćwiczenia\nProwadzący: dr inż Polak Filip\nNr zajęć: 2/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0dca157f8e5200077baabe6f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261207T080000
+DTEND;TZID=Europe/Warsaw:20261207T093500
+SUMMARY:FMD 1 (ć)
+LOCATION:2.43/ 54A
+DESCRIPTION:Fundamentals of Machinery Design 1\nRodzaj: ćwiczenia\nProwad
+ zący: dr inż. Torzewski Janusz\nNr zajęć: 7/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c4a8d8759c6e2262e28fb065@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261207T095000
+DTEND;TZID=Europe/Warsaw:20261207T112500
+SUMMARY:MT (w)
+LOCATION:56/ 62
+DESCRIPTION:Manufacturing Technology\nRodzaj: wykład\nProwadzący: dr hab
+ . inż.(prof. ucz.) Miedzińska Danuta\nNr zajęć: 11/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a86ae9d65dae329bd724f58f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261207T114000
+DTEND;TZID=Europe/Warsaw:20261207T131500
+SUMMARY:SoM1 (w)
+LOCATION:56/ 62
+DESCRIPTION:Strength of Materials 1\nRodzaj: wykład\nProwadzący: dr inż
+ . (prof. ucz.) Szurgott Piotr\nNr zajęć: 9/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4684bbab7cc54e39945384f2@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261207T133000
+DTEND;TZID=Europe/Warsaw:20261207T150500
+SUMMARY:SoM1 (ć)
+LOCATION:56/ 62
+DESCRIPTION:Strength of Materials 1\nRodzaj: ćwiczenia\nProwadzący: dr i
+ nż. (prof. ucz.) Szurgott Piotr\nNr zajęć: 7/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:015871a1d20e3d3b30913c16@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261207T160000
+DTEND;TZID=Europe/Warsaw:20261207T173500
+SUMMARY:Mv (w)
+LOCATION:6/ 23A
+DESCRIPTION:Mechanical vibrations\nRodzaj: wykład\nProwadzący: płk dr i
+ nż. Hryciów Zdzisław\nNr zajęć: 6/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:ff11dd3cd6a966ee03784338@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261208T080000
+DTEND;TZID=Europe/Warsaw:20261208T093500
+SUMMARY:FEM (L)
+LOCATION:7/ 62
+DESCRIPTION:FEM and Simulation of Linear Problems of Mechanics\nRodzaj: la
+ boratorium\nProwadzący: dr hab. inż.(prof. ucz.) Krasoń Wiesław\nNr z
+ ajęć: 7/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3ed63b5bf05d793e9ea4f1fe@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261208T095000
+DTEND;TZID=Europe/Warsaw:20261208T112500
+SUMMARY:FEM (L)
+LOCATION:7/ 62
+DESCRIPTION:FEM and Simulation of Linear Problems of Mechanics\nRodzaj: la
+ boratorium\nProwadzący: dr hab. inż.(prof. ucz.) Krasoń Wiesław\nNr z
+ ajęć: 8/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7a1c41def0f810a2d4de7ca3@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261208T114000
+DTEND;TZID=Europe/Warsaw:20261208T131500
+SUMMARY:FVNM (L)
+LOCATION:7/ 62
+DESCRIPTION:Fundamentals of Validation of Numerical Models\nRodzaj: labora
+ torium\nProwadzący: mgr inż. Malesa Piotr\nNr zajęć: 9/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e01534cfff2baf0cfc5dcddd@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261208T133000
+DTEND;TZID=Europe/Warsaw:20261208T150500
+SUMMARY:FVNM (L)
+LOCATION:7/ 62
+DESCRIPTION:Fundamentals of Validation of Numerical Models\nRodzaj: labora
+ torium\nProwadzący: mgr inż. Malesa Piotr\nNr zajęć: 10/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9c775fa39654dc56478e148c@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261208T160000
+DTEND;TZID=Europe/Warsaw:20261208T173500
+SUMMARY:MT (w)
+LOCATION:56/ 62
+DESCRIPTION:Manufacturing Technology\nRodzaj: wykład\nProwadzący: dr hab
+ . inż.(prof. ucz.) Miedzińska Danuta\nNr zajęć: 12/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:4d66f0a5934ff1b2102c4805@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261209T080000
+DTEND;TZID=Europe/Warsaw:20261209T093500
+SUMMARY:TG (w)
+LOCATION:20/ 68
+DESCRIPTION:Transport of goods\nRodzaj: wykład\nProwadzący: dr inż. Cho
+ jnowski Janusz\nNr zajęć: 6/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c2588e8bdb941b9810333356@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261209T095000
+DTEND;TZID=Europe/Warsaw:20261209T112500
+SUMMARY:TG (ć)
+LOCATION:20/ 68
+DESCRIPTION:Transport of goods\nRodzaj: ćwiczenia\nProwadzący: dr inż. 
+ Chojnowski Janusz\nNr zajęć: 1/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:acb9aac3a3aad95bab7fb599@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261209T114000
+DTEND;TZID=Europe/Warsaw:20261209T131500
+SUMMARY:FMD 1 (w)
+LOCATION:2.43/ 54A
+DESCRIPTION:Fundamentals of Machinery Design 1\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Torzewski Janusz\nNr zajęć: 8/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:56268e0af8d27728a33a6314@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261209T133000
+DTEND;TZID=Europe/Warsaw:20261209T150500
+SUMMARY:FMD 1 (ć)
+LOCATION:2.43/ 54A
+DESCRIPTION:Fundamentals of Machinery Design 1\nRodzaj: ćwiczenia\nProwad
+ zący: dr inż. Torzewski Janusz\nNr zajęć: 8/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f84b224200f3671ffb930c0c@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261210T160000
+DTEND;TZID=Europe/Warsaw:20261210T173500
+SUMMARY:Mv (ć)
+LOCATION:7/ 23A
+DESCRIPTION:Mechanical vibrations\nRodzaj: ćwiczenia\nProwadzący: płk d
+ r inż. Hryciów Zdzisław\nNr zajęć: 3/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:ed98f4c97f400472c671fd8b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261211T095000
+DTEND;TZID=Europe/Warsaw:20261211T112500
+SUMMARY:Hev (ć)
+LOCATION:20/ 68
+DESCRIPTION:Hybrid and electric vehicles maintenance and safety\nRodzaj: 
+ ćwiczenia\nProwadzący: dr inż Polak Filip\nNr zajęć: 3/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2e52e06e4d45df1aec14a80a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261211T114000
+DTEND;TZID=Europe/Warsaw:20261211T131500
+SUMMARY:Hev (L)
+LOCATION:9/ 68
+DESCRIPTION:Hybrid and electric vehicles maintenance and safety\nRodzaj: l
+ aboratorium\nProwadzący: mgr inż. Dopieralski Marcin\nNr zajęć: 1/3\n
+ Blok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ec0b7194d16b974f21463cf8@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261211T133000
+DTEND;TZID=Europe/Warsaw:20261211T150500
+SUMMARY:Mv (L)
+LOCATION:7/ 23A
+DESCRIPTION:Mechanical vibrations\nRodzaj: laboratorium\nProwadzący: płk
+  dr inż. Hryciów Zdzisław\nNr zajęć: 3/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a89889f508c37485752a8c9d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261211T160000
+DTEND;TZID=Europe/Warsaw:20261211T173500
+SUMMARY:Mv (L)
+LOCATION:7/ 23A
+DESCRIPTION:Mechanical vibrations\nRodzaj: laboratorium\nProwadzący: płk
+  dr inż. Hryciów Zdzisław\nNr zajęć: 4/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:b4bb1038d4aeaf60aaf8dae9@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261214T080000
+DTEND;TZID=Europe/Warsaw:20261214T093500
+SUMMARY:FEM (L)
+LOCATION:6/ 62
+DESCRIPTION:FEM and Simulation of Linear Problems of Mechanics\nRodzaj: la
+ boratorium\nProwadzący: dr hab. inż.(prof. ucz.) Krasoń Wiesław\nNr z
+ ajęć: 9/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9409fb4752ea2bbefc78c716@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261214T095000
+DTEND;TZID=Europe/Warsaw:20261214T112500
+SUMMARY:MT (w)
+LOCATION:56/ 62
+DESCRIPTION:Manufacturing Technology\nRodzaj: wykład\nProwadzący: dr hab
+ . inż.(prof. ucz.) Miedzińska Danuta\nNr zajęć: 13/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d60ee3afa9f774a688168385@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261214T114000
+DTEND;TZID=Europe/Warsaw:20261214T131500
+SUMMARY:SoM1 (ć)
+LOCATION:56/ 62
+DESCRIPTION:Strength of Materials 1\nRodzaj: ćwiczenia\nProwadzący: dr i
+ nż. (prof. ucz.) Szurgott Piotr\nNr zajęć: 8/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:33d1d70030d80f7868c49645@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261214T133000
+DTEND;TZID=Europe/Warsaw:20261214T150500
+SUMMARY:SoM1 (ć)
+LOCATION:56/ 62
+DESCRIPTION:Strength of Materials 1\nRodzaj: ćwiczenia\nProwadzący: dr i
+ nż. (prof. ucz.) Szurgott Piotr\nNr zajęć: 9/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:742fb98b8c67864f60feca84@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261214T160000
+DTEND;TZID=Europe/Warsaw:20261214T173500
+SUMMARY:Mv (ć)
+LOCATION:7/ 23A
+DESCRIPTION:Mechanical vibrations\nRodzaj: ćwiczenia\nProwadzący: płk d
+ r inż. Hryciów Zdzisław\nNr zajęć: 4/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:de2c0e1b088457990e7c5669@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261215T080000
+DTEND;TZID=Europe/Warsaw:20261215T093500
+SUMMARY:FEM (L)
+LOCATION:7/ 62
+DESCRIPTION:FEM and Simulation of Linear Problems of Mechanics\nRodzaj: la
+ boratorium\nProwadzący: dr hab. inż.(prof. ucz.) Krasoń Wiesław\nNr z
+ ajęć: 10/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a83236574e401d7b9d80818e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261215T095000
+DTEND;TZID=Europe/Warsaw:20261215T112500
+SUMMARY:TG (ć)
+LOCATION:20/ 68
+DESCRIPTION:Transport of goods\nRodzaj: ćwiczenia\nProwadzący: dr inż. 
+ Chojnowski Janusz\nNr zajęć: 2/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:df3dafce4ecf81511fcc6a78@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261216T080000
+DTEND;TZID=Europe/Warsaw:20261216T093500
+SUMMARY:Vd (ć)
+LOCATION:20/ 68
+DESCRIPTION:Vehicle drivetrain\nRodzaj: ćwiczenia\nProwadzący: dr inż. 
+ Chojnowski Janusz\nNr zajęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:64addcaaed83591d5c640c7a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261216T095000
+DTEND;TZID=Europe/Warsaw:20261216T112500
+SUMMARY:Vd (L)
+LOCATION:9/ 68
+DESCRIPTION:Vehicle drivetrain\nRodzaj: laboratorium\nProwadzący: mgr in
+ ż. Dopieralski Marcin\nNr zajęć: 1/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:df46a5c265f387aaa967a7ab@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261216T114000
+DTEND;TZID=Europe/Warsaw:20261216T131500
+SUMMARY:Hev (L)
+LOCATION:9/ 68
+DESCRIPTION:Hybrid and electric vehicles maintenance and safety\nRodzaj: l
+ aboratorium\nProwadzący: mgr inż. Dopieralski Marcin\nNr zajęć: 2/3\n
+ Blok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3389a7c171f3047401412d93@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261217T114000
+DTEND;TZID=Europe/Warsaw:20261217T131500
+SUMMARY:FVNM (w)
+LOCATION:56/ 62
+DESCRIPTION:Fundamentals of Validation of Numerical Models\nRodzaj: wykła
+ d\nProwadzący: dr inż. Sławiński Grzegorz\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8659aa378967f471758773c9@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261217T133000
+DTEND;TZID=Europe/Warsaw:20261217T150500
+SUMMARY:FVNM (w)
+LOCATION:56/ 62
+DESCRIPTION:Fundamentals of Validation of Numerical Models\nRodzaj: wykła
+ d\nProwadzący: dr inż. Sławiński Grzegorz\nNr zajęć: 5/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7ebad597076921f91c91b601@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261217T160000
+DTEND;TZID=Europe/Warsaw:20261217T173500
+SUMMARY:Vd (ć)
+LOCATION:20/ 68
+DESCRIPTION:Vehicle drivetrain\nRodzaj: ćwiczenia\nProwadzący: dr inż. 
+ Chojnowski Janusz\nNr zajęć: 4/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:b894b22ccc1da6c0f0a0f7c0@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261218T080000
+DTEND;TZID=Europe/Warsaw:20261218T093500
+SUMMARY:FEM (L)
+LOCATION:6/ 62
+DESCRIPTION:FEM and Simulation of Linear Problems of Mechanics\nRodzaj: la
+ boratorium\nProwadzący: dr hab. inż.(prof. ucz.) Krasoń Wiesław\nNr z
+ ajęć: 11/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:025ad465e9d17f9be4ab531c@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261218T095000
+DTEND;TZID=Europe/Warsaw:20261218T112500
+SUMMARY:FEM (L)
+LOCATION:6/ 62
+DESCRIPTION:FEM and Simulation of Linear Problems of Mechanics\nRodzaj: la
+ boratorium\nProwadzący: dr hab. inż.(prof. ucz.) Krasoń Wiesław\nNr z
+ ajęć: 12/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e086af863032fd300a81fdef@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261218T114000
+DTEND;TZID=Europe/Warsaw:20261218T131500
+SUMMARY:Hev (L)
+LOCATION:9/ 68
+DESCRIPTION:Hybrid and electric vehicles maintenance and safety\nRodzaj: l
+ aboratorium\nProwadzący: mgr inż. Dopieralski Marcin\nNr zajęć: 3/3\n
+ Blok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c62754ff328f201009eee037@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261218T133000
+DTEND;TZID=Europe/Warsaw:20261218T150500
+SUMMARY:Vd (L)
+LOCATION:9/ 68
+DESCRIPTION:Vehicle drivetrain\nRodzaj: laboratorium\nProwadzący: mgr in
+ ż. Dopieralski Marcin\nNr zajęć: 2/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5a3f1b2593f8f0b2463c82b7@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261221T080000
+DTEND;TZID=Europe/Warsaw:20261221T093500
+SUMMARY:FMD 1 (ć)
+LOCATION:2.43/ 54A
+DESCRIPTION:Fundamentals of Machinery Design 1\nRodzaj: ćwiczenia\nProwad
+ zący: dr inż. Torzewski Janusz\nNr zajęć: 9/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3dc1f3a1bb2d310a996ea53e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261221T095000
+DTEND;TZID=Europe/Warsaw:20261221T112500
+SUMMARY:MT (w)
+LOCATION:56/ 62
+DESCRIPTION:Manufacturing Technology\nRodzaj: wykład\nProwadzący: dr hab
+ . inż.(prof. ucz.) Miedzińska Danuta\nNr zajęć: 14/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0a0e3e26ad7925da9b30e700@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261221T114000
+DTEND;TZID=Europe/Warsaw:20261221T131500
+SUMMARY:TG (ć)
+LOCATION:20/ 68
+DESCRIPTION:Transport of goods\nRodzaj: ćwiczenia\nProwadzący: dr inż. 
+ Chojnowski Janusz\nNr zajęć: 3/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1890a74969ee1753eda5329a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261221T160000
+DTEND;TZID=Europe/Warsaw:20261221T173500
+SUMMARY:Mv (w)
+LOCATION:7/ 23A
+DESCRIPTION:Mechanical vibrations\nRodzaj: wykład\nProwadzący: płk dr i
+ nż. Hryciów Zdzisław\nNr zajęć: 7/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:67aeab60cf07c6b8b984ae15@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270111T080000
+DTEND;TZID=Europe/Warsaw:20270111T093500
+SUMMARY:FMD 1 (E)
+LOCATION:2.43/ 54A
+DESCRIPTION:Fundamentals of Machinery Design 1\nRodzaj: egzamin\nProwadzą
+ cy: dr inż. Torzewski Janusz\nNr zajęć: 1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:fe46f33d059dd328e15a4896@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270111T095000
+DTEND;TZID=Europe/Warsaw:20270111T112500
+SUMMARY:MT (w)
+LOCATION:56/ 62
+DESCRIPTION:Manufacturing Technology\nRodzaj: wykład\nProwadzący: dr hab
+ . inż.(prof. ucz.) Miedzińska Danuta\nNr zajęć: 15/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:48ba0a0217bbbeea0b16e371@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270111T114000
+DTEND;TZID=Europe/Warsaw:20270111T131500
+SUMMARY:TG (ć)
+LOCATION:20/ 68
+DESCRIPTION:Transport of goods\nRodzaj: ćwiczenia\nProwadzący: dr inż. 
+ Chojnowski Janusz\nNr zajęć: 4/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9c00b49fb8acd0aadd5438e9@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270111T133000
+DTEND;TZID=Europe/Warsaw:20270111T150500
+SUMMARY:Vd (L)
+LOCATION:9/ 68
+DESCRIPTION:Vehicle drivetrain\nRodzaj: laboratorium\nProwadzący: mgr in
+ ż. Dopieralski Marcin\nNr zajęć: 3/3\nBlok: 4
+END:VEVENT
+END:VCALENDAR

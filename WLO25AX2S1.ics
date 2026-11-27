@@ -1,0 +1,2177 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WLO25AX2S1
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:7b39eae8db03c6ed5658bc08@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261001T080000
+DTEND;TZID=Europe/Warsaw:20261001T093500
+SUMMARY:Polit.Klima. (w)
+LOCATION:7a-b Bibl
+DESCRIPTION:Polityka klimatyczna\nRodzaj: wykład\nProwadzący: dr Adamkie
+ wicz Jakub\nNr zajęć: 1/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:853e94dd72b581e161ce485a@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261001T095000
+DTEND;TZID=Europe/Warsaw:20261001T112500
+SUMMARY:P.Adm. (w)
+LOCATION:3/ 54
+DESCRIPTION:Prawo administracyjne\nRodzaj: wykład\nProwadzący: dr Śledz
+ ik Waldemar\nNr zajęć: 1/13\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:bc2452b6218366dc0aae668f@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261001T114000
+DTEND;TZID=Europe/Warsaw:20261001T131500
+SUMMARY:P.Adm. (w)
+LOCATION:3/ 54
+DESCRIPTION:Prawo administracyjne\nRodzaj: wykład\nProwadzący: dr Śledz
+ ik Waldemar\nNr zajęć: 2/13\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:60a521b881236a5b5fcd47b8@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261001T133000
+DTEND;TZID=Europe/Warsaw:20261001T150500
+SUMMARY:Nad. i Kontr. w Ad.Publ. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Nadzór i kontrola w admin. publ.\nRodzaj: wykład\nProwadząc
+ y: dr Ćwik Dariusz\nNr zajęć: 1/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:813c99e8065ce9b56e75fcd9@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261001T160000
+DTEND;TZID=Europe/Warsaw:20261001T173500
+SUMMARY:Nad. i Kontr. w Ad.Publ. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Nadzór i kontrola w admin. publ.\nRodzaj: wykład\nProwadząc
+ y: dr Ćwik Dariusz\nNr zajęć: 2/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:e0ece6540e737a4912a66fb1@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261002T080000
+DTEND;TZID=Europe/Warsaw:20261002T093500
+SUMMARY:P.Adm. (ć)
+LOCATION:187 S
+DESCRIPTION:Prawo administracyjne\nRodzaj: ćwiczenia\nProwadzący: dr Śl
+ edzik Waldemar\nNr zajęć: 1/13\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f9fb6f049cee6c50ad85a40e@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261002T095000
+DTEND;TZID=Europe/Warsaw:20261002T112500
+SUMMARY:P.Adm. (ć)
+LOCATION:187 S
+DESCRIPTION:Prawo administracyjne\nRodzaj: ćwiczenia\nProwadzący: dr Śl
+ edzik Waldemar\nNr zajęć: 2/13\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:55075b2a59456ba45d05cdf7@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261005T114000
+DTEND;TZID=Europe/Warsaw:20261005T131500
+SUMMARY:Adm.Obr. (w)
+LOCATION:3.8 75
+DESCRIPTION:Administracja obronna\nRodzaj: wykład\nProwadzący: dr Stawar
+ z Paweł\nNr zajęć: 1/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6e768f7807b8623ec828569d@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261005T133000
+DTEND;TZID=Europe/Warsaw:20261005T150500
+SUMMARY:Adm.Obr. (w)
+LOCATION:3.8 75
+DESCRIPTION:Administracja obronna\nRodzaj: wykład\nProwadzący: dr Stawar
+ z Paweł\nNr zajęć: 2/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8848f17b2a419a6c74a1fd45@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261005T160000
+DTEND;TZID=Europe/Warsaw:20261005T173500
+SUMMARY:Ja (ć)
+LOCATION:233 K\;232 K\;231 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 1/15\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:6548f296198254f9bc8d892c@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261005T175000
+DTEND;TZID=Europe/Warsaw:20261005T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231 K\;232 K\;233 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 1/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:7e5cb9c90b096fe9946e0f39@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261006T133000
+DTEND;TZID=Europe/Warsaw:20261006T150500
+SUMMARY:Leg. Admin. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Legislacja administracyjna\nRodzaj: wykład\nProwadzący: dr 
+ Ćwik Dariusz\nNr zajęć: 1/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4f3649f26a59da842e85f193@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261006T160000
+DTEND;TZID=Europe/Warsaw:20261006T173500
+SUMMARY:Leg. Admin. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Legislacja administracyjna\nRodzaj: wykład\nProwadzący: dr 
+ Ćwik Dariusz\nNr zajęć: 2/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:5eca80b674ae11f7346b99a5@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261006T175000
+DTEND;TZID=Europe/Warsaw:20261006T192500
+SUMMARY:Nad. i Kontr. w Ad.Publ. (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Nadzór i kontrola w admin. publ.\nRodzaj: wykład\nProwadząc
+ y: dr Ćwik Dariusz\nNr zajęć: 3/9\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:a6f46069c792e0e338f880bd@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261006T194000
+DTEND;TZID=Europe/Warsaw:20261006T211500
+SUMMARY:Nad. i Kontr. w Ad.Publ. (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Nadzór i kontrola w admin. publ.\nRodzaj: wykład\nProwadząc
+ y: dr Ćwik Dariusz\nNr zajęć: 4/9\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:9c62c525f6a4311cbaa91803@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261007T133000
+DTEND;TZID=Europe/Warsaw:20261007T150500
+SUMMARY:FPiPF (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Finanse publiczne i prawo finansowe\nRodzaj: wykład\nProwadz
+ ący: dr Chyrzyński Ryszard\nNr zajęć: 1/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:cd59266396e9b3966412e2db@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261007T160000
+DTEND;TZID=Europe/Warsaw:20261007T173500
+SUMMARY:Nad. i Kontr. w Ad.Publ. (w)
+LOCATION:aF S
+DESCRIPTION:Nadzór i kontrola w admin. publ.\nRodzaj: wykład\nProwadząc
+ y: dr Ćwik Dariusz\nNr zajęć: 5/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:25b34c9fe033b83e20c99fbd@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261007T175000
+DTEND;TZID=Europe/Warsaw:20261007T192500
+SUMMARY:Nad. i Kontr. w Ad.Publ. (w)
+LOCATION:aF S
+DESCRIPTION:Nadzór i kontrola w admin. publ.\nRodzaj: wykład\nProwadząc
+ y: dr Ćwik Dariusz\nNr zajęć: 6/9\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:a3c8857ee6f4d7704d823f9e@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261008T133000
+DTEND;TZID=Europe/Warsaw:20261008T150500
+SUMMARY:Leg. Admin. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Legislacja administracyjna\nRodzaj: wykład\nProwadzący: dr 
+ Ćwik Dariusz\nNr zajęć: 3/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:bba5256de034963b4d7de92e@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261008T160000
+DTEND;TZID=Europe/Warsaw:20261008T173500
+SUMMARY:P.Adm. (ć)
+LOCATION:0.23/ 16
+DESCRIPTION:Prawo administracyjne\nRodzaj: ćwiczenia\nProwadzący: dr Śl
+ edzik Waldemar\nNr zajęć: 3/13\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:acf15df89dec5729da4fed5c@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261008T175000
+DTEND;TZID=Europe/Warsaw:20261008T192500
+SUMMARY:P.Adm. (ć)
+LOCATION:0.23/ 16
+DESCRIPTION:Prawo administracyjne\nRodzaj: ćwiczenia\nProwadzący: dr Śl
+ edzik Waldemar\nNr zajęć: 4/13\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:8a216099b3d3a7c5c5061ba2@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261012T133000
+DTEND;TZID=Europe/Warsaw:20261012T150500
+SUMMARY:FPiPF (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Finanse publiczne i prawo finansowe\nRodzaj: wykład\nProwadz
+ ący: dr Chyrzyński Ryszard\nNr zajęć: 2/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d767ee62f656df9f8688453c@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261012T160000
+DTEND;TZID=Europe/Warsaw:20261012T173500
+SUMMARY:Ja (ć)
+LOCATION:233 K\;232 K\;231 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 2/15\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:95268feb5d9616364ee255c5@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261012T175000
+DTEND;TZID=Europe/Warsaw:20261012T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231 K\;232 K\;233 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 2/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:a308c076022a33c67a14714e@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261013T114000
+DTEND;TZID=Europe/Warsaw:20261013T131500
+SUMMARY:P.Międzyn. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Prawo międzynarodowe\nRodzaj: wykład\nProwadzący: dr Kowals
+ ki Wawrzyniec\nNr zajęć: 1/13\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d7097a9c66cab17a1b048e4f@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261013T133000
+DTEND;TZID=Europe/Warsaw:20261013T150500
+SUMMARY:P.Międzyn. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Prawo międzynarodowe\nRodzaj: wykład\nProwadzący: dr Kowals
+ ki Wawrzyniec\nNr zajęć: 2/13\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a58540a906ad4b66adb93137@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261013T160000
+DTEND;TZID=Europe/Warsaw:20261013T173500
+SUMMARY:Pc (w)
+LOCATION:1.10/ 16\;1.9/ 16
+DESCRIPTION:Prawo cywilne\nRodzaj: wykład\nProwadzący: dr Szewczyk-Rokic
+ ki Rafał\nNr zajęć: 1/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:19e5a53540f02c506879d341@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261013T175000
+DTEND;TZID=Europe/Warsaw:20261013T192500
+SUMMARY:Pc (ć)
+LOCATION:0.8/ 16
+DESCRIPTION:Prawo cywilne\nRodzaj: ćwiczenia\nProwadzący: dr Szewczyk-Ro
+ kicki Rafał\nNr zajęć: 1/13\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:7e0b07fb3689d55c6d03d13d@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261014T080000
+DTEND;TZID=Europe/Warsaw:20261014T093500
+SUMMARY:FPiPF (w)
+LOCATION:1.10/ 16\;1.9/ 16
+DESCRIPTION:Finanse publiczne i prawo finansowe\nRodzaj: wykład\nProwadz
+ ący: dr Chyrzyński Ryszard\nNr zajęć: 3/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:27d3ae23c896113c219f6430@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261014T095000
+DTEND;TZID=Europe/Warsaw:20261014T112500
+SUMMARY:P.Adm. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Prawo administracyjne\nRodzaj: wykład\nProwadzący: dr Śledz
+ ik Waldemar\nNr zajęć: 3/13\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:486745aa525aea4f1348c784@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261014T114000
+DTEND;TZID=Europe/Warsaw:20261014T131500
+SUMMARY:P.Adm. (ć)
+LOCATION:1.10/ 16\;1.9/ 16
+DESCRIPTION:Prawo administracyjne\nRodzaj: ćwiczenia\nProwadzący: dr Śl
+ edzik Waldemar\nNr zajęć: 5/13\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b832666d5359ae2096d950c4@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261014T133000
+DTEND;TZID=Europe/Warsaw:20261014T150500
+SUMMARY:P.Adm. (ć)
+LOCATION:1.10/ 16\;1.9/ 16
+DESCRIPTION:Prawo administracyjne\nRodzaj: ćwiczenia\nProwadzący: dr Śl
+ edzik Waldemar\nNr zajęć: 6/13\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4ddca0fbe9fe72d786abb2df@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261015T133000
+DTEND;TZID=Europe/Warsaw:20261015T150500
+SUMMARY:P.Adm. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Prawo administracyjne\nRodzaj: wykład\nProwadzący: dr Śledz
+ ik Waldemar\nNr zajęć: 4/13\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6bb8334c0b591233c4f76525@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261015T160000
+DTEND;TZID=Europe/Warsaw:20261015T173500
+SUMMARY:P.Adm. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Prawo administracyjne\nRodzaj: wykład\nProwadzący: dr Śledz
+ ik Waldemar\nNr zajęć: 5/13\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:7f3dbbe86bee555f1fc594c3@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261015T175000
+DTEND;TZID=Europe/Warsaw:20261015T192500
+SUMMARY:FPiPF (w)
+LOCATION:aF S
+DESCRIPTION:Finanse publiczne i prawo finansowe\nRodzaj: wykład\nProwadz
+ ący: dr Chyrzyński Ryszard\nNr zajęć: 4/10\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:023a3ecf871b557076dd2e8b@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261016T080000
+DTEND;TZID=Europe/Warsaw:20261016T093500
+SUMMARY:FPiPF (w)
+LOCATION:1.10/ 16\;1.9/ 16
+DESCRIPTION:Finanse publiczne i prawo finansowe\nRodzaj: wykład\nProwadz
+ ący: dr Chyrzyński Ryszard\nNr zajęć: 5/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c0e8aa63fb1c5c437cd24ad3@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261019T160000
+DTEND;TZID=Europe/Warsaw:20261019T173500
+SUMMARY:Ja (ć)
+LOCATION:233 K\;232 K\;231 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 3/15\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:a1a4c4299427673ead8452b9@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261019T175000
+DTEND;TZID=Europe/Warsaw:20261019T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231 K\;232 K\;233 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 3/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:2555b642be6553c5c1c9fa80@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261020T160000
+DTEND;TZID=Europe/Warsaw:20261020T173500
+SUMMARY:P.Adm. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Prawo administracyjne\nRodzaj: wykład\nProwadzący: dr Śledz
+ ik Waldemar\nNr zajęć: 6/13\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:0f8e2937e40e7c729a39e45f@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261020T175000
+DTEND;TZID=Europe/Warsaw:20261020T192500
+SUMMARY:FPiPF (w)
+LOCATION:7a-b Bibl
+DESCRIPTION:Finanse publiczne i prawo finansowe\nRodzaj: wykład\nProwadz
+ ący: dr Chyrzyński Ryszard\nNr zajęć: 6/10\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:687dbd49c1eee1acc70f6778@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261021T080000
+DTEND;TZID=Europe/Warsaw:20261021T093500
+SUMMARY:FPiPF (w)
+LOCATION:1.10/ 16\;1.9/ 16
+DESCRIPTION:Finanse publiczne i prawo finansowe\nRodzaj: wykład\nProwadz
+ ący: dr Chyrzyński Ryszard\nNr zajęć: 7/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d6acf15eac8f05e6cd750582@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261021T095000
+DTEND;TZID=Europe/Warsaw:20261021T112500
+SUMMARY:Pc (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Prawo cywilne\nRodzaj: wykład\nProwadzący: dr Szewczyk-Rokic
+ ki Rafał\nNr zajęć: 2/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b969b0587b1c53d41c40bc43@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261022T095000
+DTEND;TZID=Europe/Warsaw:20261022T112500
+SUMMARY:Leg. Admin. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Legislacja administracyjna\nRodzaj: wykład\nProwadzący: dr 
+ Ćwik Dariusz\nNr zajęć: 4/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:fa415dd33af984e25ebc77aa@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261022T114000
+DTEND;TZID=Europe/Warsaw:20261022T131500
+SUMMARY:Leg. Admin. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Legislacja administracyjna\nRodzaj: wykład\nProwadzący: dr 
+ Ćwik Dariusz\nNr zajęć: 5/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1b5ead3d332c1ec6bb5398bc@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261022T133000
+DTEND;TZID=Europe/Warsaw:20261022T150500
+SUMMARY:Leg. Admin. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Legislacja administracyjna\nRodzaj: wykład\nProwadzący: dr 
+ Ćwik Dariusz\nNr zajęć: 6/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c375ace46cad927fb351079d@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261023T080000
+DTEND;TZID=Europe/Warsaw:20261023T093500
+SUMMARY:FPiPF (w)
+LOCATION:1.10/ 16\;1.9/ 16
+DESCRIPTION:Finanse publiczne i prawo finansowe\nRodzaj: wykład\nProwadz
+ ący: dr Chyrzyński Ryszard\nNr zajęć: 8/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1bc23dc697859f168765ea0b@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261023T095000
+DTEND;TZID=Europe/Warsaw:20261023T112500
+SUMMARY:P.Adm. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Prawo administracyjne\nRodzaj: wykład\nProwadzący: dr Śledz
+ ik Waldemar\nNr zajęć: 7/13\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d3d6f15c937544965490ea91@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261023T114000
+DTEND;TZID=Europe/Warsaw:20261023T131500
+SUMMARY:P.Adm. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Prawo administracyjne\nRodzaj: wykład\nProwadzący: dr Śledz
+ ik Waldemar\nNr zajęć: 8/13\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2db0e0d216c8c1006c1c55f0@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261023T133000
+DTEND;TZID=Europe/Warsaw:20261023T150500
+SUMMARY:P.Adm. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Prawo administracyjne\nRodzaj: wykład\nProwadzący: dr Śledz
+ ik Waldemar\nNr zajęć: 9/13\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e057161d10b8a29d9240313c@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261026T114000
+DTEND;TZID=Europe/Warsaw:20261026T131500
+SUMMARY:FPiPF (ć)
+LOCATION:3 54E
+DESCRIPTION:Finanse publiczne i prawo finansowe\nRodzaj: ćwiczenia\nProwa
+ dzący: dr Chyrzyński Ryszard\nNr zajęć: 1/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:030f9378fc0a58eb678dcbc9@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261026T160000
+DTEND;TZID=Europe/Warsaw:20261026T173500
+SUMMARY:Ja (ć)
+LOCATION:233 K\;232 K\;231 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 4/15\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:918fa6db6d54faea67c52989@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261026T175000
+DTEND;TZID=Europe/Warsaw:20261026T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231 K\;232 K\;233 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 4/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:e850cad8f4863b598a9a6afb@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261027T095000
+DTEND;TZID=Europe/Warsaw:20261027T112500
+SUMMARY:Polit.Klima. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Polityka klimatyczna\nRodzaj: wykład\nProwadzący: dr Adamkie
+ wicz Jakub\nNr zajęć: 2/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0a7e0cc9f215b57ecd812d43@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261027T114000
+DTEND;TZID=Europe/Warsaw:20261027T131500
+SUMMARY:Polit.Klima. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Polityka klimatyczna\nRodzaj: wykład\nProwadzący: dr Adamkie
+ wicz Jakub\nNr zajęć: 3/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e7eebd3dffa2505484bdd2b2@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261027T133000
+DTEND;TZID=Europe/Warsaw:20261027T150500
+SUMMARY:Pc (ć)
+LOCATION:0.8/ 16
+DESCRIPTION:Prawo cywilne\nRodzaj: ćwiczenia\nProwadzący: dr Szewczyk-Ro
+ kicki Rafał\nNr zajęć: 2/13\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0caa548a00dc90c615fbe60c@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261027T160000
+DTEND;TZID=Europe/Warsaw:20261027T173500
+SUMMARY:Nad. i Kontr. w Ad.Publ. (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Nadzór i kontrola w admin. publ.\nRodzaj: ćwiczenia\nProwadz
+ ący: dr Ćwik Dariusz\nNr zajęć: 1/11\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:6819a0ac253e7cffeaf73de1@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261027T175000
+DTEND;TZID=Europe/Warsaw:20261027T192500
+SUMMARY:Nad. i Kontr. w Ad.Publ. (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Nadzór i kontrola w admin. publ.\nRodzaj: ćwiczenia\nProwadz
+ ący: dr Ćwik Dariusz\nNr zajęć: 2/11\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:b9c522fdad9c926dbe95810d@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261028T080000
+DTEND;TZID=Europe/Warsaw:20261028T093500
+SUMMARY:FPiPF (w)
+LOCATION:1.10/ 16\;1.9/ 16
+DESCRIPTION:Finanse publiczne i prawo finansowe\nRodzaj: wykład\nProwadz
+ ący: dr Chyrzyński Ryszard\nNr zajęć: 9/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:58cf0651e01585db2c177891@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261028T095000
+DTEND;TZID=Europe/Warsaw:20261028T112500
+SUMMARY:Pc (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Prawo cywilne\nRodzaj: wykład\nProwadzący: dr Szewczyk-Rokic
+ ki Rafał\nNr zajęć: 3/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:902034f90aee1565fedd758b@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261028T114000
+DTEND;TZID=Europe/Warsaw:20261028T131500
+SUMMARY:Pc (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Prawo cywilne\nRodzaj: wykład\nProwadzący: dr Szewczyk-Rokic
+ ki Rafał\nNr zajęć: 4/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7600172a5e178387c31868f8@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261029T114000
+DTEND;TZID=Europe/Warsaw:20261029T131500
+SUMMARY:Nad. i Kontr. w Ad.Publ. (w)
+LOCATION:1.10/ 16\;1.9/ 16
+DESCRIPTION:Nadzór i kontrola w admin. publ.\nRodzaj: wykład\nProwadząc
+ y: dr Ćwik Dariusz\nNr zajęć: 7/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c46a790fa1b198786e00844e@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261029T133000
+DTEND;TZID=Europe/Warsaw:20261029T150500
+SUMMARY:Pc (w)
+LOCATION:aF S
+DESCRIPTION:Prawo cywilne\nRodzaj: wykład\nProwadzący: dr Szewczyk-Rokic
+ ki Rafał\nNr zajęć: 5/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:47b6545344d6da762a4bf7c9@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261029T160000
+DTEND;TZID=Europe/Warsaw:20261029T173500
+SUMMARY:Nad. i Kontr. w Ad.Publ. (ć)
+LOCATION:255 S
+DESCRIPTION:Nadzór i kontrola w admin. publ.\nRodzaj: ćwiczenia\nProwadz
+ ący: dr Ćwik Dariusz\nNr zajęć: 3/11\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:31a3d75e252a3784718b559a@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261029T175000
+DTEND;TZID=Europe/Warsaw:20261029T192500
+SUMMARY:Nad. i Kontr. w Ad.Publ. (ć)
+LOCATION:255 S
+DESCRIPTION:Nadzór i kontrola w admin. publ.\nRodzaj: ćwiczenia\nProwadz
+ ący: dr Ćwik Dariusz\nNr zajęć: 4/11\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:3e131a894667d390602ec739@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261030T080000
+DTEND;TZID=Europe/Warsaw:20261030T093500
+SUMMARY:Pc (ć)
+LOCATION:0.8/ 16
+DESCRIPTION:Prawo cywilne\nRodzaj: ćwiczenia\nProwadzący: dr Szewczyk-Ro
+ kicki Rafał\nNr zajęć: 3/13\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7a570037cb9db06f0dd704d1@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261030T095000
+DTEND;TZID=Europe/Warsaw:20261030T112500
+SUMMARY:Polit.Klima. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Polityka klimatyczna\nRodzaj: wykład\nProwadzący: dr Adamkie
+ wicz Jakub\nNr zajęć: 4/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d8f49bd869303dccdec7d114@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261030T114000
+DTEND;TZID=Europe/Warsaw:20261030T131500
+SUMMARY:Polit.Klima. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Polityka klimatyczna\nRodzaj: wykład\nProwadzący: dr Adamkie
+ wicz Jakub\nNr zajęć: 5/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f7eb38425b56f7ad36a0e1b4@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261102T160000
+DTEND;TZID=Europe/Warsaw:20261102T173500
+SUMMARY:Ja (ć)
+LOCATION:233 K\;232 K\;231 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 5/15\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:2396dcf559daad27ffe3e5c3@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261102T175000
+DTEND;TZID=Europe/Warsaw:20261102T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231 K\;232 K\;233 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 5/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:3f7924541c4b5d70c4780cf1@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261103T095000
+DTEND;TZID=Europe/Warsaw:20261103T112500
+SUMMARY:Polit.Klima. (ć)
+LOCATION:5.17/ 135
+DESCRIPTION:Polityka klimatyczna\nRodzaj: ćwiczenia\nProwadzący: dr Adam
+ kiewicz Jakub\nNr zajęć: 1/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0360694424249af8e675f10c@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261103T114000
+DTEND;TZID=Europe/Warsaw:20261103T131500
+SUMMARY:Polit.Klima. (ć)
+LOCATION:5.17/ 135
+DESCRIPTION:Polityka klimatyczna\nRodzaj: ćwiczenia\nProwadzący: dr Adam
+ kiewicz Jakub\nNr zajęć: 2/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c1c4f1a68ee528accc412ddc@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261104T160000
+DTEND;TZID=Europe/Warsaw:20261104T173500
+SUMMARY:Nad. i Kontr. w Ad.Publ. (ć)
+LOCATION:187 S
+DESCRIPTION:Nadzór i kontrola w admin. publ.\nRodzaj: ćwiczenia\nProwadz
+ ący: dr Ćwik Dariusz\nNr zajęć: 5/11\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:ebe94d64243247480d9a7460@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261104T175000
+DTEND;TZID=Europe/Warsaw:20261104T192500
+SUMMARY:Nad. i Kontr. w Ad.Publ. (ć)
+LOCATION:187 S
+DESCRIPTION:Nadzór i kontrola w admin. publ.\nRodzaj: ćwiczenia\nProwadz
+ ący: dr Ćwik Dariusz\nNr zajęć: 6/11\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:24ea0855cd92c8d4c64c64b8@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261106T080000
+DTEND;TZID=Europe/Warsaw:20261106T093500
+SUMMARY:FPiPF (ć)
+LOCATION:5.17/ 135
+DESCRIPTION:Finanse publiczne i prawo finansowe\nRodzaj: ćwiczenia\nProwa
+ dzący: dr Chyrzyński Ryszard\nNr zajęć: 2/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9022ed8aaea0ce042f33a891@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261106T095000
+DTEND;TZID=Europe/Warsaw:20261106T112500
+SUMMARY:FPiPF (ć)
+LOCATION:5.17/ 135
+DESCRIPTION:Finanse publiczne i prawo finansowe\nRodzaj: ćwiczenia\nProwa
+ dzący: dr Chyrzyński Ryszard\nNr zajęć: 3/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1b3ad08c31272903e1192a87@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261106T114000
+DTEND;TZID=Europe/Warsaw:20261106T131500
+SUMMARY:Pc (ć)
+LOCATION:0.8/ 16
+DESCRIPTION:Prawo cywilne\nRodzaj: ćwiczenia\nProwadzący: dr Szewczyk-Ro
+ kicki Rafał\nNr zajęć: 4/13\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a30d973a74d8712e0350e7f5@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261109T080000
+DTEND;TZID=Europe/Warsaw:20261109T093500
+SUMMARY:FPiPF (ć)
+LOCATION:187 S
+DESCRIPTION:Finanse publiczne i prawo finansowe\nRodzaj: ćwiczenia\nProwa
+ dzący: dr Chyrzyński Ryszard\nNr zajęć: 4/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ed8819379739fee1ddddede8@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261109T095000
+DTEND;TZID=Europe/Warsaw:20261109T112500
+SUMMARY:FPiPF (ć)
+LOCATION:187 S
+DESCRIPTION:Finanse publiczne i prawo finansowe\nRodzaj: ćwiczenia\nProwa
+ dzący: dr Chyrzyński Ryszard\nNr zajęć: 5/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ff82692c57891c4620cd2f08@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261109T114000
+DTEND;TZID=Europe/Warsaw:20261109T131500
+SUMMARY:P.Międzyn. (ć)
+LOCATION:3 54E
+DESCRIPTION:Prawo międzynarodowe\nRodzaj: ćwiczenia\nProwadzący: dr Kow
+ alski Wawrzyniec\nNr zajęć: 1/13\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:dbc29caa20b8b69b651239dc@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261109T133000
+DTEND;TZID=Europe/Warsaw:20261109T150500
+SUMMARY:P.Międzyn. (ć)
+LOCATION:3 54E
+DESCRIPTION:Prawo międzynarodowe\nRodzaj: ćwiczenia\nProwadzący: dr Kow
+ alski Wawrzyniec\nNr zajęć: 2/13\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b2e9833c208599132c8da6b1@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261109T160000
+DTEND;TZID=Europe/Warsaw:20261109T173500
+SUMMARY:Ja (ć)
+LOCATION:233 K\;232 K\;231 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 6/15\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:7a1f1971f044e5cffbbbebcc@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261109T175000
+DTEND;TZID=Europe/Warsaw:20261109T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231 K\;232 K\;233 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 6/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:533ed7fa95bb990b536f0e0e@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261110T080000
+DTEND;TZID=Europe/Warsaw:20261110T093500
+SUMMARY:P.Międzyn. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Prawo międzynarodowe\nRodzaj: wykład\nProwadzący: dr Kowals
+ ki Wawrzyniec\nNr zajęć: 3/13\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:65c9ce1b12a964b445843196@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261110T095000
+DTEND;TZID=Europe/Warsaw:20261110T112500
+SUMMARY:P.Międzyn. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Prawo międzynarodowe\nRodzaj: wykład\nProwadzący: dr Kowals
+ ki Wawrzyniec\nNr zajęć: 4/13\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b977b3cdc54ca02015a934a3@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261110T133000
+DTEND;TZID=Europe/Warsaw:20261110T150500
+SUMMARY:P.Międzyn. (ć)
+LOCATION:1.27/ 135
+DESCRIPTION:Prawo międzynarodowe\nRodzaj: ćwiczenia\nProwadzący: dr Kow
+ alski Wawrzyniec\nNr zajęć: 3/13\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:00b96a35c396a7c101ef0da6@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261110T160000
+DTEND;TZID=Europe/Warsaw:20261110T173500
+SUMMARY:P.Międzyn. (ć)
+LOCATION:1.27/ 135
+DESCRIPTION:Prawo międzynarodowe\nRodzaj: ćwiczenia\nProwadzący: dr Kow
+ alski Wawrzyniec\nNr zajęć: 4/13\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:c0a7558274e728c21557064b@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261113T114000
+DTEND;TZID=Europe/Warsaw:20261113T131500
+SUMMARY:Pc (ć)
+LOCATION:1 55A
+DESCRIPTION:Prawo cywilne\nRodzaj: ćwiczenia\nProwadzący: dr Szewczyk-Ro
+ kicki Rafał\nNr zajęć: 5/13\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a2eecec4b0a094aec1557135@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261113T133000
+DTEND;TZID=Europe/Warsaw:20261113T150500
+SUMMARY:P.Adm. (ć)
+LOCATION:187 S
+DESCRIPTION:Prawo administracyjne\nRodzaj: ćwiczenia\nProwadzący: dr Śl
+ edzik Waldemar\nNr zajęć: 7/13\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:08fe4eab8262564c9c1d1907@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261116T160000
+DTEND;TZID=Europe/Warsaw:20261116T173500
+SUMMARY:Ja (ć)
+LOCATION:233 K\;232 K\;231 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 7/15\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:0b701e06031fab2b251c5089@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261116T175000
+DTEND;TZID=Europe/Warsaw:20261116T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231 K\;232 K\;233 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 7/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:96b68ad290139464d03cbf2f@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261117T114000
+DTEND;TZID=Europe/Warsaw:20261117T131500
+SUMMARY:P.Międzyn. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Prawo międzynarodowe\nRodzaj: wykład\nProwadzący: dr Kowals
+ ki Wawrzyniec\nNr zajęć: 5/13\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:29cbfa625970e25cb81c1494@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261117T133000
+DTEND;TZID=Europe/Warsaw:20261117T150500
+SUMMARY:P.Międzyn. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Prawo międzynarodowe\nRodzaj: wykład\nProwadzący: dr Kowals
+ ki Wawrzyniec\nNr zajęć: 6/13\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3bbcc4418ca7151c8c67291e@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261117T160000
+DTEND;TZID=Europe/Warsaw:20261117T173500
+SUMMARY:Leg. Admin. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Legislacja administracyjna\nRodzaj: wykład\nProwadzący: dr 
+ Ćwik Dariusz\nNr zajęć: 7/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:e6ed6c4126b61d52567fb0e1@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261117T175000
+DTEND;TZID=Europe/Warsaw:20261117T192500
+SUMMARY:Leg. Admin. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Legislacja administracyjna\nRodzaj: wykład\nProwadzący: dr 
+ Ćwik Dariusz\nNr zajęć: 8/10\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:9eb02ce06ddc04505df8ab13@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261118T160000
+DTEND;TZID=Europe/Warsaw:20261118T173500
+SUMMARY:Leg. Admin. (ć)
+LOCATION:0.23/ 16
+DESCRIPTION:Legislacja administracyjna\nRodzaj: ćwiczenia\nProwadzący: d
+ r Ćwik Dariusz\nNr zajęć: 1/12\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:1845655fe4ede9611fae7514@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261118T175000
+DTEND;TZID=Europe/Warsaw:20261118T192500
+SUMMARY:Leg. Admin. (ć)
+LOCATION:0.23/ 16
+DESCRIPTION:Legislacja administracyjna\nRodzaj: ćwiczenia\nProwadzący: d
+ r Ćwik Dariusz\nNr zajęć: 2/12\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:077fc956d4191caa18f36c03@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261118T194000
+DTEND;TZID=Europe/Warsaw:20261118T211500
+SUMMARY:Leg. Admin. (ć)
+LOCATION:0.23/ 16
+DESCRIPTION:Legislacja administracyjna\nRodzaj: ćwiczenia\nProwadzący: d
+ r Ćwik Dariusz\nNr zajęć: 3/12\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:2257ba9cbb40c73d3eedb031@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261119T133000
+DTEND;TZID=Europe/Warsaw:20261119T150500
+SUMMARY:P.Adm. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Prawo administracyjne\nRodzaj: wykład\nProwadzący: dr Śledz
+ ik Waldemar\nNr zajęć: 10/13\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:974cd50630f1d6f7d2125c93@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261119T160000
+DTEND;TZID=Europe/Warsaw:20261119T173500
+SUMMARY:P.Adm. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Prawo administracyjne\nRodzaj: wykład\nProwadzący: dr Śledz
+ ik Waldemar\nNr zajęć: 11/13\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:787dc729589602381f93d036@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261120T133000
+DTEND;TZID=Europe/Warsaw:20261120T150500
+SUMMARY:FPiPF (ć)
+LOCATION:1.27/ 135
+DESCRIPTION:Finanse publiczne i prawo finansowe\nRodzaj: ćwiczenia\nProwa
+ dzący: dr Chyrzyński Ryszard\nNr zajęć: 6/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b2511063eb5c5ae2cbfff28a@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261120T160000
+DTEND;TZID=Europe/Warsaw:20261120T173500
+SUMMARY:Polit.Klima. (ć)
+LOCATION:4.17a/ 135
+DESCRIPTION:Polityka klimatyczna\nRodzaj: ćwiczenia\nProwadzący: dr Adam
+ kiewicz Jakub\nNr zajęć: 3/11\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f62953ec26996d3893bfbcb6@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261120T175000
+DTEND;TZID=Europe/Warsaw:20261120T192500
+SUMMARY:P.Adm. (ć)
+LOCATION:5.17/ 135
+DESCRIPTION:Prawo administracyjne\nRodzaj: ćwiczenia\nProwadzący: dr Śl
+ edzik Waldemar\nNr zajęć: 8/13\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:075c97b13601660b7126fc2d@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261120T194000
+DTEND;TZID=Europe/Warsaw:20261120T211500
+SUMMARY:P.Adm. (ć)
+LOCATION:5.17/ 135
+DESCRIPTION:Prawo administracyjne\nRodzaj: ćwiczenia\nProwadzący: dr Śl
+ edzik Waldemar\nNr zajęć: 9/13\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:a3255c9b498ebb1b6f4487b7@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261123T095000
+DTEND;TZID=Europe/Warsaw:20261123T112500
+SUMMARY:P.Międzyn. (ć)
+LOCATION:1002 HILTON
+DESCRIPTION:Prawo międzynarodowe\nRodzaj: ćwiczenia\nProwadzący: dr Kow
+ alski Wawrzyniec\nNr zajęć: 5/13\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9bf3c53382a0bd20100dc1eb@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261123T114000
+DTEND;TZID=Europe/Warsaw:20261123T131500
+SUMMARY:P.Międzyn. (ć)
+LOCATION:1002 HILTON
+DESCRIPTION:Prawo międzynarodowe\nRodzaj: ćwiczenia\nProwadzący: dr Kow
+ alski Wawrzyniec\nNr zajęć: 6/13\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:bb4c43bf0af5c0fa9b482dbf@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261123T160000
+DTEND;TZID=Europe/Warsaw:20261123T173500
+SUMMARY:Ja (ć)
+LOCATION:233 K\;232 K\;231 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 8/15\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:cf49a712bef0b7f184927679@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261123T175000
+DTEND;TZID=Europe/Warsaw:20261123T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231 K\;232 K\;233 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 8/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:f23941708af21bdf6cb5d023@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261124T160000
+DTEND;TZID=Europe/Warsaw:20261124T173500
+SUMMARY:Pc (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Prawo cywilne\nRodzaj: ćwiczenia\nProwadzący: dr Szewczyk-Ro
+ kicki Rafał\nNr zajęć: 6/13\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:4a81a724a44e5599fb3c6fb7@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261124T175000
+DTEND;TZID=Europe/Warsaw:20261124T192500
+SUMMARY:Pc (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Prawo cywilne\nRodzaj: ćwiczenia\nProwadzący: dr Szewczyk-Ro
+ kicki Rafał\nNr zajęć: 7/13\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:341192e3d4ef8b0633f2abfb@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261125T160000
+DTEND;TZID=Europe/Warsaw:20261125T173500
+SUMMARY:Adm.Obr. (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Administracja obronna\nRodzaj: wykład\nProwadzący: dr Stawar
+ z Paweł\nNr zajęć: 3/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:45307d5c3f90bb7a4025db90@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261125T175000
+DTEND;TZID=Europe/Warsaw:20261125T192500
+SUMMARY:P.Adm. (ć)
+LOCATION:5.17/ 135
+DESCRIPTION:Prawo administracyjne\nRodzaj: ćwiczenia\nProwadzący: dr Śl
+ edzik Waldemar\nNr zajęć: 10/13\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:f667246b661f4f3aafcee090@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261125T194000
+DTEND;TZID=Europe/Warsaw:20261125T211500
+SUMMARY:P.Adm. (ć)
+LOCATION:5.17/ 135
+DESCRIPTION:Prawo administracyjne\nRodzaj: ćwiczenia\nProwadzący: dr Śl
+ edzik Waldemar\nNr zajęć: 11/13\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:ef5a1797429f5bc18693c084@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261126T095000
+DTEND;TZID=Europe/Warsaw:20261126T112500
+SUMMARY:Polit.Klima. (w)
+LOCATION:aF S
+DESCRIPTION:Polityka klimatyczna\nRodzaj: wykład\nProwadzący: dr Adamkie
+ wicz Jakub\nNr zajęć: 6/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7e597ed65de87819e9ec7dcf@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261126T114000
+DTEND;TZID=Europe/Warsaw:20261126T131500
+SUMMARY:Polit.Klima. (w)
+LOCATION:aF S
+DESCRIPTION:Polityka klimatyczna\nRodzaj: wykład\nProwadzący: dr Adamkie
+ wicz Jakub\nNr zajęć: 7/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:cecc06df4c14d1e34d5ea91f@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261126T133000
+DTEND;TZID=Europe/Warsaw:20261126T150500
+SUMMARY:Nad. i Kontr. w Ad.Publ. (ć)
+LOCATION:5.17/ 135
+DESCRIPTION:Nadzór i kontrola w admin. publ.\nRodzaj: ćwiczenia\nProwadz
+ ący: dr Ćwik Dariusz\nNr zajęć: 7/11\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8d5ce106614849ff6ef59113@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261130T133000
+DTEND;TZID=Europe/Warsaw:20261130T150500
+SUMMARY:Pc (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Prawo cywilne\nRodzaj: wykład\nProwadzący: dr Szewczyk-Rokic
+ ki Rafał\nNr zajęć: 6/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:96bdc216f9887f253f91ce60@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261130T160000
+DTEND;TZID=Europe/Warsaw:20261130T173500
+SUMMARY:Ja (ć)
+LOCATION:233 K\;232 K\;231 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 9/15\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:cbf885de63ffa5bf2b293b20@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261130T175000
+DTEND;TZID=Europe/Warsaw:20261130T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231 K\;232 K\;233 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 9/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:10af3aa69376a7f2070858e8@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261201T080000
+DTEND;TZID=Europe/Warsaw:20261201T093500
+SUMMARY:Adm.Obr. (w)
+LOCATION:1.10/ 16\;1.9/ 16
+DESCRIPTION:Administracja obronna\nRodzaj: wykład\nProwadzący: dr Stawar
+ z Paweł\nNr zajęć: 4/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:bce7c88af557c38dcfe4c6c2@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261201T095000
+DTEND;TZID=Europe/Warsaw:20261201T112500
+SUMMARY:Adm.Obr. (w)
+LOCATION:1.10/ 16\;1.9/ 16
+DESCRIPTION:Administracja obronna\nRodzaj: wykład\nProwadzący: dr Stawar
+ z Paweł\nNr zajęć: 5/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1d0a5537648117541b978f00@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261201T114000
+DTEND;TZID=Europe/Warsaw:20261201T131500
+SUMMARY:Adm.Obr. (w)
+LOCATION:1.10/ 16\;1.9/ 16
+DESCRIPTION:Administracja obronna\nRodzaj: wykład\nProwadzący: dr Stawar
+ z Paweł\nNr zajęć: 6/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8238e3fbf77e2331064ae2e2@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261202T160000
+DTEND;TZID=Europe/Warsaw:20261202T173500
+SUMMARY:Nad. i Kontr. w Ad.Publ. (ć)
+LOCATION:0.28/ 135
+DESCRIPTION:Nadzór i kontrola w admin. publ.\nRodzaj: ćwiczenia\nProwadz
+ ący: dr Ćwik Dariusz\nNr zajęć: 8/11\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:1ce8bb83224feb01ebb40271@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261202T175000
+DTEND;TZID=Europe/Warsaw:20261202T192500
+SUMMARY:Nad. i Kontr. w Ad.Publ. (ć)
+LOCATION:0.28/ 135
+DESCRIPTION:Nadzór i kontrola w admin. publ.\nRodzaj: ćwiczenia\nProwadz
+ ący: dr Ćwik Dariusz\nNr zajęć: 9/11\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:8450ef0a87b70bbee093c8d8@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261203T080000
+DTEND;TZID=Europe/Warsaw:20261203T093500
+SUMMARY:Nad. i Kontr. w Ad.Publ. (w)
+LOCATION:7a-b Bibl
+DESCRIPTION:Nadzór i kontrola w admin. publ.\nRodzaj: wykład\nProwadząc
+ y: dr Ćwik Dariusz\nNr zajęć: 8/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:70fcb1b24973e4d846f885f0@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261203T095000
+DTEND;TZID=Europe/Warsaw:20261203T112500
+SUMMARY:Nad. i Kontr. w Ad.Publ. (w)
+LOCATION:7a-b Bibl
+DESCRIPTION:Nadzór i kontrola w admin. publ.\nRodzaj: wykład\nProwadząc
+ y: dr Ćwik Dariusz\nNr zajęć: 9/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ff1d1ca7de171f4fcfc78039@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261207T095000
+DTEND;TZID=Europe/Warsaw:20261207T112500
+SUMMARY:Pc (ć)
+LOCATION:2 55A
+DESCRIPTION:Prawo cywilne\nRodzaj: ćwiczenia\nProwadzący: dr Szewczyk-Ro
+ kicki Rafał\nNr zajęć: 8/13\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c736e18a6e05e1e2ff4c485a@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261207T114000
+DTEND;TZID=Europe/Warsaw:20261207T131500
+SUMMARY:FPiPF (ć)
+LOCATION:110/ 14
+DESCRIPTION:Finanse publiczne i prawo finansowe\nRodzaj: ćwiczenia\nProwa
+ dzący: dr Chyrzyński Ryszard\nNr zajęć: 7/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6123459632ae39e2e5b86ffc@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261207T133000
+DTEND;TZID=Europe/Warsaw:20261207T150500
+SUMMARY:Adm.Obr. (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Administracja obronna\nRodzaj: wykład\nProwadzący: dr Stawar
+ z Paweł\nNr zajęć: 7/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e76425a5e69f439a0d367d19@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261207T160000
+DTEND;TZID=Europe/Warsaw:20261207T173500
+SUMMARY:Ja (ć)
+LOCATION:233 K\;232 K\;231 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 10/15\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:a27aa74dd3931cca12475116@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261207T175000
+DTEND;TZID=Europe/Warsaw:20261207T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231 K\;232 K\;233 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 10/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:7ab88974de5a9b1c3bfd0b58@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261208T080000
+DTEND;TZID=Europe/Warsaw:20261208T093500
+SUMMARY:P.Międzyn. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Prawo międzynarodowe\nRodzaj: wykład\nProwadzący: dr Kowals
+ ki Wawrzyniec\nNr zajęć: 7/13\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:385b773ad4275dc92eac7bbe@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261208T095000
+DTEND;TZID=Europe/Warsaw:20261208T112500
+SUMMARY:P.Międzyn. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Prawo międzynarodowe\nRodzaj: wykład\nProwadzący: dr Kowals
+ ki Wawrzyniec\nNr zajęć: 8/13\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:582ebfb746fabf71b3362a49@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261209T080000
+DTEND;TZID=Europe/Warsaw:20261209T093500
+SUMMARY:Pc (w)
+LOCATION:7a-b Bibl
+DESCRIPTION:Prawo cywilne\nRodzaj: wykład\nProwadzący: dr Szewczyk-Rokic
+ ki Rafał\nNr zajęć: 7/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2dc14660886c346e0c78d94b@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261209T095000
+DTEND;TZID=Europe/Warsaw:20261209T112500
+SUMMARY:Pc (w)
+LOCATION:7a-b Bibl
+DESCRIPTION:Prawo cywilne\nRodzaj: wykład\nProwadzący: dr Szewczyk-Rokic
+ ki Rafał\nNr zajęć: 8/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8c4fd4ba21e07222215feff1@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261209T114000
+DTEND;TZID=Europe/Warsaw:20261209T131500
+SUMMARY:Polit.Klima. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Polityka klimatyczna\nRodzaj: wykład\nProwadzący: dr Adamkie
+ wicz Jakub\nNr zajęć: 8/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f6fd322459ec94af167767c7@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261209T133000
+DTEND;TZID=Europe/Warsaw:20261209T150500
+SUMMARY:Polit.Klima. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Polityka klimatyczna\nRodzaj: wykład\nProwadzący: dr Adamkie
+ wicz Jakub\nNr zajęć: 9/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ad86762fc484410e99ed380c@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261209T160000
+DTEND;TZID=Europe/Warsaw:20261209T173500
+SUMMARY:P.Adm. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Prawo administracyjne\nRodzaj: wykład\nProwadzący: dr Śledz
+ ik Waldemar\nNr zajęć: 12/13\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:90dd919976a7c7e39e10d22e@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261209T175000
+DTEND;TZID=Europe/Warsaw:20261209T192500
+SUMMARY:P.Adm. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Prawo administracyjne\nRodzaj: wykład\nProwadzący: dr Śledz
+ ik Waldemar\nNr zajęć: 13/13\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:be79c03b4a62f8f8996526fd@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261210T095000
+DTEND;TZID=Europe/Warsaw:20261210T112500
+SUMMARY:Pc (w)
+LOCATION:aF S
+DESCRIPTION:Prawo cywilne\nRodzaj: wykład\nProwadzący: dr Szewczyk-Rokic
+ ki Rafał\nNr zajęć: 9/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6f1bce06b6cddf9e896082f4@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261210T114000
+DTEND;TZID=Europe/Warsaw:20261210T131500
+SUMMARY:Adm.Obr. (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Administracja obronna\nRodzaj: wykład\nProwadzący: dr Stawar
+ z Paweł\nNr zajęć: 8/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2eebbd455d9d1595ceae3bcc@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261210T133000
+DTEND;TZID=Europe/Warsaw:20261210T150500
+SUMMARY:Adm.Obr. (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Administracja obronna\nRodzaj: wykład\nProwadzący: dr Stawar
+ z Paweł\nNr zajęć: 9/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f7bbcf4eff7b318450a1ba60@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261210T160000
+DTEND;TZID=Europe/Warsaw:20261210T173500
+SUMMARY:P.Adm. (ć)
+LOCATION:255 S
+DESCRIPTION:Prawo administracyjne\nRodzaj: ćwiczenia\nProwadzący: dr Śl
+ edzik Waldemar\nNr zajęć: 12/13\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:73e2b858b84981ded905086c@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261210T175000
+DTEND;TZID=Europe/Warsaw:20261210T192500
+SUMMARY:P.Adm. (ć)
+LOCATION:255 S
+DESCRIPTION:Prawo administracyjne\nRodzaj: ćwiczenia\nProwadzący: dr Śl
+ edzik Waldemar\nNr zajęć: 13/13\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:b5bce740832f370f00581e30@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261210T194000
+DTEND;TZID=Europe/Warsaw:20261210T211500
+SUMMARY:Nad. i Kontr. w Ad.Publ. (ć)
+LOCATION:255 S
+DESCRIPTION:Nadzór i kontrola w admin. publ.\nRodzaj: ćwiczenia\nProwadz
+ ący: dr Ćwik Dariusz\nNr zajęć: 10/11\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:9a3635b04734a9b6f726ca84@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261214T095000
+DTEND;TZID=Europe/Warsaw:20261214T112500
+SUMMARY:FPiPF (ć)
+LOCATION:1002 HILTON
+DESCRIPTION:Finanse publiczne i prawo finansowe\nRodzaj: ćwiczenia\nProwa
+ dzący: dr Chyrzyński Ryszard\nNr zajęć: 8/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3c116438748a0aed74f2c13d@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261214T114000
+DTEND;TZID=Europe/Warsaw:20261214T131500
+SUMMARY:FPiPF (ć)
+LOCATION:1002 HILTON
+DESCRIPTION:Finanse publiczne i prawo finansowe\nRodzaj: ćwiczenia\nProwa
+ dzący: dr Chyrzyński Ryszard\nNr zajęć: 9/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0d722833afa761e2209e2a3c@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261214T133000
+DTEND;TZID=Europe/Warsaw:20261214T150500
+SUMMARY:Adm.Obr. (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Administracja obronna\nRodzaj: wykład\nProwadzący: dr Stawar
+ z Paweł\nNr zajęć: 10/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4b5e3530dc1176ab47ad2cbb@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261214T160000
+DTEND;TZID=Europe/Warsaw:20261214T173500
+SUMMARY:Ja (ć)
+LOCATION:233 K\;232 K\;231 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 11/15\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:075e4fb52ce140938ed5e050@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261214T175000
+DTEND;TZID=Europe/Warsaw:20261214T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231 K\;232 K\;233 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 11/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:667e6bde6b10674981350b91@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261215T095000
+DTEND;TZID=Europe/Warsaw:20261215T112500
+SUMMARY:Adm.Obr. (ć)
+LOCATION:1.27/ 135
+DESCRIPTION:Administracja obronna\nRodzaj: ćwiczenia\nProwadzący: dr Sta
+ warz Paweł\nNr zajęć: 1/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:aa1d8a626f5ecf5db50d9074@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261215T114000
+DTEND;TZID=Europe/Warsaw:20261215T131500
+SUMMARY:P.Międzyn. (w)
+LOCATION:1.9/ 16\;1.10/ 16
+DESCRIPTION:Prawo międzynarodowe\nRodzaj: wykład\nProwadzący: dr Kowals
+ ki Wawrzyniec\nNr zajęć: 9/13\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8651afbe713a909327f543bb@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261215T133000
+DTEND;TZID=Europe/Warsaw:20261215T150500
+SUMMARY:Leg. Admin. (w)
+LOCATION:1.10/ 16\;1.9/ 16
+DESCRIPTION:Legislacja administracyjna\nRodzaj: wykład\nProwadzący: dr 
+ Ćwik Dariusz\nNr zajęć: 9/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2d18ae8abb30e587ca81cee2@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261215T160000
+DTEND;TZID=Europe/Warsaw:20261215T173500
+SUMMARY:Leg. Admin. (w)
+LOCATION:1.10/ 16\;1.9/ 16
+DESCRIPTION:Legislacja administracyjna\nRodzaj: wykład\nProwadzący: dr 
+ Ćwik Dariusz\nNr zajęć: 10/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:2cfffc7e11d4c1fc516aafc3@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261216T080000
+DTEND;TZID=Europe/Warsaw:20261216T093500
+SUMMARY:Polit.Klima. (ć)
+LOCATION:1002 HILTON
+DESCRIPTION:Polityka klimatyczna\nRodzaj: ćwiczenia\nProwadzący: dr Adam
+ kiewicz Jakub\nNr zajęć: 4/11\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a4c30f11a1b6cfda959a2df0@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261216T095000
+DTEND;TZID=Europe/Warsaw:20261216T112500
+SUMMARY:Polit.Klima. (ć)
+LOCATION:1002 HILTON
+DESCRIPTION:Polityka klimatyczna\nRodzaj: ćwiczenia\nProwadzący: dr Adam
+ kiewicz Jakub\nNr zajęć: 5/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d9ab9954ad0e49905dd68658@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261217T095000
+DTEND;TZID=Europe/Warsaw:20261217T112500
+SUMMARY:P.Międzyn. (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Prawo międzynarodowe\nRodzaj: wykład\nProwadzący: dr Kowals
+ ki Wawrzyniec\nNr zajęć: 10/13\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:fb520cad3bae3c8c31cf461f@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261217T114000
+DTEND;TZID=Europe/Warsaw:20261217T131500
+SUMMARY:P.Międzyn. (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Prawo międzynarodowe\nRodzaj: wykład\nProwadzący: dr Kowals
+ ki Wawrzyniec\nNr zajęć: 11/13\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d5f706478dc8b8a2c130b7b1@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261217T160000
+DTEND;TZID=Europe/Warsaw:20261217T173500
+SUMMARY:Leg. Admin. (ć)
+LOCATION:4.17a/ 135
+DESCRIPTION:Legislacja administracyjna\nRodzaj: ćwiczenia\nProwadzący: d
+ r Ćwik Dariusz\nNr zajęć: 4/12\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:b8a6d5c43c73d9e010cf4f7d@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261217T175000
+DTEND;TZID=Europe/Warsaw:20261217T192500
+SUMMARY:Leg. Admin. (ć)
+LOCATION:4.17a/ 135
+DESCRIPTION:Legislacja administracyjna\nRodzaj: ćwiczenia\nProwadzący: d
+ r Ćwik Dariusz\nNr zajęć: 5/12\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:e24e96b19632f143589afef0@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261221T095000
+DTEND;TZID=Europe/Warsaw:20261221T112500
+SUMMARY:Adm.Obr. (ć)
+LOCATION:108 24
+DESCRIPTION:Administracja obronna\nRodzaj: ćwiczenia\nProwadzący: dr Sta
+ warz Paweł\nNr zajęć: 2/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1427f11ae3718b8e78776a20@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261221T114000
+DTEND;TZID=Europe/Warsaw:20261221T131500
+SUMMARY:Adm.Obr. (ć)
+LOCATION:108 24
+DESCRIPTION:Administracja obronna\nRodzaj: ćwiczenia\nProwadzący: dr Sta
+ warz Paweł\nNr zajęć: 3/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:eda2067f0c97b7a2ff7e7944@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261221T133000
+DTEND;TZID=Europe/Warsaw:20261221T150500
+SUMMARY:P.Międzyn. (ć)
+LOCATION:0.19/ 135
+DESCRIPTION:Prawo międzynarodowe\nRodzaj: ćwiczenia\nProwadzący: dr Kow
+ alski Wawrzyniec\nNr zajęć: 7/13\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:228d39de6af90b48a0a28b26@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261221T160000
+DTEND;TZID=Europe/Warsaw:20261221T173500
+SUMMARY:Ja (ć)
+LOCATION:233 K\;232 K\;231 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 12/15\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:df1a02f5dbe18f5ce99f1fd7@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261221T175000
+DTEND;TZID=Europe/Warsaw:20261221T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231 K\;232 K\;233 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 12/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:2ab91cb0dc09abfeb4667a2f@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261222T160000
+DTEND;TZID=Europe/Warsaw:20261222T173500
+SUMMARY:Pc (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Prawo cywilne\nRodzaj: ćwiczenia\nProwadzący: dr Szewczyk-Ro
+ kicki Rafał\nNr zajęć: 9/13\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:31bb1b7e6933c591dad4ae75@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261222T175000
+DTEND;TZID=Europe/Warsaw:20261222T192500
+SUMMARY:Pc (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Prawo cywilne\nRodzaj: ćwiczenia\nProwadzący: dr Szewczyk-Ro
+ kicki Rafał\nNr zajęć: 10/13\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:fdd48f29e4d8c8fb56dcd016@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261223T160000
+DTEND;TZID=Europe/Warsaw:20261223T173500
+SUMMARY:Leg. Admin. (ć)
+LOCATION:0.8/ 16
+DESCRIPTION:Legislacja administracyjna\nRodzaj: ćwiczenia\nProwadzący: d
+ r Ćwik Dariusz\nNr zajęć: 6/12\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:0ea8a0bc8014de43ef905369@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261223T175000
+DTEND;TZID=Europe/Warsaw:20261223T192500
+SUMMARY:Leg. Admin. (ć)
+LOCATION:0.8/ 16
+DESCRIPTION:Legislacja administracyjna\nRodzaj: ćwiczenia\nProwadzący: d
+ r Ćwik Dariusz\nNr zajęć: 7/12\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:958ae33250168941bc198dad@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261223T194000
+DTEND;TZID=Europe/Warsaw:20261223T211500
+SUMMARY:Leg. Admin. (ć)
+LOCATION:0.8/ 16
+DESCRIPTION:Legislacja administracyjna\nRodzaj: ćwiczenia\nProwadzący: d
+ r Ćwik Dariusz\nNr zajęć: 8/12\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:9b49814d5c9a640545386f47@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270107T133000
+DTEND;TZID=Europe/Warsaw:20270107T150500
+SUMMARY:Polit.Klima. (ć)
+LOCATION:3.16/ 135
+DESCRIPTION:Polityka klimatyczna\nRodzaj: ćwiczenia\nProwadzący: dr Adam
+ kiewicz Jakub\nNr zajęć: 6/11\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1858ec1ffe52454c5e4bd0ec@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270107T160000
+DTEND;TZID=Europe/Warsaw:20270107T173500
+SUMMARY:FPiPF (ć)
+LOCATION:1.10/ 16
+DESCRIPTION:Finanse publiczne i prawo finansowe\nRodzaj: ćwiczenia\nProwa
+ dzący: dr Chyrzyński Ryszard\nNr zajęć: 10/12\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:077dfa1d4374f6f6b2edf623@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270107T175000
+DTEND;TZID=Europe/Warsaw:20270107T192500
+SUMMARY:FPiPF (ć)
+LOCATION:1.10/ 16
+DESCRIPTION:Finanse publiczne i prawo finansowe\nRodzaj: ćwiczenia\nProwa
+ dzący: dr Chyrzyński Ryszard\nNr zajęć: 11/12\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:6baf87a0b70dfe0f13df9955@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270108T095000
+DTEND;TZID=Europe/Warsaw:20270108T112500
+SUMMARY:Polit.Klima. (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Polityka klimatyczna\nRodzaj: ćwiczenia\nProwadzący: dr Adam
+ kiewicz Jakub\nNr zajęć: 7/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0b29ea03e269429b7ffbb068@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270108T114000
+DTEND;TZID=Europe/Warsaw:20270108T131500
+SUMMARY:Adm.Obr. (ć)
+LOCATION:2 55A
+DESCRIPTION:Administracja obronna\nRodzaj: ćwiczenia\nProwadzący: dr Sta
+ warz Paweł\nNr zajęć: 4/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:58a14eb7b56f6022f0006ec0@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270108T133000
+DTEND;TZID=Europe/Warsaw:20270108T150500
+SUMMARY:Adm.Obr. (ć)
+LOCATION:2 55A
+DESCRIPTION:Administracja obronna\nRodzaj: ćwiczenia\nProwadzący: dr Sta
+ warz Paweł\nNr zajęć: 5/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:693db6ea6979560795700406@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270108T160000
+DTEND;TZID=Europe/Warsaw:20270108T173500
+SUMMARY:Pc (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Prawo cywilne\nRodzaj: ćwiczenia\nProwadzący: dr Szewczyk-Ro
+ kicki Rafał\nNr zajęć: 11/13\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:2bcbe7584b81ecfbfbe3b503@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270108T175000
+DTEND;TZID=Europe/Warsaw:20270108T192500
+SUMMARY:Pc (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Prawo cywilne\nRodzaj: ćwiczenia\nProwadzący: dr Szewczyk-Ro
+ kicki Rafał\nNr zajęć: 12/13\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:e89779bf046191ad50498e7a@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270111T133000
+DTEND;TZID=Europe/Warsaw:20270111T150500
+SUMMARY:Polit.Klima. (ć)
+LOCATION:3.16/ 135
+DESCRIPTION:Polityka klimatyczna\nRodzaj: ćwiczenia\nProwadzący: dr Adam
+ kiewicz Jakub\nNr zajęć: 8/11\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b961bbad123c8a8748c1aa20@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270111T160000
+DTEND;TZID=Europe/Warsaw:20270111T173500
+SUMMARY:Ja (ć)
+LOCATION:233 K\;232 K\;231 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 13/15\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:c3c2c59e33eb73ab2c2fa6ca@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270111T175000
+DTEND;TZID=Europe/Warsaw:20270111T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231 K\;232 K\;233 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 13/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:3b45bc1ff07c5a69f9e982f0@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270115T095000
+DTEND;TZID=Europe/Warsaw:20270115T112500
+SUMMARY:Polit.Klima. (ć)
+LOCATION:A.1.3/ 135
+DESCRIPTION:Polityka klimatyczna\nRodzaj: ćwiczenia\nProwadzący: dr Adam
+ kiewicz Jakub\nNr zajęć: 9/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6a35f6df3f8a11480f3dd9b4@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270115T114000
+DTEND;TZID=Europe/Warsaw:20270115T131500
+SUMMARY:Adm.Obr. (ć)
+LOCATION:1.9/ 16
+DESCRIPTION:Administracja obronna\nRodzaj: ćwiczenia\nProwadzący: dr Sta
+ warz Paweł\nNr zajęć: 6/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:747f44fef9986ab07b5fd432@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270115T133000
+DTEND;TZID=Europe/Warsaw:20270115T150500
+SUMMARY:Adm.Obr. (ć)
+LOCATION:1.9/ 16
+DESCRIPTION:Administracja obronna\nRodzaj: ćwiczenia\nProwadzący: dr Sta
+ warz Paweł\nNr zajęć: 7/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:00d29bf84da793b8c124aeec@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270118T114000
+DTEND;TZID=Europe/Warsaw:20270118T131500
+SUMMARY:P.Międzyn. (w)
+LOCATION:3.8 75
+DESCRIPTION:Prawo międzynarodowe\nRodzaj: wykład\nProwadzący: dr Kowals
+ ki Wawrzyniec\nNr zajęć: 12/13\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7026aa4c2921140c7ae2cc7a@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270118T133000
+DTEND;TZID=Europe/Warsaw:20270118T150500
+SUMMARY:P.Międzyn. (w)
+LOCATION:3.8 75
+DESCRIPTION:Prawo międzynarodowe\nRodzaj: wykład\nProwadzący: dr Kowals
+ ki Wawrzyniec\nNr zajęć: 13/13\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a9a0ddb10a5e274715941d0b@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270118T160000
+DTEND;TZID=Europe/Warsaw:20270118T173500
+SUMMARY:Ja (ć)
+LOCATION:233 K\;232 K\;231 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 14/15\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:80e578bc0bd22839c98a3e5d@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270118T175000
+DTEND;TZID=Europe/Warsaw:20270118T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231 K\;232 K\;233 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 14/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:1b889e634dbff7c608b25e1b@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270120T080000
+DTEND;TZID=Europe/Warsaw:20270120T093500
+SUMMARY:P.Międzyn. (ć)
+LOCATION:1002 HILTON
+DESCRIPTION:Prawo międzynarodowe\nRodzaj: ćwiczenia\nProwadzący: dr Kow
+ alski Wawrzyniec\nNr zajęć: 8/13\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e8a46f651db4591216d03f3f@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270120T095000
+DTEND;TZID=Europe/Warsaw:20270120T112500
+SUMMARY:P.Międzyn. (ć)
+LOCATION:1002 HILTON
+DESCRIPTION:Prawo międzynarodowe\nRodzaj: ćwiczenia\nProwadzący: dr Kow
+ alski Wawrzyniec\nNr zajęć: 9/13\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7ae55ac176bb8cfe879b1688@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270120T114000
+DTEND;TZID=Europe/Warsaw:20270120T131500
+SUMMARY:P.Międzyn. (ć)
+LOCATION:1002 HILTON
+DESCRIPTION:Prawo międzynarodowe\nRodzaj: ćwiczenia\nProwadzący: dr Kow
+ alski Wawrzyniec\nNr zajęć: 10/13\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d2696ffa67bf945dd68d9be5@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270121T133000
+DTEND;TZID=Europe/Warsaw:20270121T150500
+SUMMARY:Leg. Admin. (ć)
+LOCATION:255 S
+DESCRIPTION:Legislacja administracyjna\nRodzaj: ćwiczenia\nProwadzący: d
+ r Ćwik Dariusz\nNr zajęć: 9/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f9d4c804a3f68dc09b456bf3@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270121T160000
+DTEND;TZID=Europe/Warsaw:20270121T173500
+SUMMARY:Leg. Admin. (ć)
+LOCATION:255 S
+DESCRIPTION:Legislacja administracyjna\nRodzaj: ćwiczenia\nProwadzący: d
+ r Ćwik Dariusz\nNr zajęć: 10/12\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:0a0eaee94de599fdb61ac994@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270121T175000
+DTEND;TZID=Europe/Warsaw:20270121T192500
+SUMMARY:Leg. Admin. (ć)
+LOCATION:255 S
+DESCRIPTION:Legislacja administracyjna\nRodzaj: ćwiczenia\nProwadzący: d
+ r Ćwik Dariusz\nNr zajęć: 11/12\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:b9771869a5334046b645604d@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270122T095000
+DTEND;TZID=Europe/Warsaw:20270122T112500
+SUMMARY:Pc (ć)
+LOCATION:3.16/ 135
+DESCRIPTION:Prawo cywilne\nRodzaj: ćwiczenia\nProwadzący: dr Szewczyk-Ro
+ kicki Rafał\nNr zajęć: 13/13\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:191fc9755d132fb0f03c951d@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270122T114000
+DTEND;TZID=Europe/Warsaw:20270122T131500
+SUMMARY:Adm.Obr. (ć)
+LOCATION:7a-b Bibl
+DESCRIPTION:Administracja obronna\nRodzaj: ćwiczenia\nProwadzący: dr Sta
+ warz Paweł\nNr zajęć: 8/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f5238a1a46c115c93874a547@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270122T133000
+DTEND;TZID=Europe/Warsaw:20270122T150500
+SUMMARY:Adm.Obr. (ć)
+LOCATION:7a-b Bibl
+DESCRIPTION:Administracja obronna\nRodzaj: ćwiczenia\nProwadzący: dr Sta
+ warz Paweł\nNr zajęć: 9/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:846526fd786aec8a69789b0a@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270122T160000
+DTEND;TZID=Europe/Warsaw:20270122T173500
+SUMMARY:Adm.Obr. (ć)
+LOCATION:A.1.3/ 135
+DESCRIPTION:Administracja obronna\nRodzaj: ćwiczenia\nProwadzący: dr Sta
+ warz Paweł\nNr zajęć: 10/12\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:43935b2fe922a5a3e0928aa5@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270125T080000
+DTEND;TZID=Europe/Warsaw:20270125T093500
+SUMMARY:P.Międzyn. (ć)
+LOCATION:117 47
+DESCRIPTION:Prawo międzynarodowe\nRodzaj: ćwiczenia\nProwadzący: dr Kow
+ alski Wawrzyniec\nNr zajęć: 11/13\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:85a13efc8630034b6fc416d8@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270125T095000
+DTEND;TZID=Europe/Warsaw:20270125T112500
+SUMMARY:P.Międzyn. (ć)
+LOCATION:117 47
+DESCRIPTION:Prawo międzynarodowe\nRodzaj: ćwiczenia\nProwadzący: dr Kow
+ alski Wawrzyniec\nNr zajęć: 12/13\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f6060cb56746ebe528e4865d@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270125T114000
+DTEND;TZID=Europe/Warsaw:20270125T131500
+SUMMARY:P.Międzyn. (ć)
+LOCATION:117 47
+DESCRIPTION:Prawo międzynarodowe\nRodzaj: ćwiczenia\nProwadzący: dr Kow
+ alski Wawrzyniec\nNr zajęć: 13/13\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:422db2bea74be318a347ba4b@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270125T133000
+DTEND;TZID=Europe/Warsaw:20270125T150500
+SUMMARY:Pc (w)
+LOCATION:3.8 75
+DESCRIPTION:Prawo cywilne\nRodzaj: wykład\nProwadzący: dr Szewczyk-Rokic
+ ki Rafał\nNr zajęć: 10/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:bfba286c848652777e0c2404@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270125T160000
+DTEND;TZID=Europe/Warsaw:20270125T173500
+SUMMARY:Ja (ć)
+LOCATION:233 K\;232 K\;231 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 15/15\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:066764d112636c3402adfd8e@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270125T175000
+DTEND;TZID=Europe/Warsaw:20270125T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231 K\;232 K\;233 K
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 15/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:78c74aee070e672e59981ba2@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270126T133000
+DTEND;TZID=Europe/Warsaw:20270126T150500
+SUMMARY:Polit.Klima. (ć)
+LOCATION:255 S
+DESCRIPTION:Polityka klimatyczna\nRodzaj: ćwiczenia\nProwadzący: dr Adam
+ kiewicz Jakub\nNr zajęć: 10/11\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e2ea23522cdc96bcb7cd2296@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270126T160000
+DTEND;TZID=Europe/Warsaw:20270126T173500
+SUMMARY:Leg. Admin. (ć)
+LOCATION:187 S
+DESCRIPTION:Legislacja administracyjna\nRodzaj: ćwiczenia\nProwadzący: d
+ r Ćwik Dariusz\nNr zajęć: 12/12\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:e40ad587481702a696d4d55b@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270127T114000
+DTEND;TZID=Europe/Warsaw:20270127T131500
+SUMMARY:Polit.Klima. (ć)
+LOCATION:1.17/ 16
+DESCRIPTION:Polityka klimatyczna\nRodzaj: ćwiczenia\nProwadzący: dr Adam
+ kiewicz Jakub\nNr zajęć: 11/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7dae6c53ebb55ee951b7859e@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270127T133000
+DTEND;TZID=Europe/Warsaw:20270127T150500
+SUMMARY:FPiPF (ć)
+LOCATION:1002 HILTON
+DESCRIPTION:Finanse publiczne i prawo finansowe\nRodzaj: ćwiczenia\nProwa
+ dzący: dr Chyrzyński Ryszard\nNr zajęć: 12/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9471dd22b821779d5acec7c0@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270127T160000
+DTEND;TZID=Europe/Warsaw:20270127T173500
+SUMMARY:Nad. i Kontr. w Ad.Publ. (ć)
+LOCATION:1.17/ 16
+DESCRIPTION:Nadzór i kontrola w admin. publ.\nRodzaj: ćwiczenia\nProwadz
+ ący: dr Ćwik Dariusz\nNr zajęć: 11/11\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:3e12e43e7e272b901181e34f@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270128T114000
+DTEND;TZID=Europe/Warsaw:20270128T131500
+SUMMARY:FPiPF (w)
+LOCATION:aF S
+DESCRIPTION:Finanse publiczne i prawo finansowe\nRodzaj: wykład\nProwadz
+ ący: dr Chyrzyński Ryszard\nNr zajęć: 10/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3f814199dacb98303a4baa79@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270129T114000
+DTEND;TZID=Europe/Warsaw:20270129T131500
+SUMMARY:Adm.Obr. (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Administracja obronna\nRodzaj: ćwiczenia\nProwadzący: dr Sta
+ warz Paweł\nNr zajęć: 11/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c5ca33e799b021818ac60cae@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270129T133000
+DTEND;TZID=Europe/Warsaw:20270129T150500
+SUMMARY:Adm.Obr. (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Administracja obronna\nRodzaj: ćwiczenia\nProwadzący: dr Sta
+ warz Paweł\nNr zajęć: 12/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:400a025a661dbef194ee04f9@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270202T095000
+DTEND;TZID=Europe/Warsaw:20270202T112500
+SUMMARY:P.Adm. (E)
+LOCATION:aF S
+DESCRIPTION:Prawo administracyjne\nRodzaj: egzamin\nProwadzący: dr Śledz
+ ik Waldemar\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5b3ad6b0484c7aeb4c56092d@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270203T080000
+DTEND;TZID=Europe/Warsaw:20270203T093500
+SUMMARY:P.Międzyn. (E)
+LOCATION:aula/ 135
+DESCRIPTION:Prawo międzynarodowe\nRodzaj: egzamin\nProwadzący: dr Kowals
+ ki Wawrzyniec\nNr zajęć: 1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b43bc6429f7a598bd3e341a7@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270216T095000
+DTEND;TZID=Europe/Warsaw:20270216T112500
+SUMMARY:P.Adm. (Ep)
+LOCATION:aF S
+DESCRIPTION:Prawo administracyjne\nRodzaj: egzamin poprawkowy\nProwadzący
+ : dr Śledzik Waldemar\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9d802c03b1bfe3978dc5aa7d@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270217T080000
+DTEND;TZID=Europe/Warsaw:20270217T093500
+SUMMARY:P.Międzyn. (Ep)
+LOCATION:aula/ 135
+DESCRIPTION:Prawo międzynarodowe\nRodzaj: egzamin poprawkowy\nProwadzący
+ : dr Kowalski Wawrzyniec\nNr zajęć: 1/1\nBlok: 1
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,2015 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WTC24CN1S1
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:d6fde3cba89f845ea2ecae25@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261006T080000
+DTEND;TZID=Europe/Warsaw:20261006T093500
+SUMMARY:Fj (w)
+LOCATION:10 55
+DESCRIPTION:Fizyka jądrowa\nRodzaj: wykład\nProwadzący: dr hab. inż. P
+ uton Jarosław\nNr zajęć: 1/13\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e16b5758049963cf5a173248@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261006T095000
+DTEND;TZID=Europe/Warsaw:20261006T112500
+SUMMARY:Mś (w)
+LOCATION:10 55
+DESCRIPTION:Monitoring środowiska\nRodzaj: wykład\nProwadzący: prof. dr
+  hab. inż. Neffe Sławomir\nNr zajęć: 1/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:58f8e28e1a849517644b6859@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261006T133000
+DTEND;TZID=Europe/Warsaw:20261006T150500
+SUMMARY:Moch (w)
+LOCATION:109 24
+DESCRIPTION:Metody obliczeniowe w chemii\nRodzaj: wykład\nProwadzący: pr
+ of.dr hab.inż. Trzciński Waldemar\nNr zajęć: 1/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6a9d1b266fb29572ec1dfe2a@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261007T095000
+DTEND;TZID=Europe/Warsaw:20261007T112500
+SUMMARY:Mwy (w)
+LOCATION:108 24
+DESCRIPTION:Materiały wysokoenergetyczne\nRodzaj: wykład\nProwadzący: p
+ rof. dr hab. inż. Cudziło Stanisław\nNr zajęć: 1/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:aec3143864da333b74f11e06@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261007T114000
+DTEND;TZID=Europe/Warsaw:20261007T131500
+SUMMARY:Mwy (w)
+LOCATION:108 24
+DESCRIPTION:Materiały wysokoenergetyczne\nRodzaj: wykład\nProwadzący: p
+ rof. dr hab. inż. Cudziło Stanisław\nNr zajęć: 2/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e8a638cf1e26a0163d3a1af9@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261007T133000
+DTEND;TZID=Europe/Warsaw:20261007T150500
+SUMMARY:Mc (w)
+LOCATION:110/ 14
+DESCRIPTION:Materiałoznawstwo chemiczne\nRodzaj: wykład\nProwadzący: pr
+ of. dr hab. inż. Tykarska Marzena\nNr zajęć: 1/23\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9053ef839569fea25fa060bc@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261008T080000
+DTEND;TZID=Europe/Warsaw:20261008T093500
+SUMMARY:Fj (w)
+LOCATION:10 55
+DESCRIPTION:Fizyka jądrowa\nRodzaj: wykład\nProwadzący: dr hab. inż. P
+ uton Jarosław\nNr zajęć: 2/13\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0b2bc3126da20d4878b054fb@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261008T095000
+DTEND;TZID=Europe/Warsaw:20261008T112500
+SUMMARY:Mc (w)
+LOCATION:109 24
+DESCRIPTION:Materiałoznawstwo chemiczne\nRodzaj: wykład\nProwadzący: pr
+ of. dr hab. inż. Tykarska Marzena\nNr zajęć: 2/23\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:911be5e5e2b0365777f6132a@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261008T114000
+DTEND;TZID=Europe/Warsaw:20261008T131500
+SUMMARY:wmca (w)
+LOCATION:10 55
+DESCRIPTION:Współczesne metody chemii analitycznej\nRodzaj: wykład\nPro
+ wadzący: dr hab. inż. Popiel Stanisław\nNr zajęć: 1/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1521dffa57718179db20d706@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261008T133000
+DTEND;TZID=Europe/Warsaw:20261008T150500
+SUMMARY:Mwy (w)
+LOCATION:108 24
+DESCRIPTION:Materiały wysokoenergetyczne\nRodzaj: wykład\nProwadzący: p
+ rof. dr hab. inż. Cudziło Stanisław\nNr zajęć: 3/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8e5f6bc865cb70ae3ae07174@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261013T080000
+DTEND;TZID=Europe/Warsaw:20261013T093500
+SUMMARY:Mś (w)
+LOCATION:10 55
+DESCRIPTION:Monitoring środowiska\nRodzaj: wykład\nProwadzący: prof. dr
+  hab. inż. Neffe Sławomir\nNr zajęć: 2/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c5e387b528a74400543c6e3a@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261013T095000
+DTEND;TZID=Europe/Warsaw:20261013T112500
+SUMMARY:Moch (w)
+LOCATION:109 24
+DESCRIPTION:Metody obliczeniowe w chemii\nRodzaj: wykład\nProwadzący: pr
+ of.dr hab.inż. Trzciński Waldemar\nNr zajęć: 2/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:046d7b031a3dc2d702993764@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261013T114000
+DTEND;TZID=Europe/Warsaw:20261013T131500
+SUMMARY:Mc (w)
+LOCATION:110/ 14
+DESCRIPTION:Materiałoznawstwo chemiczne\nRodzaj: wykład\nProwadzący: pr
+ of. dr hab. inż. Tykarska Marzena\nNr zajęć: 3/23\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3319a7b5c1297c789edd86bd@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261015T114000
+DTEND;TZID=Europe/Warsaw:20261015T131500
+SUMMARY:Fj (w)
+LOCATION:10 55
+DESCRIPTION:Fizyka jądrowa\nRodzaj: wykład\nProwadzący: dr hab. inż. P
+ uton Jarosław\nNr zajęć: 3/13\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ac172fcf09b818e41a00605c@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261015T133000
+DTEND;TZID=Europe/Warsaw:20261015T150500
+SUMMARY:Mwy (ć)
+LOCATION:108 24
+DESCRIPTION:Materiały wysokoenergetyczne\nRodzaj: ćwiczenia\nProwadzący
+ : prof. dr hab. inż. Cudziło Stanisław\nNr zajęć: 1/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:069ff8992502c32b6033fc7d@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261016T080000
+DTEND;TZID=Europe/Warsaw:20261016T093500
+SUMMARY:wmca (w)
+LOCATION:2 55A
+DESCRIPTION:Współczesne metody chemii analitycznej\nRodzaj: wykład\nPro
+ wadzący: dr hab. inż. Popiel Stanisław\nNr zajęć: 2/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9fe1ffc090068b10628f5d1f@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261016T114000
+DTEND;TZID=Europe/Warsaw:20261016T131500
+SUMMARY:Mc (w)
+LOCATION:108 24
+DESCRIPTION:Materiałoznawstwo chemiczne\nRodzaj: wykład\nProwadzący: pr
+ of. dr hab. inż. Tykarska Marzena\nNr zajęć: 4/23\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6ab8311a58fe699103b7d003@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261016T133000
+DTEND;TZID=Europe/Warsaw:20261016T150500
+SUMMARY:Mc (w)
+LOCATION:1 55A
+DESCRIPTION:Materiałoznawstwo chemiczne\nRodzaj: wykład\nProwadzący: pr
+ of. dr hab. inż. Tykarska Marzena\nNr zajęć: 5/23\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a9befb2af437b4482a29d3e0@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261019T080000
+DTEND;TZID=Europe/Warsaw:20261019T093500
+SUMMARY:Mc (w)
+LOCATION:110/ 14
+DESCRIPTION:Materiałoznawstwo chemiczne\nRodzaj: wykład\nProwadzący: pr
+ of. dr hab. inż. Tykarska Marzena\nNr zajęć: 6/23\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:66c4b6739328fcf1a717415a@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261019T095000
+DTEND;TZID=Europe/Warsaw:20261019T112500
+SUMMARY:Cho (L)
+LOCATION:34/ 14
+DESCRIPTION:Chemia organiczna\nRodzaj: laboratorium\nProwadzący: PHa\; Na
+ Ry\nNr zajęć: 1/38\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a2e4875232eacbec5bc137df@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261019T114000
+DTEND;TZID=Europe/Warsaw:20261019T131500
+SUMMARY:Cho (L)
+LOCATION:34/ 14
+DESCRIPTION:Chemia organiczna\nRodzaj: laboratorium\nProwadzący: PHa\; Na
+ Ry\nNr zajęć: 2/38\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b7e53a26957b0880f2bcb9e1@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261019T133000
+DTEND;TZID=Europe/Warsaw:20261019T150500
+SUMMARY:Cho (L)
+LOCATION:34/ 14
+DESCRIPTION:Chemia organiczna\nRodzaj: laboratorium\nProwadzący: PHa\; Na
+ Ry\nNr zajęć: 3/38\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5b4ef4ffc25d376fc40f0b82@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261019T160000
+DTEND;TZID=Europe/Warsaw:20261019T173500
+SUMMARY:Cho (L)
+LOCATION:34/ 14
+DESCRIPTION:Chemia organiczna\nRodzaj: laboratorium\nProwadzący: PHa\; Na
+ Ry\nNr zajęć: 4/38\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:3a4d3a50fa4214a2bb4737a7@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261020T095000
+DTEND;TZID=Europe/Warsaw:20261020T112500
+SUMMARY:Mś (w)
+LOCATION:10 55
+DESCRIPTION:Monitoring środowiska\nRodzaj: wykład\nProwadzący: prof. dr
+  hab. inż. Neffe Sławomir\nNr zajęć: 3/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d165d0b4a905162700a261bb@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261020T114000
+DTEND;TZID=Europe/Warsaw:20261020T131500
+SUMMARY:Mc (w)
+LOCATION:110/ 14
+DESCRIPTION:Materiałoznawstwo chemiczne\nRodzaj: wykład\nProwadzący: pr
+ of. dr hab. inż. Tykarska Marzena\nNr zajęć: 7/23\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:967053473c854ca67312860b@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261020T133000
+DTEND;TZID=Europe/Warsaw:20261020T150500
+SUMMARY:Moch (w)
+LOCATION:109 24
+DESCRIPTION:Metody obliczeniowe w chemii\nRodzaj: wykład\nProwadzący: pr
+ of.dr hab.inż. Trzciński Waldemar\nNr zajęć: 3/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:cffa7a0e84a70a94fd0af725@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261021T080000
+DTEND;TZID=Europe/Warsaw:20261021T093500
+SUMMARY:Cho (L)
+LOCATION:34/ 14
+DESCRIPTION:Chemia organiczna\nRodzaj: laboratorium\nProwadzący: PHa\; Na
+ Ry\nNr zajęć: 5/38\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4fd40e49337c674ba70298d6@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261021T095000
+DTEND;TZID=Europe/Warsaw:20261021T112500
+SUMMARY:Cho (L)
+LOCATION:34/ 14
+DESCRIPTION:Chemia organiczna\nRodzaj: laboratorium\nProwadzący: PHa\; Na
+ Ry\nNr zajęć: 6/38\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5da7af13b003115bd5d5deff@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261021T114000
+DTEND;TZID=Europe/Warsaw:20261021T131500
+SUMMARY:Cho (L)
+LOCATION:34/ 14
+DESCRIPTION:Chemia organiczna\nRodzaj: laboratorium\nProwadzący: PHa\; Na
+ Ry\nNr zajęć: 7/38\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2fe9ec3028daf81515d81612@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261021T133000
+DTEND;TZID=Europe/Warsaw:20261021T150500
+SUMMARY:Cho (L)
+LOCATION:34/ 14
+DESCRIPTION:Chemia organiczna\nRodzaj: laboratorium\nProwadzący: PHa\; Na
+ Ry\nNr zajęć: 8/38\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e3266c0677c1ed4676ec6277@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261022T080000
+DTEND;TZID=Europe/Warsaw:20261022T093500
+SUMMARY:Cho (L)
+LOCATION:34/ 14
+DESCRIPTION:Chemia organiczna\nRodzaj: laboratorium\nProwadzący: PHa\; Na
+ Ry\nNr zajęć: 9/38\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3abc2bc0a0ba3677872a0f0d@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261022T095000
+DTEND;TZID=Europe/Warsaw:20261022T112500
+SUMMARY:Cho (L)
+LOCATION:34/ 14
+DESCRIPTION:Chemia organiczna\nRodzaj: laboratorium\nProwadzący: PHa\; Na
+ Ry\nNr zajęć: 10/38\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7beb517df3684bbfeadfa674@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261022T114000
+DTEND;TZID=Europe/Warsaw:20261022T131500
+SUMMARY:Cho (L)
+LOCATION:34/ 14
+DESCRIPTION:Chemia organiczna\nRodzaj: laboratorium\nProwadzący: PHa\; Na
+ Ry\nNr zajęć: 11/38\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:689ef6cb2fc44409552ffde0@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261022T133000
+DTEND;TZID=Europe/Warsaw:20261022T150500
+SUMMARY:Cho (L)
+LOCATION:34/ 14
+DESCRIPTION:Chemia organiczna\nRodzaj: laboratorium\nProwadzący: PHa\; Na
+ Ry\nNr zajęć: 12/38\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:05138f95b0fe7583cc68499a@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261023T080000
+DTEND;TZID=Europe/Warsaw:20261023T093500
+SUMMARY:Fj (w)
+LOCATION:10 55
+DESCRIPTION:Fizyka jądrowa\nRodzaj: wykład\nProwadzący: dr hab. inż. P
+ uton Jarosław\nNr zajęć: 4/13\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0d6a4f722da2063bbcd2d169@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261023T095000
+DTEND;TZID=Europe/Warsaw:20261023T112500
+SUMMARY:Cho (L)
+LOCATION:34/ 14
+DESCRIPTION:Chemia organiczna\nRodzaj: laboratorium\nProwadzący: PHa\; Na
+ Ry\nNr zajęć: 13/38\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9c7d0fe13a95024b9f165146@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261023T114000
+DTEND;TZID=Europe/Warsaw:20261023T131500
+SUMMARY:Cho (L)
+LOCATION:34/ 14
+DESCRIPTION:Chemia organiczna\nRodzaj: laboratorium\nProwadzący: PHa\; Na
+ Ry\nNr zajęć: 14/38\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:15f58dd7cfbdb8c5b008f231@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261023T133000
+DTEND;TZID=Europe/Warsaw:20261023T150500
+SUMMARY:Cho (L)
+LOCATION:34/ 14
+DESCRIPTION:Chemia organiczna\nRodzaj: laboratorium\nProwadzący: PHa\; Na
+ Ry\nNr zajęć: 15/38\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f3ad741363c0145b39b6f0ad@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261026T080000
+DTEND;TZID=Europe/Warsaw:20261026T093500
+SUMMARY:Mc (w)
+LOCATION:110/ 14
+DESCRIPTION:Materiałoznawstwo chemiczne\nRodzaj: wykład\nProwadzący: pr
+ of. dr hab. inż. Tykarska Marzena\nNr zajęć: 8/23\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:876060757f24b538ef09a29b@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261026T095000
+DTEND;TZID=Europe/Warsaw:20261026T112500
+SUMMARY:Cho (L)
+LOCATION:34/ 14
+DESCRIPTION:Chemia organiczna\nRodzaj: laboratorium\nProwadzący: PHa\; Na
+ Ry\nNr zajęć: 16/38\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1a08e6b9658d1c7f44ef1c34@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261026T114000
+DTEND;TZID=Europe/Warsaw:20261026T131500
+SUMMARY:Cho (L)
+LOCATION:34/ 14
+DESCRIPTION:Chemia organiczna\nRodzaj: laboratorium\nProwadzący: PHa\; Na
+ Ry\nNr zajęć: 17/38\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:063f0020284011bc53aa1fdc@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261026T133000
+DTEND;TZID=Europe/Warsaw:20261026T150500
+SUMMARY:Cho (L)
+LOCATION:34/ 14
+DESCRIPTION:Chemia organiczna\nRodzaj: laboratorium\nProwadzący: PHa\; Na
+ Ry\nNr zajęć: 18/38\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b71fde79f324e5cf55b31486@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261026T160000
+DTEND;TZID=Europe/Warsaw:20261026T173500
+SUMMARY:Cho (L)
+LOCATION:34/ 14
+DESCRIPTION:Chemia organiczna\nRodzaj: laboratorium\nProwadzący: PHa\; Na
+ Ry\nNr zajęć: 19/38\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:9c6720a8a0888eb62ddeb4ae@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261027T080000
+DTEND;TZID=Europe/Warsaw:20261027T093500
+SUMMARY:Fj (w)
+LOCATION:10 55
+DESCRIPTION:Fizyka jądrowa\nRodzaj: wykład\nProwadzący: dr hab. inż. P
+ uton Jarosław\nNr zajęć: 5/13\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0ca3865ca2e897606e4c38a6@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261027T095000
+DTEND;TZID=Europe/Warsaw:20261027T112500
+SUMMARY:Mś (w)
+LOCATION:10 55
+DESCRIPTION:Monitoring środowiska\nRodzaj: wykład\nProwadzący: prof. dr
+  hab. inż. Neffe Sławomir\nNr zajęć: 4/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7fe1a7d924bfa2ee8dce98ed@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261027T114000
+DTEND;TZID=Europe/Warsaw:20261027T131500
+SUMMARY:Mc (w)
+LOCATION:110/ 14
+DESCRIPTION:Materiałoznawstwo chemiczne\nRodzaj: wykład\nProwadzący: pr
+ of. dr hab. inż. Tykarska Marzena\nNr zajęć: 9/23\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:99725c02ee1a192cdf196707@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261027T133000
+DTEND;TZID=Europe/Warsaw:20261027T150500
+SUMMARY:Moch (w)
+LOCATION:109 24
+DESCRIPTION:Metody obliczeniowe w chemii\nRodzaj: wykład\nProwadzący: pr
+ of.dr hab.inż. Trzciński Waldemar\nNr zajęć: 4/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:08166b3f99fd666d85eaf037@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261028T080000
+DTEND;TZID=Europe/Warsaw:20261028T093500
+SUMMARY:Cho (L)
+LOCATION:34/ 14
+DESCRIPTION:Chemia organiczna\nRodzaj: laboratorium\nProwadzący: PHa\; Na
+ Ry\nNr zajęć: 20/38\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:55a8f52cc520c106ee924108@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261028T095000
+DTEND;TZID=Europe/Warsaw:20261028T112500
+SUMMARY:Cho (L)
+LOCATION:34/ 14
+DESCRIPTION:Chemia organiczna\nRodzaj: laboratorium\nProwadzący: PHa\; Na
+ Ry\nNr zajęć: 21/38\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e619dc6628843d79d5812245@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261028T114000
+DTEND;TZID=Europe/Warsaw:20261028T131500
+SUMMARY:Cho (L)
+LOCATION:34/ 14
+DESCRIPTION:Chemia organiczna\nRodzaj: laboratorium\nProwadzący: PHa\; Na
+ Ry\nNr zajęć: 22/38\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2ad24e5a497a12446b45edd5@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261028T133000
+DTEND;TZID=Europe/Warsaw:20261028T150500
+SUMMARY:Cho (L)
+LOCATION:34/ 14
+DESCRIPTION:Chemia organiczna\nRodzaj: laboratorium\nProwadzący: PHa\; Na
+ Ry\nNr zajęć: 23/38\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:bcaa09e203bed28c9f628c59@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261029T080000
+DTEND;TZID=Europe/Warsaw:20261029T093500
+SUMMARY:Cho (L)
+LOCATION:34/ 14
+DESCRIPTION:Chemia organiczna\nRodzaj: laboratorium\nProwadzący: PHa\; Na
+ Ry\nNr zajęć: 24/38\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:54345058a5eda7e700285b05@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261029T095000
+DTEND;TZID=Europe/Warsaw:20261029T112500
+SUMMARY:Cho (L)
+LOCATION:34/ 14
+DESCRIPTION:Chemia organiczna\nRodzaj: laboratorium\nProwadzący: PHa\; Na
+ Ry\nNr zajęć: 25/38\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a6fef689b96119cae2f5a0e4@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261029T114000
+DTEND;TZID=Europe/Warsaw:20261029T131500
+SUMMARY:Cho (L)
+LOCATION:34/ 14
+DESCRIPTION:Chemia organiczna\nRodzaj: laboratorium\nProwadzący: PHa\; Na
+ Ry\nNr zajęć: 26/38\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:60494e12f7858306bf290cee@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261029T133000
+DTEND;TZID=Europe/Warsaw:20261029T150500
+SUMMARY:Cho (L)
+LOCATION:34/ 14
+DESCRIPTION:Chemia organiczna\nRodzaj: laboratorium\nProwadzący: PHa\; Na
+ Ry\nNr zajęć: 27/38\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b88f6b1fbf41a7c780adb740@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261030T095000
+DTEND;TZID=Europe/Warsaw:20261030T112500
+SUMMARY:Cho (L)
+LOCATION:34/ 14
+DESCRIPTION:Chemia organiczna\nRodzaj: laboratorium\nProwadzący: PHa\; Na
+ Ry\nNr zajęć: 28/38\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:697755de10ba640f99ec656b@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261030T114000
+DTEND;TZID=Europe/Warsaw:20261030T131500
+SUMMARY:Cho (L)
+LOCATION:34/ 14
+DESCRIPTION:Chemia organiczna\nRodzaj: laboratorium\nProwadzący: PHa\; Na
+ Ry\nNr zajęć: 29/38\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:318f528a6ccd6991e80315a0@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261030T133000
+DTEND;TZID=Europe/Warsaw:20261030T150500
+SUMMARY:Cho (L)
+LOCATION:34/ 14
+DESCRIPTION:Chemia organiczna\nRodzaj: laboratorium\nProwadzący: PHa\; Na
+ Ry\nNr zajęć: 30/38\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:674bcfd90658357d6ba01203@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261030T160000
+DTEND;TZID=Europe/Warsaw:20261030T173500
+SUMMARY:Cho (L)
+LOCATION:34/ 14
+DESCRIPTION:Chemia organiczna\nRodzaj: laboratorium\nProwadzący: PHa\; Na
+ Ry\nNr zajęć: 31/38\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:e7a0d408193f483a91e1c3a1@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261102T080000
+DTEND;TZID=Europe/Warsaw:20261102T093500
+SUMMARY:Cho (L)
+LOCATION:34/ 14
+DESCRIPTION:Chemia organiczna\nRodzaj: laboratorium\nProwadzący: PHa\; Na
+ Ry\nNr zajęć: 32/38\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6dacb2c881bb0d4e1f1f16b8@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261102T095000
+DTEND;TZID=Europe/Warsaw:20261102T112500
+SUMMARY:Cho (L)
+LOCATION:34/ 14
+DESCRIPTION:Chemia organiczna\nRodzaj: laboratorium\nProwadzący: PHa\; Na
+ Ry\nNr zajęć: 33/38\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:23d51d2b29b0a2ee6c9ac825@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261102T114000
+DTEND;TZID=Europe/Warsaw:20261102T131500
+SUMMARY:Cho (L)
+LOCATION:34/ 14
+DESCRIPTION:Chemia organiczna\nRodzaj: laboratorium\nProwadzący: PHa\; Na
+ Ry\nNr zajęć: 34/38\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:289a521cc3870b6708736b16@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261102T133000
+DTEND;TZID=Europe/Warsaw:20261102T150500
+SUMMARY:Cho (L)
+LOCATION:34/ 14
+DESCRIPTION:Chemia organiczna\nRodzaj: laboratorium\nProwadzący: PHa\; Na
+ Ry\nNr zajęć: 35/38\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4fe553cde81f52684384cf41@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261103T080000
+DTEND;TZID=Europe/Warsaw:20261103T093500
+SUMMARY:Fj (w)
+LOCATION:10 55
+DESCRIPTION:Fizyka jądrowa\nRodzaj: wykład\nProwadzący: dr hab. inż. P
+ uton Jarosław\nNr zajęć: 6/13\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:926519b37a62353b4bfb5538@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261103T095000
+DTEND;TZID=Europe/Warsaw:20261103T112500
+SUMMARY:Mś (w)
+LOCATION:10 55
+DESCRIPTION:Monitoring środowiska\nRodzaj: wykład\nProwadzący: prof. dr
+  hab. inż. Neffe Sławomir\nNr zajęć: 5/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7c9a598abcabebfcfeb57cb4@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261103T114000
+DTEND;TZID=Europe/Warsaw:20261103T131500
+SUMMARY:Mc (w)
+LOCATION:110/ 14
+DESCRIPTION:Materiałoznawstwo chemiczne\nRodzaj: wykład\nProwadzący: pr
+ of. dr hab. inż. Tykarska Marzena\nNr zajęć: 10/23\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5dd08a6c812d112784cf19d9@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261103T133000
+DTEND;TZID=Europe/Warsaw:20261103T150500
+SUMMARY:Cho (L)
+LOCATION:34/ 14
+DESCRIPTION:Chemia organiczna\nRodzaj: laboratorium\nProwadzący: PHa\; Na
+ Ry\nNr zajęć: 36/38\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:df41694856aab08e8782448c@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261103T160000
+DTEND;TZID=Europe/Warsaw:20261103T173500
+SUMMARY:Cho (L)
+LOCATION:34/ 14
+DESCRIPTION:Chemia organiczna\nRodzaj: laboratorium\nProwadzący: PHa\; Na
+ Ry\nNr zajęć: 37/38\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:ce9407627c085da092e21243@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261103T175000
+DTEND;TZID=Europe/Warsaw:20261103T192500
+SUMMARY:Cho (L)
+LOCATION:34/ 14
+DESCRIPTION:Chemia organiczna\nRodzaj: laboratorium\nProwadzący: PHa\; Na
+ Ry\nNr zajęć: 38/38\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:83522063a2c0690b007f09ed@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261104T095000
+DTEND;TZID=Europe/Warsaw:20261104T112500
+SUMMARY:Mwy (w)
+LOCATION:108 24
+DESCRIPTION:Materiały wysokoenergetyczne\nRodzaj: wykład\nProwadzący: p
+ rof. dr hab. inż. Cudziło Stanisław\nNr zajęć: 4/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:79110f932884ea4783ff9ef0@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261104T114000
+DTEND;TZID=Europe/Warsaw:20261104T131500
+SUMMARY:Mc (S)
+LOCATION:110/ 14
+DESCRIPTION:Materiałoznawstwo chemiczne\nRodzaj: seminarium\nProwadzący:
+  dr hab. inż. Urbańska Magdalena\nNr zajęć: 1/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5a751909b77b7ace337a4a86@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261104T133000
+DTEND;TZID=Europe/Warsaw:20261104T150500
+SUMMARY:Mc (w)
+LOCATION:110/ 14
+DESCRIPTION:Materiałoznawstwo chemiczne\nRodzaj: wykład\nProwadzący: pr
+ of. dr hab. inż. Tykarska Marzena\nNr zajęć: 11/23\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:28e2c909ffc5b74aa6d44cb5@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261105T095000
+DTEND;TZID=Europe/Warsaw:20261105T112500
+SUMMARY:Fj (ć)
+LOCATION:10 55
+DESCRIPTION:Fizyka jądrowa\nRodzaj: ćwiczenia\nProwadzący: dr hab. inż
+ . Puton Jarosław\nNr zajęć: 1/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7e7e87d88385fce6afbcf1f0@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261105T114000
+DTEND;TZID=Europe/Warsaw:20261105T131500
+SUMMARY:Mc (w)
+LOCATION:110/ 14
+DESCRIPTION:Materiałoznawstwo chemiczne\nRodzaj: wykład\nProwadzący: pr
+ of. dr hab. inż. Tykarska Marzena\nNr zajęć: 12/23\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2f0df15b6f501d01a5b9e872@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261105T133000
+DTEND;TZID=Europe/Warsaw:20261105T150500
+SUMMARY:wmca (w)
+LOCATION:2 55A
+DESCRIPTION:Współczesne metody chemii analitycznej\nRodzaj: wykład\nPro
+ wadzący: dr hab. inż. Popiel Stanisław\nNr zajęć: 3/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:93ff3565fbecaeb93fa37b68@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261109T080000
+DTEND;TZID=Europe/Warsaw:20261109T093500
+SUMMARY:Mc (w)
+LOCATION:110/ 14
+DESCRIPTION:Materiałoznawstwo chemiczne\nRodzaj: wykład\nProwadzący: pr
+ of. dr hab. inż. Tykarska Marzena\nNr zajęć: 13/23\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:375660d6d9974572e918a33c@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261109T095000
+DTEND;TZID=Europe/Warsaw:20261109T112500
+SUMMARY:Fj (w)
+LOCATION:10 55
+DESCRIPTION:Fizyka jądrowa\nRodzaj: wykład\nProwadzący: dr hab. inż. P
+ uton Jarosław\nNr zajęć: 7/13\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7d1d9440d16fa6e2ae530a33@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261109T114000
+DTEND;TZID=Europe/Warsaw:20261109T131500
+SUMMARY:Fj (ć)
+LOCATION:10 55
+DESCRIPTION:Fizyka jądrowa\nRodzaj: ćwiczenia\nProwadzący: dr hab. inż
+ . Puton Jarosław\nNr zajęć: 2/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:075ffdd7a7f92338ef1ffeaf@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261110T080000
+DTEND;TZID=Europe/Warsaw:20261110T093500
+SUMMARY:Moch (w)
+LOCATION:108 24
+DESCRIPTION:Metody obliczeniowe w chemii\nRodzaj: wykład\nProwadzący: pr
+ of.dr hab.inż. Trzciński Waldemar\nNr zajęć: 5/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:887ddbf53cc517c83c7a8f90@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261110T095000
+DTEND;TZID=Europe/Warsaw:20261110T112500
+SUMMARY:Mś (w)
+LOCATION:10 55
+DESCRIPTION:Monitoring środowiska\nRodzaj: wykład\nProwadzący: prof. dr
+  hab. inż. Neffe Sławomir\nNr zajęć: 6/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2d51891dc5beb0490334eb09@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261110T114000
+DTEND;TZID=Europe/Warsaw:20261110T131500
+SUMMARY:Mc (w)
+LOCATION:110/ 14
+DESCRIPTION:Materiałoznawstwo chemiczne\nRodzaj: wykład\nProwadzący: pr
+ of. dr hab. inż. Tykarska Marzena\nNr zajęć: 14/23\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5e9ae781ae8de2c360bd9fa1@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261110T133000
+DTEND;TZID=Europe/Warsaw:20261110T150500
+SUMMARY:Moch (w)
+LOCATION:109 24
+DESCRIPTION:Metody obliczeniowe w chemii\nRodzaj: wykład\nProwadzący: pr
+ of.dr hab.inż. Trzciński Waldemar\nNr zajęć: 6/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a4934d2a27f211f7a9e6938f@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261112T095000
+DTEND;TZID=Europe/Warsaw:20261112T112500
+SUMMARY:Moch (ć)
+LOCATION:123 24
+DESCRIPTION:Metody obliczeniowe w chemii\nRodzaj: ćwiczenia\nProwadzący:
+  dr inż. Szymańczyk Leszek\nNr zajęć: 1/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9d8e4f606c97f41150307b1e@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261112T114000
+DTEND;TZID=Europe/Warsaw:20261112T131500
+SUMMARY:Mc (w)
+LOCATION:110/ 14
+DESCRIPTION:Materiałoznawstwo chemiczne\nRodzaj: wykład\nProwadzący: pr
+ of. dr hab. inż. Tykarska Marzena\nNr zajęć: 15/23\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:970d89554b9ea5c41d0410f7@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261113T080000
+DTEND;TZID=Europe/Warsaw:20261113T093500
+SUMMARY:Fj (w)
+LOCATION:10 55
+DESCRIPTION:Fizyka jądrowa\nRodzaj: wykład\nProwadzący: dr hab. inż. P
+ uton Jarosław\nNr zajęć: 8/13\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:38058616fbfa50e09a793b2d@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261113T095000
+DTEND;TZID=Europe/Warsaw:20261113T112500
+SUMMARY:Mc (w)
+LOCATION:110/ 14
+DESCRIPTION:Materiałoznawstwo chemiczne\nRodzaj: wykład\nProwadzący: pr
+ of. dr hab. inż. Tykarska Marzena\nNr zajęć: 16/23\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4e9f9989a293c23d27c790dc@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261114T114000
+DTEND;TZID=Europe/Warsaw:20261114T131500
+SUMMARY:XFiz2 (w)
+LOCATION:19 36
+DESCRIPTION:XFizyka 2\nRodzaj: wykład\nProwadzący: prof. dr hab. inż. K
+ łosowicz Stanisław\nNr zajęć: 1/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a76dc849b0592fb4718e65ff@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261114T133000
+DTEND;TZID=Europe/Warsaw:20261114T150500
+SUMMARY:XFiz2 (w)
+LOCATION:19 36
+DESCRIPTION:XFizyka 2\nRodzaj: wykład\nProwadzący: prof. dr hab. inż. K
+ łosowicz Stanisław\nNr zajęć: 2/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:46dd64e4e1d637bb7bd0f22f@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261116T080000
+DTEND;TZID=Europe/Warsaw:20261116T093500
+SUMMARY:Mc (w)
+LOCATION:110/ 14
+DESCRIPTION:Materiałoznawstwo chemiczne\nRodzaj: wykład\nProwadzący: pr
+ of. dr hab. inż. Tykarska Marzena\nNr zajęć: 17/23\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1e27f713721208929c0d28bd@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261116T095000
+DTEND;TZID=Europe/Warsaw:20261116T112500
+SUMMARY:Fj (w)
+LOCATION:10 55
+DESCRIPTION:Fizyka jądrowa\nRodzaj: wykład\nProwadzący: dr hab. inż. P
+ uton Jarosław\nNr zajęć: 9/13\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:04d304e0615a893a3603eea7@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261116T114000
+DTEND;TZID=Europe/Warsaw:20261116T131500
+SUMMARY:Fj (ć)
+LOCATION:10 55
+DESCRIPTION:Fizyka jądrowa\nRodzaj: ćwiczenia\nProwadzący: dr hab. inż
+ . Puton Jarosław\nNr zajęć: 3/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:08f0af098126b14810529f69@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261117T080000
+DTEND;TZID=Europe/Warsaw:20261117T093500
+SUMMARY:Mś (w)
+LOCATION:10 55
+DESCRIPTION:Monitoring środowiska\nRodzaj: wykład\nProwadzący: prof. dr
+  hab. inż. Neffe Sławomir\nNr zajęć: 7/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e119d5f7a4812b0cce14aec4@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261117T095000
+DTEND;TZID=Europe/Warsaw:20261117T112500
+SUMMARY:Moch (w)
+LOCATION:109 24
+DESCRIPTION:Metody obliczeniowe w chemii\nRodzaj: wykład\nProwadzący: pr
+ of.dr hab.inż. Trzciński Waldemar\nNr zajęć: 7/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:cd803c5ba061f5ccc6c3960b@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261117T114000
+DTEND;TZID=Europe/Warsaw:20261117T131500
+SUMMARY:Mc (w)
+LOCATION:110/ 14
+DESCRIPTION:Materiałoznawstwo chemiczne\nRodzaj: wykład\nProwadzący: pr
+ of. dr hab. inż. Tykarska Marzena\nNr zajęć: 18/23\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:44c24b0891636f6cd67467ed@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261118T095000
+DTEND;TZID=Europe/Warsaw:20261118T112500
+SUMMARY:Mwy (w)
+LOCATION:108 24
+DESCRIPTION:Materiały wysokoenergetyczne\nRodzaj: wykład\nProwadzący: p
+ rof. dr hab. inż. Cudziło Stanisław\nNr zajęć: 5/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:96ef385b3c9604078cfd52bc@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261118T114000
+DTEND;TZID=Europe/Warsaw:20261118T131500
+SUMMARY:Mc (S)
+LOCATION:110/ 14
+DESCRIPTION:Materiałoznawstwo chemiczne\nRodzaj: seminarium\nProwadzący:
+  dr hab. inż. Urbańska Magdalena\nNr zajęć: 2/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a5d103fe656bddb29d897843@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261118T133000
+DTEND;TZID=Europe/Warsaw:20261118T150500
+SUMMARY:Mc (w)
+LOCATION:110/ 14
+DESCRIPTION:Materiałoznawstwo chemiczne\nRodzaj: wykład\nProwadzący: pr
+ of. dr hab. inż. Tykarska Marzena\nNr zajęć: 19/23\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:bb2aa86b514e55cd62a0ce9a@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261118T160000
+DTEND;TZID=Europe/Warsaw:20261118T173500
+SUMMARY:wmca (w)
+LOCATION:2 55A
+DESCRIPTION:Współczesne metody chemii analitycznej\nRodzaj: wykład\nPro
+ wadzący: dr hab. inż. Popiel Stanisław\nNr zajęć: 4/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:362741d2aa103c7a543e242d@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261119T114000
+DTEND;TZID=Europe/Warsaw:20261119T131500
+SUMMARY:Mc (w)
+LOCATION:110/ 14
+DESCRIPTION:Materiałoznawstwo chemiczne\nRodzaj: wykład\nProwadzący: pr
+ of. dr hab. inż. Tykarska Marzena\nNr zajęć: 20/23\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e56684633cfc8303c3af506b@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261119T133000
+DTEND;TZID=Europe/Warsaw:20261119T150500
+SUMMARY:wmca (w)
+LOCATION:2 55A
+DESCRIPTION:Współczesne metody chemii analitycznej\nRodzaj: wykład\nPro
+ wadzący: dr hab. inż. Popiel Stanisław\nNr zajęć: 5/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:bbbc20fd407b2de1338794b6@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261120T080000
+DTEND;TZID=Europe/Warsaw:20261120T093500
+SUMMARY:Fj (w)
+LOCATION:10 55
+DESCRIPTION:Fizyka jądrowa\nRodzaj: wykład\nProwadzący: dr hab. inż. P
+ uton Jarosław\nNr zajęć: 10/13\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8f8abe5d0912b5ffbf464561@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261120T095000
+DTEND;TZID=Europe/Warsaw:20261120T112500
+SUMMARY:Mc (w)
+LOCATION:110/ 14
+DESCRIPTION:Materiałoznawstwo chemiczne\nRodzaj: wykład\nProwadzący: pr
+ of. dr hab. inż. Tykarska Marzena\nNr zajęć: 21/23\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a4fb765a3d81d2ace9c678da@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261121T114000
+DTEND;TZID=Europe/Warsaw:20261121T131500
+SUMMARY:XFiz2 (w)
+LOCATION:19 36
+DESCRIPTION:XFizyka 2\nRodzaj: wykład\nProwadzący: prof. dr hab. inż. K
+ łosowicz Stanisław\nNr zajęć: 3/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0612afc3f03664c4eccd6960@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261121T133000
+DTEND;TZID=Europe/Warsaw:20261121T150500
+SUMMARY:XFiz2 (w)
+LOCATION:19 36
+DESCRIPTION:XFizyka 2\nRodzaj: wykład\nProwadzący: prof. dr hab. inż. K
+ łosowicz Stanisław\nNr zajęć: 4/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:eee54a55b33e098aee32bd41@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261122T080000
+DTEND;TZID=Europe/Warsaw:20261122T093500
+SUMMARY:XFiz2 (ć)
+LOCATION:19 36
+DESCRIPTION:XFizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr inż. Morawiak 
+ Przemysław\nNr zajęć: 1/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2cb77a5fb90291920d0e72c8@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261122T095000
+DTEND;TZID=Europe/Warsaw:20261122T112500
+SUMMARY:XFiz2 (ć)
+LOCATION:19 36
+DESCRIPTION:XFizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr inż. Morawiak 
+ Przemysław\nNr zajęć: 2/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:424d3ed133fc58cdbee2ad56@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261122T114000
+DTEND;TZID=Europe/Warsaw:20261122T131500
+SUMMARY:XFiz2 (L)
+LOCATION:139 S\;141 S\;142 S\; Kowk\; MaO\; Walcz
+DESCRIPTION:XFizyka 2\nRodzaj: laboratorium\nNr zajęć: 1/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7d37dd78c13f015fbcbca7c3@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261122T133000
+DTEND;TZID=Europe/Warsaw:20261122T150500
+SUMMARY:XFiz2 (L)
+LOCATION:139 S\;141 S\;142 S\; Kowk\; MaO\; Walcz
+DESCRIPTION:XFizyka 2\nRodzaj: laboratorium\nNr zajęć: 2/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c95738e813b2a84bb4f18989@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261123T080000
+DTEND;TZID=Europe/Warsaw:20261123T093500
+SUMMARY:Mc (w)
+LOCATION:110/ 14
+DESCRIPTION:Materiałoznawstwo chemiczne\nRodzaj: wykład\nProwadzący: pr
+ of. dr hab. inż. Tykarska Marzena\nNr zajęć: 22/23\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3312019d0aa487fdba34693c@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261123T095000
+DTEND;TZID=Europe/Warsaw:20261123T112500
+SUMMARY:Fj (w)
+LOCATION:10 55
+DESCRIPTION:Fizyka jądrowa\nRodzaj: wykład\nProwadzący: dr hab. inż. P
+ uton Jarosław\nNr zajęć: 11/13\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7d1695eb3a4662b04d36abc3@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261123T114000
+DTEND;TZID=Europe/Warsaw:20261123T131500
+SUMMARY:Fj (ć)
+LOCATION:10 55
+DESCRIPTION:Fizyka jądrowa\nRodzaj: ćwiczenia\nProwadzący: dr hab. inż
+ . Puton Jarosław\nNr zajęć: 4/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3d97ee1c0c0a9a6d5cbd4ffe@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261123T133000
+DTEND;TZID=Europe/Warsaw:20261123T150500
+SUMMARY:Mc (w)
+LOCATION:108 24
+DESCRIPTION:Materiałoznawstwo chemiczne\nRodzaj: wykład\nProwadzący: pr
+ of. dr hab. inż. Tykarska Marzena\nNr zajęć: 23/23\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c29147a48a66ad7a82ea55f8@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261124T080000
+DTEND;TZID=Europe/Warsaw:20261124T093500
+SUMMARY:Mc (L)
+LOCATION:34/ 14
+DESCRIPTION:Materiałoznawstwo chemiczne\nRodzaj: laboratorium\nProwadząc
+ y: dr hab. inż. Urbańska Magdalena\nNr zajęć: 1/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:274ba8fc84e452298d5f4b13@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261124T095000
+DTEND;TZID=Europe/Warsaw:20261124T112500
+SUMMARY:Mc (L)
+LOCATION:34/ 14
+DESCRIPTION:Materiałoznawstwo chemiczne\nRodzaj: laboratorium\nProwadząc
+ y: dr hab. inż. Urbańska Magdalena\nNr zajęć: 2/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f341f11f3e7d3ac92790fac7@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261124T114000
+DTEND;TZID=Europe/Warsaw:20261124T131500
+SUMMARY:Moch (w)
+LOCATION:109 24
+DESCRIPTION:Metody obliczeniowe w chemii\nRodzaj: wykład\nProwadzący: pr
+ of.dr hab.inż. Trzciński Waldemar\nNr zajęć: 8/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6393dca49212894515c31167@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261124T133000
+DTEND;TZID=Europe/Warsaw:20261124T150500
+SUMMARY:Mwy (L)
+LOCATION:117 24
+DESCRIPTION:Materiały wysokoenergetyczne\nRodzaj: laboratorium\nProwadzą
+ cy: dr inż. Szymańczyk Leszek\; dr inż. Chyłek Zbigniew\nNr zajęć: 
+ 1/11\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:20112708a58492cf29b82f04@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261124T160000
+DTEND;TZID=Europe/Warsaw:20261124T173500
+SUMMARY:Mwy (ć)
+LOCATION:108 24
+DESCRIPTION:Materiały wysokoenergetyczne\nRodzaj: ćwiczenia\nProwadzący
+ : prof. dr hab. inż. Cudziło Stanisław\nNr zajęć: 2/3\nBlok: 5\nUwag
+ i: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:bf2766acbf760bd00971c11b@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261125T114000
+DTEND;TZID=Europe/Warsaw:20261125T131500
+SUMMARY:Mś (w)
+LOCATION:10 55
+DESCRIPTION:Monitoring środowiska\nRodzaj: wykład\nProwadzący: prof. dr
+  hab. inż. Neffe Sławomir\nNr zajęć: 8/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7c089c8476f647dd9cd8ac5e@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261125T133000
+DTEND;TZID=Europe/Warsaw:20261125T150500
+SUMMARY:Moch (ć)
+LOCATION:123 24
+DESCRIPTION:Metody obliczeniowe w chemii\nRodzaj: ćwiczenia\nProwadzący:
+  dr inż. Szymańczyk Leszek\nNr zajęć: 2/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:52ab2c398274d3bf98cd4c38@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261126T095000
+DTEND;TZID=Europe/Warsaw:20261126T112500
+SUMMARY:Fj (ć)
+LOCATION:10 55
+DESCRIPTION:Fizyka jądrowa\nRodzaj: ćwiczenia\nProwadzący: dr hab. inż
+ . Puton Jarosław\nNr zajęć: 5/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5e21dd8f7b0b24230ac56087@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261126T114000
+DTEND;TZID=Europe/Warsaw:20261126T131500
+SUMMARY:wmca (ć)
+LOCATION:2 55A
+DESCRIPTION:Współczesne metody chemii analitycznej\nRodzaj: ćwiczenia\n
+ Prowadzący: dr hab. inż. Popiel Stanisław\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:203b11004fc1bc3d0fc6ade7@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261201T080000
+DTEND;TZID=Europe/Warsaw:20261201T093500
+SUMMARY:Mc (L)
+LOCATION:34/ 14
+DESCRIPTION:Materiałoznawstwo chemiczne\nRodzaj: laboratorium\nProwadząc
+ y: dr hab. inż. Urbańska Magdalena\nNr zajęć: 3/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e00fa6e7b9deb54652146255@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261201T095000
+DTEND;TZID=Europe/Warsaw:20261201T112500
+SUMMARY:Mc (L)
+LOCATION:34/ 14
+DESCRIPTION:Materiałoznawstwo chemiczne\nRodzaj: laboratorium\nProwadząc
+ y: dr hab. inż. Urbańska Magdalena\nNr zajęć: 4/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e4bbdc655f482f595ef6d990@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261201T114000
+DTEND;TZID=Europe/Warsaw:20261201T131500
+SUMMARY:Mc (S)
+LOCATION:110/ 14
+DESCRIPTION:Materiałoznawstwo chemiczne\nRodzaj: seminarium\nProwadzący:
+  dr hab. inż. Urbańska Magdalena\nNr zajęć: 3/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:66eb1b08a61fb3eb3aa19235@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261201T133000
+DTEND;TZID=Europe/Warsaw:20261201T150500
+SUMMARY:Mwy (w)
+LOCATION:108 24
+DESCRIPTION:Materiały wysokoenergetyczne\nRodzaj: wykład\nProwadzący: p
+ rof. dr hab. inż. Cudziło Stanisław\nNr zajęć: 6/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e7f5a902a1d93d72ea80917b@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261201T160000
+DTEND;TZID=Europe/Warsaw:20261201T173500
+SUMMARY:wmca (w)
+LOCATION:2 55A
+DESCRIPTION:Współczesne metody chemii analitycznej\nRodzaj: wykład\nPro
+ wadzący: dr hab. inż. Popiel Stanisław\nNr zajęć: 6/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:245195bc405c9e10e395b88e@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261202T080000
+DTEND;TZID=Europe/Warsaw:20261202T093500
+SUMMARY:Fj (w)
+LOCATION:10 55
+DESCRIPTION:Fizyka jądrowa\nRodzaj: wykład\nProwadzący: dr hab. inż. P
+ uton Jarosław\nNr zajęć: 12/13\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:588a87f97d7c6421a7d3799f@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261202T095000
+DTEND;TZID=Europe/Warsaw:20261202T112500
+SUMMARY:wmca (L)
+LOCATION:4 55A\;3 55a\;08 24
+DESCRIPTION:Współczesne metody chemii analitycznej\nRodzaj: laboratorium
+ \nProwadzący: dr inż. Dziedzic Daniel\nNr zajęć: 1/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b2a66a6a543f8392dd586e5e@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261202T114000
+DTEND;TZID=Europe/Warsaw:20261202T131500
+SUMMARY:wmca (L)
+LOCATION:4 55A\;3 55a\;08 24
+DESCRIPTION:Współczesne metody chemii analitycznej\nRodzaj: laboratorium
+ \nProwadzący: dr inż. Dziedzic Daniel\nNr zajęć: 2/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2e318723267c35da7bd228a0@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261202T133000
+DTEND;TZID=Europe/Warsaw:20261202T150500
+SUMMARY:Moch (ć)
+LOCATION:123 24
+DESCRIPTION:Metody obliczeniowe w chemii\nRodzaj: ćwiczenia\nProwadzący:
+  dr inż. Szymańczyk Leszek\nNr zajęć: 3/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c9fff4c91f67be386617234d@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261205T114000
+DTEND;TZID=Europe/Warsaw:20261205T131500
+SUMMARY:XFiz2 (w)
+LOCATION:19 36
+DESCRIPTION:XFizyka 2\nRodzaj: wykład\nProwadzący: prof. dr hab. inż. K
+ łosowicz Stanisław\nNr zajęć: 5/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f3f4d8a33722bb7ed3a52ad7@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261205T133000
+DTEND;TZID=Europe/Warsaw:20261205T150500
+SUMMARY:XFiz2 (w)
+LOCATION:19 36
+DESCRIPTION:XFizyka 2\nRodzaj: wykład\nProwadzący: prof. dr hab. inż. K
+ łosowicz Stanisław\nNr zajęć: 6/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e26b2630034efa21f9f0aeff@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261206T080000
+DTEND;TZID=Europe/Warsaw:20261206T093500
+SUMMARY:XFiz2 (ć)
+LOCATION:19 36
+DESCRIPTION:XFizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr inż. Morawiak 
+ Przemysław\nNr zajęć: 3/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:512893abf522f1d86b6eff7e@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261206T095000
+DTEND;TZID=Europe/Warsaw:20261206T112500
+SUMMARY:XFiz2 (ć)
+LOCATION:19 36
+DESCRIPTION:XFizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr inż. Morawiak 
+ Przemysław\nNr zajęć: 4/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2e35b2861709db5105cd0a1e@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261206T114000
+DTEND;TZID=Europe/Warsaw:20261206T131500
+SUMMARY:XFiz2 (L)
+LOCATION:139 S\;141 S\;142 S\; MaO\; Kowk\; Walcz
+DESCRIPTION:XFizyka 2\nRodzaj: laboratorium\nNr zajęć: 3/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5d699ead68fb04a46863dc23@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261206T133000
+DTEND;TZID=Europe/Warsaw:20261206T150500
+SUMMARY:XFiz2 (L)
+LOCATION:139 S\;141 S\;142 S\; MaO\; Kowk\; Walcz
+DESCRIPTION:XFizyka 2\nRodzaj: laboratorium\nNr zajęć: 4/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:25120b03f68d99c214b9ebc1@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261208T080000
+DTEND;TZID=Europe/Warsaw:20261208T093500
+SUMMARY:Mc (L)
+LOCATION:34/ 14
+DESCRIPTION:Materiałoznawstwo chemiczne\nRodzaj: laboratorium\nProwadząc
+ y: dr hab. inż. Urbańska Magdalena\nNr zajęć: 5/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:46cdd4b7a24aca5c93ac1c84@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261208T095000
+DTEND;TZID=Europe/Warsaw:20261208T112500
+SUMMARY:Mc (L)
+LOCATION:34/ 14
+DESCRIPTION:Materiałoznawstwo chemiczne\nRodzaj: laboratorium\nProwadząc
+ y: dr hab. inż. Urbańska Magdalena\nNr zajęć: 6/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0f94a59cb2191fd572687a44@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261208T114000
+DTEND;TZID=Europe/Warsaw:20261208T131500
+SUMMARY:Mś (S)
+LOCATION:10 55
+DESCRIPTION:Monitoring środowiska\nRodzaj: seminarium\nProwadzący: prof.
+  dr hab. inż. Neffe Sławomir\nNr zajęć: 1/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:96678e302aff7e870ddb614a@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261209T080000
+DTEND;TZID=Europe/Warsaw:20261209T093500
+SUMMARY:Fj (ć)
+LOCATION:10 55
+DESCRIPTION:Fizyka jądrowa\nRodzaj: ćwiczenia\nProwadzący: dr hab. inż
+ . Puton Jarosław\nNr zajęć: 6/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7bb5a9f3c27d042faf453484@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261209T095000
+DTEND;TZID=Europe/Warsaw:20261209T112500
+SUMMARY:wmca (L)
+LOCATION:4 55A\;3 55a\;113 14
+DESCRIPTION:Współczesne metody chemii analitycznej\nRodzaj: laboratorium
+ \nProwadzący: dr inż. Dziedzic Daniel\nNr zajęć: 3/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:032b4f227c65bcc072eeb609@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261209T114000
+DTEND;TZID=Europe/Warsaw:20261209T131500
+SUMMARY:wmca (L)
+LOCATION:4 55A\;3 55a\;113 14
+DESCRIPTION:Współczesne metody chemii analitycznej\nRodzaj: laboratorium
+ \nProwadzący: dr inż. Dziedzic Daniel\nNr zajęć: 4/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e7042a58f7873aca2cde3255@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261209T133000
+DTEND;TZID=Europe/Warsaw:20261209T150500
+SUMMARY:Moch (ć)
+LOCATION:123 24
+DESCRIPTION:Metody obliczeniowe w chemii\nRodzaj: ćwiczenia\nProwadzący:
+  dr inż. Szymańczyk Leszek\nNr zajęć: 4/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:20fc3ffa9cca24cb83e0da58@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261212T114000
+DTEND;TZID=Europe/Warsaw:20261212T131500
+SUMMARY:XFiz2 (w)
+LOCATION:19 36
+DESCRIPTION:XFizyka 2\nRodzaj: wykład\nProwadzący: prof. dr hab. inż. K
+ łosowicz Stanisław\nNr zajęć: 7/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c98e90b2f839e12d5872ea70@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261212T133000
+DTEND;TZID=Europe/Warsaw:20261212T150500
+SUMMARY:XFiz2 (w)
+LOCATION:19 36
+DESCRIPTION:XFizyka 2\nRodzaj: wykład\nProwadzący: prof. dr hab. inż. K
+ łosowicz Stanisław\nNr zajęć: 8/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:aee97d07a4148e49ae95b5ca@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261214T080000
+DTEND;TZID=Europe/Warsaw:20261214T093500
+SUMMARY:Mwy (L)
+LOCATION:117 24
+DESCRIPTION:Materiały wysokoenergetyczne\nRodzaj: laboratorium\nProwadzą
+ cy: dr inż. Szymańczyk Leszek\; dr inż. Chyłek Zbigniew\nNr zajęć: 
+ 2/11\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d93ef9bc4bd5013e90b13205@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261214T095000
+DTEND;TZID=Europe/Warsaw:20261214T112500
+SUMMARY:Mwy (L)
+LOCATION:117 24
+DESCRIPTION:Materiały wysokoenergetyczne\nRodzaj: laboratorium\nProwadzą
+ cy: dr inż. Szymańczyk Leszek\; dr inż. Chyłek Zbigniew\nNr zajęć: 
+ 3/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:61c46ddbbd3d5089455b851a@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261214T114000
+DTEND;TZID=Europe/Warsaw:20261214T131500
+SUMMARY:Fj (L)
+LOCATION:5 55
+DESCRIPTION:Fizyka jądrowa\nRodzaj: laboratorium\nProwadzący: MaBo\nNr z
+ ajęć: 1/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ed7d1571c3020435c3dd2ee7@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261214T133000
+DTEND;TZID=Europe/Warsaw:20261214T150500
+SUMMARY:Fj (L)
+LOCATION:5 55
+DESCRIPTION:Fizyka jądrowa\nRodzaj: laboratorium\nProwadzący: MaBo\nNr z
+ ajęć: 2/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d664b8c13b28e4b0811310a3@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261215T095000
+DTEND;TZID=Europe/Warsaw:20261215T112500
+SUMMARY:Mś (L)
+LOCATION:7 55A
+DESCRIPTION:Monitoring środowiska\nRodzaj: laboratorium\nProwadzący: Kul
+ Mo\nNr zajęć: 1/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5b299bb75295d7a6a3cca101@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261215T114000
+DTEND;TZID=Europe/Warsaw:20261215T131500
+SUMMARY:Mś (L)
+LOCATION:7 55A
+DESCRIPTION:Monitoring środowiska\nRodzaj: laboratorium\nProwadzący: Kul
+ Mo\nNr zajęć: 2/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:80d73fec84f50304edc8b50f@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261215T133000
+DTEND;TZID=Europe/Warsaw:20261215T150500
+SUMMARY:Mwy (w)
+LOCATION:108 24
+DESCRIPTION:Materiały wysokoenergetyczne\nRodzaj: wykład\nProwadzący: p
+ rof. dr hab. inż. Cudziło Stanisław\nNr zajęć: 7/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:380cbfa31da7b10873ef15fa@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261216T080000
+DTEND;TZID=Europe/Warsaw:20261216T093500
+SUMMARY:Fj (w)
+LOCATION:10 55
+DESCRIPTION:Fizyka jądrowa\nRodzaj: wykład\nProwadzący: dr hab. inż. P
+ uton Jarosław\nNr zajęć: 13/13\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5b5ae81f492461b1db983c60@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261216T095000
+DTEND;TZID=Europe/Warsaw:20261216T112500
+SUMMARY:wmca (L)
+LOCATION:3 55a\;113 14\;08 24
+DESCRIPTION:Współczesne metody chemii analitycznej\nRodzaj: laboratorium
+ \nProwadzący: Sma\; Czw\; MaBo\nNr zajęć: 5/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:adb85d9152dcd912c31a1199@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261216T114000
+DTEND;TZID=Europe/Warsaw:20261216T131500
+SUMMARY:wmca (L)
+LOCATION:3 55a\;113 14\;08 24
+DESCRIPTION:Współczesne metody chemii analitycznej\nRodzaj: laboratorium
+ \nProwadzący: Sma\; Czw\; MaBo\nNr zajęć: 6/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:76967173e7f2479b73367b2d@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261216T133000
+DTEND;TZID=Europe/Warsaw:20261216T150500
+SUMMARY:Moch (ć)
+LOCATION:123 24
+DESCRIPTION:Metody obliczeniowe w chemii\nRodzaj: ćwiczenia\nProwadzący:
+  dr inż. Szymańczyk Leszek\nNr zajęć: 5/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:eb0184820f18b1cc2efb037c@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261219T114000
+DTEND;TZID=Europe/Warsaw:20261219T131500
+SUMMARY:XFiz2 (w)
+LOCATION:19 36
+DESCRIPTION:XFizyka 2\nRodzaj: wykład\nProwadzący: prof. dr hab. inż. K
+ łosowicz Stanisław\nNr zajęć: 9/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:12fd29e3ed496d2f37b42568@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261220T080000
+DTEND;TZID=Europe/Warsaw:20261220T093500
+SUMMARY:XFiz2 (ć)
+LOCATION:19 36
+DESCRIPTION:XFizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr inż. Morawiak 
+ Przemysław\nNr zajęć: 5/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f05eed4de57e477ca8969d2d@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261220T095000
+DTEND;TZID=Europe/Warsaw:20261220T112500
+SUMMARY:XFiz2 (ć)
+LOCATION:19 36
+DESCRIPTION:XFizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr inż. Morawiak 
+ Przemysław\nNr zajęć: 6/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:437a0dbfee8448e33f14c1bf@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261221T080000
+DTEND;TZID=Europe/Warsaw:20261221T093500
+SUMMARY:Mwy (L)
+LOCATION:117 24
+DESCRIPTION:Materiały wysokoenergetyczne\nRodzaj: laboratorium\nProwadzą
+ cy: dr inż. Szymańczyk Leszek\; dr inż. Chyłek Zbigniew\nNr zajęć: 
+ 4/11\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a008d21449588a8fa68eb859@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261221T095000
+DTEND;TZID=Europe/Warsaw:20261221T112500
+SUMMARY:Mwy (L)
+LOCATION:117 24
+DESCRIPTION:Materiały wysokoenergetyczne\nRodzaj: laboratorium\nProwadzą
+ cy: dr inż. Szymańczyk Leszek\; dr inż. Chyłek Zbigniew\nNr zajęć: 
+ 5/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0aa6814d94f709ee413b2437@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261221T114000
+DTEND;TZID=Europe/Warsaw:20261221T131500
+SUMMARY:Mś (L)
+LOCATION:7 55A
+DESCRIPTION:Monitoring środowiska\nRodzaj: laboratorium\nProwadzący: Kul
+ Mo\nNr zajęć: 3/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0d2050c1d7fc716d975dacbf@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261221T133000
+DTEND;TZID=Europe/Warsaw:20261221T150500
+SUMMARY:Mś (L)
+LOCATION:7 55A
+DESCRIPTION:Monitoring środowiska\nRodzaj: laboratorium\nProwadzący: Kul
+ Mo\nNr zajęć: 4/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3e08b06bf72aba801e345e4d@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261222T080000
+DTEND;TZID=Europe/Warsaw:20261222T093500
+SUMMARY:Mc (L)
+LOCATION:34/ 14
+DESCRIPTION:Materiałoznawstwo chemiczne\nRodzaj: laboratorium\nProwadząc
+ y: dr hab. inż. Urbańska Magdalena\nNr zajęć: 7/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1b917f9a24952878eaf4cabd@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261222T095000
+DTEND;TZID=Europe/Warsaw:20261222T112500
+SUMMARY:Mc (L)
+LOCATION:34/ 14
+DESCRIPTION:Materiałoznawstwo chemiczne\nRodzaj: laboratorium\nProwadząc
+ y: dr hab. inż. Urbańska Magdalena\nNr zajęć: 8/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9b64889a6b3791702ee020f6@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261222T114000
+DTEND;TZID=Europe/Warsaw:20261222T131500
+SUMMARY:Mc (S)
+LOCATION:110/ 14
+DESCRIPTION:Materiałoznawstwo chemiczne\nRodzaj: seminarium\nProwadzący:
+  dr hab. inż. Urbańska Magdalena\nNr zajęć: 4/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9c31ecb465286f91afe9f979@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261222T133000
+DTEND;TZID=Europe/Warsaw:20261222T150500
+SUMMARY:Mwy (w)
+LOCATION:108 24
+DESCRIPTION:Materiały wysokoenergetyczne\nRodzaj: wykład\nProwadzący: p
+ rof. dr hab. inż. Cudziło Stanisław\nNr zajęć: 8/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9ab74ed71f73d62236df056c@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261223T080000
+DTEND;TZID=Europe/Warsaw:20261223T093500
+SUMMARY:Fj (ć)
+LOCATION:10 55
+DESCRIPTION:Fizyka jądrowa\nRodzaj: ćwiczenia\nProwadzący: dr hab. inż
+ . Puton Jarosław\nNr zajęć: 7/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:de8b6c657b94c402ef17f8ce@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261223T095000
+DTEND;TZID=Europe/Warsaw:20261223T112500
+SUMMARY:wmca (L)
+LOCATION:4 55A\;113 14\;08 24
+DESCRIPTION:Współczesne metody chemii analitycznej\nRodzaj: laboratorium
+ \nProwadzący: dr inż. Dziedzic Daniel\nNr zajęć: 7/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:deac1bc9351cf6618906de0c@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261223T114000
+DTEND;TZID=Europe/Warsaw:20261223T131500
+SUMMARY:wmca (L)
+LOCATION:4 55A\;113 14\;08 24
+DESCRIPTION:Współczesne metody chemii analitycznej\nRodzaj: laboratorium
+ \nProwadzący: dr inż. Dziedzic Daniel\nNr zajęć: 8/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8415af5296cf47b801971699@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261223T133000
+DTEND;TZID=Europe/Warsaw:20261223T150500
+SUMMARY:Moch (ć)
+LOCATION:123 24
+DESCRIPTION:Metody obliczeniowe w chemii\nRodzaj: ćwiczenia\nProwadzący:
+  dr inż. Szymańczyk Leszek\nNr zajęć: 6/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4e26453adc481b1c1334ea29@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270110T080000
+DTEND;TZID=Europe/Warsaw:20270110T093500
+SUMMARY:XFiz2 (ć)
+LOCATION:19 36
+DESCRIPTION:XFizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr inż. Morawiak 
+ Przemysław\nNr zajęć: 7/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d4b0e4e1a7842cfebad9f9ee@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270110T095000
+DTEND;TZID=Europe/Warsaw:20270110T112500
+SUMMARY:XFiz2 (L)
+LOCATION:139 S\;141 S\;142 S\; Kowk\; MaO\; Walcz
+DESCRIPTION:XFizyka 2\nRodzaj: laboratorium\nNr zajęć: 5/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7076c420820743345260f291@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270111T080000
+DTEND;TZID=Europe/Warsaw:20270111T093500
+SUMMARY:Mwy (L)
+LOCATION:117 24
+DESCRIPTION:Materiały wysokoenergetyczne\nRodzaj: laboratorium\nProwadzą
+ cy: dr inż. Szymańczyk Leszek\; dr inż. Chyłek Zbigniew\nNr zajęć: 
+ 6/11\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d26938e2cb32dbefffb016f3@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270111T095000
+DTEND;TZID=Europe/Warsaw:20270111T112500
+SUMMARY:Mwy (L)
+LOCATION:117 24
+DESCRIPTION:Materiały wysokoenergetyczne\nRodzaj: laboratorium\nProwadzą
+ cy: dr inż. Szymańczyk Leszek\; dr inż. Chyłek Zbigniew\nNr zajęć: 
+ 7/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4fd27902e65c0f8478131e91@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270111T114000
+DTEND;TZID=Europe/Warsaw:20270111T131500
+SUMMARY:Fj (L)
+LOCATION:5 55
+DESCRIPTION:Fizyka jądrowa\nRodzaj: laboratorium\nProwadzący: MaBo\nNr z
+ ajęć: 3/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d5c1c944bc88ef4f8fe2418a@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270111T133000
+DTEND;TZID=Europe/Warsaw:20270111T150500
+SUMMARY:Fj (L)
+LOCATION:5 55
+DESCRIPTION:Fizyka jądrowa\nRodzaj: laboratorium\nProwadzący: MaBo\nNr z
+ ajęć: 4/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3173dd033d845518c64acc07@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270112T080000
+DTEND;TZID=Europe/Warsaw:20270112T093500
+SUMMARY:Mc (L)
+LOCATION:34/ 14
+DESCRIPTION:Materiałoznawstwo chemiczne\nRodzaj: laboratorium\nProwadząc
+ y: dr hab. inż. Urbańska Magdalena\nNr zajęć: 9/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6b6000f34135706c9b4f012f@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270112T095000
+DTEND;TZID=Europe/Warsaw:20270112T112500
+SUMMARY:Mc (S)
+LOCATION:110/ 14
+DESCRIPTION:Materiałoznawstwo chemiczne\nRodzaj: seminarium\nProwadzący:
+  dr hab. inż. Urbańska Magdalena\nNr zajęć: 5/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:891999e401737b4bc066f009@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270112T114000
+DTEND;TZID=Europe/Warsaw:20270112T131500
+SUMMARY:Mś (S)
+LOCATION:10 55
+DESCRIPTION:Monitoring środowiska\nRodzaj: seminarium\nProwadzący: prof.
+  dr hab. inż. Neffe Sławomir\nNr zajęć: 2/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f11a9052164a3457d75ecffb@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270113T080000
+DTEND;TZID=Europe/Warsaw:20270113T093500
+SUMMARY:Fj (L)
+LOCATION:5 55
+DESCRIPTION:Fizyka jądrowa\nRodzaj: laboratorium\nProwadzący: MaBo\nNr z
+ ajęć: 5/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:75287638e25ff1d5bbede9c4@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270113T095000
+DTEND;TZID=Europe/Warsaw:20270113T112500
+SUMMARY:Fj (L)
+LOCATION:5 55
+DESCRIPTION:Fizyka jądrowa\nRodzaj: laboratorium\nProwadzący: MaBo\nNr z
+ ajęć: 6/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f86dfd8d81bdf46ca001da21@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270113T114000
+DTEND;TZID=Europe/Warsaw:20270113T131500
+SUMMARY:Moch (ć)
+LOCATION:123 24
+DESCRIPTION:Metody obliczeniowe w chemii\nRodzaj: ćwiczenia\nProwadzący:
+  dr inż. Szymańczyk Leszek\nNr zajęć: 7/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:687985ca3abec89a16b3922a@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270113T133000
+DTEND;TZID=Europe/Warsaw:20270113T150500
+SUMMARY:Mwy (w)
+LOCATION:108 24
+DESCRIPTION:Materiały wysokoenergetyczne\nRodzaj: wykład\nProwadzący: p
+ rof. dr hab. inż. Cudziło Stanisław\nNr zajęć: 9/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6f256ec2d4de9cf0e12b56a9@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270118T080000
+DTEND;TZID=Europe/Warsaw:20270118T093500
+SUMMARY:Mwy (L)
+LOCATION:117 24
+DESCRIPTION:Materiały wysokoenergetyczne\nRodzaj: laboratorium\nProwadzą
+ cy: dr inż. Szymańczyk Leszek\; dr inż. Chyłek Zbigniew\nNr zajęć: 
+ 8/11\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5aafb7b71bd7ea15ef0cccca@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270118T095000
+DTEND;TZID=Europe/Warsaw:20270118T112500
+SUMMARY:Mwy (L)
+LOCATION:117 24
+DESCRIPTION:Materiały wysokoenergetyczne\nRodzaj: laboratorium\nProwadzą
+ cy: dr inż. Szymańczyk Leszek\; dr inż. Chyłek Zbigniew\nNr zajęć: 
+ 9/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a475d2e4f284f068cbcb3eae@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270118T114000
+DTEND;TZID=Europe/Warsaw:20270118T131500
+SUMMARY:Mś (S)
+LOCATION:10 55
+DESCRIPTION:Monitoring środowiska\nRodzaj: seminarium\nProwadzący: prof.
+  dr hab. inż. Neffe Sławomir\nNr zajęć: 3/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:66fe5c90be99c6e1dac7ab37@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270119T080000
+DTEND;TZID=Europe/Warsaw:20270119T093500
+SUMMARY:Mc (S)
+LOCATION:110/ 14
+DESCRIPTION:Materiałoznawstwo chemiczne\nRodzaj: seminarium\nProwadzący:
+  dr hab. inż. Urbańska Magdalena\nNr zajęć: 6/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:fc7003dbcf3c00c20950a8a2@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270119T095000
+DTEND;TZID=Europe/Warsaw:20270119T112500
+SUMMARY:Fj (L)
+LOCATION:5 55
+DESCRIPTION:Fizyka jądrowa\nRodzaj: laboratorium\nProwadzący: MaBo\nNr z
+ ajęć: 7/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:891cb68e6929bbbcbbba2ad8@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270119T114000
+DTEND;TZID=Europe/Warsaw:20270119T131500
+SUMMARY:Fj (L)
+LOCATION:5 55
+DESCRIPTION:Fizyka jądrowa\nRodzaj: laboratorium\nProwadzący: MaBo\nNr z
+ ajęć: 8/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b56a7cd8a0ec3f3d369fb221@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270119T133000
+DTEND;TZID=Europe/Warsaw:20270119T150500
+SUMMARY:Mwy (w)
+LOCATION:108 24
+DESCRIPTION:Materiały wysokoenergetyczne\nRodzaj: wykład\nProwadzący: p
+ rof. dr hab. inż. Cudziło Stanisław\nNr zajęć: 10/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e093f37b0aab86d12e68855f@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270119T160000
+DTEND;TZID=Europe/Warsaw:20270119T173500
+SUMMARY:Mwy (ć)
+LOCATION:108 24
+DESCRIPTION:Materiały wysokoenergetyczne\nRodzaj: ćwiczenia\nProwadzący
+ : prof. dr hab. inż. Cudziło Stanisław\nNr zajęć: 3/3\nBlok: 5\nUwag
+ i: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:fa4ccbc9d5c488287ba0ba7c@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270125T080000
+DTEND;TZID=Europe/Warsaw:20270125T093500
+SUMMARY:Mwy (L)
+LOCATION:117 24
+DESCRIPTION:Materiały wysokoenergetyczne\nRodzaj: laboratorium\nProwadzą
+ cy: dr inż. Szymańczyk Leszek\; dr inż. Chyłek Zbigniew\nNr zajęć: 
+ 10/11\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2f3fc26d6ca8af0ee8733b42@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270125T095000
+DTEND;TZID=Europe/Warsaw:20270125T112500
+SUMMARY:Mwy (L)
+LOCATION:117 24
+DESCRIPTION:Materiały wysokoenergetyczne\nRodzaj: laboratorium\nProwadzą
+ cy: dr inż. Szymańczyk Leszek\; dr inż. Chyłek Zbigniew\nNr zajęć: 
+ 11/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:76f21453cc5bb625086e4b05@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270125T114000
+DTEND;TZID=Europe/Warsaw:20270125T131500
+SUMMARY:Fj (L)
+LOCATION:5 55
+DESCRIPTION:Fizyka jądrowa\nRodzaj: laboratorium\nProwadzący: MaBo\nNr z
+ ajęć: 9/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:96758d7298c831c063fdf0c0@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270125T133000
+DTEND;TZID=Europe/Warsaw:20270125T150500
+SUMMARY:Fj (L)
+LOCATION:5 55
+DESCRIPTION:Fizyka jądrowa\nRodzaj: laboratorium\nProwadzący: MaBo\nNr z
+ ajęć: 10/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f832ae171f78195a96a771dc@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270201T095000
+DTEND;TZID=Europe/Warsaw:20270201T112500
+SUMMARY:XFiz2 (E)
+LOCATION:19 36
+DESCRIPTION:XFizyka 2\nRodzaj: egzamin\nProwadzący: prof. dr hab. inż. K
+ łosowicz Stanisław\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:dbe03cb620bed0b7402fc52b@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270215T095000
+DTEND;TZID=Europe/Warsaw:20270215T112500
+SUMMARY:XFiz2 (Ep)
+LOCATION:aF S
+DESCRIPTION:XFizyka 2\nRodzaj: egzamin poprawkowy\nProwadzący: prof. dr h
+ ab. inż. Kłosowicz Stanisław\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+END:VCALENDAR

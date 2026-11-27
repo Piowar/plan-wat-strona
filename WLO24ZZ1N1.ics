@@ -1,0 +1,1108 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WLO24ZZ1N1
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:0ced8fd8c5a3b39ea00562a6@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261003T080000
+DTEND;TZID=Europe/Warsaw:20261003T093500
+SUMMARY:Kzl (w)
+LOCATION:5.17/ 135
+DESCRIPTION:Kierowanie zespołami ludzkimi\nRodzaj: wykład\nProwadzący: 
+ dr Piotrkowski Kazimierz\nNr zajęć: 1/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a666a89d89d7a17028bfd707@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261003T095000
+DTEND;TZID=Europe/Warsaw:20261003T112500
+SUMMARY:Kzl (w)
+LOCATION:5.17/ 135
+DESCRIPTION:Kierowanie zespołami ludzkimi\nRodzaj: wykład\nProwadzący: 
+ dr Piotrkowski Kazimierz\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:55475b02a5396ac18fea2e9c@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261003T114000
+DTEND;TZID=Europe/Warsaw:20261003T131500
+SUMMARY:Sd. (S)
+LOCATION:4.24 / 135
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: ArtJa.K
+ \nNr zajęć: 1/13\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:539a7299c9ce6c4e02e7d710@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261004T080000
+DTEND;TZID=Europe/Warsaw:20261004T093500
+SUMMARY:Trans.Cyfr.Org. (w)
+LOCATION:2.22/ 135
+DESCRIPTION:Transformacja cyfrowa organizacji\nRodzaj: wykład\nProwadząc
+ y: dr hab. Sołek-Borowska Celina\nNr zajęć: 1/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:50cf478e0b6dd6cd42df4e07@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261004T095000
+DTEND;TZID=Europe/Warsaw:20261004T112500
+SUMMARY:Trans.Cyfr.Org. (w)
+LOCATION:2.22/ 135
+DESCRIPTION:Transformacja cyfrowa organizacji\nRodzaj: wykład\nProwadząc
+ y: dr hab. Sołek-Borowska Celina\nNr zajęć: 2/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:89ffb51cd8040e864a2ea782@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261004T114000
+DTEND;TZID=Europe/Warsaw:20261004T131500
+SUMMARY:Trans.Cyfr.Org. (ć)
+LOCATION:2.22/ 135
+DESCRIPTION:Transformacja cyfrowa organizacji\nRodzaj: ćwiczenia\nProwadz
+ ący: mgr Łukasik Sebastian\nNr zajęć: 1/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:eb8ab64bf254af9fd00c7396@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261010T080000
+DTEND;TZID=Europe/Warsaw:20261010T093500
+SUMMARY:PzK (w)
+LOCATION:2.22/ 135
+DESCRIPTION:Psychologiczne wspomaganie zarządzania kadrami\nRodzaj: wykł
+ ad\nProwadzący: dr Tarapata Jolanta\nNr zajęć: 1/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0a0d6dac72814af405b076f3@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261010T095000
+DTEND;TZID=Europe/Warsaw:20261010T112500
+SUMMARY:KwZ (w)
+LOCATION:4.17b/ 135
+DESCRIPTION:Komunikacja w zarządzaniu\nRodzaj: wykład\nProwadzący: dr M
+ iszczak Marta\nNr zajęć: 1/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7a65fe7958be4ef6f3f3b0fb@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261010T114000
+DTEND;TZID=Europe/Warsaw:20261010T131500
+SUMMARY:KwZ (w)
+LOCATION:4.17b/ 135
+DESCRIPTION:Komunikacja w zarządzaniu\nRodzaj: wykład\nProwadzący: dr M
+ iszczak Marta\nNr zajęć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a02a61e60de4669a58529bf8@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261010T133000
+DTEND;TZID=Europe/Warsaw:20261010T150500
+SUMMARY:KwZ (ć)
+LOCATION:4.17b/ 135
+DESCRIPTION:Komunikacja w zarządzaniu\nRodzaj: ćwiczenia\nProwadzący: d
+ r Miszczak Marta\nNr zajęć: 1/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8fac7057ba9f78e3f7eaec16@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261010T152000
+DTEND;TZID=Europe/Warsaw:20261010T165500
+SUMMARY:Trans.Cyfr.Org. (w)
+LOCATION:3.16/ 135
+DESCRIPTION:Transformacja cyfrowa organizacji\nRodzaj: wykład\nProwadząc
+ y: dr hab. Sołek-Borowska Celina\nNr zajęć: 3/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:cd47e3a99e40b32df876bc5d@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261011T080000
+DTEND;TZID=Europe/Warsaw:20261011T093500
+SUMMARY:Sd. (S)
+LOCATION:4.10 / 135
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: Kst\nNr
+  zajęć: 2/13\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5f7dee5915911ce0d28d2cb4@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261011T095000
+DTEND;TZID=Europe/Warsaw:20261011T112500
+SUMMARY:Ar (w)
+LOCATION:4.17a/ 135
+DESCRIPTION:Analiza rynku\nRodzaj: wykład\nProwadzący: dr Kolasińska-Mo
+ rawska Katarzyna\nNr zajęć: 1/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5335888a4314b8b60660108a@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261011T114000
+DTEND;TZID=Europe/Warsaw:20261011T131500
+SUMMARY:Ar (w)
+LOCATION:4.17a/ 135
+DESCRIPTION:Analiza rynku\nRodzaj: wykład\nProwadzący: dr Kolasińska-Mo
+ rawska Katarzyna\nNr zajęć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:92318feb093cb15e4652dc17@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261011T133000
+DTEND;TZID=Europe/Warsaw:20261011T150500
+SUMMARY:Trans.Cyfr.Org. (ć)
+LOCATION:187 S
+DESCRIPTION:Transformacja cyfrowa organizacji\nRodzaj: ćwiczenia\nProwadz
+ ący: mgr Łukasik Sebastian\nNr zajęć: 2/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:89bede36385836f17405b398@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261024T080000
+DTEND;TZID=Europe/Warsaw:20261024T093500
+SUMMARY:Zkn (w)
+LOCATION:187 S
+DESCRIPTION:Zarządzanie kapitałem niematerialnym\nRodzaj: wykład\nProwa
+ dzący: dr Stroińska Ewa\nNr zajęć: 1/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:77a21328ff9bd041ae0f21f3@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261024T095000
+DTEND;TZID=Europe/Warsaw:20261024T112500
+SUMMARY:Zkn (w)
+LOCATION:187 S
+DESCRIPTION:Zarządzanie kapitałem niematerialnym\nRodzaj: wykład\nProwa
+ dzący: dr Stroińska Ewa\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:75520aef626d12e46505c110@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261024T114000
+DTEND;TZID=Europe/Warsaw:20261024T131500
+SUMMARY:ZKo (w)
+LOCATION:1.15/ 16
+DESCRIPTION:Zarządzanie kompetencjami w organizacji\nRodzaj: wykład\nPro
+ wadzący: dr inż. Wojciechowski Zdzisław\nNr zajęć: 1/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:cd85b42bfec8a353eb7fd49b@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261024T133000
+DTEND;TZID=Europe/Warsaw:20261024T150500
+SUMMARY:Sd. (S)
+LOCATION:4.22 / 135
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr Tara
+ pata Jolanta\nNr zajęć: 3/13\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5ecc0523eb8e0e92259a17eb@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261025T080000
+DTEND;TZID=Europe/Warsaw:20261025T093500
+SUMMARY:Sd. (S)
+LOCATION:4.31 / 135
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: SB.C\nN
+ r zajęć: 4/13\nBlok: 1\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:ddf7580593c2efea8bdeebc6@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261025T095000
+DTEND;TZID=Europe/Warsaw:20261025T112500
+SUMMARY:Trans.Cyfr.Org. (w)
+LOCATION:4.23/ 135
+DESCRIPTION:Transformacja cyfrowa organizacji\nRodzaj: wykład\nProwadząc
+ y: dr hab. Sołek-Borowska Celina\nNr zajęć: 4/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c3e664f69fe11979e057a886@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261025T114000
+DTEND;TZID=Europe/Warsaw:20261025T131500
+SUMMARY:Ar (w)
+LOCATION:0.23/ 16
+DESCRIPTION:Analiza rynku\nRodzaj: wykład\nProwadzący: dr Kolasińska-Mo
+ rawska Katarzyna\nNr zajęć: 3/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0c1e481443853f87b43f15ae@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261025T133000
+DTEND;TZID=Europe/Warsaw:20261025T150500
+SUMMARY:Ar (ć)
+LOCATION:0.23/ 16
+DESCRIPTION:Analiza rynku\nRodzaj: ćwiczenia\nProwadzący: dr Kolasińska
+ -Morawska Katarzyna\nNr zajęć: 1/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:46c2e92a51f8d8e4812e2a72@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261025T152000
+DTEND;TZID=Europe/Warsaw:20261025T165500
+SUMMARY:Ar (ć)
+LOCATION:0.23/ 16
+DESCRIPTION:Analiza rynku\nRodzaj: ćwiczenia\nProwadzący: dr Kolasińska
+ -Morawska Katarzyna\nNr zajęć: 2/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:b5c1dde59db780f1cfd9596e@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261107T080000
+DTEND;TZID=Europe/Warsaw:20261107T093500
+SUMMARY:PzK (w)
+LOCATION:2.22/ 135
+DESCRIPTION:Psychologiczne wspomaganie zarządzania kadrami\nRodzaj: wykł
+ ad\nProwadzący: dr Tarapata Jolanta\nNr zajęć: 2/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3decefae53ae457842dd6714@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261107T095000
+DTEND;TZID=Europe/Warsaw:20261107T112500
+SUMMARY:KwZ (w)
+LOCATION:4.17b/ 135
+DESCRIPTION:Komunikacja w zarządzaniu\nRodzaj: wykład\nProwadzący: dr M
+ iszczak Marta\nNr zajęć: 3/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e19fb08e7c06672da3a920aa@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261107T114000
+DTEND;TZID=Europe/Warsaw:20261107T131500
+SUMMARY:KwZ (w)
+LOCATION:4.17b/ 135
+DESCRIPTION:Komunikacja w zarządzaniu\nRodzaj: wykład\nProwadzący: dr M
+ iszczak Marta\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c69e7b511ff982e413ae947a@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261107T133000
+DTEND;TZID=Europe/Warsaw:20261107T150500
+SUMMARY:KwZ (ć)
+LOCATION:4.17b/ 135
+DESCRIPTION:Komunikacja w zarządzaniu\nRodzaj: ćwiczenia\nProwadzący: d
+ r Miszczak Marta\nNr zajęć: 2/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:35200213d89e6c5588fd5bcf@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261107T152000
+DTEND;TZID=Europe/Warsaw:20261107T165500
+SUMMARY:Sd. (S)
+LOCATION:4.35 / 135
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: Mm\nNr 
+ zajęć: 5/13\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:e3f0f932bc4e54cca1e7ac93@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261108T095000
+DTEND;TZID=Europe/Warsaw:20261108T112500
+SUMMARY:Trans.Cyfr.Org. (ć)
+LOCATION:1.27/ 135
+DESCRIPTION:Transformacja cyfrowa organizacji\nRodzaj: ćwiczenia\nProwadz
+ ący: mgr Łukasik Sebastian\nNr zajęć: 3/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:84d1e1174db1976ece8057d0@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261108T114000
+DTEND;TZID=Europe/Warsaw:20261108T131500
+SUMMARY:Trans.Cyfr.Org. (ć)
+LOCATION:1.27/ 135
+DESCRIPTION:Transformacja cyfrowa organizacji\nRodzaj: ćwiczenia\nProwadz
+ ący: mgr Łukasik Sebastian\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f19b00174299d651ca3ca0f2@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261108T133000
+DTEND;TZID=Europe/Warsaw:20261108T150500
+SUMMARY:Sd. (S)
+LOCATION:4.30 / 135
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr hab.
+  Przychocka Iwona\nNr zajęć: 6/13\nBlok: 4\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:bcc638166d6521f50859f0a0@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261114T080000
+DTEND;TZID=Europe/Warsaw:20261114T093500
+SUMMARY:KwZ (ć)
+LOCATION:2.21/ 135
+DESCRIPTION:Komunikacja w zarządzaniu\nRodzaj: ćwiczenia\nProwadzący: d
+ r Miszczak Marta\nNr zajęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:92e18fd6b8b55a2ce6103099@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261114T095000
+DTEND;TZID=Europe/Warsaw:20261114T112500
+SUMMARY:KwZ (ć)
+LOCATION:0.23/ 16
+DESCRIPTION:Komunikacja w zarządzaniu\nRodzaj: ćwiczenia\nProwadzący: d
+ r Miszczak Marta\nNr zajęć: 4/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9d526727b769006af74bd1cc@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261114T114000
+DTEND;TZID=Europe/Warsaw:20261114T131500
+SUMMARY:Zkn (w)
+LOCATION:5.21/ 135
+DESCRIPTION:Zarządzanie kapitałem niematerialnym\nRodzaj: wykład\nProwa
+ dzący: dr Stroińska Ewa\nNr zajęć: 3/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b1c92c5a87a26cf7d39fca7c@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261114T133000
+DTEND;TZID=Europe/Warsaw:20261114T150500
+SUMMARY:Zkn (ć)
+LOCATION:2/ 22
+DESCRIPTION:Zarządzanie kapitałem niematerialnym\nRodzaj: ćwiczenia\nPr
+ owadzący: dr Stroińska Ewa\nNr zajęć: 1/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e46d4f82a9de792fc7ccaa2c@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261115T080000
+DTEND;TZID=Europe/Warsaw:20261115T093500
+SUMMARY:Trans.Cyfr.Org. (w)
+LOCATION:0.23/ 16
+DESCRIPTION:Transformacja cyfrowa organizacji\nRodzaj: wykład\nProwadząc
+ y: dr hab. Sołek-Borowska Celina\nNr zajęć: 5/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:222f5fb43dc9c8e2b7eeb117@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261115T095000
+DTEND;TZID=Europe/Warsaw:20261115T112500
+SUMMARY:Trans.Cyfr.Org. (w)
+LOCATION:0.23/ 16
+DESCRIPTION:Transformacja cyfrowa organizacji\nRodzaj: wykład\nProwadząc
+ y: dr hab. Sołek-Borowska Celina\nNr zajęć: 6/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8f266bacfa915fc365c0fea9@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261115T114000
+DTEND;TZID=Europe/Warsaw:20261115T131500
+SUMMARY:Trans.Cyfr.Org. (ć)
+LOCATION:2.21/ 135
+DESCRIPTION:Transformacja cyfrowa organizacji\nRodzaj: ćwiczenia\nProwadz
+ ący: mgr Łukasik Sebastian\nNr zajęć: 5/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:15e471a7b0810f815e850e1b@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261121T080000
+DTEND;TZID=Europe/Warsaw:20261121T093500
+SUMMARY:Kzl (w)
+LOCATION:4.17b/ 135
+DESCRIPTION:Kierowanie zespołami ludzkimi\nRodzaj: wykład\nProwadzący: 
+ dr Piotrkowski Kazimierz\nNr zajęć: 3/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:90419543d26ab99460587bc3@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261121T095000
+DTEND;TZID=Europe/Warsaw:20261121T112500
+SUMMARY:Kzl (ć)
+LOCATION:4.17b/ 135
+DESCRIPTION:Kierowanie zespołami ludzkimi\nRodzaj: ćwiczenia\nProwadząc
+ y: dr Piotrkowski Kazimierz\nNr zajęć: 1/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1a4a5f5be208f53542a38384@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261121T114000
+DTEND;TZID=Europe/Warsaw:20261121T131500
+SUMMARY:PzK (w)
+LOCATION:4.17a/ 135
+DESCRIPTION:Psychologiczne wspomaganie zarządzania kadrami\nRodzaj: wykł
+ ad\nProwadzący: dr Tarapata Jolanta\nNr zajęć: 3/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2755ed35b51dade337033d69@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261121T133000
+DTEND;TZID=Europe/Warsaw:20261121T150500
+SUMMARY:ZKo (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Zarządzanie kompetencjami w organizacji\nRodzaj: wykład\nPro
+ wadzący: dr inż. Wojciechowski Zdzisław\nNr zajęć: 2/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f09fed9bba188f1869c7ec79@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261122T080000
+DTEND;TZID=Europe/Warsaw:20261122T093500
+SUMMARY:Ar (w)
+LOCATION:0.7/ 16
+DESCRIPTION:Analiza rynku\nRodzaj: wykład\nProwadzący: dr Kolasińska-Mo
+ rawska Katarzyna\nNr zajęć: 4/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3e3e4a78316f864833ecfee6@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261122T095000
+DTEND;TZID=Europe/Warsaw:20261122T112500
+SUMMARY:Ar (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Analiza rynku\nRodzaj: ćwiczenia\nProwadzący: dr Kolasińska
+ -Morawska Katarzyna\nNr zajęć: 3/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:91f4469b5181aaeb90cd4f62@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261122T114000
+DTEND;TZID=Europe/Warsaw:20261122T131500
+SUMMARY:Sd. (S)
+LOCATION:4.15 / 135
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr Antc
+ zak Joanna\nNr zajęć: 7/13\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e0bfaecbe6ef26353f7dc840@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261122T133000
+DTEND;TZID=Europe/Warsaw:20261122T150500
+SUMMARY:Sd. (S)
+LOCATION:4.15 / 135
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr Antc
+ zak Joanna\nNr zajęć: 8/13\nBlok: 4\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:71a2dcc0f22e639d1abd9bc8@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261205T080000
+DTEND;TZID=Europe/Warsaw:20261205T093500
+SUMMARY:Kzl (w)
+LOCATION:1/ 22
+DESCRIPTION:Kierowanie zespołami ludzkimi\nRodzaj: wykład\nProwadzący: 
+ dr Piotrkowski Kazimierz\nNr zajęć: 4/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:dd25e410e778a07444360ac4@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261205T095000
+DTEND;TZID=Europe/Warsaw:20261205T112500
+SUMMARY:Kzl (ć)
+LOCATION:1/ 22
+DESCRIPTION:Kierowanie zespołami ludzkimi\nRodzaj: ćwiczenia\nProwadząc
+ y: dr Piotrkowski Kazimierz\nNr zajęć: 2/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:616caf3cd9190bb4bee2fe94@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261205T114000
+DTEND;TZID=Europe/Warsaw:20261205T131500
+SUMMARY:ZKo (w)
+LOCATION:187 S
+DESCRIPTION:Zarządzanie kompetencjami w organizacji\nRodzaj: wykład\nPro
+ wadzący: dr inż. Wojciechowski Zdzisław\nNr zajęć: 3/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3615a2e445ebaddb2f1e4e21@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261205T133000
+DTEND;TZID=Europe/Warsaw:20261205T150500
+SUMMARY:ZKo (w)
+LOCATION:187 S
+DESCRIPTION:Zarządzanie kompetencjami w organizacji\nRodzaj: wykład\nPro
+ wadzący: dr inż. Wojciechowski Zdzisław\nNr zajęć: 4/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:fbd1b630986956398151564e@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261205T152000
+DTEND;TZID=Europe/Warsaw:20261205T165500
+SUMMARY:ZKo (ć)
+LOCATION:2.21/ 135
+DESCRIPTION:Zarządzanie kompetencjami w organizacji\nRodzaj: ćwiczenia\n
+ Prowadzący: dr inż. Wojciechowski Zdzisław\nNr zajęć: 1/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:6e898f9d07ed109dca701dcb@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261206T080000
+DTEND;TZID=Europe/Warsaw:20261206T093500
+SUMMARY:Sd. (S)
+LOCATION:4.31 / 135
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: SB.C\nN
+ r zajęć: 9/13\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d8da953c35734d23edf9620a@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261206T095000
+DTEND;TZID=Europe/Warsaw:20261206T112500
+SUMMARY:S.OiW.P. (w)
+LOCATION:3.16/ 135
+DESCRIPTION:Systemy oceniania i wynagradzania pracowników\nRodzaj: wykła
+ d\nProwadzący: dr Jończyk Joanna\nNr zajęć: 1/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:153598644b55fd102f57e56d@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261206T114000
+DTEND;TZID=Europe/Warsaw:20261206T131500
+SUMMARY:S.OiW.P. (w)
+LOCATION:3.16/ 135
+DESCRIPTION:Systemy oceniania i wynagradzania pracowników\nRodzaj: wykła
+ d\nProwadzący: dr Jończyk Joanna\nNr zajęć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ae1e0d083760da597e78dbe3@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261206T133000
+DTEND;TZID=Europe/Warsaw:20261206T150500
+SUMMARY:S.OiW.P. (ć)
+LOCATION:1.17/ 16
+DESCRIPTION:Systemy oceniania i wynagradzania pracowników\nRodzaj: ćwicz
+ enia\nProwadzący: dr Jończyk Joanna\nNr zajęć: 1/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:99b603fc2469ee2b4ad5343c@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261206T152000
+DTEND;TZID=Europe/Warsaw:20261206T165500
+SUMMARY:S.OiW.P. (w)
+LOCATION:1.17/ 16
+DESCRIPTION:Systemy oceniania i wynagradzania pracowników\nRodzaj: wykła
+ d\nProwadzący: dr Jończyk Joanna\nNr zajęć: 3/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:34af5f78f6549d2469a70fdd@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261206T171000
+DTEND;TZID=Europe/Warsaw:20261206T184500
+SUMMARY:S.OiW.P. (w)
+LOCATION:1.17/ 16
+DESCRIPTION:Systemy oceniania i wynagradzania pracowników\nRodzaj: wykła
+ d\nProwadzący: dr Jończyk Joanna\nNr zajęć: 4/5\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:388d782ff60b3e2fdbeb9064@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261212T080000
+DTEND;TZID=Europe/Warsaw:20261212T093500
+SUMMARY:PzK (w)
+LOCATION:2.22/ 135
+DESCRIPTION:Psychologiczne wspomaganie zarządzania kadrami\nRodzaj: wykł
+ ad\nProwadzący: dr Tarapata Jolanta\nNr zajęć: 4/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:dc925cc680c8123351d14a6c@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261212T095000
+DTEND;TZID=Europe/Warsaw:20261212T112500
+SUMMARY:ZKo (ć)
+LOCATION:1.15/ 16
+DESCRIPTION:Zarządzanie kompetencjami w organizacji\nRodzaj: ćwiczenia\n
+ Prowadzący: dr inż. Wojciechowski Zdzisław\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0b05e1d1f37ca07938d50be1@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261212T133000
+DTEND;TZID=Europe/Warsaw:20261212T150500
+SUMMARY:ZKo (ć)
+LOCATION:2.22/ 135
+DESCRIPTION:Zarządzanie kompetencjami w organizacji\nRodzaj: ćwiczenia\n
+ Prowadzący: dr inż. Wojciechowski Zdzisław\nNr zajęć: 3/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a8a503480b86324d8686b538@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261213T095000
+DTEND;TZID=Europe/Warsaw:20261213T112500
+SUMMARY:S.OiW.P. (w)
+LOCATION:1.17/ 16
+DESCRIPTION:Systemy oceniania i wynagradzania pracowników\nRodzaj: wykła
+ d\nProwadzący: dr Jończyk Joanna\nNr zajęć: 5/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f498704204a76dc6880fc91b@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261213T114000
+DTEND;TZID=Europe/Warsaw:20261213T131500
+SUMMARY:S.OiW.P. (ć)
+LOCATION:2.22/ 135
+DESCRIPTION:Systemy oceniania i wynagradzania pracowników\nRodzaj: ćwicz
+ enia\nProwadzący: dr Jończyk Joanna\nNr zajęć: 2/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3e953210bfa6b357a48cdd26@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261213T133000
+DTEND;TZID=Europe/Warsaw:20261213T150500
+SUMMARY:S.OiW.P. (ć)
+LOCATION:2.22/ 135
+DESCRIPTION:Systemy oceniania i wynagradzania pracowników\nRodzaj: ćwicz
+ enia\nProwadzący: dr Jończyk Joanna\nNr zajęć: 3/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:447ea8ad4432bf6033d3ee5b@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261213T152000
+DTEND;TZID=Europe/Warsaw:20261213T165500
+SUMMARY:S.OiW.P. (ć)
+LOCATION:2.22/ 135
+DESCRIPTION:Systemy oceniania i wynagradzania pracowników\nRodzaj: ćwicz
+ enia\nProwadzący: dr Jończyk Joanna\nNr zajęć: 4/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:cdf25a0ffb87739d3ca54d04@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261219T080000
+DTEND;TZID=Europe/Warsaw:20261219T093500
+SUMMARY:Kzl (w)
+LOCATION:1/ 22
+DESCRIPTION:Kierowanie zespołami ludzkimi\nRodzaj: wykład\nProwadzący: 
+ dr Piotrkowski Kazimierz\nNr zajęć: 5/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8c85569bdb402ed0b77d49ab@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261219T095000
+DTEND;TZID=Europe/Warsaw:20261219T112500
+SUMMARY:Kzl (ć)
+LOCATION:1/ 22
+DESCRIPTION:Kierowanie zespołami ludzkimi\nRodzaj: ćwiczenia\nProwadząc
+ y: dr Piotrkowski Kazimierz\nNr zajęć: 3/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e90c492aa18936a929b3282e@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261219T114000
+DTEND;TZID=Europe/Warsaw:20261219T131500
+SUMMARY:Zkn (w)
+LOCATION:2.21/ 135
+DESCRIPTION:Zarządzanie kapitałem niematerialnym\nRodzaj: wykład\nProwa
+ dzący: dr Stroińska Ewa\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e3911cff5575838ce1825e87@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261219T133000
+DTEND;TZID=Europe/Warsaw:20261219T150500
+SUMMARY:Zkn (ć)
+LOCATION:0.21/ 16
+DESCRIPTION:Zarządzanie kapitałem niematerialnym\nRodzaj: ćwiczenia\nPr
+ owadzący: dr Stroińska Ewa\nNr zajęć: 2/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:addd66c6c655c7f245d99b98@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20261219T152000
+DTEND;TZID=Europe/Warsaw:20261219T165500
+SUMMARY:Sd. (S)
+LOCATION:4.28 / 135
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: RJ\nNr 
+ zajęć: 10/13\nBlok: 5\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:958e936e1b6c40a324d07140@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270109T080000
+DTEND;TZID=Europe/Warsaw:20270109T093500
+SUMMARY:PzK (w)
+LOCATION:4.17b/ 135
+DESCRIPTION:Psychologiczne wspomaganie zarządzania kadrami\nRodzaj: wykł
+ ad\nProwadzący: dr Tarapata Jolanta\nNr zajęć: 5/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e0570ac9b2fcddd7b792e86c@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270109T095000
+DTEND;TZID=Europe/Warsaw:20270109T112500
+SUMMARY:PzK (ć)
+LOCATION:1.27/ 135
+DESCRIPTION:Psychologiczne wspomaganie zarządzania kadrami\nRodzaj: ćwic
+ zenia\nProwadzący: mgr Gurmińska Katarzyna\nNr zajęć: 1/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:937c1137ded5e8dddb5cd6a4@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270109T114000
+DTEND;TZID=Europe/Warsaw:20270109T131500
+SUMMARY:Zkn (w)
+LOCATION:5.21/ 135
+DESCRIPTION:Zarządzanie kapitałem niematerialnym\nRodzaj: wykład\nProwa
+ dzący: dr Stroińska Ewa\nNr zajęć: 5/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7161737063af26d6fb2c2006@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270109T133000
+DTEND;TZID=Europe/Warsaw:20270109T150500
+SUMMARY:Zkn (ć)
+LOCATION:0.23/ 16
+DESCRIPTION:Zarządzanie kapitałem niematerialnym\nRodzaj: ćwiczenia\nPr
+ owadzący: dr Stroińska Ewa\nNr zajęć: 3/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2f5560c11d0f0fe30793a9e7@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270109T152000
+DTEND;TZID=Europe/Warsaw:20270109T165500
+SUMMARY:Zkn (ć)
+LOCATION:0.23/ 16
+DESCRIPTION:Zarządzanie kapitałem niematerialnym\nRodzaj: ćwiczenia\nPr
+ owadzący: dr Stroińska Ewa\nNr zajęć: 4/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:1d6fa2f879a4af8bca0bc858@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270110T080000
+DTEND;TZID=Europe/Warsaw:20270110T093500
+SUMMARY:PG (w)
+LOCATION:1.10/ 16
+DESCRIPTION:Prawo gospodarcze\nRodzaj: wykład\nProwadzący: dr Szewczyk-R
+ okicki Rafał\nNr zajęć: 1/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2bc34bea5c3f1c81ad745184@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270110T095000
+DTEND;TZID=Europe/Warsaw:20270110T112500
+SUMMARY:PG (w)
+LOCATION:1.10/ 16
+DESCRIPTION:Prawo gospodarcze\nRodzaj: wykład\nProwadzący: dr Szewczyk-R
+ okicki Rafał\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3405b63228b1997171dc3eb3@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270110T114000
+DTEND;TZID=Europe/Warsaw:20270110T131500
+SUMMARY:Ar (w)
+LOCATION:2.22/ 135
+DESCRIPTION:Analiza rynku\nRodzaj: wykład\nProwadzący: dr Kolasińska-Mo
+ rawska Katarzyna\nNr zajęć: 5/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3981f66c9c6ced4b89b77a50@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270110T133000
+DTEND;TZID=Europe/Warsaw:20270110T150500
+SUMMARY:Ar (ć)
+LOCATION:2.22/ 135
+DESCRIPTION:Analiza rynku\nRodzaj: ćwiczenia\nProwadzący: dr Kolasińska
+ -Morawska Katarzyna\nNr zajęć: 4/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:fbe059355d52739bd4784a08@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270116T095000
+DTEND;TZID=Europe/Warsaw:20270116T112500
+SUMMARY:KwZ (w)
+LOCATION:187 S
+DESCRIPTION:Komunikacja w zarządzaniu\nRodzaj: wykład\nProwadzący: dr M
+ iszczak Marta\nNr zajęć: 5/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0cfb6771f9218098b9fd0104@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270116T114000
+DTEND;TZID=Europe/Warsaw:20270116T131500
+SUMMARY:PzK (ć)
+LOCATION:2/ 22
+DESCRIPTION:Psychologiczne wspomaganie zarządzania kadrami\nRodzaj: ćwic
+ zenia\nProwadzący: mgr Gurmińska Katarzyna\nNr zajęć: 2/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b419d239670c09fd15891f1b@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270116T133000
+DTEND;TZID=Europe/Warsaw:20270116T150500
+SUMMARY:Kzl (ć)
+LOCATION:0.19/ 135
+DESCRIPTION:Kierowanie zespołami ludzkimi\nRodzaj: ćwiczenia\nProwadząc
+ y: dr Piotrkowski Kazimierz\nNr zajęć: 4/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4fa376bf69c81f04d01a4a57@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270116T152000
+DTEND;TZID=Europe/Warsaw:20270116T165500
+SUMMARY:ZKo (w)
+LOCATION:2.22/ 135
+DESCRIPTION:Zarządzanie kompetencjami w organizacji\nRodzaj: wykład\nPro
+ wadzący: dr inż. Wojciechowski Zdzisław\nNr zajęć: 5/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:eee8b04660548bb542700c4a@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270116T171000
+DTEND;TZID=Europe/Warsaw:20270116T184500
+SUMMARY:Sd. (S)
+LOCATION:4.29 / 135
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr Piot
+ rkowski Kazimierz\nNr zajęć: 11/13\nBlok: 6\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:626d0168baf13ae3e503dbdc@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270117T080000
+DTEND;TZID=Europe/Warsaw:20270117T093500
+SUMMARY:PG (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Prawo gospodarcze\nRodzaj: wykład\nProwadzący: dr Szewczyk-R
+ okicki Rafał\nNr zajęć: 3/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3deaa715312ba7c2402c50b9@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270117T095000
+DTEND;TZID=Europe/Warsaw:20270117T112500
+SUMMARY:PG (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Prawo gospodarcze\nRodzaj: wykład\nProwadzący: dr Szewczyk-R
+ okicki Rafał\nNr zajęć: 4/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:37032d3649ace8fe44c25db5@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270117T114000
+DTEND;TZID=Europe/Warsaw:20270117T131500
+SUMMARY:Sd. (S)
+LOCATION:4.22 / 135
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: PKa\nNr
+  zajęć: 12/13\nBlok: 3\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:f3d250f4497424ec3480b9c1@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270123T080000
+DTEND;TZID=Europe/Warsaw:20270123T093500
+SUMMARY:ZKo (ć)
+LOCATION:255 S
+DESCRIPTION:Zarządzanie kompetencjami w organizacji\nRodzaj: ćwiczenia\n
+ Prowadzący: dr inż. Wojciechowski Zdzisław\nNr zajęć: 4/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:888df73e094138ecab9ef935@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270123T095000
+DTEND;TZID=Europe/Warsaw:20270123T112500
+SUMMARY:ZKo (ć)
+LOCATION:255 S
+DESCRIPTION:Zarządzanie kompetencjami w organizacji\nRodzaj: ćwiczenia\n
+ Prowadzący: dr inż. Wojciechowski Zdzisław\nNr zajęć: 5/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:685eb3e5677b7bf96bb732ce@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270123T114000
+DTEND;TZID=Europe/Warsaw:20270123T131500
+SUMMARY:Sd. (S)
+LOCATION:4.30 / 135
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: Gn\nNr 
+ zajęć: 13/13\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9cb6c05d0639d4d65daf10d0@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270123T133000
+DTEND;TZID=Europe/Warsaw:20270123T150500
+SUMMARY:Kzl (P)
+LOCATION:2.22/ 135
+DESCRIPTION:Kierowanie zespołami ludzkimi\nRodzaj: projekt\nProwadzący: 
+ dr Piotrkowski Kazimierz\nNr zajęć: 1/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:bc594d9070b01d80c147fd43@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270123T152000
+DTEND;TZID=Europe/Warsaw:20270123T165500
+SUMMARY:Kzl (P)
+LOCATION:2.22/ 135
+DESCRIPTION:Kierowanie zespołami ludzkimi\nRodzaj: projekt\nProwadzący: 
+ dr Piotrkowski Kazimierz\nNr zajęć: 2/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f024c1161257640e91b90972@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270123T171000
+DTEND;TZID=Europe/Warsaw:20270123T184500
+SUMMARY:Kzl (P)
+LOCATION:2.22/ 135
+DESCRIPTION:Kierowanie zespołami ludzkimi\nRodzaj: projekt\nProwadzący: 
+ dr Piotrkowski Kazimierz\nNr zajęć: 3/5\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:3e355107c86bcd3f7aeac7a4@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270124T080000
+DTEND;TZID=Europe/Warsaw:20270124T093500
+SUMMARY:PzK (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Psychologiczne wspomaganie zarządzania kadrami\nRodzaj: ćwic
+ zenia\nProwadzący: mgr Gurmińska Katarzyna\nNr zajęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:be46512974848934dd3aef01@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270124T095000
+DTEND;TZID=Europe/Warsaw:20270124T112500
+SUMMARY:PzK (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Psychologiczne wspomaganie zarządzania kadrami\nRodzaj: ćwic
+ zenia\nProwadzący: mgr Gurmińska Katarzyna\nNr zajęć: 4/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e037e63f3d5f575f121f8343@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270124T114000
+DTEND;TZID=Europe/Warsaw:20270124T131500
+SUMMARY:PG (ć)
+LOCATION:2.22/ 135
+DESCRIPTION:Prawo gospodarcze\nRodzaj: ćwiczenia\nProwadzący: dr Szewczy
+ k-Rokicki Rafał\nNr zajęć: 1/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:17030c5d970cd000b18a1616@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270124T133000
+DTEND;TZID=Europe/Warsaw:20270124T150500
+SUMMARY:PG (ć)
+LOCATION:2.22/ 135
+DESCRIPTION:Prawo gospodarcze\nRodzaj: ćwiczenia\nProwadzący: dr Szewczy
+ k-Rokicki Rafał\nNr zajęć: 2/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:fa943708a4abd55e07913767@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270130T080000
+DTEND;TZID=Europe/Warsaw:20270130T093500
+SUMMARY:PG (w)
+LOCATION:0.6/ 16
+DESCRIPTION:Prawo gospodarcze\nRodzaj: wykład\nProwadzący: dr Szewczyk-R
+ okicki Rafał\nNr zajęć: 5/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7dc3ee43ad8f79b507ea87cf@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270130T095000
+DTEND;TZID=Europe/Warsaw:20270130T112500
+SUMMARY:PG (ć)
+LOCATION:1.15/ 16
+DESCRIPTION:Prawo gospodarcze\nRodzaj: ćwiczenia\nProwadzący: dr Szewczy
+ k-Rokicki Rafał\nNr zajęć: 3/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:aea5951ce47ec18b38772dc3@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270130T114000
+DTEND;TZID=Europe/Warsaw:20270130T131500
+SUMMARY:PG (ć)
+LOCATION:1.15/ 16
+DESCRIPTION:Prawo gospodarcze\nRodzaj: ćwiczenia\nProwadzący: dr Szewczy
+ k-Rokicki Rafał\nNr zajęć: 4/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:bf85258229fc432a5c539b8a@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270130T133000
+DTEND;TZID=Europe/Warsaw:20270130T150500
+SUMMARY:Kzl (P)
+LOCATION:1003 HILTON
+DESCRIPTION:Kierowanie zespołami ludzkimi\nRodzaj: projekt\nProwadzący: 
+ dr Piotrkowski Kazimierz\nNr zajęć: 4/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7541531ad9513b7b666e2187@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270130T152000
+DTEND;TZID=Europe/Warsaw:20270130T165500
+SUMMARY:Kzl (P)
+LOCATION:1003 HILTON
+DESCRIPTION:Kierowanie zespołami ludzkimi\nRodzaj: projekt\nProwadzący: 
+ dr Piotrkowski Kazimierz\nNr zajęć: 5/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:ff8e23adaaf973f3405fa462@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270206T114000
+DTEND;TZID=Europe/Warsaw:20270206T131500
+SUMMARY:Kzl (E)
+LOCATION:255 S
+DESCRIPTION:Kierowanie zespołami ludzkimi\nRodzaj: egzamin\nProwadzący: 
+ dr Piotrkowski Kazimierz\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:62c2783c69416b04c99c41b2@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270206T133000
+DTEND;TZID=Europe/Warsaw:20270206T150500
+SUMMARY:KwZ (E)
+LOCATION:255 S
+DESCRIPTION:Komunikacja w zarządzaniu\nRodzaj: egzamin\nProwadzący: dr M
+ iszczak Marta\nNr zajęć: 1/1\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c944242fe500607364fc28fd@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270207T114000
+DTEND;TZID=Europe/Warsaw:20270207T131500
+SUMMARY:ZKo (E)
+LOCATION:187 S
+DESCRIPTION:Zarządzanie kompetencjami w organizacji\nRodzaj: egzamin\nPro
+ wadzący: dr inż. Wojciechowski Zdzisław\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1f55f584f8db214f857704fe@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270220T114000
+DTEND;TZID=Europe/Warsaw:20270220T131500
+SUMMARY:Kzl (Ep)
+LOCATION:1.27/ 135
+DESCRIPTION:Kierowanie zespołami ludzkimi\nRodzaj: egzamin poprawkowy\nPr
+ owadzący: dr Piotrkowski Kazimierz\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e43e91e4a264d490ffee4e1c@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270220T133000
+DTEND;TZID=Europe/Warsaw:20270220T150500
+SUMMARY:KwZ (Ep)
+LOCATION:0.19/ 135
+DESCRIPTION:Komunikacja w zarządzaniu\nRodzaj: egzamin poprawkowy\nProwad
+ zący: dr Miszczak Marta\nNr zajęć: 1/1\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d6c5fb29a8c6ff30e4e0ebbc@wat-plan
+DTSTAMP:20261126T134028Z
+DTSTART;TZID=Europe/Warsaw:20270221T114000
+DTEND;TZID=Europe/Warsaw:20270221T131500
+SUMMARY:ZKo (Ep)
+LOCATION:187 S
+DESCRIPTION:Zarządzanie kompetencjami w organizacji\nRodzaj: egzamin popr
+ awkowy\nProwadzący: dr inż. Wojciechowski Zdzisław\nNr zajęć: 1/1\nB
+ lok: 3
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,622 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WMT23ST1S1
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:4752fe7c972e95eb409f69d6@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261001T080000
+DTEND;TZID=Europe/Warsaw:20261001T093500
+SUMMARY:Sd. (S)
+LOCATION:43 67
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: ppłk d
+ r inż. Jasztal Michał\nNr zajęć: 1/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0468fc1012d099b936a3e7a9@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261001T095000
+DTEND;TZID=Europe/Warsaw:20261001T112500
+SUMMARY:Sd. (S)
+LOCATION:43 67
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: ppłk d
+ r inż. Jasztal Michał\nNr zajęć: 2/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:532c0ce1fe086218ae0827e2@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261012T114000
+DTEND;TZID=Europe/Warsaw:20261012T131500
+SUMMARY:Sd. (S)
+LOCATION:43 67
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr hab.
+  inż. Dragan Krzysztof\nNr zajęć: 3/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c1fdae8fa8e5de61246a8144@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261012T133000
+DTEND;TZID=Europe/Warsaw:20261012T150500
+SUMMARY:Setse (ć)
+LOCATION:43 67
+DESCRIPTION:Specjalized english terminology for safety engineering\nRodzaj
+ : ćwiczenia\nProwadzący: dr hab. inż. Dragan Krzysztof\nNr zajęć: 1/
+ 15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ba61826e77e190339e927a56@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261013T080000
+DTEND;TZID=Europe/Warsaw:20261013T093500
+SUMMARY:Posr (w)
+LOCATION:24 67
+DESCRIPTION:Podstawy systemów ratownictwa\nRodzaj: wykład\nProwadzący: 
+ dr inż. Jaskółowski Waldemar\nNr zajęć: 1/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e1f7cee27c5e700ce502cf58@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261013T114000
+DTEND;TZID=Europe/Warsaw:20261013T131500
+SUMMARY:Setse (ć)
+LOCATION:43 67
+DESCRIPTION:Specjalized english terminology for safety engineering\nRodzaj
+ : ćwiczenia\nProwadzący: dr hab. inż. Dragan Krzysztof\nNr zajęć: 2/
+ 15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:03b40a3db70fcfecd38e2039@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261013T133000
+DTEND;TZID=Europe/Warsaw:20261013T150500
+SUMMARY:Setse (ć)
+LOCATION:43 67
+DESCRIPTION:Specjalized english terminology for safety engineering\nRodzaj
+ : ćwiczenia\nProwadzący: dr hab. inż. Dragan Krzysztof\nNr zajęć: 3/
+ 15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:573c81a450eed7d63aebc962@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261015T080000
+DTEND;TZID=Europe/Warsaw:20261015T093500
+SUMMARY:Setse (ć)
+LOCATION:43 67
+DESCRIPTION:Specjalized english terminology for safety engineering\nRodzaj
+ : ćwiczenia\nProwadzący: dr hab. inż. Dragan Krzysztof\nNr zajęć: 4/
+ 15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:633cdf523f1c95014a220c39@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261015T095000
+DTEND;TZID=Europe/Warsaw:20261015T112500
+SUMMARY:Pbu (w)
+LOCATION:24 67
+DESCRIPTION:Podstawy budownictwa\nRodzaj: wykład\nProwadzący: dr inż. B
+ rzuzy Aneta\nNr zajęć: 1/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d9a22d71e9a9a4e102c3c006@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261016T114000
+DTEND;TZID=Europe/Warsaw:20261016T131500
+SUMMARY:Pbu (w)
+LOCATION:9 67
+DESCRIPTION:Podstawy budownictwa\nRodzaj: wykład\nProwadzący: dr inż. B
+ rzuzy Aneta\nNr zajęć: 2/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2cb3cdb55f8be6bf0e6044be@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261016T133000
+DTEND;TZID=Europe/Warsaw:20261016T150500
+SUMMARY:Pbu (ć)
+LOCATION:43 67
+DESCRIPTION:Podstawy budownictwa\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Brzuzy Aneta\nNr zajęć: 1/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:59069c8906de1783ab23ca0c@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261021T080000
+DTEND;TZID=Europe/Warsaw:20261021T093500
+SUMMARY:Posr (w)
+LOCATION:24 67
+DESCRIPTION:Podstawy systemów ratownictwa\nRodzaj: wykład\nProwadzący: 
+ dr inż. Jaskółowski Waldemar\nNr zajęć: 2/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e198efdac9619f8b04c7584d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261021T114000
+DTEND;TZID=Europe/Warsaw:20261021T131500
+SUMMARY:Pbu (ć)
+LOCATION:43 67
+DESCRIPTION:Podstawy budownictwa\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Brzuzy Aneta\nNr zajęć: 2/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c47777c061971adff354f8b8@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261023T080000
+DTEND;TZID=Europe/Warsaw:20261023T093500
+SUMMARY:Posr (ć)
+LOCATION:43 67
+DESCRIPTION:Podstawy systemów ratownictwa\nRodzaj: ćwiczenia\nProwadząc
+ y: dr inż. Jaskółowski Waldemar\nNr zajęć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:87767fbccac255f42e84973b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261023T114000
+DTEND;TZID=Europe/Warsaw:20261023T131500
+SUMMARY:Pbu (ć)
+LOCATION:43 67
+DESCRIPTION:Podstawy budownictwa\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Brzuzy Aneta\nNr zajęć: 3/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6846a5ecc1a4aee7e2e029f4@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261023T133000
+DTEND;TZID=Europe/Warsaw:20261023T150500
+SUMMARY:Pbu (w)
+LOCATION:9 67
+DESCRIPTION:Podstawy budownictwa\nRodzaj: wykład\nProwadzący: dr inż. B
+ rzuzy Aneta\nNr zajęć: 3/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1531c50e81191ce4ed99cf3a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261028T080000
+DTEND;TZID=Europe/Warsaw:20261028T093500
+SUMMARY:Posr (w)
+LOCATION:24 67
+DESCRIPTION:Podstawy systemów ratownictwa\nRodzaj: wykład\nProwadzący: 
+ dr inż. Jaskółowski Waldemar\nNr zajęć: 3/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2c73051f9cdd8d962a92e6f0@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261103T114000
+DTEND;TZID=Europe/Warsaw:20261103T131500
+SUMMARY:Sd. (S)
+LOCATION:43 67
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr hab.
+  inż. Dragan Krzysztof\nNr zajęć: 4/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:fa8f71c61c67e8dde9ec3643@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261104T095000
+DTEND;TZID=Europe/Warsaw:20261104T112500
+SUMMARY:Sd. (S)
+LOCATION:43 67
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: ppłk d
+ r inż. Jasztal Michał\nNr zajęć: 5/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c18aee518f1c7e8a78371b5d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261104T114000
+DTEND;TZID=Europe/Warsaw:20261104T131500
+SUMMARY:Pbu (w)
+LOCATION:15 63
+DESCRIPTION:Podstawy budownictwa\nRodzaj: wykład\nProwadzący: dr inż. B
+ rzuzy Aneta\nNr zajęć: 4/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:264c8aa432ff8e5b2708c14a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261104T133000
+DTEND;TZID=Europe/Warsaw:20261104T150500
+SUMMARY:Posr (w)
+LOCATION:34 67
+DESCRIPTION:Podstawy systemów ratownictwa\nRodzaj: wykład\nProwadzący: 
+ dr inż. Jaskółowski Waldemar\nNr zajęć: 4/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e2b05224868654f203d0700a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261105T080000
+DTEND;TZID=Europe/Warsaw:20261105T093500
+SUMMARY:Posr (w)
+LOCATION:24 67
+DESCRIPTION:Podstawy systemów ratownictwa\nRodzaj: wykład\nProwadzący: 
+ dr inż. Jaskółowski Waldemar\nNr zajęć: 5/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:64c253d0eb12da49abb1e5ac@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261105T095000
+DTEND;TZID=Europe/Warsaw:20261105T112500
+SUMMARY:Posr (ć)
+LOCATION:43 67
+DESCRIPTION:Podstawy systemów ratownictwa\nRodzaj: ćwiczenia\nProwadząc
+ y: dr inż. Jaskółowski Waldemar\nNr zajęć: 2/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a897a03dceab1e764a8eecf6@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261110T114000
+DTEND;TZID=Europe/Warsaw:20261110T131500
+SUMMARY:Sd. (S)
+LOCATION:43 67
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr hab.
+  inż. Dragan Krzysztof\nNr zajęć: 6/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:fd56946299b345b62317316c@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261110T133000
+DTEND;TZID=Europe/Warsaw:20261110T150500
+SUMMARY:Sd. (S)
+LOCATION:43 67
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr hab.
+  inż. Dragan Krzysztof\nNr zajęć: 7/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:11dc13ca30771cc1bd85be05@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261117T114000
+DTEND;TZID=Europe/Warsaw:20261117T131500
+SUMMARY:Sd. (S)
+LOCATION:43 67
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr hab.
+  inż. Dragan Krzysztof\nNr zajęć: 8/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:bd3ddb6e9afd696c5e82acb7@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261117T133000
+DTEND;TZID=Europe/Warsaw:20261117T150500
+SUMMARY:Sd. (S)
+LOCATION:43 67
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr hab.
+  inż. Dragan Krzysztof\nNr zajęć: 9/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0614c710d43c65b16835c2ee@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261117T160000
+DTEND;TZID=Europe/Warsaw:20261117T173500
+SUMMARY:Setse (ć)
+LOCATION:43 67
+DESCRIPTION:Specjalized english terminology for safety engineering\nRodzaj
+ : ćwiczenia\nProwadzący: dr hab. inż. Dragan Krzysztof\nNr zajęć: 5/
+ 15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:31fc40f61095883395b1f2f7@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261118T080000
+DTEND;TZID=Europe/Warsaw:20261118T093500
+SUMMARY:Pbu (w)
+LOCATION:33 67
+DESCRIPTION:Podstawy budownictwa\nRodzaj: wykład\nProwadzący: dr inż. B
+ rzuzy Aneta\nNr zajęć: 5/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d99c41f4146db3c6ac466b17@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261118T095000
+DTEND;TZID=Europe/Warsaw:20261118T112500
+SUMMARY:Pbu (ć)
+LOCATION:43 67
+DESCRIPTION:Podstawy budownictwa\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Brzuzy Aneta\nNr zajęć: 4/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a225bd4095e359b473ec82f3@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261119T080000
+DTEND;TZID=Europe/Warsaw:20261119T093500
+SUMMARY:Posr (w)
+LOCATION:43 67
+DESCRIPTION:Podstawy systemów ratownictwa\nRodzaj: wykład\nProwadzący: 
+ dr inż. Jaskółowski Waldemar\nNr zajęć: 6/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8762b792c4e2f0b5a1a57687@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261119T095000
+DTEND;TZID=Europe/Warsaw:20261119T112500
+SUMMARY:Pbu (ć)
+LOCATION:43 67
+DESCRIPTION:Podstawy budownictwa\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Brzuzy Aneta\nNr zajęć: 5/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:de0a44e6dd6e8256600d5a1d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261124T114000
+DTEND;TZID=Europe/Warsaw:20261124T131500
+SUMMARY:Sd. (S)
+LOCATION:43 67
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr hab.
+  inż. Dragan Krzysztof\nNr zajęć: 10/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:389f68fa9c4d97eb13b36767@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261124T133000
+DTEND;TZID=Europe/Warsaw:20261124T150500
+SUMMARY:Sd. (S)
+LOCATION:43 67
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr hab.
+  inż. Dragan Krzysztof\nNr zajęć: 11/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f533470d509c7764396c18e1@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261124T160000
+DTEND;TZID=Europe/Warsaw:20261124T173500
+SUMMARY:Setse (ć)
+LOCATION:43 67
+DESCRIPTION:Specjalized english terminology for safety engineering\nRodzaj
+ : ćwiczenia\nProwadzący: dr hab. inż. Dragan Krzysztof\nNr zajęć: 6/
+ 15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:6640a4f46056d6f21b1a8747@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261125T080000
+DTEND;TZID=Europe/Warsaw:20261125T093500
+SUMMARY:Sd. (S)
+LOCATION:43 67
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr hab.
+  inż. Dragan Krzysztof\nNr zajęć: 12/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d847046965aa896694fb325e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261125T095000
+DTEND;TZID=Europe/Warsaw:20261125T112500
+SUMMARY:Sd. (S)
+LOCATION:43 67
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr hab.
+  inż. Dragan Krzysztof\nNr zajęć: 13/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4f0c6f258aff45243f1df41b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261126T080000
+DTEND;TZID=Europe/Warsaw:20261126T093500
+SUMMARY:Posr (w)
+LOCATION:43 67
+DESCRIPTION:Podstawy systemów ratownictwa\nRodzaj: wykład\nProwadzący: 
+ dr inż. Jaskółowski Waldemar\nNr zajęć: 7/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6e49d7bdae71686fbd76f688@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261126T095000
+DTEND;TZID=Europe/Warsaw:20261126T112500
+SUMMARY:Posr (L)
+LOCATION:43 67
+DESCRIPTION:Podstawy systemów ratownictwa\nRodzaj: laboratorium\nProwadz
+ ący: dr inż. Jaskółowski Waldemar\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ae037abb3f8dc5c7e59e1879@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261201T095000
+DTEND;TZID=Europe/Warsaw:20261201T112500
+SUMMARY:Setse (ć)
+LOCATION:24 67
+DESCRIPTION:Specjalized english terminology for safety engineering\nRodzaj
+ : ćwiczenia\nProwadzący: dr hab. inż. Dragan Krzysztof\nNr zajęć: 7/
+ 15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:704acc7635b91d1b88732396@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261202T095000
+DTEND;TZID=Europe/Warsaw:20261202T112500
+SUMMARY:Posr (ć)
+LOCATION:43 67
+DESCRIPTION:Podstawy systemów ratownictwa\nRodzaj: ćwiczenia\nProwadząc
+ y: dr inż. Jaskółowski Waldemar\nNr zajęć: 3/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2e3f876ae5e68357112d7f10@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261203T080000
+DTEND;TZID=Europe/Warsaw:20261203T093500
+SUMMARY:Posr (w)
+LOCATION:24 67
+DESCRIPTION:Podstawy systemów ratownictwa\nRodzaj: wykład\nProwadzący: 
+ dr inż. Jaskółowski Waldemar\nNr zajęć: 8/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:41e15e5aaa6dd78104f6c47e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261203T133000
+DTEND;TZID=Europe/Warsaw:20261203T150500
+SUMMARY:Setse (ć)
+LOCATION:3 67
+DESCRIPTION:Specjalized english terminology for safety engineering\nRodzaj
+ : ćwiczenia\nProwadzący: dr hab. inż. Dragan Krzysztof\nNr zajęć: 8/
+ 15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6486954cffdd701f840bf6e5@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261203T160000
+DTEND;TZID=Europe/Warsaw:20261203T173500
+SUMMARY:Setse (ć)
+LOCATION:43 67
+DESCRIPTION:Specjalized english terminology for safety engineering\nRodzaj
+ : ćwiczenia\nProwadzący: dr hab. inż. Dragan Krzysztof\nNr zajęć: 9/
+ 15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:a5c1178196ddf65c98a89b41@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261209T080000
+DTEND;TZID=Europe/Warsaw:20261209T093500
+SUMMARY:Pbu (w)
+LOCATION:33 67
+DESCRIPTION:Podstawy budownictwa\nRodzaj: wykład\nProwadzący: dr inż. B
+ rzuzy Aneta\nNr zajęć: 6/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7fcfb92bd6b84cc2d09991ff@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261209T095000
+DTEND;TZID=Europe/Warsaw:20261209T112500
+SUMMARY:Pbu (ć)
+LOCATION:43 67
+DESCRIPTION:Podstawy budownictwa\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Brzuzy Aneta\nNr zajęć: 6/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6f3a991ae9aeb5f55ef74cdc@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261209T114000
+DTEND;TZID=Europe/Warsaw:20261209T131500
+SUMMARY:Posr (ć)
+LOCATION:43 67
+DESCRIPTION:Podstawy systemów ratownictwa\nRodzaj: ćwiczenia\nProwadząc
+ y: dr inż. Jaskółowski Waldemar\nNr zajęć: 4/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8ba93c11096b8189373e4b7f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261210T133000
+DTEND;TZID=Europe/Warsaw:20261210T150500
+SUMMARY:Setse (ć)
+LOCATION:43 67
+DESCRIPTION:Specjalized english terminology for safety engineering\nRodzaj
+ : ćwiczenia\nProwadzący: dr hab. inż. Dragan Krzysztof\nNr zajęć: 10
+ /15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:15e1241dd8b02cc1bcf0e397@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261216T080000
+DTEND;TZID=Europe/Warsaw:20261216T093500
+SUMMARY:Pbu (w)
+LOCATION:33 67
+DESCRIPTION:Podstawy budownictwa\nRodzaj: wykład\nProwadzący: dr inż. B
+ rzuzy Aneta\nNr zajęć: 7/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ae6f666302ccaa9ae9811f31@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261216T095000
+DTEND;TZID=Europe/Warsaw:20261216T112500
+SUMMARY:Pbu (ć)
+LOCATION:43 67
+DESCRIPTION:Podstawy budownictwa\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Brzuzy Aneta\nNr zajęć: 7/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2b65e4384a4c39fda12f6f7e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261217T080000
+DTEND;TZID=Europe/Warsaw:20261217T093500
+SUMMARY:Pbu (w)
+LOCATION:24 67
+DESCRIPTION:Podstawy budownictwa\nRodzaj: wykład\nProwadzący: dr inż. B
+ rzuzy Aneta\nNr zajęć: 8/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:da037cd0d732e904ea9d02e0@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261223T080000
+DTEND;TZID=Europe/Warsaw:20261223T093500
+SUMMARY:Sd. (S)
+LOCATION:43 67
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: ppłk d
+ r inż. Jasztal Michał\nNr zajęć: 14/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:10b3d38ba53ff894c3df996d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261223T095000
+DTEND;TZID=Europe/Warsaw:20261223T112500
+SUMMARY:Sd. (S)
+LOCATION:43 67
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: ppłk d
+ r inż. Jasztal Michał\nNr zajęć: 15/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a40b57974e0e65c18a7acde0@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261223T114000
+DTEND;TZID=Europe/Warsaw:20261223T131500
+SUMMARY:Setse (ć)
+LOCATION:43 67
+DESCRIPTION:Specjalized english terminology for safety engineering\nRodzaj
+ : ćwiczenia\nProwadzący: dr hab. inż. Dragan Krzysztof\nNr zajęć: 11
+ /15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d0a3fb3ad6b418e046d9606a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270107T133000
+DTEND;TZID=Europe/Warsaw:20270107T150500
+SUMMARY:Setse (ć)
+LOCATION:43 67
+DESCRIPTION:Specjalized english terminology for safety engineering\nRodzaj
+ : ćwiczenia\nProwadzący: dr hab. inż. Dragan Krzysztof\nNr zajęć: 12
+ /15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:fe7033a1255a2ee727bb71d4@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270112T133000
+DTEND;TZID=Europe/Warsaw:20270112T150500
+SUMMARY:Setse (ć)
+LOCATION:9 67
+DESCRIPTION:Specjalized english terminology for safety engineering\nRodzaj
+ : ćwiczenia\nProwadzący: dr hab. inż. Dragan Krzysztof\nNr zajęć: 13
+ /15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c896c1e3b663bbd8c2d805ef@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270113T160000
+DTEND;TZID=Europe/Warsaw:20270113T173500
+SUMMARY:Setse (ć)
+LOCATION:43 67
+DESCRIPTION:Specjalized english terminology for safety engineering\nRodzaj
+ : ćwiczenia\nProwadzący: dr hab. inż. Dragan Krzysztof\nNr zajęć: 14
+ /15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:93056675d4f401b1b7ef19b2@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270114T133000
+DTEND;TZID=Europe/Warsaw:20270114T150500
+SUMMARY:Setse (ć)
+LOCATION:43 67
+DESCRIPTION:Specjalized english terminology for safety engineering\nRodzaj
+ : ćwiczenia\nProwadzący: dr hab. inż. Dragan Krzysztof\nNr zajęć: 15
+ /15\nBlok: 4
+END:VEVENT
+END:VCALENDAR

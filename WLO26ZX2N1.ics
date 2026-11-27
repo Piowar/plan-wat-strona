@@ -1,0 +1,1136 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WLO26ZX2N1
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:236acc0ea4210b658704ba8b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261003T080000
+DTEND;TZID=Europe/Warsaw:20261003T093500
+SUMMARY:SIn (i)
+LOCATION:aula/ 135\; I st.: Administracja publiczna\, Bezpieczeństwo naro
+ dowe\, Obronność państwa\, Zarządzanie\, Logistyka
+DESCRIPTION:Spotkanie informacyjne\nRodzaj: inne\nNr zajęć: 1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7ed82d48a7af2e6e54c8382a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261003T095000
+DTEND;TZID=Europe/Warsaw:20261003T112500
+SUMMARY:Pi (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Podstawy informatyki\nRodzaj: wykład\nProwadzący: dr inż. S
+ taruch Marcin\nNr zajęć: 1/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:14f705106bab13e46680ab12@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261003T114000
+DTEND;TZID=Europe/Warsaw:20261003T131500
+SUMMARY:M1 (w)
+LOCATION:307 S
+DESCRIPTION:Matematyka 1\nRodzaj: wykład\nProwadzący: dr inż. Falkiewic
+ z Ewa\nNr zajęć: 1/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:968ef8ee483212f464c170d9@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261003T133000
+DTEND;TZID=Europe/Warsaw:20261003T150500
+SUMMARY:M1 (w)
+LOCATION:307 S
+DESCRIPTION:Matematyka 1\nRodzaj: wykład\nProwadzący: dr inż. Falkiewic
+ z Ewa\nNr zajęć: 2/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:21e4254301f1af5873f37e4f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261003T152000
+DTEND;TZID=Europe/Warsaw:20261003T165500
+SUMMARY:P. (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Prawo\nRodzaj: wykład\nProwadzący: dr Kobielski Piotr\nNr za
+ jęć: 1/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:17f1e64df924acadcbf19fb6@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261003T171000
+DTEND;TZID=Europe/Warsaw:20261003T184500
+SUMMARY:P. (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Prawo\nRodzaj: wykład\nProwadzący: dr Kobielski Piotr\nNr za
+ jęć: 2/6\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:cde15ed9120608e6e9e72428@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261004T080000
+DTEND;TZID=Europe/Warsaw:20261004T093500
+SUMMARY:Pmr (w)
+LOCATION:1.9/ 16
+DESCRIPTION:Podstawy marketingu\nRodzaj: wykład\nProwadzący: dr Pawlak K
+ atarzyna\nNr zajęć: 1/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7e2f13a6bfc166964f50f9d4@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261004T095000
+DTEND;TZID=Europe/Warsaw:20261004T112500
+SUMMARY:Pmr (w)
+LOCATION:1.9/ 16
+DESCRIPTION:Podstawy marketingu\nRodzaj: wykład\nProwadzący: dr Pawlak K
+ atarzyna\nNr zajęć: 2/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:54a7bf3adaf1233a155938ab@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261004T114000
+DTEND;TZID=Europe/Warsaw:20261004T131500
+SUMMARY:Pz (w)
+LOCATION:3.16/ 135
+DESCRIPTION:Podstawy zarządzania\nRodzaj: wykład\nProwadzący: dr (prof.
+  WAT) Gonciarski Wiesław\nNr zajęć: 1/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:67e67cd441dd2894ba54f63a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261004T133000
+DTEND;TZID=Europe/Warsaw:20261004T150500
+SUMMARY:Pz (w)
+LOCATION:aula/ 135
+DESCRIPTION:Podstawy zarządzania\nRodzaj: wykład\nProwadzący: dr (prof.
+  WAT) Gonciarski Wiesław\nNr zajęć: 2/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:26fc372c10253326c083fe05@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261004T152000
+DTEND;TZID=Europe/Warsaw:20261004T165500
+SUMMARY:Ja (ć)
+LOCATION:133 K\;134 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: mgr Kurzela
+  Anna\nNr zajęć: 1/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:030a543a8c7417ccf8f8dfba@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261010T080000
+DTEND;TZID=Europe/Warsaw:20261010T093500
+SUMMARY:Mi (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Mikroekonomia\nRodzaj: wykład\nProwadzący: dr hab. Siedlecka
+  Agnieszka\nNr zajęć: 1/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2b97d7978cf566d7181477bc@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261010T095000
+DTEND;TZID=Europe/Warsaw:20261010T112500
+SUMMARY:Pz (ć)
+LOCATION:0.22/ 16
+DESCRIPTION:Podstawy zarządzania\nRodzaj: ćwiczenia\nProwadzący: dr Wo
+ źniak Jacek\nNr zajęć: 1/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:212acec48fbca54cccf21a34@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261010T114000
+DTEND;TZID=Europe/Warsaw:20261010T131500
+SUMMARY:Pz (ć)
+LOCATION:0.22/ 16
+DESCRIPTION:Podstawy zarządzania\nRodzaj: ćwiczenia\nProwadzący: dr Wo
+ źniak Jacek\nNr zajęć: 2/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:53eb1c19bf6c240746a9e8bc@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261010T133000
+DTEND;TZID=Europe/Warsaw:20261010T150500
+SUMMARY:Oin (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Ochrona własności intelektualnej\nRodzaj: wykład\nProwadzą
+ cy: dr hab. inż. Rybiński Janusz\nNr zajęć: 1/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f0bd2a4541e7e76e9ae4cd8c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261010T152000
+DTEND;TZID=Europe/Warsaw:20261010T165500
+SUMMARY:Pz (w)
+LOCATION:1.9/ 16
+DESCRIPTION:Podstawy zarządzania\nRodzaj: wykład\nProwadzący: dr (prof.
+  WAT) Gonciarski Wiesław\nNr zajęć: 3/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:7dc976c3429d19203c55583b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261011T095000
+DTEND;TZID=Europe/Warsaw:20261011T112500
+SUMMARY:Ja (ć)
+LOCATION:133 K\;134 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: mgr Kurzela
+  Anna\nNr zajęć: 2/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d7798f48d389eeb87a0eabb9@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261011T114000
+DTEND;TZID=Europe/Warsaw:20261011T131500
+SUMMARY:Pi (w)
+LOCATION:1.10/ 16
+DESCRIPTION:Podstawy informatyki\nRodzaj: wykład\nProwadzący: dr inż. S
+ taruch Marcin\nNr zajęć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c44f53e335e39669dcb25782@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261011T133000
+DTEND;TZID=Europe/Warsaw:20261011T150500
+SUMMARY:Pi (w)
+LOCATION:1.10/ 16
+DESCRIPTION:Podstawy informatyki\nRodzaj: wykład\nProwadzący: dr inż. S
+ taruch Marcin\nNr zajęć: 3/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d7f349d9a041e5fc2106ee4c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261024T080000
+DTEND;TZID=Europe/Warsaw:20261024T093500
+SUMMARY:WdS (w)
+LOCATION:aula/ 135
+DESCRIPTION:Wprowadzenie do studiowania\nRodzaj: wykład\nProwadzący: dr 
+ Łakoma Ewa\nNr zajęć: 1/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:57868d4af418545efc2ea128@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261024T095000
+DTEND;TZID=Europe/Warsaw:20261024T112500
+SUMMARY:WdS (w)
+LOCATION:aula/ 135
+DESCRIPTION:Wprowadzenie do studiowania\nRodzaj: wykład\nProwadzący: dr 
+ Łakoma Ewa\nNr zajęć: 2/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6bde7094408c7069166929d6@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261024T114000
+DTEND;TZID=Europe/Warsaw:20261024T131500
+SUMMARY:WdS (w)
+LOCATION:aula/ 135
+DESCRIPTION:Wprowadzenie do studiowania\nRodzaj: wykład\nProwadzący: dr 
+ Łakoma Ewa\nNr zajęć: 3/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4eab7c718bb1d34226c7d8da@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261024T133000
+DTEND;TZID=Europe/Warsaw:20261024T150500
+SUMMARY:Pi (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Podstawy informatyki\nRodzaj: wykład\nProwadzący: dr inż. S
+ taruch Marcin\nNr zajęć: 4/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:175f9f2464202ccdc680a614@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261024T152000
+DTEND;TZID=Europe/Warsaw:20261024T165500
+SUMMARY:Oin (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Ochrona własności intelektualnej\nRodzaj: wykład\nProwadzą
+ cy: dr hab. inż. Rybiński Janusz\nNr zajęć: 2/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:d2150f3a4dd9b5030e19a601@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261024T171000
+DTEND;TZID=Europe/Warsaw:20261024T184500
+SUMMARY:Oin (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Ochrona własności intelektualnej\nRodzaj: wykład\nProwadzą
+ cy: dr hab. inż. Rybiński Janusz\nNr zajęć: 3/5\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:3cdec96e46c4e43c69f92c46@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261025T095000
+DTEND;TZID=Europe/Warsaw:20261025T112500
+SUMMARY:Ja (ć)
+LOCATION:133 K\;134 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: mgr Kurzela
+  Anna\nNr zajęć: 3/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9559362265163779f3567b40@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261107T080000
+DTEND;TZID=Europe/Warsaw:20261107T093500
+SUMMARY:Pmr (w)
+LOCATION:1.9/ 16
+DESCRIPTION:Podstawy marketingu\nRodzaj: wykład\nProwadzący: dr Pawlak K
+ atarzyna\nNr zajęć: 3/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a4c444f02a31c9918a25981c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261107T095000
+DTEND;TZID=Europe/Warsaw:20261107T112500
+SUMMARY:Pmr (ć)
+LOCATION:0.8/ 16
+DESCRIPTION:Podstawy marketingu\nRodzaj: ćwiczenia\nProwadzący: dr Pawla
+ k Katarzyna\nNr zajęć: 1/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e6c17547d87e80cacef340f7@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261107T114000
+DTEND;TZID=Europe/Warsaw:20261107T131500
+SUMMARY:Pmr (ć)
+LOCATION:1.15/ 16
+DESCRIPTION:Podstawy marketingu\nRodzaj: ćwiczenia\nProwadzący: dr Pawla
+ k Katarzyna\nNr zajęć: 2/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9938d52bc4380f36795d1033@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261107T133000
+DTEND;TZID=Europe/Warsaw:20261107T150500
+SUMMARY:M1 (w)
+LOCATION:307 S
+DESCRIPTION:Matematyka 1\nRodzaj: wykład\nProwadzący: dr inż. Falkiewic
+ z Ewa\nNr zajęć: 3/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8590d4a010235a510b3386ed@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261108T080000
+DTEND;TZID=Europe/Warsaw:20261108T093500
+SUMMARY:Ja (ć)
+LOCATION:133 K\;134 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: mgr Kurzela
+  Anna\nNr zajęć: 4/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:98e808902025ccd661482560@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261108T095000
+DTEND;TZID=Europe/Warsaw:20261108T112500
+SUMMARY:Ja (ć)
+LOCATION:133 K\;134 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: mgr Kurzela
+  Anna\nNr zajęć: 5/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1cb8a92020ab1e62fa4b613d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261114T080000
+DTEND;TZID=Europe/Warsaw:20261114T093500
+SUMMARY:M1 (ć)
+LOCATION:223 S
+DESCRIPTION:Matematyka 1\nRodzaj: ćwiczenia\nProwadzący: dr inż. Falkie
+ wicz Ewa\nNr zajęć: 1/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:fec96cef7670a646d80a1728@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261114T095000
+DTEND;TZID=Europe/Warsaw:20261114T112500
+SUMMARY:M1 (ć)
+LOCATION:223 S
+DESCRIPTION:Matematyka 1\nRodzaj: ćwiczenia\nProwadzący: dr inż. Falkie
+ wicz Ewa\nNr zajęć: 2/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5599fd5604d836a17739faac@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261114T114000
+DTEND;TZID=Europe/Warsaw:20261114T131500
+SUMMARY:M1 (w)
+LOCATION:316 S
+DESCRIPTION:Matematyka 1\nRodzaj: wykład\nProwadzący: dr inż. Falkiewic
+ z Ewa\nNr zajęć: 4/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3cb75c96b3ce4748176bd9ed@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261114T133000
+DTEND;TZID=Europe/Warsaw:20261114T150500
+SUMMARY:Oin (w)
+LOCATION:3.16/ 135
+DESCRIPTION:Ochrona własności intelektualnej\nRodzaj: wykład\nProwadzą
+ cy: dr hab. inż. Rybiński Janusz\nNr zajęć: 4/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3f7645c0779413f31988edc6@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261115T080000
+DTEND;TZID=Europe/Warsaw:20261115T093500
+SUMMARY:Pmr (w)
+LOCATION:3.16/ 135
+DESCRIPTION:Podstawy marketingu\nRodzaj: wykład\nProwadzący: dr Pawlak K
+ atarzyna\nNr zajęć: 4/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8e7de8793e2f3f4c61a1c158@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261115T095000
+DTEND;TZID=Europe/Warsaw:20261115T112500
+SUMMARY:Ja (ć)
+LOCATION:133 K\;134 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: mgr Kurzela
+  Anna\nNr zajęć: 6/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:59f4761ef51c999de145e57f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261115T114000
+DTEND;TZID=Europe/Warsaw:20261115T131500
+SUMMARY:Pmr (ć)
+LOCATION:0.8/ 16
+DESCRIPTION:Podstawy marketingu\nRodzaj: ćwiczenia\nProwadzący: dr Pawla
+ k Katarzyna\nNr zajęć: 3/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:473d6c5bd708217da424aa28@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261115T133000
+DTEND;TZID=Europe/Warsaw:20261115T150500
+SUMMARY:Pmr (ć)
+LOCATION:0.8/ 16
+DESCRIPTION:Podstawy marketingu\nRodzaj: ćwiczenia\nProwadzący: dr Pawla
+ k Katarzyna\nNr zajęć: 4/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:224ac95e05182d5efc7d99e2@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261121T080000
+DTEND;TZID=Europe/Warsaw:20261121T093500
+SUMMARY:Oin (w)
+LOCATION:166 S
+DESCRIPTION:Ochrona własności intelektualnej\nRodzaj: wykład\nProwadzą
+ cy: dr hab. inż. Rybiński Janusz\nNr zajęć: 5/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7ebc51caa219f83f105428c9@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261121T095000
+DTEND;TZID=Europe/Warsaw:20261121T112500
+SUMMARY:Pz (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Podstawy zarządzania\nRodzaj: wykład\nProwadzący: dr (prof.
+  WAT) Gonciarski Wiesław\nNr zajęć: 4/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:65ff6030b04906032a19ef1f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261121T114000
+DTEND;TZID=Europe/Warsaw:20261121T131500
+SUMMARY:P. (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Prawo\nRodzaj: wykład\nProwadzący: dr Kobielski Piotr\nNr za
+ jęć: 3/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6909cb9dd95922f9747fc983@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261121T133000
+DTEND;TZID=Europe/Warsaw:20261121T150500
+SUMMARY:P. (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Prawo\nRodzaj: wykład\nProwadzący: dr Kobielski Piotr\nNr za
+ jęć: 4/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8f46eb1f5a4ff05965928631@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261121T152000
+DTEND;TZID=Europe/Warsaw:20261121T165500
+SUMMARY:Pi (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Podstawy informatyki\nRodzaj: wykład\nProwadzący: dr inż. S
+ taruch Marcin\nNr zajęć: 5/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:4848771702710c887c338f79@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261122T080000
+DTEND;TZID=Europe/Warsaw:20261122T093500
+SUMMARY:Oin (ć)
+LOCATION:A.1.3/ 135
+DESCRIPTION:Ochrona własności intelektualnej\nRodzaj: ćwiczenia\nProwad
+ zący: dr hab. inż. Rybiński Janusz\nNr zajęć: 1/2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6de420bc43ceaa5484ba2edc@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261122T095000
+DTEND;TZID=Europe/Warsaw:20261122T112500
+SUMMARY:Ja (ć)
+LOCATION:133 K\;134 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: mgr Kurzela
+  Anna\nNr zajęć: 7/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:bab8826f02cc6372a85065bd@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261205T080000
+DTEND;TZID=Europe/Warsaw:20261205T093500
+SUMMARY:M1 (ć)
+LOCATION:233 S
+DESCRIPTION:Matematyka 1\nRodzaj: ćwiczenia\nProwadzący: dr inż. Falkie
+ wicz Ewa\nNr zajęć: 3/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:398fe1639d096ca9c9f53f94@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261205T095000
+DTEND;TZID=Europe/Warsaw:20261205T112500
+SUMMARY:M1 (ć)
+LOCATION:233 S
+DESCRIPTION:Matematyka 1\nRodzaj: ćwiczenia\nProwadzący: dr inż. Falkie
+ wicz Ewa\nNr zajęć: 4/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e434e5c2b2c28097772d261c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261205T114000
+DTEND;TZID=Europe/Warsaw:20261205T131500
+SUMMARY:M1 (w)
+LOCATION:307 S
+DESCRIPTION:Matematyka 1\nRodzaj: wykład\nProwadzący: dr inż. Falkiewic
+ z Ewa\nNr zajęć: 5/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:536f2c4f57f26a40f47b6c7d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261205T133000
+DTEND;TZID=Europe/Warsaw:20261205T150500
+SUMMARY:Pz (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Podstawy zarządzania\nRodzaj: wykład\nProwadzący: dr (prof.
+  WAT) Gonciarski Wiesław\nNr zajęć: 5/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e43c29ae81e884abb03c8bbd@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261205T152000
+DTEND;TZID=Europe/Warsaw:20261205T165500
+SUMMARY:Pz (ć)
+LOCATION:187 S
+DESCRIPTION:Podstawy zarządzania\nRodzaj: ćwiczenia\nProwadzący: dr Wo
+ źniak Jacek\nNr zajęć: 3/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:e83bab95c8480bbbdc01b24e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261205T171000
+DTEND;TZID=Europe/Warsaw:20261205T184500
+SUMMARY:Pz (ć)
+LOCATION:187 S
+DESCRIPTION:Podstawy zarządzania\nRodzaj: ćwiczenia\nProwadzący: dr Wo
+ źniak Jacek\nNr zajęć: 4/8\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:d2f0c942874d8cff1d3fbd29@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261206T080000
+DTEND;TZID=Europe/Warsaw:20261206T093500
+SUMMARY:Pmr (w)
+LOCATION:1.9/ 16
+DESCRIPTION:Podstawy marketingu\nRodzaj: wykład\nProwadzący: dr Pawlak K
+ atarzyna\nNr zajęć: 5/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b31eaf0effc710f57d7b7d63@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261206T095000
+DTEND;TZID=Europe/Warsaw:20261206T112500
+SUMMARY:Ja (ć)
+LOCATION:133 K\;134 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: mgr Kurzela
+  Anna\nNr zajęć: 8/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8729a7c7c0daed0e3ddffeef@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261206T114000
+DTEND;TZID=Europe/Warsaw:20261206T131500
+SUMMARY:Pi (L)
+LOCATION:4.17a/ 135
+DESCRIPTION:Podstawy informatyki\nRodzaj: laboratorium\nProwadzący: dr in
+ ż. Staruch Marcin\nNr zajęć: 1/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0c047bf13ce3ea583867f3ce@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261206T133000
+DTEND;TZID=Europe/Warsaw:20261206T150500
+SUMMARY:Pi (L)
+LOCATION:4.17a/ 135
+DESCRIPTION:Podstawy informatyki\nRodzaj: laboratorium\nProwadzący: dr in
+ ż. Staruch Marcin\nNr zajęć: 2/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:11dcc9c8989d95b729ac93fe@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261206T152000
+DTEND;TZID=Europe/Warsaw:20261206T165500
+SUMMARY:Pi (L)
+LOCATION:4.17a/ 135
+DESCRIPTION:Podstawy informatyki\nRodzaj: laboratorium\nProwadzący: dr in
+ ż. Staruch Marcin\nNr zajęć: 3/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:04b8980e8cd0477ed0be4b44@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261212T114000
+DTEND;TZID=Europe/Warsaw:20261212T131500
+SUMMARY:Mi (ć)
+LOCATION:1003 HILTON
+DESCRIPTION:Mikroekonomia\nRodzaj: ćwiczenia\nProwadzący: dr hab. Siedle
+ cka Agnieszka\nNr zajęć: 1/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4ee88a8530273a5c3eefdb04@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261212T133000
+DTEND;TZID=Europe/Warsaw:20261212T150500
+SUMMARY:Mi (ć)
+LOCATION:1003 HILTON
+DESCRIPTION:Mikroekonomia\nRodzaj: ćwiczenia\nProwadzący: dr hab. Siedle
+ cka Agnieszka\nNr zajęć: 2/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b98dc63ed0248f8eeacf52a3@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261212T152000
+DTEND;TZID=Europe/Warsaw:20261212T165500
+SUMMARY:P. (w)
+LOCATION:1.9/ 16
+DESCRIPTION:Prawo\nRodzaj: wykład\nProwadzący: dr Kobielski Piotr\nNr za
+ jęć: 5/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:808d3c278d00364beb7c0a00@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261212T171000
+DTEND;TZID=Europe/Warsaw:20261212T184500
+SUMMARY:Mi (w)
+LOCATION:aula/ 135
+DESCRIPTION:Mikroekonomia\nRodzaj: wykład\nProwadzący: dr hab. Siedlecka
+  Agnieszka\nNr zajęć: 2/7\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:04d24187745d39c7f2d182d9@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261213T080000
+DTEND;TZID=Europe/Warsaw:20261213T093500
+SUMMARY:P. (ć)
+LOCATION:1.16/ 16
+DESCRIPTION:Prawo\nRodzaj: ćwiczenia\nProwadzący: dr Kobielski Piotr\nNr
+  zajęć: 1/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:aea4ffa4472437724b588b16@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261213T095000
+DTEND;TZID=Europe/Warsaw:20261213T112500
+SUMMARY:Ja (ć)
+LOCATION:133 K\;134 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: mgr Kurzela
+  Anna\nNr zajęć: 9/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:047d4f8216c85aade75a3e8a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261213T114000
+DTEND;TZID=Europe/Warsaw:20261213T131500
+SUMMARY:Pi (L)
+LOCATION:4.17a/ 135
+DESCRIPTION:Podstawy informatyki\nRodzaj: laboratorium\nProwadzący: dr in
+ ż. Staruch Marcin\nNr zajęć: 4/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:691c7f5193b442b706b53939@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261213T133000
+DTEND;TZID=Europe/Warsaw:20261213T150500
+SUMMARY:Pi (L)
+LOCATION:4.17a/ 135
+DESCRIPTION:Podstawy informatyki\nRodzaj: laboratorium\nProwadzący: dr in
+ ż. Staruch Marcin\nNr zajęć: 5/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c74154fdb56faed01c4fa360@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261219T080000
+DTEND;TZID=Europe/Warsaw:20261219T093500
+SUMMARY:Pz (ć)
+LOCATION:4.17a/ 135
+DESCRIPTION:Podstawy zarządzania\nRodzaj: ćwiczenia\nProwadzący: dr Wo
+ źniak Jacek\nNr zajęć: 5/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b600b206d75f1c75a80481d5@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261219T095000
+DTEND;TZID=Europe/Warsaw:20261219T112500
+SUMMARY:Mi (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Mikroekonomia\nRodzaj: wykład\nProwadzący: dr hab. Siedlecka
+  Agnieszka\nNr zajęć: 3/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8f0392d6f5c45a75ca9e568b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261219T114000
+DTEND;TZID=Europe/Warsaw:20261219T131500
+SUMMARY:M1 (w)
+LOCATION:307 S
+DESCRIPTION:Matematyka 1\nRodzaj: wykład\nProwadzący: dr inż. Falkiewic
+ z Ewa\nNr zajęć: 6/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4ca07bbb70e1775bb7efb50d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261219T133000
+DTEND;TZID=Europe/Warsaw:20261219T150500
+SUMMARY:Mi (ć)
+LOCATION:1.10/ 16
+DESCRIPTION:Mikroekonomia\nRodzaj: ćwiczenia\nProwadzący: dr hab. Siedle
+ cka Agnieszka\nNr zajęć: 3/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:59d06b2877cefb93ae7e2a0b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261219T152000
+DTEND;TZID=Europe/Warsaw:20261219T165500
+SUMMARY:Mi (ć)
+LOCATION:1.10/ 16
+DESCRIPTION:Mikroekonomia\nRodzaj: ćwiczenia\nProwadzący: dr hab. Siedle
+ cka Agnieszka\nNr zajęć: 4/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f3dc204a86ac866d62f2a7c5@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261219T171000
+DTEND;TZID=Europe/Warsaw:20261219T184500
+SUMMARY:M1 (ć)
+LOCATION:307 S
+DESCRIPTION:Matematyka 1\nRodzaj: ćwiczenia\nProwadzący: dr inż. Falkie
+ wicz Ewa\nNr zajęć: 5/7\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:207ac48d0e54e850fe474a5f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261220T080000
+DTEND;TZID=Europe/Warsaw:20261220T093500
+SUMMARY:Pmr (w)
+LOCATION:1.9/ 16
+DESCRIPTION:Podstawy marketingu\nRodzaj: wykład\nProwadzący: dr Pawlak K
+ atarzyna\nNr zajęć: 6/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6dcc74e415a1fbb4d2e1f156@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261220T095000
+DTEND;TZID=Europe/Warsaw:20261220T112500
+SUMMARY:Ja (ć)
+LOCATION:133 K\;134 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: mgr Kurzela
+  Anna\nNr zajęć: 10/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:18224750309d9c32b4fe8544@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261220T114000
+DTEND;TZID=Europe/Warsaw:20261220T131500
+SUMMARY:Pmr (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Podstawy marketingu\nRodzaj: ćwiczenia\nProwadzący: dr Pawla
+ k Katarzyna\nNr zajęć: 5/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d6710bf02498752ceea88495@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261220T133000
+DTEND;TZID=Europe/Warsaw:20261220T150500
+SUMMARY:Pmr (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Podstawy marketingu\nRodzaj: ćwiczenia\nProwadzący: dr Pawla
+ k Katarzyna\nNr zajęć: 6/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:08a412d488ef4aa6cce9cfb7@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261220T152000
+DTEND;TZID=Europe/Warsaw:20261220T165500
+SUMMARY:Ja (ć)
+LOCATION:133 K\;134 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: mgr Kurzela
+  Anna\nNr zajęć: 11/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:306def3dac59321ec6c495f0@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261220T171000
+DTEND;TZID=Europe/Warsaw:20261220T184500
+SUMMARY:M1 (w)
+LOCATION:3.16/ 135
+DESCRIPTION:Matematyka 1\nRodzaj: wykład\nProwadzący: dr inż. Falkiewic
+ z Ewa\nNr zajęć: 7/8\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:fcb3353ab58f518be90fd37b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270109T080000
+DTEND;TZID=Europe/Warsaw:20270109T093500
+SUMMARY:Pz (ć)
+LOCATION:0.8/ 16
+DESCRIPTION:Podstawy zarządzania\nRodzaj: ćwiczenia\nProwadzący: dr Wo
+ źniak Jacek\nNr zajęć: 6/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:94458c771612bad16d0c0a1c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270109T095000
+DTEND;TZID=Europe/Warsaw:20270109T112500
+SUMMARY:Pz (ć)
+LOCATION:0.8/ 16
+DESCRIPTION:Podstawy zarządzania\nRodzaj: ćwiczenia\nProwadzący: dr Wo
+ źniak Jacek\nNr zajęć: 7/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:cc8690fc66e805edadae291f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270109T114000
+DTEND;TZID=Europe/Warsaw:20270109T131500
+SUMMARY:P. (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Prawo\nRodzaj: wykład\nProwadzący: dr Kobielski Piotr\nNr za
+ jęć: 6/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f1e9c8b9736c7b4c63e38d13@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270109T133000
+DTEND;TZID=Europe/Warsaw:20270109T150500
+SUMMARY:Mi (w)
+LOCATION:aula/ 135
+DESCRIPTION:Mikroekonomia\nRodzaj: wykład\nProwadzący: dr hab. Siedlecka
+  Agnieszka\nNr zajęć: 4/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4b251e40a7ca37f95451aed4@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270109T152000
+DTEND;TZID=Europe/Warsaw:20270109T165500
+SUMMARY:Mi (w)
+LOCATION:aula/ 135
+DESCRIPTION:Mikroekonomia\nRodzaj: wykład\nProwadzący: dr hab. Siedlecka
+  Agnieszka\nNr zajęć: 5/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:de6db9a2b342ed682c38616b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270109T171000
+DTEND;TZID=Europe/Warsaw:20270109T184500
+SUMMARY:M1 (ć)
+LOCATION:0.19/ 135
+DESCRIPTION:Matematyka 1\nRodzaj: ćwiczenia\nProwadzący: dr inż. Falkie
+ wicz Ewa\nNr zajęć: 6/7\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:27d678b6024caad838d7bebe@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270110T080000
+DTEND;TZID=Europe/Warsaw:20270110T093500
+SUMMARY:Mi (ć)
+LOCATION:2/ 22
+DESCRIPTION:Mikroekonomia\nRodzaj: ćwiczenia\nProwadzący: dr hab. Siedle
+ cka Agnieszka\nNr zajęć: 5/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ae65ca7500b10bfae0971245@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270110T095000
+DTEND;TZID=Europe/Warsaw:20270110T112500
+SUMMARY:Ja (ć)
+LOCATION:133 K\;134 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: mgr Kurzela
+  Anna\nNr zajęć: 12/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f667689038b2660ac7d5b939@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270117T080000
+DTEND;TZID=Europe/Warsaw:20270117T093500
+SUMMARY:Mi (ć)
+LOCATION:0.22/ 16
+DESCRIPTION:Mikroekonomia\nRodzaj: ćwiczenia\nProwadzący: dr hab. Siedle
+ cka Agnieszka\nNr zajęć: 6/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:70f2fd644a66a7ea036a3e3e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270117T095000
+DTEND;TZID=Europe/Warsaw:20270117T112500
+SUMMARY:Ja (ć)
+LOCATION:133 K\;134 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: mgr Kurzela
+  Anna\nNr zajęć: 13/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c7cef97b46dcedea4804e477@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270117T114000
+DTEND;TZID=Europe/Warsaw:20270117T131500
+SUMMARY:Oin (ć)
+LOCATION:187 S
+DESCRIPTION:Ochrona własności intelektualnej\nRodzaj: ćwiczenia\nProwad
+ zący: dr hab. inż. Rybiński Janusz\nNr zajęć: 2/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d48206aa98073a3778e5474f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270123T080000
+DTEND;TZID=Europe/Warsaw:20270123T093500
+SUMMARY:Mi (w)
+LOCATION:aula/ 135
+DESCRIPTION:Mikroekonomia\nRodzaj: wykład\nProwadzący: dr hab. Siedlecka
+  Agnieszka\nNr zajęć: 6/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:23a0add73a80e0663b9e6d5f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270123T095000
+DTEND;TZID=Europe/Warsaw:20270123T112500
+SUMMARY:Pz (w)
+LOCATION:aula/ 135
+DESCRIPTION:Podstawy zarządzania\nRodzaj: wykład\nProwadzący: dr (prof.
+  WAT) Gonciarski Wiesław\nNr zajęć: 6/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:145c15a10050bca9e22c3d37@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270123T114000
+DTEND;TZID=Europe/Warsaw:20270123T131500
+SUMMARY:Mi (ć)
+LOCATION:0.19/ 135
+DESCRIPTION:Mikroekonomia\nRodzaj: ćwiczenia\nProwadzący: dr hab. Siedle
+ cka Agnieszka\nNr zajęć: 7/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1ce32ec469e67e5612cd69a9@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270123T133000
+DTEND;TZID=Europe/Warsaw:20270123T150500
+SUMMARY:Mi (ć)
+LOCATION:0.19/ 135
+DESCRIPTION:Mikroekonomia\nRodzaj: ćwiczenia\nProwadzący: dr hab. Siedle
+ cka Agnieszka\nNr zajęć: 8/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ddf9b13e9066de92fe33c307@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270124T080000
+DTEND;TZID=Europe/Warsaw:20270124T093500
+SUMMARY:P. (ć)
+LOCATION:1.15/ 16
+DESCRIPTION:Prawo\nRodzaj: ćwiczenia\nProwadzący: dr Kobielski Piotr\nNr
+  zajęć: 2/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:691741449603c0a9e93df46a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270124T095000
+DTEND;TZID=Europe/Warsaw:20270124T112500
+SUMMARY:Ja (ć)
+LOCATION:133 K\;134 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: mgr Kurzela
+  Anna\nNr zajęć: 14/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:59fcc4943cb2fb87913dd13f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270124T114000
+DTEND;TZID=Europe/Warsaw:20270124T131500
+SUMMARY:P. (ć)
+LOCATION:A.1.3/ 135
+DESCRIPTION:Prawo\nRodzaj: ćwiczenia\nProwadzący: dr Kobielski Piotr\nNr
+  zajęć: 3/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b9622c924162bb5f482611fd@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270124T133000
+DTEND;TZID=Europe/Warsaw:20270124T150500
+SUMMARY:Mi (w)
+LOCATION:aula/ 135
+DESCRIPTION:Mikroekonomia\nRodzaj: wykład\nProwadzący: dr hab. Siedlecka
+  Agnieszka\nNr zajęć: 7/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f79cb531410207181156fdee@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270124T190000
+DTEND;TZID=Europe/Warsaw:20270124T203500
+SUMMARY:Pmr (Ep)
+DESCRIPTION:Podstawy marketingu\nRodzaj: egzamin poprawkowy\nProwadzący: 
+ dr Pawlak Katarzyna\nNr zajęć: 1/1\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:9c9548586b010d96ebdf12cc@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270130T080000
+DTEND;TZID=Europe/Warsaw:20270130T093500
+SUMMARY:M1 (w)
+LOCATION:307 S
+DESCRIPTION:Matematyka 1\nRodzaj: wykład\nProwadzący: dr inż. Falkiewic
+ z Ewa\nNr zajęć: 8/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:630658bf5703bf55c823f0df@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270130T095000
+DTEND;TZID=Europe/Warsaw:20270130T112500
+SUMMARY:Pz (w)
+LOCATION:aula/ 135
+DESCRIPTION:Podstawy zarządzania\nRodzaj: wykład\nProwadzący: dr (prof.
+  WAT) Gonciarski Wiesław\nNr zajęć: 7/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f6275f808cca5b63df6d883f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270130T114000
+DTEND;TZID=Europe/Warsaw:20270130T131500
+SUMMARY:Pz (ć)
+LOCATION:1/ 22
+DESCRIPTION:Podstawy zarządzania\nRodzaj: ćwiczenia\nProwadzący: dr Wo
+ źniak Jacek\nNr zajęć: 8/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5ae0657a6c85606f5c2e8e54@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270130T133000
+DTEND;TZID=Europe/Warsaw:20270130T150500
+SUMMARY:P. (ć)
+LOCATION:0.21/ 16
+DESCRIPTION:Prawo\nRodzaj: ćwiczenia\nProwadzący: dr Kobielski Piotr\nNr
+  zajęć: 4/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5112a7fb6506627cc646e300@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270130T152000
+DTEND;TZID=Europe/Warsaw:20270130T165500
+SUMMARY:P. (ć)
+LOCATION:0.21/ 16
+DESCRIPTION:Prawo\nRodzaj: ćwiczenia\nProwadzący: dr Kobielski Piotr\nNr
+  zajęć: 5/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:55d9627dc3f40ed6636bcb61@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270130T171000
+DTEND;TZID=Europe/Warsaw:20270130T184500
+SUMMARY:M1 (ć)
+LOCATION:0.23/ 16
+DESCRIPTION:Matematyka 1\nRodzaj: ćwiczenia\nProwadzący: dr inż. Falkie
+ wicz Ewa\nNr zajęć: 7/7\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:4a7b219dda3abab20576be25@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270131T080000
+DTEND;TZID=Europe/Warsaw:20270131T093500
+SUMMARY:Pi (L)
+LOCATION:4.17a/ 135
+DESCRIPTION:Podstawy informatyki\nRodzaj: laboratorium\nProwadzący: dr in
+ ż. Staruch Marcin\nNr zajęć: 6/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8cc9803abbc8717fd45be1c2@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270131T095000
+DTEND;TZID=Europe/Warsaw:20270131T112500
+SUMMARY:Ja (ć)
+LOCATION:133 K\;134 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nProwadzący: mgr Kurzela
+  Anna\nNr zajęć: 15/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9ec8ed063cd0f0964164c5bc@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270206T080000
+DTEND;TZID=Europe/Warsaw:20270206T093500
+SUMMARY:Mi (E)
+LOCATION:1.9/ 16
+DESCRIPTION:Mikroekonomia\nRodzaj: egzamin\nProwadzący: dr hab. Siedlecka
+  Agnieszka\nNr zajęć: 1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b80c290cc25a535ce7ae98a2@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270206T095000
+DTEND;TZID=Europe/Warsaw:20270206T112500
+SUMMARY:Pz (E)
+LOCATION:aF S
+DESCRIPTION:Podstawy zarządzania\nRodzaj: egzamin\nProwadzący: dr (prof.
+  WAT) Gonciarski Wiesław\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3c0cdc9200a0d790de8d955b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270207T114000
+DTEND;TZID=Europe/Warsaw:20270207T131500
+SUMMARY:Pmr (E)
+LOCATION:1.9/ 16
+DESCRIPTION:Podstawy marketingu\nRodzaj: egzamin\nProwadzący: dr Pawlak K
+ atarzyna\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:57bb8119813b62f4cf3f011c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270220T114000
+DTEND;TZID=Europe/Warsaw:20270220T131500
+SUMMARY:Mi (Ep)
+LOCATION:3.16/ 135
+DESCRIPTION:Mikroekonomia\nRodzaj: egzamin poprawkowy\nProwadzący: dr hab
+ . Siedlecka Agnieszka\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0122cd93c0e5e25a4e8970cc@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270220T133000
+DTEND;TZID=Europe/Warsaw:20270220T150500
+SUMMARY:Pz (Ep)
+LOCATION:3.16/ 135
+DESCRIPTION:Podstawy zarządzania\nRodzaj: egzamin poprawkowy\nProwadzący
+ : dr (prof. WAT) Gonciarski Wiesław\nNr zajęć: 1/1\nBlok: 4
+END:VEVENT
+END:VCALENDAR

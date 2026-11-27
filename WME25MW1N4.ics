@@ -1,0 +1,1843 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WME25MW1N4
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:31931f7920cc148a4baea7a0@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261003T080000
+DTEND;TZID=Europe/Warsaw:20261003T093500
+SUMMARY:PiWSI (w)
+LOCATION:2.01/ 54A
+DESCRIPTION:Projektowanie i wytwarzanie z wykorzystaniem metod sztucznej i
+ nteligencji 1\nRodzaj: wykład\nProwadzący: dr inż. Łuszczek Jakub\nNr
+  zajęć: 1/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:503a1a52cbab742456ae2bfc@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261003T095000
+DTEND;TZID=Europe/Warsaw:20261003T112500
+SUMMARY:PUwMAN (w)
+LOCATION:52/ 62
+DESCRIPTION:Projektowanie uniwersalne w modelowaniu i analizach numeryczny
+ ch\nRodzaj: wykład\nProwadzący: dr inż. Świerczewski Marek\nNr zaję
+ ć: 1/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ff59884daa0613ee212ee199@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261003T114000
+DTEND;TZID=Europe/Warsaw:20261003T131500
+SUMMARY:Ntł. (w)
+LOCATION:116/ 54
+DESCRIPTION:Nowoczesne technologie łączenia i postprocesingu elementów 
+ wytwarzanych przyrostowo\nRodzaj: wykład\nProwadzący: dr inż. Kluczyń
+ ski Janusz\nNr zajęć: 1/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:10a3c4e2e899884665540705@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261003T133000
+DTEND;TZID=Europe/Warsaw:20261003T150500
+SUMMARY:Sd. (S)
+LOCATION:120/ 54
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: ppłk d
+ r inż. Ślęzak Tomasz\nNr zajęć: 1/2\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e162544989045ce23632b87e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261003T152000
+DTEND;TZID=Europe/Warsaw:20261003T165500
+SUMMARY:Qe. (w)
+LOCATION:116/ 54
+DESCRIPTION:Quality engineering in modern production technologies\nRodzaj:
+  wykład\nProwadzący: dr inż. Kluczyński Janusz\nNr zajęć: 1/5\nBlok
+ : 5
+END:VEVENT
+BEGIN:VEVENT
+UID:bf9088a38cc5bbb1dbf8d2d7@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261003T171000
+DTEND;TZID=Europe/Warsaw:20261003T184500
+SUMMARY:Zmn (w)
+LOCATION:116/ 54
+DESCRIPTION:Zastosowanie metod numerycznych w procesach technologicznych\n
+ Rodzaj: wykład\nProwadzący: dr inż. Puchała Krzysztof\nNr zajęć: 1/
+ 5\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:643d7a19993270eb9764a5d9@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261004T095000
+DTEND;TZID=Europe/Warsaw:20261004T112500
+SUMMARY:Mrwd (w)
+LOCATION:15/ 23A
+DESCRIPTION:Metodyka rekonstrukcji wypadków drogowych\nRodzaj: wykład\nP
+ rowadzący: dr hab. inż.(prof. ucz.) Gidlewski Mirosław\nNr zajęć: 1/
+ 5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7cbc6167d68b06e1af935944@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261004T114000
+DTEND;TZID=Europe/Warsaw:20261004T131500
+SUMMARY:Ntł. (w)
+LOCATION:116/ 54
+DESCRIPTION:Nowoczesne technologie łączenia i postprocesingu elementów 
+ wytwarzanych przyrostowo\nRodzaj: wykład\nProwadzący: dr inż. Kluczyń
+ ski Janusz\nNr zajęć: 2/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3ab207040ecd8e1ab3591947@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261004T133000
+DTEND;TZID=Europe/Warsaw:20261004T150500
+SUMMARY:Mrwd (ć)
+LOCATION:7/ 23A
+DESCRIPTION:Metodyka rekonstrukcji wypadków drogowych\nRodzaj: ćwiczenia
+ \nProwadzący: dr hab. inż.(prof. ucz.) Gidlewski Mirosław\nNr zajęć:
+  1/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:68623ae91306b8fb45197a7c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261004T152000
+DTEND;TZID=Europe/Warsaw:20261004T165500
+SUMMARY:Pm. (w)
+LOCATION:52/ 62
+DESCRIPTION:Projektowanie maszyn\nRodzaj: wykład\nProwadzący: prof. dr h
+ ab. inż. Bogdanowicz Zdzisław\nNr zajęć: 1/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:4b375ffb67ae91bf8182dd4f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261017T080000
+DTEND;TZID=Europe/Warsaw:20261017T093500
+SUMMARY:PiWSI (w)
+LOCATION:2.01/ 54A
+DESCRIPTION:Projektowanie i wytwarzanie z wykorzystaniem metod sztucznej i
+ nteligencji 1\nRodzaj: wykład\nProwadzący: dr inż. Łuszczek Jakub\nNr
+  zajęć: 2/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9ff816094551ba8fbf6b82f4@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261017T095000
+DTEND;TZID=Europe/Warsaw:20261017T112500
+SUMMARY:PUwMAN (w)
+LOCATION:52/ 62
+DESCRIPTION:Projektowanie uniwersalne w modelowaniu i analizach numeryczny
+ ch\nRodzaj: wykład\nProwadzący: dr inż. Świerczewski Marek\nNr zaję
+ ć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a32092021b515b3ad8596e34@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261017T114000
+DTEND;TZID=Europe/Warsaw:20261017T131500
+SUMMARY:PUwMAN (w)
+LOCATION:52/ 62
+DESCRIPTION:Projektowanie uniwersalne w modelowaniu i analizach numeryczny
+ ch\nRodzaj: wykład\nProwadzący: dr inż. Świerczewski Marek\nNr zaję
+ ć: 3/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:54ab5c2b54a00b698cc685c0@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261017T133000
+DTEND;TZID=Europe/Warsaw:20261017T150500
+SUMMARY:Pm. (P)
+LOCATION:116/ 54
+DESCRIPTION:Projektowanie maszyn\nRodzaj: projekt\nProwadzący: prof. dr h
+ ab. inż. Bogdanowicz Zdzisław\; dr inż. Szachogłuchowicz Ireneusz\nNr
+  zajęć: 1/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:90283994da7a6d5cd398081b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261018T080000
+DTEND;TZID=Europe/Warsaw:20261018T093500
+SUMMARY:Pm. (w)
+LOCATION:52/ 62
+DESCRIPTION:Projektowanie maszyn\nRodzaj: wykład\nProwadzący: prof. dr h
+ ab. inż. Bogdanowicz Zdzisław\nNr zajęć: 2/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f402cbf6ed596a2de80ae82b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261018T095000
+DTEND;TZID=Europe/Warsaw:20261018T112500
+SUMMARY:Mrwd (w)
+LOCATION:15/ 23A
+DESCRIPTION:Metodyka rekonstrukcji wypadków drogowych\nRodzaj: wykład\nP
+ rowadzący: dr hab. inż.(prof. ucz.) Gidlewski Mirosław\nNr zajęć: 2/
+ 5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:26216029eaa7baedb4d1b22e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261018T114000
+DTEND;TZID=Europe/Warsaw:20261018T131500
+SUMMARY:PiWSI (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Projektowanie i wytwarzanie z wykorzystaniem metod sztucznej i
+ nteligencji 1\nRodzaj: laboratorium\nProwadzący: dr inż. Łuszczek Jaku
+ b\; dr inż. Grzelak Krzysztof\nNr zajęć: 1/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:479bcdf148c570c3bab11588@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261018T133000
+DTEND;TZID=Europe/Warsaw:20261018T150500
+SUMMARY:Mrwd (ć)
+LOCATION:7/ 23A
+DESCRIPTION:Metodyka rekonstrukcji wypadków drogowych\nRodzaj: ćwiczenia
+ \nProwadzący: dr hab. inż.(prof. ucz.) Gidlewski Mirosław\nNr zajęć:
+  2/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:08e7f28a2a5a91ea5d629afe@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261024T080000
+DTEND;TZID=Europe/Warsaw:20261024T093500
+SUMMARY:PiWSI (w)
+LOCATION:2.01/ 54A
+DESCRIPTION:Projektowanie i wytwarzanie z wykorzystaniem metod sztucznej i
+ nteligencji 1\nRodzaj: wykład\nProwadzący: dr inż. Łuszczek Jakub\nNr
+  zajęć: 3/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:22d859d62fe27048a61cd8f0@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261024T095000
+DTEND;TZID=Europe/Warsaw:20261024T112500
+SUMMARY:Ebm (w)
+LOCATION:53/ 62
+DESCRIPTION:Eksperymentalne badania materiałów dla potrzeb modelowania n
+ umerycznego\nRodzaj: wykład\nProwadzący: dr inż. Kucewicz Michał\nNr 
+ zajęć: 1/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:982de786b06f97c39daa8aea@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261024T114000
+DTEND;TZID=Europe/Warsaw:20261024T131500
+SUMMARY:Pm. (P)
+LOCATION:54/ 62\;116/ 54
+DESCRIPTION:Projektowanie maszyn\nRodzaj: projekt\nProwadzący: prof. dr h
+ ab. inż. Bogdanowicz Zdzisław\; dr inż. Szachogłuchowicz Ireneusz\nNr
+  zajęć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:14d79b94677fa56e45ab62be@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261024T133000
+DTEND;TZID=Europe/Warsaw:20261024T150500
+SUMMARY:PUwMAN (w)
+LOCATION:52/ 62
+DESCRIPTION:Projektowanie uniwersalne w modelowaniu i analizach numeryczny
+ ch\nRodzaj: wykład\nProwadzący: dr inż. Świerczewski Marek\nNr zaję
+ ć: 4/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:77c5ba501ef5b30bde6924b4@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261024T152000
+DTEND;TZID=Europe/Warsaw:20261024T165500
+SUMMARY:PUwMAN (w)
+LOCATION:52/ 62
+DESCRIPTION:Projektowanie uniwersalne w modelowaniu i analizach numeryczny
+ ch\nRodzaj: wykład\nProwadzący: dr inż. Świerczewski Marek\nNr zaję
+ ć: 5/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:453bc50ffe02fc69c58c65ac@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261025T080000
+DTEND;TZID=Europe/Warsaw:20261025T093500
+SUMMARY:Pm. (w)
+LOCATION:52/ 62
+DESCRIPTION:Projektowanie maszyn\nRodzaj: wykład\nProwadzący: prof. dr h
+ ab. inż. Bogdanowicz Zdzisław\nNr zajęć: 3/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:18d61aef6f06dd36adf40b9c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261025T095000
+DTEND;TZID=Europe/Warsaw:20261025T112500
+SUMMARY:Mrwd (w)
+LOCATION:6/ 23A
+DESCRIPTION:Metodyka rekonstrukcji wypadków drogowych\nRodzaj: wykład\nP
+ rowadzący: dr hab. inż.(prof. ucz.) Gidlewski Mirosław\nNr zajęć: 3/
+ 5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:cf318221df0347d96ad3c3d6@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261025T114000
+DTEND;TZID=Europe/Warsaw:20261025T131500
+SUMMARY:Zmn (w)
+LOCATION:8/ 62
+DESCRIPTION:Zastosowanie metod numerycznych w procesach technologicznych\n
+ Rodzaj: wykład\nProwadzący: dr inż. Moneta Grzegorz\nNr zajęć: 2/5\n
+ Blok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:92577d130c8ad55e6e09d634@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261025T133000
+DTEND;TZID=Europe/Warsaw:20261025T150500
+SUMMARY:Mrwd (ć)
+LOCATION:7/ 23A
+DESCRIPTION:Metodyka rekonstrukcji wypadków drogowych\nRodzaj: ćwiczenia
+ \nProwadzący: dr hab. inż.(prof. ucz.) Gidlewski Mirosław\nNr zajęć:
+  3/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b5bf9069f368293ac36f47ee@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261025T152000
+DTEND;TZID=Europe/Warsaw:20261025T165500
+SUMMARY:Ebm (w)
+LOCATION:53/ 62
+DESCRIPTION:Eksperymentalne badania materiałów dla potrzeb modelowania n
+ umerycznego\nRodzaj: wykład\nProwadzący: dr inż. Kucewicz Michał\nNr 
+ zajęć: 2/3\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:642809ac59282452c2e891e2@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261107T080000
+DTEND;TZID=Europe/Warsaw:20261107T093500
+SUMMARY:Pm. (w)
+LOCATION:52/ 62
+DESCRIPTION:Projektowanie maszyn\nRodzaj: wykład\nProwadzący: prof. dr h
+ ab. inż. Bogdanowicz Zdzisław\nNr zajęć: 4/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9bace808898d50d0f87d7f50@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261107T095000
+DTEND;TZID=Europe/Warsaw:20261107T112500
+SUMMARY:Zmn (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Zastosowanie metod numerycznych w procesach technologicznych\n
+ Rodzaj: laboratorium\nProwadzący: ppłk dr inż. Kędzierski Piotr\; dr 
+ inż. Puchała Krzysztof\nNr zajęć: 1/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:beee6283c24cbbb45ca6efce@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261107T114000
+DTEND;TZID=Europe/Warsaw:20261107T131500
+SUMMARY:Zmn (w)
+LOCATION:116/ 54
+DESCRIPTION:Zastosowanie metod numerycznych w procesach technologicznych\n
+ Rodzaj: wykład\nProwadzący: dr inż. Puchała Krzysztof\nNr zajęć: 3/
+ 5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b9992591b8f1ce4b92e5d5e9@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261107T133000
+DTEND;TZID=Europe/Warsaw:20261107T150500
+SUMMARY:Pm. (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Projektowanie maszyn\nRodzaj: laboratorium\nProwadzący: dr in
+ ż. Szachogłuchowicz Ireneusz\; dr inż. Łuszczek Jakub\nNr zajęć: 1/
+ 8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:cd4f3c7e58ca3a3c4ecfeda3@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261107T152000
+DTEND;TZID=Europe/Warsaw:20261107T165500
+SUMMARY:PUwMAN (L)
+LOCATION:53/ 62
+DESCRIPTION:Projektowanie uniwersalne w modelowaniu i analizach numeryczny
+ ch\nRodzaj: laboratorium\nProwadzący: dr inż. Świerczewski Marek\; dr 
+ inż. Dziewulski Paweł\nNr zajęć: 1/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:91463c72f2b9419ccbda6e74@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261107T171000
+DTEND;TZID=Europe/Warsaw:20261107T184500
+SUMMARY:PUwMAN (L)
+LOCATION:53/ 62
+DESCRIPTION:Projektowanie uniwersalne w modelowaniu i analizach numeryczny
+ ch\nRodzaj: laboratorium\nProwadzący: dr inż. Świerczewski Marek\; dr 
+ inż. Dziewulski Paweł\nNr zajęć: 2/9\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:3c9964e3d663eb2f080999e4@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261107T190000
+DTEND;TZID=Europe/Warsaw:20261107T203500
+SUMMARY:PUwMAN (L)
+LOCATION:53/ 62
+DESCRIPTION:Projektowanie uniwersalne w modelowaniu i analizach numeryczny
+ ch\nRodzaj: laboratorium\nProwadzący: dr inż. Świerczewski Marek\; dr 
+ inż. Dziewulski Paweł\nNr zajęć: 3/9\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:87a6b5d72226f05f781664ed@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261108T080000
+DTEND;TZID=Europe/Warsaw:20261108T093500
+SUMMARY:Qe. (w)
+LOCATION:116/ 54
+DESCRIPTION:Quality engineering in modern production technologies\nRodzaj:
+  wykład\nProwadzący: dr inż. Kluczyński Janusz\nNr zajęć: 2/5\nBlok
+ : 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a0420c9095f14ca143728494@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261108T095000
+DTEND;TZID=Europe/Warsaw:20261108T112500
+SUMMARY:Mrwd (w)
+LOCATION:15/ 23A
+DESCRIPTION:Metodyka rekonstrukcji wypadków drogowych\nRodzaj: wykład\nP
+ rowadzący: dr hab. inż.(prof. ucz.) Gidlewski Mirosław\nNr zajęć: 4/
+ 5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:48f8bc149b36792c6a6e7e21@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261108T114000
+DTEND;TZID=Europe/Warsaw:20261108T131500
+SUMMARY:PiWSI (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Projektowanie i wytwarzanie z wykorzystaniem metod sztucznej i
+ nteligencji 1\nRodzaj: laboratorium\nProwadzący: dr inż. Łuszczek Jaku
+ b\; dr inż. Grzelak Krzysztof\nNr zajęć: 2/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:275263da14ed60aff14857d8@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261108T133000
+DTEND;TZID=Europe/Warsaw:20261108T150500
+SUMMARY:Mrwd (ć)
+LOCATION:7/ 23A
+DESCRIPTION:Metodyka rekonstrukcji wypadków drogowych\nRodzaj: ćwiczenia
+ \nProwadzący: dr hab. inż.(prof. ucz.) Gidlewski Mirosław\nNr zajęć:
+  4/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b1eecec820494eb68c0a57f9@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261114T080000
+DTEND;TZID=Europe/Warsaw:20261114T093500
+SUMMARY:Zszj (w)
+LOCATION:5/ 20
+DESCRIPTION:Zintegrowane systemy zarządzania jakością\nRodzaj: wykład\
+ nProwadzący: dr inż. (prof. ucz.) Kowalczyk Stanisław\nNr zajęć: 1/5
+ \nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:fde68b2583ef7ff10f3f85d9@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261114T095000
+DTEND;TZID=Europe/Warsaw:20261114T112500
+SUMMARY:Pm. (w)
+LOCATION:51/ 62
+DESCRIPTION:Projektowanie maszyn\nRodzaj: wykład\nProwadzący: prof. dr h
+ ab. inż. Bogdanowicz Zdzisław\nNr zajęć: 5/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:554e6f91f7b8842933c0fef3@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261114T114000
+DTEND;TZID=Europe/Warsaw:20261114T131500
+SUMMARY:Pm. (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Projektowanie maszyn\nRodzaj: laboratorium\nProwadzący: dr in
+ ż. Szachogłuchowicz Ireneusz\; dr inż. Łuszczek Jakub\nNr zajęć: 2/
+ 8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:24597f5b85833b801ef0ae2f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261114T133000
+DTEND;TZID=Europe/Warsaw:20261114T150500
+SUMMARY:Pm. (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Projektowanie maszyn\nRodzaj: laboratorium\nProwadzący: dr in
+ ż. Szachogłuchowicz Ireneusz\; dr inż. Łuszczek Jakub\nNr zajęć: 3/
+ 8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:94e865749c19a63dd73dfd4c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261114T152000
+DTEND;TZID=Europe/Warsaw:20261114T165500
+SUMMARY:Pm. (P)
+LOCATION:52/ 62\;116/ 54
+DESCRIPTION:Projektowanie maszyn\nRodzaj: projekt\nProwadzący: prof. dr h
+ ab. inż. Bogdanowicz Zdzisław\; dr inż. Szachogłuchowicz Ireneusz\nNr
+  zajęć: 3/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:26f26a34864f786fcd3f9f0b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261115T080000
+DTEND;TZID=Europe/Warsaw:20261115T093500
+SUMMARY:Mrwd (L)
+LOCATION:7/ 23A
+DESCRIPTION:Metodyka rekonstrukcji wypadków drogowych\nRodzaj: laboratori
+ um\nProwadzący: mgr inż. Krusiewicz Marian Zbigniew\nNr zajęć: 1/10\n
+ Blok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3b6f91060d5279ae2f0bd628@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261115T095000
+DTEND;TZID=Europe/Warsaw:20261115T112500
+SUMMARY:Mrwd (L)
+LOCATION:7/ 23A
+DESCRIPTION:Metodyka rekonstrukcji wypadków drogowych\nRodzaj: laboratori
+ um\nProwadzący: mgr inż. Krusiewicz Marian Zbigniew\nNr zajęć: 2/10\n
+ Blok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2eb71e1f4220caea86d93449@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261115T114000
+DTEND;TZID=Europe/Warsaw:20261115T131500
+SUMMARY:Ebm (L)
+LOCATION:53/ 62
+DESCRIPTION:Eksperymentalne badania materiałów dla potrzeb modelowania n
+ umerycznego\nRodzaj: laboratorium\nProwadzący: dr inż. Kucewicz Michał
+ \; mgr inż. Spychała Maciej\nNr zajęć: 1/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:08633e69d108e5a6352e385b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261115T133000
+DTEND;TZID=Europe/Warsaw:20261115T150500
+SUMMARY:Ebm (L)
+LOCATION:53/ 62
+DESCRIPTION:Eksperymentalne badania materiałów dla potrzeb modelowania n
+ umerycznego\nRodzaj: laboratorium\nProwadzący: dr inż. Kucewicz Michał
+ \; mgr inż. Spychała Maciej\nNr zajęć: 2/11\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5bee93588c22f76da4b0308f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261115T152000
+DTEND;TZID=Europe/Warsaw:20261115T165500
+SUMMARY:Ebm (L)
+LOCATION:53/ 62
+DESCRIPTION:Eksperymentalne badania materiałów dla potrzeb modelowania n
+ umerycznego\nRodzaj: laboratorium\nProwadzący: dr inż. Kucewicz Michał
+ \; mgr inż. Spychała Maciej\nNr zajęć: 3/11\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:9d0bd9f01045fe034d0f688c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261115T171000
+DTEND;TZID=Europe/Warsaw:20261115T184500
+SUMMARY:Zmn (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Zastosowanie metod numerycznych w procesach technologicznych\n
+ Rodzaj: laboratorium\nProwadzący: ppłk dr inż. Kędzierski Piotr\; dr 
+ inż. Puchała Krzysztof\nNr zajęć: 2/9\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:3ec3c1a19486a802976459f8@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261115T190000
+DTEND;TZID=Europe/Warsaw:20261115T203500
+SUMMARY:Zmn (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Zastosowanie metod numerycznych w procesach technologicznych\n
+ Rodzaj: laboratorium\nProwadzący: ppłk dr inż. Kędzierski Piotr\; dr 
+ inż. Puchała Krzysztof\nNr zajęć: 3/9\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:318533763f9ca2323f81087c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261121T080000
+DTEND;TZID=Europe/Warsaw:20261121T093500
+SUMMARY:Zmn (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Zastosowanie metod numerycznych w procesach technologicznych\n
+ Rodzaj: laboratorium\nProwadzący: ppłk dr inż. Kędzierski Piotr\; dr 
+ inż. Puchała Krzysztof\nNr zajęć: 4/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5fa5d55f02e2352f2b132533@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261121T095000
+DTEND;TZID=Europe/Warsaw:20261121T112500
+SUMMARY:Zszj (w)
+LOCATION:5/ 20
+DESCRIPTION:Zintegrowane systemy zarządzania jakością\nRodzaj: wykład\
+ nProwadzący: dr inż. (prof. ucz.) Kowalczyk Stanisław\nNr zajęć: 2/5
+ \nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a3735d590a9ebcbe40f4b944@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261121T114000
+DTEND;TZID=Europe/Warsaw:20261121T131500
+SUMMARY:Ntł. (w)
+LOCATION:116/ 54
+DESCRIPTION:Nowoczesne technologie łączenia i postprocesingu elementów 
+ wytwarzanych przyrostowo\nRodzaj: wykład\nProwadzący: dr inż. Grzelak 
+ Krzysztof\nNr zajęć: 3/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a77b443e97494238331f6d85@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261121T133000
+DTEND;TZID=Europe/Warsaw:20261121T150500
+SUMMARY:PUwMAN (L)
+LOCATION:53/ 62
+DESCRIPTION:Projektowanie uniwersalne w modelowaniu i analizach numeryczny
+ ch\nRodzaj: laboratorium\nProwadzący: dr inż. Świerczewski Marek\; dr 
+ inż. Dziewulski Paweł\nNr zajęć: 4/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a8c982e4b2616e845a65547c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261121T152000
+DTEND;TZID=Europe/Warsaw:20261121T165500
+SUMMARY:PUwMAN (L)
+LOCATION:53/ 62
+DESCRIPTION:Projektowanie uniwersalne w modelowaniu i analizach numeryczny
+ ch\nRodzaj: laboratorium\nProwadzący: dr inż. Świerczewski Marek\; dr 
+ inż. Dziewulski Paweł\nNr zajęć: 5/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:4eaf92b0dd7678d02cc8a2a5@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261121T171000
+DTEND;TZID=Europe/Warsaw:20261121T184500
+SUMMARY:PiWSI (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Projektowanie i wytwarzanie z wykorzystaniem metod sztucznej i
+ nteligencji 1\nRodzaj: laboratorium\nProwadzący: dr inż. Łuszczek Jaku
+ b\; dr inż. Grzelak Krzysztof\nNr zajęć: 3/11\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:905448daafa36b8d23c1417d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261121T190000
+DTEND;TZID=Europe/Warsaw:20261121T203500
+SUMMARY:PiWSI (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Projektowanie i wytwarzanie z wykorzystaniem metod sztucznej i
+ nteligencji 1\nRodzaj: laboratorium\nProwadzący: dr inż. Łuszczek Jaku
+ b\; dr inż. Grzelak Krzysztof\nNr zajęć: 4/11\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:c7de987b1490f1eba4a774be@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261122T080000
+DTEND;TZID=Europe/Warsaw:20261122T093500
+SUMMARY:Mrwd (L)
+LOCATION:7/ 23A
+DESCRIPTION:Metodyka rekonstrukcji wypadków drogowych\nRodzaj: laboratori
+ um\nProwadzący: mgr inż. Krusiewicz Marian Zbigniew\nNr zajęć: 3/10\n
+ Blok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:50f469db3cd94f7e018b1be0@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261122T095000
+DTEND;TZID=Europe/Warsaw:20261122T112500
+SUMMARY:Mrwd (L)
+LOCATION:7/ 23A
+DESCRIPTION:Metodyka rekonstrukcji wypadków drogowych\nRodzaj: laboratori
+ um\nProwadzący: mgr inż. Krusiewicz Marian Zbigniew\nNr zajęć: 4/10\n
+ Blok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:895e4dd9432f1f638e009320@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261122T114000
+DTEND;TZID=Europe/Warsaw:20261122T131500
+SUMMARY:ZMwBM (w)
+LOCATION:2.10/ 54A
+DESCRIPTION:Zaawansowane materiały w budowie maszyn\nRodzaj: wykład\nPro
+ wadzący: dr inż. Kosturek Robert\nNr zajęć: 1/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:25f8562097693ff5c34400ca@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261122T133000
+DTEND;TZID=Europe/Warsaw:20261122T150500
+SUMMARY:ZMwBM (w)
+LOCATION:2.10/ 54A
+DESCRIPTION:Zaawansowane materiały w budowie maszyn\nRodzaj: wykład\nPro
+ wadzący: dr inż. Kosturek Robert\nNr zajęć: 2/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9e0b63e36022c2536a53216d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261122T152000
+DTEND;TZID=Europe/Warsaw:20261122T165500
+SUMMARY:PUwMAN (L)
+LOCATION:53/ 62
+DESCRIPTION:Projektowanie uniwersalne w modelowaniu i analizach numeryczny
+ ch\nRodzaj: laboratorium\nProwadzący: dr inż. Świerczewski Marek\; dr 
+ inż. Dziewulski Paweł\nNr zajęć: 6/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:af53a23023000a4f784544b2@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261122T171000
+DTEND;TZID=Europe/Warsaw:20261122T184500
+SUMMARY:PUwMAN (L)
+LOCATION:53/ 62
+DESCRIPTION:Projektowanie uniwersalne w modelowaniu i analizach numeryczny
+ ch\nRodzaj: laboratorium\nProwadzący: dr inż. Świerczewski Marek\; dr 
+ inż. Dziewulski Paweł\nNr zajęć: 7/9\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:a46d065cb111edec67b1a875@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261205T080000
+DTEND;TZID=Europe/Warsaw:20261205T093500
+SUMMARY:Qe. (L)
+LOCATION:18/ 54
+DESCRIPTION:Quality engineering in modern production technologies\nRodzaj:
+  laboratorium\nProwadzący: dr inż. Spadło Kacper\nNr zajęć: 1/12\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0873525bec6b9302b100f353@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261205T095000
+DTEND;TZID=Europe/Warsaw:20261205T112500
+SUMMARY:Qe. (L)
+LOCATION:18/ 54
+DESCRIPTION:Quality engineering in modern production technologies\nRodzaj:
+  laboratorium\nProwadzący: dr inż. Kończalski Karol\nNr zajęć: 2/12\
+ nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0ee80ae67c0ecf4b2c68e5e1@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261205T114000
+DTEND;TZID=Europe/Warsaw:20261205T131500
+SUMMARY:Zszj (w)
+LOCATION:5/ 20
+DESCRIPTION:Zintegrowane systemy zarządzania jakością\nRodzaj: wykład\
+ nProwadzący: dr inż. (prof. ucz.) Kowalczyk Stanisław\nNr zajęć: 3/5
+ \nBlok: 3\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:bde93a9fab28ed4823c958b1@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261205T133000
+DTEND;TZID=Europe/Warsaw:20261205T150500
+SUMMARY:Zszj (w)
+LOCATION:5/ 20
+DESCRIPTION:Zintegrowane systemy zarządzania jakością\nRodzaj: wykład\
+ nProwadzący: dr inż. (prof. ucz.) Kowalczyk Stanisław\nNr zajęć: 4/5
+ \nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:aa7f0361ffd43accbaf795b0@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261205T152000
+DTEND;TZID=Europe/Warsaw:20261205T165500
+SUMMARY:Zmn (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Zastosowanie metod numerycznych w procesach technologicznych\n
+ Rodzaj: laboratorium\nProwadzący: ppłk dr inż. Kędzierski Piotr\; dr 
+ inż. Puchała Krzysztof\nNr zajęć: 5/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:3471da68c79ac2c1b931972a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261205T171000
+DTEND;TZID=Europe/Warsaw:20261205T184500
+SUMMARY:PiWSI (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Projektowanie i wytwarzanie z wykorzystaniem metod sztucznej i
+ nteligencji 1\nRodzaj: laboratorium\nProwadzący: por. mgr inż. Sarzyńs
+ ki Bartłomiej\; mgr inż. Jasik Katarzyna\nNr zajęć: 5/11\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:2670dd6ff8edfaaefbb5ddf0@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261205T190000
+DTEND;TZID=Europe/Warsaw:20261205T203500
+SUMMARY:PiWSI (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Projektowanie i wytwarzanie z wykorzystaniem metod sztucznej i
+ nteligencji 1\nRodzaj: laboratorium\nProwadzący: por. mgr inż. Sarzyńs
+ ki Bartłomiej\; mgr inż. Jasik Katarzyna\nNr zajęć: 6/11\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:0c1d7028b2501cae95c9c4cb@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261206T080000
+DTEND;TZID=Europe/Warsaw:20261206T093500
+SUMMARY:Zmn (w)
+LOCATION:8/ 62
+DESCRIPTION:Zastosowanie metod numerycznych w procesach technologicznych\n
+ Rodzaj: wykład\nProwadzący: dr inż. Moneta Grzegorz\nNr zajęć: 4/5\n
+ Blok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:722e70eaff690adfd1de6963@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261206T095000
+DTEND;TZID=Europe/Warsaw:20261206T112500
+SUMMARY:Mrwd (L)
+LOCATION:7/ 23A
+DESCRIPTION:Metodyka rekonstrukcji wypadków drogowych\nRodzaj: laboratori
+ um\nProwadzący: mgr inż. Krusiewicz Marian Zbigniew\nNr zajęć: 5/10\n
+ Blok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6f9fdb846c60c1245d9bbc87@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261206T114000
+DTEND;TZID=Europe/Warsaw:20261206T131500
+SUMMARY:Mrwd (L)
+LOCATION:7/ 23A
+DESCRIPTION:Metodyka rekonstrukcji wypadków drogowych\nRodzaj: laboratori
+ um\nProwadzący: mgr inż. Krusiewicz Marian Zbigniew\nNr zajęć: 6/10\n
+ Blok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9020c54640fd6570741f348b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261206T133000
+DTEND;TZID=Europe/Warsaw:20261206T150500
+SUMMARY:ZMwBM (S)
+LOCATION:116/ 54
+DESCRIPTION:Zaawansowane materiały w budowie maszyn\nRodzaj: seminarium\n
+ Prowadzący: dr inż. Kosturek Robert\nNr zajęć: 1/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d87978082cc0a8cc8db1e9da@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261206T152000
+DTEND;TZID=Europe/Warsaw:20261206T165500
+SUMMARY:Qe. (w)
+LOCATION:116/ 54
+DESCRIPTION:Quality engineering in modern production technologies\nRodzaj:
+  wykład\nProwadzący: dr inż. Kluczyński Janusz\nNr zajęć: 3/5\nBlok
+ : 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f62e27fd13c078f148a7f2b1@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261212T080000
+DTEND;TZID=Europe/Warsaw:20261212T093500
+SUMMARY:ZMwBM (w)
+LOCATION:2.09/ 54A
+DESCRIPTION:Zaawansowane materiały w budowie maszyn\nRodzaj: wykład\nPro
+ wadzący: dr hab. inż. (prof. ucz.) Wachowski Marcin\nNr zajęć: 3/6\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e9046544a0bfd5ada53682e9@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261212T095000
+DTEND;TZID=Europe/Warsaw:20261212T112500
+SUMMARY:Zszj (ć)
+LOCATION:5/ 20
+DESCRIPTION:Zintegrowane systemy zarządzania jakością\nRodzaj: ćwiczen
+ ia\nProwadzący: dr inż. (prof. ucz.) Kowalczyk Stanisław\nNr zajęć: 
+ 1/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7b2592878fdd2c953c64819e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261212T114000
+DTEND;TZID=Europe/Warsaw:20261212T131500
+SUMMARY:Pm. (P)
+LOCATION:9/ 62\;116/ 54
+DESCRIPTION:Projektowanie maszyn\nRodzaj: projekt\nProwadzący: prof. dr h
+ ab. inż. Bogdanowicz Zdzisław\; dr inż. Szachogłuchowicz Ireneusz\nNr
+  zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:bfaf461e6edc6584d26e4088@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261212T133000
+DTEND;TZID=Europe/Warsaw:20261212T150500
+SUMMARY:Pm. (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Projektowanie maszyn\nRodzaj: laboratorium\nProwadzący: dr in
+ ż. Szachogłuchowicz Ireneusz\; dr inż. Łuszczek Jakub\nNr zajęć: 4/
+ 8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6af0e1cbd334ee8bd66d99e1@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261212T152000
+DTEND;TZID=Europe/Warsaw:20261212T165500
+SUMMARY:Pm. (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Projektowanie maszyn\nRodzaj: laboratorium\nProwadzący: dr in
+ ż. Szachogłuchowicz Ireneusz\; dr inż. Łuszczek Jakub\nNr zajęć: 5/
+ 8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:ea32799adfc6572ddacbd85a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261212T171000
+DTEND;TZID=Europe/Warsaw:20261212T184500
+SUMMARY:Ntł. (L)
+LOCATION:18/ 54\;120/ 54
+DESCRIPTION:Nowoczesne technologie łączenia i postprocesingu elementów 
+ wytwarzanych przyrostowo\nRodzaj: laboratorium\nProwadzący: dr inż. Sza
+ chogłuchowicz Ireneusz\; dr inż. Kluczyński Janusz\nNr zajęć: 1/10\n
+ Blok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:5f3e872d05e26f7049fac641@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261212T190000
+DTEND;TZID=Europe/Warsaw:20261212T203500
+SUMMARY:Zmn (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Zastosowanie metod numerycznych w procesach technologicznych\n
+ Rodzaj: laboratorium\nProwadzący: ppłk dr inż. Kędzierski Piotr\; dr 
+ inż. Puchała Krzysztof\nNr zajęć: 6/9\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:ec09870ded4ccf6f67c96956@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261213T080000
+DTEND;TZID=Europe/Warsaw:20261213T093500
+SUMMARY:Mrwd (L)
+LOCATION:7/ 23A
+DESCRIPTION:Metodyka rekonstrukcji wypadków drogowych\nRodzaj: laboratori
+ um\nProwadzący: mgr inż. Krusiewicz Marian Zbigniew\nNr zajęć: 7/10\n
+ Blok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:984bac2622821d5fce4f9dca@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261213T095000
+DTEND;TZID=Europe/Warsaw:20261213T112500
+SUMMARY:Mrwd (L)
+LOCATION:7/ 23A
+DESCRIPTION:Metodyka rekonstrukcji wypadków drogowych\nRodzaj: laboratori
+ um\nProwadzący: mgr inż. Krusiewicz Marian Zbigniew\nNr zajęć: 8/10\n
+ Blok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:aaf038512142c5beafce0a19@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261213T114000
+DTEND;TZID=Europe/Warsaw:20261213T131500
+SUMMARY:Ntł. (w)
+LOCATION:120/ 54
+DESCRIPTION:Nowoczesne technologie łączenia i postprocesingu elementów 
+ wytwarzanych przyrostowo\nRodzaj: wykład\nProwadzący: dr inż. Szachog
+ łuchowicz Ireneusz\nNr zajęć: 4/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6daec3c2c9c9e38ebe95ebee@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261213T133000
+DTEND;TZID=Europe/Warsaw:20261213T150500
+SUMMARY:Zszj (ć)
+LOCATION:5/ 20
+DESCRIPTION:Zintegrowane systemy zarządzania jakością\nRodzaj: ćwiczen
+ ia\nProwadzący: dr inż. (prof. ucz.) Kowalczyk Stanisław\nNr zajęć: 
+ 2/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:46817d86bd28933ea057b7d8@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261213T152000
+DTEND;TZID=Europe/Warsaw:20261213T165500
+SUMMARY:Mrwd (L)
+LOCATION:7/ 23A
+DESCRIPTION:Metodyka rekonstrukcji wypadków drogowych\nRodzaj: laboratori
+ um\nProwadzący: mgr inż. Krusiewicz Marian Zbigniew\nNr zajęć: 9/10\n
+ Blok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:38e57358e9a388935bbf078c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261219T080000
+DTEND;TZID=Europe/Warsaw:20261219T093500
+SUMMARY:ZMwBM (w)
+LOCATION:2.09/ 54A
+DESCRIPTION:Zaawansowane materiały w budowie maszyn\nRodzaj: wykład\nPro
+ wadzący: dr hab. inż. (prof. ucz.) Wachowski Marcin\nNr zajęć: 4/6\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ff583e10cf49902bfde4490d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261219T095000
+DTEND;TZID=Europe/Warsaw:20261219T112500
+SUMMARY:ZMwBM (S)
+LOCATION:116/ 54
+DESCRIPTION:Zaawansowane materiały w budowie maszyn\nRodzaj: seminarium\n
+ Prowadzący: dr inż. Kosturek Robert\nNr zajęć: 2/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:28bbe18d69840370a05efacf@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261219T114000
+DTEND;TZID=Europe/Warsaw:20261219T131500
+SUMMARY:Pm. (P)
+LOCATION:52/ 62\;116/ 54
+DESCRIPTION:Projektowanie maszyn\nRodzaj: projekt\nProwadzący: prof. dr h
+ ab. inż. Bogdanowicz Zdzisław\; dr inż. Szachogłuchowicz Ireneusz\nNr
+  zajęć: 5/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d78d2ae24d265b4f5507ced9@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261219T133000
+DTEND;TZID=Europe/Warsaw:20261219T150500
+SUMMARY:Ntł. (L)
+LOCATION:18/ 54\;120/ 54
+DESCRIPTION:Nowoczesne technologie łączenia i postprocesingu elementów 
+ wytwarzanych przyrostowo\nRodzaj: laboratorium\nProwadzący: dr inż. Sza
+ chogłuchowicz Ireneusz\; dr inż. Kluczyński Janusz\nNr zajęć: 2/10\n
+ Blok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:46f477e01457da066ea05b9b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261219T152000
+DTEND;TZID=Europe/Warsaw:20261219T165500
+SUMMARY:Ntł. (L)
+LOCATION:18/ 54\;120/ 54
+DESCRIPTION:Nowoczesne technologie łączenia i postprocesingu elementów 
+ wytwarzanych przyrostowo\nRodzaj: laboratorium\nProwadzący: dr inż. Sza
+ chogłuchowicz Ireneusz\; dr inż. Kluczyński Janusz\nNr zajęć: 3/10\n
+ Blok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:7c0df625da7cce05646a8cb5@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261219T171000
+DTEND;TZID=Europe/Warsaw:20261219T184500
+SUMMARY:Qe. (L)
+LOCATION:18/ 54
+DESCRIPTION:Quality engineering in modern production technologies\nRodzaj:
+  laboratorium\nProwadzący: dr inż. Spadło Kacper\nNr zajęć: 3/12\nBl
+ ok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:466d0894997166fb14ced510@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261219T190000
+DTEND;TZID=Europe/Warsaw:20261219T203500
+SUMMARY:Qe. (L)
+LOCATION:18/ 54
+DESCRIPTION:Quality engineering in modern production technologies\nRodzaj:
+  laboratorium\nProwadzący: dr inż. Kończalski Karol\nNr zajęć: 4/12\
+ nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:3348aaa851bbda55fa9ac6cd@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261220T080000
+DTEND;TZID=Europe/Warsaw:20261220T093500
+SUMMARY:PiWSI (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Projektowanie i wytwarzanie z wykorzystaniem metod sztucznej i
+ nteligencji 1\nRodzaj: laboratorium\nProwadzący: por. mgr inż. Sarzyńs
+ ki Bartłomiej\; mgr inż. Jasik Katarzyna\nNr zajęć: 7/11\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:33aca35ea7c6024a1a08c92c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261220T095000
+DTEND;TZID=Europe/Warsaw:20261220T112500
+SUMMARY:PiWSI (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Projektowanie i wytwarzanie z wykorzystaniem metod sztucznej i
+ nteligencji 1\nRodzaj: laboratorium\nProwadzący: por. mgr inż. Sarzyńs
+ ki Bartłomiej\; mgr inż. Jasik Katarzyna\nNr zajęć: 8/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e012f14b13106e909b3b2168@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261220T114000
+DTEND;TZID=Europe/Warsaw:20261220T131500
+SUMMARY:Qe. (L)
+LOCATION:18/ 54
+DESCRIPTION:Quality engineering in modern production technologies\nRodzaj:
+  laboratorium\nProwadzący: dr inż. Kluczyński Janusz\nNr zajęć: 5/12
+ \nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:468eaf674882dd8c29469ef6@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261220T133000
+DTEND;TZID=Europe/Warsaw:20261220T150500
+SUMMARY:Qe. (L)
+LOCATION:18/ 54
+DESCRIPTION:Quality engineering in modern production technologies\nRodzaj:
+  laboratorium\nProwadzący: kpt. mgr inż. Klimek Agnieszka\nNr zajęć: 
+ 6/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9d839f2f7fc43ed18aa68dc0@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261220T152000
+DTEND;TZID=Europe/Warsaw:20261220T165500
+SUMMARY:Mrwd (L)
+LOCATION:7/ 23A
+DESCRIPTION:Metodyka rekonstrukcji wypadków drogowych\nRodzaj: laboratori
+ um\nProwadzący: mgr inż. Krusiewicz Marian Zbigniew\nNr zajęć: 10/10\
+ nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:5e0242b707f53f915057c2a4@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270109T080000
+DTEND;TZID=Europe/Warsaw:20270109T093500
+SUMMARY:Sd. (S)
+LOCATION:2.09/ 54A
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: ppłk d
+ r inż. Ślęzak Tomasz\nNr zajęć: 2/2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:de6cfa66dd6952ae6ff27582@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270109T095000
+DTEND;TZID=Europe/Warsaw:20270109T112500
+SUMMARY:Pm. (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Projektowanie maszyn\nRodzaj: laboratorium\nProwadzący: dr in
+ ż. Szachogłuchowicz Ireneusz\; dr inż. Łuszczek Jakub\nNr zajęć: 6/
+ 8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a9d6b536242056072d8fd6a6@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270109T114000
+DTEND;TZID=Europe/Warsaw:20270109T131500
+SUMMARY:Pm. (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Projektowanie maszyn\nRodzaj: laboratorium\nProwadzący: dr in
+ ż. Szachogłuchowicz Ireneusz\; dr inż. Łuszczek Jakub\nNr zajęć: 7/
+ 8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:140f0701e3fd5afa02c702bb@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270109T133000
+DTEND;TZID=Europe/Warsaw:20270109T150500
+SUMMARY:Ntł. (L)
+LOCATION:18/ 54\;120/ 54
+DESCRIPTION:Nowoczesne technologie łączenia i postprocesingu elementów 
+ wytwarzanych przyrostowo\nRodzaj: laboratorium\nProwadzący: dr inż. Sza
+ chogłuchowicz Ireneusz\; dr inż. Kluczyński Janusz\nNr zajęć: 4/10\n
+ Blok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2f06746a80213f51bd041ba8@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270109T152000
+DTEND;TZID=Europe/Warsaw:20270109T165500
+SUMMARY:Ntł. (L)
+LOCATION:18/ 54\;120/ 54
+DESCRIPTION:Nowoczesne technologie łączenia i postprocesingu elementów 
+ wytwarzanych przyrostowo\nRodzaj: laboratorium\nProwadzący: dr inż. Sza
+ chogłuchowicz Ireneusz\; dr inż. Kluczyński Janusz\nNr zajęć: 5/10\n
+ Blok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:a066a0ea552f35529cba280c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270109T171000
+DTEND;TZID=Europe/Warsaw:20270109T184500
+SUMMARY:Qe. (w)
+LOCATION:2.09/ 54A
+DESCRIPTION:Quality engineering in modern production technologies\nRodzaj:
+  wykład\nProwadzący: dr inż. Kluczyński Janusz\nNr zajęć: 4/5\nBlok
+ : 6
+END:VEVENT
+BEGIN:VEVENT
+UID:7f7870956b8f0901a8884628@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270109T190000
+DTEND;TZID=Europe/Warsaw:20270109T203500
+SUMMARY:ZMwBM (w)
+LOCATION:2.09/ 54A
+DESCRIPTION:Zaawansowane materiały w budowie maszyn\nRodzaj: wykład\nPro
+ wadzący: dr hab. inż. (prof. ucz.) Wachowski Marcin\nNr zajęć: 5/6\nB
+ lok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:94d5af22e887db6f81003465@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270110T080000
+DTEND;TZID=Europe/Warsaw:20270110T093500
+SUMMARY:PUwMAN (L)
+LOCATION:53/ 62
+DESCRIPTION:Projektowanie uniwersalne w modelowaniu i analizach numeryczny
+ ch\nRodzaj: laboratorium\nProwadzący: dr inż. Świerczewski Marek\; dr 
+ inż. Dziewulski Paweł\nNr zajęć: 8/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:461dd25bcaff0e4f5687a9b6@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270110T095000
+DTEND;TZID=Europe/Warsaw:20270110T112500
+SUMMARY:PUwMAN (L)
+LOCATION:53/ 62
+DESCRIPTION:Projektowanie uniwersalne w modelowaniu i analizach numeryczny
+ ch\nRodzaj: laboratorium\nProwadzący: dr inż. Świerczewski Marek\; dr 
+ inż. Dziewulski Paweł\nNr zajęć: 9/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7239dd6ec9a89b90454dde06@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270110T114000
+DTEND;TZID=Europe/Warsaw:20270110T131500
+SUMMARY:PiWSI (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Projektowanie i wytwarzanie z wykorzystaniem metod sztucznej i
+ nteligencji 1\nRodzaj: laboratorium\nProwadzący: por. mgr inż. Sarzyńs
+ ki Bartłomiej\; mgr inż. Jasik Katarzyna\nNr zajęć: 9/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4fa81af36a887d67910d5142@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270110T133000
+DTEND;TZID=Europe/Warsaw:20270110T150500
+SUMMARY:PiWSI (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Projektowanie i wytwarzanie z wykorzystaniem metod sztucznej i
+ nteligencji 1\nRodzaj: laboratorium\nProwadzący: por. mgr inż. Sarzyńs
+ ki Bartłomiej\; mgr inż. Jasik Katarzyna\nNr zajęć: 10/11\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4b2079465cadd90849421e4c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270116T080000
+DTEND;TZID=Europe/Warsaw:20270116T093500
+SUMMARY:Qe. (L)
+LOCATION:18/ 54
+DESCRIPTION:Quality engineering in modern production technologies\nRodzaj:
+  laboratorium\nProwadzący: kpt. mgr inż. Klimek Agnieszka\nNr zajęć: 
+ 7/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5ada3bc64d4983cf4604ba9c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270116T095000
+DTEND;TZID=Europe/Warsaw:20270116T112500
+SUMMARY:Qe. (L)
+LOCATION:18/ 54
+DESCRIPTION:Quality engineering in modern production technologies\nRodzaj:
+  laboratorium\nProwadzący: dr inż. Kluczyński Janusz\nNr zajęć: 8/12
+ \nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2e480bee80bcc6677eac8f9c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270116T114000
+DTEND;TZID=Europe/Warsaw:20270116T131500
+SUMMARY:Zszj (ć)
+LOCATION:5/ 20
+DESCRIPTION:Zintegrowane systemy zarządzania jakością\nRodzaj: ćwiczen
+ ia\nProwadzący: dr inż. (prof. ucz.) Kowalczyk Stanisław\nNr zajęć: 
+ 3/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2a2b7131eb237c8008b0117a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270116T133000
+DTEND;TZID=Europe/Warsaw:20270116T150500
+SUMMARY:Zmn (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Zastosowanie metod numerycznych w procesach technologicznych\n
+ Rodzaj: laboratorium\nProwadzący: ppłk dr inż. Kędzierski Piotr\; dr 
+ inż. Puchała Krzysztof\nNr zajęć: 7/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b27cbba07fe55c356fb43e13@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270116T152000
+DTEND;TZID=Europe/Warsaw:20270116T165500
+SUMMARY:Zmn (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Zastosowanie metod numerycznych w procesach technologicznych\n
+ Rodzaj: laboratorium\nProwadzący: ppłk dr inż. Kędzierski Piotr\; dr 
+ inż. Puchała Krzysztof\nNr zajęć: 8/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:0603792341a76e7044801bbe@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270116T171000
+DTEND;TZID=Europe/Warsaw:20270116T184500
+SUMMARY:ZMwBM (L)
+LOCATION:19/ 54
+DESCRIPTION:Zaawansowane materiały w budowie maszyn\nRodzaj: laboratorium
+ \nProwadzący: dr hab. inż. (prof. ucz.) Wachowski Marcin\; dr inż. Kos
+ turek Robert\nNr zajęć: 1/4\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:f1ede805a86b640870b83eef@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270116T190000
+DTEND;TZID=Europe/Warsaw:20270116T203500
+SUMMARY:ZMwBM (L)
+LOCATION:19/ 54
+DESCRIPTION:Zaawansowane materiały w budowie maszyn\nRodzaj: laboratorium
+ \nProwadzący: dr hab. inż. (prof. ucz.) Wachowski Marcin\; dr inż. Kos
+ turek Robert\nNr zajęć: 2/4\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:660808bf63bf0b0c36a5bfb8@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270117T080000
+DTEND;TZID=Europe/Warsaw:20270117T093500
+SUMMARY:Ebm (L)
+LOCATION:53/ 62
+DESCRIPTION:Eksperymentalne badania materiałów dla potrzeb modelowania n
+ umerycznego\nRodzaj: laboratorium\nProwadzący: dr inż. Kucewicz Michał
+ \; mgr inż. Spychała Maciej\nNr zajęć: 4/11\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5c6e287a0bd1226f07724cea@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270117T095000
+DTEND;TZID=Europe/Warsaw:20270117T112500
+SUMMARY:Ebm (L)
+LOCATION:53/ 62
+DESCRIPTION:Eksperymentalne badania materiałów dla potrzeb modelowania n
+ umerycznego\nRodzaj: laboratorium\nProwadzący: dr inż. Kucewicz Michał
+ \; mgr inż. Spychała Maciej\nNr zajęć: 5/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:47c31babf12bb37a89c5d9b3@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270117T114000
+DTEND;TZID=Europe/Warsaw:20270117T131500
+SUMMARY:Ntł. (L)
+LOCATION:120/ 54\;18/ 54
+DESCRIPTION:Nowoczesne technologie łączenia i postprocesingu elementów 
+ wytwarzanych przyrostowo\nRodzaj: laboratorium\nProwadzący: dr inż. Grz
+ elak Krzysztof\; dr inż. Łuszczek Jakub\nNr zajęć: 6/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:aa571f1f42a7241d38bc73b4@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270117T133000
+DTEND;TZID=Europe/Warsaw:20270117T150500
+SUMMARY:Ntł. (L)
+LOCATION:120/ 54\;18/ 54
+DESCRIPTION:Nowoczesne technologie łączenia i postprocesingu elementów 
+ wytwarzanych przyrostowo\nRodzaj: laboratorium\nProwadzący: dr inż. Grz
+ elak Krzysztof\; dr inż. Łuszczek Jakub\nNr zajęć: 7/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:719a26c90ec773726d9a1626@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270117T152000
+DTEND;TZID=Europe/Warsaw:20270117T165500
+SUMMARY:Ebm (L)
+LOCATION:53/ 62
+DESCRIPTION:Eksperymentalne badania materiałów dla potrzeb modelowania n
+ umerycznego\nRodzaj: laboratorium\nProwadzący: dr inż. Kucewicz Michał
+ \; mgr inż. Spychała Maciej\nNr zajęć: 6/11\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:d892aaaccff0c71ec0e7f476@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270123T080000
+DTEND;TZID=Europe/Warsaw:20270123T093500
+SUMMARY:Qe. (L)
+LOCATION:18/ 54
+DESCRIPTION:Quality engineering in modern production technologies\nRodzaj:
+  laboratorium\nProwadzący: dr inż. Spadło Kacper\nNr zajęć: 9/12\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:31ba075a174a4a17e7ad2f53@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270123T095000
+DTEND;TZID=Europe/Warsaw:20270123T112500
+SUMMARY:Qe. (L)
+LOCATION:18/ 54
+DESCRIPTION:Quality engineering in modern production technologies\nRodzaj:
+  laboratorium\nProwadzący: dr inż. Kończalski Karol\nNr zajęć: 10/12
+ \nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:96ea9062d6b2091c4ea36420@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270123T114000
+DTEND;TZID=Europe/Warsaw:20270123T131500
+SUMMARY:Zmn (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Zastosowanie metod numerycznych w procesach technologicznych\n
+ Rodzaj: laboratorium\nProwadzący: ppłk dr inż. Kędzierski Piotr\; dr 
+ inż. Puchała Krzysztof\nNr zajęć: 9/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:66c32f88f1aece98d2b1fb64@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270123T133000
+DTEND;TZID=Europe/Warsaw:20270123T150500
+SUMMARY:Ebm (w)
+LOCATION:53/ 62
+DESCRIPTION:Eksperymentalne badania materiałów dla potrzeb modelowania n
+ umerycznego\nRodzaj: wykład\nProwadzący: dr inż. Kucewicz Michał\nNr 
+ zajęć: 3/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7bce7c476c90f9ef3c6c00a0@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270123T152000
+DTEND;TZID=Europe/Warsaw:20270123T165500
+SUMMARY:ZMwBM (w)
+LOCATION:2.09/ 54A
+DESCRIPTION:Zaawansowane materiały w budowie maszyn\nRodzaj: wykład\nPro
+ wadzący: dr hab. inż. (prof. ucz.) Wachowski Marcin\nNr zajęć: 6/6\nB
+ lok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:a7741548dbc08658166551f8@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270123T171000
+DTEND;TZID=Europe/Warsaw:20270123T184500
+SUMMARY:ZMwBM (L)
+LOCATION:5/ 62
+DESCRIPTION:Zaawansowane materiały w budowie maszyn\nRodzaj: laboratorium
+ \nProwadzący: dr hab. inż. (prof. ucz.) Wachowski Marcin\; dr inż. Kos
+ turek Robert\nNr zajęć: 3/4\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:bcaeadf905d28f5b151fd1d5@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270123T190000
+DTEND;TZID=Europe/Warsaw:20270123T203500
+SUMMARY:Qe. (L)
+LOCATION:18/ 54
+DESCRIPTION:Quality engineering in modern production technologies\nRodzaj:
+  laboratorium\nProwadzący: kpt. mgr inż. Klimek Agnieszka\nNr zajęć: 
+ 11/12\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:dbe9bb13223678c69ec024c8@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270124T080000
+DTEND;TZID=Europe/Warsaw:20270124T093500
+SUMMARY:Mrwd (w)
+LOCATION:6/ 23A
+DESCRIPTION:Metodyka rekonstrukcji wypadków drogowych\nRodzaj: wykład\nP
+ rowadzący: dr hab. inż.(prof. ucz.) Gidlewski Mirosław\nNr zajęć: 5/
+ 5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4737ab23d7ec7e0a4a0d075d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270124T095000
+DTEND;TZID=Europe/Warsaw:20270124T112500
+SUMMARY:Zszj (w)
+LOCATION:15/ 23A
+DESCRIPTION:Zintegrowane systemy zarządzania jakością\nRodzaj: wykład\
+ nProwadzący: dr inż. (prof. ucz.) Kowalczyk Stanisław\nNr zajęć: 5/5
+ \nBlok: 2\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:01158a938a919064c2dd4127@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270124T114000
+DTEND;TZID=Europe/Warsaw:20270124T131500
+SUMMARY:Ntł. (L)
+LOCATION:120/ 54\;18/ 54
+DESCRIPTION:Nowoczesne technologie łączenia i postprocesingu elementów 
+ wytwarzanych przyrostowo\nRodzaj: laboratorium\nProwadzący: dr inż. Grz
+ elak Krzysztof\; dr inż. Łuszczek Jakub\nNr zajęć: 8/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ca61577b289f45fc1a4488f2@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270124T133000
+DTEND;TZID=Europe/Warsaw:20270124T150500
+SUMMARY:Ntł. (L)
+LOCATION:120/ 54\;18/ 54
+DESCRIPTION:Nowoczesne technologie łączenia i postprocesingu elementów 
+ wytwarzanych przyrostowo\nRodzaj: laboratorium\nProwadzący: dr inż. Grz
+ elak Krzysztof\; dr inż. Łuszczek Jakub\nNr zajęć: 9/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:55c2021525fedf9c41a38af0@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270124T152000
+DTEND;TZID=Europe/Warsaw:20270124T165500
+SUMMARY:ZMwBM (L)
+LOCATION:5/ 62
+DESCRIPTION:Zaawansowane materiały w budowie maszyn\nRodzaj: laboratorium
+ \nProwadzący: dr hab. inż. (prof. ucz.) Wachowski Marcin\; dr inż. Kos
+ turek Robert\nNr zajęć: 4/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:ba0d2e2e7a28a7402f7f15fe@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270130T080000
+DTEND;TZID=Europe/Warsaw:20270130T093500
+SUMMARY:Qe. (L)
+LOCATION:18/ 54
+DESCRIPTION:Quality engineering in modern production technologies\nRodzaj:
+  laboratorium\nProwadzący: dr inż. Kluczyński Janusz\nNr zajęć: 12/1
+ 2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6fdb6c1ab896f0be51398af2@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270130T095000
+DTEND;TZID=Europe/Warsaw:20270130T112500
+SUMMARY:Pm. (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Projektowanie maszyn\nRodzaj: laboratorium\nProwadzący: dr in
+ ż. Szachogłuchowicz Ireneusz\; dr inż. Łuszczek Jakub\nNr zajęć: 8/
+ 8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:cb75ef1ffd82e8ebafa61e5d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270130T114000
+DTEND;TZID=Europe/Warsaw:20270130T131500
+SUMMARY:Zmn (w)
+LOCATION:116/ 54
+DESCRIPTION:Zastosowanie metod numerycznych w procesach technologicznych\n
+ Rodzaj: wykład\nProwadzący: dr inż. Puchała Krzysztof\nNr zajęć: 5/
+ 5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:806d014c128d5de59b6ef81b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270130T133000
+DTEND;TZID=Europe/Warsaw:20270130T150500
+SUMMARY:Ntł. (L)
+LOCATION:120/ 54\;18/ 54
+DESCRIPTION:Nowoczesne technologie łączenia i postprocesingu elementów 
+ wytwarzanych przyrostowo\nRodzaj: laboratorium\nProwadzący: dr inż. Grz
+ elak Krzysztof\; dr inż. Łuszczek Jakub\nNr zajęć: 10/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:61e1beff662584e395ac5459@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270130T152000
+DTEND;TZID=Europe/Warsaw:20270130T165500
+SUMMARY:ZMwBM (S)
+LOCATION:2.42/ 54A
+DESCRIPTION:Zaawansowane materiały w budowie maszyn\nRodzaj: seminarium\n
+ Prowadzący: dr hab. inż. (prof. ucz.) Wachowski Marcin\nNr zajęć: 3/4
+ \nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:4deeb3cbe28c94cc65195b87@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270130T171000
+DTEND;TZID=Europe/Warsaw:20270130T184500
+SUMMARY:ZMwBM (S)
+LOCATION:2.42/ 54A
+DESCRIPTION:Zaawansowane materiały w budowie maszyn\nRodzaj: seminarium\n
+ Prowadzący: dr hab. inż. (prof. ucz.) Wachowski Marcin\nNr zajęć: 4/4
+ \nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:a24790920dfc4814e3629454@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270130T190000
+DTEND;TZID=Europe/Warsaw:20270130T203500
+SUMMARY:PiWSI (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Projektowanie i wytwarzanie z wykorzystaniem metod sztucznej i
+ nteligencji 1\nRodzaj: laboratorium\nProwadzący: dr inż. Łuszczek Jaku
+ b\; dr inż. Grzelak Krzysztof\nNr zajęć: 11/11\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:f95484fa56a7d3c0c39d4013@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270131T080000
+DTEND;TZID=Europe/Warsaw:20270131T093500
+SUMMARY:Ebm (L)
+LOCATION:53/ 62
+DESCRIPTION:Eksperymentalne badania materiałów dla potrzeb modelowania n
+ umerycznego\nRodzaj: laboratorium\nProwadzący: dr inż. Kucewicz Michał
+ \; mgr inż. Spychała Maciej\nNr zajęć: 7/11\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:80625d38c42ceb4df12f9a81@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270131T095000
+DTEND;TZID=Europe/Warsaw:20270131T112500
+SUMMARY:Ebm (L)
+LOCATION:53/ 62
+DESCRIPTION:Eksperymentalne badania materiałów dla potrzeb modelowania n
+ umerycznego\nRodzaj: laboratorium\nProwadzący: dr inż. Kucewicz Michał
+ \; mgr inż. Spychała Maciej\nNr zajęć: 8/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7bd51332bc0011fa42f9106d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270131T114000
+DTEND;TZID=Europe/Warsaw:20270131T131500
+SUMMARY:Ebm (L)
+LOCATION:53/ 62
+DESCRIPTION:Eksperymentalne badania materiałów dla potrzeb modelowania n
+ umerycznego\nRodzaj: laboratorium\nProwadzący: dr inż. Kucewicz Michał
+ \; mgr inż. Spychała Maciej\nNr zajęć: 9/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6e57e22c1873fa46019a8965@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270131T133000
+DTEND;TZID=Europe/Warsaw:20270131T150500
+SUMMARY:Qe. (w)
+LOCATION:2.09/ 54A
+DESCRIPTION:Quality engineering in modern production technologies\nRodzaj:
+  wykład\nProwadzący: dr inż. Kluczyński Janusz\nNr zajęć: 5/5\nBlok
+ : 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2e44569249b02dc483911217@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270131T152000
+DTEND;TZID=Europe/Warsaw:20270131T165500
+SUMMARY:Ebm (L)
+LOCATION:53/ 62
+DESCRIPTION:Eksperymentalne badania materiałów dla potrzeb modelowania n
+ umerycznego\nRodzaj: laboratorium\nProwadzący: dr inż. Kucewicz Michał
+ \; mgr inż. Spychała Maciej\nNr zajęć: 10/11\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:ff6c7f3bf594d5263d9eddb4@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270131T171000
+DTEND;TZID=Europe/Warsaw:20270131T184500
+SUMMARY:Ebm (L)
+LOCATION:53/ 62
+DESCRIPTION:Eksperymentalne badania materiałów dla potrzeb modelowania n
+ umerycznego\nRodzaj: laboratorium\nProwadzący: dr inż. Kucewicz Michał
+ \; mgr inż. Spychała Maciej\nNr zajęć: 11/11\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:594cd68a8541ec5f2c62d69e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270213T080000
+DTEND;TZID=Europe/Warsaw:20270213T093500
+SUMMARY:ZMwBM (Zp/lab.)
+LOCATION:19/ 54
+DESCRIPTION:Zaawansowane materiały w budowie maszyn\nProwadzący: dr hab.
+  inż. (prof. ucz.) Wachowski Marcin\; dr inż. Kosturek Robert\nNr zaję
+ ć: 1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:139a5c66eda745fab6f73cd2@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270213T095000
+DTEND;TZID=Europe/Warsaw:20270213T112500
+SUMMARY:ZMwBM (E)
+LOCATION:2.09/ 54A
+DESCRIPTION:Zaawansowane materiały w budowie maszyn\nRodzaj: egzamin\nPro
+ wadzący: dr hab. inż. (prof. ucz.) Wachowski Marcin\; dr inż. Kosturek
+  Robert\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:12a8dd1bda9bdeedfed1f5f1@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270213T114000
+DTEND;TZID=Europe/Warsaw:20270213T131500
+SUMMARY:Ntł. (Zp/lab.)
+LOCATION:120/ 54\;18/ 54\; Grz.K\; Łu.J.\; Klu.J\; Sza.I
+DESCRIPTION:Nowoczesne technologie łączenia i postprocesingu elementów 
+ wytwarzanych przyrostowo\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b401dff2243b11b4f5ca5f07@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270213T133000
+DTEND;TZID=Europe/Warsaw:20270213T150500
+SUMMARY:Qe. (Zp/lab.)
+LOCATION:18/ 54
+DESCRIPTION:Quality engineering in modern production technologies\nProwadz
+ ący: dr inż. Spadło Kacper\; dr inż. Kończalski Karol\nNr zajęć: 1
+ /1\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c9d7fd55b514d67b35ae4dad@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270213T152000
+DTEND;TZID=Europe/Warsaw:20270213T165500
+SUMMARY:Zmn (Zp.)
+LOCATION:116/ 54
+DESCRIPTION:Zastosowanie metod numerycznych w procesach technologicznych\n
+ Rodzaj: zaliczenie poprawkowe\nProwadzący: dr inż. Puchała Krzysztof\n
+ Nr zajęć: 1/1\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f14e5de49ceafe1254d13a15@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270213T171000
+DTEND;TZID=Europe/Warsaw:20270213T184500
+SUMMARY:Pm. (Zp/lab.)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Projektowanie maszyn\nProwadzący: dr inż. Szachogłuchowicz 
+ Ireneusz\; dr inż. Łuszczek Jakub\nNr zajęć: 1/1\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:e86cf26ad3bc49a3255d5911@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270214T095000
+DTEND;TZID=Europe/Warsaw:20270214T112500
+SUMMARY:PiWSI (Zp/lab.)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Projektowanie i wytwarzanie z wykorzystaniem metod sztucznej i
+ nteligencji 1\nProwadzący: por. mgr inż. Sarzyński Bartłomiej\; dr in
+ ż. Grzelak Krzysztof\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:19ac4296937d31ac464bec8e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270214T114000
+DTEND;TZID=Europe/Warsaw:20270214T131500
+SUMMARY:Mrwd (Zp/lab.)
+LOCATION:7/ 23A
+DESCRIPTION:Metodyka rekonstrukcji wypadków drogowych\nProwadzący: dr ha
+ b. inż.(prof. ucz.) Gidlewski Mirosław\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:050d2958f09f22a54eea4320@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270214T133000
+DTEND;TZID=Europe/Warsaw:20270214T150500
+SUMMARY:PUwMAN (Zp/lab.)
+LOCATION:53/ 62
+DESCRIPTION:Projektowanie uniwersalne w modelowaniu i analizach numeryczny
+ ch\nProwadzący: dr inż. Świerczewski Marek\; dr inż. Dziewulski Pawe
+ ł\nNr zajęć: 1/1\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:798c48192f0d39c9f73606f5@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270220T080000
+DTEND;TZID=Europe/Warsaw:20270220T093500
+SUMMARY:PiWSI (Zp.)
+LOCATION:2.01/ 54A
+DESCRIPTION:Projektowanie i wytwarzanie z wykorzystaniem metod sztucznej i
+ nteligencji 1\nRodzaj: zaliczenie poprawkowe\nProwadzący: dr inż. Łusz
+ czek Jakub\nNr zajęć: 1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e6fbb144fbc8ccbe2b6bd2ec@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270220T095000
+DTEND;TZID=Europe/Warsaw:20270220T112500
+SUMMARY:ZMwBM (Ep)
+LOCATION:2.09/ 54A
+DESCRIPTION:Zaawansowane materiały w budowie maszyn\nRodzaj: egzamin popr
+ awkowy\nProwadzący: dr hab. inż. (prof. ucz.) Wachowski Marcin\; dr in
+ ż. Kosturek Robert\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:bdc6461dd53d0b5d4eef05b7@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270220T114000
+DTEND;TZID=Europe/Warsaw:20270220T131500
+SUMMARY:Ebm (Zp.)
+LOCATION:53/ 62
+DESCRIPTION:Eksperymentalne badania materiałów dla potrzeb modelowania n
+ umerycznego\nRodzaj: zaliczenie poprawkowe\nProwadzący: dr inż. Kucewic
+ z Michał\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:212f8385eb65570523f24eaa@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270220T133000
+DTEND;TZID=Europe/Warsaw:20270220T150500
+SUMMARY:Ntł. (Zp.)
+LOCATION:116/ 54
+DESCRIPTION:Nowoczesne technologie łączenia i postprocesingu elementów 
+ wytwarzanych przyrostowo\nRodzaj: zaliczenie poprawkowe\nProwadzący: dr 
+ inż. Kluczyński Janusz\nNr zajęć: 1/1\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:013aadccaa23ab6a5c731267@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270220T152000
+DTEND;TZID=Europe/Warsaw:20270220T165500
+SUMMARY:Qe. (Zp.)
+LOCATION:116/ 54
+DESCRIPTION:Quality engineering in modern production technologies\nRodzaj:
+  zaliczenie poprawkowe\nProwadzący: dr inż. Kluczyński Janusz\nNr zaj
+ ęć: 1/1\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:649bf71e45fb92f3a6091ab1@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270221T080000
+DTEND;TZID=Europe/Warsaw:20270221T093500
+SUMMARY:Mrwd (Zp.)
+LOCATION:6/ 23A
+DESCRIPTION:Metodyka rekonstrukcji wypadków drogowych\nRodzaj: zaliczenie
+  poprawkowe\nProwadzący: dr hab. inż.(prof. ucz.) Gidlewski Mirosław\n
+ Nr zajęć: 1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a8123d8155da53ef9c81659e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270221T095000
+DTEND;TZID=Europe/Warsaw:20270221T112500
+SUMMARY:Pm. (Zp.)
+LOCATION:52/ 62
+DESCRIPTION:Projektowanie maszyn\nRodzaj: zaliczenie poprawkowe\nProwadzą
+ cy: prof. dr hab. inż. Bogdanowicz Zdzisław\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d6f73d40c7b8e18c5a39fa3f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270221T114000
+DTEND;TZID=Europe/Warsaw:20270221T131500
+SUMMARY:PUwMAN (Zp.)
+LOCATION:52/ 62
+DESCRIPTION:Projektowanie uniwersalne w modelowaniu i analizach numeryczny
+ ch\nRodzaj: zaliczenie poprawkowe\nProwadzący: dr inż. Świerczewski Ma
+ rek\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:61c70a3ba9fc7a72775c1878@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270221T133000
+DTEND;TZID=Europe/Warsaw:20270221T150500
+SUMMARY:Zszj (Zp.)
+LOCATION:5/ 20
+DESCRIPTION:Zintegrowane systemy zarządzania jakością\nRodzaj: zaliczen
+ ie poprawkowe\nProwadzący: dr inż. (prof. ucz.) Kowalczyk Stanisław\nN
+ r zajęć: 1/1\nBlok: 4
+END:VEVENT
+END:VCALENDAR

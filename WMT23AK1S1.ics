@@ -1,0 +1,433 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WMT23AK1S1
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:64c24511c678227f8f78a9c8@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261002T080000
+DTEND;TZID=Europe/Warsaw:20261002T093500
+SUMMARY:Znisj (w)
+LOCATION:6 25
+DESCRIPTION:Zarządzanie\, normalizacja i systemy jakości\nRodzaj: wykła
+ d\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 1/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e4a33e33b4ff91c5d1a9a33d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261002T095000
+DTEND;TZID=Europe/Warsaw:20261002T112500
+SUMMARY:Sd. (S)
+LOCATION:7 25
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr hab.
+  inż. Janiszewski Jacek\nNr zajęć: 1/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:02e1a7047c7e5324e8381a87@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261002T114000
+DTEND;TZID=Europe/Warsaw:20261002T131500
+SUMMARY:Znisj (P)
+LOCATION:7 25
+DESCRIPTION:Zarządzanie\, normalizacja i systemy jakości\nRodzaj: projek
+ t\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 1/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5dddd396bbe3e6e63621da86@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261009T080000
+DTEND;TZID=Europe/Warsaw:20261009T093500
+SUMMARY:Znisj (w)
+LOCATION:6 25
+DESCRIPTION:Zarządzanie\, normalizacja i systemy jakości\nRodzaj: wykła
+ d\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 2/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:944121baa49ad1cc5427861e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261009T095000
+DTEND;TZID=Europe/Warsaw:20261009T112500
+SUMMARY:Znisj (P)
+LOCATION:7 25
+DESCRIPTION:Zarządzanie\, normalizacja i systemy jakości\nRodzaj: projek
+ t\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:bb231fe1ae5ee4d86c00dddf@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261009T114000
+DTEND;TZID=Europe/Warsaw:20261009T131500
+SUMMARY:Sd. (S)
+LOCATION:7 25
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr hab.
+  inż. Janiszewski Jacek\nNr zajęć: 2/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a230c467f522d5401d25fc92@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261009T133000
+DTEND;TZID=Europe/Warsaw:20261009T150500
+SUMMARY:Sd. (S)
+LOCATION:6 25
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr hab.
+  inż. Janiszewski Jacek\nNr zajęć: 3/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:34abe416e5843a64996ccb87@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261021T095000
+DTEND;TZID=Europe/Warsaw:20261021T112500
+SUMMARY:Znisj (ć)
+LOCATION:17 25
+DESCRIPTION:Zarządzanie\, normalizacja i systemy jakości\nRodzaj: ćwicz
+ enia\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 1/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:92141dcb09c7b2104ef86efb@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261021T114000
+DTEND;TZID=Europe/Warsaw:20261021T131500
+SUMMARY:Znisj (ć)
+LOCATION:17 25
+DESCRIPTION:Zarządzanie\, normalizacja i systemy jakości\nRodzaj: ćwicz
+ enia\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 2/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:338162f92a90b1fb41cff1f5@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261023T080000
+DTEND;TZID=Europe/Warsaw:20261023T093500
+SUMMARY:Znisj (S)
+LOCATION:7 25
+DESCRIPTION:Zarządzanie\, normalizacja i systemy jakości\nRodzaj: semina
+ rium\nProwadzący: mgr inż. Modrzejewski Patryk\nNr zajęć: 1/7\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:de1326e44d3ee477be9fcd77@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261023T095000
+DTEND;TZID=Europe/Warsaw:20261023T112500
+SUMMARY:Znisj (w)
+LOCATION:20 25
+DESCRIPTION:Zarządzanie\, normalizacja i systemy jakości\nRodzaj: wykła
+ d\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 3/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f9f06b756d90582553aca589@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261028T133000
+DTEND;TZID=Europe/Warsaw:20261028T150500
+SUMMARY:Sd. (S)
+LOCATION:7 25
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr hab.
+  inż. Janiszewski Jacek\nNr zajęć: 4/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a0b95ae9f976b2fb819803bd@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261030T095000
+DTEND;TZID=Europe/Warsaw:20261030T112500
+SUMMARY:Znisj (S)
+LOCATION:7 25
+DESCRIPTION:Zarządzanie\, normalizacja i systemy jakości\nRodzaj: semina
+ rium\nProwadzący: mgr inż. Modrzejewski Patryk\nNr zajęć: 2/7\nBlok: 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4be493d8c1edf5982fb296f3@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261030T133000
+DTEND;TZID=Europe/Warsaw:20261030T150500
+SUMMARY:Znisj (w)
+LOCATION:6 25
+DESCRIPTION:Zarządzanie\, normalizacja i systemy jakości\nRodzaj: wykła
+ d\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 4/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e87f54e59d56b832f5f9f2fc@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261104T095000
+DTEND;TZID=Europe/Warsaw:20261104T112500
+SUMMARY:Znisj (ć)
+LOCATION:17 25
+DESCRIPTION:Zarządzanie\, normalizacja i systemy jakości\nRodzaj: ćwicz
+ enia\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 3/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d915ba0c5b88d04ad7b8484c@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261104T114000
+DTEND;TZID=Europe/Warsaw:20261104T131500
+SUMMARY:Znisj (S)
+LOCATION:7 25
+DESCRIPTION:Zarządzanie\, normalizacja i systemy jakości\nRodzaj: semina
+ rium\nProwadzący: mgr inż. Modrzejewski Patryk\nNr zajęć: 3/7\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0f49d424d8d0fb7c0f1966f7@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261106T095000
+DTEND;TZID=Europe/Warsaw:20261106T112500
+SUMMARY:Znisj (w)
+LOCATION:6 25
+DESCRIPTION:Zarządzanie\, normalizacja i systemy jakości\nRodzaj: wykła
+ d\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 5/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:18139a5b89951015c1106768@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261112T095000
+DTEND;TZID=Europe/Warsaw:20261112T112500
+SUMMARY:Znisj (S)
+LOCATION:6 25
+DESCRIPTION:Zarządzanie\, normalizacja i systemy jakości\nRodzaj: semina
+ rium\nProwadzący: mgr inż. Modrzejewski Patryk\nNr zajęć: 4/7\nBlok: 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9500b1813d3690fadfd474cc@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261113T080000
+DTEND;TZID=Europe/Warsaw:20261113T093500
+SUMMARY:Znisj (ć)
+LOCATION:17 25
+DESCRIPTION:Zarządzanie\, normalizacja i systemy jakości\nRodzaj: ćwicz
+ enia\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 4/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:bdfc409c7f5b97751cc191df@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261113T095000
+DTEND;TZID=Europe/Warsaw:20261113T112500
+SUMMARY:Znisj (w)
+LOCATION:6 25
+DESCRIPTION:Zarządzanie\, normalizacja i systemy jakości\nRodzaj: wykła
+ d\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 6/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b1bd6c1b296fbac3cb966e5d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261118T080000
+DTEND;TZID=Europe/Warsaw:20261118T093500
+SUMMARY:Znisj (w)
+LOCATION:6 25
+DESCRIPTION:Zarządzanie\, normalizacja i systemy jakości\nRodzaj: wykła
+ d\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 7/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b0b53e7ca0b88b2c510fe6b7@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261118T114000
+DTEND;TZID=Europe/Warsaw:20261118T131500
+SUMMARY:Znisj (ć)
+LOCATION:17 25
+DESCRIPTION:Zarządzanie\, normalizacja i systemy jakości\nRodzaj: ćwicz
+ enia\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 5/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:686c0d0a2292d00db3842667@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261125T080000
+DTEND;TZID=Europe/Warsaw:20261125T093500
+SUMMARY:Znisj (P)
+LOCATION:6 25
+DESCRIPTION:Zarządzanie\, normalizacja i systemy jakości\nRodzaj: projek
+ t\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 3/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5c7c05e4aa09b30f30f0d981@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261125T095000
+DTEND;TZID=Europe/Warsaw:20261125T112500
+SUMMARY:Sd. (S)
+LOCATION:6 25
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr hab.
+  inż. Janiszewski Jacek\nNr zajęć: 5/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:348b14a46f97c88786cfd32a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261125T114000
+DTEND;TZID=Europe/Warsaw:20261125T131500
+SUMMARY:Sd. (S)
+LOCATION:6 25
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr hab.
+  inż. Janiszewski Jacek\nNr zajęć: 6/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:66d01a84726481fefd866118@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261126T095000
+DTEND;TZID=Europe/Warsaw:20261126T112500
+SUMMARY:Znisj (S)
+LOCATION:7 25
+DESCRIPTION:Zarządzanie\, normalizacja i systemy jakości\nRodzaj: semina
+ rium\nProwadzący: mgr inż. Modrzejewski Patryk\nNr zajęć: 5/7\nBlok: 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:70c24691b0828d1b7ead672c@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261126T133000
+DTEND;TZID=Europe/Warsaw:20261126T150500
+SUMMARY:Znisj (w)
+LOCATION:6 25
+DESCRIPTION:Zarządzanie\, normalizacja i systemy jakości\nRodzaj: wykła
+ d\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 8/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c9b3d58c8bb64555be323b31@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261202T095000
+DTEND;TZID=Europe/Warsaw:20261202T112500
+SUMMARY:Znisj (P)
+LOCATION:7 25
+DESCRIPTION:Zarządzanie\, normalizacja i systemy jakości\nRodzaj: projek
+ t\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 4/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:278fbc4fe77e400d92b171b8@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261204T095000
+DTEND;TZID=Europe/Warsaw:20261204T112500
+SUMMARY:Sd. (S)
+LOCATION:6 25
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr hab.
+  inż. Janiszewski Jacek\nNr zajęć: 7/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0143e97d7c9be92a0df870c8@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261204T114000
+DTEND;TZID=Europe/Warsaw:20261204T131500
+SUMMARY:Sd. (S)
+LOCATION:7 25
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr hab.
+  inż. Janiszewski Jacek\nNr zajęć: 8/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3d62557333da69159d6c44ed@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261209T080000
+DTEND;TZID=Europe/Warsaw:20261209T093500
+SUMMARY:Znisj (ć)
+LOCATION:17 25
+DESCRIPTION:Zarządzanie\, normalizacja i systemy jakości\nRodzaj: ćwicz
+ enia\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 6/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ff02e2f5c32da966aa7211cc@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261209T114000
+DTEND;TZID=Europe/Warsaw:20261209T131500
+SUMMARY:Sd. (S)
+LOCATION:7 25
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr hab.
+  inż. Janiszewski Jacek\nNr zajęć: 9/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6a4aed4c389090de7af787fb@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261210T080000
+DTEND;TZID=Europe/Warsaw:20261210T093500
+SUMMARY:Znisj (S)
+LOCATION:7 25
+DESCRIPTION:Zarządzanie\, normalizacja i systemy jakości\nRodzaj: semina
+ rium\nProwadzący: mgr inż. Modrzejewski Patryk\nNr zajęć: 6/7\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f4f0adebc15978e0db02bc88@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261210T095000
+DTEND;TZID=Europe/Warsaw:20261210T112500
+SUMMARY:Sd. (S)
+LOCATION:6 25
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr hab.
+  inż. Janiszewski Jacek\nNr zajęć: 10/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8631a18a93b7cc6c9805b96d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261211T095000
+DTEND;TZID=Europe/Warsaw:20261211T112500
+SUMMARY:Znisj (w)
+LOCATION:6 25
+DESCRIPTION:Zarządzanie\, normalizacja i systemy jakości\nRodzaj: wykła
+ d\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 9/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7ca6d7f83b79838a0be91100@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261211T133000
+DTEND;TZID=Europe/Warsaw:20261211T150500
+SUMMARY:Znisj (ć)
+LOCATION:17 25
+DESCRIPTION:Zarządzanie\, normalizacja i systemy jakości\nRodzaj: ćwicz
+ enia\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 7/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f98585a2f5e60f5ad1617b99@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261216T080000
+DTEND;TZID=Europe/Warsaw:20261216T093500
+SUMMARY:Znisj (P)
+LOCATION:6 25
+DESCRIPTION:Zarządzanie\, normalizacja i systemy jakości\nRodzaj: projek
+ t\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 5/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:db1919fe38b91fae635be656@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261216T095000
+DTEND;TZID=Europe/Warsaw:20261216T112500
+SUMMARY:Znisj (ć)
+LOCATION:17 25
+DESCRIPTION:Zarządzanie\, normalizacja i systemy jakości\nRodzaj: ćwicz
+ enia\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 8/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c504fc1903947ba58fed9ff0@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261216T114000
+DTEND;TZID=Europe/Warsaw:20261216T131500
+SUMMARY:Znisj (S)
+LOCATION:7 25
+DESCRIPTION:Zarządzanie\, normalizacja i systemy jakości\nRodzaj: semina
+ rium\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 7/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:06eebb2e63bf0a2f74cd051c@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261218T114000
+DTEND;TZID=Europe/Warsaw:20261218T131500
+SUMMARY:Znisj (ć)
+LOCATION:17 25
+DESCRIPTION:Zarządzanie\, normalizacja i systemy jakości\nRodzaj: ćwicz
+ enia\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 9/9\nBlok: 3
+END:VEVENT
+END:VCALENDAR

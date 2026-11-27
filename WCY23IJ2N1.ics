@@ -1,0 +1,557 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WCY23IJ2N1
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:c69904b2e10c68895ca45806@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20260918T160000
+DTEND;TZID=Europe/Warsaw:20260918T173500
+SUMMARY:Jtp (Inne)
+LOCATION:19 36
+DESCRIPTION:Języki i techniki programowania\nRodzaj: zal popr\nProwadząc
+ y: Kosiuczenko Piotr\nNr zajęć: 1/1\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:14b54757298db806ed527aaf@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20260918T175000
+DTEND;TZID=Europe/Warsaw:20260918T192500
+SUMMARY:Wpp (Inne)
+LOCATION:on-line.
+DESCRIPTION:Wszystkie przedmioty prowadzącego\nRodzaj: zal popr\nProwadz
+ ący: Derski Tomasz\nNr zajęć: 1/1\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:b634fb2b9ef1c8619d4aaba1@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20260919T080000
+DTEND;TZID=Europe/Warsaw:20260919T093500
+SUMMARY:PWSI (Inne)
+LOCATION:308 S
+DESCRIPTION:Projektowanie i wdrażanie systemów informatycznych\nRodzaj: 
+ egzamin poprawkowy\nProwadzący: Gzik Tomasz\nNr zajęć: 1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c9d240a5af832e4680da00ef@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261003T095000
+DTEND;TZID=Europe/Warsaw:20261003T112500
+SUMMARY:Srrw (w)
+LOCATION:309 S
+DESCRIPTION:Systemy rzeczywistości rozszerzonej i wirtualnej\nRodzaj: wyk
+ ład\nProwadzący: Koszela Jarosław\nNr zajęć: 1/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0ce4382485d5e1e1e83e058c@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261003T114000
+DTEND;TZID=Europe/Warsaw:20261003T131500
+SUMMARY:Srrw (w)
+LOCATION:309 S
+DESCRIPTION:Systemy rzeczywistości rozszerzonej i wirtualnej\nRodzaj: wyk
+ ład\nProwadzący: Koszela Jarosław\nNr zajęć: 2/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:09b0a4f114ee521fa65f350f@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261004T080000
+DTEND;TZID=Europe/Warsaw:20261004T093500
+SUMMARY:Bda (w)
+LOCATION:228 S
+DESCRIPTION:Big data\nRodzaj: wykład\nProwadzący: Szafrański Bolesław\
+ nNr zajęć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6850e2dadeda037d5ed0a0f6@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261004T095000
+DTEND;TZID=Europe/Warsaw:20261004T112500
+SUMMARY:Bda (w)
+LOCATION:228 S
+DESCRIPTION:Big data\nRodzaj: wykład\nProwadzący: Szafrański Bolesław\
+ nNr zajęć: 2/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8ea40508ed6466acba592b18@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261004T114000
+DTEND;TZID=Europe/Warsaw:20261004T131500
+SUMMARY:Orr (w)
+LOCATION:308 S
+DESCRIPTION:Obliczenia równoległe i rozproszone\nRodzaj: wykład\nProwad
+ zący: Serafin Patryk\nNr zajęć: 1/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8cb5952903bfa4ee2b0734d9@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261004T133000
+DTEND;TZID=Europe/Warsaw:20261004T150500
+SUMMARY:Orr (w)
+LOCATION:308 S
+DESCRIPTION:Obliczenia równoległe i rozproszone\nRodzaj: wykład\nProwad
+ zący: Serafin Patryk\nNr zajęć: 2/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:028584cf07312e86a988df3e@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261010T095000
+DTEND;TZID=Europe/Warsaw:20261010T112500
+SUMMARY:Srrw (w)
+LOCATION:95 S
+DESCRIPTION:Systemy rzeczywistości rozszerzonej i wirtualnej\nRodzaj: wyk
+ ład\nProwadzący: Wantoch-Rekowski Roman\nNr zajęć: 1/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8a9503e66d48494184e3f7fe@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261010T114000
+DTEND;TZID=Europe/Warsaw:20261010T131500
+SUMMARY:Srrw (w)
+LOCATION:95 S
+DESCRIPTION:Systemy rzeczywistości rozszerzonej i wirtualnej\nRodzaj: wyk
+ ład\nProwadzący: Wantoch-Rekowski Roman\nNr zajęć: 2/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:af87fd981da44c7a239d615b@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261010T133000
+DTEND;TZID=Europe/Warsaw:20261010T150500
+SUMMARY:Bda (L)
+LOCATION:228 S
+DESCRIPTION:Big data\nRodzaj: laboratorium\nProwadzący: dr Olejniczak Jar
+ osław\nNr zajęć: 1/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e390a05c50c14e1c58059ed5@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261010T152000
+DTEND;TZID=Europe/Warsaw:20261010T165500
+SUMMARY:Bda (L)
+LOCATION:228 S
+DESCRIPTION:Big data\nRodzaj: laboratorium\nProwadzący: dr Olejniczak Jar
+ osław\nNr zajęć: 2/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:48db2378ee35e9a2d3543c7a@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261011T080000
+DTEND;TZID=Europe/Warsaw:20261011T093500
+SUMMARY:Bda (w)
+LOCATION:228 S
+DESCRIPTION:Big data\nRodzaj: wykład\nProwadzący: Szafrański Bolesław\
+ nNr zajęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4d54f4b2dc02032cf1af5fb6@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261011T095000
+DTEND;TZID=Europe/Warsaw:20261011T112500
+SUMMARY:Bda (w)
+LOCATION:228 S
+DESCRIPTION:Big data\nRodzaj: wykład\nProwadzący: Szafrański Bolesław\
+ nNr zajęć: 4/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:795921c34613aad44654d063@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261011T114000
+DTEND;TZID=Europe/Warsaw:20261011T131500
+SUMMARY:Orr (w)
+LOCATION:307 S
+DESCRIPTION:Obliczenia równoległe i rozproszone\nRodzaj: wykład\nProwad
+ zący: Serafin Patryk\nNr zajęć: 3/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3444ccbc0e1bd8baf5f674e5@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261011T133000
+DTEND;TZID=Europe/Warsaw:20261011T150500
+SUMMARY:Orr (w)
+LOCATION:307 S
+DESCRIPTION:Obliczenia równoległe i rozproszone\nRodzaj: wykład\nProwad
+ zący: Serafin Patryk\nNr zajęć: 4/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:96b04f316e4659dd2d3b4ebf@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261011T152000
+DTEND;TZID=Europe/Warsaw:20261011T165500
+SUMMARY:Swbo (w)
+LOCATION:308 S
+DESCRIPTION:Systemy webowe\nRodzaj: wykład\nProwadzący: Kapałka Michał
+ \nNr zajęć: 1/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:c392f2fe69ac4833c776a874@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261011T171000
+DTEND;TZID=Europe/Warsaw:20261011T184500
+SUMMARY:Swbo (w)
+LOCATION:308 S
+DESCRIPTION:Systemy webowe\nRodzaj: wykład\nProwadzący: Kapałka Michał
+ \nNr zajęć: 2/4\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:2b85e8983d3b864243e38e0e@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261017T095000
+DTEND;TZID=Europe/Warsaw:20261017T112500
+SUMMARY:Orr (w)
+LOCATION:309 S
+DESCRIPTION:Obliczenia równoległe i rozproszone\nRodzaj: wykład\nProwad
+ zący: Tarapata Zbigniew\nNr zajęć: 1/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a8898729a69329e02ee09921@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261017T114000
+DTEND;TZID=Europe/Warsaw:20261017T131500
+SUMMARY:Orr (w)
+LOCATION:309 S
+DESCRIPTION:Obliczenia równoległe i rozproszone\nRodzaj: wykład\nProwad
+ zący: Tarapata Zbigniew\nNr zajęć: 2/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:dbe6b009ba4129a7508c5779@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261017T133000
+DTEND;TZID=Europe/Warsaw:20261017T150500
+SUMMARY:Bda (L)
+LOCATION:228 S
+DESCRIPTION:Big data\nRodzaj: laboratorium\nProwadzący: dr Olejniczak Jar
+ osław\nNr zajęć: 3/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:00f5568f5126af79f6386e17@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261017T152000
+DTEND;TZID=Europe/Warsaw:20261017T165500
+SUMMARY:Bda (L)
+LOCATION:228 S
+DESCRIPTION:Big data\nRodzaj: laboratorium\nProwadzący: dr Olejniczak Jar
+ osław\nNr zajęć: 4/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:0dcdfdb72e779f3403fac727@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261018T114000
+DTEND;TZID=Europe/Warsaw:20261018T131500
+SUMMARY:Orr (ć)
+LOCATION:224 S
+DESCRIPTION:Obliczenia równoległe i rozproszone\nRodzaj: ćwiczenia\nPro
+ wadzący: Serafin Patryk\nNr zajęć: 1/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:13a0558a08deda82f8bb9faf@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261018T133000
+DTEND;TZID=Europe/Warsaw:20261018T150500
+SUMMARY:Orr (ć)
+LOCATION:224 S
+DESCRIPTION:Obliczenia równoległe i rozproszone\nRodzaj: ćwiczenia\nPro
+ wadzący: Serafin Patryk\nNr zajęć: 2/2\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:902695eab0792ec40693c89e@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261018T152000
+DTEND;TZID=Europe/Warsaw:20261018T165500
+SUMMARY:Swbo (w)
+LOCATION:308 S
+DESCRIPTION:Systemy webowe\nRodzaj: wykład\nProwadzący: Kapałka Michał
+ \nNr zajęć: 3/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:b0595205c1671fefa6932475@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261018T190000
+DTEND;TZID=Europe/Warsaw:20261018T203500
+SUMMARY:Swbo (w)
+LOCATION:308 S
+DESCRIPTION:Systemy webowe\nRodzaj: wykład\nProwadzący: Kapałka Michał
+ \nNr zajęć: 4/4\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:647189e71e98cfcd07eb6b8b@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261023T175000
+DTEND;TZID=Europe/Warsaw:20261023T192500
+SUMMARY:Wpp (Inne)
+LOCATION:19 36
+DESCRIPTION:Wszystkie przedmioty prowadzącego\nRodzaj: zal popr\nProwadz
+ ący: Kosiuczenko Piotr\nNr zajęć: 1/2\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:7b0b79a99016ee0ade846599@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261024T080000
+DTEND;TZID=Europe/Warsaw:20261024T093500
+SUMMARY:Bda (L)
+LOCATION:228 S
+DESCRIPTION:Big data\nRodzaj: laboratorium\nProwadzący: dr Olejniczak Jar
+ osław\nNr zajęć: 5/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d183999f8eec8e18a660f125@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261024T095000
+DTEND;TZID=Europe/Warsaw:20261024T112500
+SUMMARY:Bda (L)
+LOCATION:228 S
+DESCRIPTION:Big data\nRodzaj: laboratorium\nProwadzący: dr Olejniczak Jar
+ osław\nNr zajęć: 6/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c5944c7cc45e601c6fe0245c@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261024T114000
+DTEND;TZID=Europe/Warsaw:20261024T131500
+SUMMARY:Orr (L)
+LOCATION:228 S
+DESCRIPTION:Obliczenia równoległe i rozproszone\nRodzaj: laboratorium\nP
+ rowadzący: Serafin Patryk\nNr zajęć: 1/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:390435c4c40d5dec0b9515e9@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261024T133000
+DTEND;TZID=Europe/Warsaw:20261024T150500
+SUMMARY:Orr (L)
+LOCATION:228 S
+DESCRIPTION:Obliczenia równoległe i rozproszone\nRodzaj: laboratorium\nP
+ rowadzący: Serafin Patryk\nNr zajęć: 2/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d0e9770fcb3b0dd4b09e2fc1@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261025T080000
+DTEND;TZID=Europe/Warsaw:20261025T093500
+SUMMARY:Orr (L)
+LOCATION:228 S
+DESCRIPTION:Obliczenia równoległe i rozproszone\nRodzaj: laboratorium\nP
+ rowadzący: Serafin Patryk\nNr zajęć: 3/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:cf9bbc52f3a797547082d0e1@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261025T095000
+DTEND;TZID=Europe/Warsaw:20261025T112500
+SUMMARY:Orr (L)
+LOCATION:228 S
+DESCRIPTION:Obliczenia równoległe i rozproszone\nRodzaj: laboratorium\nP
+ rowadzący: Serafin Patryk\nNr zajęć: 4/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:96bf3feed64154ea010f4a4c@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261025T114000
+DTEND;TZID=Europe/Warsaw:20261025T131500
+SUMMARY:Srrw (L)
+LOCATION:95 S
+DESCRIPTION:Systemy rzeczywistości rozszerzonej i wirtualnej\nRodzaj: lab
+ oratorium\nProwadzący: Wantoch-Rekowski Roman\nNr zajęć: 1/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b0da27959bbd07b48eb43805@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261025T133000
+DTEND;TZID=Europe/Warsaw:20261025T150500
+SUMMARY:Srrw (L)
+LOCATION:95 S
+DESCRIPTION:Systemy rzeczywistości rozszerzonej i wirtualnej\nRodzaj: lab
+ oratorium\nProwadzący: Wantoch-Rekowski Roman\nNr zajęć: 2/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8ba6ae647062ae4b50b01430@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261025T152000
+DTEND;TZID=Europe/Warsaw:20261025T165500
+SUMMARY:Swbo (L)
+LOCATION:226 S
+DESCRIPTION:Systemy webowe\nRodzaj: laboratorium\nProwadzący: Kapałka Mi
+ chał\nNr zajęć: 1/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:648af1073cbc208c4f26f2a5@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261025T171000
+DTEND;TZID=Europe/Warsaw:20261025T184500
+SUMMARY:Swbo (L)
+LOCATION:226 S
+DESCRIPTION:Systemy webowe\nRodzaj: laboratorium\nProwadzący: Kapałka Mi
+ chał\nNr zajęć: 2/6\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:0785d2ffef7b83f98d94549d@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261025T190000
+DTEND;TZID=Europe/Warsaw:20261025T203500
+SUMMARY:Swbo (L)
+LOCATION:226 S
+DESCRIPTION:Systemy webowe\nRodzaj: laboratorium\nProwadzący: Kapałka Mi
+ chał\nNr zajęć: 3/6\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:75965cb1f423309989e57e4e@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261114T080000
+DTEND;TZID=Europe/Warsaw:20261114T093500
+SUMMARY:Srrw (L)
+LOCATION:95 S
+DESCRIPTION:Systemy rzeczywistości rozszerzonej i wirtualnej\nRodzaj: lab
+ oratorium\nProwadzący: Wantoch-Rekowski Roman\nNr zajęć: 3/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e7d1a6addf696b7d7ea0ee23@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261114T095000
+DTEND;TZID=Europe/Warsaw:20261114T112500
+SUMMARY:Srrw (L)
+LOCATION:95 S
+DESCRIPTION:Systemy rzeczywistości rozszerzonej i wirtualnej\nRodzaj: lab
+ oratorium\nProwadzący: Wantoch-Rekowski Roman\nNr zajęć: 4/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2f222ac7407a13b7d865204c@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261114T114000
+DTEND;TZID=Europe/Warsaw:20261114T131500
+SUMMARY:Orr (L)
+LOCATION:228 S
+DESCRIPTION:Obliczenia równoległe i rozproszone\nRodzaj: laboratorium\nP
+ rowadzący: Serafin Patryk\nNr zajęć: 5/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:95dce77eddb3d7beb2eb9cf7@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261114T133000
+DTEND;TZID=Europe/Warsaw:20261114T150500
+SUMMARY:Orr (L)
+LOCATION:228 S
+DESCRIPTION:Obliczenia równoległe i rozproszone\nRodzaj: laboratorium\nP
+ rowadzący: Serafin Patryk\nNr zajęć: 6/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9d97df7036fd8f0667ebd5ab@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261114T152000
+DTEND;TZID=Europe/Warsaw:20261114T165500
+SUMMARY:Srrw (L)
+LOCATION:95 S
+DESCRIPTION:Systemy rzeczywistości rozszerzonej i wirtualnej\nRodzaj: lab
+ oratorium\nProwadzący: Wantoch-Rekowski Roman\nNr zajęć: 5/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:0d081fc1b951aabea20e4197@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261114T171000
+DTEND;TZID=Europe/Warsaw:20261114T184500
+SUMMARY:Srrw (L)
+LOCATION:95 S
+DESCRIPTION:Systemy rzeczywistości rozszerzonej i wirtualnej\nRodzaj: lab
+ oratorium\nProwadzący: Wantoch-Rekowski Roman\nNr zajęć: 6/6\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:71d94b692fd3fcca2933aa1b@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261115T114000
+DTEND;TZID=Europe/Warsaw:20261115T131500
+SUMMARY:Orr (L)
+LOCATION:228 S
+DESCRIPTION:Obliczenia równoległe i rozproszone\nRodzaj: laboratorium\nP
+ rowadzący: Serafin Patryk\nNr zajęć: 7/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f1cb0cbe4624105d985ece69@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261115T133000
+DTEND;TZID=Europe/Warsaw:20261115T150500
+SUMMARY:Swbo (L)
+LOCATION:226 S
+DESCRIPTION:Systemy webowe\nRodzaj: laboratorium\nProwadzący: Kapałka Mi
+ chał\nNr zajęć: 4/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:70d6ed2e774673bf78b9568b@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261115T152000
+DTEND;TZID=Europe/Warsaw:20261115T165500
+SUMMARY:Swbo (L)
+LOCATION:226 S
+DESCRIPTION:Systemy webowe\nRodzaj: laboratorium\nProwadzący: Kapałka Mi
+ chał\nNr zajęć: 5/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:a6de66d58a9b29c93483e096@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261115T171000
+DTEND;TZID=Europe/Warsaw:20261115T184500
+SUMMARY:Swbo (L)
+LOCATION:226 S
+DESCRIPTION:Systemy webowe\nRodzaj: laboratorium\nProwadzący: Kapałka Mi
+ chał\nNr zajęć: 6/6\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:379df019423b0b92dd716fb7@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261119T194000
+DTEND;TZID=Europe/Warsaw:20261119T211500
+SUMMARY:Wpp (Inne)
+LOCATION:on-line
+DESCRIPTION:Wszystkie przedmioty prowadzącego\nRodzaj: zal popr\nProwadz
+ ący: Derski Tomasz\nNr zajęć: 2/2\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:c4121e7042ed0df5548f1e1e@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261121T095000
+DTEND;TZID=Europe/Warsaw:20261121T112500
+SUMMARY:Orr (Inne)
+LOCATION:226 S
+DESCRIPTION:Obliczenia równoległe i rozproszone\nRodzaj: rezerwacja.\nPr
+ owadzący: Serafin Patryk\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3c3b13ed006e7e3333ecce48@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261128T114000
+DTEND;TZID=Europe/Warsaw:20261128T131500
+SUMMARY:Orr (E)
+LOCATION:308 S
+DESCRIPTION:Obliczenia równoległe i rozproszone\nRodzaj: egzamin\nProwad
+ zący: Serafin Patryk\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:761b857b959a0cdee949b56c@wat-plan
+DTSTAMP:20261126T134026Z
+DTSTART;TZID=Europe/Warsaw:20261212T114000
+DTEND;TZID=Europe/Warsaw:20261212T131500
+SUMMARY:Orr (Inne)
+LOCATION:308 S
+DESCRIPTION:Obliczenia równoległe i rozproszone\nRodzaj: egzamin poprawk
+ owy\nProwadzący: Serafin Patryk\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+END:VCALENDAR

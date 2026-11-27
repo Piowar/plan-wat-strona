@@ -1,0 +1,3588 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WME22MC1S0
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:4ea400e62742702e8e2d3a95@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261012T095000
+DTEND;TZID=Europe/Warsaw:20261012T112500
+SUMMARY:Pm. (w)
+LOCATION:2.09/ 54A
+DESCRIPTION:Projektowanie maszyn\nRodzaj: wykład\nProwadzący: prof. dr h
+ ab. inż. Bogdanowicz Zdzisław\nNr zajęć: 1/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:80e23c4494c50e5515ef4978@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261012T114000
+DTEND;TZID=Europe/Warsaw:20261012T131500
+SUMMARY:Mm. (w)
+LOCATION:2.09/ 54A
+DESCRIPTION:Modelowanie maszyn\nRodzaj: wykład\nProwadzący: dr inż. Rub
+ iec Arkadiusz\nNr zajęć: 1/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:47c1385be60f03ea3424dd04@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261012T133000
+DTEND;TZID=Europe/Warsaw:20261012T150500
+SUMMARY:KiPN (w)
+LOCATION:116/ 54
+DESCRIPTION:Komunikacja i podstawy negocjacji\nRodzaj: wykład\nProwadząc
+ y: dr Skulska Joanna\nNr zajęć: 1/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:98c857b72e2f69eec80c4e2c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261012T160000
+DTEND;TZID=Europe/Warsaw:20261012T173500
+SUMMARY:Ja (ć)
+LOCATION:126 K\;127 K\;128 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 1/30\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:8d445861dd4189fcd485a99b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261012T175000
+DTEND;TZID=Europe/Warsaw:20261012T192500
+SUMMARY:Ja (ć)
+LOCATION:132 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 2/30\nBlok: 
+ 6
+END:VEVENT
+BEGIN:VEVENT
+UID:e109e40ce143f5268a3cc304@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261012T194000
+DTEND;TZID=Europe/Warsaw:20261012T211500
+SUMMARY:Ja (ć)
+LOCATION:132 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 3/30\nBlok: 
+ 7
+END:VEVENT
+BEGIN:VEVENT
+UID:f83f3546764b191a1830392f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261013T080000
+DTEND;TZID=Europe/Warsaw:20261013T093500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 4
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: ppor
+ . mgr Szwed Katarzyna\nNr zajęć: 1/17\nBlok: 1\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:c5f4bf84b71b0a2820a15b3f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261013T095000
+DTEND;TZID=Europe/Warsaw:20261013T112500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 4
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: ppor
+ . mgr Szwed Katarzyna\nNr zajęć: 2/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f37abd2b163b8501ba849869@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261013T114000
+DTEND;TZID=Europe/Warsaw:20261013T131500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 4
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: ppor
+ . mgr Szwed Katarzyna\nNr zajęć: 3/17\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:cf30edd8e8eb28159f784bdc@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261013T133000
+DTEND;TZID=Europe/Warsaw:20261013T150500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 19)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/19 (grupa SWF 3PL/11KP)\nProwadz
+ ący: mgr Olszewski Radosław\nNr zajęć: 1/42\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f7e439a5f04d714d05026647@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261013T160000
+DTEND;TZID=Europe/Warsaw:20261013T173500
+SUMMARY:Mv. (w)
+LOCATION:2/ 23A
+DESCRIPTION:Military vehicles\nRodzaj: wykład\nProwadzący: dr inż. Papl
+ iński Krzysztof\nNr zajęć: 1/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:21f534aee691a89bf652fb7b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261014T080000
+DTEND;TZID=Europe/Warsaw:20261014T093500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 1/16
+ \nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:02ebab1f36e43c2fedf0084d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261014T095000
+DTEND;TZID=Europe/Warsaw:20261014T112500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 2/16
+ \nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b6cd86b454147ea78dc89d87@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261014T114000
+DTEND;TZID=Europe/Warsaw:20261014T131500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 3/16
+ \nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:be873aa050df5ee6f856eef8@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261014T133000
+DTEND;TZID=Europe/Warsaw:20261014T150500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 4/16
+ \nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0f4fe010ca7b4087db9d93ea@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261014T160000
+DTEND;TZID=Europe/Warsaw:20261014T173500
+SUMMARY:WzPs (w)
+LOCATION:52/ 62
+DESCRIPTION:Wybrane zagadnienia psychologii\nRodzaj: wykład\nProwadzący:
+  dr Fijałkowska Sylwia\nNr zajęć: 1/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:06a6aba1fa20080382ac4edb@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261014T175000
+DTEND;TZID=Europe/Warsaw:20261014T192500
+SUMMARY:WzPs (w)
+LOCATION:52/ 62
+DESCRIPTION:Wybrane zagadnienia psychologii\nRodzaj: wykład\nProwadzący:
+  dr Fijałkowska Sylwia\nNr zajęć: 2/8\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:ba86518305135211d4e24cb0@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261015T080000
+DTEND;TZID=Europe/Warsaw:20261015T093500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(KSP)\; T5.1Ć
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 1/8\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8d6026d41972c78b8859d51e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261015T095000
+DTEND;TZID=Europe/Warsaw:20261015T112500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(KSP)\; T5.1Ć
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 2/8\nBl
+ ok: 2\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:b2c7caef0a994cd54860bc81@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261015T133000
+DTEND;TZID=Europe/Warsaw:20261015T150500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 19)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/19 (grupa SWF 3PL/11KP)\nProwadz
+ ący: mgr Olszewski Radosław\nNr zajęć: 2/42\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e808ea0126bbddff2ed02c0d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261016T080000
+DTEND;TZID=Europe/Warsaw:20261016T093500
+SUMMARY:Mv. (w)
+LOCATION:2/ 23A
+DESCRIPTION:Military vehicles\nRodzaj: wykład\nProwadzący: dr inż. Papl
+ iński Krzysztof\nNr zajęć: 2/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b21a52006de053f0b2a1f8b4@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261016T095000
+DTEND;TZID=Europe/Warsaw:20261016T112500
+SUMMARY:Mv. (ć)
+LOCATION:2/ 23A
+DESCRIPTION:Military vehicles\nRodzaj: ćwiczenia\nProwadzący: dr inż. P
+ apliński Krzysztof\nNr zajęć: 1/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6c984aaaabbd4fe49b694508@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261016T114000
+DTEND;TZID=Europe/Warsaw:20261016T131500
+SUMMARY:Epw (w)
+LOCATION:42/ 20
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: wykład\nProwadząc
+ y: prof. dr hab. inż. Dziubak Tadeusz\nNr zajęć: 1/22\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ebe6aaa478b36288ef59d90f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261016T133000
+DTEND;TZID=Europe/Warsaw:20261016T150500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 19)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/19 (grupa SWF 3PL/11KP)\nProwadz
+ ący: mgr Olszewski Radosław\nNr zajęć: 3/42\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9edce9a820748e0046df165d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261017T095000
+DTEND;TZID=Europe/Warsaw:20261017T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 1/12\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:814a531f8dab60a6cfd290f0@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261019T095000
+DTEND;TZID=Europe/Warsaw:20261019T112500
+SUMMARY:Pm. (w)
+LOCATION:2.09/ 54A
+DESCRIPTION:Projektowanie maszyn\nRodzaj: wykład\nProwadzący: prof. dr h
+ ab. inż. Bogdanowicz Zdzisław\nNr zajęć: 2/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:af8111459ed891b163edf336@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261019T114000
+DTEND;TZID=Europe/Warsaw:20261019T131500
+SUMMARY:Mm. (w)
+LOCATION:2.09/ 54A
+DESCRIPTION:Modelowanie maszyn\nRodzaj: wykład\nProwadzący: dr inż. Rub
+ iec Arkadiusz\nNr zajęć: 2/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:edc87638900f02d5638c39ab@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261019T133000
+DTEND;TZID=Europe/Warsaw:20261019T150500
+SUMMARY:KiPN (w)
+LOCATION:116/ 54
+DESCRIPTION:Komunikacja i podstawy negocjacji\nRodzaj: wykład\nProwadząc
+ y: dr Skulska Joanna\nNr zajęć: 2/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:72d98a22f8fd8235c5c4c9e7@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261019T160000
+DTEND;TZID=Europe/Warsaw:20261019T173500
+SUMMARY:Ja (ć)
+LOCATION:126 K\;127 K\;128 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 4/30\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:394ede7553158da62da3a65d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261020T114000
+DTEND;TZID=Europe/Warsaw:20261020T131500
+SUMMARY:Mv. (w)
+LOCATION:2/ 23A
+DESCRIPTION:Military vehicles\nRodzaj: wykład\nProwadzący: dr inż. Papl
+ iński Krzysztof\nNr zajęć: 3/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2289b402ad6c9e035779957a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261020T133000
+DTEND;TZID=Europe/Warsaw:20261020T150500
+SUMMARY:WF: Gimnastyka i ćwiczenia siłowe
+LOCATION:siłownia
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Gimnastyka i 
+ ćwiczenia siłowe (zajęcia 20)\nObiekt: siłownia\nKod SWF: S-3/20 (gru
+ pa SWF 3PL/11KP)\nProwadzący: mgr Olszewski Radosław\nNr zajęć: 4/42\
+ nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:bc763058472401003fed1c7d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261021T080000
+DTEND;TZID=Europe/Warsaw:20261021T093500
+SUMMARY:Ja (ć)
+LOCATION:126 K\;127 K\;128 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 5/30\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4e2d386d76d8d27709c89b3f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261021T095000
+DTEND;TZID=Europe/Warsaw:20261021T112500
+SUMMARY:Ja (ć)
+LOCATION:126 K\;127 K\;128 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 6/30\nBlok: 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:26e86acb0061887c296edb07@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261021T114000
+DTEND;TZID=Europe/Warsaw:20261021T131500
+SUMMARY:Epw (w)
+LOCATION:42/ 20
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: wykład\nProwadząc
+ y: prof. dr hab. inż. Dziubak Tadeusz\nNr zajęć: 2/22\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:584f180c395a73cedaebe760@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261021T133000
+DTEND;TZID=Europe/Warsaw:20261021T150500
+SUMMARY:WzPs (w)
+LOCATION:1/ 21
+DESCRIPTION:Wybrane zagadnienia psychologii\nRodzaj: wykład\nProwadzący:
+  dr Fijałkowska Sylwia\nNr zajęć: 3/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a286f0231d2244cad63a3220@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261021T160000
+DTEND;TZID=Europe/Warsaw:20261021T173500
+SUMMARY:Mv. (w)
+LOCATION:2/ 23A
+DESCRIPTION:Military vehicles\nRodzaj: wykład\nProwadzący: dr inż. Papl
+ iński Krzysztof\nNr zajęć: 4/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:bfee1152578506dea15dee25@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261022T080000
+DTEND;TZID=Europe/Warsaw:20261022T093500
+SUMMARY:TW (w)
+LOCATION:112 58\; T11W
+DESCRIPTION:Topografia wojskowa\nRodzaj: wykład\nProwadzący: mgr inż. G
+ ołoś Kazimierz\nNr zajęć: 1/2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b04698207ab83f445aa0f389@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261022T095000
+DTEND;TZID=Europe/Warsaw:20261022T112500
+SUMMARY:TW (w)
+LOCATION:112 58\; T12W
+DESCRIPTION:Topografia wojskowa\nRodzaj: wykład\nProwadzący: mgr inż. G
+ ołoś Kazimierz\nNr zajęć: 2/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4334d90963dfe5549f6a46c0@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261022T133000
+DTEND;TZID=Europe/Warsaw:20261022T150500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PWC3)\; T5.2Ć
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 3/8\nBl
+ ok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e41c36fd9aaa2ee5658ee68e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261022T160000
+DTEND;TZID=Europe/Warsaw:20261022T173500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PWC3)\; T5.2Ć
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 4/8\nBl
+ ok: 5\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:b7a3594dabcff0db25e05ac3@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261023T080000
+DTEND;TZID=Europe/Warsaw:20261023T093500
+SUMMARY:WzPs (w)
+LOCATION:1/ 21
+DESCRIPTION:Wybrane zagadnienia psychologii\nRodzaj: wykład\nProwadzący:
+  dr Fijałkowska Sylwia\nNr zajęć: 4/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:eadeb3ee93fbb76b6b008e96@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261023T095000
+DTEND;TZID=Europe/Warsaw:20261023T112500
+SUMMARY:WzPs (w)
+LOCATION:1/ 21
+DESCRIPTION:Wybrane zagadnienia psychologii\nRodzaj: wykład\nProwadzący:
+  dr Fijałkowska Sylwia\nNr zajęć: 5/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:555f1a26cb45a3c6d34846ab@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261023T114000
+DTEND;TZID=Europe/Warsaw:20261023T131500
+SUMMARY:Epw (w)
+LOCATION:42/ 20
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: wykład\nProwadząc
+ y: prof. dr hab. inż. Dziubak Tadeusz\nNr zajęć: 3/22\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5b0a8a86ed83c0e0b8ab50e8@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261023T133000
+DTEND;TZID=Europe/Warsaw:20261023T150500
+SUMMARY:WF: Walka wręcz
+LOCATION:sala do walki wręcz nr 57
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Walka wręcz (
+ zajęcia 32)\nObiekt: sala do walki wręcz nr 57\nKod SWF: J-4/32 (grupa 
+ SWF 3PL/11KP)\nProwadzący: mgr Olszewski Radosław\nNr zajęć: 5/42\nBl
+ ok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ba97b7a2649b8917837c2074@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261023T160000
+DTEND;TZID=Europe/Warsaw:20261023T173500
+SUMMARY:SpOG (w)
+LOCATION:301/ S
+DESCRIPTION:Spotkanie z opiekunem grup\nRodzaj: wykład\nProwadzący: kpt.
+  mgr inż. Żmuda Marcin\nNr zajęć: 1/1\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f9e73e7f26fc80741d14abd7@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261024T095000
+DTEND;TZID=Europe/Warsaw:20261024T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 2/12\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:87066c2d2df0b8a823a09a4b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261026T080000
+DTEND;TZID=Europe/Warsaw:20261026T093500
+SUMMARY:Epw (w)
+LOCATION:42/ 20
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: wykład\nProwadząc
+ y: prof. dr hab. inż. Dziubak Tadeusz\nNr zajęć: 4/22\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:35d699b14bbb68fffe38fa23@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261026T095000
+DTEND;TZID=Europe/Warsaw:20261026T112500
+SUMMARY:Pm. (w)
+LOCATION:2.09/ 54A
+DESCRIPTION:Projektowanie maszyn\nRodzaj: wykład\nProwadzący: prof. dr h
+ ab. inż. Bogdanowicz Zdzisław\nNr zajęć: 3/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:40d234b01aaaddcfe24364bb@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261026T114000
+DTEND;TZID=Europe/Warsaw:20261026T131500
+SUMMARY:Mm. (w)
+LOCATION:2.09/ 54A
+DESCRIPTION:Modelowanie maszyn\nRodzaj: wykład\nProwadzący: dr inż. Rub
+ iec Arkadiusz\nNr zajęć: 3/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6b64cdbaf71a39035d34269d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261026T133000
+DTEND;TZID=Europe/Warsaw:20261026T150500
+SUMMARY:KiPN (w)
+LOCATION:116/ 54
+DESCRIPTION:Komunikacja i podstawy negocjacji\nRodzaj: wykład\nProwadząc
+ y: dr Skulska Joanna\nNr zajęć: 3/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e72f1940871b734f841d3c09@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261026T160000
+DTEND;TZID=Europe/Warsaw:20261026T173500
+SUMMARY:Ja (ć)
+LOCATION:126 K\;127 K\;128 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 7/30\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:33962ab2da7d251cb73fd2d9@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261027T133000
+DTEND;TZID=Europe/Warsaw:20261027T150500
+SUMMARY:WF: Piłka nożna
+LOCATION:boisko do piłki nożnej przy ul. Archimedesa
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Piłka nożna 
+ (zajęcia 7)\nObiekt: boisko do piłki nożnej przy ul. Archimedesa\nKod 
+ SWF: D-9/7 (grupa SWF 3PL/11KP)\nProwadzący: mgr Olszewski Radosław\nNr
+  zajęć: 6/42\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:38b472dbb8130ba0aa9a71d2@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261027T160000
+DTEND;TZID=Europe/Warsaw:20261027T173500
+SUMMARY:Mv. (w)
+LOCATION:2/ 23A
+DESCRIPTION:Military vehicles\nRodzaj: wykład\nProwadzący: dr inż. Papl
+ iński Krzysztof\nNr zajęć: 5/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:8fd3401a9c840488e9e4c6f2@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261028T080000
+DTEND;TZID=Europe/Warsaw:20261028T093500
+SUMMARY:ZŻWAT (i)
+DESCRIPTION:Zbiórka żołnierzy WAT\nRodzaj: inne\nNr zajęć: 1/3\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:b34a5d1685effe360948af9b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261028T095000
+DTEND;TZID=Europe/Warsaw:20261028T112500
+SUMMARY:Ja (ć)
+LOCATION:126 K\;127 K\;128 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 8/30\nBlok: 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:aa0cd17c446865f7872d7a41@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261029T095000
+DTEND;TZID=Europe/Warsaw:20261029T112500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 7
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: st. 
+ kpr. Polankiewicz Anna\; ppor. mgr Szwed Katarzyna\nNr zajęć: 4/17\nBlo
+ k: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e62ce1bf8f154b9fb028010c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261029T114000
+DTEND;TZID=Europe/Warsaw:20261029T131500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 7
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: st. 
+ kpr. Polankiewicz Anna\; ppor. mgr Szwed Katarzyna\nNr zajęć: 5/17\nBlo
+ k: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e336475c760d882421ec518a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261029T133000
+DTEND;TZID=Europe/Warsaw:20261029T150500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 7
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: st. 
+ kpr. Polankiewicz Anna\; ppor. mgr Szwed Katarzyna\nNr zajęć: 6/17\nBlo
+ k: 4\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:558e50a2be20d3105973268b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261030T080000
+DTEND;TZID=Europe/Warsaw:20261030T093500
+SUMMARY:TW (ć)
+LOCATION:16 57\; T13Ć
+DESCRIPTION:Topografia wojskowa\nRodzaj: ćwiczenia\nProwadzący: mgr inż
+ . Gołoś Kazimierz\nNr zajęć: 1/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:542cc027e45487f354e20637@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261030T095000
+DTEND;TZID=Europe/Warsaw:20261030T112500
+SUMMARY:TW (ć)
+LOCATION:16 57\; T13Ć
+DESCRIPTION:Topografia wojskowa\nRodzaj: ćwiczenia\nProwadzący: mgr inż
+ . Gołoś Kazimierz\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:213b9f463591b0680b9580b4@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261030T114000
+DTEND;TZID=Europe/Warsaw:20261030T131500
+SUMMARY:WzPs (ć)
+LOCATION:1/ 21
+DESCRIPTION:Wybrane zagadnienia psychologii\nRodzaj: ćwiczenia\nProwadzą
+ cy: dr Fijałkowska Sylwia\nNr zajęć: 1/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d3691d75fbca2c436767c50c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261030T133000
+DTEND;TZID=Europe/Warsaw:20261030T150500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:zewnętrzny tor BTS/BTZ
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 36)\nObie
+ kt: zewnętrzny tor BTS/BTZ\nKod SWF: C-2/36 (grupa SWF 3PL/11KP)\nProwad
+ zący: mgr Olszewski Radosław\nNr zajęć: 7/42\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a524d6e0f4151de924b878ea@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261030T160000
+DTEND;TZID=Europe/Warsaw:20261030T173500
+SUMMARY:Mv. (w)
+LOCATION:2/ 23A
+DESCRIPTION:Military vehicles\nRodzaj: wykład\nProwadzący: dr inż. Papl
+ iński Krzysztof\nNr zajęć: 6/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:a6ac9be313192878e7b6b859@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261102T080000
+DTEND;TZID=Europe/Warsaw:20261102T093500
+SUMMARY:Epw (w)
+LOCATION:42/ 20
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: wykład\nProwadząc
+ y: prof. dr hab. inż. Dziubak Tadeusz\nNr zajęć: 5/22\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:15c26dc8551f7c342567d1b1@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261102T095000
+DTEND;TZID=Europe/Warsaw:20261102T112500
+SUMMARY:Mm. (w)
+LOCATION:2.09/ 54A
+DESCRIPTION:Modelowanie maszyn\nRodzaj: wykład\nProwadzący: dr inż. Rub
+ iec Arkadiusz\nNr zajęć: 4/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:812c09b1ba46fab3fcfa8d0c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261102T114000
+DTEND;TZID=Europe/Warsaw:20261102T131500
+SUMMARY:wzbnim (w)
+LOCATION:19 36
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: wykład\nProwadzący: mjr dr inż. Walkowiak Marzena\nNr za
+ jęć: 1/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2fae271c4b3bbe9c3181c727@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261102T133000
+DTEND;TZID=Europe/Warsaw:20261102T150500
+SUMMARY:KiPN (w)
+LOCATION:116/ 54
+DESCRIPTION:Komunikacja i podstawy negocjacji\nRodzaj: wykład\nProwadząc
+ y: dr Skulska Joanna\nNr zajęć: 4/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ed39ffd5010b638c07e779e2@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261102T160000
+DTEND;TZID=Europe/Warsaw:20261102T173500
+SUMMARY:Ja (ć)
+LOCATION:126 K\;127 K\;128 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 9/30\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:829220e99bf8c54b029c42fb@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261103T080000
+DTEND;TZID=Europe/Warsaw:20261103T093500
+SUMMARY:Epw (w)
+LOCATION:42/ 20
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: wykład\nProwadząc
+ y: prof. dr hab. inż. Dziubak Tadeusz\nNr zajęć: 6/22\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e47b30b439320c2f9674fe94@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261103T095000
+DTEND;TZID=Europe/Warsaw:20261103T112500
+SUMMARY:Mv. (ć)
+LOCATION:2/ 23A
+DESCRIPTION:Military vehicles\nRodzaj: ćwiczenia\nProwadzący: dr inż. P
+ apliński Krzysztof\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f0928f262e3de10f01314f58@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261103T114000
+DTEND;TZID=Europe/Warsaw:20261103T131500
+SUMMARY:Pm. (ć)
+LOCATION:108/ 54
+DESCRIPTION:Projektowanie maszyn\nRodzaj: ćwiczenia\nProwadzący: prof. d
+ r hab. inż. Bogdanowicz Zdzisław\nNr zajęć: 1/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e3c9e7a31ca905057febd18a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261103T133000
+DTEND;TZID=Europe/Warsaw:20261103T150500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 21)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/21 (grupa SWF 3PL/11KP)\nProwadz
+ ący: mgr Olszewski Radosław\nNr zajęć: 8/42\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e1a3d92fd9e22be739af70b6@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261104T080000
+DTEND;TZID=Europe/Warsaw:20261104T093500
+SUMMARY:Ja (ć)
+LOCATION:126 K\;127 K\;128 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 10/30\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:0f380cf2cee257da77f7af6c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261104T095000
+DTEND;TZID=Europe/Warsaw:20261104T112500
+SUMMARY:wzbnim (w)
+LOCATION:19 36
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: wykład\nProwadzący: mjr dr inż. Walkowiak Marzena\nNr za
+ jęć: 2/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5591145fe5a2109150a1d1e8@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261104T114000
+DTEND;TZID=Europe/Warsaw:20261104T131500
+SUMMARY:Pm. (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Projektowanie maszyn\nRodzaj: laboratorium\nProwadzący: dr in
+ ż. Łuszczek Jakub\nNr zajęć: 1/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8e73cdf5fbde844195754317@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261104T133000
+DTEND;TZID=Europe/Warsaw:20261104T150500
+SUMMARY:Epw (ć)
+LOCATION:5/ 20
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: ćwiczenia\nProwadz
+ ący: prof. dr hab. inż. Dziubak Tadeusz\nNr zajęć: 1/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2fc9321f6744d42efbe46647@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261104T175000
+DTEND;TZID=Europe/Warsaw:20261104T192500
+SUMMARY:Wf_E (E)
+DESCRIPTION:Wf_E\nRodzaj: egzamin\nNr zajęć: 1/1\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:e5d74454cbaf3b40d79939a9@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261105T080000
+DTEND;TZID=Europe/Warsaw:20261105T093500
+SUMMARY:JA-E (i)
+DESCRIPTION:Język angielski - egzamin\nRodzaj: inne\nProwadzący: STANAG\
+ nNr zajęć: 1/14\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e2ee7ae04aec01d85d63307a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261105T095000
+DTEND;TZID=Europe/Warsaw:20261105T112500
+SUMMARY:JA-E (i)
+DESCRIPTION:Język angielski - egzamin\nRodzaj: inne\nProwadzący: STANAG\
+ nNr zajęć: 2/14\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ec310eb37c6dff0ec0bd95f8@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261105T133000
+DTEND;TZID=Europe/Warsaw:20261105T150500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:zewnętrzny tor BTS/BTZ
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 37)\nObie
+ kt: zewnętrzny tor BTS/BTZ\nKod SWF: C-2/37 (grupa SWF 3PL/11KP)\nProwad
+ zący: mgr Olszewski Radosław\nNr zajęć: 9/42\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c5fcb574a9345c5313fa1d0f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261105T160000
+DTEND;TZID=Europe/Warsaw:20261105T173500
+SUMMARY:Mv. (w)
+LOCATION:2/ 23A
+DESCRIPTION:Military vehicles\nRodzaj: wykład\nProwadzący: dr inż. Papl
+ iński Krzysztof\nNr zajęć: 7/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:63399616de684bfea6482fcb@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261106T080000
+DTEND;TZID=Europe/Warsaw:20261106T093500
+SUMMARY:TW (ć)
+LOCATION:106 53\; T14Ć
+DESCRIPTION:Topografia wojskowa\nRodzaj: ćwiczenia\nProwadzący: mgr inż
+ . Gołoś Kazimierz\nNr zajęć: 3/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f834051ca9b893e6c783b263@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261106T095000
+DTEND;TZID=Europe/Warsaw:20261106T112500
+SUMMARY:TW (ć)
+LOCATION:201 53\; T14Ć
+DESCRIPTION:Topografia wojskowa\nRodzaj: ćwiczenia\nProwadzący: mgr inż
+ . Gołoś Kazimierz\nNr zajęć: 4/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:867f6b8cdddf69166edc39b7@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261106T114000
+DTEND;TZID=Europe/Warsaw:20261106T131500
+SUMMARY:WzPs (ć)
+LOCATION:1/ 21
+DESCRIPTION:Wybrane zagadnienia psychologii\nRodzaj: ćwiczenia\nProwadzą
+ cy: dr Fijałkowska Sylwia\nNr zajęć: 2/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:13c347fad3e304b6f2b265db@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261106T133000
+DTEND;TZID=Europe/Warsaw:20261106T150500
+SUMMARY:WF: Walka wręcz
+LOCATION:sala do walki wręcz nr 57
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Walka wręcz (
+ zajęcia 33)\nObiekt: sala do walki wręcz nr 57\nKod SWF: J-4/33 (grupa 
+ SWF 3PL/11KP)\nProwadzący: mgr Olszewski Radosław\nNr zajęć: 10/42\nB
+ lok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8d332fdf5bccf5ececc6872d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261107T095000
+DTEND;TZID=Europe/Warsaw:20261107T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 3/12\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b3081bd510ab04daaae7b6c4@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261109T080000
+DTEND;TZID=Europe/Warsaw:20261109T093500
+SUMMARY:Epw (w)
+LOCATION:42/ 20
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: wykład\nProwadząc
+ y: prof. dr hab. inż. Dziubak Tadeusz\nNr zajęć: 7/22\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8fcc7b19982d5367480c090e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261109T095000
+DTEND;TZID=Europe/Warsaw:20261109T112500
+SUMMARY:Pm. (w)
+LOCATION:2.09/ 54A
+DESCRIPTION:Projektowanie maszyn\nRodzaj: wykład\nProwadzący: prof. dr h
+ ab. inż. Bogdanowicz Zdzisław\nNr zajęć: 4/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:aa2486b3e7ee99bd97fd6435@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261109T114000
+DTEND;TZID=Europe/Warsaw:20261109T131500
+SUMMARY:wzbnim (w)
+LOCATION:19 36
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: wykład\nProwadzący: mjr dr inż. Walkowiak Marzena\nNr za
+ jęć: 3/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:585b4a7382c912e47fb525d4@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261109T133000
+DTEND;TZID=Europe/Warsaw:20261109T150500
+SUMMARY:Mm. (w)
+LOCATION:2.09/ 54A
+DESCRIPTION:Modelowanie maszyn\nRodzaj: wykład\nProwadzący: dr inż. Rub
+ iec Arkadiusz\nNr zajęć: 5/11\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c0db66aeb0ae88f75013c258@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261109T160000
+DTEND;TZID=Europe/Warsaw:20261109T173500
+SUMMARY:Ja (ć)
+LOCATION:126 K\;127 K\;128 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 11/30\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:5a4047a8c9a25c4210171027@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261110T095000
+DTEND;TZID=Europe/Warsaw:20261110T112500
+SUMMARY:Pm. (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Projektowanie maszyn\nRodzaj: laboratorium\nProwadzący: dr in
+ ż. Łuszczek Jakub\nNr zajęć: 2/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:bc8a1588b5ecd45f83312a62@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261110T114000
+DTEND;TZID=Europe/Warsaw:20261110T131500
+SUMMARY:Pm. (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Projektowanie maszyn\nRodzaj: laboratorium\nProwadzący: dr in
+ ż. Łuszczek Jakub\nNr zajęć: 3/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2f4fee6db8537b1854758f62@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261110T133000
+DTEND;TZID=Europe/Warsaw:20261110T150500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 24)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/24 (grupa SWF 3PL/11KP)\nProwadz
+ ący: mgr Olszewski Radosław\nNr zajęć: 11/42\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ab41517a606a23421c15a4c6@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261112T095000
+DTEND;TZID=Europe/Warsaw:20261112T112500
+SUMMARY:Epw (L)
+LOCATION:19/ 20\;PTW/ 28 HANGAR
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: laboratorium\nProwa
+ dzący: prof. dr hab. inż. Dziubak Tadeusz\; dr inż. Koliński Kazimier
+ z\nNr zajęć: 1/20\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3a989278f1499c913d5cd69d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261112T114000
+DTEND;TZID=Europe/Warsaw:20261112T131500
+SUMMARY:Epw (L)
+LOCATION:19/ 20\;PTW/ 28 HANGAR
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: laboratorium\nProwa
+ dzący: prof. dr hab. inż. Dziubak Tadeusz\; dr inż. Koliński Kazimier
+ z\nNr zajęć: 2/20\nBlok: 3\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:28799a1f1d2a192b48060f91@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261112T133000
+DTEND;TZID=Europe/Warsaw:20261112T150500
+SUMMARY:WF: Piłka koszykowa
+LOCATION:zewnętrzne boisko do koszykówki
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Piłka koszyko
+ wa (zajęcia 8)\nObiekt: zewnętrzne boisko do koszykówki\nKod SWF: K-8/
+ 8 (grupa SWF 3PL/11KP)\nProwadzący: mgr Olszewski Radosław\nNr zajęć:
+  12/42\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b21367c33344bf3d3b9f79e1@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261112T160000
+DTEND;TZID=Europe/Warsaw:20261112T173500
+SUMMARY:Mv. (ć)
+LOCATION:2/ 23A
+DESCRIPTION:Military vehicles\nRodzaj: ćwiczenia\nProwadzący: dr inż. P
+ apliński Krzysztof\nNr zajęć: 3/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:b89e0b6ed29dffa5f9be7e20@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261113T080000
+DTEND;TZID=Europe/Warsaw:20261113T093500
+SUMMARY:Epw (w)
+LOCATION:42/ 20
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: wykład\nProwadząc
+ y: prof. dr hab. inż. Dziubak Tadeusz\nNr zajęć: 8/22\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7a9c40fcf948720b0cbc1d3f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261113T095000
+DTEND;TZID=Europe/Warsaw:20261113T112500
+SUMMARY:Pm. (ć)
+LOCATION:108/ 54
+DESCRIPTION:Projektowanie maszyn\nRodzaj: ćwiczenia\nProwadzący: prof. d
+ r hab. inż. Bogdanowicz Zdzisław\nNr zajęć: 2/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:fc4224c5755f90da098048d3@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261113T114000
+DTEND;TZID=Europe/Warsaw:20261113T131500
+SUMMARY:WzPs (ć)
+LOCATION:1/ 21
+DESCRIPTION:Wybrane zagadnienia psychologii\nRodzaj: ćwiczenia\nProwadzą
+ cy: dr Fijałkowska Sylwia\nNr zajęć: 3/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:90094574c25dd9e824135c0b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261113T133000
+DTEND;TZID=Europe/Warsaw:20261113T150500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 27)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/27 (grupa SWF 3PL/11KP)\nProwadz
+ ący: mgr Olszewski Radosław\nNr zajęć: 13/42\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:201598d48d78ddc3b0d31fb6@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261114T095000
+DTEND;TZID=Europe/Warsaw:20261114T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 4/12\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a9124f8e6ffb3cb6f73807e0@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261116T080000
+DTEND;TZID=Europe/Warsaw:20261116T093500
+SUMMARY:Epw (w)
+LOCATION:42/ 20
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: wykład\nProwadząc
+ y: prof. dr hab. inż. Dziubak Tadeusz\nNr zajęć: 9/22\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8a7d859f96ace040448dc705@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261116T095000
+DTEND;TZID=Europe/Warsaw:20261116T112500
+SUMMARY:Mm. (w)
+LOCATION:2.09/ 54A
+DESCRIPTION:Modelowanie maszyn\nRodzaj: wykład\nProwadzący: dr inż. Rub
+ iec Arkadiusz\nNr zajęć: 6/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:559ad79e139b74656a539d9f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261116T114000
+DTEND;TZID=Europe/Warsaw:20261116T131500
+SUMMARY:wzbnim (w)
+LOCATION:19 36
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: wykład\nProwadzący: mjr dr inż. Walkowiak Marzena\nNr za
+ jęć: 4/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b14a6ad391231d05fb4ae683@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261116T133000
+DTEND;TZID=Europe/Warsaw:20261116T150500
+SUMMARY:KiPN (w)
+LOCATION:116/ 54
+DESCRIPTION:Komunikacja i podstawy negocjacji\nRodzaj: wykład\nProwadząc
+ y: dr Skulska Joanna\nNr zajęć: 5/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:db3e65a86c2512b8bcab5253@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261116T160000
+DTEND;TZID=Europe/Warsaw:20261116T173500
+SUMMARY:Ja (ć)
+LOCATION:126 K\;127 K\;128 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 12/30\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:7ff1caec7059f5d4573f0f1d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261117T080000
+DTEND;TZID=Europe/Warsaw:20261117T093500
+SUMMARY:OPST (ć)
+LOCATION:1/ 19
+DESCRIPTION:Organizacja parku sprzętu technicznego\nRodzaj: ćwiczenia\nP
+ rowadzący: mgr inż. Szpak Roman\nNr zajęć: 1/2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4d1a7b469e75a2bcbf83fd9f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261117T095000
+DTEND;TZID=Europe/Warsaw:20261117T112500
+SUMMARY:OPST (ć)
+LOCATION:1/ 19
+DESCRIPTION:Organizacja parku sprzętu technicznego\nRodzaj: ćwiczenia\nP
+ rowadzący: mgr inż. Szpak Roman\nNr zajęć: 2/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2fb87ed3c3370d7d0eeadff1@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261117T114000
+DTEND;TZID=Europe/Warsaw:20261117T131500
+SUMMARY:Pm. (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Projektowanie maszyn\nRodzaj: laboratorium\nProwadzący: dr in
+ ż. Łuszczek Jakub\nNr zajęć: 4/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:348a7ddf95484a071e02fe05@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261117T133000
+DTEND;TZID=Europe/Warsaw:20261117T150500
+SUMMARY:Pm. (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Projektowanie maszyn\nRodzaj: laboratorium\nProwadzący: dr in
+ ż. Łuszczek Jakub\nNr zajęć: 5/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c166fbf87a2c4d558797b1fd@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261118T095000
+DTEND;TZID=Europe/Warsaw:20261118T112500
+SUMMARY:Ja (ć)
+LOCATION:126 K\;127 K\;128 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 13/30\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:61920581399a9e8cda06f2a9@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261118T114000
+DTEND;TZID=Europe/Warsaw:20261118T131500
+SUMMARY:Epw (w)
+LOCATION:42/ 20
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: wykład\nProwadząc
+ y: prof. dr hab. inż. Dziubak Tadeusz\nNr zajęć: 10/22\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:05dffd8729423835e9151f7e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261118T133000
+DTEND;TZID=Europe/Warsaw:20261118T150500
+SUMMARY:WzPs (w)
+LOCATION:1/ 21
+DESCRIPTION:Wybrane zagadnienia psychologii\nRodzaj: wykład\nProwadzący:
+  dr Fijałkowska Sylwia\nNr zajęć: 6/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1160acc07067fea0b4cb89e8@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261119T133000
+DTEND;TZID=Europe/Warsaw:20261119T150500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:hala tartanowa – gimnastyka
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 38)\nObie
+ kt: hala tartanowa – gimnastyka\nKod SWF: B3-2/38 (grupa SWF 3PL/11KP)\
+ nProwadzący: mgr Olszewski Radosław\nNr zajęć: 14/42\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2c7c6821fd8317cd39ee7a31@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261119T160000
+DTEND;TZID=Europe/Warsaw:20261119T173500
+SUMMARY:Mv. (w)
+LOCATION:2/ 23A
+DESCRIPTION:Military vehicles\nRodzaj: wykład\nProwadzący: dr inż. Papl
+ iński Krzysztof\nNr zajęć: 8/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:6e5fdc885407f1bb72f1f8d1@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261120T080000
+DTEND;TZID=Europe/Warsaw:20261120T093500
+SUMMARY:Pm. (ć)
+LOCATION:108/ 54
+DESCRIPTION:Projektowanie maszyn\nRodzaj: ćwiczenia\nProwadzący: prof. d
+ r hab. inż. Bogdanowicz Zdzisław\nNr zajęć: 3/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e075e82c55ae60c61b4d9284@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261120T114000
+DTEND;TZID=Europe/Warsaw:20261120T131500
+SUMMARY:TW (ć)
+LOCATION:12 57\; T15Ć
+DESCRIPTION:Topografia wojskowa\nRodzaj: ćwiczenia\nProwadzący: mgr inż
+ . Gołoś Kazimierz\nNr zajęć: 5/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:725347f79d552c1767af585c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261120T133000
+DTEND;TZID=Europe/Warsaw:20261120T150500
+SUMMARY:WF: Piłka siatkowa
+LOCATION:zewnętrzne boisko do piłki siatkowej
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Piłka siatkow
+ a (zajęcia 12)\nObiekt: zewnętrzne boisko do piłki siatkowej\nKod SWF:
+  F-7/12 (grupa SWF 3PL/11KP)\nProwadzący: mgr Olszewski Radosław\nNr za
+ jęć: 15/42\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:08dbf79738069ed4c1503439@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261121T095000
+DTEND;TZID=Europe/Warsaw:20261121T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 5/12\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3fbb0acb966e9ace7c8d2ee7@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261123T080000
+DTEND;TZID=Europe/Warsaw:20261123T093500
+SUMMARY:Epw (w)
+LOCATION:42/ 20
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: wykład\nProwadząc
+ y: prof. dr hab. inż. Dziubak Tadeusz\nNr zajęć: 11/22\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f576581d897eeb9586031842@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261123T095000
+DTEND;TZID=Europe/Warsaw:20261123T112500
+SUMMARY:Pm. (w)
+LOCATION:2.09/ 54A
+DESCRIPTION:Projektowanie maszyn\nRodzaj: wykład\nProwadzący: prof. dr h
+ ab. inż. Bogdanowicz Zdzisław\nNr zajęć: 5/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:04750ffd84322a5d7755b19d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261123T114000
+DTEND;TZID=Europe/Warsaw:20261123T131500
+SUMMARY:Mm. (w)
+LOCATION:2.09/ 54A
+DESCRIPTION:Modelowanie maszyn\nRodzaj: wykład\nProwadzący: dr inż. Rub
+ iec Arkadiusz\nNr zajęć: 7/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ea508aeb6692352bc28af128@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261123T133000
+DTEND;TZID=Europe/Warsaw:20261123T150500
+SUMMARY:KiPN (w)
+LOCATION:116/ 54
+DESCRIPTION:Komunikacja i podstawy negocjacji\nRodzaj: wykład\nProwadząc
+ y: dr Skulska Joanna\nNr zajęć: 6/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:48d1f4454d8980413f1c87a3@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261123T160000
+DTEND;TZID=Europe/Warsaw:20261123T173500
+SUMMARY:Ja (ć)
+LOCATION:126 K\;127 K\;128 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 14/30\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:e52cf749d26ec50857b71a4a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261123T175000
+DTEND;TZID=Europe/Warsaw:20261123T192500
+SUMMARY:REG (w)
+LOCATION:AW 3/038\; T18W
+DESCRIPTION:Regulaminy SZ RP\nRodzaj: wykład\nProwadzący: mjr mgr Nawali
+ cki Piotr\nNr zajęć: 1/1\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:43b2bd7f9cd64ec1cd5caa12@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261124T080000
+DTEND;TZID=Europe/Warsaw:20261124T093500
+SUMMARY:Mm. (L)
+LOCATION:2.14/ 54A
+DESCRIPTION:Modelowanie maszyn\nRodzaj: laboratorium\nProwadzący: kpt. mg
+ r inż. Kalinko Dariusz\nNr zajęć: 1/22\nBlok: 1\nUwagi: Podgrupa 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f05980aa75a5ca6822a274fd@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261124T095000
+DTEND;TZID=Europe/Warsaw:20261124T112500
+SUMMARY:Mm. (L)
+LOCATION:2.14/ 54A
+DESCRIPTION:Modelowanie maszyn\nRodzaj: laboratorium\nProwadzący: kpt. mg
+ r inż. Kalinko Dariusz\nNr zajęć: 2/22\nBlok: 2\nUwagi: Podgrupa 1
+END:VEVENT
+BEGIN:VEVENT
+UID:004d9763b79f2580892be049@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261124T114000
+DTEND;TZID=Europe/Warsaw:20261124T131500
+SUMMARY:KiPN (ć)
+LOCATION:1/ 21
+DESCRIPTION:Komunikacja i podstawy negocjacji\nRodzaj: ćwiczenia\nProwadz
+ ący: dr Skulska Joanna\nNr zajęć: 1/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7eea981fc1510c3e76e3a744@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261124T133000
+DTEND;TZID=Europe/Warsaw:20261124T150500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 24)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/24 (grupa SWF 3PL/11KP)\nProwadz
+ ący: mgr Olszewski Radosław\nNr zajęć: 16/42\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:519aaa96d4181da3b4a7a2fb@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261124T160000
+DTEND;TZID=Europe/Warsaw:20261124T173500
+SUMMARY:Mm. (L)
+LOCATION:2.14/ 54A
+DESCRIPTION:Modelowanie maszyn\nRodzaj: laboratorium\nProwadzący: kpt. mg
+ r inż. Kalinko Dariusz\nNr zajęć: 3/22\nBlok: 5\nUwagi: Podgrupa 2
+END:VEVENT
+BEGIN:VEVENT
+UID:988f72072166ea3591495f07@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261124T175000
+DTEND;TZID=Europe/Warsaw:20261124T192500
+SUMMARY:Mm. (L)
+LOCATION:2.14/ 54A
+DESCRIPTION:Modelowanie maszyn\nRodzaj: laboratorium\nProwadzący: kpt. mg
+ r inż. Kalinko Dariusz\nNr zajęć: 4/22\nBlok: 6\nUwagi: Podgrupa 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1c9d6a3db46827be7c8a5fef@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261125T080000
+DTEND;TZID=Europe/Warsaw:20261125T093500
+SUMMARY:Ja (ć)
+LOCATION:126 K\;127 K\;128 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 15/30\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:f406dfc17f939f8a0cb48ab4@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261125T095000
+DTEND;TZID=Europe/Warsaw:20261125T112500
+SUMMARY:Ja (ć)
+LOCATION:126 K\;127 K\;128 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 16/30\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:286a81b2a6e7bf0a539b6254@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261125T114000
+DTEND;TZID=Europe/Warsaw:20261125T131500
+SUMMARY:Pm. (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Projektowanie maszyn\nRodzaj: laboratorium\nProwadzący: dr in
+ ż. Łuszczek Jakub\nNr zajęć: 6/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:93f6f34d4d455c1a3358f0ba@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261125T133000
+DTEND;TZID=Europe/Warsaw:20261125T150500
+SUMMARY:Pm. (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Projektowanie maszyn\nRodzaj: laboratorium\nProwadzący: dr in
+ ż. Łuszczek Jakub\nNr zajęć: 7/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e2784ddf96c1a1c3e8c24a1b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261126T095000
+DTEND;TZID=Europe/Warsaw:20261126T112500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PWC3)\; T5.3Ć
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 5/8\nBl
+ ok: 2\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:4dc07b2471e0f6222e93aa39@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261126T114000
+DTEND;TZID=Europe/Warsaw:20261126T131500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PWC3)\; T5.3Ć
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 6/8\nBl
+ ok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c4c45f74fc985ce810c5d145@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261128T095000
+DTEND;TZID=Europe/Warsaw:20261128T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 6/12\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e2bb908e851b279381b23924@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261130T080000
+DTEND;TZID=Europe/Warsaw:20261130T093500
+SUMMARY:Epw (w)
+LOCATION:42/ 20
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: wykład\nProwadząc
+ y: prof. dr hab. inż. Dziubak Tadeusz\nNr zajęć: 12/22\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2eb41771e570a5e8fe5a6d06@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261130T095000
+DTEND;TZID=Europe/Warsaw:20261130T112500
+SUMMARY:Pm. (w)
+LOCATION:2.09/ 54A
+DESCRIPTION:Projektowanie maszyn\nRodzaj: wykład\nProwadzący: prof. dr h
+ ab. inż. Bogdanowicz Zdzisław\nNr zajęć: 6/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b6b9f586746a0b7d34938d67@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261130T114000
+DTEND;TZID=Europe/Warsaw:20261130T131500
+SUMMARY:Mm. (w)
+LOCATION:2.09/ 54A
+DESCRIPTION:Modelowanie maszyn\nRodzaj: wykład\nProwadzący: dr inż. Rub
+ iec Arkadiusz\nNr zajęć: 8/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:dfbd7d3fb78975948c140cb6@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261130T133000
+DTEND;TZID=Europe/Warsaw:20261130T150500
+SUMMARY:KiPN (w)
+LOCATION:116/ 54
+DESCRIPTION:Komunikacja i podstawy negocjacji\nRodzaj: wykład\nProwadząc
+ y: dr Skulska Joanna\nNr zajęć: 7/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0c25bed7ab60f1717b914424@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261130T160000
+DTEND;TZID=Europe/Warsaw:20261130T173500
+SUMMARY:Ja (ć)
+LOCATION:126 K\;127 K\;128 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 17/30\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:8ea87f6e5ed203471cdbc0cb@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261201T080000
+DTEND;TZID=Europe/Warsaw:20261201T093500
+SUMMARY:Mm. (L)
+LOCATION:2.14/ 54A
+DESCRIPTION:Modelowanie maszyn\nRodzaj: laboratorium\nProwadzący: kpt. mg
+ r inż. Kalinko Dariusz\nNr zajęć: 5/22\nBlok: 1\nUwagi: Podgrupa 1
+END:VEVENT
+BEGIN:VEVENT
+UID:718fd23f6373851c5f369cfd@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261201T095000
+DTEND;TZID=Europe/Warsaw:20261201T112500
+SUMMARY:Mm. (L)
+LOCATION:2.14/ 54A
+DESCRIPTION:Modelowanie maszyn\nRodzaj: laboratorium\nProwadzący: kpt. mg
+ r inż. Kalinko Dariusz\nNr zajęć: 6/22\nBlok: 2\nUwagi: Podgrupa 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2268dd9edbc9f5dfb78d42ea@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261201T114000
+DTEND;TZID=Europe/Warsaw:20261201T131500
+SUMMARY:KiPN (ć)
+LOCATION:1/ 21
+DESCRIPTION:Komunikacja i podstawy negocjacji\nRodzaj: ćwiczenia\nProwadz
+ ący: dr Skulska Joanna\nNr zajęć: 2/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f47facc51ef42acb56a19080@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261201T133000
+DTEND;TZID=Europe/Warsaw:20261201T150500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 21)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/21 (grupa SWF 3PL/11KP)\nProwadz
+ ący: mgr Olszewski Radosław\nNr zajęć: 17/42\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b71aa21af14dc8fe58a1f65b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261201T160000
+DTEND;TZID=Europe/Warsaw:20261201T173500
+SUMMARY:Mm. (L)
+LOCATION:2.14/ 54A
+DESCRIPTION:Modelowanie maszyn\nRodzaj: laboratorium\nProwadzący: kpt. mg
+ r inż. Kalinko Dariusz\nNr zajęć: 7/22\nBlok: 5\nUwagi: Podgrupa 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8bd0a11f1c1d124e2753fef4@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261201T175000
+DTEND;TZID=Europe/Warsaw:20261201T192500
+SUMMARY:Mm. (L)
+LOCATION:2.14/ 54A
+DESCRIPTION:Modelowanie maszyn\nRodzaj: laboratorium\nProwadzący: kpt. mg
+ r inż. Kalinko Dariusz\nNr zajęć: 8/22\nBlok: 6\nUwagi: Podgrupa 2
+END:VEVENT
+BEGIN:VEVENT
+UID:93cf11caca5e85abaa3c669b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261202T080000
+DTEND;TZID=Europe/Warsaw:20261202T093500
+SUMMARY:Ja (ć)
+LOCATION:126 K\;127 K\;128 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 18/30\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:6fdc7838647f7c8dd511edca@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261202T095000
+DTEND;TZID=Europe/Warsaw:20261202T112500
+SUMMARY:Ja (ć)
+LOCATION:126 K\;127 K\;128 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 19/30\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:471e07555053dc503202f54f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261202T114000
+DTEND;TZID=Europe/Warsaw:20261202T131500
+SUMMARY:Epw (w)
+LOCATION:42/ 20
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: wykład\nProwadząc
+ y: prof. dr hab. inż. Dziubak Tadeusz\nNr zajęć: 13/22\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:31ce17041e4e830b7cae3631@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261202T133000
+DTEND;TZID=Europe/Warsaw:20261202T150500
+SUMMARY:WzPs (w)
+LOCATION:1/ 21
+DESCRIPTION:Wybrane zagadnienia psychologii\nRodzaj: wykład\nProwadzący:
+  dr Fijałkowska Sylwia\nNr zajęć: 7/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:356f423bfd9ae42e2af63196@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261202T160000
+DTEND;TZID=Europe/Warsaw:20261202T173500
+SUMMARY:Mv. (L)
+LOCATION:PTW/ 28 HANGAR
+DESCRIPTION:Military vehicles\nRodzaj: laboratorium\nProwadzący: dr inż.
+  Papliński Krzysztof\nNr zajęć: 1/2\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:69b4576327b0eb47222c31f0@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261203T080000
+DTEND;TZID=Europe/Warsaw:20261203T093500
+SUMMARY:Epw (L)
+LOCATION:19/ 20\;PTW/ 28 HANGAR
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: laboratorium\nProwa
+ dzący: prof. dr hab. inż. Dziubak Tadeusz\; dr inż. Koliński Kazimier
+ z\nNr zajęć: 3/20\nBlok: 1\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:040d1897d65998ac86863a55@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261203T095000
+DTEND;TZID=Europe/Warsaw:20261203T112500
+SUMMARY:Epw (L)
+LOCATION:19/ 20\;PTW/ 28 HANGAR
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: laboratorium\nProwa
+ dzący: prof. dr hab. inż. Dziubak Tadeusz\; dr inż. Koliński Kazimier
+ z\nNr zajęć: 4/20\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:557586ecbba21faeda1de7a0@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261203T114000
+DTEND;TZID=Europe/Warsaw:20261203T131500
+SUMMARY:Epw (ć)
+LOCATION:5/ 20
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: ćwiczenia\nProwadz
+ ący: prof. dr hab. inż. Dziubak Tadeusz\nNr zajęć: 2/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:34638c0dc39d25631907e9ed@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261203T133000
+DTEND;TZID=Europe/Warsaw:20261203T150500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 21)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/21 (grupa SWF 3PL/11KP)\nProwadz
+ ący: mgr Olszewski Radosław\nNr zajęć: 18/42\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:78296296e96ed77f64d60bba@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261203T160000
+DTEND;TZID=Europe/Warsaw:20261203T173500
+SUMMARY:Mv. (ć)
+LOCATION:2/ 23A
+DESCRIPTION:Military vehicles\nRodzaj: ćwiczenia\nProwadzący: dr inż. P
+ apliński Krzysztof\nNr zajęć: 4/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:2dee444c50e3979bc4df952b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261204T080000
+DTEND;TZID=Europe/Warsaw:20261204T093500
+SUMMARY:Pm. (ć)
+LOCATION:108/ 54
+DESCRIPTION:Projektowanie maszyn\nRodzaj: ćwiczenia\nProwadzący: prof. d
+ r hab. inż. Bogdanowicz Zdzisław\nNr zajęć: 4/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:41d794fd6ebc6645352b5c27@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261204T095000
+DTEND;TZID=Europe/Warsaw:20261204T112500
+SUMMARY:Mm. (ć)
+LOCATION:2.09/ 54A
+DESCRIPTION:Modelowanie maszyn\nRodzaj: ćwiczenia\nProwadzący: dr inż. 
+ Rykała Łukasz\nNr zajęć: 1/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6433d9fe09350505fee15822@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261204T114000
+DTEND;TZID=Europe/Warsaw:20261204T131500
+SUMMARY:WzPs (ć)
+LOCATION:1/ 21
+DESCRIPTION:Wybrane zagadnienia psychologii\nRodzaj: ćwiczenia\nProwadzą
+ cy: dr Fijałkowska Sylwia\nNr zajęć: 4/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e02aba663ec901916ec0e757@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261204T133000
+DTEND;TZID=Europe/Warsaw:20261204T150500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 21)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/21 (grupa SWF 3PL/11KP)\nProwadz
+ ący: mgr Olszewski Radosław\nNr zajęć: 19/42\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5da8d7c59b0ce4b9990772ee@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261205T095000
+DTEND;TZID=Europe/Warsaw:20261205T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 7/12\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f3d5beb4fa0555464bf50921@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261207T095000
+DTEND;TZID=Europe/Warsaw:20261207T112500
+SUMMARY:Pm. (w)
+LOCATION:2.09/ 54A
+DESCRIPTION:Projektowanie maszyn\nRodzaj: wykład\nProwadzący: prof. dr h
+ ab. inż. Bogdanowicz Zdzisław\nNr zajęć: 7/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8746c725b8cea04837c74855@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261207T114000
+DTEND;TZID=Europe/Warsaw:20261207T131500
+SUMMARY:Mm. (w)
+LOCATION:2.09/ 54A
+DESCRIPTION:Modelowanie maszyn\nRodzaj: wykład\nProwadzący: dr inż. Rub
+ iec Arkadiusz\nNr zajęć: 9/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:17a362cd8d2f24860e790529@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261207T133000
+DTEND;TZID=Europe/Warsaw:20261207T150500
+SUMMARY:KiPN (w)
+LOCATION:116/ 54
+DESCRIPTION:Komunikacja i podstawy negocjacji\nRodzaj: wykład\nProwadząc
+ y: dr Skulska Joanna\nNr zajęć: 8/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e5fa180e987fa7ae20547fd5@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261207T160000
+DTEND;TZID=Europe/Warsaw:20261207T173500
+SUMMARY:Ja (ć)
+LOCATION:126 K\;127 K\;128 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 20/30\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:e40245d73e5011aae6549b54@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261208T080000
+DTEND;TZID=Europe/Warsaw:20261208T093500
+SUMMARY:Epw (w)
+LOCATION:42/ 20
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: wykład\nProwadząc
+ y: prof. dr hab. inż. Dziubak Tadeusz\nNr zajęć: 14/22\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f1f8a67acab2b703dae8db15@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261208T095000
+DTEND;TZID=Europe/Warsaw:20261208T112500
+SUMMARY:KiPN (ć)
+LOCATION:1/ 21
+DESCRIPTION:Komunikacja i podstawy negocjacji\nRodzaj: ćwiczenia\nProwadz
+ ący: dr Skulska Joanna\nNr zajęć: 3/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:327ae25650af23fb86b398cb@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261208T114000
+DTEND;TZID=Europe/Warsaw:20261208T131500
+SUMMARY:KiPN (ć)
+LOCATION:1/ 21
+DESCRIPTION:Komunikacja i podstawy negocjacji\nRodzaj: ćwiczenia\nProwadz
+ ący: dr Skulska Joanna\nNr zajęć: 4/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:84d133d72c8d21449a0feafa@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261208T133000
+DTEND;TZID=Europe/Warsaw:20261208T150500
+SUMMARY:WF: Zajęcia sportowe z różnych dyscyplin sportu i rekreacji ruc
+ howej
+LOCATION:stadion lekkoatletyczny
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Zajęcia sport
+ owe z różnych dyscyplin sportu i rekreacji ruchowej (zajęcia 2)\nObiek
+ t: stadion lekkoatletyczny\nKod SWF: A-16/2 (grupa SWF 3PL/11KP)\nProwadz
+ ący: mgr Olszewski Radosław\nNr zajęć: 20/42\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:de50c9afbc2b14777d83466e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261208T160000
+DTEND;TZID=Europe/Warsaw:20261208T173500
+SUMMARY:wzbnim (ć)
+LOCATION:15/ 23A
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: ćwiczenia\nProwadzący: ppłk. Sługocka Ewa\nNr zajęć: 
+ 1/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:752d3bfbca198afe0c25f6ba@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261209T080000
+DTEND;TZID=Europe/Warsaw:20261209T093500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 5/16
+ \nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e158cf6c43df721b5254c381@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261209T095000
+DTEND;TZID=Europe/Warsaw:20261209T112500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 6/16
+ \nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e818e0ded41eb5d263ba1faa@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261209T114000
+DTEND;TZID=Europe/Warsaw:20261209T131500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 7/16
+ \nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:48f6312a30ab46f2d3ca4b55@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261209T133000
+DTEND;TZID=Europe/Warsaw:20261209T150500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 8/16
+ \nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2fbdce5561a64ac0d56124be@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261209T160000
+DTEND;TZID=Europe/Warsaw:20261209T173500
+SUMMARY:Mv. (L)
+LOCATION:PTW/ 28 HANGAR
+DESCRIPTION:Military vehicles\nRodzaj: laboratorium\nProwadzący: dr inż.
+  Papliński Krzysztof\nNr zajęć: 2/2\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:52235e64b1a86f21bb97e494@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261210T080000
+DTEND;TZID=Europe/Warsaw:20261210T093500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 7
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: kpr.
+  Majewska Natalia\nNr zajęć: 7/17\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:bfec0bae9a0d297074e92955@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261210T095000
+DTEND;TZID=Europe/Warsaw:20261210T112500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 7
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: kpr.
+  Majewska Natalia\nNr zajęć: 8/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6aac245cbc996a11c9e0c2e8@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261210T114000
+DTEND;TZID=Europe/Warsaw:20261210T131500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 7
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: kpr.
+  Majewska Natalia\nNr zajęć: 9/17\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:30b586f4448c757c37a01ede@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261210T133000
+DTEND;TZID=Europe/Warsaw:20261210T150500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 7
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: kpr.
+  Majewska Natalia\nNr zajęć: 10/17\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ebd2be625e39cdd2d737d8ff@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261210T160000
+DTEND;TZID=Europe/Warsaw:20261210T173500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 7
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: kpr.
+  Majewska Natalia\nNr zajęć: 11/17\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:70b05b086f18b94470994bcd@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261211T080000
+DTEND;TZID=Europe/Warsaw:20261211T093500
+SUMMARY:Pm. (ć)
+LOCATION:108/ 54
+DESCRIPTION:Projektowanie maszyn\nRodzaj: ćwiczenia\nProwadzący: prof. d
+ r hab. inż. Bogdanowicz Zdzisław\nNr zajęć: 5/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:30ca5f85c980074c1110244b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261211T095000
+DTEND;TZID=Europe/Warsaw:20261211T112500
+SUMMARY:Mm. (ć)
+LOCATION:2.09/ 54A
+DESCRIPTION:Modelowanie maszyn\nRodzaj: ćwiczenia\nProwadzący: dr inż. 
+ Rykała Łukasz\nNr zajęć: 2/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:18728a0b7295e06d83ae73b3@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261211T114000
+DTEND;TZID=Europe/Warsaw:20261211T131500
+SUMMARY:WzPs (ć)
+LOCATION:1/ 21
+DESCRIPTION:Wybrane zagadnienia psychologii\nRodzaj: ćwiczenia\nProwadzą
+ cy: dr Fijałkowska Sylwia\nNr zajęć: 5/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d80fb156e70cae63df2b0d1a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261211T133000
+DTEND;TZID=Europe/Warsaw:20261211T150500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 32)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/32 (grupa SWF 3PL/11KP)\nProwadz
+ ący: mgr Olszewski Radosław\nNr zajęć: 21/42\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:189291cf037f6f6303031e12@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261212T095000
+DTEND;TZID=Europe/Warsaw:20261212T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 8/12\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e7b299aa65fe39f93ade3c8f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261214T080000
+DTEND;TZID=Europe/Warsaw:20261214T093500
+SUMMARY:Epw (w)
+LOCATION:42/ 20
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: wykład\nProwadząc
+ y: prof. dr hab. inż. Dziubak Tadeusz\nNr zajęć: 15/22\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ff6f470160a523dc7ea49839@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261214T095000
+DTEND;TZID=Europe/Warsaw:20261214T112500
+SUMMARY:Pm. (w)
+LOCATION:2.09/ 54A
+DESCRIPTION:Projektowanie maszyn\nRodzaj: wykład\nProwadzący: prof. dr h
+ ab. inż. Bogdanowicz Zdzisław\nNr zajęć: 8/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:dde7324e37963b04b4427269@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261214T114000
+DTEND;TZID=Europe/Warsaw:20261214T131500
+SUMMARY:Mm. (w)
+LOCATION:2.09/ 54A
+DESCRIPTION:Modelowanie maszyn\nRodzaj: wykład\nProwadzący: dr inż. Rub
+ iec Arkadiusz\nNr zajęć: 10/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c2310797c77b8b3dc8d8f877@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261214T133000
+DTEND;TZID=Europe/Warsaw:20261214T150500
+SUMMARY:OPST (S)
+LOCATION:1/ 19
+DESCRIPTION:Organizacja parku sprzętu technicznego\nRodzaj: seminarium\nP
+ rowadzący: mgr inż. Szpak Roman\nNr zajęć: 1/1\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8c898016d52d265cf15fc202@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261214T160000
+DTEND;TZID=Europe/Warsaw:20261214T173500
+SUMMARY:Ja (ć)
+LOCATION:126 K\;127 K\;128 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 21/30\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:ff3fa128616c3fb72e57742c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261215T080000
+DTEND;TZID=Europe/Warsaw:20261215T093500
+SUMMARY:Mm. (L)
+LOCATION:2.14/ 54A
+DESCRIPTION:Modelowanie maszyn\nRodzaj: laboratorium\nProwadzący: kpt. mg
+ r inż. Kalinko Dariusz\nNr zajęć: 9/22\nBlok: 1\nUwagi: Podgrupa 2
+END:VEVENT
+BEGIN:VEVENT
+UID:73a89e663e604391e7b5e1e4@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261215T095000
+DTEND;TZID=Europe/Warsaw:20261215T112500
+SUMMARY:Mm. (L)
+LOCATION:2.14/ 54A
+DESCRIPTION:Modelowanie maszyn\nRodzaj: laboratorium\nProwadzący: kpt. mg
+ r inż. Kalinko Dariusz\nNr zajęć: 10/22\nBlok: 2\nUwagi: Podgrupa 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4889089b840989b1acadcee8@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261215T114000
+DTEND;TZID=Europe/Warsaw:20261215T131500
+SUMMARY:KiPN (ć)
+LOCATION:42/ 20
+DESCRIPTION:Komunikacja i podstawy negocjacji\nRodzaj: ćwiczenia\nProwadz
+ ący: dr Skulska Joanna\nNr zajęć: 5/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:595d8e7c1fbbacc13230ed1f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261215T133000
+DTEND;TZID=Europe/Warsaw:20261215T150500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 25)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/25 (grupa SWF 3PL/11KP)\nProwadz
+ ący: mgr Olszewski Radosław\nNr zajęć: 22/42\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:008337b4bbe531350f59238a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261215T160000
+DTEND;TZID=Europe/Warsaw:20261215T173500
+SUMMARY:Mm. (L)
+LOCATION:2.14/ 54A
+DESCRIPTION:Modelowanie maszyn\nRodzaj: laboratorium\nProwadzący: kpt. mg
+ r inż. Kalinko Dariusz\nNr zajęć: 11/22\nBlok: 5\nUwagi: Podgrupa 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e34e6b45db44444e56a1a3de@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261215T175000
+DTEND;TZID=Europe/Warsaw:20261215T192500
+SUMMARY:Mm. (L)
+LOCATION:2.14/ 54A
+DESCRIPTION:Modelowanie maszyn\nRodzaj: laboratorium\nProwadzący: kpt. mg
+ r inż. Kalinko Dariusz\nNr zajęć: 12/22\nBlok: 6\nUwagi: Podgrupa 1
+END:VEVENT
+BEGIN:VEVENT
+UID:bcae07b43b4d83af2469ba7a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261216T080000
+DTEND;TZID=Europe/Warsaw:20261216T093500
+SUMMARY:ZŻWAT (i)
+DESCRIPTION:Zbiórka żołnierzy WAT\nRodzaj: inne\nNr zajęć: 2/3\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:4eda6792c9670b15d763aeef@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261216T095000
+DTEND;TZID=Europe/Warsaw:20261216T112500
+SUMMARY:Ja (ć)
+LOCATION:126 K\;127 K\;128 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 22/30\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:8090079a9c7640d8297e2789@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261216T114000
+DTEND;TZID=Europe/Warsaw:20261216T131500
+SUMMARY:Pm. (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Projektowanie maszyn\nRodzaj: laboratorium\nProwadzący: dr in
+ ż. Łuszczek Jakub\nNr zajęć: 8/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2da1358854338d645d4debe2@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261216T133000
+DTEND;TZID=Europe/Warsaw:20261216T150500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 23)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/23 (grupa SWF 3PL/11KP)\nProwadz
+ ący: mgr Olszewski Radosław\nNr zajęć: 23/42\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3994daf4a2bec4394a6b09a2@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261216T160000
+DTEND;TZID=Europe/Warsaw:20261216T173500
+SUMMARY:Epw (L)
+LOCATION:PTW/ 28 HANGAR
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: laboratorium\nProwa
+ dzący: dr inż. Trawiński Grzegorz\; dr inż. Koliński Kazimierz\nNr z
+ ajęć: 5/20\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:4659b3e2b231dbac0f878190@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261216T175000
+DTEND;TZID=Europe/Warsaw:20261216T192500
+SUMMARY:Epw (L)
+LOCATION:PTW/ 28 HANGAR
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: laboratorium\nProwa
+ dzący: dr inż. Trawiński Grzegorz\; dr inż. Koliński Kazimierz\nNr z
+ ajęć: 6/20\nBlok: 6\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:d19a9e817dac207b96312940@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261217T080000
+DTEND;TZID=Europe/Warsaw:20261217T093500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PWC3)\; T5.4Ć
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 7/8\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:59df7da4d2f5b721d66a2b0f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261217T095000
+DTEND;TZID=Europe/Warsaw:20261217T112500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PWC3)\; T5.4Ć
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 8/8\nBl
+ ok: 2\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:d5fef752e698f5eb1a96e729@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261217T133000
+DTEND;TZID=Europe/Warsaw:20261217T150500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 24)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/24 (grupa SWF 3PL/11KP)\nProwadz
+ ący: mgr Olszewski Radosław\nNr zajęć: 24/42\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d263f6eb42a7e0c9032958bd@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261218T080000
+DTEND;TZID=Europe/Warsaw:20261218T093500
+SUMMARY:Pm. (ć)
+LOCATION:108/ 54
+DESCRIPTION:Projektowanie maszyn\nRodzaj: ćwiczenia\nProwadzący: prof. d
+ r hab. inż. Bogdanowicz Zdzisław\nNr zajęć: 6/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a230197d3a3b285cec0a2020@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261218T095000
+DTEND;TZID=Europe/Warsaw:20261218T112500
+SUMMARY:Mm. (ć)
+LOCATION:2.09/ 54A
+DESCRIPTION:Modelowanie maszyn\nRodzaj: ćwiczenia\nProwadzący: dr inż. 
+ Rykała Łukasz\nNr zajęć: 3/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:745e0dd0c15e7fbe481180c7@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261218T114000
+DTEND;TZID=Europe/Warsaw:20261218T131500
+SUMMARY:WzPs (ć)
+LOCATION:1/ 21
+DESCRIPTION:Wybrane zagadnienia psychologii\nRodzaj: ćwiczenia\nProwadzą
+ cy: dr Fijałkowska Sylwia\nNr zajęć: 6/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:554441d1c59f230296d6256a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261218T133000
+DTEND;TZID=Europe/Warsaw:20261218T150500
+SUMMARY:WF: Walka wręcz
+LOCATION:sala do walki wręcz nr 57
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Walka wręcz (
+ zajęcia 34)\nObiekt: sala do walki wręcz nr 57\nKod SWF: J-4/34 (grupa 
+ SWF 3PL/11KP)\nProwadzący: mgr Olszewski Radosław\nNr zajęć: 25/42\nB
+ lok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:89f759a4ee4169c3ba077523@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261219T095000
+DTEND;TZID=Europe/Warsaw:20261219T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 9/12\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:cbad34dc8805ce24430d5170@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261221T080000
+DTEND;TZID=Europe/Warsaw:20261221T093500
+SUMMARY:Epw (w)
+LOCATION:42/ 20
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: wykład\nProwadząc
+ y: prof. dr hab. inż. Dziubak Tadeusz\nNr zajęć: 16/22\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c0f9ad8f0d576980b9b7cbf7@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261221T095000
+DTEND;TZID=Europe/Warsaw:20261221T112500
+SUMMARY:Epw (w)
+LOCATION:42/ 20
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: wykład\nProwadząc
+ y: prof. dr hab. inż. Dziubak Tadeusz\nNr zajęć: 17/22\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3b75786817c2684950c10509@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261221T114000
+DTEND;TZID=Europe/Warsaw:20261221T131500
+SUMMARY:Mm. (w)
+LOCATION:2.09/ 54A
+DESCRIPTION:Modelowanie maszyn\nRodzaj: wykład\nProwadzący: dr inż. Rub
+ iec Arkadiusz\nNr zajęć: 11/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b938dc9db929a496f4b61d15@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261221T133000
+DTEND;TZID=Europe/Warsaw:20261221T150500
+SUMMARY:Epw (ć)
+LOCATION:5/ 20
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: ćwiczenia\nProwadz
+ ący: prof. dr hab. inż. Dziubak Tadeusz\nNr zajęć: 3/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:493a7c905498ab149c7ff723@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261221T160000
+DTEND;TZID=Europe/Warsaw:20261221T173500
+SUMMARY:Ja (ć)
+LOCATION:126 K\;127 K\;128 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 23/30\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:44c7628a42bb3cd9959ba70c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261222T080000
+DTEND;TZID=Europe/Warsaw:20261222T093500
+SUMMARY:Mm. (L)
+LOCATION:2.14/ 54A
+DESCRIPTION:Modelowanie maszyn\nRodzaj: laboratorium\nProwadzący: kpt. mg
+ r inż. Kalinko Dariusz\nNr zajęć: 13/22\nBlok: 1\nUwagi: Podgrupa 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2fb4b9fdbef9a322e5fdb1d0@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261222T095000
+DTEND;TZID=Europe/Warsaw:20261222T112500
+SUMMARY:Mm. (L)
+LOCATION:2.14/ 54A
+DESCRIPTION:Modelowanie maszyn\nRodzaj: laboratorium\nProwadzący: kpt. mg
+ r inż. Kalinko Dariusz\nNr zajęć: 14/22\nBlok: 2\nUwagi: Podgrupa 2
+END:VEVENT
+BEGIN:VEVENT
+UID:81fe4a6227bc60427f698756@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261222T114000
+DTEND;TZID=Europe/Warsaw:20261222T131500
+SUMMARY:Pm. (ć)
+LOCATION:108/ 54
+DESCRIPTION:Projektowanie maszyn\nRodzaj: ćwiczenia\nProwadzący: prof. d
+ r hab. inż. Bogdanowicz Zdzisław\nNr zajęć: 7/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:90acc38b5bd6faabf9e77fe5@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261222T133000
+DTEND;TZID=Europe/Warsaw:20261222T150500
+SUMMARY:WF: Zajęcia sportowe z różnych dyscyplin sportu i rekreacji ruc
+ howej
+LOCATION:strzelnica
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Zajęcia sport
+ owe z różnych dyscyplin sportu i rekreacji ruchowej (zajęcia 4)\nObiek
+ t: strzelnica\nKod SWF: U-16/4 (grupa SWF 3PL/11KP)\nProwadzący: mjr mgr
+  Lubkiewicz Tomasz\nNr zajęć: 26/42\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c8d2f9cfe247e7ef1ae8b6e8@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261222T160000
+DTEND;TZID=Europe/Warsaw:20261222T173500
+SUMMARY:Mm. (L)
+LOCATION:2.14/ 54A
+DESCRIPTION:Modelowanie maszyn\nRodzaj: laboratorium\nProwadzący: kpt. mg
+ r inż. Kalinko Dariusz\nNr zajęć: 15/22\nBlok: 5\nUwagi: Podgrupa 1
+END:VEVENT
+BEGIN:VEVENT
+UID:531c336171e3dc1f8fc9c6ae@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261222T175000
+DTEND;TZID=Europe/Warsaw:20261222T192500
+SUMMARY:Mm. (L)
+LOCATION:2.14/ 54A
+DESCRIPTION:Modelowanie maszyn\nRodzaj: laboratorium\nProwadzący: kpt. mg
+ r inż. Kalinko Dariusz\nNr zajęć: 16/22\nBlok: 6\nUwagi: Podgrupa 1
+END:VEVENT
+BEGIN:VEVENT
+UID:24d5593d8423be345adb4636@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261223T080000
+DTEND;TZID=Europe/Warsaw:20261223T093500
+SUMMARY:Ja (ć)
+LOCATION:126 K\;127 K\;128 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 24/30\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:fed8857b8463bd6553ae104f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261223T095000
+DTEND;TZID=Europe/Warsaw:20261223T112500
+SUMMARY:Epw (w)
+LOCATION:42/ 20
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: wykład\nProwadząc
+ y: prof. dr hab. inż. Dziubak Tadeusz\nNr zajęć: 18/22\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c9a989c9569b0397230a16a6@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261223T133000
+DTEND;TZID=Europe/Warsaw:20261223T150500
+SUMMARY:WzPs (w)
+LOCATION:1/ 21
+DESCRIPTION:Wybrane zagadnienia psychologii\nRodzaj: wykład\nProwadzący:
+  dr Fijałkowska Sylwia\nNr zajęć: 8/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a39e29ee936bb3ec666a220b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270107T080000
+DTEND;TZID=Europe/Warsaw:20270107T093500
+SUMMARY:Epw (L)
+LOCATION:PTW/ 28 HANGAR
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: laboratorium\nProwa
+ dzący: dr inż. Trawiński Grzegorz\; dr inż. Koliński Kazimierz\nNr z
+ ajęć: 7/20\nBlok: 1\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:20f5303b763b1a45b0711b4e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270107T095000
+DTEND;TZID=Europe/Warsaw:20270107T112500
+SUMMARY:Epw (L)
+LOCATION:PTW/ 28 HANGAR
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: laboratorium\nProwa
+ dzący: dr inż. Trawiński Grzegorz\; dr inż. Koliński Kazimierz\nNr z
+ ajęć: 8/20\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:05872b0bc679396655caea09@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270107T114000
+DTEND;TZID=Europe/Warsaw:20270107T131500
+SUMMARY:REG (ć)
+LOCATION:AW 3/043\; T19Ć
+DESCRIPTION:Regulaminy SZ RP\nRodzaj: ćwiczenia\nProwadzący: mjr mgr Naw
+ alicki Piotr\nNr zajęć: 1/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f97a5e249e4d4cc0f5abf432@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270107T133000
+DTEND;TZID=Europe/Warsaw:20270107T150500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 1
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: kpr.
+  Majewska Natalia\nNr zajęć: 12/17\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9ca41219484d77f12415acb5@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270107T160000
+DTEND;TZID=Europe/Warsaw:20270107T173500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 1
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: kpr.
+  Majewska Natalia\nNr zajęć: 13/17\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:084b2906f1efc63c2592d899@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270107T175000
+DTEND;TZID=Europe/Warsaw:20270107T192500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 1
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: kpr.
+  Majewska Natalia\nNr zajęć: 14/17\nBlok: 6\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:34af08c2985d00bc8ae60161@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270108T114000
+DTEND;TZID=Europe/Warsaw:20270108T131500
+SUMMARY:WzPs (ć)
+LOCATION:1/ 21
+DESCRIPTION:Wybrane zagadnienia psychologii\nRodzaj: ćwiczenia\nProwadzą
+ cy: dr Fijałkowska Sylwia\nNr zajęć: 7/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e70cf88f896f29ca85363400@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270108T133000
+DTEND;TZID=Europe/Warsaw:20270108T150500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 25)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/25 (grupa SWF 3PL/11KP)\nProwadz
+ ący: mgr Olszewski Radosław\nNr zajęć: 27/42\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:41c70345346bd74c1390e660@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270108T160000
+DTEND;TZID=Europe/Warsaw:20270108T173500
+SUMMARY:Mm. (ć)
+LOCATION:2.09/ 54A
+DESCRIPTION:Modelowanie maszyn\nRodzaj: ćwiczenia\nProwadzący: dr inż. 
+ Rykała Łukasz\nNr zajęć: 4/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:23cfd2220e49377bc25eda7d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270109T095000
+DTEND;TZID=Europe/Warsaw:20270109T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 10/12\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:dc2de11e747c902f6fed5090@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270111T080000
+DTEND;TZID=Europe/Warsaw:20270111T093500
+SUMMARY:Mm. (L)
+LOCATION:2.14/ 54A
+DESCRIPTION:Modelowanie maszyn\nRodzaj: laboratorium\nProwadzący: kpt. mg
+ r inż. Kalinko Dariusz\nNr zajęć: 17/22\nBlok: 1\nUwagi: Podgrupa 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1d0a5c1f522b986e468551a9@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270111T095000
+DTEND;TZID=Europe/Warsaw:20270111T112500
+SUMMARY:Mm. (L)
+LOCATION:2.14/ 54A
+DESCRIPTION:Modelowanie maszyn\nRodzaj: laboratorium\nProwadzący: kpt. mg
+ r inż. Kalinko Dariusz\nNr zajęć: 18/22\nBlok: 2\nUwagi: Podgrupa 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f3718e8d0df2c28f0ef7c94c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270111T114000
+DTEND;TZID=Europe/Warsaw:20270111T131500
+SUMMARY:Epw (L)
+LOCATION:PTW/ 28 HANGAR
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: laboratorium\nProwa
+ dzący: dr inż. Trawiński Grzegorz\; dr inż. Koliński Kazimierz\nNr z
+ ajęć: 9/20\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0984d2ff40363eec3c31c576@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270111T133000
+DTEND;TZID=Europe/Warsaw:20270111T150500
+SUMMARY:Epw (L)
+LOCATION:PTW/ 28 HANGAR
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: laboratorium\nProwa
+ dzący: dr inż. Trawiński Grzegorz\; dr inż. Koliński Kazimierz\nNr z
+ ajęć: 10/20\nBlok: 4\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:4152c98596d15eee24227232@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270111T160000
+DTEND;TZID=Europe/Warsaw:20270111T173500
+SUMMARY:Ja (ć)
+LOCATION:126 K\;127 K\;128 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 25/30\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:64eb876daa926e87dca3f12c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270112T080000
+DTEND;TZID=Europe/Warsaw:20270112T093500
+SUMMARY:Epw (w)
+LOCATION:5/ 20
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: wykład\nProwadząc
+ y: prof. dr hab. inż. Dziubak Tadeusz\nNr zajęć: 19/22\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:784b753529e7a97ebbea87b1@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270112T095000
+DTEND;TZID=Europe/Warsaw:20270112T112500
+SUMMARY:KiPN (ć)
+LOCATION:2/ 23A
+DESCRIPTION:Komunikacja i podstawy negocjacji\nRodzaj: ćwiczenia\nProwadz
+ ący: dr Skulska Joanna\nNr zajęć: 6/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6bbb4351cbee30fa7128c2fe@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270112T114000
+DTEND;TZID=Europe/Warsaw:20270112T131500
+SUMMARY:KiPN (ć)
+LOCATION:2/ 23A
+DESCRIPTION:Komunikacja i podstawy negocjacji\nRodzaj: ćwiczenia\nProwadz
+ ący: dr Skulska Joanna\nNr zajęć: 7/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:642d775e179050487a7239bf@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270112T133000
+DTEND;TZID=Europe/Warsaw:20270112T150500
+SUMMARY:WF: sprawdzian
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: sprawdzian nr 
+ 9\nObiekt: teren (las\, poligon)\nKod SWF: T-18/9 (grupa SWF 3PL/11KP)\nP
+ rowadzący: mgr Olszewski Radosław\nNr zajęć: 28/42\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c54c7e7b495f9c9f5664f1b0@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270112T160000
+DTEND;TZID=Europe/Warsaw:20270112T173500
+SUMMARY:Mm. (L)
+LOCATION:2.14/ 54A
+DESCRIPTION:Modelowanie maszyn\nRodzaj: laboratorium\nProwadzący: kpt. mg
+ r inż. Kalinko Dariusz\nNr zajęć: 19/22\nBlok: 5\nUwagi: Podgrupa 2
+END:VEVENT
+BEGIN:VEVENT
+UID:da9ec4b6943b55c407077b05@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270112T175000
+DTEND;TZID=Europe/Warsaw:20270112T192500
+SUMMARY:Mm. (L)
+LOCATION:2.14/ 54A
+DESCRIPTION:Modelowanie maszyn\nRodzaj: laboratorium\nProwadzący: kpt. mg
+ r inż. Kalinko Dariusz\nNr zajęć: 20/22\nBlok: 6\nUwagi: Podgrupa 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a2085607cfa5b7133f1a2fb7@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270113T080000
+DTEND;TZID=Europe/Warsaw:20270113T093500
+SUMMARY:ZŻWAT (i)
+DESCRIPTION:Zbiórka żołnierzy WAT\nRodzaj: inne\nNr zajęć: 3/3\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:e25891e0fe079517e49f042e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270113T095000
+DTEND;TZID=Europe/Warsaw:20270113T112500
+SUMMARY:Ja (ć)
+LOCATION:126 K\;127 K\;128 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 26/30\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:c8dda7bc1d840eb23f935245@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270113T114000
+DTEND;TZID=Europe/Warsaw:20270113T131500
+SUMMARY:Epw (w)
+LOCATION:42/ 20
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: wykład\nProwadząc
+ y: prof. dr hab. inż. Dziubak Tadeusz\nNr zajęć: 20/22\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1508d7450cdcf34cdf23aada@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270113T133000
+DTEND;TZID=Europe/Warsaw:20270113T150500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 24)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/24 (grupa SWF 3PL/11KP)\nProwadz
+ ący: mgr Olszewski Radosław\nNr zajęć: 29/42\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1a1a2d0f4cffdd9798b31f9a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270113T160000
+DTEND;TZID=Europe/Warsaw:20270113T173500
+SUMMARY:Mv. (ć)
+LOCATION:2/ 23A
+DESCRIPTION:Military vehicles\nRodzaj: ćwiczenia\nProwadzący: dr inż. P
+ apliński Krzysztof\nNr zajęć: 5/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:222e540189ae5b1b7631c823@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270114T080000
+DTEND;TZID=Europe/Warsaw:20270114T093500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 4
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: ppor
+ . mgr Szwed Katarzyna\nNr zajęć: 15/17\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c3f316edb6d6e92221ae707e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270114T095000
+DTEND;TZID=Europe/Warsaw:20270114T112500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 4
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: ppor
+ . mgr Szwed Katarzyna\nNr zajęć: 16/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a319371d7c049b7ac4936530@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270114T114000
+DTEND;TZID=Europe/Warsaw:20270114T131500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 4
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: ppor
+ . mgr Szwed Katarzyna\nNr zajęć: 17/17\nBlok: 3\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:80e1ab14bf454124ccc5725e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270114T133000
+DTEND;TZID=Europe/Warsaw:20270114T150500
+SUMMARY:WF: Gimnastyka i ćwiczenia siłowe
+LOCATION:sala gimnastyczna nr 54
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Gimnastyka i 
+ ćwiczenia siłowe (zajęcia 18)\nObiekt: sala gimnastyczna nr 54\nKod SW
+ F: G-3/18 (grupa SWF 3PL/11KP)\nProwadzący: mgr Olszewski Radosław\nNr 
+ zajęć: 30/42\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b82ff1ff73ecefb998e9c87a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270115T080000
+DTEND;TZID=Europe/Warsaw:20270115T093500
+SUMMARY:Epw (L)
+LOCATION:PTW/ 28 HANGAR
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: laboratorium\nProwa
+ dzący: dr inż. Trawiński Grzegorz\; dr inż. Koliński Kazimierz\nNr z
+ ajęć: 11/20\nBlok: 1\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:d88b321a9f7b7650655bbf40@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270115T095000
+DTEND;TZID=Europe/Warsaw:20270115T112500
+SUMMARY:Epw (L)
+LOCATION:PTW/ 28 HANGAR
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: laboratorium\nProwa
+ dzący: dr inż. Trawiński Grzegorz\; dr inż. Koliński Kazimierz\nNr z
+ ajęć: 12/20\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a92d5536f372d2a9be3e91fd@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270115T114000
+DTEND;TZID=Europe/Warsaw:20270115T131500
+SUMMARY:Mm. (ć)
+LOCATION:2.42/ 54A
+DESCRIPTION:Modelowanie maszyn\nRodzaj: ćwiczenia\nProwadzący: dr inż. 
+ Rykała Łukasz\nNr zajęć: 5/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5a6e2bba1a93259624f34271@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270115T133000
+DTEND;TZID=Europe/Warsaw:20270115T150500
+SUMMARY:WF: Gimnastyka i ćwiczenia siłowe
+LOCATION:sala gimnastyczna nr 54
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Gimnastyka i 
+ ćwiczenia siłowe (zajęcia 19)\nObiekt: sala gimnastyczna nr 54\nKod SW
+ F: G-3/19 (grupa SWF 3PL/11KP)\nProwadzący: mgr Olszewski Radosław\nNr 
+ zajęć: 31/42\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5cf3968b660fc2f8cae51945@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270115T160000
+DTEND;TZID=Europe/Warsaw:20270115T173500
+SUMMARY:wzbnim (ć)
+LOCATION:108/ 54
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: ćwiczenia\nProwadzący: ppłk. Sługocka Ewa\nNr zajęć: 
+ 2/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:83b39a75d8959c77024ffd57@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270115T175000
+DTEND;TZID=Europe/Warsaw:20270115T192500
+SUMMARY:Pm. (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Projektowanie maszyn\nRodzaj: laboratorium\nProwadzący: dr in
+ ż. Łuszczek Jakub\nNr zajęć: 9/12\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:a484bfaa5b3e5609f6529d4b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270116T095000
+DTEND;TZID=Europe/Warsaw:20270116T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 11/12\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5f6b08b6f95a16186f14123e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270118T095000
+DTEND;TZID=Europe/Warsaw:20270118T112500
+SUMMARY:Epw (w)
+LOCATION:1/ 21
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: wykład\nProwadząc
+ y: prof. dr hab. inż. Dziubak Tadeusz\nNr zajęć: 21/22\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d47eef60f09aa1534297c17c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270118T114000
+DTEND;TZID=Europe/Warsaw:20270118T131500
+SUMMARY:Epw (L)
+LOCATION:PTW/ 28 HANGAR
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: laboratorium\nProwa
+ dzący: dr inż. Trawiński Grzegorz\; dr inż. Koliński Kazimierz\nNr z
+ ajęć: 13/20\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:13d7effdfc9d96c7a53c1d4b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270118T133000
+DTEND;TZID=Europe/Warsaw:20270118T150500
+SUMMARY:Epw (L)
+LOCATION:PTW/ 28 HANGAR
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: laboratorium\nProwa
+ dzący: dr inż. Trawiński Grzegorz\; dr inż. Koliński Kazimierz\nNr z
+ ajęć: 14/20\nBlok: 4\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:42b6d3058d1acd601842f1d4@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270118T160000
+DTEND;TZID=Europe/Warsaw:20270118T173500
+SUMMARY:Ja (ć)
+LOCATION:126 K\;127 K\;128 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 27/30\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:355d49123581b28e2073b947@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270119T080000
+DTEND;TZID=Europe/Warsaw:20270119T093500
+SUMMARY:Mm. (L)
+LOCATION:2.14/ 54A
+DESCRIPTION:Modelowanie maszyn\nRodzaj: laboratorium\nProwadzący: kpt. mg
+ r inż. Kalinko Dariusz\nNr zajęć: 21/22\nBlok: 1\nUwagi: Podgrupa 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6c9a8dbd25cb2e592f90a3a6@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270119T095000
+DTEND;TZID=Europe/Warsaw:20270119T112500
+SUMMARY:Mm. (ć)
+LOCATION:2.10/ 54A
+DESCRIPTION:Modelowanie maszyn\nRodzaj: ćwiczenia\nProwadzący: dr inż. 
+ Rykała Łukasz\nNr zajęć: 6/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b3f424624ceee6932d501b85@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270119T114000
+DTEND;TZID=Europe/Warsaw:20270119T131500
+SUMMARY:Epw (ć)
+LOCATION:5/ 20
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: ćwiczenia\nProwadz
+ ący: prof. dr hab. inż. Dziubak Tadeusz\nNr zajęć: 4/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e7235855a875e7230d125900@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270119T133000
+DTEND;TZID=Europe/Warsaw:20270119T150500
+SUMMARY:WF: Zajęcia sportowe z różnych dyscyplin sportu i rekreacji ruc
+ howej
+LOCATION:strzelnica
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Zajęcia sport
+ owe z różnych dyscyplin sportu i rekreacji ruchowej (zajęcia 5)\nObiek
+ t: strzelnica\nKod SWF: U-16/5 (grupa SWF 3PL/11KP)\nProwadzący: mjr mgr
+  Lubkiewicz Tomasz\nNr zajęć: 32/42\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:89a13b632423c6c80c04a328@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270119T160000
+DTEND;TZID=Europe/Warsaw:20270119T173500
+SUMMARY:wzbnim (ć)
+LOCATION:15/ 23A
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: ćwiczenia\nProwadzący: ppłk. Sługocka Ewa\nNr zajęć: 
+ 3/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f84db61fa955a69fdc0465a5@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270120T080000
+DTEND;TZID=Europe/Warsaw:20270120T093500
+SUMMARY:Ja (ć)
+LOCATION:126 K\;127 K\;128 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 28/30\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:9a417b3b0d95a7fd3d58d9a0@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270120T095000
+DTEND;TZID=Europe/Warsaw:20270120T112500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 23)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/23 (grupa SWF 3PL/11KP)\nProwadz
+ ący: mgr Olszewski Radosław\nNr zajęć: 33/42\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:89b2eaa9d7647f87d371b8f7@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270120T114000
+DTEND;TZID=Europe/Warsaw:20270120T131500
+SUMMARY:Epw (w)
+LOCATION:42/ 20
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: wykład\nProwadząc
+ y: prof. dr hab. inż. Dziubak Tadeusz\nNr zajęć: 22/22\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:364942de3f503b1e884f7a0f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270121T080000
+DTEND;TZID=Europe/Warsaw:20270121T093500
+SUMMARY:Epw (L)
+LOCATION:PTW/ 28 HANGAR
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: laboratorium\nProwa
+ dzący: dr inż. Trawiński Grzegorz\; dr inż. Koliński Kazimierz\nNr z
+ ajęć: 15/20\nBlok: 1\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:435f6caf498ff5b823f2df2b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270121T095000
+DTEND;TZID=Europe/Warsaw:20270121T112500
+SUMMARY:Epw (L)
+LOCATION:PTW/ 28 HANGAR
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: laboratorium\nProwa
+ dzący: dr inż. Trawiński Grzegorz\; dr inż. Koliński Kazimierz\nNr z
+ ajęć: 16/20\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a6cecec19f778195b3102bb5@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270121T133000
+DTEND;TZID=Europe/Warsaw:20270121T150500
+SUMMARY:WF: Piłka siatkowa
+LOCATION:duża hala
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Piłka siatkow
+ a (zajęcia 11)\nObiekt: duża hala\nKod SWF: H-7/11 (grupa SWF 3PL/11KP)
+ \nProwadzący: mgr Olszewski Radosław\nNr zajęć: 34/42\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2b406f48b5d81506eb170a0f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270122T114000
+DTEND;TZID=Europe/Warsaw:20270122T131500
+SUMMARY:Pm. (ć)
+LOCATION:108/ 54
+DESCRIPTION:Projektowanie maszyn\nRodzaj: ćwiczenia\nProwadzący: prof. d
+ r hab. inż. Bogdanowicz Zdzisław\nNr zajęć: 8/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:15df0d0274e7ed105bdcfb9d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270122T133000
+DTEND;TZID=Europe/Warsaw:20270122T150500
+SUMMARY:WF: Gimnastyka i ćwiczenia siłowe
+LOCATION:hala tartanowa – gimnastyka
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Gimnastyka i 
+ ćwiczenia siłowe (zajęcia 21)\nObiekt: hala tartanowa – gimnastyka\n
+ Kod SWF: B1-3/21 (grupa SWF 3PL/11KP)\nProwadzący: mgr Olszewski Radosł
+ aw\nNr zajęć: 35/42\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b77dc5f393dcb9743856ea1e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270122T160000
+DTEND;TZID=Europe/Warsaw:20270122T173500
+SUMMARY:Mm. (L)
+LOCATION:2.14/ 54A
+DESCRIPTION:Modelowanie maszyn\nRodzaj: laboratorium\nProwadzący: kpt. mg
+ r inż. Kalinko Dariusz\nNr zajęć: 22/22\nBlok: 5\nUwagi: Podgrupa 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d5347c1057d8de4f628ebf0f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270122T175000
+DTEND;TZID=Europe/Warsaw:20270122T192500
+SUMMARY:Pm. (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Projektowanie maszyn\nRodzaj: laboratorium\nProwadzący: dr in
+ ż. Łuszczek Jakub\nNr zajęć: 10/12\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:56b45b949595cd68ca66a7ce@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270123T095000
+DTEND;TZID=Europe/Warsaw:20270123T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 12/12\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e53827f392cc7931b40ba58b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270125T114000
+DTEND;TZID=Europe/Warsaw:20270125T131500
+SUMMARY:Epw (L)
+LOCATION:PTW/ 28 HANGAR
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: laboratorium\nProwa
+ dzący: dr inż. Trawiński Grzegorz\; dr inż. Koliński Kazimierz\nNr z
+ ajęć: 17/20\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:48bfedbf025ad24e84c159e8@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270125T133000
+DTEND;TZID=Europe/Warsaw:20270125T150500
+SUMMARY:Epw (L)
+LOCATION:PTW/ 28 HANGAR
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: laboratorium\nProwa
+ dzący: dr inż. Trawiński Grzegorz\; dr inż. Koliński Kazimierz\nNr z
+ ajęć: 18/20\nBlok: 4\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:0f1a3ed6d6f92cedab6a25bc@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270125T160000
+DTEND;TZID=Europe/Warsaw:20270125T173500
+SUMMARY:Ja (ć)
+LOCATION:126 K\;127 K\;128 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 29/30\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:25314600ed6c69864d732f4d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270126T095000
+DTEND;TZID=Europe/Warsaw:20270126T112500
+SUMMARY:Pm. (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Projektowanie maszyn\nRodzaj: laboratorium\nProwadzący: dr in
+ ż. Łuszczek Jakub\nNr zajęć: 11/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0c28c4525355ca86014127ea@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270126T114000
+DTEND;TZID=Europe/Warsaw:20270126T131500
+SUMMARY:Pm. (L)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Projektowanie maszyn\nRodzaj: laboratorium\nProwadzący: dr in
+ ż. Łuszczek Jakub\nNr zajęć: 12/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:38db69d4e917844c144f32fb@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270126T133000
+DTEND;TZID=Europe/Warsaw:20270126T150500
+SUMMARY:WF: Pływanie i ratownictwo wodne
+LOCATION:pływalnia
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Pływanie i ra
+ townictwo wodne (zajęcia 15)\nObiekt: pływalnia\nKod SWF: P-5/15 (grupa
+  SWF 3PL/11KP)\nProwadzący: mgr Olszewski Radosław\nNr zajęć: 36/42\n
+ Blok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:12e8d763f453b01b63ef3c2f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270127T080000
+DTEND;TZID=Europe/Warsaw:20270127T093500
+SUMMARY:Ja (ć)
+LOCATION:126 K\;127 K\;128 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 30/30\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:794fcffd541f2c29b3f8b1cd@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270127T095000
+DTEND;TZID=Europe/Warsaw:20270127T112500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 24)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/24 (grupa SWF 3PL/11KP)\nProwadz
+ ący: mgr Olszewski Radosław\nNr zajęć: 37/42\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c6b9b4f7395b5f0c3c7a212e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270127T114000
+DTEND;TZID=Europe/Warsaw:20270127T131500
+SUMMARY:REG (ć)
+LOCATION:AW 3/043\; T20Ć
+DESCRIPTION:Regulaminy SZ RP\nRodzaj: ćwiczenia\nProwadzący: mjr mgr Naw
+ alicki Piotr\nNr zajęć: 2/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3d963dfae2956a69ebab1e98@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270127T133000
+DTEND;TZID=Europe/Warsaw:20270127T150500
+SUMMARY:wzbnim (ć)
+LOCATION:15/ 23A
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: ćwiczenia\nProwadzący: ppłk. Sługocka Ewa\nNr zajęć: 
+ 4/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6281da399a6a8da3b11b8831@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270128T080000
+DTEND;TZID=Europe/Warsaw:20270128T093500
+SUMMARY:JA-E (i)
+DESCRIPTION:Język angielski - egzamin\nRodzaj: inne\nProwadzący: STANAG\
+ nNr zajęć: 3/14\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6fc325104849e4b7ace0678e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270128T095000
+DTEND;TZID=Europe/Warsaw:20270128T112500
+SUMMARY:JA-E (i)
+DESCRIPTION:Język angielski - egzamin\nRodzaj: inne\nProwadzący: STANAG\
+ nNr zajęć: 4/14\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a7b0309664ea9b13b85f59e3@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270128T133000
+DTEND;TZID=Europe/Warsaw:20270128T150500
+SUMMARY:WF: Gimnastyka i ćwiczenia siłowe
+LOCATION:siłownia
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Gimnastyka i 
+ ćwiczenia siłowe (zajęcia 28)\nObiekt: siłownia\nKod SWF: S-3/28 (gru
+ pa SWF 3PL/11KP)\nProwadzący: mgr Olszewski Radosław\nNr zajęć: 38/42
+ \nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:20f9663dd8de48d2736349cf@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270129T080000
+DTEND;TZID=Europe/Warsaw:20270129T093500
+SUMMARY:Epw (L)
+LOCATION:PTW/ 28 HANGAR
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: laboratorium\nProwa
+ dzący: dr inż. Trawiński Grzegorz\; dr inż. Koliński Kazimierz\nNr z
+ ajęć: 19/20\nBlok: 1\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:77fdd0268ef94c013e8467b4@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270129T095000
+DTEND;TZID=Europe/Warsaw:20270129T112500
+SUMMARY:Epw (L)
+LOCATION:PTW/ 28 HANGAR
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: laboratorium\nProwa
+ dzący: dr inż. Trawiński Grzegorz\; dr inż. Koliński Kazimierz\nNr z
+ ajęć: 20/20\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:064266cfdbf81f7c64d5e996@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270129T133000
+DTEND;TZID=Europe/Warsaw:20270129T150500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 25)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/25 (grupa SWF 3PL/11KP)\nProwadz
+ ący: mgr Olszewski Radosław\nNr zajęć: 39/42\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:902a15774135d9152462d4a0@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270201T095000
+DTEND;TZID=Europe/Warsaw:20270201T112500
+SUMMARY:Mm. (E)
+LOCATION:2.09/ 54A
+DESCRIPTION:Modelowanie maszyn\nRodzaj: egzamin\nProwadzący: dr inż. Rub
+ iec Arkadiusz\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:916983b9045fe07714850082@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270202T095000
+DTEND;TZID=Europe/Warsaw:20270202T112500
+SUMMARY:Pm. (Zp. Ćw)
+LOCATION:108/ 54
+DESCRIPTION:Projektowanie maszyn\nProwadzący: prof. dr hab. inż. Bogdano
+ wicz Zdzisław\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:17ca9f5a1149b999c667311d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270202T114000
+DTEND;TZID=Europe/Warsaw:20270202T131500
+SUMMARY:OPST(Zp. (Ćw./Sem.))
+LOCATION:1/ 19
+DESCRIPTION:Prowadzący: mgr inż. Szpak Roman\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:823007e2ab3694247353ede4@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270202T133000
+DTEND;TZID=Europe/Warsaw:20270202T150500
+SUMMARY:Mm. (Zp/lab.)
+LOCATION:2.14/ 54A
+DESCRIPTION:Modelowanie maszyn\nProwadzący: kpt. mgr inż. Kalinko Darius
+ z\nNr zajęć: 1/1\nBlok: 4\nUwagi: Podgrupa 1
+END:VEVENT
+BEGIN:VEVENT
+UID:88195faaa6c60003c2a10081@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270203T095000
+DTEND;TZID=Europe/Warsaw:20270203T112500
+SUMMARY:Epw (E)
+LOCATION:5/ 20
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: egzamin\nProwadząc
+ y: prof. dr hab. inż. Dziubak Tadeusz\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4571dd17e8528e63406c2d18@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270204T080000
+DTEND;TZID=Europe/Warsaw:20270204T093500
+SUMMARY:Epw (Zp/lab.)
+LOCATION:5/ 20\;PTW/ 28 HANGAR
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nProwadzący: dr inż. Trawi
+ ński Grzegorz\; dr inż. Koliński Kazimierz\nNr zajęć: 1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ffc890878e2a319219e88fa4@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270205T114000
+DTEND;TZID=Europe/Warsaw:20270205T131500
+SUMMARY:Pm. (Zp/lab.)
+LOCATION:29/ 54\;30/ 54
+DESCRIPTION:Projektowanie maszyn\nProwadzący: dr inż. Łuszczek Jakub\nN
+ r zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:951c6c50c711c9d6df704cea@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270205T133000
+DTEND;TZID=Europe/Warsaw:20270205T150500
+SUMMARY:Mm. (Zp. Ćw)
+LOCATION:2.09/ 54A
+DESCRIPTION:Modelowanie maszyn\nProwadzący: dr inż. Rykała Łukasz\nNr 
+ zajęć: 1/1\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:eadbf546bb3ee15d7338768a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270215T095000
+DTEND;TZID=Europe/Warsaw:20270215T112500
+SUMMARY:Mm. (Ep)
+LOCATION:2.09/ 54A
+DESCRIPTION:Modelowanie maszyn\nRodzaj: egzamin poprawkowy\nProwadzący: d
+ r inż. Rubiec Arkadiusz\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:09888fb282130c917e2f2909@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270215T114000
+DTEND;TZID=Europe/Warsaw:20270215T131500
+SUMMARY:Pm. (Zp.)
+LOCATION:2.09/ 54A
+DESCRIPTION:Projektowanie maszyn\nRodzaj: zaliczenie poprawkowe\nProwadzą
+ cy: prof. dr hab. inż. Bogdanowicz Zdzisław\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:87ec29a27c4a1d8580f1fcf0@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270215T133000
+DTEND;TZID=Europe/Warsaw:20270215T150500
+SUMMARY:KiPN (Zp.)
+LOCATION:116/ 54
+DESCRIPTION:Komunikacja i podstawy negocjacji\nRodzaj: zaliczenie poprawko
+ we\nProwadzący: dr Skulska Joanna\nNr zajęć: 1/1\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:11ac4de6de5c1ccf26d7ea22@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270217T095000
+DTEND;TZID=Europe/Warsaw:20270217T112500
+SUMMARY:Epw (Ep)
+LOCATION:5/ 20
+DESCRIPTION:Eksploatacja pojazdów wojskowych\nRodzaj: egzamin poprawkowy\
+ nProwadzący: prof. dr hab. inż. Dziubak Tadeusz\nNr zajęć: 1/1\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:68ce1c2cf5def665b93af2ce@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270217T133000
+DTEND;TZID=Europe/Warsaw:20270217T150500
+SUMMARY:WzPs (Zp.)
+LOCATION:1/ 21
+DESCRIPTION:Wybrane zagadnienia psychologii\nRodzaj: zaliczenie poprawkowe
+ \nProwadzący: dr Fijałkowska Sylwia\nNr zajęć: 1/1\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c015e2979aa123c6ee8e12b1@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270310T080000
+DTEND;TZID=Europe/Warsaw:20270310T093500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 9/16
+ \nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d03301ebc4574a8e5791153d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270310T095000
+DTEND;TZID=Europe/Warsaw:20270310T112500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 10/1
+ 6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a424e4dc3259287fa244e88b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270310T114000
+DTEND;TZID=Europe/Warsaw:20270310T131500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 11/1
+ 6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7c48cbd7db7177cfe4b9ec24@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270310T133000
+DTEND;TZID=Europe/Warsaw:20270310T150500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 12/1
+ 6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5b1bf771c92452d7f2737b0a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270312T080000
+DTEND;TZID=Europe/Warsaw:20270312T093500
+SUMMARY:JA-E (i)
+DESCRIPTION:Język angielski - egzamin\nRodzaj: inne\nProwadzący: STANAG\
+ nNr zajęć: 5/14\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:286d29155c139754b582776e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270312T095000
+DTEND;TZID=Europe/Warsaw:20270312T112500
+SUMMARY:JA-E (i)
+DESCRIPTION:Język angielski - egzamin\nRodzaj: inne\nProwadzący: STANAG\
+ nNr zajęć: 6/14\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a039d4fe471ce10566acd64d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270312T114000
+DTEND;TZID=Europe/Warsaw:20270312T131500
+SUMMARY:JA-E (i)
+DESCRIPTION:Język angielski - egzamin\nRodzaj: inne\nProwadzący: STANAG\
+ nNr zajęć: 7/14\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7efdd110c3b8cab040fd4717@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270312T133000
+DTEND;TZID=Europe/Warsaw:20270312T150500
+SUMMARY:JA-E (i)
+DESCRIPTION:Język angielski - egzamin\nRodzaj: inne\nProwadzący: STANAG\
+ nNr zajęć: 8/14\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:423dd9c8738f39e6d5d9d443@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270316T080000
+DTEND;TZID=Europe/Warsaw:20270316T093500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Olsz
+ ewski Radosław\nNr zajęć: 40/42\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:841ee3dcec158de01f457cd9@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270316T095000
+DTEND;TZID=Europe/Warsaw:20270316T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Olsz
+ ewski Radosław\nNr zajęć: 41/42\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:53f37ae60cc8462fc2267260@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270316T114000
+DTEND;TZID=Europe/Warsaw:20270316T131500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Olsz
+ ewski Radosław\nNr zajęć: 42/42\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:053999eb021e2a70647e87b6@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270324T080000
+DTEND;TZID=Europe/Warsaw:20270324T093500
+SUMMARY:DRek (ć)
+DESCRIPTION:Dzień Rektorski\nRodzaj: ćwiczenia\nNr zajęć: 1/11\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a88e64f3e50e210aebb7145c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270324T095000
+DTEND;TZID=Europe/Warsaw:20270324T112500
+SUMMARY:DRek (ć)
+DESCRIPTION:Dzień Rektorski\nRodzaj: ćwiczenia\nNr zajęć: 2/11\nBlok: 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7c9075d522f6b1648837c733@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270324T114000
+DTEND;TZID=Europe/Warsaw:20270324T131500
+SUMMARY:DRek (ć)
+DESCRIPTION:Dzień Rektorski\nRodzaj: ćwiczenia\nNr zajęć: 3/11\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:eb51ba04163ddbb9502e9c84@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270324T133000
+DTEND;TZID=Europe/Warsaw:20270324T150500
+SUMMARY:DRek (ć)
+DESCRIPTION:Dzień Rektorski\nRodzaj: ćwiczenia\nNr zajęć: 4/11\nBlok: 
+ 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f868e7aff040aaf968543f55@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270324T160000
+DTEND;TZID=Europe/Warsaw:20270324T173500
+SUMMARY:DRek (ć)
+DESCRIPTION:Dzień Rektorski\nRodzaj: ćwiczenia\nNr zajęć: 5/11\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f031baf4b672d04c43eb9f7f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270324T175000
+DTEND;TZID=Europe/Warsaw:20270324T192500
+SUMMARY:DRek (ć)
+DESCRIPTION:Dzień Rektorski\nRodzaj: ćwiczenia\nNr zajęć: 6/11\nBlok: 
+ 6
+END:VEVENT
+BEGIN:VEVENT
+UID:7b3a97c723f3a595008a3319@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270324T194000
+DTEND;TZID=Europe/Warsaw:20270324T211500
+SUMMARY:DRek (ć)
+DESCRIPTION:Dzień Rektorski\nRodzaj: ćwiczenia\nNr zajęć: 7/11\nBlok: 
+ 7
+END:VEVENT
+BEGIN:VEVENT
+UID:f658d38f1200a3ff4d361c02@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270325T080000
+DTEND;TZID=Europe/Warsaw:20270325T093500
+SUMMARY:DRek (ć)
+DESCRIPTION:Dzień Rektorski\nRodzaj: ćwiczenia\nNr zajęć: 8/11\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a5dc9d4bed2607cdf3b2fe26@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270325T095000
+DTEND;TZID=Europe/Warsaw:20270325T112500
+SUMMARY:DRek (ć)
+DESCRIPTION:Dzień Rektorski\nRodzaj: ćwiczenia\nNr zajęć: 9/11\nBlok: 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5740ad37bec1a4283a08a08a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270325T114000
+DTEND;TZID=Europe/Warsaw:20270325T131500
+SUMMARY:DRek (ć)
+DESCRIPTION:Dzień Rektorski\nRodzaj: ćwiczenia\nNr zajęć: 10/11\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:9d1268070cb0b76283c6f63a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270325T133000
+DTEND;TZID=Europe/Warsaw:20270325T150500
+SUMMARY:DRek (ć)
+DESCRIPTION:Dzień Rektorski\nRodzaj: ćwiczenia\nNr zajęć: 11/11\nBlok:
+  4
+END:VEVENT
+BEGIN:VEVENT
+UID:d042a8765c150d762b14e341@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270415T080000
+DTEND;TZID=Europe/Warsaw:20270415T093500
+SUMMARY:JA-E (i)
+DESCRIPTION:Język angielski - egzamin\nRodzaj: inne\nProwadzący: STANAG\
+ nNr zajęć: 9/14\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:de2d9a5aef5fd6980417b071@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270415T095000
+DTEND;TZID=Europe/Warsaw:20270415T112500
+SUMMARY:JA-E (i)
+DESCRIPTION:Język angielski - egzamin\nRodzaj: inne\nProwadzący: STANAG\
+ nNr zajęć: 10/14\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:df7723e6e1bd56a7e988c91f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270415T114000
+DTEND;TZID=Europe/Warsaw:20270415T131500
+SUMMARY:JA-E (i)
+DESCRIPTION:Język angielski - egzamin\nRodzaj: inne\nProwadzący: STANAG\
+ nNr zajęć: 11/14\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0aafcb79c93d5ae5773c0f0e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270415T133000
+DTEND;TZID=Europe/Warsaw:20270415T150500
+SUMMARY:JA-E (i)
+DESCRIPTION:Język angielski - egzamin\nRodzaj: inne\nProwadzący: STANAG\
+ nNr zajęć: 12/14\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9e85ed27c0b54ce1426a5f8f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270430T080000
+DTEND;TZID=Europe/Warsaw:20270430T093500
+SUMMARY:ZŻWAT (ć)
+DESCRIPTION:Zbiórka żołnierzy WAT\nRodzaj: ćwiczenia\nNr zajęć: 1/2\
+ nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:cd4a84aa5f2af749d36f27dd@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270515T080000
+DTEND;TZID=Europe/Warsaw:20270515T093500
+SUMMARY:JA-E (i)
+LOCATION:STANAG - WSNJO Łódź
+DESCRIPTION:Język angielski - egzamin\nRodzaj: inne\nNr zajęć: 13/14\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7e6f531215618ad94ce12f7f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270515T095000
+DTEND;TZID=Europe/Warsaw:20270515T112500
+SUMMARY:JA-E (i)
+LOCATION:STANAG - WSNJO Łódź
+DESCRIPTION:Język angielski - egzamin\nRodzaj: inne\nNr zajęć: 14/14\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7e3673f80a273c0d74c66585@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270602T080000
+DTEND;TZID=Europe/Warsaw:20270602T093500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 13/1
+ 6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:df15b705bf8a9ec5685ca59e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270602T095000
+DTEND;TZID=Europe/Warsaw:20270602T112500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 14/1
+ 6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a4fcdaa10d46c99dcc0b516e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270602T114000
+DTEND;TZID=Europe/Warsaw:20270602T131500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 15/1
+ 6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7c8da38fa34c5786596a6ef9@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270602T133000
+DTEND;TZID=Europe/Warsaw:20270602T150500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 16/1
+ 6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4e477e9a7898ca9b4e172fbb@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270616T080000
+DTEND;TZID=Europe/Warsaw:20270616T093500
+SUMMARY:ZŻWAT (ć)
+DESCRIPTION:Zbiórka żołnierzy WAT\nRodzaj: ćwiczenia\nNr zajęć: 2/2\
+ nBlok: 1
+END:VEVENT
+END:VCALENDAR

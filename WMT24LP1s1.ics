@@ -1,0 +1,2131 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WMT24LP1s1
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:353d945dcb5a2a914402e795@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261001T080000
+DTEND;TZID=Europe/Warsaw:20261001T093500
+SUMMARY:Śwn (w)
+LOCATION:S3 72
+DESCRIPTION:Śmigła i wirniki\nRodzaj: wykład\nProwadzący: dr inż. Maj
+ cher Maciej\nNr zajęć: 1/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:093bd4a81ad126a69eac2faa@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261002T080000
+DTEND;TZID=Europe/Warsaw:20261002T093500
+SUMMARY:Mps. (w)
+LOCATION:46 63
+DESCRIPTION:Materiały pędne i smary\nRodzaj: wykład\nProwadzący: dr in
+ ż. (prof. ucz.) Szczawiński Piotr\nNr zajęć: 1/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8e26332c34ac5340f0cba3e8@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261002T095000
+DTEND;TZID=Europe/Warsaw:20261002T112500
+SUMMARY:Mps. (w)
+LOCATION:46 63
+DESCRIPTION:Materiały pędne i smary\nRodzaj: wykład\nProwadzący: dr in
+ ż. (prof. ucz.) Szczawiński Piotr\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a9bae7b904cb1c192c4bb364@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261006T114000
+DTEND;TZID=Europe/Warsaw:20261006T131500
+SUMMARY:Theoa (w)
+LOCATION:S1 72
+DESCRIPTION:Theory of Aircraft Engines\nRodzaj: wykład\nProwadzący: płk
+  dr hab. inż. Kozakiewicz Adam\nNr zajęć: 1/20\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:81376e57da1360a1201903d5@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261006T133000
+DTEND;TZID=Europe/Warsaw:20261006T150500
+SUMMARY:Theoa (w)
+LOCATION:S1 72
+DESCRIPTION:Theory of Aircraft Engines\nRodzaj: wykład\nProwadzący: płk
+  dr hab. inż. Kozakiewicz Adam\nNr zajęć: 2/20\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:350ee7fb21d3c33a5de50906@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261009T114000
+DTEND;TZID=Europe/Warsaw:20261009T131500
+SUMMARY:Sh (w)
+LOCATION:4 H7
+DESCRIPTION:Systemy hydropneumatyczne\nRodzaj: wykład\nProwadzący: dr ha
+ b. inż. Rośkowicz Marek\nNr zajęć: 1/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:346f2e6c5aad0e954cd86e6f@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261009T133000
+DTEND;TZID=Europe/Warsaw:20261009T150500
+SUMMARY:Wc (w)
+LOCATION:S3 72
+DESCRIPTION:Wymiana ciepła\nRodzaj: wykład\nProwadzący: prof. dr hab. i
+ nż. Zmywaczyk Janusz\nNr zajęć: 1/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0544d1186a1b0374b6095926@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261012T095000
+DTEND;TZID=Europe/Warsaw:20261012T112500
+SUMMARY:Śwn (w)
+LOCATION:33 67
+DESCRIPTION:Śmigła i wirniki\nRodzaj: wykład\nProwadzący: dr inż. Maj
+ cher Maciej\nNr zajęć: 2/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c5cddc324ec059b7ab602951@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261013T133000
+DTEND;TZID=Europe/Warsaw:20261013T150500
+SUMMARY:Wkc (w)
+LOCATION:S2 72
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: wykład\
+ nProwadzący: dr hab. inż. Kachel Stanisław\nNr zajęć: 1/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d46abb253fb4b35546c19f59@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261014T095000
+DTEND;TZID=Europe/Warsaw:20261014T112500
+SUMMARY:Twwkl (w)
+LOCATION:33 67
+DESCRIPTION:Techniki wytwarzania w konstrukcjach lotniczych\nRodzaj: wykł
+ ad\nProwadzący: dr hab. inż. Kachel Stanisław\nNr zajęć: 1/8\nBlok: 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:fd8b6fb5bda070bc2c782d9c@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261014T114000
+DTEND;TZID=Europe/Warsaw:20261014T131500
+SUMMARY:Wkc (L)
+LOCATION:31 67
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: laborato
+ rium\nProwadzący: mgr inż. Szcześniak Michał\nNr zajęć: 1/13\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:e39fe62017d0467525e75fae@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261015T080000
+DTEND;TZID=Europe/Warsaw:20261015T093500
+SUMMARY:Śwn (w)
+LOCATION:S3 72
+DESCRIPTION:Śmigła i wirniki\nRodzaj: wykład\nProwadzący: dr inż. Maj
+ cher Maciej\nNr zajęć: 3/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:59362efb971d3d922a57b00a@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261015T095000
+DTEND;TZID=Europe/Warsaw:20261015T112500
+SUMMARY:Mps. (w)
+LOCATION:15 63
+DESCRIPTION:Materiały pędne i smary\nRodzaj: wykład\nProwadzący: dr in
+ ż. (prof. ucz.) Szczawiński Piotr\nNr zajęć: 3/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:41dcc81f73ef30f6242c42da@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261016T114000
+DTEND;TZID=Europe/Warsaw:20261016T131500
+SUMMARY:Sh (w)
+LOCATION:4 H7
+DESCRIPTION:Systemy hydropneumatyczne\nRodzaj: wykład\nProwadzący: dr ha
+ b. inż. Rośkowicz Marek\nNr zajęć: 2/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ffa4105afc1eec045432b8ed@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261020T095000
+DTEND;TZID=Europe/Warsaw:20261020T112500
+SUMMARY:Wkc (ć)
+LOCATION:P 66
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: ćwiczen
+ ia\nProwadzący: prof. dr hab. inż. Sibilski Krzysztof\nNr zajęć: 1/15
+ \nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f0df993621c4f8e8a669372c@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261020T114000
+DTEND;TZID=Europe/Warsaw:20261020T131500
+SUMMARY:Theoa (w)
+LOCATION:S1 72
+DESCRIPTION:Theory of Aircraft Engines\nRodzaj: wykład\nProwadzący: płk
+  dr hab. inż. Kozakiewicz Adam\nNr zajęć: 3/20\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:430423ba37d79afb5fc9ab72@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261020T133000
+DTEND;TZID=Europe/Warsaw:20261020T150500
+SUMMARY:Wkc (w)
+LOCATION:S2 72
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: wykład\
+ nProwadzący: dr hab. inż. Kachel Stanisław\nNr zajęć: 2/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5eba6c7eb9ea6a5d137ae4b6@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261020T160000
+DTEND;TZID=Europe/Warsaw:20261020T173500
+SUMMARY:Ae (w)
+LOCATION:S2 72
+DESCRIPTION:Aerodynamika\nRodzaj: wykład\nProwadzący: dr inż. Majcher M
+ aciej\nNr zajęć: 1/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:fad0d049242d9a395d66ca6c@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261021T080000
+DTEND;TZID=Europe/Warsaw:20261021T093500
+SUMMARY:Mps. (w)
+LOCATION:15 63
+DESCRIPTION:Materiały pędne i smary\nRodzaj: wykład\nProwadzący: dr in
+ ż. (prof. ucz.) Szczawiński Piotr\nNr zajęć: 4/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f77632c4b24b2814b7255938@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261021T095000
+DTEND;TZID=Europe/Warsaw:20261021T112500
+SUMMARY:Ae (w)
+LOCATION:S2 72
+DESCRIPTION:Aerodynamika\nRodzaj: wykład\nProwadzący: dr inż. Majcher M
+ aciej\nNr zajęć: 2/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6f344eb6640e1e35e0538539@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261021T114000
+DTEND;TZID=Europe/Warsaw:20261021T131500
+SUMMARY:Sa (w)
+LOCATION:15 63
+DESCRIPTION:Systemy awioniczne\nRodzaj: wykład\nProwadzący: dr inż. Roc
+ hala Zdzisław\nNr zajęć: 1/13\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1823484289e9c2488184e141@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261021T133000
+DTEND;TZID=Europe/Warsaw:20261021T150500
+SUMMARY:Sa (w)
+LOCATION:15 63
+DESCRIPTION:Systemy awioniczne\nRodzaj: wykład\nProwadzący: dr inż. Roc
+ hala Zdzisław\nNr zajęć: 2/13\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b8c181da3b21ae93dc41c040@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261022T080000
+DTEND;TZID=Europe/Warsaw:20261022T093500
+SUMMARY:Mps. (w)
+LOCATION:46 63
+DESCRIPTION:Materiały pędne i smary\nRodzaj: wykład\nProwadzący: dr in
+ ż. (prof. ucz.) Szczawiński Piotr\nNr zajęć: 5/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4249107afc15d2613154a3bd@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261022T095000
+DTEND;TZID=Europe/Warsaw:20261022T112500
+SUMMARY:Tsl (ć)
+LOCATION:S1 72
+DESCRIPTION:Teoria silników lotniczych\nRodzaj: ćwiczenia\nProwadzący: 
+ płk dr hab. inż. Kozakiewicz Adam\nNr zajęć: 1/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ace8f0088ac45a4095dc244a@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261022T133000
+DTEND;TZID=Europe/Warsaw:20261022T150500
+SUMMARY:Mps. (ć)
+LOCATION:1/ 19
+DESCRIPTION:Materiały pędne i smary\nRodzaj: ćwiczenia\nProwadzący: mg
+ r inż. Dziobek Ilona\nNr zajęć: 1/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b6a5aec8e73bd49e95a7634e@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261022T160000
+DTEND;TZID=Europe/Warsaw:20261022T173500
+SUMMARY:Mps. (ć)
+LOCATION:1/ 19
+DESCRIPTION:Materiały pędne i smary\nRodzaj: ćwiczenia\nProwadzący: mg
+ r inż. Dziobek Ilona\nNr zajęć: 2/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:9e12dad8c0d3f979fae64bb1@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261023T114000
+DTEND;TZID=Europe/Warsaw:20261023T131500
+SUMMARY:Sh (w)
+LOCATION:4 H7
+DESCRIPTION:Systemy hydropneumatyczne\nRodzaj: wykład\nProwadzący: dr ha
+ b. inż. Rośkowicz Marek\nNr zajęć: 3/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:cc27f35a25dd5de6a2ab93b9@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261023T133000
+DTEND;TZID=Europe/Warsaw:20261023T150500
+SUMMARY:Wc (w)
+LOCATION:S3 72
+DESCRIPTION:Wymiana ciepła\nRodzaj: wykład\nProwadzący: prof. dr hab. i
+ nż. Zmywaczyk Janusz\nNr zajęć: 2/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ac5f60e07499ddbbff87cc80@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261026T080000
+DTEND;TZID=Europe/Warsaw:20261026T093500
+SUMMARY:Wmk (w)
+LOCATION:S3 72
+DESCRIPTION:Wytrzymałość materiałów i konstrukcji\nRodzaj: wykład\nP
+ rowadzący: ppłk dr inż. Kiszkowiak Łukasz\nNr zajęć: 1/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:836c8c5132cb18ede4f55f5e@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261026T095000
+DTEND;TZID=Europe/Warsaw:20261026T112500
+SUMMARY:Śwn (w)
+LOCATION:S2 72
+DESCRIPTION:Śmigła i wirniki\nRodzaj: wykład\nProwadzący: dr inż. Maj
+ cher Maciej\nNr zajęć: 4/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a3c70266952425caf5732d22@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261026T114000
+DTEND;TZID=Europe/Warsaw:20261026T131500
+SUMMARY:Wkc (ć)
+LOCATION:P 66
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: ćwiczen
+ ia\nProwadzący: prof. dr hab. inż. Sibilski Krzysztof\nNr zajęć: 2/15
+ \nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:57cf58efe980231522f4bf1b@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261026T175000
+DTEND;TZID=Europe/Warsaw:20261026T192500
+SUMMARY:Wkc (L)
+LOCATION:18 67
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: laborato
+ rium\nProwadzący: mgr inż. Syta Borys\nNr zajęć: 2/13\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:5a2a814ee3f7ae0f3655e858@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261027T095000
+DTEND;TZID=Europe/Warsaw:20261027T112500
+SUMMARY:Wkc (ć)
+LOCATION:P 66
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: ćwiczen
+ ia\nProwadzący: prof. dr hab. inż. Sibilski Krzysztof\nNr zajęć: 3/15
+ \nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:110151626bfb4c60c2a2f3be@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261027T114000
+DTEND;TZID=Europe/Warsaw:20261027T131500
+SUMMARY:Theoa (w)
+LOCATION:S1 72
+DESCRIPTION:Theory of Aircraft Engines\nRodzaj: wykład\nProwadzący: płk
+  dr hab. inż. Kozakiewicz Adam\nNr zajęć: 4/20\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b3487fe60228921a828705a5@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261027T133000
+DTEND;TZID=Europe/Warsaw:20261027T150500
+SUMMARY:Theoa (w)
+LOCATION:S1 72
+DESCRIPTION:Theory of Aircraft Engines\nRodzaj: wykład\nProwadzący: płk
+  dr hab. inż. Kozakiewicz Adam\nNr zajęć: 5/20\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2d5ea28fd8c9938e4b9d44a5@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261027T175000
+DTEND;TZID=Europe/Warsaw:20261027T192500
+SUMMARY:Wkc (L)
+LOCATION:18 67
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: laborato
+ rium\nProwadzący: mgr inż. Syta Borys\nNr zajęć: 3/13\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:39013abfab87be7bc2887d13@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261028T080000
+DTEND;TZID=Europe/Warsaw:20261028T093500
+SUMMARY:Sa (w)
+LOCATION:136 36
+DESCRIPTION:Systemy awioniczne\nRodzaj: wykład\nProwadzący: dr inż. Roc
+ hala Zdzisław\nNr zajęć: 3/13\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:eaed2135a6bed01a5d0f2956@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261028T095000
+DTEND;TZID=Europe/Warsaw:20261028T112500
+SUMMARY:Twwkl (w)
+LOCATION:33 67
+DESCRIPTION:Techniki wytwarzania w konstrukcjach lotniczych\nRodzaj: wykł
+ ad\nProwadzący: dr hab. inż. Kachel Stanisław\nNr zajęć: 2/8\nBlok: 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:243dc80663b0c986f682829d@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261028T114000
+DTEND;TZID=Europe/Warsaw:20261028T131500
+SUMMARY:Tsl (ć)
+LOCATION:S1 72
+DESCRIPTION:Teoria silników lotniczych\nRodzaj: ćwiczenia\nProwadzący: 
+ płk dr hab. inż. Kozakiewicz Adam\nNr zajęć: 2/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:fac0590dab9134677697d529@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261029T133000
+DTEND;TZID=Europe/Warsaw:20261029T150500
+SUMMARY:Wkc (L)
+LOCATION:31 67
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: laborato
+ rium\nProwadzący: mgr inż. Syta Borys\nNr zajęć: 4/13\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:fcfca7ab06770dc51cfcca1c@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261029T160000
+DTEND;TZID=Europe/Warsaw:20261029T173500
+SUMMARY:Mps. (ć)
+LOCATION:5/ 19
+DESCRIPTION:Materiały pędne i smary\nRodzaj: ćwiczenia\nProwadzący: mg
+ r inż. Dziobek Ilona\nNr zajęć: 3/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:a89f70dd5c3f6d320ac3c7da@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261029T175000
+DTEND;TZID=Europe/Warsaw:20261029T192500
+SUMMARY:Mps. (ć)
+LOCATION:5/ 19
+DESCRIPTION:Materiały pędne i smary\nRodzaj: ćwiczenia\nProwadzący: mg
+ r inż. Dziobek Ilona\nNr zajęć: 4/5\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:18c5a4ac2e0932a1c4b9e8b0@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261030T080000
+DTEND;TZID=Europe/Warsaw:20261030T093500
+SUMMARY:Śwn (w)
+LOCATION:S2 72
+DESCRIPTION:Śmigła i wirniki\nRodzaj: wykład\nProwadzący: dr inż. Maj
+ cher Maciej\nNr zajęć: 5/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:01cf9c02f836130904405518@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261030T114000
+DTEND;TZID=Europe/Warsaw:20261030T131500
+SUMMARY:Sh (w)
+LOCATION:4 H7
+DESCRIPTION:Systemy hydropneumatyczne\nRodzaj: wykład\nProwadzący: dr ha
+ b. inż. Rośkowicz Marek\nNr zajęć: 4/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:408d6fa7c521d10345ae972c@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261030T133000
+DTEND;TZID=Europe/Warsaw:20261030T150500
+SUMMARY:Wc (w)
+LOCATION:S3 72
+DESCRIPTION:Wymiana ciepła\nRodzaj: wykład\nProwadzący: prof. dr hab. i
+ nż. Zmywaczyk Janusz\nNr zajęć: 3/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:92d82793556d5c57c7321bf2@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261102T080000
+DTEND;TZID=Europe/Warsaw:20261102T093500
+SUMMARY:Wmk (w)
+LOCATION:S3 72
+DESCRIPTION:Wytrzymałość materiałów i konstrukcji\nRodzaj: wykład\nP
+ rowadzący: ppłk dr inż. Kiszkowiak Łukasz\nNr zajęć: 2/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:cf076e2655e0d4f6ac027eaa@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261102T114000
+DTEND;TZID=Europe/Warsaw:20261102T131500
+SUMMARY:Wkc (ć)
+LOCATION:P 66
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: ćwiczen
+ ia\nProwadzący: prof. dr hab. inż. Sibilski Krzysztof\nNr zajęć: 4/15
+ \nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2aa7f32c3615a526f0beb71c@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261103T095000
+DTEND;TZID=Europe/Warsaw:20261103T112500
+SUMMARY:Śwn (ć)
+LOCATION:3 67
+DESCRIPTION:Śmigła i wirniki\nRodzaj: ćwiczenia\nProwadzący: mgr inż.
+  Misiak Zawadzka Aneta\nNr zajęć: 1/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:099892050aee0df8fd4acf24@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261103T114000
+DTEND;TZID=Europe/Warsaw:20261103T131500
+SUMMARY:Wkc (L)
+LOCATION:18 67
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: laborato
+ rium\nProwadzący: mgr inż. Syta Borys\nNr zajęć: 5/13\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:75df06e34f2997dfff3b33ba@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261104T080000
+DTEND;TZID=Europe/Warsaw:20261104T093500
+SUMMARY:Malo (w)
+LOCATION:19 36
+DESCRIPTION:Materiały lotnicze\nRodzaj: wykład\nProwadzący: ppłk dr in
+ ż. Leszczyński Piotr\nNr zajęć: 1/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3794681396d3dc10afcb49a0@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261104T095000
+DTEND;TZID=Europe/Warsaw:20261104T112500
+SUMMARY:Wkc (L)
+LOCATION:31 67
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: laborato
+ rium\nProwadzący: mgr inż. Szcześniak Michał\nNr zajęć: 6/13\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:f6baa80cca76bf799d9a233f@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261104T114000
+DTEND;TZID=Europe/Warsaw:20261104T131500
+SUMMARY:Wc (ć)
+LOCATION:S1 72
+DESCRIPTION:Wymiana ciepła\nRodzaj: ćwiczenia\nProwadzący: prof. dr hab
+ . inż. Zmywaczyk Janusz\nNr zajęć: 1/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ea9a81d247eae58061649023@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261104T133000
+DTEND;TZID=Europe/Warsaw:20261104T150500
+SUMMARY:Sa (w)
+LOCATION:20 63
+DESCRIPTION:Systemy awioniczne\nRodzaj: wykład\nProwadzący: dr inż. Roc
+ hala Zdzisław\nNr zajęć: 4/13\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2d43b8df5bd4ab90c4dc4059@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261105T080000
+DTEND;TZID=Europe/Warsaw:20261105T093500
+SUMMARY:Wc (L)
+LOCATION:8 72
+DESCRIPTION:Wymiana ciepła\nRodzaj: laboratorium\nProwadzący: mgr inż. 
+ Zarubajko Aleksandra\nNr zajęć: 1/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f728262ad786aa17f0a08ee0@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261105T095000
+DTEND;TZID=Europe/Warsaw:20261105T112500
+SUMMARY:Śwn (ć)
+LOCATION:3 67
+DESCRIPTION:Śmigła i wirniki\nRodzaj: ćwiczenia\nProwadzący: mgr inż.
+  Misiak Zawadzka Aneta\nNr zajęć: 2/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a3f92e28b8fbd0b63345db6a@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261106T095000
+DTEND;TZID=Europe/Warsaw:20261106T112500
+SUMMARY:Wc (L)
+LOCATION:8 72
+DESCRIPTION:Wymiana ciepła\nRodzaj: laboratorium\nProwadzący: mgr inż. 
+ Zarubajko Aleksandra\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d8ff01cd1b8a63b95a20a0e2@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261106T114000
+DTEND;TZID=Europe/Warsaw:20261106T131500
+SUMMARY:Sh (w)
+LOCATION:4 H7
+DESCRIPTION:Systemy hydropneumatyczne\nRodzaj: wykład\nProwadzący: dr ha
+ b. inż. Rośkowicz Marek\nNr zajęć: 5/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:bef08d6c24f27393d8baf7dd@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261106T133000
+DTEND;TZID=Europe/Warsaw:20261106T150500
+SUMMARY:Wc (w)
+LOCATION:S3 72
+DESCRIPTION:Wymiana ciepła\nRodzaj: wykład\nProwadzący: prof. dr hab. i
+ nż. Zmywaczyk Janusz\nNr zajęć: 4/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:542c5199f3845c876948fa33@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261106T160000
+DTEND;TZID=Europe/Warsaw:20261106T173500
+SUMMARY:Wmk (ć)
+LOCATION:33 67
+DESCRIPTION:Wytrzymałość materiałów i konstrukcji\nRodzaj: ćwiczenia
+ \nProwadzący: dr inż. Wróblewski Piotr\nNr zajęć: 1/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:9733c5e9ba270f9d5ff4940c@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261109T095000
+DTEND;TZID=Europe/Warsaw:20261109T112500
+SUMMARY:Śwn (w)
+LOCATION:S2 72
+DESCRIPTION:Śmigła i wirniki\nRodzaj: wykład\nProwadzący: dr inż. Maj
+ cher Maciej\nNr zajęć: 6/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ab5a91fd474872dc29de2a06@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261109T114000
+DTEND;TZID=Europe/Warsaw:20261109T131500
+SUMMARY:Wkc (ć)
+LOCATION:P 66
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: ćwiczen
+ ia\nProwadzący: prof. dr hab. inż. Sibilski Krzysztof\nNr zajęć: 5/15
+ \nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d9b3319107a562b950103b34@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261110T080000
+DTEND;TZID=Europe/Warsaw:20261110T093500
+SUMMARY:Wkc (L)
+LOCATION:18 67
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: laborato
+ rium\nProwadzący: mgr inż. Syta Borys\nNr zajęć: 7/13\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3ea7ef1fa3872caf37c09192@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261110T095000
+DTEND;TZID=Europe/Warsaw:20261110T112500
+SUMMARY:Tsl (ć)
+LOCATION:S1 72
+DESCRIPTION:Teoria silników lotniczych\nRodzaj: ćwiczenia\nProwadzący: 
+ płk dr hab. inż. Kozakiewicz Adam\nNr zajęć: 3/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9e849f8b0cce44ca6a113db0@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261110T114000
+DTEND;TZID=Europe/Warsaw:20261110T131500
+SUMMARY:Theoa (w)
+LOCATION:S1 72
+DESCRIPTION:Theory of Aircraft Engines\nRodzaj: wykład\nProwadzący: płk
+  dr hab. inż. Kozakiewicz Adam\nNr zajęć: 6/20\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5d77bca52a27233d8867c082@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261110T133000
+DTEND;TZID=Europe/Warsaw:20261110T150500
+SUMMARY:Śwn (ć)
+LOCATION:3 67
+DESCRIPTION:Śmigła i wirniki\nRodzaj: ćwiczenia\nProwadzący: mgr inż.
+  Misiak Zawadzka Aneta\nNr zajęć: 3/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:df4bad3072ffb09d167c17cb@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261112T080000
+DTEND;TZID=Europe/Warsaw:20261112T093500
+SUMMARY:Twwkl (w)
+LOCATION:33 67
+DESCRIPTION:Techniki wytwarzania w konstrukcjach lotniczych\nRodzaj: wykł
+ ad\nProwadzący: mgr inż. Pączek Grzegorz\nNr zajęć: 3/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:45fbbadfce5aa266b61c83ab@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261112T095000
+DTEND;TZID=Europe/Warsaw:20261112T112500
+SUMMARY:Tsl (ć)
+LOCATION:S1 72
+DESCRIPTION:Teoria silników lotniczych\nRodzaj: ćwiczenia\nProwadzący: 
+ płk dr hab. inż. Kozakiewicz Adam\nNr zajęć: 4/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f7f42a278e21a9d193e9f913@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261112T133000
+DTEND;TZID=Europe/Warsaw:20261112T150500
+SUMMARY:Sa (ć)
+LOCATION:34 67
+DESCRIPTION:Systemy awioniczne\nRodzaj: ćwiczenia\nProwadzący: dr inż. 
+ Rochala Zdzisław\nNr zajęć: 1/2\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:124e039a0ce42750a07a22ad@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261113T080000
+DTEND;TZID=Europe/Warsaw:20261113T093500
+SUMMARY:Sa (w)
+LOCATION:136 36
+DESCRIPTION:Systemy awioniczne\nRodzaj: wykład\nProwadzący: ppłk dr in
+ ż. Henzel Maciej\nNr zajęć: 5/13\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:784e3ef7b806fd9d9d2cad5a@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261113T114000
+DTEND;TZID=Europe/Warsaw:20261113T131500
+SUMMARY:Sh (w)
+LOCATION:4 H7
+DESCRIPTION:Systemy hydropneumatyczne\nRodzaj: wykład\nProwadzący: dr ha
+ b. inż. Rośkowicz Marek\nNr zajęć: 6/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:effa96aed2b5389d4b665fa8@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261113T133000
+DTEND;TZID=Europe/Warsaw:20261113T150500
+SUMMARY:Wc (w)
+LOCATION:S3 72
+DESCRIPTION:Wymiana ciepła\nRodzaj: wykład\nProwadzący: prof. dr hab. i
+ nż. Zmywaczyk Janusz\nNr zajęć: 5/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3609047a22910690b8da06c2@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261113T160000
+DTEND;TZID=Europe/Warsaw:20261113T173500
+SUMMARY:Wmk (ć)
+LOCATION:33 67
+DESCRIPTION:Wytrzymałość materiałów i konstrukcji\nRodzaj: ćwiczenia
+ \nProwadzący: dr inż. Wróblewski Piotr\nNr zajęć: 2/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:aa28be405e285d6b9a3f65d7@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261113T175000
+DTEND;TZID=Europe/Warsaw:20261113T192500
+SUMMARY:Wkc (L)
+LOCATION:18 67
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: laborato
+ rium\nProwadzący: mgr inż. Syta Borys\nNr zajęć: 8/13\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:c060fdbcf20f9236fc0e6f82@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261116T080000
+DTEND;TZID=Europe/Warsaw:20261116T093500
+SUMMARY:Wmk (w)
+LOCATION:S3 72
+DESCRIPTION:Wytrzymałość materiałów i konstrukcji\nRodzaj: wykład\nP
+ rowadzący: ppłk dr inż. Kiszkowiak Łukasz\nNr zajęć: 3/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b25d8c4aac531fdd4870931f@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261116T095000
+DTEND;TZID=Europe/Warsaw:20261116T112500
+SUMMARY:Mps. (ć)
+LOCATION:1/ 19
+DESCRIPTION:Materiały pędne i smary\nRodzaj: ćwiczenia\nProwadzący: mg
+ r inż. Dziobek Ilona\nNr zajęć: 5/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d89e5133e8806c4cdb2bab29@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261116T114000
+DTEND;TZID=Europe/Warsaw:20261116T131500
+SUMMARY:Wkc (ć)
+LOCATION:P 66
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: ćwiczen
+ ia\nProwadzący: prof. dr hab. inż. Sibilski Krzysztof\nNr zajęć: 6/15
+ \nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9b9711cd329e4ca0cb71d058@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261116T133000
+DTEND;TZID=Europe/Warsaw:20261116T150500
+SUMMARY:Wc (w)
+LOCATION:S1 72
+DESCRIPTION:Wymiana ciepła\nRodzaj: wykład\nProwadzący: prof. dr hab. i
+ nż. Zmywaczyk Janusz\nNr zajęć: 6/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:73c77b2ef7f2db831104518a@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261116T160000
+DTEND;TZID=Europe/Warsaw:20261116T173500
+SUMMARY:Ae (w)
+LOCATION:S2 72
+DESCRIPTION:Aerodynamika\nRodzaj: wykład\nProwadzący: dr inż. Majcher M
+ aciej\nNr zajęć: 3/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:1d8eab475ea91fa24c39cee1@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261117T114000
+DTEND;TZID=Europe/Warsaw:20261117T131500
+SUMMARY:Theoa (w)
+LOCATION:S1 72
+DESCRIPTION:Theory of Aircraft Engines\nRodzaj: wykład\nProwadzący: płk
+  dr hab. inż. Kozakiewicz Adam\nNr zajęć: 7/20\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0ca70ebb8ee6ce702b77496d@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261117T133000
+DTEND;TZID=Europe/Warsaw:20261117T150500
+SUMMARY:Wkc (w)
+LOCATION:S2 72
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: wykład\
+ nProwadzący: dr hab. inż. Kachel Stanisław\nNr zajęć: 3/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6208165825ace868f6e24615@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261117T160000
+DTEND;TZID=Europe/Warsaw:20261117T173500
+SUMMARY:Malo (ć)
+LOCATION:4 H7
+DESCRIPTION:Materiały lotnicze\nRodzaj: ćwiczenia\nProwadzący: kpt. mgr
+  inż. Arkuszyńska Angelika\nNr zajęć: 1/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:d3a74f743c1887bdfe8756f1@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261117T175000
+DTEND;TZID=Europe/Warsaw:20261117T192500
+SUMMARY:Wmk (ć)
+LOCATION:33 67
+DESCRIPTION:Wytrzymałość materiałów i konstrukcji\nRodzaj: ćwiczenia
+ \nProwadzący: dr inż. Wróblewski Piotr\nNr zajęć: 3/10\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:f4e2c85a839142ab2b75e3ce@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261118T080000
+DTEND;TZID=Europe/Warsaw:20261118T093500
+SUMMARY:Ae (L)
+LOCATION:3 67\;43 67
+DESCRIPTION:Aerodynamika\nRodzaj: laboratorium\nProwadzący: dr inż. Fran
+ t Michał\nNr zajęć: 1/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d1584b0a98e44c2da4ce5eb8@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261118T095000
+DTEND;TZID=Europe/Warsaw:20261118T112500
+SUMMARY:Twwkl (L)
+LOCATION:18 67\;S4 7
+DESCRIPTION:Techniki wytwarzania w konstrukcjach lotniczych\nRodzaj: labor
+ atorium\nProwadzący: mgr inż. Szlendak Gabriel\nNr zajęć: 1/8\nBlok: 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1ef92a8f1e7730c4d9a0a6a0@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261118T133000
+DTEND;TZID=Europe/Warsaw:20261118T150500
+SUMMARY:Wkc (L)
+LOCATION:31 67
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: laborato
+ rium\nProwadzący: mgr inż. Szcześniak Michał\nNr zajęć: 9/13\nBlok:
+  4
+END:VEVENT
+BEGIN:VEVENT
+UID:3e7cf7fcce6d28ddba45717e@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261119T080000
+DTEND;TZID=Europe/Warsaw:20261119T093500
+SUMMARY:Twwkl (w)
+LOCATION:33 67
+DESCRIPTION:Techniki wytwarzania w konstrukcjach lotniczych\nRodzaj: wykł
+ ad\nProwadzący: dr hab. inż. Kachel Stanisław\nNr zajęć: 4/8\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:dd22ff57846a39b0fd5991ce@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261119T095000
+DTEND;TZID=Europe/Warsaw:20261119T112500
+SUMMARY:Ae (w)
+LOCATION:S2 72
+DESCRIPTION:Aerodynamika\nRodzaj: wykład\nProwadzący: dr inż. Majcher M
+ aciej\nNr zajęć: 4/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5ab4e651a27bb7b015a5bd92@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261119T114000
+DTEND;TZID=Europe/Warsaw:20261119T131500
+SUMMARY:Twwkl (L)
+LOCATION:18 67\;S4 7
+DESCRIPTION:Techniki wytwarzania w konstrukcjach lotniczych\nRodzaj: labor
+ atorium\nProwadzący: mgr inż. Szlendak Gabriel\nNr zajęć: 2/8\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c29d673c91e3156b999682be@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261120T095000
+DTEND;TZID=Europe/Warsaw:20261120T112500
+SUMMARY:Sh (w)
+LOCATION:12 H7
+DESCRIPTION:Systemy hydropneumatyczne\nRodzaj: wykład\nProwadzący: dr ha
+ b. inż. Rośkowicz Marek\nNr zajęć: 7/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:546ab4df67c22b46bcaeb564@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261120T114000
+DTEND;TZID=Europe/Warsaw:20261120T131500
+SUMMARY:Sh (w)
+LOCATION:4 H7
+DESCRIPTION:Systemy hydropneumatyczne\nRodzaj: wykład\nProwadzący: dr ha
+ b. inż. Rośkowicz Marek\nNr zajęć: 8/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1151bd196362c022638a0677@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261120T133000
+DTEND;TZID=Europe/Warsaw:20261120T150500
+SUMMARY:Sa (w)
+LOCATION:34 67
+DESCRIPTION:Systemy awioniczne\nRodzaj: wykład\nProwadzący: ppłk dr in
+ ż. Henzel Maciej\nNr zajęć: 6/13\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1141c21890a3958af2ff09a4@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261123T080000
+DTEND;TZID=Europe/Warsaw:20261123T093500
+SUMMARY:Wmk (w)
+LOCATION:S3 72
+DESCRIPTION:Wytrzymałość materiałów i konstrukcji\nRodzaj: wykład\nP
+ rowadzący: ppłk dr inż. Kiszkowiak Łukasz\nNr zajęć: 4/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:520707189b95c68ba4bd164a@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261123T095000
+DTEND;TZID=Europe/Warsaw:20261123T112500
+SUMMARY:Sa (w)
+LOCATION:136 36
+DESCRIPTION:Systemy awioniczne\nRodzaj: wykład\nProwadzący: dr inż. Roc
+ hala Zdzisław\nNr zajęć: 7/13\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8e49bc1acd83956596febaaa@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261123T114000
+DTEND;TZID=Europe/Warsaw:20261123T131500
+SUMMARY:Wkc (ć)
+LOCATION:P 66
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: ćwiczen
+ ia\nProwadzący: prof. dr hab. inż. Sibilski Krzysztof\nNr zajęć: 7/15
+ \nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:eff8b2681aedd94435278ed0@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261123T133000
+DTEND;TZID=Europe/Warsaw:20261123T150500
+SUMMARY:Tsl (ć)
+LOCATION:S1 72
+DESCRIPTION:Teoria silników lotniczych\nRodzaj: ćwiczenia\nProwadzący: 
+ płk dr hab. inż. Kozakiewicz Adam\nNr zajęć: 5/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:fe28d99399cbb83f8291ae2e@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261124T095000
+DTEND;TZID=Europe/Warsaw:20261124T112500
+SUMMARY:Wkc (ć)
+LOCATION:P 66
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: ćwiczen
+ ia\nProwadzący: prof. dr hab. inż. Sibilski Krzysztof\nNr zajęć: 8/15
+ \nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:34547bc49b314a47256b2eab@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261124T114000
+DTEND;TZID=Europe/Warsaw:20261124T131500
+SUMMARY:Theoa (w)
+LOCATION:S1 72
+DESCRIPTION:Theory of Aircraft Engines\nRodzaj: wykład\nProwadzący: płk
+  dr hab. inż. Kozakiewicz Adam\nNr zajęć: 8/20\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1020333274c21bf9f93c8b7c@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261124T133000
+DTEND;TZID=Europe/Warsaw:20261124T150500
+SUMMARY:Wkc (w)
+LOCATION:S2 72
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: wykład\
+ nProwadzący: dr hab. inż. Kachel Stanisław\nNr zajęć: 4/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e1d25351a1d961e06a77100d@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261125T080000
+DTEND;TZID=Europe/Warsaw:20261125T093500
+SUMMARY:Sh (ć)
+LOCATION:4 H7
+DESCRIPTION:Systemy hydropneumatyczne\nRodzaj: ćwiczenia\nProwadzący: dr
+  hab. inż. Rośkowicz Marek\nNr zajęć: 1/2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c941ef679dfbedf56f545819@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261125T095000
+DTEND;TZID=Europe/Warsaw:20261125T112500
+SUMMARY:Twwkl (L)
+LOCATION:18 67\;S4 7
+DESCRIPTION:Techniki wytwarzania w konstrukcjach lotniczych\nRodzaj: labor
+ atorium\nProwadzący: mgr inż. Szlendak Gabriel\nNr zajęć: 3/8\nBlok: 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e4d3716ec8192d03dfbdf687@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261125T114000
+DTEND;TZID=Europe/Warsaw:20261125T131500
+SUMMARY:Ae (L)
+LOCATION:3 67\;43 67
+DESCRIPTION:Aerodynamika\nRodzaj: laboratorium\nProwadzący: dr inż. Fran
+ t Michał\nNr zajęć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:fd8fc26baacaa8c7d5dbb169@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261125T133000
+DTEND;TZID=Europe/Warsaw:20261125T150500
+SUMMARY:Wc (ć)
+LOCATION:S1 72
+DESCRIPTION:Wymiana ciepła\nRodzaj: ćwiczenia\nProwadzący: prof. dr hab
+ . inż. Zmywaczyk Janusz\nNr zajęć: 2/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a63fe776c81cc53153231522@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261126T080000
+DTEND;TZID=Europe/Warsaw:20261126T093500
+SUMMARY:Twwkl (w)
+LOCATION:S1 72
+DESCRIPTION:Techniki wytwarzania w konstrukcjach lotniczych\nRodzaj: wykł
+ ad\nProwadzący: mgr inż. Kluska Krzysztof\nNr zajęć: 5/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f38a66b0b9169d67e541f985@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261126T095000
+DTEND;TZID=Europe/Warsaw:20261126T112500
+SUMMARY:Ae (w)
+LOCATION:S3 72
+DESCRIPTION:Aerodynamika\nRodzaj: wykład\nProwadzący: dr inż. Majcher M
+ aciej\nNr zajęć: 5/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2ad2421b6fd6f1ff211cbd20@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261126T114000
+DTEND;TZID=Europe/Warsaw:20261126T131500
+SUMMARY:Twwkl (L)
+LOCATION:18 67\;S4 7
+DESCRIPTION:Techniki wytwarzania w konstrukcjach lotniczych\nRodzaj: labor
+ atorium\nProwadzący: mgr inż. Szlendak Gabriel\nNr zajęć: 4/8\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:63e19ce290f6a99c02299e55@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261126T133000
+DTEND;TZID=Europe/Warsaw:20261126T150500
+SUMMARY:Twwkl (L)
+LOCATION:18 67\;S4 7
+DESCRIPTION:Techniki wytwarzania w konstrukcjach lotniczych\nRodzaj: labor
+ atorium\nProwadzący: mgr inż. Szlendak Gabriel\nNr zajęć: 5/8\nBlok: 
+ 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4020c816c64c1bb6b6e065cc@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261130T080000
+DTEND;TZID=Europe/Warsaw:20261130T093500
+SUMMARY:Ae (w)
+LOCATION:S2 72
+DESCRIPTION:Aerodynamika\nRodzaj: wykład\nProwadzący: dr inż. Majcher M
+ aciej\nNr zajęć: 6/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ad916a062ea56517326b4085@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261130T095000
+DTEND;TZID=Europe/Warsaw:20261130T112500
+SUMMARY:Malo (ć)
+LOCATION:4 H7
+DESCRIPTION:Materiały lotnicze\nRodzaj: ćwiczenia\nProwadzący: kpt. mgr
+  inż. Arkuszyńska Angelika\nNr zajęć: 2/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:199031ee2b6319daed151682@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261130T114000
+DTEND;TZID=Europe/Warsaw:20261130T131500
+SUMMARY:Wkc (ć)
+LOCATION:P 66
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: ćwiczen
+ ia\nProwadzący: prof. dr hab. inż. Sibilski Krzysztof\nNr zajęć: 9/15
+ \nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5f55421b66ddffce34b19c7c@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261201T080000
+DTEND;TZID=Europe/Warsaw:20261201T093500
+SUMMARY:Mps. (L)
+LOCATION:16/ 19\;17/
+DESCRIPTION:Materiały pędne i smary\nRodzaj: laboratorium\nProwadzący: 
+ mgr inż. Dziobek Ilona\nNr zajęć: 1/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:196c176678c613d90cbe5acd@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261201T095000
+DTEND;TZID=Europe/Warsaw:20261201T112500
+SUMMARY:Mps. (L)
+LOCATION:16/ 19\;17/
+DESCRIPTION:Materiały pędne i smary\nRodzaj: laboratorium\nProwadzący: 
+ mgr inż. Dziobek Ilona\nNr zajęć: 2/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4e344467b31fdcc60deae489@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261201T114000
+DTEND;TZID=Europe/Warsaw:20261201T131500
+SUMMARY:Sa (w)
+LOCATION:34 67
+DESCRIPTION:Systemy awioniczne\nRodzaj: wykład\nProwadzący: ppłk dr in
+ ż. Henzel Maciej\nNr zajęć: 8/13\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c94b8921ff00d69c503c4bba@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261201T133000
+DTEND;TZID=Europe/Warsaw:20261201T150500
+SUMMARY:Wkc (w)
+LOCATION:S2 72
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: wykład\
+ nProwadzący: dr hab. inż. Kachel Stanisław\nNr zajęć: 5/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:bedd0eaf876007cd580dd7c0@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261201T175000
+DTEND;TZID=Europe/Warsaw:20261201T192500
+SUMMARY:Wmk (ć)
+LOCATION:33 67
+DESCRIPTION:Wytrzymałość materiałów i konstrukcji\nRodzaj: ćwiczenia
+ \nProwadzący: dr inż. Wróblewski Piotr\nNr zajęć: 4/10\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:6c3608d2bdf590ae647ac8aa@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261202T080000
+DTEND;TZID=Europe/Warsaw:20261202T093500
+SUMMARY:Twwkl (L)
+LOCATION:18 67\;S4 7
+DESCRIPTION:Techniki wytwarzania w konstrukcjach lotniczych\nRodzaj: labor
+ atorium\nProwadzący: mgr inż. Szlendak Gabriel\nNr zajęć: 6/8\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1497b9443fc4a3e9ea6d4f39@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261202T095000
+DTEND;TZID=Europe/Warsaw:20261202T112500
+SUMMARY:Wkc (L)
+LOCATION:31 67
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: laborato
+ rium\nProwadzący: mgr inż. Szcześniak Michał\nNr zajęć: 10/13\nBlok
+ : 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d84ef50048fefda872dab4c7@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261202T114000
+DTEND;TZID=Europe/Warsaw:20261202T131500
+SUMMARY:Wkc (L)
+LOCATION:31 67
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: laborato
+ rium\nProwadzący: mgr inż. Szcześniak Michał\nNr zajęć: 11/13\nBlok
+ : 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ef7155c84ed9dfce839cd39e@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261202T133000
+DTEND;TZID=Europe/Warsaw:20261202T150500
+SUMMARY:Tsl (ć)
+LOCATION:S1 72
+DESCRIPTION:Teoria silników lotniczych\nRodzaj: ćwiczenia\nProwadzący: 
+ płk dr hab. inż. Kozakiewicz Adam\nNr zajęć: 6/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:73ac6c7c25684d0bd83db44c@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261202T160000
+DTEND;TZID=Europe/Warsaw:20261202T173500
+SUMMARY:Malo (w)
+LOCATION:19 36
+DESCRIPTION:Materiały lotnicze\nRodzaj: wykład\nProwadzący: ppłk dr in
+ ż. Leszczyński Piotr\nNr zajęć: 2/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:d09185549d0e18b67a95b99c@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261202T175000
+DTEND;TZID=Europe/Warsaw:20261202T192500
+SUMMARY:Wmk (ć)
+LOCATION:33 67
+DESCRIPTION:Wytrzymałość materiałów i konstrukcji\nRodzaj: ćwiczenia
+ \nProwadzący: dr inż. Wróblewski Piotr\nNr zajęć: 5/10\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:03d8fe843360e29c8abb2911@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261203T080000
+DTEND;TZID=Europe/Warsaw:20261203T093500
+SUMMARY:Twwkl (w)
+LOCATION:S1 72
+DESCRIPTION:Techniki wytwarzania w konstrukcjach lotniczych\nRodzaj: wykł
+ ad\nProwadzący: mgr inż. Kluska Krzysztof\nNr zajęć: 6/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:fc5756dd7490bdb41d1d621f@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261203T095000
+DTEND;TZID=Europe/Warsaw:20261203T112500
+SUMMARY:Ae (w)
+LOCATION:S3 72
+DESCRIPTION:Aerodynamika\nRodzaj: wykład\nProwadzący: dr inż. Majcher M
+ aciej\nNr zajęć: 7/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:951d1ecf5dcc57cbd05137be@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261203T114000
+DTEND;TZID=Europe/Warsaw:20261203T131500
+SUMMARY:Śwn (ć)
+LOCATION:3 67
+DESCRIPTION:Śmigła i wirniki\nRodzaj: ćwiczenia\nProwadzący: mgr inż.
+  Misiak Zawadzka Aneta\nNr zajęć: 4/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:99fddeab188617888204be18@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261204T133000
+DTEND;TZID=Europe/Warsaw:20261204T150500
+SUMMARY:Ae (L)
+LOCATION:3 67
+DESCRIPTION:Aerodynamika\nRodzaj: laboratorium\nProwadzący: dr inż. Fran
+ t Michał\nNr zajęć: 3/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f2281d48620a3fc4d3eec180@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261207T095000
+DTEND;TZID=Europe/Warsaw:20261207T112500
+SUMMARY:Malo (ć)
+LOCATION:4 H7
+DESCRIPTION:Materiały lotnicze\nRodzaj: ćwiczenia\nProwadzący: kpt. mgr
+  inż. Arkuszyńska Angelika\nNr zajęć: 3/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3a58b4d800d93faade69855f@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261208T080000
+DTEND;TZID=Europe/Warsaw:20261208T093500
+SUMMARY:Śwn (ć)
+LOCATION:3 67
+DESCRIPTION:Śmigła i wirniki\nRodzaj: ćwiczenia\nProwadzący: mgr inż.
+  Misiak Zawadzka Aneta\nNr zajęć: 5/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9c565ca123bfdf386d7c1c7a@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261208T095000
+DTEND;TZID=Europe/Warsaw:20261208T112500
+SUMMARY:Wkc (ć)
+LOCATION:P 66
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: ćwiczen
+ ia\nProwadzący: prof. dr hab. inż. Sibilski Krzysztof\nNr zajęć: 10/1
+ 5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:eda56235d2751c6a09954cd1@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261208T114000
+DTEND;TZID=Europe/Warsaw:20261208T131500
+SUMMARY:Theoa (w)
+LOCATION:S1 72
+DESCRIPTION:Theory of Aircraft Engines\nRodzaj: wykład\nProwadzący: płk
+  dr hab. inż. Kozakiewicz Adam\nNr zajęć: 9/20\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8d2a0b011877701d37e38126@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261208T133000
+DTEND;TZID=Europe/Warsaw:20261208T150500
+SUMMARY:Sa (w)
+LOCATION:34 67
+DESCRIPTION:Systemy awioniczne\nRodzaj: wykład\nProwadzący: ppłk dr in
+ ż. Henzel Maciej\nNr zajęć: 9/13\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c23dfb8b4e80f5cd8cb7b92b@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261209T095000
+DTEND;TZID=Europe/Warsaw:20261209T112500
+SUMMARY:Sa (w)
+LOCATION:136 36
+DESCRIPTION:Systemy awioniczne\nRodzaj: wykład\nProwadzący: dr inż. Roc
+ hala Zdzisław\nNr zajęć: 10/13\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:682d150e068276817af39b5c@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261209T114000
+DTEND;TZID=Europe/Warsaw:20261209T131500
+SUMMARY:Sa (w)
+LOCATION:136 36
+DESCRIPTION:Systemy awioniczne\nRodzaj: wykład\nProwadzący: ppłk dr in
+ ż. Henzel Maciej\nNr zajęć: 11/13\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9b83972bb6d9fcfd6de7cf6c@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261209T133000
+DTEND;TZID=Europe/Warsaw:20261209T150500
+SUMMARY:Twwkl (w)
+LOCATION:15 63
+DESCRIPTION:Techniki wytwarzania w konstrukcjach lotniczych\nRodzaj: wykł
+ ad\nProwadzący: dr hab. inż. Kachel Stanisław\nNr zajęć: 7/8\nBlok: 
+ 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d653ded6f7717438213540be@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261209T160000
+DTEND;TZID=Europe/Warsaw:20261209T173500
+SUMMARY:Malo (w)
+LOCATION:19 36
+DESCRIPTION:Materiały lotnicze\nRodzaj: wykład\nProwadzący: ppłk dr in
+ ż. Leszczyński Piotr\nNr zajęć: 3/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:85994b968a3b3b0b91a99996@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261209T175000
+DTEND;TZID=Europe/Warsaw:20261209T192500
+SUMMARY:Wmk (ć)
+LOCATION:33 67
+DESCRIPTION:Wytrzymałość materiałów i konstrukcji\nRodzaj: ćwiczenia
+ \nProwadzący: dr inż. Wróblewski Piotr\nNr zajęć: 6/10\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:6e407b18db8fb3dd540da777@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261210T080000
+DTEND;TZID=Europe/Warsaw:20261210T093500
+SUMMARY:Twwkl (w)
+LOCATION:S1 72
+DESCRIPTION:Techniki wytwarzania w konstrukcjach lotniczych\nRodzaj: wykł
+ ad\nProwadzący: mgr inż. Kluska Krzysztof\nNr zajęć: 8/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b0e2c6137f212883bd8f64a6@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261210T095000
+DTEND;TZID=Europe/Warsaw:20261210T112500
+SUMMARY:Ae (w)
+LOCATION:S3 72
+DESCRIPTION:Aerodynamika\nRodzaj: wykład\nProwadzący: dr inż. Majcher M
+ aciej\nNr zajęć: 8/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:875943e6070827954a33d775@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261210T114000
+DTEND;TZID=Europe/Warsaw:20261210T131500
+SUMMARY:Twwkl (L)
+LOCATION:18 67\;S4 7
+DESCRIPTION:Techniki wytwarzania w konstrukcjach lotniczych\nRodzaj: labor
+ atorium\nProwadzący: mgr inż. Szlendak Gabriel\nNr zajęć: 7/8\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1037a8729dd2dacaf8fb02bf@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261210T133000
+DTEND;TZID=Europe/Warsaw:20261210T150500
+SUMMARY:Wkc (w)
+LOCATION:S2 72
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: wykład\
+ nProwadzący: dr hab. inż. Kachel Stanisław\nNr zajęć: 6/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f3b00ed9ce2d1f1038cfc548@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261211T080000
+DTEND;TZID=Europe/Warsaw:20261211T093500
+SUMMARY:Sh (w)
+LOCATION:4 H7
+DESCRIPTION:Systemy hydropneumatyczne\nRodzaj: wykład\nProwadzący: dr ha
+ b. inż. Rośkowicz Marek\nNr zajęć: 9/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e69aab812217049a3c555026@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261211T095000
+DTEND;TZID=Europe/Warsaw:20261211T112500
+SUMMARY:Tsl (ć)
+LOCATION:S1 72
+DESCRIPTION:Teoria silników lotniczych\nRodzaj: ćwiczenia\nProwadzący: 
+ płk dr hab. inż. Kozakiewicz Adam\nNr zajęć: 7/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7549b94550e288d0278ffd7b@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261211T114000
+DTEND;TZID=Europe/Warsaw:20261211T131500
+SUMMARY:Sa (ć)
+LOCATION:34 67
+DESCRIPTION:Systemy awioniczne\nRodzaj: ćwiczenia\nProwadzący: ppłk dr 
+ inż. Henzel Maciej\nNr zajęć: 2/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e7705553e4eded55d4e1e3d3@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261211T133000
+DTEND;TZID=Europe/Warsaw:20261211T150500
+SUMMARY:Wc (w)
+LOCATION:S1 72
+DESCRIPTION:Wymiana ciepła\nRodzaj: wykład\nProwadzący: prof. dr hab. i
+ nż. Zmywaczyk Janusz\nNr zajęć: 7/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ac0e88ab9fb0151e87ea5442@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261211T160000
+DTEND;TZID=Europe/Warsaw:20261211T173500
+SUMMARY:Wmk (ć)
+LOCATION:P 66
+DESCRIPTION:Wytrzymałość materiałów i konstrukcji\nRodzaj: ćwiczenia
+ \nProwadzący: dr inż. Wróblewski Piotr\nNr zajęć: 7/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:ec44ef3b52c35453db94029a@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261214T114000
+DTEND;TZID=Europe/Warsaw:20261214T131500
+SUMMARY:Wkc (ć)
+LOCATION:P 66
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: ćwiczen
+ ia\nProwadzący: prof. dr hab. inż. Sibilski Krzysztof\nNr zajęć: 11/1
+ 5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:89eddf4aff5a5f0d7da3d027@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261214T133000
+DTEND;TZID=Europe/Warsaw:20261214T150500
+SUMMARY:Ae (w)
+LOCATION:S2 72
+DESCRIPTION:Aerodynamika\nRodzaj: wykład\nProwadzący: dr inż. Majcher M
+ aciej\nNr zajęć: 9/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8266e21a9335698bf4175727@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261214T160000
+DTEND;TZID=Europe/Warsaw:20261214T173500
+SUMMARY:Wmk (w)
+LOCATION:33 67
+DESCRIPTION:Wytrzymałość materiałów i konstrukcji\nRodzaj: wykład\nP
+ rowadzący: ppłk dr inż. Kiszkowiak Łukasz\nNr zajęć: 5/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:c00663a647e030566a43d9fd@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261215T080000
+DTEND;TZID=Europe/Warsaw:20261215T093500
+SUMMARY:Mps. (L)
+LOCATION:16/ 19\;17/
+DESCRIPTION:Materiały pędne i smary\nRodzaj: laboratorium\nProwadzący: 
+ mgr inż. Dziobek Ilona\nNr zajęć: 3/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:12fd8c72f8d227d9dfa4c3f2@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261215T095000
+DTEND;TZID=Europe/Warsaw:20261215T112500
+SUMMARY:Mps. (L)
+LOCATION:16/ 19\;17/
+DESCRIPTION:Materiały pędne i smary\nRodzaj: laboratorium\nProwadzący: 
+ mgr inż. Dziobek Ilona\nNr zajęć: 4/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3d06dc7fdf962b1bd1eb10a0@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261215T114000
+DTEND;TZID=Europe/Warsaw:20261215T131500
+SUMMARY:Malo (ć)
+LOCATION:4 H7
+DESCRIPTION:Materiały lotnicze\nRodzaj: ćwiczenia\nProwadzący: kpt. mgr
+  inż. Arkuszyńska Angelika\nNr zajęć: 4/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d4e27eccb42cc33f25a36619@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261215T133000
+DTEND;TZID=Europe/Warsaw:20261215T150500
+SUMMARY:Tsl (ć)
+LOCATION:S1 72
+DESCRIPTION:Teoria silników lotniczych\nRodzaj: ćwiczenia\nProwadzący: 
+ płk dr hab. inż. Kozakiewicz Adam\nNr zajęć: 8/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:af4e9966ec743c10fbd09100@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261216T095000
+DTEND;TZID=Europe/Warsaw:20261216T112500
+SUMMARY:Wkc (L)
+LOCATION:31 67
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: laborato
+ rium\nProwadzący: mgr inż. Szcześniak Michał\nNr zajęć: 12/13\nBlok
+ : 2
+END:VEVENT
+BEGIN:VEVENT
+UID:64d0b102214534b3108ec37e@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261216T133000
+DTEND;TZID=Europe/Warsaw:20261216T150500
+SUMMARY:Twwkl (L)
+LOCATION:18 67\;S4 7
+DESCRIPTION:Techniki wytwarzania w konstrukcjach lotniczych\nRodzaj: labor
+ atorium\nProwadzący: mgr inż. Szlendak Gabriel\nNr zajęć: 8/8\nBlok: 
+ 4
+END:VEVENT
+BEGIN:VEVENT
+UID:96d9c62e9ec2eeb6c0a8cfa1@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261216T160000
+DTEND;TZID=Europe/Warsaw:20261216T173500
+SUMMARY:Malo (w)
+LOCATION:19 36
+DESCRIPTION:Materiały lotnicze\nRodzaj: wykład\nProwadzący: ppłk dr in
+ ż. Leszczyński Piotr\nNr zajęć: 4/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:05a572e1e8e218772d3fbeac@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261216T175000
+DTEND;TZID=Europe/Warsaw:20261216T192500
+SUMMARY:Wmk (ć)
+LOCATION:33 67
+DESCRIPTION:Wytrzymałość materiałów i konstrukcji\nRodzaj: ćwiczenia
+ \nProwadzący: dr inż. Wróblewski Piotr\nNr zajęć: 8/10\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:d8c2ce2b0f99687f705a6d22@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261217T080000
+DTEND;TZID=Europe/Warsaw:20261217T093500
+SUMMARY:Mps. (L)
+LOCATION:16/ 19\;17/
+DESCRIPTION:Materiały pędne i smary\nRodzaj: laboratorium\nProwadzący: 
+ mgr inż. Dziobek Ilona\nNr zajęć: 5/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5165949aa790d66415c3dc0b@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261217T095000
+DTEND;TZID=Europe/Warsaw:20261217T112500
+SUMMARY:Mps. (L)
+LOCATION:16/ 19\;17/
+DESCRIPTION:Materiały pędne i smary\nRodzaj: laboratorium\nProwadzący: 
+ mgr inż. Dziobek Ilona\nNr zajęć: 6/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3302b2f18430cf10dbae49eb@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261217T114000
+DTEND;TZID=Europe/Warsaw:20261217T131500
+SUMMARY:Wc (L)
+LOCATION:8 72
+DESCRIPTION:Wymiana ciepła\nRodzaj: laboratorium\nProwadzący: mgr inż. 
+ Zarubajko Aleksandra\nNr zajęć: 3/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4e51148e0edfb13ffb191931@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261218T080000
+DTEND;TZID=Europe/Warsaw:20261218T093500
+SUMMARY:Theoa (w)
+LOCATION:S1 72
+DESCRIPTION:Theory of Aircraft Engines\nRodzaj: wykład\nProwadzący: płk
+  dr hab. inż. Kozakiewicz Adam\nNr zajęć: 10/20\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:dbfd237ddc54c553c32ff15e@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261218T095000
+DTEND;TZID=Europe/Warsaw:20261218T112500
+SUMMARY:Theoa (w)
+LOCATION:S1 72
+DESCRIPTION:Theory of Aircraft Engines\nRodzaj: wykład\nProwadzący: płk
+  dr hab. inż. Kozakiewicz Adam\nNr zajęć: 11/20\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ffebf387e0cca673f9d261f4@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261218T114000
+DTEND;TZID=Europe/Warsaw:20261218T131500
+SUMMARY:Sh (ć)
+LOCATION:4 H7
+DESCRIPTION:Systemy hydropneumatyczne\nRodzaj: ćwiczenia\nProwadzący: dr
+  hab. inż. Rośkowicz Marek\nNr zajęć: 2/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a3719f8ba048e6e22f3a1d21@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261218T133000
+DTEND;TZID=Europe/Warsaw:20261218T150500
+SUMMARY:Ae (L)
+LOCATION:3 67
+DESCRIPTION:Aerodynamika\nRodzaj: laboratorium\nProwadzący: dr inż. Fran
+ t Michał\nNr zajęć: 4/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:634a9c99bdeb969bd026c9bf@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261218T160000
+DTEND;TZID=Europe/Warsaw:20261218T173500
+SUMMARY:Wmk (ć)
+LOCATION:P 66
+DESCRIPTION:Wytrzymałość materiałów i konstrukcji\nRodzaj: ćwiczenia
+ \nProwadzący: dr inż. Wróblewski Piotr\nNr zajęć: 9/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:558767b959d8c95b2ffabaf1@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261221T114000
+DTEND;TZID=Europe/Warsaw:20261221T131500
+SUMMARY:Wkc (ć)
+LOCATION:P 66
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: ćwiczen
+ ia\nProwadzący: prof. dr hab. inż. Sibilski Krzysztof\nNr zajęć: 12/1
+ 5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c8837709baa49c3d0d0015ba@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261221T133000
+DTEND;TZID=Europe/Warsaw:20261221T150500
+SUMMARY:Ae (w)
+LOCATION:S2 72
+DESCRIPTION:Aerodynamika\nRodzaj: wykład\nProwadzący: dr inż. Majcher M
+ aciej\nNr zajęć: 10/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9457615aaed1966da2c3b4cc@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261222T080000
+DTEND;TZID=Europe/Warsaw:20261222T093500
+SUMMARY:Theoa (w)
+LOCATION:S1 72
+DESCRIPTION:Theory of Aircraft Engines\nRodzaj: wykład\nProwadzący: płk
+  dr hab. inż. Kozakiewicz Adam\nNr zajęć: 12/20\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d5ab6d44e6975dee184fbc6b@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261222T114000
+DTEND;TZID=Europe/Warsaw:20261222T131500
+SUMMARY:Sa (w)
+LOCATION:34 67
+DESCRIPTION:Systemy awioniczne\nRodzaj: wykład\nProwadzący: ppłk dr in
+ ż. Henzel Maciej\nNr zajęć: 12/13\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:13b185c3a387860e2024a2b1@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20261223T080000
+DTEND;TZID=Europe/Warsaw:20261223T093500
+SUMMARY:Malo (w)
+LOCATION:19 36
+DESCRIPTION:Materiały lotnicze\nRodzaj: wykład\nProwadzący: ppłk dr in
+ ż. Leszczyński Piotr\nNr zajęć: 5/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2a4c8a86592cb205efefb594@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20270107T080000
+DTEND;TZID=Europe/Warsaw:20270107T093500
+SUMMARY:Mps. (L)
+LOCATION:16/ 19\;17/
+DESCRIPTION:Materiały pędne i smary\nRodzaj: laboratorium\nProwadzący: 
+ mgr inż. Dziobek Ilona\nNr zajęć: 7/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:05e657bddb629e78807815cf@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20270107T095000
+DTEND;TZID=Europe/Warsaw:20270107T112500
+SUMMARY:Mps. (L)
+LOCATION:16/ 19\;17/
+DESCRIPTION:Materiały pędne i smary\nRodzaj: laboratorium\nProwadzący: 
+ mgr inż. Dziobek Ilona\nNr zajęć: 8/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:11289222f3eadf2d18b78eac@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20270107T133000
+DTEND;TZID=Europe/Warsaw:20270107T150500
+SUMMARY:Malo (ć)
+LOCATION:34 67
+DESCRIPTION:Materiały lotnicze\nRodzaj: ćwiczenia\nProwadzący: kpt. mgr
+  inż. Arkuszyńska Angelika\nNr zajęć: 5/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a9b071e842ddf0cb9ba0b167@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20270108T080000
+DTEND;TZID=Europe/Warsaw:20270108T093500
+SUMMARY:Śwn (w)
+LOCATION:S3 72
+DESCRIPTION:Śmigła i wirniki\nRodzaj: wykład\nProwadzący: dr inż. Maj
+ cher Maciej\nNr zajęć: 7/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:17e1e957d6eb05280ce285d0@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20270108T095000
+DTEND;TZID=Europe/Warsaw:20270108T112500
+SUMMARY:Theoa (w)
+LOCATION:S1 72
+DESCRIPTION:Theory of Aircraft Engines\nRodzaj: wykład\nProwadzący: płk
+  dr hab. inż. Kozakiewicz Adam\nNr zajęć: 13/20\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:fba6b2225ed792fed845f8fe@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20270108T114000
+DTEND;TZID=Europe/Warsaw:20270108T131500
+SUMMARY:Sh (L)
+LOCATION:4 H7
+DESCRIPTION:Systemy hydropneumatyczne\nRodzaj: laboratorium\nProwadzący: 
+ ppor. mgr inż. Barca Iga\nNr zajęć: 1/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:bd4c9eeeeea1ff623c8ad8c6@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20270108T133000
+DTEND;TZID=Europe/Warsaw:20270108T150500
+SUMMARY:Sh (L)
+LOCATION:4 H7
+DESCRIPTION:Systemy hydropneumatyczne\nRodzaj: laboratorium\nProwadzący: 
+ ppor. mgr inż. Barca Iga\nNr zajęć: 2/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:dcf7e731e34cc4fdfe68f784@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20270111T080000
+DTEND;TZID=Europe/Warsaw:20270111T093500
+SUMMARY:Mps. (L)
+LOCATION:16/ 19\;17/
+DESCRIPTION:Materiały pędne i smary\nRodzaj: laboratorium\nProwadzący: 
+ mgr inż. Dziobek Ilona\nNr zajęć: 9/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:32eb6a31e312dcb014c5af17@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20270111T095000
+DTEND;TZID=Europe/Warsaw:20270111T112500
+SUMMARY:Malo (ć)
+LOCATION:4 H7
+DESCRIPTION:Materiały lotnicze\nRodzaj: ćwiczenia\nProwadzący: kpt. mgr
+  inż. Arkuszyńska Angelika\nNr zajęć: 6/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f4f735e327f974949bceaa5b@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20270111T114000
+DTEND;TZID=Europe/Warsaw:20270111T131500
+SUMMARY:Wkc (ć)
+LOCATION:P 66
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: ćwiczen
+ ia\nProwadzący: prof. dr hab. inż. Sibilski Krzysztof\nNr zajęć: 13/1
+ 5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c590bdcf1fe1b36fe167faf6@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20270112T080000
+DTEND;TZID=Europe/Warsaw:20270112T093500
+SUMMARY:Theoa (w)
+LOCATION:S1 72
+DESCRIPTION:Theory of Aircraft Engines\nRodzaj: wykład\nProwadzący: płk
+  dr hab. inż. Kozakiewicz Adam\nNr zajęć: 14/20\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9ce6dd21c92492a271ba8e8c@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20270113T095000
+DTEND;TZID=Europe/Warsaw:20270113T112500
+SUMMARY:Wkc (w)
+LOCATION:S2 72
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: wykład\
+ nProwadzący: dr hab. inż. Kachel Stanisław\nNr zajęć: 7/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4bebeb8198dd5e1a466c5a96@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20270113T114000
+DTEND;TZID=Europe/Warsaw:20270113T131500
+SUMMARY:Sa (w)
+LOCATION:19 63
+DESCRIPTION:Systemy awioniczne\nRodzaj: wykład\nProwadzący: dr inż. Roc
+ hala Zdzisław\nNr zajęć: 13/13\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ebebeb932520b6b7ad05f249@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20270113T133000
+DTEND;TZID=Europe/Warsaw:20270113T150500
+SUMMARY:Wc (ć)
+LOCATION:S1 72
+DESCRIPTION:Wymiana ciepła\nRodzaj: ćwiczenia\nProwadzący: prof. dr hab
+ . inż. Zmywaczyk Janusz\nNr zajęć: 3/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e234cdb0f842b91059d4eddd@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20270113T160000
+DTEND;TZID=Europe/Warsaw:20270113T173500
+SUMMARY:Malo (w)
+LOCATION:19 36
+DESCRIPTION:Materiały lotnicze\nRodzaj: wykład\nProwadzący: ppłk dr in
+ ż. Leszczyński Piotr\nNr zajęć: 6/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:62993881694cca3080d10319@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20270114T080000
+DTEND;TZID=Europe/Warsaw:20270114T093500
+SUMMARY:Mps. (L)
+LOCATION:16/ 19\;17/
+DESCRIPTION:Materiały pędne i smary\nRodzaj: laboratorium\nProwadzący: 
+ mgr inż. Dziobek Ilona\nNr zajęć: 10/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:dd6f18c7f63e10875e85ddfe@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20270114T095000
+DTEND;TZID=Europe/Warsaw:20270114T112500
+SUMMARY:Wc (L)
+LOCATION:8 72
+DESCRIPTION:Wymiana ciepła\nRodzaj: laboratorium\nProwadzący: mgr inż. 
+ Zarubajko Aleksandra\nNr zajęć: 4/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9c1da6e6cf935140bdf864be@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20270114T133000
+DTEND;TZID=Europe/Warsaw:20270114T150500
+SUMMARY:Wkc (L)
+LOCATION:31 67
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: laborato
+ rium\nProwadzący: mgr inż. Szcześniak Michał\nNr zajęć: 13/13\nBlok
+ : 4
+END:VEVENT
+BEGIN:VEVENT
+UID:43ec6eb564f172a60332d5d7@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20270115T080000
+DTEND;TZID=Europe/Warsaw:20270115T093500
+SUMMARY:Theoa (w)
+LOCATION:S1 72
+DESCRIPTION:Theory of Aircraft Engines\nRodzaj: wykład\nProwadzący: płk
+  dr hab. inż. Kozakiewicz Adam\nNr zajęć: 15/20\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f9e6f4a49cf1f9b1d7b127c3@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20270115T095000
+DTEND;TZID=Europe/Warsaw:20270115T112500
+SUMMARY:Theoa (w)
+LOCATION:S1 72
+DESCRIPTION:Theory of Aircraft Engines\nRodzaj: wykład\nProwadzący: płk
+  dr hab. inż. Kozakiewicz Adam\nNr zajęć: 16/20\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7fe6972605b02e0411f59013@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20270115T114000
+DTEND;TZID=Europe/Warsaw:20270115T131500
+SUMMARY:Ae (L)
+LOCATION:3 67
+DESCRIPTION:Aerodynamika\nRodzaj: laboratorium\nProwadzący: dr inż. Fran
+ t Michał\nNr zajęć: 5/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4a5c27fdbc87afb1f4cf9d7a@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20270118T080000
+DTEND;TZID=Europe/Warsaw:20270118T093500
+SUMMARY:Theoa (w)
+LOCATION:S1 72
+DESCRIPTION:Theory of Aircraft Engines\nRodzaj: wykład\nProwadzący: płk
+  dr hab. inż. Kozakiewicz Adam\nNr zajęć: 17/20\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:175464e30366bf9acf386bed@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20270118T114000
+DTEND;TZID=Europe/Warsaw:20270118T131500
+SUMMARY:Wkc (ć)
+LOCATION:P 66
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: ćwiczen
+ ia\nProwadzący: prof. dr hab. inż. Sibilski Krzysztof\nNr zajęć: 14/1
+ 5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d5b4b1b7242890914ffab799@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20270118T133000
+DTEND;TZID=Europe/Warsaw:20270118T150500
+SUMMARY:Wkc (ć)
+LOCATION:P 66
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: ćwiczen
+ ia\nProwadzący: prof. dr hab. inż. Sibilski Krzysztof\nNr zajęć: 15/1
+ 5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6517c8aa2239373ef963d19d@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20270118T160000
+DTEND;TZID=Europe/Warsaw:20270118T173500
+SUMMARY:Wmk (ć)
+LOCATION:33 67
+DESCRIPTION:Wytrzymałość materiałów i konstrukcji\nRodzaj: ćwiczenia
+ \nProwadzący: dr inż. Wróblewski Piotr\nNr zajęć: 10/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:5cecdd596c6847d1466bf9ad@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20270119T095000
+DTEND;TZID=Europe/Warsaw:20270119T112500
+SUMMARY:Tsl (ć)
+LOCATION:S1 72
+DESCRIPTION:Teoria silników lotniczych\nRodzaj: ćwiczenia\nProwadzący: 
+ płk dr hab. inż. Kozakiewicz Adam\nNr zajęć: 9/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:48975f8b480d6a8edc746e57@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20270120T080000
+DTEND;TZID=Europe/Warsaw:20270120T093500
+SUMMARY:Malo (w)
+LOCATION:19 36
+DESCRIPTION:Materiały lotnicze\nRodzaj: wykład\nProwadzący: ppłk dr in
+ ż. Leszczyński Piotr\nNr zajęć: 7/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6dbe721fef936ac12b496aed@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20270120T095000
+DTEND;TZID=Europe/Warsaw:20270120T112500
+SUMMARY:Malo (w)
+LOCATION:19 36
+DESCRIPTION:Materiały lotnicze\nRodzaj: wykład\nProwadzący: ppłk dr in
+ ż. Leszczyński Piotr\nNr zajęć: 8/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1ff3a35369c832db7bddc542@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20270121T080000
+DTEND;TZID=Europe/Warsaw:20270121T093500
+SUMMARY:Tsl (ć)
+LOCATION:S1 72
+DESCRIPTION:Teoria silników lotniczych\nRodzaj: ćwiczenia\nProwadzący: 
+ płk dr hab. inż. Kozakiewicz Adam\nNr zajęć: 10/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c515723db8271aaa4eb8fd8d@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20270122T080000
+DTEND;TZID=Europe/Warsaw:20270122T093500
+SUMMARY:Śwn (w)
+LOCATION:S3 72
+DESCRIPTION:Śmigła i wirniki\nRodzaj: wykład\nProwadzący: dr inż. Maj
+ cher Maciej\nNr zajęć: 8/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5c1c6c67dd107dbf25487bb8@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20270122T095000
+DTEND;TZID=Europe/Warsaw:20270122T112500
+SUMMARY:Theoa (w)
+LOCATION:S1 72
+DESCRIPTION:Theory of Aircraft Engines\nRodzaj: wykład\nProwadzący: płk
+  dr hab. inż. Kozakiewicz Adam\nNr zajęć: 18/20\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:85a6d8210fbca1cabeecf082@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20270122T114000
+DTEND;TZID=Europe/Warsaw:20270122T131500
+SUMMARY:Śwn (ć)
+LOCATION:3 67
+DESCRIPTION:Śmigła i wirniki\nRodzaj: ćwiczenia\nProwadzący: mgr inż.
+  Misiak Zawadzka Aneta\nNr zajęć: 6/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e5c1fc29a598bdd7496ece1d@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20270125T114000
+DTEND;TZID=Europe/Warsaw:20270125T131500
+SUMMARY:Malo (w)
+LOCATION:19 36
+DESCRIPTION:Materiały lotnicze\nRodzaj: wykład\nProwadzący: ppłk dr in
+ ż. Leszczyński Piotr\nNr zajęć: 9/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d5a666eec92f9ed36a6dd1b3@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20270126T095000
+DTEND;TZID=Europe/Warsaw:20270126T112500
+SUMMARY:Śwn (ć)
+LOCATION:3 67
+DESCRIPTION:Śmigła i wirniki\nRodzaj: ćwiczenia\nProwadzący: mgr inż.
+  Misiak Zawadzka Aneta\nNr zajęć: 7/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:bb49ea8caf32555ed14a023c@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20270126T114000
+DTEND;TZID=Europe/Warsaw:20270126T131500
+SUMMARY:Theoa (w)
+LOCATION:S1 72
+DESCRIPTION:Theory of Aircraft Engines\nRodzaj: wykład\nProwadzący: płk
+  dr hab. inż. Kozakiewicz Adam\nNr zajęć: 19/20\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9f660f0e7c8ab38f6f4906d8@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20270127T095000
+DTEND;TZID=Europe/Warsaw:20270127T112500
+SUMMARY:Wkc (w)
+LOCATION:19 36
+DESCRIPTION:Wytrzymałość konstrukcji cienkościennych\nRodzaj: wykład\
+ nProwadzący: dr hab. inż. Kachel Stanisław\nNr zajęć: 8/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:cf66a2b13a409d3aa4f7237e@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20270128T133000
+DTEND;TZID=Europe/Warsaw:20270128T150500
+SUMMARY:Sh (L)
+LOCATION:4 H7
+DESCRIPTION:Systemy hydropneumatyczne\nRodzaj: laboratorium\nProwadzący: 
+ ppor. mgr inż. Barca Iga\nNr zajęć: 3/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a0efefd9967f2459cc53cbbf@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20270128T160000
+DTEND;TZID=Europe/Warsaw:20270128T173500
+SUMMARY:Sh (L)
+LOCATION:4 H7
+DESCRIPTION:Systemy hydropneumatyczne\nRodzaj: laboratorium\nProwadzący: 
+ ppor. mgr inż. Barca Iga\nNr zajęć: 4/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:abb97e17b629b7970d5d8428@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20270129T080000
+DTEND;TZID=Europe/Warsaw:20270129T093500
+SUMMARY:Wc (L)
+LOCATION:8 72
+DESCRIPTION:Wymiana ciepła\nRodzaj: laboratorium\nProwadzący: mgr inż. 
+ Zarubajko Aleksandra\nNr zajęć: 5/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d2a7f4144ad19d9063116a08@wat-plan
+DTSTAMP:20261127T160310Z
+DTSTART;TZID=Europe/Warsaw:20270129T095000
+DTEND;TZID=Europe/Warsaw:20270129T112500
+SUMMARY:Theoa (w)
+LOCATION:S1 72
+DESCRIPTION:Theory of Aircraft Engines\nRodzaj: wykład\nProwadzący: płk
+  dr hab. inż. Kozakiewicz Adam\nNr zajęć: 20/20\nBlok: 2
+END:VEVENT
+END:VCALENDAR

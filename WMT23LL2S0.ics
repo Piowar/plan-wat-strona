@@ -1,0 +1,3189 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WMT23LL2S0
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:58aedea44106f0165a1bbc96@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261001T080000
+DTEND;TZID=Europe/Warsaw:20261001T093500
+SUMMARY:Lscel (w)
+LOCATION:24 67
+DESCRIPTION:Lotnicze systemy celownicze\nRodzaj: wykład\nProwadzący: dr 
+ inż. Ważny Mariusz\nNr zajęć: 1/13\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1acb7dfe81032412ce16a99a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261002T095000
+DTEND;TZID=Europe/Warsaw:20261002T112500
+SUMMARY:Lsr (w)
+LOCATION:9 67
+DESCRIPTION:Lotnicze systemy radioelektroniczne\nRodzaj: wykład\nProwadz
+ ący: dr inż. Witczak Andrzej\nNr zajęć: 1/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:288e564bee28c2e94b92f9fd@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261002T133000
+DTEND;TZID=Europe/Warsaw:20261002T150500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 24)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/24 (grupa SWF 2PL/14KP)\nProwadz
+ ący: ppłk mgr Ryś Paweł\nNr zajęć: 1/30\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f06ac7a76688d0ce59da3f35@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261003T080000
+DTEND;TZID=Europe/Warsaw:20261003T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 1/15\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c20b43d5f6b4a5f07c401ec8@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261005T080000
+DTEND;TZID=Europe/Warsaw:20261005T093500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:zewnętrzny tor BTS/BTZ
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 34)\nObie
+ kt: zewnętrzny tor BTS/BTZ\nKod SWF: C-2/34 (grupa SWF 2PL/14KP)\nProwad
+ zący: ppłk mgr Ryś Paweł\nNr zajęć: 2/30\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7112202b3b20bab791a84df5@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261005T095000
+DTEND;TZID=Europe/Warsaw:20261005T112500
+SUMMARY:Ja (ć)
+LOCATION:131 K\;132
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 1/30\nBlok: 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ebbcb9c411c6da06ce3633c8@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261005T114000
+DTEND;TZID=Europe/Warsaw:20261005T131500
+SUMMARY:Radio (w)
+LOCATION:S3 72
+DESCRIPTION:Radiotechnika\nRodzaj: wykład\nProwadzący: dr hab. inż. Sus
+ ek Waldemar\nNr zajęć: 1/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:379f6c865fcfc56e7e9f9f33@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261005T133000
+DTEND;TZID=Europe/Warsaw:20261005T150500
+SUMMARY:Radio (w)
+LOCATION:S3 72
+DESCRIPTION:Radiotechnika\nRodzaj: wykład\nProwadzący: dr hab. inż. Sus
+ ek Waldemar\nNr zajęć: 2/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:721f19647d49dfde76c67b9a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261006T114000
+DTEND;TZID=Europe/Warsaw:20261006T131500
+SUMMARY:Bzl (w)
+LOCATION:34 67
+DESCRIPTION:Bomby i zapalniki lotnicze\nRodzaj: wykład\nProwadzący: dr h
+ ab. inż. Grzesik Norbert\nNr zajęć: 1/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:46594960fa1c11496d8e0f79@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261006T133000
+DTEND;TZID=Europe/Warsaw:20261006T150500
+SUMMARY:Mwpr (w)
+LOCATION:S3 72
+DESCRIPTION:Materiały wybuchowe i paliwa rakietowe\nRodzaj: wykład\nProw
+ adzący: dr hab. inż. Papliński Andrzej\nNr zajęć: 1/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e12e4466193521df31b69416@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261007T080000
+DTEND;TZID=Europe/Warsaw:20261007T093500
+SUMMARY:Lsr (w)
+LOCATION:S2 72
+DESCRIPTION:Lotnicze systemy radioelektroniczne\nRodzaj: wykład\nProwadz
+ ący: dr inż. Witczak Andrzej\nNr zajęć: 2/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:818df92cad175c38e145f296@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261007T095000
+DTEND;TZID=Europe/Warsaw:20261007T112500
+SUMMARY:Ja (ć)
+LOCATION:131 K\;132
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 2/30\nBlok: 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:57b2ebbf9a600609185701e7@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261007T114000
+DTEND;TZID=Europe/Warsaw:20261007T131500
+SUMMARY:wzbnim (w)
+LOCATION:46 63
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: wykład\nProwadzący: dr Gocalski Włodzimierz\nNr zajęć:
+  1/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:06609b67e5e823f3abba8225@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261007T133000
+DTEND;TZID=Europe/Warsaw:20261007T150500
+SUMMARY:Lsr (w)
+LOCATION:9 67
+DESCRIPTION:Lotnicze systemy radioelektroniczne\nRodzaj: wykład\nProwadz
+ ący: dr inż. Witczak Andrzej\nNr zajęć: 3/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7f81fe0e3650259eb00bd276@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261008T080000
+DTEND;TZID=Europe/Warsaw:20261008T093500
+SUMMARY:Lscel (w)
+LOCATION:24 67
+DESCRIPTION:Lotnicze systemy celownicze\nRodzaj: wykład\nProwadzący: dr 
+ inż. Ważny Mariusz\nNr zajęć: 2/13\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0f59ee9742c96c8b8ccb48b5@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261008T095000
+DTEND;TZID=Europe/Warsaw:20261008T112500
+SUMMARY:LUW (w)
+LOCATION:S3 72
+DESCRIPTION:Lotnicze układy wykonawcze\nRodzaj: wykład\nProwadzący: pp
+ łk dr inż. Henzel Maciej\nNr zajęć: 1/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c9af9df877b0f4d4b40e439e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261009T095000
+DTEND;TZID=Europe/Warsaw:20261009T112500
+SUMMARY:Lsr (w)
+LOCATION:S3 72
+DESCRIPTION:Lotnicze systemy radioelektroniczne\nRodzaj: wykład\nProwadz
+ ący: dr inż. Witczak Andrzej\nNr zajęć: 4/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e7cc2a29eef3a318ddcda5c6@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261009T133000
+DTEND;TZID=Europe/Warsaw:20261009T150500
+SUMMARY:WF: Pływanie i ratownictwo wodne
+LOCATION:pływalnia
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Pływanie i ra
+ townictwo wodne (zajęcia 15)\nObiekt: pływalnia\nKod SWF: P-5/15 (grupa
+  SWF 2PL/14KP)\nProwadzący: ppłk mgr Ryś Paweł\nNr zajęć: 3/30\nBlo
+ k: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2a6db4c7452770105b2922d3@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261009T160000
+DTEND;TZID=Europe/Warsaw:20261009T173500
+SUMMARY:MPH (w)
+LOCATION:46 63
+DESCRIPTION:Międzynarodowe prawo humanitarne konfliktów zbrojnych\nRodza
+ j: wykład\nProwadzący: dr Strychalski Andrzej\nNr zajęć: 1/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:fd7ad701501af7cfaeb1f944@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261010T080000
+DTEND;TZID=Europe/Warsaw:20261010T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 2/15\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3e4c73aa3e083050be49596a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261012T080000
+DTEND;TZID=Europe/Warsaw:20261012T093500
+SUMMARY:WF: Walka wręcz
+LOCATION:hala tartanowa – walka wręcz
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Walka wręcz (
+ zajęcia 23)\nObiekt: hala tartanowa – walka wręcz\nKod SWF: B2-4/23 (
+ grupa SWF 2PL/14KP)\nProwadzący: ppłk mgr Ryś Paweł\nNr zajęć: 4/30
+ \nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a1b00de354803cbf3d571a24@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261012T095000
+DTEND;TZID=Europe/Warsaw:20261012T112500
+SUMMARY:Ja (ć)
+LOCATION:131 K\;132
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 3/30\nBlok: 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2f4671a28eae1f73e1c3f511@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261012T114000
+DTEND;TZID=Europe/Warsaw:20261012T131500
+SUMMARY:Radio (w)
+LOCATION:S3 72
+DESCRIPTION:Radiotechnika\nRodzaj: wykład\nProwadzący: dr hab. inż. Sus
+ ek Waldemar\nNr zajęć: 3/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0c031f896d50a5a67f16dc45@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261012T133000
+DTEND;TZID=Europe/Warsaw:20261012T150500
+SUMMARY:Radio (w)
+LOCATION:S3 72
+DESCRIPTION:Radiotechnika\nRodzaj: wykład\nProwadzący: dr hab. inż. Sus
+ ek Waldemar\nNr zajęć: 4/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7a5c058a0493099dcb149f80@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261013T080000
+DTEND;TZID=Europe/Warsaw:20261013T093500
+SUMMARY:Mwpr (w)
+LOCATION:S3 72
+DESCRIPTION:Materiały wybuchowe i paliwa rakietowe\nRodzaj: wykład\nProw
+ adzący: dr hab. inż. Papliński Andrzej\nNr zajęć: 2/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a8897f8bdf684e326e81746c@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261013T095000
+DTEND;TZID=Europe/Warsaw:20261013T112500
+SUMMARY:Lpr (w)
+LOCATION:43 67
+DESCRIPTION:Lotnicze pociski rakietowe\nRodzaj: wykład\nProwadzący: dr i
+ nż. Stępień Sławomir\nNr zajęć: 1/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:297093d5b01c0b3852262488@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261013T114000
+DTEND;TZID=Europe/Warsaw:20261013T131500
+SUMMARY:Bzl (w)
+LOCATION:34 67
+DESCRIPTION:Bomby i zapalniki lotnicze\nRodzaj: wykład\nProwadzący: dr h
+ ab. inż. Grzesik Norbert\nNr zajęć: 2/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:be03f5a4660e9817fa6d69d3@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261014T080000
+DTEND;TZID=Europe/Warsaw:20261014T093500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 1/8\
+ nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:109f20b9edc91549815eb5e7@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261014T095000
+DTEND;TZID=Europe/Warsaw:20261014T112500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 2/8\
+ nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9361436885bca576d48de835@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261014T114000
+DTEND;TZID=Europe/Warsaw:20261014T131500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 3/8\
+ nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:11b3114e9a42769b816da6eb@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261014T133000
+DTEND;TZID=Europe/Warsaw:20261014T150500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 4/8\
+ nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:82d0da0d67f80b6845b744a5@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261015T080000
+DTEND;TZID=Europe/Warsaw:20261015T093500
+SUMMARY:LUW (L)
+LOCATION:004 36
+DESCRIPTION:Lotnicze układy wykonawcze\nRodzaj: laboratorium\nProwadzący
+ : mgr inż. Janczewski Mariusz\nNr zajęć: 1/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:223a99203a343b43973a2a6f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261015T095000
+DTEND;TZID=Europe/Warsaw:20261015T112500
+SUMMARY:LUW (w)
+LOCATION:S3 72
+DESCRIPTION:Lotnicze układy wykonawcze\nRodzaj: wykład\nProwadzący: pp
+ łk dr inż. Henzel Maciej\nNr zajęć: 2/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:aa54cd592909c45141aa5788@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261015T114000
+DTEND;TZID=Europe/Warsaw:20261015T131500
+SUMMARY:Lscel (w)
+LOCATION:24 67
+DESCRIPTION:Lotnicze systemy celownicze\nRodzaj: wykład\nProwadzący: dr 
+ inż. Ważny Mariusz\nNr zajęć: 3/13\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5c66015645ccfa1c2f9b90c2@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261015T160000
+DTEND;TZID=Europe/Warsaw:20261015T173500
+SUMMARY:Radio (w)
+LOCATION:35 61a
+DESCRIPTION:Radiotechnika\nRodzaj: wykład\nProwadzący: dr hab.inż. Szcz
+ epaniak Zenon\nNr zajęć: 5/12\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:c6c4152b71acc87796f2e272@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261016T095000
+DTEND;TZID=Europe/Warsaw:20261016T112500
+SUMMARY:LUW (L)
+LOCATION:004 36
+DESCRIPTION:Lotnicze układy wykonawcze\nRodzaj: laboratorium\nProwadzący
+ : mgr inż. Janczewski Mariusz\nNr zajęć: 2/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:189c9a054b2fcd5916e3e581@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261016T114000
+DTEND;TZID=Europe/Warsaw:20261016T131500
+SUMMARY:REG (w)
+LOCATION:103 K
+DESCRIPTION:Regulaminy SZ RP\nRodzaj: wykład\nProwadzący: mjr mgr Nawali
+ cki Piotr\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d1943b73e2a69e4f87e37d41@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261016T133000
+DTEND;TZID=Europe/Warsaw:20261016T150500
+SUMMARY:WF: Piłka koszykowa
+LOCATION:zewnętrzne boisko do koszykówki
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Piłka koszyko
+ wa (zajęcia 8)\nObiekt: zewnętrzne boisko do koszykówki\nKod SWF: K-8/
+ 8 (grupa SWF 2PL/14KP)\nProwadzący: ppłk mgr Ryś Paweł\nNr zajęć: 5
+ /30\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e09dc615ec96c4520e8009f8@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261017T080000
+DTEND;TZID=Europe/Warsaw:20261017T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 3/15\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:123db51d91940a658a7b7647@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261019T080000
+DTEND;TZID=Europe/Warsaw:20261019T093500
+SUMMARY:WF: Pływanie i ratownictwo wodne
+LOCATION:pływalnia
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Pływanie i ra
+ townictwo wodne (zajęcia 13)\nObiekt: pływalnia\nKod SWF: P-5/13 (grupa
+  SWF 2PL/14KP)\nProwadzący: ppłk mgr Ryś Paweł\nNr zajęć: 6/30\nBlo
+ k: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c95058d9ebef45601e050fcd@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261019T095000
+DTEND;TZID=Europe/Warsaw:20261019T112500
+SUMMARY:Ja (ć)
+LOCATION:131 K\;132
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 4/30\nBlok: 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:fcecb2a651e2090c93ecc6d9@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261019T114000
+DTEND;TZID=Europe/Warsaw:20261019T131500
+SUMMARY:Ssnl (w)
+LOCATION:43 67
+DESCRIPTION:Systemy sterowania i naprowadzania lotniczych śr. boj.\nRodza
+ j: wykład\nProwadzący: dr inż. Stępień Sławomir\nNr zajęć: 1/8\nB
+ lok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:95eb932594cf3cc3e478374d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261020T080000
+DTEND;TZID=Europe/Warsaw:20261020T093500
+SUMMARY:LUW (ć)
+LOCATION:130 36
+DESCRIPTION:Lotnicze układy wykonawcze\nRodzaj: ćwiczenia\nProwadzący: 
+ mgr inż. Marut Adam\nNr zajęć: 1/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f75d246afd257f1e18b325b6@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261020T095000
+DTEND;TZID=Europe/Warsaw:20261020T112500
+SUMMARY:Lpr (w)
+LOCATION:43 67
+DESCRIPTION:Lotnicze pociski rakietowe\nRodzaj: wykład\nProwadzący: dr i
+ nż. Stępień Sławomir\nNr zajęć: 2/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:62a177fb5d8ec51508996634@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261020T114000
+DTEND;TZID=Europe/Warsaw:20261020T131500
+SUMMARY:Bzl (w)
+LOCATION:34 67
+DESCRIPTION:Bomby i zapalniki lotnicze\nRodzaj: wykład\nProwadzący: dr h
+ ab. inż. Grzesik Norbert\nNr zajęć: 3/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5c507889dfb8bdb5491ae526@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261021T080000
+DTEND;TZID=Europe/Warsaw:20261021T093500
+SUMMARY:Ja (ć)
+LOCATION:131 K\;132
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 5/30\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:72a3149de57a9549b70e217d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261021T095000
+DTEND;TZID=Europe/Warsaw:20261021T112500
+SUMMARY:Ja (ć)
+LOCATION:131 K\;132
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 6/30\nBlok: 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d099ad86fd2f3c500ff73f46@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261021T114000
+DTEND;TZID=Europe/Warsaw:20261021T131500
+SUMMARY:LUW (ć)
+LOCATION:130 36
+DESCRIPTION:Lotnicze układy wykonawcze\nRodzaj: ćwiczenia\nProwadzący: 
+ mgr inż. Marut Adam\nNr zajęć: 2/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:07ac665036a0b4774dca1d75@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261022T080000
+DTEND;TZID=Europe/Warsaw:20261022T093500
+SUMMARY:Lscel (w)
+LOCATION:24 67
+DESCRIPTION:Lotnicze systemy celownicze\nRodzaj: wykład\nProwadzący: dr 
+ inż. Ważny Mariusz\nNr zajęć: 4/13\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7c22f41809ddcf830cd7d74d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261022T095000
+DTEND;TZID=Europe/Warsaw:20261022T112500
+SUMMARY:LUW (w)
+LOCATION:S3 72
+DESCRIPTION:Lotnicze układy wykonawcze\nRodzaj: wykład\nProwadzący: pp
+ łk dr inż. Henzel Maciej\nNr zajęć: 3/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9a54281ec508315fa79cca71@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261022T114000
+DTEND;TZID=Europe/Warsaw:20261022T131500
+SUMMARY:wzbnim (w)
+LOCATION:46 63
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: wykład\nProwadzący: dr Gocalski Włodzimierz\nNr zajęć:
+  2/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ab5fec0016cc76f3f50ee59e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261022T160000
+DTEND;TZID=Europe/Warsaw:20261022T173500
+SUMMARY:Radio (w)
+LOCATION:35 61a
+DESCRIPTION:Radiotechnika\nRodzaj: wykład\nProwadzący: dr hab.inż. Szcz
+ epaniak Zenon\nNr zajęć: 6/12\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:318e2c088a87368625aad2bd@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261023T080000
+DTEND;TZID=Europe/Warsaw:20261023T093500
+SUMMARY:Lsr (ć)
+LOCATION:41 36
+DESCRIPTION:Lotnicze systemy radioelektroniczne\nRodzaj: ćwiczenia\nProwa
+ dzący: mgr inż. Kapski Adrian\nNr zajęć: 1/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ec4faa41b71244cffce2ce9a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261023T095000
+DTEND;TZID=Europe/Warsaw:20261023T112500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(KS
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 1/8\nBl
+ ok: 2\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:e475ee65f42df23f11789b6f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261023T114000
+DTEND;TZID=Europe/Warsaw:20261023T131500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(KS
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 2/8\nBl
+ ok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0e57819b14232c4dfbe24e65@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261024T080000
+DTEND;TZID=Europe/Warsaw:20261024T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 4/15\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:413ac6e385d3cf705b37ac17@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261026T080000
+DTEND;TZID=Europe/Warsaw:20261026T093500
+SUMMARY:WF: Gimnastyka i ćwiczenia siłowe
+LOCATION:hala tartanowa – gimnastyka
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Gimnastyka i 
+ ćwiczenia siłowe (zajęcia 16)\nObiekt: hala tartanowa – gimnastyka\n
+ Kod SWF: B3-3/16 (grupa SWF 2PL/14KP)\nProwadzący: ppłk mgr Ryś Paweł
+ \nNr zajęć: 7/30\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c5fb5899a3a81a6f3858fff6@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261026T095000
+DTEND;TZID=Europe/Warsaw:20261026T112500
+SUMMARY:Ja (ć)
+LOCATION:131 K\;132
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 7/30\nBlok: 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:57aafef91cc977948dabf377@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261026T114000
+DTEND;TZID=Europe/Warsaw:20261026T131500
+SUMMARY:Ssnl (w)
+LOCATION:43 67
+DESCRIPTION:Systemy sterowania i naprowadzania lotniczych śr. boj.\nRodza
+ j: wykład\nProwadzący: dr inż. Stępień Sławomir\nNr zajęć: 2/8\nB
+ lok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:824746b7fe3c326342e98dad@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261026T160000
+DTEND;TZID=Europe/Warsaw:20261026T173500
+SUMMARY:Lsr (w)
+LOCATION:S2 72
+DESCRIPTION:Lotnicze systemy radioelektroniczne\nRodzaj: wykład\nProwadz
+ ący: dr inż. Witczak Andrzej\nNr zajęć: 5/12\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:362e00a968b28f574d6acf03@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261027T080000
+DTEND;TZID=Europe/Warsaw:20261027T093500
+SUMMARY:Mwpr (w)
+LOCATION:S3 72
+DESCRIPTION:Materiały wybuchowe i paliwa rakietowe\nRodzaj: wykład\nProw
+ adzący: dr hab. inż. Papliński Andrzej\nNr zajęć: 3/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3548e5f758f947addbf42b68@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261027T095000
+DTEND;TZID=Europe/Warsaw:20261027T112500
+SUMMARY:Lpr (w)
+LOCATION:43 67
+DESCRIPTION:Lotnicze pociski rakietowe\nRodzaj: wykład\nProwadzący: dr i
+ nż. Stępień Sławomir\nNr zajęć: 3/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d5a95c43bae97eb05a640b0a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261027T114000
+DTEND;TZID=Europe/Warsaw:20261027T131500
+SUMMARY:Bzl (w)
+LOCATION:34 67
+DESCRIPTION:Bomby i zapalniki lotnicze\nRodzaj: wykład\nProwadzący: dr h
+ ab. inż. Grzesik Norbert\nNr zajęć: 4/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:70f4ec3def852bc97c217ab4@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261027T133000
+DTEND;TZID=Europe/Warsaw:20261027T150500
+SUMMARY:Bzl (w)
+LOCATION:34 67
+DESCRIPTION:Bomby i zapalniki lotnicze\nRodzaj: wykład\nProwadzący: dr h
+ ab. inż. Grzesik Norbert\nNr zajęć: 5/11\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:723b7263650cfc976e850a39@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261028T080000
+DTEND;TZID=Europe/Warsaw:20261028T093500
+SUMMARY:ZŻWAT (i)
+DESCRIPTION:Zbiórka żołnierzy WAT\nRodzaj: inne\nNr zajęć: 1/3\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:bac0ff0d130e255b07c28c12@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261028T095000
+DTEND;TZID=Europe/Warsaw:20261028T112500
+SUMMARY:Ja (ć)
+LOCATION:131 K\;132
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 8/30\nBlok: 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:12b8e036e9d691b0b1bc9a12@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261028T133000
+DTEND;TZID=Europe/Warsaw:20261028T150500
+SUMMARY:Radio (w)
+LOCATION:136 36
+DESCRIPTION:Radiotechnika\nRodzaj: wykład\nProwadzący: dr hab.inż. Szcz
+ epaniak Zenon\nNr zajęć: 7/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:93cc4a82ffb213a97b7a5909@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261028T160000
+DTEND;TZID=Europe/Warsaw:20261028T173500
+SUMMARY:Lsr (w)
+LOCATION:S2 72
+DESCRIPTION:Lotnicze systemy radioelektroniczne\nRodzaj: wykład\nProwadz
+ ący: dr inż. Witczak Andrzej\nNr zajęć: 6/12\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:e473f0cd1227a73ccb822fc8@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261028T175000
+DTEND;TZID=Europe/Warsaw:20261028T192500
+SUMMARY:LUW (ć)
+LOCATION:130 36
+DESCRIPTION:Lotnicze układy wykonawcze\nRodzaj: ćwiczenia\nProwadzący: 
+ mgr inż. Marut Adam\nNr zajęć: 3/7\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:a22f12bf633ce8d759682bc8@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261029T080000
+DTEND;TZID=Europe/Warsaw:20261029T093500
+SUMMARY:Lscel (w)
+LOCATION:24 67
+DESCRIPTION:Lotnicze systemy celownicze\nRodzaj: wykład\nProwadzący: dr 
+ inż. Ważny Mariusz\nNr zajęć: 5/13\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:826cc9aad0d554f433a4bd63@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261029T095000
+DTEND;TZID=Europe/Warsaw:20261029T112500
+SUMMARY:LUW (w)
+LOCATION:S3 72
+DESCRIPTION:Lotnicze układy wykonawcze\nRodzaj: wykład\nProwadzący: pp
+ łk dr inż. Henzel Maciej\nNr zajęć: 4/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:886cc69fa26ea9aba28e46f3@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261029T114000
+DTEND;TZID=Europe/Warsaw:20261029T131500
+SUMMARY:wzbnim (w)
+LOCATION:46 63
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: wykład\nProwadzący: dr Gocalski Włodzimierz\nNr zajęć:
+  3/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:479a368ab533172fd6843d39@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261030T114000
+DTEND;TZID=Europe/Warsaw:20261030T131500
+SUMMARY:REG (ć)
+LOCATION:PL.MUSZ1
+DESCRIPTION:Regulaminy SZ RP\nRodzaj: ćwiczenia\nProwadzący: mjr mgr Naw
+ alicki Piotr\nNr zajęć: 1/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:bbf4d14bd71f43fab5660231@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261030T133000
+DTEND;TZID=Europe/Warsaw:20261030T150500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 25)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/25 (grupa SWF 2PL/14KP)\nProwadz
+ ący: ppłk mgr Ryś Paweł\nNr zajęć: 8/30\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1934757c14912394a76b1963@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261031T080000
+DTEND;TZID=Europe/Warsaw:20261031T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 5/15\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:97e5ed0c57b4dde90ca2d329@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261102T080000
+DTEND;TZID=Europe/Warsaw:20261102T093500
+SUMMARY:WF: Walka wręcz
+LOCATION:sala do walki wręcz nr 57
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Walka wręcz (
+ zajęcia 24)\nObiekt: sala do walki wręcz nr 57\nKod SWF: J-4/24 (grupa 
+ SWF 2PL/14KP)\nProwadzący: ppłk mgr Ryś Paweł\nNr zajęć: 9/30\nBlok
+ : 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3648d46be10ebbcab75249ef@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261102T095000
+DTEND;TZID=Europe/Warsaw:20261102T112500
+SUMMARY:Ja (ć)
+LOCATION:131 K\;132
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 9/30\nBlok: 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d23b3e2b7cb893a70fb77b90@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261102T114000
+DTEND;TZID=Europe/Warsaw:20261102T131500
+SUMMARY:Ssnl (w)
+LOCATION:43 67
+DESCRIPTION:Systemy sterowania i naprowadzania lotniczych śr. boj.\nRodza
+ j: wykład\nProwadzący: dr inż. Stępień Sławomir\nNr zajęć: 3/8\nB
+ lok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4db67dd9c8b1298b27dc777c@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261102T160000
+DTEND;TZID=Europe/Warsaw:20261102T173500
+SUMMARY:Lsr (w)
+LOCATION:S2 72
+DESCRIPTION:Lotnicze systemy radioelektroniczne\nRodzaj: wykład\nProwadz
+ ący: dr inż. Witczak Andrzej\nNr zajęć: 7/12\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:55c5b176785fecdeaffdcc58@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261103T080000
+DTEND;TZID=Europe/Warsaw:20261103T093500
+SUMMARY:Mwpr (ć)
+LOCATION:9 67
+DESCRIPTION:Materiały wybuchowe i paliwa rakietowe\nRodzaj: ćwiczenia\nP
+ rowadzący: dr hab. inż. Papliński Andrzej\nNr zajęć: 1/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c26055b9bf459d6032d82732@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261103T095000
+DTEND;TZID=Europe/Warsaw:20261103T112500
+SUMMARY:Lpr (w)
+LOCATION:43 67
+DESCRIPTION:Lotnicze pociski rakietowe\nRodzaj: wykład\nProwadzący: dr i
+ nż. Stępień Sławomir\nNr zajęć: 4/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e8e02d236ba04af471dfcfab@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261103T114000
+DTEND;TZID=Europe/Warsaw:20261103T131500
+SUMMARY:Bzl (w)
+LOCATION:34 67
+DESCRIPTION:Bomby i zapalniki lotnicze\nRodzaj: wykład\nProwadzący: dr h
+ ab. inż. Grzesik Norbert\nNr zajęć: 6/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:412348e560d28c175b36f135@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261103T133000
+DTEND;TZID=Europe/Warsaw:20261103T150500
+SUMMARY:Lsr (ć)
+LOCATION:136 36
+DESCRIPTION:Lotnicze systemy radioelektroniczne\nRodzaj: ćwiczenia\nProwa
+ dzący: mgr inż. Kapski Adrian\nNr zajęć: 2/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:936a1a1ff58a23e973ba8c33@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261104T080000
+DTEND;TZID=Europe/Warsaw:20261104T093500
+SUMMARY:wzbnim (w)
+LOCATION:46 63
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: wykład\nProwadzący: dr Gocalski Włodzimierz\nNr zajęć:
+  4/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:eeedbc6e5baffaea0262e399@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261104T095000
+DTEND;TZID=Europe/Warsaw:20261104T112500
+SUMMARY:Ja (ć)
+LOCATION:131 K\;132
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 10/30\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:1f2ce0bb00f4b4b660ec3162@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261105T080000
+DTEND;TZID=Europe/Warsaw:20261105T093500
+SUMMARY:JA-E (E)
+DESCRIPTION:Język angielski - egzamin\nRodzaj: egzamin\nNr zajęć: 1/2\n
+ Blok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:56183589fc0d259eee2c07ad@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261105T095000
+DTEND;TZID=Europe/Warsaw:20261105T112500
+SUMMARY:JA-E (E)
+DESCRIPTION:Język angielski - egzamin\nRodzaj: egzamin\nNr zajęć: 2/2\n
+ Blok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2301317682e3dd6a98f89b36@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261105T114000
+DTEND;TZID=Europe/Warsaw:20261105T131500
+SUMMARY:Lscel (w)
+LOCATION:24 67
+DESCRIPTION:Lotnicze systemy celownicze\nRodzaj: wykład\nProwadzący: dr 
+ inż. Ważny Mariusz\nNr zajęć: 6/13\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:495caee10f0628b0900a81dc@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261106T080000
+DTEND;TZID=Europe/Warsaw:20261106T093500
+SUMMARY:LUW (ć)
+LOCATION:130 36
+DESCRIPTION:Lotnicze układy wykonawcze\nRodzaj: ćwiczenia\nProwadzący: 
+ mgr inż. Marut Adam\nNr zajęć: 4/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9afea57995a5a763af6d5eff@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261106T114000
+DTEND;TZID=Europe/Warsaw:20261106T131500
+SUMMARY:Lscel (L)
+LOCATION:005 36
+DESCRIPTION:Lotnicze systemy celownicze\nRodzaj: laboratorium\nProwadzący
+ : * Skolmowski Albert\nNr zajęć: 1/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:07e144a76d5423a6abd930ed@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261106T133000
+DTEND;TZID=Europe/Warsaw:20261106T150500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:Ośrodek Sprawności Fizycznej
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 33)\nObie
+ kt: Ośrodek Sprawności Fizycznej\nKod SWF: O-2/33 (grupa SWF 2PL/14KP)\
+ nProwadzący: ppłk mgr Ryś Paweł\nNr zajęć: 10/30\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5f7c002774c7f59d9b7a7e97@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261106T160000
+DTEND;TZID=Europe/Warsaw:20261106T173500
+SUMMARY:Ssnl (L)
+LOCATION:43 67
+DESCRIPTION:Systemy sterowania i naprowadzania lotniczych śr. boj.\nRodza
+ j: laboratorium\nProwadzący: mgr inż. Kunikowski Mateusz\nNr zajęć: 1
+ /6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:2b7772111211be6db0b65375@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261107T080000
+DTEND;TZID=Europe/Warsaw:20261107T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 6/15\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b3954b01e8fef64112bf7b85@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261109T080000
+DTEND;TZID=Europe/Warsaw:20261109T093500
+SUMMARY:WF: Gimnastyka i ćwiczenia siłowe
+LOCATION:hala tartanowa – gimnastyka
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Gimnastyka i 
+ ćwiczenia siłowe (zajęcia 18)\nObiekt: hala tartanowa – gimnastyka\n
+ Kod SWF: B1-3/18 (grupa SWF 2PL/14KP)\nProwadzący: ppłk mgr Ryś Paweł
+ \nNr zajęć: 11/30\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4725bcfc72c8643f34e17e44@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261109T095000
+DTEND;TZID=Europe/Warsaw:20261109T112500
+SUMMARY:Ja (ć)
+LOCATION:131 K\;132
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 11/30\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:1e5def9701ae4ca384061ac0@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261109T114000
+DTEND;TZID=Europe/Warsaw:20261109T131500
+SUMMARY:Radio (w)
+LOCATION:35 61a
+DESCRIPTION:Radiotechnika\nRodzaj: wykład\nProwadzący: dr hab. inż. Sus
+ ek Waldemar\nNr zajęć: 8/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:99cc9ae96adaaaab234a7817@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261109T133000
+DTEND;TZID=Europe/Warsaw:20261109T150500
+SUMMARY:Ssnl (w)
+LOCATION:43 67
+DESCRIPTION:Systemy sterowania i naprowadzania lotniczych śr. boj.\nRodza
+ j: wykład\nProwadzący: dr inż. Stępień Sławomir\nNr zajęć: 4/8\nB
+ lok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:09b8a9fb84aa751a63dd28a4@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261109T160000
+DTEND;TZID=Europe/Warsaw:20261109T173500
+SUMMARY:Bzl (ć)
+LOCATION:43 67
+DESCRIPTION:Bomby i zapalniki lotnicze\nRodzaj: ćwiczenia\nProwadzący: p
+ or. mgr inż. Kłosiński Artur\nNr zajęć: 1/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:9a917a7c0408d3d083f53d87@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261110T080000
+DTEND;TZID=Europe/Warsaw:20261110T093500
+SUMMARY:Mwpr (w)
+LOCATION:S3 72
+DESCRIPTION:Materiały wybuchowe i paliwa rakietowe\nRodzaj: wykład\nProw
+ adzący: dr hab. inż. Papliński Andrzej\nNr zajęć: 4/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7b1ee8bb1fc2c29665d7cab8@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261110T095000
+DTEND;TZID=Europe/Warsaw:20261110T112500
+SUMMARY:Lpr (w)
+LOCATION:43 67
+DESCRIPTION:Lotnicze pociski rakietowe\nRodzaj: wykład\nProwadzący: dr i
+ nż. Stępień Sławomir\nNr zajęć: 5/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d97049ef62a4fa1da725daf3@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261110T114000
+DTEND;TZID=Europe/Warsaw:20261110T131500
+SUMMARY:Bzl (w)
+LOCATION:34 67
+DESCRIPTION:Bomby i zapalniki lotnicze\nRodzaj: wykład\nProwadzący: dr h
+ ab. inż. Grzesik Norbert\nNr zajęć: 7/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d02dbcab3673d2053ac5c0e7@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261110T133000
+DTEND;TZID=Europe/Warsaw:20261110T150500
+SUMMARY:Bzl (w)
+LOCATION:34 67
+DESCRIPTION:Bomby i zapalniki lotnicze\nRodzaj: wykład\nProwadzący: dr h
+ ab. inż. Grzesik Norbert\nNr zajęć: 8/11\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f38d2de331ef57d51dafe52b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261112T080000
+DTEND;TZID=Europe/Warsaw:20261112T093500
+SUMMARY:LUW (w)
+LOCATION:S3 72
+DESCRIPTION:Lotnicze układy wykonawcze\nRodzaj: wykład\nProwadzący: pp
+ łk dr inż. Henzel Maciej\nNr zajęć: 5/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c52dcbcb5041c319681c0d79@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261112T114000
+DTEND;TZID=Europe/Warsaw:20261112T131500
+SUMMARY:Lscel (w)
+LOCATION:24 67
+DESCRIPTION:Lotnicze systemy celownicze\nRodzaj: wykład\nProwadzący: dr 
+ inż. Ważny Mariusz\nNr zajęć: 7/13\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:dc63ff2ebd84766fa8607f7d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261112T133000
+DTEND;TZID=Europe/Warsaw:20261112T150500
+SUMMARY:Mwpr (ć)
+LOCATION:9 67
+DESCRIPTION:Materiały wybuchowe i paliwa rakietowe\nRodzaj: ćwiczenia\nP
+ rowadzący: dr hab. inż. Papliński Andrzej\nNr zajęć: 2/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:04847033c5c90d2eae628053@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261112T160000
+DTEND;TZID=Europe/Warsaw:20261112T173500
+SUMMARY:Lscel (w)
+LOCATION:24 67
+DESCRIPTION:Lotnicze systemy celownicze\nRodzaj: wykład\nProwadzący: dr 
+ inż. Ważny Mariusz\nNr zajęć: 8/13\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:49954044037c3a2cbdf97d07@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261113T114000
+DTEND;TZID=Europe/Warsaw:20261113T131500
+SUMMARY:Lscel (L)
+LOCATION:005 36
+DESCRIPTION:Lotnicze systemy celownicze\nRodzaj: laboratorium\nProwadzący
+ : * Skolmowski Albert\nNr zajęć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:25c0432843d9594cd60aeafd@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261113T133000
+DTEND;TZID=Europe/Warsaw:20261113T150500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:zewnętrzny tor BTS/BTZ
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 35)\nObie
+ kt: zewnętrzny tor BTS/BTZ\nKod SWF: C-2/35 (grupa SWF 2PL/14KP)\nProwad
+ zący: ppłk mgr Ryś Paweł\nNr zajęć: 12/30\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:efad67102223c8d420a38266@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261113T160000
+DTEND;TZID=Europe/Warsaw:20261113T173500
+SUMMARY:Ssnl (L)
+LOCATION:43 67
+DESCRIPTION:Systemy sterowania i naprowadzania lotniczych śr. boj.\nRodza
+ j: laboratorium\nProwadzący: mgr inż. Kunikowski Mateusz\nNr zajęć: 2
+ /6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:2879d3e6bdd7671f29586855@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261114T080000
+DTEND;TZID=Europe/Warsaw:20261114T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 7/15\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e0be07edf8d4b25fdecd3fa2@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261116T080000
+DTEND;TZID=Europe/Warsaw:20261116T093500
+SUMMARY:WF: Walka wręcz
+LOCATION:hala tartanowa – walka wręcz
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Walka wręcz (
+ zajęcia 25)\nObiekt: hala tartanowa – walka wręcz\nKod SWF: B2-4/25 (
+ grupa SWF 2PL/14KP)\nProwadzący: ppłk mgr Ryś Paweł\nNr zajęć: 13/3
+ 0\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b5ca61d4ad4fb194aa32f558@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261116T095000
+DTEND;TZID=Europe/Warsaw:20261116T112500
+SUMMARY:Ja (ć)
+LOCATION:131 K\;132
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 12/30\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:21f79a095d5880d14bc59acb@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261116T114000
+DTEND;TZID=Europe/Warsaw:20261116T131500
+SUMMARY:Radio (w)
+LOCATION:S2 72
+DESCRIPTION:Radiotechnika\nRodzaj: wykład\nProwadzący: dr hab. inż. Sus
+ ek Waldemar\nNr zajęć: 9/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:aa635bb55bbff292bf7690fc@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261116T133000
+DTEND;TZID=Europe/Warsaw:20261116T150500
+SUMMARY:DWiPD (ć)
+LOCATION:41 36
+DESCRIPTION:Działalność wychowawcza i profilaktyka dyscyplinarna\nRodza
+ j: ćwiczenia\nProwadzący: dr Klimek Krzysztof\nNr zajęć: 1/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a06acb19f739efefe1040bc7@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261116T160000
+DTEND;TZID=Europe/Warsaw:20261116T173500
+SUMMARY:Lpr (ć)
+LOCATION:43 67
+DESCRIPTION:Lotnicze pociski rakietowe\nRodzaj: ćwiczenia\nProwadzący: d
+ r inż. Stępień Sławomir\nNr zajęć: 1/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:9ea7810982f12d4ebfa99fce@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261117T080000
+DTEND;TZID=Europe/Warsaw:20261117T093500
+SUMMARY:Ssnl (w)
+LOCATION:43 67
+DESCRIPTION:Systemy sterowania i naprowadzania lotniczych śr. boj.\nRodza
+ j: wykład\nProwadzący: dr inż. Stępień Sławomir\nNr zajęć: 5/8\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2305715e7e5f7eeb90ac9970@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261117T095000
+DTEND;TZID=Europe/Warsaw:20261117T112500
+SUMMARY:Lpr (w)
+LOCATION:43 67
+DESCRIPTION:Lotnicze pociski rakietowe\nRodzaj: wykład\nProwadzący: dr i
+ nż. Stępień Sławomir\nNr zajęć: 6/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b208ad12a27e79ea1dc733cf@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261117T114000
+DTEND;TZID=Europe/Warsaw:20261117T131500
+SUMMARY:Radio (ć)
+LOCATION:136 36
+DESCRIPTION:Radiotechnika\nRodzaj: ćwiczenia\nProwadzący: dr hab.inż. S
+ zczepaniak Zenon\nNr zajęć: 1/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0980402133c5a2ddeffa236e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261117T133000
+DTEND;TZID=Europe/Warsaw:20261117T150500
+SUMMARY:Lscel (L)
+LOCATION:005 36
+DESCRIPTION:Lotnicze systemy celownicze\nRodzaj: laboratorium\nProwadzący
+ : * Skolmowski Albert\nNr zajęć: 3/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:34b338353bf3688197728f15@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261118T095000
+DTEND;TZID=Europe/Warsaw:20261118T112500
+SUMMARY:Ja (ć)
+LOCATION:131 K\;132
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 13/30\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:1c45ab8857c5eecb996530e8@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261118T114000
+DTEND;TZID=Europe/Warsaw:20261118T131500
+SUMMARY:wzbnim (ć)
+LOCATION:33 67
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: ćwiczenia\nProwadzący: dr Gocalski Włodzimierz\nNr zaję
+ ć: 1/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9c9c7a8b4ee1a279ab29fbf1@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261118T133000
+DTEND;TZID=Europe/Warsaw:20261118T150500
+SUMMARY:Mwpr (ć)
+LOCATION:9 67
+DESCRIPTION:Materiały wybuchowe i paliwa rakietowe\nRodzaj: ćwiczenia\nP
+ rowadzący: dr hab. inż. Papliński Andrzej\nNr zajęć: 3/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:aa32f22ec8ddb8d19a7c9883@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261118T160000
+DTEND;TZID=Europe/Warsaw:20261118T173500
+SUMMARY:Lsr (w)
+LOCATION:S3 72
+DESCRIPTION:Lotnicze systemy radioelektroniczne\nRodzaj: wykład\nProwadz
+ ący: dr inż. Witczak Andrzej\nNr zajęć: 8/12\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:5b55da45e820684441ac6cba@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261119T080000
+DTEND;TZID=Europe/Warsaw:20261119T093500
+SUMMARY:Lscel (w)
+LOCATION:24 67
+DESCRIPTION:Lotnicze systemy celownicze\nRodzaj: wykład\nProwadzący: dr 
+ inż. Ważny Mariusz\nNr zajęć: 9/13\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9e9054ee549a8711ad19eb1b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261119T095000
+DTEND;TZID=Europe/Warsaw:20261119T112500
+SUMMARY:LUW (w)
+LOCATION:S3 72
+DESCRIPTION:Lotnicze układy wykonawcze\nRodzaj: wykład\nProwadzący: pp
+ łk dr inż. Henzel Maciej\nNr zajęć: 6/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8a9d7e0d3daab3ce32ce01e1@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261119T114000
+DTEND;TZID=Europe/Warsaw:20261119T131500
+SUMMARY:MPH (w)
+LOCATION:46 63
+DESCRIPTION:Międzynarodowe prawo humanitarne konfliktów zbrojnych\nRodza
+ j: wykład\nProwadzący: dr Strychalski Andrzej\nNr zajęć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:06df11862fdfe39599c78f5d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261119T160000
+DTEND;TZID=Europe/Warsaw:20261119T173500
+SUMMARY:LUW (w)
+LOCATION:S3 72
+DESCRIPTION:Lotnicze układy wykonawcze\nRodzaj: wykład\nProwadzący: pp
+ łk dr inż. Henzel Maciej\nNr zajęć: 7/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:1bef57c6736f8e1e1a25c982@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261120T080000
+DTEND;TZID=Europe/Warsaw:20261120T093500
+SUMMARY:LUW (ć)
+LOCATION:130 36
+DESCRIPTION:Lotnicze układy wykonawcze\nRodzaj: ćwiczenia\nProwadzący: 
+ mgr inż. Marut Adam\nNr zajęć: 5/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c2f9e795d649254ed6861eb8@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261120T095000
+DTEND;TZID=Europe/Warsaw:20261120T112500
+SUMMARY:MPH (ć)
+LOCATION:204 65
+DESCRIPTION:Międzynarodowe prawo humanitarne konfliktów zbrojnych\nRodza
+ j: ćwiczenia\nProwadzący: dr Strychalski Andrzej\nNr zajęć: 1/5\nBlok
+ : 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c3c172a312e6e37e4ebcc9ee@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261120T114000
+DTEND;TZID=Europe/Warsaw:20261120T131500
+SUMMARY:Lscel (ć)
+LOCATION:24 67
+DESCRIPTION:Lotnicze systemy celownicze\nRodzaj: ćwiczenia\nProwadzący: 
+ dr inż. Ważny Mariusz\nNr zajęć: 1/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ec3c5fe29b99f863dc942487@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261120T133000
+DTEND;TZID=Europe/Warsaw:20261120T150500
+SUMMARY:WF: Gimnastyka i ćwiczenia siłowe
+LOCATION:sala gimnastyczna nr 54
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Gimnastyka i 
+ ćwiczenia siłowe (zajęcia 19)\nObiekt: sala gimnastyczna nr 54\nKod SW
+ F: G-3/19 (grupa SWF 2PL/14KP)\nProwadzący: ppłk mgr Ryś Paweł\nNr za
+ jęć: 14/30\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ce67b3c2e433dc4c503023a6@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261120T160000
+DTEND;TZID=Europe/Warsaw:20261120T173500
+SUMMARY:Ssnl (L)
+LOCATION:43 67
+DESCRIPTION:Systemy sterowania i naprowadzania lotniczych śr. boj.\nRodza
+ j: laboratorium\nProwadzący: mgr inż. Kunikowski Mateusz\nNr zajęć: 3
+ /6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:17e1581e93359b65dab7d305@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261121T080000
+DTEND;TZID=Europe/Warsaw:20261121T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 8/15\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:83f9c5763791342b98c05196@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261123T080000
+DTEND;TZID=Europe/Warsaw:20261123T093500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 32)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/32 (grupa SWF 2PL/14KP)\nProwadz
+ ący: ppłk mgr Ryś Paweł\nNr zajęć: 15/30\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1ab6235071fd7094baa9dada@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261123T095000
+DTEND;TZID=Europe/Warsaw:20261123T112500
+SUMMARY:Ja (ć)
+LOCATION:131 K\;132
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 14/30\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:6863a304f03b0c55c84de3bf@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261123T114000
+DTEND;TZID=Europe/Warsaw:20261123T131500
+SUMMARY:Radio (w)
+LOCATION:35 61a
+DESCRIPTION:Radiotechnika\nRodzaj: wykład\nProwadzący: dr hab. inż. Sus
+ ek Waldemar\nNr zajęć: 10/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:67fb3481e741698e744d4ae7@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261123T133000
+DTEND;TZID=Europe/Warsaw:20261123T150500
+SUMMARY:Lpr (L)
+LOCATION:27 69
+DESCRIPTION:Lotnicze pociski rakietowe\nRodzaj: laboratorium\nProwadzący:
+  por. mgr inż. Kłosiński Artur\nNr zajęć: 1/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3c8b79349eeac7be6ad421e3@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261123T160000
+DTEND;TZID=Europe/Warsaw:20261123T173500
+SUMMARY:Ssnl (w)
+LOCATION:43 67
+DESCRIPTION:Systemy sterowania i naprowadzania lotniczych śr. boj.\nRodza
+ j: wykład\nProwadzący: dr inż. Stępień Sławomir\nNr zajęć: 6/8\nB
+ lok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:3f65aa244900efff370f1763@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261124T080000
+DTEND;TZID=Europe/Warsaw:20261124T093500
+SUMMARY:Ssnl (w)
+LOCATION:43 67
+DESCRIPTION:Systemy sterowania i naprowadzania lotniczych śr. boj.\nRodza
+ j: wykład\nProwadzący: dr inż. Stępień Sławomir\nNr zajęć: 7/8\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:db55ecc4781f5392a1260e70@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261124T095000
+DTEND;TZID=Europe/Warsaw:20261124T112500
+SUMMARY:Lpr (w)
+LOCATION:43 67
+DESCRIPTION:Lotnicze pociski rakietowe\nRodzaj: wykład\nProwadzący: dr i
+ nż. Stępień Sławomir\nNr zajęć: 7/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:37f0317f1301a1ae9b05f9b3@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261125T080000
+DTEND;TZID=Europe/Warsaw:20261125T093500
+SUMMARY:Ja (ć)
+LOCATION:131 K\;132
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 15/30\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:204706ae31e5ef0f3ee27dd1@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261125T095000
+DTEND;TZID=Europe/Warsaw:20261125T112500
+SUMMARY:Ja (ć)
+LOCATION:131 K\;132
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 16/30\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:34a6d573b48b6d1078a043d1@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261125T114000
+DTEND;TZID=Europe/Warsaw:20261125T131500
+SUMMARY:Mwpr (ć)
+LOCATION:9 67
+DESCRIPTION:Materiały wybuchowe i paliwa rakietowe\nRodzaj: ćwiczenia\nP
+ rowadzący: dr hab. inż. Papliński Andrzej\nNr zajęć: 4/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:09b4bd83e23a5971fd4c2094@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261125T133000
+DTEND;TZID=Europe/Warsaw:20261125T150500
+SUMMARY:Lpr (ć)
+LOCATION:43 67
+DESCRIPTION:Lotnicze pociski rakietowe\nRodzaj: ćwiczenia\nProwadzący: d
+ r inż. Stępień Sławomir\nNr zajęć: 2/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:35d1a15736d683a70c9749e7@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261125T160000
+DTEND;TZID=Europe/Warsaw:20261125T173500
+SUMMARY:Lsr (L)
+LOCATION:111 61\;112
+DESCRIPTION:Lotnicze systemy radioelektroniczne\nRodzaj: laboratorium\nPro
+ wadzący: dr inż. Witczak Andrzej\nNr zajęć: 1/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:335d7d47c35b41cf4766d83e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261126T080000
+DTEND;TZID=Europe/Warsaw:20261126T093500
+SUMMARY:Lsr (w)
+LOCATION:S2 72
+DESCRIPTION:Lotnicze systemy radioelektroniczne\nRodzaj: wykład\nProwadz
+ ący: dr inż. Witczak Andrzej\nNr zajęć: 9/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:be896281236a99a51efe29ef@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261126T114000
+DTEND;TZID=Europe/Warsaw:20261126T131500
+SUMMARY:Lscel (w)
+LOCATION:24 67
+DESCRIPTION:Lotnicze systemy celownicze\nRodzaj: wykład\nProwadzący: dr 
+ inż. Wróblewski Mirosław\nNr zajęć: 10/13\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:11b3bb674ea2d9ee41dddaf8@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261126T133000
+DTEND;TZID=Europe/Warsaw:20261126T150500
+SUMMARY:Bzl (ć)
+LOCATION:43 67
+DESCRIPTION:Bomby i zapalniki lotnicze\nRodzaj: ćwiczenia\nProwadzący: p
+ or. mgr inż. Kłosiński Artur\nNr zajęć: 2/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3bbe30388c393b0f444bbfca@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261128T080000
+DTEND;TZID=Europe/Warsaw:20261128T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 9/15\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:80c268cc5f5d98424f64f50f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261130T080000
+DTEND;TZID=Europe/Warsaw:20261130T093500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 31)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/31 (grupa SWF 2PL/14KP)\nProwadz
+ ący: ppłk mgr Ryś Paweł\nNr zajęć: 16/30\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2a39ea11f7e02066978dd6aa@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261130T095000
+DTEND;TZID=Europe/Warsaw:20261130T112500
+SUMMARY:Ja (ć)
+LOCATION:131 K\;132
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 17/30\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:51679487eecca94202e7376c@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261130T114000
+DTEND;TZID=Europe/Warsaw:20261130T131500
+SUMMARY:Radio (w)
+LOCATION:35 61a
+DESCRIPTION:Radiotechnika\nRodzaj: wykład\nProwadzący: dr hab. inż. Sus
+ ek Waldemar\nNr zajęć: 11/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:222542ccf4acc923d3775370@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261130T133000
+DTEND;TZID=Europe/Warsaw:20261130T150500
+SUMMARY:DWiPD (ć)
+LOCATION:39 36
+DESCRIPTION:Działalność wychowawcza i profilaktyka dyscyplinarna\nRodza
+ j: ćwiczenia\nProwadzący: dr Klimek Krzysztof\nNr zajęć: 2/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6cd5746976ecc0172eb2447f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261130T160000
+DTEND;TZID=Europe/Warsaw:20261130T173500
+SUMMARY:Lpr (ć)
+LOCATION:43 67
+DESCRIPTION:Lotnicze pociski rakietowe\nRodzaj: ćwiczenia\nProwadzący: d
+ r inż. Stępień Sławomir\nNr zajęć: 3/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:405d115ac2676d66fe74dc43@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261201T080000
+DTEND;TZID=Europe/Warsaw:20261201T093500
+SUMMARY:wzbnim (ć)
+LOCATION:28 69
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: ćwiczenia\nProwadzący: dr Gocalski Włodzimierz\nNr zaję
+ ć: 2/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0e46157fccc2a6b4361f14ed@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261201T095000
+DTEND;TZID=Europe/Warsaw:20261201T112500
+SUMMARY:Bzl (w)
+LOCATION:34 67
+DESCRIPTION:Bomby i zapalniki lotnicze\nRodzaj: wykład\nProwadzący: dr h
+ ab. inż. Grzesik Norbert\nNr zajęć: 9/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8b0ffe24b9eddcaa2e31ff55@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261201T114000
+DTEND;TZID=Europe/Warsaw:20261201T131500
+SUMMARY:Radio (ć)
+LOCATION:136 36
+DESCRIPTION:Radiotechnika\nRodzaj: ćwiczenia\nProwadzący: dr hab.inż. S
+ zczepaniak Zenon\nNr zajęć: 2/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0dc462d349bae546473fb2d5@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261201T133000
+DTEND;TZID=Europe/Warsaw:20261201T150500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 24)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/24 (grupa SWF 2PL/14KP)\nProwadz
+ ący: ppłk mgr Ryś Paweł\nNr zajęć: 17/30\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:97b019458b660409a5627abc@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261202T080000
+DTEND;TZID=Europe/Warsaw:20261202T093500
+SUMMARY:Ja (ć)
+LOCATION:131 K\;132
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 18/30\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:f89166c9bbc8ce5e7cd6df96@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261202T095000
+DTEND;TZID=Europe/Warsaw:20261202T112500
+SUMMARY:Ja (ć)
+LOCATION:131 K\;132
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 19/30\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:fcc46e34daaeffff6924c991@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261202T114000
+DTEND;TZID=Europe/Warsaw:20261202T131500
+SUMMARY:Lpr (w)
+LOCATION:43 67
+DESCRIPTION:Lotnicze pociski rakietowe\nRodzaj: wykład\nProwadzący: dr i
+ nż. Stępień Sławomir\nNr zajęć: 8/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:cde30b5b1d6ed4abe4c8073f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261202T133000
+DTEND;TZID=Europe/Warsaw:20261202T150500
+SUMMARY:wzbnim (ć)
+LOCATION:28 69
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: ćwiczenia\nProwadzący: dr Gocalski Włodzimierz\nNr zaję
+ ć: 3/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1b3e14dd2327b04f9c2c9112@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261202T160000
+DTEND;TZID=Europe/Warsaw:20261202T173500
+SUMMARY:Lsr (w)
+LOCATION:S2 72
+DESCRIPTION:Lotnicze systemy radioelektroniczne\nRodzaj: wykład\nProwadz
+ ący: dr inż. Witczak Andrzej\nNr zajęć: 10/12\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:ae1befea96f9953013976653@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261203T080000
+DTEND;TZID=Europe/Warsaw:20261203T093500
+SUMMARY:Lscel (L)
+LOCATION:H H7
+DESCRIPTION:Lotnicze systemy celownicze\nRodzaj: laboratorium\nProwadzący
+ : dr inż. Ważny Mariusz\nNr zajęć: 4/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a780684eeaff86d95f3116ee@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261203T095000
+DTEND;TZID=Europe/Warsaw:20261203T112500
+SUMMARY:Ssnl (ć)
+LOCATION:43 67
+DESCRIPTION:Systemy sterowania i naprowadzania lotniczych śr. boj.\nRodza
+ j: ćwiczenia\nProwadzący: dr inż. Stępień Sławomir\nNr zajęć: 1/7
+ \nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:573e024ee14f799c727fb82b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261203T114000
+DTEND;TZID=Europe/Warsaw:20261203T131500
+SUMMARY:MPH (w)
+LOCATION:46 63
+DESCRIPTION:Międzynarodowe prawo humanitarne konfliktów zbrojnych\nRodza
+ j: wykład\nProwadzący: dr Strychalski Andrzej\nNr zajęć: 3/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1bcb1dc28aa82eb0169cd460@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261203T133000
+DTEND;TZID=Europe/Warsaw:20261203T150500
+SUMMARY:Mwpr (w)
+LOCATION:S2 72
+DESCRIPTION:Materiały wybuchowe i paliwa rakietowe\nRodzaj: wykład\nProw
+ adzący: dr hab. inż. Papliński Andrzej\nNr zajęć: 5/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a577d46db4f7c2d73e6f0a0d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261204T080000
+DTEND;TZID=Europe/Warsaw:20261204T093500
+SUMMARY:LUW (ć)
+LOCATION:130 36
+DESCRIPTION:Lotnicze układy wykonawcze\nRodzaj: ćwiczenia\nProwadzący: 
+ mgr inż. Marut Adam\nNr zajęć: 6/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b130e2094ef1a10f33c118ab@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261204T095000
+DTEND;TZID=Europe/Warsaw:20261204T112500
+SUMMARY:Lscel (w)
+LOCATION:24 67
+DESCRIPTION:Lotnicze systemy celownicze\nRodzaj: wykład\nProwadzący: dr 
+ inż. Wróblewski Mirosław\nNr zajęć: 11/13\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4918fb9df25b1a92df4c4031@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261204T114000
+DTEND;TZID=Europe/Warsaw:20261204T131500
+SUMMARY:Lscel (ć)
+LOCATION:24 67
+DESCRIPTION:Lotnicze systemy celownicze\nRodzaj: ćwiczenia\nProwadzący: 
+ dr inż. Ważny Mariusz\nNr zajęć: 2/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:faea5d4327797dde91b9604c@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261204T133000
+DTEND;TZID=Europe/Warsaw:20261204T150500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 24)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/24 (grupa SWF 2PL/14KP)\nProwadz
+ ący: ppłk mgr Ryś Paweł\nNr zajęć: 18/30\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:644d38334143e10a010f6647@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261204T160000
+DTEND;TZID=Europe/Warsaw:20261204T173500
+SUMMARY:Mwpr (L)
+LOCATION:43 67
+DESCRIPTION:Materiały wybuchowe i paliwa rakietowe\nRodzaj: laboratorium\
+ nProwadzący: por. mgr inż. Kłosiński Artur\nNr zajęć: 1/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:89ed33a22847c64a90f928c1@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261205T080000
+DTEND;TZID=Europe/Warsaw:20261205T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 10/15\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f3c85467addca3c825cdcc1b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261207T080000
+DTEND;TZID=Europe/Warsaw:20261207T093500
+SUMMARY:WF: Zajęcia sportowe z różnych dyscyplin sportu i rekreacji ruc
+ howej
+LOCATION:strzelnica
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Zajęcia sport
+ owe z różnych dyscyplin sportu i rekreacji ruchowej (zajęcia 4)\nObiek
+ t: strzelnica\nKod SWF: U-16/4 (grupa SWF 2PL/14KP)\nProwadzący: ppłk m
+ gr Ryś Paweł\nNr zajęć: 19/30\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8ad9f0f4aee6953dad2a5128@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261207T095000
+DTEND;TZID=Europe/Warsaw:20261207T112500
+SUMMARY:Ja (ć)
+LOCATION:131 K\;132
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 20/30\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:03222ee38849c7691f8ba0c6@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261207T114000
+DTEND;TZID=Europe/Warsaw:20261207T131500
+SUMMARY:Mwpr (ć)
+LOCATION:9 67
+DESCRIPTION:Materiały wybuchowe i paliwa rakietowe\nRodzaj: ćwiczenia\nP
+ rowadzący: dr hab. inż. Papliński Andrzej\nNr zajęć: 5/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:81b7078996de41033efa4299@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261207T133000
+DTEND;TZID=Europe/Warsaw:20261207T150500
+SUMMARY:Lpr (ć)
+LOCATION:43 67
+DESCRIPTION:Lotnicze pociski rakietowe\nRodzaj: ćwiczenia\nProwadzący: d
+ r inż. Stępień Sławomir\nNr zajęć: 4/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:94911b02e2249d9c0f8950aa@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261207T160000
+DTEND;TZID=Europe/Warsaw:20261207T173500
+SUMMARY:Mwpr (L)
+LOCATION:43 67
+DESCRIPTION:Materiały wybuchowe i paliwa rakietowe\nRodzaj: laboratorium\
+ nProwadzący: por. mgr inż. Kłosiński Artur\nNr zajęć: 2/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:4eec520ed3952b69cf27ba52@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261208T080000
+DTEND;TZID=Europe/Warsaw:20261208T093500
+SUMMARY:wzbnim (ć)
+LOCATION:28 69
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: ćwiczenia\nProwadzący: dr Gocalski Włodzimierz\nNr zaję
+ ć: 4/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ca219a6bc18ebd0c969e8d05@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261208T095000
+DTEND;TZID=Europe/Warsaw:20261208T112500
+SUMMARY:Bzl (w)
+LOCATION:34 67
+DESCRIPTION:Bomby i zapalniki lotnicze\nRodzaj: wykład\nProwadzący: dr h
+ ab. inż. Grzesik Norbert\nNr zajęć: 10/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a916c479d4a185c9c5a6c377@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261208T114000
+DTEND;TZID=Europe/Warsaw:20261208T131500
+SUMMARY:Radio (ć)
+LOCATION:136 36
+DESCRIPTION:Radiotechnika\nRodzaj: ćwiczenia\nProwadzący: dr hab. inż. 
+ Susek Waldemar\nNr zajęć: 3/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:fe8e8211e8c1bc5771324c81@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261208T133000
+DTEND;TZID=Europe/Warsaw:20261208T150500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 24)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/24 (grupa SWF 2PL/14KP)\nProwadz
+ ący: ppłk mgr Ryś Paweł\nNr zajęć: 20/30\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1c8ffbf094a1870ff9238af8@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261209T080000
+DTEND;TZID=Europe/Warsaw:20261209T093500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 5/8\
+ nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7754edf6d408dc2d1beffefd@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261209T095000
+DTEND;TZID=Europe/Warsaw:20261209T112500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 6/8\
+ nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8c6b9537b890810382c7e7a7@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261209T114000
+DTEND;TZID=Europe/Warsaw:20261209T131500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 7/8\
+ nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7991d4b47c7096383fe775b1@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261209T133000
+DTEND;TZID=Europe/Warsaw:20261209T150500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 8/8\
+ nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:fca48d213934631d6ba92cb6@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261209T160000
+DTEND;TZID=Europe/Warsaw:20261209T173500
+SUMMARY:Lpr (ć)
+LOCATION:43 67
+DESCRIPTION:Lotnicze pociski rakietowe\nRodzaj: ćwiczenia\nProwadzący: d
+ r inż. Stępień Sławomir\nNr zajęć: 5/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:425b8d120d8ef56ba39fd7bd@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261210T080000
+DTEND;TZID=Europe/Warsaw:20261210T093500
+SUMMARY:Mwpr (ć)
+LOCATION:9 67
+DESCRIPTION:Materiały wybuchowe i paliwa rakietowe\nRodzaj: ćwiczenia\nP
+ rowadzący: dr hab. inż. Papliński Andrzej\nNr zajęć: 6/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c41dff3d5cbf4a0fbddd2819@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261210T095000
+DTEND;TZID=Europe/Warsaw:20261210T112500
+SUMMARY:MPH (w)
+LOCATION:46 63
+DESCRIPTION:Międzynarodowe prawo humanitarne konfliktów zbrojnych\nRodza
+ j: wykład\nProwadzący: dr Strychalski Andrzej\nNr zajęć: 4/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e7e115376520be603208d475@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261210T114000
+DTEND;TZID=Europe/Warsaw:20261210T131500
+SUMMARY:Lscel (w)
+LOCATION:24 67
+DESCRIPTION:Lotnicze systemy celownicze\nRodzaj: wykład\nProwadzący: dr 
+ inż. Wróblewski Mirosław\nNr zajęć: 12/13\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:311d331e5738a7c1dcb7fdac@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261210T160000
+DTEND;TZID=Europe/Warsaw:20261210T173500
+SUMMARY:Bzl (ć)
+LOCATION:43 67
+DESCRIPTION:Bomby i zapalniki lotnicze\nRodzaj: ćwiczenia\nProwadzący: p
+ or. mgr inż. Kłosiński Artur\nNr zajęć: 3/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:9ad75cb6a797f2aced58ed54@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261211T080000
+DTEND;TZID=Europe/Warsaw:20261211T093500
+SUMMARY:Ssnl (ć)
+LOCATION:43 67
+DESCRIPTION:Systemy sterowania i naprowadzania lotniczych śr. boj.\nRodza
+ j: ćwiczenia\nProwadzący: dr inż. Stępień Sławomir\nNr zajęć: 2/7
+ \nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4aa00c85154cd999007ad6b2@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261211T095000
+DTEND;TZID=Europe/Warsaw:20261211T112500
+SUMMARY:Lsr (L)
+LOCATION:111 61\;112
+DESCRIPTION:Lotnicze systemy radioelektroniczne\nRodzaj: laboratorium\nPro
+ wadzący: dr inż. Witczak Andrzej\nNr zajęć: 2/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a89ef948fb612ebea1e4c712@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261211T114000
+DTEND;TZID=Europe/Warsaw:20261211T131500
+SUMMARY:DWiPD (ć)
+LOCATION:28 69
+DESCRIPTION:Działalność wychowawcza i profilaktyka dyscyplinarna\nRodza
+ j: ćwiczenia\nProwadzący: dr Klimek Krzysztof\nNr zajęć: 3/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e4e798fc76a307a70cf69d41@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261211T133000
+DTEND;TZID=Europe/Warsaw:20261211T150500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 25)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/25 (grupa SWF 2PL/14KP)\nProwadz
+ ący: ppłk mgr Ryś Paweł\nNr zajęć: 21/30\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c9fc5e0e59d7b4a7f5225bcd@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261212T080000
+DTEND;TZID=Europe/Warsaw:20261212T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 11/15\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:de0c4984e814193c47f8d118@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261214T080000
+DTEND;TZID=Europe/Warsaw:20261214T093500
+SUMMARY:WF: Walka wręcz
+LOCATION:hala tartanowa – walka wręcz
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Walka wręcz (
+ zajęcia 26)\nObiekt: hala tartanowa – walka wręcz\nKod SWF: B2-4/26 (
+ grupa SWF 2PL/14KP)\nProwadzący: ppłk mgr Ryś Paweł\nNr zajęć: 22/3
+ 0\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b5bc5a49a3b22d69159b73b7@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261214T095000
+DTEND;TZID=Europe/Warsaw:20261214T112500
+SUMMARY:Ja (ć)
+LOCATION:131 K\;132
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 21/30\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:5d64c9ac8501d5400279b030@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261214T114000
+DTEND;TZID=Europe/Warsaw:20261214T131500
+SUMMARY:Lpr (ć)
+LOCATION:43 67
+DESCRIPTION:Lotnicze pociski rakietowe\nRodzaj: ćwiczenia\nProwadzący: d
+ r inż. Stępień Sławomir\nNr zajęć: 6/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4ffba35c421c784ca265bbe1@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261214T133000
+DTEND;TZID=Europe/Warsaw:20261214T150500
+SUMMARY:Lpr (L)
+LOCATION:27 69
+DESCRIPTION:Lotnicze pociski rakietowe\nRodzaj: laboratorium\nProwadzący:
+  por. mgr inż. Kłosiński Artur\nNr zajęć: 2/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:78e3a0622d74ce659bbe0479@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261214T160000
+DTEND;TZID=Europe/Warsaw:20261214T173500
+SUMMARY:Mwpr (L)
+LOCATION:43 67
+DESCRIPTION:Materiały wybuchowe i paliwa rakietowe\nRodzaj: laboratorium\
+ nProwadzący: por. mgr inż. Kłosiński Artur\nNr zajęć: 3/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:60cd696d56189736f612d033@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261215T080000
+DTEND;TZID=Europe/Warsaw:20261215T093500
+SUMMARY:wzbnim (ć)
+LOCATION:28 69
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: ćwiczenia\nProwadzący: dr Gocalski Włodzimierz\nNr zaję
+ ć: 5/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c5cf2e8187105a9550231eec@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261215T095000
+DTEND;TZID=Europe/Warsaw:20261215T112500
+SUMMARY:Bzl (w)
+LOCATION:34 67
+DESCRIPTION:Bomby i zapalniki lotnicze\nRodzaj: wykład\nProwadzący: dr h
+ ab. inż. Grzesik Norbert\nNr zajęć: 11/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3e99217766a19edf781036e2@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261215T114000
+DTEND;TZID=Europe/Warsaw:20261215T131500
+SUMMARY:Radio (L)
+LOCATION:133 61A\;34
+DESCRIPTION:Radiotechnika\nRodzaj: laboratorium\nProwadzący: dr inż. Rut
+ kowski Adam\nNr zajęć: 1/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6e657d96b7cbaedf6ba949c1@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261215T133000
+DTEND;TZID=Europe/Warsaw:20261215T150500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 25)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/25 (grupa SWF 2PL/14KP)\nProwadz
+ ący: ppłk mgr Ryś Paweł\nNr zajęć: 23/30\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3507f8db0e045705a3b7f434@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261216T080000
+DTEND;TZID=Europe/Warsaw:20261216T093500
+SUMMARY:ZŻWAT (i)
+DESCRIPTION:Zbiórka żołnierzy WAT\nRodzaj: inne\nNr zajęć: 2/3\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:c499becf502af56891a55ffc@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261216T095000
+DTEND;TZID=Europe/Warsaw:20261216T112500
+SUMMARY:Ja (ć)
+LOCATION:131 K\;132
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 22/30\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:5589df1a6fa786078efd5e05@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261216T133000
+DTEND;TZID=Europe/Warsaw:20261216T150500
+SUMMARY:LUW (L)
+LOCATION:004 36\;003
+DESCRIPTION:Lotnicze układy wykonawcze\nRodzaj: laboratorium\nProwadzący
+ : płk mgr inż. Hanc Damian\nNr zajęć: 3/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:cdc6462c8c6668bcbf6298c6@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261216T160000
+DTEND;TZID=Europe/Warsaw:20261216T173500
+SUMMARY:Lpr (ć)
+LOCATION:43 67
+DESCRIPTION:Lotnicze pociski rakietowe\nRodzaj: ćwiczenia\nProwadzący: d
+ r inż. Stępień Sławomir\nNr zajęć: 7/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:c63118c165b75b57a0712c26@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261217T080000
+DTEND;TZID=Europe/Warsaw:20261217T093500
+SUMMARY:Lscel (L)
+LOCATION:H H7
+DESCRIPTION:Lotnicze systemy celownicze\nRodzaj: laboratorium\nProwadzący
+ : dr inż. Ważny Mariusz\nNr zajęć: 5/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4bb167a6925e418745c3e6d0@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261217T095000
+DTEND;TZID=Europe/Warsaw:20261217T112500
+SUMMARY:Radio (ć)
+LOCATION:136 36
+DESCRIPTION:Radiotechnika\nRodzaj: ćwiczenia\nProwadzący: dr hab. inż. 
+ Susek Waldemar\nNr zajęć: 4/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ca17d1c030b67e05bbd5090e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261217T114000
+DTEND;TZID=Europe/Warsaw:20261217T131500
+SUMMARY:Ssnl (ć)
+LOCATION:43 67
+DESCRIPTION:Systemy sterowania i naprowadzania lotniczych śr. boj.\nRodza
+ j: ćwiczenia\nProwadzący: dr inż. Stępień Sławomir\nNr zajęć: 3/7
+ \nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3bb561f63c6dcd1544448660@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261217T133000
+DTEND;TZID=Europe/Warsaw:20261217T150500
+SUMMARY:Lsr (w)
+LOCATION:S2 72
+DESCRIPTION:Lotnicze systemy radioelektroniczne\nRodzaj: wykład\nProwadz
+ ący: dr inż. Witczak Andrzej\nNr zajęć: 11/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8e7ea62b08a4ba6b201ac462@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261217T160000
+DTEND;TZID=Europe/Warsaw:20261217T173500
+SUMMARY:Lsr (w)
+LOCATION:S2 72
+DESCRIPTION:Lotnicze systemy radioelektroniczne\nRodzaj: wykład\nProwadz
+ ący: dr inż. Witczak Andrzej\nNr zajęć: 12/12\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:11d3dd51eba9fca0a405d002@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261218T080000
+DTEND;TZID=Europe/Warsaw:20261218T093500
+SUMMARY:Lsr (ć)
+LOCATION:39 36
+DESCRIPTION:Lotnicze systemy radioelektroniczne\nRodzaj: ćwiczenia\nProwa
+ dzący: mgr inż. Kapski Adrian\nNr zajęć: 3/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2d70efcbf9183a242d89a0f8@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261218T095000
+DTEND;TZID=Europe/Warsaw:20261218T112500
+SUMMARY:Jun. (ć)
+LOCATION:255 S
+DESCRIPTION:Rodzaj: ćwiczenia\nProwadzący: ZLDT-\nNr zajęć: 1/2\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:e85a237d3280dd6d4b8c2c2d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261218T114000
+DTEND;TZID=Europe/Warsaw:20261218T131500
+SUMMARY:Jun. (ć)
+LOCATION:255 S
+DESCRIPTION:Rodzaj: ćwiczenia\nProwadzący: ZLDT-\nNr zajęć: 2/2\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:91f4dbaf3ea9b1dbfbc7f3d7@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261218T133000
+DTEND;TZID=Europe/Warsaw:20261218T150500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 25)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/25 (grupa SWF 2PL/14KP)\nProwadz
+ ący: ppłk mgr Ryś Paweł\nNr zajęć: 24/30\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:40012aa0af8dda35deaa83a6@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261219T080000
+DTEND;TZID=Europe/Warsaw:20261219T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 12/15\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9a5adecbda026ca1e3eefb84@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261221T080000
+DTEND;TZID=Europe/Warsaw:20261221T093500
+SUMMARY:WF: Piłka nożna
+LOCATION:boisko do piłki nożnej przy ul. Archimedesa
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Piłka nożna 
+ (zajęcia 7)\nObiekt: boisko do piłki nożnej przy ul. Archimedesa\nKod 
+ SWF: D-9/7 (grupa SWF 2PL/14KP)\nProwadzący: ppłk mgr Ryś Paweł\nNr z
+ ajęć: 25/30\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:80939982a6425a8f21ae2026@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261221T095000
+DTEND;TZID=Europe/Warsaw:20261221T112500
+SUMMARY:Ja (ć)
+LOCATION:131 K\;132
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 23/30\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:79490089d769f4129aa23aac@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261221T133000
+DTEND;TZID=Europe/Warsaw:20261221T150500
+SUMMARY:Radio (L)
+LOCATION:133 61A\;34
+DESCRIPTION:Radiotechnika\nRodzaj: laboratorium\nProwadzący: dr inż. Rut
+ kowski Adam\nNr zajęć: 2/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2be2bec204f0409d5a1cb051@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261221T160000
+DTEND;TZID=Europe/Warsaw:20261221T173500
+SUMMARY:Ssnl (ć)
+LOCATION:43 67
+DESCRIPTION:Systemy sterowania i naprowadzania lotniczych śr. boj.\nRodza
+ j: ćwiczenia\nProwadzący: dr inż. Stępień Sławomir\nNr zajęć: 4/7
+ \nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:021049b22ced6d3227b20b18@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261222T080000
+DTEND;TZID=Europe/Warsaw:20261222T093500
+SUMMARY:Lpr (L)
+LOCATION:27 69
+DESCRIPTION:Lotnicze pociski rakietowe\nRodzaj: laboratorium\nProwadzący:
+  por. mgr inż. Kłosiński Artur\nNr zajęć: 3/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:520aea0824d5aa7efcaa4991@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261222T095000
+DTEND;TZID=Europe/Warsaw:20261222T112500
+SUMMARY:Ssnl (w)
+LOCATION:43 67
+DESCRIPTION:Systemy sterowania i naprowadzania lotniczych śr. boj.\nRodza
+ j: wykład\nProwadzący: dr inż. Stępień Sławomir\nNr zajęć: 8/8\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4c21a5704b888cdfe466af29@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261222T114000
+DTEND;TZID=Europe/Warsaw:20261222T131500
+SUMMARY:Radio (ć)
+LOCATION:136 36
+DESCRIPTION:Radiotechnika\nRodzaj: ćwiczenia\nProwadzący: dr hab. inż. 
+ Susek Waldemar\nNr zajęć: 5/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:975e034240a02ba0a02809e9@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261222T133000
+DTEND;TZID=Europe/Warsaw:20261222T150500
+SUMMARY:Mwpr (w)
+LOCATION:S2 72
+DESCRIPTION:Materiały wybuchowe i paliwa rakietowe\nRodzaj: wykład\nProw
+ adzący: dr hab. inż. Papliński Andrzej\nNr zajęć: 6/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d4bbb5af1a9bced816b6d4f7@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261222T160000
+DTEND;TZID=Europe/Warsaw:20261222T173500
+SUMMARY:Lsr (L)
+LOCATION:111 61\;112
+DESCRIPTION:Lotnicze systemy radioelektroniczne\nRodzaj: laboratorium\nPro
+ wadzący: dr inż. Witczak Andrzej\nNr zajęć: 3/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:21edac26e46f3325e40c141c@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261223T080000
+DTEND;TZID=Europe/Warsaw:20261223T093500
+SUMMARY:Lscel (ć)
+LOCATION:24 67
+DESCRIPTION:Lotnicze systemy celownicze\nRodzaj: ćwiczenia\nProwadzący: 
+ dr inż. Ważny Mariusz\nNr zajęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6156555ebed05796e0212b1a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261223T095000
+DTEND;TZID=Europe/Warsaw:20261223T112500
+SUMMARY:Ja (ć)
+LOCATION:131 K\;133
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 24/30\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:38a37171c70273aab08f62c4@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261223T114000
+DTEND;TZID=Europe/Warsaw:20261223T131500
+SUMMARY:Mwpr (ć)
+LOCATION:9 67
+DESCRIPTION:Materiały wybuchowe i paliwa rakietowe\nRodzaj: ćwiczenia\nP
+ rowadzący: dr hab. inż. Papliński Andrzej\nNr zajęć: 7/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:42869157a7fa1f203679c2bd@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261223T133000
+DTEND;TZID=Europe/Warsaw:20261223T150500
+SUMMARY:LUW (L)
+LOCATION:004 36\;003
+DESCRIPTION:Lotnicze układy wykonawcze\nRodzaj: laboratorium\nProwadzący
+ : płk mgr inż. Hanc Damian\nNr zajęć: 4/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e687f1856c9b756fe186a826@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261223T160000
+DTEND;TZID=Europe/Warsaw:20261223T173500
+SUMMARY:Lpr (ć)
+LOCATION:43 67
+DESCRIPTION:Lotnicze pociski rakietowe\nRodzaj: ćwiczenia\nProwadzący: d
+ r inż. Stępień Sławomir\nNr zajęć: 8/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:8d3888a309af168693edd936@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270107T080000
+DTEND;TZID=Europe/Warsaw:20270107T093500
+SUMMARY:Bzl (L)
+LOCATION:43 67
+DESCRIPTION:Bomby i zapalniki lotnicze\nRodzaj: laboratorium\nProwadzący:
+  por. mgr inż. Kłosiński Artur\nNr zajęć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c0dc08bf5d6ee808b1098e7f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270107T095000
+DTEND;TZID=Europe/Warsaw:20270107T112500
+SUMMARY:MPH (ć)
+LOCATION:46 63
+DESCRIPTION:Międzynarodowe prawo humanitarne konfliktów zbrojnych\nRodza
+ j: ćwiczenia\nProwadzący: dr Strychalski Andrzej\nNr zajęć: 2/5\nBlok
+ : 2
+END:VEVENT
+BEGIN:VEVENT
+UID:31bcf59458e1086d71329e1b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270107T114000
+DTEND;TZID=Europe/Warsaw:20270107T131500
+SUMMARY:Ssnl (ć)
+LOCATION:43 67
+DESCRIPTION:Systemy sterowania i naprowadzania lotniczych śr. boj.\nRodza
+ j: ćwiczenia\nProwadzący: dr inż. Stępień Sławomir\nNr zajęć: 5/7
+ \nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:002efdfee7644301a34cda0a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270107T160000
+DTEND;TZID=Europe/Warsaw:20270107T173500
+SUMMARY:Mwpr (L)
+LOCATION:43 67
+DESCRIPTION:Materiały wybuchowe i paliwa rakietowe\nRodzaj: laboratorium\
+ nProwadzący: por. mgr inż. Kłosiński Artur\nNr zajęć: 4/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:d722f117e6093d025f9da169@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270107T175000
+DTEND;TZID=Europe/Warsaw:20270107T192500
+SUMMARY:MPH (w)
+LOCATION:46 63
+DESCRIPTION:Międzynarodowe prawo humanitarne konfliktów zbrojnych\nRodza
+ j: wykład\nProwadzący: dr Strychalski Andrzej\nNr zajęć: 5/5\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:8d084f9031cc90435eedcc17@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270108T080000
+DTEND;TZID=Europe/Warsaw:20270108T093500
+SUMMARY:Lscel (w)
+LOCATION:136 36
+DESCRIPTION:Lotnicze systemy celownicze\nRodzaj: wykład\nProwadzący: dr 
+ inż. Wróblewski Mirosław\nNr zajęć: 13/13\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a5d463e8e6988b94be9f605b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270108T095000
+DTEND;TZID=Europe/Warsaw:20270108T112500
+SUMMARY:LUW (ć)
+LOCATION:130 36
+DESCRIPTION:Lotnicze układy wykonawcze\nRodzaj: ćwiczenia\nProwadzący: 
+ mgr inż. Marut Adam\nNr zajęć: 7/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3d7148c153e137f75d0cc2b4@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270108T114000
+DTEND;TZID=Europe/Warsaw:20270108T131500
+SUMMARY:REG (ć)
+LOCATION:AW 3/043
+DESCRIPTION:Regulaminy SZ RP\nRodzaj: ćwiczenia\nProwadzący: mjr mgr Naw
+ alicki Piotr\nNr zajęć: 2/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ee167bd14d03b564c30f40d8@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270108T133000
+DTEND;TZID=Europe/Warsaw:20270108T150500
+SUMMARY:WF: Piłka siatkowa
+LOCATION:zewnętrzne boisko do piłki siatkowej
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Piłka siatkow
+ a (zajęcia 8)\nObiekt: zewnętrzne boisko do piłki siatkowej\nKod SWF: 
+ F-7/8 (grupa SWF 2PL/14KP)\nProwadzący: ppłk mgr Ryś Paweł\nNr zaję
+ ć: 26/30\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2966d9e3b20cef0535fc6639@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270109T080000
+DTEND;TZID=Europe/Warsaw:20270109T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 13/15\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b96e7fd0ff16260f623dd5a0@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270111T080000
+DTEND;TZID=Europe/Warsaw:20270111T093500
+SUMMARY:WF: Walka wręcz
+LOCATION:sala do walki wręcz nr 57
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Walka wręcz (
+ zajęcia 27)\nObiekt: sala do walki wręcz nr 57\nKod SWF: J-4/27 (grupa 
+ SWF 2PL/14KP)\nProwadzący: ppłk mgr Ryś Paweł\nNr zajęć: 27/30\nBlo
+ k: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f0dc0180ebfc4561a9923e1e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270111T095000
+DTEND;TZID=Europe/Warsaw:20270111T112500
+SUMMARY:Ja (ć)
+LOCATION:131 K\;132
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 25/30\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:4e77df2b1a9651fc0fcd77f0@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270111T114000
+DTEND;TZID=Europe/Warsaw:20270111T131500
+SUMMARY:DWiPD (ć)
+LOCATION:28 69
+DESCRIPTION:Działalność wychowawcza i profilaktyka dyscyplinarna\nRodza
+ j: ćwiczenia\nProwadzący: dr Klimek Krzysztof\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d9c1170a9caa51f018e1c7e4@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270111T133000
+DTEND;TZID=Europe/Warsaw:20270111T150500
+SUMMARY:Radio (L)
+LOCATION:133 61A\;34
+DESCRIPTION:Radiotechnika\nRodzaj: laboratorium\nProwadzący: dr inż. Rut
+ kowski Adam\nNr zajęć: 3/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:df387cc80f9a3ab63478daec@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270111T160000
+DTEND;TZID=Europe/Warsaw:20270111T173500
+SUMMARY:Bzl (L)
+LOCATION:43 67
+DESCRIPTION:Bomby i zapalniki lotnicze\nRodzaj: laboratorium\nProwadzący:
+  por. mgr inż. Kłosiński Artur\nNr zajęć: 2/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:9c38e5dfdb6a913058eb50ba@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270111T175000
+DTEND;TZID=Europe/Warsaw:20270111T192500
+SUMMARY:Wf_E (E)
+DESCRIPTION:Wf_E\nRodzaj: egzamin\nNr zajęć: 1/1\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:a9d0475cb91b3a87f7668f4d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270112T080000
+DTEND;TZID=Europe/Warsaw:20270112T093500
+SUMMARY:Lpr (L)
+LOCATION:27 69
+DESCRIPTION:Lotnicze pociski rakietowe\nRodzaj: laboratorium\nProwadzący:
+  por. mgr inż. Kłosiński Artur\nNr zajęć: 4/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:26f5d01607e4c6688256422e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270112T095000
+DTEND;TZID=Europe/Warsaw:20270112T112500
+SUMMARY:Ssnl (ć)
+LOCATION:43 67
+DESCRIPTION:Systemy sterowania i naprowadzania lotniczych śr. boj.\nRodza
+ j: ćwiczenia\nProwadzący: dr inż. Stępień Sławomir\nNr zajęć: 6/7
+ \nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3e236a394603cc63b55a0a77@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270112T114000
+DTEND;TZID=Europe/Warsaw:20270112T131500
+SUMMARY:Ssnl (L)
+LOCATION:43 67
+DESCRIPTION:Systemy sterowania i naprowadzania lotniczych śr. boj.\nRodza
+ j: laboratorium\nProwadzący: mgr inż. Kunikowski Mateusz\nNr zajęć: 4
+ /6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ee17b3199607b718fbf61f51@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270112T133000
+DTEND;TZID=Europe/Warsaw:20270112T150500
+SUMMARY:Radio (ć)
+LOCATION:136 36
+DESCRIPTION:Radiotechnika\nRodzaj: ćwiczenia\nProwadzący: dr hab. inż. 
+ Susek Waldemar\nNr zajęć: 6/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5bb42df01f3e83ab4d759218@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270112T160000
+DTEND;TZID=Europe/Warsaw:20270112T173500
+SUMMARY:Lsr (L)
+LOCATION:111 61\;H H
+DESCRIPTION:Lotnicze systemy radioelektroniczne\nRodzaj: laboratorium\nPro
+ wadzący: dr inż. Witczak Andrzej\nNr zajęć: 4/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:aabeba431b8e30e7b1d67ea3@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270113T080000
+DTEND;TZID=Europe/Warsaw:20270113T093500
+SUMMARY:ZŻWAT (i)
+DESCRIPTION:Zbiórka żołnierzy WAT\nRodzaj: inne\nNr zajęć: 3/3\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:c63206cfd8497f3cabae016a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270113T095000
+DTEND;TZID=Europe/Warsaw:20270113T112500
+SUMMARY:Ja (ć)
+LOCATION:131 K\;132
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 26/30\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:b3a5226a7eaaa6fa72ab7105@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270113T114000
+DTEND;TZID=Europe/Warsaw:20270113T131500
+SUMMARY:Mwpr (w)
+LOCATION:S3 72
+DESCRIPTION:Materiały wybuchowe i paliwa rakietowe\nRodzaj: wykład\nProw
+ adzący: dr hab. inż. Papliński Andrzej\nNr zajęć: 7/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:dc947083bc794cf9faffdc6b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270113T133000
+DTEND;TZID=Europe/Warsaw:20270113T150500
+SUMMARY:DWiPD (ć)
+LOCATION:28 69
+DESCRIPTION:Działalność wychowawcza i profilaktyka dyscyplinarna\nRodza
+ j: ćwiczenia\nProwadzący: dr Klimek Krzysztof\nNr zajęć: 5/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a98cb369ead26d3df1c5bb5a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270114T095000
+DTEND;TZID=Europe/Warsaw:20270114T112500
+SUMMARY:LUW (L)
+LOCATION:004 36
+DESCRIPTION:Lotnicze układy wykonawcze\nRodzaj: laboratorium\nProwadzący
+ : ppłk dr inż. Henzel Maciej\nNr zajęć: 5/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:512e622379f2f245d05ed9fd@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270114T114000
+DTEND;TZID=Europe/Warsaw:20270114T131500
+SUMMARY:Ssnl (ć)
+LOCATION:43 67
+DESCRIPTION:Systemy sterowania i naprowadzania lotniczych śr. boj.\nRodza
+ j: ćwiczenia\nProwadzący: dr inż. Stępień Sławomir\nNr zajęć: 7/7
+ \nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:88bb0276d5c2bb872322379d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270114T133000
+DTEND;TZID=Europe/Warsaw:20270114T150500
+SUMMARY:MPH (ć)
+LOCATION:115 57
+DESCRIPTION:Międzynarodowe prawo humanitarne konfliktów zbrojnych\nRodza
+ j: ćwiczenia\nProwadzący: dr Strychalski Andrzej\nNr zajęć: 3/5\nBlok
+ : 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b8c9f1c41430a3f5ecffbef5@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270114T160000
+DTEND;TZID=Europe/Warsaw:20270114T173500
+SUMMARY:Bzl (ć)
+LOCATION:3 67
+DESCRIPTION:Bomby i zapalniki lotnicze\nRodzaj: ćwiczenia\nProwadzący: p
+ or. mgr inż. Kłosiński Artur\nNr zajęć: 4/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:8e0999b83bf4d43768b71f43@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270115T080000
+DTEND;TZID=Europe/Warsaw:20270115T093500
+SUMMARY:ZLDT-1 (ć)
+LOCATION:255 S
+DESCRIPTION:Zabezpieczenie Logistyczne Działań Taktycznych - 1\nRodzaj: 
+ ćwiczenia\nProwadzący: dr inż. Nagrabski Dariusz\nNr zajęć: 1/2\nBlo
+ k: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:114ec2b9d16318788f14404d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270115T095000
+DTEND;TZID=Europe/Warsaw:20270115T112500
+SUMMARY:ZLDT-1 (ć)
+LOCATION:255 S
+DESCRIPTION:Zabezpieczenie Logistyczne Działań Taktycznych - 1\nRodzaj: 
+ ćwiczenia\nProwadzący: dr inż. Nagrabski Dariusz\nNr zajęć: 2/2\nBlo
+ k: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0649e64f71a3d683cd13b529@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270115T133000
+DTEND;TZID=Europe/Warsaw:20270115T150500
+SUMMARY:WF: sprawdzian
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: sprawdzian nr 
+ 7\nObiekt: teren (las\, poligon)\nKod SWF: T-18/7 (grupa SWF 2PL/14KP)\nP
+ rowadzący: ppłk mgr Ryś Paweł\nNr zajęć: 28/30\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f157248f192b8a380671b5af@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270116T080000
+DTEND;TZID=Europe/Warsaw:20270116T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 14/15\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:27f83b6c03815778841adf7d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270118T080000
+DTEND;TZID=Europe/Warsaw:20270118T093500
+SUMMARY:WF: Zajęcia sportowe z różnych dyscyplin sportu i rekreacji ruc
+ howej
+LOCATION:strzelnica
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Zajęcia sport
+ owe z różnych dyscyplin sportu i rekreacji ruchowej (zajęcia 5)\nObiek
+ t: strzelnica\nKod SWF: U-16/5 (grupa SWF 2PL/14KP)\nProwadzący: ppłk m
+ gr Ryś Paweł\nNr zajęć: 29/30\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:66eedc63fa44378132696562@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270118T095000
+DTEND;TZID=Europe/Warsaw:20270118T112500
+SUMMARY:Ja (ć)
+LOCATION:131 K\;132
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 27/30\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:b098f698c0c51483ca94eab7@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270118T114000
+DTEND;TZID=Europe/Warsaw:20270118T131500
+SUMMARY:LUW (L)
+LOCATION:004 36\;003
+DESCRIPTION:Lotnicze układy wykonawcze\nRodzaj: laboratorium\nProwadzący
+ : mgr inż. Główczyk Bartłomiej\nNr zajęć: 6/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f067c8b2c762851769108a26@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270118T133000
+DTEND;TZID=Europe/Warsaw:20270118T150500
+SUMMARY:LUW (L)
+LOCATION:004 36\;003
+DESCRIPTION:Lotnicze układy wykonawcze\nRodzaj: laboratorium\nProwadzący
+ : mgr inż. Główczyk Bartłomiej\nNr zajęć: 7/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:58238ca5478acb780d9dd3d3@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270118T160000
+DTEND;TZID=Europe/Warsaw:20270118T173500
+SUMMARY:LUW (L)
+LOCATION:003 36
+DESCRIPTION:Lotnicze układy wykonawcze\nRodzaj: laboratorium\nProwadzący
+ : mgr inż. Główczyk Bartłomiej\nNr zajęć: 8/12\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:39401f96c175edb61860e3b9@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270118T175000
+DTEND;TZID=Europe/Warsaw:20270118T192500
+SUMMARY:LUW (L)
+LOCATION:004 36\;003
+DESCRIPTION:Lotnicze układy wykonawcze\nRodzaj: laboratorium\nProwadzący
+ : mgr inż. Główczyk Bartłomiej\nNr zajęć: 9/12\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:6dd0c3426653451d4d4fe9ed@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270119T080000
+DTEND;TZID=Europe/Warsaw:20270119T093500
+SUMMARY:Bzl (ć)
+LOCATION:43 67
+DESCRIPTION:Bomby i zapalniki lotnicze\nRodzaj: ćwiczenia\nProwadzący: p
+ or. mgr inż. Kłosiński Artur\nNr zajęć: 5/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d3a0af6a0c815a1e7b752018@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270119T095000
+DTEND;TZID=Europe/Warsaw:20270119T112500
+SUMMARY:Ssnl (L)
+LOCATION:43 67
+DESCRIPTION:Systemy sterowania i naprowadzania lotniczych śr. boj.\nRodza
+ j: laboratorium\nProwadzący: mgr inż. Kunikowski Mateusz\nNr zajęć: 5
+ /6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:53b992dcf4c9f1d9cf78f123@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270119T114000
+DTEND;TZID=Europe/Warsaw:20270119T131500
+SUMMARY:Mwpr (w)
+LOCATION:S3 72
+DESCRIPTION:Materiały wybuchowe i paliwa rakietowe\nRodzaj: wykład\nProw
+ adzący: dr hab. inż. Papliński Andrzej\nNr zajęć: 8/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5ebdd6468d8c114b7868f92e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270119T133000
+DTEND;TZID=Europe/Warsaw:20270119T150500
+SUMMARY:Lsr (L)
+LOCATION:111 61\;112
+DESCRIPTION:Lotnicze systemy radioelektroniczne\nRodzaj: laboratorium\nPro
+ wadzący: dr inż. Witczak Andrzej\nNr zajęć: 5/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e2627486d34dbd3462262527@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270120T080000
+DTEND;TZID=Europe/Warsaw:20270120T093500
+SUMMARY:wzbnim (ć)
+LOCATION:28 69
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: ćwiczenia\nProwadzący: dr Gocalski Włodzimierz\nNr zaję
+ ć: 6/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b876b26fab40c4e78dedaf0d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270120T095000
+DTEND;TZID=Europe/Warsaw:20270120T112500
+SUMMARY:Ja (ć)
+LOCATION:131 K\;132
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 28/30\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:d19470753e31abd635603969@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270120T114000
+DTEND;TZID=Europe/Warsaw:20270120T131500
+SUMMARY:MPH (ć)
+LOCATION:325 S
+DESCRIPTION:Międzynarodowe prawo humanitarne konfliktów zbrojnych\nRodza
+ j: ćwiczenia\nProwadzący: dr Strychalski Andrzej\nNr zajęć: 4/5\nBlok
+ : 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a1d8bb410abe717e97850239@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270120T133000
+DTEND;TZID=Europe/Warsaw:20270120T150500
+SUMMARY:Ssnl (L)
+LOCATION:34 67
+DESCRIPTION:Systemy sterowania i naprowadzania lotniczych śr. boj.\nRodza
+ j: laboratorium\nProwadzący: mgr inż. Kunikowski Mateusz\nNr zajęć: 6
+ /6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d731fae721f5004eace128db@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270120T160000
+DTEND;TZID=Europe/Warsaw:20270120T173500
+SUMMARY:Bzl (ć)
+LOCATION:18 67
+DESCRIPTION:Bomby i zapalniki lotnicze\nRodzaj: ćwiczenia\nProwadzący: p
+ or. mgr inż. Kłosiński Artur\nNr zajęć: 6/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:0e4af0cd7936685fd7f935ac@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270121T080000
+DTEND;TZID=Europe/Warsaw:20270121T093500
+SUMMARY:Bzl (L)
+LOCATION:43 67
+DESCRIPTION:Bomby i zapalniki lotnicze\nRodzaj: laboratorium\nProwadzący:
+  por. mgr inż. Kłosiński Artur\nNr zajęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b638ab937f437c6fc71c8234@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270121T095000
+DTEND;TZID=Europe/Warsaw:20270121T112500
+SUMMARY:Mwpr (L)
+LOCATION:43 67
+DESCRIPTION:Materiały wybuchowe i paliwa rakietowe\nRodzaj: laboratorium\
+ nProwadzący: por. mgr inż. Kłosiński Artur\nNr zajęć: 5/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:24e8f3c6fa44f9971a259fc8@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270121T114000
+DTEND;TZID=Europe/Warsaw:20270121T131500
+SUMMARY:LUW (L)
+LOCATION:004 36
+DESCRIPTION:Lotnicze układy wykonawcze\nRodzaj: laboratorium\nProwadzący
+ : ppłk dr inż. Henzel Maciej\nNr zajęć: 10/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:bdfa5f27b02e5cedc50a1f9a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270122T095000
+DTEND;TZID=Europe/Warsaw:20270122T112500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PW
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 3/8\nBl
+ ok: 2\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:c4cea7d001bd760170c22090@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270122T114000
+DTEND;TZID=Europe/Warsaw:20270122T131500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PW
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 4/8\nBl
+ ok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a471b097d8fc3d8e9c5db4a9@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270123T080000
+DTEND;TZID=Europe/Warsaw:20270123T093500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 15/15\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:136a72bd1899999ec0af7169@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270125T080000
+DTEND;TZID=Europe/Warsaw:20270125T093500
+SUMMARY:WF: Walka wręcz
+LOCATION:sala do walki wręcz nr 57
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Walka wręcz (
+ zajęcia 28)\nObiekt: sala do walki wręcz nr 57\nKod SWF: J-4/28 (grupa 
+ SWF 2PL/14KP)\nProwadzący: ppłk mgr Ryś Paweł\nNr zajęć: 30/30\nBlo
+ k: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2ea36596a0d09f24a5ae72d1@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270125T095000
+DTEND;TZID=Europe/Warsaw:20270125T112500
+SUMMARY:Ja (ć)
+LOCATION:131 K\;132
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 29/30\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:a8575a0d2a6394baa353ef6d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270125T114000
+DTEND;TZID=Europe/Warsaw:20270125T131500
+SUMMARY:LUW (L)
+LOCATION:004 36\;003
+DESCRIPTION:Lotnicze układy wykonawcze\nRodzaj: laboratorium\nProwadzący
+ : mgr inż. Janczewski Mariusz\nNr zajęć: 11/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9d0d287863264f4df2651761@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270125T133000
+DTEND;TZID=Europe/Warsaw:20270125T150500
+SUMMARY:LUW (L)
+LOCATION:004 36\;003
+DESCRIPTION:Lotnicze układy wykonawcze\nRodzaj: laboratorium\nProwadzący
+ : mgr inż. Janczewski Mariusz\nNr zajęć: 12/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f4598c3a048d353a8097dbe7@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270125T160000
+DTEND;TZID=Europe/Warsaw:20270125T173500
+SUMMARY:Bzl (ć)
+LOCATION:43 67
+DESCRIPTION:Bomby i zapalniki lotnicze\nRodzaj: ćwiczenia\nProwadzący: p
+ or. mgr inż. Kłosiński Artur\nNr zajęć: 7/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:9b84671f589dbdae91721da6@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270125T175000
+DTEND;TZID=Europe/Warsaw:20270125T192500
+SUMMARY:Bzl (ć)
+LOCATION:43 67
+DESCRIPTION:Bomby i zapalniki lotnicze\nRodzaj: ćwiczenia\nProwadzący: p
+ or. mgr inż. Kłosiński Artur\nNr zajęć: 8/9\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:25c928a5f767c6b897249bd4@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270126T080000
+DTEND;TZID=Europe/Warsaw:20270126T093500
+SUMMARY:Lpr (L)
+LOCATION:27 69
+DESCRIPTION:Lotnicze pociski rakietowe\nRodzaj: laboratorium\nProwadzący:
+  por. mgr inż. Kłosiński Artur\nNr zajęć: 5/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:240d8622d1fa948589fc7f16@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270126T095000
+DTEND;TZID=Europe/Warsaw:20270126T112500
+SUMMARY:Mwpr (L)
+LOCATION:43 67
+DESCRIPTION:Materiały wybuchowe i paliwa rakietowe\nRodzaj: laboratorium\
+ nProwadzący: por. mgr inż. Kłosiński Artur\nNr zajęć: 6/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:83d6f96f91d823ce3cd196da@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270126T114000
+DTEND;TZID=Europe/Warsaw:20270126T131500
+SUMMARY:Radio (L)
+LOCATION:133 61A\;34
+DESCRIPTION:Radiotechnika\nRodzaj: laboratorium\nProwadzący: dr inż. Rut
+ kowski Adam\nNr zajęć: 4/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:416511393820b6c3e437452d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270126T133000
+DTEND;TZID=Europe/Warsaw:20270126T150500
+SUMMARY:Lsr (L)
+LOCATION:111 61\;H H
+DESCRIPTION:Lotnicze systemy radioelektroniczne\nRodzaj: laboratorium\nPro
+ wadzący: dr inż. Witczak Andrzej\nNr zajęć: 6/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:320c1c73b4188877eec14b2d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270127T080000
+DTEND;TZID=Europe/Warsaw:20270127T093500
+SUMMARY:Lscel (ć)
+LOCATION:24 67
+DESCRIPTION:Lotnicze systemy celownicze\nRodzaj: ćwiczenia\nProwadzący: 
+ dr inż. Ważny Mariusz\nNr zajęć: 4/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:53874834effd3ac02f773719@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270127T095000
+DTEND;TZID=Europe/Warsaw:20270127T112500
+SUMMARY:Ja (ć)
+LOCATION:131 K\;132
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 30/30\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:0e2c4bea6955ba017b43dba1@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270127T114000
+DTEND;TZID=Europe/Warsaw:20270127T131500
+SUMMARY:MPH (ć)
+LOCATION:325 S
+DESCRIPTION:Międzynarodowe prawo humanitarne konfliktów zbrojnych\nRodza
+ j: ćwiczenia\nProwadzący: dr Strychalski Andrzej\nNr zajęć: 5/5\nBlok
+ : 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0b46192e2970cacfa10ce952@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270128T080000
+DTEND;TZID=Europe/Warsaw:20270128T093500
+SUMMARY:Bzl (L)
+LOCATION:43 67
+DESCRIPTION:Bomby i zapalniki lotnicze\nRodzaj: laboratorium\nProwadzący:
+  por. mgr inż. Kłosiński Artur\nNr zajęć: 4/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:31222fca5e6cfb9c2fdebef1@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270128T095000
+DTEND;TZID=Europe/Warsaw:20270128T112500
+SUMMARY:Mwpr (L)
+LOCATION:43 67
+DESCRIPTION:Materiały wybuchowe i paliwa rakietowe\nRodzaj: laboratorium\
+ nProwadzący: por. mgr inż. Kłosiński Artur\nNr zajęć: 7/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:abb0fb5a8744af4cc63ed8d9@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270128T114000
+DTEND;TZID=Europe/Warsaw:20270128T131500
+SUMMARY:Radio (w)
+LOCATION:35 61a
+DESCRIPTION:Radiotechnika\nRodzaj: wykład\nProwadzący: dr hab.inż. Szcz
+ epaniak Zenon\nNr zajęć: 12/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c68a604b3dfd6bdcf4588212@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270128T160000
+DTEND;TZID=Europe/Warsaw:20270128T173500
+SUMMARY:Bzl (ć)
+LOCATION:43 67
+DESCRIPTION:Bomby i zapalniki lotnicze\nRodzaj: ćwiczenia\nProwadzący: p
+ or. mgr inż. Kłosiński Artur\nNr zajęć: 9/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:4d696ece8c3e3971882f137d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270129T095000
+DTEND;TZID=Europe/Warsaw:20270129T112500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PW
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 5/8\nBl
+ ok: 2\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:a153b10a414ac1ab78b92b1d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270129T114000
+DTEND;TZID=Europe/Warsaw:20270129T131500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PW
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 6/8\nBl
+ ok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:574da3d66b3873d8644160d9@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270130T080000
+DTEND;TZID=Europe/Warsaw:20270130T093500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PW
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 7/8\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d1cde4d8e06a5740407efcfb@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270130T095000
+DTEND;TZID=Europe/Warsaw:20270130T112500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PW
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 8/8\nBl
+ ok: 2\nUwagi: 50%
+END:VEVENT
+END:VCALENDAR

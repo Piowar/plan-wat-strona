@@ -1,0 +1,1233 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WLO25PO1N2
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:a9bff96bc67e374f620c138d@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261003T095000
+DTEND;TZID=Europe/Warsaw:20261003T112500
+SUMMARY:PDwK (w)
+LOCATION:1002 HILTON
+DESCRIPTION:Procesy decyzyjne w kierowaniu i dowodzeniu\nRodzaj: wykład\n
+ Prowadzący: dr inż. Kleszcz Sławomir\nNr zajęć: 1/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:244918b6d8ca8648e9957b95@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261003T114000
+DTEND;TZID=Europe/Warsaw:20261003T131500
+SUMMARY:Lg (w)
+LOCATION:1002 HILTON
+DESCRIPTION:Logika\nRodzaj: wykład\nProwadzący: dr Marciniak Mirosław\n
+ Nr zajęć: 1/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e925db7bce52fef921fcb48b@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261003T133000
+DTEND;TZID=Europe/Warsaw:20261003T150500
+SUMMARY:MiNPI (w)
+LOCATION:1.17/ 16
+DESCRIPTION:Metodyka i narzędzia pozyskiwania informacji\nRodzaj: wykład
+ \nProwadzący: dr Beroud Magdalena\nNr zajęć: 1/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f87889eec9011551ea81921c@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261003T152000
+DTEND;TZID=Europe/Warsaw:20261003T165500
+SUMMARY:MiNPI (w)
+LOCATION:1.17/ 16
+DESCRIPTION:Metodyka i narzędzia pozyskiwania informacji\nRodzaj: wykład
+ \nProwadzący: dr Beroud Magdalena\nNr zajęć: 2/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:740056f5a81d8a51763e9c30@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261003T171000
+DTEND;TZID=Europe/Warsaw:20261003T184500
+SUMMARY:BIwO (w)
+LOCATION:1002 HILTON
+DESCRIPTION:Bezpieczeństwo informacji w obronności\nRodzaj: wykład\nPro
+ wadzący: dr Beroud Magdalena\nNr zajęć: 1/4\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:3b67ed111ed423e915d3fde4@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261003T190000
+DTEND;TZID=Europe/Warsaw:20261003T203500
+SUMMARY:BIwO (w)
+LOCATION:1002 HILTON
+DESCRIPTION:Bezpieczeństwo informacji w obronności\nRodzaj: wykład\nPro
+ wadzący: dr Beroud Magdalena\nNr zajęć: 2/4\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:b6084e41ed182cb1ef09341f@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261004T080000
+DTEND;TZID=Europe/Warsaw:20261004T093500
+SUMMARY:Fb (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Filozofia bezpieczeństwa\nRodzaj: wykład\nProwadzący: Prof.
+  dr hab. Cieślarczyk Marian\nNr zajęć: 1/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:fb80e485ec09d1a89579da76@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261004T095000
+DTEND;TZID=Europe/Warsaw:20261004T112500
+SUMMARY:WiK (w)
+LOCATION:1.15/ 16
+DESCRIPTION:Wywiad i kontrwywiad\nRodzaj: wykład\nProwadzący: prof. dr h
+ ab. Misiuk Andrzej\nNr zajęć: 1/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:dbb6c8931a7d16d0bf12abd8@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261004T114000
+DTEND;TZID=Europe/Warsaw:20261004T131500
+SUMMARY:WiK (w)
+LOCATION:1.15/ 16
+DESCRIPTION:Wywiad i kontrwywiad\nRodzaj: wykład\nProwadzący: prof. dr h
+ ab. Misiuk Andrzej\nNr zajęć: 2/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:22bf9e5528108a8b66469bea@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261010T095000
+DTEND;TZID=Europe/Warsaw:20261010T112500
+SUMMARY:GiRśb (w)
+LOCATION:0.8/ 16
+DESCRIPTION:Globalne i regionalne środowisko bezpieczeństwa\nRodzaj: wyk
+ ład\nProwadzący: dr Kościelecki Tomasz\nNr zajęć: 1/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b04e0c6359a3687bc81fe7bb@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261010T114000
+DTEND;TZID=Europe/Warsaw:20261010T131500
+SUMMARY:PDwK (w)
+LOCATION:0.8/ 16
+DESCRIPTION:Procesy decyzyjne w kierowaniu i dowodzeniu\nRodzaj: wykład\n
+ Prowadzący: dr inż. Kleszcz Sławomir\nNr zajęć: 2/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f35f00065bcd228e08bd21d2@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261010T133000
+DTEND;TZID=Europe/Warsaw:20261010T150500
+SUMMARY:IiDwO (w)
+LOCATION:0.22/ 16
+DESCRIPTION:Informacja i dezinformacja w obronności\nRodzaj: wykład\nPro
+ wadzący: dr hab. Zalewski Jerzy\nNr zajęć: 1/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c3c6825134ebb0b2711cd7b5@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261010T152000
+DTEND;TZID=Europe/Warsaw:20261010T165500
+SUMMARY:IiDwO (w)
+LOCATION:0.22/ 16
+DESCRIPTION:Informacja i dezinformacja w obronności\nRodzaj: wykład\nPro
+ wadzący: dr hab. Zalewski Jerzy\nNr zajęć: 2/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:465973c6fd9d21334072d71c@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261010T171000
+DTEND;TZID=Europe/Warsaw:20261010T184500
+SUMMARY:BIwO (w)
+LOCATION:1002 HILTON
+DESCRIPTION:Bezpieczeństwo informacji w obronności\nRodzaj: wykład\nPro
+ wadzący: dr Beroud Magdalena\nNr zajęć: 3/4\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:b680745e1e9054590977bcac@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261011T080000
+DTEND;TZID=Europe/Warsaw:20261011T093500
+SUMMARY:PZIwO (w)
+LOCATION:A.1.3/ 135
+DESCRIPTION:Psychologia zachowań informacyjnych w obronności\nRodzaj: wy
+ kład\nProwadzący: dr Karczewski Edward\nNr zajęć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e137d111a93e02ed3fb16661@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261011T095000
+DTEND;TZID=Europe/Warsaw:20261011T112500
+SUMMARY:ROwPPI (w)
+LOCATION:1.15/ 16
+DESCRIPTION:Rozpoznanie obrazowe w procesie pozyskiwania informacji\nRodza
+ j: wykład\nProwadzący: dr Marciniak Mirosław\nNr zajęć: 1/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:43b289d53ff565098ce7e581@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261011T114000
+DTEND;TZID=Europe/Warsaw:20261011T131500
+SUMMARY:WiK (w)
+LOCATION:1/ 22
+DESCRIPTION:Wywiad i kontrwywiad\nRodzaj: wykład\nProwadzący: prof. dr h
+ ab. Misiuk Andrzej\nNr zajęć: 3/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6db243f4c54522f264fa84bd@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261011T133000
+DTEND;TZID=Europe/Warsaw:20261011T150500
+SUMMARY:Gd (w)
+LOCATION:0.8/ 16
+DESCRIPTION:Gra decyzyjna\nRodzaj: wykład\nProwadzący: dr hab. (prof. WA
+ T) Świerszcz Katarzyna\nNr zajęć: 1/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9258a972b1d971e5599eecda@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261011T152000
+DTEND;TZID=Europe/Warsaw:20261011T165500
+SUMMARY:Gd (w)
+LOCATION:0.8/ 16
+DESCRIPTION:Gra decyzyjna\nRodzaj: wykład\nProwadzący: dr hab. (prof. WA
+ T) Świerszcz Katarzyna\nNr zajęć: 2/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:6af76d3979208246ffb531ff@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261024T095000
+DTEND;TZID=Europe/Warsaw:20261024T112500
+SUMMARY:PDwK (w)
+LOCATION:1002 HILTON
+DESCRIPTION:Procesy decyzyjne w kierowaniu i dowodzeniu\nRodzaj: wykład\n
+ Prowadzący: dr inż. Kleszcz Sławomir\nNr zajęć: 3/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d24d261f4e8788d2af2d2c46@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261024T114000
+DTEND;TZID=Europe/Warsaw:20261024T131500
+SUMMARY:PDwK (w)
+LOCATION:1002 HILTON
+DESCRIPTION:Procesy decyzyjne w kierowaniu i dowodzeniu\nRodzaj: wykład\n
+ Prowadzący: dr inż. Kleszcz Sławomir\nNr zajęć: 4/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:542d9935b23bace1173d91fd@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261024T133000
+DTEND;TZID=Europe/Warsaw:20261024T150500
+SUMMARY:P i ABD (w)
+LOCATION:1.16/ 16
+DESCRIPTION:Projektowanie i analiza baz danych\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Magierski Mieczysław\nNr zajęć: 1/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e3eda75f82cf4852637f787f@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261024T152000
+DTEND;TZID=Europe/Warsaw:20261024T165500
+SUMMARY:P i ABD (w)
+LOCATION:1.16/ 16
+DESCRIPTION:Projektowanie i analiza baz danych\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Magierski Mieczysław\nNr zajęć: 2/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:fdcd55be566a2f463b5041f0@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261025T095000
+DTEND;TZID=Europe/Warsaw:20261025T112500
+SUMMARY:Gd (w)
+LOCATION:0.8/ 16
+DESCRIPTION:Gra decyzyjna\nRodzaj: wykład\nProwadzący: dr hab. (prof. WA
+ T) Świerszcz Katarzyna\nNr zajęć: 3/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4bae1c355241c2afa85fa0fc@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261025T114000
+DTEND;TZID=Europe/Warsaw:20261025T131500
+SUMMARY:Gd (w)
+LOCATION:0.8/ 16
+DESCRIPTION:Gra decyzyjna\nRodzaj: wykład\nProwadzący: dr hab. (prof. WA
+ T) Świerszcz Katarzyna\nNr zajęć: 4/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6763e582b81a8682690e546f@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261107T095000
+DTEND;TZID=Europe/Warsaw:20261107T112500
+SUMMARY:Lg (ć)
+LOCATION:2/ 22
+DESCRIPTION:Logika\nRodzaj: ćwiczenia\nProwadzący: dr Marciniak Mirosła
+ w\nNr zajęć: 1/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0a08ea996f8b16649eb56dc1@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261107T114000
+DTEND;TZID=Europe/Warsaw:20261107T131500
+SUMMARY:Lg (w)
+LOCATION:0.8/ 16
+DESCRIPTION:Logika\nRodzaj: wykład\nProwadzący: dr Marciniak Mirosław\n
+ Nr zajęć: 2/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:81eb7887a126cc53d0797785@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261107T133000
+DTEND;TZID=Europe/Warsaw:20261107T150500
+SUMMARY:IiDwO (ć)
+LOCATION:2.22/ 135
+DESCRIPTION:Informacja i dezinformacja w obronności\nRodzaj: ćwiczenia\n
+ Prowadzący: mgr Moszczyński Maciej\nNr zajęć: 1/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:158789dcaddf8e19ec106ff5@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261107T152000
+DTEND;TZID=Europe/Warsaw:20261107T165500
+SUMMARY:IiDwO (ć)
+LOCATION:2.22/ 135
+DESCRIPTION:Informacja i dezinformacja w obronności\nRodzaj: ćwiczenia\n
+ Prowadzący: mgr Moszczyński Maciej\nNr zajęć: 2/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:36ebec8fd7b0fed61ce7b35a@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261108T080000
+DTEND;TZID=Europe/Warsaw:20261108T093500
+SUMMARY:Fb (w)
+LOCATION:0.8/ 16
+DESCRIPTION:Filozofia bezpieczeństwa\nRodzaj: wykład\nProwadzący: Prof.
+  dr hab. Cieślarczyk Marian\nNr zajęć: 2/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:20e2210904437e9ae367c83e@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261108T095000
+DTEND;TZID=Europe/Warsaw:20261108T112500
+SUMMARY:P i ABD (ć)
+LOCATION:1/ 22
+DESCRIPTION:Projektowanie i analiza baz danych\nRodzaj: ćwiczenia\nProwad
+ zący: dr inż. Magierski Mieczysław\nNr zajęć: 1/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d7f3f094237e6171d2dcad7b@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261108T114000
+DTEND;TZID=Europe/Warsaw:20261108T131500
+SUMMARY:P i ABD (ć)
+LOCATION:1/ 22
+DESCRIPTION:Projektowanie i analiza baz danych\nRodzaj: ćwiczenia\nProwad
+ zący: dr inż. Magierski Mieczysław\nNr zajęć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9ede92f41f184e4c56779ad8@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261108T133000
+DTEND;TZID=Europe/Warsaw:20261108T150500
+SUMMARY:IiDwO (w)
+LOCATION:1.17/ 16
+DESCRIPTION:Informacja i dezinformacja w obronności\nRodzaj: wykład\nPro
+ wadzący: dr hab. Zalewski Jerzy\nNr zajęć: 3/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:49395ab7b412756d36f17295@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261108T152000
+DTEND;TZID=Europe/Warsaw:20261108T165500
+SUMMARY:IiDwO (w)
+LOCATION:1.17/ 16
+DESCRIPTION:Informacja i dezinformacja w obronności\nRodzaj: wykład\nPro
+ wadzący: dr hab. Zalewski Jerzy\nNr zajęć: 4/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:bb34f06e22a9fed6730de66d@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261114T080000
+DTEND;TZID=Europe/Warsaw:20261114T093500
+SUMMARY:ROwPPI (w)
+LOCATION:0.7/ 16
+DESCRIPTION:Rozpoznanie obrazowe w procesie pozyskiwania informacji\nRodza
+ j: wykład\nProwadzący: dr Marciniak Mirosław\nNr zajęć: 2/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c16f7ca74a82128e78ce4525@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261114T095000
+DTEND;TZID=Europe/Warsaw:20261114T112500
+SUMMARY:GiRśb (w)
+LOCATION:0.8/ 16
+DESCRIPTION:Globalne i regionalne środowisko bezpieczeństwa\nRodzaj: wyk
+ ład\nProwadzący: dr Kościelecki Tomasz\nNr zajęć: 2/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b6adb1bd6375eebeeb8e17f2@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261114T114000
+DTEND;TZID=Europe/Warsaw:20261114T131500
+SUMMARY:P i ABD (w)
+LOCATION:187 S
+DESCRIPTION:Projektowanie i analiza baz danych\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Magierski Mieczysław\nNr zajęć: 3/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4fdb0ba679370d24f13f2574@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261114T133000
+DTEND;TZID=Europe/Warsaw:20261114T150500
+SUMMARY:P i ABD (w)
+LOCATION:187 S
+DESCRIPTION:Projektowanie i analiza baz danych\nRodzaj: wykład\nProwadzą
+ cy: dr inż. Magierski Mieczysław\nNr zajęć: 4/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ee3eb7f51f6c3ca75bc1fedf@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261114T152000
+DTEND;TZID=Europe/Warsaw:20261114T165500
+SUMMARY:P i ABD (ć)
+LOCATION:187 S
+DESCRIPTION:Projektowanie i analiza baz danych\nRodzaj: ćwiczenia\nProwad
+ zący: dr inż. Magierski Mieczysław\nNr zajęć: 3/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:fc77792cfb8a6d1cd5ac2300@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261115T080000
+DTEND;TZID=Europe/Warsaw:20261115T093500
+SUMMARY:Lg (ć)
+LOCATION:1.15/ 16
+DESCRIPTION:Logika\nRodzaj: ćwiczenia\nProwadzący: dr Marciniak Mirosła
+ w\nNr zajęć: 2/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:09175de136fe94535bbf0d1a@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261115T095000
+DTEND;TZID=Europe/Warsaw:20261115T112500
+SUMMARY:Lg (w)
+LOCATION:0.8/ 16
+DESCRIPTION:Logika\nRodzaj: wykład\nProwadzący: dr Marciniak Mirosław\n
+ Nr zajęć: 3/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a05f42b43706d3f239409471@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261115T114000
+DTEND;TZID=Europe/Warsaw:20261115T131500
+SUMMARY:Gd (ć)
+LOCATION:0.22/ 16
+DESCRIPTION:Gra decyzyjna\nRodzaj: ćwiczenia\nProwadzący: dr hab. (prof.
+  WAT) Świerszcz Katarzyna\nNr zajęć: 1/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:752fef7d04e985f9274c514a@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261115T133000
+DTEND;TZID=Europe/Warsaw:20261115T150500
+SUMMARY:Gd (ć)
+LOCATION:0.22/ 16
+DESCRIPTION:Gra decyzyjna\nRodzaj: ćwiczenia\nProwadzący: dr hab. (prof.
+  WAT) Świerszcz Katarzyna\nNr zajęć: 2/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:dc428367708cd0319878b0d4@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261121T080000
+DTEND;TZID=Europe/Warsaw:20261121T093500
+SUMMARY:UiTK (w)
+LOCATION:0.21/ 16
+DESCRIPTION:Urządzenia i technologie komunikacyjne\nRodzaj: wykład\nProw
+ adzący: dr Beroud Magdalena\nNr zajęć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:dd69c9f04f11d23b918ab9ab@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261121T095000
+DTEND;TZID=Europe/Warsaw:20261121T112500
+SUMMARY:UiTK (w)
+LOCATION:1.17/ 16
+DESCRIPTION:Urządzenia i technologie komunikacyjne\nRodzaj: wykład\nProw
+ adzący: dr Beroud Magdalena\nNr zajęć: 2/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f26077acfcb797aa46d1a4e5@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261121T114000
+DTEND;TZID=Europe/Warsaw:20261121T131500
+SUMMARY:UiTK (ć)
+LOCATION:2.22/ 135
+DESCRIPTION:Urządzenia i technologie komunikacyjne\nRodzaj: ćwiczenia\nP
+ rowadzący: dr Beroud Magdalena\nNr zajęć: 1/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:84eaf765aff4cd7f3052388b@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261121T133000
+DTEND;TZID=Europe/Warsaw:20261121T150500
+SUMMARY:BIwO (ć)
+LOCATION:4.17a/ 135
+DESCRIPTION:Bezpieczeństwo informacji w obronności\nRodzaj: ćwiczenia\n
+ Prowadzący: dr Beroud Magdalena\nNr zajęć: 1/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:dfceca7b611b7201cd97c8ff@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261121T152000
+DTEND;TZID=Europe/Warsaw:20261121T165500
+SUMMARY:BIwO (w)
+LOCATION:0.28/ 135
+DESCRIPTION:Bezpieczeństwo informacji w obronności\nRodzaj: wykład\nPro
+ wadzący: dr Beroud Magdalena\nNr zajęć: 4/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:c15f7bc499a2c04756b92fda@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261122T080000
+DTEND;TZID=Europe/Warsaw:20261122T093500
+SUMMARY:ROwPPI (ć)
+LOCATION:0.22/ 16
+DESCRIPTION:Rozpoznanie obrazowe w procesie pozyskiwania informacji\nRodza
+ j: ćwiczenia\nProwadzący: dr Marciniak Mirosław\nNr zajęć: 1/5\nBlok
+ : 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6f19fcd5947efdc9d7b31d35@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261122T095000
+DTEND;TZID=Europe/Warsaw:20261122T112500
+SUMMARY:ROwPPI (ć)
+LOCATION:0.22/ 16
+DESCRIPTION:Rozpoznanie obrazowe w procesie pozyskiwania informacji\nRodza
+ j: ćwiczenia\nProwadzący: dr Marciniak Mirosław\nNr zajęć: 2/5\nBlok
+ : 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f2c334a34fc10856a8e3952e@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261122T114000
+DTEND;TZID=Europe/Warsaw:20261122T131500
+SUMMARY:PZIwO (w)
+LOCATION:0.7/ 16
+DESCRIPTION:Psychologia zachowań informacyjnych w obronności\nRodzaj: wy
+ kład\nProwadzący: dr Karczewski Edward\nNr zajęć: 2/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2d4740800e6452280f54e1d1@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261122T133000
+DTEND;TZID=Europe/Warsaw:20261122T150500
+SUMMARY:PZIwO (ć)
+LOCATION:1/ 22
+DESCRIPTION:Psychologia zachowań informacyjnych w obronności\nRodzaj: ć
+ wiczenia\nProwadzący: mgr Moszczyński Maciej\nNr zajęć: 1/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8a02816cee64afe015c8117d@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261122T152000
+DTEND;TZID=Europe/Warsaw:20261122T165500
+SUMMARY:PZIwO (ć)
+LOCATION:1/ 22
+DESCRIPTION:Psychologia zachowań informacyjnych w obronności\nRodzaj: ć
+ wiczenia\nProwadzący: mgr Moszczyński Maciej\nNr zajęć: 2/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:cedadeecaf4b1c3e7a3f1232@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261205T080000
+DTEND;TZID=Europe/Warsaw:20261205T093500
+SUMMARY:IiDwO (ć)
+LOCATION:0.6/ 16
+DESCRIPTION:Informacja i dezinformacja w obronności\nRodzaj: ćwiczenia\n
+ Prowadzący: mgr Moszczyński Maciej\nNr zajęć: 3/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f426cced1dbe02509e960157@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261205T095000
+DTEND;TZID=Europe/Warsaw:20261205T112500
+SUMMARY:IiDwO (ć)
+LOCATION:0.6/ 16
+DESCRIPTION:Informacja i dezinformacja w obronności\nRodzaj: ćwiczenia\n
+ Prowadzący: mgr Moszczyński Maciej\nNr zajęć: 4/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:22a7b98737014e0d1fc1e7f1@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261205T114000
+DTEND;TZID=Europe/Warsaw:20261205T131500
+SUMMARY:IiDwO (ć)
+LOCATION:0.6/ 16
+DESCRIPTION:Informacja i dezinformacja w obronności\nRodzaj: ćwiczenia\n
+ Prowadzący: mgr Moszczyński Maciej\nNr zajęć: 5/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ea516fc954262e4fdf06634d@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261205T133000
+DTEND;TZID=Europe/Warsaw:20261205T150500
+SUMMARY:MiNPI (w)
+LOCATION:166 S
+DESCRIPTION:Metodyka i narzędzia pozyskiwania informacji\nRodzaj: wykład
+ \nProwadzący: dr Beroud Magdalena\nNr zajęć: 3/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:348f673d79cf26963a098638@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261205T152000
+DTEND;TZID=Europe/Warsaw:20261205T165500
+SUMMARY:MiNPI (w)
+LOCATION:166 S
+DESCRIPTION:Metodyka i narzędzia pozyskiwania informacji\nRodzaj: wykład
+ \nProwadzący: dr Beroud Magdalena\nNr zajęć: 4/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:efb3d15de230e1704892170d@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261205T171000
+DTEND;TZID=Europe/Warsaw:20261205T184500
+SUMMARY:UiTK (ć)
+LOCATION:4.23/ 135
+DESCRIPTION:Urządzenia i technologie komunikacyjne\nRodzaj: ćwiczenia\nP
+ rowadzący: dr Beroud Magdalena\nNr zajęć: 2/5\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:c3983d88e6cbe2107212ff18@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261206T114000
+DTEND;TZID=Europe/Warsaw:20261206T131500
+SUMMARY:WiK (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Wywiad i kontrwywiad\nRodzaj: ćwiczenia\nProwadzący: prof. d
+ r hab. Misiuk Andrzej\nNr zajęć: 1/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:302e76ced56b5f226cccb869@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261206T133000
+DTEND;TZID=Europe/Warsaw:20261206T150500
+SUMMARY:WiK (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Wywiad i kontrwywiad\nRodzaj: ćwiczenia\nProwadzący: prof. d
+ r hab. Misiuk Andrzej\nNr zajęć: 2/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:dd5af4fb3e870dc61ac6b788@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261206T152000
+DTEND;TZID=Europe/Warsaw:20261206T165500
+SUMMARY:PZIwO (w)
+LOCATION:4.23/ 135
+DESCRIPTION:Psychologia zachowań informacyjnych w obronności\nRodzaj: wy
+ kład\nProwadzący: dr Karczewski Edward\nNr zajęć: 3/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:ceb0a9dcad95967bfb5fb2ef@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261212T080000
+DTEND;TZID=Europe/Warsaw:20261212T093500
+SUMMARY:MiNPI (ć)
+LOCATION:1002 HILTON
+DESCRIPTION:Metodyka i narzędzia pozyskiwania informacji\nRodzaj: ćwicze
+ nia\nProwadzący: dr Beroud Magdalena\nNr zajęć: 1/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c51d80af86ae14660d4c8615@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261212T095000
+DTEND;TZID=Europe/Warsaw:20261212T112500
+SUMMARY:MiNPI (ć)
+LOCATION:1002 HILTON
+DESCRIPTION:Metodyka i narzędzia pozyskiwania informacji\nRodzaj: ćwicze
+ nia\nProwadzący: dr Beroud Magdalena\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b3f866307419525d77d9dcf6@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261212T114000
+DTEND;TZID=Europe/Warsaw:20261212T131500
+SUMMARY:UiTK (w)
+LOCATION:2/ 22
+DESCRIPTION:Urządzenia i technologie komunikacyjne\nRodzaj: wykład\nProw
+ adzący: dr Beroud Magdalena\nNr zajęć: 3/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b9f4cadce86bacb5d6e81e83@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261213T080000
+DTEND;TZID=Europe/Warsaw:20261213T093500
+SUMMARY:Fb (w)
+LOCATION:1.9/ 16
+DESCRIPTION:Filozofia bezpieczeństwa\nRodzaj: wykład\nProwadzący: Prof.
+  dr hab. Cieślarczyk Marian\nNr zajęć: 3/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:687fa9c79da5312109f391ab@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261213T095000
+DTEND;TZID=Europe/Warsaw:20261213T112500
+SUMMARY:Lg (ć)
+LOCATION:1.15/ 16
+DESCRIPTION:Logika\nRodzaj: ćwiczenia\nProwadzący: dr Marciniak Mirosła
+ w\nNr zajęć: 3/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:52ba30541b246c9e88a3f16c@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261213T114000
+DTEND;TZID=Europe/Warsaw:20261213T131500
+SUMMARY:Lg (ć)
+LOCATION:1.15/ 16
+DESCRIPTION:Logika\nRodzaj: ćwiczenia\nProwadzący: dr Marciniak Mirosła
+ w\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9815830a664a08bf1906572c@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261213T133000
+DTEND;TZID=Europe/Warsaw:20261213T150500
+SUMMARY:ROwPPI (w)
+LOCATION:187 S
+DESCRIPTION:Rozpoznanie obrazowe w procesie pozyskiwania informacji\nRodza
+ j: wykład\nProwadzący: dr Marciniak Mirosław\nNr zajęć: 3/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6e73c0975c30424dd3cf88e6@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261219T080000
+DTEND;TZID=Europe/Warsaw:20261219T093500
+SUMMARY:UiTK (w)
+LOCATION:2/ 22
+DESCRIPTION:Urządzenia i technologie komunikacyjne\nRodzaj: wykład\nProw
+ adzący: dr Beroud Magdalena\nNr zajęć: 4/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:717031a7b14a15b3649cff0d@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261219T095000
+DTEND;TZID=Europe/Warsaw:20261219T112500
+SUMMARY:MiNPI (ć)
+LOCATION:5.17/ 135
+DESCRIPTION:Metodyka i narzędzia pozyskiwania informacji\nRodzaj: ćwicze
+ nia\nProwadzący: dr Beroud Magdalena\nNr zajęć: 3/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e1fc8ec66e6f99c62f713798@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261219T114000
+DTEND;TZID=Europe/Warsaw:20261219T131500
+SUMMARY:MiNPI (ć)
+LOCATION:5.17/ 135
+DESCRIPTION:Metodyka i narzędzia pozyskiwania informacji\nRodzaj: ćwicze
+ nia\nProwadzący: dr Beroud Magdalena\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1a52172ae839d9e03ff5b732@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261219T133000
+DTEND;TZID=Europe/Warsaw:20261219T150500
+SUMMARY:GiRśb (ć)
+LOCATION:4.17a/ 135
+DESCRIPTION:Globalne i regionalne środowisko bezpieczeństwa\nRodzaj: ćw
+ iczenia\nProwadzący: dr Kościelecki Tomasz\nNr zajęć: 1/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:85403fe37af164d5dacc567d@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261219T152000
+DTEND;TZID=Europe/Warsaw:20261219T165500
+SUMMARY:GiRśb (ć)
+LOCATION:4.17a/ 135
+DESCRIPTION:Globalne i regionalne środowisko bezpieczeństwa\nRodzaj: ćw
+ iczenia\nProwadzący: dr Kościelecki Tomasz\nNr zajęć: 2/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:2c6b72cc6989286553a50909@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261220T095000
+DTEND;TZID=Europe/Warsaw:20261220T112500
+SUMMARY:Fb (ć)
+LOCATION:1.17/ 16
+DESCRIPTION:Filozofia bezpieczeństwa\nRodzaj: ćwiczenia\nProwadzący: Pr
+ of. dr hab. Cieślarczyk Marian\nNr zajęć: 1/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:82ead7773291936fabd98d00@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261220T114000
+DTEND;TZID=Europe/Warsaw:20261220T131500
+SUMMARY:Fb (ć)
+LOCATION:1.17/ 16
+DESCRIPTION:Filozofia bezpieczeństwa\nRodzaj: ćwiczenia\nProwadzący: Pr
+ of. dr hab. Cieślarczyk Marian\nNr zajęć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4d503ffd6ba1c22b9efd0faf@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261220T133000
+DTEND;TZID=Europe/Warsaw:20261220T150500
+SUMMARY:PZIwO (ć)
+LOCATION:1.27/ 135
+DESCRIPTION:Psychologia zachowań informacyjnych w obronności\nRodzaj: ć
+ wiczenia\nProwadzący: mgr Moszczyński Maciej\nNr zajęć: 3/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8fa24b644e4f8dca3e50f154@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261220T152000
+DTEND;TZID=Europe/Warsaw:20261220T165500
+SUMMARY:PZIwO (ć)
+LOCATION:1.27/ 135
+DESCRIPTION:Psychologia zachowań informacyjnych w obronności\nRodzaj: ć
+ wiczenia\nProwadzący: mgr Moszczyński Maciej\nNr zajęć: 4/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:5e3f8c31a4c8eb0663671e53@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20261220T171000
+DTEND;TZID=Europe/Warsaw:20261220T184500
+SUMMARY:PZIwO (ć)
+LOCATION:1.27/ 135
+DESCRIPTION:Psychologia zachowań informacyjnych w obronności\nRodzaj: ć
+ wiczenia\nProwadzący: mgr Moszczyński Maciej\nNr zajęć: 5/5\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:aaafc3d543c00deef5f9d9c3@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20270109T080000
+DTEND;TZID=Europe/Warsaw:20270109T093500
+SUMMARY:PDwK (ć)
+LOCATION:4.17a/ 135
+DESCRIPTION:Procesy decyzyjne w kierowaniu i dowodzeniu\nRodzaj: ćwiczeni
+ a\nProwadzący: dr inż. Kleszcz Sławomir\nNr zajęć: 1/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2ea482c8d1fa0a9f96477e1d@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20270109T095000
+DTEND;TZID=Europe/Warsaw:20270109T112500
+SUMMARY:PDwK (ć)
+LOCATION:2.22/ 135
+DESCRIPTION:Procesy decyzyjne w kierowaniu i dowodzeniu\nRodzaj: ćwiczeni
+ a\nProwadzący: dr inż. Kleszcz Sławomir\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7b02d790f3b7e1bd3e717e76@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20270109T114000
+DTEND;TZID=Europe/Warsaw:20270109T131500
+SUMMARY:PDwK (ć)
+LOCATION:2.22/ 135
+DESCRIPTION:Procesy decyzyjne w kierowaniu i dowodzeniu\nRodzaj: ćwiczeni
+ a\nProwadzący: dr inż. Kleszcz Sławomir\nNr zajęć: 3/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:933676484296bb2833c0dff0@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20270109T133000
+DTEND;TZID=Europe/Warsaw:20270109T150500
+SUMMARY:GiRśb (ć)
+LOCATION:1.17/ 16
+DESCRIPTION:Globalne i regionalne środowisko bezpieczeństwa\nRodzaj: ćw
+ iczenia\nProwadzący: dr Kościelecki Tomasz\nNr zajęć: 3/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:04f5634a6598b063ddc14aa8@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20270109T152000
+DTEND;TZID=Europe/Warsaw:20270109T165500
+SUMMARY:GiRśb (ć)
+LOCATION:1.17/ 16
+DESCRIPTION:Globalne i regionalne środowisko bezpieczeństwa\nRodzaj: ćw
+ iczenia\nProwadzący: dr Kościelecki Tomasz\nNr zajęć: 4/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:ff1d02518afc187cbcf006d3@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20270110T080000
+DTEND;TZID=Europe/Warsaw:20270110T093500
+SUMMARY:PDwK (ć)
+LOCATION:A.1.3/ 135
+DESCRIPTION:Procesy decyzyjne w kierowaniu i dowodzeniu\nRodzaj: ćwiczeni
+ a\nProwadzący: dr inż. Kleszcz Sławomir\nNr zajęć: 4/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:135bef6cc69efcb51a5f3d62@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20270110T095000
+DTEND;TZID=Europe/Warsaw:20270110T112500
+SUMMARY:Gd (ć)
+LOCATION:0.22/ 16
+DESCRIPTION:Gra decyzyjna\nRodzaj: ćwiczenia\nProwadzący: dr hab. (prof.
+  WAT) Świerszcz Katarzyna\nNr zajęć: 3/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:abc914a82ed62e19698c2b5f@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20270110T114000
+DTEND;TZID=Europe/Warsaw:20270110T131500
+SUMMARY:Gd (ć)
+LOCATION:0.22/ 16
+DESCRIPTION:Gra decyzyjna\nRodzaj: ćwiczenia\nProwadzący: dr hab. (prof.
+  WAT) Świerszcz Katarzyna\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a752e0480a7e73775ab74e31@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20270110T133000
+DTEND;TZID=Europe/Warsaw:20270110T150500
+SUMMARY:Gd (ć)
+LOCATION:0.22/ 16
+DESCRIPTION:Gra decyzyjna\nRodzaj: ćwiczenia\nProwadzący: dr hab. (prof.
+  WAT) Świerszcz Katarzyna\nNr zajęć: 5/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:fa7e32411d4b0761a0a73bfd@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20270116T080000
+DTEND;TZID=Europe/Warsaw:20270116T093500
+SUMMARY:ROwPPI (w)
+LOCATION:1.17/ 16
+DESCRIPTION:Rozpoznanie obrazowe w procesie pozyskiwania informacji\nRodza
+ j: wykład\nProwadzący: dr Marciniak Mirosław\nNr zajęć: 4/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:17b592b67e328b31977c8e08@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20270116T095000
+DTEND;TZID=Europe/Warsaw:20270116T112500
+SUMMARY:ROwPPI (ć)
+LOCATION:1.17/ 16
+DESCRIPTION:Rozpoznanie obrazowe w procesie pozyskiwania informacji\nRodza
+ j: ćwiczenia\nProwadzący: dr Marciniak Mirosław\nNr zajęć: 3/5\nBlok
+ : 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f22a36dd073cd1831a069bb3@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20270116T114000
+DTEND;TZID=Europe/Warsaw:20270116T131500
+SUMMARY:UiTK (ć)
+LOCATION:aF S
+DESCRIPTION:Urządzenia i technologie komunikacyjne\nRodzaj: ćwiczenia\nP
+ rowadzący: dr Beroud Magdalena\nNr zajęć: 3/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f6e646f94b87709e77594ade@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20270116T133000
+DTEND;TZID=Europe/Warsaw:20270116T150500
+SUMMARY:UiTK (ć)
+LOCATION:aF S
+DESCRIPTION:Urządzenia i technologie komunikacyjne\nRodzaj: ćwiczenia\nP
+ rowadzący: dr Beroud Magdalena\nNr zajęć: 4/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e9ed9b624c55c6c6b1228337@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20270116T152000
+DTEND;TZID=Europe/Warsaw:20270116T165500
+SUMMARY:UiTK (ć)
+LOCATION:aF S
+DESCRIPTION:Urządzenia i technologie komunikacyjne\nRodzaj: ćwiczenia\nP
+ rowadzący: dr Beroud Magdalena\nNr zajęć: 5/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:33bbc62d0b73df5a33c4a82e@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20270117T080000
+DTEND;TZID=Europe/Warsaw:20270117T093500
+SUMMARY:Lg (ć)
+LOCATION:1.15/ 16
+DESCRIPTION:Logika\nRodzaj: ćwiczenia\nProwadzący: dr Marciniak Mirosła
+ w\nNr zajęć: 5/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5166d4c796774446ffc3a998@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20270117T095000
+DTEND;TZID=Europe/Warsaw:20270117T112500
+SUMMARY:Fb (ć)
+LOCATION:1.17/ 16
+DESCRIPTION:Filozofia bezpieczeństwa\nRodzaj: ćwiczenia\nProwadzący: Pr
+ of. dr hab. Cieślarczyk Marian\nNr zajęć: 3/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:75418dfcdbcdf5346f68214d@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20270117T114000
+DTEND;TZID=Europe/Warsaw:20270117T131500
+SUMMARY:Fb (ć)
+LOCATION:1.17/ 16
+DESCRIPTION:Filozofia bezpieczeństwa\nRodzaj: ćwiczenia\nProwadzący: Pr
+ of. dr hab. Cieślarczyk Marian\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6a0e527a7090a7a2001e954b@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20270117T133000
+DTEND;TZID=Europe/Warsaw:20270117T150500
+SUMMARY:PZIwO (w)
+LOCATION:2.22/ 135
+DESCRIPTION:Psychologia zachowań informacyjnych w obronności\nRodzaj: wy
+ kład\nProwadzący: dr Karczewski Edward\nNr zajęć: 4/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:dae37b22506fc34dea9fe7e4@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20270123T080000
+DTEND;TZID=Europe/Warsaw:20270123T093500
+SUMMARY:GiRśb (ć)
+LOCATION:2/ 22
+DESCRIPTION:Globalne i regionalne środowisko bezpieczeństwa\nRodzaj: ćw
+ iczenia\nProwadzący: dr Kościelecki Tomasz\nNr zajęć: 5/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0a6b7d182befcf6f14090035@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20270123T095000
+DTEND;TZID=Europe/Warsaw:20270123T112500
+SUMMARY:GiRśb (w)
+LOCATION:0.8/ 16
+DESCRIPTION:Globalne i regionalne środowisko bezpieczeństwa\nRodzaj: wyk
+ ład\nProwadzący: dr Kościelecki Tomasz\nNr zajęć: 3/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2bf2c8cbbf7ba357790dfa78@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20270123T114000
+DTEND;TZID=Europe/Warsaw:20270123T131500
+SUMMARY:PDwK (ć)
+LOCATION:2.22/ 135
+DESCRIPTION:Procesy decyzyjne w kierowaniu i dowodzeniu\nRodzaj: ćwiczeni
+ a\nProwadzący: dr inż. Kleszcz Sławomir\nNr zajęć: 5/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:45ea2f09a01dd7b17f58e7d2@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20270123T133000
+DTEND;TZID=Europe/Warsaw:20270123T150500
+SUMMARY:BIwO (ć)
+LOCATION:5.17/ 135
+DESCRIPTION:Bezpieczeństwo informacji w obronności\nRodzaj: ćwiczenia\n
+ Prowadzący: dr Beroud Magdalena\nNr zajęć: 2/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:aeec49735051e8c425e11390@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20270123T152000
+DTEND;TZID=Europe/Warsaw:20270123T165500
+SUMMARY:BIwO (ć)
+LOCATION:5.17/ 135
+DESCRIPTION:Bezpieczeństwo informacji w obronności\nRodzaj: ćwiczenia\n
+ Prowadzący: dr Beroud Magdalena\nNr zajęć: 3/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:ae498d4e03e95d30ceadfd03@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20270124T080000
+DTEND;TZID=Europe/Warsaw:20270124T093500
+SUMMARY:Fb (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Filozofia bezpieczeństwa\nRodzaj: ćwiczenia\nProwadzący: Pr
+ of. dr hab. Cieślarczyk Marian\nNr zajęć: 5/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f7235cdd19d23e20e1fa7f58@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20270124T095000
+DTEND;TZID=Europe/Warsaw:20270124T112500
+SUMMARY:WiK (ć)
+LOCATION:1.15/ 16
+DESCRIPTION:Wywiad i kontrwywiad\nRodzaj: ćwiczenia\nProwadzący: prof. d
+ r hab. Misiuk Andrzej\nNr zajęć: 3/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:85cc96970f7c3f431db7f877@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20270124T114000
+DTEND;TZID=Europe/Warsaw:20270124T131500
+SUMMARY:WiK (ć)
+LOCATION:1.15/ 16
+DESCRIPTION:Wywiad i kontrwywiad\nRodzaj: ćwiczenia\nProwadzący: prof. d
+ r hab. Misiuk Andrzej\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b21b8f789f15abd5ea0ba26d@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20270130T080000
+DTEND;TZID=Europe/Warsaw:20270130T093500
+SUMMARY:ROwPPI (ć)
+LOCATION:2.22/ 135
+DESCRIPTION:Rozpoznanie obrazowe w procesie pozyskiwania informacji\nRodza
+ j: ćwiczenia\nProwadzący: dr Marciniak Mirosław\nNr zajęć: 4/5\nBlok
+ : 1
+END:VEVENT
+BEGIN:VEVENT
+UID:74994e08dc3b1919afd5b3a6@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20270130T095000
+DTEND;TZID=Europe/Warsaw:20270130T112500
+SUMMARY:ROwPPI (ć)
+LOCATION:2.22/ 135
+DESCRIPTION:Rozpoznanie obrazowe w procesie pozyskiwania informacji\nRodza
+ j: ćwiczenia\nProwadzący: dr Marciniak Mirosław\nNr zajęć: 5/5\nBlok
+ : 2
+END:VEVENT
+BEGIN:VEVENT
+UID:47c2efb0fa508a2ecf762e90@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20270130T114000
+DTEND;TZID=Europe/Warsaw:20270130T131500
+SUMMARY:BIwO (ć)
+LOCATION:0.28/ 135
+DESCRIPTION:Bezpieczeństwo informacji w obronności\nRodzaj: ćwiczenia\n
+ Prowadzący: dr Beroud Magdalena\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ba08c282f654b02518b5e834@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20270130T133000
+DTEND;TZID=Europe/Warsaw:20270130T150500
+SUMMARY:BIwO (ć)
+LOCATION:0.28/ 135
+DESCRIPTION:Bezpieczeństwo informacji w obronności\nRodzaj: ćwiczenia\n
+ Prowadzący: dr Beroud Magdalena\nNr zajęć: 5/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e58bb2907377b52cb2b7fb36@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20270130T152000
+DTEND;TZID=Europe/Warsaw:20270130T165500
+SUMMARY:MiNPI (ć)
+LOCATION:0.7/ 16
+DESCRIPTION:Metodyka i narzędzia pozyskiwania informacji\nRodzaj: ćwicze
+ nia\nProwadzący: dr Beroud Magdalena\nNr zajęć: 5/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:e2a6b5d63f3fedcd966f41d9@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20270131T080000
+DTEND;TZID=Europe/Warsaw:20270131T093500
+SUMMARY:WiK (w)
+LOCATION:4.23/ 135
+DESCRIPTION:Wywiad i kontrwywiad\nRodzaj: wykład\nProwadzący: prof. dr h
+ ab. Misiuk Andrzej\nNr zajęć: 4/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:15590d814f330f2863729627@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20270131T095000
+DTEND;TZID=Europe/Warsaw:20270131T112500
+SUMMARY:WiK (ć)
+LOCATION:4.23/ 135
+DESCRIPTION:Wywiad i kontrwywiad\nRodzaj: ćwiczenia\nProwadzący: prof. d
+ r hab. Misiuk Andrzej\nNr zajęć: 5/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2391d32dea88482372663f58@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20270131T114000
+DTEND;TZID=Europe/Warsaw:20270131T131500
+SUMMARY:P i ABD (ć)
+LOCATION:1.17/ 16
+DESCRIPTION:Projektowanie i analiza baz danych\nRodzaj: ćwiczenia\nProwad
+ zący: dr inż. Magierski Mieczysław\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:59a83c52215578a1cb54ef26@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20270131T133000
+DTEND;TZID=Europe/Warsaw:20270131T150500
+SUMMARY:P i ABD (ć)
+LOCATION:1.17/ 16
+DESCRIPTION:Projektowanie i analiza baz danych\nRodzaj: ćwiczenia\nProwad
+ zący: dr inż. Magierski Mieczysław\nNr zajęć: 5/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7d4e44c7c4fb374ea9f4f008@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20270206T114000
+DTEND;TZID=Europe/Warsaw:20270206T131500
+SUMMARY:MiNPI (E)
+LOCATION:2.22/ 135
+DESCRIPTION:Metodyka i narzędzia pozyskiwania informacji\nRodzaj: egzamin
+ \nProwadzący: dr Beroud Magdalena\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:92ae1a5f363ab763f5bf6e8a@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20270207T095000
+DTEND;TZID=Europe/Warsaw:20270207T112500
+SUMMARY:IiDwO (E)
+LOCATION:1.27/ 135
+DESCRIPTION:Informacja i dezinformacja w obronności\nRodzaj: egzamin\nPro
+ wadzący: dr hab. Zalewski Jerzy\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e9afb8344055ccbf72ccb637@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20270207T114000
+DTEND;TZID=Europe/Warsaw:20270207T131500
+SUMMARY:PDwK (E)
+LOCATION:0.8/ 16
+DESCRIPTION:Procesy decyzyjne w kierowaniu i dowodzeniu\nRodzaj: egzamin\n
+ Prowadzący: dr inż. Kleszcz Sławomir\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9d0dec57cfd0b9b75fee3cdb@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20270220T095000
+DTEND;TZID=Europe/Warsaw:20270220T112500
+SUMMARY:MiNPI (Ep)
+LOCATION:2.22/ 135
+DESCRIPTION:Metodyka i narzędzia pozyskiwania informacji\nRodzaj: egzamin
+  poprawkowy\nProwadzący: dr Beroud Magdalena\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9cacb3b3adbfcae267460df5@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20270220T114000
+DTEND;TZID=Europe/Warsaw:20270220T131500
+SUMMARY:PDwK (Ep)
+LOCATION:2.21/ 135
+DESCRIPTION:Procesy decyzyjne w kierowaniu i dowodzeniu\nRodzaj: egzamin p
+ oprawkowy\nProwadzący: dr inż. Kleszcz Sławomir\nNr zajęć: 1/1\nBlok
+ : 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a97ef6a056b821ef2b82fa51@wat-plan
+DTSTAMP:20261126T155714Z
+DTSTART;TZID=Europe/Warsaw:20270221T095000
+DTEND;TZID=Europe/Warsaw:20270221T112500
+SUMMARY:IiDwO (Ep)
+LOCATION:1.27/ 135
+DESCRIPTION:Informacja i dezinformacja w obronności\nRodzaj: egzamin popr
+ awkowy\nProwadzący: dr hab. Zalewski Jerzy\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+END:VCALENDAR

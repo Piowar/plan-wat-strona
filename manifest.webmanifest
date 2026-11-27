@@ -1,0 +1,22 @@
+{
+  "name": "Plany zajęć WAT",
+  "short_name": "Plan WAT",
+  "description": "Plany zajęć wszystkich wydziałów WAT, wspólny wolny czas, odrabianie, WF, wolne sale.",
+  "lang": "pl",
+  "start_url": "./#plan",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f7f9",
+  "theme_color": "#2457c5",
+  "icons": [
+    { "src": "ikony/ikona-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "ikony/ikona-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "ikony/ikona-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "ikony/ikona.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ],
+  "shortcuts": [
+    { "name": "Mój plan", "url": "./#plan" },
+    { "name": "Wolna sala", "url": "./#sale" },
+    { "name": "WF", "url": "./#wf" }
+  ]
+}

@@ -1,0 +1,645 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WCY26TC2N5
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:33002d63cef18f114df8ff43@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261107T080000
+DTEND;TZID=Europe/Warsaw:20261107T093500
+SUMMARY:Sws (Inne)
+LOCATION:307 S
+DESCRIPTION:Spotkanie organizacyjne\nRodzaj: inne\nProwadzący: Stasiak An
+ drzej\nNr zajęć: 1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:dbf7546ddc589c612aa5a556@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261107T095000
+DTEND;TZID=Europe/Warsaw:20261107T112500
+SUMMARY:PK. (w)
+LOCATION:203 65
+DESCRIPTION:Podstawy kryptografii\nRodzaj: wykład\nProwadzący: Bora Piot
+ r\nNr zajęć: 1/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ffd6548c9a2ede4041b7f409@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261107T114000
+DTEND;TZID=Europe/Warsaw:20261107T131500
+SUMMARY:BAS (w)
+LOCATION:203 65
+DESCRIPTION:Budowa i administrowanie sieciami\nRodzaj: wykład\nProwadząc
+ y: Malinowski Tomasz\nNr zajęć: 1/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5f74023f9e9caa6dead5b2c0@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261107T133000
+DTEND;TZID=Europe/Warsaw:20261107T150500
+SUMMARY:BAS (w)
+LOCATION:203 65
+DESCRIPTION:Budowa i administrowanie sieciami\nRodzaj: wykład\nProwadząc
+ y: Malinowski Tomasz\nNr zajęć: 2/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b172561a9fce391e412a5520@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261107T152000
+DTEND;TZID=Europe/Warsaw:20261107T165500
+SUMMARY:BAS (w)
+LOCATION:203 65
+DESCRIPTION:Budowa i administrowanie sieciami\nRodzaj: wykład\nProwadząc
+ y: Malinowski Tomasz\nNr zajęć: 3/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:129442bc98aa3c7450b5c072@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261107T171000
+DTEND;TZID=Europe/Warsaw:20261107T184500
+SUMMARY:WSO (w)
+LOCATION:203 65
+DESCRIPTION:Wprowadzenie do systemów operacyjnych i rozwiązań chmurowyc
+ h\nRodzaj: wykład\nProwadzący: Laszko Łukasz\nNr zajęć: 1/4\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:32c43ba6fb5a6eebc39e91fa@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261108T080000
+DTEND;TZID=Europe/Warsaw:20261108T093500
+SUMMARY:PK. (w)
+LOCATION:203 65
+DESCRIPTION:Podstawy kryptografii\nRodzaj: wykład\nProwadzący: Bora Piot
+ r\nNr zajęć: 2/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8cfe0e9b546bad2291b92976@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261108T095000
+DTEND;TZID=Europe/Warsaw:20261108T112500
+SUMMARY:PK. (w)
+LOCATION:203 65
+DESCRIPTION:Podstawy kryptografii\nRodzaj: wykład\nProwadzący: Bora Piot
+ r\nNr zajęć: 3/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:56eda3bddb2ac111e27c9b84@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261108T114000
+DTEND;TZID=Europe/Warsaw:20261108T131500
+SUMMARY:PY1 (w)
+LOCATION:309 S
+DESCRIPTION:Programowanie w języku Python\nRodzaj: wykład\nProwadzący: 
+ Zimoń Michał\nNr zajęć: 1/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:81403295ff3565360e718887@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261108T133000
+DTEND;TZID=Europe/Warsaw:20261108T150500
+SUMMARY:PY1 (w)
+LOCATION:309 S
+DESCRIPTION:Programowanie w języku Python\nRodzaj: wykład\nProwadzący: 
+ Zimoń Michał\nNr zajęć: 2/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b615512f79748fb2eb0a766e@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261108T152000
+DTEND;TZID=Europe/Warsaw:20261108T165500
+SUMMARY:WSO (w)
+LOCATION:203 65
+DESCRIPTION:Wprowadzenie do systemów operacyjnych i rozwiązań chmurowyc
+ h\nRodzaj: wykład\nProwadzący: Laszko Łukasz\nNr zajęć: 2/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:988ba3dc3d54709033dc6650@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261108T171000
+DTEND;TZID=Europe/Warsaw:20261108T184500
+SUMMARY:WSO (w)
+LOCATION:203 65
+DESCRIPTION:Wprowadzenie do systemów operacyjnych i rozwiązań chmurowyc
+ h\nRodzaj: wykład\nProwadzący: Laszko Łukasz\nNr zajęć: 3/4\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:a1ae8f28440e757b5a88ef77@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261121T095000
+DTEND;TZID=Europe/Warsaw:20261121T112500
+SUMMARY:BAS (w)
+LOCATION:203 65
+DESCRIPTION:Budowa i administrowanie sieciami\nRodzaj: wykład\nProwadząc
+ y: Malinowski Tomasz\nNr zajęć: 4/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5da31119c4f8d1a2f5508eae@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261121T114000
+DTEND;TZID=Europe/Warsaw:20261121T131500
+SUMMARY:BAS (w)
+LOCATION:203 65
+DESCRIPTION:Budowa i administrowanie sieciami\nRodzaj: wykład\nProwadząc
+ y: Malinowski Tomasz\nNr zajęć: 5/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:56e3119cff770941f655cb1a@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261121T133000
+DTEND;TZID=Europe/Warsaw:20261121T150500
+SUMMARY:PY1 (w)
+LOCATION:308 S
+DESCRIPTION:Programowanie w języku Python\nRodzaj: wykład\nProwadzący: 
+ Zimoń Michał\nNr zajęć: 3/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:bf9916487435d14e14c34b83@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261121T152000
+DTEND;TZID=Europe/Warsaw:20261121T165500
+SUMMARY:PY1 (L)
+LOCATION:228 S
+DESCRIPTION:Programowanie w języku Python\nRodzaj: laboratorium\nProwadz
+ ący: Zimoń Michał\nNr zajęć: 1/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:1aac69a02243f08a29d8ccdf@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261121T171000
+DTEND;TZID=Europe/Warsaw:20261121T184500
+SUMMARY:PY1 (L)
+LOCATION:228 S
+DESCRIPTION:Programowanie w języku Python\nRodzaj: laboratorium\nProwadz
+ ący: Zimoń Michał\nNr zajęć: 2/10\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:9b4a0240ad985cf8c5ab7aa0@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261122T080000
+DTEND;TZID=Europe/Warsaw:20261122T093500
+SUMMARY:PK. (L)
+LOCATION:218 65
+DESCRIPTION:Podstawy kryptografii\nRodzaj: laboratorium\nProwadzący: Bora
+  Piotr\nNr zajęć: 1/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:294e1d35bc122605fc55b206@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261122T095000
+DTEND;TZID=Europe/Warsaw:20261122T112500
+SUMMARY:PK. (L)
+LOCATION:218 65
+DESCRIPTION:Podstawy kryptografii\nRodzaj: laboratorium\nProwadzący: Bora
+  Piotr\nNr zajęć: 2/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f87929bbd9b49ff190a6a5b7@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261122T114000
+DTEND;TZID=Europe/Warsaw:20261122T131500
+SUMMARY:BAS (L)
+LOCATION:125 65
+DESCRIPTION:Budowa i administrowanie sieciami\nRodzaj: laboratorium\nProwa
+ dzący: Głębocki Paweł\nNr zajęć: 1/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d6e1cb1072a81ec6e84fda54@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261122T133000
+DTEND;TZID=Europe/Warsaw:20261122T150500
+SUMMARY:BAS (L)
+LOCATION:125 65
+DESCRIPTION:Budowa i administrowanie sieciami\nRodzaj: laboratorium\nProwa
+ dzący: Głębocki Paweł\nNr zajęć: 2/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c90c2767e6063d9a3b1daa36@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261205T080000
+DTEND;TZID=Europe/Warsaw:20261205T093500
+SUMMARY:WSO (w)
+LOCATION:203 65
+DESCRIPTION:Wprowadzenie do systemów operacyjnych i rozwiązań chmurowyc
+ h\nRodzaj: wykład\nProwadzący: Laszko Łukasz\nNr zajęć: 4/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1708ab40357533d2317eb48c@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261205T095000
+DTEND;TZID=Europe/Warsaw:20261205T112500
+SUMMARY:BAS (L)
+LOCATION:125 65
+DESCRIPTION:Budowa i administrowanie sieciami\nRodzaj: laboratorium\nProwa
+ dzący: Głębocki Paweł\nNr zajęć: 3/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d3cf0fd2cb927c36fc4fb45b@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261205T114000
+DTEND;TZID=Europe/Warsaw:20261205T131500
+SUMMARY:BAS (L)
+LOCATION:125 65
+DESCRIPTION:Budowa i administrowanie sieciami\nRodzaj: laboratorium\nProwa
+ dzący: Głębocki Paweł\nNr zajęć: 4/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ba7fb4cb806b6c9ac94366fc@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261205T133000
+DTEND;TZID=Europe/Warsaw:20261205T150500
+SUMMARY:PK. (L)
+LOCATION:085 S
+DESCRIPTION:Podstawy kryptografii\nRodzaj: laboratorium\nProwadzący: Bora
+  Piotr\nNr zajęć: 3/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1f184b554af2d535f4642cce@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261205T152000
+DTEND;TZID=Europe/Warsaw:20261205T165500
+SUMMARY:PK. (L)
+LOCATION:085 S
+DESCRIPTION:Podstawy kryptografii\nRodzaj: laboratorium\nProwadzący: Bora
+  Piotr\nNr zajęć: 4/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:67a2724eb9fd252ff4af5471@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261206T080000
+DTEND;TZID=Europe/Warsaw:20261206T093500
+SUMMARY:WSO (L)
+LOCATION:121 65
+DESCRIPTION:Wprowadzenie do systemów operacyjnych i rozwiązań chmurowyc
+ h\nRodzaj: laboratorium\nProwadzący: Laszko Łukasz\nNr zajęć: 1/8\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1630cb3ce62a468ce5e29988@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261206T095000
+DTEND;TZID=Europe/Warsaw:20261206T112500
+SUMMARY:PY1 (L)
+LOCATION:228 S
+DESCRIPTION:Programowanie w języku Python\nRodzaj: laboratorium\nProwadz
+ ący: Zimoń Michał\nNr zajęć: 3/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:039d4b14715ceba7b9b43782@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261206T114000
+DTEND;TZID=Europe/Warsaw:20261206T131500
+SUMMARY:PY1 (L)
+LOCATION:228 S
+DESCRIPTION:Programowanie w języku Python\nRodzaj: laboratorium\nProwadz
+ ący: Zimoń Michał\nNr zajęć: 4/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:54bbc6e548e1d606aec6cad9@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261206T133000
+DTEND;TZID=Europe/Warsaw:20261206T150500
+SUMMARY:BAS (L)
+LOCATION:125 65
+DESCRIPTION:Budowa i administrowanie sieciami\nRodzaj: laboratorium\nProwa
+ dzący: Głębocki Paweł\nNr zajęć: 5/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:92b6f2aae01413976b36575d@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261206T152000
+DTEND;TZID=Europe/Warsaw:20261206T165500
+SUMMARY:BAS (L)
+LOCATION:125 65
+DESCRIPTION:Budowa i administrowanie sieciami\nRodzaj: laboratorium\nProwa
+ dzący: Głębocki Paweł\nNr zajęć: 6/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:2ebff2a67f5329ee6067ef2e@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261212T080000
+DTEND;TZID=Europe/Warsaw:20261212T093500
+SUMMARY:PY1 (w)
+LOCATION:307 S
+DESCRIPTION:Programowanie w języku Python\nRodzaj: wykład\nProwadzący: 
+ Zimoń Michał\nNr zajęć: 4/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2becde7d18e135cdcb2c67f2@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261212T095000
+DTEND;TZID=Europe/Warsaw:20261212T112500
+SUMMARY:PY1 (w)
+LOCATION:307 S
+DESCRIPTION:Programowanie w języku Python\nRodzaj: wykład\nProwadzący: 
+ Zimoń Michał\nNr zajęć: 5/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8bd4591ba27386f59f149de4@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261212T114000
+DTEND;TZID=Europe/Warsaw:20261212T131500
+SUMMARY:BAS (L)
+LOCATION:125 65
+DESCRIPTION:Budowa i administrowanie sieciami\nRodzaj: laboratorium\nProwa
+ dzący: Głębocki Paweł\nNr zajęć: 7/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:dda4719cc20242b501ff5626@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261212T133000
+DTEND;TZID=Europe/Warsaw:20261212T150500
+SUMMARY:PK. (L)
+LOCATION:219 65
+DESCRIPTION:Podstawy kryptografii\nRodzaj: laboratorium\nProwadzący: Bora
+  Piotr\nNr zajęć: 5/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1f7978330dd1bd0acaf165b0@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261213T080000
+DTEND;TZID=Europe/Warsaw:20261213T093500
+SUMMARY:BAS (L)
+LOCATION:121 65
+DESCRIPTION:Budowa i administrowanie sieciami\nRodzaj: laboratorium\nProwa
+ dzący: Głębocki Paweł\nNr zajęć: 8/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:51ec4bc1b139f1300e78fd6d@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261213T095000
+DTEND;TZID=Europe/Warsaw:20261213T112500
+SUMMARY:BAS (L)
+LOCATION:121 65
+DESCRIPTION:Budowa i administrowanie sieciami\nRodzaj: laboratorium\nProwa
+ dzący: Głębocki Paweł\nNr zajęć: 9/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:dbb6d8832ef6e76d4322dfe7@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261213T114000
+DTEND;TZID=Europe/Warsaw:20261213T131500
+SUMMARY:BAS (L)
+LOCATION:121 65
+DESCRIPTION:Budowa i administrowanie sieciami\nRodzaj: laboratorium\nProwa
+ dzący: Głębocki Paweł\nNr zajęć: 10/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1b67d777aae5d75e090700ad@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261213T133000
+DTEND;TZID=Europe/Warsaw:20261213T150500
+SUMMARY:PK. (L)
+LOCATION:218 65
+DESCRIPTION:Podstawy kryptografii\nRodzaj: laboratorium\nProwadzący: Bora
+  Piotr\nNr zajęć: 6/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:adcfb63b539c5364ee43bd37@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261213T152000
+DTEND;TZID=Europe/Warsaw:20261213T165500
+SUMMARY:WSO (L)
+LOCATION:121 65
+DESCRIPTION:Wprowadzenie do systemów operacyjnych i rozwiązań chmurowyc
+ h\nRodzaj: laboratorium\nProwadzący: Laszko Łukasz\nNr zajęć: 2/8\nBl
+ ok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:642c3f62d395d1680b8a9ca5@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261213T171000
+DTEND;TZID=Europe/Warsaw:20261213T184500
+SUMMARY:WSO (L)
+LOCATION:121 65
+DESCRIPTION:Wprowadzenie do systemów operacyjnych i rozwiązań chmurowyc
+ h\nRodzaj: laboratorium\nProwadzący: Laszko Łukasz\nNr zajęć: 3/8\nBl
+ ok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:80319f76cc2dcc894653e361@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270109T080000
+DTEND;TZID=Europe/Warsaw:20270109T093500
+SUMMARY:PK. (w)
+LOCATION:203 65
+DESCRIPTION:Podstawy kryptografii\nRodzaj: wykład\nProwadzący: Bora Piot
+ r\nNr zajęć: 4/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ff299c50bf417dfe4a98ff9c@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270109T095000
+DTEND;TZID=Europe/Warsaw:20270109T112500
+SUMMARY:BAS (w)
+LOCATION:203 65
+DESCRIPTION:Budowa i administrowanie sieciami\nRodzaj: wykład\nProwadząc
+ y: Malinowski Tomasz\nNr zajęć: 6/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:54e74c8443e5f6d4542c1e04@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270109T114000
+DTEND;TZID=Europe/Warsaw:20270109T131500
+SUMMARY:BAS (w)
+LOCATION:203 65
+DESCRIPTION:Budowa i administrowanie sieciami\nRodzaj: wykład\nProwadząc
+ y: Malinowski Tomasz\nNr zajęć: 7/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8e6015b3a7612d596e4c7aae@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270109T133000
+DTEND;TZID=Europe/Warsaw:20270109T150500
+SUMMARY:WSO (L)
+LOCATION:121 65
+DESCRIPTION:Wprowadzenie do systemów operacyjnych i rozwiązań chmurowyc
+ h\nRodzaj: laboratorium\nProwadzący: Laszko Łukasz\nNr zajęć: 4/8\nBl
+ ok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f01c30ec2eeaceae716d5c41@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270109T152000
+DTEND;TZID=Europe/Warsaw:20270109T165500
+SUMMARY:PY1 (L)
+LOCATION:228 S
+DESCRIPTION:Programowanie w języku Python\nRodzaj: laboratorium\nProwadz
+ ący: Zimoń Michał\nNr zajęć: 5/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:020ed16bcf0f28f9765066db@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270110T080000
+DTEND;TZID=Europe/Warsaw:20270110T093500
+SUMMARY:PY1 (L)
+LOCATION:228 S
+DESCRIPTION:Programowanie w języku Python\nRodzaj: laboratorium\nProwadz
+ ący: Zimoń Michał\nNr zajęć: 6/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:931067f1ed6d8fba3614cb5f@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270110T095000
+DTEND;TZID=Europe/Warsaw:20270110T112500
+SUMMARY:PY1 (L)
+LOCATION:228 S
+DESCRIPTION:Programowanie w języku Python\nRodzaj: laboratorium\nProwadz
+ ący: Zimoń Michał\nNr zajęć: 7/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:dca9bd47e9cee179a1ff1dd0@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270110T114000
+DTEND;TZID=Europe/Warsaw:20270110T131500
+SUMMARY:BAS (L)
+LOCATION:125 65
+DESCRIPTION:Budowa i administrowanie sieciami\nRodzaj: laboratorium\nProwa
+ dzący: Głębocki Paweł\nNr zajęć: 11/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c7254e8e93b028d730c3278c@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270110T133000
+DTEND;TZID=Europe/Warsaw:20270110T150500
+SUMMARY:WSO (L)
+LOCATION:121 65
+DESCRIPTION:Wprowadzenie do systemów operacyjnych i rozwiązań chmurowyc
+ h\nRodzaj: laboratorium\nProwadzący: Laszko Łukasz\nNr zajęć: 5/8\nBl
+ ok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0723efce28df160c5020a131@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270123T080000
+DTEND;TZID=Europe/Warsaw:20270123T093500
+SUMMARY:PK. (w)
+LOCATION:203 65
+DESCRIPTION:Podstawy kryptografii\nRodzaj: wykład\nProwadzący: Bora Piot
+ r\nNr zajęć: 5/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:872bc961126db17173bde580@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270123T095000
+DTEND;TZID=Europe/Warsaw:20270123T112500
+SUMMARY:PY1 (L)
+LOCATION:233 S
+DESCRIPTION:Programowanie w języku Python\nRodzaj: laboratorium\nProwadz
+ ący: Zimoń Michał\nNr zajęć: 8/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f53af0dac745b687c2dc2d47@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270123T114000
+DTEND;TZID=Europe/Warsaw:20270123T131500
+SUMMARY:PY1 (L)
+LOCATION:233 S
+DESCRIPTION:Programowanie w języku Python\nRodzaj: laboratorium\nProwadz
+ ący: Zimoń Michał\nNr zajęć: 9/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5c727a02593821f5d788fae6@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270123T133000
+DTEND;TZID=Europe/Warsaw:20270123T150500
+SUMMARY:BAS (L)
+LOCATION:125 65
+DESCRIPTION:Budowa i administrowanie sieciami\nRodzaj: laboratorium\nProwa
+ dzący: Głębocki Paweł\nNr zajęć: 12/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:de0f8a6757b7b6b89356c7e6@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270123T152000
+DTEND;TZID=Europe/Warsaw:20270123T165500
+SUMMARY:BAS (L)
+LOCATION:125 65
+DESCRIPTION:Budowa i administrowanie sieciami\nRodzaj: laboratorium\nProwa
+ dzący: Głębocki Paweł\nNr zajęć: 13/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:7e0a593e662d35190329dfdd@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270123T171000
+DTEND;TZID=Europe/Warsaw:20270123T184500
+SUMMARY:WSO (L)
+LOCATION:121 65
+DESCRIPTION:Wprowadzenie do systemów operacyjnych i rozwiązań chmurowyc
+ h\nRodzaj: laboratorium\nProwadzący: Laszko Łukasz\nNr zajęć: 6/8\nBl
+ ok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:75c3e516be89aa2f5819e76a@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270124T080000
+DTEND;TZID=Europe/Warsaw:20270124T093500
+SUMMARY:PY1 (L)
+LOCATION:228 S
+DESCRIPTION:Programowanie w języku Python\nRodzaj: laboratorium\nProwadz
+ ący: Zimoń Michał\nNr zajęć: 10/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8345997333fe22e00760162a@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270124T095000
+DTEND;TZID=Europe/Warsaw:20270124T112500
+SUMMARY:WSO (L)
+LOCATION:121 65
+DESCRIPTION:Wprowadzenie do systemów operacyjnych i rozwiązań chmurowyc
+ h\nRodzaj: laboratorium\nProwadzący: Laszko Łukasz\nNr zajęć: 7/8\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d9d17aafdb649e89ea88972a@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270124T114000
+DTEND;TZID=Europe/Warsaw:20270124T131500
+SUMMARY:WSO (L)
+LOCATION:121 65
+DESCRIPTION:Wprowadzenie do systemów operacyjnych i rozwiązań chmurowyc
+ h\nRodzaj: laboratorium\nProwadzący: Laszko Łukasz\nNr zajęć: 8/8\nBl
+ ok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d5804f3bc29a9c3c9a9fc016@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270124T133000
+DTEND;TZID=Europe/Warsaw:20270124T150500
+SUMMARY:BAS (L)
+LOCATION:125 65
+DESCRIPTION:Budowa i administrowanie sieciami\nRodzaj: laboratorium\nProwa
+ dzący: Głębocki Paweł\nNr zajęć: 14/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:907ee694c859370dfb1e6fc2@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270124T152000
+DTEND;TZID=Europe/Warsaw:20270124T165500
+SUMMARY:BAS (L)
+LOCATION:125 65
+DESCRIPTION:Budowa i administrowanie sieciami\nRodzaj: laboratorium\nProwa
+ dzący: Głębocki Paweł\nNr zajęć: 15/15\nBlok: 5
+END:VEVENT
+END:VCALENDAR

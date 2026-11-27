@@ -1,0 +1,2024 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WMT24ST1S1
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:7e883bc1f798a8772d71aea5@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261005T114000
+DTEND;TZID=Europe/Warsaw:20261005T131500
+SUMMARY:Pib (w)
+LOCATION:9 67
+DESCRIPTION:Podstawy inżynierii bezpieczeństwa\nRodzaj: wykład\nProwadz
+ ący: ppłk dr inż. Jasztal Michał\nNr zajęć: 1/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f6b03028837a9bc4531cbf39@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261005T133000
+DTEND;TZID=Europe/Warsaw:20261005T150500
+SUMMARY:Zbez (w)
+LOCATION:P 66
+DESCRIPTION:Zarządzanie bezpieczeństwem\nRodzaj: wykład\nProwadzący: d
+ r inż. Jaskółowski Waldemar\nNr zajęć: 1/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:29e4d231ba8025809b16bfa4@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261006T095000
+DTEND;TZID=Europe/Warsaw:20261006T112500
+SUMMARY:Js (w)
+LOCATION:S3 72
+DESCRIPTION:Jakość systemów\nRodzaj: wykład\nProwadzący: dr hab. inż
+ . Grzesik Norbert\nNr zajęć: 1/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e2407521dfeb298ea7c21d1a@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261006T114000
+DTEND;TZID=Europe/Warsaw:20261006T131500
+SUMMARY:Wwi (w)
+LOCATION:109 24
+DESCRIPTION:Wytwarzanie\, wykrywanie i identyfikacja materiałów niebezpi
+ ecznych\nRodzaj: wykład\nProwadzący: dr inż. Szulc Jarosław\nNr zaję
+ ć: 1/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1ff14bdeaf4d6ed1252eeaa3@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261008T080000
+DTEND;TZID=Europe/Warsaw:20261008T093500
+SUMMARY:Wwi (w)
+LOCATION:109 24
+DESCRIPTION:Wytwarzanie\, wykrywanie i identyfikacja materiałów niebezpi
+ ecznych\nRodzaj: wykład\nProwadzący: dr inż. Szulc Jarosław\nNr zaję
+ ć: 2/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:43daa63ef2d27572f99a7e49@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261008T095000
+DTEND;TZID=Europe/Warsaw:20261008T112500
+SUMMARY:Maszy (w)
+LOCATION:9 67
+DESCRIPTION:Maszynoznastwo\nRodzaj: wykład\nProwadzący: ppłk dr inż. J
+ asztal Michał\nNr zajęć: 1/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d40772ede7bae02fa21579dc@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261008T114000
+DTEND;TZID=Europe/Warsaw:20261008T131500
+SUMMARY:Zbez (w)
+LOCATION:P 66
+DESCRIPTION:Zarządzanie bezpieczeństwem\nRodzaj: wykład\nProwadzący: d
+ r inż. Jaskółowski Waldemar\nNr zajęć: 2/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ad23ba2710a01842a4394da0@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261012T114000
+DTEND;TZID=Europe/Warsaw:20261012T131500
+SUMMARY:Pib (w)
+LOCATION:9 67
+DESCRIPTION:Podstawy inżynierii bezpieczeństwa\nRodzaj: wykład\nProwadz
+ ący: ppłk dr inż. Jasztal Michał\nNr zajęć: 2/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a83861559e9c4ff198bca857@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261012T133000
+DTEND;TZID=Europe/Warsaw:20261012T150500
+SUMMARY:Zbez (w)
+LOCATION:P 66
+DESCRIPTION:Zarządzanie bezpieczeństwem\nRodzaj: wykład\nProwadzący: d
+ r inż. Jaskółowski Waldemar\nNr zajęć: 3/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7821a973f592f875d7c65548@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261013T095000
+DTEND;TZID=Europe/Warsaw:20261013T112500
+SUMMARY:Js (w)
+LOCATION:S3 72
+DESCRIPTION:Jakość systemów\nRodzaj: wykład\nProwadzący: dr hab. inż
+ . Grzesik Norbert\nNr zajęć: 2/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a362435dd69a24dffbf26052@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261013T114000
+DTEND;TZID=Europe/Warsaw:20261013T131500
+SUMMARY:Wwi (w)
+LOCATION:109 24
+DESCRIPTION:Wytwarzanie\, wykrywanie i identyfikacja materiałów niebezpi
+ ecznych\nRodzaj: wykład\nProwadzący: dr inż. Szulc Jarosław\nNr zaję
+ ć: 3/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ccf7950c725ee831545cbdf9@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261014T114000
+DTEND;TZID=Europe/Warsaw:20261014T131500
+SUMMARY:Tzt (w)
+LOCATION:43 67
+DESCRIPTION:Teoria zagrożenia tech. i bezpieczeństwa tech.\nRodzaj: wyk
+ ład\nProwadzący: dr inż. Stępień Sławomir\nNr zajęć: 1/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4b6c4a706a76fbb5321c8ed4@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261014T133000
+DTEND;TZID=Europe/Warsaw:20261014T150500
+SUMMARY:Wwi (w)
+LOCATION:109 24
+DESCRIPTION:Wytwarzanie\, wykrywanie i identyfikacja materiałów niebezpi
+ ecznych\nRodzaj: wykład\nProwadzący: dr inż. Szulc Jarosław\nNr zaję
+ ć: 4/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6ffa59b885a415b454bb5049@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261015T080000
+DTEND;TZID=Europe/Warsaw:20261015T093500
+SUMMARY:Wwi (w)
+LOCATION:109 24
+DESCRIPTION:Wytwarzanie\, wykrywanie i identyfikacja materiałów niebezpi
+ ecznych\nRodzaj: wykład\nProwadzący: dr inż. Szulc Jarosław\nNr zaję
+ ć: 5/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7bfc7df74a3e0f605ff698ea@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261015T095000
+DTEND;TZID=Europe/Warsaw:20261015T112500
+SUMMARY:Maszy (w)
+LOCATION:136 36
+DESCRIPTION:Maszynoznastwo\nRodzaj: wykład\nProwadzący: dr inż. Ważny 
+ Mariusz\nNr zajęć: 2/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:16c2f394886f8bed67871a38@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261015T114000
+DTEND;TZID=Europe/Warsaw:20261015T131500
+SUMMARY:Mp (w)
+LOCATION:9 67
+DESCRIPTION:Mechanika płynów\nRodzaj: wykład\nProwadzący: dr inż. Fra
+ nt Michał\nNr zajęć: 1/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:69fccb88acdecf369699ecef@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261015T133000
+DTEND;TZID=Europe/Warsaw:20261015T150500
+SUMMARY:Opni (w)
+LOCATION:24 67
+DESCRIPTION:Obiekty potencjalnie niebezpieczne\nRodzaj: wykład\nProwadzą
+ cy: dr hab. inż. Papliński Andrzej\nNr zajęć: 1/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d1df8e302f7d6bb8f81f4e2b@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261016T114000
+DTEND;TZID=Europe/Warsaw:20261016T131500
+SUMMARY:Tzt (w)
+LOCATION:43 67
+DESCRIPTION:Teoria zagrożenia tech. i bezpieczeństwa tech.\nRodzaj: wyk
+ ład\nProwadzący: dr inż. Stępień Sławomir\nNr zajęć: 2/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:39b9c91dd3fd3007cc78e882@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261019T095000
+DTEND;TZID=Europe/Warsaw:20261019T112500
+SUMMARY:Pib (w)
+LOCATION:9 67
+DESCRIPTION:Podstawy inżynierii bezpieczeństwa\nRodzaj: wykład\nProwadz
+ ący: ppłk dr inż. Jasztal Michał\nNr zajęć: 3/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:81ed26c154f8083f80f76b1b@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261019T133000
+DTEND;TZID=Europe/Warsaw:20261019T150500
+SUMMARY:Wwi (w)
+LOCATION:109 24
+DESCRIPTION:Wytwarzanie\, wykrywanie i identyfikacja materiałów niebezpi
+ ecznych\nRodzaj: wykład\nProwadzący: dr inż. Szulc Jarosław\nNr zaję
+ ć: 6/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f34fd7da27e2b453d072f489@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261019T160000
+DTEND;TZID=Europe/Warsaw:20261019T173500
+SUMMARY:Zbez (ć)
+LOCATION:P 66
+DESCRIPTION:Zarządzanie bezpieczeństwem\nRodzaj: ćwiczenia\nProwadzący
+ : dr inż. Jaskółowski Waldemar\nNr zajęć: 1/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:c1042ce23c545937c2a4ecc9@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261020T095000
+DTEND;TZID=Europe/Warsaw:20261020T112500
+SUMMARY:Js (w)
+LOCATION:S3 72
+DESCRIPTION:Jakość systemów\nRodzaj: wykład\nProwadzący: dr hab. inż
+ . Grzesik Norbert\nNr zajęć: 3/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:22401ebfcc3ba5eed53cc65e@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261020T114000
+DTEND;TZID=Europe/Warsaw:20261020T131500
+SUMMARY:Maszy (L)
+LOCATION:141 36
+DESCRIPTION:Maszynoznastwo\nRodzaj: laboratorium\nProwadzący: mgr inż. J
+ anczewski Mariusz\nNr zajęć: 1/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:26b27cfdcfed4963be196c93@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261020T133000
+DTEND;TZID=Europe/Warsaw:20261020T150500
+SUMMARY:Maszy (L)
+LOCATION:141 36
+DESCRIPTION:Maszynoznastwo\nRodzaj: laboratorium\nProwadzący: mgr inż. J
+ anczewski Mariusz\nNr zajęć: 2/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:46ffedf7360d16e7f47051a6@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261020T160000
+DTEND;TZID=Europe/Warsaw:20261020T173500
+SUMMARY:Opni (ć)
+LOCATION:24 67
+DESCRIPTION:Obiekty potencjalnie niebezpieczne\nRodzaj: ćwiczenia\nProwad
+ zący: mgr inż. Kowalski Maciej\nNr zajęć: 1/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:2f6681983f89f8d604135374@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261021T095000
+DTEND;TZID=Europe/Warsaw:20261021T112500
+SUMMARY:Tzt (w)
+LOCATION:43 67
+DESCRIPTION:Teoria zagrożenia tech. i bezpieczeństwa tech.\nRodzaj: wyk
+ ład\nProwadzący: dr inż. Stępień Sławomir\nNr zajęć: 3/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d5d5bd94a47237f230c52056@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261022T080000
+DTEND;TZID=Europe/Warsaw:20261022T093500
+SUMMARY:Zbez (w)
+LOCATION:P 66
+DESCRIPTION:Zarządzanie bezpieczeństwem\nRodzaj: wykład\nProwadzący: d
+ r inż. Jaskółowski Waldemar\nNr zajęć: 4/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4548d0eea69ee1232c537c62@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261022T095000
+DTEND;TZID=Europe/Warsaw:20261022T112500
+SUMMARY:Maszy (w)
+LOCATION:9 67
+DESCRIPTION:Maszynoznastwo\nRodzaj: wykład\nProwadzący: dr inż. Omen Ł
+ ukasz\nNr zajęć: 3/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9996ce12b4a92cb2714138bf@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261022T133000
+DTEND;TZID=Europe/Warsaw:20261022T150500
+SUMMARY:Wwi (ć)
+LOCATION:109 24
+DESCRIPTION:Wytwarzanie\, wykrywanie i identyfikacja materiałów niebezpi
+ ecznych\nRodzaj: ćwiczenia\nProwadzący: dr inż. Szulc Jarosław\nNr za
+ jęć: 1/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:355c6463ba79ecb00663db56@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261023T080000
+DTEND;TZID=Europe/Warsaw:20261023T093500
+SUMMARY:Mp (ć)
+LOCATION:24 67
+DESCRIPTION:Mechanika płynów\nRodzaj: ćwiczenia\nProwadzący: mgr inż.
+  Misiak Zawadzka Aneta\nNr zajęć: 1/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:73737465f998ad4a630bd46a@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261023T114000
+DTEND;TZID=Europe/Warsaw:20261023T131500
+SUMMARY:Pib (ć)
+LOCATION:S1 72
+DESCRIPTION:Podstawy inżynierii bezpieczeństwa\nRodzaj: ćwiczenia\nProw
+ adzący: dr inż. Omen Łukasz\nNr zajęć: 1/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c42a4aba1947a385601653d5@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261023T133000
+DTEND;TZID=Europe/Warsaw:20261023T150500
+SUMMARY:Tzt (ć)
+LOCATION:43 67
+DESCRIPTION:Teoria zagrożenia tech. i bezpieczeństwa tech.\nRodzaj: ćwi
+ czenia\nProwadzący: dr inż. Stępień Sławomir\nNr zajęć: 1/7\nBlok:
+  4
+END:VEVENT
+BEGIN:VEVENT
+UID:cc971a36ac864c17bc3f5879@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261026T114000
+DTEND;TZID=Europe/Warsaw:20261026T131500
+SUMMARY:Pib (w)
+LOCATION:9 67
+DESCRIPTION:Podstawy inżynierii bezpieczeństwa\nRodzaj: wykład\nProwadz
+ ący: ppłk dr inż. Jasztal Michał\nNr zajęć: 4/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8b017fbc18e23bad45a70229@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261026T133000
+DTEND;TZID=Europe/Warsaw:20261026T150500
+SUMMARY:Zbez (w)
+LOCATION:P 66
+DESCRIPTION:Zarządzanie bezpieczeństwem\nRodzaj: wykład\nProwadzący: d
+ r inż. Jaskółowski Waldemar\nNr zajęć: 5/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b2bd33c1fa2a91da1ef2c3b0@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261026T160000
+DTEND;TZID=Europe/Warsaw:20261026T173500
+SUMMARY:Maszy (ć)
+LOCATION:24 67
+DESCRIPTION:Maszynoznastwo\nRodzaj: ćwiczenia\nProwadzący: dr inż. Waż
+ ny Mariusz\nNr zajęć: 1/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:3ff5f06f4c9cc6fcf0ddc3fd@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261027T080000
+DTEND;TZID=Europe/Warsaw:20261027T093500
+SUMMARY:Js (ć)
+LOCATION:24 67
+DESCRIPTION:Jakość systemów\nRodzaj: ćwiczenia\nProwadzący: dr hab. i
+ nż. Grzesik Norbert\nNr zajęć: 1/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:86d78861f00c26dccae0aa45@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261027T095000
+DTEND;TZID=Europe/Warsaw:20261027T112500
+SUMMARY:Js (w)
+LOCATION:S3 72
+DESCRIPTION:Jakość systemów\nRodzaj: wykład\nProwadzący: dr hab. inż
+ . Grzesik Norbert\nNr zajęć: 4/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:46e7ab076994130fae332e5f@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261028T095000
+DTEND;TZID=Europe/Warsaw:20261028T112500
+SUMMARY:Tzt (w)
+LOCATION:43 67
+DESCRIPTION:Teoria zagrożenia tech. i bezpieczeństwa tech.\nRodzaj: wyk
+ ład\nProwadzący: dr inż. Stępień Sławomir\nNr zajęć: 4/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b70504d449d566760e0a4056@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261028T133000
+DTEND;TZID=Europe/Warsaw:20261028T150500
+SUMMARY:Wwi (ć)
+LOCATION:109 24
+DESCRIPTION:Wytwarzanie\, wykrywanie i identyfikacja materiałów niebezpi
+ ecznych\nRodzaj: ćwiczenia\nProwadzący: dr inż. Szulc Jarosław\nNr za
+ jęć: 2/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ecc4133de0e175a7592a5ad8@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261029T080000
+DTEND;TZID=Europe/Warsaw:20261029T093500
+SUMMARY:Wwi (w)
+LOCATION:109 24
+DESCRIPTION:Wytwarzanie\, wykrywanie i identyfikacja materiałów niebezpi
+ ecznych\nRodzaj: wykład\nProwadzący: dr inż. Szulc Jarosław\nNr zaję
+ ć: 7/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:44c7de46b962defa1e456d64@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261029T095000
+DTEND;TZID=Europe/Warsaw:20261029T112500
+SUMMARY:Maszy (w)
+LOCATION:9 67
+DESCRIPTION:Maszynoznastwo\nRodzaj: wykład\nProwadzący: dr inż. Omen Ł
+ ukasz\nNr zajęć: 4/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:818481e1d26a069141a35e89@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261029T114000
+DTEND;TZID=Europe/Warsaw:20261029T131500
+SUMMARY:Mp (w)
+LOCATION:9 67
+DESCRIPTION:Mechanika płynów\nRodzaj: wykład\nProwadzący: dr inż. Fra
+ nt Michał\nNr zajęć: 2/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6f0ebaa7dc322816f161f3a0@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261030T114000
+DTEND;TZID=Europe/Warsaw:20261030T131500
+SUMMARY:Tzt (w)
+LOCATION:43 67
+DESCRIPTION:Teoria zagrożenia tech. i bezpieczeństwa tech.\nRodzaj: wyk
+ ład\nProwadzący: dr inż. Stępień Sławomir\nNr zajęć: 5/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:422eeb592e0348de4c83d11c@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261030T133000
+DTEND;TZID=Europe/Warsaw:20261030T150500
+SUMMARY:Tzt (ć)
+LOCATION:43 67
+DESCRIPTION:Teoria zagrożenia tech. i bezpieczeństwa tech.\nRodzaj: ćwi
+ czenia\nProwadzący: dr inż. Stępień Sławomir\nNr zajęć: 2/7\nBlok:
+  4
+END:VEVENT
+BEGIN:VEVENT
+UID:c3d8b29e910d3118e520908a@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261102T080000
+DTEND;TZID=Europe/Warsaw:20261102T093500
+SUMMARY:Opni (w)
+LOCATION:34 67
+DESCRIPTION:Obiekty potencjalnie niebezpieczne\nRodzaj: wykład\nProwadzą
+ cy: dr hab. inż. Papliński Andrzej\nNr zajęć: 2/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6630df8d6a2979aa41e1ddde@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261102T114000
+DTEND;TZID=Europe/Warsaw:20261102T131500
+SUMMARY:Pib (w)
+LOCATION:9 67
+DESCRIPTION:Podstawy inżynierii bezpieczeństwa\nRodzaj: wykład\nProwadz
+ ący: ppłk dr inż. Jasztal Michał\nNr zajęć: 5/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:657104bb0e6bbe5c2e82b4f7@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261102T133000
+DTEND;TZID=Europe/Warsaw:20261102T150500
+SUMMARY:Wwi (w)
+LOCATION:109 24
+DESCRIPTION:Wytwarzanie\, wykrywanie i identyfikacja materiałów niebezpi
+ ecznych\nRodzaj: wykład\nProwadzący: dr inż. Szulc Jarosław\nNr zaję
+ ć: 8/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b12eb862a2a9d813ce62f9a3@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261103T080000
+DTEND;TZID=Europe/Warsaw:20261103T093500
+SUMMARY:Zbez (ć)
+LOCATION:P 66
+DESCRIPTION:Zarządzanie bezpieczeństwem\nRodzaj: ćwiczenia\nProwadzący
+ : dr inż. Jaskółowski Waldemar\nNr zajęć: 2/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0f8428664f591d122e7d1f5e@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261103T095000
+DTEND;TZID=Europe/Warsaw:20261103T112500
+SUMMARY:Js (w)
+LOCATION:S3 72
+DESCRIPTION:Jakość systemów\nRodzaj: wykład\nProwadzący: dr hab. inż
+ . Grzesik Norbert\nNr zajęć: 5/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d3b749999f8031768892f063@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261103T133000
+DTEND;TZID=Europe/Warsaw:20261103T150500
+SUMMARY:Pib (w)
+LOCATION:9 67
+DESCRIPTION:Podstawy inżynierii bezpieczeństwa\nRodzaj: wykład\nProwadz
+ ący: ppłk dr inż. Jasztal Michał\nNr zajęć: 6/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ec8f17a82386f16c806df4e9@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261104T080000
+DTEND;TZID=Europe/Warsaw:20261104T093500
+SUMMARY:Opni (ć)
+LOCATION:34 67
+DESCRIPTION:Obiekty potencjalnie niebezpieczne\nRodzaj: ćwiczenia\nProwad
+ zący: dr hab. inż. Papliński Andrzej\nNr zajęć: 2/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f72418a08176774a15462477@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261104T095000
+DTEND;TZID=Europe/Warsaw:20261104T112500
+SUMMARY:Maszy (L)
+LOCATION:8 72
+DESCRIPTION:Maszynoznastwo\nRodzaj: laboratorium\nProwadzący: dr inż. Om
+ en Łukasz\nNr zajęć: 3/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c20fe02f8d5563bacecf6143@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261104T114000
+DTEND;TZID=Europe/Warsaw:20261104T131500
+SUMMARY:Maszy (w)
+LOCATION:S3 72
+DESCRIPTION:Maszynoznastwo\nRodzaj: wykład\nProwadzący: prof.dr hab.inż
+ . Terpiłowski Janusz\nNr zajęć: 5/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9e1c6d35baea1e4f20b1b0d5@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261104T133000
+DTEND;TZID=Europe/Warsaw:20261104T150500
+SUMMARY:Maszy (w)
+LOCATION:S3 72
+DESCRIPTION:Maszynoznastwo\nRodzaj: wykład\nProwadzący: prof.dr hab.inż
+ . Terpiłowski Janusz\nNr zajęć: 6/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8e9a8cfed8046c05cbb5e9d6@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261105T095000
+DTEND;TZID=Europe/Warsaw:20261105T112500
+SUMMARY:Maszy (w)
+LOCATION:S3 72
+DESCRIPTION:Maszynoznastwo\nRodzaj: wykład\nProwadzący: prof.dr hab.inż
+ . Terpiłowski Janusz\nNr zajęć: 7/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:eb771bafff5ab44922e1ac80@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261105T133000
+DTEND;TZID=Europe/Warsaw:20261105T150500
+SUMMARY:Zbez (S)
+LOCATION:43 67
+DESCRIPTION:Zarządzanie bezpieczeństwem\nRodzaj: seminarium\nProwadzący
+ : dr inż. Jaskółowski Waldemar\nNr zajęć: 1/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:76e4762ff83fd4f85993b3af@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261106T114000
+DTEND;TZID=Europe/Warsaw:20261106T131500
+SUMMARY:Mp (ć)
+LOCATION:3 67
+DESCRIPTION:Mechanika płynów\nRodzaj: ćwiczenia\nProwadzący: mgr inż.
+  Misiak Zawadzka Aneta\nNr zajęć: 2/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:37b723bdf26616c0cd57ca43@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261106T133000
+DTEND;TZID=Europe/Warsaw:20261106T150500
+SUMMARY:Pib (ć)
+LOCATION:S1 72
+DESCRIPTION:Podstawy inżynierii bezpieczeństwa\nRodzaj: ćwiczenia\nProw
+ adzący: dr inż. Omen Łukasz\nNr zajęć: 2/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:fbb8ce84396c144d760eba0e@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261109T114000
+DTEND;TZID=Europe/Warsaw:20261109T131500
+SUMMARY:Pib (w)
+LOCATION:9 67
+DESCRIPTION:Podstawy inżynierii bezpieczeństwa\nRodzaj: wykład\nProwadz
+ ący: ppłk dr inż. Jasztal Michał\nNr zajęć: 7/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f6383a38871704485641965a@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261109T133000
+DTEND;TZID=Europe/Warsaw:20261109T150500
+SUMMARY:Zbez (w)
+LOCATION:P 66
+DESCRIPTION:Zarządzanie bezpieczeństwem\nRodzaj: wykład\nProwadzący: d
+ r inż. Jaskółowski Waldemar\nNr zajęć: 6/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c28a6921fc1c17a43a23c62f@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261110T080000
+DTEND;TZID=Europe/Warsaw:20261110T093500
+SUMMARY:Zbez (S)
+LOCATION:43 67
+DESCRIPTION:Zarządzanie bezpieczeństwem\nRodzaj: seminarium\nProwadzący
+ : dr inż. Jaskółowski Waldemar\nNr zajęć: 2/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8f86f43b36241dd7208e0533@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261110T095000
+DTEND;TZID=Europe/Warsaw:20261110T112500
+SUMMARY:Js (w)
+LOCATION:S3 72
+DESCRIPTION:Jakość systemów\nRodzaj: wykład\nProwadzący: dr hab. inż
+ . Grzesik Norbert\nNr zajęć: 6/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:44c3be53336a74734bb5bc51@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261110T114000
+DTEND;TZID=Europe/Warsaw:20261110T131500
+SUMMARY:Maszy (ć)
+LOCATION:8 72
+DESCRIPTION:Maszynoznastwo\nRodzaj: ćwiczenia\nProwadzący: prof.dr hab.i
+ nż. Terpiłowski Janusz\nNr zajęć: 2/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0d1b3fb0ccb0b7fbc6a30092@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261112T095000
+DTEND;TZID=Europe/Warsaw:20261112T112500
+SUMMARY:Maszy (w)
+LOCATION:S3 72
+DESCRIPTION:Maszynoznastwo\nRodzaj: wykład\nProwadzący: prof.dr hab.inż
+ . Terpiłowski Janusz\nNr zajęć: 8/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:42f102ac2cb419684cfee1e3@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261112T114000
+DTEND;TZID=Europe/Warsaw:20261112T131500
+SUMMARY:Mp (w)
+LOCATION:9 67
+DESCRIPTION:Mechanika płynów\nRodzaj: wykład\nProwadzący: dr inż. Fra
+ nt Michał\nNr zajęć: 3/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1124db9c8b0dd52aef1590b9@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261113T080000
+DTEND;TZID=Europe/Warsaw:20261113T093500
+SUMMARY:Maszy (ć)
+LOCATION:24 67
+DESCRIPTION:Maszynoznastwo\nRodzaj: ćwiczenia\nProwadzący: ppłk dr inż
+ . Jasztal Michał\nNr zajęć: 3/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:336664b39e47a0c1c33492a4@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261113T095000
+DTEND;TZID=Europe/Warsaw:20261113T112500
+SUMMARY:Mp (ć)
+LOCATION:3 67
+DESCRIPTION:Mechanika płynów\nRodzaj: ćwiczenia\nProwadzący: mgr inż.
+  Misiak Zawadzka Aneta\nNr zajęć: 3/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f61662614a71e78ea0c0236d@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261113T114000
+DTEND;TZID=Europe/Warsaw:20261113T131500
+SUMMARY:Maszy (L)
+LOCATION:S1 72
+DESCRIPTION:Maszynoznastwo\nRodzaj: laboratorium\nProwadzący: dr inż. Om
+ en Łukasz\nNr zajęć: 4/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:04aeab01409265340a4f1e1d@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261116T080000
+DTEND;TZID=Europe/Warsaw:20261116T093500
+SUMMARY:Zbez (ć)
+LOCATION:P 66
+DESCRIPTION:Zarządzanie bezpieczeństwem\nRodzaj: ćwiczenia\nProwadzący
+ : dr inż. Jaskółowski Waldemar\nNr zajęć: 3/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8cecfd7579674ff6fd03a6b7@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261116T114000
+DTEND;TZID=Europe/Warsaw:20261116T131500
+SUMMARY:Pib (w)
+LOCATION:9 67
+DESCRIPTION:Podstawy inżynierii bezpieczeństwa\nRodzaj: wykład\nProwadz
+ ący: ppłk dr inż. Jasztal Michał\nNr zajęć: 8/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2653b7f9d61bf61928a85514@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261116T133000
+DTEND;TZID=Europe/Warsaw:20261116T150500
+SUMMARY:Zbez (w)
+LOCATION:P 66
+DESCRIPTION:Zarządzanie bezpieczeństwem\nRodzaj: wykład\nProwadzący: d
+ r inż. Jaskółowski Waldemar\nNr zajęć: 7/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c3160ad91f2d71ac8b2f275f@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261117T095000
+DTEND;TZID=Europe/Warsaw:20261117T112500
+SUMMARY:Js (w)
+LOCATION:S3 72
+DESCRIPTION:Jakość systemów\nRodzaj: wykład\nProwadzący: dr hab. inż
+ . Grzesik Norbert\nNr zajęć: 7/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c2f8fd4f6f7a523a25ef6a3e@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261117T114000
+DTEND;TZID=Europe/Warsaw:20261117T131500
+SUMMARY:Pib (ć)
+LOCATION:34 67
+DESCRIPTION:Podstawy inżynierii bezpieczeństwa\nRodzaj: ćwiczenia\nProw
+ adzący: dr inż. Omen Łukasz\nNr zajęć: 3/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:cbac7de0b2bc94babf6df896@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261117T133000
+DTEND;TZID=Europe/Warsaw:20261117T150500
+SUMMARY:Opni (w)
+LOCATION:34 67
+DESCRIPTION:Obiekty potencjalnie niebezpieczne\nRodzaj: wykład\nProwadzą
+ cy: dr hab. inż. Papliński Andrzej\nNr zajęć: 3/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:25d35177790a33a522940810@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261117T160000
+DTEND;TZID=Europe/Warsaw:20261117T173500
+SUMMARY:Wwi (ć)
+LOCATION:109 24
+DESCRIPTION:Wytwarzanie\, wykrywanie i identyfikacja materiałów niebezpi
+ ecznych\nRodzaj: ćwiczenia\nProwadzący: dr inż. Szulc Jarosław\nNr za
+ jęć: 3/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:1514bd893aaa4c8ba0b41501@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261118T080000
+DTEND;TZID=Europe/Warsaw:20261118T093500
+SUMMARY:Opni (ć)
+LOCATION:34 67
+DESCRIPTION:Obiekty potencjalnie niebezpieczne\nRodzaj: ćwiczenia\nProwad
+ zący: dr hab. inż. Papliński Andrzej\nNr zajęć: 3/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:cd53935fd421c07618d5733c@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261118T114000
+DTEND;TZID=Europe/Warsaw:20261118T131500
+SUMMARY:Maszy (w)
+LOCATION:S3 72
+DESCRIPTION:Maszynoznastwo\nRodzaj: wykład\nProwadzący: prof.dr hab.inż
+ . Terpiłowski Janusz\nNr zajęć: 9/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:addbbd7f65c8dbb8cd5cfbc8@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261118T133000
+DTEND;TZID=Europe/Warsaw:20261118T150500
+SUMMARY:Wwi (ć)
+LOCATION:109 24
+DESCRIPTION:Wytwarzanie\, wykrywanie i identyfikacja materiałów niebezpi
+ ecznych\nRodzaj: ćwiczenia\nProwadzący: dr inż. Szulc Jarosław\nNr za
+ jęć: 4/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f2a2347d5aee29fe23745fcb@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261119T080000
+DTEND;TZID=Europe/Warsaw:20261119T093500
+SUMMARY:Wwi (w)
+LOCATION:109 24
+DESCRIPTION:Wytwarzanie\, wykrywanie i identyfikacja materiałów niebezpi
+ ecznych\nRodzaj: wykład\nProwadzący: dr inż. Szulc Jarosław\nNr zaję
+ ć: 9/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c334c2d59d0e79358ba33aca@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261119T095000
+DTEND;TZID=Europe/Warsaw:20261119T112500
+SUMMARY:Maszy (w)
+LOCATION:9 67
+DESCRIPTION:Maszynoznastwo\nRodzaj: wykład\nProwadzący: ppłk dr inż. J
+ asztal Michał\nNr zajęć: 10/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b1fa2ad52ebb6e37f55af8d0@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261119T114000
+DTEND;TZID=Europe/Warsaw:20261119T131500
+SUMMARY:Mp (w)
+LOCATION:9 67
+DESCRIPTION:Mechanika płynów\nRodzaj: wykład\nProwadzący: dr inż. Fra
+ nt Michał\nNr zajęć: 4/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6261a1f20dbb98229298e011@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261119T133000
+DTEND;TZID=Europe/Warsaw:20261119T150500
+SUMMARY:Zbez (S)
+LOCATION:43 67
+DESCRIPTION:Zarządzanie bezpieczeństwem\nRodzaj: seminarium\nProwadzący
+ : dr inż. Jaskółowski Waldemar\nNr zajęć: 3/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b9b187d7de03ec572e373aba@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261120T095000
+DTEND;TZID=Europe/Warsaw:20261120T112500
+SUMMARY:Tzt (ć)
+LOCATION:43 67
+DESCRIPTION:Teoria zagrożenia tech. i bezpieczeństwa tech.\nRodzaj: ćwi
+ czenia\nProwadzący: dr inż. Stępień Sławomir\nNr zajęć: 3/7\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:40a52eab7edce62d25ec74f1@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261120T114000
+DTEND;TZID=Europe/Warsaw:20261120T131500
+SUMMARY:Maszy (L)
+LOCATION:S1 72
+DESCRIPTION:Maszynoznastwo\nRodzaj: laboratorium\nProwadzący: dr inż. Om
+ en Łukasz\nNr zajęć: 5/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:43e09b13bf6371cd1bb1a908@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261120T133000
+DTEND;TZID=Europe/Warsaw:20261120T150500
+SUMMARY:Mp (L)
+LOCATION:3 67
+DESCRIPTION:Mechanika płynów\nRodzaj: laboratorium\nProwadzący: mgr in
+ ż. Misiak Zawadzka Aneta\nNr zajęć: 1/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e761bc67dcdacac14dda291e@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261123T114000
+DTEND;TZID=Europe/Warsaw:20261123T131500
+SUMMARY:Pib (w)
+LOCATION:9 67
+DESCRIPTION:Podstawy inżynierii bezpieczeństwa\nRodzaj: wykład\nProwadz
+ ący: ppłk dr inż. Jasztal Michał\nNr zajęć: 9/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:63e1530a03b94a9c3cbc1338@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261124T095000
+DTEND;TZID=Europe/Warsaw:20261124T112500
+SUMMARY:Js (w)
+LOCATION:S3 72
+DESCRIPTION:Jakość systemów\nRodzaj: wykład\nProwadzący: dr hab. inż
+ . Grzesik Norbert\nNr zajęć: 8/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5b221c18a706ea666203e5ad@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261124T114000
+DTEND;TZID=Europe/Warsaw:20261124T131500
+SUMMARY:Opni (w)
+LOCATION:34 67
+DESCRIPTION:Obiekty potencjalnie niebezpieczne\nRodzaj: wykład\nProwadzą
+ cy: dr hab. inż. Papliński Andrzej\nNr zajęć: 4/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7339e0a2cdf9b0d6b1c3fbc0@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261124T160000
+DTEND;TZID=Europe/Warsaw:20261124T173500
+SUMMARY:Opni (ć)
+LOCATION:24 67
+DESCRIPTION:Obiekty potencjalnie niebezpieczne\nRodzaj: ćwiczenia\nProwad
+ zący: mgr inż. Kowalski Maciej\nNr zajęć: 4/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:323edddb8ded54fe8ee8ad87@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261124T175000
+DTEND;TZID=Europe/Warsaw:20261124T192500
+SUMMARY:Opni (ć)
+LOCATION:24 67
+DESCRIPTION:Obiekty potencjalnie niebezpieczne\nRodzaj: ćwiczenia\nProwad
+ zący: mgr inż. Kowalski Maciej\nNr zajęć: 5/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:35945812c8698a242ec8d678@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261125T080000
+DTEND;TZID=Europe/Warsaw:20261125T093500
+SUMMARY:Wwi (L)
+LOCATION:117 24
+DESCRIPTION:Wytwarzanie\, wykrywanie i identyfikacja materiałów niebezpi
+ ecznych\nRodzaj: laboratorium\nProwadzący: dr inż. Chyłek Zbigniew\nNr
+  zajęć: 1/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:87c0b494f0db4505d787bd05@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261125T095000
+DTEND;TZID=Europe/Warsaw:20261125T112500
+SUMMARY:Wwi (L)
+LOCATION:117 24
+DESCRIPTION:Wytwarzanie\, wykrywanie i identyfikacja materiałów niebezpi
+ ecznych\nRodzaj: laboratorium\nProwadzący: dr inż. Chyłek Zbigniew\nNr
+  zajęć: 2/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a5cc5fa9f21865a25a05b314@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261125T114000
+DTEND;TZID=Europe/Warsaw:20261125T131500
+SUMMARY:Wwi (L)
+LOCATION:117 24
+DESCRIPTION:Wytwarzanie\, wykrywanie i identyfikacja materiałów niebezpi
+ ecznych\nRodzaj: laboratorium\nProwadzący: dr inż. Chyłek Zbigniew\nNr
+  zajęć: 3/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0322db9ca610ffee08058bfa@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261126T095000
+DTEND;TZID=Europe/Warsaw:20261126T112500
+SUMMARY:Maszy (w)
+LOCATION:9 67
+DESCRIPTION:Maszynoznastwo\nRodzaj: wykład\nProwadzący: ppłk dr inż. J
+ asztal Michał\nNr zajęć: 11/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:25daf887c44e3b737b6cf54e@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261126T114000
+DTEND;TZID=Europe/Warsaw:20261126T131500
+SUMMARY:Maszy (w)
+LOCATION:9 67
+DESCRIPTION:Maszynoznastwo\nRodzaj: wykład\nProwadzący: ppłk dr inż. J
+ asztal Michał\nNr zajęć: 12/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6248ec6170ab893b3a354cf1@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261126T160000
+DTEND;TZID=Europe/Warsaw:20261126T173500
+SUMMARY:Zbez (ć)
+LOCATION:P 66
+DESCRIPTION:Zarządzanie bezpieczeństwem\nRodzaj: ćwiczenia\nProwadzący
+ : dr inż. Jaskółowski Waldemar\nNr zajęć: 4/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:200b4b0e60ee0b866aef36da@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261130T114000
+DTEND;TZID=Europe/Warsaw:20261130T131500
+SUMMARY:Pib (w)
+LOCATION:9 67
+DESCRIPTION:Podstawy inżynierii bezpieczeństwa\nRodzaj: wykład\nProwadz
+ ący: ppłk dr inż. Jasztal Michał\nNr zajęć: 10/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0bf59a7a52964c089a5ae63d@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261201T080000
+DTEND;TZID=Europe/Warsaw:20261201T093500
+SUMMARY:Mp (ć)
+LOCATION:3 67
+DESCRIPTION:Mechanika płynów\nRodzaj: ćwiczenia\nProwadzący: mgr inż.
+  Misiak Zawadzka Aneta\nNr zajęć: 4/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:049171060f9424f9c1581333@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261201T095000
+DTEND;TZID=Europe/Warsaw:20261201T112500
+SUMMARY:Mp (L)
+LOCATION:3 67
+DESCRIPTION:Mechanika płynów\nRodzaj: laboratorium\nProwadzący: mgr in
+ ż. Misiak Zawadzka Aneta\nNr zajęć: 2/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1cb18b42ecb0c212f3376aad@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261202T080000
+DTEND;TZID=Europe/Warsaw:20261202T093500
+SUMMARY:Opni (ć)
+LOCATION:34 67
+DESCRIPTION:Obiekty potencjalnie niebezpieczne\nRodzaj: ćwiczenia\nProwad
+ zący: dr hab. inż. Papliński Andrzej\nNr zajęć: 6/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:48c05f803fdf197e795d06df@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261202T095000
+DTEND;TZID=Europe/Warsaw:20261202T112500
+SUMMARY:Opni (ć)
+LOCATION:9 67
+DESCRIPTION:Obiekty potencjalnie niebezpieczne\nRodzaj: ćwiczenia\nProwad
+ zący: mgr inż. Kowalski Maciej\nNr zajęć: 7/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:333f31cad0d4c5bab85db68b@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261202T114000
+DTEND;TZID=Europe/Warsaw:20261202T131500
+SUMMARY:Opni (ć)
+LOCATION:9 67
+DESCRIPTION:Obiekty potencjalnie niebezpieczne\nRodzaj: ćwiczenia\nProwad
+ zący: mgr inż. Kowalski Maciej\nNr zajęć: 8/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:46bacaba15b952fdc869b77b@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261202T133000
+DTEND;TZID=Europe/Warsaw:20261202T150500
+SUMMARY:Zbez (ć)
+LOCATION:P 66
+DESCRIPTION:Zarządzanie bezpieczeństwem\nRodzaj: ćwiczenia\nProwadzący
+ : dr inż. Jaskółowski Waldemar\nNr zajęć: 5/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:99b0c7fd05a132425dfb91bc@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261203T080000
+DTEND;TZID=Europe/Warsaw:20261203T093500
+SUMMARY:Tzt (w)
+LOCATION:43 67
+DESCRIPTION:Teoria zagrożenia tech. i bezpieczeństwa tech.\nRodzaj: wyk
+ ład\nProwadzący: dr inż. Stępień Sławomir\nNr zajęć: 6/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:622868203aa08a2b4d283f74@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261203T095000
+DTEND;TZID=Europe/Warsaw:20261203T112500
+SUMMARY:Maszy (w)
+LOCATION:9 67
+DESCRIPTION:Maszynoznastwo\nRodzaj: wykład\nProwadzący: ppłk dr inż. J
+ asztal Michał\nNr zajęć: 13/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:93f38e03db3d013af459240a@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261203T114000
+DTEND;TZID=Europe/Warsaw:20261203T131500
+SUMMARY:Mp (w)
+LOCATION:9 67
+DESCRIPTION:Mechanika płynów\nRodzaj: wykład\nProwadzący: dr inż. Fra
+ nt Michał\nNr zajęć: 5/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:35a346eb465f91407c9ab64d@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261203T133000
+DTEND;TZID=Europe/Warsaw:20261203T150500
+SUMMARY:Zbez (S)
+LOCATION:43 67
+DESCRIPTION:Zarządzanie bezpieczeństwem\nRodzaj: seminarium\nProwadzący
+ : dr inż. Jaskółowski Waldemar\nNr zajęć: 4/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6f399c0f1f7c16a58b0d78d8@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261207T114000
+DTEND;TZID=Europe/Warsaw:20261207T131500
+SUMMARY:Wwi (w)
+LOCATION:109 24
+DESCRIPTION:Wytwarzanie\, wykrywanie i identyfikacja materiałów niebezpi
+ ecznych\nRodzaj: wykład\nProwadzący: dr inż. Szulc Jarosław\nNr zaję
+ ć: 10/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b3cc5efd6283247c31470f68@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261208T080000
+DTEND;TZID=Europe/Warsaw:20261208T093500
+SUMMARY:Js (ć)
+LOCATION:34 67
+DESCRIPTION:Jakość systemów\nRodzaj: ćwiczenia\nProwadzący: dr hab. i
+ nż. Grzesik Norbert\nNr zajęć: 2/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:789070014336c75ce906a1e0@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261208T095000
+DTEND;TZID=Europe/Warsaw:20261208T112500
+SUMMARY:Wwi (w)
+LOCATION:109 24
+DESCRIPTION:Wytwarzanie\, wykrywanie i identyfikacja materiałów niebezpi
+ ecznych\nRodzaj: wykład\nProwadzący: dr inż. Szulc Jarosław\nNr zaję
+ ć: 11/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5522971be3bcadea1c099808@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261208T114000
+DTEND;TZID=Europe/Warsaw:20261208T131500
+SUMMARY:Opni (w)
+LOCATION:34 67
+DESCRIPTION:Obiekty potencjalnie niebezpieczne\nRodzaj: wykład\nProwadzą
+ cy: dr hab. inż. Papliński Andrzej\nNr zajęć: 5/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:77a58fd9b6485f267be84625@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261208T133000
+DTEND;TZID=Europe/Warsaw:20261208T150500
+SUMMARY:Pib (w)
+LOCATION:9 67
+DESCRIPTION:Podstawy inżynierii bezpieczeństwa\nRodzaj: wykład\nProwadz
+ ący: ppłk dr inż. Jasztal Michał\nNr zajęć: 11/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:281fa5f6183d77b4b8b01542@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261209T080000
+DTEND;TZID=Europe/Warsaw:20261209T093500
+SUMMARY:Opni (ć)
+LOCATION:34 67
+DESCRIPTION:Obiekty potencjalnie niebezpieczne\nRodzaj: ćwiczenia\nProwad
+ zący: dr hab. inż. Papliński Andrzej\nNr zajęć: 9/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:db7faaabec7ad59aafc06172@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261209T095000
+DTEND;TZID=Europe/Warsaw:20261209T112500
+SUMMARY:Zbez (ć)
+LOCATION:9 67
+DESCRIPTION:Zarządzanie bezpieczeństwem\nRodzaj: ćwiczenia\nProwadzący
+ : dr inż. Jaskółowski Waldemar\nNr zajęć: 6/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:040b7b5fa6ddfd0c63389d2b@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261209T114000
+DTEND;TZID=Europe/Warsaw:20261209T131500
+SUMMARY:Wwi (L)
+LOCATION:117 24
+DESCRIPTION:Wytwarzanie\, wykrywanie i identyfikacja materiałów niebezpi
+ ecznych\nRodzaj: laboratorium\nProwadzący: dr inż. Chyłek Zbigniew\nNr
+  zajęć: 4/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:bd3aeb91ce110a62510c9388@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261209T133000
+DTEND;TZID=Europe/Warsaw:20261209T150500
+SUMMARY:Wwi (L)
+LOCATION:117 24
+DESCRIPTION:Wytwarzanie\, wykrywanie i identyfikacja materiałów niebezpi
+ ecznych\nRodzaj: laboratorium\nProwadzący: dr inż. Chyłek Zbigniew\nNr
+  zajęć: 5/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c4d3581a4328f05e60b88c38@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261209T160000
+DTEND;TZID=Europe/Warsaw:20261209T173500
+SUMMARY:Wwi (L)
+LOCATION:117 24
+DESCRIPTION:Wytwarzanie\, wykrywanie i identyfikacja materiałów niebezpi
+ ecznych\nRodzaj: laboratorium\nProwadzący: dr inż. Chyłek Zbigniew\nNr
+  zajęć: 6/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:122bb7691b3dcbab77f8b4e7@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261210T080000
+DTEND;TZID=Europe/Warsaw:20261210T093500
+SUMMARY:Wwi (w)
+LOCATION:109 24
+DESCRIPTION:Wytwarzanie\, wykrywanie i identyfikacja materiałów niebezpi
+ ecznych\nRodzaj: wykład\nProwadzący: dr inż. Szulc Jarosław\nNr zaję
+ ć: 12/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:708fa9f6f63c4f516d291501@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261210T095000
+DTEND;TZID=Europe/Warsaw:20261210T112500
+SUMMARY:Maszy (w)
+LOCATION:9 67
+DESCRIPTION:Maszynoznastwo\nRodzaj: wykład\nProwadzący: ppłk dr inż. J
+ asztal Michał\nNr zajęć: 14/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d1f34ad14df5c2caaa3d0eac@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261210T160000
+DTEND;TZID=Europe/Warsaw:20261210T173500
+SUMMARY:Pib (ć)
+LOCATION:24 67
+DESCRIPTION:Podstawy inżynierii bezpieczeństwa\nRodzaj: ćwiczenia\nProw
+ adzący: dr inż. Omen Łukasz\nNr zajęć: 4/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:929299fbbee8c963741c7948@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261211T095000
+DTEND;TZID=Europe/Warsaw:20261211T112500
+SUMMARY:Maszy (ć)
+LOCATION:24 67
+DESCRIPTION:Maszynoznastwo\nRodzaj: ćwiczenia\nProwadzący: ppłk dr inż
+ . Jasztal Michał\nNr zajęć: 4/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a3328dea26f4002b2b55a7e3@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261211T114000
+DTEND;TZID=Europe/Warsaw:20261211T131500
+SUMMARY:Tzt (w)
+LOCATION:43 67
+DESCRIPTION:Teoria zagrożenia tech. i bezpieczeństwa tech.\nRodzaj: wyk
+ ład\nProwadzący: dr inż. Stępień Sławomir\nNr zajęć: 7/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:634faac69ad8d6b57e2c03cb@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261211T133000
+DTEND;TZID=Europe/Warsaw:20261211T150500
+SUMMARY:Mp (ć)
+LOCATION:3 67
+DESCRIPTION:Mechanika płynów\nRodzaj: ćwiczenia\nProwadzący: mgr inż.
+  Misiak Zawadzka Aneta\nNr zajęć: 5/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c9e9732b9461ea07a9f3fa67@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261211T160000
+DTEND;TZID=Europe/Warsaw:20261211T173500
+SUMMARY:Opni (L)
+LOCATION:43 67
+DESCRIPTION:Obiekty potencjalnie niebezpieczne\nRodzaj: laboratorium\nProw
+ adzący: mgr inż. Kowalski Maciej\nNr zajęć: 1/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:46af2e82ae548c773c8e6696@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261211T175000
+DTEND;TZID=Europe/Warsaw:20261211T192500
+SUMMARY:Opni (L)
+LOCATION:43 67
+DESCRIPTION:Obiekty potencjalnie niebezpieczne\nRodzaj: laboratorium\nProw
+ adzący: mgr inż. Kowalski Maciej\nNr zajęć: 2/7\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:9014e19423d0c1cadf14fbf7@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261214T095000
+DTEND;TZID=Europe/Warsaw:20261214T112500
+SUMMARY:Tzt (ć)
+LOCATION:43 67
+DESCRIPTION:Teoria zagrożenia tech. i bezpieczeństwa tech.\nRodzaj: ćwi
+ czenia\nProwadzący: dr inż. Stępień Sławomir\nNr zajęć: 4/7\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:bdcaf50e31b076eb0e647901@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261214T114000
+DTEND;TZID=Europe/Warsaw:20261214T131500
+SUMMARY:Pib (w)
+LOCATION:9 67
+DESCRIPTION:Podstawy inżynierii bezpieczeństwa\nRodzaj: wykład\nProwadz
+ ący: ppłk dr inż. Jasztal Michał\nNr zajęć: 12/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:dd174e480b2f383c4d63a9fa@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261214T133000
+DTEND;TZID=Europe/Warsaw:20261214T150500
+SUMMARY:Zbez (w)
+LOCATION:P 66
+DESCRIPTION:Zarządzanie bezpieczeństwem\nRodzaj: wykład\nProwadzący: d
+ r inż. Jaskółowski Waldemar\nNr zajęć: 8/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1d28176a1b190ed84c5b536a@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261215T080000
+DTEND;TZID=Europe/Warsaw:20261215T093500
+SUMMARY:Js (ć)
+LOCATION:34 67
+DESCRIPTION:Jakość systemów\nRodzaj: ćwiczenia\nProwadzący: dr hab. i
+ nż. Grzesik Norbert\nNr zajęć: 3/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d8374d20cc488bec93fd9271@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261215T095000
+DTEND;TZID=Europe/Warsaw:20261215T112500
+SUMMARY:Tzt (ć)
+LOCATION:43 67
+DESCRIPTION:Teoria zagrożenia tech. i bezpieczeństwa tech.\nRodzaj: ćwi
+ czenia\nProwadzący: dr inż. Stępień Sławomir\nNr zajęć: 5/7\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:e7609cf1c6e3f50065ecfa4e@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261215T114000
+DTEND;TZID=Europe/Warsaw:20261215T131500
+SUMMARY:Opni (w)
+LOCATION:34 67
+DESCRIPTION:Obiekty potencjalnie niebezpieczne\nRodzaj: wykład\nProwadzą
+ cy: dr hab. inż. Papliński Andrzej\nNr zajęć: 6/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a5887f9fcafd47679af22e7f@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261216T080000
+DTEND;TZID=Europe/Warsaw:20261216T093500
+SUMMARY:Opni (ć)
+LOCATION:34 67
+DESCRIPTION:Obiekty potencjalnie niebezpieczne\nRodzaj: ćwiczenia\nProwad
+ zący: dr hab. inż. Papliński Andrzej\nNr zajęć: 10/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ef97b1647345a2908903205e@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261216T114000
+DTEND;TZID=Europe/Warsaw:20261216T131500
+SUMMARY:Zbez (ć)
+LOCATION:P 66
+DESCRIPTION:Zarządzanie bezpieczeństwem\nRodzaj: ćwiczenia\nProwadzący
+ : dr inż. Jaskółowski Waldemar\nNr zajęć: 7/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2bcdd7d22d4c46ce00149275@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261216T133000
+DTEND;TZID=Europe/Warsaw:20261216T150500
+SUMMARY:Wwi (ć)
+LOCATION:109 24
+DESCRIPTION:Wytwarzanie\, wykrywanie i identyfikacja materiałów niebezpi
+ ecznych\nRodzaj: ćwiczenia\nProwadzący: dr inż. Szulc Jarosław\nNr za
+ jęć: 5/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2e0d856d8cda8b4470beeb6f@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261216T160000
+DTEND;TZID=Europe/Warsaw:20261216T173500
+SUMMARY:Opni (ć)
+LOCATION:34 67
+DESCRIPTION:Obiekty potencjalnie niebezpieczne\nRodzaj: ćwiczenia\nProwad
+ zący: mgr inż. Kowalski Maciej\nNr zajęć: 11/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:ff4e6e45a0f7ecf4f4eb5541@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261217T080000
+DTEND;TZID=Europe/Warsaw:20261217T093500
+SUMMARY:Wwi (w)
+LOCATION:109 24
+DESCRIPTION:Wytwarzanie\, wykrywanie i identyfikacja materiałów niebezpi
+ ecznych\nRodzaj: wykład\nProwadzący: dr inż. Szulc Jarosław\nNr zaję
+ ć: 13/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b9260d0adea748f193c402e8@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261217T095000
+DTEND;TZID=Europe/Warsaw:20261217T112500
+SUMMARY:Maszy (w)
+LOCATION:9 67
+DESCRIPTION:Maszynoznastwo\nRodzaj: wykład\nProwadzący: ppłk dr inż. J
+ asztal Michał\nNr zajęć: 15/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4665f8c7b5f61658b7775040@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261217T114000
+DTEND;TZID=Europe/Warsaw:20261217T131500
+SUMMARY:Mp (w)
+LOCATION:9 67
+DESCRIPTION:Mechanika płynów\nRodzaj: wykład\nProwadzący: dr inż. Fra
+ nt Michał\nNr zajęć: 6/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8829ee07656cb884bf63e17a@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261217T133000
+DTEND;TZID=Europe/Warsaw:20261217T150500
+SUMMARY:Zbez (ć)
+LOCATION:P 66
+DESCRIPTION:Zarządzanie bezpieczeństwem\nRodzaj: ćwiczenia\nProwadzący
+ : dr inż. Jaskółowski Waldemar\nNr zajęć: 8/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:70683b276a2e72012988d6ac@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261218T114000
+DTEND;TZID=Europe/Warsaw:20261218T131500
+SUMMARY:Tzt (w)
+LOCATION:43 67
+DESCRIPTION:Teoria zagrożenia tech. i bezpieczeństwa tech.\nRodzaj: wyk
+ ład\nProwadzący: dr inż. Stępień Sławomir\nNr zajęć: 8/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:77dbc890d1dcd738b45ceadd@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261218T133000
+DTEND;TZID=Europe/Warsaw:20261218T150500
+SUMMARY:Pib (ć)
+LOCATION:34 67
+DESCRIPTION:Podstawy inżynierii bezpieczeństwa\nRodzaj: ćwiczenia\nProw
+ adzący: dr inż. Omen Łukasz\nNr zajęć: 5/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ebf7b3785feffef29b930265@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261218T160000
+DTEND;TZID=Europe/Warsaw:20261218T173500
+SUMMARY:Opni (L)
+LOCATION:43 67
+DESCRIPTION:Obiekty potencjalnie niebezpieczne\nRodzaj: laboratorium\nProw
+ adzący: mgr inż. Kowalski Maciej\nNr zajęć: 3/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:0459387e98850f3f3fa547d5@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261218T175000
+DTEND;TZID=Europe/Warsaw:20261218T192500
+SUMMARY:Opni (L)
+LOCATION:43 67
+DESCRIPTION:Obiekty potencjalnie niebezpieczne\nRodzaj: laboratorium\nProw
+ adzący: mgr inż. Kowalski Maciej\nNr zajęć: 4/7\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:4a4df1b33fabb58773268560@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261221T114000
+DTEND;TZID=Europe/Warsaw:20261221T131500
+SUMMARY:Pib (w)
+LOCATION:9 67
+DESCRIPTION:Podstawy inżynierii bezpieczeństwa\nRodzaj: wykład\nProwadz
+ ący: ppłk dr inż. Jasztal Michał\nNr zajęć: 13/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:05e49b6dfd4c931fa0663c7f@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261221T133000
+DTEND;TZID=Europe/Warsaw:20261221T150500
+SUMMARY:Zbez (S)
+LOCATION:43 67
+DESCRIPTION:Zarządzanie bezpieczeństwem\nRodzaj: seminarium\nProwadzący
+ : dr inż. Jaskółowski Waldemar\nNr zajęć: 5/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:419b14e90677e9cb0624169b@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261221T160000
+DTEND;TZID=Europe/Warsaw:20261221T173500
+SUMMARY:Opni (ć)
+LOCATION:24 67
+DESCRIPTION:Obiekty potencjalnie niebezpieczne\nRodzaj: ćwiczenia\nProwad
+ zący: mgr inż. Kowalski Maciej\nNr zajęć: 12/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:a993393b9658b1e3afd8941c@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261221T175000
+DTEND;TZID=Europe/Warsaw:20261221T192500
+SUMMARY:Opni (ć)
+LOCATION:24 67
+DESCRIPTION:Obiekty potencjalnie niebezpieczne\nRodzaj: ćwiczenia\nProwad
+ zący: mgr inż. Kowalski Maciej\nNr zajęć: 13/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:b36dc666bccd5725ef0fc488@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261222T080000
+DTEND;TZID=Europe/Warsaw:20261222T093500
+SUMMARY:Js (ć)
+LOCATION:34 67
+DESCRIPTION:Jakość systemów\nRodzaj: ćwiczenia\nProwadzący: dr hab. i
+ nż. Grzesik Norbert\nNr zajęć: 4/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5ce0366862f90bcbb93bf144@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261222T095000
+DTEND;TZID=Europe/Warsaw:20261222T112500
+SUMMARY:Mp (L)
+LOCATION:3 67
+DESCRIPTION:Mechanika płynów\nRodzaj: laboratorium\nProwadzący: mgr in
+ ż. Misiak Zawadzka Aneta\nNr zajęć: 3/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2d623eeeb2e4a4f94732d0f4@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20261223T114000
+DTEND;TZID=Europe/Warsaw:20261223T131500
+SUMMARY:Maszy (ć)
+LOCATION:34 67
+DESCRIPTION:Maszynoznastwo\nRodzaj: ćwiczenia\nProwadzący: ppłk dr inż
+ . Jasztal Michał\nNr zajęć: 5/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d11415f215f3cedabf22784f@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270107T080000
+DTEND;TZID=Europe/Warsaw:20270107T093500
+SUMMARY:Wwi (w)
+LOCATION:109 24
+DESCRIPTION:Wytwarzanie\, wykrywanie i identyfikacja materiałów niebezpi
+ ecznych\nRodzaj: wykład\nProwadzący: dr inż. Szulc Jarosław\nNr zaję
+ ć: 14/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b13f41a5f4ab19676848e24b@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270107T095000
+DTEND;TZID=Europe/Warsaw:20270107T112500
+SUMMARY:Opni (w)
+LOCATION:24 67
+DESCRIPTION:Obiekty potencjalnie niebezpieczne\nRodzaj: wykład\nProwadzą
+ cy: dr hab. inż. Papliński Andrzej\nNr zajęć: 7/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f5a67faed3b8125222a194fe@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270107T114000
+DTEND;TZID=Europe/Warsaw:20270107T131500
+SUMMARY:Mp (w)
+LOCATION:9 67
+DESCRIPTION:Mechanika płynów\nRodzaj: wykład\nProwadzący: dr inż. Fra
+ nt Michał\nNr zajęć: 7/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:942742e2a606f6c2f8b97b5f@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270107T133000
+DTEND;TZID=Europe/Warsaw:20270107T150500
+SUMMARY:Zbez (ć)
+LOCATION:P 66
+DESCRIPTION:Zarządzanie bezpieczeństwem\nRodzaj: ćwiczenia\nProwadzący
+ : dr inż. Jaskółowski Waldemar\nNr zajęć: 9/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f6e0d95fdce19767577d75ec@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270108T095000
+DTEND;TZID=Europe/Warsaw:20270108T112500
+SUMMARY:Mp (ć)
+LOCATION:P 66
+DESCRIPTION:Mechanika płynów\nRodzaj: ćwiczenia\nProwadzący: mgr inż.
+  Misiak Zawadzka Aneta\nNr zajęć: 6/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c45199b75d90fc8692f4b713@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270108T114000
+DTEND;TZID=Europe/Warsaw:20270108T131500
+SUMMARY:Mp (ć)
+LOCATION:3 67
+DESCRIPTION:Mechanika płynów\nRodzaj: ćwiczenia\nProwadzący: mgr inż.
+  Misiak Zawadzka Aneta\nNr zajęć: 7/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b0486d19555253cde831f7d8@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270108T133000
+DTEND;TZID=Europe/Warsaw:20270108T150500
+SUMMARY:Wwi (ć)
+LOCATION:109 24
+DESCRIPTION:Wytwarzanie\, wykrywanie i identyfikacja materiałów niebezpi
+ ecznych\nRodzaj: ćwiczenia\nProwadzący: dr inż. Szulc Jarosław\nNr za
+ jęć: 6/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4335fe140378975c533c2d51@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270111T095000
+DTEND;TZID=Europe/Warsaw:20270111T112500
+SUMMARY:Maszy (L)
+LOCATION:H H7
+DESCRIPTION:Maszynoznastwo\nRodzaj: laboratorium\nProwadzący: dr inż. Om
+ en Łukasz\nNr zajęć: 6/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:702312b27203afcb39a26fc8@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270111T114000
+DTEND;TZID=Europe/Warsaw:20270111T131500
+SUMMARY:Pib (w)
+LOCATION:9 67
+DESCRIPTION:Podstawy inżynierii bezpieczeństwa\nRodzaj: wykład\nProwadz
+ ący: ppłk dr inż. Jasztal Michał\nNr zajęć: 14/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ca30c9d9271ee4167b9ec318@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270111T133000
+DTEND;TZID=Europe/Warsaw:20270111T150500
+SUMMARY:Maszy (ć)
+LOCATION:34 67
+DESCRIPTION:Maszynoznastwo\nRodzaj: ćwiczenia\nProwadzący: dr inż. Omen
+  Łukasz\nNr zajęć: 6/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f56ea251f198c61d92cb0cf6@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270112T114000
+DTEND;TZID=Europe/Warsaw:20270112T131500
+SUMMARY:Opni (ć)
+LOCATION:34 67
+DESCRIPTION:Obiekty potencjalnie niebezpieczne\nRodzaj: ćwiczenia\nProwad
+ zący: dr hab. inż. Papliński Andrzej\nNr zajęć: 14/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:969fdfedb8ddc20fa894d32d@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270112T133000
+DTEND;TZID=Europe/Warsaw:20270112T150500
+SUMMARY:Js (ć)
+LOCATION:24 67
+DESCRIPTION:Jakość systemów\nRodzaj: ćwiczenia\nProwadzący: dr hab. i
+ nż. Grzesik Norbert\nNr zajęć: 5/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:88646c1bfacefd4bc279511c@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270113T080000
+DTEND;TZID=Europe/Warsaw:20270113T093500
+SUMMARY:Opni (ć)
+LOCATION:34 67
+DESCRIPTION:Obiekty potencjalnie niebezpieczne\nRodzaj: ćwiczenia\nProwad
+ zący: dr hab. inż. Papliński Andrzej\nNr zajęć: 15/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a7a17ac330154490b35c31d8@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270113T114000
+DTEND;TZID=Europe/Warsaw:20270113T131500
+SUMMARY:Wwi (w)
+LOCATION:108 24
+DESCRIPTION:Wytwarzanie\, wykrywanie i identyfikacja materiałów niebezpi
+ ecznych\nRodzaj: wykład\nProwadzący: dr inż. Szulc Jarosław\nNr zaję
+ ć: 15/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:fddebd0e73eeb5570cdd5b28@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270113T133000
+DTEND;TZID=Europe/Warsaw:20270113T150500
+SUMMARY:Wwi (ć)
+LOCATION:109 24
+DESCRIPTION:Wytwarzanie\, wykrywanie i identyfikacja materiałów niebezpi
+ ecznych\nRodzaj: ćwiczenia\nProwadzący: dr inż. Szulc Jarosław\nNr za
+ jęć: 7/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:65055097ffa3f6ada89b4fac@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270114T095000
+DTEND;TZID=Europe/Warsaw:20270114T112500
+SUMMARY:Opni (w)
+LOCATION:24 67
+DESCRIPTION:Obiekty potencjalnie niebezpieczne\nRodzaj: wykład\nProwadzą
+ cy: dr hab. inż. Papliński Andrzej\nNr zajęć: 8/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9d21af0e106c6aa6bcd7dd77@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270114T114000
+DTEND;TZID=Europe/Warsaw:20270114T131500
+SUMMARY:Pib (ć)
+LOCATION:34 67
+DESCRIPTION:Podstawy inżynierii bezpieczeństwa\nRodzaj: ćwiczenia\nProw
+ adzący: dr inż. Omen Łukasz\nNr zajęć: 6/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:32dd44e4b4f2ee5521ae92d8@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270114T133000
+DTEND;TZID=Europe/Warsaw:20270114T150500
+SUMMARY:Zbez (ć)
+LOCATION:P 66
+DESCRIPTION:Zarządzanie bezpieczeństwem\nRodzaj: ćwiczenia\nProwadzący
+ : dr inż. Jaskółowski Waldemar\nNr zajęć: 10/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a7aba1d7588a900d172ed6ca@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270114T160000
+DTEND;TZID=Europe/Warsaw:20270114T173500
+SUMMARY:Zbez (ć)
+LOCATION:P 66
+DESCRIPTION:Zarządzanie bezpieczeństwem\nRodzaj: ćwiczenia\nProwadzący
+ : dr inż. Jaskółowski Waldemar\nNr zajęć: 11/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:c53e35890e9040fe4e8f45fd@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270115T080000
+DTEND;TZID=Europe/Warsaw:20270115T093500
+SUMMARY:Mp (L)
+LOCATION:3 67
+DESCRIPTION:Mechanika płynów\nRodzaj: laboratorium\nProwadzący: mgr in
+ ż. Misiak Zawadzka Aneta\nNr zajęć: 4/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1fa08b50776823d322dc8d9f@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270115T095000
+DTEND;TZID=Europe/Warsaw:20270115T112500
+SUMMARY:Tzt (ć)
+LOCATION:43 67
+DESCRIPTION:Teoria zagrożenia tech. i bezpieczeństwa tech.\nRodzaj: ćwi
+ czenia\nProwadzący: dr inż. Stępień Sławomir\nNr zajęć: 6/7\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:4ef015813d913d154e0560e8@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270115T114000
+DTEND;TZID=Europe/Warsaw:20270115T131500
+SUMMARY:Pib (ć)
+LOCATION:S1 72
+DESCRIPTION:Podstawy inżynierii bezpieczeństwa\nRodzaj: ćwiczenia\nProw
+ adzący: dr inż. Omen Łukasz\nNr zajęć: 7/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2f08b8e8ca26b418be663fa0@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270118T095000
+DTEND;TZID=Europe/Warsaw:20270118T112500
+SUMMARY:Mp (ć)
+LOCATION:24 67
+DESCRIPTION:Mechanika płynów\nRodzaj: ćwiczenia\nProwadzący: mgr inż.
+  Misiak Zawadzka Aneta\nNr zajęć: 8/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:23fac967beda74032cf6600a@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270118T114000
+DTEND;TZID=Europe/Warsaw:20270118T131500
+SUMMARY:Pib (w)
+LOCATION:9 67
+DESCRIPTION:Podstawy inżynierii bezpieczeństwa\nRodzaj: wykład\nProwadz
+ ący: ppłk dr inż. Jasztal Michał\nNr zajęć: 15/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d231eae861595416431fb3d0@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270118T133000
+DTEND;TZID=Europe/Warsaw:20270118T150500
+SUMMARY:Maszy (ć)
+LOCATION:34 67
+DESCRIPTION:Maszynoznastwo\nRodzaj: ćwiczenia\nProwadzący: dr inż. Omen
+  Łukasz\nNr zajęć: 7/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c39e8bcc77c33d8e5e66d3b3@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270118T160000
+DTEND;TZID=Europe/Warsaw:20270118T173500
+SUMMARY:Zbez (ć)
+LOCATION:P 66
+DESCRIPTION:Zarządzanie bezpieczeństwem\nRodzaj: ćwiczenia\nProwadzący
+ : dr inż. Jaskółowski Waldemar\nNr zajęć: 12/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:080251c1f7988b131baa2353@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270119T080000
+DTEND;TZID=Europe/Warsaw:20270119T093500
+SUMMARY:Js (ć)
+LOCATION:34 67
+DESCRIPTION:Jakość systemów\nRodzaj: ćwiczenia\nProwadzący: dr hab. i
+ nż. Grzesik Norbert\nNr zajęć: 6/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1204c36618584bf510b02693@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270119T095000
+DTEND;TZID=Europe/Warsaw:20270119T112500
+SUMMARY:Maszy (L)
+LOCATION:H H7
+DESCRIPTION:Maszynoznastwo\nRodzaj: laboratorium\nProwadzący: ppłk dr in
+ ż. Jasztal Michał\nNr zajęć: 7/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:313e40bddf49a80684060abb@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270119T133000
+DTEND;TZID=Europe/Warsaw:20270119T150500
+SUMMARY:Js (ć)
+LOCATION:24 67
+DESCRIPTION:Jakość systemów\nRodzaj: ćwiczenia\nProwadzący: dr hab. i
+ nż. Grzesik Norbert\nNr zajęć: 7/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8f6dde88380578c7faeca9e3@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270120T080000
+DTEND;TZID=Europe/Warsaw:20270120T093500
+SUMMARY:Mp (L)
+LOCATION:3 67
+DESCRIPTION:Mechanika płynów\nRodzaj: laboratorium\nProwadzący: mgr in
+ ż. Misiak Zawadzka Aneta\nNr zajęć: 5/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:027cd4a95a09ac84c293651b@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270120T095000
+DTEND;TZID=Europe/Warsaw:20270120T112500
+SUMMARY:Wwi (ć)
+LOCATION:109 24
+DESCRIPTION:Wytwarzanie\, wykrywanie i identyfikacja materiałów niebezpi
+ ecznych\nRodzaj: ćwiczenia\nProwadzący: dr inż. Szulc Jarosław\nNr za
+ jęć: 8/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e02318aed39d77c4e1e6cef3@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270120T114000
+DTEND;TZID=Europe/Warsaw:20270120T131500
+SUMMARY:Wwi (L)
+LOCATION:117 24
+DESCRIPTION:Wytwarzanie\, wykrywanie i identyfikacja materiałów niebezpi
+ ecznych\nRodzaj: laboratorium\nProwadzący: dr inż. Szulc Jarosław\nNr 
+ zajęć: 7/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f7ecfeb60298e694d8e57353@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270120T133000
+DTEND;TZID=Europe/Warsaw:20270120T150500
+SUMMARY:Zbez (S)
+LOCATION:43 67
+DESCRIPTION:Zarządzanie bezpieczeństwem\nRodzaj: seminarium\nProwadzący
+ : dr inż. Jaskółowski Waldemar\nNr zajęć: 6/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:fb0016c319c09bc589dc9601@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270120T160000
+DTEND;TZID=Europe/Warsaw:20270120T173500
+SUMMARY:Opni (L)
+LOCATION:43 67
+DESCRIPTION:Obiekty potencjalnie niebezpieczne\nRodzaj: laboratorium\nProw
+ adzący: mgr inż. Kowalski Maciej\nNr zajęć: 5/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:b18fcee51506f73d54500094@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270121T114000
+DTEND;TZID=Europe/Warsaw:20270121T131500
+SUMMARY:Mp (w)
+LOCATION:9 67
+DESCRIPTION:Mechanika płynów\nRodzaj: wykład\nProwadzący: dr inż. Fra
+ nt Michał\nNr zajęć: 8/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9b2e894ae0f4098ad22836fe@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270121T133000
+DTEND;TZID=Europe/Warsaw:20270121T150500
+SUMMARY:Zbez (ć)
+LOCATION:P 66
+DESCRIPTION:Zarządzanie bezpieczeństwem\nRodzaj: ćwiczenia\nProwadzący
+ : dr inż. Jaskółowski Waldemar\nNr zajęć: 13/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4a6281622af60dba434ef971@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270121T160000
+DTEND;TZID=Europe/Warsaw:20270121T173500
+SUMMARY:Opni (L)
+LOCATION:43 67
+DESCRIPTION:Obiekty potencjalnie niebezpieczne\nRodzaj: laboratorium\nProw
+ adzący: mgr inż. Kowalski Maciej\nNr zajęć: 6/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:b3952f01d550d6c8d3f02d92@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270122T080000
+DTEND;TZID=Europe/Warsaw:20270122T093500
+SUMMARY:Mp (L)
+LOCATION:3 67
+DESCRIPTION:Mechanika płynów\nRodzaj: laboratorium\nProwadzący: mgr in
+ ż. Misiak Zawadzka Aneta\nNr zajęć: 6/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:bb816566346854defa312a91@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270122T095000
+DTEND;TZID=Europe/Warsaw:20270122T112500
+SUMMARY:Tzt (ć)
+LOCATION:43 67
+DESCRIPTION:Teoria zagrożenia tech. i bezpieczeństwa tech.\nRodzaj: ćwi
+ czenia\nProwadzący: dr inż. Stępień Sławomir\nNr zajęć: 7/7\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:0530c4961727d7fc7aec648a@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270125T114000
+DTEND;TZID=Europe/Warsaw:20270125T131500
+SUMMARY:Maszy (ć)
+LOCATION:24 67
+DESCRIPTION:Maszynoznastwo\nRodzaj: ćwiczenia\nProwadzący: dr inż. Omen
+  Łukasz\nNr zajęć: 8/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8be0670531006a84ff1c0660@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270126T095000
+DTEND;TZID=Europe/Warsaw:20270126T112500
+SUMMARY:Pib (ć)
+LOCATION:24 67
+DESCRIPTION:Podstawy inżynierii bezpieczeństwa\nRodzaj: ćwiczenia\nProw
+ adzący: ppłk dr inż. Jasztal Michał\nNr zajęć: 8/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7201b7b8a94fa5d98163a189@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270126T114000
+DTEND;TZID=Europe/Warsaw:20270126T131500
+SUMMARY:Mp (L)
+LOCATION:3 67
+DESCRIPTION:Mechanika płynów\nRodzaj: laboratorium\nProwadzący: mgr in
+ ż. Misiak Zawadzka Aneta\nNr zajęć: 7/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:54a677030d0fc750074ae8cf@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270127T114000
+DTEND;TZID=Europe/Warsaw:20270127T131500
+SUMMARY:Zbez (S)
+LOCATION:43 67
+DESCRIPTION:Zarządzanie bezpieczeństwem\nRodzaj: seminarium\nProwadzący
+ : dr inż. Jaskółowski Waldemar\nNr zajęć: 7/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2aa9e7426ee30daf1890e224@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270127T133000
+DTEND;TZID=Europe/Warsaw:20270127T150500
+SUMMARY:Zbez (ć)
+LOCATION:P 66
+DESCRIPTION:Zarządzanie bezpieczeństwem\nRodzaj: ćwiczenia\nProwadzący
+ : dr inż. Jaskółowski Waldemar\nNr zajęć: 14/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e90a1140820ee7ee290acf46@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270127T160000
+DTEND;TZID=Europe/Warsaw:20270127T173500
+SUMMARY:Opni (L)
+LOCATION:43 67
+DESCRIPTION:Obiekty potencjalnie niebezpieczne\nRodzaj: laboratorium\nProw
+ adzący: mgr inż. Kowalski Maciej\nNr zajęć: 7/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:7bc5e387fdf334afa7f56f9d@wat-plan
+DTSTAMP:20261126T155721Z
+DTSTART;TZID=Europe/Warsaw:20270128T095000
+DTEND;TZID=Europe/Warsaw:20270128T112500
+SUMMARY:Zbez (ć)
+LOCATION:9 67
+DESCRIPTION:Zarządzanie bezpieczeństwem\nRodzaj: ćwiczenia\nProwadzący
+ : dr inż. Jaskółowski Waldemar\nNr zajęć: 15/15\nBlok: 2
+END:VEVENT
+END:VCALENDAR

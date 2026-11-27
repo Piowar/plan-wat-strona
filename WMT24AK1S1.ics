@@ -1,0 +1,2002 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WMT24AK1S1
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:c1a62cf0a883f87fb51f8c32@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261005T080000
+DTEND;TZID=Europe/Warsaw:20261005T093500
+SUMMARY:Miid (w)
+LOCATION:325 S
+DESCRIPTION:Metody identyfikacji i diag.\nRodzaj: wykład\nProwadzący: dr
+  inż. Rodzik Dariusz\nNr zajęć: 1/14\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0ebb3c8d8e42ebef624e7423@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261007T080000
+DTEND;TZID=Europe/Warsaw:20261007T093500
+SUMMARY:Nteo (w)
+LOCATION:6 25
+DESCRIPTION:Niezawodność\, trwałość i eksploatacja obiektów\nRodzaj:
+  wykład\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 1/10\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:613515219da2ef4ed605e83f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261008T095000
+DTEND;TZID=Europe/Warsaw:20261008T112500
+SUMMARY:Ztwy (w)
+LOCATION:6 25
+DESCRIPTION:Zaawansowane techniki wytwarzania\nRodzaj: wykład\nProwadząc
+ y: dr hab. inż. Majewski Tomasz\nNr zajęć: 1/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f4c3d26c41c9803583655bb2@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261009T095000
+DTEND;TZID=Europe/Warsaw:20261009T112500
+SUMMARY:Ztwy (w)
+LOCATION:6 25
+DESCRIPTION:Zaawansowane techniki wytwarzania\nRodzaj: wykład\nProwadząc
+ y: dr hab. inż. Janiszewski Jacek\nNr zajęć: 2/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:18bcd3d9ae6d404e604eb18e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261009T114000
+DTEND;TZID=Europe/Warsaw:20261009T131500
+SUMMARY:Nteo (S)
+LOCATION:6 25
+DESCRIPTION:Niezawodność\, trwałość i eksploatacja obiektów\nRodzaj:
+  seminarium\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 1/5\n
+ Blok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:fee13424c8bafe6774a66e9e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261012T080000
+DTEND;TZID=Europe/Warsaw:20261012T093500
+SUMMARY:Miid (w)
+LOCATION:325 S
+DESCRIPTION:Metody identyfikacji i diag.\nRodzaj: wykład\nProwadzący: dr
+  inż. Rodzik Dariusz\nNr zajęć: 2/14\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0136d908667b354628fbdb85@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261012T114000
+DTEND;TZID=Europe/Warsaw:20261012T131500
+SUMMARY:Po (w)
+LOCATION:7 25
+DESCRIPTION:Programowanie obiektowe\nRodzaj: wykład\nProwadzący: dr inż
+ . Paszkowski Robert\nNr zajęć: 1/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9cf0863a5f6ee34e4a711337@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261013T095000
+DTEND;TZID=Europe/Warsaw:20261013T112500
+SUMMARY:Ztwy (w)
+LOCATION:6 25
+DESCRIPTION:Zaawansowane techniki wytwarzania\nRodzaj: wykład\nProwadząc
+ y: dr hab. inż. Majewski Tomasz\nNr zajęć: 3/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:08f4590637522e61a302ae75@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261013T114000
+DTEND;TZID=Europe/Warsaw:20261013T131500
+SUMMARY:SwSM (w)
+LOCATION:46 63
+DESCRIPTION:Sterowanie w systemach mechatronicznych\nRodzaj: wykład\nProw
+ adzący: dr inż. Jaworowicz Marek\nNr zajęć: 1/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:004463dd316596886aa2b4ea@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261014T095000
+DTEND;TZID=Europe/Warsaw:20261014T112500
+SUMMARY:Ppte (w)
+LOCATION:6 25
+DESCRIPTION:Projektowanie procesów technologicznych\nRodzaj: wykład\nPro
+ wadzący: dr inż. Sarzyński Marcin\nNr zajęć: 1/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1c435a66251d896b53fc4ede@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261015T095000
+DTEND;TZID=Europe/Warsaw:20261015T112500
+SUMMARY:Ztwy (w)
+LOCATION:6 25
+DESCRIPTION:Zaawansowane techniki wytwarzania\nRodzaj: wykład\nProwadząc
+ y: dr hab. inż. Majewski Tomasz\nNr zajęć: 4/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:fdfb702b0648f564b8fbc6ed@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261019T080000
+DTEND;TZID=Europe/Warsaw:20261019T093500
+SUMMARY:Miid (w)
+LOCATION:325 S
+DESCRIPTION:Metody identyfikacji i diag.\nRodzaj: wykład\nProwadzący: dr
+  inż. Rodzik Dariusz\nNr zajęć: 3/14\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7ac67cad4b178b145d2a28ca@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261019T114000
+DTEND;TZID=Europe/Warsaw:20261019T131500
+SUMMARY:SwSM (w)
+LOCATION:46 63
+DESCRIPTION:Sterowanie w systemach mechatronicznych\nRodzaj: wykład\nProw
+ adzący: dr inż. Jaworowicz Marek\nNr zajęć: 2/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6cff3f0a411ddd0817ba0182@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261019T133000
+DTEND;TZID=Europe/Warsaw:20261019T150500
+SUMMARY:SwSM (w)
+LOCATION:46 63
+DESCRIPTION:Sterowanie w systemach mechatronicznych\nRodzaj: wykład\nProw
+ adzący: dr inż. Jaworowicz Marek\nNr zajęć: 3/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b970a84e4d46646ad0fb25c2@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261020T080000
+DTEND;TZID=Europe/Warsaw:20261020T093500
+SUMMARY:Opto (w)
+LOCATION:S3 72
+DESCRIPTION:Optoelektronika\nRodzaj: wykład\nProwadzący: prof. dr hab. i
+ nż. Bielecki Zbigniew\nNr zajęć: 1/11\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ee2882773e28724e620f6cf5@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261021T080000
+DTEND;TZID=Europe/Warsaw:20261021T093500
+SUMMARY:Nteo (w)
+LOCATION:6 25
+DESCRIPTION:Niezawodność\, trwałość i eksploatacja obiektów\nRodzaj:
+  wykład\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 2/10\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2ff3dde488ab26e66766a579@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261021T095000
+DTEND;TZID=Europe/Warsaw:20261021T112500
+SUMMARY:Ppte (w)
+LOCATION:6 25
+DESCRIPTION:Projektowanie procesów technologicznych\nRodzaj: wykład\nPro
+ wadzący: dr inż. Sarzyński Marcin\nNr zajęć: 2/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9ffa2f5e7624c14b4b22cf8b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261021T114000
+DTEND;TZID=Europe/Warsaw:20261021T131500
+SUMMARY:Ppte (w)
+LOCATION:6 25
+DESCRIPTION:Projektowanie procesów technologicznych\nRodzaj: wykład\nPro
+ wadzący: dr inż. Sarzyński Marcin\nNr zajęć: 3/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d7dde2219455ba738018174f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261022T080000
+DTEND;TZID=Europe/Warsaw:20261022T093500
+SUMMARY:Opto (w)
+LOCATION:S3 72
+DESCRIPTION:Optoelektronika\nRodzaj: wykład\nProwadzący: prof. dr hab. i
+ nż. Bielecki Zbigniew\nNr zajęć: 2/11\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f77a06e2aea22c7f0eaf6bae@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261022T095000
+DTEND;TZID=Europe/Warsaw:20261022T112500
+SUMMARY:Ztwy (w)
+LOCATION:6 25
+DESCRIPTION:Zaawansowane techniki wytwarzania\nRodzaj: wykład\nProwadząc
+ y: dr hab. inż. Majewski Tomasz\nNr zajęć: 5/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:66781dc299b79721b1919431@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261022T114000
+DTEND;TZID=Europe/Warsaw:20261022T131500
+SUMMARY:Nteo (ć)
+LOCATION:17 25
+DESCRIPTION:Niezawodność\, trwałość i eksploatacja obiektów\nRodzaj:
+  ćwiczenia\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 1/12\
+ nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2e9403e4a3da2af44d2b17cd@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261022T133000
+DTEND;TZID=Europe/Warsaw:20261022T150500
+SUMMARY:Nteo (ć)
+LOCATION:17 25
+DESCRIPTION:Niezawodność\, trwałość i eksploatacja obiektów\nRodzaj:
+  ćwiczenia\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 2/12\
+ nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:448d5f41c57995346a0ec158@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261023T095000
+DTEND;TZID=Europe/Warsaw:20261023T112500
+SUMMARY:Ztwy (w)
+LOCATION:6 25
+DESCRIPTION:Zaawansowane techniki wytwarzania\nRodzaj: wykład\nProwadząc
+ y: dr hab. inż. Janiszewski Jacek\nNr zajęć: 6/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:41caf018296979e6641fc5c8@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261023T114000
+DTEND;TZID=Europe/Warsaw:20261023T131500
+SUMMARY:Nteo (P)
+LOCATION:6 25
+DESCRIPTION:Niezawodność\, trwałość i eksploatacja obiektów\nRodzaj:
+  projekt\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 1/8\nBlo
+ k: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d24b7de82be9634daf532753@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261026T080000
+DTEND;TZID=Europe/Warsaw:20261026T093500
+SUMMARY:Miid (w)
+LOCATION:325 S
+DESCRIPTION:Metody identyfikacji i diag.\nRodzaj: wykład\nProwadzący: dr
+  inż. Rodzik Dariusz\nNr zajęć: 4/14\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:efae2ee854885ec77f19a926@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261026T114000
+DTEND;TZID=Europe/Warsaw:20261026T131500
+SUMMARY:Po (w)
+LOCATION:7 25
+DESCRIPTION:Programowanie obiektowe\nRodzaj: wykład\nProwadzący: dr inż
+ . Paszkowski Robert\nNr zajęć: 2/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0b2a0b0357504fb2e48b3da6@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261027T095000
+DTEND;TZID=Europe/Warsaw:20261027T112500
+SUMMARY:SwSM (w)
+LOCATION:46 63
+DESCRIPTION:Sterowanie w systemach mechatronicznych\nRodzaj: wykład\nProw
+ adzący: dr inż. Jaworowicz Marek\nNr zajęć: 4/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:11f5d56234bb6d82389fcf4b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261028T080000
+DTEND;TZID=Europe/Warsaw:20261028T093500
+SUMMARY:Nteo (w)
+LOCATION:6 25
+DESCRIPTION:Niezawodność\, trwałość i eksploatacja obiektów\nRodzaj:
+  wykład\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 3/10\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9626e63eeeb09294ce57d393@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261028T095000
+DTEND;TZID=Europe/Warsaw:20261028T112500
+SUMMARY:Ztwy (w)
+LOCATION:106 36
+DESCRIPTION:Zaawansowane techniki wytwarzania\nRodzaj: wykład\nProwadząc
+ y: dr inż. Panasiuk Jarosław\nNr zajęć: 7/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a9359731470f414d450ae1f3@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261028T114000
+DTEND;TZID=Europe/Warsaw:20261028T131500
+SUMMARY:Po (P)
+LOCATION:17 25
+DESCRIPTION:Programowanie obiektowe\nRodzaj: projekt\nProwadzący: dr inż
+ . Paszkowski Robert\nNr zajęć: 1/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d226a44e822ddab6c9e8cf2b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261029T080000
+DTEND;TZID=Europe/Warsaw:20261029T093500
+SUMMARY:Opto (w)
+LOCATION:S3 72
+DESCRIPTION:Optoelektronika\nRodzaj: wykład\nProwadzący: prof. dr hab. i
+ nż. Bielecki Zbigniew\nNr zajęć: 3/11\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:99151df158375bdb0e654bb7@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261029T095000
+DTEND;TZID=Europe/Warsaw:20261029T112500
+SUMMARY:Ztwy (w)
+LOCATION:6 25
+DESCRIPTION:Zaawansowane techniki wytwarzania\nRodzaj: wykład\nProwadząc
+ y: dr hab. inż. Majewski Tomasz\nNr zajęć: 8/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:75b92b71934c1aef87b74c13@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261029T114000
+DTEND;TZID=Europe/Warsaw:20261029T131500
+SUMMARY:Nteo (ć)
+LOCATION:17 25
+DESCRIPTION:Niezawodność\, trwałość i eksploatacja obiektów\nRodzaj:
+  ćwiczenia\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 3/12\
+ nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d2bfed7573a4f5393d9ed9da@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261029T133000
+DTEND;TZID=Europe/Warsaw:20261029T150500
+SUMMARY:Ppte (P)
+LOCATION:6 25
+DESCRIPTION:Projektowanie procesów technologicznych\nRodzaj: projekt\nPro
+ wadzący: mgr inż. Sarzyńska Katarzyna\nNr zajęć: 1/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:763596c6521148579a07fb9b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261030T080000
+DTEND;TZID=Europe/Warsaw:20261030T093500
+SUMMARY:Nteo (w)
+LOCATION:7 25
+DESCRIPTION:Niezawodność\, trwałość i eksploatacja obiektów\nRodzaj:
+  wykład\nProwadzący: dr inż. Piechna Sławomir\nNr zajęć: 4/10\nBlok
+ : 1
+END:VEVENT
+BEGIN:VEVENT
+UID:346c2d89105ff6a39658518a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261030T095000
+DTEND;TZID=Europe/Warsaw:20261030T112500
+SUMMARY:Ztwy (w)
+LOCATION:6 25
+DESCRIPTION:Zaawansowane techniki wytwarzania\nRodzaj: wykład\nProwadząc
+ y: dr hab. inż. Janiszewski Jacek\nNr zajęć: 9/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:dad2d40705354ad1e5e212c4@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261102T080000
+DTEND;TZID=Europe/Warsaw:20261102T093500
+SUMMARY:Miid (w)
+LOCATION:325 S
+DESCRIPTION:Metody identyfikacji i diag.\nRodzaj: wykład\nProwadzący: dr
+  inż. Rodzik Dariusz\nNr zajęć: 5/14\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:63eb3b1d2d4b18afda713fab@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261102T095000
+DTEND;TZID=Europe/Warsaw:20261102T112500
+SUMMARY:Nteo (w)
+LOCATION:6 25
+DESCRIPTION:Niezawodność\, trwałość i eksploatacja obiektów\nRodzaj:
+  wykład\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 5/10\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f0cf99db3a6d26c9e594f797@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261102T114000
+DTEND;TZID=Europe/Warsaw:20261102T131500
+SUMMARY:Po (w)
+LOCATION:7 25
+DESCRIPTION:Programowanie obiektowe\nRodzaj: wykład\nProwadzący: dr inż
+ . Paszkowski Robert\nNr zajęć: 3/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a1bedf957541e57dec0d5a64@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261102T133000
+DTEND;TZID=Europe/Warsaw:20261102T150500
+SUMMARY:Miid (w)
+LOCATION:323 S
+DESCRIPTION:Metody identyfikacji i diag.\nRodzaj: wykład\nProwadzący: dr
+  inż. Dudziński Jacek\nNr zajęć: 6/14\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d7d0931103ec0e160d3df0e5@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261103T080000
+DTEND;TZID=Europe/Warsaw:20261103T093500
+SUMMARY:Opto (w)
+LOCATION:S3 72
+DESCRIPTION:Optoelektronika\nRodzaj: wykład\nProwadzący: prof. dr hab. i
+ nż. Bielecki Zbigniew\nNr zajęć: 4/11\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ddfd65c75cad43ec1b5f1417@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261103T095000
+DTEND;TZID=Europe/Warsaw:20261103T112500
+SUMMARY:SwSM (ć)
+LOCATION:47 63
+DESCRIPTION:Sterowanie w systemach mechatronicznych\nRodzaj: ćwiczenia\nP
+ rowadzący: dr inż. Jaworowicz Marek\nNr zajęć: 1/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:13a0dd19ae94cef600ada397@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261104T080000
+DTEND;TZID=Europe/Warsaw:20261104T093500
+SUMMARY:Nteo (w)
+LOCATION:6 25
+DESCRIPTION:Niezawodność\, trwałość i eksploatacja obiektów\nRodzaj:
+  wykład\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 6/10\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d66905c81b88240a3476e3d2@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261104T095000
+DTEND;TZID=Europe/Warsaw:20261104T112500
+SUMMARY:Miid (ć)
+LOCATION:331 S
+DESCRIPTION:Metody identyfikacji i diag.\nRodzaj: ćwiczenia\nProwadzący:
+  dr inż. Rodzik Dariusz\nNr zajęć: 1/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f0e4c32d697b82f505cccf3f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261104T114000
+DTEND;TZID=Europe/Warsaw:20261104T131500
+SUMMARY:Po (P)
+LOCATION:17 25
+DESCRIPTION:Programowanie obiektowe\nRodzaj: projekt\nProwadzący: dr inż
+ . Paszkowski Robert\nNr zajęć: 2/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e2b305092c7f8b34bde4afb6@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261105T080000
+DTEND;TZID=Europe/Warsaw:20261105T093500
+SUMMARY:Opto (w)
+LOCATION:S3 72
+DESCRIPTION:Optoelektronika\nRodzaj: wykład\nProwadzący: prof. dr hab. i
+ nż. Bielecki Zbigniew\nNr zajęć: 5/11\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7728dfd4589548378880c23d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261105T114000
+DTEND;TZID=Europe/Warsaw:20261105T131500
+SUMMARY:Ztwy (w)
+LOCATION:6 25
+DESCRIPTION:Zaawansowane techniki wytwarzania\nRodzaj: wykład\nProwadząc
+ y: dr hab. inż. Majewski Tomasz\nNr zajęć: 10/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:62c254dcc07bda0a235a68a1@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261106T080000
+DTEND;TZID=Europe/Warsaw:20261106T093500
+SUMMARY:Opto (L)
+LOCATION:12 70\;9 70
+DESCRIPTION:Optoelektronika\nRodzaj: laboratorium\nProwadzący: dr inż. S
+ zabra Dariusz\nNr zajęć: 1/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:13c7b558d669a102bb6a88c0@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261106T095000
+DTEND;TZID=Europe/Warsaw:20261106T112500
+SUMMARY:Opto (L)
+LOCATION:12 70\;9 70
+DESCRIPTION:Optoelektronika\nRodzaj: laboratorium\nProwadzący: dr inż. S
+ zabra Dariusz\nNr zajęć: 2/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5ef39a0c71c8aa80a265884e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261106T114000
+DTEND;TZID=Europe/Warsaw:20261106T131500
+SUMMARY:Ppte (w)
+LOCATION:6 25
+DESCRIPTION:Projektowanie procesów technologicznych\nRodzaj: wykład\nPro
+ wadzący: dr inż. Sarzyński Marcin\nNr zajęć: 4/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:05e374920d8cf19a31c417a7@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261106T133000
+DTEND;TZID=Europe/Warsaw:20261106T150500
+SUMMARY:Ppte (w)
+LOCATION:6 25
+DESCRIPTION:Projektowanie procesów technologicznych\nRodzaj: wykład\nPro
+ wadzący: dr inż. Sarzyński Marcin\nNr zajęć: 5/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5ec8743c0ce75df36e69c27b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261109T080000
+DTEND;TZID=Europe/Warsaw:20261109T093500
+SUMMARY:Miid (w)
+LOCATION:323 S
+DESCRIPTION:Metody identyfikacji i diag.\nRodzaj: wykład\nProwadzący: dr
+  inż. Rodzik Dariusz\nNr zajęć: 7/14\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e7ac44f685fe72f098bb83e5@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261109T095000
+DTEND;TZID=Europe/Warsaw:20261109T112500
+SUMMARY:Po (ć)
+LOCATION:17 25
+DESCRIPTION:Programowanie obiektowe\nRodzaj: ćwiczenia\nProwadzący: mgr 
+ inż. Rajkowski Kamil\nNr zajęć: 1/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f468311ec1110610c1442913@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261109T133000
+DTEND;TZID=Europe/Warsaw:20261109T150500
+SUMMARY:Miid (w)
+LOCATION:323 S
+DESCRIPTION:Metody identyfikacji i diag.\nRodzaj: wykład\nProwadzący: dr
+  inż. Dudziński Jacek\nNr zajęć: 8/14\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:366039f5b7c7c20563c6e190@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261110T095000
+DTEND;TZID=Europe/Warsaw:20261110T112500
+SUMMARY:SwSM (w)
+LOCATION:46 63
+DESCRIPTION:Sterowanie w systemach mechatronicznych\nRodzaj: wykład\nProw
+ adzący: dr inż. Jaworowicz Marek\nNr zajęć: 5/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6dbfedbef897630a0e720e68@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261110T133000
+DTEND;TZID=Europe/Warsaw:20261110T150500
+SUMMARY:Ztwy (w)
+LOCATION:7 25
+DESCRIPTION:Zaawansowane techniki wytwarzania\nRodzaj: wykład\nProwadząc
+ y: dr hab. inż. Janiszewski Jacek\nNr zajęć: 11/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:88599f1aede30e43a384a57e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261112T114000
+DTEND;TZID=Europe/Warsaw:20261112T131500
+SUMMARY:Ppte (L)
+LOCATION:17 25
+DESCRIPTION:Projektowanie procesów technologicznych\nRodzaj: laboratorium
+ \nProwadzący: dr inż. Sarzyński Marcin\nNr zajęć: 1/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c6699aa5ad7b50b68d9d4461@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261112T133000
+DTEND;TZID=Europe/Warsaw:20261112T150500
+SUMMARY:Ppte (L)
+LOCATION:17 25
+DESCRIPTION:Projektowanie procesów technologicznych\nRodzaj: laboratorium
+ \nProwadzący: dr inż. Sarzyński Marcin\nNr zajęć: 2/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:09e3af6a31f764d4a76d140d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261113T080000
+DTEND;TZID=Europe/Warsaw:20261113T093500
+SUMMARY:Opto (L)
+LOCATION:14 41\;201E
+DESCRIPTION:Optoelektronika\nRodzaj: laboratorium\nProwadzący: dr inż. P
+ awlikowska Estera\nNr zajęć: 3/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:dba70c322af16fdddc912c01@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261113T095000
+DTEND;TZID=Europe/Warsaw:20261113T112500
+SUMMARY:Opto (L)
+LOCATION:14 41\;201E
+DESCRIPTION:Optoelektronika\nRodzaj: laboratorium\nProwadzący: dr inż. P
+ awlikowska Estera\nNr zajęć: 4/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f1ee95527ed1a631e0f6c7b5@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261113T114000
+DTEND;TZID=Europe/Warsaw:20261113T131500
+SUMMARY:Nteo (P)
+LOCATION:6 25
+DESCRIPTION:Niezawodność\, trwałość i eksploatacja obiektów\nRodzaj:
+  projekt\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 2/8\nBlo
+ k: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d9e943f6fb9f9323c0580c8f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261116T095000
+DTEND;TZID=Europe/Warsaw:20261116T112500
+SUMMARY:Miid (w)
+LOCATION:323 S
+DESCRIPTION:Metody identyfikacji i diag.\nRodzaj: wykład\nProwadzący: dr
+  inż. Dudziński Jacek\nNr zajęć: 9/14\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8bef7ae9e9f4a8bb354417a3@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261116T133000
+DTEND;TZID=Europe/Warsaw:20261116T150500
+SUMMARY:Po (w)
+LOCATION:7 25
+DESCRIPTION:Programowanie obiektowe\nRodzaj: wykład\nProwadzący: dr inż
+ . Paszkowski Robert\nNr zajęć: 4/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5f7ae9ca005ea851f6e6cb18@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261117T080000
+DTEND;TZID=Europe/Warsaw:20261117T093500
+SUMMARY:Opto (w)
+LOCATION:S3 72
+DESCRIPTION:Optoelektronika\nRodzaj: wykład\nProwadzący: prof. dr hab. i
+ nż. Bielecki Zbigniew\nNr zajęć: 6/11\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4701133827609631a5a77d86@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261117T095000
+DTEND;TZID=Europe/Warsaw:20261117T112500
+SUMMARY:SwSM (ć)
+LOCATION:47 63
+DESCRIPTION:Sterowanie w systemach mechatronicznych\nRodzaj: ćwiczenia\nP
+ rowadzący: dr inż. Jaworowicz Marek\nNr zajęć: 2/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:15d281f66d977c286c187a6a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261118T080000
+DTEND;TZID=Europe/Warsaw:20261118T093500
+SUMMARY:Po (P)
+LOCATION:17 25
+DESCRIPTION:Programowanie obiektowe\nRodzaj: projekt\nProwadzący: dr inż
+ . Paszkowski Robert\nNr zajęć: 3/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b7850c3e91aac265a3d6d81a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261118T095000
+DTEND;TZID=Europe/Warsaw:20261118T112500
+SUMMARY:Nteo (ć)
+LOCATION:17 25
+DESCRIPTION:Niezawodność\, trwałość i eksploatacja obiektów\nRodzaj:
+  ćwiczenia\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 4/12\
+ nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8d986b55869982eab3ea7243@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261119T080000
+DTEND;TZID=Europe/Warsaw:20261119T093500
+SUMMARY:Opto (w)
+LOCATION:S3 72
+DESCRIPTION:Optoelektronika\nRodzaj: wykład\nProwadzący: prof. dr hab. i
+ nż. Bielecki Zbigniew\nNr zajęć: 7/11\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:98b65572350f300a706a3871@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261119T114000
+DTEND;TZID=Europe/Warsaw:20261119T131500
+SUMMARY:Nteo (ć)
+LOCATION:17 25
+DESCRIPTION:Niezawodność\, trwałość i eksploatacja obiektów\nRodzaj:
+  ćwiczenia\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 5/12\
+ nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ffb3007d3f6cdc8d03f81149@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261119T133000
+DTEND;TZID=Europe/Warsaw:20261119T150500
+SUMMARY:Nteo (P)
+LOCATION:6 25
+DESCRIPTION:Niezawodność\, trwałość i eksploatacja obiektów\nRodzaj:
+  projekt\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 3/8\nBlo
+ k: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b88dedaf6128232e4f98a297@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261119T160000
+DTEND;TZID=Europe/Warsaw:20261119T173500
+SUMMARY:Nteo (S)
+LOCATION:6 25
+DESCRIPTION:Niezawodność\, trwałość i eksploatacja obiektów\nRodzaj:
+  seminarium\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 2/5\n
+ Blok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:912419a8751c24d71b8dc2fb@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261120T080000
+DTEND;TZID=Europe/Warsaw:20261120T093500
+SUMMARY:Opto (L)
+LOCATION:5 46\;006 1
+DESCRIPTION:Optoelektronika\nRodzaj: laboratorium\nProwadzący: dr inż. S
+ kórczakowski Marek\nNr zajęć: 5/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ceeb53487509da5b6f03486f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261120T095000
+DTEND;TZID=Europe/Warsaw:20261120T112500
+SUMMARY:Opto (L)
+LOCATION:5 46\;006 1
+DESCRIPTION:Optoelektronika\nRodzaj: laboratorium\nProwadzący: dr inż. S
+ kórczakowski Marek\nNr zajęć: 6/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:741b033c2f67680c0d016fea@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261120T133000
+DTEND;TZID=Europe/Warsaw:20261120T150500
+SUMMARY:Ppte (ć)
+LOCATION:6 25
+DESCRIPTION:Projektowanie procesów technologicznych\nRodzaj: ćwiczenia\n
+ Prowadzący: dr inż. Sarzyński Marcin\nNr zajęć: 1/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4b9f744d23363ff427b7bcdf@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261123T080000
+DTEND;TZID=Europe/Warsaw:20261123T093500
+SUMMARY:Po (ć)
+LOCATION:17 25
+DESCRIPTION:Programowanie obiektowe\nRodzaj: ćwiczenia\nProwadzący: mgr 
+ inż. Rajkowski Kamil\nNr zajęć: 2/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9cf5de7b43f3887c0824dc91@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261123T095000
+DTEND;TZID=Europe/Warsaw:20261123T112500
+SUMMARY:Miid (w)
+LOCATION:323 S
+DESCRIPTION:Metody identyfikacji i diag.\nRodzaj: wykład\nProwadzący: dr
+  inż. Dudziński Jacek\nNr zajęć: 10/14\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8810d08283197390ef393988@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261123T114000
+DTEND;TZID=Europe/Warsaw:20261123T131500
+SUMMARY:Po (w)
+LOCATION:7 25
+DESCRIPTION:Programowanie obiektowe\nRodzaj: wykład\nProwadzący: dr inż
+ . Paszkowski Robert\nNr zajęć: 5/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:11c2f9429c1cd01701ae49cf@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261123T133000
+DTEND;TZID=Europe/Warsaw:20261123T150500
+SUMMARY:Nteo (w)
+LOCATION:6 25
+DESCRIPTION:Niezawodność\, trwałość i eksploatacja obiektów\nRodzaj:
+  wykład\nProwadzący: dr inż. Piechna Sławomir\nNr zajęć: 7/10\nBlok
+ : 4
+END:VEVENT
+BEGIN:VEVENT
+UID:681ac1a6beebf79572bbe1fb@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261124T080000
+DTEND;TZID=Europe/Warsaw:20261124T093500
+SUMMARY:Opto (w)
+LOCATION:S3 72
+DESCRIPTION:Optoelektronika\nRodzaj: wykład\nProwadzący: prof. dr hab. i
+ nż. Bielecki Zbigniew\nNr zajęć: 8/11\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d6ec76eeff2b3f8e0cdcb726@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261124T095000
+DTEND;TZID=Europe/Warsaw:20261124T112500
+SUMMARY:SwSM (w)
+LOCATION:46 63
+DESCRIPTION:Sterowanie w systemach mechatronicznych\nRodzaj: wykład\nProw
+ adzący: dr inż. Jaworowicz Marek\nNr zajęć: 6/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:be3afce4b68c932e0fae72ce@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261124T133000
+DTEND;TZID=Europe/Warsaw:20261124T150500
+SUMMARY:Miid (L)
+LOCATION:322 S
+DESCRIPTION:Metody identyfikacji i diag.\nRodzaj: laboratorium\nProwadząc
+ y: dr inż. Rodzik Dariusz\nNr zajęć: 1/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d1a5342ab283d9b8b87d1a53@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261125T080000
+DTEND;TZID=Europe/Warsaw:20261125T093500
+SUMMARY:Miid (ć)
+LOCATION:331 S
+DESCRIPTION:Metody identyfikacji i diag.\nRodzaj: ćwiczenia\nProwadzący:
+  dr inż. Rodzik Dariusz\nNr zajęć: 2/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0830f7a45e8ccaedfc930c08@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261125T095000
+DTEND;TZID=Europe/Warsaw:20261125T112500
+SUMMARY:Ztwy (ć)
+LOCATION:17 25
+DESCRIPTION:Zaawansowane techniki wytwarzania\nRodzaj: ćwiczenia\nProwadz
+ ący: dr hab. inż. Majewski Tomasz\nNr zajęć: 1/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:cdd381152c3a418b35cf9419@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261125T114000
+DTEND;TZID=Europe/Warsaw:20261125T131500
+SUMMARY:Ztwy (ć)
+LOCATION:17 25
+DESCRIPTION:Zaawansowane techniki wytwarzania\nRodzaj: ćwiczenia\nProwadz
+ ący: dr hab. inż. Majewski Tomasz\nNr zajęć: 2/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b5b65f824b8dcc3c2ad7286d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261126T080000
+DTEND;TZID=Europe/Warsaw:20261126T093500
+SUMMARY:Ppte (w)
+LOCATION:6 25
+DESCRIPTION:Projektowanie procesów technologicznych\nRodzaj: wykład\nPro
+ wadzący: dr inż. Sarzyński Marcin\nNr zajęć: 6/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:74baf24a864305181765cded@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261126T095000
+DTEND;TZID=Europe/Warsaw:20261126T112500
+SUMMARY:Ztwy (w)
+LOCATION:6 25
+DESCRIPTION:Zaawansowane techniki wytwarzania\nRodzaj: wykład\nProwadząc
+ y: dr hab. inż. Majewski Tomasz\nNr zajęć: 12/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:976e8e560b838d0fdf4cf91f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261126T114000
+DTEND;TZID=Europe/Warsaw:20261126T131500
+SUMMARY:Ppte (L)
+LOCATION:17 25
+DESCRIPTION:Projektowanie procesów technologicznych\nRodzaj: laboratorium
+ \nProwadzący: dr inż. Sarzyński Marcin\nNr zajęć: 3/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:324047a1eb53b6007f04d140@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261126T133000
+DTEND;TZID=Europe/Warsaw:20261126T150500
+SUMMARY:Ppte (L)
+LOCATION:17 25
+DESCRIPTION:Projektowanie procesów technologicznych\nRodzaj: laboratorium
+ \nProwadzący: dr inż. Sarzyński Marcin\nNr zajęć: 4/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c240d6bac3e1c2e0d452cb44@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261130T080000
+DTEND;TZID=Europe/Warsaw:20261130T093500
+SUMMARY:Miid (ć)
+LOCATION:331 S
+DESCRIPTION:Metody identyfikacji i diag.\nRodzaj: ćwiczenia\nProwadzący:
+  dr inż. Dudziński Jacek\nNr zajęć: 3/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4c92cb0f3b4fed635dafd9aa@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261130T095000
+DTEND;TZID=Europe/Warsaw:20261130T112500
+SUMMARY:Miid (w)
+LOCATION:323 S
+DESCRIPTION:Metody identyfikacji i diag.\nRodzaj: wykład\nProwadzący: dr
+  inż. Dudziński Jacek\nNr zajęć: 11/14\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:20a18debe53941869b84efce@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261130T114000
+DTEND;TZID=Europe/Warsaw:20261130T131500
+SUMMARY:Po (ć)
+LOCATION:17 25
+DESCRIPTION:Programowanie obiektowe\nRodzaj: ćwiczenia\nProwadzący: mgr 
+ inż. Rajkowski Kamil\nNr zajęć: 3/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:01437f45e5fb712a0610261c@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261130T133000
+DTEND;TZID=Europe/Warsaw:20261130T150500
+SUMMARY:Po (w)
+LOCATION:7 25
+DESCRIPTION:Programowanie obiektowe\nRodzaj: wykład\nProwadzący: dr inż
+ . Paszkowski Robert\nNr zajęć: 6/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:fb9d1e724b9555d7a899391f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261201T095000
+DTEND;TZID=Europe/Warsaw:20261201T112500
+SUMMARY:Nteo (P)
+LOCATION:6 25
+DESCRIPTION:Niezawodność\, trwałość i eksploatacja obiektów\nRodzaj:
+  projekt\nProwadzący: dr inż. Piechna Sławomir\nNr zajęć: 4/8\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:3d9f05af911121abd4127c29@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261201T114000
+DTEND;TZID=Europe/Warsaw:20261201T131500
+SUMMARY:SwSM (ć)
+LOCATION:47 63
+DESCRIPTION:Sterowanie w systemach mechatronicznych\nRodzaj: ćwiczenia\nP
+ rowadzący: dr inż. Jaworowicz Marek\nNr zajęć: 3/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d8cb80d869dcbda949e21007@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261201T133000
+DTEND;TZID=Europe/Warsaw:20261201T150500
+SUMMARY:Miid (L)
+LOCATION:322 S
+DESCRIPTION:Metody identyfikacji i diag.\nRodzaj: laboratorium\nProwadząc
+ y: dr inż. Rodzik Dariusz\nNr zajęć: 2/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e9e03ed807bfa128400c85b4@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261201T160000
+DTEND;TZID=Europe/Warsaw:20261201T173500
+SUMMARY:Miid (L)
+LOCATION:322 S
+DESCRIPTION:Metody identyfikacji i diag.\nRodzaj: laboratorium\nProwadząc
+ y: dr inż. Dudziński Jacek\nNr zajęć: 3/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:05822e01f14f19db80669275@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261202T080000
+DTEND;TZID=Europe/Warsaw:20261202T093500
+SUMMARY:Po (P)
+LOCATION:17 25
+DESCRIPTION:Programowanie obiektowe\nRodzaj: projekt\nProwadzący: dr inż
+ . Paszkowski Robert\nNr zajęć: 4/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e02b8f124865b7da77e85d3d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261202T095000
+DTEND;TZID=Europe/Warsaw:20261202T112500
+SUMMARY:Ztwy (ć)
+LOCATION:17 25
+DESCRIPTION:Zaawansowane techniki wytwarzania\nRodzaj: ćwiczenia\nProwadz
+ ący: dr hab. inż. Majewski Tomasz\nNr zajęć: 3/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5d06aeba8dec35bad4171d9e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261202T114000
+DTEND;TZID=Europe/Warsaw:20261202T131500
+SUMMARY:Ztwy (ć)
+LOCATION:17 25
+DESCRIPTION:Zaawansowane techniki wytwarzania\nRodzaj: ćwiczenia\nProwadz
+ ący: dr hab. inż. Majewski Tomasz\nNr zajęć: 4/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f61f8f72a473463a9fe0130e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261202T133000
+DTEND;TZID=Europe/Warsaw:20261202T150500
+SUMMARY:Po (L)
+LOCATION:17 25
+DESCRIPTION:Programowanie obiektowe\nRodzaj: laboratorium\nProwadzący: mg
+ r inż. Rajkowski Kamil\nNr zajęć: 1/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ffa51db246a00a3e50f9a763@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261203T080000
+DTEND;TZID=Europe/Warsaw:20261203T093500
+SUMMARY:Ztwy (L)
+LOCATION:4 25
+DESCRIPTION:Zaawansowane techniki wytwarzania\nRodzaj: laboratorium\nProwa
+ dzący: dr inż. Sarzyński Marcin\nNr zajęć: 1/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:87b29936a6fec9d598ff13e8@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261203T095000
+DTEND;TZID=Europe/Warsaw:20261203T112500
+SUMMARY:Ztwy (L)
+LOCATION:4 25
+DESCRIPTION:Zaawansowane techniki wytwarzania\nRodzaj: laboratorium\nProwa
+ dzący: dr inż. Sarzyński Marcin\nNr zajęć: 2/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c52fb398bfaf77b3f377ef21@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261203T133000
+DTEND;TZID=Europe/Warsaw:20261203T150500
+SUMMARY:Ppte (P)
+LOCATION:6 25
+DESCRIPTION:Projektowanie procesów technologicznych\nRodzaj: projekt\nPro
+ wadzący: mgr inż. Sarzyńska Katarzyna\nNr zajęć: 2/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:80e38afef656f124e799156f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261204T080000
+DTEND;TZID=Europe/Warsaw:20261204T093500
+SUMMARY:Opto (L)
+LOCATION:14 41\;201E
+DESCRIPTION:Optoelektronika\nRodzaj: laboratorium\nProwadzący: dr inż. P
+ awlikowska Estera\nNr zajęć: 7/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5ad0315d6326bc7908df06f5@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261204T095000
+DTEND;TZID=Europe/Warsaw:20261204T112500
+SUMMARY:Opto (L)
+LOCATION:14 41\;201E
+DESCRIPTION:Optoelektronika\nRodzaj: laboratorium\nProwadzący: dr inż. P
+ awlikowska Estera\nNr zajęć: 8/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f04ba6e53002cb1a7f460525@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261204T114000
+DTEND;TZID=Europe/Warsaw:20261204T131500
+SUMMARY:Ppte (ć)
+LOCATION:6 25
+DESCRIPTION:Projektowanie procesów technologicznych\nRodzaj: ćwiczenia\n
+ Prowadzący: dr inż. Sarzyński Marcin\nNr zajęć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3e74f23b998fc0ac6179bcac@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261207T080000
+DTEND;TZID=Europe/Warsaw:20261207T093500
+SUMMARY:Nteo (w)
+LOCATION:6 25
+DESCRIPTION:Niezawodność\, trwałość i eksploatacja obiektów\nRodzaj:
+  wykład\nProwadzący: mgr inż. Modrzejewski Patryk\nNr zajęć: 8/10\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6a63a675cf9382db2bf650a4@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261207T095000
+DTEND;TZID=Europe/Warsaw:20261207T112500
+SUMMARY:Miid (w)
+LOCATION:323 S
+DESCRIPTION:Metody identyfikacji i diag.\nRodzaj: wykład\nProwadzący: dr
+  inż. Dudziński Jacek\nNr zajęć: 12/14\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5684fdf054b1f98052c64bbf@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261207T114000
+DTEND;TZID=Europe/Warsaw:20261207T131500
+SUMMARY:Po (ć)
+LOCATION:17 25
+DESCRIPTION:Programowanie obiektowe\nRodzaj: ćwiczenia\nProwadzący: mgr 
+ inż. Rajkowski Kamil\nNr zajęć: 4/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:159864667b757f8154412796@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261207T160000
+DTEND;TZID=Europe/Warsaw:20261207T173500
+SUMMARY:Miid (ć)
+LOCATION:331 S
+DESCRIPTION:Metody identyfikacji i diag.\nRodzaj: ćwiczenia\nProwadzący:
+  dr inż. Dudziński Jacek\nNr zajęć: 4/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:7029ce71b2558bdcec351b88@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261208T080000
+DTEND;TZID=Europe/Warsaw:20261208T093500
+SUMMARY:Opto (w)
+LOCATION:S3 72
+DESCRIPTION:Optoelektronika\nRodzaj: wykład\nProwadzący: prof. dr hab. i
+ nż. Bielecki Zbigniew\nNr zajęć: 9/11\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6a523a964b6a9312c2ba3401@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261208T095000
+DTEND;TZID=Europe/Warsaw:20261208T112500
+SUMMARY:SwSM (w)
+LOCATION:46 63
+DESCRIPTION:Sterowanie w systemach mechatronicznych\nRodzaj: wykład\nProw
+ adzący: dr inż. Jaworowicz Marek\nNr zajęć: 7/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2dabe2e22dbb59f5caa24292@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261209T080000
+DTEND;TZID=Europe/Warsaw:20261209T093500
+SUMMARY:Ppte (w)
+LOCATION:6 25
+DESCRIPTION:Projektowanie procesów technologicznych\nRodzaj: wykład\nPro
+ wadzący: dr inż. Sarzyński Marcin\nNr zajęć: 7/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:be1ac9a7fc136d64942877a7@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261209T095000
+DTEND;TZID=Europe/Warsaw:20261209T112500
+SUMMARY:Ztwy (ć)
+LOCATION:17 25
+DESCRIPTION:Zaawansowane techniki wytwarzania\nRodzaj: ćwiczenia\nProwadz
+ ący: dr hab. inż. Majewski Tomasz\nNr zajęć: 5/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1921c7ecb2d7902985648a44@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261209T114000
+DTEND;TZID=Europe/Warsaw:20261209T131500
+SUMMARY:Ztwy (ć)
+LOCATION:17 25
+DESCRIPTION:Zaawansowane techniki wytwarzania\nRodzaj: ćwiczenia\nProwadz
+ ący: dr hab. inż. Majewski Tomasz\nNr zajęć: 6/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:26528e0f1ee471fc45ac56cc@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261209T133000
+DTEND;TZID=Europe/Warsaw:20261209T150500
+SUMMARY:Po (L)
+LOCATION:17 25
+DESCRIPTION:Programowanie obiektowe\nRodzaj: laboratorium\nProwadzący: mg
+ r inż. Rajkowski Kamil\nNr zajęć: 2/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:570eb519f1aa9a2438c1955a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261210T095000
+DTEND;TZID=Europe/Warsaw:20261210T112500
+SUMMARY:Opto (L)
+LOCATION:5 46\;006 1
+DESCRIPTION:Optoelektronika\nRodzaj: laboratorium\nProwadzący: dr inż. S
+ kórczakowski Marek\nNr zajęć: 9/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f0891d072f64e268120c5afc@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261210T114000
+DTEND;TZID=Europe/Warsaw:20261210T131500
+SUMMARY:Opto (L)
+LOCATION:5 46\;006 1
+DESCRIPTION:Optoelektronika\nRodzaj: laboratorium\nProwadzący: dr inż. S
+ kórczakowski Marek\nNr zajęć: 10/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:002836db68eadb809ac9bc80@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261210T133000
+DTEND;TZID=Europe/Warsaw:20261210T150500
+SUMMARY:Nteo (ć)
+LOCATION:17 25
+DESCRIPTION:Niezawodność\, trwałość i eksploatacja obiektów\nRodzaj:
+  ćwiczenia\nProwadzący: dr inż. Piechna Sławomir\nNr zajęć: 6/12\nB
+ lok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1ecbf1a1f175c417f42b5b6f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261211T114000
+DTEND;TZID=Europe/Warsaw:20261211T131500
+SUMMARY:Ppte (w)
+LOCATION:6 25
+DESCRIPTION:Projektowanie procesów technologicznych\nRodzaj: wykład\nPro
+ wadzący: dr inż. Sarzyński Marcin\nNr zajęć: 8/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0d81a79cd887e350cfc2294d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261211T133000
+DTEND;TZID=Europe/Warsaw:20261211T150500
+SUMMARY:Ppte (w)
+LOCATION:6 25
+DESCRIPTION:Projektowanie procesów technologicznych\nRodzaj: wykład\nPro
+ wadzący: dr inż. Sarzyński Marcin\nNr zajęć: 9/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:383ec78311eee910f7685e67@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261214T080000
+DTEND;TZID=Europe/Warsaw:20261214T093500
+SUMMARY:Nteo (w)
+LOCATION:6 25
+DESCRIPTION:Niezawodność\, trwałość i eksploatacja obiektów\nRodzaj:
+  wykład\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 9/10\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a32be1a56301ae7421e7c19b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261214T095000
+DTEND;TZID=Europe/Warsaw:20261214T112500
+SUMMARY:Miid (w)
+LOCATION:323 S
+DESCRIPTION:Metody identyfikacji i diag.\nRodzaj: wykład\nProwadzący: dr
+  inż. Dudziński Jacek\nNr zajęć: 13/14\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d4e18cbcb0da39579936672e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261214T114000
+DTEND;TZID=Europe/Warsaw:20261214T131500
+SUMMARY:Miid (L)
+LOCATION:322 S
+DESCRIPTION:Metody identyfikacji i diag.\nRodzaj: laboratorium\nProwadząc
+ y: dr inż. Dudziński Jacek\nNr zajęć: 4/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:99f75c8016fdef65507eb957@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261214T133000
+DTEND;TZID=Europe/Warsaw:20261214T150500
+SUMMARY:Nteo (P)
+LOCATION:6 25
+DESCRIPTION:Niezawodność\, trwałość i eksploatacja obiektów\nRodzaj:
+  projekt\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 5/8\nBlo
+ k: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:85c8ea827c1a353b54017d13@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261215T080000
+DTEND;TZID=Europe/Warsaw:20261215T093500
+SUMMARY:Opto (w)
+LOCATION:S3 72
+DESCRIPTION:Optoelektronika\nRodzaj: wykład\nProwadzący: prof. dr hab. i
+ nż. Bielecki Zbigniew\nNr zajęć: 10/11\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c2f8b84f26b15e91f82218fb@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261215T095000
+DTEND;TZID=Europe/Warsaw:20261215T112500
+SUMMARY:SwSM (ć)
+LOCATION:47 63
+DESCRIPTION:Sterowanie w systemach mechatronicznych\nRodzaj: ćwiczenia\nP
+ rowadzący: dr inż. Jaworowicz Marek\nNr zajęć: 4/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f3a3db7ee2751522ff004b2f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261215T114000
+DTEND;TZID=Europe/Warsaw:20261215T131500
+SUMMARY:Ppte (w)
+LOCATION:6 25
+DESCRIPTION:Projektowanie procesów technologicznych\nRodzaj: wykład\nPro
+ wadzący: dr inż. Sarzyński Marcin\nNr zajęć: 10/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e65448b959b049757e9f6b44@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261215T133000
+DTEND;TZID=Europe/Warsaw:20261215T150500
+SUMMARY:Ppte (w)
+LOCATION:6 25
+DESCRIPTION:Projektowanie procesów technologicznych\nRodzaj: wykład\nPro
+ wadzący: dr inż. Sarzyński Marcin\nNr zajęć: 11/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6b9852cf0acbd9d503b997ba@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261215T160000
+DTEND;TZID=Europe/Warsaw:20261215T173500
+SUMMARY:Nteo (S)
+LOCATION:6 25
+DESCRIPTION:Niezawodność\, trwałość i eksploatacja obiektów\nRodzaj:
+  seminarium\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 3/5\n
+ Blok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:aec34d06d9817ec48765a5bb@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261216T080000
+DTEND;TZID=Europe/Warsaw:20261216T093500
+SUMMARY:Ztwy (L)
+LOCATION:8 25
+DESCRIPTION:Zaawansowane techniki wytwarzania\nRodzaj: laboratorium\nProwa
+ dzący: mgr inż. Cieplak Kamil\nNr zajęć: 3/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4e4c24579c244f41839691d1@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261216T095000
+DTEND;TZID=Europe/Warsaw:20261216T112500
+SUMMARY:Ztwy (L)
+LOCATION:8 25
+DESCRIPTION:Zaawansowane techniki wytwarzania\nRodzaj: laboratorium\nProwa
+ dzący: mgr inż. Cieplak Kamil\nNr zajęć: 4/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6f69571bc163ca1a00e93a6b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261216T114000
+DTEND;TZID=Europe/Warsaw:20261216T131500
+SUMMARY:Po (L)
+LOCATION:17 25
+DESCRIPTION:Programowanie obiektowe\nRodzaj: laboratorium\nProwadzący: mg
+ r inż. Rajkowski Kamil\nNr zajęć: 3/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:740d5b0f2e02a2fa416bc332@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261216T133000
+DTEND;TZID=Europe/Warsaw:20261216T150500
+SUMMARY:Nteo (ć)
+LOCATION:17 25
+DESCRIPTION:Niezawodność\, trwałość i eksploatacja obiektów\nRodzaj:
+  ćwiczenia\nProwadzący: dr inż. Piechna Sławomir\nNr zajęć: 7/12\nB
+ lok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:dc85a5ab4faf9fcd8c3eea3d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261217T114000
+DTEND;TZID=Europe/Warsaw:20261217T131500
+SUMMARY:Ppte (L)
+LOCATION:17 25
+DESCRIPTION:Projektowanie procesów technologicznych\nRodzaj: laboratorium
+ \nProwadzący: dr inż. Sarzyński Marcin\nNr zajęć: 5/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3d5cc740b85ada6d5beeadf1@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261217T133000
+DTEND;TZID=Europe/Warsaw:20261217T150500
+SUMMARY:Ppte (L)
+LOCATION:17 25
+DESCRIPTION:Projektowanie procesów technologicznych\nRodzaj: laboratorium
+ \nProwadzący: dr inż. Sarzyński Marcin\nNr zajęć: 6/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:143dbb9283109097a7567a19@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261218T080000
+DTEND;TZID=Europe/Warsaw:20261218T093500
+SUMMARY:Nteo (ć)
+LOCATION:17 25
+DESCRIPTION:Niezawodność\, trwałość i eksploatacja obiektów\nRodzaj:
+  ćwiczenia\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 8/12\
+ nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:835e3015761e9f9aaa8575b4@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261218T095000
+DTEND;TZID=Europe/Warsaw:20261218T112500
+SUMMARY:Ppte (ć)
+LOCATION:6 25
+DESCRIPTION:Projektowanie procesów technologicznych\nRodzaj: ćwiczenia\n
+ Prowadzący: dr inż. Sarzyński Marcin\nNr zajęć: 3/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b09ee82109912d77a8fd74cc@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261218T114000
+DTEND;TZID=Europe/Warsaw:20261218T131500
+SUMMARY:Po (L)
+LOCATION:113 25
+DESCRIPTION:Programowanie obiektowe\nRodzaj: laboratorium\nProwadzący: mg
+ r inż. Rajkowski Kamil\nNr zajęć: 4/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b0fdf091d9918a09ecff88c2@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261221T080000
+DTEND;TZID=Europe/Warsaw:20261221T093500
+SUMMARY:Po (ć)
+LOCATION:17 25
+DESCRIPTION:Programowanie obiektowe\nRodzaj: ćwiczenia\nProwadzący: mgr 
+ inż. Rajkowski Kamil\nNr zajęć: 5/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b780d22a3e8f5ee8d926fad5@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261221T114000
+DTEND;TZID=Europe/Warsaw:20261221T131500
+SUMMARY:Ppte (ć)
+LOCATION:6 25
+DESCRIPTION:Projektowanie procesów technologicznych\nRodzaj: ćwiczenia\n
+ Prowadzący: dr inż. Sarzyński Marcin\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:60659f226ca00175de2b009f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261221T133000
+DTEND;TZID=Europe/Warsaw:20261221T150500
+SUMMARY:Ppte (L)
+LOCATION:17 25
+DESCRIPTION:Projektowanie procesów technologicznych\nRodzaj: laboratorium
+ \nProwadzący: dr inż. Sarzyński Marcin\nNr zajęć: 7/9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3c773f8410a3e8c1dde6229c@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261221T160000
+DTEND;TZID=Europe/Warsaw:20261221T173500
+SUMMARY:Ppte (L)
+LOCATION:17 25
+DESCRIPTION:Projektowanie procesów technologicznych\nRodzaj: laboratorium
+ \nProwadzący: dr inż. Sarzyński Marcin\nNr zajęć: 8/9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:318f850c4816b36c0e4cd17a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261222T080000
+DTEND;TZID=Europe/Warsaw:20261222T093500
+SUMMARY:Opto (w)
+LOCATION:S3 72
+DESCRIPTION:Optoelektronika\nRodzaj: wykład\nProwadzący: prof. dr hab. i
+ nż. Bielecki Zbigniew\nNr zajęć: 11/11\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6e6087db966acc91f8a912a0@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261222T095000
+DTEND;TZID=Europe/Warsaw:20261222T112500
+SUMMARY:Nteo (w)
+LOCATION:6 25
+DESCRIPTION:Niezawodność\, trwałość i eksploatacja obiektów\nRodzaj:
+  wykład\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 10/10\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:98d5f9c13294be230228897f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261222T114000
+DTEND;TZID=Europe/Warsaw:20261222T131500
+SUMMARY:SwSM (ć)
+LOCATION:47 63
+DESCRIPTION:Sterowanie w systemach mechatronicznych\nRodzaj: ćwiczenia\nP
+ rowadzący: dr inż. Jaworowicz Marek\nNr zajęć: 5/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c9180bcda4bce60ba0d6ede8@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261223T080000
+DTEND;TZID=Europe/Warsaw:20261223T093500
+SUMMARY:Ztwy (L)
+LOCATION:17 25
+DESCRIPTION:Zaawansowane techniki wytwarzania\nRodzaj: laboratorium\nProwa
+ dzący: dr hab. inż. Majewski Tomasz\nNr zajęć: 5/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:12f226166b36690af1415662@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261223T095000
+DTEND;TZID=Europe/Warsaw:20261223T112500
+SUMMARY:Ztwy (L)
+LOCATION:17 25
+DESCRIPTION:Zaawansowane techniki wytwarzania\nRodzaj: laboratorium\nProwa
+ dzący: dr hab. inż. Majewski Tomasz\nNr zajęć: 6/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:62170c4826aeb703c11f6c58@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261223T114000
+DTEND;TZID=Europe/Warsaw:20261223T131500
+SUMMARY:Po (P)
+LOCATION:17 25
+DESCRIPTION:Programowanie obiektowe\nRodzaj: projekt\nProwadzący: dr inż
+ . Paszkowski Robert\nNr zajęć: 5/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e7430e3fefd0a89ca7f1e98f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261223T133000
+DTEND;TZID=Europe/Warsaw:20261223T150500
+SUMMARY:Nteo (L)
+LOCATION:7 25
+DESCRIPTION:Niezawodność\, trwałość i eksploatacja obiektów\nRodzaj:
+  laboratorium\nProwadzący: mgr inż. Modrzejewski Patryk\nNr zajęć: 1/
+ 10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:cd9da0aee0cad9c79f14871e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20261223T160000
+DTEND;TZID=Europe/Warsaw:20261223T173500
+SUMMARY:Nteo (L)
+LOCATION:7 25
+DESCRIPTION:Niezawodność\, trwałość i eksploatacja obiektów\nRodzaj:
+  laboratorium\nProwadzący: mgr inż. Modrzejewski Patryk\nNr zajęć: 2/
+ 10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:b784e5f4ae440d99b900c7b7@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270107T095000
+DTEND;TZID=Europe/Warsaw:20270107T112500
+SUMMARY:Ppte (w)
+LOCATION:6 25
+DESCRIPTION:Projektowanie procesów technologicznych\nRodzaj: wykład\nPro
+ wadzący: dr inż. Sarzyński Marcin\nNr zajęć: 12/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:47433432a20f8818c5b4de3d@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270107T114000
+DTEND;TZID=Europe/Warsaw:20270107T131500
+SUMMARY:Nteo (ć)
+LOCATION:17 25
+DESCRIPTION:Niezawodność\, trwałość i eksploatacja obiektów\nRodzaj:
+  ćwiczenia\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 9/12\
+ nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:cfc7ebc4feaa2c7023fb5a88@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270107T133000
+DTEND;TZID=Europe/Warsaw:20270107T150500
+SUMMARY:Nteo (P)
+LOCATION:7 25
+DESCRIPTION:Niezawodność\, trwałość i eksploatacja obiektów\nRodzaj:
+  projekt\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 6/8\nBlo
+ k: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f6d67e44eeae8a4191803fd2@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270108T080000
+DTEND;TZID=Europe/Warsaw:20270108T093500
+SUMMARY:Opto (L)
+LOCATION:12 70\;9 70
+DESCRIPTION:Optoelektronika\nRodzaj: laboratorium\nProwadzący: dr inż. S
+ zabra Dariusz\nNr zajęć: 11/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:eb0828dc1fbe7a5f09e6dafe@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270108T095000
+DTEND;TZID=Europe/Warsaw:20270108T112500
+SUMMARY:Opto (L)
+LOCATION:12 70\;9 70
+DESCRIPTION:Optoelektronika\nRodzaj: laboratorium\nProwadzący: dr inż. S
+ zabra Dariusz\nNr zajęć: 12/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f15508d2311b584d8b39460b@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270108T114000
+DTEND;TZID=Europe/Warsaw:20270108T131500
+SUMMARY:Ppte (ć)
+LOCATION:6 25
+DESCRIPTION:Projektowanie procesów technologicznych\nRodzaj: ćwiczenia\n
+ Prowadzący: dr inż. Sarzyński Marcin\nNr zajęć: 5/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e3f386ba519bc5eef069903e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270111T080000
+DTEND;TZID=Europe/Warsaw:20270111T093500
+SUMMARY:Po (ć)
+LOCATION:17 25
+DESCRIPTION:Programowanie obiektowe\nRodzaj: ćwiczenia\nProwadzący: mgr 
+ inż. Rajkowski Kamil\nNr zajęć: 6/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:74f5b231ca64452bdb44f906@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270111T095000
+DTEND;TZID=Europe/Warsaw:20270111T112500
+SUMMARY:Miid (w)
+LOCATION:323 S
+DESCRIPTION:Metody identyfikacji i diag.\nRodzaj: wykład\nProwadzący: dr
+  inż. Dudziński Jacek\nNr zajęć: 14/14\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9236c4d46e0f0e545b7408d6@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270111T114000
+DTEND;TZID=Europe/Warsaw:20270111T131500
+SUMMARY:Miid (L)
+LOCATION:322 S
+DESCRIPTION:Metody identyfikacji i diag.\nRodzaj: laboratorium\nProwadząc
+ y: dr inż. Dudziński Jacek\nNr zajęć: 5/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ff1f31967b5b4e86a50ff68e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270111T133000
+DTEND;TZID=Europe/Warsaw:20270111T150500
+SUMMARY:Nteo (L)
+LOCATION:6 25
+DESCRIPTION:Niezawodność\, trwałość i eksploatacja obiektów\nRodzaj:
+  laboratorium\nProwadzący: mgr inż. Modrzejewski Patryk\nNr zajęć: 3/
+ 10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a4184c2be63396880929f723@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270111T160000
+DTEND;TZID=Europe/Warsaw:20270111T173500
+SUMMARY:Nteo (L)
+LOCATION:6 25
+DESCRIPTION:Niezawodność\, trwałość i eksploatacja obiektów\nRodzaj:
+  laboratorium\nProwadzący: mgr inż. Modrzejewski Patryk\nNr zajęć: 4/
+ 10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:ab87958a49fc640bb97c0da4@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270112T095000
+DTEND;TZID=Europe/Warsaw:20270112T112500
+SUMMARY:SwSM (ć)
+LOCATION:47 63
+DESCRIPTION:Sterowanie w systemach mechatronicznych\nRodzaj: ćwiczenia\nP
+ rowadzący: dr inż. Jaworowicz Marek\nNr zajęć: 6/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:44ebdc6187c543c6507f65bd@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270112T114000
+DTEND;TZID=Europe/Warsaw:20270112T131500
+SUMMARY:Nteo (P)
+LOCATION:6 25
+DESCRIPTION:Niezawodność\, trwałość i eksploatacja obiektów\nRodzaj:
+  projekt\nProwadzący: dr inż. Piechna Sławomir\nNr zajęć: 7/8\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:bb3e8a1a3824f66b52334941@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270112T133000
+DTEND;TZID=Europe/Warsaw:20270112T150500
+SUMMARY:Miid (ć)
+LOCATION:331 S
+DESCRIPTION:Metody identyfikacji i diag.\nRodzaj: ćwiczenia\nProwadzący:
+  dr inż. Dudziński Jacek\nNr zajęć: 5/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:bbf306581004160042be8a9f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270113T080000
+DTEND;TZID=Europe/Warsaw:20270113T093500
+SUMMARY:Ztwy (L)
+LOCATION:17 25
+DESCRIPTION:Zaawansowane techniki wytwarzania\nRodzaj: laboratorium\nProwa
+ dzący: dr hab. inż. Majewski Tomasz\nNr zajęć: 7/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f65c24b114a4d236e523f432@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270113T095000
+DTEND;TZID=Europe/Warsaw:20270113T112500
+SUMMARY:Ztwy (L)
+LOCATION:17 25
+DESCRIPTION:Zaawansowane techniki wytwarzania\nRodzaj: laboratorium\nProwa
+ dzący: dr hab. inż. Majewski Tomasz\nNr zajęć: 8/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6f04b77eb76a2eeb5d3f2673@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270113T114000
+DTEND;TZID=Europe/Warsaw:20270113T131500
+SUMMARY:Po (L)
+LOCATION:17 25
+DESCRIPTION:Programowanie obiektowe\nRodzaj: laboratorium\nProwadzący: mg
+ r inż. Rajkowski Kamil\nNr zajęć: 5/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3ecdd50f559ffafc6fe9ebd6@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270114T080000
+DTEND;TZID=Europe/Warsaw:20270114T093500
+SUMMARY:SwSM (L)
+LOCATION:16 63
+DESCRIPTION:Sterowanie w systemach mechatronicznych\nRodzaj: laboratorium\
+ nProwadzący: mgr inż. Sudak Filip\nNr zajęć: 1/2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:937be2c6f761de650875d050@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270114T095000
+DTEND;TZID=Europe/Warsaw:20270114T112500
+SUMMARY:Nteo (ć)
+LOCATION:17 25
+DESCRIPTION:Niezawodność\, trwałość i eksploatacja obiektów\nRodzaj:
+  ćwiczenia\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 10/12
+ \nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:062320913483b3c2692fb668@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270115T114000
+DTEND;TZID=Europe/Warsaw:20270115T131500
+SUMMARY:Nteo (L)
+LOCATION:6 25
+DESCRIPTION:Niezawodność\, trwałość i eksploatacja obiektów\nRodzaj:
+  laboratorium\nProwadzący: mgr inż. Modrzejewski Patryk\nNr zajęć: 5/
+ 10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4c08b2f7d507a6145b0b0acb@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270115T133000
+DTEND;TZID=Europe/Warsaw:20270115T150500
+SUMMARY:Nteo (L)
+LOCATION:6 25
+DESCRIPTION:Niezawodność\, trwałość i eksploatacja obiektów\nRodzaj:
+  laboratorium\nProwadzący: mgr inż. Modrzejewski Patryk\nNr zajęć: 6/
+ 10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d78cb314ec20cb3f067b8bc1@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270118T080000
+DTEND;TZID=Europe/Warsaw:20270118T093500
+SUMMARY:Nteo (S)
+LOCATION:6 25
+DESCRIPTION:Niezawodność\, trwałość i eksploatacja obiektów\nRodzaj:
+  seminarium\nProwadzący: dr inż. Piechna Sławomir\nNr zajęć: 4/5\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4ca55dacc6da5c29773c2577@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270119T080000
+DTEND;TZID=Europe/Warsaw:20270119T093500
+SUMMARY:Nteo (P)
+LOCATION:6 25
+DESCRIPTION:Niezawodność\, trwałość i eksploatacja obiektów\nRodzaj:
+  projekt\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 8/8\nBlo
+ k: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b4dcef92c7d67af2d852aafd@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270119T095000
+DTEND;TZID=Europe/Warsaw:20270119T112500
+SUMMARY:Miid (L)
+LOCATION:17 25
+DESCRIPTION:Metody identyfikacji i diag.\nRodzaj: laboratorium\nProwadząc
+ y: dr inż. Grązka Michał\nNr zajęć: 6/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:fd9c184b51be60bbec49205e@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270119T114000
+DTEND;TZID=Europe/Warsaw:20270119T131500
+SUMMARY:Ztwy (L)
+LOCATION:106 36
+DESCRIPTION:Zaawansowane techniki wytwarzania\nRodzaj: laboratorium\nProwa
+ dzący: dr inż. Panasiuk Jarosław\nNr zajęć: 9/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:30ee78ed1662d793126bef4f@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270119T133000
+DTEND;TZID=Europe/Warsaw:20270119T150500
+SUMMARY:Ztwy (L)
+LOCATION:106 36
+DESCRIPTION:Zaawansowane techniki wytwarzania\nRodzaj: laboratorium\nProwa
+ dzący: dr inż. Panasiuk Jarosław\nNr zajęć: 10/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:314eb4c7e68d96c75a4c9dab@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270120T080000
+DTEND;TZID=Europe/Warsaw:20270120T093500
+SUMMARY:Po (L)
+LOCATION:17 25
+DESCRIPTION:Programowanie obiektowe\nRodzaj: laboratorium\nProwadzący: mg
+ r inż. Rajkowski Kamil\nNr zajęć: 6/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7ac07661ebc348df6cc285c7@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270120T095000
+DTEND;TZID=Europe/Warsaw:20270120T112500
+SUMMARY:Po (P)
+LOCATION:17 25
+DESCRIPTION:Programowanie obiektowe\nRodzaj: projekt\nProwadzący: dr inż
+ . Paszkowski Robert\nNr zajęć: 6/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c95e671f5965b07fb9dcbce1@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270120T114000
+DTEND;TZID=Europe/Warsaw:20270120T131500
+SUMMARY:Ppte (P)
+LOCATION:6 25
+DESCRIPTION:Projektowanie procesów technologicznych\nRodzaj: projekt\nPro
+ wadzący: mgr inż. Sarzyńska Katarzyna\nNr zajęć: 3/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:35359a89792a15574b654e49@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270120T133000
+DTEND;TZID=Europe/Warsaw:20270120T150500
+SUMMARY:Ppte (P)
+LOCATION:6 25
+DESCRIPTION:Projektowanie procesów technologicznych\nRodzaj: projekt\nPro
+ wadzący: mgr inż. Sarzyńska Katarzyna\nNr zajęć: 4/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6672379d7871bf1ba360c701@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270121T080000
+DTEND;TZID=Europe/Warsaw:20270121T093500
+SUMMARY:Nteo (L)
+LOCATION:6 25
+DESCRIPTION:Niezawodność\, trwałość i eksploatacja obiektów\nRodzaj:
+  laboratorium\nProwadzący: mgr inż. Modrzejewski Patryk\nNr zajęć: 7/
+ 10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7f0a306b670c0aade6dbb791@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270121T095000
+DTEND;TZID=Europe/Warsaw:20270121T112500
+SUMMARY:Nteo (L)
+LOCATION:6 25
+DESCRIPTION:Niezawodność\, trwałość i eksploatacja obiektów\nRodzaj:
+  laboratorium\nProwadzący: mgr inż. Modrzejewski Patryk\nNr zajęć: 8/
+ 10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:33f8cfbf1ce8e389657adf77@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270122T080000
+DTEND;TZID=Europe/Warsaw:20270122T093500
+SUMMARY:Ppte (L)
+LOCATION:17 25
+DESCRIPTION:Projektowanie procesów technologicznych\nRodzaj: laboratorium
+ \nProwadzący: dr inż. Sarzyński Marcin\nNr zajęć: 9/9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:837c9070fababe3bd290fe48@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270125T080000
+DTEND;TZID=Europe/Warsaw:20270125T093500
+SUMMARY:Po (L)
+LOCATION:17 25
+DESCRIPTION:Programowanie obiektowe\nRodzaj: laboratorium\nProwadzący: mg
+ r inż. Rajkowski Kamil\nNr zajęć: 7/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9594100fcbda7711d33abb25@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270125T095000
+DTEND;TZID=Europe/Warsaw:20270125T112500
+SUMMARY:SwSM (L)
+LOCATION:16 63
+DESCRIPTION:Sterowanie w systemach mechatronicznych\nRodzaj: laboratorium\
+ nProwadzący: mgr inż. Sudak Filip\nNr zajęć: 2/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:eed7e1dd78687c69bf0fd319@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270127T080000
+DTEND;TZID=Europe/Warsaw:20270127T093500
+SUMMARY:Ztwy (L)
+LOCATION:17 25
+DESCRIPTION:Zaawansowane techniki wytwarzania\nRodzaj: laboratorium\nProwa
+ dzący: dr hab. inż. Majewski Tomasz\nNr zajęć: 11/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:97b7870f6e47fc6d47e7e476@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270127T095000
+DTEND;TZID=Europe/Warsaw:20270127T112500
+SUMMARY:Ztwy (L)
+LOCATION:17 25
+DESCRIPTION:Zaawansowane techniki wytwarzania\nRodzaj: laboratorium\nProwa
+ dzący: dr hab. inż. Majewski Tomasz\nNr zajęć: 12/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:85297ff714d451821399d1f8@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270127T114000
+DTEND;TZID=Europe/Warsaw:20270127T131500
+SUMMARY:Nteo (ć)
+LOCATION:17 25
+DESCRIPTION:Niezawodność\, trwałość i eksploatacja obiektów\nRodzaj:
+  ćwiczenia\nProwadzący: dr inż. Piechna Sławomir\nNr zajęć: 11/12\n
+ Blok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6e6767a9d28f5962a641d0ce@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270128T080000
+DTEND;TZID=Europe/Warsaw:20270128T093500
+SUMMARY:Nteo (L)
+LOCATION:6 25
+DESCRIPTION:Niezawodność\, trwałość i eksploatacja obiektów\nRodzaj:
+  laboratorium\nProwadzący: mgr inż. Modrzejewski Patryk\nNr zajęć: 9/
+ 10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:75b9d3cb554f77616cef4a33@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270128T095000
+DTEND;TZID=Europe/Warsaw:20270128T112500
+SUMMARY:Nteo (L)
+LOCATION:6 25
+DESCRIPTION:Niezawodność\, trwałość i eksploatacja obiektów\nRodzaj:
+  laboratorium\nProwadzący: mgr inż. Modrzejewski Patryk\nNr zajęć: 10
+ /10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b5ccda8843320ff5724a2d9a@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270128T114000
+DTEND;TZID=Europe/Warsaw:20270128T131500
+SUMMARY:Nteo (ć)
+LOCATION:17 25
+DESCRIPTION:Niezawodność\, trwałość i eksploatacja obiektów\nRodzaj:
+  ćwiczenia\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 12/12
+ \nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:87d73c219bbf2823692c1828@wat-plan
+DTSTAMP:20261126T134030Z
+DTSTART;TZID=Europe/Warsaw:20270128T133000
+DTEND;TZID=Europe/Warsaw:20270128T150500
+SUMMARY:Nteo (S)
+LOCATION:6 25
+DESCRIPTION:Niezawodność\, trwałość i eksploatacja obiektów\nRodzaj:
+  seminarium\nProwadzący: dr inż. Idziaszek Zdzisław\nNr zajęć: 5/5\n
+ Blok: 4
+END:VEVENT
+END:VCALENDAR

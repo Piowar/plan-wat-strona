@@ -1,0 +1,2150 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WMT25SX1S1
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:f5de456c6d4328f07060e9d9@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20260907T095000
+DTEND;TZID=Europe/Warsaw:20260907T112500
+SUMMARY:Mat3 (ZP)
+LOCATION:315 S
+DESCRIPTION:Matematyka 3\nRodzaj: zaliczenie poprawkowe\nProwadzący: mgr 
+ Pawlak Karolina\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0fbf1f93a67d82641e02b521@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20260914T095000
+DTEND;TZID=Europe/Warsaw:20260914T112500
+SUMMARY:Mat3 (Ep)
+LOCATION:19 36
+DESCRIPTION:Matematyka 3\nRodzaj: egzamin poprawkowy\nProwadzący: dr Tark
+ a Joanna\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:969e53611160a3659040f424@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20260918T080000
+DTEND;TZID=Europe/Warsaw:20260918T093500
+SUMMARY:F1 (Ep)
+LOCATION:19 36
+DESCRIPTION:Fizyka 1\nRodzaj: egzamin poprawkowy\nProwadzący: dr hab .in
+ ż. Perkowski Paweł\nNr zajęć: 1/2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6e461a147670b762bf034b9b@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20260918T095000
+DTEND;TZID=Europe/Warsaw:20260918T112500
+SUMMARY:F1 (Ep)
+LOCATION:19 36
+DESCRIPTION:Fizyka 1\nRodzaj: egzamin poprawkowy\nProwadzący: dr hab .in
+ ż. Perkowski Paweł\nNr zajęć: 2/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:015792a6ee15fa59722ef154@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261005T080000
+DTEND;TZID=Europe/Warsaw:20261005T093500
+SUMMARY:EiE (w)
+LOCATION:S2 72
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: wykład\nProwadzący: d
+ r inż. Grzegorczyk Tomasz\nNr zajęć: 1/20\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b40741fe078c77202782c438@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261005T095000
+DTEND;TZID=Europe/Warsaw:20261005T112500
+SUMMARY:EiE (w)
+LOCATION:S2 72
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: wykład\nProwadzący: d
+ r inż. Grzegorczyk Tomasz\nNr zajęć: 2/20\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:41ce9f03b323b4746ba675b8@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261005T133000
+DTEND;TZID=Europe/Warsaw:20261005T150500
+SUMMARY:F2 (w)
+LOCATION:19 36
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: dr hab .inż. Perkowsk
+ i Paweł\nNr zajęć: 1/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3bef31a5e3f30e96b972e139@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261005T160000
+DTEND;TZID=Europe/Warsaw:20261005T173500
+SUMMARY:Ja (ć)
+LOCATION:230 K\;134
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 1/15\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:648b053945caaf143abcdcaf@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261005T175000
+DTEND;TZID=Europe/Warsaw:20261005T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 1/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:1d70de8d85f0d67e5ac01de8@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261007T080000
+DTEND;TZID=Europe/Warsaw:20261007T093500
+SUMMARY:EiE (w)
+LOCATION:19 36
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: wykład\nProwadzący: d
+ r inż. Grzegorczyk Tomasz\nNr zajęć: 3/20\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c7e9ab28aa8ead5f01008398@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261007T095000
+DTEND;TZID=Europe/Warsaw:20261007T112500
+SUMMARY:EiE (w)
+LOCATION:19 36
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: wykład\nProwadzący: d
+ r inż. Grzegorczyk Tomasz\nNr zajęć: 4/20\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ca7ae9ca8af0a827f418e8e5@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261012T095000
+DTEND;TZID=Europe/Warsaw:20261012T112500
+SUMMARY:Che (w)
+LOCATION:109 24
+DESCRIPTION:Chemia\nRodzaj: wykład\nProwadzący: dr inż. Szulc Jarosław
+ \nNr zajęć: 1/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3a1c03176b004ad2324463a3@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261012T114000
+DTEND;TZID=Europe/Warsaw:20261012T131500
+SUMMARY:Che (w)
+LOCATION:109 24
+DESCRIPTION:Chemia\nRodzaj: wykład\nProwadzący: dr inż. Szulc Jarosław
+ \nNr zajęć: 2/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:708e49168da8b5437993edbd@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261012T133000
+DTEND;TZID=Europe/Warsaw:20261012T150500
+SUMMARY:F2 (w)
+LOCATION:19 36
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: dr hab .inż. Perkowsk
+ i Paweł\nNr zajęć: 2/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e7dfb4fedccbe737669c2164@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261012T160000
+DTEND;TZID=Europe/Warsaw:20261012T173500
+SUMMARY:Ja (ć)
+LOCATION:230 K\;134
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 2/15\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:d1fe8bd51b52312794dc3941@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261012T175000
+DTEND;TZID=Europe/Warsaw:20261012T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 2/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:ed14cac0384366b6029ac49e@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261013T095000
+DTEND;TZID=Europe/Warsaw:20261013T112500
+SUMMARY:Met (w)
+LOCATION:S2 72
+DESCRIPTION:Mechanika techniczna\nRodzaj: wykład\nProwadzący: dr inż. K
+ ieszek Rafał\nNr zajęć: 1/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:22555a9e054652ee6da97e76@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261013T114000
+DTEND;TZID=Europe/Warsaw:20261013T131500
+SUMMARY:Met (w)
+LOCATION:S2 72
+DESCRIPTION:Mechanika techniczna\nRodzaj: wykład\nProwadzący: dr inż. K
+ ieszek Rafał\nNr zajęć: 2/17\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d9d7aa5c70eb640003764118@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261014T080000
+DTEND;TZID=Europe/Warsaw:20261014T093500
+SUMMARY:Bśr (ć)
+LOCATION:43 67
+DESCRIPTION:Bezpieczeństwo środowiskowe\nRodzaj: ćwiczenia\nProwadzący
+ : dr inż. Jaskółowski Waldemar\nNr zajęć: 1/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5de3a82f21157bd1616450c1@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261014T095000
+DTEND;TZID=Europe/Warsaw:20261014T112500
+SUMMARY:Bśr (ć)
+LOCATION:43 67
+DESCRIPTION:Bezpieczeństwo środowiskowe\nRodzaj: ćwiczenia\nProwadzący
+ : dr inż. Jaskółowski Waldemar\nNr zajęć: 2/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c51b8cb9003ec6c2dff2ade5@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261016T114000
+DTEND;TZID=Europe/Warsaw:20261016T131500
+SUMMARY:EiE (w)
+LOCATION:S2 72
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: wykład\nProwadzący: d
+ r inż. Grzegorczyk Tomasz\nNr zajęć: 5/20\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e39f35944624d7a59747cc9f@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261016T160000
+DTEND;TZID=Europe/Warsaw:20261016T173500
+SUMMARY:EiE (ć)
+LOCATION:33 67
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: ćwiczenia\nProwadzący
+ : mgr inż. Kurenda Maciej\nNr zajęć: 1/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:10edff32b9efd3ceff3da047@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261016T175000
+DTEND;TZID=Europe/Warsaw:20261016T192500
+SUMMARY:EiE (L)
+LOCATION:141 36\;128
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: laboratorium\nProwadzą
+ cy: * Skolmowski Albert\nNr zajęć: 1/10\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:edacc8f68957b68fe3312120@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261019T095000
+DTEND;TZID=Europe/Warsaw:20261019T112500
+SUMMARY:Che (w)
+LOCATION:109 24
+DESCRIPTION:Chemia\nRodzaj: wykład\nProwadzący: dr inż. Szulc Jarosław
+ \nNr zajęć: 3/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d0d51e3e367be4295d55a706@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261019T114000
+DTEND;TZID=Europe/Warsaw:20261019T131500
+SUMMARY:Che (w)
+LOCATION:109 24
+DESCRIPTION:Chemia\nRodzaj: wykład\nProwadzący: dr inż. Szulc Jarosław
+ \nNr zajęć: 4/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:52879cd14177cb0233d8fd21@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261019T133000
+DTEND;TZID=Europe/Warsaw:20261019T150500
+SUMMARY:F2 (w)
+LOCATION:19 36
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: dr hab .inż. Perkowsk
+ i Paweł\nNr zajęć: 3/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c885311d388fa1aa1dbb047b@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261019T160000
+DTEND;TZID=Europe/Warsaw:20261019T173500
+SUMMARY:Ja (ć)
+LOCATION:230 K\;134
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 3/15\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:2a0a9690ea65f17802099a7e@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261019T175000
+DTEND;TZID=Europe/Warsaw:20261019T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 3/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:542856c36c07bb30e12af3f7@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261020T095000
+DTEND;TZID=Europe/Warsaw:20261020T112500
+SUMMARY:Met (w)
+LOCATION:S2 72
+DESCRIPTION:Mechanika techniczna\nRodzaj: wykład\nProwadzący: dr inż. K
+ ieszek Rafał\nNr zajęć: 3/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a6fb02fa5d67d0f490098957@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261020T114000
+DTEND;TZID=Europe/Warsaw:20261020T131500
+SUMMARY:Met (w)
+LOCATION:S2 72
+DESCRIPTION:Mechanika techniczna\nRodzaj: wykład\nProwadzący: dr inż. K
+ ieszek Rafał\nNr zajęć: 4/17\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:fb57fa872779f7ced6c8edde@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261020T133000
+DTEND;TZID=Europe/Warsaw:20261020T150500
+SUMMARY:Bśr (w)
+LOCATION:S3 72
+DESCRIPTION:Bezpieczeństwo środowiskowe\nRodzaj: wykład\nProwadzący: d
+ r inż. Jaskółowski Waldemar\nNr zajęć: 1/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0fab1ba74d5a3c3dfa29ad21@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261021T080000
+DTEND;TZID=Europe/Warsaw:20261021T093500
+SUMMARY:EiE (w)
+LOCATION:S2 72
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: wykład\nProwadzący: d
+ r inż. Grzegorczyk Tomasz\nNr zajęć: 6/20\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b090c1c236622fe3aa301037@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261021T114000
+DTEND;TZID=Europe/Warsaw:20261021T131500
+SUMMARY:F2 (L)
+LOCATION:139 S
+DESCRIPTION:Fizyka 2\nRodzaj: laboratorium\nProwadzący: dr inż. Dudek Mi
+ chał\nNr zajęć: 1/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:014de398c01cf65f54cc81a0@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261021T133000
+DTEND;TZID=Europe/Warsaw:20261021T150500
+SUMMARY:Met (ć)
+LOCATION:20 63
+DESCRIPTION:Mechanika techniczna\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Stępień Sławomir\nNr zajęć: 1/17\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9748bc86ef9db38449d65b41@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261023T114000
+DTEND;TZID=Europe/Warsaw:20261023T131500
+SUMMARY:EiE (w)
+LOCATION:S2 72
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: wykład\nProwadzący: d
+ r inż. Grzegorczyk Tomasz\nNr zajęć: 7/20\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:50797c73fa98425677a5477e@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261023T133000
+DTEND;TZID=Europe/Warsaw:20261023T150500
+SUMMARY:F2 (ć)
+LOCATION:11 57
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr Chodorow Urszula
+ \nNr zajęć: 1/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e2c354c03efc4c1f1eaaf617@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261026T095000
+DTEND;TZID=Europe/Warsaw:20261026T112500
+SUMMARY:Met (ć)
+LOCATION:43 67
+DESCRIPTION:Mechanika techniczna\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Stępień Sławomir\nNr zajęć: 2/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4890cad9168fde659781cc0c@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261026T114000
+DTEND;TZID=Europe/Warsaw:20261026T131500
+SUMMARY:Che (w)
+LOCATION:109 24
+DESCRIPTION:Chemia\nRodzaj: wykład\nProwadzący: dr inż. Szulc Jarosław
+ \nNr zajęć: 5/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7734e3568dff7710a1df7799@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261026T133000
+DTEND;TZID=Europe/Warsaw:20261026T150500
+SUMMARY:F2 (w)
+LOCATION:19 36
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: dr hab .inż. Perkowsk
+ i Paweł\nNr zajęć: 4/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a206ebd2b7ed04540b7d77d1@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261026T160000
+DTEND;TZID=Europe/Warsaw:20261026T173500
+SUMMARY:Ja (ć)
+LOCATION:230 K\;134
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 4/15\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:ccba3afca6374cbe82d6345c@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261026T175000
+DTEND;TZID=Europe/Warsaw:20261026T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 4/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:2f3cb047557edd10bbd84439@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261027T080000
+DTEND;TZID=Europe/Warsaw:20261027T093500
+SUMMARY:F2 (ć)
+LOCATION:166 S
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr Chodorow Urszula
+ \nNr zajęć: 2/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:55a2ad583b75fc16ea761cd4@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261027T095000
+DTEND;TZID=Europe/Warsaw:20261027T112500
+SUMMARY:Met (w)
+LOCATION:S2 72
+DESCRIPTION:Mechanika techniczna\nRodzaj: wykład\nProwadzący: dr inż. K
+ ieszek Rafał\nNr zajęć: 5/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:edcee3271f55523bd8747fbc@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261027T114000
+DTEND;TZID=Europe/Warsaw:20261027T131500
+SUMMARY:Met (w)
+LOCATION:S2 72
+DESCRIPTION:Mechanika techniczna\nRodzaj: wykład\nProwadzący: dr inż. K
+ ieszek Rafał\nNr zajęć: 6/17\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:09257c8b65777bdc7ba4b5cf@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261027T133000
+DTEND;TZID=Europe/Warsaw:20261027T150500
+SUMMARY:Bśr (w)
+LOCATION:S3 72
+DESCRIPTION:Bezpieczeństwo środowiskowe\nRodzaj: wykład\nProwadzący: d
+ r inż. Jaskółowski Waldemar\nNr zajęć: 2/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5c08b407f61805f43284d8b8@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261028T114000
+DTEND;TZID=Europe/Warsaw:20261028T131500
+SUMMARY:Met (ć)
+LOCATION:20 63
+DESCRIPTION:Mechanika techniczna\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Stępień Sławomir\nNr zajęć: 3/17\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0ae5477e1fbfb14aa1367650@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261028T133000
+DTEND;TZID=Europe/Warsaw:20261028T150500
+SUMMARY:Bśr (ć)
+LOCATION:43 67
+DESCRIPTION:Bezpieczeństwo środowiskowe\nRodzaj: ćwiczenia\nProwadzący
+ : dr inż. Jaskółowski Waldemar\nNr zajęć: 3/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:de2eeb9518047f8061e27877@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261028T160000
+DTEND;TZID=Europe/Warsaw:20261028T173500
+SUMMARY:F2 (L)
+LOCATION:139 S
+DESCRIPTION:Fizyka 2\nRodzaj: laboratorium\nProwadzący: dr inż. Dudek Mi
+ chał\nNr zajęć: 2/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:2534fa186a661c80d88ade36@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261029T080000
+DTEND;TZID=Europe/Warsaw:20261029T093500
+SUMMARY:F2 (w)
+LOCATION:19 36
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: dr hab .inż. Perkowsk
+ i Paweł\nNr zajęć: 5/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1bb1bc038e6f69754d9aa1d1@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261029T095000
+DTEND;TZID=Europe/Warsaw:20261029T112500
+SUMMARY:F2 (ć)
+LOCATION:315b S
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr Chodorow Urszula
+ \nNr zajęć: 3/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:18e60065a9b39a0f3f0c203f@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261029T114000
+DTEND;TZID=Europe/Warsaw:20261029T131500
+SUMMARY:Met (ć)
+LOCATION:43 67
+DESCRIPTION:Mechanika techniczna\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Stępień Sławomir\nNr zajęć: 4/17\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7321d4d1ad51823d8a7cead8@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261029T133000
+DTEND;TZID=Europe/Warsaw:20261029T150500
+SUMMARY:EiE (ć)
+LOCATION:3 67
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: ćwiczenia\nProwadzący
+ : mgr inż. Kurenda Maciej\nNr zajęć: 2/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c5dad26d9b361b298ca0baff@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261102T095000
+DTEND;TZID=Europe/Warsaw:20261102T112500
+SUMMARY:Che (w)
+LOCATION:109 24
+DESCRIPTION:Chemia\nRodzaj: wykład\nProwadzący: dr inż. Szulc Jarosław
+ \nNr zajęć: 6/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ee997d71175d38aa31e8f93a@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261102T114000
+DTEND;TZID=Europe/Warsaw:20261102T131500
+SUMMARY:Che (w)
+LOCATION:109 24
+DESCRIPTION:Chemia\nRodzaj: wykład\nProwadzący: dr inż. Szulc Jarosław
+ \nNr zajęć: 7/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:bb96f09752b858ec0db2d95b@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261102T160000
+DTEND;TZID=Europe/Warsaw:20261102T173500
+SUMMARY:Ja (ć)
+LOCATION:230 K\;134
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 5/15\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:487124efc9a8c1ee9b6b6d24@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261102T175000
+DTEND;TZID=Europe/Warsaw:20261102T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 5/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:c34d24d86f46ae38eaf966cc@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261103T080000
+DTEND;TZID=Europe/Warsaw:20261103T093500
+SUMMARY:Met (ć)
+LOCATION:43 67
+DESCRIPTION:Mechanika techniczna\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Stępień Sławomir\nNr zajęć: 5/17\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ec41ff37f18d2e3e4661bd8c@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261103T095000
+DTEND;TZID=Europe/Warsaw:20261103T112500
+SUMMARY:Met (w)
+LOCATION:S2 72
+DESCRIPTION:Mechanika techniczna\nRodzaj: wykład\nProwadzący: dr inż. K
+ ieszek Rafał\nNr zajęć: 7/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:aa10c139596e35795a5a0659@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261103T114000
+DTEND;TZID=Europe/Warsaw:20261103T131500
+SUMMARY:Met (w)
+LOCATION:S2 72
+DESCRIPTION:Mechanika techniczna\nRodzaj: wykład\nProwadzący: dr inż. K
+ ieszek Rafał\nNr zajęć: 8/17\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e34d47b7061bc5ca4b482762@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261104T095000
+DTEND;TZID=Europe/Warsaw:20261104T112500
+SUMMARY:Bśr (w)
+LOCATION:S3 72
+DESCRIPTION:Bezpieczeństwo środowiskowe\nRodzaj: wykład\nProwadzący: d
+ r inż. Jaskółowski Waldemar\nNr zajęć: 3/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b41f867d2787b05344460295@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261104T114000
+DTEND;TZID=Europe/Warsaw:20261104T131500
+SUMMARY:EiE (w)
+LOCATION:S2 72
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: wykład\nProwadzący: d
+ r inż. Grzegorczyk Tomasz\nNr zajęć: 8/20\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1f2277565fae6984b86087bc@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261104T133000
+DTEND;TZID=Europe/Warsaw:20261104T150500
+SUMMARY:EiE (w)
+LOCATION:S2 72
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: wykład\nProwadzący: d
+ r inż. Grzegorczyk Tomasz\nNr zajęć: 9/20\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:acbc4cbd8ad12f737435f8aa@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261104T160000
+DTEND;TZID=Europe/Warsaw:20261104T173500
+SUMMARY:F2 (L)
+LOCATION:139 S
+DESCRIPTION:Fizyka 2\nRodzaj: laboratorium\nProwadzący: dr inż. Dudek Mi
+ chał\nNr zajęć: 3/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:7dad0c3cc185d89fa9cf292b@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261105T080000
+DTEND;TZID=Europe/Warsaw:20261105T093500
+SUMMARY:F2 (w)
+LOCATION:19 36
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: dr hab .inż. Perkowsk
+ i Paweł\nNr zajęć: 6/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2ff9a3c9a1b11521fa353a77@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261105T095000
+DTEND;TZID=Europe/Warsaw:20261105T112500
+SUMMARY:F2 (ć)
+LOCATION:28 69
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr Chodorow Urszula
+ \nNr zajęć: 4/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8c29bafe0a8813d3a7e19054@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261105T114000
+DTEND;TZID=Europe/Warsaw:20261105T131500
+SUMMARY:Che (ć)
+LOCATION:123 24
+DESCRIPTION:Chemia\nRodzaj: ćwiczenia\nProwadzący: dr inż. Szulc Jaros
+ ław\nNr zajęć: 1/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9ac96b13946cdf66dfaf81db@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261105T160000
+DTEND;TZID=Europe/Warsaw:20261105T173500
+SUMMARY:EiE (L)
+LOCATION:141 36
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: laboratorium\nProwadzą
+ cy: mgr inż. Szadura Jakub ...\nNr zajęć: 2/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:57abceb42e4d8e4f708e5df3@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261106T114000
+DTEND;TZID=Europe/Warsaw:20261106T131500
+SUMMARY:EiE (w)
+LOCATION:S2 72
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: wykład\nProwadzący: d
+ r inż. Grzegorczyk Tomasz\nNr zajęć: 10/20\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2d1cf50379a68a67b46f7652@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261106T133000
+DTEND;TZID=Europe/Warsaw:20261106T150500
+SUMMARY:F2 (ć)
+LOCATION:11 57
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr Chodorow Urszula
+ \nNr zajęć: 5/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:130467645ae027094628b913@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261106T160000
+DTEND;TZID=Europe/Warsaw:20261106T173500
+SUMMARY:Met (ć)
+LOCATION:9 67
+DESCRIPTION:Mechanika techniczna\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Stępień Sławomir\nNr zajęć: 6/17\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:d27842cafd55ff3d0394c2ac@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261109T095000
+DTEND;TZID=Europe/Warsaw:20261109T112500
+SUMMARY:Che (w)
+LOCATION:109 24
+DESCRIPTION:Chemia\nRodzaj: wykład\nProwadzący: dr inż. Szulc Jarosław
+ \nNr zajęć: 8/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7d0d056e656884ee7583a2e2@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261109T114000
+DTEND;TZID=Europe/Warsaw:20261109T131500
+SUMMARY:Che (w)
+LOCATION:109 24
+DESCRIPTION:Chemia\nRodzaj: wykład\nProwadzący: dr inż. Szulc Jarosław
+ \nNr zajęć: 9/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7227914bb654af2d092d00cd@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261109T160000
+DTEND;TZID=Europe/Warsaw:20261109T173500
+SUMMARY:Ja (ć)
+LOCATION:230 K\;134
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 6/15\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:9c0c85a738147a4b9a8c65ed@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261109T175000
+DTEND;TZID=Europe/Warsaw:20261109T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 6/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:b1d14c176b818071359a28a7@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261110T080000
+DTEND;TZID=Europe/Warsaw:20261110T093500
+SUMMARY:F2 (ć)
+LOCATION:54/ 62
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr Chodorow Urszula
+ \nNr zajęć: 6/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8ebd87282be58108e0824380@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261110T095000
+DTEND;TZID=Europe/Warsaw:20261110T112500
+SUMMARY:Met (w)
+LOCATION:S2 72
+DESCRIPTION:Mechanika techniczna\nRodzaj: wykład\nProwadzący: dr inż. K
+ ieszek Rafał\nNr zajęć: 9/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c774e3300736432596a33266@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261110T114000
+DTEND;TZID=Europe/Warsaw:20261110T131500
+SUMMARY:Met (w)
+LOCATION:S2 72
+DESCRIPTION:Mechanika techniczna\nRodzaj: wykład\nProwadzący: dr inż. K
+ ieszek Rafał\nNr zajęć: 10/17\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b5c302a84ce3db091559eccb@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261110T133000
+DTEND;TZID=Europe/Warsaw:20261110T150500
+SUMMARY:Bśr (w)
+LOCATION:S3 72
+DESCRIPTION:Bezpieczeństwo środowiskowe\nRodzaj: wykład\nProwadzący: d
+ r inż. Jaskółowski Waldemar\nNr zajęć: 4/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c9e104441567e3e33705b211@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261112T080000
+DTEND;TZID=Europe/Warsaw:20261112T093500
+SUMMARY:Met (ć)
+LOCATION:43 67
+DESCRIPTION:Mechanika techniczna\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Stępień Sławomir\nNr zajęć: 7/17\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b029d94be2a8437d54d88018@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261112T095000
+DTEND;TZID=Europe/Warsaw:20261112T112500
+SUMMARY:EiE (L)
+LOCATION:003 36\;004
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: laboratorium\nProwadzą
+ cy: * Skolmowski Albert\nNr zajęć: 3/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:53c96cff4e5db0faf5dce77c@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261113T114000
+DTEND;TZID=Europe/Warsaw:20261113T131500
+SUMMARY:EiE (w)
+LOCATION:S2 72
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: wykład\nProwadzący: d
+ r inż. Grzegorczyk Tomasz\nNr zajęć: 11/20\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e161da8faa83c76c35b609d9@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261113T160000
+DTEND;TZID=Europe/Warsaw:20261113T173500
+SUMMARY:Met (ć)
+LOCATION:9 67
+DESCRIPTION:Mechanika techniczna\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Stępień Sławomir\nNr zajęć: 8/17\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:d6b792643cf4319baec087e9@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261116T114000
+DTEND;TZID=Europe/Warsaw:20261116T131500
+SUMMARY:Che (w)
+LOCATION:109 24
+DESCRIPTION:Chemia\nRodzaj: wykład\nProwadzący: dr inż. Szulc Jarosław
+ \nNr zajęć: 10/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:90e87ae8612ed8b3ccbbfbc5@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261116T133000
+DTEND;TZID=Europe/Warsaw:20261116T150500
+SUMMARY:F2 (w)
+LOCATION:19 36
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: dr hab .inż. Perkowsk
+ i Paweł\nNr zajęć: 7/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8fb1d7ffd78d71b98bc34668@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261116T160000
+DTEND;TZID=Europe/Warsaw:20261116T173500
+SUMMARY:Ja (ć)
+LOCATION:230 K\;134
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 7/15\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:7923d62dddfb6df631a9d7c8@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261116T175000
+DTEND;TZID=Europe/Warsaw:20261116T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 7/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:fac4188d9d49899b5ed51a3e@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261117T095000
+DTEND;TZID=Europe/Warsaw:20261117T112500
+SUMMARY:Met (w)
+LOCATION:S2 72
+DESCRIPTION:Mechanika techniczna\nRodzaj: wykład\nProwadzący: dr inż. K
+ ieszek Rafał\nNr zajęć: 11/17\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:fafe102140b4ffa734e0414d@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261117T114000
+DTEND;TZID=Europe/Warsaw:20261117T131500
+SUMMARY:Met (w)
+LOCATION:S2 72
+DESCRIPTION:Mechanika techniczna\nRodzaj: wykład\nProwadzący: dr inż. K
+ ieszek Rafał\nNr zajęć: 12/17\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:76e38524965a66d89da66766@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261118T080000
+DTEND;TZID=Europe/Warsaw:20261118T093500
+SUMMARY:Met (ć)
+LOCATION:20 63
+DESCRIPTION:Mechanika techniczna\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Stępień Sławomir\nNr zajęć: 9/17\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2e3a0442b85f3c29f1962638@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261118T095000
+DTEND;TZID=Europe/Warsaw:20261118T112500
+SUMMARY:Bśr (w)
+LOCATION:S3 72
+DESCRIPTION:Bezpieczeństwo środowiskowe\nRodzaj: wykład\nProwadzący: d
+ r inż. Jaskółowski Waldemar\nNr zajęć: 5/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d70f5682f076d76fc7526ef2@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261118T133000
+DTEND;TZID=Europe/Warsaw:20261118T150500
+SUMMARY:EiE (w)
+LOCATION:S2 72
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: wykład\nProwadzący: d
+ r inż. Słowik Adam\nNr zajęć: 12/20\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e55e987ef31ede9dfa9a7971@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261119T095000
+DTEND;TZID=Europe/Warsaw:20261119T112500
+SUMMARY:Bśr (S)
+LOCATION:34 67
+DESCRIPTION:Bezpieczeństwo środowiskowe\nRodzaj: seminarium\nProwadzący
+ : dr inż. Jaskółowski Waldemar\nNr zajęć: 1/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0d2edb8df26cf4b90bf2a057@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261119T114000
+DTEND;TZID=Europe/Warsaw:20261119T131500
+SUMMARY:Che (ć)
+LOCATION:123 24
+DESCRIPTION:Chemia\nRodzaj: ćwiczenia\nProwadzący: dr inż. Szulc Jaros
+ ław\nNr zajęć: 2/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8b07bea241cb90bd085b2b1b@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261119T133000
+DTEND;TZID=Europe/Warsaw:20261119T150500
+SUMMARY:EiE (L)
+LOCATION:003 36\;004
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: laboratorium\nProwadzą
+ cy: * Soszyński P ...\nNr zajęć: 4/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:38622475716fc1d709a90706@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261120T080000
+DTEND;TZID=Europe/Warsaw:20261120T093500
+SUMMARY:Lwnm (L)
+LOCATION:7 25\;13 25
+DESCRIPTION:Laboratorium wytrzymałości i nauki o materiałach\nRodzaj: l
+ aboratorium\nProwadzący: dr inż. Dębski Andrzej\nNr zajęć: 1/13\nBlo
+ k: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d0190ebe539b3ca8a4afb5a3@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261120T114000
+DTEND;TZID=Europe/Warsaw:20261120T131500
+SUMMARY:Met (ć)
+LOCATION:43 67
+DESCRIPTION:Mechanika techniczna\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Stępień Sławomir\nNr zajęć: 10/17\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:af3a6421a44dfa48c9c5e896@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261120T133000
+DTEND;TZID=Europe/Warsaw:20261120T150500
+SUMMARY:Met (ć)
+LOCATION:43 67
+DESCRIPTION:Mechanika techniczna\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Stępień Sławomir\nNr zajęć: 11/17\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1a6e7ab9d03dd030d39001d0@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261120T175000
+DTEND;TZID=Europe/Warsaw:20261120T192500
+SUMMARY:Mat3 (Zp)
+LOCATION:46 63
+DESCRIPTION:Matematyka 3\nRodzaj: zaliczenie poprawkowe\nProwadzący: dr T
+ arka Joanna\nNr zajęć: 1/1\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:16fef8d7bc0298f9d1fdd809@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261123T080000
+DTEND;TZID=Europe/Warsaw:20261123T093500
+SUMMARY:EiE (w)
+LOCATION:S2 72
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: wykład\nProwadzący: d
+ r inż. Grzegorczyk Tomasz\nNr zajęć: 13/20\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3c56f5f779de6b284714a46f@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261123T095000
+DTEND;TZID=Europe/Warsaw:20261123T112500
+SUMMARY:EiE (w)
+LOCATION:S2 72
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: wykład\nProwadzący: d
+ r inż. Grzegorczyk Tomasz\nNr zajęć: 14/20\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1e05d7ecd2c9c0dbc4e8a2d4@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261123T114000
+DTEND;TZID=Europe/Warsaw:20261123T131500
+SUMMARY:Che (ć)
+LOCATION:123 24
+DESCRIPTION:Chemia\nRodzaj: ćwiczenia\nProwadzący: dr inż. Szulc Jaros
+ ław\nNr zajęć: 3/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:bf7bee738a4c96b350f33e25@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261123T133000
+DTEND;TZID=Europe/Warsaw:20261123T150500
+SUMMARY:F2 (w)
+LOCATION:19 36
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: dr hab .inż. Perkowsk
+ i Paweł\nNr zajęć: 8/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:99457e2952dbd2b99101e507@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261123T160000
+DTEND;TZID=Europe/Warsaw:20261123T173500
+SUMMARY:Ja (ć)
+LOCATION:230 K\;134
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 8/15\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:63ca46f260aa95974d50825a@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261123T175000
+DTEND;TZID=Europe/Warsaw:20261123T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 8/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:b08f12780503083037c179fe@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261124T095000
+DTEND;TZID=Europe/Warsaw:20261124T112500
+SUMMARY:Lwnm (L)
+LOCATION:2 25\;13 25
+DESCRIPTION:Laboratorium wytrzymałości i nauki o materiałach\nRodzaj: l
+ aboratorium\nProwadzący: mgr inż. Dziewit Piotr\nNr zajęć: 2/13\nBlok
+ : 2
+END:VEVENT
+BEGIN:VEVENT
+UID:dc32a0f95569f3cd0e624ec0@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261124T133000
+DTEND;TZID=Europe/Warsaw:20261124T150500
+SUMMARY:Bśr (w)
+LOCATION:S3 72
+DESCRIPTION:Bezpieczeństwo środowiskowe\nRodzaj: wykład\nProwadzący: d
+ r inż. Jaskółowski Waldemar\nNr zajęć: 6/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:01c4d284dc4ad99ccaa5cb99@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261125T095000
+DTEND;TZID=Europe/Warsaw:20261125T112500
+SUMMARY:EiE (w)
+LOCATION:S2 72
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: wykład\nProwadzący: d
+ r inż. Słowik Adam\nNr zajęć: 15/20\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8a94f7a93d0ba20b2abbe093@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261125T114000
+DTEND;TZID=Europe/Warsaw:20261125T131500
+SUMMARY:EiE (w)
+LOCATION:S2 72
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: wykład\nProwadzący: d
+ r inż. Słowik Adam\nNr zajęć: 16/20\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:fbf86aceebf42e5113b9720b@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261125T133000
+DTEND;TZID=Europe/Warsaw:20261125T150500
+SUMMARY:F2 (ć)
+LOCATION:15 63
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr Chodorow Urszula
+ \nNr zajęć: 7/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0edb24f1d268ce2a2f658e52@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261126T114000
+DTEND;TZID=Europe/Warsaw:20261126T131500
+SUMMARY:Che (ć)
+LOCATION:123 24
+DESCRIPTION:Chemia\nRodzaj: ćwiczenia\nProwadzący: dr inż. Szulc Jaros
+ ław\nNr zajęć: 4/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7b750affcf98555a0a52a9bc@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261126T133000
+DTEND;TZID=Europe/Warsaw:20261126T150500
+SUMMARY:EiE (L)
+LOCATION:003 36\;004
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: laboratorium\nProwadzą
+ cy: * Skolmowski Albert\nNr zajęć: 5/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0159d0220a26f54e74c9780a@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261130T080000
+DTEND;TZID=Europe/Warsaw:20261130T093500
+SUMMARY:Che (w)
+LOCATION:109 24
+DESCRIPTION:Chemia\nRodzaj: wykład\nProwadzący: dr inż. Szulc Jarosław
+ \nNr zajęć: 11/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d53bb5d541f4e0ec052d737d@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261130T114000
+DTEND;TZID=Europe/Warsaw:20261130T131500
+SUMMARY:Che (ć)
+LOCATION:123 24
+DESCRIPTION:Chemia\nRodzaj: ćwiczenia\nProwadzący: dr inż. Szulc Jaros
+ ław\nNr zajęć: 5/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8670e8f8e6b4f2efea72a7ef@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261130T133000
+DTEND;TZID=Europe/Warsaw:20261130T150500
+SUMMARY:F2 (w)
+LOCATION:19 36
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: dr hab .inż. Perkowsk
+ i Paweł\nNr zajęć: 9/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f7ef6500088335ebbedf4336@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261130T160000
+DTEND;TZID=Europe/Warsaw:20261130T173500
+SUMMARY:Ja (ć)
+LOCATION:230 K\;134
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 9/15\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f95ee23713ed61457d9609fe@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261130T175000
+DTEND;TZID=Europe/Warsaw:20261130T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 9/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:dceb62a4610655c118d57255@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261201T095000
+DTEND;TZID=Europe/Warsaw:20261201T112500
+SUMMARY:Bśr (w)
+LOCATION:S3 72
+DESCRIPTION:Bezpieczeństwo środowiskowe\nRodzaj: wykład\nProwadzący: d
+ r inż. Jaskółowski Waldemar\nNr zajęć: 7/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9a7fa494b56e281d1e1c6926@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261201T114000
+DTEND;TZID=Europe/Warsaw:20261201T131500
+SUMMARY:Met (w)
+LOCATION:S2 72
+DESCRIPTION:Mechanika techniczna\nRodzaj: wykład\nProwadzący: dr inż. K
+ ieszek Rafał\nNr zajęć: 13/17\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f190af2724f8ed08dd7a0544@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261201T133000
+DTEND;TZID=Europe/Warsaw:20261201T150500
+SUMMARY:EiE (L)
+LOCATION:141 36
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: laboratorium\nProwadzą
+ cy: mgr inż. Sabady Miłosz\nNr zajęć: 6/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4d4a4d5c25515b088cf42641@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261201T160000
+DTEND;TZID=Europe/Warsaw:20261201T173500
+SUMMARY:EiE (L)
+LOCATION:003 36\;004
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: laboratorium\nProwadzą
+ cy: Zalw\nNr zajęć: 7/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:dd0a09260a61a065eba7be2b@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261202T095000
+DTEND;TZID=Europe/Warsaw:20261202T112500
+SUMMARY:EiE (w)
+LOCATION:S2 72
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: wykład\nProwadzący: d
+ r inż. Słowik Adam\nNr zajęć: 17/20\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7a8b5e6c45c82c80d98ecb2c@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261202T114000
+DTEND;TZID=Europe/Warsaw:20261202T131500
+SUMMARY:EiE (w)
+LOCATION:S2 72
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: wykład\nProwadzący: d
+ r inż. Słowik Adam\nNr zajęć: 18/20\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e5c301b26821a0da3c36675b@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261202T160000
+DTEND;TZID=Europe/Warsaw:20261202T173500
+SUMMARY:EiE (ć)
+LOCATION:39 36
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: ćwiczenia\nProwadzący
+ : mgr inż. Kurenda Maciej\nNr zajęć: 3/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:16bd7b8aca90c70a61466db5@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261203T080000
+DTEND;TZID=Europe/Warsaw:20261203T093500
+SUMMARY:Che (L)
+LOCATION:7 55A
+DESCRIPTION:Chemia\nRodzaj: laboratorium\nProwadzący: dr inż. Szulc Jaro
+ sław\nNr zajęć: 1/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:09f50f4663156eedcbe37fb5@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261203T095000
+DTEND;TZID=Europe/Warsaw:20261203T112500
+SUMMARY:Che (ć)
+LOCATION:123 24
+DESCRIPTION:Chemia\nRodzaj: ćwiczenia\nProwadzący: dr inż. Szulc Jaros
+ ław\nNr zajęć: 6/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1bc249c0e1acfbc145d79711@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261203T114000
+DTEND;TZID=Europe/Warsaw:20261203T131500
+SUMMARY:Che (ć)
+LOCATION:123 24
+DESCRIPTION:Chemia\nRodzaj: ćwiczenia\nProwadzący: dr inż. Szulc Jaros
+ ław\nNr zajęć: 7/9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:dc6dc1da93f0c5857e56b037@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261203T133000
+DTEND;TZID=Europe/Warsaw:20261203T150500
+SUMMARY:F2 (ć)
+LOCATION:1 53
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr Chodorow Urszula
+ \nNr zajęć: 8/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:223042a08d7020f5b2551a7d@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261203T160000
+DTEND;TZID=Europe/Warsaw:20261203T173500
+SUMMARY:Lwnm (L)
+LOCATION:7 25\;13 25
+DESCRIPTION:Laboratorium wytrzymałości i nauki o materiałach\nRodzaj: l
+ aboratorium\nProwadzący: mgr inż. Dziewit Piotr\nNr zajęć: 3/13\nBlok
+ : 5
+END:VEVENT
+BEGIN:VEVENT
+UID:e0c324028d4432306ed0563d@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261207T095000
+DTEND;TZID=Europe/Warsaw:20261207T112500
+SUMMARY:EiE (w)
+LOCATION:S2 72
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: wykład\nProwadzący: d
+ r inż. Słowik Adam\nNr zajęć: 19/20\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5dac6c0d35a917d4ebc7d04a@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261207T114000
+DTEND;TZID=Europe/Warsaw:20261207T131500
+SUMMARY:EiE (w)
+LOCATION:S2 72
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: wykład\nProwadzący: d
+ r inż. Słowik Adam\nNr zajęć: 20/20\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4936faf92ebaac1d9c6fdd6d@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261207T133000
+DTEND;TZID=Europe/Warsaw:20261207T150500
+SUMMARY:F2 (w)
+LOCATION:19 36
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: dr hab .inż. Perkowsk
+ i Paweł\nNr zajęć: 10/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e62cbf5a7ce6d32ee48202d9@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261207T160000
+DTEND;TZID=Europe/Warsaw:20261207T173500
+SUMMARY:Ja (ć)
+LOCATION:230 K\;134
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 10/15\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:b4c5d79e695d99148ffd9994@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261207T175000
+DTEND;TZID=Europe/Warsaw:20261207T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 10/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:2e37e0dd86f194a109464aab@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261208T095000
+DTEND;TZID=Europe/Warsaw:20261208T112500
+SUMMARY:Bśr (w)
+LOCATION:S3 72
+DESCRIPTION:Bezpieczeństwo środowiskowe\nRodzaj: wykład\nProwadzący: d
+ r inż. Jaskółowski Waldemar\nNr zajęć: 8/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1eec974e59f553aede062bb5@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261208T114000
+DTEND;TZID=Europe/Warsaw:20261208T131500
+SUMMARY:Met (w)
+LOCATION:S2 72
+DESCRIPTION:Mechanika techniczna\nRodzaj: wykład\nProwadzący: dr inż. K
+ ieszek Rafał\nNr zajęć: 14/17\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:bd9132269fe493975b3c42a7@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261209T080000
+DTEND;TZID=Europe/Warsaw:20261209T093500
+SUMMARY:Bśr (ć)
+LOCATION:43 67
+DESCRIPTION:Bezpieczeństwo środowiskowe\nRodzaj: ćwiczenia\nProwadzący
+ : dr inż. Jaskółowski Waldemar\nNr zajęć: 4/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:377ae9bc735fcb509e47b143@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261209T095000
+DTEND;TZID=Europe/Warsaw:20261209T112500
+SUMMARY:Lwnm (L)
+LOCATION:7 25\;24 25
+DESCRIPTION:Laboratorium wytrzymałości i nauki o materiałach\nRodzaj: l
+ aboratorium\nProwadzący: dr inż. Dębski Andrzej\nNr zajęć: 4/13\nBlo
+ k: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ea200f9527f922bd90b3e2f1@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261209T114000
+DTEND;TZID=Europe/Warsaw:20261209T131500
+SUMMARY:Met (ć)
+LOCATION:20 63
+DESCRIPTION:Mechanika techniczna\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Stępień Sławomir\nNr zajęć: 12/17\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:db64617c8d53a5dacf797810@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261209T133000
+DTEND;TZID=Europe/Warsaw:20261209T150500
+SUMMARY:Met (ć)
+LOCATION:20 63
+DESCRIPTION:Mechanika techniczna\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Stępień Sławomir\nNr zajęć: 13/17\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9fd99902482e6e81e03d8873@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261210T095000
+DTEND;TZID=Europe/Warsaw:20261210T112500
+SUMMARY:Lwnm (L)
+LOCATION:31 67
+DESCRIPTION:Laboratorium wytrzymałości i nauki o materiałach\nRodzaj: l
+ aboratorium\nProwadzący: mgr inż. Sozoniuk Kamil\nNr zajęć: 5/13\nBlo
+ k: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a0a84d0d23ce28b2111a6391@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261210T114000
+DTEND;TZID=Europe/Warsaw:20261210T131500
+SUMMARY:EiE (L)
+LOCATION:003 36\;004
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: laboratorium\nProwadzą
+ cy: * Soszyński P ...\nNr zajęć: 8/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6a258e009d4775cb9b7c4c09@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261210T160000
+DTEND;TZID=Europe/Warsaw:20261210T173500
+SUMMARY:F2 (L)
+LOCATION:139 S
+DESCRIPTION:Fizyka 2\nRodzaj: laboratorium\nProwadzący: dr inż. Dudek Mi
+ chał\nNr zajęć: 4/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:5ee76ec5dc7798db93d6da16@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261214T095000
+DTEND;TZID=Europe/Warsaw:20261214T112500
+SUMMARY:Lwnm (L)
+LOCATION:7 25\;13 25
+DESCRIPTION:Laboratorium wytrzymałości i nauki o materiałach\nRodzaj: l
+ aboratorium\nProwadzący: dr inż. Dębski Andrzej\nNr zajęć: 6/13\nBlo
+ k: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:dbd687d8d325b5f3d194fd74@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261214T114000
+DTEND;TZID=Europe/Warsaw:20261214T131500
+SUMMARY:Che (w)
+LOCATION:109 24
+DESCRIPTION:Chemia\nRodzaj: wykład\nProwadzący: dr inż. Szulc Jarosław
+ \nNr zajęć: 12/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4fa6186dded13ca895df8aa9@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261214T133000
+DTEND;TZID=Europe/Warsaw:20261214T150500
+SUMMARY:F2 (w)
+LOCATION:19 36
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: dr hab .inż. Perkowsk
+ i Paweł\nNr zajęć: 11/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5e57e3f51e993dc354742b21@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261214T160000
+DTEND;TZID=Europe/Warsaw:20261214T173500
+SUMMARY:Ja (ć)
+LOCATION:230 K\;134
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 11/15\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:e1c54fd7376bfe83975d1530@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261214T175000
+DTEND;TZID=Europe/Warsaw:20261214T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 11/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:fa628b93560d1df5b22753ab@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261215T080000
+DTEND;TZID=Europe/Warsaw:20261215T093500
+SUMMARY:Lwnm (L)
+LOCATION:7 25\;24 25
+DESCRIPTION:Laboratorium wytrzymałości i nauki o materiałach\nRodzaj: l
+ aboratorium\nProwadzący: dr inż. Dębski Andrzej\nNr zajęć: 7/13\nBlo
+ k: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b7a1c29e3046f4754e3182a2@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261215T095000
+DTEND;TZID=Europe/Warsaw:20261215T112500
+SUMMARY:Bśr (w)
+LOCATION:S3 72
+DESCRIPTION:Bezpieczeństwo środowiskowe\nRodzaj: wykład\nProwadzący: d
+ r inż. Jaskółowski Waldemar\nNr zajęć: 9/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:448a6be97b4befc2e4d3f549@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261215T114000
+DTEND;TZID=Europe/Warsaw:20261215T131500
+SUMMARY:Met (w)
+LOCATION:S2 72
+DESCRIPTION:Mechanika techniczna\nRodzaj: wykład\nProwadzący: dr inż. K
+ ieszek Rafał\nNr zajęć: 15/17\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:53351975e04da840a701cfc8@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261216T080000
+DTEND;TZID=Europe/Warsaw:20261216T093500
+SUMMARY:Bśr (ć)
+LOCATION:43 67
+DESCRIPTION:Bezpieczeństwo środowiskowe\nRodzaj: ćwiczenia\nProwadzący
+ : dr inż. Jaskółowski Waldemar\nNr zajęć: 5/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:aa0371f3ec95e4911b5277fb@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261216T095000
+DTEND;TZID=Europe/Warsaw:20261216T112500
+SUMMARY:Che (w)
+LOCATION:109 24
+DESCRIPTION:Chemia\nRodzaj: wykład\nProwadzący: dr inż. Szulc Jarosław
+ \nNr zajęć: 13/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:25968ba9f86f7213f014e79f@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261216T114000
+DTEND;TZID=Europe/Warsaw:20261216T131500
+SUMMARY:Che (w)
+LOCATION:109 24
+DESCRIPTION:Chemia\nRodzaj: wykład\nProwadzący: dr inż. Szulc Jarosław
+ \nNr zajęć: 14/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:cd94d4d29ce4b66426763f59@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261216T160000
+DTEND;TZID=Europe/Warsaw:20261216T173500
+SUMMARY:EiE (ć)
+LOCATION:136 36
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: ćwiczenia\nProwadzący
+ : mgr inż. Kurenda Maciej\nNr zajęć: 4/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:5f4ca4d02453713ab4355813@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261221T095000
+DTEND;TZID=Europe/Warsaw:20261221T112500
+SUMMARY:Lwnm (L)
+LOCATION:31 67
+DESCRIPTION:Laboratorium wytrzymałości i nauki o materiałach\nRodzaj: l
+ aboratorium\nProwadzący: mgr inż. Sozoniuk Kamil\nNr zajęć: 8/13\nBlo
+ k: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3307be3c319cd52f1221f72f@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261221T114000
+DTEND;TZID=Europe/Warsaw:20261221T131500
+SUMMARY:Che (w)
+LOCATION:109 24
+DESCRIPTION:Chemia\nRodzaj: wykład\nProwadzący: dr inż. Szulc Jarosław
+ \nNr zajęć: 15/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f6763037539ae95f8f2cc868@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261221T160000
+DTEND;TZID=Europe/Warsaw:20261221T173500
+SUMMARY:Ja (ć)
+LOCATION:230 K\;134
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 12/15\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:24328ccb2589390bd12bcf32@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261221T175000
+DTEND;TZID=Europe/Warsaw:20261221T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 12/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:3f67ffb570dde283925982f0@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261222T080000
+DTEND;TZID=Europe/Warsaw:20261222T093500
+SUMMARY:F2 (ć)
+LOCATION:11 57
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr Chodorow Urszula
+ \nNr zajęć: 9/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:272b2a437cdd03a0da91d2ee@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261222T095000
+DTEND;TZID=Europe/Warsaw:20261222T112500
+SUMMARY:F2 (w)
+LOCATION:19 36
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: dr hab .inż. Perkowsk
+ i Paweł\nNr zajęć: 12/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1d3a277d786e7a64ee31f654@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261222T114000
+DTEND;TZID=Europe/Warsaw:20261222T131500
+SUMMARY:Met (w)
+LOCATION:S2 72
+DESCRIPTION:Mechanika techniczna\nRodzaj: wykład\nProwadzący: dr inż. K
+ ieszek Rafał\nNr zajęć: 16/17\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:50913f5919d5e12d84895720@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261222T133000
+DTEND;TZID=Europe/Warsaw:20261222T150500
+SUMMARY:Bśr (w)
+LOCATION:S3 72
+DESCRIPTION:Bezpieczeństwo środowiskowe\nRodzaj: wykład\nProwadzący: d
+ r inż. Jaskółowski Waldemar\nNr zajęć: 10/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c1bea2fda3fc74cc69fb3361@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20261223T095000
+DTEND;TZID=Europe/Warsaw:20261223T112500
+SUMMARY:Che (ć)
+LOCATION:109 24
+DESCRIPTION:Chemia\nRodzaj: ćwiczenia\nProwadzący: dr inż. Szulc Jaros
+ ław\nNr zajęć: 8/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:da388eb415699a109f8b637d@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270107T160000
+DTEND;TZID=Europe/Warsaw:20270107T173500
+SUMMARY:EiE (ć)
+LOCATION:136 36
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: ćwiczenia\nProwadzący
+ : mgr inż. Kurenda Maciej\nNr zajęć: 5/10\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:7922aa6d0e717623cc8afe75@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270108T080000
+DTEND;TZID=Europe/Warsaw:20270108T093500
+SUMMARY:EiE (ć)
+LOCATION:33 67
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: ćwiczenia\nProwadzący
+ : mgr inż. Kurenda Maciej\nNr zajęć: 6/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d2671eb93ca2390aa7ea7ee1@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270108T114000
+DTEND;TZID=Europe/Warsaw:20270108T131500
+SUMMARY:Lwnm (L)
+LOCATION:31 67
+DESCRIPTION:Laboratorium wytrzymałości i nauki o materiałach\nRodzaj: l
+ aboratorium\nProwadzący: mgr inż. Sozoniuk Kamil\nNr zajęć: 9/13\nBlo
+ k: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5720e199df7a8545084f375f@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270111T114000
+DTEND;TZID=Europe/Warsaw:20270111T131500
+SUMMARY:Lwnm (L)
+LOCATION:31 67
+DESCRIPTION:Laboratorium wytrzymałości i nauki o materiałach\nRodzaj: l
+ aboratorium\nProwadzący: mgr inż. Sozoniuk Kamil\nNr zajęć: 10/13\nBl
+ ok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:eef69f64f5a3ca737d0521af@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270111T133000
+DTEND;TZID=Europe/Warsaw:20270111T150500
+SUMMARY:F2 (w)
+LOCATION:19 36
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: dr hab .inż. Perkowsk
+ i Paweł\nNr zajęć: 13/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:91dd01320d9ab30572845774@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270111T160000
+DTEND;TZID=Europe/Warsaw:20270111T173500
+SUMMARY:Ja (ć)
+LOCATION:230 K\;134
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 13/15\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:0213774b6e053b72c0d85be3@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270111T175000
+DTEND;TZID=Europe/Warsaw:20270111T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 13/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:69671e66703c04c8801d40f3@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270112T095000
+DTEND;TZID=Europe/Warsaw:20270112T112500
+SUMMARY:Che (ć)
+LOCATION:109 24
+DESCRIPTION:Chemia\nRodzaj: ćwiczenia\nProwadzący: dr inż. Szulc Jaros
+ ław\nNr zajęć: 9/9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9198e3cf85f85b89f95344a1@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270112T114000
+DTEND;TZID=Europe/Warsaw:20270112T131500
+SUMMARY:Met (w)
+LOCATION:S2 72
+DESCRIPTION:Mechanika techniczna\nRodzaj: wykład\nProwadzący: dr inż. K
+ ieszek Rafał\nNr zajęć: 17/17\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b6fab92cdc64a8ef10b3a9a1@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270112T133000
+DTEND;TZID=Europe/Warsaw:20270112T150500
+SUMMARY:Bśr (w)
+LOCATION:S3 72
+DESCRIPTION:Bezpieczeństwo środowiskowe\nRodzaj: wykład\nProwadzący: d
+ r inż. Jaskółowski Waldemar\nNr zajęć: 11/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:11618e090b3405f25c2ab99d@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270112T160000
+DTEND;TZID=Europe/Warsaw:20270112T173500
+SUMMARY:Bśr (ć)
+LOCATION:43 67
+DESCRIPTION:Bezpieczeństwo środowiskowe\nRodzaj: ćwiczenia\nProwadzący
+ : dr inż. Jaskółowski Waldemar\nNr zajęć: 6/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f5a8ec21fd03314acfd2f04e@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270113T080000
+DTEND;TZID=Europe/Warsaw:20270113T093500
+SUMMARY:Che (L)
+LOCATION:7 55A
+DESCRIPTION:Chemia\nRodzaj: laboratorium\nProwadzący: dr inż. Szulc Jaro
+ sław\nNr zajęć: 2/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:af2bf3540f252e148e8d66d3@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270113T095000
+DTEND;TZID=Europe/Warsaw:20270113T112500
+SUMMARY:Che (L)
+LOCATION:7 55A
+DESCRIPTION:Chemia\nRodzaj: laboratorium\nProwadzący: dr inż. Szulc Jaro
+ sław\nNr zajęć: 3/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:22d1e493115e7b2ff47951d5@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270113T114000
+DTEND;TZID=Europe/Warsaw:20270113T131500
+SUMMARY:F2 (ć)
+LOCATION:1 53
+DESCRIPTION:Fizyka 2\nRodzaj: ćwiczenia\nProwadzący: dr Chodorow Urszula
+ \nNr zajęć: 10/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e4a26d8f831b1f404d5da79b@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270114T114000
+DTEND;TZID=Europe/Warsaw:20270114T131500
+SUMMARY:Lwnm (L)
+LOCATION:7 25\;13 25
+DESCRIPTION:Laboratorium wytrzymałości i nauki o materiałach\nRodzaj: l
+ aboratorium\nProwadzący: mgr inż. Dziewit Piotr\nNr zajęć: 11/13\nBlo
+ k: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0553d3133722f4be0e7e5e8f@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270115T080000
+DTEND;TZID=Europe/Warsaw:20270115T093500
+SUMMARY:EiE (L)
+LOCATION:141 36\;128
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: laboratorium\nProwadzą
+ cy: inż. Siodłowski Bernard\nNr zajęć: 9/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:89a2967b013a8d9cdbc6d91b@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270115T114000
+DTEND;TZID=Europe/Warsaw:20270115T131500
+SUMMARY:EiE (ć)
+LOCATION:S2 72
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: ćwiczenia\nProwadzący
+ : dr inż. Słowik Adam\nNr zajęć: 7/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4ae4b5b5ba9959a88a4020e5@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270118T080000
+DTEND;TZID=Europe/Warsaw:20270118T093500
+SUMMARY:Che (L)
+LOCATION:7 55A
+DESCRIPTION:Chemia\nRodzaj: laboratorium\nProwadzący: dr inż. Szulc Jaro
+ sław\nNr zajęć: 4/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:62a7ee60747d0b51b10b9435@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270118T095000
+DTEND;TZID=Europe/Warsaw:20270118T112500
+SUMMARY:Che (L)
+LOCATION:7 55A
+DESCRIPTION:Chemia\nRodzaj: laboratorium\nProwadzący: dr inż. Szulc Jaro
+ sław\nNr zajęć: 5/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:28a33a8392c4d178d21a6bdf@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270118T114000
+DTEND;TZID=Europe/Warsaw:20270118T131500
+SUMMARY:Bśr (S)
+LOCATION:34 67
+DESCRIPTION:Bezpieczeństwo środowiskowe\nRodzaj: seminarium\nProwadzący
+ : dr inż. Jaskółowski Waldemar\nNr zajęć: 2/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e1133fee511a3443215724d1@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270118T133000
+DTEND;TZID=Europe/Warsaw:20270118T150500
+SUMMARY:F2 (w)
+LOCATION:19 36
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: dr hab .inż. Perkowsk
+ i Paweł\nNr zajęć: 14/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3cc412ca9ba3e9ba6c78c485@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270118T160000
+DTEND;TZID=Europe/Warsaw:20270118T173500
+SUMMARY:Ja (ć)
+LOCATION:230 K\;134
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 14/15\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:8ddf2b67983e006ca547cfbb@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270118T175000
+DTEND;TZID=Europe/Warsaw:20270118T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 14/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:a77a736bb06cd9d7d52b156a@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270119T133000
+DTEND;TZID=Europe/Warsaw:20270119T150500
+SUMMARY:Bśr (w)
+LOCATION:S3 72
+DESCRIPTION:Bezpieczeństwo środowiskowe\nRodzaj: wykład\nProwadzący: d
+ r inż. Jaskółowski Waldemar\nNr zajęć: 12/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:69836948e52e75dff1cda499@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270119T160000
+DTEND;TZID=Europe/Warsaw:20270119T173500
+SUMMARY:Bśr (ć)
+LOCATION:43 67
+DESCRIPTION:Bezpieczeństwo środowiskowe\nRodzaj: ćwiczenia\nProwadzący
+ : dr inż. Jaskółowski Waldemar\nNr zajęć: 7/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:25b1681581e713520cce4301@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270120T114000
+DTEND;TZID=Europe/Warsaw:20270120T131500
+SUMMARY:Bśr (S)
+LOCATION:34 67
+DESCRIPTION:Bezpieczeństwo środowiskowe\nRodzaj: seminarium\nProwadzący
+ : dr inż. Jaskółowski Waldemar\nNr zajęć: 3/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b2aba900571e7b21c0a69a3f@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270120T160000
+DTEND;TZID=Europe/Warsaw:20270120T173500
+SUMMARY:F2 (L)
+LOCATION:139 S
+DESCRIPTION:Fizyka 2\nRodzaj: laboratorium\nProwadzący: dr inż. Dudek Mi
+ chał\nNr zajęć: 5/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:2620c1a1550d12c2b0d987a2@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270121T114000
+DTEND;TZID=Europe/Warsaw:20270121T131500
+SUMMARY:Met (ć)
+LOCATION:43 67
+DESCRIPTION:Mechanika techniczna\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Stępień Sławomir\nNr zajęć: 14/17\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0cc01ff077c03fe1757589ad@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270121T133000
+DTEND;TZID=Europe/Warsaw:20270121T150500
+SUMMARY:EiE (ć)
+LOCATION:S2 72
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: ćwiczenia\nProwadzący
+ : dr inż. Słowik Adam\nNr zajęć: 8/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3ef6fe7f9e55f268da99989a@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270122T080000
+DTEND;TZID=Europe/Warsaw:20270122T093500
+SUMMARY:EiE (ć)
+LOCATION:136 36
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: ćwiczenia\nProwadzący
+ : mgr inż. Kurenda Maciej\nNr zajęć: 9/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:edcdcda3457e05c5e17fcf91@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270122T114000
+DTEND;TZID=Europe/Warsaw:20270122T131500
+SUMMARY:Lwnm (L)
+LOCATION:31 67
+DESCRIPTION:Laboratorium wytrzymałości i nauki o materiałach\nRodzaj: l
+ aboratorium\nProwadzący: mgr inż. Sozoniuk Kamil\nNr zajęć: 12/13\nBl
+ ok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:cbce39c1b020d5a99bbd98d2@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270125T133000
+DTEND;TZID=Europe/Warsaw:20270125T150500
+SUMMARY:F2 (w)
+LOCATION:19 36
+DESCRIPTION:Fizyka 2\nRodzaj: wykład\nProwadzący: dr hab .inż. Perkowsk
+ i Paweł\nNr zajęć: 15/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ce82afc016e1dc88a546b28b@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270125T160000
+DTEND;TZID=Europe/Warsaw:20270125T173500
+SUMMARY:Ja (ć)
+LOCATION:230 K\;134
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 15/15\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:f84806e07e05e86777a5bec6@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270125T175000
+DTEND;TZID=Europe/Warsaw:20270125T192500
+SUMMARY:JoM (ć)
+LOCATION:230 K\;231
+DESCRIPTION:Język obcy (II) międzywydziałowy\nRodzaj: ćwiczenia\nNr za
+ jęć: 15/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:6c85c33279d936f58789bd7e@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270126T080000
+DTEND;TZID=Europe/Warsaw:20270126T093500
+SUMMARY:Che (L)
+LOCATION:7 55A
+DESCRIPTION:Chemia\nRodzaj: laboratorium\nProwadzący: dr inż. Szulc Jaro
+ sław\nNr zajęć: 6/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c3c2aa8f5c4087ac4da8162b@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270126T095000
+DTEND;TZID=Europe/Warsaw:20270126T112500
+SUMMARY:Che (L)
+LOCATION:7 55A
+DESCRIPTION:Chemia\nRodzaj: laboratorium\nProwadzący: dr inż. Szulc Jaro
+ sław\nNr zajęć: 7/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1f91ae2d0fef8a9968c78298@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270127T080000
+DTEND;TZID=Europe/Warsaw:20270127T093500
+SUMMARY:Bśr (ć)
+LOCATION:43 67
+DESCRIPTION:Bezpieczeństwo środowiskowe\nRodzaj: ćwiczenia\nProwadzący
+ : dr inż. Jaskółowski Waldemar\nNr zajęć: 8/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:53b25d9e3684269c76b4c53c@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270127T095000
+DTEND;TZID=Europe/Warsaw:20270127T112500
+SUMMARY:EiE (ć)
+LOCATION:S2 72
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: ćwiczenia\nProwadzący
+ : dr inż. Słowik Adam\nNr zajęć: 10/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:daf0672a149b04fc79e84ca9@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270127T133000
+DTEND;TZID=Europe/Warsaw:20270127T150500
+SUMMARY:Lwnm (L)
+LOCATION:7 25\;13 25
+DESCRIPTION:Laboratorium wytrzymałości i nauki o materiałach\nRodzaj: l
+ aboratorium\nProwadzący: mgr inż. Dziewit Piotr\nNr zajęć: 13/13\nBlo
+ k: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:cbc5920959c0bf0d93a97d0f@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270128T080000
+DTEND;TZID=Europe/Warsaw:20270128T093500
+SUMMARY:Met (ć)
+LOCATION:9 67
+DESCRIPTION:Mechanika techniczna\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Stępień Sławomir\nNr zajęć: 15/17\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a5cc2f8dcafeac01d11071fb@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270128T114000
+DTEND;TZID=Europe/Warsaw:20270128T131500
+SUMMARY:Bśr (S)
+LOCATION:34 67
+DESCRIPTION:Bezpieczeństwo środowiskowe\nRodzaj: seminarium\nProwadzący
+ : dr inż. Jaskółowski Waldemar\nNr zajęć: 4/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:80dd2e6def6a7157f469b362@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270129T114000
+DTEND;TZID=Europe/Warsaw:20270129T131500
+SUMMARY:Met (ć)
+LOCATION:9 67
+DESCRIPTION:Mechanika techniczna\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Stępień Sławomir\nNr zajęć: 16/17\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:77c5a749e2380fe895239c52@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270129T133000
+DTEND;TZID=Europe/Warsaw:20270129T150500
+SUMMARY:Met (ć)
+LOCATION:9 67
+DESCRIPTION:Mechanika techniczna\nRodzaj: ćwiczenia\nProwadzący: dr inż
+ . Stępień Sławomir\nNr zajęć: 17/17\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6af1a9a9487d45ab260a4be8@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270129T175000
+DTEND;TZID=Europe/Warsaw:20270129T192500
+SUMMARY:EiE (L)
+LOCATION:141 36\;128
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: laboratorium\nProwadzą
+ cy: ppor.mgr inż. Kunicki Jakub\nNr zajęć: 10/10\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:bd0901adb002e4f3354c7696@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270208T133000
+DTEND;TZID=Europe/Warsaw:20270208T150500
+SUMMARY:F2 (E)
+LOCATION:19 36
+DESCRIPTION:Fizyka 2\nRodzaj: egzamin\nProwadzący: dr hab .inż. Perkowsk
+ i Paweł\nNr zajęć: 1/1\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:67c366ecf255e49bafd89a4a@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270209T080000
+DTEND;TZID=Europe/Warsaw:20270209T093500
+SUMMARY:EiE (E)
+LOCATION:19 36
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: egzamin\nProwadzący: d
+ r inż. Grzegorczyk Tomasz\nNr zajęć: 1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7a3e56ba6d2f1b71ebae9a6c@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270215T133000
+DTEND;TZID=Europe/Warsaw:20270215T150500
+SUMMARY:F2 (Ep)
+LOCATION:19 36
+DESCRIPTION:Fizyka 2\nRodzaj: egzamin poprawkowy\nProwadzący: dr hab .in
+ ż. Perkowski Paweł\nNr zajęć: 1/1\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:98a5cbdefc77df4e597b31f3@wat-plan
+DTSTAMP:20261126T134031Z
+DTSTART;TZID=Europe/Warsaw:20270216T080000
+DTEND;TZID=Europe/Warsaw:20270216T093500
+SUMMARY:EiE (Ep)
+LOCATION:19 36
+DESCRIPTION:Elektrotechnika i elektronika\nRodzaj: egzamin poprawkowy\nPro
+ wadzący: dr inż. Grzegorczyk Tomasz\nNr zajęć: 1/1\nBlok: 1
+END:VEVENT
+END:VCALENDAR

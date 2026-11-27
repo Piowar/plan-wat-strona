@@ -1,0 +1,920 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WCY26IMBA1N5
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ad75b3f7bcac12dd5fe91122@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261010T080000
+DTEND;TZID=Europe/Warsaw:20261010T093500
+SUMMARY:Ing (Inne)
+LOCATION:S.Senat/ S
+DESCRIPTION:Inauguracja\nRodzaj: spotkanie organizacyjne\nProwadzący: Bli
+ źniuk Grzegorz\nNr zajęć: 1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ff0fb743c6f2e3fa7c3f96c4@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261010T080000
+DTEND;TZID=Europe/Warsaw:20261010T093500
+SUMMARY:Ing (Inne)
+LOCATION:S.Senat/ S
+DESCRIPTION:Inauguracja\nRodzaj: spotkanie organizacyjne\nProwadzący: Tar
+ apata Zbigniew\nNr zajęć: 1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2c29924dac06503586118ce4@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261010T095000
+DTEND;TZID=Europe/Warsaw:20261010T112500
+SUMMARY:Dme (w)
+LOCATION:316 S
+DESCRIPTION:Decyzje menedżerskie\nRodzaj: wykład\nProwadzący: Tarapata 
+ Zbigniew\nNr zajęć: 1/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a3215e6148aa9005295e4fe8@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261010T114000
+DTEND;TZID=Europe/Warsaw:20261010T131500
+SUMMARY:Dme (w)
+LOCATION:316 S
+DESCRIPTION:Decyzje menedżerskie\nRodzaj: wykład\nProwadzący: Tarapata 
+ Zbigniew\nNr zajęć: 2/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2cbd7badee7e9256d8a116e5@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261010T133000
+DTEND;TZID=Europe/Warsaw:20261010T150500
+SUMMARY:Zrc (w)
+LOCATION:316 S
+DESCRIPTION:Zarządzanie ryzykiem w cyberbezpieczeństwie\nRodzaj: wykład
+ \nProwadzący: Stanik Jerzy\nNr zajęć: 1/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1085c08541725e1afaaba21d@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261011T080000
+DTEND;TZID=Europe/Warsaw:20261011T093500
+SUMMARY:Zrc (w)
+LOCATION:316 S
+DESCRIPTION:Zarządzanie ryzykiem w cyberbezpieczeństwie\nRodzaj: wykład
+ \nProwadzący: Stanik Jerzy\nNr zajęć: 2/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7b505e70199114ac2da1c1f5@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261011T095000
+DTEND;TZID=Europe/Warsaw:20261011T112500
+SUMMARY:Zrc (w)
+LOCATION:316 S
+DESCRIPTION:Zarządzanie ryzykiem w cyberbezpieczeństwie\nRodzaj: wykład
+ \nProwadzący: Stanik Jerzy\nNr zajęć: 3/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:43d478db116e682b16a9efea@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261011T114000
+DTEND;TZID=Europe/Warsaw:20261011T131500
+SUMMARY:Zrc (w)
+LOCATION:316 S
+DESCRIPTION:Zarządzanie ryzykiem w cyberbezpieczeństwie\nRodzaj: wykład
+ \nProwadzący: Stanik Jerzy\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:579aafedee06af84aec86054@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261011T133000
+DTEND;TZID=Europe/Warsaw:20261011T150500
+SUMMARY:Zrc (w)
+LOCATION:316 S
+DESCRIPTION:Zarządzanie ryzykiem w cyberbezpieczeństwie\nRodzaj: wykład
+ \nProwadzący: Stanik Jerzy\nNr zajęć: 5/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3901e2531da8295fa859b539@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261017T080000
+DTEND;TZID=Europe/Warsaw:20261017T093500
+SUMMARY:SIZB (w)
+LOCATION:316 S
+DESCRIPTION:Sztuczna inteligencja w zastosowaniach bezpieczeństwa\nRodzaj
+ : wykład\nProwadzący: Chmielewski Mariusz\nNr zajęć: 1/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8f173e2f3dffb5f1b21ef9ed@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261017T095000
+DTEND;TZID=Europe/Warsaw:20261017T112500
+SUMMARY:SIZB (w)
+LOCATION:316 S
+DESCRIPTION:Sztuczna inteligencja w zastosowaniach bezpieczeństwa\nRodzaj
+ : wykład\nProwadzący: Chmielewski Mariusz\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:93531b85274a72f5a301493d@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261017T114000
+DTEND;TZID=Europe/Warsaw:20261017T131500
+SUMMARY:Zkc (w)
+LOCATION:316 S
+DESCRIPTION:Zarządzanie kryzysowe w cyberbezpieczeństwie\nRodzaj: wykła
+ d\nProwadzący: Hajdasz Bogusław\nNr zajęć: 1/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e00e8f33dd5d46f6dee976ac@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261017T133000
+DTEND;TZID=Europe/Warsaw:20261017T150500
+SUMMARY:Zkc (w)
+LOCATION:316 S
+DESCRIPTION:Zarządzanie kryzysowe w cyberbezpieczeństwie\nRodzaj: wykła
+ d\nProwadzący: Hajdasz Bogusław\nNr zajęć: 2/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:43b5f7ed43f341fa8197f5fc@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261018T095000
+DTEND;TZID=Europe/Warsaw:20261018T112500
+SUMMARY:SIZB (w)
+LOCATION:316 S
+DESCRIPTION:Sztuczna inteligencja w zastosowaniach bezpieczeństwa\nRodzaj
+ : wykład\nProwadzący: Chmielewski Mariusz\nNr zajęć: 3/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a39feb58b492c1fb50d9cefd@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261018T114000
+DTEND;TZID=Europe/Warsaw:20261018T131500
+SUMMARY:SIZB (w)
+LOCATION:316 S
+DESCRIPTION:Sztuczna inteligencja w zastosowaniach bezpieczeństwa\nRodzaj
+ : wykład\nProwadzący: Chmielewski Mariusz\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2ef030a41ac18867608d7d41@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261018T133000
+DTEND;TZID=Europe/Warsaw:20261018T150500
+SUMMARY:SIZB (w)
+LOCATION:316 S
+DESCRIPTION:Sztuczna inteligencja w zastosowaniach bezpieczeństwa\nRodzaj
+ : wykład\nProwadzący: Chmielewski Mariusz\nNr zajęć: 5/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6ec9723545c4d260e30ea0b3@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261024T080000
+DTEND;TZID=Europe/Warsaw:20261024T093500
+SUMMARY:CP (w)
+LOCATION:316 S
+DESCRIPTION:Cyberprzestępczość\nRodzaj: wykład\nProwadzący: Gryszczy
+ ńska Agnieszka\nNr zajęć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ce91beb0f27003b6be9bd8cb@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261024T095000
+DTEND;TZID=Europe/Warsaw:20261024T112500
+SUMMARY:CP (w)
+LOCATION:316 S
+DESCRIPTION:Cyberprzestępczość\nRodzaj: wykład\nProwadzący: Gryszczy
+ ńska Agnieszka\nNr zajęć: 2/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ab2c88b833a6ef07f97984cc@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261024T114000
+DTEND;TZID=Europe/Warsaw:20261024T131500
+SUMMARY:CP (w)
+LOCATION:316 S
+DESCRIPTION:Cyberprzestępczość\nRodzaj: wykład\nProwadzący: Gryszczy
+ ńska Agnieszka\nNr zajęć: 3/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a17e76dd68e83dd11a60cf1f@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261024T133000
+DTEND;TZID=Europe/Warsaw:20261024T150500
+SUMMARY:CP (w)
+LOCATION:316 S
+DESCRIPTION:Cyberprzestępczość\nRodzaj: wykład\nProwadzący: Gryszczy
+ ńska Agnieszka\nNr zajęć: 4/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9c4e51273b0a4da5cd55ccd4@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261024T152000
+DTEND;TZID=Europe/Warsaw:20261024T165500
+SUMMARY:COD (w)
+LOCATION:316 S
+DESCRIPTION:Cyberodporność\nRodzaj: wykład\nProwadzący: Kośla Robert\
+ nNr zajęć: 1/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:c1e5603302c54fa1a4c23e15@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261024T171000
+DTEND;TZID=Europe/Warsaw:20261024T184500
+SUMMARY:COD (w)
+LOCATION:316 S
+DESCRIPTION:Cyberodporność\nRodzaj: wykład\nProwadzący: Kośla Robert\
+ nNr zajęć: 2/8\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:a014ebf8d15ebe1464fa142a@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261025T080000
+DTEND;TZID=Europe/Warsaw:20261025T093500
+SUMMARY:ZUI (w)
+LOCATION:316 S
+DESCRIPTION:Zarządzanie usługami IT\nRodzaj: wykład\nProwadzący: Waszk
+ owski Robert\nNr zajęć: 1/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:be9ed87d5ade5a00e654a7e2@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261025T095000
+DTEND;TZID=Europe/Warsaw:20261025T112500
+SUMMARY:ZUI (w)
+LOCATION:316 S
+DESCRIPTION:Zarządzanie usługami IT\nRodzaj: wykład\nProwadzący: Waszk
+ owski Robert\nNr zajęć: 2/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1b16f0539e007baa2f03dfc4@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261025T114000
+DTEND;TZID=Europe/Warsaw:20261025T131500
+SUMMARY:COD (w)
+LOCATION:316 S
+DESCRIPTION:Cyberodporność\nRodzaj: wykład\nProwadzący: Kośla Robert\
+ nNr zajęć: 3/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5d9334027be78df5eb0ae506@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261025T133000
+DTEND;TZID=Europe/Warsaw:20261025T150500
+SUMMARY:COD (w)
+LOCATION:316 S
+DESCRIPTION:Cyberodporność\nRodzaj: wykład\nProwadzący: Kośla Robert\
+ nNr zajęć: 4/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:826eedb7215e2fc70557fb3f@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261107T080000
+DTEND;TZID=Europe/Warsaw:20261107T093500
+SUMMARY:Dme (w)
+LOCATION:316 S
+DESCRIPTION:Decyzje menedżerskie\nRodzaj: wykład\nProwadzący: Tarapata 
+ Zbigniew\nNr zajęć: 3/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7b3de56ffd43d6e47f1a009b@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261107T095000
+DTEND;TZID=Europe/Warsaw:20261107T112500
+SUMMARY:Dme (w)
+LOCATION:316 S
+DESCRIPTION:Decyzje menedżerskie\nRodzaj: wykład\nProwadzący: Tarapata 
+ Zbigniew\nNr zajęć: 4/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:15494f2cc3e1b01f6363bbf4@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261107T114000
+DTEND;TZID=Europe/Warsaw:20261107T131500
+SUMMARY:COD (w)
+LOCATION:316 S
+DESCRIPTION:Cyberodporność\nRodzaj: wykład\nProwadzący: Kośla Robert\
+ nNr zajęć: 5/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0ac567e74d73d15c59aa17a0@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261107T133000
+DTEND;TZID=Europe/Warsaw:20261107T150500
+SUMMARY:COD (w)
+LOCATION:316 S
+DESCRIPTION:Cyberodporność\nRodzaj: wykład\nProwadzący: Kośla Robert\
+ nNr zajęć: 6/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8aed4ecd515944fc10325977@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261108T080000
+DTEND;TZID=Europe/Warsaw:20261108T093500
+SUMMARY:Zkc (w)
+LOCATION:316 S
+DESCRIPTION:Zarządzanie kryzysowe w cyberbezpieczeństwie\nRodzaj: wykła
+ d\nProwadzący: Hajdasz Bogusław\nNr zajęć: 3/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:954036d381f3336e9f30cd1c@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261108T095000
+DTEND;TZID=Europe/Warsaw:20261108T112500
+SUMMARY:Zkc (w)
+LOCATION:316 S
+DESCRIPTION:Zarządzanie kryzysowe w cyberbezpieczeństwie\nRodzaj: wykła
+ d\nProwadzący: Hajdasz Bogusław\nNr zajęć: 4/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3280d2f53ec3d070fc8dbcb5@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261108T114000
+DTEND;TZID=Europe/Warsaw:20261108T131500
+SUMMARY:Zkc (w)
+LOCATION:316 S
+DESCRIPTION:Zarządzanie kryzysowe w cyberbezpieczeństwie\nRodzaj: wykła
+ d\nProwadzący: Hajdasz Bogusław\nNr zajęć: 5/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:723e828a0d7d75c22626b3db@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261108T133000
+DTEND;TZID=Europe/Warsaw:20261108T150500
+SUMMARY:Zkc (L)
+LOCATION:316 S
+DESCRIPTION:Zarządzanie kryzysowe w cyberbezpieczeństwie\nRodzaj: labora
+ torium\nProwadzący: Hajdasz Bogusław\nNr zajęć: 1/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e5a216a8ead418f1e95ea211@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261108T152000
+DTEND;TZID=Europe/Warsaw:20261108T165500
+SUMMARY:SIZB (L)
+LOCATION:239 S
+DESCRIPTION:Sztuczna inteligencja w zastosowaniach bezpieczeństwa\nRodzaj
+ : laboratorium\nProwadzący: Chmielewski Mariusz\nNr zajęć: 1/3\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:eb4df9099a433137d1b7f9cb@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261108T171000
+DTEND;TZID=Europe/Warsaw:20261108T184500
+SUMMARY:SIZB (L)
+LOCATION:239 S
+DESCRIPTION:Sztuczna inteligencja w zastosowaniach bezpieczeństwa\nRodzaj
+ : laboratorium\nProwadzący: Chmielewski Mariusz\nNr zajęć: 2/3\nBlok: 
+ 6
+END:VEVENT
+BEGIN:VEVENT
+UID:098385e97be055152763d0d2@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261121T080000
+DTEND;TZID=Europe/Warsaw:20261121T093500
+SUMMARY:Dme (w)
+LOCATION:316 S
+DESCRIPTION:Decyzje menedżerskie\nRodzaj: wykład\nProwadzący: Tarapata 
+ Zbigniew\nNr zajęć: 5/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:bfc11e83e0ef886f1bf5badf@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261121T095000
+DTEND;TZID=Europe/Warsaw:20261121T112500
+SUMMARY:Dme (w)
+LOCATION:316 S
+DESCRIPTION:Decyzje menedżerskie\nRodzaj: wykład\nProwadzący: Tarapata 
+ Zbigniew\nNr zajęć: 6/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:470467a0157e7fecb47ef57c@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261122T080000
+DTEND;TZID=Europe/Warsaw:20261122T093500
+SUMMARY:ZUI (w)
+LOCATION:316 S
+DESCRIPTION:Zarządzanie usługami IT\nRodzaj: wykład\nProwadzący: Waszk
+ owski Robert\nNr zajęć: 3/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b801d1c793d76475fc66434d@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261122T095000
+DTEND;TZID=Europe/Warsaw:20261122T112500
+SUMMARY:ZUI (w)
+LOCATION:316 S
+DESCRIPTION:Zarządzanie usługami IT\nRodzaj: wykład\nProwadzący: Waszk
+ owski Robert\nNr zajęć: 4/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0abcaaf8c8b32b56c68660a0@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261122T114000
+DTEND;TZID=Europe/Warsaw:20261122T131500
+SUMMARY:COD (w)
+LOCATION:316 S
+DESCRIPTION:Cyberodporność\nRodzaj: wykład\nProwadzący: Kośla Robert\
+ nNr zajęć: 7/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:12ce0a64ed4f08c0dbf8d569@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261122T133000
+DTEND;TZID=Europe/Warsaw:20261122T150500
+SUMMARY:COD (w)
+LOCATION:316 S
+DESCRIPTION:Cyberodporność\nRodzaj: wykład\nProwadzący: Kośla Robert\
+ nNr zajęć: 8/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:add9f83c8436fd88b0cef5aa@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261205T080000
+DTEND;TZID=Europe/Warsaw:20261205T093500
+SUMMARY:Crm (w)
+LOCATION:316 S
+DESCRIPTION:Cyberkonflikty w relacjach międzynarodowych\nRodzaj: wykład\
+ nProwadzący: Fronczak Marcin\nNr zajęć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f75a2e95348a2019f76cf2c6@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261205T080000
+DTEND;TZID=Europe/Warsaw:20261205T093500
+SUMMARY:Crm (w)
+LOCATION:316 S
+DESCRIPTION:Cyberkonflikty w relacjach międzynarodowych\nRodzaj: wykład\
+ nProwadzący: Kępski Piotr\nNr zajęć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1bcdac55dce96df462a58176@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261205T095000
+DTEND;TZID=Europe/Warsaw:20261205T112500
+SUMMARY:Crm (L)
+LOCATION:239 S\, 237 S
+DESCRIPTION:Cyberkonflikty w relacjach międzynarodowych\nRodzaj: laborato
+ rium\nProwadzący: Kępski Piotr\nNr zajęć: 1/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:22d6705b933e3aba03b23726@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261205T114000
+DTEND;TZID=Europe/Warsaw:20261205T131500
+SUMMARY:Crm (L)
+LOCATION:239 S\, 237 S
+DESCRIPTION:Cyberkonflikty w relacjach międzynarodowych\nRodzaj: laborato
+ rium\nProwadzący: Kępski Piotr\nNr zajęć: 2/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4c7d6ca724ac5d52a313b6c4@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261205T133000
+DTEND;TZID=Europe/Warsaw:20261205T150500
+SUMMARY:Crm (L)
+LOCATION:239 S\, 237 S
+DESCRIPTION:Cyberkonflikty w relacjach międzynarodowych\nRodzaj: laborato
+ rium\nProwadzący: Kępski Piotr\nNr zajęć: 3/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a703d32d393c0bb558a97914@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261206T080000
+DTEND;TZID=Europe/Warsaw:20261206T093500
+SUMMARY:Crm (w)
+LOCATION:316 S
+DESCRIPTION:Cyberkonflikty w relacjach międzynarodowych\nRodzaj: wykład\
+ nProwadzący: Maj Mirosław\nNr zajęć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a9be052b447456533a2652d5@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261206T095000
+DTEND;TZID=Europe/Warsaw:20261206T112500
+SUMMARY:Crm (w)
+LOCATION:316 S
+DESCRIPTION:Cyberkonflikty w relacjach międzynarodowych\nRodzaj: wykład\
+ nProwadzący: Maj Mirosław\nNr zajęć: 2/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2ede67dbf4c02ed2e8e37788@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261206T114000
+DTEND;TZID=Europe/Warsaw:20261206T131500
+SUMMARY:Crm (w)
+LOCATION:316 S
+DESCRIPTION:Cyberkonflikty w relacjach międzynarodowych\nRodzaj: wykład\
+ nProwadzący: Maj Mirosław\nNr zajęć: 3/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:25de46be72ea1ed0d66ee702@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261206T133000
+DTEND;TZID=Europe/Warsaw:20261206T150500
+SUMMARY:Crm (w)
+LOCATION:316 S
+DESCRIPTION:Cyberkonflikty w relacjach międzynarodowych\nRodzaj: wykład\
+ nProwadzący: Maj Mirosław\nNr zajęć: 4/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:dd9b352a12afcdeb886f3ba6@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261206T152000
+DTEND;TZID=Europe/Warsaw:20261206T165500
+SUMMARY:SIZB (L)
+LOCATION:237 S
+DESCRIPTION:Sztuczna inteligencja w zastosowaniach bezpieczeństwa\nRodzaj
+ : laboratorium\nProwadzący: Chmielewski Mariusz\nNr zajęć: 3/3\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:9090c0cd6d3e786461937f60@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261206T171000
+DTEND;TZID=Europe/Warsaw:20261206T184500
+SUMMARY:Zrc (ć)
+LOCATION:237 S
+DESCRIPTION:Zarządzanie ryzykiem w cyberbezpieczeństwie\nRodzaj: ćwicze
+ nia\nProwadzący: Stanik Jerzy\nNr zajęć: 1/2\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:36f47f5501533f94a1729931@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261219T080000
+DTEND;TZID=Europe/Warsaw:20261219T093500
+SUMMARY:CP (ć)
+LOCATION:237 S
+DESCRIPTION:Cyberprzestępczość\nRodzaj: ćwiczenia\nProwadzący: Gryszc
+ zyńska Agnieszka\nNr zajęć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:163084aae2661050cd49530c@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261219T095000
+DTEND;TZID=Europe/Warsaw:20261219T112500
+SUMMARY:CP (ć)
+LOCATION:237 S
+DESCRIPTION:Cyberprzestępczość\nRodzaj: ćwiczenia\nProwadzący: Gryszc
+ zyńska Agnieszka\nNr zajęć: 2/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:773f0824c4894a833cf47e8b@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261220T080000
+DTEND;TZID=Europe/Warsaw:20261220T093500
+SUMMARY:ZUI (w)
+LOCATION:316 S
+DESCRIPTION:Zarządzanie usługami IT\nRodzaj: wykład\nProwadzący: Waszk
+ owski Robert\nNr zajęć: 5/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c2295639bd6a42dc2d6b3c46@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261220T095000
+DTEND;TZID=Europe/Warsaw:20261220T112500
+SUMMARY:ZUI (w)
+LOCATION:316 S
+DESCRIPTION:Zarządzanie usługami IT\nRodzaj: wykład\nProwadzący: Waszk
+ owski Robert\nNr zajęć: 6/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:20ca2967534b088f1636b9ac@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261220T114000
+DTEND;TZID=Europe/Warsaw:20261220T131500
+SUMMARY:Zkc (w)
+LOCATION:316 S
+DESCRIPTION:Zarządzanie kryzysowe w cyberbezpieczeństwie\nRodzaj: wykła
+ d\nProwadzący: Hajdasz Bogusław\nNr zajęć: 6/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:007ce558f561d4eba8be3032@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20261220T133000
+DTEND;TZID=Europe/Warsaw:20261220T150500
+SUMMARY:Zkc (w)
+LOCATION:316 S
+DESCRIPTION:Zarządzanie kryzysowe w cyberbezpieczeństwie\nRodzaj: wykła
+ d\nProwadzący: Hajdasz Bogusław\nNr zajęć: 7/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6e69708a2412b6641235b771@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270109T080000
+DTEND;TZID=Europe/Warsaw:20270109T093500
+SUMMARY:Dme (L)
+LOCATION:237 S
+DESCRIPTION:Decyzje menedżerskie\nRodzaj: laboratorium\nProwadzący: Tara
+ pata Zbigniew\nNr zajęć: 1/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:02e59d428b1445fcd7631563@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270109T095000
+DTEND;TZID=Europe/Warsaw:20270109T112500
+SUMMARY:Dme (L)
+LOCATION:237 S
+DESCRIPTION:Decyzje menedżerskie\nRodzaj: laboratorium\nProwadzący: Tara
+ pata Zbigniew\nNr zajęć: 2/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2b313a02ca57bea3d849e10a@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270109T114000
+DTEND;TZID=Europe/Warsaw:20270109T131500
+SUMMARY:Zrc (ć)
+LOCATION:239 S
+DESCRIPTION:Zarządzanie ryzykiem w cyberbezpieczeństwie\nRodzaj: ćwicze
+ nia\nProwadzący: Stanik Jerzy\nNr zajęć: 2/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b3ddeb912e859e5c86650d9a@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270109T133000
+DTEND;TZID=Europe/Warsaw:20270109T150500
+SUMMARY:Zrc (L)
+LOCATION:239 S
+DESCRIPTION:Zarządzanie ryzykiem w cyberbezpieczeństwie\nRodzaj: laborat
+ orium\nProwadzący: Stanik Jerzy\nNr zajęć: 1/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9ec83f3acb0ed37367942b36@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270110T152000
+DTEND;TZID=Europe/Warsaw:20270110T165500
+SUMMARY:CP (ć)
+LOCATION:237 S
+DESCRIPTION:Cyberprzestępczość\nRodzaj: ćwiczenia\nProwadzący: Gryszc
+ zyńska Agnieszka\nNr zajęć: 3/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:c5b34e8363f3fae27d02593b@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270110T171000
+DTEND;TZID=Europe/Warsaw:20270110T184500
+SUMMARY:CP (ć)
+LOCATION:237 S
+DESCRIPTION:Cyberprzestępczość\nRodzaj: ćwiczenia\nProwadzący: Gryszc
+ zyńska Agnieszka\nNr zajęć: 4/4\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:53fd866e56a5f60cf2673992@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270116T080000
+DTEND;TZID=Europe/Warsaw:20270116T093500
+SUMMARY:Dme (L)
+LOCATION:237 S
+DESCRIPTION:Decyzje menedżerskie\nRodzaj: laboratorium\nProwadzący: Tara
+ pata Zbigniew\nNr zajęć: 3/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5a03597a64f213cc83efaff9@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270116T095000
+DTEND;TZID=Europe/Warsaw:20270116T112500
+SUMMARY:Dme (Inne)
+LOCATION:237 S
+DESCRIPTION:Decyzje menedżerskie\nRodzaj: seminarium\nProwadzący: Tarapa
+ ta Zbigniew\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c869853009249512deee57e0@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270116T114000
+DTEND;TZID=Europe/Warsaw:20270116T131500
+SUMMARY:COD (Inne)
+LOCATION:239 S
+DESCRIPTION:Cyberodporność\nRodzaj: seminarium\nProwadzący: Kośla Robe
+ rt\nNr zajęć: 1/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a082e252e20142c4f77d02e5@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270116T133000
+DTEND;TZID=Europe/Warsaw:20270116T150500
+SUMMARY:COD (Inne)
+LOCATION:239 S
+DESCRIPTION:Cyberodporność\nRodzaj: seminarium\nProwadzący: Kośla Robe
+ rt\nNr zajęć: 2/2\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9f1dcf5231762702f2b127a6@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270117T080000
+DTEND;TZID=Europe/Warsaw:20270117T093500
+SUMMARY:ZUI (Inne)
+LOCATION:239 S\, 237 S
+DESCRIPTION:Zarządzanie usługami IT\nRodzaj: seminarium\nProwadzący: Wa
+ szkowski Robert\nNr zajęć: 1/2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:65d28a082ce556d9cc10afea@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270117T095000
+DTEND;TZID=Europe/Warsaw:20270117T112500
+SUMMARY:ZUI (Inne)
+LOCATION:239 S\, 237 S
+DESCRIPTION:Zarządzanie usługami IT\nRodzaj: seminarium\nProwadzący: Wa
+ szkowski Robert\nNr zajęć: 2/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:163ddf0123cf25dab7ffaf2d@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270117T114000
+DTEND;TZID=Europe/Warsaw:20270117T131500
+SUMMARY:Zrc (L)
+LOCATION:239 S
+DESCRIPTION:Zarządzanie ryzykiem w cyberbezpieczeństwie\nRodzaj: laborat
+ orium\nProwadzący: Stanik Jerzy\nNr zajęć: 2/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f10d6c5810ca15768f43b757@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270117T133000
+DTEND;TZID=Europe/Warsaw:20270117T150500
+SUMMARY:Zrc (L)
+LOCATION:239 S
+DESCRIPTION:Zarządzanie ryzykiem w cyberbezpieczeństwie\nRodzaj: laborat
+ orium\nProwadzący: Stanik Jerzy\nNr zajęć: 3/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3f97d1745112ccbce6e1ad50@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270130T080000
+DTEND;TZID=Europe/Warsaw:20270130T093500
+SUMMARY:CSS (w)
+LOCATION:Teams
+DESCRIPTION:Cybersecurity systems\nRodzaj: wykład\nProwadzący: Armando A
+ lessandro\nNr zajęć: 1/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4ccb3c61da2e9caba685adb4@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270130T095000
+DTEND;TZID=Europe/Warsaw:20270130T112500
+SUMMARY:CSS (w)
+LOCATION:Teams
+DESCRIPTION:Cybersecurity systems\nRodzaj: wykład\nProwadzący: Armando A
+ lessandro\nNr zajęć: 2/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:58d5b1b452278c164f018a32@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270130T114000
+DTEND;TZID=Europe/Warsaw:20270130T131500
+SUMMARY:CSS (w)
+LOCATION:Teams
+DESCRIPTION:Cybersecurity systems\nRodzaj: wykład\nProwadzący: Armando A
+ lessandro\nNr zajęć: 3/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b2ecde4011d8825d159e367c@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270130T133000
+DTEND;TZID=Europe/Warsaw:20270130T150500
+SUMMARY:CSS (w)
+LOCATION:Teams
+DESCRIPTION:Cybersecurity systems\nRodzaj: wykład\nProwadzący: Armando A
+ lessandro\nNr zajęć: 4/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0d45f9cd62440cec06c792d0@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270131T080000
+DTEND;TZID=Europe/Warsaw:20270131T093500
+SUMMARY:CSS (w)
+LOCATION:Teams
+DESCRIPTION:Cybersecurity systems\nRodzaj: wykład\nProwadzący: Armando A
+ lessandro\nNr zajęć: 5/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f71921f019e58dc295b27ee4@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270131T095000
+DTEND;TZID=Europe/Warsaw:20270131T112500
+SUMMARY:CSS (w)
+LOCATION:Teams
+DESCRIPTION:Cybersecurity systems\nRodzaj: wykład\nProwadzący: Armando A
+ lessandro\nNr zajęć: 6/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b8908f5e6ee44cbbf016989f@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270131T114000
+DTEND;TZID=Europe/Warsaw:20270131T131500
+SUMMARY:CSS (L)
+LOCATION:Teams
+DESCRIPTION:Cybersecurity systems\nRodzaj: laboratorium\nProwadzący: Arma
+ ndo Alessandro\nNr zajęć: 1/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:07071b8994ac197cc477c4de@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270131T133000
+DTEND;TZID=Europe/Warsaw:20270131T150500
+SUMMARY:CSS (L)
+LOCATION:Teams
+DESCRIPTION:Cybersecurity systems\nRodzaj: laboratorium\nProwadzący: Arma
+ ndo Alessandro\nNr zajęć: 2/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:166970b52df12c1df379489f@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270213T080000
+DTEND;TZID=Europe/Warsaw:20270213T093500
+SUMMARY:Zkc (L)
+LOCATION:Teams
+DESCRIPTION:Zarządzanie kryzysowe w cyberbezpieczeństwie\nRodzaj: labora
+ torium\nProwadzący: Hajdasz Bogusław\nNr zajęć: 2/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:44ad41b27a5ca479d8aa690d@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270213T095000
+DTEND;TZID=Europe/Warsaw:20270213T112500
+SUMMARY:Zkc (L)
+LOCATION:Teams
+DESCRIPTION:Zarządzanie kryzysowe w cyberbezpieczeństwie\nRodzaj: labora
+ torium\nProwadzący: Hajdasz Bogusław\nNr zajęć: 3/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:cada7952dd48a5cdce6e3646@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270213T114000
+DTEND;TZID=Europe/Warsaw:20270213T131500
+SUMMARY:Zkc (L)
+LOCATION:Teams
+DESCRIPTION:Zarządzanie kryzysowe w cyberbezpieczeństwie\nRodzaj: labora
+ torium\nProwadzący: Hajdasz Bogusław\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:cead9c2dcc323b1aa06cf184@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270213T133000
+DTEND;TZID=Europe/Warsaw:20270213T150500
+SUMMARY:Zkc (L)
+LOCATION:Teams
+DESCRIPTION:Zarządzanie kryzysowe w cyberbezpieczeństwie\nRodzaj: labora
+ torium\nProwadzący: Hajdasz Bogusław\nNr zajęć: 5/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:423f8aec14d989c8adb8faff@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270214T080000
+DTEND;TZID=Europe/Warsaw:20270214T093500
+SUMMARY:CSS (L)
+LOCATION:Teams
+DESCRIPTION:Cybersecurity systems\nRodzaj: laboratorium\nProwadzący: Arma
+ ndo Alessandro\nNr zajęć: 3/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:85ec704d7b860842a84a6efc@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270214T095000
+DTEND;TZID=Europe/Warsaw:20270214T112500
+SUMMARY:CSS (L)
+LOCATION:Teams
+DESCRIPTION:Cybersecurity systems\nRodzaj: laboratorium\nProwadzący: Arma
+ ndo Alessandro\nNr zajęć: 4/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:bc8ceef32ff44fb152344c0a@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270214T114000
+DTEND;TZID=Europe/Warsaw:20270214T131500
+SUMMARY:CSS (L)
+LOCATION:Teams
+DESCRIPTION:Cybersecurity systems\nRodzaj: laboratorium\nProwadzący: Arma
+ ndo Alessandro\nNr zajęć: 5/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ab7d8f88da21e4de2039fed7@wat-plan
+DTSTAMP:20261118T134920Z
+DTSTART;TZID=Europe/Warsaw:20270214T133000
+DTEND;TZID=Europe/Warsaw:20270214T150500
+SUMMARY:CSS (L)
+LOCATION:Teams
+DESCRIPTION:Cybersecurity systems\nRodzaj: laboratorium\nProwadzący: Arma
+ ndo Alessandro\nNr zajęć: 6/6\nBlok: 4
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,4186 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WMT22AS1S0
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:94fe533ec74f5431d8e97fc1@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20260917T080000
+DTEND;TZID=Europe/Warsaw:20260917T093500
+SUMMARY:Wpnsz (w)
+LOCATION:18 63
+DESCRIPTION:Wyposażenie naziemne PZR średniego zasięgu\nRodzaj: wykład
+ \nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 1/13\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e6e941fb74eb72964f7f6902@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20260917T095000
+DTEND;TZID=Europe/Warsaw:20260917T112500
+SUMMARY:Wpnsz (w)
+LOCATION:18 63
+DESCRIPTION:Wyposażenie naziemne PZR średniego zasięgu\nRodzaj: wykład
+ \nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 2/13\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b564d5c81839617e7e6ed074@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20260922T095000
+DTEND;TZID=Europe/Warsaw:20260922T112500
+SUMMARY:Wpnsz (w)
+LOCATION:6 63 A
+DESCRIPTION:Wyposażenie naziemne PZR średniego zasięgu\nRodzaj: wykład
+ \nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 3/13\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7d2a4195950f20a6e523c4da@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20260922T114000
+DTEND;TZID=Europe/Warsaw:20260922T131500
+SUMMARY:Wpnsz (w)
+LOCATION:6 63 A
+DESCRIPTION:Wyposażenie naziemne PZR średniego zasięgu\nRodzaj: wykład
+ \nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 4/13\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8aa834a757217c8ddf074e3b@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20260923T080000
+DTEND;TZID=Europe/Warsaw:20260923T093500
+SUMMARY:Krppsz (ć)
+LOCATION:4 63A
+DESCRIPTION:Konstrukcja rakiet plot PZR sredniego zasięgu\nRodzaj: ćwicz
+ enia\nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:060abbecf189b9cf1be1f2b8@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20260923T095000
+DTEND;TZID=Europe/Warsaw:20260923T112500
+SUMMARY:Upsysz (w)
+LOCATION:325 S
+DESCRIPTION:Układy przetwarzania sygnałów PZR średniego zasięgu\nRodz
+ aj: wykład\nProwadzący: dr inż. Grzywiński Stanisław\nNr zajęć: 1/
+ 9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6832bb9421a73fbc6501c1f9@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20260923T114000
+DTEND;TZID=Europe/Warsaw:20260923T131500
+SUMMARY:Upsysz (ć)
+LOCATION:323 S
+DESCRIPTION:Układy przetwarzania sygnałów PZR średniego zasięgu\nRodz
+ aj: ćwiczenia\nProwadzący: dr inż. Grzywiński Stanisław\nNr zajęć:
+  1/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3a7d9bc721fb6c436ba4223d@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20260924T080000
+DTEND;TZID=Europe/Warsaw:20260924T093500
+SUMMARY:Zszpzr (w)
+LOCATION:101 63A
+DESCRIPTION:Zasady strzelania z PZR\nRodzaj: wykład\nProwadzący: kpt. mg
+ r inż. Klicki Kamil\nNr zajęć: 1/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ab634d1fd1060c4b1696fdc8@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20260924T095000
+DTEND;TZID=Europe/Warsaw:20260924T112500
+SUMMARY:Zszpzr (w)
+LOCATION:101 63A
+DESCRIPTION:Zasady strzelania z PZR\nRodzaj: wykład\nProwadzący: kpt. mg
+ r inż. Klicki Kamil\nNr zajęć: 2/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f702b84e4b3efa44ea63a314@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20260924T114000
+DTEND;TZID=Europe/Warsaw:20260924T131500
+SUMMARY:Upsysz (w)
+LOCATION:325 S
+DESCRIPTION:Układy przetwarzania sygnałów PZR średniego zasięgu\nRodz
+ aj: wykład\nProwadzący: dr inż. Grzywiński Stanisław\nNr zajęć: 2/
+ 9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:293d757a60ecf7eca1021c68@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20260924T133000
+DTEND;TZID=Europe/Warsaw:20260924T150500
+SUMMARY:Upsysz (w)
+LOCATION:325 S
+DESCRIPTION:Układy przetwarzania sygnałów PZR średniego zasięgu\nRodz
+ aj: wykład\nProwadzący: dr inż. Grzywiński Stanisław\nNr zajęć: 3/
+ 9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b3be88d5cbbb17be6b651900@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20260928T114000
+DTEND;TZID=Europe/Warsaw:20260928T131500
+SUMMARY:Zszpzr (w)
+LOCATION:101 63A
+DESCRIPTION:Zasady strzelania z PZR\nRodzaj: wykład\nProwadzący: kpt. mg
+ r inż. Klicki Kamil\nNr zajęć: 3/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d5d8d1e3df7d8edbdafc9a53@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20260928T133000
+DTEND;TZID=Europe/Warsaw:20260928T150500
+SUMMARY:Zszpzr (w)
+LOCATION:101 63A
+DESCRIPTION:Zasady strzelania z PZR\nRodzaj: wykład\nProwadzący: kpt. mg
+ r inż. Klicki Kamil\nNr zajęć: 4/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a562ac664e17ee5e83c80062@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20260929T114000
+DTEND;TZID=Europe/Warsaw:20260929T131500
+SUMMARY:Wpnsz (w)
+LOCATION:19 63
+DESCRIPTION:Wyposażenie naziemne PZR średniego zasięgu\nRodzaj: wykład
+ \nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 5/13\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a0526363d6e123e011ecb5d0@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20260929T133000
+DTEND;TZID=Europe/Warsaw:20260929T150500
+SUMMARY:Wpnsz (ć)
+LOCATION:4 63A
+DESCRIPTION:Wyposażenie naziemne PZR średniego zasięgu\nRodzaj: ćwicze
+ nia\nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 1/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2e16e1c168448fc276af19d3@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20260930T095000
+DTEND;TZID=Europe/Warsaw:20260930T112500
+SUMMARY:Upsysz (w)
+LOCATION:325 S
+DESCRIPTION:Układy przetwarzania sygnałów PZR średniego zasięgu\nRodz
+ aj: wykład\nProwadzący: dr inż. Grzywiński Stanisław\nNr zajęć: 4/
+ 9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f1da6c152b274dc6e3ba8178@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20260930T114000
+DTEND;TZID=Europe/Warsaw:20260930T131500
+SUMMARY:Krppsz (w)
+LOCATION:19 63
+DESCRIPTION:Konstrukcja rakiet plot PZR sredniego zasięgu\nRodzaj: wykła
+ d\nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 1/18\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:213398e7976e661ff55cc435@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261001T095000
+DTEND;TZID=Europe/Warsaw:20261001T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Kęp
+ niak Krzysztof\nNr zajęć: 1/40\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:940db560d70caefd4a072774@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261001T114000
+DTEND;TZID=Europe/Warsaw:20261001T131500
+SUMMARY:Upsysz (w)
+LOCATION:325 S
+DESCRIPTION:Układy przetwarzania sygnałów PZR średniego zasięgu\nRodz
+ aj: wykład\nProwadzący: dr inż. Grzywiński Stanisław\nNr zajęć: 5/
+ 9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:337340091fb370582b70f58e@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261001T133000
+DTEND;TZID=Europe/Warsaw:20261001T150500
+SUMMARY:Upsysz (w)
+LOCATION:325 S
+DESCRIPTION:Układy przetwarzania sygnałów PZR średniego zasięgu\nRodz
+ aj: wykład\nProwadzący: dr inż. Grzywiński Stanisław\nNr zajęć: 6/
+ 9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e7a70f4ee834aa5b251acb87@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261002T080000
+DTEND;TZID=Europe/Warsaw:20261002T093500
+SUMMARY:Wpnsz (w)
+LOCATION:18 63
+DESCRIPTION:Wyposażenie naziemne PZR średniego zasięgu\nRodzaj: wykład
+ \nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 6/13\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c5553a323b5035c43012595c@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261002T095000
+DTEND;TZID=Europe/Warsaw:20261002T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Kęp
+ niak Krzysztof\nNr zajęć: 2/40\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6799e85a31b09a54accff6fa@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261002T114000
+DTEND;TZID=Europe/Warsaw:20261002T131500
+SUMMARY:Zszpzr (w)
+LOCATION:101 63A
+DESCRIPTION:Zasady strzelania z PZR\nRodzaj: wykład\nProwadzący: kpt. mg
+ r inż. Klicki Kamil\nNr zajęć: 5/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:39f38a28fb176986b37ff4c0@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261002T133000
+DTEND;TZID=Europe/Warsaw:20261002T150500
+SUMMARY:Aool (w)
+LOCATION:5 63A
+DESCRIPTION:Aerodynamika osiowosymetrycznych obiektów latających\nRodzaj
+ : wykład\nProwadzący: dr hab. inż. Baranowski Leszek\nNr zajęć: 1/9\
+ nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:df617cdb1adc676b07a5afd8@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261003T095000
+DTEND;TZID=Europe/Warsaw:20261003T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 1/14\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d29079bd0b8bf866c23f0663@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261005T114000
+DTEND;TZID=Europe/Warsaw:20261005T131500
+SUMMARY:Wpnsz (w)
+LOCATION:18 63
+DESCRIPTION:Wyposażenie naziemne PZR średniego zasięgu\nRodzaj: wykład
+ \nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 7/13\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:acb1d5b4abeedf068d289203@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261005T133000
+DTEND;TZID=Europe/Warsaw:20261005T150500
+SUMMARY:Upsysz (ć)
+LOCATION:323 S
+DESCRIPTION:Układy przetwarzania sygnałów PZR średniego zasięgu\nRodz
+ aj: ćwiczenia\nProwadzący: dr inż. Grzywiński Stanisław\nNr zajęć:
+  2/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:aaf9eeb7c8e6bd0dcdf20afd@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261005T160000
+DTEND;TZID=Europe/Warsaw:20261005T173500
+SUMMARY:Ja (ć)
+LOCATION:125 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 1/30\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:39b88a391d8245e24ad78ca9@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261006T095000
+DTEND;TZID=Europe/Warsaw:20261006T112500
+SUMMARY:Wpnsz (ć)
+LOCATION:4 63A
+DESCRIPTION:Wyposażenie naziemne PZR średniego zasięgu\nRodzaj: ćwicze
+ nia\nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d29f70b9b9db49e29246c9ad@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261006T114000
+DTEND;TZID=Europe/Warsaw:20261006T131500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Kęp
+ niak Krzysztof\nNr zajęć: 3/40\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7553ae29ae4686e7549908ef@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261006T133000
+DTEND;TZID=Europe/Warsaw:20261006T150500
+SUMMARY:Krppsz (w)
+LOCATION:19 63
+DESCRIPTION:Konstrukcja rakiet plot PZR sredniego zasięgu\nRodzaj: wykła
+ d\nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 2/18\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a2d77e2c3cfa27a928ddfd5b@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261007T080000
+DTEND;TZID=Europe/Warsaw:20261007T093500
+SUMMARY:Ja (ć)
+LOCATION:125 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 2/30\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:355d83e230bbdb7e6c0961a2@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261007T095000
+DTEND;TZID=Europe/Warsaw:20261007T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Kęp
+ niak Krzysztof\nNr zajęć: 4/40\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:184d83abe81da7e1d2f1d16e@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261007T133000
+DTEND;TZID=Europe/Warsaw:20261007T150500
+SUMMARY:Wpnsz (w)
+LOCATION:18 63
+DESCRIPTION:Wyposażenie naziemne PZR średniego zasięgu\nRodzaj: wykład
+ \nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 8/13\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:380a2ce1666af7b2170164d0@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261008T080000
+DTEND;TZID=Europe/Warsaw:20261008T093500
+SUMMARY:Upsysz (w)
+LOCATION:325 S
+DESCRIPTION:Układy przetwarzania sygnałów PZR średniego zasięgu\nRodz
+ aj: wykład\nProwadzący: dr inż. Grzywiński Stanisław\nNr zajęć: 7/
+ 9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:16ec7d10dcb8904e99ec6a39@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261008T095000
+DTEND;TZID=Europe/Warsaw:20261008T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Kęp
+ niak Krzysztof\nNr zajęć: 5/40\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d78876b5e2e5a6cd42e5ee4d@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261008T114000
+DTEND;TZID=Europe/Warsaw:20261008T131500
+SUMMARY:Krppsz (w)
+LOCATION:6 63 A
+DESCRIPTION:Konstrukcja rakiet plot PZR sredniego zasięgu\nRodzaj: wykła
+ d\nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 3/18\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:88aa93a4ae068b87feb9197d@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261008T133000
+DTEND;TZID=Europe/Warsaw:20261008T150500
+SUMMARY:Krppsz (w)
+LOCATION:6 63 A
+DESCRIPTION:Konstrukcja rakiet plot PZR sredniego zasięgu\nRodzaj: wykła
+ d\nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 4/18\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3041ec730e84cb83ee612316@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261009T095000
+DTEND;TZID=Europe/Warsaw:20261009T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Kęp
+ niak Krzysztof\nNr zajęć: 6/40\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:84d80a64670ec5f481a0db1b@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261009T114000
+DTEND;TZID=Europe/Warsaw:20261009T131500
+SUMMARY:Upsysz (ć)
+LOCATION:323 S
+DESCRIPTION:Układy przetwarzania sygnałów PZR średniego zasięgu\nRodz
+ aj: ćwiczenia\nProwadzący: dr inż. Grzywiński Stanisław\nNr zajęć:
+  3/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:dfcac288fa296a1e28be57c2@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261009T133000
+DTEND;TZID=Europe/Warsaw:20261009T150500
+SUMMARY:Aool (w)
+LOCATION:5 63A
+DESCRIPTION:Aerodynamika osiowosymetrycznych obiektów latających\nRodzaj
+ : wykład\nProwadzący: dr hab. inż. Baranowski Leszek\nNr zajęć: 2/9\
+ nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ce96b45fad2559c8f85328f3@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261010T095000
+DTEND;TZID=Europe/Warsaw:20261010T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 2/14\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9867a14900ad429c629eeb52@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261012T080000
+DTEND;TZID=Europe/Warsaw:20261012T093500
+SUMMARY:Aool (w)
+LOCATION:5 63A
+DESCRIPTION:Aerodynamika osiowosymetrycznych obiektów latających\nRodzaj
+ : wykład\nProwadzący: dr hab. inż. Baranowski Leszek\nNr zajęć: 3/9\
+ nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c47238190a325f62af10d204@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261012T095000
+DTEND;TZID=Europe/Warsaw:20261012T112500
+SUMMARY:Wpnsz (w)
+LOCATION:6 63 A
+DESCRIPTION:Wyposażenie naziemne PZR średniego zasięgu\nRodzaj: wykład
+ \nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 9/13\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1818aa63cf5525a149e3fcff@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261012T114000
+DTEND;TZID=Europe/Warsaw:20261012T131500
+SUMMARY:Zblog (w)
+LOCATION:6 63 A
+DESCRIPTION:Zabezpieczenie logistyczne\nRodzaj: wykład\nProwadzący: ppł
+ k dr inż. Bużantowicz Witold\nNr zajęć: 1/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e2b150f6ecce9271bcc63db0@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261012T133000
+DTEND;TZID=Europe/Warsaw:20261012T150500
+SUMMARY:Zblog (w)
+LOCATION:6 63 A
+DESCRIPTION:Zabezpieczenie logistyczne\nRodzaj: wykład\nProwadzący: ppł
+ k dr inż. Bużantowicz Witold\nNr zajęć: 2/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:41980a9be9b074fe5cb0ce8b@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261012T160000
+DTEND;TZID=Europe/Warsaw:20261012T173500
+SUMMARY:Ja (ć)
+LOCATION:125 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 3/30\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:116df5f23087f49d95189d68@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261013T080000
+DTEND;TZID=Europe/Warsaw:20261013T093500
+SUMMARY:Krppsz (w)
+LOCATION:6 63 A
+DESCRIPTION:Konstrukcja rakiet plot PZR sredniego zasięgu\nRodzaj: wykła
+ d\nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 5/18\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d9343021d8c762ae73b63501@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261013T095000
+DTEND;TZID=Europe/Warsaw:20261013T112500
+SUMMARY:Wpnsz (ć)
+LOCATION:4 63A
+DESCRIPTION:Wyposażenie naziemne PZR średniego zasięgu\nRodzaj: ćwicze
+ nia\nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 3/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:bd05c53ef79a8bfca96a5b2e@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261013T114000
+DTEND;TZID=Europe/Warsaw:20261013T131500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Kęp
+ niak Krzysztof\nNr zajęć: 7/40\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d785b11fa71bbf953ceb57dd@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261014T080000
+DTEND;TZID=Europe/Warsaw:20261014T093500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 1/8\
+ nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e1cb27cce06b8740e20ae6bb@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261014T095000
+DTEND;TZID=Europe/Warsaw:20261014T112500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 2/8\
+ nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c9433fcfab976d9801726c5f@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261014T114000
+DTEND;TZID=Europe/Warsaw:20261014T131500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 3/8\
+ nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f5a0f701db0feb9f7e0310de@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261014T133000
+DTEND;TZID=Europe/Warsaw:20261014T150500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 4/8\
+ nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f56f575c052aa791fd0d082c@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261015T080000
+DTEND;TZID=Europe/Warsaw:20261015T093500
+SUMMARY:Mswdp (ć)
+LOCATION:233 S
+DESCRIPTION:Modelowanie i symulacja we wspomaganiu decyzji na polu walki\n
+ Rodzaj: ćwiczenia\nProwadzący: mgr inż. Maślanik Dawid\nNr zajęć: 1
+ /8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7a93fca7d9b9114470f5c4e6@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261015T095000
+DTEND;TZID=Europe/Warsaw:20261015T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Kęp
+ niak Krzysztof\nNr zajęć: 8/40\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:fe67b57d35c2701134fecb70@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261015T114000
+DTEND;TZID=Europe/Warsaw:20261015T131500
+SUMMARY:Krppsz (w)
+LOCATION:6 63 A
+DESCRIPTION:Konstrukcja rakiet plot PZR sredniego zasięgu\nRodzaj: wykła
+ d\nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 6/18\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8bc8a9efe7b6c5bf6a294f6d@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261015T133000
+DTEND;TZID=Europe/Warsaw:20261015T150500
+SUMMARY:Krppsz (w)
+LOCATION:6 63 A
+DESCRIPTION:Konstrukcja rakiet plot PZR sredniego zasięgu\nRodzaj: wykła
+ d\nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 7/18\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9e4438dcbee4c84174a45137@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261016T095000
+DTEND;TZID=Europe/Warsaw:20261016T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Kęp
+ niak Krzysztof\nNr zajęć: 9/40\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5484c78ac6da13f4f83e01c6@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261016T114000
+DTEND;TZID=Europe/Warsaw:20261016T131500
+SUMMARY:Upsysz (ć)
+LOCATION:323 S
+DESCRIPTION:Układy przetwarzania sygnałów PZR średniego zasięgu\nRodz
+ aj: ćwiczenia\nProwadzący: dr inż. Grzywiński Stanisław\nNr zajęć:
+  4/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:89a028432d049977ad8f8434@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261016T133000
+DTEND;TZID=Europe/Warsaw:20261016T150500
+SUMMARY:Aool (w)
+LOCATION:5 63A
+DESCRIPTION:Aerodynamika osiowosymetrycznych obiektów latających\nRodzaj
+ : wykład\nProwadzący: dr hab. inż. Baranowski Leszek\nNr zajęć: 4/9\
+ nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:168beb45afa580967ed51fd9@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261017T095000
+DTEND;TZID=Europe/Warsaw:20261017T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 3/14\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c43980734f28fe00ec6b8ac5@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261019T080000
+DTEND;TZID=Europe/Warsaw:20261019T093500
+SUMMARY:Krppsz (ć)
+LOCATION:4 63A
+DESCRIPTION:Konstrukcja rakiet plot PZR sredniego zasięgu\nRodzaj: ćwicz
+ enia\nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 2/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6592722206478ffc4b3883e8@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261019T095000
+DTEND;TZID=Europe/Warsaw:20261019T112500
+SUMMARY:Zszpzr (w)
+LOCATION:101 63A
+DESCRIPTION:Zasady strzelania z PZR\nRodzaj: wykład\nProwadzący: kpt. mg
+ r inż. Klicki Kamil\nNr zajęć: 6/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8e049533ba0408ec577238b9@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261019T114000
+DTEND;TZID=Europe/Warsaw:20261019T131500
+SUMMARY:Zszpzr (w)
+LOCATION:101 63A
+DESCRIPTION:Zasady strzelania z PZR\nRodzaj: wykład\nProwadzący: kpt. mg
+ r inż. Klicki Kamil\nNr zajęć: 7/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c84e39e22d67363cfd20847c@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261019T133000
+DTEND;TZID=Europe/Warsaw:20261019T150500
+SUMMARY:Zblog (ć)
+LOCATION:19 63
+DESCRIPTION:Zabezpieczenie logistyczne\nRodzaj: ćwiczenia\nProwadzący: p
+ płk dr inż. Bużantowicz Witold\nNr zajęć: 1/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:139eede5949bd2c95949c727@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261019T160000
+DTEND;TZID=Europe/Warsaw:20261019T173500
+SUMMARY:Ja (ć)
+LOCATION:125 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 4/30\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:fcbc7a1e1734a6ee53bcf57b@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261020T080000
+DTEND;TZID=Europe/Warsaw:20261020T093500
+SUMMARY:Zszpzr (w)
+LOCATION:101 63A
+DESCRIPTION:Zasady strzelania z PZR\nRodzaj: wykład\nProwadzący: kpt. mg
+ r inż. Klicki Kamil\nNr zajęć: 8/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2034ec18dea3853f7464b453@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261020T095000
+DTEND;TZID=Europe/Warsaw:20261020T112500
+SUMMARY:Aool (w)
+LOCATION:5 63A
+DESCRIPTION:Aerodynamika osiowosymetrycznych obiektów latających\nRodzaj
+ : wykład\nProwadzący: dr hab. inż. Baranowski Leszek\nNr zajęć: 5/9\
+ nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c9a2a607ec07987d95f25a2e@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261020T114000
+DTEND;TZID=Europe/Warsaw:20261020T131500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Kęp
+ niak Krzysztof\nNr zajęć: 10/40\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:594e15a79fd32e672f40a114@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261021T080000
+DTEND;TZID=Europe/Warsaw:20261021T093500
+SUMMARY:Ja (ć)
+LOCATION:125 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 5/30\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d50a809573a4f8b539c78fa8@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261021T095000
+DTEND;TZID=Europe/Warsaw:20261021T112500
+SUMMARY:Ja (ć)
+LOCATION:125 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 6/30\nBlok: 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ec63900797a99f93866acf6e@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261021T114000
+DTEND;TZID=Europe/Warsaw:20261021T131500
+SUMMARY:Krppsz (ć)
+LOCATION:4 63A
+DESCRIPTION:Konstrukcja rakiet plot PZR sredniego zasięgu\nRodzaj: ćwicz
+ enia\nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 3/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7423db74100031733646dcad@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261021T133000
+DTEND;TZID=Europe/Warsaw:20261021T150500
+SUMMARY:Mswdp (w)
+LOCATION:18 63
+DESCRIPTION:Modelowanie i symulacja we wspomaganiu decyzji na polu walki\n
+ Rodzaj: wykład\nProwadzący: dr hab. inż. Antkiewicz Ryszard\nNr zaję
+ ć: 1/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e90db977b62fa8e1a19493df@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261022T080000
+DTEND;TZID=Europe/Warsaw:20261022T093500
+SUMMARY:Krppsz (w)
+LOCATION:19 63
+DESCRIPTION:Konstrukcja rakiet plot PZR sredniego zasięgu\nRodzaj: wykła
+ d\nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 8/18\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b82ec8f38d677ae005f672c9@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261022T095000
+DTEND;TZID=Europe/Warsaw:20261022T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Kęp
+ niak Krzysztof\nNr zajęć: 11/40\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a31ee1375f165797d61e8cdd@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261022T114000
+DTEND;TZID=Europe/Warsaw:20261022T131500
+SUMMARY:Wpnsz (L)
+LOCATION:101 63A
+DESCRIPTION:Wyposażenie naziemne PZR średniego zasięgu\nRodzaj: laborat
+ orium\nProwadzący: kpt. mgr inż. Klicki Kamil\nNr zajęć: 1/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:793ff90cd2585eea7df3fc6a@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261022T133000
+DTEND;TZID=Europe/Warsaw:20261022T150500
+SUMMARY:Wpnsz (L)
+LOCATION:101 63A
+DESCRIPTION:Wyposażenie naziemne PZR średniego zasięgu\nRodzaj: laborat
+ orium\nProwadzący: kpt. mgr inż. Klicki Kamil\nNr zajęć: 2/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4c25bc0a48ff611d97ee6778@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261023T095000
+DTEND;TZID=Europe/Warsaw:20261023T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Kęp
+ niak Krzysztof\nNr zajęć: 12/40\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:db42c2950504082fb641d0eb@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261023T114000
+DTEND;TZID=Europe/Warsaw:20261023T131500
+SUMMARY:Mswdp (w)
+LOCATION:325 S
+DESCRIPTION:Modelowanie i symulacja we wspomaganiu decyzji na polu walki\n
+ Rodzaj: wykład\nProwadzący: dr hab. inż. Antkiewicz Ryszard\nNr zaję
+ ć: 2/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c440207318bb374bc0e09b66@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261023T133000
+DTEND;TZID=Europe/Warsaw:20261023T150500
+SUMMARY:Aool (w)
+LOCATION:5 63A
+DESCRIPTION:Aerodynamika osiowosymetrycznych obiektów latających\nRodzaj
+ : wykład\nProwadzący: dr hab. inż. Baranowski Leszek\nNr zajęć: 6/9\
+ nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c16615e9747505df6c5e1a0d@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261024T095000
+DTEND;TZID=Europe/Warsaw:20261024T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 4/14\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ce2e17ff8e4bcc799c7cc02c@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261026T080000
+DTEND;TZID=Europe/Warsaw:20261026T093500
+SUMMARY:Krppsz (w)
+LOCATION:19 63
+DESCRIPTION:Konstrukcja rakiet plot PZR sredniego zasięgu\nRodzaj: wykła
+ d\nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 9/18\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5e7b228bba2af130b48a215c@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261026T095000
+DTEND;TZID=Europe/Warsaw:20261026T112500
+SUMMARY:Zszpzr (ć)
+LOCATION:101 63A
+DESCRIPTION:Zasady strzelania z PZR\nRodzaj: ćwiczenia\nProwadzący: kpt.
+  mgr inż. Klicki Kamil\nNr zajęć: 1/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:108dd45e5dbfdb321342811f@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261026T114000
+DTEND;TZID=Europe/Warsaw:20261026T131500
+SUMMARY:TW (w)
+LOCATION:17 57
+DESCRIPTION:Topografia wojskowa\nRodzaj: wykład\nProwadzący: mgr inż. O
+ leksiak Marek\nNr zajęć: 1/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:bffb8cfdcfab486d0f09dce5@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261026T133000
+DTEND;TZID=Europe/Warsaw:20261026T150500
+SUMMARY:TW (w)
+LOCATION:17 57
+DESCRIPTION:Topografia wojskowa\nRodzaj: wykład\nProwadzący: mgr inż. O
+ leksiak Marek\nNr zajęć: 2/2\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4517b0b62784dec63aa07143@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261026T160000
+DTEND;TZID=Europe/Warsaw:20261026T173500
+SUMMARY:Ja (ć)
+LOCATION:125 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 7/30\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:62ac40e03fb244842c9e12b6@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261027T080000
+DTEND;TZID=Europe/Warsaw:20261027T093500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(KS
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 1/8\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:66fc497073d14e5a13ec1594@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261027T095000
+DTEND;TZID=Europe/Warsaw:20261027T112500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(KS
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 2/8\nBl
+ ok: 2\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:cc2b5a6fa9e27fafc6114871@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261027T114000
+DTEND;TZID=Europe/Warsaw:20261027T131500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Kęp
+ niak Krzysztof\nNr zajęć: 13/40\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:866f2d4ab6cb2fd2b70ecb04@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261028T080000
+DTEND;TZID=Europe/Warsaw:20261028T093500
+SUMMARY:ZŻWAT (i)
+DESCRIPTION:Zbiórka żołnierzy WAT\nRodzaj: inne\nNr zajęć: 1/3\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:12883e9c4def225be0486d1b@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261028T095000
+DTEND;TZID=Europe/Warsaw:20261028T112500
+SUMMARY:Ja (ć)
+LOCATION:125 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 8/30\nBlok: 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ce9bfec41f226736e89619b8@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261028T114000
+DTEND;TZID=Europe/Warsaw:20261028T131500
+SUMMARY:Zblog (w)
+LOCATION:6 63 A
+DESCRIPTION:Zabezpieczenie logistyczne\nRodzaj: wykład\nProwadzący: ppł
+ k dr inż. Bużantowicz Witold\nNr zajęć: 3/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:aa01342bc0a96a778186e841@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261028T133000
+DTEND;TZID=Europe/Warsaw:20261028T150500
+SUMMARY:Zblog (w)
+LOCATION:6 63 A
+DESCRIPTION:Zabezpieczenie logistyczne\nRodzaj: wykład\nProwadzący: ppł
+ k dr inż. Bużantowicz Witold\nNr zajęć: 4/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ddbcfc35100eb37dcefa1a50@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261029T095000
+DTEND;TZID=Europe/Warsaw:20261029T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: ppłk mg
+ r inż. Goławski Rafał\nNr zajęć: 14/40\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1cd0865117a26143589c0844@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261029T114000
+DTEND;TZID=Europe/Warsaw:20261029T131500
+SUMMARY:Krppsz (L)
+LOCATION:101 63A
+DESCRIPTION:Konstrukcja rakiet plot PZR sredniego zasięgu\nRodzaj: labora
+ torium\nProwadzący: kpt. mgr inż. Klicki Kamil\nNr zajęć: 1/8\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:fb1448c8bfd7d4db285ace11@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261029T133000
+DTEND;TZID=Europe/Warsaw:20261029T150500
+SUMMARY:Krppsz (L)
+LOCATION:101 63A
+DESCRIPTION:Konstrukcja rakiet plot PZR sredniego zasięgu\nRodzaj: labora
+ torium\nProwadzący: kpt. mgr inż. Klicki Kamil\nNr zajęć: 2/8\nBlok: 
+ 4
+END:VEVENT
+BEGIN:VEVENT
+UID:189158fdb48dc41ceeaba5c4@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261029T160000
+DTEND;TZID=Europe/Warsaw:20261029T173500
+SUMMARY:Krppsz (S)
+LOCATION:4 63A
+DESCRIPTION:Konstrukcja rakiet plot PZR sredniego zasięgu\nRodzaj: semina
+ rium\nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 1/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:d49a8053dfb9947cb807654a@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261030T095000
+DTEND;TZID=Europe/Warsaw:20261030T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Kęp
+ niak Krzysztof\nNr zajęć: 15/40\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b10090b7a0efa980baa51c04@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261030T133000
+DTEND;TZID=Europe/Warsaw:20261030T150500
+SUMMARY:Upsysz (P)
+LOCATION:323 S
+DESCRIPTION:Układy przetwarzania sygnałów PZR średniego zasięgu\nRodz
+ aj: projekt\nProwadzący: dr inż. Grzywiński Stanisław\nNr zajęć: 1/
+ 3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c53f8d79350cb0229613fdc6@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261031T095000
+DTEND;TZID=Europe/Warsaw:20261031T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 5/14\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f891fec20dea878ce93a420a@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261102T080000
+DTEND;TZID=Europe/Warsaw:20261102T093500
+SUMMARY:Zszpzr (w)
+LOCATION:5 63A
+DESCRIPTION:Zasady strzelania z PZR\nRodzaj: wykład\nProwadzący: kpt. mg
+ r inż. Klicki Kamil\nNr zajęć: 9/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c3db12ce0dbbb0a05bd14a2f@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261102T095000
+DTEND;TZID=Europe/Warsaw:20261102T112500
+SUMMARY:Mswdp (w)
+LOCATION:309 S
+DESCRIPTION:Modelowanie i symulacja we wspomaganiu decyzji na polu walki\n
+ Rodzaj: wykład\nProwadzący: dr hab. inż. Antkiewicz Ryszard\nNr zaję
+ ć: 3/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:cf0620be0aa4f95854c2f37b@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261102T114000
+DTEND;TZID=Europe/Warsaw:20261102T131500
+SUMMARY:Wpnsz (ć)
+LOCATION:4 63A
+DESCRIPTION:Wyposażenie naziemne PZR średniego zasięgu\nRodzaj: ćwicze
+ nia\nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e2411e466dbf6ad86fc5201c@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261102T133000
+DTEND;TZID=Europe/Warsaw:20261102T150500
+SUMMARY:wzbnim (w)
+LOCATION:19 36
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: wykład\nProwadzący: mjr dr inż. Walkowiak Marzena\nNr za
+ jęć: 1/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0689adb8df15f7d4df7a8aa2@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261102T160000
+DTEND;TZID=Europe/Warsaw:20261102T173500
+SUMMARY:Ja (ć)
+LOCATION:125 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 9/30\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:6049a44ef683ca3133163a4a@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261103T080000
+DTEND;TZID=Europe/Warsaw:20261103T093500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PW
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 3/8\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:cee8e112f2770ff81dd5e633@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261103T095000
+DTEND;TZID=Europe/Warsaw:20261103T112500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PW
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 4/8\nBl
+ ok: 2\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:31bd95d7bfec438e52ade6eb@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261103T114000
+DTEND;TZID=Europe/Warsaw:20261103T131500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Kęp
+ niak Krzysztof\nNr zajęć: 16/40\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f88ac5c3d3b21f3ab90ab02f@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261103T133000
+DTEND;TZID=Europe/Warsaw:20261103T150500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 4
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: ppor
+ . mgr Szwed Katarzyna\nNr zajęć: 1/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7619817c723c453982bb2e72@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261103T160000
+DTEND;TZID=Europe/Warsaw:20261103T173500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 4
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: ppor
+ . mgr Szwed Katarzyna\nNr zajęć: 2/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:9262d0e57a98e951fa02dbce@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261103T175000
+DTEND;TZID=Europe/Warsaw:20261103T192500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 4
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: ppor
+ . mgr Szwed Katarzyna\nNr zajęć: 3/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:271ac5631e73bb99d1309cfc@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261104T080000
+DTEND;TZID=Europe/Warsaw:20261104T093500
+SUMMARY:Ja (ć)
+LOCATION:125 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 10/30\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:be4a2505fe01383e905d58e2@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261104T095000
+DTEND;TZID=Europe/Warsaw:20261104T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Kęp
+ niak Krzysztof\nNr zajęć: 17/40\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2dc45443f1f5934ffb3ca1e0@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261104T114000
+DTEND;TZID=Europe/Warsaw:20261104T131500
+SUMMARY:Wpnsz (S)
+LOCATION:4 63A
+DESCRIPTION:Wyposażenie naziemne PZR średniego zasięgu\nRodzaj: seminar
+ ium\nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 1/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a54950649d82f6184aa59cd5@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261104T133000
+DTEND;TZID=Europe/Warsaw:20261104T150500
+SUMMARY:wzbnim (w)
+LOCATION:19 36
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: wykład\nProwadzący: mjr dr inż. Walkowiak Marzena\nNr za
+ jęć: 2/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d79bdaf00975c2e6aeb79acb@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261104T175000
+DTEND;TZID=Europe/Warsaw:20261104T192500
+SUMMARY:Wf_E (E)
+DESCRIPTION:Wf_E\nRodzaj: egzamin\nNr zajęć: 1/1\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:3d0398fc5e762902f4af34e6@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261105T080000
+DTEND;TZID=Europe/Warsaw:20261105T093500
+SUMMARY:JA-E (i)
+DESCRIPTION:Język angielski - egzamin\nRodzaj: inne\nNr zajęć: 1/4\nBlo
+ k: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2f69d1ce7d21a0f648bca691@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261105T095000
+DTEND;TZID=Europe/Warsaw:20261105T112500
+SUMMARY:JA-E (i)
+DESCRIPTION:Język angielski - egzamin\nRodzaj: inne\nNr zajęć: 2/4\nBlo
+ k: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e37142e351cc797064a73a2e@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261105T114000
+DTEND;TZID=Europe/Warsaw:20261105T131500
+SUMMARY:Mswdp (ć)
+LOCATION:233 S
+DESCRIPTION:Modelowanie i symulacja we wspomaganiu decyzji na polu walki\n
+ Rodzaj: ćwiczenia\nProwadzący: mgr inż. Maślanik Dawid\nNr zajęć: 2
+ /8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d65a39c97413f92cc17b47e6@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261105T133000
+DTEND;TZID=Europe/Warsaw:20261105T150500
+SUMMARY:Mswdp (ć)
+LOCATION:233 S
+DESCRIPTION:Modelowanie i symulacja we wspomaganiu decyzji na polu walki\n
+ Rodzaj: ćwiczenia\nProwadzący: mgr inż. Maślanik Dawid\nNr zajęć: 3
+ /8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:dccc1e34ee3ccc59195a164e@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261106T080000
+DTEND;TZID=Europe/Warsaw:20261106T093500
+SUMMARY:wzbnim (ć)
+LOCATION:325 S
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: ćwiczenia\nProwadzący: mjr dr inż. Walkowiak Marzena\nNr
+  zajęć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4b79903f2029e1f13fe3d19b@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261106T095000
+DTEND;TZID=Europe/Warsaw:20261106T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Kęp
+ niak Krzysztof\nNr zajęć: 18/40\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ebb0bb0bd72508108757e8e7@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261106T114000
+DTEND;TZID=Europe/Warsaw:20261106T131500
+SUMMARY:TW (ć)
+LOCATION:17 57
+DESCRIPTION:Topografia wojskowa\nRodzaj: ćwiczenia\nProwadzący: mgr inż
+ . Oleksiak Marek\nNr zajęć: 1/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9f0a7e29b6b7c062b1601af5@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261106T133000
+DTEND;TZID=Europe/Warsaw:20261106T150500
+SUMMARY:TW (ć)
+LOCATION:17 57
+DESCRIPTION:Topografia wojskowa\nRodzaj: ćwiczenia\nProwadzący: mgr inż
+ . Oleksiak Marek\nNr zajęć: 2/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:61f92337da4d34f511b10586@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261107T095000
+DTEND;TZID=Europe/Warsaw:20261107T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 6/14\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:31a4633c154e5f12957e55c8@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261109T080000
+DTEND;TZID=Europe/Warsaw:20261109T093500
+SUMMARY:Zszpzr (w)
+LOCATION:5 63A
+DESCRIPTION:Zasady strzelania z PZR\nRodzaj: wykład\nProwadzący: kpt. mg
+ r inż. Klicki Kamil\nNr zajęć: 10/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1ecb6c150f13f37aa02ef10e@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261109T095000
+DTEND;TZID=Europe/Warsaw:20261109T112500
+SUMMARY:Mswdp (ć)
+LOCATION:233 S
+DESCRIPTION:Modelowanie i symulacja we wspomaganiu decyzji na polu walki\n
+ Rodzaj: ćwiczenia\nProwadzący: mgr inż. Maślanik Dawid\nNr zajęć: 4
+ /8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:bbaf231eda936151c2ee22f2@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261109T114000
+DTEND;TZID=Europe/Warsaw:20261109T131500
+SUMMARY:Wpnsz (S)
+LOCATION:4 63A
+DESCRIPTION:Wyposażenie naziemne PZR średniego zasięgu\nRodzaj: seminar
+ ium\nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 2/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c93781563e602ccd311d89fb@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261109T133000
+DTEND;TZID=Europe/Warsaw:20261109T150500
+SUMMARY:wzbnim (w)
+LOCATION:19 36
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: wykład\nProwadzący: mjr dr inż. Walkowiak Marzena\nNr za
+ jęć: 3/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:90d0bf1c2dea61b4d5814105@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261109T160000
+DTEND;TZID=Europe/Warsaw:20261109T173500
+SUMMARY:Ja (ć)
+LOCATION:125 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 11/30\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:59ee44a67982925a735845c5@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261110T080000
+DTEND;TZID=Europe/Warsaw:20261110T093500
+SUMMARY:Krppsz (w)
+LOCATION:19 63
+DESCRIPTION:Konstrukcja rakiet plot PZR sredniego zasięgu\nRodzaj: wykła
+ d\nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 10/18\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c173848be396a095ce5d75cf@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261110T095000
+DTEND;TZID=Europe/Warsaw:20261110T112500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PW
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 5/8\nBl
+ ok: 2\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:d163e5b31d525f4df1e134a0@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261110T114000
+DTEND;TZID=Europe/Warsaw:20261110T131500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PW
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 6/8\nBl
+ ok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a643ea8429b1b7e1a898067f@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261110T133000
+DTEND;TZID=Europe/Warsaw:20261110T150500
+SUMMARY:REG (w)
+LOCATION:AW 3/038
+DESCRIPTION:Regulaminy SZ RP\nRodzaj: wykład\nProwadzący: ppłk rez. Ję
+ cek Paweł\nNr zajęć: 1/1\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8c4e4318a4103bd16bda6fd2@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261112T080000
+DTEND;TZID=Europe/Warsaw:20261112T093500
+SUMMARY:wzbnim (w)
+LOCATION:19 36
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: wykład\nProwadzący: mjr dr inż. Walkowiak Marzena\nNr za
+ jęć: 4/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:cb2a6bfa16625edc466274c8@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261112T095000
+DTEND;TZID=Europe/Warsaw:20261112T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: ppłk mg
+ r inż. Goławski Rafał\nNr zajęć: 19/40\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:bf0ffb7d8718f5f440c8ca2a@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261112T114000
+DTEND;TZID=Europe/Warsaw:20261112T131500
+SUMMARY:Zblog (w)
+LOCATION:6 63 A
+DESCRIPTION:Zabezpieczenie logistyczne\nRodzaj: wykład\nProwadzący: ppł
+ k dr inż. Bużantowicz Witold\nNr zajęć: 5/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6d385ae99c1a33c7d989317c@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261112T133000
+DTEND;TZID=Europe/Warsaw:20261112T150500
+SUMMARY:Zblog (w)
+LOCATION:6 63 A
+DESCRIPTION:Zabezpieczenie logistyczne\nRodzaj: wykład\nProwadzący: ppł
+ k dr inż. Bużantowicz Witold\nNr zajęć: 6/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:115da834370464b9078bf7f1@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261113T080000
+DTEND;TZID=Europe/Warsaw:20261113T093500
+SUMMARY:Wpnsz (w)
+LOCATION:6 63 A
+DESCRIPTION:Wyposażenie naziemne PZR średniego zasięgu\nRodzaj: wykład
+ \nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 10/13\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:14dd2744742a06dede5dcebf@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261113T095000
+DTEND;TZID=Europe/Warsaw:20261113T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Kęp
+ niak Krzysztof\nNr zajęć: 20/40\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e8501fdcf95b807bc3c6de22@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261113T114000
+DTEND;TZID=Europe/Warsaw:20261113T131500
+SUMMARY:TW (ć)
+LOCATION:17 57
+DESCRIPTION:Topografia wojskowa\nRodzaj: ćwiczenia\nProwadzący: mgr inż
+ . Oleksiak Marek\nNr zajęć: 3/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:78a982e489c0638d41f90fcb@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261113T133000
+DTEND;TZID=Europe/Warsaw:20261113T150500
+SUMMARY:TW (ć)
+LOCATION:17 57
+DESCRIPTION:Topografia wojskowa\nRodzaj: ćwiczenia\nProwadzący: mgr inż
+ . Oleksiak Marek\nNr zajęć: 4/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a1d9970f8c5addf3b96e27c3@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261114T095000
+DTEND;TZID=Europe/Warsaw:20261114T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 7/14\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a3bde9bfb457021e7f7f0cb3@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261115T080000
+DTEND;TZID=Europe/Warsaw:20261115T093500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 1/13
+ 9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6966c0fdc176956984799ca6@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261115T095000
+DTEND;TZID=Europe/Warsaw:20261115T112500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 2/13
+ 9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:051ab2a2bbd746f44ed921a3@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261115T114000
+DTEND;TZID=Europe/Warsaw:20261115T131500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 3/13
+ 9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7abcaf092f32e546f5686a68@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261115T133000
+DTEND;TZID=Europe/Warsaw:20261115T150500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 4/13
+ 9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c557b96080d1e4d52dbc78eb@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261115T152000
+DTEND;TZID=Europe/Warsaw:20261115T165500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 5/13
+ 9\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:ca8e9fecfa7ddfa969e152f1@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261115T171000
+DTEND;TZID=Europe/Warsaw:20261115T184500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 6/13
+ 9\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:f1fe7e3e6795f249a1f920dd@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261115T190000
+DTEND;TZID=Europe/Warsaw:20261115T203500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 7/13
+ 9\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:a893beaf5d67f1e1d137efe7@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261116T080000
+DTEND;TZID=Europe/Warsaw:20261116T093500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 8/13
+ 9\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1e670b4ed0fb502e1b767d23@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261116T095000
+DTEND;TZID=Europe/Warsaw:20261116T112500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 9/13
+ 9\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b36345712479aed4d8ce84ad@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261116T114000
+DTEND;TZID=Europe/Warsaw:20261116T131500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 10/1
+ 39\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:966b0a6774f5dc9b019c703c@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261116T133000
+DTEND;TZID=Europe/Warsaw:20261116T150500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 11/1
+ 39\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:15e757d7d1b232149ca1578d@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261116T160000
+DTEND;TZID=Europe/Warsaw:20261116T173500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 12/1
+ 39\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:8aec95bc45b5c8f5e9d283ba@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261116T175000
+DTEND;TZID=Europe/Warsaw:20261116T192500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 13/1
+ 39\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:795fddbdd6533f1b52cf46c6@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261116T194000
+DTEND;TZID=Europe/Warsaw:20261116T211500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 14/1
+ 39\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:de023b051f4bc1f041d9e633@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261117T080000
+DTEND;TZID=Europe/Warsaw:20261117T093500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 15/1
+ 39\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ec341efeb500fe182915adf8@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261117T095000
+DTEND;TZID=Europe/Warsaw:20261117T112500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 16/1
+ 39\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f0f9d51b7157ae2326d63d38@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261117T114000
+DTEND;TZID=Europe/Warsaw:20261117T131500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 17/1
+ 39\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:26f24d82d226b3469b2daa0c@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261117T133000
+DTEND;TZID=Europe/Warsaw:20261117T150500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 18/1
+ 39\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f1abd1241a1d221f25e2319d@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261117T160000
+DTEND;TZID=Europe/Warsaw:20261117T173500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 19/1
+ 39\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:18260deb655fa57cef0852e9@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261117T175000
+DTEND;TZID=Europe/Warsaw:20261117T192500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 20/1
+ 39\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:ea2a4a25bc9e72d2f8084129@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261117T194000
+DTEND;TZID=Europe/Warsaw:20261117T211500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 21/1
+ 39\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:85e868469e817f7e32a2fd5a@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261118T095000
+DTEND;TZID=Europe/Warsaw:20261118T112500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 22/1
+ 39\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:25751be609dbc5442384bb15@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261118T114000
+DTEND;TZID=Europe/Warsaw:20261118T131500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 23/1
+ 39\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2b3a260e13c8eeba30b4d6f1@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261118T133000
+DTEND;TZID=Europe/Warsaw:20261118T150500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 24/1
+ 39\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:39348933a6ab8f111a49a681@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261118T160000
+DTEND;TZID=Europe/Warsaw:20261118T173500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 25/1
+ 39\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:72460eda10709f0b07312e23@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261118T175000
+DTEND;TZID=Europe/Warsaw:20261118T192500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 26/1
+ 39\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:a6db34d2ed02aa790600d6cf@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261118T194000
+DTEND;TZID=Europe/Warsaw:20261118T211500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 27/1
+ 39\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:8de41c2795ded8a00f29e3f7@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261119T080000
+DTEND;TZID=Europe/Warsaw:20261119T093500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 28/1
+ 39\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e4bc90b60f6e6dbcafa2bcba@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261119T095000
+DTEND;TZID=Europe/Warsaw:20261119T112500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 29/1
+ 39\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5637052e8074e42de642a1cb@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261119T114000
+DTEND;TZID=Europe/Warsaw:20261119T131500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 30/1
+ 39\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:38376d36398ee67470bff9a0@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261119T133000
+DTEND;TZID=Europe/Warsaw:20261119T150500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 31/1
+ 39\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:fa7cb0490f2b322670e28eb6@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261119T160000
+DTEND;TZID=Europe/Warsaw:20261119T173500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 32/1
+ 39\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:2569b304762b32b78929ac7b@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261119T175000
+DTEND;TZID=Europe/Warsaw:20261119T192500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 33/1
+ 39\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:2ad367ba032dff203c9ebfcb@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261119T194000
+DTEND;TZID=Europe/Warsaw:20261119T211500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 34/1
+ 39\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:ea608d408668d4298b7b2a68@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261120T080000
+DTEND;TZID=Europe/Warsaw:20261120T093500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 35/1
+ 39\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8284fd41516c2eb1e9be059d@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261120T095000
+DTEND;TZID=Europe/Warsaw:20261120T112500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 36/1
+ 39\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1f185bace4ef4055b78b1c2a@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261120T114000
+DTEND;TZID=Europe/Warsaw:20261120T131500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 37/1
+ 39\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:17210a36be01001b857392de@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261120T133000
+DTEND;TZID=Europe/Warsaw:20261120T150500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 38/1
+ 39\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0719224a917dcfa62f527d44@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261120T160000
+DTEND;TZID=Europe/Warsaw:20261120T173500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 39/1
+ 39\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:61bdc44386320fdf0b24c1a1@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261120T175000
+DTEND;TZID=Europe/Warsaw:20261120T192500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 40/1
+ 39\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:e71e669c02762d98c9861c95@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261120T194000
+DTEND;TZID=Europe/Warsaw:20261120T211500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 41/1
+ 39\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:9d9c85407f369f64e8f4bab6@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261121T080000
+DTEND;TZID=Europe/Warsaw:20261121T093500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 42/1
+ 39\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:fcfbdbe6089e938586221157@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261121T095000
+DTEND;TZID=Europe/Warsaw:20261121T112500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 43/1
+ 39\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6d6196fda1639ab7ae4e2ff1@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261121T114000
+DTEND;TZID=Europe/Warsaw:20261121T131500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 44/1
+ 39\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c9781f042d30dabfd0738b4b@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261121T133000
+DTEND;TZID=Europe/Warsaw:20261121T150500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 45/1
+ 39\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d22a5fa222afc0bbbcb594df@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261121T152000
+DTEND;TZID=Europe/Warsaw:20261121T165500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 46/1
+ 39\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:c9929cbc9cbff08fec013ce3@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261121T171000
+DTEND;TZID=Europe/Warsaw:20261121T184500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 47/1
+ 39\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:c218f61bf2b3322240540b6c@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261121T190000
+DTEND;TZID=Europe/Warsaw:20261121T203500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 48/1
+ 39\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:312696171a26ac64b6de2d9c@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261122T080000
+DTEND;TZID=Europe/Warsaw:20261122T093500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 49/1
+ 39\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2fdafdcdf3923479b2680499@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261122T095000
+DTEND;TZID=Europe/Warsaw:20261122T112500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 50/1
+ 39\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:66f50c5ee80dfd4c91f303db@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261122T114000
+DTEND;TZID=Europe/Warsaw:20261122T131500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 51/1
+ 39\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1e15e8e2b49590078bf1e357@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261122T133000
+DTEND;TZID=Europe/Warsaw:20261122T150500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 52/1
+ 39\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:27585aaee0de6b5c097e4eb8@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261122T152000
+DTEND;TZID=Europe/Warsaw:20261122T165500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 53/1
+ 39\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:544c41e5759d9ab148c9aa20@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261122T171000
+DTEND;TZID=Europe/Warsaw:20261122T184500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 54/1
+ 39\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:bb02833e385fec1e8e881b50@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261122T190000
+DTEND;TZID=Europe/Warsaw:20261122T203500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 55/1
+ 39\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:700ee00cd406800e20305e95@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261123T080000
+DTEND;TZID=Europe/Warsaw:20261123T093500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 56/1
+ 39\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0d4c8690f8afa3b4950a9a00@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261123T095000
+DTEND;TZID=Europe/Warsaw:20261123T112500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 57/1
+ 39\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b82f1a8207ac46a424e8911a@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261123T114000
+DTEND;TZID=Europe/Warsaw:20261123T131500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 58/1
+ 39\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:321eed1a140e4a836ca2aa50@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261123T133000
+DTEND;TZID=Europe/Warsaw:20261123T150500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 59/1
+ 39\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ccbb1b015ed26d05976d6552@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261123T160000
+DTEND;TZID=Europe/Warsaw:20261123T173500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 60/1
+ 39\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:5704359221a43de35268dd2b@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261123T175000
+DTEND;TZID=Europe/Warsaw:20261123T192500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 61/1
+ 39\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:ea3dd89e15c7da92ca365e1e@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261123T194000
+DTEND;TZID=Europe/Warsaw:20261123T211500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 62/1
+ 39\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:9c897f6011731475cd490ef6@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261124T080000
+DTEND;TZID=Europe/Warsaw:20261124T093500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 63/1
+ 39\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3b29f0086831487af561a686@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261124T095000
+DTEND;TZID=Europe/Warsaw:20261124T112500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 64/1
+ 39\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a698e7f33244799c86d9ec0e@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261124T114000
+DTEND;TZID=Europe/Warsaw:20261124T131500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 65/1
+ 39\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9a7a0c10bfc86a0dbcbc6a5e@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261124T133000
+DTEND;TZID=Europe/Warsaw:20261124T150500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 66/1
+ 39\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c508e7b071c7a187312e6a32@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261124T160000
+DTEND;TZID=Europe/Warsaw:20261124T173500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 67/1
+ 39\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:bf36565879320ef1a621871c@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261124T175000
+DTEND;TZID=Europe/Warsaw:20261124T192500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 68/1
+ 39\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:380d1a495425025a245f2180@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261124T194000
+DTEND;TZID=Europe/Warsaw:20261124T211500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 69/1
+ 39\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:d744c8c58d373cfa21d89e9f@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261125T080000
+DTEND;TZID=Europe/Warsaw:20261125T093500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 70/1
+ 39\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f3472d3e75db97b7901d73a0@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261125T095000
+DTEND;TZID=Europe/Warsaw:20261125T112500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 71/1
+ 39\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9a912bf0cbe29f4b824a7f26@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261125T114000
+DTEND;TZID=Europe/Warsaw:20261125T131500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 72/1
+ 39\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4e6cae2114e4a3d7ae830c58@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261125T133000
+DTEND;TZID=Europe/Warsaw:20261125T150500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 73/1
+ 39\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:35adb17e91a768c25e94e99e@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261125T160000
+DTEND;TZID=Europe/Warsaw:20261125T173500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 74/1
+ 39\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:84cf4cac95ecb9bd9e93456e@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261125T175000
+DTEND;TZID=Europe/Warsaw:20261125T192500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 75/1
+ 39\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:4388b5e91ddaea8b71e642ce@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261125T194000
+DTEND;TZID=Europe/Warsaw:20261125T211500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 76/1
+ 39\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:31bbb2051961087ab1160f96@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261126T080000
+DTEND;TZID=Europe/Warsaw:20261126T093500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 77/1
+ 39\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d37e5e1f4207be628ecc5efe@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261126T095000
+DTEND;TZID=Europe/Warsaw:20261126T112500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 78/1
+ 39\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5b6743b8867d9741d60d0039@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261126T114000
+DTEND;TZID=Europe/Warsaw:20261126T131500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 79/1
+ 39\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6d00744df2bb4a0862c5a15a@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261126T133000
+DTEND;TZID=Europe/Warsaw:20261126T150500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 80/1
+ 39\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a1a59141c6a4368420e59189@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261126T160000
+DTEND;TZID=Europe/Warsaw:20261126T173500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 81/1
+ 39\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:49d3c52d41029f9e55f60186@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261126T175000
+DTEND;TZID=Europe/Warsaw:20261126T192500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 82/1
+ 39\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:a263d3393c5fa6aa9eac4234@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261126T194000
+DTEND;TZID=Europe/Warsaw:20261126T211500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 83/1
+ 39\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:6fd4b46e64db256339c01987@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261127T080000
+DTEND;TZID=Europe/Warsaw:20261127T093500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 84/1
+ 39\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d75c42b1172127899efcfc42@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261127T095000
+DTEND;TZID=Europe/Warsaw:20261127T112500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 85/1
+ 39\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e85aba452d278359e3b78479@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261127T114000
+DTEND;TZID=Europe/Warsaw:20261127T131500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 86/1
+ 39\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c2029e52d709bf38c6fdacca@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261127T133000
+DTEND;TZID=Europe/Warsaw:20261127T150500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 87/1
+ 39\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b83527e685683f8ec1f6dcda@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261127T160000
+DTEND;TZID=Europe/Warsaw:20261127T173500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 88/1
+ 39\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:1b40ad38daad01455e184915@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261127T175000
+DTEND;TZID=Europe/Warsaw:20261127T192500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 89/1
+ 39\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:c1be3819078dd7da2b8bff3a@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261127T194000
+DTEND;TZID=Europe/Warsaw:20261127T211500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 90/1
+ 39\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:3bcac3c4006a5ad30d9ab4ed@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261128T080000
+DTEND;TZID=Europe/Warsaw:20261128T093500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 91/1
+ 39\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:155bfb2e55dfd17cf231e6b4@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261128T095000
+DTEND;TZID=Europe/Warsaw:20261128T112500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 92/1
+ 39\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7803986e7fd335db0a6dfc19@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261128T114000
+DTEND;TZID=Europe/Warsaw:20261128T131500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 93/1
+ 39\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:edc87648c3035a82a6bf5dd9@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261128T133000
+DTEND;TZID=Europe/Warsaw:20261128T150500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 94/1
+ 39\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:47d35b08969bdc66422101f7@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261128T152000
+DTEND;TZID=Europe/Warsaw:20261128T165500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 95/1
+ 39\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:1ad6ce13f06ebd4c55acdea5@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261128T171000
+DTEND;TZID=Europe/Warsaw:20261128T184500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 96/1
+ 39\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:8131c8726683ea273ae01df5@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261128T190000
+DTEND;TZID=Europe/Warsaw:20261128T203500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 97/1
+ 39\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:19be182017096ea80d1d3a5f@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261129T080000
+DTEND;TZID=Europe/Warsaw:20261129T093500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 98/1
+ 39\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8bde016ce0d7f17a68848cea@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261129T095000
+DTEND;TZID=Europe/Warsaw:20261129T112500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 99/1
+ 39\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2da2b13257d280c8eb8c3152@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261129T114000
+DTEND;TZID=Europe/Warsaw:20261129T131500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 100/
+ 139\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:77427625c2efbd87bb933e0c@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261129T133000
+DTEND;TZID=Europe/Warsaw:20261129T150500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 101/
+ 139\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:74b33c1f8c5132af6f02c0cb@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261129T152000
+DTEND;TZID=Europe/Warsaw:20261129T165500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 102/
+ 139\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:cbc5173ff6079a99ce8f0854@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261129T171000
+DTEND;TZID=Europe/Warsaw:20261129T184500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 103/
+ 139\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:9d0c425cb18ea774d8a4cfdb@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261129T190000
+DTEND;TZID=Europe/Warsaw:20261129T203500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 104/
+ 139\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:958e8d746585de7a7b54b86c@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261130T080000
+DTEND;TZID=Europe/Warsaw:20261130T093500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 105/
+ 139\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:df09b962122eff0278240b81@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261130T095000
+DTEND;TZID=Europe/Warsaw:20261130T112500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 106/
+ 139\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:292627f98c57e50eed1f50a9@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261130T114000
+DTEND;TZID=Europe/Warsaw:20261130T131500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 107/
+ 139\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e62cfe0236da562a34cfe9d6@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261130T133000
+DTEND;TZID=Europe/Warsaw:20261130T150500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 108/
+ 139\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0e1baba7556521939c36101c@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261130T160000
+DTEND;TZID=Europe/Warsaw:20261130T173500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 109/
+ 139\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:a9c7ddc681df598e2204e21e@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261130T175000
+DTEND;TZID=Europe/Warsaw:20261130T192500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 110/
+ 139\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:96ce2754c5985a4ef3aaf51d@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261130T194000
+DTEND;TZID=Europe/Warsaw:20261130T211500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 111/
+ 139\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:ea7c5cf0cd028a5cfb2c1863@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261201T080000
+DTEND;TZID=Europe/Warsaw:20261201T093500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 112/
+ 139\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c74f20f4f2a9075f149c38b8@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261201T095000
+DTEND;TZID=Europe/Warsaw:20261201T112500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 113/
+ 139\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f86dbad83fd8c7f79c35d88b@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261201T114000
+DTEND;TZID=Europe/Warsaw:20261201T131500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 114/
+ 139\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4b64a45d159aedb745bf4244@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261201T133000
+DTEND;TZID=Europe/Warsaw:20261201T150500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 115/
+ 139\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:edfb922390c65df74a7d0243@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261201T160000
+DTEND;TZID=Europe/Warsaw:20261201T173500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 116/
+ 139\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:0e21faf2c4f58c1748d361d1@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261201T175000
+DTEND;TZID=Europe/Warsaw:20261201T192500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 117/
+ 139\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:8b76c6363cc5d8d48b0d816f@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261201T194000
+DTEND;TZID=Europe/Warsaw:20261201T211500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 118/
+ 139\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:3fbe9897ff735b5b984052e1@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261202T080000
+DTEND;TZID=Europe/Warsaw:20261202T093500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 119/
+ 139\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c8f251079795dcac11e29e96@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261202T095000
+DTEND;TZID=Europe/Warsaw:20261202T112500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 120/
+ 139\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7af8d8669d2408f4ee0a6df6@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261202T114000
+DTEND;TZID=Europe/Warsaw:20261202T131500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 121/
+ 139\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6a009f3649e7229239c822f4@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261202T133000
+DTEND;TZID=Europe/Warsaw:20261202T150500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 122/
+ 139\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:12e4ca9c2e4adb1b770a8524@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261202T160000
+DTEND;TZID=Europe/Warsaw:20261202T173500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 123/
+ 139\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:fb23372aa75913822a5eedd8@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261202T175000
+DTEND;TZID=Europe/Warsaw:20261202T192500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 124/
+ 139\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:fca72f1047d5f1f8937674f8@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261202T194000
+DTEND;TZID=Europe/Warsaw:20261202T211500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 125/
+ 139\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:0986590f035f78eec7c466a3@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261203T080000
+DTEND;TZID=Europe/Warsaw:20261203T093500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 126/
+ 139\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e4e52317c9f93850e6757cb9@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261203T095000
+DTEND;TZID=Europe/Warsaw:20261203T112500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 127/
+ 139\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3cc4002e99948a6855173fc5@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261203T114000
+DTEND;TZID=Europe/Warsaw:20261203T131500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 128/
+ 139\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:28b66199505ac30b3be1e564@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261203T133000
+DTEND;TZID=Europe/Warsaw:20261203T150500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 129/
+ 139\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0c224889448243467dfe06fc@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261203T160000
+DTEND;TZID=Europe/Warsaw:20261203T173500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 130/
+ 139\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:d4d481964f2f0421d834efda@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261203T175000
+DTEND;TZID=Europe/Warsaw:20261203T192500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 131/
+ 139\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:e2886b8253663c59b8e7dc9f@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261203T194000
+DTEND;TZID=Europe/Warsaw:20261203T211500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 132/
+ 139\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:efc9f4894af4b67f4006ab4f@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261204T080000
+DTEND;TZID=Europe/Warsaw:20261204T093500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 133/
+ 139\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b182d8bdd4bd65c200d99dcd@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261204T095000
+DTEND;TZID=Europe/Warsaw:20261204T112500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 134/
+ 139\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3f8f6a0358619a1153f67a71@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261204T114000
+DTEND;TZID=Europe/Warsaw:20261204T131500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 135/
+ 139\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:706cfe61e1126ba0166e5ba3@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261204T133000
+DTEND;TZID=Europe/Warsaw:20261204T150500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 136/
+ 139\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0c7f7ce9d6a06ed61d809efb@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261204T160000
+DTEND;TZID=Europe/Warsaw:20261204T173500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 137/
+ 139\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:9af05c957daa1c692f44f09a@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261204T175000
+DTEND;TZID=Europe/Warsaw:20261204T192500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 138/
+ 139\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:3130e6a9610e64db5f7cf913@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261204T194000
+DTEND;TZID=Europe/Warsaw:20261204T211500
+SUMMARY:SzCS (i)
+DESCRIPTION:Szkolenie - Centra Szkoleniowe\nRodzaj: inne\nNr zajęć: 139/
+ 139\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:b02b08120446e7e2e755670f@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261205T095000
+DTEND;TZID=Europe/Warsaw:20261205T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 8/14\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0295deed199c44340183598d@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261207T080000
+DTEND;TZID=Europe/Warsaw:20261207T093500
+SUMMARY:Mswdp (ć)
+LOCATION:95 S
+DESCRIPTION:Modelowanie i symulacja we wspomaganiu decyzji na polu walki\n
+ Rodzaj: ćwiczenia\nProwadzący: mgr inż. Maślanik Dawid\nNr zajęć: 5
+ /8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6a7ed2d84b28d2d8876f9f57@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261207T095000
+DTEND;TZID=Europe/Warsaw:20261207T112500
+SUMMARY:Mswdp (ć)
+LOCATION:95 S
+DESCRIPTION:Modelowanie i symulacja we wspomaganiu decyzji na polu walki\n
+ Rodzaj: ćwiczenia\nProwadzący: mgr inż. Maślanik Dawid\nNr zajęć: 6
+ /8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:889e43f2eeae86bd8fe3f077@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261207T114000
+DTEND;TZID=Europe/Warsaw:20261207T131500
+SUMMARY:Zszpzr (ć)
+LOCATION:101 63A
+DESCRIPTION:Zasady strzelania z PZR\nRodzaj: ćwiczenia\nProwadzący: kpt.
+  mgr inż. Klicki Kamil\nNr zajęć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9ece1e21a0e08f927306edfb@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261207T133000
+DTEND;TZID=Europe/Warsaw:20261207T150500
+SUMMARY:Upsysz (L)
+LOCATION:323 S
+DESCRIPTION:Układy przetwarzania sygnałów PZR średniego zasięgu\nRodz
+ aj: laboratorium\nProwadzący: dr inż. Grzywiński Stanisław\nNr zaję
+ ć: 1/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:cfd0bd7e3f88b1293a4630f0@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261207T160000
+DTEND;TZID=Europe/Warsaw:20261207T173500
+SUMMARY:Ja (ć)
+LOCATION:125 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 12/30\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:c4a2eac7aed4087266a70f5e@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261208T080000
+DTEND;TZID=Europe/Warsaw:20261208T093500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PW
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 7/8\nBl
+ ok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:67f5ec96da48fb87e842732f@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261208T095000
+DTEND;TZID=Europe/Warsaw:20261208T112500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PW
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 8/8\nBl
+ ok: 2\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:8e69f34f0c3ce73e5093e8f5@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261208T114000
+DTEND;TZID=Europe/Warsaw:20261208T131500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Kęp
+ niak Krzysztof\nNr zajęć: 21/40\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:053b5bda9518f868b4138b52@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261208T133000
+DTEND;TZID=Europe/Warsaw:20261208T150500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 4
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: ppor
+ . mgr Szwed Katarzyna\nNr zajęć: 4/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8c357146754f68c0207178a5@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261208T160000
+DTEND;TZID=Europe/Warsaw:20261208T173500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 4
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: ppor
+ . mgr Szwed Katarzyna\nNr zajęć: 5/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:10b2f438621cb4952a6256db@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261208T175000
+DTEND;TZID=Europe/Warsaw:20261208T192500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 4
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: ppor
+ . mgr Szwed Katarzyna\nNr zajęć: 6/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:26f2e85b4de69419f8136e44@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261209T080000
+DTEND;TZID=Europe/Warsaw:20261209T093500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 5/8\
+ nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0d81efed3f187608c4181792@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261209T095000
+DTEND;TZID=Europe/Warsaw:20261209T112500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 6/8\
+ nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:08f2e0356bb91e2c5a475657@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261209T114000
+DTEND;TZID=Europe/Warsaw:20261209T131500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 7/8\
+ nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:12f1ec85993e4f4322cdd447@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261209T133000
+DTEND;TZID=Europe/Warsaw:20261209T150500
+SUMMARY:DGB (ć)
+DESCRIPTION:Szkolenie wojskowe - DGB\nRodzaj: ćwiczenia\nNr zajęć: 8/8\
+ nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3226e18f71db3e7af93d0f59@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261209T160000
+DTEND;TZID=Europe/Warsaw:20261209T173500
+SUMMARY:Ja (ć)
+LOCATION:132 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 13/30\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:62f96839b1190a8cb7b6f922@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261209T175000
+DTEND;TZID=Europe/Warsaw:20261209T192500
+SUMMARY:Ja (ć)
+LOCATION:132 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 14/30\nBlok:
+  6
+END:VEVENT
+BEGIN:VEVENT
+UID:3e9dbaae84d982b561a9c10b@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261209T194000
+DTEND;TZID=Europe/Warsaw:20261209T211500
+SUMMARY:Ja (ć)
+LOCATION:132 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 15/30\nBlok:
+  7
+END:VEVENT
+BEGIN:VEVENT
+UID:eaa96f4106ea6eb5381ad901@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261210T095000
+DTEND;TZID=Europe/Warsaw:20261210T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Bucz
+ yński Artur\nNr zajęć: 22/40\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5be573a06ac12afde88451a5@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261210T114000
+DTEND;TZID=Europe/Warsaw:20261210T131500
+SUMMARY:Ja (ć)
+LOCATION:132 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 16/30\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:8410aa731e0cc90640f0151e@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261210T133000
+DTEND;TZID=Europe/Warsaw:20261210T150500
+SUMMARY:Ja (ć)
+LOCATION:132 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 17/30\nBlok:
+  4
+END:VEVENT
+BEGIN:VEVENT
+UID:b12d616f30bcb16a73ccf57a@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261210T160000
+DTEND;TZID=Europe/Warsaw:20261210T173500
+SUMMARY:Ja (ć)
+LOCATION:132 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 18/30\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:acf8284be6b03eccb3927eff@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261211T080000
+DTEND;TZID=Europe/Warsaw:20261211T093500
+SUMMARY:TW (ć)
+LOCATION:17 57
+DESCRIPTION:Topografia wojskowa\nRodzaj: ćwiczenia\nProwadzący: mgr inż
+ . Oleksiak Marek\nNr zajęć: 5/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:53d65e54c3475f356da35be9@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261211T095000
+DTEND;TZID=Europe/Warsaw:20261211T112500
+SUMMARY:Ja (ć)
+LOCATION:125 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 19/30\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:d0cc5437aef3fac0aeef044e@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261211T114000
+DTEND;TZID=Europe/Warsaw:20261211T131500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Kęp
+ niak Krzysztof\nNr zajęć: 23/40\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d73ae544800c0147a45aa680@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261211T133000
+DTEND;TZID=Europe/Warsaw:20261211T150500
+SUMMARY:Upsysz (P)
+LOCATION:323 S
+DESCRIPTION:Układy przetwarzania sygnałów PZR średniego zasięgu\nRodz
+ aj: projekt\nProwadzący: dr inż. Grzywiński Stanisław\nNr zajęć: 2/
+ 3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6074a63fe06e5d75b2d41598@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261212T095000
+DTEND;TZID=Europe/Warsaw:20261212T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 9/14\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:80db81bfc391365d6f7f499b@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261214T080000
+DTEND;TZID=Europe/Warsaw:20261214T093500
+SUMMARY:Krppsz (w)
+LOCATION:19 63
+DESCRIPTION:Konstrukcja rakiet plot PZR sredniego zasięgu\nRodzaj: wykła
+ d\nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 11/18\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:bb763f4646367f9736b0193a@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261214T095000
+DTEND;TZID=Europe/Warsaw:20261214T112500
+SUMMARY:Krppsz (w)
+LOCATION:19 63
+DESCRIPTION:Konstrukcja rakiet plot PZR sredniego zasięgu\nRodzaj: wykła
+ d\nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 12/18\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4478a080de3e20cc962b3fa3@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261214T114000
+DTEND;TZID=Europe/Warsaw:20261214T131500
+SUMMARY:Aool (w)
+LOCATION:5 63A
+DESCRIPTION:Aerodynamika osiowosymetrycznych obiektów latających\nRodzaj
+ : wykład\nProwadzący: dr hab. inż. Baranowski Leszek\nNr zajęć: 7/9\
+ nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8bcbde5b9f90601d40a838b5@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261214T133000
+DTEND;TZID=Europe/Warsaw:20261214T150500
+SUMMARY:Zszpzr (ć)
+LOCATION:101 63A
+DESCRIPTION:Zasady strzelania z PZR\nRodzaj: ćwiczenia\nProwadzący: kpt.
+  mgr inż. Klicki Kamil\nNr zajęć: 3/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:99e356255362e894c0300c68@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261214T160000
+DTEND;TZID=Europe/Warsaw:20261214T173500
+SUMMARY:Ja (ć)
+LOCATION:125 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 20/30\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:9443bddd0fcbb25addf671eb@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261215T080000
+DTEND;TZID=Europe/Warsaw:20261215T093500
+SUMMARY:REG (ć)
+LOCATION:AW 3/038
+DESCRIPTION:Regulaminy SZ RP\nRodzaj: ćwiczenia\nProwadzący: ppłk rez. 
+ Jęcek Paweł\nNr zajęć: 1/2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4f4ed7b1272400a43547898a@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261215T095000
+DTEND;TZID=Europe/Warsaw:20261215T112500
+SUMMARY:Mswdp (w)
+LOCATION:309 S
+DESCRIPTION:Modelowanie i symulacja we wspomaganiu decyzji na polu walki\n
+ Rodzaj: wykład\nProwadzący: dr hab. inż. Najgebauer Andrzej\nNr zaję
+ ć: 4/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8e98224b0e9e6a96e037c17c@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261215T114000
+DTEND;TZID=Europe/Warsaw:20261215T131500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Kęp
+ niak Krzysztof\nNr zajęć: 24/40\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ee1e8fbeee77fd19e785e4bc@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261215T133000
+DTEND;TZID=Europe/Warsaw:20261215T150500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 4
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: ppor
+ . mgr Szwed Katarzyna\nNr zajęć: 7/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:279c49af6a9ef773447dd033@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261215T160000
+DTEND;TZID=Europe/Warsaw:20261215T173500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 4
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: ppor
+ . mgr Szwed Katarzyna\nNr zajęć: 8/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:69a0fcb72106d5728c34b23e@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261215T175000
+DTEND;TZID=Europe/Warsaw:20261215T192500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 4
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: ppor
+ . mgr Szwed Katarzyna\nNr zajęć: 9/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:635b54b094d819d88a8e17b3@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261216T080000
+DTEND;TZID=Europe/Warsaw:20261216T093500
+SUMMARY:ZŻWAT (i)
+DESCRIPTION:Zbiórka żołnierzy WAT\nRodzaj: inne\nNr zajęć: 2/3\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:153b18b944ef6611fb3d0e59@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261216T095000
+DTEND;TZID=Europe/Warsaw:20261216T112500
+SUMMARY:Ja (ć)
+LOCATION:125 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 21/30\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:fec65677bd9207e77f89b527@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261216T114000
+DTEND;TZID=Europe/Warsaw:20261216T131500
+SUMMARY:Wpnsz (L)
+LOCATION:4 63A
+DESCRIPTION:Wyposażenie naziemne PZR średniego zasięgu\nRodzaj: laborat
+ orium\nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 3/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3d4491018c7931edd14bea35@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261216T133000
+DTEND;TZID=Europe/Warsaw:20261216T150500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 7
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: mjr 
+ mgr Zawadzki Filip\nNr zajęć: 10/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f05c5e3c52446e5cc0dacb37@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261216T160000
+DTEND;TZID=Europe/Warsaw:20261216T173500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 7
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: mjr 
+ mgr Zawadzki Filip\nNr zajęć: 11/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:b4603900f6519758ccb9cc37@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261216T175000
+DTEND;TZID=Europe/Warsaw:20261216T192500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 7
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: mjr 
+ mgr Zawadzki Filip\nNr zajęć: 12/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:a844bbb47c0ad98d9df512b0@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261217T080000
+DTEND;TZID=Europe/Warsaw:20261217T093500
+SUMMARY:Upsysz (ć)
+LOCATION:323 S
+DESCRIPTION:Układy przetwarzania sygnałów PZR średniego zasięgu\nRodz
+ aj: ćwiczenia\nProwadzący: dr inż. Grzywiński Stanisław\nNr zajęć:
+  5/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:669f363c060ebc41a1653c4c@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261217T095000
+DTEND;TZID=Europe/Warsaw:20261217T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Kęp
+ niak Krzysztof\nNr zajęć: 25/40\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6f720fe152b0102b9b33d40a@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261217T114000
+DTEND;TZID=Europe/Warsaw:20261217T131500
+SUMMARY:Zblog (w)
+LOCATION:6 63 A
+DESCRIPTION:Zabezpieczenie logistyczne\nRodzaj: wykład\nProwadzący: ppł
+ k dr inż. Bużantowicz Witold\nNr zajęć: 7/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:73bfeebc458ec8360236550e@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261217T133000
+DTEND;TZID=Europe/Warsaw:20261217T150500
+SUMMARY:Zblog (w)
+LOCATION:6 63 A
+DESCRIPTION:Zabezpieczenie logistyczne\nRodzaj: wykład\nProwadzący: ppł
+ k dr inż. Bużantowicz Witold\nNr zajęć: 8/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f5346a4336eb5d2c3b925050@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261217T160000
+DTEND;TZID=Europe/Warsaw:20261217T173500
+SUMMARY:Krppsz (S)
+LOCATION:4 63A
+DESCRIPTION:Konstrukcja rakiet plot PZR sredniego zasięgu\nRodzaj: semina
+ rium\nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 2/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:a4352f82f966b71509ada000@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261218T080000
+DTEND;TZID=Europe/Warsaw:20261218T093500
+SUMMARY:Aool (P)
+LOCATION:4 63A
+DESCRIPTION:Aerodynamika osiowosymetrycznych obiektów latających\nRodzaj
+ : projekt\nProwadzący: por. mgr inż. Karpiński Michał\nNr zajęć: 1/
+ 2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b241812ed31ca59b9499a0f4@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261218T095000
+DTEND;TZID=Europe/Warsaw:20261218T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Kęp
+ niak Krzysztof\nNr zajęć: 26/40\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4543fc9a96eeb1d1d64d5136@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261218T114000
+DTEND;TZID=Europe/Warsaw:20261218T131500
+SUMMARY:Wpnsz (w)
+LOCATION:6 63 A
+DESCRIPTION:Wyposażenie naziemne PZR średniego zasięgu\nRodzaj: wykład
+ \nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 11/13\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f36db55ffd08343ac4dff192@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261218T133000
+DTEND;TZID=Europe/Warsaw:20261218T150500
+SUMMARY:Upsysz (P)
+LOCATION:323 S
+DESCRIPTION:Układy przetwarzania sygnałów PZR średniego zasięgu\nRodz
+ aj: projekt\nProwadzący: dr inż. Grzywiński Stanisław\nNr zajęć: 3/
+ 3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ba04bc6fe107ed22c881d2b1@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261219T095000
+DTEND;TZID=Europe/Warsaw:20261219T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 10/14\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f5279d2b2344d63eecb2ce9a@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261221T080000
+DTEND;TZID=Europe/Warsaw:20261221T093500
+SUMMARY:Upsysz (L)
+LOCATION:323 S
+DESCRIPTION:Układy przetwarzania sygnałów PZR średniego zasięgu\nRodz
+ aj: laboratorium\nProwadzący: dr inż. Grzywiński Stanisław\nNr zaję
+ ć: 2/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a3cc658df1e9b99a46422c85@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261221T095000
+DTEND;TZID=Europe/Warsaw:20261221T112500
+SUMMARY:Upsysz (L)
+LOCATION:323 S
+DESCRIPTION:Układy przetwarzania sygnałów PZR średniego zasięgu\nRodz
+ aj: laboratorium\nProwadzący: dr inż. Grzywiński Stanisław\nNr zaję
+ ć: 3/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9de87114c3958b40608ef66a@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261221T114000
+DTEND;TZID=Europe/Warsaw:20261221T131500
+SUMMARY:Aool (ć)
+LOCATION:5 63A
+DESCRIPTION:Aerodynamika osiowosymetrycznych obiektów latających\nRodzaj
+ : ćwiczenia\nProwadzący: dr hab. inż. Baranowski Leszek\nNr zajęć: 1
+ /4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7c242cf5e4b83be8ae42b399@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261221T133000
+DTEND;TZID=Europe/Warsaw:20261221T150500
+SUMMARY:Krppsz (w)
+LOCATION:6 63 A
+DESCRIPTION:Konstrukcja rakiet plot PZR sredniego zasięgu\nRodzaj: wykła
+ d\nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 13/18\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6a89c942bafa8f9c86b5c5d7@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261221T160000
+DTEND;TZID=Europe/Warsaw:20261221T173500
+SUMMARY:Ja (ć)
+LOCATION:125 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 22/30\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:03ad510edecdc1077f933d69@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261222T080000
+DTEND;TZID=Europe/Warsaw:20261222T093500
+SUMMARY:Mswdp (w)
+LOCATION:323 S
+DESCRIPTION:Modelowanie i symulacja we wspomaganiu decyzji na polu walki\n
+ Rodzaj: wykład\nProwadzący: dr hab. inż. Najgebauer Andrzej\nNr zaję
+ ć: 5/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c58668cb0b1ae267c67e57fe@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261222T095000
+DTEND;TZID=Europe/Warsaw:20261222T112500
+SUMMARY:REG (ć)
+LOCATION:AW 3/043
+DESCRIPTION:Regulaminy SZ RP\nRodzaj: ćwiczenia\nProwadzący: ppłk rez. 
+ Jęcek Paweł\nNr zajęć: 2/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8a24993cf3b99415a2e836ed@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261222T114000
+DTEND;TZID=Europe/Warsaw:20261222T131500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Kęp
+ niak Krzysztof\nNr zajęć: 27/40\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ac5b20c5a0d95b76d3935ef2@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261222T133000
+DTEND;TZID=Europe/Warsaw:20261222T150500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 4
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: ppor
+ . mgr Szwed Katarzyna\nNr zajęć: 13/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:511c7b291e80b94afdda56a6@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261222T160000
+DTEND;TZID=Europe/Warsaw:20261222T173500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 4
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: ppor
+ . mgr Szwed Katarzyna\nNr zajęć: 14/15\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:999dec950f98f012ecdea0d0@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261222T175000
+DTEND;TZID=Europe/Warsaw:20261222T192500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 4
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: ppor
+ . mgr Szwed Katarzyna\nNr zajęć: 15/15\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:a3b785521f562ec02a9b55a6@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261223T080000
+DTEND;TZID=Europe/Warsaw:20261223T093500
+SUMMARY:Ja (ć)
+LOCATION:125 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 23/30\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:584fa9efa06b1077da36c1d5@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261223T095000
+DTEND;TZID=Europe/Warsaw:20261223T112500
+SUMMARY:Ja (ć)
+LOCATION:125 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 24/30\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:4b5a301d1438be15283a2d9a@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261223T133000
+DTEND;TZID=Europe/Warsaw:20261223T150500
+SUMMARY:Mswdp (w)
+LOCATION:309 S
+DESCRIPTION:Modelowanie i symulacja we wspomaganiu decyzji na polu walki\n
+ Rodzaj: wykład\nProwadzący: dr hab. inż. Najgebauer Andrzej\nNr zaję
+ ć: 6/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1a3c7f670d09f4d349a7af53@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20261223T160000
+DTEND;TZID=Europe/Warsaw:20261223T173500
+SUMMARY:wzbnim (ć)
+LOCATION:325 S
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: ćwiczenia\nProwadzący: mjr dr inż. Walkowiak Marzena\nNr
+  zajęć: 2/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:cddd16c50523facfef9c4024@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270107T080000
+DTEND;TZID=Europe/Warsaw:20270107T093500
+SUMMARY:Upsysz (ć)
+LOCATION:323 S
+DESCRIPTION:Układy przetwarzania sygnałów PZR średniego zasięgu\nRodz
+ aj: ćwiczenia\nProwadzący: dr inż. Grzywiński Stanisław\nNr zajęć:
+  6/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9284547d6bac28bb740f20af@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270107T095000
+DTEND;TZID=Europe/Warsaw:20270107T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Kęp
+ niak Krzysztof\nNr zajęć: 28/40\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e7a227041b16f4a4c77e521a@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270107T114000
+DTEND;TZID=Europe/Warsaw:20270107T131500
+SUMMARY:Krppsz (w)
+LOCATION:6 63 A
+DESCRIPTION:Konstrukcja rakiet plot PZR sredniego zasięgu\nRodzaj: wykła
+ d\nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 14/18\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:72400b6e2a434e2a2aa18cde@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270107T133000
+DTEND;TZID=Europe/Warsaw:20270107T150500
+SUMMARY:Krppsz (w)
+LOCATION:6 63 A
+DESCRIPTION:Konstrukcja rakiet plot PZR sredniego zasięgu\nRodzaj: wykła
+ d\nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 15/18\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:22aebc162c4b2dbd5fb8e054@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270107T160000
+DTEND;TZID=Europe/Warsaw:20270107T173500
+SUMMARY:Zblog (ćw)
+LOCATION:6 63 A
+DESCRIPTION:Zabezpieczenie logistyczne\nRodzaj: ćwiczenia\nProwadzący: p
+ płk dr inż. Bużantowicz Witold\nNr zajęć: 1/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:7646e8d4b5b7ee8108b930e6@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270108T080000
+DTEND;TZID=Europe/Warsaw:20270108T093500
+SUMMARY:Wpnsz (w)
+LOCATION:6 63 A
+DESCRIPTION:Wyposażenie naziemne PZR średniego zasięgu\nRodzaj: wykład
+ \nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 12/13\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0bc29870beb3446c87be2244@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270108T095000
+DTEND;TZID=Europe/Warsaw:20270108T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Kęp
+ niak Krzysztof\nNr zajęć: 29/40\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3fbb14762a505dfc6ad8d0bd@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270108T114000
+DTEND;TZID=Europe/Warsaw:20270108T131500
+SUMMARY:Upsysz (L)
+LOCATION:323 S
+DESCRIPTION:Układy przetwarzania sygnałów PZR średniego zasięgu\nRodz
+ aj: laboratorium\nProwadzący: dr inż. Grzywiński Stanisław\nNr zaję
+ ć: 4/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4c98a69522b155fb56345299@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270108T133000
+DTEND;TZID=Europe/Warsaw:20270108T150500
+SUMMARY:wzbnim (ć)
+LOCATION:325 S
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: ćwiczenia\nProwadzący: mjr dr inż. Walkowiak Marzena\nNr
+  zajęć: 3/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:59ccbd7a1ef038b58bb3b5b8@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270109T095000
+DTEND;TZID=Europe/Warsaw:20270109T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 11/14\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7cdcdd94ef181b36ebd60c25@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270111T080000
+DTEND;TZID=Europe/Warsaw:20270111T093500
+SUMMARY:Aool (w)
+LOCATION:6 63 A
+DESCRIPTION:Aerodynamika osiowosymetrycznych obiektów latających\nRodzaj
+ : wykład\nProwadzący: dr hab. inż. Baranowski Leszek\nNr zajęć: 8/9\
+ nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a62ffc158a53945f84a9ef69@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270111T095000
+DTEND;TZID=Europe/Warsaw:20270111T112500
+SUMMARY:Krppsz (w)
+LOCATION:19 63
+DESCRIPTION:Konstrukcja rakiet plot PZR sredniego zasięgu\nRodzaj: wykła
+ d\nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 16/18\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:12409faca11abf44543af5ba@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270111T114000
+DTEND;TZID=Europe/Warsaw:20270111T131500
+SUMMARY:Zblog (ć)
+LOCATION:6 63 A
+DESCRIPTION:Zabezpieczenie logistyczne\nRodzaj: ćwiczenia\nProwadzący: p
+ płk dr inż. Bużantowicz Witold\nNr zajęć: 2/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a0c8d5619ecada56f57ec1de@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270111T133000
+DTEND;TZID=Europe/Warsaw:20270111T150500
+SUMMARY:Zblog (ć)
+LOCATION:6 63 A
+DESCRIPTION:Zabezpieczenie logistyczne\nRodzaj: ćwiczenia\nProwadzący: p
+ płk dr inż. Bużantowicz Witold\nNr zajęć: 3/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:98ece8cf2d869032fe07b533@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270111T160000
+DTEND;TZID=Europe/Warsaw:20270111T173500
+SUMMARY:Ja (ć)
+LOCATION:125 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 25/30\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:523e8bfa6fff6cefc5a44aaf@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270112T080000
+DTEND;TZID=Europe/Warsaw:20270112T093500
+SUMMARY:Aool (P)
+LOCATION:4 63A
+DESCRIPTION:Aerodynamika osiowosymetrycznych obiektów latających\nRodzaj
+ : projekt\nProwadzący: por. mgr inż. Karpiński Michał\nNr zajęć: 2/
+ 2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:534ff2acc7a9ae6b5a14d0ff@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270112T095000
+DTEND;TZID=Europe/Warsaw:20270112T112500
+SUMMARY:wzbnim (ć)
+LOCATION:39 36
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: ćwiczenia\nProwadzący: mjr dr inż. Walkowiak Marzena\nNr
+  zajęć: 4/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5f89e3dcbe1aba3955a1b2dd@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270112T114000
+DTEND;TZID=Europe/Warsaw:20270112T131500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Kęp
+ niak Krzysztof\nNr zajęć: 30/40\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:446b242d49e14f3efe938abb@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270112T133000
+DTEND;TZID=Europe/Warsaw:20270112T150500
+SUMMARY:Aool (ć)
+LOCATION:5 63A
+DESCRIPTION:Aerodynamika osiowosymetrycznych obiektów latających\nRodzaj
+ : ćwiczenia\nProwadzący: dr hab. inż. Baranowski Leszek\nNr zajęć: 2
+ /4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8feb1b24d939af29bdd7f19d@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270113T080000
+DTEND;TZID=Europe/Warsaw:20270113T093500
+SUMMARY:ZŻWAT (i)
+DESCRIPTION:Zbiórka żołnierzy WAT\nRodzaj: inne\nNr zajęć: 3/3\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:655d09b69abfa86cc443f6fd@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270113T095000
+DTEND;TZID=Europe/Warsaw:20270113T112500
+SUMMARY:Ja (ć)
+LOCATION:125 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 26/30\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:5466f1372975898beb237bbd@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270113T114000
+DTEND;TZID=Europe/Warsaw:20270113T131500
+SUMMARY:Upsysz (w)
+LOCATION:325 S
+DESCRIPTION:Układy przetwarzania sygnałów PZR średniego zasięgu\nRodz
+ aj: wykład\nProwadzący: dr inż. Grzywiński Stanisław\nNr zajęć: 8/
+ 9\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:50baae1167acfff678d6682d@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270113T133000
+DTEND;TZID=Europe/Warsaw:20270113T150500
+SUMMARY:Aool (w)
+LOCATION:15 63
+DESCRIPTION:Aerodynamika osiowosymetrycznych obiektów latających\nRodzaj
+ : wykład\nProwadzący: dr hab. inż. Baranowski Leszek\nNr zajęć: 9/9\
+ nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4703b02dfb05e5973ea56f6d@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270113T160000
+DTEND;TZID=Europe/Warsaw:20270113T173500
+SUMMARY:Wpnsz (L)
+LOCATION:4 63A
+DESCRIPTION:Wyposażenie naziemne PZR średniego zasięgu\nRodzaj: laborat
+ orium\nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 4/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:2c60824797b9abb3b9e2f71f@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270114T080000
+DTEND;TZID=Europe/Warsaw:20270114T093500
+SUMMARY:Krppsz (ć)
+LOCATION:4 63A
+DESCRIPTION:Konstrukcja rakiet plot PZR sredniego zasięgu\nRodzaj: ćwicz
+ enia\nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 4/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d8f6fc051db477b1ea488b80@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270114T095000
+DTEND;TZID=Europe/Warsaw:20270114T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Bucz
+ yński Artur\nNr zajęć: 31/40\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ed4428f51fe8151da79f3942@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270114T114000
+DTEND;TZID=Europe/Warsaw:20270114T131500
+SUMMARY:Krppsz (w)
+LOCATION:6 63 A
+DESCRIPTION:Konstrukcja rakiet plot PZR sredniego zasięgu\nRodzaj: wykła
+ d\nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 17/18\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:be38661e744558599c56d76f@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270114T133000
+DTEND;TZID=Europe/Warsaw:20270114T150500
+SUMMARY:Krppsz (w)
+LOCATION:6 63 A
+DESCRIPTION:Konstrukcja rakiet plot PZR sredniego zasięgu\nRodzaj: wykła
+ d\nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 18/18\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1bd0a9aeef9af21b66b7d686@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270115T080000
+DTEND;TZID=Europe/Warsaw:20270115T093500
+SUMMARY:Wpnsz (w)
+LOCATION:6 63 A
+DESCRIPTION:Wyposażenie naziemne PZR średniego zasięgu\nRodzaj: wykład
+ \nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 13/13\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:841febd11cf6bf553e27e60d@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270115T095000
+DTEND;TZID=Europe/Warsaw:20270115T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Kęp
+ niak Krzysztof\nNr zajęć: 32/40\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:29c02ec7924e0fa2e24662d4@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270115T114000
+DTEND;TZID=Europe/Warsaw:20270115T131500
+SUMMARY:Upsysz (L)
+LOCATION:323 S
+DESCRIPTION:Układy przetwarzania sygnałów PZR średniego zasięgu\nRodz
+ aj: laboratorium\nProwadzący: dr inż. Grzywiński Stanisław\nNr zaję
+ ć: 5/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:08c45df21ffb7a4b38827464@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270115T133000
+DTEND;TZID=Europe/Warsaw:20270115T150500
+SUMMARY:Zblog (ćw)
+LOCATION:6 63 A
+DESCRIPTION:Zabezpieczenie logistyczne\nRodzaj: ćwiczenia\nProwadzący: p
+ płk dr inż. Bużantowicz Witold\nNr zajęć: 2/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8b15fe1c099a1a1405521c50@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270116T095000
+DTEND;TZID=Europe/Warsaw:20270116T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 12/14\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b9d0381a2adf86e19fb13e01@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270118T080000
+DTEND;TZID=Europe/Warsaw:20270118T093500
+SUMMARY:Wpnsz (L)
+LOCATION:101 63A
+DESCRIPTION:Wyposażenie naziemne PZR średniego zasięgu\nRodzaj: laborat
+ orium\nProwadzący: kpt. mgr inż. Klicki Kamil\nNr zajęć: 5/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8f67818e18814287abe2c477@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270118T095000
+DTEND;TZID=Europe/Warsaw:20270118T112500
+SUMMARY:Wpnsz (L)
+LOCATION:101 63A
+DESCRIPTION:Wyposażenie naziemne PZR średniego zasięgu\nRodzaj: laborat
+ orium\nProwadzący: kpt. mgr inż. Klicki Kamil\nNr zajęć: 6/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:86b8a3a2e6c0c3aba1c7c7b0@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270118T114000
+DTEND;TZID=Europe/Warsaw:20270118T131500
+SUMMARY:Zszpzr (ć)
+LOCATION:101 63A
+DESCRIPTION:Zasady strzelania z PZR\nRodzaj: ćwiczenia\nProwadzący: kpt.
+  mgr inż. Klicki Kamil\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b3f70389ad8385efc210cabb@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270118T133000
+DTEND;TZID=Europe/Warsaw:20270118T150500
+SUMMARY:Zblog (ć)
+LOCATION:6 63 A
+DESCRIPTION:Zabezpieczenie logistyczne\nRodzaj: ćwiczenia\nProwadzący: p
+ płk dr inż. Bużantowicz Witold\nNr zajęć: 4/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d830cabcf47bc2046d13c810@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270118T160000
+DTEND;TZID=Europe/Warsaw:20270118T173500
+SUMMARY:Ja (ć)
+LOCATION:125 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 27/30\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:9f689080fe2fe3f15f749f53@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270119T080000
+DTEND;TZID=Europe/Warsaw:20270119T093500
+SUMMARY:Mswdp (w)
+LOCATION:309 S
+DESCRIPTION:Modelowanie i symulacja we wspomaganiu decyzji na polu walki\n
+ Rodzaj: wykład\nProwadzący: dr hab. inż. Najgebauer Andrzej\nNr zaję
+ ć: 7/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5829a188595dfad7d07b71ba@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270119T095000
+DTEND;TZID=Europe/Warsaw:20270119T112500
+SUMMARY:Aool (ć)
+LOCATION:5 63A
+DESCRIPTION:Aerodynamika osiowosymetrycznych obiektów latających\nRodzaj
+ : ćwiczenia\nProwadzący: dr hab. inż. Baranowski Leszek\nNr zajęć: 3
+ /4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f2bb346bcb9826eab65911a4@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270119T114000
+DTEND;TZID=Europe/Warsaw:20270119T131500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Kęp
+ niak Krzysztof\nNr zajęć: 33/40\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3707e6fe925622865429c896@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270119T133000
+DTEND;TZID=Europe/Warsaw:20270119T150500
+SUMMARY:Zszpzr (ć)
+LOCATION:101 63A
+DESCRIPTION:Zasady strzelania z PZR\nRodzaj: ćwiczenia\nProwadzący: kpt.
+  mgr inż. Klicki Kamil\nNr zajęć: 5/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1a30f62ad55a7a0836ba736e@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270120T080000
+DTEND;TZID=Europe/Warsaw:20270120T093500
+SUMMARY:Ja (ć)
+LOCATION:125 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 28/30\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:c5fc29a93b6d54038e7ba38f@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270120T095000
+DTEND;TZID=Europe/Warsaw:20270120T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Kęp
+ niak Krzysztof\nNr zajęć: 34/40\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8fc7296db996f2d9425f2c8f@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270120T114000
+DTEND;TZID=Europe/Warsaw:20270120T131500
+SUMMARY:Upsysz (ć)
+LOCATION:323 S
+DESCRIPTION:Układy przetwarzania sygnałów PZR średniego zasięgu\nRodz
+ aj: ćwiczenia\nProwadzący: dr inż. Grzywiński Stanisław\nNr zajęć:
+  7/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ed262207b0747e48e38544cd@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270120T133000
+DTEND;TZID=Europe/Warsaw:20270120T150500
+SUMMARY:Krppsz (L)
+LOCATION:4 63A
+DESCRIPTION:Konstrukcja rakiet plot PZR sredniego zasięgu\nRodzaj: labora
+ torium\nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 3/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7cb53aeade9e5230c5c7c6c3@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270120T160000
+DTEND;TZID=Europe/Warsaw:20270120T173500
+SUMMARY:Krppsz (L)
+LOCATION:4 63A
+DESCRIPTION:Konstrukcja rakiet plot PZR sredniego zasięgu\nRodzaj: labora
+ torium\nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 4/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:dacc331909a984272fa0eb03@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270121T080000
+DTEND;TZID=Europe/Warsaw:20270121T093500
+SUMMARY:Krppsz (S)
+LOCATION:4 63A
+DESCRIPTION:Konstrukcja rakiet plot PZR sredniego zasięgu\nRodzaj: semina
+ rium\nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:80f108ed8c9e711e4c8ac17b@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270121T095000
+DTEND;TZID=Europe/Warsaw:20270121T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Kęp
+ niak Krzysztof\nNr zajęć: 35/40\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4b502a107e0df8b9ad13b3bd@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270121T114000
+DTEND;TZID=Europe/Warsaw:20270121T131500
+SUMMARY:Wpnsz (ć)
+LOCATION:4 63A
+DESCRIPTION:Wyposażenie naziemne PZR średniego zasięgu\nRodzaj: ćwicze
+ nia\nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 5/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:40cc206257eba6dc7e7acfd4@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270121T133000
+DTEND;TZID=Europe/Warsaw:20270121T150500
+SUMMARY:Upsysz (w)
+LOCATION:325 S
+DESCRIPTION:Układy przetwarzania sygnałów PZR średniego zasięgu\nRodz
+ aj: wykład\nProwadzący: dr inż. Grzywiński Stanisław\nNr zajęć: 9/
+ 9\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:fb7dbd2816051772c01d5553@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270122T080000
+DTEND;TZID=Europe/Warsaw:20270122T093500
+SUMMARY:Upsysz (L)
+LOCATION:323 S
+DESCRIPTION:Układy przetwarzania sygnałów PZR średniego zasięgu\nRodz
+ aj: laboratorium\nProwadzący: dr inż. Grzywiński Stanisław\nNr zaję
+ ć: 6/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:efef918a59458f17b3fb1984@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270122T095000
+DTEND;TZID=Europe/Warsaw:20270122T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Kęp
+ niak Krzysztof\nNr zajęć: 36/40\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2e9da2217a66c5a2df4d5f23@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270122T114000
+DTEND;TZID=Europe/Warsaw:20270122T131500
+SUMMARY:Krppsz (L)
+LOCATION:101 63A
+DESCRIPTION:Konstrukcja rakiet plot PZR sredniego zasięgu\nRodzaj: labora
+ torium\nProwadzący: kpt. mgr inż. Klicki Kamil\nNr zajęć: 5/8\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:dd63eed3a48cff5fcf055dff@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270122T133000
+DTEND;TZID=Europe/Warsaw:20270122T150500
+SUMMARY:Krppsz (L)
+LOCATION:101 63A
+DESCRIPTION:Konstrukcja rakiet plot PZR sredniego zasięgu\nRodzaj: labora
+ torium\nProwadzący: kpt. mgr inż. Klicki Kamil\nNr zajęć: 6/8\nBlok: 
+ 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3b32c91a7f888a2d55994cc1@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270123T095000
+DTEND;TZID=Europe/Warsaw:20270123T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 13/14\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7180856dcf8586d7ca31d6b2@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270125T080000
+DTEND;TZID=Europe/Warsaw:20270125T093500
+SUMMARY:Wpnsz (L)
+LOCATION:101 63A
+DESCRIPTION:Wyposażenie naziemne PZR średniego zasięgu\nRodzaj: laborat
+ orium\nProwadzący: kpt. mgr inż. Klicki Kamil\nNr zajęć: 7/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0d4cc7a57007862713e6a507@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270125T095000
+DTEND;TZID=Europe/Warsaw:20270125T112500
+SUMMARY:Wpnsz (L)
+LOCATION:101 63A
+DESCRIPTION:Wyposażenie naziemne PZR średniego zasięgu\nRodzaj: laborat
+ orium\nProwadzący: kpt. mgr inż. Klicki Kamil\nNr zajęć: 8/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f098d30bc22ec801cc910556@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270125T114000
+DTEND;TZID=Europe/Warsaw:20270125T131500
+SUMMARY:Zblog (ćw)
+LOCATION:6 63 A
+DESCRIPTION:Zabezpieczenie logistyczne\nRodzaj: ćwiczenia\nProwadzący: p
+ płk dr inż. Bużantowicz Witold\nNr zajęć: 3/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:12ce051d56cf5b5a25e89c9d@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270125T133000
+DTEND;TZID=Europe/Warsaw:20270125T150500
+SUMMARY:Zblog (ćw)
+LOCATION:6 63 A
+DESCRIPTION:Zabezpieczenie logistyczne\nRodzaj: ćwiczenia\nProwadzący: p
+ płk dr inż. Bużantowicz Witold\nNr zajęć: 4/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2b5f3e9b1e8e8e33f1e9b3fe@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270125T160000
+DTEND;TZID=Europe/Warsaw:20270125T173500
+SUMMARY:Ja (ć)
+LOCATION:125 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 29/30\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:850d59346cf0f17e3a263952@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270126T080000
+DTEND;TZID=Europe/Warsaw:20270126T093500
+SUMMARY:Krppsz (S)
+LOCATION:4 63A
+DESCRIPTION:Konstrukcja rakiet plot PZR sredniego zasięgu\nRodzaj: semina
+ rium\nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 4/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:aba83ea3c6d953ed0035f7a5@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270126T095000
+DTEND;TZID=Europe/Warsaw:20270126T112500
+SUMMARY:Aool (ć)
+LOCATION:5 63A
+DESCRIPTION:Aerodynamika osiowosymetrycznych obiektów latających\nRodzaj
+ : ćwiczenia\nProwadzący: dr hab. inż. Baranowski Leszek\nNr zajęć: 4
+ /4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1e2027af9d3d8658436cc0f2@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270126T114000
+DTEND;TZID=Europe/Warsaw:20270126T131500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Kęp
+ niak Krzysztof\nNr zajęć: 37/40\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b5367b025a7beada7cbe2b2a@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270127T080000
+DTEND;TZID=Europe/Warsaw:20270127T093500
+SUMMARY:Ja (ć)
+LOCATION:125 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 30/30\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:a5f6874a1215cf91135c4ec4@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270127T095000
+DTEND;TZID=Europe/Warsaw:20270127T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Kęp
+ niak Krzysztof\nNr zajęć: 38/40\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3b6a3ea8bfb1ada67fc509b3@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270127T114000
+DTEND;TZID=Europe/Warsaw:20270127T131500
+SUMMARY:Krppsz (L)
+LOCATION:101 63A
+DESCRIPTION:Konstrukcja rakiet plot PZR sredniego zasięgu\nRodzaj: labora
+ torium\nProwadzący: kpt. mgr inż. Klicki Kamil\nNr zajęć: 7/8\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b686c3fb7526caf636adfefa@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270127T133000
+DTEND;TZID=Europe/Warsaw:20270127T150500
+SUMMARY:Krppsz (L)
+LOCATION:101 63A
+DESCRIPTION:Konstrukcja rakiet plot PZR sredniego zasięgu\nRodzaj: labora
+ torium\nProwadzący: kpt. mgr inż. Klicki Kamil\nNr zajęć: 8/8\nBlok: 
+ 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ddfaa6187a1e1557d59e917b@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270128T080000
+DTEND;TZID=Europe/Warsaw:20270128T093500
+SUMMARY:JA-E (i)
+DESCRIPTION:Język angielski - egzamin\nRodzaj: inne\nNr zajęć: 3/4\nBlo
+ k: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c30840593b6fae82adc73844@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270128T095000
+DTEND;TZID=Europe/Warsaw:20270128T112500
+SUMMARY:JA-E (i)
+DESCRIPTION:Język angielski - egzamin\nRodzaj: inne\nNr zajęć: 4/4\nBlo
+ k: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:14a268d868511b3adce6e356@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270128T114000
+DTEND;TZID=Europe/Warsaw:20270128T131500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Kęp
+ niak Krzysztof\nNr zajęć: 39/40\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e9b966e59eed160d9b800b67@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270128T133000
+DTEND;TZID=Europe/Warsaw:20270128T150500
+SUMMARY:Wpnsz (S)
+LOCATION:4 63A
+DESCRIPTION:Wyposażenie naziemne PZR średniego zasięgu\nRodzaj: seminar
+ ium\nProwadzący: dr inż. Motyl Krzysztof\nNr zajęć: 3/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:85922b110b39186b465f53be@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270129T080000
+DTEND;TZID=Europe/Warsaw:20270129T093500
+SUMMARY:Zblog (ćw)
+LOCATION:6 63 A
+DESCRIPTION:Zabezpieczenie logistyczne\nRodzaj: ćwiczenia\nProwadzący: p
+ płk dr inż. Bużantowicz Witold\nNr zajęć: 5/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:524a11b643ce05c9126381c2@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270129T095000
+DTEND;TZID=Europe/Warsaw:20270129T112500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nProwadzący: mgr Kęp
+ niak Krzysztof\nNr zajęć: 40/40\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1a95ce0f47c1b64caf684823@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270129T114000
+DTEND;TZID=Europe/Warsaw:20270129T131500
+SUMMARY:Mswdp (ć)
+LOCATION:95 S
+DESCRIPTION:Modelowanie i symulacja we wspomaganiu decyzji na polu walki\n
+ Rodzaj: ćwiczenia\nProwadzący: mgr inż. Maślanik Dawid\nNr zajęć: 7
+ /8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:753f0f30343d094de8c5c5f5@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270129T133000
+DTEND;TZID=Europe/Warsaw:20270129T150500
+SUMMARY:Mswdp (ć)
+LOCATION:95 S
+DESCRIPTION:Modelowanie i symulacja we wspomaganiu decyzji na polu walki\n
+ Rodzaj: ćwiczenia\nProwadzący: mgr inż. Maślanik Dawid\nNr zajęć: 8
+ /8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d7d34d85a6ab8bade771c17f@wat-plan
+DTSTAMP:20261126T155719Z
+DTSTART;TZID=Europe/Warsaw:20270130T095000
+DTEND;TZID=Europe/Warsaw:20270130T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 14/14\nB
+ lok: 2
+END:VEVENT
+END:VCALENDAR

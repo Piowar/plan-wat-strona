@@ -1,0 +1,695 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WME23MD1N1
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:80d3bd570a4050536d63804f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261003T080000
+DTEND;TZID=Europe/Warsaw:20261003T093500
+SUMMARY:Zśie (w)
+LOCATION:1/ 19
+DESCRIPTION:Zarządzanie środowiskiem i ekologia\nRodzaj: wykład\nProwad
+ zący: dr inż. Senyk Szymon\nNr zajęć: 1/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4c42059dbb0b76a8771158e2@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261003T095000
+DTEND;TZID=Europe/Warsaw:20261003T112500
+SUMMARY:Zśie (w)
+LOCATION:1/ 19
+DESCRIPTION:Zarządzanie środowiskiem i ekologia\nRodzaj: wykład\nProwad
+ zący: dr inż. Senyk Szymon\nNr zajęć: 2/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:63214c209b2bc6e5ee2544e6@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261003T114000
+DTEND;TZID=Europe/Warsaw:20261003T131500
+SUMMARY:PrM (w)
+LOCATION:2.42/ 54A
+DESCRIPTION:Projektowanie mechanizmów\nRodzaj: wykład\nProwadzący: dr i
+ nż. Krogul Piotr\nNr zajęć: 1/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a12ff88b3c689d3359bbb6dc@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261003T133000
+DTEND;TZID=Europe/Warsaw:20261003T150500
+SUMMARY:PrM (w)
+LOCATION:2.42/ 54A
+DESCRIPTION:Projektowanie mechanizmów\nRodzaj: wykład\nProwadzący: dr i
+ nż. Krogul Piotr\nNr zajęć: 2/2\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:dc07260f1e0ee7c4c9fe7704@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261003T152000
+DTEND;TZID=Europe/Warsaw:20261003T165500
+SUMMARY:Sd. (S)
+LOCATION:120/ 54
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: ppłk d
+ r inż. Ślęzak Tomasz\nNr zajęć: 1/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:41a8d9dacd536663bc7e6d88@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261003T171000
+DTEND;TZID=Europe/Warsaw:20261003T184500
+SUMMARY:Sd. (S)
+LOCATION:120/ 54
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: ppłk d
+ r inż. Ślęzak Tomasz\nNr zajęć: 2/7\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:f902426621833ab4c46d362c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261004T080000
+DTEND;TZID=Europe/Warsaw:20261004T093500
+SUMMARY:PrM (L)
+LOCATION:2.14/ 54A
+DESCRIPTION:Projektowanie mechanizmów\nRodzaj: laboratorium\nProwadzący:
+  dr inż. Krogul Piotr\nNr zajęć: 1/14\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:470792f2db5db3d3985d35be@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261004T095000
+DTEND;TZID=Europe/Warsaw:20261004T112500
+SUMMARY:PrM (L)
+LOCATION:2.14/ 54A
+DESCRIPTION:Projektowanie mechanizmów\nRodzaj: laboratorium\nProwadzący:
+  dr inż. Krogul Piotr\nNr zajęć: 2/14\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:54d4fbc88c4cb03c2693cf4c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261018T080000
+DTEND;TZID=Europe/Warsaw:20261018T093500
+SUMMARY:PrM (L)
+LOCATION:2.14/ 54A
+DESCRIPTION:Projektowanie mechanizmów\nRodzaj: laboratorium\nProwadzący:
+  dr inż. Krogul Piotr\nNr zajęć: 3/14\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:555d1d4b7a85ed04fd217594@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261018T095000
+DTEND;TZID=Europe/Warsaw:20261018T112500
+SUMMARY:PrM (L)
+LOCATION:2.14/ 54A
+DESCRIPTION:Projektowanie mechanizmów\nRodzaj: laboratorium\nProwadzący:
+  dr inż. Krogul Piotr\nNr zajęć: 4/14\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ff8a8961c743b47a158e0cb2@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261018T114000
+DTEND;TZID=Europe/Warsaw:20261018T131500
+SUMMARY:PrM (L)
+LOCATION:2.14/ 54A
+DESCRIPTION:Projektowanie mechanizmów\nRodzaj: laboratorium\nProwadzący:
+  dr inż. Krogul Piotr\nNr zajęć: 5/14\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7d4a188012e30d0486d08197@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261018T133000
+DTEND;TZID=Europe/Warsaw:20261018T150500
+SUMMARY:SiNBM (w)
+LOCATION:5/ 20
+DESCRIPTION:Standaryzacja i normalizacja w budowie maszyn\nRodzaj: wykład
+ \nProwadzący: dr inż. (prof. ucz.) Kowalczyk Stanisław\nNr zajęć: 1/
+ 6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9aeb1c610f45d11f3e568d96@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261024T080000
+DTEND;TZID=Europe/Warsaw:20261024T093500
+SUMMARY:Zśie (w)
+LOCATION:5/ 19
+DESCRIPTION:Zarządzanie środowiskiem i ekologia\nRodzaj: wykład\nProwad
+ zący: dr inż. Senyk Szymon\nNr zajęć: 3/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:53eb2c3ee1873c4485b41549@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261024T095000
+DTEND;TZID=Europe/Warsaw:20261024T112500
+SUMMARY:Zśie (ć)
+LOCATION:5/ 19
+DESCRIPTION:Zarządzanie środowiskiem i ekologia\nRodzaj: ćwiczenia\nPro
+ wadzący: mgr inż. Nogas Patrycja\nNr zajęć: 1/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:672ac75f1f9cf3a690f84f00@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261024T114000
+DTEND;TZID=Europe/Warsaw:20261024T131500
+SUMMARY:Zśie (ć)
+LOCATION:5/ 19
+DESCRIPTION:Zarządzanie środowiskiem i ekologia\nRodzaj: ćwiczenia\nPro
+ wadzący: mgr inż. Nogas Patrycja\nNr zajęć: 2/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0be05f710562245a728cf6d1@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261024T133000
+DTEND;TZID=Europe/Warsaw:20261024T150500
+SUMMARY:XPkm2 (P)
+LOCATION:116/ 54
+DESCRIPTION:XPodstawy konstrukcji maszyn 2\nRodzaj: projekt\nProwadzący: 
+ ppłk dr inż. Ślęzak Tomasz\nNr zajęć: 1/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8a9b1cc8f1cb5c783b184035@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261024T152000
+DTEND;TZID=Europe/Warsaw:20261024T165500
+SUMMARY:XPkm2 (P)
+LOCATION:116/ 54
+DESCRIPTION:XPodstawy konstrukcji maszyn 2\nRodzaj: projekt\nProwadzący: 
+ ppłk dr inż. Ślęzak Tomasz\nNr zajęć: 2/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:78c3046742244fb08e93333c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261025T080000
+DTEND;TZID=Europe/Warsaw:20261025T093500
+SUMMARY:Zśie (w)
+LOCATION:5/ 19
+DESCRIPTION:Zarządzanie środowiskiem i ekologia\nRodzaj: wykład\nProwad
+ zący: dr inż. Senyk Szymon\nNr zajęć: 4/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:dce78b0cb2512b472d1e3473@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261025T095000
+DTEND;TZID=Europe/Warsaw:20261025T112500
+SUMMARY:Zśie (w)
+LOCATION:5/ 19
+DESCRIPTION:Zarządzanie środowiskiem i ekologia\nRodzaj: wykład\nProwad
+ zący: dr inż. Senyk Szymon\nNr zajęć: 5/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4bc3e37f7b064c2f2af4522b@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261025T114000
+DTEND;TZID=Europe/Warsaw:20261025T131500
+SUMMARY:SiNBM (w)
+LOCATION:5/ 20
+DESCRIPTION:Standaryzacja i normalizacja w budowie maszyn\nRodzaj: wykład
+ \nProwadzący: dr inż. (prof. ucz.) Kowalczyk Stanisław\nNr zajęć: 2/
+ 6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:98ed8bb2936bb35bde974b30@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261025T133000
+DTEND;TZID=Europe/Warsaw:20261025T150500
+SUMMARY:XPe (w)
+LOCATION:5/ 20
+DESCRIPTION:XPodstawy eksploatacji\nRodzaj: wykład\nProwadzący: dr hab. 
+ inż.(prof. ucz.) Pszczółkowski Józef\nNr zajęć: 1/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c54809ee8d1213f616a12d1e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261107T080000
+DTEND;TZID=Europe/Warsaw:20261107T093500
+SUMMARY:XPkm2 (P)
+LOCATION:116/ 54
+DESCRIPTION:XPodstawy konstrukcji maszyn 2\nRodzaj: projekt\nProwadzący: 
+ ppłk dr inż. Ślęzak Tomasz\nNr zajęć: 3/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e41c9a65a7e2ac88ec9df760@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261107T095000
+DTEND;TZID=Europe/Warsaw:20261107T112500
+SUMMARY:XPkm2 (P)
+LOCATION:116/ 54
+DESCRIPTION:XPodstawy konstrukcji maszyn 2\nRodzaj: projekt\nProwadzący: 
+ ppłk dr inż. Ślęzak Tomasz\nNr zajęć: 4/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:422c81c25296d4b630f576ac@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261108T080000
+DTEND;TZID=Europe/Warsaw:20261108T093500
+SUMMARY:Sd. (S)
+LOCATION:2.42/ 54A
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Muszyński Tomasz\nNr zajęć: 3/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f08254263ff754eb6ee5076c@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261108T095000
+DTEND;TZID=Europe/Warsaw:20261108T112500
+SUMMARY:SiNBM (w)
+LOCATION:5/ 20
+DESCRIPTION:Standaryzacja i normalizacja w budowie maszyn\nRodzaj: wykład
+ \nProwadzący: dr inż. (prof. ucz.) Kowalczyk Stanisław\nNr zajęć: 3/
+ 6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:64aa7dbf42ca5257a4c974dc@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261108T114000
+DTEND;TZID=Europe/Warsaw:20261108T131500
+SUMMARY:PrM (L)
+LOCATION:2.14/ 54A
+DESCRIPTION:Projektowanie mechanizmów\nRodzaj: laboratorium\nProwadzący:
+  dr inż. Krogul Piotr\nNr zajęć: 6/14\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:fff6de3f943805aff0dbdef6@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261108T133000
+DTEND;TZID=Europe/Warsaw:20261108T150500
+SUMMARY:PrM (L)
+LOCATION:2.14/ 54A
+DESCRIPTION:Projektowanie mechanizmów\nRodzaj: laboratorium\nProwadzący:
+  dr inż. Krogul Piotr\nNr zajęć: 7/14\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f26ce05a1a0bbe686f8615e3@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261114T080000
+DTEND;TZID=Europe/Warsaw:20261114T093500
+SUMMARY:XPe (w)
+LOCATION:5/ 23A
+DESCRIPTION:XPodstawy eksploatacji\nRodzaj: wykład\nProwadzący: dr hab. 
+ inż.(prof. ucz.) Pszczółkowski Józef\nNr zajęć: 2/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2b826f97c8ed11cc6701ddd0@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261114T095000
+DTEND;TZID=Europe/Warsaw:20261114T112500
+SUMMARY:XPe (w)
+LOCATION:6/ 23A
+DESCRIPTION:XPodstawy eksploatacji\nRodzaj: wykład\nProwadzący: dr hab. 
+ inż.(prof. ucz.) Pszczółkowski Józef\nNr zajęć: 3/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:75c31e27eda26686dbe75abc@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261115T114000
+DTEND;TZID=Europe/Warsaw:20261115T131500
+SUMMARY:XPe (ć)
+LOCATION:5/ 20
+DESCRIPTION:XPodstawy eksploatacji\nRodzaj: ćwiczenia\nProwadzący: dr ha
+ b. inż.(prof. ucz.) Pszczółkowski Józef\nNr zajęć: 1/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6f6c341b14f4c36461a86d4a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261121T080000
+DTEND;TZID=Europe/Warsaw:20261121T093500
+SUMMARY:SiNBM (w)
+LOCATION:5/ 20
+DESCRIPTION:Standaryzacja i normalizacja w budowie maszyn\nRodzaj: wykład
+ \nProwadzący: dr inż. (prof. ucz.) Kowalczyk Stanisław\nNr zajęć: 4/
+ 6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f98a838cae3d9c3900cddbca@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261121T095000
+DTEND;TZID=Europe/Warsaw:20261121T112500
+SUMMARY:PrM (L)
+LOCATION:2.14/ 54A
+DESCRIPTION:Projektowanie mechanizmów\nRodzaj: laboratorium\nProwadzący:
+  dr inż. Krogul Piotr\nNr zajęć: 8/14\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:565cbd71391cdfe14c0c024d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261121T114000
+DTEND;TZID=Europe/Warsaw:20261121T131500
+SUMMARY:PrM (L)
+LOCATION:2.14/ 54A
+DESCRIPTION:Projektowanie mechanizmów\nRodzaj: laboratorium\nProwadzący:
+  dr inż. Krogul Piotr\nNr zajęć: 9/14\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:217ab64a6634dd6c859e53f6@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261121T133000
+DTEND;TZID=Europe/Warsaw:20261121T150500
+SUMMARY:PrM (L)
+LOCATION:2.14/ 54A
+DESCRIPTION:Projektowanie mechanizmów\nRodzaj: laboratorium\nProwadzący:
+  dr inż. Krogul Piotr\nNr zajęć: 10/14\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ecccda13467d2971b1d0a48d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261121T152000
+DTEND;TZID=Europe/Warsaw:20261121T165500
+SUMMARY:Sd. (S)
+LOCATION:2.42/ 54A
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Rubiec Arkadiusz\nNr zajęć: 4/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:e9996f427e01907ccf82368f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261121T171000
+DTEND;TZID=Europe/Warsaw:20261121T184500
+SUMMARY:Sd. (S)
+LOCATION:2.42/ 54A
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: dr inż
+ . Rubiec Arkadiusz\nNr zajęć: 5/7\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:c5060c988f326dfa9ab7d29d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261122T080000
+DTEND;TZID=Europe/Warsaw:20261122T093500
+SUMMARY:XPkm2 (P)
+LOCATION:116/ 54
+DESCRIPTION:XPodstawy konstrukcji maszyn 2\nRodzaj: projekt\nProwadzący: 
+ ppłk dr inż. Ślęzak Tomasz\nNr zajęć: 5/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:597f1f1417ff8d2150098eb8@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261122T095000
+DTEND;TZID=Europe/Warsaw:20261122T112500
+SUMMARY:XPkm2 (P)
+LOCATION:116/ 54
+DESCRIPTION:XPodstawy konstrukcji maszyn 2\nRodzaj: projekt\nProwadzący: 
+ ppłk dr inż. Ślęzak Tomasz\nNr zajęć: 6/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7acced10ea9fd6c953784125@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261122T114000
+DTEND;TZID=Europe/Warsaw:20261122T131500
+SUMMARY:SiNBM (ć)
+LOCATION:5/ 20
+DESCRIPTION:Standaryzacja i normalizacja w budowie maszyn\nRodzaj: ćwicze
+ nia\nProwadzący: dr inż. (prof. ucz.) Kowalczyk Stanisław\nNr zajęć:
+  1/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c6a0bb747a805a5763b6155f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261122T133000
+DTEND;TZID=Europe/Warsaw:20261122T150500
+SUMMARY:SiNBM (w)
+LOCATION:5/ 20
+DESCRIPTION:Standaryzacja i normalizacja w budowie maszyn\nRodzaj: wykład
+ \nProwadzący: dr inż. (prof. ucz.) Kowalczyk Stanisław\nNr zajęć: 5/
+ 6\nBlok: 4\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:ba14c24920ce42aa64608989@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261205T080000
+DTEND;TZID=Europe/Warsaw:20261205T093500
+SUMMARY:Zśie (w)
+LOCATION:5/ 19
+DESCRIPTION:Zarządzanie środowiskiem i ekologia\nRodzaj: wykład\nProwad
+ zący: dr inż. Senyk Szymon\nNr zajęć: 6/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:19bc4bafa0fa327f95b9ffca@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261205T095000
+DTEND;TZID=Europe/Warsaw:20261205T112500
+SUMMARY:PrM (L)
+LOCATION:2.14/ 54A
+DESCRIPTION:Projektowanie mechanizmów\nRodzaj: laboratorium\nProwadzący:
+  dr inż. Krogul Piotr\nNr zajęć: 11/14\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f02bf194bbce7fac176e4f04@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261205T114000
+DTEND;TZID=Europe/Warsaw:20261205T131500
+SUMMARY:PrM (L)
+LOCATION:2.14/ 54A
+DESCRIPTION:Projektowanie mechanizmów\nRodzaj: laboratorium\nProwadzący:
+  dr inż. Krogul Piotr\nNr zajęć: 12/14\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6160c6fb97bd0fadb803b2d6@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261205T133000
+DTEND;TZID=Europe/Warsaw:20261205T150500
+SUMMARY:SiNBM (ć)
+LOCATION:1/ 21
+DESCRIPTION:Standaryzacja i normalizacja w budowie maszyn\nRodzaj: ćwicze
+ nia\nProwadzący: dr inż. Chrzanowski Wojciech\nNr zajęć: 2/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:70af4d609c5ac8b23d43ef8a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261205T152000
+DTEND;TZID=Europe/Warsaw:20261205T165500
+SUMMARY:SiNBM (w)
+LOCATION:42/ 20
+DESCRIPTION:Standaryzacja i normalizacja w budowie maszyn\nRodzaj: wykład
+ \nProwadzący: dr inż. (prof. ucz.) Kowalczyk Stanisław\nNr zajęć: 6/
+ 6\nBlok: 5\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:c1e57d98db9e64de8d58ebdf@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261205T171000
+DTEND;TZID=Europe/Warsaw:20261205T184500
+SUMMARY:XPe (w)
+LOCATION:6/ 23A
+DESCRIPTION:XPodstawy eksploatacji\nRodzaj: wykład\nProwadzący: dr hab. 
+ inż.(prof. ucz.) Pszczółkowski Józef\nNr zajęć: 4/7\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:e7cae78ac5ac67260bdf1714@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261205T190000
+DTEND;TZID=Europe/Warsaw:20261205T203500
+SUMMARY:XPe (ć)
+LOCATION:6/ 23A
+DESCRIPTION:XPodstawy eksploatacji\nRodzaj: ćwiczenia\nProwadzący: dr ha
+ b. inż.(prof. ucz.) Pszczółkowski Józef\nNr zajęć: 2/4\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:ba46f678cac11d94f4f03ce9@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261206T133000
+DTEND;TZID=Europe/Warsaw:20261206T150500
+SUMMARY:XPe (w)
+LOCATION:6/ 23A
+DESCRIPTION:XPodstawy eksploatacji\nRodzaj: wykład\nProwadzący: dr hab. 
+ inż.(prof. ucz.) Pszczółkowski Józef\nNr zajęć: 5/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b1201bc86547b98c96fdc3ea@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261206T152000
+DTEND;TZID=Europe/Warsaw:20261206T165500
+SUMMARY:XPe (ć)
+LOCATION:6/ 23A
+DESCRIPTION:XPodstawy eksploatacji\nRodzaj: ćwiczenia\nProwadzący: dr ha
+ b. inż.(prof. ucz.) Pszczółkowski Józef\nNr zajęć: 3/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:38a40100c3e9d81888516f12@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261212T080000
+DTEND;TZID=Europe/Warsaw:20261212T093500
+SUMMARY:PrM (L)
+LOCATION:2.14/ 54A
+DESCRIPTION:Projektowanie mechanizmów\nRodzaj: laboratorium\nProwadzący:
+  dr inż. Krogul Piotr\nNr zajęć: 13/14\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:96299778ab12af2ae88e76b4@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261212T095000
+DTEND;TZID=Europe/Warsaw:20261212T112500
+SUMMARY:PrM (L)
+LOCATION:2.14/ 54A
+DESCRIPTION:Projektowanie mechanizmów\nRodzaj: laboratorium\nProwadzący:
+  dr inż. Krogul Piotr\nNr zajęć: 14/14\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4becca6c7bb2996c02d9b622@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261212T114000
+DTEND;TZID=Europe/Warsaw:20261212T131500
+SUMMARY:Zśie (S)
+LOCATION:5/ 19
+DESCRIPTION:Zarządzanie środowiskiem i ekologia\nRodzaj: seminarium\nPro
+ wadzący: dr inż. Senyk Szymon\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:486593db4ef54e86cb531d2f@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261212T133000
+DTEND;TZID=Europe/Warsaw:20261212T150500
+SUMMARY:SiNBM (ć)
+LOCATION:1/ 21
+DESCRIPTION:Standaryzacja i normalizacja w budowie maszyn\nRodzaj: ćwicze
+ nia\nProwadzący: dr inż. Chrzanowski Wojciech\nNr zajęć: 3/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d56dd6691ed0e6f475304cdb@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261213T080000
+DTEND;TZID=Europe/Warsaw:20261213T093500
+SUMMARY:XPkm2 (P)
+LOCATION:116/ 54
+DESCRIPTION:XPodstawy konstrukcji maszyn 2\nRodzaj: projekt\nProwadzący: 
+ ppłk dr inż. Ślęzak Tomasz\nNr zajęć: 7/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:44a1dd09f0453750413d4063@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261213T095000
+DTEND;TZID=Europe/Warsaw:20261213T112500
+SUMMARY:XPkm2 (P)
+LOCATION:116/ 54
+DESCRIPTION:XPodstawy konstrukcji maszyn 2\nRodzaj: projekt\nProwadzący: 
+ ppłk dr inż. Ślęzak Tomasz\nNr zajęć: 8/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4abe80d58d7541fff2ca1e5d@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261213T133000
+DTEND;TZID=Europe/Warsaw:20261213T150500
+SUMMARY:XPe (w)
+LOCATION:6/ 23A
+DESCRIPTION:XPodstawy eksploatacji\nRodzaj: wykład\nProwadzący: dr hab. 
+ inż.(prof. ucz.) Pszczółkowski Józef\nNr zajęć: 6/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:20d36dda4e12f72db2eb7b10@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261213T152000
+DTEND;TZID=Europe/Warsaw:20261213T165500
+SUMMARY:XPe (ć)
+LOCATION:6/ 23A
+DESCRIPTION:XPodstawy eksploatacji\nRodzaj: ćwiczenia\nProwadzący: dr ha
+ b. inż.(prof. ucz.) Pszczółkowski Józef\nNr zajęć: 4/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:7ed2d0dd8c652f2398120706@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261219T080000
+DTEND;TZID=Europe/Warsaw:20261219T093500
+SUMMARY:Zśie (Zp. Ćw)
+LOCATION:5/ 19
+DESCRIPTION:Zarządzanie środowiskiem i ekologia\nProwadzący: mgr inż. 
+ Nogas Patrycja\nNr zajęć: 1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:10643d77b9efa866c2bc1a14@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261219T095000
+DTEND;TZID=Europe/Warsaw:20261219T112500
+SUMMARY:PrM (Zp.)
+LOCATION:2.14/ 54A
+DESCRIPTION:Projektowanie mechanizmów\nRodzaj: zaliczenie poprawkowe\nPro
+ wadzący: dr inż. Krogul Piotr\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6aaa0a81f0d841c31d7bfee2@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261219T114000
+DTEND;TZID=Europe/Warsaw:20261219T131500
+SUMMARY:SiNBM (Zp. Ćw)
+LOCATION:1/ 21
+DESCRIPTION:Standaryzacja i normalizacja w budowie maszyn\nProwadzący: dr
+  inż. Chrzanowski Wojciech\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:effd6d0422e7a562e324865e@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261219T133000
+DTEND;TZID=Europe/Warsaw:20261219T150500
+SUMMARY:XPe (w)
+LOCATION:6/ 23A
+DESCRIPTION:XPodstawy eksploatacji\nRodzaj: wykład\nProwadzący: dr hab. 
+ inż.(prof. ucz.) Pszczółkowski Józef\nNr zajęć: 7/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4a68dce3aee14d1948a79fd1@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20261219T152000
+DTEND;TZID=Europe/Warsaw:20261219T165500
+SUMMARY:XPkm2 (E)
+LOCATION:51/ 62
+DESCRIPTION:XPodstawy konstrukcji maszyn 2\nRodzaj: egzamin\nProwadzący: 
+ prof. dr hab. inż. Bogdanowicz Zdzisław\nNr zajęć: 1/1\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:7bd52a0d5c78a7a71b1b8676@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270109T080000
+DTEND;TZID=Europe/Warsaw:20270109T093500
+SUMMARY:SiNBM (Zp.)
+LOCATION:5/ 20
+DESCRIPTION:Standaryzacja i normalizacja w budowie maszyn\nRodzaj: zalicze
+ nie poprawkowe\nProwadzący: dr inż. (prof. ucz.) Kowalczyk Stanisław\n
+ Nr zajęć: 1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:37872e219f1f2d07daa4360a@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270109T095000
+DTEND;TZID=Europe/Warsaw:20270109T112500
+SUMMARY:Zśie (Zp.)
+LOCATION:1/ 19
+DESCRIPTION:Zarządzanie środowiskiem i ekologia\nRodzaj: zaliczenie popr
+ awkowe\nProwadzący: dr inż. Senyk Szymon\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c3ee68efcce3e5ab8162e6cb@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270109T114000
+DTEND;TZID=Europe/Warsaw:20270109T131500
+SUMMARY:Sd. (S)
+LOCATION:116/ 54
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: ppłk d
+ r inż. Ślęzak Tomasz\nNr zajęć: 6/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:bc4cad4d6ce2c4325616f7b1@wat-plan
+DTSTAMP:20261126T134029Z
+DTSTART;TZID=Europe/Warsaw:20270109T133000
+DTEND;TZID=Europe/Warsaw:20270109T150500
+SUMMARY:Sd. (S)
+LOCATION:116/ 54
+DESCRIPTION:Seminarium dyplomowe\nRodzaj: seminarium\nProwadzący: ppłk d
+ r inż. Ślęzak Tomasz\nNr zajęć: 7/7\nBlok: 4
+END:VEVENT
+END:VCALENDAR

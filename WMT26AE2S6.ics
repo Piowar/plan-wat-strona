@@ -1,0 +1,1892 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WMT26AE2S6
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:6bd93a01dcbe5c00ab7514a2@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261209T080000
+DTEND;TZID=Europe/Warsaw:20261209T093500
+SUMMARY:PD (w)
+LOCATION:AW 3/043
+DESCRIPTION:Podstawy dowodzenia\nRodzaj: wykład\nProwadzący: ppłk rez. 
+ mgr Pytlos Dariusz\nNr zajęć: 1/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:50b6d953d85395c2f5b7ad51@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261209T095000
+DTEND;TZID=Europe/Warsaw:20261209T112500
+SUMMARY:TA (w)
+LOCATION:103 K
+DESCRIPTION:TAKTYKA\nRodzaj: wykład\nProwadzący: ppłk rez. mgr Czarneck
+ i Jarosław\nNr zajęć: 1/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:91bf548a68fab559de47ec43@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261209T114000
+DTEND;TZID=Europe/Warsaw:20261209T131500
+SUMMARY:TA (w)
+LOCATION:103 K
+DESCRIPTION:TAKTYKA\nRodzaj: wykład\nProwadzący: ppłk rez. mgr Czarneck
+ i Jarosław\nNr zajęć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:162e661ded38e1c4a8070a62@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261209T133000
+DTEND;TZID=Europe/Warsaw:20261209T150500
+SUMMARY:DSiSM (w)
+LOCATION:AW 3/043
+DESCRIPTION:Działalność szkoleniowa i szkoleniowo-metodyczna\nRodzaj: w
+ ykład\nProwadzący: płk dr Niemirka Sławomir\nNr zajęć: 1/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:34d4b8ee5141b4f17a660eff@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261210T095000
+DTEND;TZID=Europe/Warsaw:20261210T112500
+SUMMARY:OPBMR (w)
+LOCATION:1 55A
+DESCRIPTION:Obrona przed bronią masowego rażenia\nRodzaj: wykład\nProwa
+ dzący: ppor. dr hab. Łapińska Anna\nNr zajęć: 1/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0b33c3136af5262ba1d62bf6@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261211T080000
+DTEND;TZID=Europe/Warsaw:20261211T093500
+SUMMARY:PD (w)
+LOCATION:AW 7
+DESCRIPTION:Podstawy dowodzenia\nRodzaj: wykład\nProwadzący: ppłk rez. 
+ mgr Pytlos Dariusz\nNr zajęć: 2/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e33686181a0a20a4bd5d2754@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261211T095000
+DTEND;TZID=Europe/Warsaw:20261211T112500
+SUMMARY:REG (S)
+LOCATION:AW 3/038
+DESCRIPTION:Regulaminy SZ RP\nRodzaj: seminarium\nProwadzący: ppłk rez. 
+ mgr Bomba Marcin\nNr zajęć: 1/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:bf4343794c16d3595d8746c2@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261211T114000
+DTEND;TZID=Europe/Warsaw:20261211T131500
+SUMMARY:Oś (w)
+LOCATION:111 58
+DESCRIPTION:Ochrona środowiska\nRodzaj: wykład\nProwadzący: mgr inż. R
+ yczkowski Dariusz\nNr zajęć: 1/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2d2d899723909fd85cc78fef@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261211T133000
+DTEND;TZID=Europe/Warsaw:20261211T150500
+SUMMARY:OIN (w)
+LOCATION:103 K
+DESCRIPTION:Ochrona informacji niejawnych\nRodzaj: wykład\nProwadzący: p
+ płk mgr inż. Grądziel Grzegorz\nNr zajęć: 1/2\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:154ddff25d32495aeb03eb4a@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261211T160000
+DTEND;TZID=Europe/Warsaw:20261211T173500
+SUMMARY:GMiB (w)
+LOCATION:103 K
+DESCRIPTION:Gotowość mobilizacyjna i bojowa\nRodzaj: wykład\nProwadząc
+ y: ppłk mgr Lasak Michał\nNr zajęć: 1/3\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:cac3db13d3c835f34d90f93e@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261212T080000
+DTEND;TZID=Europe/Warsaw:20261212T093500
+SUMMARY:DSiSM (w)
+LOCATION:aula/ 135
+DESCRIPTION:Działalność szkoleniowa i szkoleniowo-metodyczna\nRodzaj: w
+ ykład\nProwadzący: dr Klimek Krzysztof\nNr zajęć: 2/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:44c8ba012484472eaaf58484@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261214T080000
+DTEND;TZID=Europe/Warsaw:20261214T093500
+SUMMARY:PoKoSt (w)
+LOCATION:0.19/ 135
+DESCRIPTION:Podstawy Komunikacji Strategicznej\nRodzaj: wykład\nProwadzą
+ cy: dr Skulska Joanna\nNr zajęć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:caa319cfdadd355569c389de@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261214T095000
+DTEND;TZID=Europe/Warsaw:20261214T112500
+SUMMARY:Bepzw (w)
+LOCATION:101 63A
+DESCRIPTION:Budowa i eksploatacja PZR Wisła\nRodzaj: wykład\nProwadzący
+ : por. mgr inż. Karpiński Michał\nNr zajęć: 1/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:916c40746187df883c1bb2c8@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261214T114000
+DTEND;TZID=Europe/Warsaw:20261214T131500
+SUMMARY:Bepzw (w)
+LOCATION:101 63A
+DESCRIPTION:Budowa i eksploatacja PZR Wisła\nRodzaj: wykład\nProwadzący
+ : por. mgr inż. Karpiński Michał\nNr zajęć: 2/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3427b4dfd1d6985bae0097e8@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261215T080000
+DTEND;TZID=Europe/Warsaw:20261215T093500
+SUMMARY:W.ST (w)
+LOCATION:AW 3/043
+DESCRIPTION:Rodzaj: wykład\nProwadzący: PODS\nNr zajęć: 1/1\nBlok: 1\n
+ Uwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:54ecb2e89e3060a4786b4246@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261215T095000
+DTEND;TZID=Europe/Warsaw:20261215T112500
+SUMMARY:W.ST (ć)
+LOCATION:PODS
+DESCRIPTION:Rodzaj: ćwiczenia\nProwadzący: POLIGON\nNr zajęć: 1/6\nBlo
+ k: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:46ac6c9b3857ad8a7a5990d3@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261215T114000
+DTEND;TZID=Europe/Warsaw:20261215T131500
+SUMMARY:W.ST (ć)
+LOCATION:PODS
+DESCRIPTION:Rodzaj: ćwiczenia\nProwadzący: POLIGON\nNr zajęć: 2/6\nBlo
+ k: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:62570bf858b4a0d8b0c59248@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261215T133000
+DTEND;TZID=Europe/Warsaw:20261215T150500
+SUMMARY:W.ST (ć)
+LOCATION:PODS
+DESCRIPTION:Rodzaj: ćwiczenia\nProwadzący: POLIGON\nNr zajęć: 3/6\nBlo
+ k: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a9ba69e15cc7cbaee7928b93@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261215T160000
+DTEND;TZID=Europe/Warsaw:20261215T173500
+SUMMARY:W.ST (ć)
+LOCATION:PODS
+DESCRIPTION:Rodzaj: ćwiczenia\nProwadzący: POLIGON\nNr zajęć: 4/6\nBlo
+ k: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:42462e97b8eac57efca90d74@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261215T175000
+DTEND;TZID=Europe/Warsaw:20261215T192500
+SUMMARY:W.ST (ć)
+LOCATION:PODS
+DESCRIPTION:Rodzaj: ćwiczenia\nProwadzący: POLIGON\nNr zajęć: 5/6\nBlo
+ k: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:8db0cafa6319ca3124354671@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261215T194000
+DTEND;TZID=Europe/Warsaw:20261215T211500
+SUMMARY:W.ST (ć)
+LOCATION:PODS
+DESCRIPTION:Rodzaj: ćwiczenia\nProwadzący: POLIGON\nNr zajęć: 6/6\nBlo
+ k: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:24e56fa8d9e282888e639325@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261216T080000
+DTEND;TZID=Europe/Warsaw:20261216T093500
+SUMMARY:Pwo (w)
+LOCATION:46 63
+DESCRIPTION:Połączone wsparcie ogniowe\nRodzaj: wykład\nProwadzący: kp
+ t. mgr inż. Piasta Krzysztof\nNr zajęć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:532a4560aaecad18a0b96068@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261216T095000
+DTEND;TZID=Europe/Warsaw:20261216T112500
+SUMMARY:Bepzw (w)
+LOCATION:101 63A
+DESCRIPTION:Budowa i eksploatacja PZR Wisła\nRodzaj: wykład\nProwadzący
+ : por. mgr inż. Karpiński Michał\nNr zajęć: 3/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:067f103423ad9fe46c2e7bb9@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261216T114000
+DTEND;TZID=Europe/Warsaw:20261216T131500
+SUMMARY:Bepzw (w)
+LOCATION:101 63A
+DESCRIPTION:Budowa i eksploatacja PZR Wisła\nRodzaj: wykład\nProwadzący
+ : por. mgr inż. Dyjak Jakub\nNr zajęć: 4/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7482ff675d6198b234dc517e@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261217T095000
+DTEND;TZID=Europe/Warsaw:20261217T112500
+SUMMARY:OPBMR (w)
+LOCATION:1 55A
+DESCRIPTION:Obrona przed bronią masowego rażenia\nRodzaj: wykład\nProwa
+ dzący: ppor. dr hab. Łapińska Anna\nNr zajęć: 2/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d140948d54e3ab8bfce00eb8@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261217T114000
+DTEND;TZID=Europe/Warsaw:20261217T131500
+SUMMARY:DSiSM (w)
+LOCATION:103 K
+DESCRIPTION:Działalność szkoleniowa i szkoleniowo-metodyczna\nRodzaj: w
+ ykład\nProwadzący: ppłk mgr inż. Grądziel Grzegorz\nNr zajęć: 3/4\
+ nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a32b7f42b85aff628d9dd6b6@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261217T133000
+DTEND;TZID=Europe/Warsaw:20261217T150500
+SUMMARY:WF (w)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: wykład\nNr zajęć: 1/1\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9ed7a410765ff7df8844abaa@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261218T080000
+DTEND;TZID=Europe/Warsaw:20261218T093500
+SUMMARY:Bepzw (w)
+LOCATION:101 63A
+DESCRIPTION:Budowa i eksploatacja PZR Wisła\nRodzaj: wykład\nProwadzący
+ : kpt. mgr inż. Klicki Kamil\nNr zajęć: 5/11\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2353f230639404522919e445@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261218T095000
+DTEND;TZID=Europe/Warsaw:20261218T112500
+SUMMARY:Bepzw (w)
+LOCATION:101 63A
+DESCRIPTION:Budowa i eksploatacja PZR Wisła\nRodzaj: wykład\nProwadzący
+ : por. mgr inż. Karpiński Michał\nNr zajęć: 6/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e386fa71624408c5c38596a9@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261218T114000
+DTEND;TZID=Europe/Warsaw:20261218T131500
+SUMMARY:ZINŻ (w)
+LOCATION:103 K
+DESCRIPTION:Zabezpieczenie inżynieryjne\nRodzaj: wykład\nProwadzący: pp
+ łk mgr Jurzysta Paweł\nNr zajęć: 1/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b3e4ada424228e024334d48f@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261218T133000
+DTEND;TZID=Europe/Warsaw:20261218T150500
+SUMMARY:RiAIP (w)
+LOCATION:103 K
+DESCRIPTION:Rozpoznanie i Armie Innych Państw\nRodzaj: wykład\nProwadzą
+ cy: ppłk dr Waszkiewicz Grzegorz\nNr zajęć: 1/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:734510ddc1c5322513be2d83@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261221T080000
+DTEND;TZID=Europe/Warsaw:20261221T093500
+SUMMARY:Trit (w)
+LOCATION:325 S
+DESCRIPTION:Technologie radiolokacyjne i radioelektroniczne\nRodzaj: wykł
+ ad\nProwadzący: dr inż. Podciechowski Maciej\nNr zajęć: 1/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1afc3d5eee7a62d723673df0@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261221T095000
+DTEND;TZID=Europe/Warsaw:20261221T112500
+SUMMARY:Bepzw (w)
+LOCATION:101 63A
+DESCRIPTION:Budowa i eksploatacja PZR Wisła\nRodzaj: wykład\nProwadzący
+ : kpt. mgr inż. Klicki Kamil\nNr zajęć: 7/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:742d03ca5a708b120740e09d@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261221T114000
+DTEND;TZID=Europe/Warsaw:20261221T131500
+SUMMARY:Jun. (w)
+LOCATION:103 K
+DESCRIPTION:Rodzaj: wykład\nProwadzący: ZLDT-\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1e149f14017555cfba767a31@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261221T133000
+DTEND;TZID=Europe/Warsaw:20261221T150500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 1/10\nBlo
+ k: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4c38b48c01246e2d47e27c41@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261222T080000
+DTEND;TZID=Europe/Warsaw:20261222T093500
+SUMMARY:Bepzw (ć)
+LOCATION:101 63A
+DESCRIPTION:Budowa i eksploatacja PZR Wisła\nRodzaj: ćwiczenia\nProwadz
+ ący: por. mgr inż. Karpiński Michał\nNr zajęć: 1/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c33a71e1737a15ead9efc836@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261222T114000
+DTEND;TZID=Europe/Warsaw:20261222T131500
+SUMMARY:ZINŻ (w)
+LOCATION:103 K
+DESCRIPTION:Zabezpieczenie inżynieryjne\nRodzaj: wykład\nProwadzący: pp
+ łk mgr Jurzysta Paweł\nNr zajęć: 2/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:421760b61d7fd0c02379afd0@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261223T080000
+DTEND;TZID=Europe/Warsaw:20261223T093500
+SUMMARY:OIN (w)
+LOCATION:103 K
+DESCRIPTION:Ochrona informacji niejawnych\nRodzaj: wykład\nProwadzący: p
+ płk mgr inż. Grądziel Grzegorz\nNr zajęć: 2/2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a442bbaadfded169e156e84c@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261223T095000
+DTEND;TZID=Europe/Warsaw:20261223T112500
+SUMMARY:OPW (w)
+LOCATION:103 K
+DESCRIPTION:Obrona powietrzna\nRodzaj: wykład\nProwadzący: ppłk mgr in
+ ż. Świętochowski Mieczysław\nNr zajęć: 1/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:798f446f1923e0e3b55b1d47@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261228T080000
+DTEND;TZID=Europe/Warsaw:20261228T093500
+SUMMARY:REG (S)
+LOCATION:AW 3/038
+DESCRIPTION:Regulaminy SZ RP\nRodzaj: seminarium\nProwadzący: ppłk rez. 
+ mgr Bomba Marcin\nNr zajęć: 2/2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a4a14901a07e5145dba9732e@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261228T095000
+DTEND;TZID=Europe/Warsaw:20261228T112500
+SUMMARY:Bepzw (w)
+LOCATION:101 63A
+DESCRIPTION:Budowa i eksploatacja PZR Wisła\nRodzaj: wykład\nProwadzący
+ : kpt. mgr inż. Klicki Kamil\nNr zajęć: 8/11\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:58a47dcec55646a8a8fac2a6@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261228T114000
+DTEND;TZID=Europe/Warsaw:20261228T131500
+SUMMARY:Bepzw (ć)
+LOCATION:101 63A
+DESCRIPTION:Budowa i eksploatacja PZR Wisła\nRodzaj: ćwiczenia\nProwadz
+ ący: mgr inż. Szczotka Dawid\nNr zajęć: 2/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9e761c0a377f2a0bba763c5e@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261228T133000
+DTEND;TZID=Europe/Warsaw:20261228T150500
+SUMMARY:Bepzw (ć)
+LOCATION:101 63A
+DESCRIPTION:Budowa i eksploatacja PZR Wisła\nRodzaj: ćwiczenia\nProwadz
+ ący: mgr inż. Szczotka Dawid\nNr zajęć: 3/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:dc45dc169b0ae63d808aafde@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261229T080000
+DTEND;TZID=Europe/Warsaw:20261229T093500
+SUMMARY:ZRwAM (w)
+LOCATION:aula/ 135
+DESCRIPTION:Zarządzanie ryzykiem w aspekcie militarnym\nRodzaj: wykład\n
+ Prowadzący: dr inż. Woźniak Robert\nNr zajęć: 1/2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:72bdb52dfd219f4a6ccf9fd3@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261229T095000
+DTEND;TZID=Europe/Warsaw:20261229T112500
+SUMMARY:Bepzw (ć)
+LOCATION:101 63A
+DESCRIPTION:Budowa i eksploatacja PZR Wisła\nRodzaj: ćwiczenia\nProwadz
+ ący: mgr inż. Jakubik Wojciech\nNr zajęć: 4/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1fe100ecf78ec843e30c1b4a@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261229T114000
+DTEND;TZID=Europe/Warsaw:20261229T131500
+SUMMARY:Bepzw (ć)
+LOCATION:101 63A
+DESCRIPTION:Budowa i eksploatacja PZR Wisła\nRodzaj: ćwiczenia\nProwadz
+ ący: por. mgr inż. Karpiński Michał\nNr zajęć: 5/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:dd4d292723eda73abc93cc4c@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261229T133000
+DTEND;TZID=Europe/Warsaw:20261229T150500
+SUMMARY:Bepzw (ć)
+LOCATION:101 63A
+DESCRIPTION:Budowa i eksploatacja PZR Wisła\nRodzaj: ćwiczenia\nProwadz
+ ący: por. mgr inż. Karpiński Michał\nNr zajęć: 6/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7777806ce97ef764b019144b@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261230T095000
+DTEND;TZID=Europe/Warsaw:20261230T112500
+SUMMARY:OPW (w)
+LOCATION:103 K
+DESCRIPTION:Obrona powietrzna\nRodzaj: wykład\nProwadzący: ppłk mgr in
+ ż. Świętochowski Mieczysław\nNr zajęć: 2/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e3b9f1cbd97e591a99548f72@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261230T114000
+DTEND;TZID=Europe/Warsaw:20261230T131500
+SUMMARY:Bepzw (ć)
+LOCATION:101 63A
+DESCRIPTION:Budowa i eksploatacja PZR Wisła\nRodzaj: ćwiczenia\nProwadz
+ ący: mgr inż. Jakubik Wojciech\nNr zajęć: 7/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5386d61de22b42439fcb61f9@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20261230T133000
+DTEND;TZID=Europe/Warsaw:20261230T150500
+SUMMARY:Bepzw (ć)
+LOCATION:101 63A
+DESCRIPTION:Budowa i eksploatacja PZR Wisła\nRodzaj: ćwiczenia\nProwadz
+ ący: por. mgr inż. Karpiński Michał\nNr zajęć: 8/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:8ec20835090f690bb766429b@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270104T080000
+DTEND;TZID=Europe/Warsaw:20270104T093500
+SUMMARY:Bepzw (ć)
+LOCATION:101 63A
+DESCRIPTION:Budowa i eksploatacja PZR Wisła\nRodzaj: ćwiczenia\nProwadz
+ ący: mgr inż. Szczotka Dawid\nNr zajęć: 9/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:acf8f33933cb46a4cdf42923@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270104T095000
+DTEND;TZID=Europe/Warsaw:20270104T112500
+SUMMARY:GMiB (S)
+LOCATION:AW 3/038
+DESCRIPTION:Gotowość mobilizacyjna i bojowa\nRodzaj: seminarium\nProwadz
+ ący: ppłk mgr Lasak Michał\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5907ccb48fbae0f7af623dd5@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270104T114000
+DTEND;TZID=Europe/Warsaw:20270104T131500
+SUMMARY:Ssdk (w)
+LOCATION:325 S
+DESCRIPTION:Sieciocentryczne systemy dowodzenia i kierowania walką\nRodza
+ j: wykład\nProwadzący: mjr dr inż. Turek Piotr\nNr zajęć: 1/8\nBlok:
+  3
+END:VEVENT
+BEGIN:VEVENT
+UID:7152a69d9eed48d39ad676f5@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270104T133000
+DTEND;TZID=Europe/Warsaw:20270104T150500
+SUMMARY:Ssdk (w)
+LOCATION:325 S
+DESCRIPTION:Sieciocentryczne systemy dowodzenia i kierowania walką\nRodza
+ j: wykład\nProwadzący: mjr dr inż. Turek Piotr\nNr zajęć: 2/8\nBlok:
+  4
+END:VEVENT
+BEGIN:VEVENT
+UID:3034c0e0e503cebfe8efda39@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270105T080000
+DTEND;TZID=Europe/Warsaw:20270105T093500
+SUMMARY:Bepzw (ć)
+LOCATION:101 63A
+DESCRIPTION:Budowa i eksploatacja PZR Wisła\nRodzaj: ćwiczenia\nProwadz
+ ący: mgr inż. Szczotka Dawid\nNr zajęć: 10/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:35e6f483f6cf86a721d43199@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270105T095000
+DTEND;TZID=Europe/Warsaw:20270105T112500
+SUMMARY:Bepzw (ć)
+LOCATION:101 63A
+DESCRIPTION:Budowa i eksploatacja PZR Wisła\nRodzaj: ćwiczenia\nProwadz
+ ący: mgr inż. Jakubik Wojciech\nNr zajęć: 11/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9e4b56f542fe8a98e0365741@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270105T114000
+DTEND;TZID=Europe/Warsaw:20270105T131500
+SUMMARY:PESW (w)
+LOCATION:33 67
+DESCRIPTION:Podstawy eksploatacji sprzętu wojskowego (SpW)\nRodzaj: wykł
+ ad\nProwadzący: płk dr inż. Zahor Mirosław\nNr zajęć: 1/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c77e05a949aec3c96666d5fc@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270107T080000
+DTEND;TZID=Europe/Warsaw:20270107T093500
+SUMMARY:RiAIP (w)
+LOCATION:103 K
+DESCRIPTION:Rozpoznanie i Armie Innych Państw\nRodzaj: wykład\nProwadzą
+ cy: ppłk dr Waszkiewicz Grzegorz\nNr zajęć: 2/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:44e2876dd109beb6b15d73a3@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270107T095000
+DTEND;TZID=Europe/Warsaw:20270107T112500
+SUMMARY:PoCy (w)
+LOCATION:313 S
+DESCRIPTION:Podstawy cyberbezpieczeństwa\nRodzaj: wykład\nProwadzący: d
+ r hab. inż. Marczyk Maciej\nNr zajęć: 1/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:69e8a7f0a22969be7424fada@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270107T114000
+DTEND;TZID=Europe/Warsaw:20270107T131500
+SUMMARY:TA (ć)
+LOCATION:AW 7
+DESCRIPTION:TAKTYKA\nRodzaj: ćwiczenia\nProwadzący: ppłk rez. mgr Czarn
+ ecki Jarosław\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:65173f3272181134db8976ad@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270107T133000
+DTEND;TZID=Europe/Warsaw:20270107T150500
+SUMMARY:Bepzw (ć)
+LOCATION:101 63A
+DESCRIPTION:Budowa i eksploatacja PZR Wisła\nRodzaj: ćwiczenia\nProwadz
+ ący: mgr inż. Jakubik Wojciech\nNr zajęć: 12/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d4a3d69c40ec33800e4c3683@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270108T080000
+DTEND;TZID=Europe/Warsaw:20270108T093500
+SUMMARY:Bepzw (w)
+LOCATION:101 63A
+DESCRIPTION:Budowa i eksploatacja PZR Wisła\nRodzaj: wykład\nProwadzący
+ : kpt. mgr inż. Klicki Kamil\nNr zajęć: 9/11\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1d37b478b6959c632e112f99@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270108T095000
+DTEND;TZID=Europe/Warsaw:20270108T112500
+SUMMARY:Oś (w)
+LOCATION:111 58
+DESCRIPTION:Ochrona środowiska\nRodzaj: wykład\nProwadzący: mgr inż. R
+ yczkowski Dariusz\nNr zajęć: 2/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:541fe02c44986e0886324f6b@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270108T114000
+DTEND;TZID=Europe/Warsaw:20270108T131500
+SUMMARY:PD (w)
+LOCATION:AW 3/038
+DESCRIPTION:Podstawy dowodzenia\nRodzaj: wykład\nProwadzący: ppłk rez. 
+ mgr Pytlos Dariusz\nNr zajęć: 3/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a2c3c529139562b0fbf6c000@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270108T133000
+DTEND;TZID=Europe/Warsaw:20270108T150500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 2/10\nBlo
+ k: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7465997d00521bd9fae3ec94@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270111T080000
+DTEND;TZID=Europe/Warsaw:20270111T093500
+SUMMARY:Bepzw (ć)
+LOCATION:101 63A
+DESCRIPTION:Budowa i eksploatacja PZR Wisła\nRodzaj: ćwiczenia\nProwadz
+ ący: mgr inż. Szczotka Dawid\nNr zajęć: 13/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:31b880adf2838d995fd83a7c@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270111T095000
+DTEND;TZID=Europe/Warsaw:20270111T112500
+SUMMARY:Pwo (w)
+LOCATION:46 63
+DESCRIPTION:Połączone wsparcie ogniowe\nRodzaj: wykład\nProwadzący: kp
+ t. mgr inż. Piasta Krzysztof\nNr zajęć: 2/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:cddfedddb79c024d3b265b5f@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270111T114000
+DTEND;TZID=Europe/Warsaw:20270111T131500
+SUMMARY:Pwo (w)
+LOCATION:46 63
+DESCRIPTION:Połączone wsparcie ogniowe\nRodzaj: wykład\nProwadzący: kp
+ t. mgr inż. Piasta Krzysztof\nNr zajęć: 3/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c8d6c5963444611488dc17cb@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270111T133000
+DTEND;TZID=Europe/Warsaw:20270111T150500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 3/10\nBlo
+ k: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0c82f3396495a06ccc05efed@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270111T160000
+DTEND;TZID=Europe/Warsaw:20270111T173500
+SUMMARY:DSiSM (w)
+LOCATION:0.24/ 135
+DESCRIPTION:Działalność szkoleniowa i szkoleniowo-metodyczna\nRodzaj: w
+ ykład\nProwadzący: dr Klimek Krzysztof\nNr zajęć: 4/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:a14480d44e942e65d148de22@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270112T080000
+DTEND;TZID=Europe/Warsaw:20270112T093500
+SUMMARY:DSiSM (ć)
+LOCATION:PĆT1
+DESCRIPTION:Działalność szkoleniowa i szkoleniowo-metodyczna\nRodzaj: 
+ ćwiczenia\nProwadzący: mjr mgr Nawalicki Piotr\nNr zajęć: 1/6\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:316da57692a49c2f1eb13aa2@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270112T114000
+DTEND;TZID=Europe/Warsaw:20270112T131500
+SUMMARY:PD (ć)
+LOCATION:AW 3/038
+DESCRIPTION:Podstawy dowodzenia\nRodzaj: ćwiczenia\nProwadzący: ppłk re
+ z. mgr Pytlos Dariusz\nNr zajęć: 1/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3838d714143a1665918e5f4d@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270112T133000
+DTEND;TZID=Europe/Warsaw:20270112T150500
+SUMMARY:PD (ć)
+LOCATION:AW 3/038
+DESCRIPTION:Podstawy dowodzenia\nRodzaj: ćwiczenia\nProwadzący: ppłk re
+ z. mgr Pytlos Dariusz\nNr zajęć: 2/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9a3d4fc78483f817d6866317@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270113T080000
+DTEND;TZID=Europe/Warsaw:20270113T093500
+SUMMARY:Trit (w)
+LOCATION:325 S
+DESCRIPTION:Technologie radiolokacyjne i radioelektroniczne\nRodzaj: wykł
+ ad\nProwadzący: dr inż. Podciechowski Maciej\nNr zajęć: 2/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:450181a034b6f3ccccf0315b@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270113T095000
+DTEND;TZID=Europe/Warsaw:20270113T112500
+SUMMARY:REG (w)
+LOCATION:AW 3/043
+DESCRIPTION:Regulaminy SZ RP\nRodzaj: wykład\nProwadzący: ppłk rez. mgr
+  Bomba Marcin\nNr zajęć: 1/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:90f92e8fcaa5c1d3dfcfca6e@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270113T114000
+DTEND;TZID=Europe/Warsaw:20270113T131500
+SUMMARY:Pwo (w)
+LOCATION:46 63
+DESCRIPTION:Połączone wsparcie ogniowe\nRodzaj: wykład\nProwadzący: dr
+  inż. Krzyżanowski Sławomir\nNr zajęć: 4/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:10e8f5fd6f7c36db5db809bb@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270113T133000
+DTEND;TZID=Europe/Warsaw:20270113T150500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 4/10\nBlo
+ k: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5c6e277c1d7be64b7a622d42@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270114T080000
+DTEND;TZID=Europe/Warsaw:20270114T093500
+SUMMARY:Ssdk (w)
+LOCATION:325 S
+DESCRIPTION:Sieciocentryczne systemy dowodzenia i kierowania walką\nRodza
+ j: wykład\nProwadzący: mjr dr inż. Turek Piotr\nNr zajęć: 3/8\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:315a315a6f8dccb6b875ea53@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270114T095000
+DTEND;TZID=Europe/Warsaw:20270114T112500
+SUMMARY:PoKoSt (w)
+LOCATION:1.10/ 16
+DESCRIPTION:Podstawy Komunikacji Strategicznej\nRodzaj: wykład\nProwadzą
+ cy: dr Skulska Joanna\nNr zajęć: 2/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2c74ba2f880562eb05fd1cb0@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270114T114000
+DTEND;TZID=Europe/Warsaw:20270114T131500
+SUMMARY:Bepzw (ć)
+LOCATION:101 63A
+DESCRIPTION:Budowa i eksploatacja PZR Wisła\nRodzaj: ćwiczenia\nProwadz
+ ący: por. mgr inż. Dyjak Jakub\nNr zajęć: 14/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b923a714c3a04da1fb2be9ab@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270114T133000
+DTEND;TZID=Europe/Warsaw:20270114T150500
+SUMMARY:Bepzw (ć)
+LOCATION:101 63A
+DESCRIPTION:Budowa i eksploatacja PZR Wisła\nRodzaj: ćwiczenia\nProwadz
+ ący: por. mgr inż. Dyjak Jakub\nNr zajęć: 15/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5f31ea13fb3d3230351b385a@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270115T080000
+DTEND;TZID=Europe/Warsaw:20270115T093500
+SUMMARY:PoKoSt (ć)
+LOCATION:1.10/ 16
+DESCRIPTION:Podstawy Komunikacji Strategicznej\nRodzaj: ćwiczenia\nProwad
+ zący: dr Skulska Joanna\nNr zajęć: 1/2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4ffb16e1f1c526164c57585a@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270115T095000
+DTEND;TZID=Europe/Warsaw:20270115T112500
+SUMMARY:PoKoSt (ć)
+LOCATION:1.10/ 16
+DESCRIPTION:Podstawy Komunikacji Strategicznej\nRodzaj: ćwiczenia\nProwad
+ zący: dr Skulska Joanna\nNr zajęć: 2/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:738edad464249c75ff22d6ba@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270115T114000
+DTEND;TZID=Europe/Warsaw:20270115T131500
+SUMMARY:Bepzw (w)
+LOCATION:101 63A
+DESCRIPTION:Budowa i eksploatacja PZR Wisła\nRodzaj: wykład\nProwadzący
+ : kpt. mgr inż. Klicki Kamil\nNr zajęć: 10/11\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3ca0592bdfba555869702c79@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270115T133000
+DTEND;TZID=Europe/Warsaw:20270115T150500
+SUMMARY:Bepzw (w)
+LOCATION:101 63A
+DESCRIPTION:Budowa i eksploatacja PZR Wisła\nRodzaj: wykład\nProwadzący
+ : kpt. mgr inż. Klicki Kamil\nNr zajęć: 11/11\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2fb56215ef59976835d1f55a@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270116T095000
+DTEND;TZID=Europe/Warsaw:20270116T112500
+SUMMARY:DWiPD (w)
+LOCATION:aula/ 135
+DESCRIPTION:Działalność wychowawcza i profilaktyka dyscyplinarna\nRodza
+ j: wykład\nProwadzący: dr Klimek Krzysztof\nNr zajęć: 1/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:71b774d8cdec87779a23d0fa@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270116T114000
+DTEND;TZID=Europe/Warsaw:20270116T131500
+SUMMARY:DWiPD (w)
+LOCATION:aula/ 135
+DESCRIPTION:Działalność wychowawcza i profilaktyka dyscyplinarna\nRodza
+ j: wykład\nProwadzący: dr Klimek Krzysztof\nNr zajęć: 2/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a2cc22ec5fa47e25edb998d7@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270118T095000
+DTEND;TZID=Europe/Warsaw:20270118T112500
+SUMMARY:DWiPD (ć)
+LOCATION:0.28/ 135
+DESCRIPTION:Działalność wychowawcza i profilaktyka dyscyplinarna\nRodza
+ j: ćwiczenia\nProwadzący: dr Klimek Krzysztof\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4a5110ff50ea82eb4d745cb0@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270118T114000
+DTEND;TZID=Europe/Warsaw:20270118T131500
+SUMMARY:PoCy (w)
+LOCATION:316 S
+DESCRIPTION:Podstawy cyberbezpieczeństwa\nRodzaj: wykład\nProwadzący: d
+ r hab. inż. Marczyk Maciej\nNr zajęć: 2/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7e57580543a14e3cf8d010eb@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270118T133000
+DTEND;TZID=Europe/Warsaw:20270118T150500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 5/10\nBlo
+ k: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d4f32858e41cf5d3505969b9@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270118T160000
+DTEND;TZID=Europe/Warsaw:20270118T173500
+SUMMARY:DSiSM (ć)
+LOCATION:1.10/ 16
+DESCRIPTION:Działalność szkoleniowa i szkoleniowo-metodyczna\nRodzaj: 
+ ćwiczenia\nProwadzący: dr Klimek Krzysztof\nNr zajęć: 2/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:7082be5eca4d114b00b3f936@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270119T080000
+DTEND;TZID=Europe/Warsaw:20270119T093500
+SUMMARY:OPBMR (w)
+LOCATION:1 55A
+DESCRIPTION:Obrona przed bronią masowego rażenia\nRodzaj: wykład\nProwa
+ dzący: ppor. dr hab. Łapińska Anna\nNr zajęć: 3/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ea04bb11c9874f50dd86f220@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270119T095000
+DTEND;TZID=Europe/Warsaw:20270119T112500
+SUMMARY:SzS (S)
+LOCATION:103 K
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: seminarium\nNr zajęć: 1/1\nBl
+ ok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2ddb215d45098e462ee36a85@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270119T114000
+DTEND;TZID=Europe/Warsaw:20270119T131500
+SUMMARY:REG (ć)
+LOCATION:AW 3/043
+DESCRIPTION:Regulaminy SZ RP\nRodzaj: ćwiczenia\nProwadzący: ppłk rez. 
+ mgr Bomba Marcin\nNr zajęć: 1/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:32a153c19b5d5059611d9f03@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270119T133000
+DTEND;TZID=Europe/Warsaw:20270119T150500
+SUMMARY:TW (w)
+LOCATION:11 57
+DESCRIPTION:Topografia wojskowa\nRodzaj: wykład\nProwadzący: mgr inż. G
+ ołoś Kazimierz\nNr zajęć: 1/2\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:07df5efda5a8bbe3c420fef0@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270119T160000
+DTEND;TZID=Europe/Warsaw:20270119T173500
+SUMMARY:Pwo (ć)
+LOCATION:0.28/ 135
+DESCRIPTION:Połączone wsparcie ogniowe\nRodzaj: ćwiczenia\nProwadzący:
+  dr inż. Krzyżanowski Sławomir\nNr zajęć: 1/1\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:57c4b8498bdae1aa8da0938a@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270120T080000
+DTEND;TZID=Europe/Warsaw:20270120T093500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(KS
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 1/21\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:70f76f4b3ba884e094df5c5f@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270120T114000
+DTEND;TZID=Europe/Warsaw:20270120T131500
+SUMMARY:PoCy (ć)
+LOCATION:309 S
+DESCRIPTION:Podstawy cyberbezpieczeństwa\nRodzaj: ćwiczenia\nProwadzący
+ : mgr inż. Kalman Leszek\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:49998ca9f28c546bb1e7c9df@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270120T133000
+DTEND;TZID=Europe/Warsaw:20270120T150500
+SUMMARY:Ssdk (w)
+LOCATION:325 S
+DESCRIPTION:Sieciocentryczne systemy dowodzenia i kierowania walką\nRodza
+ j: wykład\nProwadzący: mjr dr inż. Turek Piotr\nNr zajęć: 4/8\nBlok:
+  4
+END:VEVENT
+BEGIN:VEVENT
+UID:aa9f24cdb6e4d28b30955665@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270121T080000
+DTEND;TZID=Europe/Warsaw:20270121T093500
+SUMMARY:Ssdk (w)
+LOCATION:325 S
+DESCRIPTION:Sieciocentryczne systemy dowodzenia i kierowania walką\nRodza
+ j: wykład\nProwadzący: mjr dr inż. Turek Piotr\nNr zajęć: 5/8\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:55f2a24cf97e589dfb4bdd76@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270121T095000
+DTEND;TZID=Europe/Warsaw:20270121T112500
+SUMMARY:ZRwAM (w)
+LOCATION:3.16/ 135
+DESCRIPTION:Zarządzanie ryzykiem w aspekcie militarnym\nRodzaj: wykład\n
+ Prowadzący: dr inż. Woźniak Robert\nNr zajęć: 2/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:186dc3b1189c6ae3febaa929@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270121T133000
+DTEND;TZID=Europe/Warsaw:20270121T150500
+SUMMARY:DSiSM (ć)
+LOCATION:PĆT2
+DESCRIPTION:Działalność szkoleniowa i szkoleniowo-metodyczna\nRodzaj: 
+ ćwiczenia\nProwadzący: mjr mgr Nawalicki Piotr\nNr zajęć: 3/6\nBlok: 
+ 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d3813f46d75c6a5c5128b1c6@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270122T080000
+DTEND;TZID=Europe/Warsaw:20270122T093500
+SUMMARY:PESW (w)
+LOCATION:33 67
+DESCRIPTION:Podstawy eksploatacji sprzętu wojskowego (SpW)\nRodzaj: wykł
+ ad\nProwadzący: płk dr inż. Zahor Mirosław\nNr zajęć: 2/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:19790f52d8393aac37ec05e6@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270122T095000
+DTEND;TZID=Europe/Warsaw:20270122T112500
+SUMMARY:PD (ć)
+LOCATION:AW 1
+DESCRIPTION:Podstawy dowodzenia\nRodzaj: ćwiczenia\nProwadzący: ppłk re
+ z. mgr Pytlos Dariusz\nNr zajęć: 3/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3327b4139ae412e549311317@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270122T114000
+DTEND;TZID=Europe/Warsaw:20270122T131500
+SUMMARY:PD (ć)
+LOCATION:AW 1
+DESCRIPTION:Podstawy dowodzenia\nRodzaj: ćwiczenia\nProwadzący: ppłk re
+ z. mgr Pytlos Dariusz\nNr zajęć: 4/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:178e454554f6e5bedfbe3127@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270122T133000
+DTEND;TZID=Europe/Warsaw:20270122T150500
+SUMMARY:Dn (w)
+LOCATION:1.10/ 16
+DESCRIPTION:Działania niekinetyczne\nRodzaj: wykład\nProwadzący: dr in
+ ż. Woźniak Robert\nNr zajęć: 1/2\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5dbd32d2bf6f9d89d0b95a6e@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270122T160000
+DTEND;TZID=Europe/Warsaw:20270122T173500
+SUMMARY:TW (w)
+LOCATION:11 57
+DESCRIPTION:Topografia wojskowa\nRodzaj: wykład\nProwadzący: mgr inż. G
+ ołoś Kazimierz\nNr zajęć: 2/2\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:a6b0d56a4179c6d128cb2eef@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270125T080000
+DTEND;TZID=Europe/Warsaw:20270125T093500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PW
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 2/21\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:09b667d20e83f5917bdf119e@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270125T095000
+DTEND;TZID=Europe/Warsaw:20270125T112500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PW
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 3/21\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:aca1cc093491f3dad9f36a7e@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270125T133000
+DTEND;TZID=Europe/Warsaw:20270125T150500
+SUMMARY:Trit (w)
+LOCATION:325 S
+DESCRIPTION:Technologie radiolokacyjne i radioelektroniczne\nRodzaj: wykł
+ ad\nProwadzący: dr inż. Podciechowski Maciej\nNr zajęć: 3/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:fda2111dc5d81b7848278487@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270125T160000
+DTEND;TZID=Europe/Warsaw:20270125T173500
+SUMMARY:Ssdk (w)
+LOCATION:325 S
+DESCRIPTION:Sieciocentryczne systemy dowodzenia i kierowania walką\nRodza
+ j: wykład\nProwadzący: mjr dr inż. Turek Piotr\nNr zajęć: 6/8\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:7a6669e224d1d496869fe789@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270126T095000
+DTEND;TZID=Europe/Warsaw:20270126T112500
+SUMMARY:DSiSM (ć)
+LOCATION:PĆT1
+DESCRIPTION:Działalność szkoleniowa i szkoleniowo-metodyczna\nRodzaj: 
+ ćwiczenia\nProwadzący: mjr mgr Nawalicki Piotr\nNr zajęć: 4/6\nBlok: 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3366830de0c822b1abcf1ce3@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270126T114000
+DTEND;TZID=Europe/Warsaw:20270126T131500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PW
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 4/21\nB
+ lok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b7be4724ecad340d9c4ff771@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270126T133000
+DTEND;TZID=Europe/Warsaw:20270126T150500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PW
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 5/21\nB
+ lok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:020d9c0dd8350bc86d4debe0@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270127T080000
+DTEND;TZID=Europe/Warsaw:20270127T093500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PW
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 6/21\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:bedd9a81514116605ead47fe@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270127T095000
+DTEND;TZID=Europe/Warsaw:20270127T112500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PW
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 7/21\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:127c3229ab7da9c423984e2c@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270128T080000
+DTEND;TZID=Europe/Warsaw:20270128T093500
+SUMMARY:ZRwAM (ć)
+LOCATION:0.28/ 135
+DESCRIPTION:Zarządzanie ryzykiem w aspekcie militarnym\nRodzaj: ćwiczeni
+ a\nProwadzący: dr inż. Woźniak Robert\nNr zajęć: 1/2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c46e83cca51d4a883a67cd4b@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270128T095000
+DTEND;TZID=Europe/Warsaw:20270128T112500
+SUMMARY:OIN (ć)
+LOCATION:AW 3/038
+DESCRIPTION:Ochrona informacji niejawnych\nRodzaj: ćwiczenia\nProwadzący
+ : ppłk mgr inż. Grądziel Grzegorz\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:506891a73f551fb283ea8f31@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270128T114000
+DTEND;TZID=Europe/Warsaw:20270128T131500
+SUMMARY:ZaMe (w)
+LOCATION:103 K
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: wykład\nProwadzący: ppor. m
+ gr Szwed Katarzyna\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:92fd018ed3fc2078eac8fb44@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270128T133000
+DTEND;TZID=Europe/Warsaw:20270128T150500
+SUMMARY:PD (ć)
+LOCATION:AW 7
+DESCRIPTION:Podstawy dowodzenia\nRodzaj: ćwiczenia\nProwadzący: ppłk re
+ z. mgr Pytlos Dariusz\nNr zajęć: 5/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7b2fafd559bb2e5ff07a9385@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270128T160000
+DTEND;TZID=Europe/Warsaw:20270128T173500
+SUMMARY:PD (ć)
+LOCATION:AW 7
+DESCRIPTION:Podstawy dowodzenia\nRodzaj: ćwiczenia\nProwadzący: ppłk re
+ z. mgr Pytlos Dariusz\nNr zajęć: 6/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:353bb1b0f0e4421afa2d751c@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270129T080000
+DTEND;TZID=Europe/Warsaw:20270129T093500
+SUMMARY:PD (Rep)
+LOCATION:AW 3/038
+DESCRIPTION:Podstawy dowodzenia\nRodzaj: repetytorium\nProwadzący: ppłk 
+ rez. mgr Pytlos Dariusz\nNr zajęć: 1/1\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9b2aea6364556f3d07471879@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270129T095000
+DTEND;TZID=Europe/Warsaw:20270129T112500
+SUMMARY:PoKoSt (w)
+LOCATION:1.10/ 16
+DESCRIPTION:Podstawy Komunikacji Strategicznej\nRodzaj: wykład\nProwadzą
+ cy: dr Skulska Joanna\nNr zajęć: 3/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9f1fd6205132887c57bd3b48@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270129T114000
+DTEND;TZID=Europe/Warsaw:20270129T131500
+SUMMARY:PoKoSt (w)
+LOCATION:1.10/ 16
+DESCRIPTION:Podstawy Komunikacji Strategicznej\nRodzaj: wykład\nProwadzą
+ cy: dr Skulska Joanna\nNr zajęć: 4/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:003161910d31f49daeca3586@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270129T133000
+DTEND;TZID=Europe/Warsaw:20270129T150500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 6/10\nBlo
+ k: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6a1e1e44e9ba3c70e2af295a@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270129T160000
+DTEND;TZID=Europe/Warsaw:20270129T173500
+SUMMARY:GMiB (w)
+LOCATION:103 K
+DESCRIPTION:Gotowość mobilizacyjna i bojowa\nRodzaj: wykład\nProwadząc
+ y: ppłk mgr Lasak Michał\nNr zajęć: 2/3\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:626f9d437c730f3969ca05f1@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270201T080000
+DTEND;TZID=Europe/Warsaw:20270201T093500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 4
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: ppor
+ . mgr Szwed Katarzyna\nNr zajęć: 1/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a4c5b133af5da594c3c79731@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270201T095000
+DTEND;TZID=Europe/Warsaw:20270201T112500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 4
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: ppor
+ . mgr Szwed Katarzyna\nNr zajęć: 2/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ec149edcf6eec67b50393415@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270201T114000
+DTEND;TZID=Europe/Warsaw:20270201T131500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 4
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: ppor
+ . mgr Szwed Katarzyna\nNr zajęć: 3/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:25bebddf6c846c6846e27490@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270201T133000
+DTEND;TZID=Europe/Warsaw:20270201T150500
+SUMMARY:Trit (w)
+LOCATION:325 S
+DESCRIPTION:Technologie radiolokacyjne i radioelektroniczne\nRodzaj: wykł
+ ad\nProwadzący: dr inż. Podciechowski Maciej\nNr zajęć: 4/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:83f22ab686779061f3e85735@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270201T160000
+DTEND;TZID=Europe/Warsaw:20270201T173500
+SUMMARY:Ssdk (w)
+LOCATION:325 S
+DESCRIPTION:Sieciocentryczne systemy dowodzenia i kierowania walką\nRodza
+ j: wykład\nProwadzący: mjr dr inż. Turek Piotr\nNr zajęć: 7/8\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:c357d23a70fd929bfac4425d@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270202T080000
+DTEND;TZID=Europe/Warsaw:20270202T093500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(KB
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 8/21\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5e13fd8a397bbb68958f537d@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270202T095000
+DTEND;TZID=Europe/Warsaw:20270202T112500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(KB
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 9/21\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:020295b0c87f0f52fdcae642@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270202T133000
+DTEND;TZID=Europe/Warsaw:20270202T150500
+SUMMARY:Trit (w)
+LOCATION:325 S
+DESCRIPTION:Technologie radiolokacyjne i radioelektroniczne\nRodzaj: wykł
+ ad\nProwadzący: dr inż. Podciechowski Maciej\nNr zajęć: 5/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:53c2b8012e557f767da44ea2@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270203T080000
+DTEND;TZID=Europe/Warsaw:20270203T093500
+SUMMARY:Trit (w)
+LOCATION:325 S
+DESCRIPTION:Technologie radiolokacyjne i radioelektroniczne\nRodzaj: wykł
+ ad\nProwadzący: dr inż. Grzywiński Stanisław\nNr zajęć: 6/8\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:299bd0b1fd5885c0462d3407@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270203T114000
+DTEND;TZID=Europe/Warsaw:20270203T131500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(KB
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 10/21\n
+ Blok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d4be8d12abb269b7215ec351@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270203T133000
+DTEND;TZID=Europe/Warsaw:20270203T150500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(KB
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 11/21\n
+ Blok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c662579a166a2d44f4f84109@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270203T160000
+DTEND;TZID=Europe/Warsaw:20270203T173500
+SUMMARY:SŁiŚD (w)
+LOCATION:315 S
+DESCRIPTION:System łączności i środki dowodzenia\nRodzaj: wykład\nPro
+ wadzący: dr inż. Kudła Zbigniew\nNr zajęć: 1/2\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:8e2dbec1fef6dfc49e06c6c7@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270204T080000
+DTEND;TZID=Europe/Warsaw:20270204T093500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 4
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: ppor
+ . mgr Szwed Katarzyna\nNr zajęć: 4/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f136c6a3d4563a097ed71f0f@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270204T095000
+DTEND;TZID=Europe/Warsaw:20270204T112500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 4
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: ppor
+ . mgr Szwed Katarzyna\nNr zajęć: 5/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5316574779a918050545876d@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270204T114000
+DTEND;TZID=Europe/Warsaw:20270204T131500
+SUMMARY:Trit (w)
+LOCATION:325 S
+DESCRIPTION:Technologie radiolokacyjne i radioelektroniczne\nRodzaj: wykł
+ ad\nProwadzący: dr inż. Grzywiński Stanisław\nNr zajęć: 7/8\nBlok: 
+ 3
+END:VEVENT
+BEGIN:VEVENT
+UID:54ff2ea1e33cb96214fca39d@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270204T133000
+DTEND;TZID=Europe/Warsaw:20270204T150500
+SUMMARY:Trit (w)
+LOCATION:325 S
+DESCRIPTION:Technologie radiolokacyjne i radioelektroniczne\nRodzaj: wykł
+ ad\nProwadzący: dr inż. Grzywiński Stanisław\nNr zajęć: 8/8\nBlok: 
+ 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a326b892a510579f711d0007@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270205T080000
+DTEND;TZID=Europe/Warsaw:20270205T093500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(KB
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 12/21\n
+ Blok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8f467ee089cf93ef5b6d937e@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270205T095000
+DTEND;TZID=Europe/Warsaw:20270205T112500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(KB
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 13/21\n
+ Blok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2e909e2d6f1b138a93356ed0@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270205T133000
+DTEND;TZID=Europe/Warsaw:20270205T150500
+SUMMARY:Trit (ć)
+LOCATION:325 S
+DESCRIPTION:Technologie radiolokacyjne i radioelektroniczne\nRodzaj: ćwic
+ zenia\nProwadzący: mgr inż. Jakubik Wojciech\nNr zajęć: 1/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:218374ec305178e5267e889e@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270208T095000
+DTEND;TZID=Europe/Warsaw:20270208T112500
+SUMMARY:DSiSM (ć)
+LOCATION:ST.nr 1(DS
+DESCRIPTION:Działalność szkoleniowa i szkoleniowo-metodyczna\nRodzaj: 
+ ćwiczenia\nProwadzący: mjr mgr Zawadzki Filip\nNr zajęć: 5/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9a338006fb9d467a24a83bc1@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270208T114000
+DTEND;TZID=Europe/Warsaw:20270208T131500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(KB
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 14/21\n
+ Blok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:52253fbe653b35ab75ef9477@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270208T133000
+DTEND;TZID=Europe/Warsaw:20270208T150500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(KB
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 15/21\n
+ Blok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e54ca347c7769f004c8facbc@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270209T080000
+DTEND;TZID=Europe/Warsaw:20270209T093500
+SUMMARY:Ssdk (ć)
+LOCATION:331 S
+DESCRIPTION:Sieciocentryczne systemy dowodzenia i kierowania walką\nRodza
+ j: ćwiczenia\nProwadzący: por. mgr inż. Kaszyński Mateusz\nNr zajęć
+ : 1/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3d9706ebcd1cac73d6ad7b0c@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270209T114000
+DTEND;TZID=Europe/Warsaw:20270209T131500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PW
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 16/21\n
+ Blok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4476268f83fccb76306685ca@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270209T133000
+DTEND;TZID=Europe/Warsaw:20270209T150500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PW
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 17/21\n
+ Blok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1ba46d201e25ccff34a64345@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270210T080000
+DTEND;TZID=Europe/Warsaw:20270210T093500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 4
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: ppor
+ . mgr Szwed Katarzyna\nNr zajęć: 6/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:edaf3adf9f6aa6b4cefd1126@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270210T095000
+DTEND;TZID=Europe/Warsaw:20270210T112500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 4
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: ppor
+ . mgr Szwed Katarzyna\nNr zajęć: 7/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5ef443807a25b2bb8bd1271c@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270210T114000
+DTEND;TZID=Europe/Warsaw:20270210T131500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 4
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nProwadzący: ppor
+ . mgr Szwed Katarzyna\nNr zajęć: 8/8\nBlok: 3\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:744654fbd5747107bd0c288d@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270210T133000
+DTEND;TZID=Europe/Warsaw:20270210T150500
+SUMMARY:Ssdk (ć)
+LOCATION:331 S
+DESCRIPTION:Sieciocentryczne systemy dowodzenia i kierowania walką\nRodza
+ j: ćwiczenia\nProwadzący: por. mgr inż. Kaszyński Mateusz\nNr zajęć
+ : 2/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ac8cb72f87d28ad9fb9c0a5a@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270210T160000
+DTEND;TZID=Europe/Warsaw:20270210T173500
+SUMMARY:Ssdk (ć)
+LOCATION:331 S
+DESCRIPTION:Sieciocentryczne systemy dowodzenia i kierowania walką\nRodza
+ j: ćwiczenia\nProwadzący: por. mgr inż. Kaszyński Mateusz\nNr zajęć
+ : 3/3\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:b8c2dc9b5ede84e48b4954bc@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270211T080000
+DTEND;TZID=Europe/Warsaw:20270211T093500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(KB
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 18/21\n
+ Blok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:05c3440e0de4fe867ae509cc@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270211T095000
+DTEND;TZID=Europe/Warsaw:20270211T112500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(KB
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 19/21\n
+ Blok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a1c14289d7f6359dfb3eb114@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270211T114000
+DTEND;TZID=Europe/Warsaw:20270211T131500
+SUMMARY:DSiSM (ć)
+LOCATION:ST.nr 1(DS
+DESCRIPTION:Działalność szkoleniowa i szkoleniowo-metodyczna\nRodzaj: 
+ ćwiczenia\nProwadzący: mjr mgr Zawadzki Filip\nNr zajęć: 6/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1fa747ac1602f4237d3e87a3@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270212T080000
+DTEND;TZID=Europe/Warsaw:20270212T093500
+SUMMARY:Ssdk (w)
+LOCATION:325 S
+DESCRIPTION:Sieciocentryczne systemy dowodzenia i kierowania walką\nRodza
+ j: wykład\nProwadzący: mjr dr inż. Turek Piotr\nNr zajęć: 8/8\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:71085dd1865fb59d59ddbc2a@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270212T114000
+DTEND;TZID=Europe/Warsaw:20270212T131500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(KB
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 20/21\n
+ Blok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3f74126758a81e54eee01b84@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270212T133000
+DTEND;TZID=Europe/Warsaw:20270212T150500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(KB
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 21/21\n
+ Blok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b2f6f9709b460cf5ea1d83f1@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270213T080000
+DTEND;TZID=Europe/Warsaw:20270213T093500
+SUMMARY:Pwd (w)
+LOCATION:aula/ 135
+DESCRIPTION:Przywództwo w dowodzeniu\nRodzaj: wykład\nProwadzący: dr Za
+ łoga Wiesława\nNr zajęć: 1/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:dbe6aec2e08561fde506a360@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270213T095000
+DTEND;TZID=Europe/Warsaw:20270213T112500
+SUMMARY:Pwd (w)
+LOCATION:aula/ 135
+DESCRIPTION:Przywództwo w dowodzeniu\nRodzaj: wykład\nProwadzący: dr Za
+ łoga Wiesława\nNr zajęć: 2/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6235cb2a0dacd2b01219b2ce@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270213T114000
+DTEND;TZID=Europe/Warsaw:20270213T131500
+SUMMARY:Pwd (w)
+LOCATION:aula/ 135
+DESCRIPTION:Przywództwo w dowodzeniu\nRodzaj: wykład\nProwadzący: dr Za
+ łoga Wiesława\nNr zajęć: 3/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:95f521853c43c23b0835c3c4@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270215T080000
+DTEND;TZID=Europe/Warsaw:20270215T093500
+SUMMARY:TA (w)
+LOCATION:103 K
+DESCRIPTION:TAKTYKA\nRodzaj: wykład\nProwadzący: ppłk rez. mgr Czarneck
+ i Jarosław\nNr zajęć: 3/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d53cf84d802e0a0b927728cb@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270215T095000
+DTEND;TZID=Europe/Warsaw:20270215T112500
+SUMMARY:TA (w)
+LOCATION:103 K
+DESCRIPTION:TAKTYKA\nRodzaj: wykład\nProwadzący: płk rez. dr inż. Kraw
+ czyk Grzegorz\nNr zajęć: 4/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:91c4f483ad77705a4620d948@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270215T114000
+DTEND;TZID=Europe/Warsaw:20270215T131500
+SUMMARY:RiAIP (w)
+LOCATION:103 K
+DESCRIPTION:Rozpoznanie i Armie Innych Państw\nRodzaj: wykład\nProwadzą
+ cy: ppłk dr Waszkiewicz Grzegorz\nNr zajęć: 3/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b8039caae5c5455c891fefd4@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270215T133000
+DTEND;TZID=Europe/Warsaw:20270215T150500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 7/10\nBlo
+ k: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:df65376d0bfff4e78bb5b3e4@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270216T080000
+DTEND;TZID=Europe/Warsaw:20270216T093500
+SUMMARY:ZINŻ (w)
+LOCATION:103 K
+DESCRIPTION:Zabezpieczenie inżynieryjne\nRodzaj: wykład\nProwadzący: pp
+ łk mgr Jurzysta Paweł\nNr zajęć: 3/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a7d531d133111cd0a1be774a@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270216T095000
+DTEND;TZID=Europe/Warsaw:20270216T112500
+SUMMARY:OPW (w)
+LOCATION:103 K
+DESCRIPTION:Obrona powietrzna\nRodzaj: wykład\nProwadzący: ppłk mgr in
+ ż. Świętochowski Mieczysław\nNr zajęć: 3/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c67b08d18ae162b6e135718f@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270216T114000
+DTEND;TZID=Europe/Warsaw:20270216T131500
+SUMMARY:REG (w)
+LOCATION:AW 3/043
+DESCRIPTION:Regulaminy SZ RP\nRodzaj: wykład\nProwadzący: ppłk rez. mgr
+  Bomba Marcin\nNr zajęć: 2/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7f1bd4cc93ac6f3b0a6bca91@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270216T133000
+DTEND;TZID=Europe/Warsaw:20270216T150500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 8/10\nBlo
+ k: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c65a9b11c29d60a6038752eb@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270217T080000
+DTEND;TZID=Europe/Warsaw:20270217T093500
+SUMMARY:PESW (w)
+LOCATION:33 67
+DESCRIPTION:Podstawy eksploatacji sprzętu wojskowego (SpW)\nRodzaj: wykł
+ ad\nProwadzący: płk dr inż. Zahor Mirosław\nNr zajęć: 3/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d42bb4773bcc11332772603f@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270217T095000
+DTEND;TZID=Europe/Warsaw:20270217T112500
+SUMMARY:Dn (w)
+LOCATION:3.16/ 135
+DESCRIPTION:Działania niekinetyczne\nRodzaj: wykład\nProwadzący: dr in
+ ż. Woźniak Robert\nNr zajęć: 2/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:937b38ea181807b8c858c692@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270217T114000
+DTEND;TZID=Europe/Warsaw:20270217T131500
+SUMMARY:OIN
+LOCATION:AW 3/043\; r
+DESCRIPTION:Ochrona informacji niejawnych\nProwadzący: ppłk mgr inż. Gr
+ ądziel Grzegorz\nNr zajęć: 1/1\nBlok: 3\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:b7df4b3e1bcbb6c805d7ea20@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270217T133000
+DTEND;TZID=Europe/Warsaw:20270217T150500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 9/10\nBlo
+ k: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:99b3a35d78696566f9d3dee6@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270218T080000
+DTEND;TZID=Europe/Warsaw:20270218T093500
+SUMMARY:REG (ć)
+LOCATION:AW 3/043
+DESCRIPTION:Regulaminy SZ RP\nRodzaj: ćwiczenia\nProwadzący: ppłk rez. 
+ mgr Bomba Marcin\nNr zajęć: 2/2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:396a4ec49a51d12a30f5575c@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270218T095000
+DTEND;TZID=Europe/Warsaw:20270218T112500
+SUMMARY:ZRwAM (ć)
+LOCATION:3.16/ 135
+DESCRIPTION:Zarządzanie ryzykiem w aspekcie militarnym\nRodzaj: ćwiczeni
+ a\nProwadzący: dr inż. Woźniak Robert\nNr zajęć: 2/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:397b2750afd002da564750b2@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270218T114000
+DTEND;TZID=Europe/Warsaw:20270218T131500
+SUMMARY:Pwd (ć)
+LOCATION:3.16/ 135
+DESCRIPTION:Przywództwo w dowodzeniu\nRodzaj: ćwiczenia\nProwadzący: dr
+  Załoga Wiesława\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:60315f46ec488c588ee353b8@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270218T133000
+DTEND;TZID=Europe/Warsaw:20270218T150500
+SUMMARY:Trit (ć)
+LOCATION:325 S
+DESCRIPTION:Technologie radiolokacyjne i radioelektroniczne\nRodzaj: ćwic
+ zenia\nProwadzący: mgr inż. Jakubik Wojciech\nNr zajęć: 2/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:85520845536aee87343cf12f@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270218T160000
+DTEND;TZID=Europe/Warsaw:20270218T173500
+SUMMARY:Trit (ć)
+LOCATION:325 S
+DESCRIPTION:Technologie radiolokacyjne i radioelektroniczne\nRodzaj: ćwic
+ zenia\nProwadzący: mgr inż. Jakubik Wojciech\nNr zajęć: 3/3\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:23e93e91b0cc0b82382f9a1b@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270219T080000
+DTEND;TZID=Europe/Warsaw:20270219T093500
+SUMMARY:GMiB (w)
+LOCATION:103 K
+DESCRIPTION:Gotowość mobilizacyjna i bojowa\nRodzaj: wykład\nProwadząc
+ y: ppłk mgr Lasak Michał\nNr zajęć: 3/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:752e6242d9ec7b7e70b996cc@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270219T095000
+DTEND;TZID=Europe/Warsaw:20270219T112500
+SUMMARY:SŁiŚD (w)
+LOCATION:315 S
+DESCRIPTION:System łączności i środki dowodzenia\nRodzaj: wykład\nPro
+ wadzący: mgr inż. Adamus Paweł\nNr zajęć: 2/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:991eb41cb506f4b094e86b9d@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270219T114000
+DTEND;TZID=Europe/Warsaw:20270219T131500
+SUMMARY:TA (w)
+LOCATION:103 K
+DESCRIPTION:TAKTYKA\nRodzaj: wykład\nProwadzący: ppłk rez. mgr Czarneck
+ i Jarosław\nNr zajęć: 5/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:bcc2cc22156424fa54f36174@wat-plan
+DTSTAMP:20261126T155722Z
+DTSTART;TZID=Europe/Warsaw:20270219T133000
+DTEND;TZID=Europe/Warsaw:20270219T150500
+SUMMARY:WF (ć)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 10/10\nBl
+ ok: 4
+END:VEVENT
+END:VCALENDAR

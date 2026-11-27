@@ -1,0 +1,3238 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WCY22KS1S0
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:83f70a2894750dec7ee7faf3@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20260928T114000
+DTEND;TZID=Europe/Warsaw:20260928T131500
+SUMMARY:MeSK (Inne)
+LOCATION:314 S
+DESCRIPTION:Metody symulacji komputerowej\nRodzaj: egzamin poprawkowy\nPro
+ wadzący: dr hab. inż. Najgebauer Andrzej\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:319ba255fe5e033a9487981e@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20260930T095000
+DTEND;TZID=Europe/Warsaw:20260930T112500
+SUMMARY:Akst (Inne)
+LOCATION:085 S
+DESCRIPTION:Akredytacja systemów teleinformatycznych\nRodzaj: egzamin pop
+ rawkowy\nProwadzący: mgr inż. Dzieł Łukasz\nNr zajęć: 1/1\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:47529df6d46437665c63d5b9@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261001T080000
+DTEND;TZID=Europe/Warsaw:20261001T093500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 7
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nNr zajęć: 1/18\
+ nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e062d86842cd929e024692d5@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261001T095000
+DTEND;TZID=Europe/Warsaw:20261001T112500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 7
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nNr zajęć: 2/18\
+ nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a923bbd1b2ae66df993fba07@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261001T114000
+DTEND;TZID=Europe/Warsaw:20261001T131500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 7
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nNr zajęć: 3/18\
+ nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3ab7100fa3a938b4c9c11162@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261001T133000
+DTEND;TZID=Europe/Warsaw:20261001T150500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(KSP)
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 5/12\nB
+ lok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:410515f6535cf069e4027a60@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261001T160000
+DTEND;TZID=Europe/Warsaw:20261001T173500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(KSP)
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 6/12\nB
+ lok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:9e10cf712f3e8b73ffea5956@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261001T175000
+DTEND;TZID=Europe/Warsaw:20261001T192500
+SUMMARY:S.Sz.W.
+DESCRIPTION:Rodzaj: studium szkol. wojs.\nNr zajęć: 1/1\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:95c7b2d058b505d665f6d2af@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261001T194000
+DTEND;TZID=Europe/Warsaw:20261001T211500
+SUMMARY:S.Sz.W.
+DESCRIPTION:Rodzaj: studium szkol. wojs.\nNr zajęć: 1/1\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:e56edf33e59054e85b742821@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261002T095000
+DTEND;TZID=Europe/Warsaw:20261002T112500
+SUMMARY:Khk (w)
+LOCATION:078 S
+DESCRIPTION:Krzywe hipereliptyczne w kryptologii\nRodzaj: wykład\nProwadz
+ ący: mgr inż. Kijko Tomasz\nNr zajęć: 1/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:19ba26a4e7dbaedbbd780e9a@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261002T114000
+DTEND;TZID=Europe/Warsaw:20261002T131500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 19)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/19 (grupa SWF 2PL/22KP)\nProwadz
+ ący: mgr Radosław Olszewski\nNr zajęć: 31/70\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6fd29d665bcd82ba55dbabc4@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261002T133000
+DTEND;TZID=Europe/Warsaw:20261002T150500
+SUMMARY:Dtu (P)
+LOCATION:011 65
+DESCRIPTION:Diagnostyka i tolerowanie uszkodzeń\nRodzaj: projekt\nProwadz
+ ący: Melaniuk Michał\nNr zajęć: 1/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:235a9f96b8d18aab384049a8@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261002T160000
+DTEND;TZID=Europe/Warsaw:20261002T173500
+SUMMARY:Dtu (P)
+LOCATION:011 65
+DESCRIPTION:Diagnostyka i tolerowanie uszkodzeń\nRodzaj: projekt\nProwadz
+ ący: Melaniuk Michał\nNr zajęć: 2/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:e40b80f62b4d5a8b81bdff67@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261003T095000
+DTEND;TZID=Europe/Warsaw:20261003T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 14/28\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:933d8316885a9c77c9eb9ede@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261005T080000
+DTEND;TZID=Europe/Warsaw:20261005T093500
+SUMMARY:aa (w)
+LOCATION:085 S
+DESCRIPTION:Ataki algebraiczne\nRodzaj: wykład\nProwadzący: Burek Elżbi
+ eta\nNr zajęć: 1/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1d31452d2acf90aa2fca6cee@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261005T095000
+DTEND;TZID=Europe/Warsaw:20261005T112500
+SUMMARY:KAB (w)
+LOCATION:085 S
+DESCRIPTION:Kryptoanaliza algorytmów blokowych\nRodzaj: wykład\nProwadz
+ ący: Misztal Michał\nNr zajęć: 1/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5864b69b35bb0430318ee841@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261005T114000
+DTEND;TZID=Europe/Warsaw:20261005T131500
+SUMMARY:Kas (w)
+LOCATION:078 S
+DESCRIPTION:Kryptoanaliza algorytmów strumieniowych\nRodzaj: wykład\nPro
+ wadzący: Mańk Krzysztof\nNr zajęć: 1/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1a96a26b8066780bb5f2f678@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261005T133000
+DTEND;TZID=Europe/Warsaw:20261005T150500
+SUMMARY:Kas (w)
+LOCATION:078 S
+DESCRIPTION:Kryptoanaliza algorytmów strumieniowych\nRodzaj: wykład\nPro
+ wadzący: Mańk Krzysztof\nNr zajęć: 2/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:619258aac321bbfa1e9860ad@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261005T160000
+DTEND;TZID=Europe/Warsaw:20261005T173500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 30/59\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:fa771c5f86c301a015ca7e2d@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261006T080000
+DTEND;TZID=Europe/Warsaw:20261006T093500
+SUMMARY:Khk (w)
+LOCATION:085 S
+DESCRIPTION:Krzywe hipereliptyczne w kryptologii\nRodzaj: wykład\nProwadz
+ ący: mgr inż. Kijko Tomasz\nNr zajęć: 2/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:66806bda325f2bc9b423f572@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261006T095000
+DTEND;TZID=Europe/Warsaw:20261006T112500
+SUMMARY:Dtu (w)
+LOCATION:307 S
+DESCRIPTION:Diagnostyka i tolerowanie uszkodzeń\nRodzaj: wykład\nProwadz
+ ący: Zielinski Zbigniew\nNr zajęć: 1/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f905e4682b4d42921e3b798b@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261006T114000
+DTEND;TZID=Europe/Warsaw:20261006T131500
+SUMMARY:WF: Zajęcia sportowe z różnych dyscyplin sportu i rekreacji ruc
+ howej
+LOCATION:stadion lekkoatletyczny
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Zajęcia sport
+ owe z różnych dyscyplin sportu i rekreacji ruchowej (zajęcia 2)\nObiek
+ t: stadion lekkoatletyczny\nKod SWF: A-16/2 (grupa SWF 2PL/22KP)\nProwadz
+ ący: mgr Radosław Olszewski\nNr zajęć: 32/70\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6f9f3cec0feb83ae5d7b1dd3@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261006T133000
+DTEND;TZID=Europe/Warsaw:20261006T150500
+SUMMARY:aa (w)
+LOCATION:085 S
+DESCRIPTION:Ataki algebraiczne\nRodzaj: wykład\nProwadzący: Burek Elżbi
+ eta\nNr zajęć: 2/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4207ff453a4f41421a85b794@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261007T080000
+DTEND;TZID=Europe/Warsaw:20261007T093500
+SUMMARY:QPQe (w)
+DESCRIPTION:Quantum and Post-Quantum Cryptology (w języku angielskim)\nRo
+ dzaj: wykład\nProwadzący: Jurkiewicz Mariusz\nNr zajęć: 1/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:04c80a9c912455e8fa3f6625@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261007T095000
+DTEND;TZID=Europe/Warsaw:20261007T112500
+SUMMARY:QPQe (w)
+DESCRIPTION:Quantum and Post-Quantum Cryptology (w języku angielskim)\nRo
+ dzaj: wykład\nProwadzący: Jurkiewicz Mariusz\nNr zajęć: 2/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f572e7aef974d19a99bccba2@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261007T133000
+DTEND;TZID=Europe/Warsaw:20261007T150500
+SUMMARY:Ja (ć)
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 31/59\nBlok:
+  4
+END:VEVENT
+BEGIN:VEVENT
+UID:3f256168ef3dc62c5aa59bc4@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261008T080000
+DTEND;TZID=Europe/Warsaw:20261008T093500
+SUMMARY:aa (w)
+LOCATION:085 S
+DESCRIPTION:Ataki algebraiczne\nRodzaj: wykład\nProwadzący: Burek Elżbi
+ eta\nNr zajęć: 3/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e00661b346ac42b569a9fadb@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261008T095000
+DTEND;TZID=Europe/Warsaw:20261008T112500
+SUMMARY:WF: Zajęcia sportowe z różnych dyscyplin sportu i rekreacji ruc
+ howej
+LOCATION:strzelnica
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Zajęcia sport
+ owe z różnych dyscyplin sportu i rekreacji ruchowej (zajęcia 4)\nObiek
+ t: strzelnica\nKod SWF: U-16/4 (grupa SWF 2PL/22KP)\nProwadzący: mgr Rad
+ osław Olszewski\, ppłk mgr inż. Rafał Goławski\nNr zajęć: 33/70\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c77e40ab6d00671a4b587c62@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261008T114000
+DTEND;TZID=Europe/Warsaw:20261008T131500
+SUMMARY:TW (w)
+LOCATION:16 57
+DESCRIPTION:Topografia wojskowa\nRodzaj: wykład\nNr zajęć: 1/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7e67abcaa7a45ed40eb53825@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261008T133000
+DTEND;TZID=Europe/Warsaw:20261008T150500
+SUMMARY:TW (w)
+LOCATION:16 57
+DESCRIPTION:Topografia wojskowa\nRodzaj: wykład\nNr zajęć: 2/2\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:74757a0fbebdd30a14306b8b@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261008T194000
+DTEND;TZID=Europe/Warsaw:20261008T211500
+SUMMARY:S.Sz.W.
+DESCRIPTION:Rodzaj: studium szkol. wojs.\nNr zajęć: 1/1\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:01bda1cc8028952bcd9d00c5@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261009T095000
+DTEND;TZID=Europe/Warsaw:20261009T112500
+SUMMARY:Mnk (w)
+LOCATION:204 65
+DESCRIPTION:Metody numeryczne w kryptologii\nRodzaj: wykład\nProwadzący:
+  Kojdecki Marek\nNr zajęć: 1/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1a1fd86120f2a130860452f4@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261009T114000
+DTEND;TZID=Europe/Warsaw:20261009T131500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 21)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/21 (grupa SWF 2PL/22KP)\nProwadz
+ ący: mgr Radosław Olszewski\nNr zajęć: 34/70\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:67d14d7813b4794df8f9ec3c@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261009T133000
+DTEND;TZID=Europe/Warsaw:20261009T150500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 1
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nNr zajęć: 4/18\
+ nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e9e64b07d911d4dfaef79f32@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261009T160000
+DTEND;TZID=Europe/Warsaw:20261009T173500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 1
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nNr zajęć: 5/18\
+ nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:611cc7acb9f4ac7aab1b69c7@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261009T175000
+DTEND;TZID=Europe/Warsaw:20261009T192500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 1
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nNr zajęć: 6/18\
+ nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:67c35d2cb7935a540b7a898b@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261010T095000
+DTEND;TZID=Europe/Warsaw:20261010T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 15/28\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:60f6b55cb11ea404e1468221@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261012T080000
+DTEND;TZID=Europe/Warsaw:20261012T093500
+SUMMARY:aa (w)
+LOCATION:085 S
+DESCRIPTION:Ataki algebraiczne\nRodzaj: wykład\nProwadzący: Burek Elżbi
+ eta\nNr zajęć: 4/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a2f5e601784c66d817bc7682@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261012T095000
+DTEND;TZID=Europe/Warsaw:20261012T112500
+SUMMARY:KAB (w)
+LOCATION:085 S
+DESCRIPTION:Kryptoanaliza algorytmów blokowych\nRodzaj: wykład\nProwadz
+ ący: Misztal Michał\nNr zajęć: 2/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b062e657bba22a1a9cb218c9@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261012T114000
+DTEND;TZID=Europe/Warsaw:20261012T131500
+SUMMARY:Khk (w)
+LOCATION:078 S
+DESCRIPTION:Krzywe hipereliptyczne w kryptologii\nRodzaj: wykład\nProwadz
+ ący: mgr inż. Kijko Tomasz\nNr zajęć: 3/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ca8f30fb792b34cdc1ba6b83@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261012T133000
+DTEND;TZID=Europe/Warsaw:20261012T150500
+SUMMARY:Kas (w)
+LOCATION:078 S
+DESCRIPTION:Kryptoanaliza algorytmów strumieniowych\nRodzaj: wykład\nPro
+ wadzący: Mańk Krzysztof\nNr zajęć: 3/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b73e746629a296094d025da5@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261012T160000
+DTEND;TZID=Europe/Warsaw:20261012T173500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 32/59\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:8172edef717fe084427a4004@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261013T080000
+DTEND;TZID=Europe/Warsaw:20261013T093500
+SUMMARY:QPQe (w)
+LOCATION:078 S
+DESCRIPTION:Quantum and Post-Quantum Cryptology (w języku angielskim)\nRo
+ dzaj: wykład\nProwadzący: Jurkiewicz Mariusz\nNr zajęć: 3/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:0caef6c4ab52b6ee8f12ee68@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261013T095000
+DTEND;TZID=Europe/Warsaw:20261013T112500
+SUMMARY:Dtu (w)
+LOCATION:307 S
+DESCRIPTION:Diagnostyka i tolerowanie uszkodzeń\nRodzaj: wykład\nProwadz
+ ący: Zielinski Zbigniew\nNr zajęć: 2/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f3c9f988996e745d04b21a16@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261013T114000
+DTEND;TZID=Europe/Warsaw:20261013T131500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 19)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/19 (grupa SWF 2PL/22KP)\nProwadz
+ ący: mgr Radosław Olszewski\nNr zajęć: 35/70\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0610fc16fee7c0e46c2bffba@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261013T133000
+DTEND;TZID=Europe/Warsaw:20261013T150500
+SUMMARY:Mnk (w)
+LOCATION:205 65
+DESCRIPTION:Metody numeryczne w kryptologii\nRodzaj: wykład\nProwadzący:
+  Kojdecki Marek\nNr zajęć: 2/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4f87c22d23b87576a10bc7d1@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261015T080000
+DTEND;TZID=Europe/Warsaw:20261015T093500
+SUMMARY:QPQe (ć)
+LOCATION:085 S
+DESCRIPTION:Quantum and Post-Quantum Cryptology (w języku angielskim)\nRo
+ dzaj: ćwiczenia\nProwadzący: Jurkiewicz Mariusz\nNr zajęć: 1/7\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:1371ead3a0d44ae168e227c3@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261015T095000
+DTEND;TZID=Europe/Warsaw:20261015T112500
+SUMMARY:WF: Pływanie i ratownictwo wodne
+LOCATION:pływalnia
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Pływanie i ra
+ townictwo wodne (zajęcia 15)\nObiekt: pływalnia\nKod SWF: P-5/15 (grupa
+  SWF 2PL/22KP)\nProwadzący: mgr Radosław Olszewski\, ppłk mgr inż. Ra
+ fał Goławski\nNr zajęć: 36/70\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c2db61b53f21200ea54af1ad@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261015T114000
+DTEND;TZID=Europe/Warsaw:20261015T131500
+SUMMARY:TW (ć)
+LOCATION:16 57
+DESCRIPTION:Topografia wojskowa\nRodzaj: ćwiczenia\nNr zajęć: 1/5\nBlok
+ : 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a2506b36d6ffe53d7138e9f0@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261015T133000
+DTEND;TZID=Europe/Warsaw:20261015T150500
+SUMMARY:TW (ć)
+LOCATION:16 57
+DESCRIPTION:Topografia wojskowa\nRodzaj: ćwiczenia\nNr zajęć: 2/5\nBlok
+ : 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9215bc5d0dc46ef7daaef992@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261015T194000
+DTEND;TZID=Europe/Warsaw:20261015T211500
+SUMMARY:S.Sz.W.
+DESCRIPTION:Rodzaj: studium szkol. wojs.\nNr zajęć: 1/1\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:9664de7d4b3bc98dc970dbc6@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261016T080000
+DTEND;TZID=Europe/Warsaw:20261016T093500
+SUMMARY:Mnk (w)
+LOCATION:205 65
+DESCRIPTION:Metody numeryczne w kryptologii\nRodzaj: wykład\nProwadzący:
+  Kojdecki Marek\nNr zajęć: 3/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:252f6eef1a5e142dfb6a4ec1@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261016T095000
+DTEND;TZID=Europe/Warsaw:20261016T112500
+SUMMARY:Khk (w)
+LOCATION:078 S
+DESCRIPTION:Krzywe hipereliptyczne w kryptologii\nRodzaj: wykład\nProwadz
+ ący: mgr inż. Kijko Tomasz\nNr zajęć: 4/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:56ea5cee449a63bc1ecc5222@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261016T114000
+DTEND;TZID=Europe/Warsaw:20261016T131500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 27)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/27 (grupa SWF 2PL/22KP)\nProwadz
+ ący: mgr Radosław Olszewski\nNr zajęć: 37/70\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1c5284664d7220daa65e297a@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261017T095000
+DTEND;TZID=Europe/Warsaw:20261017T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 16/28\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:31712d4febb3f73c24c0ab3c@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261019T095000
+DTEND;TZID=Europe/Warsaw:20261019T112500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 7
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nNr zajęć: 7/18\
+ nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7eb850c2156ff2be16b7240b@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261019T114000
+DTEND;TZID=Europe/Warsaw:20261019T131500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 7
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nNr zajęć: 8/18\
+ nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a470bd513328c3f5ccee870f@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261019T133000
+DTEND;TZID=Europe/Warsaw:20261019T150500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 7
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nNr zajęć: 9/18\
+ nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2c664f3216d777a7ecabd4bc@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261019T160000
+DTEND;TZID=Europe/Warsaw:20261019T173500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 33/59\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:6ded202b42412fcabf3b9740@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261020T080000
+DTEND;TZID=Europe/Warsaw:20261020T093500
+SUMMARY:QPQe (w)
+LOCATION:078 S
+DESCRIPTION:Quantum and Post-Quantum Cryptology (w języku angielskim)\nRo
+ dzaj: wykład\nProwadzący: Jurkiewicz Mariusz\nNr zajęć: 4/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:090f7abe92199996796d0574@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261020T095000
+DTEND;TZID=Europe/Warsaw:20261020T112500
+SUMMARY:Dtu (w)
+LOCATION:307 S
+DESCRIPTION:Diagnostyka i tolerowanie uszkodzeń\nRodzaj: wykład\nProwadz
+ ący: Zielinski Zbigniew\nNr zajęć: 3/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4d69614ae93d0208316029be@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261020T114000
+DTEND;TZID=Europe/Warsaw:20261020T131500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 21)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/21 (grupa SWF 2PL/22KP)\nProwadz
+ ący: mgr Radosław Olszewski\nNr zajęć: 38/70\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:307bf33cf67dccac7c11678c@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261020T133000
+DTEND;TZID=Europe/Warsaw:20261020T150500
+SUMMARY:KAB (w)
+LOCATION:078 S
+DESCRIPTION:Kryptoanaliza algorytmów blokowych\nRodzaj: wykład\nProwadz
+ ący: Misztal Michał\nNr zajęć: 3/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:34070c2b2fa58a5bb9d6bc26@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261021T080000
+DTEND;TZID=Europe/Warsaw:20261021T093500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 34/59\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:f9d647784482cb091f90285f@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261021T095000
+DTEND;TZID=Europe/Warsaw:20261021T112500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 7
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nNr zajęć: 10/18
+ \nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:44eec0bcdf1ef3cfbbf435d1@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261021T114000
+DTEND;TZID=Europe/Warsaw:20261021T131500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 7
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nNr zajęć: 11/18
+ \nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9969d7c38c64ddecafd4f437@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261021T133000
+DTEND;TZID=Europe/Warsaw:20261021T150500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 7
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nNr zajęć: 12/18
+ \nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0694ff8a1ea91a94ba25b1a3@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261021T160000
+DTEND;TZID=Europe/Warsaw:20261021T173500
+SUMMARY:Ja (ć)
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 35/59\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:d15b9d53d113d644e6477fd3@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261022T080000
+DTEND;TZID=Europe/Warsaw:20261022T093500
+SUMMARY:aa (w)
+LOCATION:085 S
+DESCRIPTION:Ataki algebraiczne\nRodzaj: wykład\nProwadzący: Burek Elżbi
+ eta\nNr zajęć: 5/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:441e9d528e5f19ae2691ab19@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261022T095000
+DTEND;TZID=Europe/Warsaw:20261022T112500
+SUMMARY:WF: Zajęcia sportowe z różnych dyscyplin sportu i rekreacji ruc
+ howej
+LOCATION:strzelnica
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Zajęcia sport
+ owe z różnych dyscyplin sportu i rekreacji ruchowej (zajęcia 5)\nObiek
+ t: strzelnica\nKod SWF: U-16/5 (grupa SWF 2PL/22KP)\nProwadzący: mgr Rad
+ osław Olszewski\, ppłk mgr inż. Rafał Goławski\nNr zajęć: 39/70\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:62fbc4953ba93f034fa6179f@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261022T114000
+DTEND;TZID=Europe/Warsaw:20261022T131500
+SUMMARY:Dtu (L)
+LOCATION:237 S
+DESCRIPTION:Diagnostyka i tolerowanie uszkodzeń\nRodzaj: laboratorium\nPr
+ owadzący: Melaniuk Michał\nNr zajęć: 1/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:701fd8cfe20db52d38008f46@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261022T133000
+DTEND;TZID=Europe/Warsaw:20261022T150500
+SUMMARY:REG (w)
+LOCATION:103 K
+DESCRIPTION:Regulaminy SZ RP\nRodzaj: wykład\nProwadzący: ppłk rez. Ję
+ cek Paweł\nNr zajęć: 1/1\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d4de170d9dd801cf703b97b0@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261022T194000
+DTEND;TZID=Europe/Warsaw:20261022T211500
+SUMMARY:S.Sz.W.
+DESCRIPTION:Rodzaj: studium szkol. wojs.\nNr zajęć: 1/1\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:e735be997da711f943dd9e7a@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261023T080000
+DTEND;TZID=Europe/Warsaw:20261023T093500
+SUMMARY:Mnk (w)
+LOCATION:205 65
+DESCRIPTION:Metody numeryczne w kryptologii\nRodzaj: wykład\nProwadzący:
+  Kojdecki Marek\nNr zajęć: 4/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:837245e7b6366c875fbc4dfb@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261023T095000
+DTEND;TZID=Europe/Warsaw:20261023T112500
+SUMMARY:Khk (w)
+LOCATION:085 S
+DESCRIPTION:Krzywe hipereliptyczne w kryptologii\nRodzaj: wykład\nProwadz
+ ący: mgr inż. Kijko Tomasz\nNr zajęć: 5/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:362cae0a1babfab607127181@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261023T114000
+DTEND;TZID=Europe/Warsaw:20261023T131500
+SUMMARY:WF: Walka wręcz
+LOCATION:hala tartanowa – walka wręcz
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Walka wręcz (
+ zajęcia 32)\nObiekt: hala tartanowa – walka wręcz\nKod SWF: B2-4/32 (
+ grupa SWF 2PL/22KP)\nProwadzący: mgr Radosław Olszewski\nNr zajęć: 40
+ /70\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:963a723cf5cb56f3e686fd24@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261023T133000
+DTEND;TZID=Europe/Warsaw:20261023T150500
+SUMMARY:Mnk (L)
+LOCATION:218 65
+DESCRIPTION:Metody numeryczne w kryptologii\nRodzaj: laboratorium\nProwadz
+ ący: Kojdecki Marek\nNr zajęć: 1/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6f75c09ee61b3d2cd5230e12@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261024T095000
+DTEND;TZID=Europe/Warsaw:20261024T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 17/28\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e51225a727bc660eb07ae41e@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261026T080000
+DTEND;TZID=Europe/Warsaw:20261026T093500
+SUMMARY:aa (w)
+LOCATION:085 S
+DESCRIPTION:Ataki algebraiczne\nRodzaj: wykład\nProwadzący: Burek Elżbi
+ eta\nNr zajęć: 6/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f20008aaccf56f42d6bfcda8@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261026T095000
+DTEND;TZID=Europe/Warsaw:20261026T112500
+SUMMARY:KAB (w)
+LOCATION:085 S
+DESCRIPTION:Kryptoanaliza algorytmów blokowych\nRodzaj: wykład\nProwadz
+ ący: Misztal Michał\nNr zajęć: 4/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3f277004e8988e39a3d8ce9a@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261026T114000
+DTEND;TZID=Europe/Warsaw:20261026T131500
+SUMMARY:Kas (w)
+LOCATION:078 S
+DESCRIPTION:Kryptoanaliza algorytmów strumieniowych\nRodzaj: wykład\nPro
+ wadzący: Mańk Krzysztof\nNr zajęć: 4/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a4afcdd557b9758f6196f8d3@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261026T133000
+DTEND;TZID=Europe/Warsaw:20261026T150500
+SUMMARY:Kas (w)
+LOCATION:078 S
+DESCRIPTION:Kryptoanaliza algorytmów strumieniowych\nRodzaj: wykład\nPro
+ wadzący: Mańk Krzysztof\nNr zajęć: 5/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4e4bd2598f6b7bbca1c14a9f@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261026T160000
+DTEND;TZID=Europe/Warsaw:20261026T173500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 36/59\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:5eaf2db91785d8adcd4f1c1e@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261027T095000
+DTEND;TZID=Europe/Warsaw:20261027T112500
+SUMMARY:Dtu (w)
+LOCATION:307 S
+DESCRIPTION:Diagnostyka i tolerowanie uszkodzeń\nRodzaj: wykład\nProwadz
+ ący: Zielinski Zbigniew\nNr zajęć: 4/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a359e3921e48f6cf5de0cda9@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261027T114000
+DTEND;TZID=Europe/Warsaw:20261027T131500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 24)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/24 (grupa SWF 2PL/22KP)\nProwadz
+ ący: mgr Radosław Olszewski\nNr zajęć: 41/70\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6a1a37519349e57093745ef5@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261027T133000
+DTEND;TZID=Europe/Warsaw:20261027T150500
+SUMMARY:aa (L)
+LOCATION:085 S
+DESCRIPTION:Ataki algebraiczne\nRodzaj: laboratorium\nProwadzący: Burek E
+ lżbieta\nNr zajęć: 1/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0946d88b5c242f37aa967c16@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261028T095000
+DTEND;TZID=Europe/Warsaw:20261028T112500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 37/59\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:c16120d085fba113c2195eb4@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261028T133000
+DTEND;TZID=Europe/Warsaw:20261028T150500
+SUMMARY:Mnk (L)
+LOCATION:218 65\, 219 65
+DESCRIPTION:Metody numeryczne w kryptologii\nRodzaj: laboratorium\nProwadz
+ ący: Kojdecki Marek\nNr zajęć: 2/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:60b854e9f43700e749f1cfc5@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261029T080000
+DTEND;TZID=Europe/Warsaw:20261029T093500
+SUMMARY:Kas (L)
+LOCATION:085 S
+DESCRIPTION:Kryptoanaliza algorytmów strumieniowych\nRodzaj: laboratorium
+ \nProwadzący: Mańk Krzysztof\nNr zajęć: 1/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:b556d66343ec1edc782c3334@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261029T095000
+DTEND;TZID=Europe/Warsaw:20261029T112500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:zewnętrzny tor BTS/BTZ
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 36)\nObie
+ kt: zewnętrzny tor BTS/BTZ\nKod SWF: C-2/36 (grupa SWF 2PL/22KP)\nProwad
+ zący: mgr Radosław Olszewski\, ppłk mgr inż. Rafał Goławski\nNr zaj
+ ęć: 42/70\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c6bbb21302bd4db3c333b58c@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261029T114000
+DTEND;TZID=Europe/Warsaw:20261029T131500
+SUMMARY:TW (ć)
+LOCATION:16 57
+DESCRIPTION:Topografia wojskowa\nRodzaj: ćwiczenia\nNr zajęć: 3/5\nBlok
+ : 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3b3fe6c0c844f6831bb22a81@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261029T133000
+DTEND;TZID=Europe/Warsaw:20261029T150500
+SUMMARY:TW (ć)
+LOCATION:16 57
+DESCRIPTION:Topografia wojskowa\nRodzaj: ćwiczenia\nNr zajęć: 4/5\nBlok
+ : 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b9e593dba2ff9b672fe7930d@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261029T194000
+DTEND;TZID=Europe/Warsaw:20261029T211500
+SUMMARY:S.Sz.W.
+DESCRIPTION:Rodzaj: studium szkol. wojs.\nNr zajęć: 1/1\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:e5d78b54e5f9cf07fbb87e69@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261030T080000
+DTEND;TZID=Europe/Warsaw:20261030T093500
+SUMMARY:Mnk (w)
+LOCATION:205 65
+DESCRIPTION:Metody numeryczne w kryptologii\nRodzaj: wykład\nProwadzący:
+  Kojdecki Marek\nNr zajęć: 5/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:bf86804149eba1e67262d9fa@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261030T095000
+DTEND;TZID=Europe/Warsaw:20261030T112500
+SUMMARY:Khk (w)
+LOCATION:078 S
+DESCRIPTION:Krzywe hipereliptyczne w kryptologii\nRodzaj: wykład\nProwadz
+ ący: mgr inż. Kijko Tomasz\nNr zajęć: 6/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b68c02ad1090ff5b8611042c@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261030T114000
+DTEND;TZID=Europe/Warsaw:20261030T131500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 24)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/24 (grupa SWF 2PL/22KP)\nProwadz
+ ący: mgr Radosław Olszewski\nNr zajęć: 43/70\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a5547d0a6d67835c8c7847d8@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261030T133000
+DTEND;TZID=Europe/Warsaw:20261030T150500
+SUMMARY:KAB (L)
+LOCATION:078 S
+DESCRIPTION:Kryptoanaliza algorytmów blokowych\nRodzaj: laboratorium\nPro
+ wadzący: Misztal Michał\nNr zajęć: 1/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e75a364b07fa3d665be22b88@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261031T095000
+DTEND;TZID=Europe/Warsaw:20261031T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 18/28\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:81fe78eeb1c34c298e7d321d@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261102T080000
+DTEND;TZID=Europe/Warsaw:20261102T093500
+SUMMARY:aa (w)
+LOCATION:085 S
+DESCRIPTION:Ataki algebraiczne\nRodzaj: wykład\nProwadzący: Burek Elżbi
+ eta\nNr zajęć: 7/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4ead79ba8f10ad319059602c@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261102T095000
+DTEND;TZID=Europe/Warsaw:20261102T112500
+SUMMARY:KAB (w)
+LOCATION:085 S
+DESCRIPTION:Kryptoanaliza algorytmów blokowych\nRodzaj: wykład\nProwadz
+ ący: Misztal Michał\nNr zajęć: 5/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:dc29fad3e44ffcb672c5b8ee@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261102T114000
+DTEND;TZID=Europe/Warsaw:20261102T131500
+SUMMARY:wzbnim (w)
+LOCATION:19 36
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: wykład\nProwadzący: mjr dr inż. Walkowiak Marzena\nNr za
+ jęć: 1/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:478fec73848d3045868d228c@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261102T133000
+DTEND;TZID=Europe/Warsaw:20261102T150500
+SUMMARY:Kas (w)
+LOCATION:078 S
+DESCRIPTION:Kryptoanaliza algorytmów strumieniowych\nRodzaj: wykład\nPro
+ wadzący: Mańk Krzysztof\nNr zajęć: 6/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c60bb897db25692c3f71dad1@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261102T160000
+DTEND;TZID=Europe/Warsaw:20261102T173500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 38/59\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:9bb7f6808fba7f0d27a055f4@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261103T080000
+DTEND;TZID=Europe/Warsaw:20261103T093500
+SUMMARY:Khk (w)
+LOCATION:078 S
+DESCRIPTION:Krzywe hipereliptyczne w kryptologii\nRodzaj: wykład\nProwadz
+ ący: mgr inż. Kijko Tomasz\nNr zajęć: 7/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e3401f5cb52166e94e81f9a8@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261103T095000
+DTEND;TZID=Europe/Warsaw:20261103T112500
+SUMMARY:Dtu (w)
+LOCATION:307 S
+DESCRIPTION:Diagnostyka i tolerowanie uszkodzeń\nRodzaj: wykład\nProwadz
+ ący: Zielinski Zbigniew\nNr zajęć: 5/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:425caec9c17ce1bfb74f03f5@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261103T114000
+DTEND;TZID=Europe/Warsaw:20261103T131500
+SUMMARY:WF: Piłka nożna
+LOCATION:boisko do piłki nożnej przy ul. Archimedesa
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Piłka nożna 
+ (zajęcia 7)\nObiekt: boisko do piłki nożnej przy ul. Archimedesa\nKod 
+ SWF: D-9/7 (grupa SWF 2PL/22KP)\nProwadzący: mgr Radosław Olszewski\nNr
+  zajęć: 44/70\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c531d2439b5ef6795a1f2fc3@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261103T133000
+DTEND;TZID=Europe/Warsaw:20261103T150500
+SUMMARY:Mnk (w)
+LOCATION:204 65
+DESCRIPTION:Metody numeryczne w kryptologii\nRodzaj: wykład\nProwadzący:
+  Kojdecki Marek\nNr zajęć: 6/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:48ed97c5f1f47d866fe285be@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261104T080000
+DTEND;TZID=Europe/Warsaw:20261104T093500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 39/59\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:2ec8df9560fe72aa9aa1ac55@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261104T095000
+DTEND;TZID=Europe/Warsaw:20261104T112500
+SUMMARY:wzbnim (w)
+LOCATION:19 36
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: wykład\nProwadzący: mjr dr inż. Walkowiak Marzena\nNr za
+ jęć: 2/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:459eeabff5358a68758fbdf3@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261104T133000
+DTEND;TZID=Europe/Warsaw:20261104T150500
+SUMMARY:Mnk (L)
+LOCATION:218 65\, 219 65
+DESCRIPTION:Metody numeryczne w kryptologii\nRodzaj: laboratorium\nProwadz
+ ący: Kojdecki Marek\nNr zajęć: 3/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6a6696ed8057290d4b5309fd@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261104T175000
+DTEND;TZID=Europe/Warsaw:20261104T192500
+SUMMARY:Wf_E (E)
+DESCRIPTION:Wf_E\nRodzaj: egzamin\nNr zajęć: 1/1\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:6a24ae4e5b50c3f6b6473dc7@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261105T095000
+DTEND;TZID=Europe/Warsaw:20261105T112500
+SUMMARY:Mnk (L)
+LOCATION:218 65
+DESCRIPTION:Metody numeryczne w kryptologii\nRodzaj: laboratorium\nProwadz
+ ący: Kojdecki Marek\nNr zajęć: 4/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5acd6f99a5cf3b64387de0b8@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261105T114000
+DTEND;TZID=Europe/Warsaw:20261105T131500
+SUMMARY:Khk (P)
+LOCATION:085 S
+DESCRIPTION:Krzywe hipereliptyczne w kryptologii\nRodzaj: projekt\nProwadz
+ ący: mgr inż. Kijko Tomasz\nNr zajęć: 1/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2372b5f54321c4b452333cef@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261105T133000
+DTEND;TZID=Europe/Warsaw:20261105T150500
+SUMMARY:Khk (P)
+LOCATION:085 S
+DESCRIPTION:Krzywe hipereliptyczne w kryptologii\nRodzaj: projekt\nProwadz
+ ący: mgr inż. Kijko Tomasz\nNr zajęć: 2/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e750e79468765efa68282ffc@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261105T160000
+DTEND;TZID=Europe/Warsaw:20261105T173500
+SUMMARY:Khk (L)
+LOCATION:078 S
+DESCRIPTION:Krzywe hipereliptyczne w kryptologii\nRodzaj: laboratorium\nPr
+ owadzący: mgr inż. Kijko Tomasz\nNr zajęć: 1/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:c8fb7c098955e77042de00be@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261105T194000
+DTEND;TZID=Europe/Warsaw:20261105T211500
+SUMMARY:S.Sz.W.
+DESCRIPTION:Rodzaj: studium szkol. wojs.\nNr zajęć: 1/1\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:7008e9e86ee77133a8003d3c@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261106T080000
+DTEND;TZID=Europe/Warsaw:20261106T093500
+SUMMARY:QPQe (w)
+LOCATION:078 S
+DESCRIPTION:Quantum and Post-Quantum Cryptology (w języku angielskim)\nRo
+ dzaj: wykład\nProwadzący: Jurkiewicz Mariusz\nNr zajęć: 5/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d9e5e25eeb4386ca43914664@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261106T095000
+DTEND;TZID=Europe/Warsaw:20261106T112500
+SUMMARY:QPQe (w)
+LOCATION:078 S
+DESCRIPTION:Quantum and Post-Quantum Cryptology (w języku angielskim)\nRo
+ dzaj: wykład\nProwadzący: Jurkiewicz Mariusz\nNr zajęć: 6/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5d57278fa6a4e4b0866be593@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261106T114000
+DTEND;TZID=Europe/Warsaw:20261106T131500
+SUMMARY:WF: Walka wręcz
+LOCATION:hala tartanowa – walka wręcz
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Walka wręcz (
+ zajęcia 33)\nObiekt: hala tartanowa – walka wręcz\nKod SWF: B2-4/33 (
+ grupa SWF 2PL/22KP)\nProwadzący: mgr Radosław Olszewski\nNr zajęć: 45
+ /70\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:bd18dc961c1ae71f24d1ecdc@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261106T133000
+DTEND;TZID=Europe/Warsaw:20261106T150500
+SUMMARY:Mnk (w)
+LOCATION:204 65
+DESCRIPTION:Metody numeryczne w kryptologii\nRodzaj: wykład\nProwadzący:
+  Kojdecki Marek\nNr zajęć: 7/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3da49b2ccaba64f72f37e3cc@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261107T095000
+DTEND;TZID=Europe/Warsaw:20261107T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 19/28\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:99b72028a5a199012d73a6cd@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261109T080000
+DTEND;TZID=Europe/Warsaw:20261109T093500
+SUMMARY:Kas (w)
+LOCATION:085 S
+DESCRIPTION:Kryptoanaliza algorytmów strumieniowych\nRodzaj: wykład\nPro
+ wadzący: Mańk Krzysztof\nNr zajęć: 7/12\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c77f2d60792a76ab4d19204f@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261109T095000
+DTEND;TZID=Europe/Warsaw:20261109T112500
+SUMMARY:Kas (w)
+LOCATION:085 S
+DESCRIPTION:Kryptoanaliza algorytmów strumieniowych\nRodzaj: wykład\nPro
+ wadzący: Mańk Krzysztof\nNr zajęć: 8/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:46d504a0bf3c0c3feda01004@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261109T114000
+DTEND;TZID=Europe/Warsaw:20261109T131500
+SUMMARY:wzbnim (w)
+LOCATION:19 36
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: wykład\nProwadzący: mjr dr inż. Walkowiak Marzena\nNr za
+ jęć: 3/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3a31d94bda3a63ee8580f941@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261109T133000
+DTEND;TZID=Europe/Warsaw:20261109T150500
+SUMMARY:Dtu (L)
+LOCATION:125 65
+DESCRIPTION:Diagnostyka i tolerowanie uszkodzeń\nRodzaj: laboratorium\nPr
+ owadzący: Melaniuk Michał\nNr zajęć: 2/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:638203567164b838785df6f8@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261109T160000
+DTEND;TZID=Europe/Warsaw:20261109T173500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 40/59\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:1a8429a7701509aea433296d@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261110T095000
+DTEND;TZID=Europe/Warsaw:20261110T112500
+SUMMARY:Dtu (w)
+LOCATION:307 S
+DESCRIPTION:Diagnostyka i tolerowanie uszkodzeń\nRodzaj: wykład\nProwadz
+ ący: Zielinski Zbigniew\nNr zajęć: 6/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a1102af93d8c9cf4d93d0b12@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261110T114000
+DTEND;TZID=Europe/Warsaw:20261110T131500
+SUMMARY:WF: Gimnastyka i ćwiczenia siłowe
+LOCATION:siłownia modułowa przy AW3
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Gimnastyka i 
+ ćwiczenia siłowe (zajęcia 20)\nObiekt: siłownia modułowa przy AW3\nK
+ od SWF: E-3/20 (grupa SWF 2PL/22KP)\nProwadzący: mgr Radosław Olszewski
+ \nNr zajęć: 46/70\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:fea8dc2e57f9daddff77fb00@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261110T133000
+DTEND;TZID=Europe/Warsaw:20261110T150500
+SUMMARY:KAB (w)
+LOCATION:078 S
+DESCRIPTION:Kryptoanaliza algorytmów blokowych\nRodzaj: wykład\nProwadz
+ ący: Misztal Michał\nNr zajęć: 6/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:835d69903128a92db01fc523@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261110T160000
+DTEND;TZID=Europe/Warsaw:20261110T173500
+SUMMARY:KAB (ć)
+LOCATION:078 S
+DESCRIPTION:Kryptoanaliza algorytmów blokowych\nRodzaj: ćwiczenia\nProwa
+ dzący: Misztal Michał\nNr zajęć: 1/2\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:209422cbc6cf04577a55b73f@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261112T080000
+DTEND;TZID=Europe/Warsaw:20261112T093500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PWC3)
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 7/12\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f74aca51cbb3a066ce94cf3c@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261112T095000
+DTEND;TZID=Europe/Warsaw:20261112T112500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PWC3)
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 8/12\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:5d5b3a4c1b14c4c5e7dc201f@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261112T114000
+DTEND;TZID=Europe/Warsaw:20261112T131500
+SUMMARY:REG (ć)
+LOCATION:AW 7
+DESCRIPTION:Regulaminy SZ RP\nRodzaj: ćwiczenia\nNr zajęć: 1/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a06a4d944bf67d9e8f42ab99@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261112T133000
+DTEND;TZID=Europe/Warsaw:20261112T150500
+SUMMARY:QPQe (ć)
+LOCATION:085 S
+DESCRIPTION:Quantum and Post-Quantum Cryptology (w języku angielskim)\nRo
+ dzaj: ćwiczenia\nProwadzący: Jurkiewicz Mariusz\nNr zajęć: 2/7\nBlok:
+  4
+END:VEVENT
+BEGIN:VEVENT
+UID:adab83c3bed18946d1c9b7c0@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261112T194000
+DTEND;TZID=Europe/Warsaw:20261112T211500
+SUMMARY:S.Sz.W.
+DESCRIPTION:Rodzaj: studium szkol. wojs.\nNr zajęć: 1/1\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:c6c0cc9a33b716e6dd17d68b@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261113T080000
+DTEND;TZID=Europe/Warsaw:20261113T093500
+SUMMARY:QPQe (w)
+LOCATION:078 S
+DESCRIPTION:Quantum and Post-Quantum Cryptology (w języku angielskim)\nRo
+ dzaj: wykład\nProwadzący: Jurkiewicz Mariusz\nNr zajęć: 7/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4cbaccdbfce9cb3f8ec5c628@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261113T095000
+DTEND;TZID=Europe/Warsaw:20261113T112500
+SUMMARY:QPQe (w)
+LOCATION:078 S
+DESCRIPTION:Quantum and Post-Quantum Cryptology (w języku angielskim)\nRo
+ dzaj: wykład\nProwadzący: Jurkiewicz Mariusz\nNr zajęć: 8/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2e597b439e14c4a69750ad60@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261113T114000
+DTEND;TZID=Europe/Warsaw:20261113T131500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 24)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/24 (grupa SWF 2PL/22KP)\nProwadz
+ ący: mgr Radosław Olszewski\nNr zajęć: 47/70\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d9e798a1947bd68873f9b5f9@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261113T160000
+DTEND;TZID=Europe/Warsaw:20261113T173500
+SUMMARY:Khk (L)
+LOCATION:078 S
+DESCRIPTION:Krzywe hipereliptyczne w kryptologii\nRodzaj: laboratorium\nPr
+ owadzący: mgr inż. Kijko Tomasz\nNr zajęć: 2/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:34ad13c33fb1376ffe6d03dc@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261114T095000
+DTEND;TZID=Europe/Warsaw:20261114T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 20/28\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b82656ee4973703cf7393610@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261116T080000
+DTEND;TZID=Europe/Warsaw:20261116T093500
+SUMMARY:aa (w)
+LOCATION:085 S
+DESCRIPTION:Ataki algebraiczne\nRodzaj: wykład\nProwadzący: Burek Elżbi
+ eta\nNr zajęć: 8/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:fab9a36359fd5409b09f01be@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261116T095000
+DTEND;TZID=Europe/Warsaw:20261116T112500
+SUMMARY:KAB (w)
+LOCATION:085 S
+DESCRIPTION:Kryptoanaliza algorytmów blokowych\nRodzaj: wykład\nProwadz
+ ący: Misztal Michał\nNr zajęć: 7/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:55906953a08b99d6e82dc8e4@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261116T114000
+DTEND;TZID=Europe/Warsaw:20261116T131500
+SUMMARY:wzbnim (w)
+LOCATION:19 36
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: wykład\nProwadzący: mjr dr inż. Walkowiak Marzena\nNr za
+ jęć: 4/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:6fd3e4f865568468fea74640@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261116T133000
+DTEND;TZID=Europe/Warsaw:20261116T150500
+SUMMARY:Kas (w)
+LOCATION:078 S
+DESCRIPTION:Kryptoanaliza algorytmów strumieniowych\nRodzaj: wykład\nPro
+ wadzący: Mańk Krzysztof\nNr zajęć: 9/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:c58a27a34cd85e8868622044@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261116T160000
+DTEND;TZID=Europe/Warsaw:20261116T173500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 41/59\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:6a41c68b0fb9649e4de545ae@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261117T080000
+DTEND;TZID=Europe/Warsaw:20261117T093500
+SUMMARY:QPQe (ć)
+LOCATION:085 S
+DESCRIPTION:Quantum and Post-Quantum Cryptology (w języku angielskim)\nRo
+ dzaj: ćwiczenia\nProwadzący: Jurkiewicz Mariusz\nNr zajęć: 3/7\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:945fddd81f422f5f5a266c2a@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261117T095000
+DTEND;TZID=Europe/Warsaw:20261117T112500
+SUMMARY:Dtu (w)
+LOCATION:307 S
+DESCRIPTION:Diagnostyka i tolerowanie uszkodzeń\nRodzaj: wykład\nProwadz
+ ący: Zielinski Zbigniew\nNr zajęć: 7/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a5ce190f85607e3bebdf913b@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261117T114000
+DTEND;TZID=Europe/Warsaw:20261117T131500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 24)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/24 (grupa SWF 2PL/22KP)\nProwadz
+ ący: mgr Radosław Olszewski\nNr zajęć: 48/70\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:654bc8c51bd803cff0ba2aea@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261117T133000
+DTEND;TZID=Europe/Warsaw:20261117T150500
+SUMMARY:Dtu (L)
+LOCATION:125 65
+DESCRIPTION:Diagnostyka i tolerowanie uszkodzeń\nRodzaj: laboratorium\nPr
+ owadzący: Melaniuk Michał\nNr zajęć: 3/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ad87455652d63c7b1773d326@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261118T095000
+DTEND;TZID=Europe/Warsaw:20261118T112500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 42/59\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:4108bedd0c1664aca48e63ea@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261118T114000
+DTEND;TZID=Europe/Warsaw:20261118T131500
+SUMMARY:aa (L)
+LOCATION:085 S
+DESCRIPTION:Ataki algebraiczne\nRodzaj: laboratorium\nProwadzący: Burek E
+ lżbieta\nNr zajęć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:74e52e2bdf92017a3cc2d1ce@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261118T133000
+DTEND;TZID=Europe/Warsaw:20261118T150500
+SUMMARY:Mnk (L)
+LOCATION:219 65
+DESCRIPTION:Metody numeryczne w kryptologii\nRodzaj: laboratorium\nProwadz
+ ący: Kojdecki Marek\nNr zajęć: 5/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e51de0ef03850261aac76c14@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261119T080000
+DTEND;TZID=Europe/Warsaw:20261119T093500
+SUMMARY:Kas (L)
+LOCATION:085 S
+DESCRIPTION:Kryptoanaliza algorytmów strumieniowych\nRodzaj: laboratorium
+ \nProwadzący: Mańk Krzysztof\nNr zajęć: 2/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6469fae3651c59077b5084ce@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261119T095000
+DTEND;TZID=Europe/Warsaw:20261119T112500
+SUMMARY:WF: Gimnastyka i ćwiczenia siłowe
+LOCATION:sala gimnastyczna nr 54
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Gimnastyka i 
+ ćwiczenia siłowe (zajęcia 18)\nObiekt: sala gimnastyczna nr 54\nKod SW
+ F: G-3/18 (grupa SWF 2PL/22KP)\nProwadzący: mgr Radosław Olszewski\, pp
+ łk mgr inż. Rafał Goławski\nNr zajęć: 49/70\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c84a32d3752a21566a447f84@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261119T114000
+DTEND;TZID=Europe/Warsaw:20261119T131500
+SUMMARY:Khk (L)
+LOCATION:085 S
+DESCRIPTION:Krzywe hipereliptyczne w kryptologii\nRodzaj: laboratorium\nPr
+ owadzący: mgr inż. Kijko Tomasz\nNr zajęć: 3/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4de573ea65a185acc95b11e7@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261119T194000
+DTEND;TZID=Europe/Warsaw:20261119T211500
+SUMMARY:S.Sz.W.
+DESCRIPTION:Rodzaj: studium szkol. wojs.\nNr zajęć: 1/1\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:ed39a191a5528a2ff229c327@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261120T080000
+DTEND;TZID=Europe/Warsaw:20261120T093500
+SUMMARY:QPQe (w)
+LOCATION:078 S
+DESCRIPTION:Quantum and Post-Quantum Cryptology (w języku angielskim)\nRo
+ dzaj: wykład\nProwadzący: Jurkiewicz Mariusz\nNr zajęć: 9/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:abf2b98bb159652b54764b03@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261120T095000
+DTEND;TZID=Europe/Warsaw:20261120T112500
+SUMMARY:QPQe (w)
+LOCATION:078 S
+DESCRIPTION:Quantum and Post-Quantum Cryptology (w języku angielskim)\nRo
+ dzaj: wykład\nProwadzący: Jurkiewicz Mariusz\nNr zajęć: 10/15\nBlok: 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b62bccb4958879aadc3988b3@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261120T114000
+DTEND;TZID=Europe/Warsaw:20261120T131500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:zewnętrzny tor BTS/BTZ
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 37)\nObie
+ kt: zewnętrzny tor BTS/BTZ\nKod SWF: C-2/37 (grupa SWF 2PL/22KP)\nProwad
+ zący: mgr Radosław Olszewski\nNr zajęć: 50/70\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d2d98c432fa6745a9ca38966@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261120T133000
+DTEND;TZID=Europe/Warsaw:20261120T150500
+SUMMARY:Mnk (w)
+LOCATION:204 65
+DESCRIPTION:Metody numeryczne w kryptologii\nRodzaj: wykład\nProwadzący:
+  Kojdecki Marek\nNr zajęć: 8/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a9bf42bdd0eeabc20a4179c3@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261121T095000
+DTEND;TZID=Europe/Warsaw:20261121T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 21/28\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9f6e5da66aca9d37cf078b77@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261123T080000
+DTEND;TZID=Europe/Warsaw:20261123T093500
+SUMMARY:aa (w)
+LOCATION:085 S
+DESCRIPTION:Ataki algebraiczne\nRodzaj: wykład\nProwadzący: Burek Elżbi
+ eta\nNr zajęć: 9/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2680b4453ea080e6f6bd6246@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261123T095000
+DTEND;TZID=Europe/Warsaw:20261123T112500
+SUMMARY:Kas (w)
+LOCATION:085 S
+DESCRIPTION:Kryptoanaliza algorytmów strumieniowych\nRodzaj: wykład\nPro
+ wadzący: Mańk Krzysztof\nNr zajęć: 10/12\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3c1eaa744784cc807740945e@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261123T114000
+DTEND;TZID=Europe/Warsaw:20261123T131500
+SUMMARY:Kas (w)
+LOCATION:085 S
+DESCRIPTION:Kryptoanaliza algorytmów strumieniowych\nRodzaj: wykład\nPro
+ wadzący: Mańk Krzysztof\nNr zajęć: 11/12\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:07f8e2a3a426e64466d28679@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261123T133000
+DTEND;TZID=Europe/Warsaw:20261123T150500
+SUMMARY:wzbnim (ć)
+LOCATION:307 S
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: ćwiczenia\nNr zajęć: 1/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d57a385acb246c2853ce5804@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261123T160000
+DTEND;TZID=Europe/Warsaw:20261123T173500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 43/59\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:d467b3dcc94de94101a042af@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261124T080000
+DTEND;TZID=Europe/Warsaw:20261124T093500
+SUMMARY:KAB (w)
+LOCATION:085 S
+DESCRIPTION:Kryptoanaliza algorytmów blokowych\nRodzaj: wykład\nProwadz
+ ący: Misztal Michał\nNr zajęć: 8/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4546f175140b2400504ba4bf@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261124T095000
+DTEND;TZID=Europe/Warsaw:20261124T112500
+SUMMARY:Dtu (w)
+LOCATION:307 S
+DESCRIPTION:Diagnostyka i tolerowanie uszkodzeń\nRodzaj: wykład\nProwadz
+ ący: Zielinski Zbigniew\nNr zajęć: 8/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ba96354b917ff113991a8e6a@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261124T114000
+DTEND;TZID=Europe/Warsaw:20261124T131500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 24)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/24 (grupa SWF 2PL/22KP)\nProwadz
+ ący: mgr Radosław Olszewski\nNr zajęć: 51/70\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:57acabcbbe2752732fdcca55@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261124T133000
+DTEND;TZID=Europe/Warsaw:20261124T150500
+SUMMARY:Khk (w)
+LOCATION:078 S
+DESCRIPTION:Krzywe hipereliptyczne w kryptologii\nRodzaj: wykład\nProwadz
+ ący: mgr inż. Kijko Tomasz\nNr zajęć: 8/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d540599861f76f450f3c621e@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261125T080000
+DTEND;TZID=Europe/Warsaw:20261125T093500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 44/59\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:76e09b331fc67b28df291fc3@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261125T095000
+DTEND;TZID=Europe/Warsaw:20261125T112500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 45/59\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:9c0fc4a1f774f39e1c06ba3e@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261125T114000
+DTEND;TZID=Europe/Warsaw:20261125T131500
+SUMMARY:Mnk (L)
+LOCATION:219 65
+DESCRIPTION:Metody numeryczne w kryptologii\nRodzaj: laboratorium\nProwadz
+ ący: Kojdecki Marek\nNr zajęć: 6/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8eee164f20a4c00e8dea5038@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261125T133000
+DTEND;TZID=Europe/Warsaw:20261125T150500
+SUMMARY:Mnk (w)
+LOCATION:214. 65
+DESCRIPTION:Metody numeryczne w kryptologii\nRodzaj: wykład\nProwadzący:
+  Kojdecki Marek\nNr zajęć: 9/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e4768fee912e4ccc89f72361@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261126T080000
+DTEND;TZID=Europe/Warsaw:20261126T093500
+SUMMARY:Kas (L)
+LOCATION:085 S
+DESCRIPTION:Kryptoanaliza algorytmów strumieniowych\nRodzaj: laboratorium
+ \nProwadzący: Mańk Krzysztof\nNr zajęć: 3/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:6fc77fcfd8bbb9591241f793@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261126T095000
+DTEND;TZID=Europe/Warsaw:20261126T112500
+SUMMARY:WF: Piłka koszykowa
+LOCATION:zewnętrzne boisko do koszykówki
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Piłka koszyko
+ wa (zajęcia 8)\nObiekt: zewnętrzne boisko do koszykówki\nKod SWF: K-8/
+ 8 (grupa SWF 2PL/22KP)\nProwadzący: mgr Radosław Olszewski\, ppłk mgr 
+ inż. Rafał Goławski\nNr zajęć: 52/70\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8abcddb7fea6cadc89386996@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261126T114000
+DTEND;TZID=Europe/Warsaw:20261126T131500
+SUMMARY:Dtu (P)
+LOCATION:239 S
+DESCRIPTION:Diagnostyka i tolerowanie uszkodzeń\nRodzaj: projekt\nProwadz
+ ący: Melaniuk Michał\nNr zajęć: 3/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7823da8b18cdd9a0d1d3b196@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261126T133000
+DTEND;TZID=Europe/Warsaw:20261126T150500
+SUMMARY:Dtu (P)
+LOCATION:239 S
+DESCRIPTION:Diagnostyka i tolerowanie uszkodzeń\nRodzaj: projekt\nProwadz
+ ący: Melaniuk Michał\nNr zajęć: 4/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:def74401541a1d889dc307fe@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261126T194000
+DTEND;TZID=Europe/Warsaw:20261126T211500
+SUMMARY:S.Sz.W.
+DESCRIPTION:Rodzaj: studium szkol. wojs.\nNr zajęć: 1/1\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:c5c54e6f5400632b19d69eca@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261128T095000
+DTEND;TZID=Europe/Warsaw:20261128T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 22/28\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:df7db030e0a5e20d6836536f@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261130T095000
+DTEND;TZID=Europe/Warsaw:20261130T112500
+SUMMARY:Stg (w)
+LOCATION:307 S
+DESCRIPTION:Steganografia\nRodzaj: wykład\nProwadzący: Kaczyński Kamil\
+ nNr zajęć: 1/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:23e1773766061d9844395f79@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261130T114000
+DTEND;TZID=Europe/Warsaw:20261130T131500
+SUMMARY:Stg (w)
+LOCATION:307 S
+DESCRIPTION:Steganografia\nRodzaj: wykład\nProwadzący: Kaczyński Kamil\
+ nNr zajęć: 2/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:76a8769d3ce303ef76b15b5f@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261130T133000
+DTEND;TZID=Europe/Warsaw:20261130T150500
+SUMMARY:Kas (w)
+LOCATION:085 S
+DESCRIPTION:Kryptoanaliza algorytmów strumieniowych\nRodzaj: wykład\nPro
+ wadzący: Mańk Krzysztof\nNr zajęć: 12/12\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1805e24ea561e8cd53f51f07@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261130T160000
+DTEND;TZID=Europe/Warsaw:20261130T173500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 46/59\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:3ef5b9ea87afba78762f5e7c@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261201T080000
+DTEND;TZID=Europe/Warsaw:20261201T093500
+SUMMARY:aa (w)
+LOCATION:087 S
+DESCRIPTION:Ataki algebraiczne\nRodzaj: wykład\nProwadzący: Burek Elżbi
+ eta\nNr zajęć: 10/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:615217c38f1ef36d38f993b6@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261201T095000
+DTEND;TZID=Europe/Warsaw:20261201T112500
+SUMMARY:Stg (L)
+LOCATION:218 65
+DESCRIPTION:Steganografia\nRodzaj: laboratorium\nProwadzący: Kaczyński K
+ amil\nNr zajęć: 1/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:734c125968547935417cde1e@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261201T114000
+DTEND;TZID=Europe/Warsaw:20261201T131500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 21)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/21 (grupa SWF 2PL/22KP)\nProwadz
+ ący: mgr Radosław Olszewski\nNr zajęć: 53/70\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:fc3623c85c1d992462aa730f@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261201T133000
+DTEND;TZID=Europe/Warsaw:20261201T150500
+SUMMARY:KAB (w)
+LOCATION:078 S
+DESCRIPTION:Kryptoanaliza algorytmów blokowych\nRodzaj: wykład\nProwadz
+ ący: Misztal Michał\nNr zajęć: 9/10\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f337e171ed1a0e70df4a350f@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261201T160000
+DTEND;TZID=Europe/Warsaw:20261201T173500
+SUMMARY:QPQe (w)
+LOCATION:085 S
+DESCRIPTION:Quantum and Post-Quantum Cryptology (w języku angielskim)\nRo
+ dzaj: wykład\nProwadzący: Jurkiewicz Mariusz\nNr zajęć: 11/15\nBlok: 
+ 5
+END:VEVENT
+BEGIN:VEVENT
+UID:546589b42cf43424812dd77d@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261202T080000
+DTEND;TZID=Europe/Warsaw:20261202T093500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 47/59\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:ca82774f2be7a016c3393454@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261202T095000
+DTEND;TZID=Europe/Warsaw:20261202T112500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 48/59\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:914d16812f768edc9948d034@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261202T114000
+DTEND;TZID=Europe/Warsaw:20261202T131500
+SUMMARY:aa (L)
+LOCATION:085 S
+DESCRIPTION:Ataki algebraiczne\nRodzaj: laboratorium\nProwadzący: Burek E
+ lżbieta\nNr zajęć: 3/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:78598823ead1a689c85ca622@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261202T133000
+DTEND;TZID=Europe/Warsaw:20261202T150500
+SUMMARY:Dtu (L)
+LOCATION:237 S
+DESCRIPTION:Diagnostyka i tolerowanie uszkodzeń\nRodzaj: laboratorium\nPr
+ owadzący: Melaniuk Michał\nNr zajęć: 4/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a960aba388753464f8b7e063@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261203T080000
+DTEND;TZID=Europe/Warsaw:20261203T093500
+SUMMARY:Khk (L)
+LOCATION:085 S
+DESCRIPTION:Krzywe hipereliptyczne w kryptologii\nRodzaj: laboratorium\nPr
+ owadzący: mgr inż. Kijko Tomasz\nNr zajęć: 4/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f8a91f6cadc0c24f8f675391@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261203T095000
+DTEND;TZID=Europe/Warsaw:20261203T112500
+SUMMARY:WF: Piłka siatkowa
+LOCATION:zewnętrzne boisko do piłki siatkowej
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Piłka siatkow
+ a (zajęcia 11)\nObiekt: zewnętrzne boisko do piłki siatkowej\nKod SWF:
+  F-7/11 (grupa SWF 2PL/22KP)\nProwadzący: mgr Radosław Olszewski\, ppł
+ k mgr inż. Rafał Goławski\nNr zajęć: 54/70\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:cc2f5e8010dd44ee226d4a17@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261203T114000
+DTEND;TZID=Europe/Warsaw:20261203T131500
+SUMMARY:Khk (P)
+LOCATION:085 S
+DESCRIPTION:Krzywe hipereliptyczne w kryptologii\nRodzaj: projekt\nProwadz
+ ący: mgr inż. Kijko Tomasz\nNr zajęć: 3/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:11b2a05aa549d36b13939adf@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261203T133000
+DTEND;TZID=Europe/Warsaw:20261203T150500
+SUMMARY:Khk (P)
+LOCATION:085 S
+DESCRIPTION:Krzywe hipereliptyczne w kryptologii\nRodzaj: projekt\nProwadz
+ ący: mgr inż. Kijko Tomasz\nNr zajęć: 4/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7ca5ab6ad717ab06ad9aa868@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261203T194000
+DTEND;TZID=Europe/Warsaw:20261203T211500
+SUMMARY:S.Sz.W.
+DESCRIPTION:Rodzaj: studium szkol. wojs.\nNr zajęć: 1/1\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:75a8c8564362290928e1d2f6@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261204T080000
+DTEND;TZID=Europe/Warsaw:20261204T093500
+SUMMARY:QPQe (w)
+LOCATION:078 S
+DESCRIPTION:Quantum and Post-Quantum Cryptology (w języku angielskim)\nRo
+ dzaj: wykład\nProwadzący: Jurkiewicz Mariusz\nNr zajęć: 12/15\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:90caca23034ea19971277ee5@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261204T095000
+DTEND;TZID=Europe/Warsaw:20261204T112500
+SUMMARY:QPQe (w)
+LOCATION:078 S
+DESCRIPTION:Quantum and Post-Quantum Cryptology (w języku angielskim)\nRo
+ dzaj: wykład\nProwadzący: Jurkiewicz Mariusz\nNr zajęć: 13/15\nBlok: 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d2fe7cb57e0da96ab2673809@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261204T114000
+DTEND;TZID=Europe/Warsaw:20261204T131500
+SUMMARY:WF: Gimnastyka i ćwiczenia siłowe
+LOCATION:siłownia
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Gimnastyka i 
+ ćwiczenia siłowe (zajęcia 28)\nObiekt: siłownia\nKod SWF: S-3/28 (gru
+ pa SWF 2PL/22KP)\nProwadzący: mgr Radosław Olszewski\nNr zajęć: 55/70
+ \nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:689a2ed8e8761e5ec81703e7@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261204T133000
+DTEND;TZID=Europe/Warsaw:20261204T150500
+SUMMARY:Mnk (w)
+LOCATION:204 65
+DESCRIPTION:Metody numeryczne w kryptologii\nRodzaj: wykład\nProwadzący:
+  Kojdecki Marek\nNr zajęć: 10/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a7fe046ed1d34f50fa0190ad@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261205T095000
+DTEND;TZID=Europe/Warsaw:20261205T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 23/28\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:895e89937c5ce82f076d3f66@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261207T080000
+DTEND;TZID=Europe/Warsaw:20261207T093500
+SUMMARY:Stg (L)
+LOCATION:218 65
+DESCRIPTION:Steganografia\nRodzaj: laboratorium\nProwadzący: Kaczyński K
+ amil\nNr zajęć: 2/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a79d04e2e46b3c5606daa98f@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261207T095000
+DTEND;TZID=Europe/Warsaw:20261207T112500
+SUMMARY:Stg (w)
+LOCATION:307 S
+DESCRIPTION:Steganografia\nRodzaj: wykład\nProwadzący: Kaczyński Kamil\
+ nNr zajęć: 3/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3f1fe527fc7f6997fb442694@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261207T114000
+DTEND;TZID=Europe/Warsaw:20261207T131500
+SUMMARY:Stg (w)
+LOCATION:307 S
+DESCRIPTION:Steganografia\nRodzaj: wykład\nProwadzący: Kaczyński Kamil\
+ nNr zajęć: 4/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7c03ad3d042ebdf4836e5cdc@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261207T133000
+DTEND;TZID=Europe/Warsaw:20261207T150500
+SUMMARY:QPQe (ć)
+LOCATION:078 S
+DESCRIPTION:Quantum and Post-Quantum Cryptology (w języku angielskim)\nRo
+ dzaj: ćwiczenia\nProwadzący: Jurkiewicz Mariusz\nNr zajęć: 4/7\nBlok:
+  4
+END:VEVENT
+BEGIN:VEVENT
+UID:31d0f4c088509ec4086dc789@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261207T160000
+DTEND;TZID=Europe/Warsaw:20261207T173500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 49/59\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:267d3140484608aa466e5ebd@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261208T080000
+DTEND;TZID=Europe/Warsaw:20261208T093500
+SUMMARY:KAB (w)
+LOCATION:078 S
+DESCRIPTION:Kryptoanaliza algorytmów blokowych\nRodzaj: wykład\nProwadz
+ ący: Misztal Michał\nNr zajęć: 10/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:76be86cbd240331c3527525d@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261208T095000
+DTEND;TZID=Europe/Warsaw:20261208T112500
+SUMMARY:wzbnim (ć)
+LOCATION:307 S
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: ćwiczenia\nNr zajęć: 2/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4e95e172d11d08e59269f715@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261208T114000
+DTEND;TZID=Europe/Warsaw:20261208T131500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 23)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/23 (grupa SWF 2PL/22KP)\nProwadz
+ ący: mgr Radosław Olszewski\nNr zajęć: 56/70\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:79c437119d30221bb8d83be6@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261210T080000
+DTEND;TZID=Europe/Warsaw:20261210T093500
+SUMMARY:Kas (L)
+LOCATION:085 S
+DESCRIPTION:Kryptoanaliza algorytmów strumieniowych\nRodzaj: laboratorium
+ \nProwadzący: Mańk Krzysztof\nNr zajęć: 4/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:bdd647e0ad83207174d35869@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261210T095000
+DTEND;TZID=Europe/Warsaw:20261210T112500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 19)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/19 (grupa SWF 2PL/22KP)\nProwadz
+ ący: mgr Radosław Olszewski\, ppłk mgr inż. Rafał Goławski\nNr zaj
+ ęć: 57/70\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ed6ec733fef3f1414e99177f@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261210T114000
+DTEND;TZID=Europe/Warsaw:20261210T131500
+SUMMARY:TW (ć)
+LOCATION:16 57
+DESCRIPTION:Topografia wojskowa\nRodzaj: ćwiczenia\nNr zajęć: 5/5\nBlok
+ : 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a8404f2f7c7029bed5f68db1@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261210T133000
+DTEND;TZID=Europe/Warsaw:20261210T150500
+SUMMARY:Mnk (L)
+LOCATION:218 65
+DESCRIPTION:Metody numeryczne w kryptologii\nRodzaj: laboratorium\nProwadz
+ ący: Kojdecki Marek\nNr zajęć: 7/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:449ede4dbeb13af29b65ff84@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261210T194000
+DTEND;TZID=Europe/Warsaw:20261210T211500
+SUMMARY:S.Sz.W.
+DESCRIPTION:Rodzaj: studium szkol. wojs.\nNr zajęć: 1/1\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:26734435a7b18ea657a3ea3b@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261211T080000
+DTEND;TZID=Europe/Warsaw:20261211T093500
+SUMMARY:Mnk (w)
+LOCATION:204 65
+DESCRIPTION:Metody numeryczne w kryptologii\nRodzaj: wykład\nProwadzący:
+  Kojdecki Marek\nNr zajęć: 11/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:27f13d33bd141f422564c47b@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261211T095000
+DTEND;TZID=Europe/Warsaw:20261211T112500
+SUMMARY:QPQe (w)
+LOCATION:078 S
+DESCRIPTION:Quantum and Post-Quantum Cryptology (w języku angielskim)\nRo
+ dzaj: wykład\nProwadzący: Jurkiewicz Mariusz\nNr zajęć: 14/15\nBlok: 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9a212b5d559358c6cea6f153@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261211T114000
+DTEND;TZID=Europe/Warsaw:20261211T131500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 32)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/32 (grupa SWF 2PL/22KP)\nProwadz
+ ący: mgr Radosław Olszewski\nNr zajęć: 58/70\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:55f246acaa1f5e97c1330654@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261211T133000
+DTEND;TZID=Europe/Warsaw:20261211T150500
+SUMMARY:KAB (L)
+LOCATION:078 S
+DESCRIPTION:Kryptoanaliza algorytmów blokowych\nRodzaj: laboratorium\nPro
+ wadzący: Misztal Michał\nNr zajęć: 2/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:37709b2cc5826b7abd74aa6a@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261211T160000
+DTEND;TZID=Europe/Warsaw:20261211T173500
+SUMMARY:Khk (L)
+LOCATION:078 S
+DESCRIPTION:Krzywe hipereliptyczne w kryptologii\nRodzaj: laboratorium\nPr
+ owadzący: mgr inż. Kijko Tomasz\nNr zajęć: 5/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:9c7fcefa3d0d7bfee1e45123@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261212T095000
+DTEND;TZID=Europe/Warsaw:20261212T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 24/28\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d1eec0b9efcc4d68ecd9eac8@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261214T080000
+DTEND;TZID=Europe/Warsaw:20261214T093500
+SUMMARY:Stg (L)
+LOCATION:218 65
+DESCRIPTION:Steganografia\nRodzaj: laboratorium\nProwadzący: Kaczyński K
+ amil\nNr zajęć: 3/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ca025d0dc54e88acf695dcaa@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261214T095000
+DTEND;TZID=Europe/Warsaw:20261214T112500
+SUMMARY:Stg (w)
+LOCATION:307 S
+DESCRIPTION:Steganografia\nRodzaj: wykład\nProwadzący: Kaczyński Kamil\
+ nNr zajęć: 5/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:99cb3d23fb18efcf4895ca4e@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261214T114000
+DTEND;TZID=Europe/Warsaw:20261214T131500
+SUMMARY:Stg (w)
+LOCATION:307 S
+DESCRIPTION:Steganografia\nRodzaj: wykład\nProwadzący: Kaczyński Kamil\
+ nNr zajęć: 6/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c08157d3666291cf9a9172fd@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261214T133000
+DTEND;TZID=Europe/Warsaw:20261214T150500
+SUMMARY:QPQe (ć)
+LOCATION:078 S
+DESCRIPTION:Quantum and Post-Quantum Cryptology (w języku angielskim)\nRo
+ dzaj: ćwiczenia\nProwadzący: Jurkiewicz Mariusz\nNr zajęć: 5/7\nBlok:
+  4
+END:VEVENT
+BEGIN:VEVENT
+UID:bd6fbc1bce4981b0b47b79d8@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261214T160000
+DTEND;TZID=Europe/Warsaw:20261214T173500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 50/59\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:cfd2264e4f854408d0d5bec5@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261215T080000
+DTEND;TZID=Europe/Warsaw:20261215T093500
+SUMMARY:Stg (L)
+LOCATION:218 65
+DESCRIPTION:Steganografia\nRodzaj: laboratorium\nProwadzący: Kaczyński K
+ amil\nNr zajęć: 4/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:eaa50c57cb5011eb3b3035f8@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261215T095000
+DTEND;TZID=Europe/Warsaw:20261215T112500
+SUMMARY:wzbnim (ć)
+LOCATION:308 S
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: ćwiczenia\nNr zajęć: 3/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:192aa56321ca2522868b6368@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261215T114000
+DTEND;TZID=Europe/Warsaw:20261215T131500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 25)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/25 (grupa SWF 2PL/22KP)\nProwadz
+ ący: mgr Radosław Olszewski\nNr zajęć: 59/70\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2cababa37c1d5338a586e1b4@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261215T133000
+DTEND;TZID=Europe/Warsaw:20261215T150500
+SUMMARY:Khk (L)
+LOCATION:085 S
+DESCRIPTION:Krzywe hipereliptyczne w kryptologii\nRodzaj: laboratorium\nPr
+ owadzący: mgr inż. Kijko Tomasz\nNr zajęć: 6/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b7d4e14e9d5e401175799afe@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261216T095000
+DTEND;TZID=Europe/Warsaw:20261216T112500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 51/59\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:75951fcd283483e3eb661eab@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261216T114000
+DTEND;TZID=Europe/Warsaw:20261216T131500
+SUMMARY:Mnk (L)
+LOCATION:219 65
+DESCRIPTION:Metody numeryczne w kryptologii\nRodzaj: laboratorium\nProwadz
+ ący: Kojdecki Marek\nNr zajęć: 8/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:fe498281e340601d9ac8dec4@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261217T080000
+DTEND;TZID=Europe/Warsaw:20261217T093500
+SUMMARY:Kas (L)
+LOCATION:085 S
+DESCRIPTION:Kryptoanaliza algorytmów strumieniowych\nRodzaj: laboratorium
+ \nProwadzący: Mańk Krzysztof\nNr zajęć: 5/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8fd748025f1edf9d344feb9f@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261217T095000
+DTEND;TZID=Europe/Warsaw:20261217T112500
+SUMMARY:Kas (L)
+LOCATION:085 S
+DESCRIPTION:Kryptoanaliza algorytmów strumieniowych\nRodzaj: laboratorium
+ \nProwadzący: Mańk Krzysztof\nNr zajęć: 6/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ac4ac5fcaaf5033a80073547@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261217T114000
+DTEND;TZID=Europe/Warsaw:20261217T131500
+SUMMARY:S.Sz.W.
+DESCRIPTION:Rodzaj: studium szkol. wojs.\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8dbc4795b29b53afc19684b4@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261217T133000
+DTEND;TZID=Europe/Warsaw:20261217T150500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PWC3)
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 9/12\nB
+ lok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:54d062609ddc8ca61067bb27@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261217T160000
+DTEND;TZID=Europe/Warsaw:20261217T173500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PWC3)
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 10/12\n
+ Blok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:c5f74e0ce0d10cabfb130e64@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261217T175000
+DTEND;TZID=Europe/Warsaw:20261217T192500
+SUMMARY:S.Sz.W.
+DESCRIPTION:Rodzaj: studium szkol. wojs.\nNr zajęć: 1/1\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:eb371324d656a4a6e2b14185@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261217T194000
+DTEND;TZID=Europe/Warsaw:20261217T211500
+SUMMARY:S.Sz.W.
+DESCRIPTION:Rodzaj: studium szkol. wojs.\nNr zajęć: 1/1\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:c0f4776fcaff85c90d59c7bf@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261218T080000
+DTEND;TZID=Europe/Warsaw:20261218T093500
+SUMMARY:Mnk (w)
+LOCATION:205 65
+DESCRIPTION:Metody numeryczne w kryptologii\nRodzaj: wykład\nProwadzący:
+  Kojdecki Marek\nNr zajęć: 12/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e6b74125040cc0b309ae5838@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261218T095000
+DTEND;TZID=Europe/Warsaw:20261218T112500
+SUMMARY:QPQe (w)
+LOCATION:078 S
+DESCRIPTION:Quantum and Post-Quantum Cryptology (w języku angielskim)\nRo
+ dzaj: wykład\nProwadzący: Jurkiewicz Mariusz\nNr zajęć: 15/15\nBlok: 
+ 2
+END:VEVENT
+BEGIN:VEVENT
+UID:7cb60e974f29c9f3e458ae9a@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261218T114000
+DTEND;TZID=Europe/Warsaw:20261218T131500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 21)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/21 (grupa SWF 2PL/22KP)\nProwadz
+ ący: mgr Radosław Olszewski\nNr zajęć: 60/70\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:304d94c9a82baf6c4d498027@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261218T133000
+DTEND;TZID=Europe/Warsaw:20261218T150500
+SUMMARY:Dtu (P)
+LOCATION:106 65
+DESCRIPTION:Diagnostyka i tolerowanie uszkodzeń\nRodzaj: projekt\nProwadz
+ ący: Melaniuk Michał\nNr zajęć: 5/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:bb1cd01f08570e428f8856c3@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261218T160000
+DTEND;TZID=Europe/Warsaw:20261218T173500
+SUMMARY:Dtu (P)
+LOCATION:106 65
+DESCRIPTION:Diagnostyka i tolerowanie uszkodzeń\nRodzaj: projekt\nProwadz
+ ący: Melaniuk Michał\nNr zajęć: 6/8\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:bef79cf48615dc96929d7d8d@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261219T095000
+DTEND;TZID=Europe/Warsaw:20261219T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 25/28\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c0d1eb24b13a7a4bc760f9bc@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261221T080000
+DTEND;TZID=Europe/Warsaw:20261221T093500
+SUMMARY:Mnk (w)
+LOCATION:204 65
+DESCRIPTION:Metody numeryczne w kryptologii\nRodzaj: wykład\nProwadzący:
+  Kojdecki Marek\nNr zajęć: 13/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ae393277d3aa1db2df591916@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261221T095000
+DTEND;TZID=Europe/Warsaw:20261221T112500
+SUMMARY:Stg (w)
+LOCATION:307 S
+DESCRIPTION:Steganografia\nRodzaj: wykład\nProwadzący: Kaczyński Kamil\
+ nNr zajęć: 7/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c4208bd8be0831f8bf358ecd@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261221T114000
+DTEND;TZID=Europe/Warsaw:20261221T131500
+SUMMARY:Stg (w)
+LOCATION:307 S
+DESCRIPTION:Steganografia\nRodzaj: wykład\nProwadzący: Kaczyński Kamil\
+ nNr zajęć: 8/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5a5f61a1e0705cb8f357ec15@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261221T133000
+DTEND;TZID=Europe/Warsaw:20261221T150500
+SUMMARY:Stg (L)
+LOCATION:218 65
+DESCRIPTION:Steganografia\nRodzaj: laboratorium\nProwadzący: Kaczyński K
+ amil\nNr zajęć: 5/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2ea8cfb2a2efb01007e4bdc7@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261221T160000
+DTEND;TZID=Europe/Warsaw:20261221T173500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 52/59\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:167e925a01eb7955f82c66f4@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261222T080000
+DTEND;TZID=Europe/Warsaw:20261222T093500
+SUMMARY:Mnk (L)
+LOCATION:219 65
+DESCRIPTION:Metody numeryczne w kryptologii\nRodzaj: laboratorium\nProwadz
+ ący: Kojdecki Marek\nNr zajęć: 9/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2c18cbdc523cf320de221d38@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261222T095000
+DTEND;TZID=Europe/Warsaw:20261222T112500
+SUMMARY:wzbnim (ć)
+LOCATION:308 S
+DESCRIPTION:Wybrane zagadnienia bezpieczeństwa narodowego i międzynarodo
+ wego\nRodzaj: ćwiczenia\nNr zajęć: 4/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:93e9d79606c95e79709fd151@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261222T114000
+DTEND;TZID=Europe/Warsaw:20261222T131500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:hala tartanowa – gimnastyka
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 38)\nObie
+ kt: hala tartanowa – gimnastyka\nKod SWF: B3-2/38 (grupa SWF 2PL/22KP)\
+ nProwadzący: mgr Radosław Olszewski\nNr zajęć: 61/70\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:18355c957a0bad8df4ff3e27@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20261223T080000
+DTEND;TZID=Europe/Warsaw:20261223T093500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 53/59\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:e36add48212a52d732d2d38d@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270107T080000
+DTEND;TZID=Europe/Warsaw:20270107T093500
+SUMMARY:aa (L)
+LOCATION:085 S
+DESCRIPTION:Ataki algebraiczne\nRodzaj: laboratorium\nProwadzący: Burek E
+ lżbieta\nNr zajęć: 4/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a57459ad08a90a3addaba731@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270107T095000
+DTEND;TZID=Europe/Warsaw:20270107T112500
+SUMMARY:WF: Piłka siatkowa
+LOCATION:zewnętrzne boisko do piłki siatkowej
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Piłka siatkow
+ a (zajęcia 12)\nObiekt: zewnętrzne boisko do piłki siatkowej\nKod SWF:
+  F-7/12 (grupa SWF 2PL/22KP)\nProwadzący: mgr Radosław Olszewski\, ppł
+ k mgr inż. Rafał Goławski\nNr zajęć: 62/70\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ae8361565fa8e370b4f1ba54@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270107T114000
+DTEND;TZID=Europe/Warsaw:20270107T131500
+SUMMARY:Khk (P)
+LOCATION:085 S
+DESCRIPTION:Krzywe hipereliptyczne w kryptologii\nRodzaj: projekt\nProwadz
+ ący: mgr inż. Kijko Tomasz\nNr zajęć: 5/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:29530937e458a8fa4be089dd@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270107T133000
+DTEND;TZID=Europe/Warsaw:20270107T150500
+SUMMARY:Khk (P)
+LOCATION:085 S
+DESCRIPTION:Krzywe hipereliptyczne w kryptologii\nRodzaj: projekt\nProwadz
+ ący: mgr inż. Kijko Tomasz\nNr zajęć: 6/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f4469e1300e73083579b1b7d@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270107T194000
+DTEND;TZID=Europe/Warsaw:20270107T211500
+SUMMARY:S.Sz.W.
+DESCRIPTION:Rodzaj: studium szkol. wojs.\nNr zajęć: 1/1\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:e27f96064dcd56c22676acd9@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270108T080000
+DTEND;TZID=Europe/Warsaw:20270108T093500
+SUMMARY:Kas (L)
+LOCATION:078 S
+DESCRIPTION:Kryptoanaliza algorytmów strumieniowych\nRodzaj: laboratorium
+ \nProwadzący: Mańk Krzysztof\nNr zajęć: 7/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:66b221ec6225ceb9f162225b@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270108T095000
+DTEND;TZID=Europe/Warsaw:20270108T112500
+SUMMARY:Mnk (w)
+LOCATION:205 65
+DESCRIPTION:Metody numeryczne w kryptologii\nRodzaj: wykład\nProwadzący:
+  Kojdecki Marek\nNr zajęć: 14/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:a8c9c001ef349f1c95505d3a@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270108T114000
+DTEND;TZID=Europe/Warsaw:20270108T131500
+SUMMARY:WF: Walka wręcz
+LOCATION:hala tartanowa – walka wręcz
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Walka wręcz (
+ zajęcia 34)\nObiekt: hala tartanowa – walka wręcz\nKod SWF: B2-4/34 (
+ grupa SWF 2PL/22KP)\nProwadzący: mgr Radosław Olszewski\nNr zajęć: 63
+ /70\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:883e189dce4115cbcbaeb772@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270108T133000
+DTEND;TZID=Europe/Warsaw:20270108T150500
+SUMMARY:Mnk (L)
+LOCATION:218 65
+DESCRIPTION:Metody numeryczne w kryptologii\nRodzaj: laboratorium\nProwadz
+ ący: Kojdecki Marek\nNr zajęć: 10/15\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9c33dd51f0c133f45abe29c7@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270109T095000
+DTEND;TZID=Europe/Warsaw:20270109T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 26/28\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:33973eef27cb8f20dc10baa5@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270111T160000
+DTEND;TZID=Europe/Warsaw:20270111T173500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 54/59\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:1e61d94ae06f6eaf486282e9@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270111T175000
+DTEND;TZID=Europe/Warsaw:20270111T192500
+SUMMARY:Ja (ć)
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 55/59\nBlok:
+  6
+END:VEVENT
+BEGIN:VEVENT
+UID:36ca935e948d886d89f10cf0@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270112T114000
+DTEND;TZID=Europe/Warsaw:20270112T131500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 25)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/25 (grupa SWF 2PL/22KP)\nProwadz
+ ący: mgr Radosław Olszewski\nNr zajęć: 64/70\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1a5bb406f76c239acac9b226@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270113T095000
+DTEND;TZID=Europe/Warsaw:20270113T112500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 56/59\nBlok:
+  2
+END:VEVENT
+BEGIN:VEVENT
+UID:9a3fe3f19440383192aebd91@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270113T114000
+DTEND;TZID=Europe/Warsaw:20270113T131500
+SUMMARY:Mnk (L)
+LOCATION:219 65
+DESCRIPTION:Metody numeryczne w kryptologii\nRodzaj: laboratorium\nProwadz
+ ący: Kojdecki Marek\nNr zajęć: 11/15\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:649c61d8abddc5faffb1db8b@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270114T080000
+DTEND;TZID=Europe/Warsaw:20270114T093500
+SUMMARY:Kas (L)
+LOCATION:085 S
+DESCRIPTION:Kryptoanaliza algorytmów strumieniowych\nRodzaj: laboratorium
+ \nProwadzący: Mańk Krzysztof\nNr zajęć: 8/10\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2df6a5ca0a76d4221a2d373c@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270114T095000
+DTEND;TZID=Europe/Warsaw:20270114T112500
+SUMMARY:Kas (L)
+LOCATION:085 S
+DESCRIPTION:Kryptoanaliza algorytmów strumieniowych\nRodzaj: laboratorium
+ \nProwadzący: Mańk Krzysztof\nNr zajęć: 9/10\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:62158792467c3e7bd9eaf65f@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270114T114000
+DTEND;TZID=Europe/Warsaw:20270114T131500
+SUMMARY:KAB (ć)
+LOCATION:085 S
+DESCRIPTION:Kryptoanaliza algorytmów blokowych\nRodzaj: ćwiczenia\nProwa
+ dzący: Misztal Michał\nNr zajęć: 2/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:94725d6cb52ec9579c95e059@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270114T194000
+DTEND;TZID=Europe/Warsaw:20270114T211500
+SUMMARY:S.Sz.W.
+DESCRIPTION:Rodzaj: studium szkol. wojs.\nNr zajęć: 1/1\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:87d6eff98c068898bdf4225c@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270115T080000
+DTEND;TZID=Europe/Warsaw:20270115T093500
+SUMMARY:QPQe (ć)
+LOCATION:078 S
+DESCRIPTION:Quantum and Post-Quantum Cryptology (w języku angielskim)\nRo
+ dzaj: ćwiczenia\nProwadzący: Jurkiewicz Mariusz\nNr zajęć: 6/7\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:6028fcee182f8324db2778df@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270115T095000
+DTEND;TZID=Europe/Warsaw:20270115T112500
+SUMMARY:Mnk (w)
+LOCATION:205 65
+DESCRIPTION:Metody numeryczne w kryptologii\nRodzaj: wykład\nProwadzący:
+  Kojdecki Marek\nNr zajęć: 15/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:12a02f0e54ef878b4f091aea@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270115T114000
+DTEND;TZID=Europe/Warsaw:20270115T131500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 25)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/25 (grupa SWF 2PL/22KP)\nProwadz
+ ący: mgr Radosław Olszewski\nNr zajęć: 65/70\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a3abaad5a005bcb3ad9ede15@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270115T133000
+DTEND;TZID=Europe/Warsaw:20270115T150500
+SUMMARY:Dtu (L)
+LOCATION:106 65
+DESCRIPTION:Diagnostyka i tolerowanie uszkodzeń\nRodzaj: laboratorium\nPr
+ owadzący: Melaniuk Michał\nNr zajęć: 5/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a8deb0775e7d0cc1b565fffe@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270116T095000
+DTEND;TZID=Europe/Warsaw:20270116T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 27/28\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:da0c9362948cfdf218bd8010@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270118T114000
+DTEND;TZID=Europe/Warsaw:20270118T131500
+SUMMARY:Dtu (P)
+LOCATION:101 65
+DESCRIPTION:Diagnostyka i tolerowanie uszkodzeń\nRodzaj: projekt\nProwadz
+ ący: Melaniuk Michał\nNr zajęć: 7/8\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:aabe9a691221e2b895dcfe7b@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270118T133000
+DTEND;TZID=Europe/Warsaw:20270118T150500
+SUMMARY:Dtu (P)
+LOCATION:101 65
+DESCRIPTION:Diagnostyka i tolerowanie uszkodzeń\nRodzaj: projekt\nProwadz
+ ący: Melaniuk Michał\nNr zajęć: 8/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a7f2a342cb9e9a5e015343c3@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270119T080000
+DTEND;TZID=Europe/Warsaw:20270119T093500
+SUMMARY:Mnk (L)
+LOCATION:219 65
+DESCRIPTION:Metody numeryczne w kryptologii\nRodzaj: laboratorium\nProwadz
+ ący: Kojdecki Marek\nNr zajęć: 12/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e63caf5dae9a2f6af275d1df@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270119T095000
+DTEND;TZID=Europe/Warsaw:20270119T112500
+SUMMARY:Mnk (L)
+LOCATION:219 65
+DESCRIPTION:Metody numeryczne w kryptologii\nRodzaj: laboratorium\nProwadz
+ ący: Kojdecki Marek\nNr zajęć: 13/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:430db48feae1f649704bc3f7@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270119T114000
+DTEND;TZID=Europe/Warsaw:20270119T131500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 25)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/25 (grupa SWF 2PL/22KP)\nProwadz
+ ący: mgr Radosław Olszewski\nNr zajęć: 66/70\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:962db2bb0df808e9866a00cb@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270120T080000
+DTEND;TZID=Europe/Warsaw:20270120T093500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 57/59\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:276429ce00b1fa8971adf8fa@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270120T095000
+DTEND;TZID=Europe/Warsaw:20270120T112500
+SUMMARY:aa (L)
+LOCATION:085 S
+DESCRIPTION:Ataki algebraiczne\nRodzaj: laboratorium\nProwadzący: Burek E
+ lżbieta\nNr zajęć: 5/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:862c3b0151c0641ed5c0d33d@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270120T133000
+DTEND;TZID=Europe/Warsaw:20270120T150500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 7
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nNr zajęć: 13/18
+ \nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1768263e16a6719b14025d8d@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270120T160000
+DTEND;TZID=Europe/Warsaw:20270120T173500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 7
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nNr zajęć: 14/18
+ \nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:0ce091f0967ed0c1c02eae94@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270120T175000
+DTEND;TZID=Europe/Warsaw:20270120T192500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 7
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nNr zajęć: 15/18
+ \nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:58a1ff00413aef2330a2dbc1@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270121T095000
+DTEND;TZID=Europe/Warsaw:20270121T112500
+SUMMARY:WF: sprawdzian
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: sprawdzian nr 
+ 9\nObiekt: teren (las\, poligon)\nKod SWF: T-18/9 (grupa SWF 2PL/22KP)\nP
+ rowadzący: mgr Radosław Olszewski\, ppłk mgr inż. Rafał Goławski\nN
+ r zajęć: 67/70\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2a29f63047b187c190edc8a6@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270121T114000
+DTEND;TZID=Europe/Warsaw:20270121T131500
+SUMMARY:S.Sz.W.
+DESCRIPTION:Rodzaj: studium szkol. wojs.\nNr zajęć: 1/1\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7950810b6c415a8ca09376d0@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270121T133000
+DTEND;TZID=Europe/Warsaw:20270121T150500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PWC2)
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 11/12\n
+ Blok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:5d77e19457d4bb1dd6628812@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270121T160000
+DTEND;TZID=Europe/Warsaw:20270121T173500
+SUMMARY:SzS (ć)
+LOCATION:ST.nr 1(PWC2)
+DESCRIPTION:Szkolenie strzeleckie\nRodzaj: ćwiczenia\nNr zajęć: 12/12\n
+ Blok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:061f094822eb0b54e41e0dc4@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270121T194000
+DTEND;TZID=Europe/Warsaw:20270121T211500
+SUMMARY:S.Sz.W.
+DESCRIPTION:Rodzaj: studium szkol. wojs.\nNr zajęć: 1/1\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:5b85963fe529abf3eb7e0acb@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270122T095000
+DTEND;TZID=Europe/Warsaw:20270122T112500
+SUMMARY:KAB (L)
+LOCATION:078 S
+DESCRIPTION:Kryptoanaliza algorytmów blokowych\nRodzaj: laboratorium\nPro
+ wadzący: Misztal Michał\nNr zajęć: 3/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:69eb71f0920cc74689698373@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270122T114000
+DTEND;TZID=Europe/Warsaw:20270122T131500
+SUMMARY:WF: Gimnastyka i ćwiczenia siłowe
+LOCATION:sala gimnastyczna nr 54
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Gimnastyka i 
+ ćwiczenia siłowe (zajęcia 19)\nObiekt: sala gimnastyczna nr 54\nKod SW
+ F: G-3/19 (grupa SWF 2PL/22KP)\nProwadzący: mgr Radosław Olszewski\nNr 
+ zajęć: 68/70\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1bb4ae63cf31591cc65b9c42@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270123T095000
+DTEND;TZID=Europe/Warsaw:20270123T112500
+SUMMARY:XWF (ć)
+DESCRIPTION:XWychowanie fizyczne\nRodzaj: ćwiczenia\nNr zajęć: 28/28\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f6855c122f7d93210872d5bc@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270125T080000
+DTEND;TZID=Europe/Warsaw:20270125T093500
+SUMMARY:Mnk (L)
+LOCATION:219 65
+DESCRIPTION:Metody numeryczne w kryptologii\nRodzaj: laboratorium\nProwadz
+ ący: Kojdecki Marek\nNr zajęć: 14/15\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:bb280eb2e75e3c00f0a09ea5@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270125T095000
+DTEND;TZID=Europe/Warsaw:20270125T112500
+SUMMARY:Mnk (L)
+LOCATION:219 65
+DESCRIPTION:Metody numeryczne w kryptologii\nRodzaj: laboratorium\nProwadz
+ ący: Kojdecki Marek\nNr zajęć: 15/15\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:105c4b07c73fd4d9d765396b@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270125T114000
+DTEND;TZID=Europe/Warsaw:20270125T131500
+SUMMARY:Kas (L)
+LOCATION:078 S
+DESCRIPTION:Kryptoanaliza algorytmów strumieniowych\nRodzaj: laboratorium
+ \nProwadzący: Mańk Krzysztof\nNr zajęć: 10/10\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e02aa1223d481623274a5fc5@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270125T133000
+DTEND;TZID=Europe/Warsaw:20270125T150500
+SUMMARY:QPQe (ć)
+LOCATION:078 S
+DESCRIPTION:Quantum and Post-Quantum Cryptology (w języku angielskim)\nRo
+ dzaj: ćwiczenia\nProwadzący: Jurkiewicz Mariusz\nNr zajęć: 7/7\nBlok:
+  4
+END:VEVENT
+BEGIN:VEVENT
+UID:dc97b0c3453da49e025225cd@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270125T160000
+DTEND;TZID=Europe/Warsaw:20270125T173500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 58/59\nBlok:
+  5
+END:VEVENT
+BEGIN:VEVENT
+UID:0bb034dac6eec146e7cab438@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270126T080000
+DTEND;TZID=Europe/Warsaw:20270126T093500
+SUMMARY:Stg (L)
+LOCATION:218 65
+DESCRIPTION:Steganografia\nRodzaj: laboratorium\nProwadzący: Kaczyński K
+ amil\nNr zajęć: 6/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7f76747424c4d68bd5ac5159@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270126T095000
+DTEND;TZID=Europe/Warsaw:20270126T112500
+SUMMARY:Stg (L)
+LOCATION:218 65
+DESCRIPTION:Steganografia\nRodzaj: laboratorium\nProwadzący: Kaczyński K
+ amil\nNr zajęć: 7/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3e79caca78fcdb4ffadf6b4d@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270126T114000
+DTEND;TZID=Europe/Warsaw:20270126T131500
+SUMMARY:WF: Atletyka terenowa i specjalistyczne ćwiczenia na torach przes
+ zkód
+LOCATION:teren (las\, poligon)
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Atletyka teren
+ owa i specjalistyczne ćwiczenia na torach przeszkód (zajęcia 21)\nObie
+ kt: teren (las\, poligon)\nKod SWF: T-2/21 (grupa SWF 2PL/22KP)\nProwadz
+ ący: mgr Radosław Olszewski\nNr zajęć: 69/70\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:8a43e868f462efe9bff77ab8@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270127T080000
+DTEND;TZID=Europe/Warsaw:20270127T093500
+SUMMARY:Ja (ć)
+LOCATION:124 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 59/59\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:b785f522547c851958eac5a3@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270127T114000
+DTEND;TZID=Europe/Warsaw:20270127T131500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 1
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nNr zajęć: 16/18
+ \nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d0d1340f1f0fef293a841e90@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270127T133000
+DTEND;TZID=Europe/Warsaw:20270127T150500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 1
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nNr zajęć: 17/18
+ \nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:046366fc17881d4fad49fb34@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270127T160000
+DTEND;TZID=Europe/Warsaw:20270127T173500
+SUMMARY:ZaMe (ć)
+LOCATION:AW 1
+DESCRIPTION:Zabezpieczenie medyczne\nRodzaj: ćwiczenia\nNr zajęć: 18/18
+ \nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:2d8713c84ee2b2d627bfe09b@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270128T114000
+DTEND;TZID=Europe/Warsaw:20270128T131500
+SUMMARY:REG (ć)
+LOCATION:AW 3/038
+DESCRIPTION:Regulaminy SZ RP\nRodzaj: ćwiczenia\nNr zajęć: 2/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ea6593dd9bb5a12c3f151d1d@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270128T133000
+DTEND;TZID=Europe/Warsaw:20270128T150500
+SUMMARY:Dtu (L)
+LOCATION:125 65
+DESCRIPTION:Diagnostyka i tolerowanie uszkodzeń\nRodzaj: laboratorium\nPr
+ owadzący: Melaniuk Michał\nNr zajęć: 6/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6376baf1a6456ffd9b58c4d6@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270128T194000
+DTEND;TZID=Europe/Warsaw:20270128T211500
+SUMMARY:S.Sz.W.
+DESCRIPTION:Rodzaj: studium szkol. wojs.\nNr zajęć: 1/1\nBlok: 7
+END:VEVENT
+BEGIN:VEVENT
+UID:843fd290c8ddc8a084994a03@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270129T080000
+DTEND;TZID=Europe/Warsaw:20270129T093500
+SUMMARY:Khk (P)
+LOCATION:085 S
+DESCRIPTION:Krzywe hipereliptyczne w kryptologii\nRodzaj: projekt\nProwadz
+ ący: mgr inż. Kijko Tomasz\nNr zajęć: 7/8\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d7bdbe35e110a80c6f0ceaa0@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270129T095000
+DTEND;TZID=Europe/Warsaw:20270129T112500
+SUMMARY:Khk (P)
+LOCATION:085 S
+DESCRIPTION:Krzywe hipereliptyczne w kryptologii\nRodzaj: projekt\nProwadz
+ ący: mgr inż. Kijko Tomasz\nNr zajęć: 8/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c2230bc195dfc4803c7b19bc@wat-plan
+DTSTAMP:20261127T160255Z
+DTSTART;TZID=Europe/Warsaw:20270129T114000
+DTEND;TZID=Europe/Warsaw:20270129T131500
+SUMMARY:WF: Gimnastyka i ćwiczenia siłowe
+LOCATION:hala tartanowa – gimnastyka
+DESCRIPTION:Wychowanie fizyczne\nRodzaj: ćwiczenia\nTemat: Gimnastyka i 
+ ćwiczenia siłowe (zajęcia 21)\nObiekt: hala tartanowa – gimnastyka\n
+ Kod SWF: B1-3/21 (grupa SWF 2PL/22KP)\nProwadzący: mgr Radosław Olszews
+ ki\nNr zajęć: 70/70\nBlok: 3
+END:VEVENT
+END:VCALENDAR

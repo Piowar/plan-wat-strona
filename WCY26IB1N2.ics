@@ -1,0 +1,1187 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WCY26IB1N2
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:7e3efbc32cf39653d238eef0@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261003T080000
+DTEND;TZID=Europe/Warsaw:20261003T093500
+SUMMARY:Ing (Inne)
+LOCATION:klub WAT
+DESCRIPTION:Inauguracja\nRodzaj: spotkanie organizacyjne\nNr zajęć: 1/2\
+ nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d2b12c4872ba6876fa0a3509@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261003T095000
+DTEND;TZID=Europe/Warsaw:20261003T112500
+SUMMARY:Ing (Inne)
+LOCATION:klub WAT
+DESCRIPTION:Inauguracja\nRodzaj: spotkanie organizacyjne\nNr zajęć: 2/2\
+ nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ad15678c12bfb12c9449eaef@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261003T114000
+DTEND;TZID=Europe/Warsaw:20261003T131500
+SUMMARY:Nmtz (w)
+LOCATION:317 S
+DESCRIPTION:Nowoczesne metody i techniki zarządzania\nRodzaj: wykład\nNr
+  zajęć: 1/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b4166ca2e16365d9abbd0038@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261003T133000
+DTEND;TZID=Europe/Warsaw:20261003T150500
+SUMMARY:Ps (w)
+LOCATION:317 S
+DESCRIPTION:Procesy stochastyczne\nRodzaj: wykład\nProwadzący: dr Mularc
+ zyk Piotr\nNr zajęć: 1/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:981f1fb5638bb551384fe1a4@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261003T152000
+DTEND;TZID=Europe/Warsaw:20261003T165500
+SUMMARY:BSI (w)
+LOCATION:307 S
+DESCRIPTION:Bezpieczeństwo systemów informatycznych\nRodzaj: wykład\nPr
+ owadzący: dr inż. Górny Piotr\nNr zajęć: 1/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:eea7a9c5708f4ae13c36c67e@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261004T080000
+DTEND;TZID=Europe/Warsaw:20261004T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 1/15\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:c26ed0e2264fb43455897e6c@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261004T095000
+DTEND;TZID=Europe/Warsaw:20261004T112500
+SUMMARY:Isim (w)
+LOCATION:309 S
+DESCRIPTION:Inteligentne systemy internetu rzeczy w medycynie\nRodzaj: wyk
+ ład\nProwadzący: Gutowski Tomasz\nNr zajęć: 1/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8ec18653ed7dfef1350a85b1@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261004T114000
+DTEND;TZID=Europe/Warsaw:20261004T131500
+SUMMARY:Mia (w)
+LOCATION:309 S
+DESCRIPTION:Modelowanie i analiza procesów biznesowych\nRodzaj: wykład\n
+ Prowadzący: Waszkowski Robert\nNr zajęć: 1/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:91cf913eb1bd6b971a44d99b@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261010T080000
+DTEND;TZID=Europe/Warsaw:20261010T093500
+SUMMARY:Nmtz (w)
+LOCATION:317 S
+DESCRIPTION:Nowoczesne metody i techniki zarządzania\nRodzaj: wykład\nNr
+  zajęć: 2/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:ee3fe861a8522016678983ad@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261010T095000
+DTEND;TZID=Europe/Warsaw:20261010T112500
+SUMMARY:Nmtz (w)
+LOCATION:317 S
+DESCRIPTION:Nowoczesne metody i techniki zarządzania\nRodzaj: wykład\nNr
+  zajęć: 3/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9bd401eb5fdf36ad0ffb2e36@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261010T114000
+DTEND;TZID=Europe/Warsaw:20261010T131500
+SUMMARY:Ps (w)
+LOCATION:307 S
+DESCRIPTION:Procesy stochastyczne\nRodzaj: wykład\nProwadzący: dr Mularc
+ zyk Piotr\nNr zajęć: 2/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d8f3d1379042f940d88bd909@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261010T133000
+DTEND;TZID=Europe/Warsaw:20261010T150500
+SUMMARY:Ps (w)
+LOCATION:307 S
+DESCRIPTION:Procesy stochastyczne\nRodzaj: wykład\nProwadzący: dr Mularc
+ zyk Piotr\nNr zajęć: 3/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4e4898dfd036d5923215732f@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261010T152000
+DTEND;TZID=Europe/Warsaw:20261010T165500
+SUMMARY:BSI (w)
+LOCATION:307 S
+DESCRIPTION:Bezpieczeństwo systemów informatycznych\nRodzaj: wykład\nPr
+ owadzący: dr inż. Górny Piotr\nNr zajęć: 2/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:1835cb9cc1439e23670ddbdf@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261010T171000
+DTEND;TZID=Europe/Warsaw:20261010T184500
+SUMMARY:MumII (w)
+LOCATION:307 S
+DESCRIPTION:Metody uczenia maszynowego II\nRodzaj: wykład\nProwadzący: d
+ r Olejniczak Jarosław\nNr zajęć: 1/3\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:ca700545a73d2ee77e7cbac0@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261011T080000
+DTEND;TZID=Europe/Warsaw:20261011T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 2/15\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f0e1500331840ed58c4fc960@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261011T095000
+DTEND;TZID=Europe/Warsaw:20261011T112500
+SUMMARY:Isim (w)
+LOCATION:309 S
+DESCRIPTION:Inteligentne systemy internetu rzeczy w medycynie\nRodzaj: wyk
+ ład\nProwadzący: Gutowski Tomasz\nNr zajęć: 2/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:6df3f5b892f87dff6a670c61@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261011T114000
+DTEND;TZID=Europe/Warsaw:20261011T131500
+SUMMARY:Mia (w)
+LOCATION:309 S
+DESCRIPTION:Modelowanie i analiza procesów biznesowych\nRodzaj: wykład\n
+ Prowadzący: Waszkowski Robert\nNr zajęć: 2/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2eb83b4f8b7e0b5cf7640d7a@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261017T080000
+DTEND;TZID=Europe/Warsaw:20261017T093500
+SUMMARY:Clc (w)
+LOCATION:314 S
+DESCRIPTION:Cloud computing\nRodzaj: wykład\nProwadzący: Dyk Michał\nNr
+  zajęć: 1/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:1745689aee9cd2f3cc5b9996@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261017T095000
+DTEND;TZID=Europe/Warsaw:20261017T112500
+SUMMARY:Ps (w)
+LOCATION:314 S
+DESCRIPTION:Procesy stochastyczne\nRodzaj: wykład\nProwadzący: dr Mularc
+ zyk Piotr\nNr zajęć: 4/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:2db9036d9c31c4a522decd97@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261017T114000
+DTEND;TZID=Europe/Warsaw:20261017T131500
+SUMMARY:Ps (w)
+LOCATION:314 S
+DESCRIPTION:Procesy stochastyczne\nRodzaj: wykład\nProwadzący: dr Mularc
+ zyk Piotr\nNr zajęć: 5/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1af1481c07ffc1c126bc8cdb@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261017T133000
+DTEND;TZID=Europe/Warsaw:20261017T150500
+SUMMARY:Tal (w)
+LOCATION:314 S
+DESCRIPTION:Techniki algorytmiczne\nRodzaj: wykład\nProwadzący: Tarapata
+  Zbigniew\nNr zajęć: 1/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:71da1d1778ea0507a10eeeda@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261017T171000
+DTEND;TZID=Europe/Warsaw:20261017T184500
+SUMMARY:MumII (w)
+LOCATION:308 S
+DESCRIPTION:Metody uczenia maszynowego II\nRodzaj: wykład\nProwadzący: d
+ r Olejniczak Jarosław\nNr zajęć: 2/3\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:dbf05ae2c8bad575d72bd900@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261018T080000
+DTEND;TZID=Europe/Warsaw:20261018T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 3/15\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:39098631e35efdef372430a7@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261018T095000
+DTEND;TZID=Europe/Warsaw:20261018T112500
+SUMMARY:Isim (w)
+LOCATION:309 S
+DESCRIPTION:Inteligentne systemy internetu rzeczy w medycynie\nRodzaj: wyk
+ ład\nProwadzący: Gutowski Tomasz\nNr zajęć: 3/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:8f4d6ef4f72700da84d9988a@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261018T114000
+DTEND;TZID=Europe/Warsaw:20261018T131500
+SUMMARY:BSI (w)
+LOCATION:309 S
+DESCRIPTION:Bezpieczeństwo systemów informatycznych\nRodzaj: wykład\nPr
+ owadzący: dr inż. Górny Piotr\nNr zajęć: 3/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:af8c3284d68ee0ff221ea01f@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261018T133000
+DTEND;TZID=Europe/Warsaw:20261018T150500
+SUMMARY:BSI (ć)
+LOCATION:252 S
+DESCRIPTION:Bezpieczeństwo systemów informatycznych\nRodzaj: ćwiczenia\
+ nProwadzący: dr inż. Górny Piotr\nNr zajęć: 1/2\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9335e2f814aabe9daf9127a3@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261018T152000
+DTEND;TZID=Europe/Warsaw:20261018T165500
+SUMMARY:Tim (L)
+LOCATION:226 S
+DESCRIPTION:Technologie internetowe i mobilne\nRodzaj: laboratorium\nProwa
+ dzący: Sobolewski Michał\nNr zajęć: 1/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f5282fd89fbfe81b1996c888@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261018T171000
+DTEND;TZID=Europe/Warsaw:20261018T184500
+SUMMARY:Tim (L)
+LOCATION:226 S
+DESCRIPTION:Technologie internetowe i mobilne\nRodzaj: laboratorium\nProwa
+ dzący: Sobolewski Michał\nNr zajęć: 2/6\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:ac27538c944019e0da3557a8@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261024T080000
+DTEND;TZID=Europe/Warsaw:20261024T093500
+SUMMARY:Clc (w)
+LOCATION:307 S
+DESCRIPTION:Cloud computing\nRodzaj: wykład\nProwadzący: Dyk Michał\nNr
+  zajęć: 2/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:21b32aa392fb1c1ea41a2c9f@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261024T095000
+DTEND;TZID=Europe/Warsaw:20261024T112500
+SUMMARY:Clc (w)
+LOCATION:307 S
+DESCRIPTION:Cloud computing\nRodzaj: wykład\nProwadzący: Dyk Michał\nNr
+  zajęć: 3/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:10d4d181390e541bccaca6ca@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261024T114000
+DTEND;TZID=Europe/Warsaw:20261024T131500
+SUMMARY:Tal (w)
+LOCATION:313 S
+DESCRIPTION:Techniki algorytmiczne\nRodzaj: wykład\nProwadzący: Tarapata
+  Zbigniew\nNr zajęć: 2/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:af0b6a2444d1644a9568bddd@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261024T133000
+DTEND;TZID=Europe/Warsaw:20261024T150500
+SUMMARY:Tal (w)
+LOCATION:313 S
+DESCRIPTION:Techniki algorytmiczne\nRodzaj: wykład\nProwadzący: Tarapata
+  Zbigniew\nNr zajęć: 3/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6809051c3d423114e8d5a931@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261024T152000
+DTEND;TZID=Europe/Warsaw:20261024T165500
+SUMMARY:Mia (w)
+LOCATION:309 S
+DESCRIPTION:Modelowanie i analiza procesów biznesowych\nRodzaj: wykład\n
+ Prowadzący: Waszkowski Robert\nNr zajęć: 3/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:7ef8c7a25248dac2721fc094@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261024T171000
+DTEND;TZID=Europe/Warsaw:20261024T184500
+SUMMARY:Sws (Inne)
+LOCATION:314 S
+DESCRIPTION:Spotkanie organizacyjne\nRodzaj: spotkanie organizacyjne\nProw
+ adzący: Kutyła Adam\nNr zajęć: 1/1\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:ffa49b3426d3f54800baac3c@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261024T171000
+DTEND;TZID=Europe/Warsaw:20261024T184500
+SUMMARY:Sws (Inne)
+LOCATION:314 S
+DESCRIPTION:Spotkanie organizacyjne\nRodzaj: spotkanie organizacyjne\nProw
+ adzący: Piasecka Joanna\nNr zajęć: 1/1\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:34b02c96cffe99d0c79bd1d7@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261025T080000
+DTEND;TZID=Europe/Warsaw:20261025T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 4/15\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:27f862286f8c3efcd43df89d@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261025T095000
+DTEND;TZID=Europe/Warsaw:20261025T112500
+SUMMARY:Tim (w)
+LOCATION:307 S
+DESCRIPTION:Technologie internetowe i mobilne\nRodzaj: wykład\nProwadząc
+ y: Sobolewski Michał\nNr zajęć: 1/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:dc2b2330f4c31e4e3dfe1b2f@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261025T114000
+DTEND;TZID=Europe/Warsaw:20261025T131500
+SUMMARY:Tim (w)
+LOCATION:307 S
+DESCRIPTION:Technologie internetowe i mobilne\nRodzaj: wykład\nProwadząc
+ y: Sobolewski Michał\nNr zajęć: 2/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:17f87134f9e3e75a659c43c3@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261114T080000
+DTEND;TZID=Europe/Warsaw:20261114T093500
+SUMMARY:Msk. (w)
+LOCATION:307 S
+DESCRIPTION:Metody i techniki symulacji komputerowej\nRodzaj: wykład\nPro
+ wadzący: dr inż. Pierzchała Dariusz\nNr zajęć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3da71861d8c2c33028d4c992@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261114T095000
+DTEND;TZID=Europe/Warsaw:20261114T112500
+SUMMARY:Msk. (w)
+LOCATION:307 S
+DESCRIPTION:Metody i techniki symulacji komputerowej\nRodzaj: wykład\nPro
+ wadzący: dr inż. Pierzchała Dariusz\nNr zajęć: 2/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:d650dcafb23a6ea1ca822fc4@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261114T114000
+DTEND;TZID=Europe/Warsaw:20261114T131500
+SUMMARY:Tal (w)
+LOCATION:314 S
+DESCRIPTION:Techniki algorytmiczne\nRodzaj: wykład\nProwadzący: Tarapata
+  Zbigniew\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4c5304ad5936cdfc82bd9072@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261114T133000
+DTEND;TZID=Europe/Warsaw:20261114T150500
+SUMMARY:Tal (w)
+LOCATION:314 S
+DESCRIPTION:Techniki algorytmiczne\nRodzaj: wykład\nProwadzący: Tarapata
+  Zbigniew\nNr zajęć: 5/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1f133bca1319f6443072a903@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261114T152000
+DTEND;TZID=Europe/Warsaw:20261114T165500
+SUMMARY:Tim (w)
+LOCATION:308 S
+DESCRIPTION:Technologie internetowe i mobilne\nRodzaj: wykład\nProwadząc
+ y: Sobolewski Michał\nNr zajęć: 3/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:f611a02c0146cfae97f2d583@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261115T080000
+DTEND;TZID=Europe/Warsaw:20261115T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 5/15\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:06c5ef6d85048ba366690874@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261115T095000
+DTEND;TZID=Europe/Warsaw:20261115T112500
+SUMMARY:Mia (w)
+LOCATION:307 S
+DESCRIPTION:Modelowanie i analiza procesów biznesowych\nRodzaj: wykład\n
+ Prowadzący: Waszkowski Robert\nNr zajęć: 4/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:169d74fe1d24eeebb76b6a36@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261115T114000
+DTEND;TZID=Europe/Warsaw:20261115T131500
+SUMMARY:Mia (L)
+LOCATION:252 S
+DESCRIPTION:Modelowanie i analiza procesów biznesowych\nRodzaj: laborator
+ ium\nProwadzący: Waszkowski Robert\nNr zajęć: 1/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:99c8d97ec5e0004aaeb7a253@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261115T133000
+DTEND;TZID=Europe/Warsaw:20261115T150500
+SUMMARY:Mia (L)
+LOCATION:252 S
+DESCRIPTION:Modelowanie i analiza procesów biznesowych\nRodzaj: laborator
+ ium\nProwadzący: Waszkowski Robert\nNr zajęć: 2/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d2f6972b4c76007cb98bea6d@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261121T080000
+DTEND;TZID=Europe/Warsaw:20261121T093500
+SUMMARY:Msk. (w)
+LOCATION:307 S
+DESCRIPTION:Metody i techniki symulacji komputerowej\nRodzaj: wykład\nPro
+ wadzący: dr inż. Pierzchała Dariusz\nNr zajęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:2eb3956afa4cf2148e3ae847@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261121T095000
+DTEND;TZID=Europe/Warsaw:20261121T112500
+SUMMARY:Msk. (w)
+LOCATION:307 S
+DESCRIPTION:Metody i techniki symulacji komputerowej\nRodzaj: wykład\nPro
+ wadzący: dr inż. Pierzchała Dariusz\nNr zajęć: 4/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e4112ac9d02d9fd5496999a7@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261121T114000
+DTEND;TZID=Europe/Warsaw:20261121T131500
+SUMMARY:MumII (w)
+LOCATION:316 S
+DESCRIPTION:Metody uczenia maszynowego II\nRodzaj: wykład\nProwadzący: d
+ r Olejniczak Jarosław\nNr zajęć: 3/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a031ea71c75390cef57c8544@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261121T133000
+DTEND;TZID=Europe/Warsaw:20261121T150500
+SUMMARY:Ps (w)
+LOCATION:314 S
+DESCRIPTION:Procesy stochastyczne\nRodzaj: wykład\nProwadzący: dr Mularc
+ zyk Piotr\nNr zajęć: 6/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7d71084f7a63449d1698eb2e@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261121T152000
+DTEND;TZID=Europe/Warsaw:20261121T165500
+SUMMARY:Nmtz (w)
+LOCATION:317 S
+DESCRIPTION:Nowoczesne metody i techniki zarządzania\nRodzaj: wykład\nNr
+  zajęć: 4/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:4c7fa93849dd7e301526ccf2@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261122T080000
+DTEND;TZID=Europe/Warsaw:20261122T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 6/15\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:29c8ab91f9827d4a61da3f16@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261122T095000
+DTEND;TZID=Europe/Warsaw:20261122T112500
+SUMMARY:BSI (ć)
+LOCATION:226 S
+DESCRIPTION:Bezpieczeństwo systemów informatycznych\nRodzaj: ćwiczenia\
+ nProwadzący: dr inż. Górny Piotr\nNr zajęć: 2/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e44552da2c5368b82d7be081@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261122T114000
+DTEND;TZID=Europe/Warsaw:20261122T131500
+SUMMARY:Isim (P)
+LOCATION:252 S
+DESCRIPTION:Inteligentne systemy internetu rzeczy w medycynie\nRodzaj: pro
+ jekt\nProwadzący: Gutowski Tomasz\nNr zajęć: 1/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b9ea6d0c40a0550436c0c0c3@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261122T133000
+DTEND;TZID=Europe/Warsaw:20261122T150500
+SUMMARY:Tal (L)
+LOCATION:252 S
+DESCRIPTION:Techniki algorytmiczne\nRodzaj: laboratorium\nProwadzący: Nap
+ iórkowski Jarosław\nNr zajęć: 1/2\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:82220194339b9556f2202d9d@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261205T095000
+DTEND;TZID=Europe/Warsaw:20261205T112500
+SUMMARY:BSI (L)
+LOCATION:252 S
+DESCRIPTION:Bezpieczeństwo systemów informatycznych\nRodzaj: laboratoriu
+ m\nProwadzący: dr inż. Górny Piotr\nNr zajęć: 1/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:fb090bf11c8a283fdadc3ce0@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261205T114000
+DTEND;TZID=Europe/Warsaw:20261205T131500
+SUMMARY:Ps (ć)
+LOCATION:218 65
+DESCRIPTION:Procesy stochastyczne\nRodzaj: ćwiczenia\nProwadzący: dr Mul
+ arczyk Piotr\nNr zajęć: 1/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5802112f64f1e8b50b7a5f4c@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261205T133000
+DTEND;TZID=Europe/Warsaw:20261205T150500
+SUMMARY:BSI (w)
+LOCATION:308 S
+DESCRIPTION:Bezpieczeństwo systemów informatycznych\nRodzaj: wykład\nPr
+ owadzący: dr inż. Górny Piotr\nNr zajęć: 4/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6ac05f773eec014987b2b27d@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261205T152000
+DTEND;TZID=Europe/Warsaw:20261205T165500
+SUMMARY:Mia (L)
+LOCATION:252 S
+DESCRIPTION:Modelowanie i analiza procesów biznesowych\nRodzaj: laborator
+ ium\nProwadzący: Waszkowski Robert\nNr zajęć: 3/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:fb0e8e1c8a82858e122a26e4@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261205T171000
+DTEND;TZID=Europe/Warsaw:20261205T184500
+SUMMARY:Mia (L)
+LOCATION:252 S
+DESCRIPTION:Modelowanie i analiza procesów biznesowych\nRodzaj: laborator
+ ium\nProwadzący: Waszkowski Robert\nNr zajęć: 4/6\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:3691d0ecf0b56d1a3f6822b5@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261206T080000
+DTEND;TZID=Europe/Warsaw:20261206T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 7/15\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:99c2f3a07d8a8f1e061b8bd3@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261206T095000
+DTEND;TZID=Europe/Warsaw:20261206T112500
+SUMMARY:Isim (L)
+LOCATION:252 S
+DESCRIPTION:Inteligentne systemy internetu rzeczy w medycynie\nRodzaj: lab
+ oratorium\nProwadzący: Gutowski Tomasz\nNr zajęć: 1/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:058dbf87c9004f755693a8d3@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261206T114000
+DTEND;TZID=Europe/Warsaw:20261206T131500
+SUMMARY:Isim (L)
+LOCATION:252 S
+DESCRIPTION:Inteligentne systemy internetu rzeczy w medycynie\nRodzaj: lab
+ oratorium\nProwadzący: Gutowski Tomasz\nNr zajęć: 2/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:f31553b21af7a6f377b716d3@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261206T133000
+DTEND;TZID=Europe/Warsaw:20261206T150500
+SUMMARY:Tim (L)
+LOCATION:224 S
+DESCRIPTION:Technologie internetowe i mobilne\nRodzaj: laboratorium\nProwa
+ dzący: Sobolewski Michał\nNr zajęć: 3/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:0d913b51729eb3dff8dddb61@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261206T152000
+DTEND;TZID=Europe/Warsaw:20261206T165500
+SUMMARY:Tim (L)
+LOCATION:224 S
+DESCRIPTION:Technologie internetowe i mobilne\nRodzaj: laboratorium\nProwa
+ dzący: Sobolewski Michał\nNr zajęć: 4/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:c1a320b9868dacc960dfcfc6@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261212T080000
+DTEND;TZID=Europe/Warsaw:20261212T093500
+SUMMARY:Clc (L)
+LOCATION:252 S
+DESCRIPTION:Cloud computing\nRodzaj: laboratorium\nProwadzący: Dyk Micha
+ ł\nNr zajęć: 1/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5f67bf64590dcc807885db53@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261212T095000
+DTEND;TZID=Europe/Warsaw:20261212T112500
+SUMMARY:Clc (L)
+LOCATION:252 S
+DESCRIPTION:Cloud computing\nRodzaj: laboratorium\nProwadzący: Dyk Micha
+ ł\nNr zajęć: 2/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:52ecc4f1dcf5bed9c6102b66@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261212T114000
+DTEND;TZID=Europe/Warsaw:20261212T131500
+SUMMARY:Ps (ć)
+LOCATION:218 65
+DESCRIPTION:Procesy stochastyczne\nRodzaj: ćwiczenia\nProwadzący: dr Mul
+ arczyk Piotr\nNr zajęć: 2/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4055150d93fb832423d6a097@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261212T133000
+DTEND;TZID=Europe/Warsaw:20261212T150500
+SUMMARY:Isim (P)
+LOCATION:233 S
+DESCRIPTION:Inteligentne systemy internetu rzeczy w medycynie\nRodzaj: pro
+ jekt\nProwadzący: Gutowski Tomasz\nNr zajęć: 2/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b756a07b474560559d5b32f3@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261212T171000
+DTEND;TZID=Europe/Warsaw:20261212T184500
+SUMMARY:Isim (L)
+LOCATION:233 S
+DESCRIPTION:Inteligentne systemy internetu rzeczy w medycynie\nRodzaj: lab
+ oratorium\nProwadzący: Gutowski Tomasz\nNr zajęć: 3/3\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:e428c86480bc547d933f6535@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261213T080000
+DTEND;TZID=Europe/Warsaw:20261213T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 8/15\nBlok: 
+ 1
+END:VEVENT
+BEGIN:VEVENT
+UID:90dbc95e092f50c17f022cf0@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261213T095000
+DTEND;TZID=Europe/Warsaw:20261213T112500
+SUMMARY:BSI (L)
+LOCATION:252 S
+DESCRIPTION:Bezpieczeństwo systemów informatycznych\nRodzaj: laboratoriu
+ m\nProwadzący: dr inż. Górny Piotr\nNr zajęć: 2/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:0b045454c0a02c3521e51ee9@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261213T114000
+DTEND;TZID=Europe/Warsaw:20261213T131500
+SUMMARY:Tim (w)
+LOCATION:309 S
+DESCRIPTION:Technologie internetowe i mobilne\nRodzaj: wykład\nProwadząc
+ y: Sobolewski Michał\nNr zajęć: 4/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:b33f99a8fb8dadfc4337b3a4@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261213T152000
+DTEND;TZID=Europe/Warsaw:20261213T165500
+SUMMARY:Nmtz (w)
+LOCATION:317 S
+DESCRIPTION:Nowoczesne metody i techniki zarządzania\nRodzaj: wykład\nNr
+  zajęć: 5/5\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:934bc7ffddcddf91fa1900e2@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261218T175000
+DTEND;TZID=Europe/Warsaw:20261218T192500
+SUMMARY:Ja (ć)
+LOCATION:on-line..
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 9/15\nBlok: 
+ 6
+END:VEVENT
+BEGIN:VEVENT
+UID:ef11cf63c67687fcf695f312@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261218T194000
+DTEND;TZID=Europe/Warsaw:20261218T211500
+SUMMARY:Ja (ć)
+LOCATION:on-line..
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 10/15\nBlok:
+  7
+END:VEVENT
+BEGIN:VEVENT
+UID:0678231e50c8a49be11ff3cf@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261219T080000
+DTEND;TZID=Europe/Warsaw:20261219T093500
+SUMMARY:Msk. (L)
+LOCATION:252 S
+DESCRIPTION:Metody i techniki symulacji komputerowej\nRodzaj: laboratorium
+ \nProwadzący: dr inż. Pierzchała Dariusz\nNr zajęć: 1/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8082b412a47705dd6844ca82@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261219T095000
+DTEND;TZID=Europe/Warsaw:20261219T112500
+SUMMARY:Msk. (L)
+LOCATION:252 S
+DESCRIPTION:Metody i techniki symulacji komputerowej\nRodzaj: laboratorium
+ \nProwadzący: dr inż. Pierzchała Dariusz\nNr zajęć: 2/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:898c0386b7cc4938e75de3b0@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261219T114000
+DTEND;TZID=Europe/Warsaw:20261219T131500
+SUMMARY:MumII (L)
+LOCATION:252 S
+DESCRIPTION:Metody uczenia maszynowego II\nRodzaj: laboratorium\nProwadzą
+ cy: dr Olejniczak Jarosław\nNr zajęć: 1/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2c8e25746330d2097c154a87@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261219T133000
+DTEND;TZID=Europe/Warsaw:20261219T150500
+SUMMARY:Isim (P)
+LOCATION:252 S
+DESCRIPTION:Inteligentne systemy internetu rzeczy w medycynie\nRodzaj: pro
+ jekt\nProwadzący: Gutowski Tomasz\nNr zajęć: 3/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:ae48bdb8ee68ff6b9e13a601@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261219T152000
+DTEND;TZID=Europe/Warsaw:20261219T165500
+SUMMARY:Nmtz (ć)
+LOCATION:307 S
+DESCRIPTION:Nowoczesne metody i techniki zarządzania\nRodzaj: ćwiczenia\
+ nNr zajęć: 1/2\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:8cc1a71ef236e3f9f5a7cc9a@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261220T080000
+DTEND;TZID=Europe/Warsaw:20261220T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 11/15\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:e5a3d9e3052203962eda6fd0@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261220T095000
+DTEND;TZID=Europe/Warsaw:20261220T112500
+SUMMARY:BSI (L)
+LOCATION:252 S
+DESCRIPTION:Bezpieczeństwo systemów informatycznych\nRodzaj: laboratoriu
+ m\nProwadzący: dr inż. Górny Piotr\nNr zajęć: 3/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c6fec7be9b4d3b15155fb12c@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261220T114000
+DTEND;TZID=Europe/Warsaw:20261220T131500
+SUMMARY:Tim (L)
+LOCATION:233 S
+DESCRIPTION:Technologie internetowe i mobilne\nRodzaj: laboratorium\nProwa
+ dzący: Sobolewski Michał\nNr zajęć: 5/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ef3000be2860b839aeeb5e4d@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261220T133000
+DTEND;TZID=Europe/Warsaw:20261220T150500
+SUMMARY:Tim (L)
+LOCATION:233 S
+DESCRIPTION:Technologie internetowe i mobilne\nRodzaj: laboratorium\nProwa
+ dzący: Sobolewski Michał\nNr zajęć: 6/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d1530f6a31aa40f23f3a0e05@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270109T080000
+DTEND;TZID=Europe/Warsaw:20270109T093500
+SUMMARY:Clc (L)
+LOCATION:223 S
+DESCRIPTION:Cloud computing\nRodzaj: laboratorium\nProwadzący: Dyk Micha
+ ł\nNr zajęć: 3/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:547e9e9332e0dd684a9cd0fa@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270109T095000
+DTEND;TZID=Europe/Warsaw:20270109T112500
+SUMMARY:Clc (L)
+LOCATION:223 S
+DESCRIPTION:Cloud computing\nRodzaj: laboratorium\nProwadzący: Dyk Micha
+ ł\nNr zajęć: 4/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f6d60b00ab3048d0b7baa9e1@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270109T114000
+DTEND;TZID=Europe/Warsaw:20270109T131500
+SUMMARY:BSI (L)
+LOCATION:252 S
+DESCRIPTION:Bezpieczeństwo systemów informatycznych\nRodzaj: laboratoriu
+ m\nProwadzący: dr inż. Górny Piotr\nNr zajęć: 4/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:cff13e64218bb24a5646edbf@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270109T133000
+DTEND;TZID=Europe/Warsaw:20270109T150500
+SUMMARY:Ps (ć)
+LOCATION:218 65
+DESCRIPTION:Procesy stochastyczne\nRodzaj: ćwiczenia\nProwadzący: dr Mul
+ arczyk Piotr\nNr zajęć: 3/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f1b6e6f408133c0b42be931f@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270109T152000
+DTEND;TZID=Europe/Warsaw:20270109T165500
+SUMMARY:Nmtz (ć)
+LOCATION:308 S
+DESCRIPTION:Nowoczesne metody i techniki zarządzania\nRodzaj: ćwiczenia\
+ nNr zajęć: 2/2\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:9cbc33b05df13edb421eeb80@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270110T080000
+DTEND;TZID=Europe/Warsaw:20270110T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 12/15\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:0032f30ce87c0d1e153248f6@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270116T080000
+DTEND;TZID=Europe/Warsaw:20270116T093500
+SUMMARY:Msk. (L)
+LOCATION:252 S
+DESCRIPTION:Metody i techniki symulacji komputerowej\nRodzaj: laboratorium
+ \nProwadzący: dr inż. Pierzchała Dariusz\nNr zajęć: 3/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4e1b1d9ce5e5b0bd65219572@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270116T095000
+DTEND;TZID=Europe/Warsaw:20270116T112500
+SUMMARY:Msk. (L)
+LOCATION:252 S
+DESCRIPTION:Metody i techniki symulacji komputerowej\nRodzaj: laboratorium
+ \nProwadzący: dr inż. Pierzchała Dariusz\nNr zajęć: 4/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:c56324aa6382a7d8e64e47dc@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270116T114000
+DTEND;TZID=Europe/Warsaw:20270116T131500
+SUMMARY:MumII (L)
+LOCATION:252 S
+DESCRIPTION:Metody uczenia maszynowego II\nRodzaj: laboratorium\nProwadzą
+ cy: dr Olejniczak Jarosław\nNr zajęć: 2/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d1c6369f34cff249a234a0c1@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270116T133000
+DTEND;TZID=Europe/Warsaw:20270116T150500
+SUMMARY:MumII (L)
+LOCATION:252 S
+DESCRIPTION:Metody uczenia maszynowego II\nRodzaj: laboratorium\nProwadzą
+ cy: dr Olejniczak Jarosław\nNr zajęć: 3/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1f0f38b092beb4886a607121@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270117T080000
+DTEND;TZID=Europe/Warsaw:20270117T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 13/15\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:e734f104e01710b3338acd4c@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270123T080000
+DTEND;TZID=Europe/Warsaw:20270123T093500
+SUMMARY:Clc (L)
+LOCATION:223 S
+DESCRIPTION:Cloud computing\nRodzaj: laboratorium\nProwadzący: Dyk Micha
+ ł\nNr zajęć: 5/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:cf31b89149fe92f336924b12@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270123T095000
+DTEND;TZID=Europe/Warsaw:20270123T112500
+SUMMARY:Clc (L)
+LOCATION:223 S
+DESCRIPTION:Cloud computing\nRodzaj: laboratorium\nProwadzący: Dyk Micha
+ ł\nNr zajęć: 6/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f7b8b0dfe774066d2e0585ac@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270123T114000
+DTEND;TZID=Europe/Warsaw:20270123T131500
+SUMMARY:MumII (L)
+LOCATION:252 S
+DESCRIPTION:Metody uczenia maszynowego II\nRodzaj: laboratorium\nProwadzą
+ cy: dr Olejniczak Jarosław\nNr zajęć: 4/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e87c15c13711b0f82c4aec54@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270123T133000
+DTEND;TZID=Europe/Warsaw:20270123T150500
+SUMMARY:MumII (L)
+LOCATION:252 S
+DESCRIPTION:Metody uczenia maszynowego II\nRodzaj: laboratorium\nProwadzą
+ cy: dr Olejniczak Jarosław\nNr zajęć: 5/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d44707389b79a889a49c8f1a@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270124T080000
+DTEND;TZID=Europe/Warsaw:20270124T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 14/15\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:498fdba38bcdf4e938e9106e@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270124T114000
+DTEND;TZID=Europe/Warsaw:20270124T131500
+SUMMARY:Mia (L)
+LOCATION:252 S
+DESCRIPTION:Modelowanie i analiza procesów biznesowych\nRodzaj: laborator
+ ium\nProwadzący: Waszkowski Robert\nNr zajęć: 5/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:450c6031aa7a172f3cf96ad4@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270124T133000
+DTEND;TZID=Europe/Warsaw:20270124T150500
+SUMMARY:Mia (L)
+LOCATION:252 S
+DESCRIPTION:Modelowanie i analiza procesów biznesowych\nRodzaj: laborator
+ ium\nProwadzący: Waszkowski Robert\nNr zajęć: 6/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:23c98635e47ffc94c5ffc493@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270124T152000
+DTEND;TZID=Europe/Warsaw:20270124T165500
+SUMMARY:Tal (L)
+LOCATION:252 S
+DESCRIPTION:Techniki algorytmiczne\nRodzaj: laboratorium\nProwadzący: Nap
+ iórkowski Jarosław\nNr zajęć: 2/2\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:fd240b5bcf4644dd615158f7@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270124T171000
+DTEND;TZID=Europe/Warsaw:20270124T184500
+SUMMARY:Tal (P)
+LOCATION:252 S
+DESCRIPTION:Techniki algorytmiczne\nRodzaj: projekt\nProwadzący: Napiórk
+ owski Jarosław\nNr zajęć: 1/3\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:787615833b88310cf4ae4281@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270130T080000
+DTEND;TZID=Europe/Warsaw:20270130T093500
+SUMMARY:Clc (L)
+LOCATION:252 S
+DESCRIPTION:Cloud computing\nRodzaj: laboratorium\nProwadzący: Dyk Micha
+ ł\nNr zajęć: 7/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8368ab7bf319617b1aa3567e@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270130T095000
+DTEND;TZID=Europe/Warsaw:20270130T112500
+SUMMARY:Msk. (L)
+LOCATION:252 S
+DESCRIPTION:Metody i techniki symulacji komputerowej\nRodzaj: laboratorium
+ \nProwadzący: dr inż. Pierzchała Dariusz\nNr zajęć: 5/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3356993fcfe4331bf0c94c8d@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270130T114000
+DTEND;TZID=Europe/Warsaw:20270130T131500
+SUMMARY:Msk. (L)
+LOCATION:252 S
+DESCRIPTION:Metody i techniki symulacji komputerowej\nRodzaj: laboratorium
+ \nProwadzący: dr inż. Pierzchała Dariusz\nNr zajęć: 6/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0e71c478e5a94738d41d370a@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270130T133000
+DTEND;TZID=Europe/Warsaw:20270130T150500
+SUMMARY:Ps (ć)
+LOCATION:218 65
+DESCRIPTION:Procesy stochastyczne\nRodzaj: ćwiczenia\nProwadzący: dr Mul
+ arczyk Piotr\nNr zajęć: 4/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e3150613271b5acb8d4407b0@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270130T152000
+DTEND;TZID=Europe/Warsaw:20270130T165500
+SUMMARY:MumII (L)
+LOCATION:252 S
+DESCRIPTION:Metody uczenia maszynowego II\nRodzaj: laboratorium\nProwadzą
+ cy: dr Olejniczak Jarosław\nNr zajęć: 6/7\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:056af4f7ff4b0759c1a15db9@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270130T171000
+DTEND;TZID=Europe/Warsaw:20270130T184500
+SUMMARY:MumII (L)
+LOCATION:252 S
+DESCRIPTION:Metody uczenia maszynowego II\nRodzaj: laboratorium\nProwadzą
+ cy: dr Olejniczak Jarosław\nNr zajęć: 7/7\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:b5f8b72a690e5dda6fb0b2dd@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270131T080000
+DTEND;TZID=Europe/Warsaw:20270131T093500
+SUMMARY:Ja (ć)
+LOCATION:134 K
+DESCRIPTION:Język angielski\nRodzaj: ćwiczenia\nNr zajęć: 15/15\nBlok:
+  1
+END:VEVENT
+BEGIN:VEVENT
+UID:a44fcf653bcbb280036d608d@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270131T114000
+DTEND;TZID=Europe/Warsaw:20270131T131500
+SUMMARY:Isim (P)
+LOCATION:252 S
+DESCRIPTION:Inteligentne systemy internetu rzeczy w medycynie\nRodzaj: pro
+ jekt\nProwadzący: Gutowski Tomasz\nNr zajęć: 4/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:faf5f05f1ca2e7fd949125dc@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270131T133000
+DTEND;TZID=Europe/Warsaw:20270131T150500
+SUMMARY:Tal (P)
+LOCATION:252 S
+DESCRIPTION:Techniki algorytmiczne\nRodzaj: projekt\nProwadzący: Napiórk
+ owski Jarosław\nNr zajęć: 2/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e7a8eb60cfe29e1c26ebd3d2@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270131T152000
+DTEND;TZID=Europe/Warsaw:20270131T165500
+SUMMARY:Tal (P)
+LOCATION:252 S
+DESCRIPTION:Techniki algorytmiczne\nRodzaj: projekt\nProwadzący: Napiórk
+ owski Jarosław\nNr zajęć: 3/3\nBlok: 5
+END:VEVENT
+END:VCALENDAR

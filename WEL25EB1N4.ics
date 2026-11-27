@@ -1,0 +1,1337 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//wat_plan.py//PL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Plan WEL25EB1N4
+X-WR-TIMEZONE:Europe/Warsaw
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Warsaw
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:c0a53123479761a2e3217735@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261003T080000
+DTEND;TZID=Europe/Warsaw:20261003T093500
+SUMMARY:Rep (w)
+LOCATION:2 45
+DESCRIPTION:Radio equipment programming\nRodzaj: wykład\nProwadzący: dr 
+ hab. inż. Łopatka Jerzy\nNr zajęć: 1/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:09c95604e4a77abf554ebdc0@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261003T095000
+DTEND;TZID=Europe/Warsaw:20261003T112500
+SUMMARY:Rep (w)
+LOCATION:2 45
+DESCRIPTION:Radio equipment programming\nRodzaj: wykład\nProwadzący: dr 
+ hab. inż. Łopatka Jerzy\nNr zajęć: 2/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e079987019cdd784fdcad582@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261003T114000
+DTEND;TZID=Europe/Warsaw:20261003T131500
+SUMMARY:PsB (w)
+LOCATION:315b S
+DESCRIPTION:Projektowanie systemów bezpieczeństwa\nRodzaj: wykład\nProw
+ adzący: prof. dr hab. inż. Rosiński Adam\nNr zajęć: 1/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:7feec043786bb4eff897f02a@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261003T133000
+DTEND;TZID=Europe/Warsaw:20261003T150500
+SUMMARY:PsB (w)
+LOCATION:315b S
+DESCRIPTION:Projektowanie systemów bezpieczeństwa\nRodzaj: wykład\nProw
+ adzący: prof. dr hab. inż. Rosiński Adam\nNr zajęć: 2/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:2110923b204027a4b532286d@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261003T152000
+DTEND;TZID=Europe/Warsaw:20261003T165500
+SUMMARY:Syte (w)
+LOCATION:315b S
+DESCRIPTION:Systemy telematyczne PW\nRodzaj: wykład\nProwadzący: dr inż
+ . Ciechulski Tomasz\nNr zajęć: 1/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:31bf935d55c54c4256fec2aa@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261003T171000
+DTEND;TZID=Europe/Warsaw:20261003T184500
+SUMMARY:Syte (w)
+LOCATION:315b S
+DESCRIPTION:Systemy telematyczne PW\nRodzaj: wykład\nProwadzący: dr inż
+ . Ciechulski Tomasz\nNr zajęć: 2/6\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:1e0b56fabe76889a1538c4ab@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261004T080000
+DTEND;TZID=Europe/Warsaw:20261004T093500
+SUMMARY:Pfel (w)
+LOCATION:2 45
+DESCRIPTION:Propagacja fal elektromagnetycznych\nRodzaj: wykład\nProwadz
+ ący: prof. dr hab. inż. Kubacki Roman\nNr zajęć: 1/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:8f8beade2b65e4f608245945@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261004T095000
+DTEND;TZID=Europe/Warsaw:20261004T112500
+SUMMARY:Pfel (w)
+LOCATION:2 45
+DESCRIPTION:Propagacja fal elektromagnetycznych\nRodzaj: wykład\nProwadz
+ ący: prof. dr hab. inż. Kubacki Roman\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b44608e8ac9045b48a394d7b@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261004T114000
+DTEND;TZID=Europe/Warsaw:20261004T131500
+SUMMARY:PabW (w)
+LOCATION:315b S
+DESCRIPTION:Pomiary i analiza biosygnałów PW\nRodzaj: wykład\nNr zaję
+ ć: 1/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:bbab5cda79cd72a0fea87ad7@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261004T133000
+DTEND;TZID=Europe/Warsaw:20261004T150500
+SUMMARY:SrW (w)
+LOCATION:315b S
+DESCRIPTION:Systemy rozproszone PW\nRodzaj: wykład\nProwadzący: dr inż.
+  Ciechulski Tomasz\nNr zajęć: 1/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:f59e9ad2c515970f990d87f7@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261004T152000
+DTEND;TZID=Europe/Warsaw:20261004T165500
+SUMMARY:Rep (w)
+LOCATION:2 45
+DESCRIPTION:Radio equipment programming\nRodzaj: wykład\nProwadzący: dr 
+ hab. inż. Łopatka Jerzy\nNr zajęć: 3/3\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:79ff005ae00326a447080460@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261010T080000
+DTEND;TZID=Europe/Warsaw:20261010T093500
+SUMMARY:Pfel (w)
+LOCATION:2 45
+DESCRIPTION:Propagacja fal elektromagnetycznych\nRodzaj: wykład\nProwadz
+ ący: prof. dr hab. inż. Kubacki Roman\nNr zajęć: 3/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:9a95bddee72101fe42fa249c@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261010T095000
+DTEND;TZID=Europe/Warsaw:20261010T112500
+SUMMARY:Pfel (w)
+LOCATION:2 45
+DESCRIPTION:Propagacja fal elektromagnetycznych\nRodzaj: wykład\nProwadz
+ ący: prof. dr hab. inż. Kubacki Roman\nNr zajęć: 4/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:31666d4b6f0cf2ae86910add@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261010T114000
+DTEND;TZID=Europe/Warsaw:20261010T131500
+SUMMARY:Sn (w)
+LOCATION:2 45
+DESCRIPTION:Sieci neuronowe\nRodzaj: wykład\nProwadzący: prof.dr hab. Os
+ owski Stanisław\nNr zajęć: 1/7\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e1e4383597a6dab05e8bd8e3@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261010T133000
+DTEND;TZID=Europe/Warsaw:20261010T150500
+SUMMARY:Sn (w)
+LOCATION:2 45
+DESCRIPTION:Sieci neuronowe\nRodzaj: wykład\nProwadzący: prof.dr hab. Os
+ owski Stanisław\nNr zajęć: 2/7\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1b815eb1873b1fb3287df6a2@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261011T080000
+DTEND;TZID=Europe/Warsaw:20261011T093500
+SUMMARY:Sn (w)
+LOCATION:2 45
+DESCRIPTION:Sieci neuronowe\nRodzaj: wykład\nProwadzący: prof.dr hab. Os
+ owski Stanisław\nNr zajęć: 3/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:124212dff6097419e8d91504@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261011T095000
+DTEND;TZID=Europe/Warsaw:20261011T112500
+SUMMARY:Sn (w)
+LOCATION:2 45
+DESCRIPTION:Sieci neuronowe\nRodzaj: wykład\nProwadzący: prof.dr hab. Os
+ owski Stanisław\nNr zajęć: 4/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:bae4b28b4c328904b78506bb@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261011T114000
+DTEND;TZID=Europe/Warsaw:20261011T131500
+SUMMARY:Wwsis (w)
+LOCATION:2 45
+DESCRIPTION:Wirtualizacja w sieciach i systemach\nRodzaj: wykład\nProwadz
+ ący: dr inż. Maślanka Krzysztof\nNr zajęć: 1/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:01af833f00aadefe042ea845@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261011T133000
+DTEND;TZID=Europe/Warsaw:20261011T150500
+SUMMARY:Wwsis (w)
+LOCATION:2 45
+DESCRIPTION:Wirtualizacja w sieciach i systemach\nRodzaj: wykład\nProwadz
+ ący: dr inż. Maślanka Krzysztof\nNr zajęć: 2/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:858e2157dbad4130ab1f9c9e@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261017T080000
+DTEND;TZID=Europe/Warsaw:20261017T093500
+SUMMARY:TssP (w)
+LOCATION:73b S
+DESCRIPTION:Topologia systemów sygnalizacji pożarowej\nRodzaj: wykład\n
+ Nr zajęć: 1/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3e936b94bbc2aedf47a1d5e9@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261017T095000
+DTEND;TZID=Europe/Warsaw:20261017T112500
+SUMMARY:TssP (w)
+LOCATION:73b S
+DESCRIPTION:Topologia systemów sygnalizacji pożarowej\nRodzaj: wykład\n
+ Nr zajęć: 2/3\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4a2c53a57a65b7eda0d0f41b@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261017T114000
+DTEND;TZID=Europe/Warsaw:20261017T131500
+SUMMARY:PabW (w)
+LOCATION:73b S
+DESCRIPTION:Pomiary i analiza biosygnałów PW\nRodzaj: wykład\nNr zaję
+ ć: 2/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0333ab23a4b8d348e1c5ac78@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261017T133000
+DTEND;TZID=Europe/Warsaw:20261017T150500
+SUMMARY:PabW (w)
+LOCATION:73b S
+DESCRIPTION:Pomiary i analiza biosygnałów PW\nRodzaj: wykład\nNr zaję
+ ć: 3/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:af1b6dbe2023f14c3abddc45@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261017T152000
+DTEND;TZID=Europe/Warsaw:20261017T165500
+SUMMARY:PsB (w)
+LOCATION:315b S
+DESCRIPTION:Projektowanie systemów bezpieczeństwa\nRodzaj: wykład\nProw
+ adzący: prof. dr hab. inż. Rosiński Adam\nNr zajęć: 3/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:0b1c1fba08eb74dda61e3edd@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261017T171000
+DTEND;TZID=Europe/Warsaw:20261017T184500
+SUMMARY:PsB (w)
+LOCATION:315b S
+DESCRIPTION:Projektowanie systemów bezpieczeństwa\nRodzaj: wykład\nProw
+ adzący: prof. dr hab. inż. Rosiński Adam\nNr zajęć: 4/6\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:80ffcd0b35506f467df2c961@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261018T080000
+DTEND;TZID=Europe/Warsaw:20261018T093500
+SUMMARY:Prsy (w)
+LOCATION:73b S
+DESCRIPTION:Procesory sygnałowe\nRodzaj: wykład\nProwadzący: mgr inż. 
+ Nitecki Grzegorz\nNr zajęć: 1/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:17a727cc49655cc3535f9b15@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261018T095000
+DTEND;TZID=Europe/Warsaw:20261018T112500
+SUMMARY:Prsy (w)
+LOCATION:73b S
+DESCRIPTION:Procesory sygnałowe\nRodzaj: wykład\nProwadzący: mgr inż. 
+ Nitecki Grzegorz\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:632a07ad7ede88e7373d3a34@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261018T114000
+DTEND;TZID=Europe/Warsaw:20261018T131500
+SUMMARY:SrW (w)
+LOCATION:315b S
+DESCRIPTION:Systemy rozproszone PW\nRodzaj: wykład\nProwadzący: dr inż.
+  Ciechulski Tomasz\nNr zajęć: 2/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:2664dab7be2d9cffcb254ad9@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261018T133000
+DTEND;TZID=Europe/Warsaw:20261018T150500
+SUMMARY:SrW (w)
+LOCATION:315b S
+DESCRIPTION:Systemy rozproszone PW\nRodzaj: wykład\nProwadzący: dr inż.
+  Ciechulski Tomasz\nNr zajęć: 3/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:806f5b4e13df9e7c2e9fd2f7@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261018T152000
+DTEND;TZID=Europe/Warsaw:20261018T165500
+SUMMARY:Wwsis (w)
+LOCATION:2 45
+DESCRIPTION:Wirtualizacja w sieciach i systemach\nRodzaj: wykład\nProwadz
+ ący: dr inż. Maślanka Krzysztof\nNr zajęć: 3/3\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:7d85962d9b43f0815621062c@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261024T080000
+DTEND;TZID=Europe/Warsaw:20261024T093500
+SUMMARY:Sn (w)
+LOCATION:2 45
+DESCRIPTION:Sieci neuronowe\nRodzaj: wykład\nProwadzący: prof.dr hab. Os
+ owski Stanisław\nNr zajęć: 5/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:3d3cc4c611cb6bd07c72be9c@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261024T095000
+DTEND;TZID=Europe/Warsaw:20261024T112500
+SUMMARY:Sn (w)
+LOCATION:2 45
+DESCRIPTION:Sieci neuronowe\nRodzaj: wykład\nProwadzący: prof.dr hab. Os
+ owski Stanisław\nNr zajęć: 6/7\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:4a98a2a0faa91e42ccaa0fb9@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261024T114000
+DTEND;TZID=Europe/Warsaw:20261024T131500
+SUMMARY:PsB (w)
+LOCATION:117 45
+DESCRIPTION:Projektowanie systemów bezpieczeństwa\nRodzaj: wykład\nProw
+ adzący: prof. dr hab. inż. Rosiński Adam\nNr zajęć: 5/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c1c5e357b53f419d2a90c62e@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261024T133000
+DTEND;TZID=Europe/Warsaw:20261024T150500
+SUMMARY:PsB (w)
+LOCATION:117 45
+DESCRIPTION:Projektowanie systemów bezpieczeństwa\nRodzaj: wykład\nProw
+ adzący: prof. dr hab. inż. Rosiński Adam\nNr zajęć: 6/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:75455628792268c956b0e6ab@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261024T152000
+DTEND;TZID=Europe/Warsaw:20261024T165500
+SUMMARY:PabW (w)
+LOCATION:315b S
+DESCRIPTION:Pomiary i analiza biosygnałów PW\nRodzaj: wykład\nNr zaję
+ ć: 4/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:0eb14b5675cc8ffceea13c28@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261024T171000
+DTEND;TZID=Europe/Warsaw:20261024T184500
+SUMMARY:PabW (w)
+LOCATION:315b S
+DESCRIPTION:Pomiary i analiza biosygnałów PW\nRodzaj: wykład\nNr zaję
+ ć: 5/6\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:75aba6cf9e1404e036d57f47@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261025T080000
+DTEND;TZID=Europe/Warsaw:20261025T093500
+SUMMARY:Sn (w)
+LOCATION:2 45
+DESCRIPTION:Sieci neuronowe\nRodzaj: wykład\nProwadzący: prof.dr hab. Os
+ owski Stanisław\nNr zajęć: 7/7\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:516cf912d048817216024e52@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261025T095000
+DTEND;TZID=Europe/Warsaw:20261025T112500
+SUMMARY:Pfel (w)
+LOCATION:2 45
+DESCRIPTION:Propagacja fal elektromagnetycznych\nRodzaj: wykład\nProwadz
+ ący: prof. dr hab. inż. Kubacki Roman\nNr zajęć: 5/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:aa650c25524fdd39761c5785@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261025T114000
+DTEND;TZID=Europe/Warsaw:20261025T131500
+SUMMARY:Prsy (w)
+LOCATION:315a S
+DESCRIPTION:Procesory sygnałowe\nRodzaj: wykład\nProwadzący: mgr inż. 
+ Nitecki Grzegorz\nNr zajęć: 3/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3a8efe7558b5a3d09abd8d78@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261025T133000
+DTEND;TZID=Europe/Warsaw:20261025T150500
+SUMMARY:Prsy (w)
+LOCATION:315a S
+DESCRIPTION:Procesory sygnałowe\nRodzaj: wykład\nProwadzący: mgr inż. 
+ Nitecki Grzegorz\nNr zajęć: 4/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:729544f197e42c51be2d7d74@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261107T080000
+DTEND;TZID=Europe/Warsaw:20261107T093500
+SUMMARY:Pfel (ć)
+LOCATION:15 47
+DESCRIPTION:Propagacja fal elektromagnetycznych\nRodzaj: ćwiczenia\nProwa
+ dzący: mgr inż. Piwowarczyk Kazimierz\nNr zajęć: 1/2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f6bb42054925641400084d6b@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261107T095000
+DTEND;TZID=Europe/Warsaw:20261107T112500
+SUMMARY:Pfel (ć)
+LOCATION:15 47
+DESCRIPTION:Propagacja fal elektromagnetycznych\nRodzaj: ćwiczenia\nProwa
+ dzący: mgr inż. Piwowarczyk Kazimierz\nNr zajęć: 2/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:76d3aa0aed440dce1206fdee@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261107T114000
+DTEND;TZID=Europe/Warsaw:20261107T131500
+SUMMARY:Syte (w)
+LOCATION:315b S
+DESCRIPTION:Systemy telematyczne PW\nRodzaj: wykład\nProwadzący: dr inż
+ . Ciechulski Tomasz\nNr zajęć: 3/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:5249dd4d800f24401c49a592@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261107T133000
+DTEND;TZID=Europe/Warsaw:20261107T150500
+SUMMARY:Sn (ć)
+LOCATION:82 S
+DESCRIPTION:Sieci neuronowe\nRodzaj: ćwiczenia\nProwadzący: dr inż. Bia
+ łek Kamila\nNr zajęć: 1/3\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a143c01ea061b7e08ef25475@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261107T152000
+DTEND;TZID=Europe/Warsaw:20261107T165500
+SUMMARY:PabW (L)
+LOCATION:86 S
+DESCRIPTION:Pomiary i analiza biosygnałów PW\nRodzaj: laboratorium\nNr z
+ ajęć: 1/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:94a79fcd3817ec7645c7335e@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261107T171000
+DTEND;TZID=Europe/Warsaw:20261107T184500
+SUMMARY:PabW (L)
+LOCATION:86 S
+DESCRIPTION:Pomiary i analiza biosygnałów PW\nRodzaj: laboratorium\nNr z
+ ajęć: 2/4\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:adde356fa8f0c8873af86776@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261108T080000
+DTEND;TZID=Europe/Warsaw:20261108T093500
+SUMMARY:TssP (w)
+LOCATION:315b S
+DESCRIPTION:Topologia systemów sygnalizacji pożarowej\nRodzaj: wykład\n
+ Nr zajęć: 3/3\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:06bd501a7f7ae0e43fd33368@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261108T095000
+DTEND;TZID=Europe/Warsaw:20261108T112500
+SUMMARY:PabW (w)
+LOCATION:315b S
+DESCRIPTION:Pomiary i analiza biosygnałów PW\nRodzaj: wykład\nNr zaję
+ ć: 6/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:9cb56f609b21f24f7d149c37@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261108T114000
+DTEND;TZID=Europe/Warsaw:20261108T131500
+SUMMARY:Prsy (w)
+LOCATION:73b S
+DESCRIPTION:Procesory sygnałowe\nRodzaj: wykład\nProwadzący: mgr inż. 
+ Nitecki Grzegorz\nNr zajęć: 5/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:4d5a2870d9bf43f45dff56ca@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261108T133000
+DTEND;TZID=Europe/Warsaw:20261108T150500
+SUMMARY:SrW (w)
+LOCATION:73b S
+DESCRIPTION:Systemy rozproszone PW\nRodzaj: wykład\nProwadzący: dr inż.
+  Ciechulski Tomasz\nNr zajęć: 4/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:77224d8e5ca04dfe7acdd2af@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261121T080000
+DTEND;TZID=Europe/Warsaw:20261121T093500
+SUMMARY:SrW (L)
+LOCATION:86 S
+DESCRIPTION:Systemy rozproszone PW\nRodzaj: laboratorium\nNr zajęć: 1/8\
+ nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:fb08f5e85129ae4a5fd1cdfb@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261121T095000
+DTEND;TZID=Europe/Warsaw:20261121T112500
+SUMMARY:SrW (L)
+LOCATION:86 S
+DESCRIPTION:Systemy rozproszone PW\nRodzaj: laboratorium\nNr zajęć: 2/8\
+ nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:73f5c2ff17b0432847efe6cf@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261121T114000
+DTEND;TZID=Europe/Warsaw:20261121T131500
+SUMMARY:Pfel (L)
+LOCATION:0.14 42
+DESCRIPTION:Propagacja fal elektromagnetycznych\nRodzaj: laboratorium\nNr 
+ zajęć: 1/2\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1c326282a433fdb1f7c315c7@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261121T133000
+DTEND;TZID=Europe/Warsaw:20261121T150500
+SUMMARY:Pfel (L)
+LOCATION:0.14 42
+DESCRIPTION:Propagacja fal elektromagnetycznych\nRodzaj: laboratorium\nNr 
+ zajęć: 2/2\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:b5504f12705f1432f7bb817b@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261121T152000
+DTEND;TZID=Europe/Warsaw:20261121T165500
+SUMMARY:Syte (ć)
+LOCATION:82 S
+DESCRIPTION:Systemy telematyczne PW\nRodzaj: ćwiczenia\nProwadzący: mgr 
+ inż. Nitecki Grzegorz\nNr zajęć: 1/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:b1222f3c01cbcb777f2b0c60@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261121T171000
+DTEND;TZID=Europe/Warsaw:20261121T184500
+SUMMARY:Syte (ć)
+LOCATION:82 S
+DESCRIPTION:Systemy telematyczne PW\nRodzaj: ćwiczenia\nProwadzący: mgr 
+ inż. Nitecki Grzegorz\nNr zajęć: 2/4\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:81c4d243628f60529c81f052@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261122T080000
+DTEND;TZID=Europe/Warsaw:20261122T093500
+SUMMARY:Syte (L)
+LOCATION:86 S
+DESCRIPTION:Systemy telematyczne PW\nRodzaj: laboratorium\nNr zajęć: 1/4
+ \nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:4191dec49544696362fe9b40@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261122T095000
+DTEND;TZID=Europe/Warsaw:20261122T112500
+SUMMARY:Syte (L)
+LOCATION:86 S
+DESCRIPTION:Systemy telematyczne PW\nRodzaj: laboratorium\nNr zajęć: 2/4
+ \nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1033c35ebb14ef6c90561b78@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261122T114000
+DTEND;TZID=Europe/Warsaw:20261122T131500
+SUMMARY:Rep (L)
+LOCATION:2.16 42
+DESCRIPTION:Radio equipment programming\nRodzaj: laboratorium\nProwadzący
+ : mgr inż. Kaszuba-Chęcińska Anna\nNr zajęć: 1/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:e863eedbda14fa2717d78b14@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261122T133000
+DTEND;TZID=Europe/Warsaw:20261122T150500
+SUMMARY:Rep (L)
+LOCATION:2.16 42
+DESCRIPTION:Radio equipment programming\nRodzaj: laboratorium\nProwadzący
+ : mgr inż. Kaszuba-Chęcińska Anna\nNr zajęć: 2/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6b7e40617afa8066ecaa7593@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261128T080000
+DTEND;TZID=Europe/Warsaw:20261128T093500
+SUMMARY:Prsy (L)
+LOCATION:82 S
+DESCRIPTION:Procesory sygnałowe\nRodzaj: laboratorium\nNr zajęć: 1/8\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:f9050b959915972f6c83e720@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261128T095000
+DTEND;TZID=Europe/Warsaw:20261128T112500
+SUMMARY:Prsy (L)
+LOCATION:82 S
+DESCRIPTION:Procesory sygnałowe\nRodzaj: laboratorium\nNr zajęć: 2/8\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:3b08f74057adf7d38f916d9a@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261128T114000
+DTEND;TZID=Europe/Warsaw:20261128T131500
+SUMMARY:Sn (ć)
+LOCATION:82 S
+DESCRIPTION:Sieci neuronowe\nRodzaj: ćwiczenia\nProwadzący: dr inż. Bia
+ łek Kamila\nNr zajęć: 2/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:9467a79ab0e93810083b7c2d@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261128T133000
+DTEND;TZID=Europe/Warsaw:20261128T150500
+SUMMARY:PsB (L)
+LOCATION:044 S\; 059 S
+DESCRIPTION:Projektowanie systemów bezpieczeństwa\nRodzaj: laboratorium\
+ nNr zajęć: 1/8\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:1cfec3dc2ce25c9d97672dfd@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261128T152000
+DTEND;TZID=Europe/Warsaw:20261128T165500
+SUMMARY:PsB (L)
+LOCATION:044 S\; 059 S
+DESCRIPTION:Projektowanie systemów bezpieczeństwa\nRodzaj: laboratorium\
+ nNr zajęć: 2/8\nBlok: 5\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:9aa5c2951186f87b1dad1405@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261129T080000
+DTEND;TZID=Europe/Warsaw:20261129T093500
+SUMMARY:PsB (P)
+LOCATION:118 45
+DESCRIPTION:Projektowanie systemów bezpieczeństwa\nRodzaj: projekt\nProw
+ adzący: prof. dr hab. inż. Rosiński Adam\nNr zajęć: 1/2\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7c0f558eb8c743d6371ceba0@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261129T095000
+DTEND;TZID=Europe/Warsaw:20261129T112500
+SUMMARY:PsB (P)
+LOCATION:118 45
+DESCRIPTION:Projektowanie systemów bezpieczeństwa\nRodzaj: projekt\nProw
+ adzący: prof. dr hab. inż. Rosiński Adam\nNr zajęć: 2/2\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:1d065238d1eb065af964fd01@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261129T114000
+DTEND;TZID=Europe/Warsaw:20261129T131500
+SUMMARY:Wwsis (L)
+LOCATION:119 47
+DESCRIPTION:Wirtualizacja w sieciach i systemach\nRodzaj: laboratorium\nNr
+  zajęć: 1/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:348ade435e70d805a9b00b22@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261129T133000
+DTEND;TZID=Europe/Warsaw:20261129T150500
+SUMMARY:Wwsis (L)
+LOCATION:119 47
+DESCRIPTION:Wirtualizacja w sieciach i systemach\nRodzaj: laboratorium\nNr
+  zajęć: 2/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:7de296c8158c62b43085bdcb@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261129T152000
+DTEND;TZID=Europe/Warsaw:20261129T165500
+SUMMARY:SrW (w)
+LOCATION:315a S
+DESCRIPTION:Systemy rozproszone PW\nRodzaj: wykład\nProwadzący: dr inż.
+  Ciechulski Tomasz\nNr zajęć: 5/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:a0d518ce662f48fedfe25614@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261205T080000
+DTEND;TZID=Europe/Warsaw:20261205T093500
+SUMMARY:PsB (L)
+LOCATION:044 S\; 059 S
+DESCRIPTION:Projektowanie systemów bezpieczeństwa\nRodzaj: laboratorium\
+ nNr zajęć: 3/8\nBlok: 1\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:0fee3da92ae044167736b88c@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261205T095000
+DTEND;TZID=Europe/Warsaw:20261205T112500
+SUMMARY:PsB (L)
+LOCATION:044 S\; 059 S
+DESCRIPTION:Projektowanie systemów bezpieczeństwa\nRodzaj: laboratorium\
+ nNr zajęć: 4/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:27b20686d19258f383ea2e94@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261205T114000
+DTEND;TZID=Europe/Warsaw:20261205T131500
+SUMMARY:Rep (L)
+LOCATION:2.16 42
+DESCRIPTION:Radio equipment programming\nRodzaj: laboratorium\nProwadzący
+ : mgr inż. Kaszuba-Chęcińska Anna\nNr zajęć: 3/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:32fb1753b0d8a0bd375dec1e@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261205T133000
+DTEND;TZID=Europe/Warsaw:20261205T150500
+SUMMARY:Rep (L)
+LOCATION:2.16 42
+DESCRIPTION:Radio equipment programming\nRodzaj: laboratorium\nProwadzący
+ : mgr inż. Kaszuba-Chęcińska Anna\nNr zajęć: 4/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:6257b7ac6ec0efad9b0068c3@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261205T152000
+DTEND;TZID=Europe/Warsaw:20261205T165500
+SUMMARY:Syte (w)
+LOCATION:315b S
+DESCRIPTION:Systemy telematyczne PW\nRodzaj: wykład\nProwadzący: dr inż
+ . Ciechulski Tomasz\nNr zajęć: 4/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:ac99aaedf3e09e85328d878c@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261205T171000
+DTEND;TZID=Europe/Warsaw:20261205T184500
+SUMMARY:Syte (w)
+LOCATION:315b S
+DESCRIPTION:Systemy telematyczne PW\nRodzaj: wykład\nProwadzący: dr inż
+ . Ciechulski Tomasz\nNr zajęć: 5/6\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:a7c95ef6361bb46043503ad4@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261206T080000
+DTEND;TZID=Europe/Warsaw:20261206T093500
+SUMMARY:SrW (L)
+LOCATION:86 S
+DESCRIPTION:Systemy rozproszone PW\nRodzaj: laboratorium\nNr zajęć: 3/8\
+ nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5fadfd729d95e5507ed35e93@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261206T095000
+DTEND;TZID=Europe/Warsaw:20261206T112500
+SUMMARY:SrW (L)
+LOCATION:86 S
+DESCRIPTION:Systemy rozproszone PW\nRodzaj: laboratorium\nNr zajęć: 4/8\
+ nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b49364dd091ac4806fca3730@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261206T114000
+DTEND;TZID=Europe/Warsaw:20261206T131500
+SUMMARY:Prsy (L)
+LOCATION:82 S
+DESCRIPTION:Procesory sygnałowe\nRodzaj: laboratorium\nNr zajęć: 3/8\nB
+ lok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:d1580b9fffd8b2b8f9ed4097@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261206T133000
+DTEND;TZID=Europe/Warsaw:20261206T150500
+SUMMARY:Prsy (L)
+LOCATION:82 S
+DESCRIPTION:Procesory sygnałowe\nRodzaj: laboratorium\nNr zajęć: 4/8\nB
+ lok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:3684d98c30d1c7610986e9f6@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261212T080000
+DTEND;TZID=Europe/Warsaw:20261212T093500
+SUMMARY:Syte (L)
+LOCATION:86 S
+DESCRIPTION:Systemy telematyczne PW\nRodzaj: laboratorium\nNr zajęć: 3/4
+ \nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:d3d6485ab72c19f57f50bb27@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261212T095000
+DTEND;TZID=Europe/Warsaw:20261212T112500
+SUMMARY:Syte (L)
+LOCATION:86 S
+DESCRIPTION:Systemy telematyczne PW\nRodzaj: laboratorium\nNr zajęć: 4/4
+ \nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:e059734ecceef7079fb169ba@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261212T114000
+DTEND;TZID=Europe/Warsaw:20261212T131500
+SUMMARY:Sn (L)
+LOCATION:86 S
+DESCRIPTION:Sieci neuronowe\nRodzaj: laboratorium\nProwadzący: mgr inż. 
+ Chmielińska Jolanta\nNr zajęć: 1/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:ce06d02caf989719e5633430@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261212T133000
+DTEND;TZID=Europe/Warsaw:20261212T150500
+SUMMARY:Sn (L)
+LOCATION:86 S
+DESCRIPTION:Sieci neuronowe\nRodzaj: laboratorium\nProwadzący: mgr inż. 
+ Chmielińska Jolanta\nNr zajęć: 2/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:fb2db6df3379ca22f8d0a0a5@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261212T152000
+DTEND;TZID=Europe/Warsaw:20261212T165500
+SUMMARY:PabW (L)
+LOCATION:032d S
+DESCRIPTION:Pomiary i analiza biosygnałów PW\nRodzaj: laboratorium\nNr z
+ ajęć: 3/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:672dd79615a60c81bd8f0f01@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261212T171000
+DTEND;TZID=Europe/Warsaw:20261212T184500
+SUMMARY:PabW (L)
+LOCATION:032d S
+DESCRIPTION:Pomiary i analiza biosygnałów PW\nRodzaj: laboratorium\nNr z
+ ajęć: 4/4\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:5e2c238c79919b6b3e48c3e8@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261213T080000
+DTEND;TZID=Europe/Warsaw:20261213T093500
+SUMMARY:TssP (L)
+LOCATION:059 S
+DESCRIPTION:Topologia systemów sygnalizacji pożarowej\nRodzaj: laborator
+ ium\nNr zajęć: 1/5\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:e2f67ce041140df992c0d489@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261213T095000
+DTEND;TZID=Europe/Warsaw:20261213T112500
+SUMMARY:TssP (L)
+LOCATION:059 S
+DESCRIPTION:Topologia systemów sygnalizacji pożarowej\nRodzaj: laborator
+ ium\nNr zajęć: 2/5\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:ba6b2621da5350dcf885ad35@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261213T114000
+DTEND;TZID=Europe/Warsaw:20261213T131500
+SUMMARY:Wwsis (L)
+LOCATION:119 47
+DESCRIPTION:Wirtualizacja w sieciach i systemach\nRodzaj: laboratorium\nNr
+  zajęć: 3/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:fc7401dc4593445f3a8b5e10@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20261213T133000
+DTEND;TZID=Europe/Warsaw:20261213T150500
+SUMMARY:Wwsis (L)
+LOCATION:119 47
+DESCRIPTION:Wirtualizacja w sieciach i systemach\nRodzaj: laboratorium\nNr
+  zajęć: 4/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:59a68297effde0790add7a1f@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270109T080000
+DTEND;TZID=Europe/Warsaw:20270109T093500
+SUMMARY:PabW (S)
+LOCATION:86 S
+DESCRIPTION:Pomiary i analiza biosygnałów PW\nRodzaj: seminarium\nNr zaj
+ ęć: 1/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:5089dd6d6cb537f7fae366ad@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270109T095000
+DTEND;TZID=Europe/Warsaw:20270109T112500
+SUMMARY:PabW (S)
+LOCATION:86 S
+DESCRIPTION:Pomiary i analiza biosygnałów PW\nRodzaj: seminarium\nNr zaj
+ ęć: 2/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:52a6388a44a98f5021baad1b@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270109T114000
+DTEND;TZID=Europe/Warsaw:20270109T131500
+SUMMARY:Kzl (ć)
+LOCATION:2 45
+DESCRIPTION:Kierowanie zespołami ludzkimi\nRodzaj: ćwiczenia\nNr zajęć
+ : 1/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0f194b1a502f36a4b608f9cb@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270109T133000
+DTEND;TZID=Europe/Warsaw:20270109T150500
+SUMMARY:Kzl (ć)
+LOCATION:2 45
+DESCRIPTION:Kierowanie zespołami ludzkimi\nRodzaj: ćwiczenia\nNr zajęć
+ : 2/4\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:a929c74dff9912722c6275e5@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270109T152000
+DTEND;TZID=Europe/Warsaw:20270109T165500
+SUMMARY:SrW (L)
+LOCATION:86 S
+DESCRIPTION:Systemy rozproszone PW\nRodzaj: laboratorium\nNr zajęć: 5/8\
+ nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:1ea07097b028114899248444@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270109T171000
+DTEND;TZID=Europe/Warsaw:20270109T184500
+SUMMARY:SrW (L)
+LOCATION:86 S
+DESCRIPTION:Systemy rozproszone PW\nRodzaj: laboratorium\nNr zajęć: 6/8\
+ nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:5938a85f77796d04785b4f5c@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270110T080000
+DTEND;TZID=Europe/Warsaw:20270110T093500
+SUMMARY:Prsy (L)
+LOCATION:82 S
+DESCRIPTION:Procesory sygnałowe\nRodzaj: laboratorium\nNr zajęć: 5/8\nB
+ lok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:7161d551d1f64df5124102e0@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270110T095000
+DTEND;TZID=Europe/Warsaw:20270110T112500
+SUMMARY:Prsy (L)
+LOCATION:82 S
+DESCRIPTION:Procesory sygnałowe\nRodzaj: laboratorium\nNr zajęć: 6/8\nB
+ lok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:cd9680c52b8babf520eb1b49@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270110T114000
+DTEND;TZID=Europe/Warsaw:20270110T131500
+SUMMARY:TssP (L)
+LOCATION:85 S
+DESCRIPTION:Topologia systemów sygnalizacji pożarowej\nRodzaj: laborator
+ ium\nNr zajęć: 3/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:0eca50b5864a549cb0970b52@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270110T133000
+DTEND;TZID=Europe/Warsaw:20270110T150500
+SUMMARY:Kzl (w)
+LOCATION:2 45
+DESCRIPTION:Kierowanie zespołami ludzkimi\nRodzaj: wykład\nProwadzący: 
+ dr Jończyk Joanna\nNr zajęć: 1/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:90004bee1727124a48fb1445@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270110T152000
+DTEND;TZID=Europe/Warsaw:20270110T165500
+SUMMARY:Kzl (w)
+LOCATION:2 45
+DESCRIPTION:Kierowanie zespołami ludzkimi\nRodzaj: wykład\nProwadzący: 
+ dr Jończyk Joanna\nNr zajęć: 2/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:89a87602874568552f62f598@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270116T080000
+DTEND;TZID=Europe/Warsaw:20270116T093500
+SUMMARY:PsB (L)
+LOCATION:044 S\; 059 S
+DESCRIPTION:Projektowanie systemów bezpieczeństwa\nRodzaj: laboratorium\
+ nNr zajęć: 5/8\nBlok: 1\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:a44b63b133f153226310237d@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270116T095000
+DTEND;TZID=Europe/Warsaw:20270116T112500
+SUMMARY:PsB (L)
+LOCATION:044 S\; 059 S
+DESCRIPTION:Projektowanie systemów bezpieczeństwa\nRodzaj: laboratorium\
+ nNr zajęć: 6/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f23413e5be526ae320bd36da@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270116T114000
+DTEND;TZID=Europe/Warsaw:20270116T131500
+SUMMARY:Rep (L)
+LOCATION:2.16 42
+DESCRIPTION:Radio equipment programming\nRodzaj: laboratorium\nProwadzący
+ : mgr inż. Kaszuba-Chęcińska Anna\nNr zajęć: 5/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:1c46fa9e9804dedfaf810d3d@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270116T133000
+DTEND;TZID=Europe/Warsaw:20270116T150500
+SUMMARY:Rep (L)
+LOCATION:2.16 42
+DESCRIPTION:Radio equipment programming\nRodzaj: laboratorium\nProwadzący
+ : mgr inż. Kaszuba-Chęcińska Anna\nNr zajęć: 6/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:e634a977b7a787ddb66b199a@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270116T152000
+DTEND;TZID=Europe/Warsaw:20270116T165500
+SUMMARY:Syte (ć)
+LOCATION:82 S
+DESCRIPTION:Systemy telematyczne PW\nRodzaj: ćwiczenia\nProwadzący: mgr 
+ inż. Nitecki Grzegorz\nNr zajęć: 3/4\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:51a0586581116675112f24d9@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270116T171000
+DTEND;TZID=Europe/Warsaw:20270116T184500
+SUMMARY:Syte (ć)
+LOCATION:82 S
+DESCRIPTION:Systemy telematyczne PW\nRodzaj: ćwiczenia\nProwadzący: mgr 
+ inż. Nitecki Grzegorz\nNr zajęć: 4/4\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:7fedfc40ca1ef01f87760b9c@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270117T080000
+DTEND;TZID=Europe/Warsaw:20270117T093500
+SUMMARY:SrW (L)
+LOCATION:86 S
+DESCRIPTION:Systemy rozproszone PW\nRodzaj: laboratorium\nNr zajęć: 7/8\
+ nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:885455a44fb377ba2c595a25@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270117T095000
+DTEND;TZID=Europe/Warsaw:20270117T112500
+SUMMARY:SrW (L)
+LOCATION:86 S
+DESCRIPTION:Systemy rozproszone PW\nRodzaj: laboratorium\nNr zajęć: 8/8\
+ nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:f90c086ec61fd3637cd7471c@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270117T114000
+DTEND;TZID=Europe/Warsaw:20270117T131500
+SUMMARY:TssP (L)
+LOCATION:066 S
+DESCRIPTION:Topologia systemów sygnalizacji pożarowej\nRodzaj: laborator
+ ium\nNr zajęć: 4/5\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:93a58b7fa328d2f4212702fc@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270117T133000
+DTEND;TZID=Europe/Warsaw:20270117T150500
+SUMMARY:TssP (L)
+LOCATION:066 S
+DESCRIPTION:Topologia systemów sygnalizacji pożarowej\nRodzaj: laborator
+ ium\nNr zajęć: 5/5\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:278e00760f74c8c06014dade@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270123T080000
+DTEND;TZID=Europe/Warsaw:20270123T093500
+SUMMARY:PabW (S)
+LOCATION:116 45
+DESCRIPTION:Pomiary i analiza biosygnałów PW\nRodzaj: seminarium\nNr zaj
+ ęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:35e9ec15295890780a2df3e7@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270123T095000
+DTEND;TZID=Europe/Warsaw:20270123T112500
+SUMMARY:Kzl (ć)
+LOCATION:2 45
+DESCRIPTION:Kierowanie zespołami ludzkimi\nRodzaj: ćwiczenia\nNr zajęć
+ : 3/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:72829c4a5e09b3fc6dc75d06@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270123T114000
+DTEND;TZID=Europe/Warsaw:20270123T131500
+SUMMARY:Kzl (ć)
+LOCATION:2 45
+DESCRIPTION:Kierowanie zespołami ludzkimi\nRodzaj: ćwiczenia\nNr zajęć
+ : 4/4\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:a2c1846e756202edb83bfaca@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270123T133000
+DTEND;TZID=Europe/Warsaw:20270123T150500
+SUMMARY:Kzl (w)
+LOCATION:2 45
+DESCRIPTION:Kierowanie zespołami ludzkimi\nRodzaj: wykład\nProwadzący: 
+ dr Jończyk Joanna\nNr zajęć: 3/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:4ce5a7dbc1c8ea2e7deab542@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270123T152000
+DTEND;TZID=Europe/Warsaw:20270123T165500
+SUMMARY:Kzl (w)
+LOCATION:2 45
+DESCRIPTION:Kierowanie zespołami ludzkimi\nRodzaj: wykład\nProwadzący: 
+ dr Jończyk Joanna\nNr zajęć: 4/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:db4542897a82cdc1523d1b0d@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270123T171000
+DTEND;TZID=Europe/Warsaw:20270123T184500
+SUMMARY:TssP (P)
+LOCATION:119 45
+DESCRIPTION:Topologia systemów sygnalizacji pożarowej\nRodzaj: projekt\n
+ Prowadzący: prof. dr hab. inż. Paś Jacek\nNr zajęć: 1/1\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:be1a4a205bef362dc913b8be@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270124T080000
+DTEND;TZID=Europe/Warsaw:20270124T093500
+SUMMARY:Kzl (w)
+LOCATION:2 45
+DESCRIPTION:Kierowanie zespołami ludzkimi\nRodzaj: wykład\nProwadzący: 
+ dr Jończyk Joanna\nNr zajęć: 5/6\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:602c8ffabe69448e572b1a49@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270124T095000
+DTEND;TZID=Europe/Warsaw:20270124T112500
+SUMMARY:Kzl (w)
+LOCATION:2 45
+DESCRIPTION:Kierowanie zespołami ludzkimi\nRodzaj: wykład\nProwadzący: 
+ dr Jończyk Joanna\nNr zajęć: 6/6\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:b900cb8a231da8e2b8c39732@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270124T114000
+DTEND;TZID=Europe/Warsaw:20270124T131500
+SUMMARY:Sn (ć)
+LOCATION:82 S
+DESCRIPTION:Sieci neuronowe\nRodzaj: ćwiczenia\nProwadzący: dr inż. Bia
+ łek Kamila\nNr zajęć: 3/3\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:3c5499861ba39a511fde1223@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270124T133000
+DTEND;TZID=Europe/Warsaw:20270124T150500
+SUMMARY:SrW (w)
+LOCATION:315a S
+DESCRIPTION:Systemy rozproszone PW\nRodzaj: wykład\nProwadzący: dr inż.
+  Ciechulski Tomasz\nNr zajęć: 6/6\nBlok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:9dc16154ed3ed376c014f974@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270130T080000
+DTEND;TZID=Europe/Warsaw:20270130T093500
+SUMMARY:PsB (L)
+LOCATION:044 S\; 059 S
+DESCRIPTION:Projektowanie systemów bezpieczeństwa\nRodzaj: laboratorium\
+ nNr zajęć: 7/8\nBlok: 1\nUwagi: 50%
+END:VEVENT
+BEGIN:VEVENT
+UID:eada2d54e422b6c82b56435c@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270130T095000
+DTEND;TZID=Europe/Warsaw:20270130T112500
+SUMMARY:PsB (L)
+LOCATION:044 S\; 059 S
+DESCRIPTION:Projektowanie systemów bezpieczeństwa\nRodzaj: laboratorium\
+ nNr zajęć: 8/8\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:46a6f6e9db09a1d010221357@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270130T114000
+DTEND;TZID=Europe/Warsaw:20270130T131500
+SUMMARY:Prsy (L)
+LOCATION:82 S
+DESCRIPTION:Procesory sygnałowe\nRodzaj: laboratorium\nNr zajęć: 7/8\nB
+ lok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:774703c7f3a20fec63fa2c01@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270130T133000
+DTEND;TZID=Europe/Warsaw:20270130T150500
+SUMMARY:Prsy (L)
+LOCATION:82 S
+DESCRIPTION:Procesory sygnałowe\nRodzaj: laboratorium\nNr zajęć: 8/8\nB
+ lok: 4
+END:VEVENT
+BEGIN:VEVENT
+UID:d01e68576a6de35ee6facfab@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270130T152000
+DTEND;TZID=Europe/Warsaw:20270130T165500
+SUMMARY:Syte (w)
+LOCATION:315b S
+DESCRIPTION:Systemy telematyczne PW\nRodzaj: wykład\nProwadzący: dr inż
+ . Ciechulski Tomasz\nNr zajęć: 6/6\nBlok: 5
+END:VEVENT
+BEGIN:VEVENT
+UID:de02ae88f0d81627a264cc12@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270130T171000
+DTEND;TZID=Europe/Warsaw:20270130T184500
+SUMMARY:PabW (S)
+LOCATION:315b S
+DESCRIPTION:Pomiary i analiza biosygnałów PW\nRodzaj: seminarium\nNr zaj
+ ęć: 4/4\nBlok: 6
+END:VEVENT
+BEGIN:VEVENT
+UID:3e02912e9e1a8877a36c07fb@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270131T080000
+DTEND;TZID=Europe/Warsaw:20270131T093500
+SUMMARY:Sn (L)
+LOCATION:86 S
+DESCRIPTION:Sieci neuronowe\nRodzaj: laboratorium\nProwadzący: mgr inż. 
+ Chmielińska Jolanta\nNr zajęć: 3/4\nBlok: 1
+END:VEVENT
+BEGIN:VEVENT
+UID:a9913facd8bf75405e9ed88b@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270131T095000
+DTEND;TZID=Europe/Warsaw:20270131T112500
+SUMMARY:Sn (L)
+LOCATION:86 S
+DESCRIPTION:Sieci neuronowe\nRodzaj: laboratorium\nProwadzący: mgr inż. 
+ Chmielińska Jolanta\nNr zajęć: 4/4\nBlok: 2
+END:VEVENT
+BEGIN:VEVENT
+UID:39b147d499e6079c5d3782c9@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270131T114000
+DTEND;TZID=Europe/Warsaw:20270131T131500
+SUMMARY:Wwsis (L)
+LOCATION:119 47
+DESCRIPTION:Wirtualizacja w sieciach i systemach\nRodzaj: laboratorium\nNr
+  zajęć: 5/6\nBlok: 3
+END:VEVENT
+BEGIN:VEVENT
+UID:c6734beb12e97ef63a3937e6@wat-plan
+DTSTAMP:20261126T134027Z
+DTSTART;TZID=Europe/Warsaw:20270131T133000
+DTEND;TZID=Europe/Warsaw:20270131T150500
+SUMMARY:Wwsis (L)
+LOCATION:119 47
+DESCRIPTION:Wirtualizacja w sieciach i systemach\nRodzaj: laboratorium\nNr
+  zajęć: 6/6\nBlok: 4
+END:VEVENT
+END:VCALENDAR
